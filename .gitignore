@@ -1,0 +1,14 @@
+# Secrete — NICIODATĂ în git
+.env
+.env.*
+!.env.example
+*.key
+
+# Node / Python
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
