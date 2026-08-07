@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /preview/
+
+Sitemap: https://farabaliverne.ro/sitemap.xml
