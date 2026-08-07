@@ -1,0 +1,13 @@
+{
+  "name": "Fără Baliverne",
+  "short_name": "Fără Baliverne",
+  "description": "Verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e7f0e4",
+  "theme_color": "#2f8a49",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}

@@ -1,0 +1,47 @@
+# Fără Baliverne — config Apache (Datahost / shared hosting)
+
+# --- HTTPS + www -> non-www (canonic: https://farabaliverne.ro) ---
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # forțează HTTPS
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://farabaliverne.ro%{REQUEST_URI} [L,R=301]
+  # www -> non-www
+  RewriteCond %{HTTP_HOST} ^www\.farabaliverne\.ro$ [NC]
+  RewriteRule ^ https://farabaliverne.ro%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# --- pagină 404 proprie ---
+ErrorDocument 404 /404.html
+
+# --- nu lista directoarele ---
+Options -Indexes
+
+# --- compresie ---
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# --- cache pentru statice ---
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/x-icon "access plus 30 days"
+  ExpiresByType application/xml "access plus 1 day"
+</IfModule>
+
+# --- security headers de bază ---
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# --- nu servi sursele de build ---
+<FilesMatch "\.(json)$">
+  Require all denied
+</FilesMatch>
