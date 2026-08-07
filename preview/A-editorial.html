@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fără Baliverne — Apă, paie… Adevăr</title>
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --ink-soft:#4a4744;
+    --paper:#f6f1e7;
+    --paper-2:#fbf8f1;
+    --card:#fffdf8;
+    --line:#e3dccc;
+    --line-2:#d6ccب9;
+    --accent:#6b1f2a;        /* oxblood/vișiniu sobru */
+    --accent-deep:#4e141d;
+    --accent-ink:#8a2a37;
+    --gold:#9a7b3f;
+    --ok:#2f7a44;
+    --ok-bg:#e7f2e9;
+    --warn:#9a6b12;
+    --warn-bg:#f7eed6;
+    --bad:#a02620;
+    --bad-bg:#f6e2e0;
+    --check:#2c5d86;
+    --check-bg:#e3edf5;
+    --serif:Georgia,'Times New Roman',Cambria,'Iowan Old Style',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --shadow:0 1px 2px rgba(26,26,26,.04),0 8px 24px rgba(26,26,26,.06);
+    --shadow-hi:0 4px 10px rgba(26,26,26,.08),0 18px 44px rgba(26,26,26,.12);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    background:var(--accent-deep);
+    color:#f3e9df;
+    font-size:12.5px;
+    letter-spacing:.02em;
+  }
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:38px}
+  .topbar .date{opacity:.9;font-variant:small-caps;letter-spacing:.08em}
+  .topbar .live{display:flex;align-items:center;gap:8px;opacity:.95}
+  .dot{width:8px;height:8px;border-radius:50%;background:#e2b34a;box-shadow:0 0 0 0 rgba(226,179,74,.7);animation:pulse 2s infinite}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(226,179,74,.6)}
+    70%{box-shadow:0 0 0 7px rgba(226,179,74,0)}
+    100%{box-shadow:0 0 0 0 rgba(226,179,74,0)}
+  }
+
+  /* ---------- Masthead ---------- */
+  .masthead{
+    background:linear-gradient(180deg,var(--paper-2),var(--paper));
+    border-bottom:2px solid var(--ink);
+  }
+  .masthead .wrap{padding-top:26px;padding-bottom:16px;text-align:center;position:relative}
+  .brand{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:clamp(38px,7vw,74px);
+    line-height:.98;
+    letter-spacing:-.01em;
+    margin:0;
+    color:var(--ink);
+  }
+  .brand .amp{color:var(--accent)}
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;
+    margin:12px 0 4px;
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:clamp(15px,2.4vw,20px);
+    color:var(--accent);
+  }
+  .kicker .r{height:1px;width:38px;background:var(--line-2)}
+  .subline{
+    font-size:12.5px;color:var(--ink-soft);
+    letter-spacing:.06em;text-transform:uppercase;margin-top:4px
+  }
+  .support{
+    position:absolute;right:22px;top:26px;
+  }
+  .btn-support{
+    border:1px solid var(--accent);
+    color:var(--accent);
+    background:transparent;
+    font-family:var(--sans);
+    font-size:13px;font-weight:600;
+    padding:8px 16px;border-radius:999px;
+    cursor:pointer;transition:.18s ease;
+    display:inline-flex;align-items:center;gap:7px;
+  }
+  .btn-support:hover{background:var(--accent);color:#fff;transform:translateY(-1px)}
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:sticky;top:0;z-index:40;
+    background:rgba(246,241,231,.92);
+    backdrop-filter:saturate(1.2) blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav .wrap{display:flex;align-items:center;gap:6px;height:52px;overflow-x:auto}
+  .nav a{
+    font-size:14px;font-weight:600;letter-spacing:.02em;
+    color:var(--ink-soft);
+    padding:8px 14px;border-radius:8px;white-space:nowrap;
+    transition:.15s ease;position:relative;
+  }
+  .nav a:hover{color:var(--ink);background:rgba(107,31,42,.06)}
+  .nav a.active{color:var(--accent)}
+  .nav a.active::after{
+    content:"";position:absolute;left:14px;right:14px;bottom:2px;height:2px;
+    background:var(--accent);border-radius:2px;
+  }
+  .nav .sep{flex:1}
+  .nav .search{
+    font-size:13px;color:var(--ink-soft);border:1px solid var(--line-2);
+    background:var(--card);padding:7px 12px;border-radius:999px;white-space:nowrap;
+    display:inline-flex;gap:7px;align-items:center;
+  }
+
+  /* ---------- Verdict legend ---------- */
+  .legend{
+    border-bottom:1px solid var(--line);
+    background:var(--paper-2);
+  }
+  .legend .wrap{
+    display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;
+    padding:11px 22px;font-size:12.5px;color:var(--ink-soft);
+  }
+  .legend .lbl{font-weight:700;color:var(--ink);letter-spacing:.03em;text-transform:uppercase;font-size:11px}
+  .legend span.i{display:inline-flex;align-items:center;gap:6px}
+
+  /* ---------- Verdict chip ---------- */
+  .chip{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:12px;font-weight:700;letter-spacing:.02em;
+    padding:5px 11px;border-radius:999px;
+    border:1px solid transparent;line-height:1;white-space:nowrap;
+  }
+  .chip .ic{font-size:12px;line-height:1}
+  .chip.ok{color:var(--ok);background:var(--ok-bg);border-color:#cfe4d3}
+  .chip.warn{color:var(--warn);background:var(--warn-bg);border-color:#ecdcae}
+  .chip.bad{color:var(--bad);background:var(--bad-bg);border-color:#eecac6}
+  .chip.check{color:var(--check);background:var(--check-bg);border-color:#caddec}
+
+  /* ---------- Layout ---------- */
+  main{padding:26px 0 40px}
+  .grid-main{display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    display:block;border-radius:14px;overflow:hidden;
+    background:var(--card);border:1px solid var(--line);
+    box-shadow:var(--shadow);transition:.22s ease;
+    margin-bottom:30px;
+  }
+  .hero:hover{box-shadow:var(--shadow-hi);transform:translateY(-2px)}
+  .hero .photo{aspect-ratio:16/9}
+  .hero .body{padding:22px 26px 26px}
+  .eyebrow{
+    display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap;
+  }
+  .cat-tag{
+    font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--accent);
+  }
+  .hero h1{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(27px,4.4vw,44px);line-height:1.08;
+    margin:0 0 12px;letter-spacing:-.01em;color:var(--ink);
+  }
+  .hero:hover h1{color:var(--accent-deep)}
+  .hero .dek{font-size:17.5px;color:var(--ink-soft);margin:0 0 16px;max-width:62ch}
+  .meta{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    font-size:13px;color:var(--ink-soft);
+  }
+  .src{
+    display:inline-flex;align-items:center;gap:7px;
+    border:1px solid var(--line-2);background:var(--paper-2);
+    padding:5px 11px;border-radius:999px;font-weight:600;font-size:12.5px;color:var(--ink);
+    transition:.15s ease;
+  }
+  .src:hover{border-color:var(--accent);color:var(--accent)}
+  .src .fav{width:14px;height:14px;border-radius:3px;display:inline-block}
+  .meta .ext{color:var(--ink-soft);font-size:12px}
+  .meta .ext::before{content:"↗ ";opacity:.6}
+
+  .section-head{
+    display:flex;align-items:baseline;justify-content:space-between;
+    border-bottom:2px solid var(--ink);padding-bottom:8px;margin:0 0 20px;
+  }
+  .section-head h2{
+    font-family:var(--serif);font-size:20px;margin:0;letter-spacing:.01em;
+  }
+  .section-head .more{font-size:12.5px;color:var(--accent);font-weight:600}
+
+  /* ---------- Card grid ---------- */
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+    box-shadow:var(--shadow);transition:.2s ease;display:flex;flex-direction:column;
+  }
+  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-3px)}
+  .card .photo{aspect-ratio:16/9}
+  .card .cbody{padding:15px 16px 17px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .card h3{
+    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.2;
+    margin:0;letter-spacing:-.005em;color:var(--ink);
+  }
+  .card:hover h3{color:var(--accent-deep)}
+  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft)}
+
+  /* ---------- Photo placeholder ---------- */
+  .photo{position:relative;overflow:hidden;background:#e9e2d3}
+  .photo .glyph{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-size:clamp(40px,9vw,84px);opacity:.9;
+    filter:drop-shadow(0 4px 10px rgba(0,0,0,.18));
+  }
+  .photo .srcbadge{
+    position:absolute;left:12px;bottom:12px;z-index:3;
+    font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;
+    background:rgba(20,16,14,.55);backdrop-filter:blur(3px);
+    padding:5px 10px;border-radius:7px;display:inline-flex;align-items:center;gap:6px;
+  }
+  .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
+  .photo .grad{position:absolute;inset:0;z-index:2;
+    background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.10) 55%,rgba(0,0,0,.42) 100%)}
+  .photo .imgtag{
+    position:absolute;right:12px;top:12px;z-index:3;
+    font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:rgba(255,255,255,.85);background:rgba(20,16,14,.4);
+    padding:3px 8px;border-radius:6px;
+  }
+  .pattern{position:absolute;inset:0;z-index:1;opacity:.5;mix-blend-mode:soft-light}
+
+  /* gradient themes for photos */
+  .g-pol{background:linear-gradient(135deg,#5b6b8c,#2f3b57)}
+  .g-eco{background:linear-gradient(135deg,#3f7a63,#1f4a3c)}
+  .g-ext{background:linear-gradient(135deg,#7a5a86,#3e2c52)}
+  .g-soc{background:linear-gradient(135deg,#a86b45,#6e3d24)}
+  .g-san{background:linear-gradient(135deg,#4f86a0,#274e63)}
+  .g-hero{background:linear-gradient(120deg,#6b1f2a 0%,#3a2540 55%,#26324f 100%)}
+
+  /* ---------- Sidebar ---------- */
+  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:68px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);overflow:hidden}
+  .panel .ph{
+    padding:12px 16px;border-bottom:1px solid var(--line);
+    font-family:var(--serif);font-size:15px;font-weight:700;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .panel .ph .tag{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
+
+  .rank{list-style:none;margin:0;padding:6px 0}
+  .rank li{display:flex;gap:12px;padding:11px 16px;border-bottom:1px solid var(--line);transition:.15s}
+  .rank li:last-child{border-bottom:0}
+  .rank li:hover{background:var(--paper-2)}
+  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
+  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
+  .rank .rmeta{margin-top:5px;display:flex;gap:7px;align-items:center;font-size:11px;color:var(--ink-soft)}
+
+  /* Ad */
+  .ad{
+    border:1px dashed var(--line-2);border-radius:12px;background:var(--paper-2);
+    overflow:hidden;
+  }
+  .ad .adlabel{
+    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);
+    text-align:center;padding:6px;border-bottom:1px dashed var(--line-2);background:rgba(0,0,0,.015);
+  }
+  .ad .adbox{padding:26px 18px;text-align:center}
+  .ad .adart{
+    width:56px;height:56px;margin:0 auto 12px;border-radius:14px;
+    background:linear-gradient(135deg,#c9a24a,#8a6a2e);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;
+    box-shadow:0 6px 16px rgba(138,106,46,.3);
+  }
+  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
+  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
+  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:7px 16px;border-radius:999px;transition:.15s}
+  .ad:hover .adbtn{background:var(--gold);color:#fff}
+
+  /* Method panel */
+  .method{padding:16px}
+  .method p{margin:0 0 12px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
+  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:10px}
+  .method .row:last-child{margin-bottom:0}
+  .method .row .k{font-size:15px;line-height:1.3}
+
+  /* Support panel */
+  .support-panel{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);
+    color:#f4e8e2;text-align:center;padding:22px 20px;border-radius:12px;
+    box-shadow:var(--shadow);
+  }
+  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
+  .support-panel p{font-size:13px;margin:0 0 16px;color:#f0dcd6;line-height:1.5}
+  .support-panel .sbtn{display:inline-block;background:#f6f1e7;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:9px 20px;border-radius:999px;transition:.15s}
+  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff}
+  .support-panel small{display:block;margin-top:11px;font-size:11px;color:#e6cec8;opacity:.9}
+
+  /* ---------- More strip ---------- */
+  .strip{margin-top:8px}
+  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+  /* ---------- Footer ---------- */
+  footer{
+    background:var(--ink);color:#cfc7bb;margin-top:20px;
+    border-top:4px solid var(--accent);
+  }
+  footer .wrap{padding:40px 22px 30px}
+  .foot-top{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid #333029}
+  .foot-brand{max-width:420px}
+  .foot-brand .fb{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff}
+  .foot-brand .fb .amp{color:#c98a92}
+  .foot-brand .dev{font-family:var(--serif);font-style:italic;color:#d9b0b6;margin:6px 0 12px;font-size:17px}
+  .foot-brand .creed{font-size:13.5px;color:#a89f92;line-height:1.55}
+  .foot-brand .creed b{color:#e7ddce;font-weight:700}
+  .foot-cols{display:flex;gap:48px;flex-wrap:wrap}
+  .foot-cols h5{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8a8175;margin:0 0 12px}
+  .foot-cols ul{list-style:none;margin:0;padding:0}
+  .foot-cols li{margin-bottom:8px}
+  .foot-cols a{font-size:14px;color:#cfc7bb;transition:.15s}
+  .foot-cols a:hover{color:#fff}
+  .foot-bottom{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#8a8175}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:980px){
+    .grid-main{grid-template-columns:1fr}
+    aside{position:static;flex-direction:column}
+  }
+  @media(max-width:720px){
+    body{font-size:16px}
+    .cards,.cards-3{grid-template-columns:1fr}
+    .support{position:static;margin-top:14px}
+    .masthead .wrap{padding-bottom:18px}
+    .legend .wrap{font-size:12px}
+    .brand{font-size:44px}
+  }
+  @media(min-width:721px) and (max-width:980px){
+    .cards-3{grid-template-columns:repeat(2,1fr)}
+  }
+</style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="wrap">
+      <div class="date">Vineri, 7 august 2026 · Ediția de dimineață</div>
+      <div class="live"><span class="dot"></span> Actualizat acum 6 minute · 42 de știri verificate azi</div>
+    </div>
+  </div>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="wrap">
+      <h1 class="brand">Fără&nbsp;Baliverne</h1>
+      <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
+      <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
+      <div class="support">
+        <button class="btn-support">♥ Susține-ne</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="wrap">
+      <a href="#" class="active">Acasă</a>
+      <a href="#">Politică</a>
+      <a href="#">Economie</a>
+      <a href="#">Extern</a>
+      <a href="#">Social</a>
+      <a href="#">Sănătate</a>
+      <span class="sep"></span>
+      <a href="#" class="search">🔍 Caută o afirmație</a>
+    </div>
+  </nav>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="wrap">
+      <span class="lbl">Verdicte:</span>
+      <span class="i"><span class="chip ok"><span class="ic">✅</span> Probat</span> susținut de dovezi</span>
+      <span class="i"><span class="chip warn"><span class="ic">⚠️</span> Contestat</span> surse în dezacord</span>
+      <span class="i"><span class="chip bad"><span class="ic">❌</span> Contrazis</span> infirmat de dovezi</span>
+      <span class="i"><span class="chip check"><span class="ic">🔍</span> În verificare</span> analiză în curs</span>
+    </div>
+  </div>
+
+  <main>
+    <div class="wrap grid-main">
+
+      <!-- LEFT COLUMN -->
+      <div>
+
+        <!-- HERO -->
+        <a href="#" class="hero">
+          <div class="photo g-hero">
+            <div class="pattern">
+              <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="hero-p" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><path d="M0 13 H26 M13 0 V26" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#hero-p)"/></svg>
+            </div>
+            <div class="glyph">🏛️</div>
+            <div class="grad"></div>
+            <div class="imgtag">Foto: din articol</div>
+            <div class="srcbadge"><span class="fav" style="background:#e11a2c"></span> Digi24</div>
+          </div>
+          <div class="body">
+            <div class="eyebrow">
+              <span class="cat-tag">Economie</span>
+              <span class="chip warn"><span class="ic">⚠️</span> Contestat</span>
+            </div>
+            <h1>Guvernul anunță o creștere economică de 2,3% în trimestrul doi; institute independente citează cifre mai reduse</h1>
+            <p class="dek">Comunicatul oficial vorbește despre o revenire a consumului. Trei institute de analiză prezintă estimări între 1,4% și 1,9%. Am pus alături datele INS, proiecția Comisiei Europene și calculul guvernamental — diferența vine din metoda de ajustare sezonieră.</p>
+            <div class="meta">
+              <span class="src"><span class="fav" style="background:#e11a2c"></span> Digi24</span>
+              <span>·</span>
+              <span>Verificat de redacția Fără Baliverne</span>
+              <span>·</span>
+              <span class="ext">Citește la sursă</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- MAIN GRID -->
+        <div class="section-head">
+          <h2>Ultimele verificări</h2>
+          <a href="#" class="more">Toate știrile →</a>
+        </div>
+
+        <div class="cards">
+
+          <!-- Card 1 -->
+          <a href="#" class="card">
+            <div class="photo g-pol">
+              <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p1" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#fff"/></pattern></defs><rect width="100%" height="100%" fill="url(#p1)"/></svg></div>
+              <div class="glyph">🗳️</div><div class="grad"></div>
+              <div class="imgtag">Foto: din articol</div>
+              <div class="srcbadge"><span class="fav" style="background:#0a3d62"></span> Agerpres</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Politică</span><span class="chip ok"><span class="ic">✅</span> Probat</span></div>
+              <h3>Parlamentul a adoptat legea privind transparența finanțării partidelor cu 231 de voturi</h3>
+              <div class="cmeta"><span class="src"><span class="fav" style="background:#0a3d62"></span> Agerpres</span><span>· acum 34 min</span></div>
+            </div>
+          </a>
+
+          <!-- Card 2 -->
+          <a href="#" class="card">
+            <div class="photo g-ext">
+              <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p2" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#fff" opacity="0.4"/></pattern></defs><rect width="100%" height="100%" fill="url(#p2)"/></svg></div>
+              <div class="glyph">🌍</div><div class="grad"></div>
+              <div class="imgtag">Foto: din articol</div>
+              <div class="srcbadge"><span class="fav" style="background:#1b6ec2"></span> HotNews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><span class="chip check"><span class="ic">🔍</span> În verificare</span></div>
+              <h3>Un post de televiziune susține că summitul UE ar fi decis noi sancțiuni; documentul oficial nu a fost publicat</h3>
+              <div class="cmeta"><span class="src"><span class="fav" style="background:#1b6ec2"></span> HotNews</span><span>· acum 1 oră</span></div>
+            </div>
+          </a>
+
+          <!-- Card 3 -->
+          <a href="#" class="card">
+            <div class="photo g-san">
+              <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p3" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M11 4 V18 M4 11 H18" stroke="#fff" stroke-width="2" opacity="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#p3)"/></svg></div>
+              <div class="glyph">🩺</div><div class="grad"></div>
+              <div class="imgtag">Foto: din articol</div>
+              <div class="srcbadge"><span class="fav" style="background:#c8102e"></span> Știrile ProTV</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Sănătate</span><span class="chip bad"><span class="ic">❌</span> Contrazis</span></div>
+              <h3>Mesaj viral: „vitamina C previne gripa sezonieră” — studiile clinice citate nu susțin afirmația</h3>
+              <div class="cmeta"><span class="src"><span class="fav" style="background:#c8102e"></span> Știrile ProTV</span><span>· acum 2 ore</span></div>
+            </div>
+          </a>
+
+          <!-- Card 4 -->
+          <a href="#" class="card">
+            <div class="photo g-eco">
+              <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p4" width="28" height="14" patternUnits="userSpaceOnUse"><path d="M0 14 L14 2 L28 14" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.45"/></pattern></defs><rect width="100%" height="100%" fill="url(#p4)"/></svg></div>
+              <div class="glyph">📈</div><div class="grad"></div>
+              <div class="imgtag">Foto: din articol</div>
+              <div class="srcbadge"><span class="fav" style="background:#0d0d0d"></span> Ziarul Financiar</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Economie</span><span class="chip ok"><span class="ic">✅</span> Probat</span></div>
+              <h3>Inflația anuală a coborât la 4,1% în iulie, confirmă comunicatul INS și seria de date lunare</h3>
+              <div class="cmeta"><span class="src"><span class="fav" style="background:#0d0d0d"></span> Ziarul Financiar</span><span>· acum 3 ore</span></div>
+            </div>
+          </a>
+
+          <!-- Card 5 -->
+          <a href="#" class="card">
+            <div class="photo g-soc">
+              <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p5" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(20)"><line x1="0" y1="10" x2="20" y2="10" stroke="#fff" stroke-width="2" opacity="0.4"/></pattern></defs><rect width="100%" height="100%" fill="url(#p5)"/></svg></div>
+              <div class="glyph">🏫</div><div class="grad"></div>
+              <div class="imgtag">Foto: din articol</div>
+              <div class="srcbadge"><span class="fav" style="background:#2d7a3e"></span> G4Media</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Social</span><span class="chip warn"><span class="ic">⚠️</span> Contestat</span></div>
+              <h3>Ministerul anunță burse mărite pentru elevi; sindicatele spun că bugetul alocat acoperă doar jumătate din estimare</h3>
+              <div class="cmeta"><span class="src"><span class="fav" style="background:#2d7a3e"></span> G4Media</span><span>· acum 4 ore</span></div>
+            </div>
+          </a>
+
+          <!-- Card 6 -->
+          <a href="#" class="card">
+            <div class="photo g-pol">
+              <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p6" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="9" cy="9" r="2" fill="none" stroke="#fff" stroke-width="1.2" opacity="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#p6)"/></svg></div>
+              <div class="glyph">⚖️</div><div class="grad"></div>
+              <div class="imgtag">Foto: din articol</div>
+              <div class="srcbadge"><span class="fav" style="background:#b3141d"></span> Gândul</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Politică</span><span class="chip check"><span class="ic">🔍</span> În verificare</span></div>
+              <h3>Un lider de partid afirmă că proiectul de lege ar fi neconstituțional; sesizarea la CCR nu a fost depusă încă</h3>
+              <div class="cmeta"><span class="src"><span class="fav" style="background:#b3141d"></span> Gândul</span><span>· acum 5 ore</span></div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- MORE STRIP -->
+        <div class="strip">
+          <div class="section-head" style="margin-top:34px">
+            <h2>Din alte redacții</h2>
+            <a href="#" class="more">Vezi fluxul complet →</a>
+          </div>
+          <div class="cards-3">
+
+            <a href="#" class="card">
+              <div class="photo g-ext">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p7" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 0 L16 16 M16 0 L0 16" stroke="#fff" stroke-width="1" opacity="0.3"/></pattern></defs><rect width="100%" height="100%" fill="url(#p7)"/></svg></div>
+                <div class="glyph">✈️</div><div class="grad"></div>
+                <div class="imgtag">Foto: din articol</div>
+                <div class="srcbadge"><span class="fav" style="background:#e4002b"></span> Adevărul</div>
+              </div>
+              <div class="cbody">
+                <div class="toprow"><span class="cat-tag">Extern</span><span class="chip ok"><span class="ic">✅</span> Probat</span></div>
+                <h3>Compania aeriană confirmă rutele noi spre trei capitale europene începând din octombrie</h3>
+                <div class="cmeta"><span class="src"><span class="fav" style="background:#e4002b"></span> Adevărul</span><span>· acum 6 ore</span></div>
+              </div>
+            </a>
+
+            <a href="#" class="card">
+              <div class="photo g-eco">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p8" width="22" height="22" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="11" height="11" fill="#fff" opacity="0.35"/></pattern></defs><rect width="100%" height="100%" fill="url(#p8)"/></svg></div>
+                <div class="glyph">💶</div><div class="grad"></div>
+                <div class="imgtag">Foto: din articol</div>
+                <div class="srcbadge"><span class="fav" style="background:#f39200"></span> Realitatea</div>
+              </div>
+              <div class="cbody">
+                <div class="toprow"><span class="cat-tag">Economie</span><span class="chip bad"><span class="ic">❌</span> Contrazis</span></div>
+                <h3>Postare virală: „prețul benzinei se dublează de la 1 septembrie” — nicio decizie oficială nu confirmă</h3>
+                <div class="cmeta"><span class="src"><span class="fav" style="background:#f39200"></span> Realitatea</span><span>· acum 7 ore</span></div>
+              </div>
+            </a>
+
+            <a href="#" class="card">
+              <div class="photo g-soc">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p9" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1.6" fill="#fff" opacity="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#p9)"/></svg></div>
+                <div class="glyph">🚆</div><div class="grad"></div>
+                <div class="imgtag">Foto: din articol</div>
+                <div class="srcbadge"><span class="fav" style="background:#e11a2c"></span> Digi24</div>
+              </div>
+              <div class="cbody">
+                <div class="toprow"><span class="cat-tag">Social</span><span class="chip warn"><span class="ic">⚠️</span> Contestat</span></div>
+                <h3>CFR anunță modernizarea a 200 km de cale ferată; raportul tehnic indică termene mai lungi decât cele comunicate</h3>
+                <div class="cmeta"><span class="src"><span class="fav" style="background:#e11a2c"></span> Digi24</span><span>· acum 8 ore</span></div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside>
+
+        <!-- Support -->
+        <div class="support-panel">
+          <h4>Ține adevărul gratuit</h4>
+          <p>Fără Baliverne rămâne gratis pentru toți. Dacă munca noastră îți e de folos, o donație opțională ne ține independenți.</p>
+          <a href="#" class="sbtn">♥ Susține cu 20 lei</a>
+          <small>Fără abonament. Fără paywall. Fără obligații.</small>
+        </div>
+
+        <!-- Most checked -->
+        <div class="panel">
+          <div class="ph">Cel mai verificate azi <span class="tag">Top</span></div>
+          <ol class="rank">
+            <li><span class="n">1</span><div><div class="t">Afirmația despre creșterea salariului minim din 2027</div><div class="rmeta"><span class="chip warn"><span class="ic">⚠️</span> Contestat</span> · 18 surse</div></div></li>
+            <li><span class="n">2</span><div><div class="t">Zvonul privind închiderea a două spitale județene</div><div class="rmeta"><span class="chip bad"><span class="ic">❌</span> Contrazis</span> · 14 surse</div></div></li>
+            <li><span class="n">3</span><div><div class="t">Datele oficiale despre absorbția fondurilor europene</div><div class="rmeta"><span class="chip ok"><span class="ic">✅</span> Probat</span> · 11 surse</div></div></li>
+            <li><span class="n">4</span><div><div class="t">Declarația despre noul plafon la facturile la energie</div><div class="rmeta"><span class="chip check"><span class="ic">🔍</span> În verificare</span> · 9 surse</div></div></li>
+          </ol>
+        </div>
+
+        <!-- Ad -->
+        <div class="ad">
+          <div class="adlabel">Publicitate</div>
+          <div class="adbox">
+            <div class="adart">☕</div>
+            <h4>Cafeaua de dimineață, mai bună</h4>
+            <p>Prăjită proaspăt, livrată acasă în toată țara.</p>
+            <span class="adbtn">Află mai mult</span>
+          </div>
+        </div>
+
+        <!-- Method -->
+        <div class="panel">
+          <div class="ph">Cum verificăm</div>
+          <div class="method">
+            <p>Nu decretăm „fals” sau „adevărat”. Punem afirmația lângă dovezi și surse, apoi îți arătăm unde bat sau nu se potrivesc.</p>
+            <div class="row"><span class="k">📎</span><div><b>Sursă la vedere</b> — fiecare știre trimite la articolul original.</div></div>
+            <div class="row"><span class="k">⚖️</span><div><b>Neutralitate</b> — prezentăm și partea care contestă.</div></div>
+            <div class="row"><span class="k">🧾</span><div><b>Dovezi</b> — date, documente, declarații, cu link.</div></div>
+            <div class="row"><span class="k">🧠</span><div><b>Concluzia e a ta</b> — noi dăm faptele, nu verdictul moral.</div></div>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <div class="fb">Fără <span class="amp">Baliverne</span></div>
+          <div class="dev">Apă, paie… Adevăr</div>
+          <p class="creed">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b> Fapt ≠ opinie. Agregăm știri din presa românească, le punem lângă probe și îți lăsăm ție ultima judecată.</p>
+        </div>
+        <div class="foot-cols">
+          <div>
+            <h5>Categorii</h5>
+            <ul>
+              <li><a href="#">Politică</a></li>
+              <li><a href="#">Economie</a></li>
+              <li><a href="#">Extern</a></li>
+              <li><a href="#">Social</a></li>
+              <li><a href="#">Sănătate</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Despre</h5>
+            <ul>
+              <li><a href="#">Metodologie</a></li>
+              <li><a href="#">Cine suntem</a></li>
+              <li><a href="#">Corectări</a></li>
+              <li><a href="#">Susține-ne</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Verdicte</h5>
+            <ul>
+              <li><a href="#">✅ Probat</a></li>
+              <li><a href="#">⚠️ Contestat</a></li>
+              <li><a href="#">❌ Contrazis</a></li>
+              <li><a href="#">🔍 În verificare</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Fără Baliverne · farabaliverne.ro · Toate mărcile și logo-urile aparțin surselor citate.</span>
+        <span>Termeni · Confidențialitate · Politica de corectare</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

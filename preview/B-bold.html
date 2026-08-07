@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fără Baliverne — Apă, paie… Adevăr</title>
+<style>
+  :root{
+    --bg:#0d0f14;
+    --bg-soft:#14171f;
+    --card:#171a22;
+    --card-2:#1c2029;
+    --ink:#f4f5f7;
+    --ink-soft:#aab1bd;
+    --ink-faint:#6b7280;
+    --line:#262b36;
+    --signal:#ff5a1f;      /* portocaliu de semnal */
+    --signal-2:#ffb703;    /* galben-cald */
+    --lime:#c6f135;        /* galben-verzui */
+    --probat:#25c26e;
+    --contestat:#ffb703;
+    --contrazis:#ff3b3b;
+    --verific:#38bdf8;
+    --radius:16px;
+    --shadow:0 18px 40px -18px rgba(0,0,0,.7);
+    font-synthesis:none;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:
+      radial-gradient(900px 500px at 100% -8%, rgba(255,90,31,.10), transparent 60%),
+      radial-gradient(700px 400px at -6% 4%, rgba(198,241,53,.06), transparent 55%),
+      var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+
+  /* ===== Top strip ===== */
+  .strip{
+    background:#07080b;
+    border-bottom:1px solid var(--line);
+    font-size:12.5px;color:var(--ink-faint);
+  }
+  .strip .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;height:38px;flex-wrap:wrap;overflow:hidden}
+  .strip .live{display:inline-flex;align-items:center;gap:7px;color:var(--ink-soft);font-weight:600;letter-spacing:.02em}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--probat);box-shadow:0 0 0 0 rgba(37,194,110,.6);animation:pulse 2s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,194,110,.55)}70%{box-shadow:0 0 0 9px rgba(37,194,110,0)}100%{box-shadow:0 0 0 0 rgba(37,194,110,0)}}
+  .strip .date{text-transform:uppercase;letter-spacing:.12em}
+
+  /* ===== Header ===== */
+  header{position:sticky;top:0;z-index:50;background:rgba(9,10,14,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;gap:18px;height:74px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:-.02em}
+  .logo{
+    width:46px;height:46px;border-radius:12px;flex:0 0 auto;
+    background:linear-gradient(135deg,var(--signal),var(--signal-2));
+    display:grid;place-items:center;font-size:24px;transform:rotate(-6deg);
+    box-shadow:0 8px 22px -8px rgba(255,90,31,.8)
+  }
+  .brand .txt{line-height:1}
+  .brand .name{font-size:22px}
+  .brand .name b{color:var(--signal)}
+  .brand .tag{display:block;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-top:3px}
+  .spacer{flex:1}
+  .nav{display:flex;gap:4px}
+  .nav a{
+    padding:9px 14px;border-radius:999px;font-weight:700;font-size:14px;color:var(--ink-soft);
+    transition:.18s;position:relative
+  }
+  .nav a:hover{color:var(--ink);background:var(--card-2)}
+  .nav a.on{color:#0d0f14;background:var(--lime)}
+  .actions{display:flex;align-items:center;gap:10px}
+  .btn-support{
+    display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;font-weight:800;font-size:13.5px;
+    color:#0d0f14;background:linear-gradient(135deg,var(--signal-2),var(--signal));
+    border:none;cursor:pointer;transition:.18s;box-shadow:0 8px 20px -10px rgba(255,90,31,.9)
+  }
+  .btn-support:hover{transform:translateY(-1px);filter:brightness(1.05)}
+  .burger{display:none;background:none;border:1px solid var(--line);color:var(--ink);width:44px;height:42px;border-radius:12px;font-size:20px;cursor:pointer}
+
+  /* ===== Manifesto banner ===== */
+  .manifest{border-bottom:1px solid var(--line);background:linear-gradient(90deg,rgba(255,90,31,.08),transparent 60%)}
+  .manifest .wrap{display:flex;align-items:center;gap:14px;padding:11px 20px;flex-wrap:wrap}
+  .manifest b{color:var(--lime)}
+  .manifest span{font-size:14px;color:var(--ink-soft);font-weight:600}
+  .legend{display:flex;gap:8px;margin-left:auto;flex-wrap:wrap}
+  .legend .mini{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:800;padding:4px 9px;border-radius:999px;border:1px solid var(--line);background:var(--card);white-space:nowrap}
+
+  /* ===== Chips ===== */
+  .chip{
+    display:inline-flex;align-items:center;gap:7px;font-weight:900;letter-spacing:.01em;
+    padding:7px 13px;border-radius:999px;font-size:13px;line-height:1;text-transform:uppercase;
+    border:1.5px solid transparent
+  }
+  .chip .ico{font-size:14px}
+  .chip.probat{color:#08160e;background:var(--probat);border-color:#1aa85c}
+  .chip.contestat{color:#1a1400;background:var(--contestat);border-color:#d99500}
+  .chip.contrazis{color:#fff;background:var(--contrazis);border-color:#d02020}
+  .chip.verific{color:#04121a;background:var(--verific);border-color:#199fdb}
+  .mini.probat{color:var(--probat)} .mini.contestat{color:var(--contestat)}
+  .mini.contrazis{color:var(--contrazis)} .mini.verific{color:var(--verific)}
+
+  /* ===== Source tag ===== */
+  .src{
+    display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:800;
+    padding:5px 11px;border-radius:8px;background:rgba(0,0,0,.55);color:#fff;
+    border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(3px);transition:.16s
+  }
+  .src:hover{background:var(--signal);color:#0d0f14;border-color:transparent}
+  .src .fav{width:16px;height:16px;border-radius:4px;display:grid;place-items:center;font-size:10px;font-weight:900;color:#fff}
+  .src .ext{opacity:.75;font-size:11px}
+
+  /* ===== Image zone (thumbnail) ===== */
+  .thumb{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--bg-soft)}
+  .thumb .art{position:absolute;inset:0}
+  .thumb .letter{
+    position:absolute;inset:0;display:grid;place-items:center;font-size:5.4rem;font-weight:900;
+    color:rgba(255,255,255,.14);letter-spacing:-.04em;font-style:italic
+  }
+  .thumb .over{position:absolute;left:12px;top:12px;z-index:3}
+  .thumb .cat-pill{position:absolute;right:12px;top:12px;z-index:3;font-size:10.5px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;
+    padding:5px 10px;border-radius:6px;background:rgba(13,15,20,.72);color:var(--lime);border:1px solid rgba(198,241,53,.35)}
+  .thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),transparent 30%,rgba(0,0,0,.55));z-index:2}
+  .thumb .photo-hint{position:absolute;right:12px;bottom:10px;z-index:3;font-size:10.5px;font-weight:700;color:rgba(255,255,255,.6);display:inline-flex;align-items:center;gap:5px}
+
+  /* gradient palettes for the fake photos */
+  .g-pol{background:linear-gradient(135deg,#1b2f6b,#3a1d6e 55%,#7a1550)}
+  .g-eco{background:linear-gradient(135deg,#0c3b2e,#146356 55%,#1f7a3a)}
+  .g-ext{background:linear-gradient(135deg,#5a1e12,#8a2d10 55%,#b3651a)}
+  .g-soc{background:linear-gradient(135deg,#3d1d63,#6a2a8a 55%,#a23470)}
+  .g-san{background:linear-gradient(135deg,#0e4a63,#12688a 55%,#1e9aa8)}
+  .g-hero{background:linear-gradient(120deg,#161a3c,#4a1a55 45%,#8a1f3a 78%,#b3401a)}
+  .grain{position:absolute;inset:0;opacity:.5;mix-blend-mode:overlay}
+
+  /* ===== Layout ===== */
+  main{padding:30px 0 10px}
+  .section-h{display:flex;align-items:center;gap:12px;margin:0 0 16px}
+  .section-h h2{font-size:15px;font-weight:900;text-transform:uppercase;letter-spacing:.14em;margin:0}
+  .section-h .rule{height:2px;flex:1;background:linear-gradient(90deg,var(--signal),transparent)}
+  .section-h .flag{color:var(--signal)}
+
+  .top{display:grid;grid-template-columns:1.65fr 1fr;gap:22px;align-items:stretch}
+
+  /* Hero card */
+  .hero{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:440px;display:flex;box-shadow:var(--shadow)}
+  .hero .thumb{position:absolute;inset:0;aspect-ratio:auto;height:100%}
+  .hero .letter{font-size:12rem}
+  .hero-body{position:relative;z-index:4;margin-top:auto;padding:26px 26px 28px;width:100%;
+    background:linear-gradient(180deg,transparent,rgba(7,8,11,.82)55%)}
+  .hero .kicker{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--lime);margin-bottom:12px}
+  .hero h1{font-size:clamp(26px,3.4vw,42px);line-height:1.05;letter-spacing:-.02em;margin:0 0 14px;font-weight:900}
+  .hero p.dek{color:var(--ink-soft);font-size:15px;max-width:56ch;margin:0 0 16px;font-weight:500}
+  .hero .row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .hero .thumb .over{top:16px;left:16px}
+
+  /* side stack in top */
+  .side{display:flex;flex-direction:column;gap:14px}
+  .mini-card{display:grid;grid-template-columns:120px 1fr;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.18s;min-height:96px}
+  .mini-card:hover{transform:translateY(-2px);border-color:#39404e;box-shadow:var(--shadow)}
+  .mini-card .thumb{aspect-ratio:auto;height:100%}
+  .mini-card .letter{font-size:2.4rem}
+  .mini-card .body{padding:12px 14px 12px 0;display:flex;flex-direction:column;gap:8px}
+  .mini-card h3{font-size:15px;line-height:1.22;margin:0;font-weight:800;letter-spacing:-.01em}
+  .mini-card .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:auto}
+  .mini-card .src{font-size:11px;padding:3px 8px;background:transparent;border-color:var(--line);color:var(--ink-soft)}
+  .mini-card .src:hover{color:var(--signal);border-color:var(--signal)}
+
+  /* Grid */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:.2s;position:relative}
+  .card:hover{transform:translateY(-4px);border-color:#3a4252;box-shadow:var(--shadow)}
+  .card:hover .thumb .art{transform:scale(1.06)}
+  .thumb .art{transition:transform .5s ease}
+  .card .body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:12px;flex:1}
+  .card h3{font-size:18px;line-height:1.2;margin:0;font-weight:800;letter-spacing:-.015em}
+  .card:hover h3{color:#fff}
+  .card .foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;flex-wrap:wrap}
+  .card .why{font-size:12.5px;color:var(--ink-faint);font-weight:600;display:inline-flex;align-items:center;gap:6px}
+  .card .why b{color:var(--ink-soft)}
+
+  /* ===== Advertisement ===== */
+  .ad{margin:30px 0;border:1px dashed var(--line);border-radius:14px;overflow:hidden;background:linear-gradient(90deg,var(--bg-soft),var(--card))}
+  .ad .label{font-size:10px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);padding:8px 14px 0}
+  .ad .slot{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 18px 16px;flex-wrap:wrap}
+  .ad .slot .m{display:flex;align-items:center;gap:14px}
+  .ad .adlogo{width:44px;height:44px;border-radius:11px;background:linear-gradient(135deg,#2a3140,#3a4render 100%);display:grid;place-items:center;font-size:22px;background:linear-gradient(135deg,#243044,#39506e)}
+  .ad h4{margin:0;font-size:15px;font-weight:800}
+  .ad p{margin:2px 0 0;font-size:13px;color:var(--ink-soft)}
+  .ad .cta{padding:9px 16px;border-radius:999px;font-weight:800;font-size:13px;background:var(--ink);color:#0d0f14;transition:.16s}
+  .ad .cta:hover{background:var(--lime)}
+
+  /* ===== Support band ===== */
+  .support{margin:14px 0 8px;border-radius:18px;padding:26px;border:1px solid var(--line);
+    background:radial-gradient(600px 220px at 90% 0,rgba(255,90,31,.16),transparent 60%),var(--card);
+    display:flex;align-items:center;gap:22px;justify-content:space-between;flex-wrap:wrap}
+  .support h3{margin:0 0 6px;font-size:21px;font-weight:900;letter-spacing:-.01em}
+  .support p{margin:0;color:var(--ink-soft);font-size:14px;max-width:60ch}
+  .support .g{display:flex;gap:10px;flex-wrap:wrap}
+  .support .primary{background:linear-gradient(135deg,var(--signal-2),var(--signal));color:#0d0f14;padding:12px 20px;border-radius:999px;font-weight:900;border:none;cursor:pointer;transition:.18s}
+  .support .primary:hover{transform:translateY(-1px)}
+  .support .ghost{background:transparent;color:var(--ink);border:1px solid var(--line);padding:12px 20px;border-radius:999px;font-weight:800;cursor:pointer;transition:.18s}
+  .support .ghost:hover{border-color:var(--lime);color:var(--lime)}
+  .support .free{font-size:12px;color:var(--ink-faint);font-weight:700;margin-top:8px}
+
+  /* ===== Footer ===== */
+  footer{margin-top:40px;border-top:1px solid var(--line);background:#07080b}
+  .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;padding:40px 0 28px}
+  .foot-brand .brand{margin-bottom:12px}
+  .credo{font-size:15px;color:var(--ink-soft);max-width:42ch}
+  .credo b{color:var(--lime)}
+  .foot-col h5{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);margin:0 0 12px}
+  .foot-col a{display:block;color:var(--ink-soft);padding:5px 0;font-size:14px;font-weight:600;transition:.15s}
+  .foot-col a:hover{color:var(--signal)}
+  .foot-bottom{border-top:1px solid var(--line);padding:16px 0;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+  .foot-bottom .motto{font-size:13.5px;font-weight:800;color:var(--ink)}
+  .foot-bottom .motto b{color:var(--signal)}
+  .foot-bottom .small{font-size:12px;color:var(--ink-faint)}
+
+  /* ===== Responsive ===== */
+  @media (max-width:960px){
+    .top{grid-template-columns:1fr}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .foot-top{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:680px){
+    .nav{display:none}
+    .burger{display:block}
+    .brand .tag{display:none}
+    .grid{grid-template-columns:1fr}
+    .legend{width:100%}
+    .foot-top{grid-template-columns:1fr}
+    .btn-support span.lbl{display:none}
+    .btn-support{padding:10px 12px}
+    .hero{min-height:380px}
+    .manifest .wrap{gap:8px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== Top strip ===== -->
+<div class="strip">
+  <div class="wrap">
+    <span class="live"><span class="dot"></span> ACTUALIZAT ACUM 4 MIN · 37 de știri verificate azi</span>
+    <span class="date">Vineri, 7 august 2026 · farabaliverne.ro</span>
+  </div>
+</div>
+
+<!-- ===== Header ===== -->
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#">
+      <span class="logo">🌾</span>
+      <span class="txt">
+        <span class="name">Fără <b>Baliverne</b></span>
+        <span class="tag">Apă, paie… Adevăr</span>
+      </span>
+    </a>
+    <div class="spacer"></div>
+    <nav class="nav">
+      <a href="#" class="on">Toate</a>
+      <a href="#">Politică</a>
+      <a href="#">Economie</a>
+      <a href="#">Extern</a>
+      <a href="#">Social</a>
+      <a href="#">Sănătate</a>
+    </nav>
+    <div class="actions">
+      <button class="btn-support">❤ <span class="lbl">Susține-ne</span></button>
+      <button class="burger" aria-label="Meniu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Manifesto ===== -->
+<div class="manifest">
+  <div class="wrap">
+    <span>Noi nu decretăm. <b>Arătăm dovezile.</b> Pe fiecare știre punem un verdict — tu tragi concluzia.</span>
+    <div class="legend">
+      <span class="mini probat">✅ Probat</span>
+      <span class="mini contestat">⚠️ Contestat</span>
+      <span class="mini contrazis">❌ Contrazis</span>
+      <span class="mini verific">🔍 În verificare</span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- ===== TOP: Hero + side ===== -->
+  <div class="section-h">
+    <span class="flag">▍</span><h2>Știrea zilei</h2><span class="rule"></span>
+  </div>
+
+  <div class="top">
+    <!-- HERO -->
+    <article class="hero">
+      <div class="thumb g-hero">
+        <div class="art g-hero"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <pattern id="hx" width="26" height="30" patternUnits="userSpaceOnUse" patternTransform="scale(1.4)">
+              <path d="M13 0 L26 7.5 26 22.5 13 30 0 22.5 0 7.5Z" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="400" height="225" fill="url(#hx)"/>
+        </svg>
+        <div class="letter">₽</div>
+        <span class="cat-pill">Economie</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#c8102e">A</span> Agerpres <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="hero-body">
+        <span class="kicker">🔥 Cea mai citită acum</span>
+        <h1>BNR menține dobânda-cheie la 6,5%. Guvernul spune că inflația „scade constant”</h1>
+        <p class="dek">Comunicatul oficial vorbește de dezinflație. Datele INS pe iulie și proiecția FMI din iunie spun povești parțial diferite — am pus cifrele una lângă alta.</p>
+        <div class="row">
+          <span class="chip contestat"><span class="ico">⚠️</span> Contestat</span>
+          <span class="why" style="color:var(--ink-soft)">Sursele oficiale și cele independente <b>nu coincid la ritm</b>. 3 documente atașate.</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- SIDE STACK -->
+    <div class="side">
+      <article class="mini-card">
+        <div class="thumb g-pol">
+          <div class="art g-pol"></div>
+          <div class="letter">⚖</div>
+        </div>
+        <div class="body">
+          <h3>Coaliția anunță un acord pe legea pensiilor. Textul final nu a fost încă publicat</h3>
+          <div class="meta">
+            <a href="#" class="src"><span class="fav" style="background:#e30613">D</span> Digi24 ↗</a>
+            <span class="chip verific" style="font-size:11px;padding:5px 9px"><span class="ico">🔍</span> În verificare</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="mini-card">
+        <div class="thumb g-ext">
+          <div class="art g-ext"></div>
+          <div class="letter">🌍</div>
+        </div>
+        <div class="body">
+          <h3>UE aprobă noul pachet de sprijin. Suma alocată României, confirmată de Comisie</h3>
+          <div class="meta">
+            <a href="#" class="src"><span class="fav" style="background:#0a3d91">H</span> HotNews ↗</a>
+            <span class="chip probat" style="font-size:11px;padding:5px 9px"><span class="ico">✅</span> Probat</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="mini-card">
+        <div class="thumb g-soc">
+          <div class="art g-soc"></div>
+          <div class="letter">🚊</div>
+        </div>
+        <div class="body">
+          <h3>„Metroul din Cluj se deschide anul acesta.” Contractul spune alt termen</h3>
+          <div class="meta">
+            <a href="#" class="src"><span class="fav" style="background:#ff6a00">G</span> Gândul ↗</a>
+            <span class="chip contrazis" style="font-size:11px;padding:5px 9px"><span class="ico">❌</span> Contrazis</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <!-- ===== AD ===== -->
+  <aside class="ad">
+    <div class="label">Publicitate</div>
+    <div class="slot">
+      <div class="m">
+        <div class="adlogo">📚</div>
+        <div>
+          <h4>Cărturești — colecția de nonficțiune a lunii</h4>
+          <p>Reclama ne ține site-ul gratuit. Marcată clar, niciodată deghizată în știre.</p>
+        </div>
+      </div>
+      <a href="#" class="cta">Vezi oferta</a>
+    </div>
+  </aside>
+
+  <!-- ===== GRID ===== -->
+  <div class="section-h">
+    <span class="flag">▍</span><h2>Verificate azi</h2><span class="rule"></span>
+  </div>
+
+  <section class="grid">
+
+    <!-- 1 -->
+    <article class="card">
+      <div class="thumb g-eco">
+        <div class="art g-eco"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p1" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="9" cy="9" r="1.4" fill="rgba(255,255,255,.14)"/></pattern></defs><rect width="400" height="225" fill="url(#p1)"/></svg>
+        <div class="letter">€</div>
+        <span class="cat-pill">Economie</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#0e5aa7">Z</span> Ziarul Financiar <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Salariul mediu net a urcat cu 9% față de anul trecut, arată datele INS</h3>
+        <div class="foot">
+          <span class="chip probat"><span class="ico">✅</span> Probat</span>
+          <span class="why">📎 <b>2 surse</b> concordante</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2 -->
+    <article class="card">
+      <div class="thumb g-pol">
+        <div class="art g-pol"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p2" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="22" stroke="rgba(255,255,255,.10)" stroke-width="2"/></pattern></defs><rect width="400" height="225" fill="url(#p2)"/></svg>
+        <div class="letter">₪</div>
+        <span class="cat-pill">Politică</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#111">G4</span> G4Media <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Un ministru afirmă că „bugetul pe educație e cel mai mare din istorie” în cifre absolute</h3>
+        <div class="foot">
+          <span class="chip contestat"><span class="ico">⚠️</span> Contestat</span>
+          <span class="why">📎 corect nominal, <b>discutabil ca %</b></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 3 -->
+    <article class="card">
+      <div class="thumb g-san">
+        <div class="art g-san"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p3" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 12H24 M12 0V24" stroke="rgba(255,255,255,.09)" stroke-width="1.5"/></pattern></defs><rect width="400" height="225" fill="url(#p3)"/></svg>
+        <div class="letter">✚</div>
+        <span class="cat-pill">Sănătate</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#00a3e0">P</span> Știrile ProTV <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Ministerul Sănătății: peste 1.200 de posturi de medic, ocupate prin noul concurs național</h3>
+        <div class="foot">
+          <span class="chip probat"><span class="ico">✅</span> Probat</span>
+          <span class="why">📎 comunicat + <b>listă publică</b></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 4 -->
+    <article class="card">
+      <div class="thumb g-ext">
+        <div class="art g-ext"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p4" width="30" height="26" patternUnits="userSpaceOnUse"><path d="M15 2 L28 24 2 24Z" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1"/></pattern></defs><rect width="400" height="225" fill="url(#p4)"/></svg>
+        <div class="letter">⚑</div>
+        <span class="cat-pill">Extern</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#d6001c">R</span> Realitatea <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>„România a devenit al doilea exportator de gaz din regiune.” Datele Eurostat spun altceva</h3>
+        <div class="foot">
+          <span class="chip contrazis"><span class="ico">❌</span> Contrazis</span>
+          <span class="why">📎 cifra oficială <b>e a 5-a</b></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 5 -->
+    <article class="card">
+      <div class="thumb g-soc">
+        <div class="art g-soc"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p5" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="6" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1.2"/></pattern></defs><rect width="400" height="225" fill="url(#p5)"/></svg>
+        <div class="letter">🏫</div>
+        <span class="cat-pill">Social</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#c1272d">A</span> Adevărul <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Peste 4.000 de școli au primit fonduri pentru renovare. Câte au terminat lucrările, neclar</h3>
+        <div class="foot">
+          <span class="chip verific"><span class="ico">🔍</span> În verificare</span>
+          <span class="why">📎 <b>așteptăm</b> raportul CNI</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 6 -->
+    <article class="card">
+      <div class="thumb g-eco">
+        <div class="art g-eco"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p6" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><line x1="0" y1="8" x2="16" y2="8" stroke="rgba(255,255,255,.10)" stroke-width="1.4"/></pattern></defs><rect width="400" height="225" fill="url(#p6)"/></svg>
+        <div class="letter">⛽</div>
+        <span class="cat-pill">Economie</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#e30613">D</span> Digi24 <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Prețul benzinei a scăzut a treia săptămână la rând, confirmă monitorizarea Peco</h3>
+        <div class="foot">
+          <span class="chip probat"><span class="ico">✅</span> Probat</span>
+          <span class="why">📎 serie de <b>preț public</b></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 7 -->
+    <article class="card">
+      <div class="thumb g-pol">
+        <div class="art g-pol"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p7" width="26" height="26" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="13" height="13" fill="rgba(255,255,255,.06)"/></pattern></defs><rect width="400" height="225" fill="url(#p7)"/></svg>
+        <div class="letter">🗳</div>
+        <span class="cat-pill">Politică</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#ff6a00">G</span> Gândul <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Proiectul de reducere a numărului de parlamentari, depus. Nu are încă aviz de la comisii</h3>
+        <div class="foot">
+          <span class="chip verific"><span class="ico">🔍</span> În verificare</span>
+          <span class="why">📎 doc. <b>depus, neavizat</b></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 8 -->
+    <article class="card">
+      <div class="thumb g-ext">
+        <div class="art g-ext"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p8" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 20 L20 0" stroke="rgba(255,255,255,.10)" stroke-width="1.2"/><path d="M-5 5 L5 -5 M15 25 L25 15" stroke="rgba(255,255,255,.10)" stroke-width="1.2"/></pattern></defs><rect width="400" height="225" fill="url(#p8)"/></svg>
+        <div class="letter">✈</div>
+        <span class="cat-pill">Extern</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#0a3d91">H</span> HotNews <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>Aeroportul din Brașov a depășit 1 milion de pasageri în primul an, anunță operatorul</h3>
+        <div class="foot">
+          <span class="chip contestat"><span class="ico">⚠️</span> Contestat</span>
+          <span class="why">📎 cifra <b>neauditată încă</b></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- 9 -->
+    <article class="card">
+      <div class="thumb g-san">
+        <div class="art g-san"></div>
+        <svg class="grain" viewBox="0 0 400 225" preserveAspectRatio="none"><defs><pattern id="p9" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="2" fill="rgba(255,255,255,.13)"/><circle cx="0" cy="0" r="2" fill="rgba(255,255,255,.13)"/><circle cx="22" cy="22" r="2" fill="rgba(255,255,255,.13)"/></pattern></defs><rect width="400" height="225" fill="url(#p9)"/></svg>
+        <div class="letter">🧬</div>
+        <span class="cat-pill">Sănătate</span>
+        <span class="over"><a href="#" class="src"><span class="fav" style="background:#00a3e0">P</span> Știrile ProTV <span class="ext">↗</span></a></span>
+        <span class="photo-hint">📷 imagine articol</span>
+      </div>
+      <div class="body">
+        <h3>„Un nou spital regional se deschide luna viitoare.” Recepția lucrărilor nu e finalizată</h3>
+        <div class="foot">
+          <span class="chip contrazis"><span class="ico">❌</span> Contrazis</span>
+          <span class="why">📎 <b>fără proces-verbal</b></span>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ===== SUPPORT ===== -->
+  <section class="support">
+    <div>
+      <h3>Ține paiele afară din adevăr 🌾</h3>
+      <p>Fără Baliverne rămâne gratuit pentru toți. Nu trăim din senzațional, ci din rigoare — iar rigoarea costă timp și oameni. Dacă îți place ce facem, poți contribui cât vrei.</p>
+      <div class="free">Site-ul rămâne 100% gratuit, cu sau fără donație.</div>
+    </div>
+    <div class="g">
+      <button class="primary">❤ Susține-ne</button>
+      <button class="ghost">Cum verificăm</button>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="wrap foot-top">
+    <div class="foot-brand">
+      <a class="brand" href="#">
+        <span class="logo">🌾</span>
+        <span class="txt"><span class="name">Fără <b>Baliverne</b></span><span class="tag">Apă, paie… Adevăr</span></span>
+      </a>
+      <p class="credo">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b><br>Fapt ≠ opinie.</p>
+    </div>
+    <div class="foot-col">
+      <h5>Categorii</h5>
+      <a href="#">Politică</a>
+      <a href="#">Economie</a>
+      <a href="#">Extern</a>
+      <a href="#">Social</a>
+      <a href="#">Sănătate</a>
+    </div>
+    <div class="foot-col">
+      <h5>Despre</h5>
+      <a href="#">Cum verificăm</a>
+      <a href="#">Metodologia verdictelor</a>
+      <a href="#">Corectări &amp; erata</a>
+      <a href="#">Contact redacție</a>
+      <a href="#">Susține-ne</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span class="motto">Apă, paie… <b>Adevăr.</b></span>
+    <span class="small">© 2026 Fără Baliverne · farabaliverne.ro · Agregăm știri cu link către sursă și le verificăm neutru.</span>
+  </div>
+</footer>
+
+</body>
+</html>
