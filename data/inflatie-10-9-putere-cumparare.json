@@ -1,0 +1,126 @@
+{
+  "slug": "inflatie-10-9-putere-cumparare",
+  "title": "Puterea de cumpărare se prăbușește: inflație de 10,9%, salarii și pensii reale în scădere",
+  "category": "Economie",
+  "date": "2026-08-07",
+  "source": "SFIN.ro",
+  "url": "https://www.sfin.ro/puterea-de-cumparare-in-romania-2026/",
+  "dek": "Cifrele-cheie din articol — inflație de 10,9% (mai 2026), energie electrică +55%, pensie medie de 2.934 lei și blocarea majorării prin Legea 141/2025 — se regăsesc în datele oficiale INS și în legislație. Două rezerve de limbaj: titlul „se prăbușește” este interpretare editorială (INS măsoară o erodare de câteva procente pe an, nu un colaps), iar „punctul de pensie” de 81 lei este, corect denumit, „punctul de referință” din Legea 360/2023.",
+  "mainVerdict": "Probat, cu rezerve de limbaj",
+  "probat": [
+    {
+      "text": "Rata anuală a inflației de 10,9% este cifra oficială raportată de INS pentru luna mai 2026 — cel mai ridicat nivel din ultimii ani, pe fondul eliminării plafonării la energie. Context util: în iunie 2026 rata a coborât la 10,4%, deci 10,9% este valoarea de vârf din mai, nu cea mai recentă lună.",
+      "sources": [
+        {
+          "name": "BURSA — INS: Inflația anuală a urcat la 10,9% în mai 2026",
+          "url": "https://www.bursa.ro/ins-inflatia-anuala-a-urcat-la-10-9-procente-in-mai-2026-65482953"
+        },
+        {
+          "name": "Digi24 — Inflația a ajuns la 10,9% în mai 2026, arată INS",
+          "url": "https://www.digi24.ro/stiri/economie/inflatia-a-ajuns-la-109-in-mai-2026-arata-ins-energia-electrica-chiriile-si-motorina-conduc-topul-scumpirilor-din-ultimul-an-3812083"
+        },
+        {
+          "name": "Digi24 — Inflația a coborât la 10,4% în iunie",
+          "url": "https://www.digi24.ro/digieconomic/macro/inflatia-a-coborat-usor-in-iunie-dar-ramane-peste-10-chiriile-energia-electrica-si-carburantii-printre-cele-mai-mari-scumpiri-109765"
+        }
+      ]
+    },
+    {
+      "text": "Scumpirea energiei electrice cu ~55% este confirmată de INS: în mai 2026 tariful la energie electrică a crescut cu 55,49% față de mai 2025, cea mai mare scumpire din economie, după eliminarea schemei de plafonare a prețurilor.",
+      "sources": [
+        {
+          "name": "TVR Info — Cele mai mari scumpiri în mai: energia electrică",
+          "url": "https://tvrinfo.ro/inflatia-a-ajuns-la-109-in-mai-cele-mai-mari-scumpiri-energia-electrica-chiriile-motorina-si-cafeaua/"
+        },
+        {
+          "name": "Adevărul — Inflația a urcat la 10,9% în mai; energia electrică s-a scumpit cu 55%",
+          "url": "https://adevarul.ro/economie/inflatia-a-urcat-la-109percent-in-luna-mai-energia-2535967.html"
+        }
+      ]
+    },
+    {
+      "text": "Pensia medie lunară de 2.934 lei în trimestrul I 2026 și indicele pensiei reale de 97,3% sunt date oficiale INS: pensia a scăzut cu 0,8% față de trimestrul IV 2025, iar indicele de 97,3% (raportul dintre indicele pensiei nominale nete și indicele prețurilor) arată o pierdere de putere de cumpărare de circa 2,7% pe an.",
+      "sources": [
+        {
+          "name": "Money.ro — INS: Pensia medie lunară a fost de 2.934 lei, mai mică cu 0,8%; 4,92 mil. pensionari",
+          "url": "https://www.money.ro/ins-scadere-usoara-a-numarului-de-pensionari-in-t1-fata-de-anul-trecut-pensia-medie-lunara-a-fost-de-2934-lei-fiind-mai-mica-cu-08-fata-de-trimestrul-precedent/"
+        },
+        {
+          "name": "Capital — Pensia medie a scăzut în primul trimestru din 2026 (date oficiale INS)",
+          "url": "https://www.capital.ro/pensia-medie-a-scazut-in-primul-trimestru-din-2026-datele-oficiale-ins-arata-si-diferente-mari-intre-judete.html"
+        }
+      ]
+    },
+    {
+      "text": "Blocarea mecanismului de majorare prin Legea 141/2025 este confirmată de legislație și de presa juridică: valoarea punctului de referință a fost menținută (înghețată) la 81 lei și pentru 2026, iar indexarea anuală prevăzută de Legea 360/2023 este amânată până la 1 ianuarie 2027. Fără înghețare, punctul ar fi crescut cu indexarea de 7% anulată, adică la aproximativ 86–87 lei.",
+      "sources": [
+        {
+          "name": "Avocatnet — Nici în 2026 nu se majorează pensiile; punctul de referință rămâne la 81 lei",
+          "url": "https://www.avocatnet.ro/articol_69993/Nici-in-2026-nu-se-majoreaza-pensiile-Punctul-de-referinta-se-mentine-la-aceeasi-valoare-si-in-acest-an.html"
+        },
+        {
+          "name": "Capital — Guvernul explică de ce pensiile nu au fost majorate în 2025 și 2026",
+          "url": "https://www.capital.ro/guvernul-explica-de-ce-pensiile-nu-au-fost-majorate-in-2025-si-2026-cand-ar-putea-fi-reluata-indexarea.html"
+        },
+        {
+          "name": "Jurnalul — Pensiile rămân blocate până în 2027",
+          "url": "https://jurnalul.ro/bani-afaceri/economia/de-ce-nu-au-fost-indexate-pensiile-2025-2026-guvern-1040685.html"
+        }
+      ]
+    },
+    {
+      "text": "Scăderea reală a salariilor este confirmată de INS prin indicele câștigului salarial real (net, deflatat cu inflația), aflat sub 100% pe tot parcursul lui 2026 (94,5% în ianuarie, 94,9% în martie, 93,5% în aprilie, 93,1% în mai față de aceleași luni din 2025). Nuanță importantă: salariul net nominal a crescut totuși (~3,2% în mai față de mai 2025), dar mai încet decât prețurile — de aici scăderea în termeni reali de aproape 7%.",
+      "sources": [
+        {
+          "name": "Capital — Salarii mai mici în România; INS confirmă scăderea veniturilor reale",
+          "url": "https://www.capital.ro/salarii-mai-mici-in-romania-ins-confirma-scaderea-veniturilor-cine-pierde-cel-mai-mult.html"
+        },
+        {
+          "name": "Economedia — Salariul mediu net a scăzut în mai la 5.684 lei",
+          "url": "https://economedia.ro/salariul-mediu-net-din-romania-a-scazut-in-mai-cu-159-de-lei-fata-de-luna-precedenta-si-a-ajuns-la-5-684-lei.html"
+        },
+        {
+          "name": "Cursdeguvernare — Câștigul salarial real, în scădere an/an",
+          "url": "https://cursdeguvernare.ro/castigul-salarial-real-in-scadere-in-martie-la-un-an.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Formularea „punctul de pensie la 81 lei” este imprecisă terminologic. Suma de 81 lei este valoarea punctului de referință introdus de Legea 360/2023, nu vechiul „punct de pensie” (care valora circa 2.032 lei înainte de reformă). Cifra de 81 lei și mecanismul de înghețare sunt corecte, dar denumirea folosită poate induce în eroare cititorii obișnuiți cu vechiul indicator.",
+      "sources": [
+        {
+          "name": "Avocatnet — Punctul de referință se menține la 81 lei în 2026",
+          "url": "https://www.avocatnet.ro/articol_69993/Nici-in-2026-nu-se-majoreaza-pensiile-Punctul-de-referinta-se-mentine-la-aceeasi-valoare-si-in-acest-an.html"
+        }
+      ]
+    },
+    {
+      "text": "Cifra de 55% la energie corespunde lunii mai (55,49%), aceeași lună cu inflația de 10,9% citată în articol. Cel mai recent raport INS, pentru iunie 2026, arată însă o scumpire mai mare, de circa 59,97% față de anul anterior. Prin urmare, procentul exact depinde de luna de referință, iar „55%” este mai degrabă o valoare conservatoare față de datele oficiale actualizate.",
+      "sources": [
+        {
+          "name": "Economedia — Energia electrică s-a scumpit cu aproape 60% (iunie 2026)",
+          "url": "https://economedia.ro/energia-electrica-s-a-scumpit-cu-aproape-60-intr-un-an-dupa-eliminarea-plafonarii-benzina-si-motorina-cresteri-de-peste-20.html"
+        },
+        {
+          "name": "InvesTenergy — INS: energia electrică conduce topul scumpirilor din iunie (~60%)",
+          "url": "https://www.investenergy.ro/ins-energia-electrica-conduce-topul-scumpirilor-din-iunie-preturi-mai-mari-cu-aproape-60/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Titlul „puterea de cumpărare se prăbușește” este o caracterizare editorială, nu o mărime măsurabilă. Datele oficiale arată o erodare reală și constantă (salarii reale ~-7% pe an, pensii reale ~-2,7% pe an), semnificativă — dar cuvântul „prăbușire” este interpretarea autorului; INS măsoară scăderi de câteva procente pe an, nu un colaps brusc. Concluzia dacă asta înseamnă „prăbușire” o trage cititorul."
+    },
+    {
+      "text": "Afirmația că „salariile nominale nu mai țin pasul cu prețurile” este susținută ca tendință de ansamblu, dar rămâne o generalizare: media națională ascunde diferențe mari între sectoare, unde unele domenii au avut creșteri salariale peste rata inflației."
+    }
+  ],
+  "math": {
+    "title": "Cât pierzi din puterea de cumpărare când salariul crește mai încet decât prețurile",
+    "explanation": "Puterea de cumpărare înseamnă cât poți efectiv cumpăra cu banii tăi. Indicele salariului real se calculează simplu: 100 × (1 + creșterea salariului) ÷ (1 + inflația). În mai 2026, salariul net nominal a crescut cu circa 3,2% față de mai 2025, dar prețurile au urcat cu 10,9%. Calcul: 100 × 1,032 ÷ 1,109 = 93,1. Adică din fiecare 100 de lei de putere de cumpărare de acum un an, îți mai rămân ~93 de lei — o pierdere de aproape 7%. Este exact indicele câștigului salarial real publicat de INS pentru mai (93,1%). La pensii mecanismul e identic: indicele pensiei reale de 97,3% înseamnă o pierdere de ~2,7% din puterea de cumpărare într-un an. Notă de transparență: cifra de ~3,2% creștere nominală nu e inventată separat, ci reiese chiar din cele două date INS (0,931 × 1,109 = 1,0325, adică +3,25%). Cifre din surse: inflația 10,9% (INS, mai 2026), indicele salarial real 93,1% și indicele pensiei reale 97,3% (INS)."
+  },
+  "aiNote": "Dovezile susțin, în esență, afirmația centrală: inflația de 10,9% (mai 2026), scumpirea energiei cu ~55% și pensia medie de 2.934 lei cu indice real de 97,3% sunt toate date oficiale INS, iar înghețarea majorării la 81 lei prin Legea 141/2025 până în 2027 este confirmată de legislație și de presa juridică. Nu decretăm nimic „adevărat sau fals” — arătăm ce se probează. Două rezerve de limbaj: titlul „se prăbușește” este mai dramatic decât o arată cifrele (vorbim de o erodare reală și constantă de câteva procente pe an, nu de un colaps), iar „punctul de pensie” de 81 lei este de fapt „valoarea punctului de referință” din Legea 360/2023, nu vechiul indicator. Cititorul poate verifica singur fiecare cifră în sursele INS de mai jos și își trage propria concluzie."
+}
