@@ -276,6 +276,42 @@ def build_politicieni(arts, shell):
     h = h.replace('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')
     return h, len(with_a), len(without)
 
+def build_search_page(arts, shell):
+    """Pagină de căutare client-side (filtrează toate articolele după cuvinte)."""
+    idx = []
+    for d in sorted(arts.values(), key=lambda d: d.get("date",""), reverse=True):
+        idx.append({"slug": d["slug"], "title": d["title"], "cat": d["category"],
+                    "dek": trunc(d.get("dek",""), 150), "persoane": d.get("persoane") or []})
+    main_html = ('    <div class="wrap" style="max-width:760px;margin:0 auto;padding:0 20px">\n'
+        '      <div style="padding:30px 0 6px">\n'
+        '        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 8px">Caută o afirmație</h1>\n'
+        '        <p style="color:var(--ink-faint);font-size:16px">Scrie un cuvânt — nume, subiect, țară — și-ți arătăm verificările potrivite.</p>\n'
+        '        <input id="q" type="search" placeholder="ex: Georgescu, inflație, China, eclipsă…" autofocus '
+        'style="width:100%;padding:14px 16px;font-size:17px;border:1px solid var(--line-2);border-radius:12px;background:var(--card);color:inherit;margin-top:14px;font-family:inherit">\n'
+        '      </div>\n'
+        '      <div id="res" style="display:grid;gap:10px;margin:14px 0 40px"></div>\n'
+        '    </div>\n'
+        '    <script>window.FB_SEARCH = ' + json.dumps(idx, ensure_ascii=False) + ';</script>\n'
+        '''    <script>
+    (function(){
+      var D=window.FB_SEARCH||[],q=document.getElementById('q'),r=document.getElementById('res');
+      function nrm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');}
+      function esc(s){return (s||'').replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+      function render(l){ if(!l.length){r.innerHTML='<div style="color:var(--ink-faint);padding:12px">Nimic încă — încearcă alt cuvânt.</div>';return;}
+        r.innerHTML=l.map(function(a){return '<a href="a/'+a.slug+'.html" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:12px;padding:14px 16px"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)">'+esc(a.cat)+'</div><div style="font-weight:700;margin:3px 0 4px">'+esc(a.title)+'</div><div style="font-size:13.5px;color:var(--ink-faint)">'+esc(a.dek)+'</div></a>';}).join('');}
+      function run(){var v=nrm(q.value).trim(); if(!v){render(D.slice(0,8));return;} var t=v.split(/\\s+/);
+        render(D.filter(function(a){var h=nrm(a.title+' '+a.dek+' '+a.cat+' '+(a.persoane||[]).join(' ')); return t.every(function(x){return h.indexOf(x)>-1;});}).slice(0,30));}
+      q.addEventListener('input',run); run();
+    })();
+    </script>''')
+    _new = "<main>\n"+main_html+"\n  </main>"
+    h = re.sub(r'<main>.*?</main>', lambda m: _new, shell, count=1, flags=re.S)
+    h = h.replace("<title>Fără Baliverne — Apă, paie… Adevăr</title>", "<title>Caută o afirmație — Fără Baliverne</title>")
+    h = h.replace('<link rel="canonical" href="https://farabaliverne.ro/">', '<link rel="canonical" href="https://farabaliverne.ro/cauta.html">')
+    h = h.replace('<meta property="og:url" content="https://farabaliverne.ro/">', '<meta property="og:url" content="https://farabaliverne.ro/cauta.html">')
+    h = h.replace('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')
+    return h
+
 def main():
     arts = load()
     total = len(arts)
@@ -287,12 +323,14 @@ def main():
     shell = open(IDX, encoding="utf-8").read()
     pol, nwith, nwithout = build_politicieni(arts, shell)
     open(os.path.join(ROOT, "politicieni.html"), "w", encoding="utf-8").write(pol)
+    open(os.path.join(ROOT, "cauta.html"), "w", encoding="utf-8").write(build_search_page(arts, shell))
     # 3. count pe toate paginile
     pages = [IDX] + glob.glob(os.path.join(ROOT,"a","*.html")) + \
-            [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html")]
+            [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html")]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
-    hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html")}
+    hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html"),
+           os.path.join(ROOT,"cauta.html")}
     for f in pages:
         if not os.path.exists(f): continue
         s = open(f, encoding="utf-8").read(); orig = s
