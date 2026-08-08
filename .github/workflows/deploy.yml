@@ -19,6 +19,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy prin FTP
+        id: ftp
+        continue-on-error: true
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -26,6 +28,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           server-dir: ./
+          timeout: 60000
           # NU urca (și NU șterge) astea:
           exclude: |
             **/.git*
@@ -40,4 +43,32 @@ jobs:
             php.ini
             .user.ini
             .well-known/**
+            scripts/**
+            farabaliverne-deploy.zip
+
+      # Reîncercare automată dacă FTP-ul a dat timeout trecător (control socket)
+      - name: Deploy prin FTP (reîncercare)
+        if: steps.ftp.outcome == 'failure'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          server-dir: ./
+          timeout: 90000
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            data/**
+            preview/**
+            dist/**
+            **/*.md
+            og-cover.svg
+            .gitignore
+            php.ini
+            .user.ini
+            .well-known/**
+            scripts/**
             farabaliverne-deploy.zip
