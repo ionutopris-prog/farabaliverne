@@ -18,6 +18,28 @@ Cum adaugi un articol nou (și pt agentul cloud):
   4. commit + push  →  GitHub urcă singur pe site
 """
 import json, re, glob, os, unicodedata
+from datetime import datetime, timedelta
+
+def now_edition():
+    """Data + „Ediția de X" după ora României, la momentul build-ului (când se pun articole)."""
+    try:
+        from zoneinfo import ZoneInfo
+        n = datetime.now(ZoneInfo("Europe/Bucharest"))
+    except Exception:
+        n = datetime.utcnow() + timedelta(hours=3)  # EEST aproximativ
+    days = ["Luni","Marți","Miercuri","Joi","Vineri","Sâmbătă","Duminică"]
+    months = ["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august",
+              "septembrie","octombrie","noiembrie","decembrie"]
+    date_str = f"{days[n.weekday()]}, {n.day} {months[n.month-1]} {n.year}"
+    h = n.hour
+    if   5 <= h < 8:   ed = "Ediția de dimineață"
+    elif 8 <= h < 11:  ed = "Ediția de cafeluță"
+    elif 11 <= h < 14: ed = "Ediția de amiază"
+    elif 14 <= h < 17: ed = "Ediția de după-amiază"
+    elif 17 <= h < 20: ed = "Ediția de seară"
+    elif 20 <= h < 23: ed = "Ediția de seară târzie"
+    else:              ed = "Ediția de noapte"
+    return f"{date_str} · {ed}"
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDX  = os.path.join(ROOT, "index.html")
@@ -268,11 +290,16 @@ def main():
     # 3. count pe toate paginile
     pages = [IDX] + glob.glob(os.path.join(ROOT,"a","*.html")) + \
             [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html")]
+    tb = now_edition()
+    date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
+    hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html")}
     for f in pages:
         if not os.path.exists(f): continue
-        s = open(f, encoding="utf-8").read()
-        s2 = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
-        if s2 != s: open(f,"w",encoding="utf-8").write(s2)
+        s = open(f, encoding="utf-8").read(); orig = s
+        s = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
+        if f in hub:  # data + „ediția de X" pe paginile-hub (după momentul publicării)
+            s = date_re.sub(lambda m: m.group(1) + tb + m.group(2), s)
+        if s != orig: open(f, "w", encoding="utf-8").write(s)
     print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând")
 
 if __name__ == "__main__":
