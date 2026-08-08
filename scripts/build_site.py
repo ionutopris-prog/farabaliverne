@@ -23,10 +23,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDX  = os.path.join(ROOT, "index.html")
 
 FEATURED = "legea-integritatii-vot-final"   # articolul din hero (rămâne curatoriat manual)
-CAT_ORDER = ["Politică", "Economie", "Extern", "Social", "Sport"]
-CAT_ID = {"Politică":"politica","Economie":"economie","Extern":"extern","Social":"social","Sport":"sport"}
-GCLASS = {"Politică":"g-pol","Economie":"g-eco","Social":"g-soc","Sport":"g-sport","Extern":"g-ext"}
-CATGLYPH = {"Politică":"⚖️","Economie":"💶","Social":"👥","Extern":"🌍","Sport":"⚽"}
+CAT_ORDER = ["Politică", "Economie", "Extern", "Știință", "Media de stat", "Social", "Sport"]
+CAT_ID = {"Politică":"politica","Economie":"economie","Extern":"extern","Știință":"stiinta","Media de stat":"media-de-stat","Social":"social","Sport":"sport"}
+GCLASS = {"Politică":"g-pol","Economie":"g-eco","Social":"g-soc","Sport":"g-sport","Extern":"g-ext","Știință":"g-sci","Media de stat":"g-state"}
+CATGLYPH = {"Politică":"⚖️","Economie":"💶","Social":"👥","Extern":"🌍","Sport":"⚽","Știință":"🔬","Media de stat":"📡"}
 
 # roster politicieni (echilibrat pe partide) — se pot adăuga oricând
 ROSTER = [
@@ -46,7 +46,9 @@ PCOLOR = {"PSD":"#d0021b","PNL":"#e6a817","USR":"#1f6fb2","AUR":"#16407a","SOS":
  "independent":"#777","fost președinte":"#888","Președinte R. Moldova":"#0a4bab","—":"#777"}
 
 CAT_NORMALIZE = {"politica":"Politică","politică":"Politică","economie":"Economie",
- "extern":"Extern","social":"Social","sport":"Sport"}
+ "extern":"Extern","social":"Social","sport":"Sport",
+ "stiinta":"Știință","știință":"Știință","stiință":"Știință",
+ "media de stat":"Media de stat","media-de-stat":"Media de stat","mediadestat":"Media de stat"}
 def load():
     arts = {}
     for p in glob.glob(os.path.join(ROOT, "data", "*.json")):
