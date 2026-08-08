@@ -138,11 +138,54 @@ def build_feed(arts):
 ''')
     return "\n".join(out)
 
+def build_featured_script(arts):
+    """Hero rotativ: la fiecare refresh, JS alege aleatoriu alt articol pt „principalul"."""
+    items = sorted(arts.values(), key=lambda d: d.get("date",""), reverse=True)[:20]
+    data = []
+    for d in items:
+        glyph, heroimg, fav, srcname = extract(d)
+        vc, vl = vcl(d.get("mainVerdict"))
+        data.append({
+            "slug": d["slug"], "title": d["title"], "dek": d.get("dek",""),
+            "cat": d["category"], "g": GCLASS.get(d["category"], "g-pol"),
+            "glyph": glyph, "img": heroimg or "", "fav": fav, "src": srcname,
+            "vc": vc, "vl": vl,
+            "np": len(d.get("probat") or []), "nc": len(d.get("contestat") or []),
+            "no": len(d.get("opinie") or []),
+        })
+    js_data = "        <script>window.FB_FEATURED = " + json.dumps(data, ensure_ascii=False) + ";</script>\n"
+    js_logic = '''        <script>
+        (function(){
+          var L=window.FB_FEATURED||[]; if(L.length<2) return;
+          var h=document.querySelector('a.hero'); if(!h) return;
+          try{
+            var last=sessionStorage.getItem('fbHeroLast');
+            var pool=L.filter(function(a){return a.slug!==last;}); if(!pool.length) pool=L;
+            var p=pool[Math.floor(Math.random()*pool.length)];
+            sessionStorage.setItem('fbHeroLast',p.slug);
+            h.setAttribute('href','a/'+p.slug+'.html');
+            var ph=h.querySelector('.photo'); if(ph) ph.className='photo '+p.g;
+            var g=h.querySelector('.glyph'); if(g) g.textContent=p.glyph;
+            var im=h.querySelector('img'); if(im){ if(p.img){im.src=p.img;im.style.display='';} else {im.style.display='none';} }
+            var cp=h.querySelector('.cat-pill'); if(cp) cp.textContent=p.cat;
+            var sb=h.querySelector('.srcbadge'); if(sb) sb.innerHTML=p.fav+' '+p.src;
+            var ct=h.querySelector('.eyebrow .cat-tag'); if(ct) ct.textContent=p.cat;
+            var rb=h.querySelector('.report-badge'); if(rb) rb.innerHTML='<span class="seg ok">\\u2714 '+p.np+' probate</span> <span style="color:var(--line-2)">\\u00b7</span> <span class="seg warn">\\u26a0 '+p.nc+' contestate</span> <span style="color:var(--line-2)">\\u00b7</span> <span class="seg op">\\u270e '+p.no+' opinie</span>';
+            var t=h.querySelector('h1'); if(t) t.textContent=p.title;
+            var dk=h.querySelector('.dek'); if(dk) dk.textContent=p.dek;
+            var s2=h.querySelector('.meta .src'); if(s2) s2.innerHTML=p.fav+' '+p.src;
+            var ch=h.querySelector('.meta .chip'); if(ch){ ch.className='chip soft '+p.vc+' sm'; ch.textContent='unde bat probele: '+p.vl; }
+          }catch(e){}
+        })();
+        </script>
+'''
+    return js_data + js_logic
+
 def replace_feed(html, feed):
     START, END = "<!-- AUTO:feed:start -->", "<!-- AUTO:feed:end -->"
     block = f"{START}\n{feed}        {END}\n"
     if START in html and END in html:
-        return re.sub(re.escape(START) + r".*?" + re.escape(END) + r"\n", block, html, count=1, flags=re.S)
+        return re.sub(re.escape(START) + r".*?" + re.escape(END) + r"\n", lambda m: block, html, count=1, flags=re.S)
     # bootstrap: instalează marcajele în jurul secțiunilor existente
     i = html.index('<section class="cat-section" id="politica">')
     j = html.index('      </div>\n\n      <aside>')
@@ -214,7 +257,7 @@ def main():
     total = len(arts)
     # 1. feed
     html = open(IDX, encoding="utf-8").read()
-    html = replace_feed(html, build_feed(arts))
+    html = replace_feed(html, build_feed(arts) + build_featured_script(arts))
     open(IDX, "w", encoding="utf-8").write(html)
     # 2. politicieni (clonează shell-ul din index)
     shell = open(IDX, encoding="utf-8").read()
