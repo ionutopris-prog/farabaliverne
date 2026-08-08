@@ -21,6 +21,7 @@ jobs:
     permissions:
       contents: write        # ca botul să facă push
       pull-requests: write    # ca să deschidă PR la persoane numite
+      actions: write          # ca să declanșeze workflow-ul de deploy
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -53,32 +54,11 @@ jobs:
             --dangerously-skip-permissions \
             --max-turns 60 || echo "::warning::Claude a ieșit cu cod non-zero (verifică log-ul)"
 
-      - name: Sincronizează main (publică DOAR conținutul aprobat)
-        run: |
-          git fetch origin main
-          git checkout main
-          git reset --hard origin/main
-
-      - name: Deploy pe Datahost (FTP)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftp
-          server-dir: ./
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/.github/**
-            data/**
-            preview/**
-            dist/**
-            **/*.md
-            og-cover.svg
-            .gitignore
-            php.ini
-            .user.ini
-            .well-known/**
-            scripts/**
-            farabaliverne-deploy.zip
+      # Publicarea o face workflow-ul dedicat „Deploy la Datahost (FTP)" (deploy.yml),
+      # care e dovedit stabil. Îl declanșăm după ce botul a pus articolele pe main.
+      # Decuplat: dacă FTP-ul are un timeout trecător, deploy.yml se re-rulează singur,
+      # fără să pice ediția (conținutul e deja în siguranță pe GitHub).
+      - name: Publică (declanșează deploy-ul)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
