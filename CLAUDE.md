@@ -27,6 +27,12 @@ CITITORUL trage concluzia.**
 De ce: dacă AI decretează și greșește → devenim NOI sursă de dezinformare (ironic + risc de
 **defăimare**). Arătând doar dovezi + lăsând omul să concluzioneze → credibil ȘI protejați legal.
 
+### „Neadevăr", nu „minciună" (regula fondatorului, 8 aug 2026)
+- **Nu spunem că cineva „a mințit"** (imputarea intenției = risc de defăimare). Spunem **DE CE** o afirmație **nu se susține**, cu argumente + surse.
+- Exemplu-șablon (nanocipuri): nu „minte", ci „**neadevăr** — momentan nu există cipuri atât de mici, fiindcă nu există încă mașina care să le producă; e la limita dintre teorie și fantastic". Arăți mecanismul, nu verdictul.
+- **Agregare cu surse, ca Digi24 / ziare.com / Biziday** — nu inventăm roata, aducem sursele împreună. Regulă: **fără cel puțin o sursă reală, nu publicăm** (fără sursă, „acțiunea" e doar o poveste).
+- Reciproc: nu spunem nici „e adevărat" ca oracol — spunem „se probează de sursele X". Mereu „unde bat probele", nu verdict final.
+
 ## Metodologia = motorul de verificare
 Aceeași logică ca `deep-research` (vezi `~/Projects/marketing-ai`): afirmație → caută surse →
 **verifică adversarial** → etichetează CONFIRMAT (surse, vot) / REFUTAT / NEVERIFICABIL →
