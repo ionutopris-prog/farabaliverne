@@ -7,8 +7,10 @@ name: Fără Baliverne — ediția automată
 
 on:
   schedule:
-    - cron: "0 5 * * *"     # zilnic 05:00 UTC = 07:00 Europe/Copenhagen (ediția de dimineață)
-  workflow_dispatch: {}      # buton „Run workflow" pentru test manual
+    - cron: "0 3-19/2 * * *"   # ZI, la 2h (UTC 03–19 = EEST 06–22): RO+Europa+SUA+Știință
+    - cron: "0 22 * * *"        # NOAPTE (UTC 22 = EEST 01): Asia-Pacific+Orient+Media de stat
+    - cron: "0 1 * * *"         # NOAPTE (UTC 01 = EEST 04)
+  workflow_dispatch: {}         # buton „Run workflow" pentru test manual
 
 concurrency:
   group: editie-automata
@@ -49,10 +51,19 @@ jobs:
         run: |
           git config user.name "Fara Baliverne Bot"
           git config user.email "bot@farabaliverne.ro"
-          claude -p "$(cat .github/edition-prompt.md)" \
+          H=$((10#$(date -u +%H)))
+          if [ "$H" -ge 2 ] && [ "$H" -le 19 ]; then
+            W="ZI (05-22 EEST) — Romania + Europa + SUA + Stiinta"
+          else
+            W="NOAPTE (22-05 EEST) — Asia-Pacific + Orientul Mijlociu + Media de stat"
+          fi
+          PROMPT="$(cat .github/edition-prompt.md)
+
+          FEREASTRA CURENTA: $W"
+          claude -p "$PROMPT" \
             --model sonnet \
             --dangerously-skip-permissions \
-            --max-turns 60 || echo "::warning::Claude a ieșit cu cod non-zero (verifică log-ul)"
+            --max-turns 80 || echo "::warning::Claude a ieșit cu cod non-zero (verifică log-ul)"
 
       # Publicarea o face workflow-ul dedicat „Deploy la Datahost (FTP)" (deploy.yml),
       # care e dovedit stabil. Îl declanșăm după ce botul a pus articolele pe main.
