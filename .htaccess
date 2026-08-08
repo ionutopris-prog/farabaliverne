@@ -39,6 +39,10 @@ Options -Indexes
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set X-Frame-Options "SAMEORIGIN"
+  # HTML mereu proaspăt (site auto-actualizat des) — fără cache în browser/edge
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate, max-age=0"
+  </FilesMatch>
 </IfModule>
 
 # --- nu servi sursele de build ---
