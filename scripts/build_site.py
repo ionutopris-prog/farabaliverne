@@ -79,7 +79,10 @@ def load():
         # plasă de siguranță: normalizează categoria (diacritice/majuscule)
         c = (d.get("category") or "").strip()
         d["category"] = CAT_NORMALIZE.get(c.lower(), c)
-        if d.get("slug"): arts[d["slug"]] = d
+        slug = d.get("slug")
+        # rezistent la curse: include articolul doar dacă are ȘI HTML-ul (nu doar JSON-ul)
+        if slug and os.path.exists(os.path.join(ROOT, "a", slug + ".html")):
+            arts[slug] = d
     return arts
 
 def vcl(v):

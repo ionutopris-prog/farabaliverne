@@ -363,7 +363,7 @@
   var tz=''; try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
   var city=((tz.split('/').pop()||'').replace(/_/g,' ')); city=MAP[city]||city||'';
   var wx='';
-  function paint(){var t=new Date().toLocaleTimeString('ro-RO',{hour:'2-digit',minute:'2-digit'});el.innerHTML='<span class="dot"></span> 📍 '+city+' · '+t+wx;}
+  function paint(){var t=new Date().toLocaleTimeString('ro-RO',{hour:'2-digit',minute:'2-digit'});el.innerHTML='<span class="dot"></span> '+city+' · '+t+wx;}
   if(city){paint(); setInterval(paint,30000);}
   try{
     fetch('https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(city)+'&count=1&language=ro').then(function(r){return r.json();}).then(function(g){
