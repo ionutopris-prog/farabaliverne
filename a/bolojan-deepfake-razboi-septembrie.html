@@ -622,5 +622,23 @@
   }
 })();
 </script>
+<script>
+(function(){
+  var el=document.querySelector('.topbar .live'); if(!el) return;
+  var MAP={'Bucharest':'București','Chisinau':'Chișinău','Timisoara':'Timișoara','Iasi':'Iași'};
+  function emo(c){if(c===0)return'☀️';if(c<=3)return'⛅';if(c<=48)return'🌫️';if(c<=67)return'🌧️';if(c<=77)return'❄️';if(c<=82)return'🌦️';return'⛈️';}
+  var tz=''; try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+  var city=((tz.split('/').pop()||'').replace(/_/g,' ')); city=MAP[city]||city||'';
+  var wx='';
+  function paint(){var t=new Date().toLocaleTimeString('ro-RO',{hour:'2-digit',minute:'2-digit'});el.innerHTML='<span class="dot"></span> 📍 '+city+' · '+t+wx;}
+  if(city){paint(); setInterval(paint,30000);}
+  try{
+    fetch('https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(city)+'&count=1&language=ro').then(function(r){return r.json();}).then(function(g){
+      if(!g.results||!g.results[0])return; var o=g.results[0];
+      return fetch('https://api.open-meteo.com/v1/forecast?latitude='+o.latitude+'&longitude='+o.longitude+'&current=temperature_2m,weather_code');
+    }).then(function(r){return r&&r.json();}).then(function(w){ if(w&&w.current){wx=' · '+emo(w.current.weather_code)+' '+Math.round(w.current.temperature_2m)+'°'; paint();} }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
