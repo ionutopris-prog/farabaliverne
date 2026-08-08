@@ -1,0 +1,62 @@
+{
+  "slug": "iunie-2026-record-caldura-copernicus-omm",
+  "title": "Iunie 2026, cea mai caldă lună iunie din istorie pentru Europa de Vest — Copernicus și OMM confirmă recorduri și în ocean",
+  "category": "Știință",
+  "date": "2026-08-08",
+  "source": "OMM / Copernicus (C3S)",
+  "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record",
+  "dek": "Serviciul Copernicus pentru Schimbări Climatice (UE) și Organizația Meteorologică Mondială (ONU) au anunțat că iunie 2026 a fost cea mai caldă lună iunie din istorie pentru Europa de Vest și a doua la nivel global, iar temperatura la suprafața oceanului a atins un nou record pentru această perioadă a anului. Am rezumat în română datele oficiale și le-am pus lângă sursele primare.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Iunie 2026 a fost cea mai caldă lună iunie din istorie pentru Europa de Vest, cu o medie de 20,74°C — cu 3,05°C peste media perioadei de referință 1991–2020. La nivel global, a fost a doua cea mai caldă lună iunie măsurată (16,54°C, adică +0,56°C peste medie), după iunie 2024. Cifrele provin din reanaliza ERA5 folosită de Serviciul Copernicus (C3S) și sunt preluate de Organizația Meteorologică Mondială (OMM).",
+      "sources": [
+        { "name": "OMM (WMO) — Europa de Vest, cea mai caldă lună iunie din istorie", "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record" },
+        { "name": "Copernicus C3S — recorduri zilnice de temperatură a mării", "url": "https://climate.copernicus.eu/copernicus-marine-and-copernicus-climate-change-daily-global-sea-surface-temperatures-break-records" }
+      ]
+    },
+    {
+      "text": "Temperatura la suprafața oceanului a stabilit un nou record pentru această perioadă a anului. Pe 21 iunie 2026, temperatura medie zilnică globală a mării măsurată de C3S a fost de 20,86°C, depășind ușor recordul de 20,83°C din 2023 și 2024; serviciul Copernicus Marine a raportat 21,0°C, cu 0,1°C peste recordurile anterioare. Oceanul extra-polar (60°S–60°N) a atins cea mai ridicată temperatură de iunie din istorie, cu 0,01°C peste iunie 2024. Contextul: pe 2 iunie 2026, OMM anunțase instalarea condițiilor El Niño în Pacificul ecuatorial.",
+      "sources": [
+        { "name": "Copernicus — temperaturile zilnice ale mării, record pentru sezon (1 iul. 2026)", "url": "https://climate.copernicus.eu/copernicus-marine-and-copernicus-climate-change-daily-global-sea-surface-temperatures-break-records" },
+        { "name": "OMM — sinteza valului de căldură din iunie 2026", "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record" }
+      ]
+    },
+    {
+      "text": "Valul de căldură a produs recorduri naționale și locale de temperatură la sol, verificabile la stații oficiale: Germania 41,7°C (Coschen, 28 iunie), Țările de Jos un nou record național de 39,4°C, Ungaria 40,7°C (lângă Budapesta, 28 iunie). La observatorul Fabra din Barcelona — o stație cu peste un secol de măsurători — s-au înregistrat 40,5°C pe 8 iulie 2026, cea mai ridicată valoare din întreaga serie de date.",
+      "sources": [
+        { "name": "OMM — recorduri naționale în valul de căldură european", "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record" },
+        { "name": "OMM — iulie stabilește noi recorduri de temperatură", "url": "https://wmo.int/media/news/july-sets-new-temperature-records" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "„Cea mai caldă” depinde de setul de date și de agenție. Rankingul global (a doua sau a treia cea mai caldă lună iunie/iulie) poate diferi cu zecimi de grad între serviciile care folosesc baze de referință și metodologii diferite (Copernicus/ERA5 față de alte agenții meteorologice). Aici folosim cifrele Copernicus și OMM; diferențele față de alte seturi sunt de ordinul zecimilor de grad și nu schimbă tabloul de fond — o lună excepțional de caldă, cu recorduri regionale clare.",
+      "sources": [
+        { "name": "Copernicus C3S — pagină oficială și note metodologice", "url": "https://climate.copernicus.eu/" },
+        { "name": "OMM — sinteza lunii iunie 2026", "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record" }
+      ]
+    },
+    {
+      "text": "Recordul de temperatură al unei luni este o măsurătoare, dar atribuirea unui anumit val de căldură exclusiv schimbării climatice cere studii de atribuire separate. Ce este documentat de OMM este tendința pe termen lung: Europa este continentul care se încălzește cel mai rapid, cu aproximativ 2°C în ultimii 50 de ani. Cât din temperatura unei zile anume se datorează climei versus variabilității naturale (inclusiv El Niño) rămâne o estimare, nu o certitudine punctuală.",
+      "sources": [
+        { "name": "OMM — Europa, continentul care se încălzește cel mai rapid (declarația șefului de climatologie)", "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record" }
+      ]
+    }
+  ],
+  "opinie": [
+    { "text": "Formulările de tip „planeta fierbe” sau „colaps climatic” țin de retorică editorială. Datele arată o încălzire măsurată, record dar de ordinul zecimilor și gradelor — gravă pe termen lung, însă intensitatea limbajului rămâne o alegere de ton, nu un fapt din tabelul de măsurători." },
+    { "text": "Ce „ar trebui făcut” în privința politicilor climatice (taxe, energie, restricții) este o dezbatere politică legitimă, dar de opinie. Noi consemnăm cifrele oficiale de temperatură; concluziile despre politici le trage cititorul." }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română date din surse primare (Serviciul Copernicus pentru Schimbări Climatice al UE și Organizația Meteorologică Mondială a ONU); interpretarea aparține Fără Baliverne. Aici principiul nostru e ușor de aplicat, pentru că vorbim de măsurători: temperaturile medii, recordurile la stații și temperatura oceanului sunt cuantificate și publicate de agenții. Faptele — iunie 2026 cea mai caldă lună iunie pentru Europa de Vest (20,74°C, +3,05°C), a doua la nivel global, plus recordul de temperatură a mării din 21 iunie — se probează. Ce am marcat drept „de nuanțat” nu e existența recordului, ci (1) faptul că rankingul global exact variază cu zecimi de grad între agenții și (2) că legarea unui val de căldură anume, în întregime, de schimbarea climatică cere studii de atribuire separate. Retorica („planeta fierbe”) și dezbaterea despre politici rămân opinii, separate de datele măsurate.",
+  "math": {
+    "title": "+3,05°C și 0,01°C: două cifre care spun povestea",
+    "explanation": "Merită văzute două numere. Primul: +3,05°C — cu atât a depășit iunie 2026 media 1991–2020 în Europa de Vest; o abatere mare pentru o medie lunară pe o regiune întreagă, de aceea a devenit „cea mai caldă lună iunie din istorie” acolo. Al doilea, aparent minuscul: 0,01°C — marja cu care oceanul extra-polar a bătut recordul din iunie 2024. Pare nesemnificativ, dar la scara întregii suprafețe oceanice dintre 60°S și 60°N (sute de milioane de km²), o zecime sau o sutime de grad înseamnă o cantitate enormă de căldură stocată în apă. Un record „la mustață” pe o suprafață atât de mare nu e zgomot statistic, ci confirmarea unei tendințe: temperaturile oceanului rămân în teritoriu-record de trei ani. Notă: cifrele sunt măsurători/reanalize solide; ce rămâne de precizat prin studii separate este cât din fiecare val de căldură ține de climă și cât de El Niño.",
+    "sources": [
+      { "name": "OMM — cifrele lunii iunie 2026", "url": "https://wmo.int/media/news/western-europe-has-hottest-june-record" },
+      { "name": "Copernicus — recordul temperaturii mării", "url": "https://climate.copernicus.eu/copernicus-marine-and-copernicus-climate-change-daily-global-sea-surface-temperatures-break-records" }
+    ]
+  },
+  "persoane": []
+}
