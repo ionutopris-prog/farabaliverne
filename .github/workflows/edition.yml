@@ -1,0 +1,84 @@
+name: Fără Baliverne — ediția automată
+
+# Rulează redactorul automat pe abonamentul MAX (token de abonament, NU cheie API).
+# Secrete necesare în repo (Settings → Secrets and variables → Actions):
+#   CLAUDE_CODE_OAUTH_TOKEN  = din `claude setup-token` (abonament Max, fără cost extra)
+#   FTP_SERVER / FTP_USERNAME / FTP_PASSWORD  = deja setate
+
+on:
+  schedule:
+    - cron: "0 5 * * *"     # zilnic 05:00 UTC = 07:00 Europe/Copenhagen (ediția de dimineață)
+  workflow_dispatch: {}      # buton „Run workflow" pentru test manual
+
+concurrency:
+  group: editie-automata
+  cancel-in-progress: false
+
+jobs:
+  editie:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write        # ca botul să facă push
+      pull-requests: write    # ca să deschidă PR la persoane numite
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalează Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Rulează redactorul (abonament Max)
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Fara Baliverne Bot"
+          git config user.email "bot@farabaliverne.ro"
+          claude -p "$(cat .github/edition-prompt.md)" \
+            --model sonnet \
+            --dangerously-skip-permissions \
+            --max-turns 60 || echo "::warning::Claude a ieșit cu cod non-zero (verifică log-ul)"
+
+      - name: Sincronizează main (publică DOAR conținutul aprobat)
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      - name: Deploy pe Datahost (FTP)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          server-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            data/**
+            preview/**
+            dist/**
+            **/*.md
+            og-cover.svg
+            .gitignore
+            php.ini
+            .user.ini
+            .well-known/**
+            scripts/**
+            farabaliverne-deploy.zip
