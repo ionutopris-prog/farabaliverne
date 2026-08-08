@@ -401,7 +401,7 @@
       <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
       <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
       <div class="support">
-        <a href="../contact.html" class="btn-support">♥ Susține-ne</a>
+        <a href="#" onclick="gabeIt();return false" class="btn-support">⚡ Gabe it</a>
       </div>
     </div>
   </header>
@@ -413,6 +413,8 @@
       <a href="../index.html#economie">Economie</a>
       <a href="../index.html#extern">Extern</a>
       <a href="../index.html#social">Social</a>
+      <a href="../index.html#sport">Sport</a>
+      <a href="../politicieni.html">Politicieni</a>
       <span class="sep"></span>
       <a href="../index.html" class="search">🔍 Caută o afirmație</a>
     </div>
@@ -574,6 +576,7 @@
               <li><a href="../index.html#economie">Economie</a></li>
               <li><a href="../index.html#extern">Extern</a></li>
               <li><a href="../index.html#social">Social</a></li>
+              <li><a href="../index.html#sport">Sport</a></li>
             </ul>
           </div>
           <div>
@@ -583,6 +586,7 @@
               <li><a href="../cine-suntem.html">Cine suntem</a></li>
               <li><a href="../corectari.html">Corectări</a></li>
               <li><a href="../contact.html">Contact</a></li>
+              <li><a href="../publicitate.html">Publicitate</a></li>
             </ul>
           </div>
           <div>
@@ -602,5 +606,24 @@
       </div>
     </div>
   </footer>
+<script>
+(function(){
+  function toast(m){var t=document.createElement('div');t.textContent=m;t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2f4234;color:#fff;padding:11px 18px;border-radius:12px;font:600 14px system-ui;z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.25)';document.body.appendChild(t);setTimeout(function(){t.style.transition='opacity .4s';t.style.opacity='0';},1700);setTimeout(function(){t.remove();},2200);}
+  window.gabeIt=function(){var url=location.href,title=(document.title||'Fără Baliverne').replace(/\s*[—-]\s*Fără Baliverne.*$/,'');
+    if(navigator.share){navigator.share({title:title,text:title,url:url}).catch(function(){});return;}
+    var enc=encodeURIComponent,u=enc(url),t=enc(title);
+    var links=[['Postează pe Gabe','https://findgabe.app'],['Facebook','https://www.facebook.com/sharer/sharer.php?u='+u],['X','https://twitter.com/intent/tweet?url='+u+'&text='+t],['WhatsApp','https://wa.me/?text='+t+'%20'+u]];
+    var ov=document.createElement('div');ov.style.cssText='position:fixed;inset:0;background:rgba(30,40,30,.55);display:flex;align-items:center;justify-content:center;z-index:9998';
+    var box='<div style="background:#fff;color:#20281f;border-radius:16px;padding:22px;max-width:340px;width:88%;box-shadow:0 20px 60px rgba(0,0,0,.3);font-family:system-ui"><div style="font-weight:800;font-size:16px;margin-bottom:4px">⚡ Dă mai departe</div><div style="font-size:13px;opacity:.7;margin-bottom:14px">Un share ajunge la zeci de oameni. Mulțumim!</div><button id="gcopy" style="width:100%;padding:11px;border:1px solid #cfe0cf;background:#eef5ea;border-radius:10px;font-weight:700;cursor:pointer;margin-bottom:8px">📋 Copiază link</button>';
+    links.forEach(function(l){box+='<a href="'+l[1]+'" target="_blank" rel="noopener" style="display:block;padding:11px;border:1px solid #e2e8df;border-radius:10px;text-decoration:none;color:inherit;font-weight:600;margin-bottom:8px">'+l[0]+'</a>';});
+    box+='<button id="gclose" style="width:100%;padding:9px;background:none;border:none;color:#888;cursor:pointer;font-size:13px">Închide</button></div>';
+    ov.innerHTML=box;document.body.appendChild(ov);ov.addEventListener('click',function(e){if(e.target===ov)ov.remove();});
+    document.getElementById('gclose').onclick=function(){ov.remove();};
+    document.getElementById('gcopy').onclick=function(){navigator.clipboard.writeText(url).then(function(){toast('Link copiat — dă-l mai departe!');ov.remove();});};};
+  window.toggleLike=function(b){var k='fb_like_'+location.pathname,on=localStorage.getItem(k)!=='1';localStorage.setItem(k,on?'1':'0');b.style.background=on?'#a5372a':'';b.style.color=on?'#fff':'';if(on)toast('Mulțumim! ♥');};
+  window.subscribeNotify=function(){if(!('Notification'in window)){toast('Salvează-ne cu Ctrl+D 🔖');return;}Notification.requestPermission().then(function(p){toast(p==='granted'?'Gata! Te anunțăm la verificări noi.':'Salvează-ne cu Ctrl+D 🔖');});};
+  if(/\/a\//.test(location.pathname)){var fb=document.createElement('button');fb.textContent='⚡ Gabe it';fb.setAttribute('aria-label','Dă mai departe');fb.onclick=window.gabeIt;fb.style.cssText='position:fixed;right:18px;bottom:18px;z-index:9997;padding:12px 18px;border:none;border-radius:30px;background:linear-gradient(135deg,#2f8a49,#1f6a37);color:#fff;font:800 15px system-ui;cursor:pointer;box-shadow:0 8px 24px rgba(47,138,73,.4)';document.body.appendChild(fb);}
+})();
+</script>
 </body>
 </html>
