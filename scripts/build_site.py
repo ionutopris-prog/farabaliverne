@@ -339,6 +339,13 @@ def main():
         s = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
         if f in hub:  # data + „ediția de X" pe paginile-hub (după momentul publicării)
             s = date_re.sub(lambda m: m.group(1) + tb + m.group(2), s)
+        # La share, articolul își arată PROPRIA poză (din sursă), nu cardul generic de brand
+        if os.sep + "a" + os.sep in f:
+            mh = re.search(r'<img src="([^"]+)"[^>]*object-fit:cover;z-index:1', s)
+            if mh:
+                img = mh.group(1)
+                s = re.sub(r'(<meta property="og:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
+                s = re.sub(r'(<meta name="twitter:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
         if s != orig: open(f, "w", encoding="utf-8").write(s)
     print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând")
 
