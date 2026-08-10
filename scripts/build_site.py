@@ -167,7 +167,7 @@ def build_feed(arts):
 
 def build_featured_script(arts):
     """Hero rotativ: la fiecare refresh, JS alege aleatoriu alt articol pt „principalul"."""
-    items = sorted(arts.values(), key=lambda d: d.get("date",""), reverse=True)[:20]
+    items = sorted(arts.values(), key=lambda d: d.get("date",""), reverse=True)[:8]  # doar cele mai noi
     data = []
     for d in items:
         glyph, heroimg, fav, srcname = extract(d)
@@ -187,8 +187,7 @@ def build_featured_script(arts):
           var h=document.querySelector('a.hero'); if(!h) return;
           try{
             var last=sessionStorage.getItem('fbHeroLast');
-            var pool=L.filter(function(a){return a.slug!==last;}); if(!pool.length) pool=L;
-            var p=pool[Math.floor(Math.random()*pool.length)];
+            var p; if(!last){ p=L[0]; } else { var pool=L.filter(function(a){return a.slug!==last;}); if(!pool.length) pool=L; p=pool[Math.floor(Math.random()*pool.length)]; }
             sessionStorage.setItem('fbHeroLast',p.slug);
             h.setAttribute('href','a/'+p.slug+'.html');
             var ph=h.querySelector('.photo'); if(ph) ph.className='photo '+p.g;

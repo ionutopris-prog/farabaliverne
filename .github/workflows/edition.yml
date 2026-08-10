@@ -7,9 +7,9 @@ name: Fără Baliverne — ediția automată
 
 on:
   schedule:
-    - cron: "0 3-19/2 * * *"   # ZI, la 2h (UTC 03–19 = EEST 06–22): RO+Europa+SUA+Știință
-    - cron: "0 22 * * *"        # NOAPTE (UTC 22 = EEST 01): Asia-Pacific+Orient+Media de stat
-    - cron: "0 1 * * *"         # NOAPTE (UTC 01 = EEST 04)
+    - cron: "0 3-20 * * *"     # ZI, la FIECARE ORĂ (UTC 03–20 = EEST 06–23): RO+Europa+SUA
+    - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01)
+    - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04)
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
 
 concurrency:
@@ -52,10 +52,12 @@ jobs:
           git config user.name "Fara Baliverne Bot"
           git config user.email "bot@farabaliverne.ro"
           H=$((10#$(date -u +%H)))
-          if [ "$H" -ge 2 ] && [ "$H" -le 19 ]; then
-            W="ZI (05-22 EEST) — Romania + Europa + SUA + Stiinta"
+          if [ "$H" -ge 3 ] && [ "$H" -le 20 ]; then
+            W="ZI (06-23 EEST) — Romania + Europa + SUA (politica/economie/social/sport/extern). NU Stiinta (are editie proprie noaptea)."
+          elif [ "$H" -eq 1 ]; then
+            W="NOAPTE STIINTA (04 EEST) — editie DEDICATA DOAR categoriei Stiinta: spatiu, sanatate, tehnologie, clima, descoperiri, cu surse primare (NASA/ESA, reviste, agentii). Publica 2-4 articole doar Stiinta."
           else
-            W="NOAPTE (22-05 EEST) — Asia-Pacific + Orientul Mijlociu + Media de stat"
+            W="NOAPTE ASIA/ORIENT (01 EEST) — Asia-Pacific + Orientul Mijlociu + Media de stat (etichetata + cross-check independent)."
           fi
           PROMPT="$(cat .github/edition-prompt.md)
 
