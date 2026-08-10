@@ -1,0 +1,54 @@
+{
+  "slug": "bnr-dobanda-cheie-650-august-2026",
+  "title": "BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare",
+  "category": "Economie",
+  "date": "2026-08-10",
+  "source": "BURSA",
+  "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953",
+  "dek": "Banca Națională a României a decis luni, 10 august 2026, să păstreze dobânda-cheie de politică monetară la 6,50% pe an, nivel neschimbat de doi ani. Inflația anuală a scăzut la 10,42% în iunie, dar rămâne mult peste țintă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Consiliul de administrație al BNR a decis, luni, 10 august 2026, menținerea ratei dobânzii de politică monetară la 6,50% pe an. Decizia este relatată concordant de mai multe redacții economice.",
+      "sources": [
+        { "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an", "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953" },
+        { "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%", "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html" },
+        { "name": "ZF — Analiștii: BNR va menține dobânda-cheie la 6,5%", "url": "https://www.zf.ro/banci-si-asigurari/analistii-bnr-va-mentine-dobanda-cheie-la-6-5-in-sedinta-de-politica-monetara-de-luni-10-august-iar-reduceri-vom-vedea-anul-viitor-prognoza-de-inflatie-va-fi-revizuita-usor-in-sus-23211510" }
+      ]
+    },
+    {
+      "text": "Odată cu dobânda-cheie, BNR a păstrat neschimbate și rata dobânzii la facilitatea de creditare (Lombard), de 7,50% pe an, rata dobânzii la facilitatea de depozit, de 5,50% pe an, precum și nivelurile actuale ale ratelor rezervelor minime obligatorii pentru pasivele în lei și în valută ale băncilor.",
+      "sources": [
+        { "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an", "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953" },
+        { "name": "ZF — Analiștii: BNR va menține dobânda-cheie la 6,5%", "url": "https://www.zf.ro/banci-si-asigurari/analistii-bnr-va-mentine-dobanda-cheie-la-6-5-in-sedinta-de-politica-monetara-de-luni-10-august-iar-reduceri-vom-vedea-anul-viitor-prognoza-de-inflatie-va-fi-revizuita-usor-in-sus-23211510" }
+      ]
+    },
+    {
+      "text": "Inflația anuală a scăzut la 10,42% în iunie 2026, de la 10,85% în mai, coborâre explicată de BNR prin prețuri mai mici la alimente și carburanți, parțial compensate de scumpirea gazelor naturale și a energiei electrice.",
+      "sources": [
+        { "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an", "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953" }
+      ]
+    },
+    {
+      "text": "Este a noua ședință consecutivă de politică monetară în care BNR lasă dobânda-cheie neschimbată — ultima modificare a avut loc în august 2024, când banca centrală a redus rata de la 6,75% la 6,50%, nivel menținut de atunci la toate ședințele următoare.",
+      "sources": [
+        { "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%", "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html" }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Analiștii citați de ZF anticipează că BNR va păstra dobânda la 6,50% până în mai 2027, cu primele reduceri abia atunci — este o prognoză, nu un fapt decis; deciziile viitoare ale Consiliului de administrație depind de evoluția reală a inflației și a contextului economic, care nu erau cunoscute la data acestei ședințe."
+    },
+    {
+      "text": "Formulările despre \"corecție descendentă substanțială\" a inflației în trimestrul III 2026 și despre revenirea în interiorul țintei până la finalul lui 2027 reprezintă prognoza proprie a BNR, nu un rezultat garantat — ea depinde de \"efecte de bază\" și de presiuni deflaționiste pe care banca centrală le presupune, nu le-a observat încă."
+    }
+  ],
+  "math": {
+    "title": "Dobânda nominală e la 6,50%, dar în termeni reali românii tot pierd",
+    "explanation": "Dobânda-cheie de 6,50% pe an pare ridicată, dar inflația anuală era de 10,42% în iunie 2026. Scăzând inflația din dobânda nominală (6,50% − 10,42%), rezultă o rată reală de aproximativ −3,92 puncte procentuale. Cu alte cuvinte, chiar și la acest nivel al dobânzii, banii ținuți în depozite sau împrumutați cu dobândă apropiată de cea cheie pierd putere de cumpărare în termeni reali — inflația rămâne peste dobândă, nu invers."
+  },
+  "aiNote": "Sursele economice verificate confirmă concordant decizia: BNR a menținut dobânda-cheie la 6,50% pe an, a noua ședință la rând fără schimbare, cu Lombard la 7,50% și dobânda de depozit la 5,50%. Inflația a scăzut ușor, la 10,42% în iunie, dar rămâne mult peste ținta BNR. Am separat clar faptele (decizia, cifrele, ratele) de prognozele analiștilor și ale băncii centrale despre evoluția viitoare, care sunt estimări, nu certitudini.",
+  "persoane": []
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "germania-afd-sondaj-28-procente",
+  "title": "Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%",
+  "category": "Extern",
+  "date": "2026-08-10",
+  "source": "Digi24",
+  "url": "https://www.digi24.ro/stiri/externe/ue/sondaj-germania-extrema-dreapta-isi-creste-avansul-in-fata-blocului-de-centru-dreapta-al-cancelarului-merz-3896437",
+  "dek": "Un sondaj Infratest dimap, publicat pe 6 august 2026, arată partidul de extremă-dreapta AfD la 28% din intențiile de vot — cel mai ridicat nivel măsurat vreodată de acest institut — în timp ce blocul CDU/CSU al cancelarului Friedrich Merz a scăzut la 21%, cel mai slab rezultat din noiembrie 2021.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Potrivit sondajului Infratest dimap („Deutschlandtrend”), publicat joi, 6 august 2026, AfD a ajuns la 28% din intențiile de vot — un maxim istoric pentru acest institut — în timp ce blocul CDU/CSU al cancelarului Friedrich Merz a scăzut la 21%, cel mai slab scor din noiembrie 2021 încoace.",
+      "sources": [
+        { "name": "Digi24 — Extrema-dreaptă din Germania își crește avansul în fața blocului lui Merz", "url": "https://www.digi24.ro/stiri/externe/ue/sondaj-germania-extrema-dreapta-isi-creste-avansul-in-fata-blocului-de-centru-dreapta-al-cancelarului-merz-3896437" },
+        { "name": "HotNews — Extrema-dreapta germană ia avans față de blocul lui Merz", "url": "https://hotnews.ro/sondaj-extrema-dreapta-germana-ia-avans-fata-de-blocul-care-l-sustine-pe-cancelarul-merz-2319052" },
+        { "name": "Yahoo News (dpa international) — Poll: Germany's far-right AfD widens lead over Merz's conservatives", "url": "https://www.yahoo.com/news/world/articles/poll-germanys-far-afd-widens-164829575.html" }
+      ]
+    },
+    {
+      "text": "Restul partidelor, potrivit aceluiași sondaj: Verzii 15%, SPD 12%, Die Linke (Stânga) 11% și liberalii FDP 4% — sub pragul de 5% necesar pentru a intra în Bundestag.",
+      "sources": [
+        { "name": "Digi24 — sondaj Infratest dimap, cifre pe partide", "url": "https://www.digi24.ro/stiri/externe/ue/sondaj-germania-extrema-dreapta-isi-creste-avansul-in-fata-blocului-de-centru-dreapta-al-cancelarului-merz-3896437" },
+        { "name": "HotNews — cifrele complete ale sondajului", "url": "https://hotnews.ro/sondaj-extrema-dreapta-germana-ia-avans-fata-de-blocul-care-l-sustine-pe-cancelarul-merz-2319052" }
+      ]
+    },
+    {
+      "text": "Alegerile federale în Germania sunt abia în martie 2029, dar luna următoare (septembrie 2026) au loc alegeri regionale în trei landuri — Berlin, Saxonia-Anhalt și Mecklenburg-Pomerania Inferioară — unde sondajele anticipează rezultate record pentru AfD.",
+      "sources": [
+        { "name": "Digi24 — context alegeri regionale", "url": "https://www.digi24.ro/stiri/externe/ue/sondaj-germania-extrema-dreapta-isi-creste-avansul-in-fata-blocului-de-centru-dreapta-al-cancelarului-merz-3896437" }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Un sondaj de opinie este o fotografie a intențiilor de vot la momentul cercetării, nu o predicție certă a unui rezultat electoral — mai ales când până la alegerile federale mai sunt peste doi ani și jumătate (martie 2029). Situația se poate schimba semnificativ până atunci."
+    }
+  ],
+  "math": {
+    "title": "7 puncte procentuale despart AfD de blocul Merz",
+    "explanation": "Diferența dintre AfD (28%) și CDU/CSU (21%) este de 7 puncte procentuale. Adunând Verzii (15%), SPD (12%) și Die Linke (11%), formațiunile de centru-stânga și stânga totalizează 38% — mai mult decât AfD singură, dar fragmentate în trei partide separate, ceea ce complică orice coaliție de guvernare fără AfD sau fără blocul Merz."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Sursele verificate (Digi24, HotNews, Yahoo/dpa) confirmă concordant cifrele sondajului Infratest dimap. Am separat cifrele sondajului (fapt măsurabil, la un moment dat) de orice interpretare despre ce ar însemna ele pentru alegerile viitoare — un sondaj nu e o predicție garantată.",
+  "persoane": []
+}
