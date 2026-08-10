@@ -1,0 +1,79 @@
+{
+  "slug": "bulgaria-explozie-uzina-munitie-emco",
+  "title": "Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime",
+  "category": "Extern",
+  "date": "2026-08-10",
+  "source": "BTA / teleSUR",
+  "url": "https://www.bta.bg/en/news/bulgaria/1182614-explosions-reported-in-ammunition-plant-warehouses-in-central-bulgaria-no-casua",
+  "dek": "Pe 10 august 2026, un camion cisternă a luat foc și a declanșat explozii la depozitele de muniție ale companiei EMCO, deținută de armurierul bulgar Emilian Gebrev, lângă orașul Tryavna. Nu au fost raportate victime. EMCO produce muniție inclusiv pentru Ucraina, iar compania a mai avut incidente „suspecte” în 2022 și 2023 — autoritățile au clasificat însă evenimentul de acum ca accident.",
+  "mainVerdict": "Probat, cauza rămâne cea anunțată oficial (accident)",
+  "probat": [
+    {
+      "text": "Pe 10 august 2026, în jurul orei 10:30, au avut loc explozii într-o parte din depozitele uzinei de muniție a companiei EMCO, în satul Belitsa, lângă orașul Tryavna, din centrul Bulgariei. Potrivit relatărilor, un camion cisternă a luat foc, ceea ce a declanșat explozii ulterioare la muniția depozitată.",
+      "sources": [
+        {
+          "name": "BTA (Agenția Bulgară de Presă) — Explosions Reported in Ammunition Plant Warehouses in Central Bulgaria, No Casualties",
+          "url": "https://www.bta.bg/en/news/bulgaria/1182614-explosions-reported-in-ammunition-plant-warehouses-in-central-bulgaria-no-casua"
+        },
+        {
+          "name": "teleSUR English — Explosion at EMKO Arms Warehouse in Bulgaria Forces Mass Evacuation",
+          "url": "https://www.telesurenglish.net/explosion-at-emko-arms-warehouse-in-bulgaria-forces-mass-evacuation/"
+        }
+      ]
+    },
+    {
+      "text": "Nu au fost raportate victime sau răniți. Ministrul bulgar de Interne, Ivan Demerdziev, a confirmat că nu există victime; aproximativ 300 de angajați au fost evacuați din uzină, iar pompierii din Tryavna și Gabrovo au intervenit pentru stingerea incendiului, care s-a extins și în zone împădurite din apropiere.",
+      "sources": [
+        {
+          "name": "BTA — fără victime, evacuare",
+          "url": "https://www.bta.bg/en/news/bulgaria/1182614-explosions-reported-in-ammunition-plant-warehouses-in-central-bulgaria-no-casua"
+        },
+        {
+          "name": "teleSUR English — 300 de angajați evacuați, fum vizibil pe o rază de 15 km",
+          "url": "https://www.telesurenglish.net/explosion-at-emko-arms-warehouse-in-bulgaria-forces-mass-evacuation/"
+        }
+      ]
+    },
+    {
+      "text": "EMCO (scris și EMKO) este deținută de armurierul bulgar Emilian Gebrev și produce muniție de artilerie, tancuri și mortiere, în calibru occidental și rusesc, inclusiv pentru livrări către Ucraina. Compania a confirmat că incidentul a fost cauzat de camionul cisternă în flăcări.",
+      "sources": [
+        {
+          "name": "teleSUR English — EMCO aprovizionează Ucraina, cauza oficială: camion în flăcări",
+          "url": "https://www.telesurenglish.net/explosion-at-emko-arms-warehouse-in-bulgaria-forces-mass-evacuation/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numele exact al localității diferă ușor între surse: BTA și teleSUR plasează incidentul în satul Belitsa, lângă orașul Tryavna; alte relatări preluate din presa bulgară menționează doar „lângă Tryavna”, fără a preciza satul. Diferența e de precizie geografică, nu de fond — toate sursele confirmă aceeași uzină EMCO și același incident din 10 august 2026.",
+      "sources": [
+        {
+          "name": "BTA — Belitsa, lângă Tryavna",
+          "url": "https://www.bta.bg/en/news/bulgaria/1182614-explosions-reported-in-ammunition-plant-warehouses-in-central-bulgaria-no-casua"
+        },
+        {
+          "name": "teleSUR English — Belitsa, Bulgaria",
+          "url": "https://www.telesurenglish.net/explosion-at-emko-arms-warehouse-in-bulgaria-forces-mass-evacuation/"
+        }
+      ]
+    },
+    {
+      "text": "Cauza oficială anunțată este un accident (camion cisternă în flăcări), dar acesta nu este primul incident „suspect” la o instalație deținută de Emilian Gebrev: EMCO a mai avut un incendiu urmat de explozie de muniție pe 31 iulie 2022 și un alt incendiu pe 25 iunie 2023, la uzina din Karnobat. Gebrev a supraviețuit în 2015 unei tentative de otrăvire cu agentul neurotoxic Novichok. Aceste antecedente sunt context relevant, dar nu dovedesc nimic despre cauza exploziei din 10 august 2026 — autoritățile bulgare nu au anunțat nicio anchetă pentru sabotaj la această oră.",
+      "sources": [
+        {
+          "name": "teleSUR English — antecedente EMCO (2022, 2023) și context Gebrev",
+          "url": "https://www.telesurenglish.net/explosion-at-emko-arms-warehouse-in-bulgaria-forces-mass-evacuation/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Speculațiile că exploziile de la instalațiile EMCO ar fi sabotaj legat de războiul din Ucraina circulă în presă din 2022 încoace, dar rămân interpretare — autoritățile bulgare au clasificat oficial incidentul din 10 august 2026 drept accident (camion în flăcări). Cititorul poate cântări singur relevanța antecedentelor, fără ca acestea să înlocuiască o concluzie oficială de anchetă, care lipsește la acest moment."
+    }
+  ],
+  "math": null,
+  "aiNote": "Sursele oficiale (BTA — agenția de presă a statului bulgar) și presa internațională (teleSUR) confirmă concordant faptele centrale: explozie fără victime la o uzină de muniție EMCO, lângă Tryavna, cauzată — potrivit anunțului oficial — de un camion cisternă în flăcări. Am pus alături, la secțiunea Contestat, antecedentele „suspecte” ale altor incidente de la instalațiile lui Gebrev (2022, 2023) și tentativa de otrăvire cu Novichok din 2015, pentru context, dar fără să sugerăm o cauză neconfirmată oficial — nu există, la data verificării, o anchetă publică pentru sabotaj legată de acest incident.",
+  "persoane": []
+}

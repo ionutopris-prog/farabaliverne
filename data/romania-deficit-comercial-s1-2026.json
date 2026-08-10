@@ -1,0 +1,73 @@
+{
+  "slug": "romania-deficit-comercial-s1-2026",
+  "title": "Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026",
+  "category": "Economie",
+  "date": "2026-08-10",
+  "source": "AGERPRES / INS",
+  "url": "https://agerpres.ro/economic/2026/08/10/deficitul-comercial-a-scazut-cu-2-la-16-4-miliarde-de-euro-in-primul-semestru-din-2026--1583565",
+  "dek": "Institutul Național de Statistică a publicat pe 10 august 2026 datele balanței comerciale: deficitul a scăzut cu 2% față de primul semestru din 2025, la 16,46 miliarde euro, pe fondul unei creșteri mai rapide a exporturilor decât a importurilor. La nivel lunar (iunie 2026) însă importurile au crescut mai repede decât exporturile.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Potrivit datelor Institutului Național de Statistică (INS), publicate pe 10 august 2026, deficitul balanței comerciale (FOB/CIF) în primele șase luni din 2026 a fost de 16,459 miliarde euro, cu 332,1 milioane euro (2%) mai mic decât în aceeași perioadă din 2025 (16,791 miliarde euro).",
+      "sources": [
+        {
+          "name": "AGERPRES — Deficitul comercial a scăzut cu 2%, la 16,4 miliarde de euro, în primul semestru din 2026",
+          "url": "https://agerpres.ro/economic/2026/08/10/deficitul-comercial-a-scazut-cu-2-la-16-4-miliarde-de-euro-in-primul-semestru-din-2026--1583565"
+        },
+        {
+          "name": "Digi24 — România a redus cu 2% deficitul comercial în prima jumătate a anului",
+          "url": "https://www.digi24.ro/stiri/economie/romania-a-redus-cu-2-deficitul-comercial-in-prima-jumatate-a-anului-cum-au-evoluat-exporturile-si-importurile-3899789"
+        }
+      ]
+    },
+    {
+      "text": "În perioada ianuarie–iunie 2026, exporturile FOB au totalizat 49,037 miliarde euro (+3,0% față de S1 2025), iar importurile CIF au totalizat 65,497 miliarde euro (+1,7%). Faptul că exporturile au crescut mai repede decât importurile explică reducerea deficitului pe întregul semestru.",
+      "sources": [
+        {
+          "name": "AGERPRES — cifrele INS pe semestrul I 2026",
+          "url": "https://agerpres.ro/economic/2026/08/10/deficitul-comercial-a-scazut-cu-2-la-16-4-miliarde-de-euro-in-primul-semestru-din-2026--1583565"
+        },
+        {
+          "name": "Digi24 — evoluția exporturilor și importurilor",
+          "url": "https://www.digi24.ro/stiri/economie/romania-a-redus-cu-2-deficitul-comercial-in-prima-jumatate-a-anului-cum-au-evoluat-exporturile-si-importurile-3899789"
+        }
+      ]
+    },
+    {
+      "text": "Peste 72% din comerțul României se desfășoară cu statele UE: schimburile intra-UE27 au totalizat 35,448 miliarde euro la export și 48,174 miliarde euro la import în S1 2026. Grupa „mașini și echipamente de transport” a dominat schimburile — 46,8% din exporturi (22,93 mld. euro) și 36,5% din importuri (23,92 mld. euro).",
+      "sources": [
+        {
+          "name": "Digi24 — ponderea UE și principalele grupe de produse",
+          "url": "https://www.digi24.ro/stiri/economie/romania-a-redus-cu-2-deficitul-comercial-in-prima-jumatate-a-anului-cum-au-evoluat-exporturile-si-importurile-3899789"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Tendința anuală (deficit în scădere pe 6 luni) nu se regăsește și la nivel lunar: doar în iunie 2026, exporturile au fost de 8,701 miliarde euro (+5,9% față de iunie 2025), dar importurile au crescut mai repede, cu 9,9%, la 11,662 miliarde euro, ceea ce a dus la un deficit lunar de 2,961 miliarde euro. Cititorul trebuie să distingă între îmbunătățirea pe întregul semestru și dinamica mai puțin favorabilă din luna cea mai recentă.",
+      "sources": [
+        {
+          "name": "AGERPRES — datele lunii iunie 2026",
+          "url": "https://agerpres.ro/economic/2026/08/10/deficitul-comercial-a-scazut-cu-2-la-16-4-miliarde-de-euro-in-primul-semestru-din-2026--1583565"
+        },
+        {
+          "name": "Digi24 — snapshot iunie 2026",
+          "url": "https://www.digi24.ro/stiri/economie/romania-a-redus-cu-2-deficitul-comercial-in-prima-jumatate-a-anului-cum-au-evoluat-exporturile-si-importurile-3899789"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "O reducere de 2% a deficitului comercial este un semnal pozitiv, dar rămâne o îmbunătățire modestă în raport cu mărimea deficitului total (16,46 miliarde euro) — interpretarea „economie pe drumul cel bun” versus „ajustare insuficientă” ține de opinie economică, nu de faptul statistic în sine."
+    }
+  ],
+  "math": {
+    "title": "Ce înseamnă reducerea de 2% în cifre absolute",
+    "explanation": "Deficitul a scăzut de la 16,791 miliarde euro (S1 2025) la 16,459 miliarde euro (S1 2026), o diferență de 332,1 milioane euro. Raportat la deficitul din 2025, asta înseamnă exact 332,1 / 16.791 ≈ 1,98%, rotunjit la 2% — cifra publicată de INS este deci corectă aritmetic. În același timp, exporturile au crescut cu 3,0% (mai repede) față de importuri, +1,7% — diferența dintre cele două ritmuri de creștere este motorul reducerii deficitului, nu o scădere a volumului de importuri (importurile au crescut în valoare absolută, doar mai încet decât exporturile)."
+  },
+  "aiNote": "Datele oficiale INS, relatate concordant de AGERPRES și Digi24, susțin afirmația centrală: deficitul comercial al României a scăzut cu 2% în primul semestru din 2026 față de aceeași perioadă din 2025, pentru că exporturile au crescut mai repede decât importurile. Am marcat ca rezervă faptul că, la nivel lunar (iunie 2026), tendința s-a inversat — importurile au crescut mai repede decât exporturile — ceea ce arată că îmbunătățirea de pe 6 luni nu garantează o traiectorie liniară. Cititorul poate consulta datele brute pe site-ul INS (insse.ro).",
+  "persoane": []
+}
