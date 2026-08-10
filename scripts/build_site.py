@@ -339,13 +339,26 @@ def main():
         s = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
         if f in hub:  # data + „ediția de X" pe paginile-hub (după momentul publicării)
             s = date_re.sub(lambda m: m.group(1) + tb + m.group(2), s)
-        # La share, articolul își arată PROPRIA poză (din sursă), nu cardul generic de brand
+        # Articol: poza proprie la share (og:image) + date structurate (SEO)
         if os.sep + "a" + os.sep in f:
             mh = re.search(r'<img src="([^"]+)"[^>]*object-fit:cover;z-index:1', s)
+            img = mh.group(1) if mh else "https://farabaliverne.ro/og-cover.png"
             if mh:
-                img = mh.group(1)
                 s = re.sub(r'(<meta property="og:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
                 s = re.sub(r'(<meta name="twitter:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
+            slug = os.path.splitext(os.path.basename(f))[0]
+            d = arts.get(slug)
+            if d:
+                ld = {"@context":"https://schema.org","@type":"NewsArticle","headline":d["title"],
+                      "image":[img],"datePublished":d.get("date",""),"dateModified":d.get("date",""),
+                      "author":{"@type":"Organization","name":"Fără Baliverne","url":"https://farabaliverne.ro"},
+                      "publisher":{"@type":"Organization","name":"Fără Baliverne","logo":{"@type":"ImageObject","url":"https://farabaliverne.ro/apple-touch-icon.png"}},
+                      "mainEntityOfPage":"https://farabaliverne.ro/a/"+slug+".html","description":d.get("dek","")}
+                lds = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + '</script>'
+                if 'application/ld+json' in s:
+                    s = re.sub(r'<script type="application/ld\+json">.*?</script>', lambda m: lds, s, count=1, flags=re.S)
+                elif '</head>' in s:
+                    s = s.replace('</head>', '  ' + lds + '\n</head>', 1)
         if s != orig: open(f, "w", encoding="utf-8").write(s)
     print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând")
 
