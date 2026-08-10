@@ -314,6 +314,32 @@ def build_search_page(arts, shell):
     h = h.replace('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')
     return h
 
+def build_sitemap(arts):
+    """Regenerează sitemap.xml cu TOATE articolele + paginile-hub (SEO Google)."""
+    from zoneinfo import ZoneInfo
+    B = "https://farabaliverne.ro/"
+    today = datetime.now(ZoneInfo("Europe/Bucharest")).strftime("%Y-%m-%d")
+    rows = ['<url><loc>%s</loc><lastmod>%s</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>' % (B, today)]
+    # articolele (cel mai nou lastmod = data articolului dacă există)
+    for slug in sorted(arts.keys()):
+        if not os.path.exists(os.path.join(ROOT, "a", slug + ".html")):
+            continue
+        d = arts[slug]
+        lm = (d.get("date") or today)[:10]
+        rows.append('<url><loc>%sa/%s.html</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>' % (B, slug, lm))
+    # paginile-hub + credibilitate
+    for pg in ("politicieni.html","cauta.html","publicitate.html","metodologie.html",
+               "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
+        if os.path.exists(os.path.join(ROOT, pg)):
+            pr = "0.6" if pg in ("politicieni.html","cauta.html") else "0.4"
+            rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>%s</priority></url>' % (B, pg, today, pr))
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '
+           + "\n  ".join(rows) + "\n</urlset>\n")
+    open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(xml)
+    return len(rows)
+
+
 def main():
     arts = load()
     total = len(arts)
@@ -326,6 +352,8 @@ def main():
     pol, nwith, nwithout = build_politicieni(arts, shell)
     open(os.path.join(ROOT, "politicieni.html"), "w", encoding="utf-8").write(pol)
     open(os.path.join(ROOT, "cauta.html"), "w", encoding="utf-8").write(build_search_page(arts, shell))
+    # 2b. sitemap.xml (toate articolele + hub) pentru Google
+    nsitemap = build_sitemap(arts)
     # 3. count pe toate paginile
     pages = [IDX] + glob.glob(os.path.join(ROOT,"a","*.html")) + \
             [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html")]
@@ -360,7 +388,7 @@ def main():
                 elif '</head>' in s:
                     s = s.replace('</head>', '  ' + lds + '\n</head>', 1)
         if s != orig: open(f, "w", encoding="utf-8").write(s)
-    print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând")
+    print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând | sitemap {nsitemap} URL-uri")
 
 if __name__ == "__main__":
     main()
