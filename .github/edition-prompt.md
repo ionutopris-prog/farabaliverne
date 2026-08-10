@@ -7,9 +7,9 @@ PASUL 0 — Citește regulile (OBLIGATORIU):
 
 PASUL 1 — Cercetează (WebSearch + WebFetch), în funcție de FEREASTRA CURENTĂ:
 Țintă: **3–5 verificări** dacă găsești material solid (nu forța un minim — mai bine 2 bune decât 5 subțiri). Verifică FIECARE URL (fetch → 200 + pe subiect). Fără sursă reală verificată → nu publica acel articol.
-- **ZI (05–22 EEST):** România (politică/economie/social) + Europa + SUA + **Știință** (categoria `Știință`: descoperiri, spațiu, sănătate, tehnologie, climă — cu surse primare: reviste/agenții/instituții).
-- **NOAPTE (22–05 EEST):** e ziua lor în **Asia-Pacific** (Japonia, Australia, India, China) + **Orientul Mijlociu** (Arabia Saudită, Iran). Focus pe internațional din aceste zone + **Media de stat** (vezi mai jos).
-- **Africa** (Africa de Sud, Kenya, Nigeria): rar, doar când e ceva important (nu în fiecare noapte).
+- **ZI:** România (politică/economie/social) + Europa + SUA + Sport + Extern. **NU** face Știință ziua (are ediția ei proprie noaptea).
+- **NOAPTE ASIA/ORIENT:** e ziua lor — **Asia-Pacific** (Japonia, Australia, India, China) + **Orientul Mijlociu** (Arabia Saudită, Iran) + **Media de stat** (vezi mai jos). Africa (Africa de Sud/Kenya/Nigeria) rar, doar când e ceva mare.
+- **NOAPTE ȘTIINȚĂ:** ediție DEDICATĂ **doar categoriei `Știință`** — descoperiri, spațiu, sănătate, tehnologie, climă — cu surse primare (NASA/ESA, reviste peer-review, agenții). Publică DOAR articole Știință în ediția asta.
 - „Unde se întâmplă mai des" — alege cel mai RELEVANT, nu forțat egal; rotește țările ca să nu te blochezi pe una.
 
 PASUL 2 — Categorii & tratament:
