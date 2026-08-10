@@ -1,0 +1,102 @@
+{
+  "slug": "ancpi-eterra-cadastru-blocaj",
+  "title": "Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia",
+  "category": "Social",
+  "date": "2026-08-10",
+  "source": "Gândul / ANCPI",
+  "url": "https://www.gandul.ro/actualitate/repornire-e-terra-cadastru-ancpi-20974205",
+  "dek": "Sistemul național de cadastru și carte funciară e-Terra e nefuncțional de la atacul cibernetic de tip ransomware din 14 iulie 2026. ANCPI spune că baza de date centrală n-a fost afectată și că sistemul ar putea reporni „săptămâna aceasta”, dar a anunțat deja, pe 9 august, că unele documente vor rămâne indisponibile 1-3 zile suplimentare.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "ANCPI a confirmat oficial că, pe 14 iulie 2026, a identificat un acces neautorizat în infrastructura sa IT — un atac cibernetic de tip ransomware în care atacatorii au criptat și șters o parte din infrastructura de virtualizare care găzduiește aplicațiile agenției, inclusiv e-Terra (cadastru și carte funciară) și serviciile de e-mail.",
+      "sources": [
+        {
+          "name": "JURIDICE.ro — ANCPI despre atacul cibernetic",
+          "url": "https://www.juridice.ro/839252/ancpi-despre-atacul-cibernetic.html"
+        },
+        {
+          "name": "Digi24 — ANCPI anunță restaurarea infrastructurii IT după atacul cibernetic",
+          "url": "https://www.digi24.ro/digieconomic/digital/ancpi-anunta-restaurarea-infrastructurii-it-dupa-atacul-cibernetic-serviciile-raman-indisponibile-si-vor-fi-reluate-etapizat-110785"
+        }
+      ]
+    },
+    {
+      "text": "Instituția susține că baza de date centrală a sistemului cadastral nu a fost afectată și că nu există dovezi că atacatorii ar fi avut acces la aceste date; integritatea evidenței cadastrale și de carte funciară este, potrivit ANCPI, „confirmată”. Afirmația vine din comunicatele oficiale ale agenției — sursele consultate nu menționează un audit independent public care să o confirme separat.",
+      "sources": [
+        {
+          "name": "JURIDICE.ro — ANCPI despre atacul cibernetic",
+          "url": "https://www.juridice.ro/839252/ancpi-despre-atacul-cibernetic.html"
+        }
+      ]
+    },
+    {
+      "text": "Pe 20 iulie, ANCPI anunța că sistemele au fost reinstalate și consolidate, iar serviciile urmau să revină etapizat; pe 5 august, Guvernul a comunicat că testele și validările tehnice independente au fost finalizate cu succes și a promis o actualizare publică cel târziu vineri, 7 august.",
+      "sources": [
+        {
+          "name": "BURSA — ANCPI: sistemele sunt reinstalate și consolidate după atacul cibernetic",
+          "url": "https://www.bursa.ro/ancpi-sistemele-sunt-reinstalate-si-consolidate-dupa-atacul-cibernetic-serviciile-revin-etapizat-85726954"
+        },
+        {
+          "name": "StartupCafe — sistemul ANCPI, teste și validări tehnice finalizate cu succes",
+          "url": "https://startupcafe.ro/blocaj-cadastru-sistem-ancpi-repus-functiune-teste-validari-tehnice-finalizate-succes-guvern-104646"
+        },
+        {
+          "name": "Știrile ProTV — Guvernul promite o actualizare cel târziu vineri, 7 august",
+          "url": "https://stirileprotv.ro/stiri/politic/anuntul-guvernului-sistemul-e-terra-ramane-blocat-ancpi-promite-o-actualizare-cel-tarziu-vineri-7-august.html"
+        }
+      ]
+    },
+    {
+      "text": "Pe 7 august, ANCPI a anunțat că sistemul e-Terra „ar putea fi repus în funcțiune săptămâna viitoare”, cu asigurări pentru cetățeni: cererile depuse în perioada de blocaj păstrează prioritate legală (sunt marcate temporal și vor fi procesate în ordine), iar valabilitatea certificatelor a fost prelungită automat.",
+      "sources": [
+        {
+          "name": "Gândul — De când ar putea fi repornit sistemul de Cadastru",
+          "url": "https://www.gandul.ro/actualitate/repornire-e-terra-cadastru-ancpi-20974205"
+        }
+      ]
+    },
+    {
+      "text": "Pe 9 august, cu doar o zi înainte de publicarea acestei verificări, ANCPI anticipa deja că unele documente PDF nu vor fi disponibile chiar din ziua redeschiderii oficiale — o întârziere suplimentară estimată la 1-3 zile, până la sincronizarea dintre servere, în funcție de volumul de acces și capacitatea infrastructurii.",
+      "sources": [
+        {
+          "name": "iDevice.ro — Cadastru: problema anticipată de ANCPI la data redeschiderii eTerra și cât durează",
+          "url": "https://www.idevice.ro/2026/08/09/cadastru-problema-anticipata-ancpi-data-redeschiderii-eterra-dureaza-652850/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Termenul exact al repornirii a fost amânat repetat și rămâne neclar la 10 august: de la „revenire etapizată” (20 iulie), la „actualizare publică cel târziu 7 august” (anunțată pe 5 august), la „ar putea fi repus în funcțiune săptămâna viitoare” (7 august) — fără nicio dată fermă comunicată public. De la atac până la 10 august au trecut deja 27 de zile, fără un termen ferm de revenire completă.",
+      "sources": [
+        {
+          "name": "StartupCafe — Blocajul continuă la Cadastru",
+          "url": "https://startupcafe.ro/blocaj-cadastru-sistem-ancpi-repus-functiune-teste-validari-tehnice-finalizate-succes-guvern-104646"
+        },
+        {
+          "name": "Gândul — De când ar putea fi repornit sistemul de Cadastru",
+          "url": "https://www.gandul.ro/actualitate/repornire-e-terra-cadastru-ancpi-20974205"
+        }
+      ]
+    },
+    {
+      "text": "Chiar și scenariul „repornire săptămâna aceasta” nu înseamnă funcționare completă: ANCPI a semnalat deja, înainte de redeschidere, o problemă tehnică cunoscută (documente PDF indisponibile temporar) — deci utilizatorii ar trebui să se aștepte la o revenire graduală, nu la un sistem 100% funcțional din prima zi.",
+      "sources": [
+        {
+          "name": "iDevice.ro — Cadastru: problema anticipată de ANCPI",
+          "url": "https://www.idevice.ro/2026/08/09/cadastru-problema-anticipata-ancpi-data-redeschiderii-eterra-dureaza-652850/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    "Caracterizarea atacului drept „cel mai grav incident din istoria instituției” aparține ANCPI însăși; este o apreciere a gravității, nu o cifră verificabilă independent."
+  ],
+  "math": {
+    "title": "27 de zile de blocaj administrativ",
+    "explanation": "De la atacul cibernetic identificat pe 14 iulie 2026 până la 10 august 2026 au trecut 27 de zile calendaristice (17 zile rămase din iulie + 10 zile din august) în care cadastrul și cartea funciară au funcționat cu servicii indisponibile sau parțiale. Chiar dacă sistemul repornește „săptămâna aceasta” așa cum promite ANCPI, iar documentele PDF ajung să fie disponibile abia 1-3 zile după redeschidere, blocajul total ar putea depăși o lună întreagă — de la un incident pe care instituția însăși l-a numit „cel mai grav... din istorie”."
+  },
+  "aiNote": "Sursele oficiale (ANCPI, Guvern) și presa de specialitate confirmă concordant cronologia: atac ransomware pe 14 iulie, infrastructură reinstalată, teste tehnice finalizate cu succes pe 5 august, repornire anunțată „săptămâna aceasta” pe 7 august. Rămân două rezerve: (1) termenul exact de revenire completă a fost amânat de mai multe ori și nu are încă o dată fermă; (2) afirmația că baza de date centrală n-a fost compromisă provine exclusiv din comunicatele ANCPI, fără un audit independent citat public de sursele consultate. Cititorul poate urmări actualizările oficiale pe ancpi.ro.",
+  "persoane": []
+}
