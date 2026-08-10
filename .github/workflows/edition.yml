@@ -7,7 +7,7 @@ name: Fără Baliverne — ediția automată
 
 on:
   schedule:
-    - cron: "0 3-20 * * *"     # ZI, la FIECARE ORĂ (UTC 03–20 = EEST 06–23): RO+Europa+SUA
+    - cron: "0 4,7,10,13,16,19 * * *"  # ZI, la FIECARE 3 ORE (UTC = EEST 07,10,13,16,19,22): RO+Europa+SUA
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01)
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04)
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
@@ -65,7 +65,7 @@ jobs:
           claude -p "$PROMPT" \
             --model sonnet \
             --dangerously-skip-permissions \
-            --max-turns 80 || echo "::warning::Claude a ieșit cu cod non-zero (verifică log-ul)"
+            --max-turns 50 || echo "::warning::Claude a ieșit cu cod non-zero sau limită de sesiune (verifică log-ul)"
 
       # Publicarea o face workflow-ul dedicat „Deploy la Datahost (FTP)" (deploy.yml),
       # care e dovedit stabil. Îl declanșăm după ce botul a pus articolele pe main.

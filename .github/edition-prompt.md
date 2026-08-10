@@ -6,7 +6,7 @@ PASUL 0 — Citește regulile (OBLIGATORIU):
 - Comentariul de sus din `scripts/build_site.py`. Verifică slug-urile din `data/` — NU repeta un subiect deja publicat.
 
 PASUL 1 — Cercetează (WebSearch + WebFetch), în funcție de FEREASTRA CURENTĂ:
-Țintă: **3–5 verificări** dacă găsești material solid (nu forța un minim — mai bine 2 bune decât 5 subțiri). Verifică FIECARE URL (fetch → 200 + pe subiect). Fără sursă reală verificată → nu publica acel articol.
+Țintă: **2–3 verificări** dacă găsești material solid (nu forța un minim — mai bine 2 bune decât 5 subțiri). Fii EFICIENT cu pașii (cota planului MAX e limitată): cercetează țintit, nu explora la nesfârșit. Verifică FIECARE URL (fetch → 200 + pe subiect). Fără sursă reală verificată → nu publica acel articol.
 - **ZI:** România (politică/economie/social) + Europa + SUA + Sport + Extern. **NU** face Știință ziua (are ediția ei proprie noaptea).
 - **NOAPTE ASIA/ORIENT:** e ziua lor — **Asia-Pacific** (Japonia, Australia, India, China) + **Orientul Mijlociu** (Arabia Saudită, Iran) + **Media de stat** (vezi mai jos). Africa (Africa de Sud/Kenya/Nigeria) rar, doar când e ceva mare.
 - **NOAPTE ȘTIINȚĂ:** ediție DEDICATĂ **doar categoriei `Știință`** — descoperiri, spațiu, sănătate, tehnologie, climă — cu surse primare (NASA/ESA, reviste peer-review, agenții). Publică DOAR articole Știință în ediția asta.
