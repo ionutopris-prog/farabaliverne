@@ -109,6 +109,46 @@ def extract(d):
         fav = '<span class="fav" style="background:#888"></span>'; srcname = d.get("source","sursă")
     return glyph, heroimg, fav, srcname
 
+# Câte articole din fiecare categorie primesc card cu poză pe prima pagină.
+# Restul trec în lista compactă. Cu 7 categorii, imaginile se plafonează la
+# ~42 — indiferent câte articole se adună în timp.
+CARDURI_PE_CATEGORIE = 6
+
+
+def card_img(slug, heroimg):
+    """
+    Cardurile folosesc miniatura, nu poza mare.
+
+    Cu poza originală în fiecare card, prima pagină ajunsese să ceară ~34 MB de
+    imagini. Miniatura de 520px face ~32 KB în loc de ~550 KB.
+
+    Dacă nu avem poză proprie, cardul NU cade înapoi pe poza hotlinkată a altei
+    publicații — rămâne pe gradientul de brand. Altfel prima pagină, cea mai
+    vizitată, rămânea plină de fotografii care nu sunt ale noastre.
+    """
+    thumb = os.path.join(ROOT, "img", "carduri", f"{slug}.jpg")
+    if os.path.exists(thumb):
+        return f"img/carduri/{slug}.jpg"
+    if heroimg and heroimg.lstrip("./").startswith("img/"):
+        return heroimg.lstrip("./")
+    return None
+
+
+def mini_row(d):
+    """
+    Rând compact, fără imagine, pentru articolele mai vechi dintr-o categorie.
+
+    Nu pierdem niciun link — toate rămân pe prima pagină și indexabile — dar
+    numărul de imagini se plafonează, iar pagina crește cu ~200 de octeți pe
+    articol în loc de ~1,5 KB.
+    """
+    vc, vl = vcl(d.get("mainVerdict"))
+    return (f'            <a href="a/{d["slug"]}.html" class="mini-row">'
+            f'<span class="mini-title">{d["title"]}</span>'
+            f'<span class="mini-meta"><span class="chip soft {vc} sm">{vl}</span>'
+            f'<span class="mini-date">{d.get("date","")}</span></span></a>\n')
+
+
 def trunc(s, n):
     return s if len(s) <= n else s[:n].rsplit(" ",1)[0].rstrip(" ,.;") + "…"
 
@@ -116,9 +156,10 @@ def card(d):
     glyph, heroimg, fav, srcname = extract(d)
     vc, vl = vcl(d.get("mainVerdict"))
     np_, nc_, no_ = len(d.get("probat") or []), len(d.get("contestat") or []), len(d.get("opinie") or [])
-    img = (f'<img data-cardphoto="1" src="{heroimg}" alt="" loading="lazy" referrerpolicy="no-referrer" '
+    cimg = card_img(d["slug"], heroimg)
+    img = (f'<img data-cardphoto="1" src="{cimg}" alt="" loading="lazy" '
            f'onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">'
-           if heroimg else "")
+           if cimg else "")
     seg = f'<span class="seg ok">✔ {np_}</span><span class="seg warn">⚠ {nc_}</span><span class="seg op">✎ {no_}</span>'
     return f'''          <a href="a/{d["slug"]}.html" class="card">
 
@@ -153,7 +194,17 @@ def build_feed(arts):
         items = [d for s,d in arts.items() if d["category"] == cat and s != FEATURED]
         if not items: continue
         items.sort(key=lambda d: d.get("date",""), reverse=True)
-        cards = "".join(card(d) for d in items)
+        # Doar cele mai recente primesc card cu poză; restul trec în lista
+        # compactă, altfel prima pagină crește la nesfârșit — în octeți și în
+        # număr de imagini cerute.
+        cu_card, restul = items[:CARDURI_PE_CATEGORIE], items[CARDURI_PE_CATEGORIE:]
+        cards = "".join(card(d) for d in cu_card)
+        mini = ""
+        if restul:
+            randuri = "".join(mini_row(d) for d in restul)
+            mini = ('          <div class="mini-list">\n'
+                    f'            <div class="mini-head">Încă {len(restul)} din {cat}</div>\n'
+                    f'{randuri.rstrip(chr(10))}\n          </div>\n')
         out.append(f'''        <section class="cat-section" id="{CAT_ID[cat]}">
           <div class="section-head">
             <h2>{cat}</h2>
@@ -161,6 +212,7 @@ def build_feed(arts):
           <div class="cards-3">
 {cards.rstrip(chr(10))}
           </div>
+{mini.rstrip(chr(10))}
         </section>
 ''')
     return "\n".join(out)
