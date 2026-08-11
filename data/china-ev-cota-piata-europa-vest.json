@@ -1,0 +1,62 @@
+{
+  "slug": "china-ev-cota-piata-europa-vest",
+  "title": "Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite",
+  "category": "Extern",
+  "date": "2026-08-11",
+  "source": "South China Morning Post / news.am (Schmidt Automotive Research)",
+  "url": "https://www.scmp.com/business/china-evs/article/3362905/europes-new-ev-power-struggle-sees-chinese-giants-seize-record-market-share",
+  "dek": "🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în Europa de Vest în 2026, potrivit consultanței germane Schmidt Automotive Research. Dar cifrele vehiculate în presă nu sunt direct comparabile: 10,7% se referă la toate mașinile noi (T2 2026), iar 14,2% doar la mașinile 100% electrice (ianuarie–mai 2026).",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Mărcile chinezești au atins o cotă combinată de 10,7% din vânzările totale de mașini noi (toate carburanțiile) în 18 piețe din Europa de Vest, în trimestrul al doilea din 2026 — aproape dublu față de 5,7% în T2 2025, potrivit Schmidt Automotive Research.",
+      "sources": [
+        { "name": "South China Morning Post — Europe's new EV power struggle sees Chinese giants seize record market share", "url": "https://www.scmp.com/business/china-evs/article/3362905/europes-new-ev-power-struggle-sees-chinese-giants-seize-record-market-share" }
+      ]
+    },
+    {
+      "text": "În T2 2026, mărcile chinezești au depășit pentru prima dată mărcile japoneze la vânzări totale de mașini noi în Europa de Vest: 352.098 de unități chinezești, față de 350.186 unități japoneze.",
+      "sources": [
+        { "name": "South China Morning Post — Chinese brands outsell Japanese for first time", "url": "https://www.scmp.com/business/china-evs/article/3362905/europes-new-ev-power-struggle-sees-chinese-giants-seize-record-market-share" }
+      ]
+    },
+    {
+      "text": "Separat, în segmentul mașinilor strict electrice, mărcile chinezești au vândut aproximativ 171.800 de unități în primele cinci luni din 2026 (ianuarie–mai), o cotă de 14,2% din piața EV-urilor noi din cele 18 piețe vest-europene analizate — aproape una din șapte mașini electrice vândute.",
+      "sources": [
+        { "name": "news.am — Chinese electric vehicles captured a record 14.2% of the Western European market", "url": "https://news.am/en/news/1054454" }
+      ]
+    },
+    {
+      "text": "BYD a livrat 91.500 de unități în T2 2026, cu o cotă individuală de 2,8% din piața totală, devansând ușor Tesla (2,6%) în Europa de Vest.",
+      "sources": [
+        { "name": "South China Morning Post — BYD delivers 91,500 units in Q2 2026", "url": "https://www.scmp.com/business/china-evs/article/3362905/europes-new-ev-power-struggle-sees-chinese-giants-seize-record-market-share" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Procentele citate în presă diferă mult în funcție de ce se măsoară exact: 10,7% se referă la toate mașinile noi (toate carburanțiile) vândute în T2 2026, în timp ce 14,2% se referă strict la mașinile electrice vândute în ianuarie–mai 2026 — două perioade și două categorii diferite, deși unele titluri le citează ca și cum ar fi aceeași cifră.",
+      "sources": [
+        { "name": "South China Morning Post — cota de 10,7% (toate carburanțiile, T2)", "url": "https://www.scmp.com/business/china-evs/article/3362905/europes-new-ev-power-struggle-sees-chinese-giants-seize-record-market-share" },
+        { "name": "news.am — cota de 14,2% (doar electrice, ian-mai)", "url": "https://news.am/en/news/1054454" }
+      ]
+    },
+    {
+      "text": "Datele provin dintr-un singur furnizor privat de statistici (Schmidt Automotive Research, consultanță germană), citat de toată presa internațională pe această temă; nu au fost identificate cifre oficiale comparabile publicate de asociația europeană a constructorilor auto (ACEA) pentru exact aceleași perioade și categorii.",
+      "sources": [
+        { "name": "South China Morning Post — sursă unică Schmidt Automotive Research", "url": "https://www.scmp.com/business/china-evs/article/3362905/europes-new-ev-power-struggle-sees-chinese-giants-seize-record-market-share" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă această creștere reprezintă o „amenințare” pentru producătorii europeni (așa cum titrează unele publicații occidentale) sau doar o competiție normală de piață e o interpretare — depinde dacă privești din perspectiva industriei auto europene sau din cea a consumatorilor, care beneficiază de prețuri mai mici."
+    }
+  ],
+  "math": {
+    "title": "„Aproape dublu” și „una din șapte” — verificate",
+    "explanation": "Creșterea cotei chinezești pe piața totală, de la 5,7% (T2 2025) la 10,7% (T2 2026), înseamnă un raport de 1,88 — adică formularea „aproape dublu” folosită în presă este corectă. Cota de 14,2% pe segmentul electricelor corespunde aproape exact fracției 1/7 (14,28%), deci descrierea „aproape una din șapte mașini electrice” este de asemenea precisă. Cele două cifre nu se adună și nu se înlocuiesc reciproc — sunt măsurători pe categorii diferite de piață."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": []
+}
