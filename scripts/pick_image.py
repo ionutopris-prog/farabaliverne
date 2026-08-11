@@ -1,0 +1,221 @@
+"""
+Alege o fotografie REALĂ, liberă de drepturi, pentru un articol.
+
+Sursa: Wikimedia Commons (fără cheie de API, licențe explicite pe fiecare fișier).
+Poza se DESCARCĂ și se găzduiește la noi — nu mai atârnăm de serverul altcuiva.
+
+Trei protecții, în ordinea importanței:
+
+1. FILTRU DE CONTEXT. O căutare naivă după „Air China" întoarce pe locul doi
+   fotografii de la locul unui accident aviatic. Pentru o știre despre
+   redeschiderea unei rute, aia ar fi fost o catastrofă editorială — mult mai
+   grav decât orice problemă de drepturi. Cuvintele de risc sunt respinse dacă
+   articolul nu e chiar despre asta.
+
+2. FILTRU DE LICENȚĂ. Acceptăm doar domeniu public, CC0, CC-BY, CC-BY-SA.
+   Respingem GFDL (cere textul integral al licenței lângă poză) și orice
+   licență necomercială — noi avem pagină de publicitate, deci suntem comerciali.
+
+3. CREDIT OBLIGATORIU. Fiecare poză pleacă cu autor + licență + link. Fără
+   credit complet, poza nu e folosită.
+"""
+
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+import urllib.parse
+import urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IMG_DIR = os.path.join(ROOT, "img", "articole")
+
+UA = "farabaliverne.ro/1.0 (contact@farabaliverne.ro)"
+
+# Wikimedia ne-a dat 429 când am tras 26 de poze la rând. Sunt oaspeți amabili,
+# nu abuzăm de ei: o pauză între cereri și reîncercare cu așteptare crescândă.
+PAUZA = 1.2
+_ultima_cerere = [0.0]
+
+# 1200px e suficient pentru un hero. La 1600 ieșeau fișiere de 700KB-1MB, ceea
+# ce ar fi transformat un articol de 51KB într-unul de peste un megaoctet.
+LATIME_MAX = 1200
+KB_MAX = 260
+
+# Licențe pe care le putem folosi comercial, cu atribuire.
+LICENSE_OK = re.compile(
+    r"^(public domain|cc0|cc[ -]by(?:[ -]sa)?(?:[ -][\d.]+)?)",
+    re.IGNORECASE,
+)
+LICENSE_BAD = re.compile(r"gfdl|non[- ]commercial|\bnc\b|fair use|no derivat", re.IGNORECASE)
+
+# Cuvinte care fac o poză nepotrivită dacă articolul NU e despre asta.
+RISKY = [
+    "crash", "wreck", "accident", "disaster", "burning", "fire", "explosion",
+    "funeral", "memorial", "victim", "casualt", "debris", "collision",
+    "prăbuș", "accident", "incendi", "explozie", "funerar",
+]
+
+
+def _get(url, incercari=4):
+    """Cerere politicoasă: pauză între apeluri, reîncercare la 429."""
+    for i in range(incercari):
+        de_asteptat = PAUZA - (time.time() - _ultima_cerere[0])
+        if de_asteptat > 0:
+            time.sleep(de_asteptat)
+        _ultima_cerere[0] = time.time()
+
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or i == incercari - 1:
+                raise
+            time.sleep(5 * (i + 1))
+    raise RuntimeError("cereri epuizate")
+
+
+def _clean(html):
+    """extmetadata întoarce HTML; ne trebuie text simplu pentru credit."""
+    text = re.sub(r"<[^>]+>", "", html or "")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def search(query, article_text="", limit=12):
+    """Întoarce candidați ordonați, cel mai potrivit primul."""
+    api = (
+        "https://commons.wikimedia.org/w/api.php?action=query&format=json"
+        "&generator=search&gsrnamespace=6&gsrlimit=%d&gsrsearch=%s"
+        "&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1200"
+        % (limit, urllib.parse.quote(query))
+    )
+    data = json.loads(_get(api))
+    pages = (data.get("query") or {}).get("pages", {})
+
+    article_low = article_text.lower()
+    out = []
+
+    for page in pages.values():
+        info = (page.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata", {})
+        title = page.get("title", "")
+
+        lic = _clean(meta.get("LicenseShortName", {}).get("value", ""))
+        if LICENSE_BAD.search(lic) or not LICENSE_OK.match(lic):
+            continue
+
+        # Filtrul de context: dacă titlul pozei conține un cuvânt de risc, iar
+        # articolul nu vorbește despre asta, poza e respinsă.
+        low = title.lower()
+        risky_hit = next((w for w in RISKY if w in low), None)
+        if risky_hit and risky_hit not in article_low:
+            continue
+
+        width = info.get("thumbwidth") or info.get("width") or 0
+        height = info.get("thumbheight") or info.get("height") or 0
+        if width < 900:
+            continue
+        if height and width / height < 1.15:      # vrem peisaj, nu portret
+            continue
+
+        author = _clean(meta.get("Artist", {}).get("value", "")) or "autor necunoscut"
+        out.append({
+            "title": title.replace("File:", "").rsplit(".", 1)[0],
+            "url": info.get("thumburl") or info.get("url"),
+            "descriptionurl": info.get("descriptionurl", ""),
+            "license": lic,
+            "license_url": _clean(meta.get("LicenseUrl", {}).get("value", "")) or license_url(lic),
+            "author": author[:80],
+            "width": width,
+            "height": height,
+        })
+
+    return out
+
+
+def license_url(short_name):
+    """Linkul către textul licenței — obligatoriu pentru atribuirea CC."""
+    s = (short_name or "").lower().replace(" ", "-")
+    if "cc0" in s:
+        return "https://creativecommons.org/publicdomain/zero/1.0/"
+    m = re.match(r"cc-?by(-sa)?-?([\d.]+)?", s)
+    if m:
+        kind = "by-sa" if m.group(1) else "by"
+        version = m.group(2) or "4.0"
+        return f"https://creativecommons.org/licenses/{kind}/{version}/"
+    return ""
+
+
+def comprima(path):
+    """
+    sips e nativ pe macOS — fără dependențe de instalat.
+
+    Scriem într-un fișier temporar și păstrăm rezultatul doar dacă e mai mic
+    decât ce aveam. Fără verificarea asta, o recodare poate ieși mai MARE decât
+    originalul, ceea ce s-a și întâmplat la prima rulare.
+    """
+    initial = os.path.getsize(path)
+    if initial <= KB_MAX * 1024:
+        return
+
+    tmp = path + ".tmp.jpg"
+    cel_mai_bun = None
+
+    for calitate in ("high", "medium", "low"):
+        subprocess.run(
+            ["sips", "-Z", str(LATIME_MAX), "-s", "format", "jpeg",
+             "-s", "formatOptions", calitate, path, "--out", tmp],
+            capture_output=True, check=False,
+        )
+        if not os.path.exists(tmp):
+            continue
+        marime = os.path.getsize(tmp)
+        if cel_mai_bun is None or marime < cel_mai_bun[1]:
+            cel_mai_bun = (open(tmp, "rb").read(), marime)
+        if marime <= KB_MAX * 1024:
+            break
+
+    if os.path.exists(tmp):
+        os.remove(tmp)
+
+    if cel_mai_bun and cel_mai_bun[1] < initial:
+        with open(path, "wb") as fh:
+            fh.write(cel_mai_bun[0])
+
+
+def download(candidate, slug):
+    os.makedirs(IMG_DIR, exist_ok=True)
+    ext = os.path.splitext(urllib.parse.urlparse(candidate["url"]).path)[1] or ".jpg"
+    if ext.lower() not in (".jpg", ".jpeg", ".png", ".webp"):
+        ext = ".jpg"
+    path = os.path.join(IMG_DIR, slug + ext)
+    with open(path, "wb") as fh:
+        fh.write(_get(candidate["url"]))
+    comprima(path)
+    candidate["local"] = os.path.relpath(path, ROOT)
+    candidate["bytes"] = os.path.getsize(path)
+    return candidate
+
+
+def credit_html(c, illustrative=True):
+    eticheta = "Foto ilustrativă" if illustrative else "Foto"
+    return (
+        '<figcaption class="foto-credit">'
+        f'{eticheta}: {c["author"]} · '
+        f'<a href="{c["descriptionurl"]}" rel="nofollow noopener" target="_blank">'
+        f'{c["license"]}</a> · via Wikimedia Commons'
+        "</figcaption>"
+    )
+
+
+if __name__ == "__main__":
+    q = sys.argv[1] if len(sys.argv) > 1 else "Air China Boeing aircraft"
+    ctx = sys.argv[2] if len(sys.argv) > 2 else ""
+    found = search(q, ctx)
+    print(f"query: {q}\ncandidați acceptați: {len(found)}\n")
+    for c in found[:6]:
+        print(f"  {c['title'][:60]}")
+        print(f"    {c['width']}x{c['height']} · {c['license']} · {c['author'][:40]}")
