@@ -54,9 +54,29 @@ calea corectă. Fără butoane noi.
 nu pe un ceas. Oprește publicarea la hotlink într-un articol nou, legendă
 incompletă, poză peste 300 KB sau reapariția lui `no-referrer`.
 
+**Homepage: de la 34 MB la 1,2 MB.** Credeam că e doar creșterea HTML-ului. La
+măsurare erau trei probleme suprapuse: fiecare card cerea fotografia la
+**mărimea originală** de pe serverul altcuiva (~34 MB de imagini pe o pagină);
+59 din 63 de imagini erau tot ale altor publicații, deci **pagina cea mai
+vizitată rămăsese neatinsă** de curățarea articolelor; și lista creștea
+nelimitat.
+- miniaturi de 520px pentru carduri: 32 KB în loc de ~550 KB
+- primele 6 din fiecare categorie rămân carduri cu poză; restul trec în **listă
+  compactă** (titlu, verdict, dată) — niciun link pierdut, toate rămân indexabile
+- fără poză proprie, cardul **nu** mai cade înapoi pe hotlink
+- HTML 193 → 133 KB · imagini 34 MB → 1 MB · imagini externe 59 → **0**
+- creșterea e plafonată: imaginile rămân ~42 indiferent câte articole se adună,
+  iar pagina crește cu ~200 B pe articol în loc de ~1,5 KB
+
+**Botul a găsit două bug-uri ale mele** în ediția din 19:32 UTC, ambele reale:
+`comprima()` depindea de `sips` (doar macOS), deci pica pe runner-ul Ubuntu la
+orice poză peste 260 KB — a adăugat fallback pe Pillow; și `build_site.py`
+scria calea **relativă** în `og:image`, stricând previzualizările de share la
+toate articolele cu poză proprie — bug cauzat direct de modificările mele.
+Le-a reparat corect. Modificările de homepage au fost reaplicate **peste**
+versiunea lui, ca să nu se reintroducă.
+
 **De rezolvat:**
-- Homepage-ul crește nelimitat — listează toate articolele; +23 KB doar pe 11 aug,
-  ~66 KB/zi în ritmul actual, peste 2 MB într-o lună. De plafonat/paginat.
 - Distribuție: 7+ ediții/zi care nu ajung nicăieri. Zero automatizare de social.
 - Cadența (din oră-n-oră, publicare directă) contrazice `CLAUDE.md`, care spune
   „fondatorul aprobă înainte de publicare, cel puțin la început". Ori se
