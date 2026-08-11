@@ -8,8 +8,11 @@ ajunsese să tragă ~34 MB de imagini — de pe telefon, pe 4G, omul pleacă
 
 import glob
 import os
+import shutil
 import subprocess
 import sys
+
+SIPS = shutil.which("sips")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "img", "articole")
@@ -17,6 +20,33 @@ DST = os.path.join(ROOT, "img", "carduri")
 
 LATIME = 520
 KB_MAX = 60
+
+
+def _thumb_pil(src_path, out):
+    """Fallback portabil (Linux/CI, fără sips) — Pillow, dacă e instalat."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    cel_mai_bun = None
+    for calitate in (85, 70, 55):
+        try:
+            with Image.open(src_path) as im:
+                im = im.convert("RGB")
+                if im.width > LATIME:
+                    h = round(im.height * LATIME / im.width)
+                    im = im.resize((LATIME, h), Image.LANCZOS)
+                im.save(out, "JPEG", quality=calitate, optimize=True)
+        except Exception:
+            return cel_mai_bun
+        if not os.path.exists(out):
+            continue
+        marime = os.path.getsize(out)
+        if cel_mai_bun is None or marime < cel_mai_bun:
+            cel_mai_bun = marime
+        if marime <= KB_MAX * 1024:
+            break
+    return cel_mai_bun
 
 
 def thumb(src_path):
@@ -30,7 +60,7 @@ def thumb(src_path):
         return os.path.relpath(out, ROOT)
 
     cel_mai_bun = None
-    for calitate in ("high", "medium", "low"):
+    for calitate in ("high", "medium", "low") if SIPS else ():
         subprocess.run(
             ["sips", "-Z", str(LATIME), "-s", "format", "jpeg",
              "-s", "formatOptions", calitate, src_path, "--out", out],
@@ -43,6 +73,9 @@ def thumb(src_path):
             cel_mai_bun = marime
         if marime <= KB_MAX * 1024:
             break
+
+    if cel_mai_bun is None:
+        cel_mai_bun = _thumb_pil(src_path, out)
 
     return os.path.relpath(out, ROOT) if os.path.exists(out) else None
 
