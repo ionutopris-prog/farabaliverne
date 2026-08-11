@@ -1,0 +1,75 @@
+{
+  "slug": "medvi-companie-ai-doi-angajati",
+  "title": "Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times",
+  "category": "Știință",
+  "date": "2026-08-11",
+  "source": "New York Times",
+  "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html",
+  "dek": "Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare de avertisment FDA, acuzații de „doctori” deepfake și un proces RICO.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Medvi este o firmă reală de telemedicină, fondată de Matthew Gallagher (41 de ani) în Los Angeles, în septembrie 2024. Singurul angajat cu normă întreagă este fratele său, Elliot — de aici eticheta „companie de doi oameni”. Firma vinde servicii la domiciliu legate de medicamentele de slăbit din clasa GLP-1, folosind peste o duzină de instrumente AI.",
+      "sources": [
+        { "name": "Forbes — AI and $20,000 helped one man build a $1.8 billion telehealth startup", "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" },
+        { "name": "PYMNTS — The One-Person Billion-Dollar Company Is Here", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" },
+        { "name": "NewsNation — How one man used AI to build a fast-growing company selling GLP-1", "url": "https://www.newsnationnow.com/health/ai-telehealth-startup-billions-matthew-gallagher/" }
+      ]
+    },
+    {
+      "text": "Portretul din New York Times, publicat pe 2 aprilie 2026, vehiculează cifre spectaculoase: 401 de milioane de dolari vânzări în primul an complet (2025), o proiecție de circa 1,8 miliarde de dolari venituri pentru 2026, aproximativ 250.000 de clienți și o marjă netă de 16,2%. Aceste cifre sunt reluate de mai multe publicații care citează articolul NYT și compania.",
+      "sources": [
+        { "name": "Forbes — cifrele Medvi (401 mil. $, 1,8 mld. $ proiectat)", "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" },
+        { "name": "PYMNTS — 250.000 clienți, marjă 16,2%", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" }
+      ]
+    },
+    {
+      "text": "Pentru comparație, Hims & Hers — un concurent consacrat din telemedicină — a raportat 2,4 miliarde de dolari venituri anul trecut, cu 2.442 de angajați și o marjă netă de 5,5%. Contrastul dintre o firmă de doi oameni și una cu mii de angajați este exact ce a făcut povestea virală.",
+      "sources": [
+        { "name": "PYMNTS — comparația cu Hims & Hers", "url": "https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" },
+        { "name": "Forbes — context concurență", "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifrele-record (401 milioane $ vânzări, 1,8 miliarde $ proiectat) sunt AUTORAPORTATE de companie și reluate de presă — nu există, în sursele consultate, o auditare independentă sau o verificare de terță parte a lor. „1,8 miliarde” este, de altfel, o proiecție pentru 2026, nu un rezultat încasat. Analiștii avertizează să tratăm aceste numere cu prudență.",
+      "sources": [
+        { "name": "Forrester — Beware The Magical Two-Person, $1 Billion AI-Driven Startup", "url": "https://www.forrester.com/blogs/beware-the-magical-two-person-1-billion-ai-driven-startup/" },
+        { "name": "Telehealth & Telecare Aware — portret „glowing, dar foarte discutabil”", "url": "https://telecareaware.com/ny-times-highly-questionable-but-glowing-and-viral-portrait-of-ai-created-glp-1-e-prescriber-and-marketer-medvi/" }
+      ]
+    },
+    {
+      "text": "Agenția americană FDA a emis o scrisoare de avertisment legată de activitatea Medvi, invocând etichetare înșelătoare, afirmații neautorizate de echivalență între medicamentele „compuse” (compounded) și cele GLP-1 de marcă, și distribuție interstatală necorespunzătoare; FDA a avertizat că neremedierea încălcărilor poate duce la confiscare sau injuncție. Matthew Gallagher a răspuns că scrisoarea a vizat un afiliat și că problema a fost între timp rezolvată.",
+      "sources": [
+        { "name": "eMarketer — Fake doctor ads fuel scrutiny of GLP-1 marketer", "url": "https://www.emarketer.com/content/fake-doctor-ads-fuel-scrutiny-of-glp-1-marketer" },
+        { "name": "Forrester — scrisoarea de avertisment FDA", "url": "https://www.forrester.com/blogs/beware-the-magical-two-person-1-billion-ai-driven-startup/" },
+        { "name": "Yahoo Finance — alegațiile care se acumulează", "url": "https://finance.yahoo.com/sectors/healthcare/articles/1-8-billion-startup-just-190000841.html" }
+      ]
+    },
+    {
+      "text": "Mai multe publicații documentează că marketingul Medvi a folosit „doctori” fabricați: profiluri de medici generate AI, testimoniale video care ar fi deepfake-uri, poze „înainte/după” fabricate, iar unii medici citați fie nu existau, fie trimiteau către magazine din Angola. Gallagher apără portretizările drept practică publicitară veche, însoțită de disclaimere. Cititorul are aici două versiuni opuse — le punem alături.",
+      "sources": [
+        { "name": "Futurism — investigația despre „doctorii” falși", "url": "https://futurism.com/artificial-intelligence/new-york-times-medvi-ai-glp1s" },
+        { "name": "eMarketer — reclame cu doctori falși", "url": "https://www.emarketer.com/content/fake-doctor-ads-fuel-scrutiny-of-glp-1-marketer" }
+      ]
+    },
+    {
+      "text": "Medvi a fost prinsă și într-un proces pe legea RICO, care acuză partenerul său OpenLoop și o farmacie de „compounding” că ar fi vândut o pastilă de slăbit compusă „fără un mecanism demonstrat de absorbție sau eficacitate”; reclamantul susține că a cumpărat medicamentele prin platforma Medvi. Este o acuzație aflată în instanță, nu o hotărâre — o semnalăm ca atare.",
+      "sources": [
+        { "name": "Yahoo Finance — procesul RICO și alegațiile", "url": "https://finance.yahoo.com/sectors/healthcare/articles/1-8-billion-startup-just-190000841.html" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cadrul „prima companie de un miliard cu un singur om” / „viitorul muncii” / „AI-ul înlocuiește angajații” este o interpretare, nu un fapt măsurat. Un analist Forrester argumentează că povestea amestecă lucruri diferite: a concedia oameni ca să investești în AI nu e totuna cu „AI-ul face azi munca de ieri a omului”, iar înlocuirea reală, la scară, se întâmplă rar."
+    },
+    {
+      "text": "Faptul că NYT a ales un ton preponderent admirativ, iar alte publicații l-au acuzat că „spală imaginea” unei firme cu semne de întrebare, ține de judecata editorială — o dispută despre cum a fost spusă povestea, nu despre cifrele în sine."
+    }
+  ],
+  "math": "Aritmetica pe cifrele autoraportate arată de ce povestea a devenit virală: 401 milioane $ împărțiți la 2 oameni înseamnă circa 200 de milioane $ venit pe angajat; la Hims & Hers, 2,4 miliarde $ / 2.442 angajați ≈ 1 milion $ pe angajat — un raport de aproape 200 la 1. Dar acesta este un calcul pe numere neauditate: dacă cifra de venit nu e confirmată independent, și „productivitatea pe angajat” rămâne o afirmație, nu o măsurătoare.",
+  "aiNote": "Am rezumat și pus în context, în română, o știre din presa internațională (New York Times, 2 aprilie 2026); articolul original e linkat mai sus — îl poți citi oricând, inclusiv cu Google Translate. Fiindcă textul NYT e cu plată, NU l-am reprodus; am agregat faptele din surse independente accesibile: Forbes, PYMNTS, NewsNation, Forrester, Futurism, eMarketer și Yahoo Finance. Cifrele aparțin companiei/NYT și nu au fost verificate independent de noi. Nu spunem că fondatorul „a mințit” — arătăm care afirmații sunt documentate din mai multe părți și care sunt contestate, și includem și replica lui. Concluzia rămâne a ta. Traducere și interpretare realizate cu ajutorul AI.",
+  "persoane": []
+}
