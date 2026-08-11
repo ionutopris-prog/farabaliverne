@@ -76,8 +76,27 @@ toate articolele cu poză proprie — bug cauzat direct de modificările mele.
 Le-a reparat corect. Modificările de homepage au fost reaplicate **peste**
 versiunea lui, ca să nu se reintroducă.
 
+**Distribuția pe X: postăm manual, gratis.** API-ul X a trecut în februarie 2026
+la plată per acțiune — **$0,015 pe postare, dar $0,200 dacă are link**. La ritmul
+site-ului (~21 articole/zi) postarea automată ar fi costat **~$126/lună**, pentru
+un cont pe care postările iau între 1 și 19 vizualizări. Decizia fondatorului:
+postează el, fără promovare, construim încet.
+- `/de-postat.html` — listă cu textul deja compus și buton de copiere, refăcută
+  automat după fiecare ediție; `noindex` + blocată în robots
+- ordonate **după cât de bine se dau mai departe**: demontările primele,
+  confirmările de rutină la urmă — contează care 2-3 postezi, nu câte
+- textul = titlu + frază din rezumat + verdict cu numărul de afirmații
+  („Nu se susține · 4 probate · 1 contestată" — informație pe care n-o dă nimeni
+  altcineva)
+- fără hashtag-uri, intenționat
+- **NU** construim automatizare prin browser: încalcă termenii X, iar rezultatul
+  obișnuit e suspendarea contului
+
+*De reținut:* asta face postarea rapidă, nu te face văzut. Problema rămâne că nu
+te cunoaște nimeni. Facebook și Telegram sunt gratuite și acolo e publicul
+românesc de știri — de atacat când vine momentul.
+
 **De rezolvat:**
-- Distribuție: 7+ ediții/zi care nu ajung nicăieri. Zero automatizare de social.
 - Cadența (din oră-n-oră, publicare directă) contrazice `CLAUDE.md`, care spune
   „fondatorul aprobă înainte de publicare, cel puțin la început". Ori se
   actualizează regula, ori se repune omul în circuit.
