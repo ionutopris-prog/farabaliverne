@@ -1,0 +1,65 @@
+{
+  "slug": "sua-transparenta-fiscala-romania-2026",
+  "title": "România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026",
+  "category": "Economie",
+  "date": "2026-08-11",
+  "source": "BURSA / Digi24",
+  "url": "https://www.bursa.ro/departamentul-de-stat-sua-romania-indeplineste-cerintele-de-transparenta-fiscala-evaluate-in-raportul-din-2026-21448951",
+  "dek": "Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență Fiscală pentru 2026 (perioada analizată: 1 ianuarie – 31 decembrie 2025). Din 140 de guverne și entități evaluate, 73 — printre care și România — au îndeplinit standardele minime; 67 nu le-au atins.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "România se numără printre cele 73 de guverne și entități (din 140 analizate la nivel mondial) care au îndeplinit cerințele minime de transparență fiscală evaluate în Raportul de Transparență Fiscală 2026 al Departamentului de Stat al SUA, publicat pe 11 august 2026. Alte 67 de guverne/entități nu au atins standardul.",
+      "sources": [
+        {
+          "name": "BURSA — Departamentul de Stat SUA: România îndeplinește cerințele de transparență fiscală evaluate în Raportul din 2026",
+          "url": "https://www.bursa.ro/departamentul-de-stat-sua-romania-indeplineste-cerintele-de-transparenta-fiscala-evaluate-in-raportul-din-2026-21448951"
+        },
+        {
+          "name": "Digi24 — România, printre statele care îndeplinesc cerințele SUA privind transparența fiscală",
+          "url": "https://www.digi24.ro/stiri/economie/romania-printre-statele-care-indeplinesc-cerintele-sua-privind-transparenta-fiscala-ce-arata-evaluarea-departamentului-de-stat-3902183"
+        },
+        {
+          "name": "DailyBusiness.ro — România trece testul SUA privind transparența fiscală. Doar 73 din 140 de state au îndeplinit criteriile",
+          "url": "https://www.dailybusiness.ro/stiri-externe/romania-trece-testul-sua-privind-transparenta-fiscala-doar-73-din-140-de-state-au-indeplinit-criteriile-548594/"
+        }
+      ]
+    },
+    {
+      "text": "Evaluarea, făcută anual la mandatul Congresului SUA, analizează dacă guvernele asigură acces public la documentele bugetare esențiale și dacă informațiile sunt suficient de complete și de credibile. Pentru ediția 2026, Departamentul de Stat a actualizat criteriile, punând accent suplimentar pe transparența datoriei publice și a împrumuturilor suverane — inclusiv publicarea termenilor și condițiilor împrumuturilor și a garanțiilor/obligațiilor asociate.",
+      "sources": [
+        {
+          "name": "BURSA — criteriile de evaluare actualizate pentru 2026",
+          "url": "https://www.bursa.ro/departamentul-de-stat-sua-romania-indeplineste-cerintele-de-transparenta-fiscala-evaluate-in-raportul-din-2026-21448951"
+        },
+        {
+          "name": "Digi24 — noile cerințe din 2026 privind împrumuturile suverane",
+          "url": "https://www.digi24.ro/stiri/economie/romania-printre-statele-care-indeplinesc-cerintele-sua-privind-transparenta-fiscala-ce-arata-evaluarea-departamentului-de-stat-3902183"
+        }
+      ]
+    },
+    {
+      "text": "Ministrul Finanțelor, Alexandru Nazare, a declarat, în urma publicării raportului, că „transparența nu este doar o cerință procedurală, ci este un element obligatoriu pentru o guvernare responsabilă” — o reacție oficială la rezultatul evaluării, nu o afirmație independentă verificabilă în sine.",
+      "sources": [
+        {
+          "name": "BURSA — declarația ministrului Alexandru Nazare",
+          "url": "https://www.bursa.ro/departamentul-de-stat-sua-romania-indeplineste-cerintele-de-transparenta-fiscala-evaluate-in-raportul-din-2026-21448951"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "„Îndeplinește cerințele minime” e un prag de tip trece/nu trece, nu o notă de excelență — raportul nu clasează statele într-un top al celei mai bune transparențe, ci separă doar guvernele care ating pragul minim de cele care nu-l ating. Faptul că 67 din 140 de guverne evaluate nu au trecut testul arată că pragul nu e unul trivial, dar nici nu spune cât de sus peste linia minimă se situează România.",
+      "sources": [
+        {
+          "name": "DailyBusiness.ro — 73 din 140 de state au îndeplinit criteriile minime",
+          "url": "https://www.dailybusiness.ro/stiri-externe/romania-trece-testul-sua-privind-transparenta-fiscala-doar-73-din-140-de-state-au-indeplinit-criteriile-548594/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Am rezumat în română informații din mai multe redacții economice (BURSA, Digi24, DailyBusiness.ro) care citesc aceeași sursă primară — raportul Departamentului de Stat al SUA. Am marcat explicit, la „Contestat”, că „îndeplinește cerințele minime” e un prag binar, nu un clasament al calității transparenței — ca cititorul să nu extrapoleze un rezultat „bun” dincolo de ce spune efectiv raportul.",
+  "persoane": ["Alexandru Nazare"]
+}
