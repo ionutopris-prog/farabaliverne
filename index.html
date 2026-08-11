@@ -175,6 +175,29 @@
 
   .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
   .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+  /* Lista compactă: articolele mai vechi dintr-o categorie, fără imagine.
+     Rămân toate pe prima pagină și indexabile, dar nu mai cer poze — altfel
+     prima pagină creștea la nesfârșit, în octeți și în număr de imagini. */
+  .mini-list{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+  .mini-head{
+    font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-faint);font-weight:800;padding:10px 2px 8px;
+  }
+  .mini-row{
+    display:flex;gap:16px;align-items:baseline;justify-content:space-between;
+    padding:9px 2px;border-bottom:1px solid var(--line);
+    text-decoration:none;color:inherit;transition:padding-left .15s,color .15s;
+  }
+  .mini-row:last-child{border-bottom:none}
+  .mini-row:hover{padding-left:7px;color:var(--accent)}
+  .mini-title{font-size:15.5px;line-height:1.4;min-width:0}
+  .mini-meta{display:flex;gap:10px;align-items:center;flex:none;white-space:nowrap}
+  .mini-date{font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  @media(max-width:620px){
+    .mini-row{flex-direction:column;gap:6px;align-items:flex-start}
+    .mini-meta{gap:8px}
+  }
   .card{
     background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
     box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
@@ -447,7 +470,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-legea-integritatii-vot-final" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-legea-integritatii-vot-final)"/></svg></div>
                 <div class="glyph">🏛️</div>
               </div>
-              <img data-cardphoto="1" src="https://foto.agerpres.ro/photos/19428501/cover.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/articole/legea-integritatii-vot-final.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -483,7 +506,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-nicusor-dan-cotroceni-lideri-lege-salarizare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-nicusor-dan-cotroceni-lideri-lege-salarizare)"/></svg></div>
                 <div class="glyph">🏛️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/nicusor-dan-cotroceni-lideri-lege-salarizare.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/nicusor-dan-cotroceni-lideri-lege-salarizare.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -507,7 +530,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-camera-deputatilor-sesiune-extraordinara-11-12-august" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-camera-deputatilor-sesiune-extraordinara-11-12-august)"/></svg></div>
                 <div class="glyph">⚖️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/camera-deputatilor-sesiune-extraordinara-11-12-august.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/camera-deputatilor-sesiune-extraordinara-11-12-august.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -531,7 +554,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-buzoianu-alegeri-anticipate" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-buzoianu-alegeri-anticipate)"/></svg></div>
                 <div class="glyph">⚖️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/buzoianu-alegeri-anticipate.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/buzoianu-alegeri-anticipate.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -555,7 +578,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-bolojan-conditii-guvern-varianta-muresan" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-bolojan-conditii-guvern-varianta-muresan)"/></svg></div>
                 <div class="glyph">⚖️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/bolojan-conditii-guvern-varianta-muresan.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/bolojan-conditii-guvern-varianta-muresan.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -579,7 +602,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-georgescu-legionari-elogiu" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-georgescu-legionari-elogiu)"/></svg></div>
                 <div class="glyph">📜</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/georgescu-legionari-elogiu.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/georgescu-legionari-elogiu.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -603,7 +626,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-grindeanu-lege-salarizare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-grindeanu-lege-salarizare)"/></svg></div>
                 <div class="glyph">💶</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/grindeanu-lege-salarizare.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/grindeanu-lege-salarizare.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
@@ -620,126 +643,14 @@
               </div>
             </div>
           </a>
-          <a href="a/georgescu-iccj-proces-fond.html" class="card">
-
-            <div class="photo g-pol">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-georgescu-iccj-proces-fond" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-georgescu-iccj-proces-fond)"/></svg></div>
-                <div class="glyph">⚖️</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/georgescu-iccj-proces-fond.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Politică</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>ÎCCJ a respins contestațiile: procesul pe fond poate începe în dosarul Georgescu–Potra</h3>
-              <p class="dek">Pe 6 august 2026, Secția penală a ÎCCJ a respins contestațiile și a menținut decizia Curții de Apel București din camera preliminară, deschizând calea către…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/nicusor-dan-decrete-magistrati.html" class="card">
-
-            <div class="photo g-pol">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-nicusor-dan-decrete-magistrati" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-nicusor-dan-decrete-magistrati)"/></svg></div>
-                <div class="glyph">⚖️</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/nicusor-dan-decrete-magistrati.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Politică</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> News.ro</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Nicușor Dan a semnat decretele de numire a noilor magistrați care au promovat examenul de capacitate</h3>
-              <p class="dek">Pe 27 iulie 2026, președintele Nicușor Dan a semnat decretele de numire în funcție a judecătorilor și procurorilor care au promovat examenul de capacitate…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> News.ro</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/fantana-zece-ani-inchisoare.html" class="card">
-
-            <div class="photo g-pol">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-fantana-zece-ani-inchisoare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-fantana-zece-ani-inchisoare)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="https://hotnews.ro/wp-content/uploads/2026/07/ID8595-INQUAM-PHOTOS-GEORGE-CALIN.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Politică</div>
-              <div class="srcbadge"><span class="fav" style="background:#d9642c"></span> HotNews.ro</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 2</span></div></div>
-              <h3>„Zece ani de închisoare dacă îți sapi o fântână în curte”? Ce spune de fapt proiectul Ministerului Mediului</h3>
-              <p class="dek">Proiectul de lege transpune o directivă UE privind infracțiunile de mediu și prevede pedepse pentru captările ilegale de apă la scară mare. Verificăm…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#d9642c"></span> HotNews.ro</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/bolojan-deepfake-razboi-septembrie.html" class="card">
-
-            <div class="photo g-pol">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-bolojan-deepfake-razboi-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-bolojan-deepfake-razboi-septembrie)"/></svg></div>
-                <div class="glyph">🎭</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/bolojan-deepfake-razboi-septembrie.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Politică</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Afirmație verificată: clipuri deepfake pe TikTok atribuite premierului Ilie Bolojan</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Videoclipuri deepfake cu premierul Bolojan care „anunță” intrarea României în război</h3>
-              <p class="dek">Clipuri generate cu inteligență artificială, atribuite premierului, au circulat viral pe TikTok. Ce se probează despre proveniența lor și ce spun reacțiile…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Afirmație verificată: clipuri deepfake pe TikTok atribuite premierului Ilie Bolojan</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/sosoaca-tribunal-ue-imunitate.html" class="card">
-
-            <div class="photo g-pol">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sosoaca-tribunal-ue-imunitate" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sosoaca-tribunal-ue-imunitate)"/></svg></div>
-                <div class="glyph">⚖️</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/sosoaca-tribunal-ue-imunitate.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Politică</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> AGERPRES</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Tribunalul UE respinge cererea Dianei Șoșoacă de suspendare a ridicării imunității</h3>
-              <p class="dek">Vicepreședintele Tribunalului UE a respins cererea de suspendare, dar procesul de fond privind anularea deciziei Parlamentului European rămâne pe rol.</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> AGERPRES</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
+          </div>
+          <div class="mini-list">
+            <div class="mini-head">Încă 5 din Politică</div>
+            <a href="a/bolojan-deepfake-razboi-septembrie.html" class="mini-row"><span class="mini-title">Videoclipuri deepfake cu premierul Bolojan care „anunță” intrarea României în război</span><span class="mini-meta"><span class="chip soft bad sm">Contrazis</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/sosoaca-tribunal-ue-imunitate.html" class="mini-row"><span class="mini-title">Tribunalul UE respinge cererea Dianei Șoșoacă de suspendare a ridicării imunității</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/fantana-zece-ani-inchisoare.html" class="mini-row"><span class="mini-title">„Zece ani de închisoare dacă îți sapi o fântână în curte”? Ce spune de fapt proiectul Ministerului Mediului</span><span class="mini-meta"><span class="chip soft bad sm">Contrazis</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/nicusor-dan-decrete-magistrati.html" class="mini-row"><span class="mini-title">Nicușor Dan a semnat decretele de numire a noilor magistrați care au promovat examenul de capacitate</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/georgescu-iccj-proces-fond.html" class="mini-row"><span class="mini-title">ÎCCJ a respins contestațiile: procesul pe fond poate începe în dosarul Georgescu–Potra</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
           </div>
         </section>
 
@@ -748,150 +659,6 @@
             <h2>Economie</h2>
           </div>
           <div class="cards-3">
-          <a href="a/cernavoda-unitatea-2-oprire-rovinari-4.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-cernavoda-unitatea-2-oprire-rovinari-4" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-cernavoda-unitatea-2-oprire-rovinari-4)"/></svg></div>
-                <div class="glyph">⚡</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/cernavoda-unitatea-2-oprire-rovinari-4.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Profit.ro</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare</h3>
-              <p class="dek">Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar Nuclearelectrica anunță posibilitatea opririi controlate a…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Profit.ro</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/a3-zimbor-poarta-salajului-inaugurare.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-a3-zimbor-poarta-salajului-inaugurare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-a3-zimbor-poarta-salajului-inaugurare)"/></svg></div>
-                <div class="glyph">🛣️</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/a3-zimbor-poarta-salajului-inaugurare.JPG" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Adevărul / Pro Infrastructură</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere</h3>
-              <p class="dek">CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3) — 12,24 km, primul tronson de autostradă…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Adevărul / Pro Infrastructură</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/apia-inmatriculari-auto-scadere-iulie-2026.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-apia-inmatriculari-auto-scadere-iulie-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-apia-inmatriculari-auto-scadere-iulie-2026)"/></svg></div>
-                <div class="glyph">💶</div>
-              </div>
-              <img data-cardphoto="1" src="https://www.bursa.ro/_img/articole/mare/598411.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#556050"></span> APIA / BURSA</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic</h3>
-              <p class="dek">Asociația Producătorilor și Importatorilor de Automobile (APIA) a anunțat pe 11 august 2026 că înmatriculările de autoturisme noi au scăzut cu 28% în iulie…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#556050"></span> APIA / BURSA</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/aep-subventii-partide-august-2026.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-aep-subventii-partide-august-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-aep-subventii-partide-august-2026)"/></svg></div>
-                <div class="glyph">💶</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/aep-subventii-partide-august-2026.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> AGERPRES / AEP</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
-              <h3>AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare</h3>
-              <p class="dek">Autoritatea Electorală Permanentă a virat pe 7 august 2026 subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> AGERPRES / AEP</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/sua-transparenta-fiscala-romania-2026.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sua-transparenta-fiscala-romania-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sua-transparenta-fiscala-romania-2026)"/></svg></div>
-                <div class="glyph">💶</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/sua-transparenta-fiscala-romania-2026.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> BURSA / Digi24</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026</h3>
-              <p class="dek">Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență Fiscală pentru 2026 (perioada analizată: 1 ianuarie – 31 decembrie…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> BURSA / Digi24</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/guvern-dragaj-dunare-5-milioane-lei.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-guvern-dragaj-dunare-5-milioane-lei" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-guvern-dragaj-dunare-5-milioane-lei)"/></svg></div>
-                <div class="glyph">💶</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/guvern-dragaj-dunare-5-milioane-lei.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Gândul / Digi24</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă</h3>
-              <p class="dek">Guvernul a aprobat pe 10 august încă 5,1 milioane lei din Fondul de rezervă bugetară pentru dragaj în două puncte critice de pe Dunăre, sumă ce se adaugă…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Gândul / Digi24</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
           <a href="a/pilon2-castig-100-miliarde-lei.html" class="card">
 
             <div class="photo g-eco">
@@ -899,7 +666,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-pilon2-castig-100-miliarde-lei" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-pilon2-castig-100-miliarde-lei)"/></svg></div>
                 <div class="glyph">💶</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/pilon2-castig-100-miliarde-lei.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/pilon2-castig-100-miliarde-lei.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Economie</div>
@@ -916,25 +683,49 @@
               </div>
             </div>
           </a>
-          <a href="a/burnete-avertisment-recesiune-2026.html" class="card">
+          <a href="a/sua-transparenta-fiscala-romania-2026.html" class="card">
 
             <div class="photo g-eco">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-burnete-avertisment-recesiune-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-burnete-avertisment-recesiune-2026)"/></svg></div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sua-transparenta-fiscala-romania-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sua-transparenta-fiscala-romania-2026)"/></svg></div>
                 <div class="glyph">💶</div>
               </div>
-              <img data-cardphoto="1" src="https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwMiUyRjE4JTJGMjU5ODAzOF8yNTk4/MDM4X0dldHR5SW1hZ2VzLTIyMjI4OTY2/OTEuanBnJnc9MTIwMCZoPTYzMCZ6Yz0x/Jmhhc2g9NzM4MzBiODA5ZjI5MWVmYWE3NWIyOGY0MTFmMTlhNTA=.thumb.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/sua-transparenta-fiscala-romania-2026.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#556050"></span> Digi24 / News.ro</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> BURSA / Digi24</div>
             </div>
             <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”</h3>
-              <p class="dek">Radu Burnete, consilierul prezidențial pentru politici economice și sociale al lui Nicușor Dan, a declarat luni, 10 august 2026, într-un interviu pentru…</p>
+              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026</h3>
+              <p class="dek">Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență Fiscală pentru 2026 (perioada analizată: 1 ianuarie – 31 decembrie…</p>
               <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#556050"></span> Digi24 / News.ro</span>
+                <span class="src"><span class="fav" style="background:#888"></span> BURSA / Digi24</span>
+                <span>· 2026-08-11</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/a3-zimbor-poarta-salajului-inaugurare.html" class="card">
+
+            <div class="photo g-eco">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-a3-zimbor-poarta-salajului-inaugurare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-a3-zimbor-poarta-salajului-inaugurare)"/></svg></div>
+                <div class="glyph">🛣️</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/a3-zimbor-poarta-salajului-inaugurare.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Economie</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Adevărul / Pro Infrastructură</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere</h3>
+              <p class="dek">CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3) — 12,24 km, primul tronson de autostradă…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Adevărul / Pro Infrastructură</span>
                 <span>· 2026-08-11</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>
@@ -947,7 +738,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-air-china-zbor-direct-bucuresti-beijing" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-air-china-zbor-direct-bucuresti-beijing)"/></svg></div>
                 <div class="glyph">✈️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/air-china-zbor-direct-bucuresti-beijing.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/air-china-zbor-direct-bucuresti-beijing.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Economie</div>
@@ -964,150 +755,66 @@
               </div>
             </div>
           </a>
-          <a href="a/bnr-dobanda-cheie-650-august-2026.html" class="card">
+          <a href="a/cernavoda-unitatea-2-oprire-rovinari-4.html" class="card">
 
             <div class="photo g-eco">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-bnr-dobanda-cheie-650-august-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-bnr-dobanda-cheie-650-august-2026)"/></svg></div>
-                <div class="glyph">💶</div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-cernavoda-unitatea-2-oprire-rovinari-4" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-cernavoda-unitatea-2-oprire-rovinari-4)"/></svg></div>
+                <div class="glyph">⚡</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/bnr-dobanda-cheie-650-august-2026.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/cernavoda-unitatea-2-oprire-rovinari-4.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> BURSA</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
-              <h3>BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare</h3>
-              <p class="dek">Banca Națională a României a decis luni, 10 august 2026, să păstreze dobânda-cheie de politică monetară la 6,50% pe an, nivel neschimbat de doi ani. Inflația…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> BURSA</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/romania-deficit-comercial-s1-2026.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-romania-deficit-comercial-s1-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-romania-deficit-comercial-s1-2026)"/></svg></div>
-                <div class="glyph">💶</div>
-              </div>
-              <img data-cardphoto="1" src="https://agerpres.ro/data/202608/20260810100836_986174.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#556050"></span> AGERPRES / INS</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Profit.ro</div>
             </div>
             <div class="cbody">
               <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026</h3>
-              <p class="dek">Institutul Național de Statistică a publicat pe 10 august 2026 datele balanței comerciale: deficitul a scăzut cu 2% față de primul semestru din 2025, la…</p>
+              <h3>Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare</h3>
+              <p class="dek">Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar Nuclearelectrica anunță posibilitatea opririi controlate a…</p>
               <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#556050"></span> AGERPRES / INS</span>
-                <span>· 2026-08-10</span>
+                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Profit.ro</span>
+                <span>· 2026-08-11</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>
             </div>
           </a>
-          <a href="a/bolojan-alerta-energetica-20-procente.html" class="card">
+          <a href="a/aep-subventii-partide-august-2026.html" class="card">
 
             <div class="photo g-eco">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-bolojan-alerta-energetica-20-procente" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-bolojan-alerta-energetica-20-procente)"/></svg></div>
-                <div class="glyph">⚡</div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-aep-subventii-partide-august-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-aep-subventii-partide-august-2026)"/></svg></div>
+                <div class="glyph">💶</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/bolojan-alerta-energetica-20-procente.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/aep-subventii-partide-august-2026.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> AGERPRES / AEP</div>
             </div>
             <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Bolojan: România a declarat stare de alertă energetică, riscă să piardă 20% din producția de energie</h3>
-              <p class="dek">Guvernul a declarat stare de alertă energetică pentru luna august 2026, pe fondul debitului scăzut al Dunării, care afectează sistemul de răcire al…</p>
+              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare</h3>
+              <p class="dek">Autoritatea Electorală Permanentă a virat pe 7 august 2026 subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice…</p>
               <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24</span>
-                <span>· 2026-08-07</span>
+                <span class="src"><span class="fav" style="background:#888"></span> AGERPRES / AEP</span>
+                <span>· 2026-08-11</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>
             </div>
           </a>
-          <a href="a/moody-rating-baa3-romania.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moody-rating-baa3-romania" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moody-rating-baa3-romania)"/></svg></div>
-                <div class="glyph">📊</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/moody-rating-baa3-romania.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Europa Liberă România</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Moody's confirmă ratingul României la Baa3, perspectivă negativă menținută</h3>
-              <p class="dek">Agenția Moody's a menținut ratingul suveran al României la ultima treaptă investițională, cu perspectivă negativă, la o săptămână după decizia similară a…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Europa Liberă România</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/inflatie-10-9-putere-cumparare.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-inflatie-10-9-putere-cumparare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-inflatie-10-9-putere-cumparare)"/></svg></div>
-                <div class="glyph">📉</div>
-              </div>
-              <img data-cardphoto="1" src="https://www.sfin.ro/wp-content/uploads/2026/06/jocurile_foamei.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#2d7a3e"></span> SFIN.ro</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Puterea de cumpărare se prăbușește: inflație de 10,9%, salarii și pensii reale în scădere</h3>
-              <p class="dek">Cifrele-cheie din articol — inflație de 10,9% (mai 2026), energie electrică +55%, pensie medie de 2.934 lei și blocarea majorării prin Legea 141/2025 — se…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#2d7a3e"></span> SFIN.ro</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/anaf-diaspora-confiscare.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-anaf-diaspora-confiscare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-anaf-diaspora-confiscare)"/></svg></div>
-                <div class="glyph">🧾</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/anaf-diaspora-confiscare.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> ANAF (comunicat)</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>„ANAF vrea să fure banii românilor din diaspora” — ce spun, de fapt, documentele ANAF</h3>
-              <p class="dek">O afirmație virală susține că „ANAF/România vrea să fure sau să confiște banii românilor din diaspora”. Punem alături ce se probează din documentele ANAF: o…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> ANAF (comunicat)</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span>
-              </div>
-            </div>
-          </a>
+          </div>
+          <div class="mini-list">
+            <div class="mini-head">Încă 9 din Economie</div>
+            <a href="a/apia-inmatriculari-auto-scadere-iulie-2026.html" class="mini-row"><span class="mini-title">Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-11</span></span></a>
+            <a href="a/guvern-dragaj-dunare-5-milioane-lei.html" class="mini-row"><span class="mini-title">Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-11</span></span></a>
+            <a href="a/burnete-avertisment-recesiune-2026.html" class="mini-row"><span class="mini-title">Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-11</span></span></a>
+            <a href="a/bnr-dobanda-cheie-650-august-2026.html" class="mini-row"><span class="mini-title">BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/romania-deficit-comercial-s1-2026.html" class="mini-row"><span class="mini-title">Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/inflatie-10-9-putere-cumparare.html" class="mini-row"><span class="mini-title">Puterea de cumpărare se prăbușește: inflație de 10,9%, salarii și pensii reale în scădere</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/anaf-diaspora-confiscare.html" class="mini-row"><span class="mini-title">„ANAF vrea să fure banii românilor din diaspora” — ce spun, de fapt, documentele ANAF</span><span class="mini-meta"><span class="chip soft bad sm">Contrazis</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/bolojan-alerta-energetica-20-procente.html" class="mini-row"><span class="mini-title">Bolojan: România a declarat stare de alertă energetică, riscă să piardă 20% din producția de energie</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/moody-rating-baa3-romania.html" class="mini-row"><span class="mini-title">Moody's confirmă ratingul României la Baa3, perspectivă negativă menținută</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
           </div>
         </section>
 
@@ -1116,102 +823,6 @@
             <h2>Extern</h2>
           </div>
           <div class="cards-3">
-          <a href="a/zelenski-kosovo-controversa-belgrad.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-zelenski-kosovo-controversa-belgrad" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-zelenski-kosovo-controversa-belgrad)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/zelenski-kosovo-controversa-belgrad.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews / Kyiv Independent</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean</h3>
-              <p class="dek">În prima sa vizită oficială la Belgrad (7-9 august 2026), președintele ucrainean Volodimir Zelenski a reafirmat, la o conferință de presă alături de…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Euronews / Kyiv Independent</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/china-ev-cota-piata-europa-vest.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-ev-cota-piata-europa-vest" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-ev-cota-piata-europa-vest)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/04/44904bea-d940-4239-98e5-fb6c8400c87c_d579b1ba.jpg?itok=HfcRxMXW" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#7c1f1f"></span> South China Morning Post / news.am (Schmidt Automotive Research)</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite</h3>
-              <p class="dek">🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în Europa de Vest în 2026, potrivit consultanței germane Schmidt…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#7c1f1f"></span> South China Morning Post / news.am (Schmidt Automotive Research)</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/meloni-frederiksen-migratie-mesaj-comun.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-meloni-frederiksen-migratie-mesaj-comun" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-meloni-frederiksen-migratie-mesaj-comun)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/meloni-frederiksen-migratie-mesaj-comun.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație</h3>
-              <p class="dek">Premierii Italiei (Giorgia Meloni) și Danemarcei (Mette Frederiksen) au publicat, pe 10 august 2026, o declarație comună prin care cer o politică UE mai dură…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Euronews</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/trump-iran-compensatie-hormuz.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-iran-compensatie-hormuz" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-iran-compensatie-hormuz)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-10T195428Z_705729691_RC2VVMART6L1_RTRMADP_3_USA-TRUMP-VACCINES-1786406962.jpg?resize=1920%2C1440" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#4a3563"></span> Al Jazeera / Euronews</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează</h3>
-              <p class="dek">Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru daune produse pe o perioadă de 50 de ani — răspuns la cererea…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#4a3563"></span> Al Jazeera / Euronews</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
           <a href="a/uk-interzice-capcanele-abonament-burnham.html" class="card">
 
             <div class="photo g-ext">
@@ -1219,7 +830,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-uk-interzice-capcanele-abonament-burnham" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-uk-interzice-capcanele-abonament-burnham)"/></svg></div>
                 <div class="glyph">🌍</div>
               </div>
-              <img data-cardphoto="1" src="https://www.cityam.com/wp-content/uploads/2026/08/Burnham-12.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Extern</div>
@@ -1236,6 +847,30 @@
               </div>
             </div>
           </a>
+          <a href="a/carolina-de-sud-alegeri-speciale-graham.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-carolina-de-sud-alegeri-speciale-graham" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-carolina-de-sud-alegeri-speciale-graham)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/carolina-de-sud-alegeri-speciale-graham.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> PBS NewsHour / Ballotpedia</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham</h3>
+              <p class="dek">Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71 de ani, în urma unei disecții de aortă. Guvernatorul Henry McMaster a numit-o interimar…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> PBS NewsHour / Ballotpedia</span>
+                <span>· 2026-08-11</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/franta-interzice-apeluri-nedorite.html" class="card">
 
             <div class="photo g-ext">
@@ -1243,7 +878,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-franta-interzice-apeluri-nedorite" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-franta-interzice-apeluri-nedorite)"/></svg></div>
                 <div class="glyph">🌍</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/franta-interzice-apeluri-nedorite.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/franta-interzice-apeluri-nedorite.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Extern</div>
@@ -1267,7 +902,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-zbor-secret-turcia-amenintare-iran" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-zbor-secret-turcia-amenintare-iran)"/></svg></div>
                 <div class="glyph">✈️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/trump-zbor-secret-turcia-amenintare-iran.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/trump-zbor-secret-turcia-amenintare-iran.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Extern</div>
@@ -1284,438 +919,76 @@
               </div>
             </div>
           </a>
-          <a href="a/carolina-de-sud-alegeri-speciale-graham.html" class="card">
+          <a href="a/china-ev-cota-piata-europa-vest.html" class="card">
 
             <div class="photo g-ext">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-carolina-de-sud-alegeri-speciale-graham" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-carolina-de-sud-alegeri-speciale-graham)"/></svg></div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-ev-cota-piata-europa-vest" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-ev-cota-piata-europa-vest)"/></svg></div>
                 <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/carolina-de-sud-alegeri-speciale-graham.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> PBS NewsHour / Ballotpedia</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham</h3>
-              <p class="dek">Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71 de ani, în urma unei disecții de aortă. Guvernatorul Henry McMaster a numit-o interimar…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> PBS NewsHour / Ballotpedia</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/anglia-seceta-71-procente-record.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-anglia-seceta-71-procente-record" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-anglia-seceta-71-procente-record)"/></svg></div>
-                <div class="glyph">🌾</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/anglia-seceta-71-procente-record.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews / Environment Agency (gov.uk)</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie</h3>
-              <p class="dek">Agenția britanică pentru Mediu a extins declarația oficială de secetă la 71,3% din teritoriul Angliei, după cea mai uscată lună iulie înregistrată vreodată…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Euronews / Environment Agency (gov.uk)</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/trump-ordin-vaccinuri-copii.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-ordin-vaccinuri-copii" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-ordin-vaccinuri-copii)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/trump-ordin-vaccinuri-copii.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> NBC News / NPR / CNBC</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi</h3>
-              <p class="dek">Președintele Donald Trump a semnat luni, 10 august 2026, un ordin executiv care reduce de la 17-18 la 11 numărul de boli pentru care CDC recomandă vaccinare…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> NBC News / NPR / CNBC</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/netanyahu-respinge-plan-gaza-trump.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-netanyahu-respinge-plan-gaza-trump" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-netanyahu-respinge-plan-gaza-trump)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/netanyahu-respinge-plan-gaza-trump.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Democracy Now!</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Netanyahu respinge public planul de pace pentru Gaza susținut de Trump</h3>
-              <p class="dek">Pe 9 august 2026, premierul israelian Benjamin Netanyahu a declarat public că Israelul respinge planul în 15 puncte pentru Gaza susținut de administrația…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Democracy Now!</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/bulgaria-explozie-uzina-munitie-emco.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-bulgaria-explozie-uzina-munitie-emco" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-bulgaria-explozie-uzina-munitie-emco)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/bulgaria-explozie-uzina-munitie-emco.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> BTA / teleSUR</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime</h3>
-              <p class="dek">Pe 10 august 2026, un camion cisternă a luat foc și a declanșat explozii la depozitele de muniție ale companiei EMCO, deținută de armurierul bulgar Emilian…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> BTA / teleSUR</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/moody-banci-dependenta-ai-risc-sistemic.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moody-banci-dependenta-ai-risc-sistemic" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moody-banci-dependenta-ai-risc-sistemic)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/moody-banci-dependenta-ai-risc-sistemic.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> AOL (Reuters)</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Moody's avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley</h3>
-              <p class="dek">Agenția de rating Moody's a publicat pe 9 august 2026 un raport care avertizează că băncile care adoptă rapid inteligența artificială riscă o „dependență…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> AOL (Reuters)</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/schengen-italia-spania-ceuta.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-schengen-italia-spania-ceuta" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-schengen-italia-spania-ceuta)"/></svg></div>
-                <div class="glyph">🛂</div>
-              </div>
-              <img data-cardphoto="1" src="https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-01T231917Z_371327264_RC2PPMACQWMG_RTRMADP_3_MIGRATION-EUROPE-SPAIN-CEUTA-1785837966.jpg?resize=1920%2C1440" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#f36c21"></span> Al Jazeera / Euronews</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune</h3>
-              <p class="dek">🌍 După ce peste 60.000 de persoane au trecut din Maroc în enclava spaniolă Ceuta (cel puțin 72 de morți raportați în cursul traversării), Italia a suspendat…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#f36c21"></span> Al Jazeera / Euronews</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/germania-afd-sondaj-28-procente.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-germania-afd-sondaj-28-procente" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-germania-afd-sondaj-28-procente)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/germania-afd-sondaj-28-procente.JPG" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%</h3>
-              <p class="dek">Un sondaj Infratest dimap, publicat pe 6 august 2026, arată partidul de extremă-dreapta AfD la 28% din intențiile de vot — cel mai ridicat nivel măsurat…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/todd-blanche-procuror-general-sua.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-todd-blanche-procuror-general-sua" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-todd-blanche-procuror-general-sua)"/></svg></div>
-                <div class="glyph">⚖️</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/todd-blanche-procuror-general-sua.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> PBS NewsHour / Al Jazeera</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general</h3>
-              <p class="dek">🌍 Senatul american, controlat de republicani, l-a confirmat în noaptea de 7 spre 8 august 2026, cu votul strâns 50-49, pe Todd Blanche — fostul avocat…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> PBS NewsHour / Al Jazeera</span>
-                <span>· 2026-08-10</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/oms-depozit-dnipro-lovit-trei-ori.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-oms-depozit-dnipro-lovit-trei-ori" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-oms-depozit-dnipro-lovit-trei-ori)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/oms-depozit-dnipro-lovit-trei-ori.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> UN News / OMS</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet</h3>
-              <p class="dek">Un depozit al Organizației Mondiale a Sănătății din regiunea Dnipro, Ucraina, cu provizii medicale pentru spitale de pe linia frontului, a fost lovit de trei…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> UN News / OMS</span>
-                <span>· 2026-08-09</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/franta-control-investitii-straine-10-la-suta.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-franta-control-investitii-straine-10-la-suta" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-franta-control-investitii-straine-10-la-suta)"/></svg></div>
-                <div class="glyph">🏛️</div>
-              </div>
-              <img data-cardphoto="1" src="https://static.cnews.fr/sites/default/files/styles/image_1160_652/public/080_hl_bohier_3244116-taille1200_6a709b08ee431.jpg?itok=7TdCx6Vl" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#c8102e"></span> CNews</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Franța înăsprește controlul investițiilor străine: pragul de notificare scade de la 25% la 10% pentru firmele strategice</h3>
-              <p class="dek">Un decret semnat de premierul Sébastien Lecornu, publicat în Jurnalul Oficial pe 2 august, coboară de la 25% la 10% pragul de la care un investitor…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#c8102e"></span> CNews</span>
-                <span>· 2026-08-08</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/berlin-csd-atac-terorist.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-berlin-csd-atac-terorist" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-berlin-csd-atac-terorist)"/></svg></div>
-                <div class="glyph">🕯️</div>
-              </div>
-              <img data-cardphoto="1" src="https://images.euronews.com/articles/stories/09/85/08/57/1200x675_cmsv2_c73216f4-14d5-538e-b987-491d05424185-9850857.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#12005c"></span> Euronews</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Atac la parada Berlin Pride: un mort și 29 de răniți, atacatorul împușcat de poliție a doua zi</h3>
-              <p class="dek">Pe 25 iulie, o dubă a intrat în mulțimea de la Christopher Street Day (Berlin Pride), în parcul Tiergarten. Am rezumat în română relatările presei…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#12005c"></span> Euronews</span>
-                <span>· 2026-08-08</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/hormuz-minoan-pioneer-atac-vas.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-hormuz-minoan-pioneer-atac-vas" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-hormuz-minoan-pioneer-atac-vas)"/></svg></div>
-                <div class="glyph">🚢</div>
               </div>
               
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#4a3563"></span> The Jerusalem Post</div>
+              <div class="srcbadge"><span class="fav" style="background:#7c1f1f"></span> South China Morning Post / news.am (Schmidt Automotive Research)</div>
             </div>
             <div class="cbody">
               <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Cargobotul „Minoan Pioneer”, lovit de un proiectil neidentificat în Strâmtoarea Ormuz — un membru al echipajului dispărut</h3>
-              <p class="dek">Pe 3 august 2026, cargobotul „Minoan Pioneer”, sub pavilion liberian, a fost lovit de un proiectil neidentificat lângă coasta Omanului, în Strâmtoarea Ormuz…</p>
+              <h3>Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite</h3>
+              <p class="dek">🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în Europa de Vest în 2026, potrivit consultanței germane Schmidt…</p>
               <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#4a3563"></span> The Jerusalem Post</span>
-                <span>· 2026-08-08</span>
+                <span class="src"><span class="fav" style="background:#7c1f1f"></span> South China Morning Post / news.am (Schmidt Automotive Research)</span>
+                <span>· 2026-08-11</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>
             </div>
           </a>
-          <a href="a/eclipsa-totala-12-august-2026.html" class="card">
+          <a href="a/trump-iran-compensatie-hormuz.html" class="card">
 
             <div class="photo g-ext">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-eclipsa-totala-12-august-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-eclipsa-totala-12-august-2026)"/></svg></div>
-                <div class="glyph">🌒</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/eclipsa-totala-12-august-2026.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> NASA Science</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Eclipsă totală de Soare pe 12 august 2026: prima vizibilă din Europa continentală după 1999 (Groenlanda, Islanda, Spania)</h3>
-              <p class="dek">Pe 12 august, banda de totalitate traversează Groenlanda, Islanda și nordul Spaniei — prima eclipsă totală vizibilă din Europa continentală după 1999. Am…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> NASA Science</span>
-                <span>· 2026-08-08</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/boe-dobanda-mentinuta-3-75.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-boe-dobanda-mentinuta-3-75" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-boe-dobanda-mentinuta-3-75)"/></svg></div>
-                <div class="glyph">🏦</div>
-              </div>
-              <img data-cardphoto="1" src="https://image.cnbcfm.com/api/v1/image/108118783-1742451714847-gettyimages-2204122232-VukValcicBOE120325_7.jpeg?v=1759939779&amp;w=1920&amp;h=1080" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#005594"></span> CNBC</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Banca Angliei menține dobânda-cheie la 3,75% pentru a cincea oară anul acesta — vot 6–3, trei membri au cerut majorare</h3>
-              <p class="dek">La ședința încheiată pe 29 iulie, Comitetul de Politică Monetară a votat 6 la 3 pentru menținerea dobânzii la 3,75%. Am rezumat în română decizia și am pus…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#005594"></span> CNBC</span>
-                <span>· 2026-08-08</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/trump-ordine-cetatenie-nastere.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-ordine-cetatenie-nastere" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-ordine-cetatenie-nastere)"/></svg></div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-iran-compensatie-hormuz" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-iran-compensatie-hormuz)"/></svg></div>
                 <div class="glyph">🌍</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/trump-ordine-cetatenie-nastere.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Bursa.ro (Reuters)</div>
+              <div class="srcbadge"><span class="fav" style="background:#4a3563"></span> Al Jazeera / Euronews</div>
             </div>
             <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Trump semnează două noi ordine executive pentru a limita cetățenia prin naștere în SUA, sfidând decizia Curții Supreme</h3>
-              <p class="dek">Administrația confirmă două ordine semnate pe 6 august, la cinci săptămâni după ce Curtea Supremă a respins, cu 6 la 3, prima încercare a lui Trump de a…</p>
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează</h3>
+              <p class="dek">Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru daune produse pe o perioadă de 50 de ani — răspuns la cererea…</p>
               <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Bursa.ro (Reuters)</span>
-                <span>· 2026-08-07</span>
+                <span class="src"><span class="fav" style="background:#4a3563"></span> Al Jazeera / Euronews</span>
+                <span>· 2026-08-11</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>
             </div>
           </a>
-          <a href="a/moldova-delegatie-talibani-sandu.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-delegatie-talibani-sandu" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-delegatie-talibani-sandu)"/></svg></div>
-                <div class="glyph">🏳️</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/moldova-delegatie-talibani-sandu.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 3</span></div></div>
-              <h3>Vizita unei delegații talibane la Chișinău: ce se probează din declarațiile oficiale și ce rămâne interpretare</h3>
-              <p class="dek">O delegație a Ministerului Agriculturii din Afganistanul controlat de talibani a fost primită la Chișinău. Autoritățile moldovene califică episodul drept…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/senat-sua-sanctiuni-rusia-graham.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-senat-sua-sanctiuni-rusia-graham" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-senat-sua-sanctiuni-rusia-graham)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/senat-sua-sanctiuni-rusia-graham.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> PBS NewsHour / CBS News</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Senatul SUA a votat 86–11 un pachet de sancțiuni dure împotriva Rusiei, numit după senatorul Lindsey Graham</h3>
-              <p class="dek">Pe 7 august 2026, Senatul SUA a adoptat cu 86 de voturi pentru și 11 împotrivă „Lindsey O. Graham Sanctioning Russia and Iran Act of 2026” — un pachet care…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> PBS NewsHour / CBS News</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
+          </div>
+          <div class="mini-list">
+            <div class="mini-head">Încă 19 din Extern</div>
+            <a href="a/meloni-frederiksen-migratie-mesaj-comun.html" class="mini-row"><span class="mini-title">Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-11</span></span></a>
+            <a href="a/zelenski-kosovo-controversa-belgrad.html" class="mini-row"><span class="mini-title">Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-11</span></span></a>
+            <a href="a/germania-afd-sondaj-28-procente.html" class="mini-row"><span class="mini-title">Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/schengen-italia-spania-ceuta.html" class="mini-row"><span class="mini-title">Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/todd-blanche-procuror-general-sua.html" class="mini-row"><span class="mini-title">Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/bulgaria-explozie-uzina-munitie-emco.html" class="mini-row"><span class="mini-title">Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/moody-banci-dependenta-ai-risc-sistemic.html" class="mini-row"><span class="mini-title">Moody's avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/netanyahu-respinge-plan-gaza-trump.html" class="mini-row"><span class="mini-title">Netanyahu respinge public planul de pace pentru Gaza susținut de Trump</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/anglia-seceta-71-procente-record.html" class="mini-row"><span class="mini-title">Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/trump-ordin-vaccinuri-copii.html" class="mini-row"><span class="mini-title">Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-10</span></span></a>
+            <a href="a/oms-depozit-dnipro-lovit-trei-ori.html" class="mini-row"><span class="mini-title">Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-09</span></span></a>
+            <a href="a/berlin-csd-atac-terorist.html" class="mini-row"><span class="mini-title">Atac la parada Berlin Pride: un mort și 29 de răniți, atacatorul împușcat de poliție a doua zi</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-08</span></span></a>
+            <a href="a/eclipsa-totala-12-august-2026.html" class="mini-row"><span class="mini-title">Eclipsă totală de Soare pe 12 august 2026: prima vizibilă din Europa continentală după 1999 (Groenlanda, Islanda, Spania)</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-08</span></span></a>
+            <a href="a/hormuz-minoan-pioneer-atac-vas.html" class="mini-row"><span class="mini-title">Cargobotul „Minoan Pioneer”, lovit de un proiectil neidentificat în Strâmtoarea Ormuz — un membru al echipajului dispărut</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-08</span></span></a>
+            <a href="a/franta-control-investitii-straine-10-la-suta.html" class="mini-row"><span class="mini-title">Franța înăsprește controlul investițiilor străine: pragul de notificare scade de la 25% la 10% pentru firmele strategice</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-08</span></span></a>
+            <a href="a/boe-dobanda-mentinuta-3-75.html" class="mini-row"><span class="mini-title">Banca Angliei menține dobânda-cheie la 3,75% pentru a cincea oară anul acesta — vot 6–3, trei membri au cerut majorare</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-08</span></span></a>
+            <a href="a/moldova-delegatie-talibani-sandu.html" class="mini-row"><span class="mini-title">Vizita unei delegații talibane la Chișinău: ce se probează din declarațiile oficiale și ce rămâne interpretare</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/trump-ordine-cetatenie-nastere.html" class="mini-row"><span class="mini-title">Trump semnează două noi ordine executive pentru a limita cetățenia prin naștere în SUA, sfidând decizia Curții Supreme</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
+            <a href="a/senat-sua-sanctiuni-rusia-graham.html" class="mini-row"><span class="mini-title">Senatul SUA a votat 86–11 un pachet de sancțiuni dure împotriva Rusiei, numit după senatorul Lindsey Graham</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
           </div>
         </section>
 
@@ -1731,7 +1004,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-medvi-companie-ai-doi-angajati" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-medvi-companie-ai-doi-angajati)"/></svg></div>
                 <div class="glyph">🤖</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/medvi-companie-ai-doi-angajati.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/medvi-companie-ai-doi-angajati.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Știință</div>
@@ -1748,30 +1021,6 @@
               </div>
             </div>
           </a>
-          <a href="a/statine-efecte-secundare-studiu-lancet-2026.html" class="card">
-
-            <div class="photo g-sci">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-statine-efecte-secundare-studiu-lancet-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-statine-efecte-secundare-studiu-lancet-2026)"/></svg></div>
-                <div class="glyph">💊</div>
-              </div>
-              <img data-cardphoto="1" src="https://www.statnews.com/wp-content/uploads/2026/02/GettyImages-55908505-1024x576.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Știință</div>
-              <div class="srcbadge"><span class="fav" style="background:#0a7d3c"></span> The Lancet</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Știință</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Un studiu The Lancet: majoritatea efectelor secundare din prospectul statinelor nu sunt cauzate de medicament</h3>
-              <p class="dek">O meta-analiză publicată în The Lancet (februarie 2026) de colaborarea Cholesterol Treatment Trialists (Oxford), pe 19 studii randomizate și aproape 124.000…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#0a7d3c"></span> The Lancet</span>
-                <span>· 2026-08-08</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
           <a href="a/iunie-2026-record-caldura-copernicus-omm.html" class="card">
 
             <div class="photo g-sci">
@@ -1779,7 +1028,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-iunie-2026-record-caldura-copernicus-omm" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-iunie-2026-record-caldura-copernicus-omm)"/></svg></div>
                 <div class="glyph">🌡️</div>
               </div>
-              <img data-cardphoto="1" src="https://wmo.int/sites/default/files/2026-07/DAVID%20%20MONTERO%20RODRIGUEZ-Spain-PROTECCION%20SOLAR.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Știință</div>
@@ -1796,7 +1045,32 @@
               </div>
             </div>
           </a>
+          <a href="a/statine-efecte-secundare-studiu-lancet-2026.html" class="card">
+
+            <div class="photo g-sci">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-statine-efecte-secundare-studiu-lancet-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-statine-efecte-secundare-studiu-lancet-2026)"/></svg></div>
+                <div class="glyph">💊</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Știință</div>
+              <div class="srcbadge"><span class="fav" style="background:#0a7d3c"></span> The Lancet</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Știință</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Un studiu The Lancet: majoritatea efectelor secundare din prospectul statinelor nu sunt cauzate de medicament</h3>
+              <p class="dek">O meta-analiză publicată în The Lancet (februarie 2026) de colaborarea Cholesterol Treatment Trialists (Oxford), pe 19 studii randomizate și aproape 124.000…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#0a7d3c"></span> The Lancet</span>
+                <span>· 2026-08-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           </div>
+
         </section>
 
         <section class="cat-section" id="media-de-stat">
@@ -1811,7 +1085,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-media-de-stat-china-marea-chinei-de-sud" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-media-de-stat-china-marea-chinei-de-sud)"/></svg></div>
                 <div class="glyph">📡</div>
               </div>
-              <img data-cardphoto="1" src="https://www.globaltimes.cn/Portals/0/attachment/2026/2026-07-09/33b7c4e8-67ac-4a51-9b26-43b64f024f62.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Media de stat</div>
@@ -1835,7 +1109,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-tass-teritoriu-iulie-2026-isw" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-tass-teritoriu-iulie-2026-isw)"/></svg></div>
                 <div class="glyph">📡</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/tass-teritoriu-iulie-2026-isw.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/tass-teritoriu-iulie-2026-isw.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Media de stat</div>
@@ -1853,6 +1127,7 @@
             </div>
           </a>
           </div>
+
         </section>
 
         <section class="cat-section" id="social">
@@ -1867,7 +1142,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-ambulanta-cluj-atac-mit-tiktok" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-ambulanta-cluj-atac-mit-tiktok)"/></svg></div>
                 <div class="glyph">🚑</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/ambulanta-cluj-atac-mit-tiktok.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/ambulanta-cluj-atac-mit-tiktok.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Social</div>
@@ -1891,7 +1166,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-ancpi-eterra-cadastru-blocaj" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-ancpi-eterra-cadastru-blocaj)"/></svg></div>
                 <div class="glyph">🗂️</div>
               </div>
-              <img data-cardphoto="1" src="https://media.gandul.ro/RLlcdXEInwHV-gXs-3bA3HO4ZGA=/1280x720/smart/filters:contrast(5):format(webp):quality(80)/https%3A%2F%2Fwww.gandul.ro%2Fwp-content%2Fuploads%2F2026%2F08%2Fde-cand-ar-putea-fi-repornit-sistemul-de-cadastru-cum-va-decurge-reluarea-platformei-e-terra-1280x853.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Social</div>
@@ -1915,7 +1190,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-georgescu-nanocipuri-sucuri" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-georgescu-nanocipuri-sucuri)"/></svg></div>
                 <div class="glyph">🥤</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/georgescu-nanocipuri-sucuri.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/georgescu-nanocipuri-sucuri.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Social</div>
@@ -1939,7 +1214,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-georgescu-apa-structurata" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-georgescu-apa-structurata)"/></svg></div>
                 <div class="glyph">💧</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/georgescu-apa-structurata.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/georgescu-apa-structurata.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Social</div>
@@ -1963,7 +1238,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-dunarea-fake-news-debit-apele-romane" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-dunarea-fake-news-debit-apele-romane)"/></svg></div>
                 <div class="glyph">🌊</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/dunarea-fake-news-debit-apele-romane.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/dunarea-fake-news-debit-apele-romane.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Social</div>
@@ -1987,7 +1262,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-cod-rosu-canicula-vest" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-cod-rosu-canicula-vest)"/></svg></div>
                 <div class="glyph">🌡️</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/cod-rosu-canicula-vest.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/cod-rosu-canicula-vest.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Social</div>
@@ -2004,30 +1279,10 @@
               </div>
             </div>
           </a>
-          <a href="a/sosoaca-clip-ai-penitenciar.html" class="card">
-
-            <div class="photo g-soc">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sosoaca-clip-ai-penitenciar" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sosoaca-clip-ai-penitenciar)"/></svg></div>
-                <div class="glyph">🤖</div>
-              </div>
-              <img data-cardphoto="1" src="https://www.gandul.ro/wp-content/uploads/2026/08/sososaca-jpg.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Social</div>
-              <div class="srcbadge"><span class="fav" style="background:#c0392b"></span> Gândul</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Social</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Clipul cu Șoșoacă „gardian de penitenciar” peste Bolojan și Nicușor Dan este generat cu AI</h3>
-              <p class="dek">Un videoclip distribuit de filiala SOS Sibiu o arată pe Diana Șoșoacă drept gardian într-un penitenciar în care apar Ilie Bolojan, Nicușor Dan, Raed Arafat…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#c0392b"></span> Gândul</span>
-                <span>· 2026-08-07</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
+          </div>
+          <div class="mini-list">
+            <div class="mini-head">Încă 1 din Social</div>
+            <a href="a/sosoaca-clip-ai-penitenciar.html" class="mini-row"><span class="mini-title">Clipul cu Șoșoacă „gardian de penitenciar” peste Bolojan și Nicușor Dan este generat cu AI</span><span class="mini-meta"><span class="chip soft ok sm">Probat</span><span class="mini-date">2026-08-07</span></span></a>
           </div>
         </section>
 
@@ -2036,30 +1291,6 @@
             <h2>Sport</h2>
           </div>
           <div class="cards-3">
-          <a href="a/sepsi-fcsb-0-0-superliga.html" class="card">
-
-            <div class="photo g-sport">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sepsi-fcsb-0-0-superliga" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sepsi-fcsb-0-0-superliga)"/></svg></div>
-                <div class="glyph">⚽</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/sepsi-fcsb-0-0-superliga.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Sport</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> AGERPRES</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Sport</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga</h3>
-              <p class="dek">Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> AGERPRES</span>
-                <span>· 2026-08-11</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
           <a href="a/dinamo-voluntari-4-0-superliga.html" class="card">
 
             <div class="photo g-sport">
@@ -2067,7 +1298,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-dinamo-voluntari-4-0-superliga" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-dinamo-voluntari-4-0-superliga)"/></svg></div>
                 <div class="glyph">⚽</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/dinamo-voluntari-4-0-superliga.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/dinamo-voluntari-4-0-superliga.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Sport</div>
@@ -2084,6 +1315,30 @@
               </div>
             </div>
           </a>
+          <a href="a/sepsi-fcsb-0-0-superliga.html" class="card">
+
+            <div class="photo g-sport">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sepsi-fcsb-0-0-superliga" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sepsi-fcsb-0-0-superliga)"/></svg></div>
+                <div class="glyph">⚽</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/sepsi-fcsb-0-0-superliga.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Sport</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> AGERPRES</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Sport</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga</h3>
+              <p class="dek">Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> AGERPRES</span>
+                <span>· 2026-08-11</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/craiova-arges-0-1-superliga.html" class="card">
 
             <div class="photo g-sport">
@@ -2091,7 +1346,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-craiova-arges-0-1-superliga" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-craiova-arges-0-1-superliga)"/></svg></div>
                 <div class="glyph">⚽</div>
               </div>
-              <img data-cardphoto="1" src="../img/articole/craiova-arges-0-1-superliga.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img data-cardphoto="1" src="img/carduri/craiova-arges-0-1-superliga.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Sport</div>
@@ -2108,6 +1363,30 @@
               </div>
             </div>
           </a>
+          <a href="a/kups-craiova-1-1-europa-league.html" class="card">
+
+            <div class="photo g-sport">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-kups-craiova-1-1-europa-league" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-kups-craiova-1-1-europa-league)"/></svg></div>
+                <div class="glyph">⚽</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/kups-craiova-1-1-europa-league.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Sport</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Antena Sport / ProSport</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Sport</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>KuPS – Universitatea Craiova 1-1: campioana României a scos un egal în Finlanda, returul e pe 13 august</h3>
+              <p class="dek">În turul 3 preliminar al Europa League, Universitatea Craiova a remizat 1-1 la Kuopio: Baiaram a deschis scorul, finlandezii de la KuPS au egalat prin…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Antena Sport / ProSport</span>
+                <span>· 2026-08-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/cfr-cluj-tromso-0-5-conference-league.html" class="card">
 
             <div class="photo g-sport">
@@ -2115,7 +1394,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-cfr-cluj-tromso-0-5-conference-league" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-cfr-cluj-tromso-0-5-conference-league)"/></svg></div>
                 <div class="glyph">⚽</div>
               </div>
-              <img data-cardphoto="1" src="https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjA2JTJGMjg5NjAwNV8yODk2/MDA1X2Nmci1jbHVqLXRyb21zby1wcm9m/aW1lZGlhLTExMjEwNTcxOTkucG5nJnc9/MTIwMCZoPTYzMCZ6Yz0xJmhhc2g9ODlk/M2RjMzBiOGZmZjQ5MDI1M2UxYzc5YTExNWI2NjI=.thumb.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Sport</div>
@@ -2139,7 +1418,7 @@
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-popovici-europene-paris-record" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-popovici-europene-paris-record)"/></svg></div>
                 <div class="glyph">🏊</div>
               </div>
-              <img data-cardphoto="1" src="https://www.g4media.ro/wp-content/uploads/2025/07/profimedia-1026500583.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Sport</div>
@@ -2156,33 +1435,10 @@
               </div>
             </div>
           </a>
-          <a href="a/kups-craiova-1-1-europa-league.html" class="card">
-
-            <div class="photo g-sport">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-kups-craiova-1-1-europa-league" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-kups-craiova-1-1-europa-league)"/></svg></div>
-                <div class="glyph">⚽</div>
-              </div>
-              <img data-cardphoto="1" src="../img/articole/kups-craiova-1-1-europa-league.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Sport</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Antena Sport / ProSport</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Sport</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>KuPS – Universitatea Craiova 1-1: campioana României a scos un egal în Finlanda, returul e pe 13 august</h3>
-              <p class="dek">În turul 3 preliminar al Europa League, Universitatea Craiova a remizat 1-1 la Kuopio: Baiaram a deschis scorul, finlandezii de la KuPS au egalat prin…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Antena Sport / ProSport</span>
-                <span>· 2026-08-08</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
           </div>
+
         </section>
-        <script>window.FB_FEATURED = [{"slug": "zelenski-kosovo-controversa-belgrad", "title": "Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean", "dek": "În prima sa vizită oficială la Belgrad (7-9 august 2026), președintele ucrainean Volodimir Zelenski a reafirmat, la o conferință de presă alături de Aleksandar Vučić, că poziția Kievului privind Kosovo „rămâne neschimbată” — adică Ucraina nu recunoaște independența Kosovo. Declarația a stârnit un val de nemulțumire la Priștina, unde autoritățile au retras un steag ucrainean amplasat în centrul capitalei.", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "../img/articole/zelenski-kosovo-controversa-belgrad.png", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Euronews / Kyiv Independent", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 1}, {"slug": "china-ev-cota-piata-europa-vest", "title": "Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite", "dek": "🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în Europa de Vest în 2026, potrivit consultanței germane Schmidt Automotive Research. Dar cifrele vehiculate în presă nu sunt direct comparabile: 10,7% se referă la toate mașinile noi (T2 2026), iar 14,2% doar la mașinile 100% electrice (ianuarie–mai 2026).", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/04/44904bea-d940-4239-98e5-fb6c8400c87c_d579b1ba.jpg?itok=HfcRxMXW", "fav": "<span class=\"fav\" style=\"background:#7c1f1f\"></span>", "src": "South China Morning Post / news.am (Schmidt Automotive Research)", "vc": "ok", "vl": "Probat", "np": 4, "nc": 2, "no": 1}, {"slug": "sepsi-fcsb-0-0-superliga", "title": "Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga", "dek": "Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut ocaziile mai mari, dar FCSB rămâne neînvinsă în campionat, alături de Rapid.", "cat": "Sport", "g": "g-sport", "glyph": "⚽", "img": "../img/articole/sepsi-fcsb-0-0-superliga.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "AGERPRES", "vc": "ok", "vl": "Probat", "np": 3, "nc": 0, "no": 1}, {"slug": "meloni-frederiksen-migratie-mesaj-comun", "title": "Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație", "dek": "Premierii Italiei (Giorgia Meloni) și Danemarcei (Mette Frederiksen) au publicat, pe 10 august 2026, o declarație comună prin care cer o politică UE mai dură privind migrația, inclusiv „centre de repatriere” în țări terțe. Mesajul, semnat de doi lideri din tabere politice diferite, e prezentat diferit de presă: echilibrat de unele redacții, cu accent pe „amenințarea migrației în masă” de altele. 🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "../img/articole/meloni-frederiksen-migratie-mesaj-comun.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Euronews", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 2}, {"slug": "cernavoda-unitatea-2-oprire-rovinari-4", "title": "Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare", "dek": "Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar Nuclearelectrica anunță posibilitatea opririi controlate a Unității 2 de la Cernavodă în dimineața de 13 august. Unitatea 1 e deja oprită din 28 iulie. Ministerul Energiei repornește grupul pe lignit Rovinari 4 și pregătește importuri pentru a compensa producția pierdută.", "cat": "Economie", "g": "g-eco", "glyph": "⚡", "img": "../img/articole/cernavoda-unitatea-2-oprire-rovinari-4.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Digi24 / Profit.ro", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 1}, {"slug": "trump-iran-compensatie-hormuz", "title": "Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează", "dek": "Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru daune produse pe o perioadă de 50 de ani — răspuns la cererea Teheranului ca SUA să plătească reparații de război drept condiție pentru redeschiderea Strâmtorii Hormuz. Negocierile par blocate, iar prețul petrolului a crescut.", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-10T195428Z_705729691_RC2VVMART6L1_RTRMADP_3_USA-TRUMP-VACCINES-1786406962.jpg?resize=1920%2C1440", "fav": "<span class=\"fav\" style=\"background:#4a3563\"></span>", "src": "Al Jazeera / Euronews", "vc": "ok", "vl": "Probat", "np": 4, "nc": 2, "no": 1}, {"slug": "a3-zimbor-poarta-salajului-inaugurare", "title": "Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere", "dek": "CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3) — 12,24 km, primul tronson de autostradă inaugurat în România în 2026. Lucrarea, contractată în 2020–2021 cu termen inițial decembrie 2023, a întârziat aproape doi ani, din cauza unor alunecări de teren și a tergiversărilor CNAIR, potrivit Asociației Pro Infrastructură.", "cat": "Economie", "g": "g-eco", "glyph": "🛣️", "img": "../img/articole/a3-zimbor-poarta-salajului-inaugurare.JPG", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Digi24 / Adevărul / Pro Infrastructură", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 1}, {"slug": "uk-interzice-capcanele-abonament-burnham", "title": "Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027", "dek": "Premierul britanic Andy Burnham a anunțat, pe 9 august 2026, accelerarea unor reguli care obligă firmele să clarifice termenii abonamentelor și să interzică reducerile-fantomă (prețuri de referință umflate artificial). Guvernul estimează economii de sute de milioane de lire pentru consumatori; opoziția și presa de business au ridicat obiecții.", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "https://www.cityam.com/wp-content/uploads/2026/08/Burnham-12.jpg", "fav": "<span class=\"fav\" style=\"background:#556050\"></span>", "src": "City AM / GB News", "vc": "ok", "vl": "Probat", "np": 2, "nc": 1, "no": 1}];</script>
+        <script>window.FB_FEATURED = [{"slug": "pilon2-castig-100-miliarde-lei", "title": "Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net", "dek": "APAPR anunță că, la 31 iulie 2026, câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul II) a depășit pentru prima dată 100 de miliarde de lei, iar activele nete administrate au ajuns la 246,7 miliarde de lei pentru 8,5 milioane de participanți. Cifrele sunt raportate concordant de mai multe redacții economice, dar provin de la asociația administratorilor, nu de la un auditor independent.", "cat": "Economie", "g": "g-eco", "glyph": "💶", "img": "../img/articole/pilon2-castig-100-miliarde-lei.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "APAPR / Agerpres / BURSA", "vc": "ok", "vl": "Probat", "np": 3, "nc": 2, "no": 2}, {"slug": "uk-interzice-capcanele-abonament-burnham", "title": "Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027", "dek": "Premierul britanic Andy Burnham a anunțat, pe 9 august 2026, accelerarea unor reguli care obligă firmele să clarifice termenii abonamentelor și să interzică reducerile-fantomă (prețuri de referință umflate artificial). Guvernul estimează economii de sute de milioane de lire pentru consumatori; opoziția și presa de business au ridicat obiecții.", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "https://www.cityam.com/wp-content/uploads/2026/08/Burnham-12.jpg", "fav": "<span class=\"fav\" style=\"background:#556050\"></span>", "src": "City AM / GB News", "vc": "ok", "vl": "Probat", "np": 2, "nc": 1, "no": 1}, {"slug": "nicusor-dan-cotroceni-lideri-lege-salarizare", "title": "Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării", "dek": "Președintele Nicușor Dan s-a întâlnit marți, 11 august, la Cotroceni cu liderii PSD, PNL, USR și UDMR pentru a vedea dacă mai există un acord politic pe Legea salarizării unitare — jalon din PNRR cu termen 31 august 2026, sub riscul pierderii a 770 de milioane de euro.", "cat": "Politică", "g": "g-pol", "glyph": "🏛️", "img": "../img/articole/nicusor-dan-cotroceni-lideri-lege-salarizare.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Digi24 / Mediafax", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 1}, {"slug": "carolina-de-sud-alegeri-speciale-graham", "title": "Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham", "dek": "Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71 de ani, în urma unei disecții de aortă. Guvernatorul Henry McMaster a numit-o interimar pe sora sa, Darline Graham, iar pe 11 august 2026 republicanii din Carolina de Sud votează într-o primară specială cu cel puțin 9-10 candidați pentru a stabili cine merge în alegerile generale din noiembrie. La ora redactării, rezultatele primarei nu erau încă publicate.", "cat": "Extern", "g": "g-ext", "glyph": "🌍", "img": "../img/articole/carolina-de-sud-alegeri-speciale-graham.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "PBS NewsHour / Ballotpedia", "vc": "ok", "vl": "Probat", "np": 2, "nc": 1, "no": 0}, {"slug": "sua-transparenta-fiscala-romania-2026", "title": "România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026", "dek": "Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență Fiscală pentru 2026 (perioada analizată: 1 ianuarie – 31 decembrie 2025). Din 140 de guverne și entități evaluate, 73 — printre care și România — au îndeplinit standardele minime; 67 nu le-au atins.", "cat": "Economie", "g": "g-eco", "glyph": "💶", "img": "../img/articole/sua-transparenta-fiscala-romania-2026.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "BURSA / Digi24", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 0}, {"slug": "camera-deputatilor-sesiune-extraordinara-11-12-august", "title": "Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi", "dek": "Biroul permanent al Camerei Deputaților a convocat, joi 6 august 2026, o sesiune extraordinară pentru 11-12 august, cu patru inițiative legislative pe ordinea de zi: dezinstituționalizarea persoanelor cu dizabilități, măsuri pe piața energiei, abrogarea unui articol din legea fiscal-bugetară 141/2025 (cu implicații în educație) și completări la Codul administrativ.", "cat": "Politică", "g": "g-pol", "glyph": "⚖️", "img": "../img/articole/camera-deputatilor-sesiune-extraordinara-11-12-august.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "AGERPRES / DailyBusiness", "vc": "ok", "vl": "Probat", "np": 2, "nc": 1, "no": 0}, {"slug": "a3-zimbor-poarta-salajului-inaugurare", "title": "Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere", "dek": "CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3) — 12,24 km, primul tronson de autostradă inaugurat în România în 2026. Lucrarea, contractată în 2020–2021 cu termen inițial decembrie 2023, a întârziat aproape doi ani, din cauza unor alunecări de teren și a tergiversărilor CNAIR, potrivit Asociației Pro Infrastructură.", "cat": "Economie", "g": "g-eco", "glyph": "🛣️", "img": "../img/articole/a3-zimbor-poarta-salajului-inaugurare.JPG", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Digi24 / Adevărul / Pro Infrastructură", "vc": "ok", "vl": "Probat", "np": 3, "nc": 1, "no": 1}, {"slug": "air-china-zbor-direct-bucuresti-beijing", "title": "Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani", "dek": "Air China va opera, din 4 septembrie 2026, curse directe de pasageri de trei ori pe săptămână între Beijing și Aeroportul Henri Coandă, cu aeronave Airbus A330-200. TAROM a mai zburat pe această rută între 1974 și începutul anilor 2000, așa că e vorba de o reluare, nu de o premieră absolută — deși unele redacții au titrat greșit „primul zbor din istorie”.", "cat": "Economie", "g": "g-eco", "glyph": "✈️", "img": "../img/articole/air-china-zbor-direct-bucuresti-beijing.jpg", "fav": "<span class=\"fav\" style=\"background:#888\"></span>", "src": "Antena3 CNN / Forbes România", "vc": "ok", "vl": "Probat", "np": 2, "nc": 1, "no": 1}];</script>
         <script>
         (function(){
           var L=window.FB_FEATURED||[]; if(L.length<2) return;
