@@ -117,7 +117,7 @@ def aplica(item):
     with open(path, encoding="utf-8") as fh:
         html = fh.read()
 
-    if "foto-credit" in html:
+    if "<figcaption class=\"foto-credit\"" in html:
         return "deja aplicat"
 
     photo = dict(item["photo"])

@@ -157,7 +157,9 @@ def main():
         folosit = None
         for q, tip in interogari(art):
             try:
-                cand = pick_image.search(q, context, limit=10)
+                cand = pick_image.search(
+                    q, context, limit=10,
+                    nume_persoana=q if tip == "persoană" else None)
             except Exception as exc:
                 print(f"  [{i}/{len(fisiere)}] {slug}: eroare căutare — {exc}")
                 continue

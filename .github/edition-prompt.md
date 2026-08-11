@@ -23,7 +23,14 @@ category ∈ {Politică, Economie, Extern, Știință, Media de stat, Social, Sp
 
 PASUL 3 — Scrie fiecare articol (după șablon, EXACT):
 - `data/<slug>.json`: schema completă (slug,title,category,date,source,url,dek,mainVerdict,probat[],contestat[],opinie[],math,aiNote,persoane[]). Fiecare probat/contestat = text + sources[] (name+url REALE verificate).
-- `a/<slug>.html`: head meta per-slug (canonical/og:url/og:title cu slug corect), hero `g-hero` cu og:image REAL (curl sursa, grep og:image; `onerror="this.remove()"` `referrerpolicy="no-referrer"`), card `.src-cite` spre sursă, secțiuni probat/contestat/opinie, Nota AI.
+- `a/<slug>.html`: head meta per-slug (canonical/og:url/og:title cu slug corect), hero, card `.src-cite` spre sursă, secțiuni probat/contestat/opinie, Nota AI.
+- **POZA — obligatoriu prin unealtă, NICIODATĂ hotlink la poza altei publicații.**
+  Rulează: `python3 scripts/article_image.py <slug> "<ce căutăm>" "<titlu + dek>" [persoana]`
+  - `<ce căutăm>`: dacă articolul are o **persoană numită** → numele ei exact, plus argumentul `persoana`. Altfel, **instituția sau locul**, în engleză, cu denumirea stabilă de pe Commons („National Bank of Romania building", „Cernavodă Nuclear Power Plant", „United States Senate chamber").
+  - **NU** compune căutarea din cuvinte luate din titlu. „Puterea de cumpărare" → căutare „Puterea" → a întors o locomotivă cu abur, pe o știre despre inflație.
+  - Unealta întoarce JSON cu `img_html`, `figcaption_html` și `og_image`. Pune `img_html` în blocul `.photo`, `figcaption_html` imediat DUPĂ `</div>`-ul care închide `.photo`, și `og_image` în `og:image` + `twitter:image`.
+  - Dacă tipărește `NIMIC`, **lasă cardul de brand cu gradient**. Un card e mult mai bun decât o poză greșită. Nu căuta alternative pe alte site-uri.
+  - Unealta verifică singură licența (doar CC/domeniu public), respinge pozele de la accidente/înmormântări, și la portrete verifică să fie chiar persoana cerută.
 - PRINCIPIU: „Contrazis" DOAR când dovezile contrazic un FAPT verificabil; opinia/credința = `opinie`, NErătată. NICIODATĂ „minciună/a mințit" — explici DE CE nu se susține.
 
 PASUL 4 — Construiește: `python3 scripts/build_site.py` (regenerează homepage + Politicieni + numărul). Verifică succes + slug-urile în index.html.
