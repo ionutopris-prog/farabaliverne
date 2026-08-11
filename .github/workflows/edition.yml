@@ -103,6 +103,13 @@ jobs:
       # care e dovedit stabil. Îl declanșăm după ce botul a pus articolele pe main.
       # Decuplat: dacă FTP-ul are un timeout trecător, deploy.yml se re-rulează singur,
       # fără să pice ediția (conținutul e deja în siguranță pe GitHub).
+      # Verificarea rulează exact când apare conținut nou, nu pe un ceas
+      # arbitrar. Prinde hotlinkurile spre pozele altor publicații, legendele
+      # incomplete și pozele prea grele — înainte ca ele să ajungă pe site.
+      - name: Verifică pozele
+        if: steps.redactor.outputs.changed == 'true'
+        run: python3 scripts/verify_images.py
+
       - name: Publică (declanșează deploy-ul)
         if: steps.redactor.outputs.changed == 'true'
         env:
