@@ -1,0 +1,74 @@
+{
+  "slug": "tass-teritoriu-iulie-2026-isw",
+  "title": "TASS susține că Rusia a luat ~570 km² în Ucraina în iulie 2026 — analiza independentă ISW arată un avans de până la 15 ori mai mic",
+  "category": "Media de stat",
+  "date": "2026-08-03",
+  "source": "TASS (media de stat rusă) — cross-check Institute for the Study of War (ISW)",
+  "url": "https://tass.com/defense/2168515",
+  "dek": "Agenția de stat rusă TASS susține, citând un „expert militar”, că forțele ruse au preluat controlul asupra a circa 570-600 km² de teritoriu ucrainean în iulie 2026 și 32 de localități „eliberate”. Analiza independentă a Institute for the Study of War (ISW), bazată pe imagini satelitare și geolocalizare open-source, evaluează avansul real la doar 37,85-121,56 km² — de aproape 5 până la 15 ori mai puțin.",
+  "mainVerdict": "Contestat — surse de stat vs. analiză independentă",
+  "probat": [
+    {
+      "text": "TASS, agenție de presă de stat rusă, a publicat pe 3 august 2026 o afirmație a expertului militar Andrey Marochko (făcută într-un livestream pe VKontakte) potrivit căreia forțele ruse au preluat controlul asupra a aproape 600 km² de teritoriu ucrainean în iulie 2026 (aproximativ 570 km², o creștere de 200 km² față de iunie) și 32 de localități „eliberate” — 12 în regiunea Harkov, 11 în autoproclamata „Republică Populară Donețk”.",
+      "sources": [
+        {
+          "name": "TASS — Russian fighters take control of almost 600 sq km of territory in July [sursă de stat rusă]",
+          "url": "https://tass.com/defense/2168515"
+        }
+      ]
+    },
+    {
+      "text": "Institute for the Study of War (ISW) / Critical Threats Project, folosind imagini satelitare și geolocalizare open-source (metodologie publică, verificabilă), evaluează avansul teritorial real confirmat al Rusiei în iulie 2026 la doar 37,85 km² (medie de 1,22 km²/zi) — sau cel mult 121,56 km² dacă se includ infiltrările neconfirmate independent.",
+      "sources": [
+        {
+          "name": "ISW / Critical Threats — Russian Offensive Campaign Assessment, August 1, 2026",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-august-1-2026"
+        }
+      ]
+    },
+    {
+      "text": "ISW notează explicit că Ministerul rus al Apărării și agenția TASS au făcut, pe 31 iulie 2026, afirmații pe care ISW le califică drept „exagerate” cu privire la numărul de localități pretins cucerite în iulie — parte a ceea ce ISW numește o „campanie de război cognitiv” a Kremlinului.",
+      "sources": [
+        {
+          "name": "ISW / Critical Threats — Russian Offensive Campaign Assessment, August 1, 2026",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-august-1-2026"
+        }
+      ]
+    },
+    {
+      "text": "Chiar și cifra maximă revendicată de partea rusă (echivalentul a circa 18,49 km²/zi, calculată de ISW din declarațiile oficiale ruse) ar însemna, potrivit ISW, un ritm de avans caracterizat drept „doar pas de mers pe jos” — mult sub viteza necesară Rusiei pentru obiectivele operaționale declarate pentru 2026.",
+      "sources": [
+        {
+          "name": "ISW / Critical Threats — Russian Offensive Campaign Assessment, August 1, 2026",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-august-1-2026"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra publicată de TASS (~570-600 km²) este de aproape 5 până la 15 ori mai mare decât evaluarea ISW (37,85-121,56 km²), fără o sursă terță complet neutră care să arbitreze exact între cele două. TASS își bazează afirmația pe un „expert militar” citat, fără date verificabile public (coordonate, imagini); ISW publică metodologia și sursele open-source, dar recunoaște el însuși o marjă largă de incertitudine (de la 37,85 la 121,56 km², în funcție de câte infiltrări neconfirmate se includ).",
+      "sources": [
+        {
+          "name": "TASS — Russian fighters take control of almost 600 sq km of territory in July [sursă de stat rusă]",
+          "url": "https://tass.com/defense/2168515"
+        },
+        {
+          "name": "ISW / Critical Threats — Russian Offensive Campaign Assessment, August 1, 2026",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-august-1-2026"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Termenul „eliberate”, folosit de TASS pentru localitățile ocupate, este framing-ul narativ al sursei de stat ruse, nu o descriere neutră a evenimentelor — îl redăm între ghilimele. Similar, caracterizarea ISW a avansului drept „ritm de mers pe jos” este o metaforă folosită pentru a ilustra semnificația cifrelor, nu o unitate de măsură separată."
+    }
+  ],
+  "math": {
+    "title": "Între 5 și 15 ori diferență — de unde vine calculul",
+    "explanation": "Cifra TASS (~570 km²) împărțită la intervalul ISW (37,85-121,56 km²) dă un raport de 4,7 până la 15 ori mai mare: 570 ÷ 121,56 ≈ 4,7 și 570 ÷ 37,85 ≈ 15,06. De aceea articolul vorbește de o diferență „de aproape 5 până la 15 ori”, în funcție de care capăt al intervalului ISW este folosit ca referință."
+  },
+  "aiNote": "Această verificare pune alături o afirmație a presei de stat ruse (TASS, citând un expert militar, fără date verificabile public) și o analiză occidentală open-source cu metodologie transparentă (ISW/Critical Threats, bazată pe imagini satelitare și geolocalizare). Nu spunem că TASS „minte” — arătăm că cifra sa e de câteva ori mai mare decât ce poate fi confirmat independent, și explicăm de unde vine diferența. Ambele evaluări rămân, în esență, revendicări/estimări asupra unui front activ de conflict — cititorul poate urmări hărțile actualizate ale ISW pe understandingwar.org și comunicatele Ministerului rus al Apărării pe canalele lor oficiale.",
+  "persoane": []
+}
