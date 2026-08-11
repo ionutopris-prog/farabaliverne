@@ -1,0 +1,53 @@
+{
+  "slug": "dinamo-voluntari-4-0-superliga",
+  "title": "Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga",
+  "category": "Sport",
+  "date": "2026-08-11",
+  "source": "news.ro / ziarulprofit.ro",
+  "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821",
+  "dek": "Sâmbătă, 8 august 2026, Dinamo București a învins categoric FC Voluntari, scor 4-0, în etapa a 4-a din SuperLiga. Poziția exactă a lui Dinamo în clasament diferă între surse, în funcție de momentul publicării — etapa s-a încheiat abia după alte meciuri, printre care FC Argeș - Universitatea Craiova.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Dinamo București a învins FC Voluntari cu scorul de 4-0, sâmbătă, 8 august 2026, în etapa a 4-a din SuperLiga. Au marcat Daniel Armstrong (din penalty), Alexandru Musi, Oliver Hintsa și Adrian Mazilu.",
+      "sources": [
+        { "name": "news.ro — Superliga: Dinamo – FC Voluntari 4-0 și alb-roșii sunt pe locul secund", "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821" },
+        { "name": "ziarulprofit.ro — Rezultatele și clasamentul SuperLigii, etapa 4", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+      ]
+    },
+    {
+      "text": "În același tur de etapă, FC Argeș a preluat locul 1 în clasament după ce a învins Universitatea Craiova cu 1-0, gol marcat de Yanis Pîrvu în minutul 7.",
+      "sources": [
+        { "name": "ziarulprofit.ro — FC Argeș, noul lider al SuperLigii", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+      ]
+    },
+    {
+      "text": "Clasamentul complet după încheierea etapei a 4-a (potrivit ziarulprofit.ro): 1. FC Argeș — 9 puncte; 2. FCSB — 8 puncte; 3. Rapid București — 8 puncte; 4. Dinamo — 7 puncte; 5. Farul Constanța — 7 puncte; 6. Universitatea Craiova — 6 puncte.",
+      "sources": [
+        { "name": "ziarulprofit.ro — clasamentul complet, etapa 4", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Poziția lui Dinamo în clasament diferă între surse: news.ro (articol publicat imediat după meciul cu Voluntari) scrie că Dinamo a urcat pe „locul secund”, cu 7 puncte, egal cu FCSB și Farul; ziarulprofit.ro, care agregă toate meciurile etapei a 4-a (inclusiv FC Argeș - Craiova, jucat separat), arată Dinamo pe locul 4, cu FCSB și Rapid ambele la 8 puncte. Diferența vine probabil din momentul publicării — clasamentul se schimbă pe măsură ce se joacă restul etapei, nu dintr-o eroare de fapt.",
+      "sources": [
+        { "name": "news.ro — Dinamo pe locul secund, la momentul publicării", "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821" },
+        { "name": "ziarulprofit.ro — clasament complet, după toate meciurile etapei", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+      ]
+    },
+    {
+      "text": "Minutul exact al golului din penalty al lui Armstrong variază ușor între surse: minutul 38 într-o relatare, minutul 39 în alta. Diferența e nesemnificativă și nu schimbă rezultatul.",
+      "sources": [
+        { "name": "news.ro — penalty în minutul 39", "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Descrierea victoriei lui Dinamo drept un pas către „contracararea campionatului” este o evaluare jurnalistică, nu un fapt măsurabil — la doar 4 etape din sezon, diferențele de puncte dintre echipele din primele șase locuri sunt mici, iar clasamentul se poate schimba rapid."
+    }
+  ],
+  "aiNote": "Rezultatul meciului (Dinamo 4-0 Voluntari, cu marcatorii și datele confirmate de două surse independente) e solid confirmat. Poziția exactă a lui Dinamo în clasamentul general variază între relatări, în funcție de câte meciuri ale etapei a 4-a fuseseră deja jucate la momentul publicării fiecărui articol — nu e o eroare de fapt, ci un instantaneu al unui clasament în mișcare. Am pus alături ambele variante și clasamentul complet, ca să poți vedea singur de unde vine diferența.",
+  "persoane": []
+}

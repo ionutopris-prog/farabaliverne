@@ -23,6 +23,7 @@ Trei protecții, în ordinea importanței:
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -181,21 +182,11 @@ def license_url(short_name):
     return ""
 
 
-def comprima(path):
-    """
-    sips e nativ pe macOS — fără dependențe de instalat.
-
-    Scriem într-un fișier temporar și păstrăm rezultatul doar dacă e mai mic
-    decât ce aveam. Fără verificarea asta, o recodare poate ieși mai MARE decât
-    originalul, ceea ce s-a și întâmplat la prima rulare.
-    """
-    initial = os.path.getsize(path)
-    if initial <= KB_MAX * 1024:
-        return
-
-    tmp = path + ".tmp.jpg"
+def _comprima_sips(path, tmp):
+    """sips e nativ pe macOS — fără dependențe de instalat."""
+    if not shutil.which("sips"):
+        return None
     cel_mai_bun = None
-
     for calitate in ("high", "medium", "low"):
         subprocess.run(
             ["sips", "-Z", str(LATIME_MAX), "-s", "format", "jpeg",
@@ -207,11 +198,55 @@ def comprima(path):
         marime = os.path.getsize(tmp)
         if cel_mai_bun is None or marime < cel_mai_bun[1]:
             cel_mai_bun = (open(tmp, "rb").read(), marime)
+        os.remove(tmp)
         if marime <= KB_MAX * 1024:
             break
+    return cel_mai_bun
 
-    if os.path.exists(tmp):
+
+def _comprima_pil(path, tmp):
+    """Fallback portabil (Linux/CI, fără sips) — Pillow, dacă e instalat."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    cel_mai_bun = None
+    for calitate in (85, 70, 55):
+        try:
+            with Image.open(path) as im:
+                im = im.convert("RGB")
+                if im.width > LATIME_MAX:
+                    h = round(im.height * LATIME_MAX / im.width)
+                    im = im.resize((LATIME_MAX, h), Image.LANCZOS)
+                im.save(tmp, "JPEG", quality=calitate, optimize=True)
+        except Exception:
+            return cel_mai_bun
+        if not os.path.exists(tmp):
+            continue
+        marime = os.path.getsize(tmp)
+        if cel_mai_bun is None or marime < cel_mai_bun[1]:
+            cel_mai_bun = (open(tmp, "rb").read(), marime)
         os.remove(tmp)
+        if marime <= KB_MAX * 1024:
+            break
+    return cel_mai_bun
+
+
+def comprima(path):
+    """
+    Scriem într-un fișier temporar și păstrăm rezultatul doar dacă e mai mic
+    decât ce aveam. Fără verificarea asta, o recodare poate ieși mai MARE decât
+    originalul, ceea ce s-a și întâmplat la prima rulare.
+
+    Încearcă sips (macOS) întâi, apoi Pillow (Linux/CI) — dacă niciunul nu e
+    disponibil, păstrăm fișierul necomprimat în loc să crăpăm întreaga unealtă.
+    """
+    initial = os.path.getsize(path)
+    if initial <= KB_MAX * 1024:
+        return
+
+    tmp = path + ".tmp.jpg"
+    cel_mai_bun = _comprima_sips(path, tmp) or _comprima_pil(path, tmp)
 
     if cel_mai_bun and cel_mai_bun[1] < initial:
         with open(path, "wb") as fh:
