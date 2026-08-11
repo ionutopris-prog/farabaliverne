@@ -7,9 +7,14 @@ name: Fără Baliverne — ediția automată
 
 on:
   schedule:
-    - cron: "0 4,6,8,10,12,14,16,18,20 * * *"  # ZI, la FIECARE 2 ORE (UTC = EEST 07-23): RO+Europa+SUA
-    - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01)
-    - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04)
+    # ZI DENS (din oră-n-oră) MIERCURI/JOI/VINERI — fondatorul lucrează în tură de noapte
+    # (ture marți/miercuri/joi seara) → doarme ziua, nimeni pe Claude, cotă MAX liberă.
+    # ⚠️ Aranjament temporar ~3 săptămâni (până pe la 1 sept 2026) — după, revenim la 2h peste tot.
+    - cron: "0 4-20 * * 3,4,5"
+    # ZI normal (la fiecare 2 ore) restul zilelor (duminică/luni/marți/sâmbătă = 0,1,2,6)
+    - cron: "0 4,6,8,10,12,14,16,18,20 * * 0,1,2,6"
+    - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
+    - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
 
 concurrency:
