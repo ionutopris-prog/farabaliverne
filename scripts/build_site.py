@@ -371,6 +371,8 @@ def main():
         if os.sep + "a" + os.sep in f:
             mh = re.search(r'<img src="([^"]+)"[^>]*object-fit:cover;z-index:1', s)
             img = mh.group(1) if mh else "https://farabaliverne.ro/og-cover.png"
+            if img.startswith("../"):  # cale locală relativă -> URL absolut (og:image nu poate fi relativ)
+                img = "https://farabaliverne.ro/" + img[len("../"):]
             if mh:
                 s = re.sub(r'(<meta property="og:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
                 s = re.sub(r'(<meta name="twitter:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
