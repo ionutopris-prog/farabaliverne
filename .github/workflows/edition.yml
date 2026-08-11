@@ -7,12 +7,8 @@ name: Fără Baliverne — ediția automată
 
 on:
   schedule:
-    # ZI DENS (din oră-n-oră) MIERCURI/JOI/VINERI — fondatorul lucrează în tură de noapte
-    # (ture marți/miercuri/joi seara) → doarme ziua, nimeni pe Claude, cotă MAX liberă.
-    # ⚠️ Aranjament temporar ~3 săptămâni (până pe la 1 sept 2026) — după, revenim la 2h peste tot.
-    - cron: "0 4-20 * * 3,4,5"
-    # ZI normal (la fiecare 2 ore) restul zilelor (duminică/luni/marți/sâmbătă = 0,1,2,6)
-    - cron: "0 4,6,8,10,12,14,16,18,20 * * 0,1,2,6"
+    # ZI, din ORĂ-N-ORĂ, în TOATE zilele (UTC 04–20 = EEST 07–23): RO+Europa+SUA.
+    - cron: "0 4-20 * * *"
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
@@ -58,7 +54,7 @@ jobs:
           git config user.email "bot@farabaliverne.ro"
           H=$((10#$(date -u +%H)))
           if [ "$H" -ge 3 ] && [ "$H" -le 20 ]; then
-            W="ZI (06-23 EEST) — Romania + Europa + SUA (politica/economie/social/sport/extern). NU Stiinta (are editie proprie noaptea)."
+            W="ZI (06-23 EEST) — Romania + Europa + SUA (politica/economie/social/sport/extern). NU Stiinta (are editie proprie noaptea). Daca presa romaneasca nu are subiecte NOI, completeaza din presa INTERNATIONALA, inclusiv din EST (Asia/Orient, unde ziua s-a incheiat) — rezumat in romana + link sursa + eticheta traducere AI. Nu lasa editia goala."
           elif [ "$H" -eq 1 ]; then
             W="NOAPTE STIINTA (04 EEST) — editie DEDICATA DOAR categoriei Stiinta: spatiu, sanatate, tehnologie, clima, descoperiri, cu surse primare (NASA/ESA, reviste, agentii). Publica 2-4 articole doar Stiinta."
           else
