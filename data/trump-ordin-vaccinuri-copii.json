@@ -1,0 +1,87 @@
+{
+  "slug": "trump-ordin-vaccinuri-copii",
+  "title": "Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi",
+  "category": "Extern",
+  "date": "2026-08-10",
+  "source": "NBC News / NPR / CNBC",
+  "url": "https://www.nbcnews.com/health/kids-health/trump-order-fewer-childhood-vaccines-rcna591774",
+  "dek": "Președintele Donald Trump a semnat luni, 10 august 2026, un ordin executiv care reduce de la 17-18 la 11 numărul de boli pentru care CDC recomandă vaccinare universală la copii și cere separarea vaccinului ROR (rujeolă-oreion-rubeolă) în trei doze individuale. Legătura sugerată cu autismul, invocată în context, nu este susținută de studiile științifice disponibile.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Trump a semnat în Biroul Oval, luni 10 august 2026, un ordin executiv care reduce lista bolilor pentru care CDC recomandă vaccinare universală obligatorie la copii de la 17-18 boli la 11.",
+      "sources": [
+        {
+          "name": "NBC News — Trump order calls for fewer childhood vaccines",
+          "url": "https://www.nbcnews.com/health/kids-health/trump-order-fewer-childhood-vaccines-rcna591774"
+        },
+        {
+          "name": "NPR — Trump, RFK Jr. and vaccines: what the executive order does",
+          "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order"
+        }
+      ]
+    },
+    {
+      "text": "Ordinul cere ca vaccinul ROR (rujeolă-oreion-rubeolă), administrat în prezent ca doză combinată, să fie separat în trei doze individuale.",
+      "sources": [
+        {
+          "name": "NBC News — Trump order calls for fewer childhood vaccines",
+          "url": "https://www.nbcnews.com/health/kids-health/trump-order-fewer-childhood-vaccines-rcna591774"
+        }
+      ]
+    },
+    {
+      "text": "Ordinul direcționează Departamentul de Justiție să preseze statele să reducă cerințele de vaccinare pentru înscrierea în școli.",
+      "sources": [
+        {
+          "name": "NBC News — Trump order calls for fewer childhood vaccines",
+          "url": "https://www.nbcnews.com/health/kids-health/trump-order-fewer-childhood-vaccines-rcna591774"
+        }
+      ]
+    },
+    {
+      "text": "Zeci de studii independente, realizate de-a lungul a peste două decenii, nu au găsit o legătură cauzală demonstrată între vaccinuri și autism — poziția susținută public de organizații medicale precum Academia Americană de Pediatrie (AAP), care s-a opus deschis recomandărilor promovate de secretarul HHS Robert F. Kennedy Jr.",
+      "sources": [
+        {
+          "name": "CNBC — Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
+          "url": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html"
+        },
+        {
+          "name": "NPR — Trump, RFK Jr. and vaccines: what the executive order does",
+          "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Ordinul și contextul politic în jurul lui sugerează o legătură între vaccinuri și autism; această legătură nu este confirmată de comunitatea științifică și medicală, care citează zeci de studii independente fără rezultate în acest sens. Măsuri similare promovate anterior de administrația Kennedy au fost deja blocate parțial în instanță, iar noi contestații judiciare sunt așteptate și pentru acest ordin.",
+      "sources": [
+        {
+          "name": "CNBC — Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
+          "url": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html"
+        },
+        {
+          "name": "NPR — Trump, RFK Jr. and vaccines: what the executive order does",
+          "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Modul în care e prezentat ordinul diferă: administrația îl descrie ca protejând sănătatea copiilor prin „reducerea supra-vaccinării”, în timp ce criticii din domeniul medical îl descriu ca subminând imunizarea colectivă. Ambele sunt poziții/interpretări, nu fapte verificabile independent la data semnării."
+    },
+    {
+      "text": "Estimările privind impactul pe termen lung asupra ratei de vaccinare sau asupra apariției unor focare de boli prevenibile prin vaccin sunt predicții ale unor experți citați în presă, nu evenimente înregistrate încă."
+    }
+  ],
+  "math": {
+    "title": "De la 18 la 11 boli — o reducere de aproape 40%",
+    "explanation": "Lista actuală a CDC de boli pentru care se recomandă vaccinare universală la copii cuprinde 17-18 afecțiuni, în funcție de sursă. Ordinul o reduce la 11, adică o scădere de 6-7 boli — între 35% și 39% din lista actuală, cea mai mare restrângere de acest fel din istoria recentă a programului de vaccinare al SUA."
+  },
+  "aiNote": "Textul ordinului executiv (reducerea listei de boli, separarea vaccinului ROR, presiunea pe statele americane) este documentat concordant de trei redacții independente (NBC News, NPR, CNBC). Rămâne separat de acest fapt legătura sugerată cu autismul: aceasta nu este susținută de dovezile științifice disponibile — zeci de studii independente nu au găsit o astfel de legătură, poziție reafirmată public de organizații medicale precum AAP. Nu spunem că administrația „minte” — arătăm ce spune ordinul, ce spun studiile și unde nu se suprapun. Cititorul poate consulta textul integral al ordinului pe whitehouse.gov și pozițiile CDC/AAP pe siturile lor oficiale.",
+  "persoane": [
+    "Donald Trump"
+  ]
+}
