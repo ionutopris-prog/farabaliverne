@@ -1,0 +1,57 @@
+{
+  "slug": "cutremur-columbia-7-4-choco",
+  "title": "Cutremur de 7,4 în vestul Columbiei — cel mai puternic din acest secol, bilanțul morților crește rapid",
+  "category": "Extern",
+  "date": "2026-08-11",
+  "source": "Al Jazeera / Time / AP",
+  "url": "https://time.com/article/2026/08/10/colombia-earthquake-death-toll-damage/",
+  "dek": "Un cutremur de magnitudine 7,4 a lovit luni, 10 august 2026, vestul Columbiei, lângă San José del Palmar (Chocó) — cel mai puternic din țară în acest secol. Președintele Abelardo De La Espriella a declarat stare de dezastru național; bilanțul morților a crescut rapid, de la circa 100 la peste 200, pe măsură ce echipele de salvare ajung în zonele izolate.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Un cutremur de magnitudine 7,4 a lovit vestul Columbiei luni, 10 august 2026, în jurul orei 7:34 dimineața, ora locală, cu epicentrul la aproximativ 20 km de San José del Palmar, în departamentul Chocó, la o adâncime intermediară (estimată între 96 și 110 km, în funcție de sursă). Serviciul Geologic Columbian l-a descris drept cel mai puternic cutremur produs în Columbia în acest secol.",
+      "sources": [
+        { "name": "Al Jazeera — Colombia declares emergency after magnitude 7.4 earthquake", "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20" },
+        { "name": "Time — What to Know About the Earthquake in Colombia", "url": "https://time.com/article/2026/08/10/colombia-earthquake-death-toll-damage/" },
+        { "name": "Wikipedia — 2026 Colombia earthquake", "url": "https://en.wikipedia.org/wiki/2026_Colombia_earthquake" }
+      ]
+    },
+    {
+      "text": "Președintele Columbiei, Abelardo De La Espriella (aflat recent la începutul mandatului), a declarat stare de dezastru național și a transmis un mesaj către populația afectată: „Nu vă vom lăsa singuri. Sunteți în inima noastră și vom acționa cu toată hotărârea pentru a vă proteja, sprijini și pentru a reconstrui împreună zonele afectate.” Guvernul a trimis militari în zonele lovite.",
+      "sources": [
+        { "name": "Time — mesajul președintelui De La Espriella", "url": "https://time.com/article/2026/08/10/colombia-earthquake-death-toll-damage/" },
+        { "name": "Al Jazeera — stare de urgență națională declarată", "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20" }
+      ]
+    },
+    {
+      "text": "Pagubele sunt extinse: cel puțin 86 de clădiri s-au prăbușit complet, peste 1.500 de locuințe au fost avariate, iar mai multe școli și centre de sănătate au fost afectate. La un spital din Cali, mai multe etaje (unele dedicate pediatriei) s-au prăbușit, cu pacienți blocați sub dărâmături și circa 600 de persoane îngrijite pe stradă, în apropierea ruinelor. Șapte aeroporturi și-au suspendat temporar operațiunile, iar în Pereira blocuri întregi de locuințe au fost reduse la moloz.",
+      "sources": [
+        { "name": "Time — pagube și victime", "url": "https://time.com/article/2026/08/10/colombia-earthquake-death-toll-damage/" },
+        { "name": "AP (via Springfield News-Sun) — clădiri prăbușite, orașe afectate", "url": "https://www.springfieldnewssun.com/nation-world/69-dead-and-buildings-collapsed-after-7-4-magnitude-earthquake-strikes-western-colombia/article_dd29c80d-79e5-55bc-aa4a-13739c4aae83.html" }
+      ]
+    },
+    {
+      "text": "Ajutor internațional a fost mobilizat rapid: Statele Unite au anunțat 15,5 milioane de dolari pentru adăpost de urgență, hrană și alt sprijin; Venezuela și El Salvador au trimis echipe de salvare și personal medical; Mexicul și-a oferit sprijinul, iar Uniunea Europeană a mobilizat servicii de satelit pentru operațiunile de căutare-salvare.",
+      "sources": [
+        { "name": "Time — ajutor internațional", "url": "https://time.com/article/2026/08/10/colombia-earthquake-death-toll-damage/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Bilanțul exact al morților diferă puternic în funcție de sursă și de ora raportării, pe măsură ce echipele de salvare ajung în zone greu accesibile din Chocó (accesibile mai ales pe apă sau cu avionul): primele relatări (AP, la câteva ore după cutremur) indicau circa 69, apoi cel puțin 111 morți; spre seara zilei de 10 august, Al Jazeera raporta 132, iar alte agenții citau 224; cea mai recentă actualizare consultată (Wikipedia, 11 august) indica „cel puțin 240” de morți, peste 1.200 de răniți și aproape 3.800 de persoane date dispărute. Diferențele reflectă, cel mai probabil, extinderea căutărilor, nu contradicții între surse — la data verificării, bilanțul nu era încă definitivat.",
+      "sources": [
+        { "name": "AP (via Springfield News-Sun) — bilanț inițial, 69–111 morți", "url": "https://www.springfieldnewssun.com/nation-world/69-dead-and-buildings-collapsed-after-7-4-magnitude-earthquake-strikes-western-colombia/article_dd29c80d-79e5-55bc-aa4a-13739c4aae83.html" },
+        { "name": "Al Jazeera — 132 de morți", "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20" },
+        { "name": "Wikipedia — cel puțin 240 de morți, actualizare 11 august", "url": "https://en.wikipedia.org/wiki/2026_Colombia_earthquake" }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De la 111 la 240: cum a evoluat bilanțul în 24 de ore",
+    "explanation": "Primul bilanț confirmat (AP, în orele imediat următoare cutremurului) era de 111 morți; ultima actualizare disponibilă la data verificării indica cel puțin 240 — o creștere de peste 116% în circa 24 de ore. Această evoluție nu înseamnă că sursele se contrazic, ci că numărul e o estimare parțială la fiecare moment: zonele cele mai afectate din Chocó sunt izolate, accesibile doar pe apă sau cu avionul, iar aproape 3.800 de persoane erau încă date dispărute la ultima actualizare — cifră care, istoric, la dezastre similare, scade pe măsură ce oamenii sunt găsiți, dar poate și crește bilanțul deceselor. Cititorul ar trebui să trateze orice cifră unică din presă drept un instantaneu, nu un total final."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am ales să tratăm explicit variația bilanțului victimelor ca pe o secțiune „Contestat”, nu pentru că sursele s-ar contrazice factual, ci pentru că fiecare cifră reflectă un moment diferit al operațiunilor de salvare; recomandăm cititorului să caute cea mai recentă actualizare la data la care citește acest articol.",
+  "persoane": []
+}
