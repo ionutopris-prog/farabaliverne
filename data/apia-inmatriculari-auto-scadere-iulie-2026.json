@@ -1,0 +1,69 @@
+{
+  "slug": "apia-inmatriculari-auto-scadere-iulie-2026",
+  "title": "Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic",
+  "category": "Economie",
+  "date": "2026-08-11",
+  "source": "APIA / BURSA",
+  "url": "https://www.bursa.ro/apia-inmatricularile-de-autoturisme-noi-au-scazut-cu-28-procente-in-iulie-61148958",
+  "dek": "Asociația Producătorilor și Importatorilor de Automobile (APIA) a anunțat pe 11 august 2026 că înmatriculările de autoturisme noi au scăzut cu 28% în iulie față de iulie 2025, la 11.633 de unități. Segmentele electrice și plug-in hybrid sunt singurele în creștere, iar autoturismele electrificate au ajuns la 60% din piață.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "În iulie 2026 au fost înmatriculate 11.633 de autoturisme noi în România, cu 28% mai puține decât în iulie 2025, potrivit datelor APIA (bazate pe evidențele Direcției Generale a Poliției de Circulație). Pe primele șapte luni ale anului, piața rămâne cu 5,5% sub nivelul din aceeași perioadă a lui 2025.",
+      "sources": [
+        {
+          "name": "BURSA — APIA: Înmatriculările de autoturisme noi au scăzut cu 28% în iulie",
+          "url": "https://www.bursa.ro/apia-inmatricularile-de-autoturisme-noi-au-scazut-cu-28-procente-in-iulie-61148958"
+        },
+        {
+          "name": "Gândul — 11.633 de unități înmatriculate, scădere de 28%, -5,5% cumulat pe 7 luni",
+          "url": "https://www.gandul.ro/actualitate/inmatriculari-auto-romania-scadere-iulie-2026-20976927"
+        },
+        {
+          "name": "Promotor.ro — scăderea pe motorizări clasice și creșterea segmentelor electrificate",
+          "url": "https://www.promotor.ro/stiri-auto/scadere-cu-28-a-inmatricularilor-de-autoturisme-noi-hibrizii-plug-in-si-electricele-singurele-segmente-care-se-bucura-de-cresteri-19545196"
+        }
+      ]
+    },
+    {
+      "text": "Motorizările clasice au scăzut puternic: benzina a coborât cu 34%, dieselul cu 50%, iar mild-hybrid cu 35%. În schimb, electricele pure (BEV) au crescut cu 57% (ajungând la 7% din piață, față de 3,2% în iulie 2025), iar plug-in hybrid (PHEV) au crescut cu 71% (14,6% cotă de piață, față de 6,1% anul trecut). În ansamblu, vehiculele electrificate (BEV+PHEV+hibrid) dețin acum 60% din piața auto nouă, depășind mașinile pe benzină și diesel luate împreună.",
+      "sources": [
+        {
+          "name": "Gândul — creșterile pe segmentele electric și plug-in hybrid, cu cote de piață",
+          "url": "https://www.gandul.ro/actualitate/inmatriculari-auto-romania-scadere-iulie-2026-20976927"
+        },
+        {
+          "name": "BURSA — detalii pe motorizări (BEV, PHEV, MHEV, FHEV) și cota electrificatelor",
+          "url": "https://www.bursa.ro/apia-inmatricularile-de-autoturisme-noi-au-scazut-cu-28-procente-in-iulie-61148958"
+        }
+      ]
+    },
+    {
+      "text": "În topul modelelor electrice pe primele șapte luni ale anului se află Tesla Model Y (870 de unități, +341% față de aceeași perioadă din 2025), Tesla Model 3 (668 de unități) și BYD Dolphin Surf (553 de unități).",
+      "sources": [
+        {
+          "name": "Gândul — clasamentul modelelor electrice cel mai bine vândute",
+          "url": "https://www.gandul.ro/actualitate/inmatriculari-auto-romania-scadere-iulie-2026-20976927"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Creșterea segmentului electrificat la 60% din piață nu înseamnă că vânzările absolute de mașini electrificate au crescut — piața totală s-a contractat cu 28%, iar în cadrul categoriei „electrificate” motorizările mild-hybrid și full-hybrid au scăzut (-35%, respectiv -41%); doar segmentele pur electric și plug-in hybrid au crescut în termeni absoluți. Cota de 60% reflectă deci mai degrabă o prăbușire mai accentuată a motorizărilor clasice (benzină, diesel) decât un boom pur al electricelor.",
+      "sources": [
+        {
+          "name": "BURSA — defalcarea pe motorizări arată scăderi și în interiorul categoriei „electrificate”",
+          "url": "https://www.bursa.ro/apia-inmatricularile-de-autoturisme-noi-au-scazut-cu-28-procente-in-iulie-61148958"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "60% cotă de piață nu înseamnă „majoritatea românilor cumpără electrice”",
+    "explanation": "Categoria „electrificate” (60% din piață) include electrice pure (7%), plug-in hybrid (14,6%), dar și mild-hybrid (20,7%) și full-hybrid (17,6%) — motorizări care rămân, în esență, pe benzină sau diesel cu un motor electric auxiliar mic, nu mașini ce pot rula exclusiv electric pe distanțe mari. Doar 21,6% din piață (BEV + PHEV, adică mașinile care chiar se pot încărca din priză) reprezintă electrificare „reală” în sensul în care publicul larg înțelege termenul; restul de peste 38 de puncte procentuale sunt hibrizi convenționali."
+  },
+  "aiNote": "Cifrele APIA sunt confirmate concordant de trei redacții economice/auto (BURSA, Gândul, Promotor.ro), toate citând aceeași sursă — asociația producătorilor și importatorilor de automobile, pe baza datelor Poliției Rutiere. Am marcat la „Contestat” o nuanță importantă: cota de 60% pentru „electrificate” amestecă electrice reale cu hibrizi convenționali, iar creșterea acestei cote vine parțial din prăbușirea mai accentuată a motorizărilor clasice, nu doar dintr-un salt al vânzărilor de electrice.",
+  "persoane": []
+}
