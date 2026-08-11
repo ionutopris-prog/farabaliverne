@@ -1,5 +1,5 @@
 """
-Lista de postat — pentru postarea MANUALĂ pe X.
+Lista de postat — pentru postarea MANUALĂ pe X și Facebook.
 
 API-ul X a trecut în februarie 2026 la plată per acțiune: $0,20 pentru o
 postare care conține un link. La ritmul site-ului ar fi însemnat ~$126/lună,
@@ -87,6 +87,37 @@ def compune(d):
     return "\n\n".join(parti)
 
 
+def compune_fb(d):
+    """
+    Varianta pentru Facebook.
+
+    Aici nu ne strânge limita de caractere, așa că punem substanța: afirmația,
+    ce se probează, ce nu, și abia apoi linkul. Facebook reduce distribuția
+    postărilor cu linkuri externe — deci textul trebuie să aibă valoare chiar
+    dacă nimeni nu dă click.
+    """
+    link = f"{SITE}/a/{d['slug']}.html"
+    vtext, _ = verdict(d)
+    parti = [d.get("title", "").strip()]
+
+    dek = (d.get("dek") or "").strip()
+    if dek:
+        parti.append(taie(dek, 420))
+
+    probat = [x.get("text", "") for x in (d.get("probat") or [])][:2]
+    contestat = [x.get("text", "") for x in (d.get("contestat") or [])][:1]
+
+    if probat:
+        linii = "\n".join(f"• {taie(t, 280)}" for t in probat if t)
+        parti.append(f"✅ Se probează:\n{linii}")
+    if contestat:
+        linii = "\n".join(f"• {taie(t, 280)}" for t in contestat if t)
+        parti.append(f"⚠️ Rămâne contestat:\n{linii}")
+
+    parti.append(f"Unde bat probele: {vtext.lower()}. Sursele, în articol:\n{link}")
+    return "\n\n".join(p for p in parti if p)
+
+
 # Ordinea în care le arătăm: o demontare se dă mai departe mult mai ușor decât
 # confirmarea unei știri de rutină. Fondatorul postează 2-3 pe zi, deci primele
 # din listă trebuie să fie cele care merită postate.
@@ -113,6 +144,7 @@ def main():
     carduri = []
     for d in arts:
         text = compune(d)
+        text_fb = compune_fb(d)
         vtext, vcls = verdict(d)
         thumb = os.path.join(ROOT, "img", "carduri", d["slug"] + ".jpg")
         poza = (f'<img src="img/carduri/{d["slug"]}.jpg" alt="" loading="lazy">'
@@ -126,9 +158,14 @@ def main():
             <span class="cat">{html.escape(d.get("category", ""))}</span>
             <span class="data">{html.escape(d.get("date", ""))}</span>
           </div>
-          <pre class="text">{html.escape(text)}</pre>
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-{d["slug"]}">X</button>
+            <button class="tab" data-tinta="fb-{d["slug"]}">Facebook</button>
+          </div>
+          <pre class="text" id="x-{d["slug"]}">{html.escape(text)}</pre>
+          <pre class="text ascuns" id="fb-{d["slug"]}">{html.escape(text_fb)}</pre>
           <div class="actiuni">
-            <button class="copy" data-text="{html.escape(text)}">Copiază textul</button>
+            <button class="copy" data-x="{html.escape(text)}" data-fb="{html.escape(text_fb)}">Copiază textul</button>
             <a class="deschide" href="{SITE}/a/{d['slug']}.html" target="_blank"
                rel="noopener">Vezi articolul</a>
             <span class="lung">{len(text) - len(SITE) - len(d['slug']) - 10 + 23} caractere</span>
@@ -140,7 +177,7 @@ def main():
 <html lang="ro"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>De postat pe X — Fără Baliverne</title>
+<title>De postat — Fără Baliverne</title>
 <style>
   :root{{
     --bg:#f2f3ef; --card:#fff; --ink:#1a1d1a; --soft:#5a625a; --faint:#8f978f;
@@ -175,6 +212,12 @@ def main():
   .chip.bad{{background:var(--bad)}}
   .cat,.data{{font:600 11px ui-monospace,Menlo,monospace;color:var(--faint);
     letter-spacing:.04em;text-transform:uppercase}}
+  .tabs{{display:flex;gap:4px;margin-bottom:8px}}
+  .tab{{font:700 11px ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:5px 11px;
+    border:1px solid var(--line);background:transparent;color:var(--faint);
+    border-radius:4px;cursor:pointer}}
+  .tab.activ{{background:var(--ink);color:var(--card);border-color:var(--ink)}}
+  .ascuns{{display:none}}
   .text{{font:14px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;
     word-break:break-word;margin:0 0 10px;color:var(--ink)}}
   .actiuni{{display:flex;gap:9px;align-items:center;flex-wrap:wrap}}
@@ -189,18 +232,35 @@ def main():
 </style></head><body>
 <div class="wrap">
   <header>
-    <h1>De postat pe X</h1>
+    <h1>De postat</h1>
     <p class="sum">{len(arts)} articole din ultimele {ZILE} zile, ordonate după cât de
       bine se dau mai departe — demontările primele, confirmările de rutină la urmă.
       Copiezi, lipești, postezi. Linkul aduce singur poza și titlul; nu adăuga
-      imagine separat.</p>
+      imagine separat.<br><br>
+      <b>X</b> e scurt și trimite la articol. <b>Facebook</b> pune substanța în
+      postare — platforma reduce distribuția linkurilor externe, deci textul
+      trebuie să merite citit chiar dacă nimeni nu dă click.</p>
   </header>
 {chr(10).join(carduri) if carduri else '  <p>Niciun articol nou.</p>'}
 </div>
 <script>
+document.querySelectorAll("button.tab").forEach(function(t){{
+  t.addEventListener("click", function(){{
+    var card = t.closest(".post");
+    card.querySelectorAll("button.tab").forEach(function(x){{ x.classList.remove("activ"); }});
+    card.querySelectorAll("pre.text").forEach(function(x){{ x.classList.add("ascuns"); }});
+    t.classList.add("activ");
+    document.getElementById(t.dataset.tinta).classList.remove("ascuns");
+    var lung = card.querySelector(".lung");
+    if (lung) lung.textContent = document.getElementById(t.dataset.tinta).textContent.length + " caractere";
+  }});
+}});
+
 document.querySelectorAll("button.copy").forEach(function(b){{
   b.addEventListener("click", function(){{
-    navigator.clipboard.writeText(b.dataset.text).then(function(){{
+    var activ = b.closest(".post").querySelector("button.tab.activ").dataset.tinta;
+    var text = activ.indexOf("fb-") === 0 ? b.dataset.fb : b.dataset.x;
+    navigator.clipboard.writeText(text).then(function(){{
       var vechi = b.textContent;
       b.textContent = "Copiat";
       b.classList.add("gata");
