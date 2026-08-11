@@ -110,6 +110,20 @@ jobs:
         if: steps.redactor.outputs.changed == 'true'
         run: python3 scripts/verify_images.py
 
+      # Lista de postat manual pe X. API-ul X cere $0,20 pentru o postare cu
+      # link, deci postarea automată ar costa ~$126/lună — pentru un cont pe
+      # care postările iau 1-19 vizualizări. Postăm manual; pagina asta face
+      # să dureze zece secunde.
+      - name: Reface lista de postat
+        if: steps.redactor.outputs.changed == 'true'
+        run: |
+          python3 scripts/build_post_queue.py
+          if ! git diff --quiet de-postat.html; then
+            git add de-postat.html
+            git commit -m "Lista de postat, actualizată"
+            git push origin main
+          fi
+
       - name: Publică (declanșează deploy-ul)
         if: steps.redactor.outputs.changed == 'true'
         env:
