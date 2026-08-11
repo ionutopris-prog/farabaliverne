@@ -2,7 +2,7 @@
 <html lang="ro"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>De postat pe X — Fără Baliverne</title>
+<title>De postat — Fără Baliverne</title>
 <style>
   :root{
     --bg:#f2f3ef; --card:#fff; --ink:#1a1d1a; --soft:#5a625a; --faint:#8f978f;
@@ -37,6 +37,12 @@
   .chip.bad{background:var(--bad)}
   .cat,.data{font:600 11px ui-monospace,Menlo,monospace;color:var(--faint);
     letter-spacing:.04em;text-transform:uppercase}
+  .tabs{display:flex;gap:4px;margin-bottom:8px}
+  .tab{font:700 11px ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:5px 11px;
+    border:1px solid var(--line);background:transparent;color:var(--faint);
+    border-radius:4px;cursor:pointer}
+  .tab.activ{background:var(--ink);color:var(--card);border-color:var(--ink)}
+  .ascuns{display:none}
   .text{font:14px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;
     word-break:break-word;margin:0 0 10px;color:var(--ink)}
   .actiuni{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
@@ -51,11 +57,14 @@
 </style></head><body>
 <div class="wrap">
   <header>
-    <h1>De postat pe X</h1>
+    <h1>De postat</h1>
     <p class="sum">38 articole din ultimele 2 zile, ordonate după cât de
       bine se dau mai departe — demontările primele, confirmările de rutină la urmă.
       Copiezi, lipești, postezi. Linkul aduce singur poza și titlul; nu adăuga
-      imagine separat.</p>
+      imagine separat.<br><br>
+      <b>X</b> e scurt și trimite la articol. <b>Facebook</b> pune substanța în
+      postare — platforma reduce distribuția linkurilor externe, deci textul
+      trebuie să merite citit chiar dacă nimeni nu dă click.</p>
   </header>
       <article class="post">
         <div class="shot"><img src="img/carduri/ambulanta-cluj-atac-mit-tiktok.jpg" alt="" loading="lazy"></div>
@@ -65,20 +74,49 @@
             <span class="cat">Social</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Ambulanță atacată cu topoare în Cluj, după un clip TikTok fals despre o „ambulanță care fură copii”
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-ambulanta-cluj-atac-mit-tiktok">X</button>
+            <button class="tab" data-tinta="fb-ambulanta-cluj-atac-mit-tiktok">Facebook</button>
+          </div>
+          <pre class="text" id="x-ambulanta-cluj-atac-mit-tiktok">Ambulanță atacată cu topoare în Cluj, după un clip TikTok fals despre o „ambulanță care fură copii”
 
 Sâmbătă, 8 august 2026, un echipaj de ambulanță a fost atacat cu bâte, pietre și topoare în comuna…
 
 Nu se susține · 4 probate · 1 contestată
 
 https://farabaliverne.ro/a/ambulanta-cluj-atac-mit-tiktok.html</pre>
+          <pre class="text ascuns" id="fb-ambulanta-cluj-atac-mit-tiktok">Ambulanță atacată cu topoare în Cluj, după un clip TikTok fals despre o „ambulanță care fură copii”
+
+Sâmbătă, 8 august 2026, un echipaj de ambulanță a fost atacat cu bâte, pietre și topoare în comuna Recea-Cristur (Cluj), după ce localnicii au crezut, pe baza unui clip viral pe TikTok, că mașina „fură copii”. Șoferul a fost rănit la un ochi; trei tineri au fost reținuți. Mitul „ambulanței negre” e vechi de zeci de ani și nu are nicio bază reală — Ministerul de Interne spune că unele materiale care îl alimentează…
+
+✅ Se probează:
+• Sâmbătă seară, 8 august 2026, un echipaj de ambulanță aflat în comuna Recea-Cristur, județul Cluj, pentru preluarea unui pacient a fost filmat și agitat de localnici la intrare. Pe drumul spre spitalul din Dej, mai mulți indivizi au blocat calea ambulanței cu un autoturism și au…
+• Șoferul ambulanței a fost lovit de cioburi din parbrizul spart și a suferit un traumatism ocular cu afectare a corneei; a fost operat de urgență la Cluj-Napoca și, potrivit Digi24, are nevoie de cel puțin trei luni de recuperare.
+
+⚠️ Rămâne contestat:
+• Nivelul de detaliu despre gravitatea rănilor șoferului diferă între surse: Digi24 vorbește explicit despre afectarea corneei și minimum trei luni de recuperare, în timp ce alte relatări menționează doar rănile provocate de cioburile parbrizului spart, fără precizări medicale…
+
+Unde bat probele: nu se susține. Sursele, în articol:
+https://farabaliverne.ro/a/ambulanta-cluj-atac-mit-tiktok.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Ambulanță atacată cu topoare în Cluj, după un clip TikTok fals despre o „ambulanță care fură copii”
+            <button class="copy" data-x="Ambulanță atacată cu topoare în Cluj, după un clip TikTok fals despre o „ambulanță care fură copii”
 
 Sâmbătă, 8 august 2026, un echipaj de ambulanță a fost atacat cu bâte, pietre și topoare în comuna…
 
 Nu se susține · 4 probate · 1 contestată
 
+https://farabaliverne.ro/a/ambulanta-cluj-atac-mit-tiktok.html" data-fb="Ambulanță atacată cu topoare în Cluj, după un clip TikTok fals despre o „ambulanță care fură copii”
+
+Sâmbătă, 8 august 2026, un echipaj de ambulanță a fost atacat cu bâte, pietre și topoare în comuna Recea-Cristur (Cluj), după ce localnicii au crezut, pe baza unui clip viral pe TikTok, că mașina „fură copii”. Șoferul a fost rănit la un ochi; trei tineri au fost reținuți. Mitul „ambulanței negre” e vechi de zeci de ani și nu are nicio bază reală — Ministerul de Interne spune că unele materiale care îl alimentează…
+
+✅ Se probează:
+• Sâmbătă seară, 8 august 2026, un echipaj de ambulanță aflat în comuna Recea-Cristur, județul Cluj, pentru preluarea unui pacient a fost filmat și agitat de localnici la intrare. Pe drumul spre spitalul din Dej, mai mulți indivizi au blocat calea ambulanței cu un autoturism și au…
+• Șoferul ambulanței a fost lovit de cioburi din parbrizul spart și a suferit un traumatism ocular cu afectare a corneei; a fost operat de urgență la Cluj-Napoca și, potrivit Digi24, are nevoie de cel puțin trei luni de recuperare.
+
+⚠️ Rămâne contestat:
+• Nivelul de detaliu despre gravitatea rănilor șoferului diferă între surse: Digi24 vorbește explicit despre afectarea corneei și minimum trei luni de recuperare, în timp ce alte relatări menționează doar rănile provocate de cioburile parbrizului spart, fără precizări medicale…
+
+Unde bat probele: nu se susține. Sursele, în articol:
 https://farabaliverne.ro/a/ambulanta-cluj-atac-mit-tiktok.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/ambulanta-cluj-atac-mit-tiktok.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -94,20 +132,49 @@ https://farabaliverne.ro/a/ambulanta-cluj-atac-mit-tiktok.html">Copiază textul<
             <span class="cat">Știință</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-medvi-companie-ai-doi-angajati">X</button>
+            <button class="tab" data-tinta="fb-medvi-companie-ai-doi-angajati">Facebook</button>
+          </div>
+          <pre class="text" id="x-medvi-companie-ai-doi-angajati">Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times
 
 Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de…
 
 Surse în dezacord · 3 probate · 4 contestate
 
 https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html</pre>
+          <pre class="text ascuns" id="fb-medvi-companie-ai-doi-angajati">Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times
+
+Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare de avertisment FDA, acuzații de „doctori” deepfake și un proces RICO.
+
+✅ Se probează:
+• Medvi este o firmă reală de telemedicină, fondată de Matthew Gallagher (41 de ani) în Los Angeles, în septembrie 2024. Singurul angajat cu normă întreagă este fratele său, Elliot — de aici eticheta „companie de doi oameni”. Firma vinde servicii la domiciliu legate de…
+• Portretul din New York Times, publicat pe 2 aprilie 2026, vehiculează cifre spectaculoase: 401 de milioane de dolari vânzări în primul an complet (2025), o proiecție de circa 1,8 miliarde de dolari venituri pentru 2026, aproximativ 250.000 de clienți și o marjă netă de 16,2%…
+
+⚠️ Rămâne contestat:
+• Cifrele-record (401 milioane $ vânzări, 1,8 miliarde $ proiectat) sunt AUTORAPORTATE de companie și reluate de presă — nu există, în sursele consultate, o auditare independentă sau o verificare de terță parte a lor. „1,8 miliarde” este, de altfel, o proiecție pentru 2026, nu un…
+
+Unde bat probele: surse în dezacord. Sursele, în articol:
+https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times
+            <button class="copy" data-x="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times
 
 Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de…
 
 Surse în dezacord · 3 probate · 4 contestate
 
+https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html" data-fb="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times
+
+Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare de avertisment FDA, acuzații de „doctori” deepfake și un proces RICO.
+
+✅ Se probează:
+• Medvi este o firmă reală de telemedicină, fondată de Matthew Gallagher (41 de ani) în Los Angeles, în septembrie 2024. Singurul angajat cu normă întreagă este fratele său, Elliot — de aici eticheta „companie de doi oameni”. Firma vinde servicii la domiciliu legate de…
+• Portretul din New York Times, publicat pe 2 aprilie 2026, vehiculează cifre spectaculoase: 401 de milioane de dolari vânzări în primul an complet (2025), o proiecție de circa 1,8 miliarde de dolari venituri pentru 2026, aproximativ 250.000 de clienți și o marjă netă de 16,2%…
+
+⚠️ Rămâne contestat:
+• Cifrele-record (401 milioane $ vânzări, 1,8 miliarde $ proiectat) sunt AUTORAPORTATE de companie și reluate de presă — nu există, în sursele consultate, o auditare independentă sau o verificare de terță parte a lor. „1,8 miliarde” este, de altfel, o proiecție pentru 2026, nu un…
+
+Unde bat probele: surse în dezacord. Sursele, în articol:
 https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -123,20 +190,49 @@ https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html">Copiază textul<
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-a3-zimbor-poarta-salajului-inaugurare">X</button>
+            <button class="tab" data-tinta="fb-a3-zimbor-poarta-salajului-inaugurare">Facebook</button>
+          </div>
+          <pre class="text" id="x-a3-zimbor-poarta-salajului-inaugurare">Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere
 
 CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/a3-zimbor-poarta-salajului-inaugurare.html</pre>
+          <pre class="text ascuns" id="fb-a3-zimbor-poarta-salajului-inaugurare">Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere
+
+CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3) — 12,24 km, primul tronson de autostradă inaugurat în România în 2026. Lucrarea, contractată în 2020–2021 cu termen inițial decembrie 2023, a întârziat aproape doi ani, din cauza unor alunecări de teren și a tergiversărilor CNAIR, potrivit Asociației Pro Infrastructură.
+
+✅ Se probează:
+• Marți, 11 august 2026, ora 16:00, CNAIR a deschis circulației lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3), între nodurile rutiere Zimbor și Românași (Sălaj) — 12,24 kilometri. E primul tronson nou de autostradă dat în folosință în România în 2026. Cu această…
+• Lucrarea a fost executată de asocierea SC SA&amp;PE Construct SRL – SC Spedition UMB SRL – SC Tehnostrade SRL, în baza unor contracte semnate pe 28.12.2020 și 01.07.2021 (12 luni proiectare + 24 luni execuție), cu un cost de 905 milioane lei (fără TVA), finanțat prin Programul…
+
+⚠️ Rămâne contestat:
+• Sursele diferă ușor asupra termenului „realist” considerat depășit: Digi24 și Pro Infrastructură vorbesc de termenul contractual inițial (decembrie 2023), în timp ce Pro Infrastructură menționează separat un termen „realist” estimat (august 2024) — diferența de aproape un an…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/a3-zimbor-poarta-salajului-inaugurare.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere
+            <button class="copy" data-x="Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere
 
 CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/a3-zimbor-poarta-salajului-inaugurare.html" data-fb="Primul tronson de autostradă din 2026: A3 se prelungește cu 12 km la Zimbor–Poarta Sălajului, cu doi ani întârziere
+
+CNAIR a deschis marți, 11 august, circulația pe lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3) — 12,24 km, primul tronson de autostradă inaugurat în România în 2026. Lucrarea, contractată în 2020–2021 cu termen inițial decembrie 2023, a întârziat aproape doi ani, din cauza unor alunecări de teren și a tergiversărilor CNAIR, potrivit Asociației Pro Infrastructură.
+
+✅ Se probează:
+• Marți, 11 august 2026, ora 16:00, CNAIR a deschis circulației lotul Zimbor–Poarta Sălajului al Autostrăzii Transilvania (A3), între nodurile rutiere Zimbor și Românași (Sălaj) — 12,24 kilometri. E primul tronson nou de autostradă dat în folosință în România în 2026. Cu această…
+• Lucrarea a fost executată de asocierea SC SA&amp;PE Construct SRL – SC Spedition UMB SRL – SC Tehnostrade SRL, în baza unor contracte semnate pe 28.12.2020 și 01.07.2021 (12 luni proiectare + 24 luni execuție), cu un cost de 905 milioane lei (fără TVA), finanțat prin Programul…
+
+⚠️ Rămâne contestat:
+• Sursele diferă ușor asupra termenului „realist” considerat depășit: Digi24 și Pro Infrastructură vorbesc de termenul contractual inițial (decembrie 2023), în timp ce Pro Infrastructură menționează separat un termen „realist” estimat (august 2024) — diferența de aproape un an…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/a3-zimbor-poarta-salajului-inaugurare.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/a3-zimbor-poarta-salajului-inaugurare.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -152,20 +248,43 @@ https://farabaliverne.ro/a/a3-zimbor-poarta-salajului-inaugurare.html">Copiază 
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-aep-subventii-partide-august-2026">X</button>
+            <button class="tab" data-tinta="fb-aep-subventii-partide-august-2026">Facebook</button>
+          </div>
+          <pre class="text" id="x-aep-subventii-partide-august-2026">AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare
 
 Autoritatea Electorală Permanentă a virat pe 7 august 2026 subvenții de la bugetul de stat în valoare totală de 15.470.004 lei…
 
 Se probează · 3 probate
 
 https://farabaliverne.ro/a/aep-subventii-partide-august-2026.html</pre>
+          <pre class="text ascuns" id="fb-aep-subventii-partide-august-2026">AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare
+
+Autoritatea Electorală Permanentă a virat pe 7 august 2026 subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice. PSD a primit cea mai mare sumă (peste 5,1 milioane lei), urmat de AUR și PNL.
+
+✅ Se probează:
+• Autoritatea Electorală Permanentă (AEP) a anunțat printr-un comunicat oficial că a virat, pe 7 august 2026, subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice.
+• Defalcarea pe partide: PSD — 5.132.818 lei; AUR — 3.035.116 lei; PNL — 2.794.483 lei; USR — 1.983.502 lei; Partidul S.O.S. România — 1.319.399 lei; Partidul Oamenilor Tineri (POT) — 1.063.111 lei; Partidul Mișcarea Populară (PMP) — 72.619 lei; Forța Dreptei — 68.956 lei.
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/aep-subventii-partide-august-2026.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare
+            <button class="copy" data-x="AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare
 
 Autoritatea Electorală Permanentă a virat pe 7 august 2026 subvenții de la bugetul de stat în valoare totală de 15.470.004 lei…
 
 Se probează · 3 probate
 
+https://farabaliverne.ro/a/aep-subventii-partide-august-2026.html" data-fb="AEP a virat 15,47 milioane lei subvenții pentru partide în august — PSD ia treimea cea mai mare
+
+Autoritatea Electorală Permanentă a virat pe 7 august 2026 subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice. PSD a primit cea mai mare sumă (peste 5,1 milioane lei), urmat de AUR și PNL.
+
+✅ Se probează:
+• Autoritatea Electorală Permanentă (AEP) a anunțat printr-un comunicat oficial că a virat, pe 7 august 2026, subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice.
+• Defalcarea pe partide: PSD — 5.132.818 lei; AUR — 3.035.116 lei; PNL — 2.794.483 lei; USR — 1.983.502 lei; Partidul S.O.S. România — 1.319.399 lei; Partidul Oamenilor Tineri (POT) — 1.063.111 lei; Partidul Mișcarea Populară (PMP) — 72.619 lei; Forța Dreptei — 68.956 lei.
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/aep-subventii-partide-august-2026.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/aep-subventii-partide-august-2026.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -181,20 +300,49 @@ https://farabaliverne.ro/a/aep-subventii-partide-august-2026.html">Copiază text
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-air-china-zbor-direct-bucuresti-beijing">X</button>
+            <button class="tab" data-tinta="fb-air-china-zbor-direct-bucuresti-beijing">Facebook</button>
+          </div>
+          <pre class="text" id="x-air-china-zbor-direct-bucuresti-beijing">Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani
 
 Air China va opera, din 4 septembrie 2026, curse directe de pasageri de trei ori pe săptămână…
 
 Se probează · 2 probate · 1 contestată
 
 https://farabaliverne.ro/a/air-china-zbor-direct-bucuresti-beijing.html</pre>
+          <pre class="text ascuns" id="fb-air-china-zbor-direct-bucuresti-beijing">Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani
+
+Air China va opera, din 4 septembrie 2026, curse directe de pasageri de trei ori pe săptămână între Beijing și Aeroportul Henri Coandă, cu aeronave Airbus A330-200. TAROM a mai zburat pe această rută între 1974 și începutul anilor 2000, așa că e vorba de o reluare, nu de o premieră absolută — deși unele redacții au titrat greșit „primul zbor din istorie”.
+
+✅ Se probează:
+• Air China va inaugura, vineri, 4 septembrie 2026, ruta regulată de pasageri Beijing–București (Aeroportul Henri Coandă/Otopeni), operată de trei ori pe săptămână (luni, miercuri, vineri), cu aeronave Airbus A330-200 (219–283 de locuri, în funcție de configurație). Durata de zbor…
+• Este a doua rută regulată intercontinentală de lung-curier operată din/spre România, după cea dintre București și New York (JFK). În prezent, singurele zboruri fără escală între România și China erau curse cargo, operate de compania românească Romcargo Airlines pe relația…
+
+⚠️ Rămâne contestat:
+• Forbes România titrează ruta drept „primul zbor direct din istorie” între Beijing și București, susținând că „nu au existat zboruri regulate directe de pasageri între România și China” până acum. Realitatea.net contrazice exact acest punct: potrivit acelei surse, TAROM a operat…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/air-china-zbor-direct-bucuresti-beijing.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani
+            <button class="copy" data-x="Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani
 
 Air China va opera, din 4 septembrie 2026, curse directe de pasageri de trei ori pe săptămână…
 
 Se probează · 2 probate · 1 contestată
 
+https://farabaliverne.ro/a/air-china-zbor-direct-bucuresti-beijing.html" data-fb="Air China redeschide, din 4 septembrie, primul zbor direct de pasageri București–Beijing din ultimii peste 20 de ani
+
+Air China va opera, din 4 septembrie 2026, curse directe de pasageri de trei ori pe săptămână între Beijing și Aeroportul Henri Coandă, cu aeronave Airbus A330-200. TAROM a mai zburat pe această rută între 1974 și începutul anilor 2000, așa că e vorba de o reluare, nu de o premieră absolută — deși unele redacții au titrat greșit „primul zbor din istorie”.
+
+✅ Se probează:
+• Air China va inaugura, vineri, 4 septembrie 2026, ruta regulată de pasageri Beijing–București (Aeroportul Henri Coandă/Otopeni), operată de trei ori pe săptămână (luni, miercuri, vineri), cu aeronave Airbus A330-200 (219–283 de locuri, în funcție de configurație). Durata de zbor…
+• Este a doua rută regulată intercontinentală de lung-curier operată din/spre România, după cea dintre București și New York (JFK). În prezent, singurele zboruri fără escală între România și China erau curse cargo, operate de compania românească Romcargo Airlines pe relația…
+
+⚠️ Rămâne contestat:
+• Forbes România titrează ruta drept „primul zbor direct din istorie” între Beijing și București, susținând că „nu au existat zboruri regulate directe de pasageri între România și China” până acum. Realitatea.net contrazice exact acest punct: potrivit acelei surse, TAROM a operat…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/air-china-zbor-direct-bucuresti-beijing.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/air-china-zbor-direct-bucuresti-beijing.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -210,20 +358,49 @@ https://farabaliverne.ro/a/air-china-zbor-direct-bucuresti-beijing.html">Copiaz�
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-apia-inmatriculari-auto-scadere-iulie-2026">X</button>
+            <button class="tab" data-tinta="fb-apia-inmatriculari-auto-scadere-iulie-2026">Facebook</button>
+          </div>
+          <pre class="text" id="x-apia-inmatriculari-auto-scadere-iulie-2026">Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic
 
 Asociația Producătorilor și Importatorilor de Automobile (APIA) a anunțat pe 11 august 2026 că înmatriculările de…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/apia-inmatriculari-auto-scadere-iulie-2026.html</pre>
+          <pre class="text ascuns" id="fb-apia-inmatriculari-auto-scadere-iulie-2026">Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic
+
+Asociația Producătorilor și Importatorilor de Automobile (APIA) a anunțat pe 11 august 2026 că înmatriculările de autoturisme noi au scăzut cu 28% în iulie față de iulie 2025, la 11.633 de unități. Segmentele electrice și plug-in hybrid sunt singurele în creștere, iar autoturismele electrificate au ajuns la 60% din piață.
+
+✅ Se probează:
+• În iulie 2026 au fost înmatriculate 11.633 de autoturisme noi în România, cu 28% mai puține decât în iulie 2025, potrivit datelor APIA (bazate pe evidențele Direcției Generale a Poliției de Circulație). Pe primele șapte luni ale anului, piața rămâne cu 5,5% sub nivelul din…
+• Motorizările clasice au scăzut puternic: benzina a coborât cu 34%, dieselul cu 50%, iar mild-hybrid cu 35%. În schimb, electricele pure (BEV) au crescut cu 57% (ajungând la 7% din piață, față de 3,2% în iulie 2025), iar plug-in hybrid (PHEV) au crescut cu 71% (14,6% cotă de…
+
+⚠️ Rămâne contestat:
+• Creșterea segmentului electrificat la 60% din piață nu înseamnă că vânzările absolute de mașini electrificate au crescut — piața totală s-a contractat cu 28%, iar în cadrul categoriei „electrificate” motorizările mild-hybrid și full-hybrid au scăzut (-35%, respectiv -41%); doar…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/apia-inmatriculari-auto-scadere-iulie-2026.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic
+            <button class="copy" data-x="Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic
 
 Asociația Producătorilor și Importatorilor de Automobile (APIA) a anunțat pe 11 august 2026 că înmatriculările de…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/apia-inmatriculari-auto-scadere-iulie-2026.html" data-fb="Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic
+
+Asociația Producătorilor și Importatorilor de Automobile (APIA) a anunțat pe 11 august 2026 că înmatriculările de autoturisme noi au scăzut cu 28% în iulie față de iulie 2025, la 11.633 de unități. Segmentele electrice și plug-in hybrid sunt singurele în creștere, iar autoturismele electrificate au ajuns la 60% din piață.
+
+✅ Se probează:
+• În iulie 2026 au fost înmatriculate 11.633 de autoturisme noi în România, cu 28% mai puține decât în iulie 2025, potrivit datelor APIA (bazate pe evidențele Direcției Generale a Poliției de Circulație). Pe primele șapte luni ale anului, piața rămâne cu 5,5% sub nivelul din…
+• Motorizările clasice au scăzut puternic: benzina a coborât cu 34%, dieselul cu 50%, iar mild-hybrid cu 35%. În schimb, electricele pure (BEV) au crescut cu 57% (ajungând la 7% din piață, față de 3,2% în iulie 2025), iar plug-in hybrid (PHEV) au crescut cu 71% (14,6% cotă de…
+
+⚠️ Rămâne contestat:
+• Creșterea segmentului electrificat la 60% din piață nu înseamnă că vânzările absolute de mașini electrificate au crescut — piața totală s-a contractat cu 28%, iar în cadrul categoriei „electrificate” motorizările mild-hybrid și full-hybrid au scăzut (-35%, respectiv -41%); doar…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/apia-inmatriculari-auto-scadere-iulie-2026.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/apia-inmatriculari-auto-scadere-iulie-2026.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -239,20 +416,49 @@ https://farabaliverne.ro/a/apia-inmatriculari-auto-scadere-iulie-2026.html">Copi
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-burnete-avertisment-recesiune-2026">X</button>
+            <button class="tab" data-tinta="fb-burnete-avertisment-recesiune-2026">Facebook</button>
+          </div>
+          <pre class="text" id="x-burnete-avertisment-recesiune-2026">Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”
 
 Radu Burnete, consilierul prezidențial pentru politici economice și sociale al lui Nicușor Dan, a declarat luni…
 
 Se probează · 3 probate · 2 contestate
 
 https://farabaliverne.ro/a/burnete-avertisment-recesiune-2026.html</pre>
+          <pre class="text ascuns" id="fb-burnete-avertisment-recesiune-2026">Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”
+
+Radu Burnete, consilierul prezidențial pentru politici economice și sociale al lui Nicușor Dan, a declarat luni, 10 august 2026, într-un interviu pentru Libertatea, că economia României „a încetinit foarte brusc” și că e „foarte posibil” ca anul să se încheie cu o recesiune. El susține însă că declinul are rădăcini de patru-cinci ani, nu în măsurile de austeritate din 2025-2026.
+
+✅ Se probează:
+• Radu Burnete, consilier prezidențial pentru politici economice și sociale, a declarat, într-un interviu acordat luni, 10 august 2026, ziarului Libertatea: „Economia noastră nu merge grozav. Ea a încetinit foarte brusc” și „E foarte posibil ca anul ăsta să încheiem cu o…
+• Burnete leagă avertismentul de date economice deja publicate: PIB-ul a stagnat în T1 2026 față de trimestrul anterior (după o contracție de 1,9% în T4 2025) și e cu 1,1% mai mic față de T1 2025; producția industrială a scăzut cu 3,5% în aprilie 2026 față de aprilie 2025…
+
+⚠️ Rămâne contestat:
+• „Foarte posibil” nu înseamnă „sigur” — Burnete nu a declarat că recesiunea e certă, ci că e un scenariu probabil, contingent de datele care vor urma pe parcursul anului. Amploarea exactă a eventualei recesiuni (o contracție tehnică de un trimestru sau o cădere prelungită) nu a…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/burnete-avertisment-recesiune-2026.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”
+            <button class="copy" data-x="Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”
 
 Radu Burnete, consilierul prezidențial pentru politici economice și sociale al lui Nicușor Dan, a declarat luni…
 
 Se probează · 3 probate · 2 contestate
 
+https://farabaliverne.ro/a/burnete-avertisment-recesiune-2026.html" data-fb="Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”
+
+Radu Burnete, consilierul prezidențial pentru politici economice și sociale al lui Nicușor Dan, a declarat luni, 10 august 2026, într-un interviu pentru Libertatea, că economia României „a încetinit foarte brusc” și că e „foarte posibil” ca anul să se încheie cu o recesiune. El susține însă că declinul are rădăcini de patru-cinci ani, nu în măsurile de austeritate din 2025-2026.
+
+✅ Se probează:
+• Radu Burnete, consilier prezidențial pentru politici economice și sociale, a declarat, într-un interviu acordat luni, 10 august 2026, ziarului Libertatea: „Economia noastră nu merge grozav. Ea a încetinit foarte brusc” și „E foarte posibil ca anul ăsta să încheiem cu o…
+• Burnete leagă avertismentul de date economice deja publicate: PIB-ul a stagnat în T1 2026 față de trimestrul anterior (după o contracție de 1,9% în T4 2025) și e cu 1,1% mai mic față de T1 2025; producția industrială a scăzut cu 3,5% în aprilie 2026 față de aprilie 2025…
+
+⚠️ Rămâne contestat:
+• „Foarte posibil” nu înseamnă „sigur” — Burnete nu a declarat că recesiunea e certă, ci că e un scenariu probabil, contingent de datele care vor urma pe parcursul anului. Amploarea exactă a eventualei recesiuni (o contracție tehnică de un trimestru sau o cădere prelungită) nu a…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/burnete-avertisment-recesiune-2026.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/burnete-avertisment-recesiune-2026.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -268,20 +474,49 @@ https://farabaliverne.ro/a/burnete-avertisment-recesiune-2026.html">Copiază tex
             <span class="cat">Politică</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-camera-deputatilor-sesiune-extraordinara-11-12-august">X</button>
+            <button class="tab" data-tinta="fb-camera-deputatilor-sesiune-extraordinara-11-12-august">Facebook</button>
+          </div>
+          <pre class="text" id="x-camera-deputatilor-sesiune-extraordinara-11-12-august">Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi
 
 Biroul permanent al Camerei Deputaților a convocat, joi 6 august 2026, o sesiune extraordinară pentru…
 
 Se probează · 2 probate · 1 contestată
 
 https://farabaliverne.ro/a/camera-deputatilor-sesiune-extraordinara-11-12-august.html</pre>
+          <pre class="text ascuns" id="fb-camera-deputatilor-sesiune-extraordinara-11-12-august">Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi
+
+Biroul permanent al Camerei Deputaților a convocat, joi 6 august 2026, o sesiune extraordinară pentru 11-12 august, cu patru inițiative legislative pe ordinea de zi: dezinstituționalizarea persoanelor cu dizabilități, măsuri pe piața energiei, abrogarea unui articol din legea fiscal-bugetară 141/2025 (cu implicații în educație) și completări la Codul administrativ.
+
+✅ Se probează:
+• Biroul permanent al Camerei Deputaților a aprobat, joi, 6 august 2026, convocarea unei sesiuni extraordinare pentru zilele de 11 și 12 august 2026, în care deputații urmau să dezbată patru inițiative legislative — trei proiecte de lege și o propunere legislativă.
+• Pe ordinea de zi se află: (1) modificarea Legii 7/2023 privind sprijinirea procesului de dezinstituționalizare a adulților cu dizabilități, adoptată de Senat pe 5 august, cu Camera Deputaților for decizional; (2) modificarea și completarea Ordonanței de urgență 6/2025 privind…
+
+⚠️ Rămâne contestat:
+• Sursele consultate (AGERPRES, DailyBusiness, Adevărul, BURSA) nu detaliază conținutul exact al modificării aduse articolului 208 din Legea învățământului preuniversitar prin abrogarea articolului LIX din Legea 141/2025 — nu am găsit, în articolele disponibile la momentul…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/camera-deputatilor-sesiune-extraordinara-11-12-august.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi
+            <button class="copy" data-x="Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi
 
 Biroul permanent al Camerei Deputaților a convocat, joi 6 august 2026, o sesiune extraordinară pentru…
 
 Se probează · 2 probate · 1 contestată
 
+https://farabaliverne.ro/a/camera-deputatilor-sesiune-extraordinara-11-12-august.html" data-fb="Camera Deputaților s-a reunit în sesiune extraordinară pe 11-12 august, cu patru proiecte pe ordinea de zi
+
+Biroul permanent al Camerei Deputaților a convocat, joi 6 august 2026, o sesiune extraordinară pentru 11-12 august, cu patru inițiative legislative pe ordinea de zi: dezinstituționalizarea persoanelor cu dizabilități, măsuri pe piața energiei, abrogarea unui articol din legea fiscal-bugetară 141/2025 (cu implicații în educație) și completări la Codul administrativ.
+
+✅ Se probează:
+• Biroul permanent al Camerei Deputaților a aprobat, joi, 6 august 2026, convocarea unei sesiuni extraordinare pentru zilele de 11 și 12 august 2026, în care deputații urmau să dezbată patru inițiative legislative — trei proiecte de lege și o propunere legislativă.
+• Pe ordinea de zi se află: (1) modificarea Legii 7/2023 privind sprijinirea procesului de dezinstituționalizare a adulților cu dizabilități, adoptată de Senat pe 5 august, cu Camera Deputaților for decizional; (2) modificarea și completarea Ordonanței de urgență 6/2025 privind…
+
+⚠️ Rămâne contestat:
+• Sursele consultate (AGERPRES, DailyBusiness, Adevărul, BURSA) nu detaliază conținutul exact al modificării aduse articolului 208 din Legea învățământului preuniversitar prin abrogarea articolului LIX din Legea 141/2025 — nu am găsit, în articolele disponibile la momentul…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/camera-deputatilor-sesiune-extraordinara-11-12-august.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/camera-deputatilor-sesiune-extraordinara-11-12-august.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -297,20 +532,49 @@ https://farabaliverne.ro/a/camera-deputatilor-sesiune-extraordinara-11-12-august
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-carolina-de-sud-alegeri-speciale-graham">X</button>
+            <button class="tab" data-tinta="fb-carolina-de-sud-alegeri-speciale-graham">Facebook</button>
+          </div>
+          <pre class="text" id="x-carolina-de-sud-alegeri-speciale-graham">Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham
 
 Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71…
 
 Se probează · 2 probate · 1 contestată
 
 https://farabaliverne.ro/a/carolina-de-sud-alegeri-speciale-graham.html</pre>
+          <pre class="text ascuns" id="fb-carolina-de-sud-alegeri-speciale-graham">Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham
+
+Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71 de ani, în urma unei disecții de aortă. Guvernatorul Henry McMaster a numit-o interimar pe sora sa, Darline Graham, iar pe 11 august 2026 republicanii din Carolina de Sud votează într-o primară specială cu cel puțin 9-10 candidați pentru a stabili cine merge în alegerile generale din noiembrie. La ora redactării, rezultatele primarei nu erau încă…
+
+✅ Se probează:
+• Senatorul republican Lindsey Graham, aflat la al patrulea mandat, a murit pe 11 iulie 2026, la vârsta de 71 de ani, în urma unei disecții de aortă. Guvernatorul republican Henry McMaster a numit-o, pe 13 iulie 2026, pe sora sa, Darline Graham, pentru a ocupa interimar locul până…
+• Pe 11 august 2026 au loc alegerile primare speciale republicane, cu cel puțin 9-10 candidați înscriși pe buletinul de vot — printre cei mai vizibili: Darline Graham (sora lui Lindsey Graham), reprezentanții în Congres Ralph Norman și Russell Fry, fostul guvernator Mark Sanford…
+
+⚠️ Rămâne contestat:
+• La ora redactării acestui articol, rezultatele primarei speciale din 11 august nu erau încă publicate de sursele verificate — un sondaj Emerson College din 28-29 iulie arăta un scor strâns, cu Ralph Norman în frunte (22%), urmat de Darline Graham (19%) și Russell Fry (12%), dar…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/carolina-de-sud-alegeri-speciale-graham.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham
+            <button class="copy" data-x="Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham
 
 Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71…
 
 Se probează · 2 probate · 1 contestată
 
+https://farabaliverne.ro/a/carolina-de-sud-alegeri-speciale-graham.html" data-fb="Carolina de Sud votează azi în alegerile primare speciale republicane pentru locul din Senatul SUA rămas vacant după moartea lui Lindsey Graham
+
+Senatorul republican Lindsey Graham a murit pe 11 iulie 2026, la 71 de ani, în urma unei disecții de aortă. Guvernatorul Henry McMaster a numit-o interimar pe sora sa, Darline Graham, iar pe 11 august 2026 republicanii din Carolina de Sud votează într-o primară specială cu cel puțin 9-10 candidați pentru a stabili cine merge în alegerile generale din noiembrie. La ora redactării, rezultatele primarei nu erau încă…
+
+✅ Se probează:
+• Senatorul republican Lindsey Graham, aflat la al patrulea mandat, a murit pe 11 iulie 2026, la vârsta de 71 de ani, în urma unei disecții de aortă. Guvernatorul republican Henry McMaster a numit-o, pe 13 iulie 2026, pe sora sa, Darline Graham, pentru a ocupa interimar locul până…
+• Pe 11 august 2026 au loc alegerile primare speciale republicane, cu cel puțin 9-10 candidați înscriși pe buletinul de vot — printre cei mai vizibili: Darline Graham (sora lui Lindsey Graham), reprezentanții în Congres Ralph Norman și Russell Fry, fostul guvernator Mark Sanford…
+
+⚠️ Rămâne contestat:
+• La ora redactării acestui articol, rezultatele primarei speciale din 11 august nu erau încă publicate de sursele verificate — un sondaj Emerson College din 28-29 iulie arăta un scor strâns, cu Ralph Norman în frunte (22%), urmat de Darline Graham (19%) și Russell Fry (12%), dar…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/carolina-de-sud-alegeri-speciale-graham.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/carolina-de-sud-alegeri-speciale-graham.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -326,20 +590,49 @@ https://farabaliverne.ro/a/carolina-de-sud-alegeri-speciale-graham.html">Copiaz�
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-cernavoda-unitatea-2-oprire-rovinari-4">X</button>
+            <button class="tab" data-tinta="fb-cernavoda-unitatea-2-oprire-rovinari-4">Facebook</button>
+          </div>
+          <pre class="text" id="x-cernavoda-unitatea-2-oprire-rovinari-4">Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare
 
 Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/cernavoda-unitatea-2-oprire-rovinari-4.html</pre>
+          <pre class="text ascuns" id="fb-cernavoda-unitatea-2-oprire-rovinari-4">Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare
+
+Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar Nuclearelectrica anunță posibilitatea opririi controlate a Unității 2 de la Cernavodă în dimineața de 13 august. Unitatea 1 e deja oprită din 28 iulie. Ministerul Energiei repornește grupul pe lignit Rovinari 4 și pregătește importuri pentru a compensa producția pierdută.
+
+✅ Se probează:
+• Debitul Dunării la intrarea în România a coborât la aproximativ 1.370–1.375 mc/s, un nou minim istoric, iar nivelul la Cernavodă a atins pragul critic de minus 230 de centimetri. Unitatea 1 a CNE Cernavodă este deja oprită și deconectată din sistemul energetic național din…
+• SN Nuclearelectrica a anunțat oficial: „există, la acest moment, posibilitatea opririi controlate a Unității 2 a CNE Cernavodă în dimineața zilei de 13 august 2026”. Ministerul Energiei precizează, printr-un comunicat, că demersul „nu indică existența unui incident la nivelul…
+
+⚠️ Rămâne contestat:
+• Oprirea Unității 2 rămâne, la ora publicării, o „posibilitate” anunțată oficial, nu un fapt confirmat — decizia finală depinde de prognozele INHGA privind debitul Dunării din zilele următoare și de parametrii de funcționare, care pot încă evolua. De asemenea, sursele diferă ușor…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/cernavoda-unitatea-2-oprire-rovinari-4.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare
+            <button class="copy" data-x="Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare
 
 Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/cernavoda-unitatea-2-oprire-rovinari-4.html" data-fb="Cernavodă pregătește oprirea și a Unității 2 — Dunărea la minim istoric, Rovinari 4 repornit pentru compensare
+
+Debitul Dunării a coborât la un nou minim istoric (circa 1.370 mc/s la intrarea în țară), iar Nuclearelectrica anunță posibilitatea opririi controlate a Unității 2 de la Cernavodă în dimineața de 13 august. Unitatea 1 e deja oprită din 28 iulie. Ministerul Energiei repornește grupul pe lignit Rovinari 4 și pregătește importuri pentru a compensa producția pierdută.
+
+✅ Se probează:
+• Debitul Dunării la intrarea în România a coborât la aproximativ 1.370–1.375 mc/s, un nou minim istoric, iar nivelul la Cernavodă a atins pragul critic de minus 230 de centimetri. Unitatea 1 a CNE Cernavodă este deja oprită și deconectată din sistemul energetic național din…
+• SN Nuclearelectrica a anunțat oficial: „există, la acest moment, posibilitatea opririi controlate a Unității 2 a CNE Cernavodă în dimineața zilei de 13 august 2026”. Ministerul Energiei precizează, printr-un comunicat, că demersul „nu indică existența unui incident la nivelul…
+
+⚠️ Rămâne contestat:
+• Oprirea Unității 2 rămâne, la ora publicării, o „posibilitate” anunțată oficial, nu un fapt confirmat — decizia finală depinde de prognozele INHGA privind debitul Dunării din zilele următoare și de parametrii de funcționare, care pot încă evolua. De asemenea, sursele diferă ușor…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/cernavoda-unitatea-2-oprire-rovinari-4.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/cernavoda-unitatea-2-oprire-rovinari-4.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -355,20 +648,49 @@ https://farabaliverne.ro/a/cernavoda-unitatea-2-oprire-rovinari-4.html">Copiază
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-china-ev-cota-piata-europa-vest">X</button>
+            <button class="tab" data-tinta="fb-china-ev-cota-piata-europa-vest">Facebook</button>
+          </div>
+          <pre class="text" id="x-china-ev-cota-piata-europa-vest">Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite
 
 🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în…
 
 Se probează · 4 probate · 2 contestate
 
 https://farabaliverne.ro/a/china-ev-cota-piata-europa-vest.html</pre>
+          <pre class="text ascuns" id="fb-china-ev-cota-piata-europa-vest">Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite
+
+🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în Europa de Vest în 2026, potrivit consultanței germane Schmidt Automotive Research. Dar cifrele vehiculate în presă nu sunt direct comparabile: 10,7% se referă la toate mașinile noi (T2 2026), iar 14,2% doar la mașinile 100% electrice (ianuarie–mai 2026).
+
+✅ Se probează:
+• Mărcile chinezești au atins o cotă combinată de 10,7% din vânzările totale de mașini noi (toate carburanțiile) în 18 piețe din Europa de Vest, în trimestrul al doilea din 2026 — aproape dublu față de 5,7% în T2 2025, potrivit Schmidt Automotive Research.
+• În T2 2026, mărcile chinezești au depășit pentru prima dată mărcile japoneze la vânzări totale de mașini noi în Europa de Vest: 352.098 de unități chinezești, față de 350.186 unități japoneze.
+
+⚠️ Rămâne contestat:
+• Procentele citate în presă diferă mult în funcție de ce se măsoară exact: 10,7% se referă la toate mașinile noi (toate carburanțiile) vândute în T2 2026, în timp ce 14,2% se referă strict la mașinile electrice vândute în ianuarie–mai 2026 — două perioade și două categorii…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/china-ev-cota-piata-europa-vest.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite
+            <button class="copy" data-x="Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite
 
 🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în…
 
 Se probează · 4 probate · 2 contestate
 
+https://farabaliverne.ro/a/china-ev-cota-piata-europa-vest.html" data-fb="Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite
+
+🌍 Mărcile auto chinezești (BYD, MG/SAIC, Chery, Geely) au atins cote de piață record în Europa de Vest în 2026, potrivit consultanței germane Schmidt Automotive Research. Dar cifrele vehiculate în presă nu sunt direct comparabile: 10,7% se referă la toate mașinile noi (T2 2026), iar 14,2% doar la mașinile 100% electrice (ianuarie–mai 2026).
+
+✅ Se probează:
+• Mărcile chinezești au atins o cotă combinată de 10,7% din vânzările totale de mașini noi (toate carburanțiile) în 18 piețe din Europa de Vest, în trimestrul al doilea din 2026 — aproape dublu față de 5,7% în T2 2025, potrivit Schmidt Automotive Research.
+• În T2 2026, mărcile chinezești au depășit pentru prima dată mărcile japoneze la vânzări totale de mașini noi în Europa de Vest: 352.098 de unități chinezești, față de 350.186 unități japoneze.
+
+⚠️ Rămâne contestat:
+• Procentele citate în presă diferă mult în funcție de ce se măsoară exact: 10,7% se referă la toate mașinile noi (toate carburanțiile) vândute în T2 2026, în timp ce 14,2% se referă strict la mașinile electrice vândute în ianuarie–mai 2026 — două perioade și două categorii…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/china-ev-cota-piata-europa-vest.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/china-ev-cota-piata-europa-vest.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -384,20 +706,49 @@ https://farabaliverne.ro/a/china-ev-cota-piata-europa-vest.html">Copiază textul
             <span class="cat">Sport</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-dinamo-voluntari-4-0-superliga">X</button>
+            <button class="tab" data-tinta="fb-dinamo-voluntari-4-0-superliga">Facebook</button>
+          </div>
+          <pre class="text" id="x-dinamo-voluntari-4-0-superliga">Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga
 
 Sâmbătă, 8 august 2026, Dinamo București a învins categoric FC Voluntari, scor 4-0, în etapa a 4-a din SuperLiga. Poziția exactă a lui Dinamo în…
 
 Se probează · 3 probate · 2 contestate
 
 https://farabaliverne.ro/a/dinamo-voluntari-4-0-superliga.html</pre>
+          <pre class="text ascuns" id="fb-dinamo-voluntari-4-0-superliga">Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga
+
+Sâmbătă, 8 august 2026, Dinamo București a învins categoric FC Voluntari, scor 4-0, în etapa a 4-a din SuperLiga. Poziția exactă a lui Dinamo în clasament diferă între surse, în funcție de momentul publicării — etapa s-a încheiat abia după alte meciuri, printre care FC Argeș - Universitatea Craiova.
+
+✅ Se probează:
+• Dinamo București a învins FC Voluntari cu scorul de 4-0, sâmbătă, 8 august 2026, în etapa a 4-a din SuperLiga. Au marcat Daniel Armstrong (din penalty), Alexandru Musi, Oliver Hintsa și Adrian Mazilu.
+• În același tur de etapă, FC Argeș a preluat locul 1 în clasament după ce a învins Universitatea Craiova cu 1-0, gol marcat de Yanis Pîrvu în minutul 7.
+
+⚠️ Rămâne contestat:
+• Poziția lui Dinamo în clasament diferă între surse: news.ro (articol publicat imediat după meciul cu Voluntari) scrie că Dinamo a urcat pe „locul secund”, cu 7 puncte, egal cu FCSB și Farul; ziarulprofit.ro, care agregă toate meciurile etapei a 4-a (inclusiv FC Argeș - Craiova…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/dinamo-voluntari-4-0-superliga.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga
+            <button class="copy" data-x="Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga
 
 Sâmbătă, 8 august 2026, Dinamo București a învins categoric FC Voluntari, scor 4-0, în etapa a 4-a din SuperLiga. Poziția exactă a lui Dinamo în…
 
 Se probează · 3 probate · 2 contestate
 
+https://farabaliverne.ro/a/dinamo-voluntari-4-0-superliga.html" data-fb="Dinamo zdrobește FC Voluntari, 4-0, în etapa a 4-a din SuperLiga
+
+Sâmbătă, 8 august 2026, Dinamo București a învins categoric FC Voluntari, scor 4-0, în etapa a 4-a din SuperLiga. Poziția exactă a lui Dinamo în clasament diferă între surse, în funcție de momentul publicării — etapa s-a încheiat abia după alte meciuri, printre care FC Argeș - Universitatea Craiova.
+
+✅ Se probează:
+• Dinamo București a învins FC Voluntari cu scorul de 4-0, sâmbătă, 8 august 2026, în etapa a 4-a din SuperLiga. Au marcat Daniel Armstrong (din penalty), Alexandru Musi, Oliver Hintsa și Adrian Mazilu.
+• În același tur de etapă, FC Argeș a preluat locul 1 în clasament după ce a învins Universitatea Craiova cu 1-0, gol marcat de Yanis Pîrvu în minutul 7.
+
+⚠️ Rămâne contestat:
+• Poziția lui Dinamo în clasament diferă între surse: news.ro (articol publicat imediat după meciul cu Voluntari) scrie că Dinamo a urcat pe „locul secund”, cu 7 puncte, egal cu FCSB și Farul; ziarulprofit.ro, care agregă toate meciurile etapei a 4-a (inclusiv FC Argeș - Craiova…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/dinamo-voluntari-4-0-superliga.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/dinamo-voluntari-4-0-superliga.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -413,20 +764,43 @@ https://farabaliverne.ro/a/dinamo-voluntari-4-0-superliga.html">Copiază textul<
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Franța interzice din 11 august 2026 apelurile de telemarketing fără acordul prealabil al consumatorului
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-franta-interzice-apeluri-nedorite">X</button>
+            <button class="tab" data-tinta="fb-franta-interzice-apeluri-nedorite">Facebook</button>
+          </div>
+          <pre class="text" id="x-franta-interzice-apeluri-nedorite">Franța interzice din 11 august 2026 apelurile de telemarketing fără acordul prealabil al consumatorului
 
 De marți, 11 august 2026, o lege susținută de guvernul Macron interzice în Franța apelurile comerciale nesolicitate, cu…
 
 Se probează · 2 probate
 
 https://farabaliverne.ro/a/franta-interzice-apeluri-nedorite.html</pre>
+          <pre class="text ascuns" id="fb-franta-interzice-apeluri-nedorite">Franța interzice din 11 august 2026 apelurile de telemarketing fără acordul prealabil al consumatorului
+
+De marți, 11 august 2026, o lege susținută de guvernul Macron interzice în Franța apelurile comerciale nesolicitate, cu excepția cazurilor în care consumatorul și-a dat deja acordul explicit. Companiile care încalcă legea riscă amenzi de până la 375.000 de euro pe apel. Rezumăm ce schimbă legea și de ce a fost adoptată.
+
+✅ Se probează:
+• Legea intră în vigoare pe 11 august 2026 și trece sistemul francez de la un model „opt-out” (consumatorul trebuia să se înscrie singur pe o listă Bloctel pentru a refuza apelurile) la un model „opt-in”: companiile pot suna în scop comercial doar dacă persoana și-a dat deja…
+• Amenzile pentru încălcarea legii pot ajunge la 75.000 de euro per apel pentru persoane fizice și 375.000 de euro per apel pentru companii. Autoritățile franceze estimează că aproximativ trei sferturi dintre francezi primesc cel puțin un apel comercial nedorit pe săptămână, mulți…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/franta-interzice-apeluri-nedorite.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Franța interzice din 11 august 2026 apelurile de telemarketing fără acordul prealabil al consumatorului
+            <button class="copy" data-x="Franța interzice din 11 august 2026 apelurile de telemarketing fără acordul prealabil al consumatorului
 
 De marți, 11 august 2026, o lege susținută de guvernul Macron interzice în Franța apelurile comerciale nesolicitate, cu…
 
 Se probează · 2 probate
 
+https://farabaliverne.ro/a/franta-interzice-apeluri-nedorite.html" data-fb="Franța interzice din 11 august 2026 apelurile de telemarketing fără acordul prealabil al consumatorului
+
+De marți, 11 august 2026, o lege susținută de guvernul Macron interzice în Franța apelurile comerciale nesolicitate, cu excepția cazurilor în care consumatorul și-a dat deja acordul explicit. Companiile care încalcă legea riscă amenzi de până la 375.000 de euro pe apel. Rezumăm ce schimbă legea și de ce a fost adoptată.
+
+✅ Se probează:
+• Legea intră în vigoare pe 11 august 2026 și trece sistemul francez de la un model „opt-out” (consumatorul trebuia să se înscrie singur pe o listă Bloctel pentru a refuza apelurile) la un model „opt-in”: companiile pot suna în scop comercial doar dacă persoana și-a dat deja…
+• Amenzile pentru încălcarea legii pot ajunge la 75.000 de euro per apel pentru persoane fizice și 375.000 de euro per apel pentru companii. Autoritățile franceze estimează că aproximativ trei sferturi dintre francezi primesc cel puțin un apel comercial nedorit pe săptămână, mulți…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/franta-interzice-apeluri-nedorite.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/franta-interzice-apeluri-nedorite.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -442,20 +816,49 @@ https://farabaliverne.ro/a/franta-interzice-apeluri-nedorite.html">Copiază text
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-guvern-dragaj-dunare-5-milioane-lei">X</button>
+            <button class="tab" data-tinta="fb-guvern-dragaj-dunare-5-milioane-lei">Facebook</button>
+          </div>
+          <pre class="text" id="x-guvern-dragaj-dunare-5-milioane-lei">Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă
 
 Guvernul a aprobat pe 10 august încă 5,1 milioane lei din Fondul de rezervă bugetară pentru…
 
 Se probează · 4 probate · 1 contestată
 
 https://farabaliverne.ro/a/guvern-dragaj-dunare-5-milioane-lei.html</pre>
+          <pre class="text ascuns" id="fb-guvern-dragaj-dunare-5-milioane-lei">Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă
+
+Guvernul a aprobat pe 10 august încă 5,1 milioane lei din Fondul de rezervă bugetară pentru dragaj în două puncte critice de pe Dunăre, sumă ce se adaugă celor 7 milioane lei alocate pe 31 iulie. Contextul: nivelul scăzut al fluviului amenință răcirea reactoarelor de la Cernavodă, în plină alertă energetică declarată de Bolojan.
+
+✅ Se probează:
+• Guvernul a aprobat 5,1 milioane lei suplimentari din Fondul de rezervă bugetară pentru lucrări de dragaj în două puncte critice de pe Dunăre: Cochirleni (km 309-304) și Caragheorghe–Turcescu (km 345-342), câte 2,55 milioane lei și aproximativ 50.000 de metri cubi de sediment…
+• Suma din 10 august se adaugă la cele 7 milioane lei alocate deja pe 31 iulie 2026 pentru aceeași criză a nivelului scăzut al Dunării — în 11 zile, statul a alocat de urgență peste 12 milioane lei pe acest front.
+
+⚠️ Rămâne contestat:
+• Nu este clar, la data verificării, dacă lucrările de dragaj anterioare (cele 7 milioane lei alocate pe 31 iulie) au avut un efect măsurabil asupra nivelului Dunării — sursele nu publică date post-implementare. Realitatea.net pune sub semnul întrebării eficiența intervențiilor de…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/guvern-dragaj-dunare-5-milioane-lei.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă
+            <button class="copy" data-x="Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă
 
 Guvernul a aprobat pe 10 august încă 5,1 milioane lei din Fondul de rezervă bugetară pentru…
 
 Se probează · 4 probate · 1 contestată
 
+https://farabaliverne.ro/a/guvern-dragaj-dunare-5-milioane-lei.html" data-fb="Guvernul mai alocă 5,1 milioane lei de urgență pentru dragaj pe Dunăre, pe fondul alertei energetice de la Cernavodă
+
+Guvernul a aprobat pe 10 august încă 5,1 milioane lei din Fondul de rezervă bugetară pentru dragaj în două puncte critice de pe Dunăre, sumă ce se adaugă celor 7 milioane lei alocate pe 31 iulie. Contextul: nivelul scăzut al fluviului amenință răcirea reactoarelor de la Cernavodă, în plină alertă energetică declarată de Bolojan.
+
+✅ Se probează:
+• Guvernul a aprobat 5,1 milioane lei suplimentari din Fondul de rezervă bugetară pentru lucrări de dragaj în două puncte critice de pe Dunăre: Cochirleni (km 309-304) și Caragheorghe–Turcescu (km 345-342), câte 2,55 milioane lei și aproximativ 50.000 de metri cubi de sediment…
+• Suma din 10 august se adaugă la cele 7 milioane lei alocate deja pe 31 iulie 2026 pentru aceeași criză a nivelului scăzut al Dunării — în 11 zile, statul a alocat de urgență peste 12 milioane lei pe acest front.
+
+⚠️ Rămâne contestat:
+• Nu este clar, la data verificării, dacă lucrările de dragaj anterioare (cele 7 milioane lei alocate pe 31 iulie) au avut un efect măsurabil asupra nivelului Dunării — sursele nu publică date post-implementare. Realitatea.net pune sub semnul întrebării eficiența intervențiilor de…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/guvern-dragaj-dunare-5-milioane-lei.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/guvern-dragaj-dunare-5-milioane-lei.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -471,20 +874,49 @@ https://farabaliverne.ro/a/guvern-dragaj-dunare-5-milioane-lei.html">Copiază te
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-meloni-frederiksen-migratie-mesaj-comun">X</button>
+            <button class="tab" data-tinta="fb-meloni-frederiksen-migratie-mesaj-comun">Facebook</button>
+          </div>
+          <pre class="text" id="x-meloni-frederiksen-migratie-mesaj-comun">Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație
 
 Premierii Italiei (Giorgia Meloni) și Danemarcei (Mette Frederiksen) au publicat, pe 10 august 2026, o…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/meloni-frederiksen-migratie-mesaj-comun.html</pre>
+          <pre class="text ascuns" id="fb-meloni-frederiksen-migratie-mesaj-comun">Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație
+
+Premierii Italiei (Giorgia Meloni) și Danemarcei (Mette Frederiksen) au publicat, pe 10 august 2026, o declarație comună prin care cer o politică UE mai dură privind migrația, inclusiv „centre de repatriere” în țări terțe. Mesajul, semnat de doi lideri din tabere politice diferite, e prezentat diferit de presă: echilibrat de unele redacții, cu accent pe „amenințarea migrației în masă” de altele. 🌍 Am rezumat și pus…
+
+✅ Se probează:
+• Pe 10 august 2026, Giorgia Meloni (Italia, premier) și Mette Frederiksen (Danemarca, prim-ministru) au publicat o declarație comună intitulată „A joint message for Europe”, în care afirmă: „We do not accept uncontrolled immigration into Europe” (Nu acceptăm imigrația…
+• În mesaj, cei doi lideri cer „centre de repatriere în țări terțe, precum și alte soluții inovatoare” („repatriation centres in third countries, as well as other innovative solutions”). Italia are deja un proiect-pilot de acest tip în Albania. Declarația vine după o scrisoare…
+
+⚠️ Rămâne contestat:
+• Declarația comună afirmă că imigrația necontrolată aduce „rising crime rates, increasing pressure on public services and erosion of public trust” (creșterea criminalității, presiune tot mai mare pe serviciile publice și erodarea încrederii publice), dar nici textul original…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/meloni-frederiksen-migratie-mesaj-comun.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație
+            <button class="copy" data-x="Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație
 
 Premierii Italiei (Giorgia Meloni) și Danemarcei (Mette Frederiksen) au publicat, pe 10 august 2026, o…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/meloni-frederiksen-migratie-mesaj-comun.html" data-fb="Meloni și Frederiksen, mesaj comun: cer centre de repatriere în afara UE și „reguli mai dure” pe migrație
+
+Premierii Italiei (Giorgia Meloni) și Danemarcei (Mette Frederiksen) au publicat, pe 10 august 2026, o declarație comună prin care cer o politică UE mai dură privind migrația, inclusiv „centre de repatriere” în țări terțe. Mesajul, semnat de doi lideri din tabere politice diferite, e prezentat diferit de presă: echilibrat de unele redacții, cu accent pe „amenințarea migrației în masă” de altele. 🌍 Am rezumat și pus…
+
+✅ Se probează:
+• Pe 10 august 2026, Giorgia Meloni (Italia, premier) și Mette Frederiksen (Danemarca, prim-ministru) au publicat o declarație comună intitulată „A joint message for Europe”, în care afirmă: „We do not accept uncontrolled immigration into Europe” (Nu acceptăm imigrația…
+• În mesaj, cei doi lideri cer „centre de repatriere în țări terțe, precum și alte soluții inovatoare” („repatriation centres in third countries, as well as other innovative solutions”). Italia are deja un proiect-pilot de acest tip în Albania. Declarația vine după o scrisoare…
+
+⚠️ Rămâne contestat:
+• Declarația comună afirmă că imigrația necontrolată aduce „rising crime rates, increasing pressure on public services and erosion of public trust” (creșterea criminalității, presiune tot mai mare pe serviciile publice și erodarea încrederii publice), dar nici textul original…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/meloni-frederiksen-migratie-mesaj-comun.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/meloni-frederiksen-migratie-mesaj-comun.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -500,20 +932,49 @@ https://farabaliverne.ro/a/meloni-frederiksen-migratie-mesaj-comun.html">Copiaz�
             <span class="cat">Politică</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-nicusor-dan-cotroceni-lideri-lege-salarizare">X</button>
+            <button class="tab" data-tinta="fb-nicusor-dan-cotroceni-lideri-lege-salarizare">Facebook</button>
+          </div>
+          <pre class="text" id="x-nicusor-dan-cotroceni-lideri-lege-salarizare">Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării
 
 Președintele Nicușor Dan s-a întâlnit marți, 11 august, la Cotroceni cu liderii PSD, PNL, USR și…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/nicusor-dan-cotroceni-lideri-lege-salarizare.html</pre>
+          <pre class="text ascuns" id="fb-nicusor-dan-cotroceni-lideri-lege-salarizare">Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării
+
+Președintele Nicușor Dan s-a întâlnit marți, 11 august, la Cotroceni cu liderii PSD, PNL, USR și UDMR pentru a vedea dacă mai există un acord politic pe Legea salarizării unitare — jalon din PNRR cu termen 31 august 2026, sub riscul pierderii a 770 de milioane de euro.
+
+✅ Se probează:
+• Președintele Nicușor Dan a avut, marți, 11 august 2026, o întâlnire la Palatul Cotroceni, programată pentru ora 16:00, cu liderii partidelor din fosta coaliție: Sorin Grindeanu (PSD), Ilie Bolojan (PNL), Dominic Fritz (USR) și Kelemen Hunor (UDMR), pe tema Legii salarizării…
+• Legea salarizării unitare este un jalon din PNRR, cu termen de adoptare și promulgare 31 august 2026; nerespectarea termenului ar însemna pierderea a 770 de milioane de euro alocați României pentru investiții. Ministrul interimar al Muncii, Dragoș Pîslaru, a declarat că aceasta…
+
+⚠️ Rămâne contestat:
+• Nu este clar, la ora publicării, dacă întâlnirea de la Cotroceni s-a încheiat cu un acord politic concret pe conținutul legii — sursele consultate descriu întâlnirea ca fiind în desfășurare sau relatează poziția de dinaintea ei, nu un rezultat final. PSD a cerut anterior grile…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/nicusor-dan-cotroceni-lideri-lege-salarizare.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării
+            <button class="copy" data-x="Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării
 
 Președintele Nicușor Dan s-a întâlnit marți, 11 august, la Cotroceni cu liderii PSD, PNL, USR și…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/nicusor-dan-cotroceni-lideri-lege-salarizare.html" data-fb="Nicușor Dan cheamă la Cotroceni liderii PSD, PNL, USR și UDMR — ultima încercare de acord pe Legea salarizării
+
+Președintele Nicușor Dan s-a întâlnit marți, 11 august, la Cotroceni cu liderii PSD, PNL, USR și UDMR pentru a vedea dacă mai există un acord politic pe Legea salarizării unitare — jalon din PNRR cu termen 31 august 2026, sub riscul pierderii a 770 de milioane de euro.
+
+✅ Se probează:
+• Președintele Nicușor Dan a avut, marți, 11 august 2026, o întâlnire la Palatul Cotroceni, programată pentru ora 16:00, cu liderii partidelor din fosta coaliție: Sorin Grindeanu (PSD), Ilie Bolojan (PNL), Dominic Fritz (USR) și Kelemen Hunor (UDMR), pe tema Legii salarizării…
+• Legea salarizării unitare este un jalon din PNRR, cu termen de adoptare și promulgare 31 august 2026; nerespectarea termenului ar însemna pierderea a 770 de milioane de euro alocați României pentru investiții. Ministrul interimar al Muncii, Dragoș Pîslaru, a declarat că aceasta…
+
+⚠️ Rămâne contestat:
+• Nu este clar, la ora publicării, dacă întâlnirea de la Cotroceni s-a încheiat cu un acord politic concret pe conținutul legii — sursele consultate descriu întâlnirea ca fiind în desfășurare sau relatează poziția de dinaintea ei, nu un rezultat final. PSD a cerut anterior grile…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/nicusor-dan-cotroceni-lideri-lege-salarizare.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/nicusor-dan-cotroceni-lideri-lege-salarizare.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -529,20 +990,49 @@ https://farabaliverne.ro/a/nicusor-dan-cotroceni-lideri-lege-salarizare.html">Co
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-pilon2-castig-100-miliarde-lei">X</button>
+            <button class="tab" data-tinta="fb-pilon2-castig-100-miliarde-lei">Facebook</button>
+          </div>
+          <pre class="text" id="x-pilon2-castig-100-miliarde-lei">Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net
 
 APAPR anunță că, la 31 iulie 2026, câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul…
 
 Se probează · 3 probate · 2 contestate
 
 https://farabaliverne.ro/a/pilon2-castig-100-miliarde-lei.html</pre>
+          <pre class="text ascuns" id="fb-pilon2-castig-100-miliarde-lei">Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net
+
+APAPR anunță că, la 31 iulie 2026, câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul II) a depășit pentru prima dată 100 de miliarde de lei, iar activele nete administrate au ajuns la 246,7 miliarde de lei pentru 8,5 milioane de participanți. Cifrele sunt raportate concordant de mai multe redacții economice, dar provin de la asociația administratorilor, nu de la un auditor independent.
+
+✅ Se probează:
+• Câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul II) a depășit, la 31 iulie 2026, pragul de 100 de miliarde de lei, ajungând la 108,6 miliarde lei (~20,7 miliarde euro) — un prag istoric pentru sistem, potrivit Asociației pentru Pensiile Administrate…
+• Activele nete administrate de fondurile de Pilon II au ajuns la 246,7 miliarde de lei (~47 miliarde euro), pentru 8,5 milioane de participanți înscriși, dintre care aproximativ 4,6 milioane contribuie activ lunar, la o cotă obligatorie de 4,75% din venitul brut.
+
+⚠️ Rămâne contestat:
+• Cifra de „100 de miliarde de lei” reprezintă câștigul net cumulat de la înființarea sistemului (2008) până la 31 iulie 2026, nu un profit dintr-un singur an — iar comunicatul provine chiar de la APAPR, asociația administratorilor de fonduri (o parte interesată în promovarea…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/pilon2-castig-100-miliarde-lei.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net
+            <button class="copy" data-x="Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net
 
 APAPR anunță că, la 31 iulie 2026, câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul…
 
 Se probează · 3 probate · 2 contestate
 
+https://farabaliverne.ro/a/pilon2-castig-100-miliarde-lei.html" data-fb="Pilonul II de pensii private a trecut pentru prima dată pragul de 100 de miliarde de lei câștig net
+
+APAPR anunță că, la 31 iulie 2026, câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul II) a depășit pentru prima dată 100 de miliarde de lei, iar activele nete administrate au ajuns la 246,7 miliarde de lei pentru 8,5 milioane de participanți. Cifrele sunt raportate concordant de mai multe redacții economice, dar provin de la asociația administratorilor, nu de la un auditor independent.
+
+✅ Se probează:
+• Câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul II) a depășit, la 31 iulie 2026, pragul de 100 de miliarde de lei, ajungând la 108,6 miliarde lei (~20,7 miliarde euro) — un prag istoric pentru sistem, potrivit Asociației pentru Pensiile Administrate…
+• Activele nete administrate de fondurile de Pilon II au ajuns la 246,7 miliarde de lei (~47 miliarde euro), pentru 8,5 milioane de participanți înscriși, dintre care aproximativ 4,6 milioane contribuie activ lunar, la o cotă obligatorie de 4,75% din venitul brut.
+
+⚠️ Rămâne contestat:
+• Cifra de „100 de miliarde de lei” reprezintă câștigul net cumulat de la înființarea sistemului (2008) până la 31 iulie 2026, nu un profit dintr-un singur an — iar comunicatul provine chiar de la APAPR, asociația administratorilor de fonduri (o parte interesată în promovarea…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/pilon2-castig-100-miliarde-lei.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/pilon2-castig-100-miliarde-lei.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -558,20 +1048,43 @@ https://farabaliverne.ro/a/pilon2-castig-100-miliarde-lei.html">Copiază textul<
             <span class="cat">Sport</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-sepsi-fcsb-0-0-superliga">X</button>
+            <button class="tab" data-tinta="fb-sepsi-fcsb-0-0-superliga">Facebook</button>
+          </div>
+          <pre class="text" id="x-sepsi-fcsb-0-0-superliga">Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga
 
 Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut…
 
 Se probează · 3 probate
 
 https://farabaliverne.ro/a/sepsi-fcsb-0-0-superliga.html</pre>
+          <pre class="text ascuns" id="fb-sepsi-fcsb-0-0-superliga">Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga
+
+Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut ocaziile mai mari, dar FCSB rămâne neînvinsă în campionat, alături de Rapid.
+
+✅ Se probează:
+• Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, scor 0-0, luni, 10 august 2026, pe Sepsi Arena, în meciul care a închis etapa a 4-a din SuperLiga. Meciul a fost arbitrat de Florin Andrei (Târgu Mureș).
+• Gazdele au avut cele mai clare ocazii: Moses Mawa a ratat un unu-la-unu cu portarul în minutul 16, iar Funsho Bamgboye a irosit o poziție ideală în minutul 40 și a mai avut o ocazie mare în minutul 65, după erori ale apărării oaspete. Pentru FCSB, cea mai bună ocazie i-a…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/sepsi-fcsb-0-0-superliga.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga
+            <button class="copy" data-x="Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga
 
 Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut…
 
 Se probează · 3 probate
 
+https://farabaliverne.ro/a/sepsi-fcsb-0-0-superliga.html" data-fb="Sepsi OSK și FCSB rămân la egalitate, 0-0, în etapa a 4-a din SuperLiga
+
+Luni, 10 august 2026, Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, 0-0, în meciul care a închis etapa a 4-a din SuperLiga. Sepsi a avut ocaziile mai mari, dar FCSB rămâne neînvinsă în campionat, alături de Rapid.
+
+✅ Se probează:
+• Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, scor 0-0, luni, 10 august 2026, pe Sepsi Arena, în meciul care a închis etapa a 4-a din SuperLiga. Meciul a fost arbitrat de Florin Andrei (Târgu Mureș).
+• Gazdele au avut cele mai clare ocazii: Moses Mawa a ratat un unu-la-unu cu portarul în minutul 16, iar Funsho Bamgboye a irosit o poziție ideală în minutul 40 și a mai avut o ocazie mare în minutul 65, după erori ale apărării oaspete. Pentru FCSB, cea mai bună ocazie i-a…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/sepsi-fcsb-0-0-superliga.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/sepsi-fcsb-0-0-superliga.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -587,20 +1100,49 @@ https://farabaliverne.ro/a/sepsi-fcsb-0-0-superliga.html">Copiază textul</butto
             <span class="cat">Economie</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-sua-transparenta-fiscala-romania-2026">X</button>
+            <button class="tab" data-tinta="fb-sua-transparenta-fiscala-romania-2026">Facebook</button>
+          </div>
+          <pre class="text" id="x-sua-transparenta-fiscala-romania-2026">România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026
 
 Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/sua-transparenta-fiscala-romania-2026.html</pre>
+          <pre class="text ascuns" id="fb-sua-transparenta-fiscala-romania-2026">România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026
+
+Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență Fiscală pentru 2026 (perioada analizată: 1 ianuarie – 31 decembrie 2025). Din 140 de guverne și entități evaluate, 73 — printre care și România — au îndeplinit standardele minime; 67 nu le-au atins.
+
+✅ Se probează:
+• România se numără printre cele 73 de guverne și entități (din 140 analizate la nivel mondial) care au îndeplinit cerințele minime de transparență fiscală evaluate în Raportul de Transparență Fiscală 2026 al Departamentului de Stat al SUA, publicat pe 11 august 2026. Alte 67 de…
+• Evaluarea, făcută anual la mandatul Congresului SUA, analizează dacă guvernele asigură acces public la documentele bugetare esențiale și dacă informațiile sunt suficient de complete și de credibile. Pentru ediția 2026, Departamentul de Stat a actualizat criteriile, punând accent…
+
+⚠️ Rămâne contestat:
+• „Îndeplinește cerințele minime” e un prag de tip trece/nu trece, nu o notă de excelență — raportul nu clasează statele într-un top al celei mai bune transparențe, ci separă doar guvernele care ating pragul minim de cele care nu-l ating. Faptul că 67 din 140 de guverne evaluate…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/sua-transparenta-fiscala-romania-2026.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026
+            <button class="copy" data-x="România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026
 
 Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/sua-transparenta-fiscala-romania-2026.html" data-fb="România îndeplinește cerințele minime de transparență fiscală, potrivit raportului Departamentului de Stat al SUA pe 2026
+
+Departamentul de Stat al SUA a publicat marți, 11 august 2026, Raportul de Transparență Fiscală pentru 2026 (perioada analizată: 1 ianuarie – 31 decembrie 2025). Din 140 de guverne și entități evaluate, 73 — printre care și România — au îndeplinit standardele minime; 67 nu le-au atins.
+
+✅ Se probează:
+• România se numără printre cele 73 de guverne și entități (din 140 analizate la nivel mondial) care au îndeplinit cerințele minime de transparență fiscală evaluate în Raportul de Transparență Fiscală 2026 al Departamentului de Stat al SUA, publicat pe 11 august 2026. Alte 67 de…
+• Evaluarea, făcută anual la mandatul Congresului SUA, analizează dacă guvernele asigură acces public la documentele bugetare esențiale și dacă informațiile sunt suficient de complete și de credibile. Pentru ediția 2026, Departamentul de Stat a actualizat criteriile, punând accent…
+
+⚠️ Rămâne contestat:
+• „Îndeplinește cerințele minime” e un prag de tip trece/nu trece, nu o notă de excelență — raportul nu clasează statele într-un top al celei mai bune transparențe, ci separă doar guvernele care ating pragul minim de cele care nu-l ating. Faptul că 67 din 140 de guverne evaluate…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/sua-transparenta-fiscala-romania-2026.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/sua-transparenta-fiscala-romania-2026.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -616,20 +1158,49 @@ https://farabaliverne.ro/a/sua-transparenta-fiscala-romania-2026.html">Copiază 
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-trump-iran-compensatie-hormuz">X</button>
+            <button class="tab" data-tinta="fb-trump-iran-compensatie-hormuz">Facebook</button>
+          </div>
+          <pre class="text" id="x-trump-iran-compensatie-hormuz">Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează
 
 Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru…
 
 Se probează · 4 probate · 2 contestate
 
 https://farabaliverne.ro/a/trump-iran-compensatie-hormuz.html</pre>
+          <pre class="text ascuns" id="fb-trump-iran-compensatie-hormuz">Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează
+
+Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru daune produse pe o perioadă de 50 de ani — răspuns la cererea Teheranului ca SUA să plătească reparații de război drept condiție pentru redeschiderea Strâmtorii Hormuz. Negocierile par blocate, iar prețul petrolului a crescut.
+
+✅ Se probează:
+• Președintele Trump a declarat, luni, 10 august 2026, că va cere Iranului compensații pentru daune produse pe parcursul a 50 de ani, inclusiv pentru moartea a 17 marinari americani în atacul asupra USS Cole din anul 2000, alte pierderi militare americane și decesele unor…
+• Cererea lui Trump vine ca reacție directă la poziția Iranului, care condiționează redeschiderea completă a Strâmtorii Hormuz de plata unor reparații de război din partea SUA pentru daunele provocate de atacurile americane și israeliene din ultimele luni.
+
+⚠️ Rămâne contestat:
+• Cifra de zeci de mii de protestatari iranieni uciși de autorități, invocată de Trump ca parte a compensațiilor cerute, este afirmația unui oficial american, nu o cifră confirmată independent de organizații de drepturile omului sau de un raport oficial — sursele consultate o…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/trump-iran-compensatie-hormuz.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează
+            <button class="copy" data-x="Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează
 
 Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru…
 
 Se probează · 4 probate · 2 contestate
 
+https://farabaliverne.ro/a/trump-iran-compensatie-hormuz.html" data-fb="Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează
+
+Președintele american Donald Trump a cerut ca Iranul să plătească despăgubiri pentru daune produse pe o perioadă de 50 de ani — răspuns la cererea Teheranului ca SUA să plătească reparații de război drept condiție pentru redeschiderea Strâmtorii Hormuz. Negocierile par blocate, iar prețul petrolului a crescut.
+
+✅ Se probează:
+• Președintele Trump a declarat, luni, 10 august 2026, că va cere Iranului compensații pentru daune produse pe parcursul a 50 de ani, inclusiv pentru moartea a 17 marinari americani în atacul asupra USS Cole din anul 2000, alte pierderi militare americane și decesele unor…
+• Cererea lui Trump vine ca reacție directă la poziția Iranului, care condiționează redeschiderea completă a Strâmtorii Hormuz de plata unor reparații de război din partea SUA pentru daunele provocate de atacurile americane și israeliene din ultimele luni.
+
+⚠️ Rămâne contestat:
+• Cifra de zeci de mii de protestatari iranieni uciși de autorități, invocată de Trump ca parte a compensațiilor cerute, este afirmația unui oficial american, nu o cifră confirmată independent de organizații de drepturile omului sau de un raport oficial — sursele consultate o…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/trump-iran-compensatie-hormuz.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/trump-iran-compensatie-hormuz.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -645,20 +1216,49 @@ https://farabaliverne.ro/a/trump-iran-compensatie-hormuz.html">Copiază textul</
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-trump-zbor-secret-turcia-amenintare-iran">X</button>
+            <button class="tab" data-tinta="fb-trump-zbor-secret-turcia-amenintare-iran">Facebook</button>
+          </div>
+          <pre class="text" id="x-trump-zbor-secret-turcia-amenintare-iran">Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului
 
 Washington Post relatează, citând oficiali americani, că președintele Donald Trump a fost mutat secret pe…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/trump-zbor-secret-turcia-amenintare-iran.html</pre>
+          <pre class="text ascuns" id="fb-trump-zbor-secret-turcia-amenintare-iran">Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului
+
+Washington Post relatează, citând oficiali americani, că președintele Donald Trump a fost mutat secret pe un avion militar mai mic după summitul NATO de la Ankara (8 iulie 2026), în urma unei amenințări de asasinat considerate credibile din partea Iranului. Avionul obișnuit Air Force One a decolat ca momeală, cu jurnaliștii și o parte din personalul Casei Albe la bord, fără să știe că președintele nu era pe el. Casa…
+
+✅ Se probează:
+• Pe 8 iulie 2026, după summitul NATO din Ankara, președintele Trump a fost transferat, printr-o operațiune ținută secretă, de pe avionul Air Force One obișnuit (Boeing 747) pe o aeronavă militară mai mică — un C-32A (Boeing 757 modificat) — pentru a-l duce spre Marea Britanie…
+• Operațiunea a fost declanșată de o amenințare de asasinat împotriva lui Trump sau a aeronavei sale, considerată credibilă de serviciile de informații americane, pe fondul rupturii negocierilor dintre Washington și Teheran și al reluării atacurilor forțelor americane asupra…
+
+⚠️ Rămâne contestat:
+• Detaliile operațiunii vin exclusiv din relatarea inițială a Washington Post, bazată pe „oficiali americani familiarizați cu operațiunea”, nenumiți — un tipar obișnuit pentru subiecte de securitate prezidențială, dar care înseamnă că informația nu poate fi verificată independent…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/trump-zbor-secret-turcia-amenintare-iran.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului
+            <button class="copy" data-x="Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului
 
 Washington Post relatează, citând oficiali americani, că președintele Donald Trump a fost mutat secret pe…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/trump-zbor-secret-turcia-amenintare-iran.html" data-fb="Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului
+
+Washington Post relatează, citând oficiali americani, că președintele Donald Trump a fost mutat secret pe un avion militar mai mic după summitul NATO de la Ankara (8 iulie 2026), în urma unei amenințări de asasinat considerate credibile din partea Iranului. Avionul obișnuit Air Force One a decolat ca momeală, cu jurnaliștii și o parte din personalul Casei Albe la bord, fără să știe că președintele nu era pe el. Casa…
+
+✅ Se probează:
+• Pe 8 iulie 2026, după summitul NATO din Ankara, președintele Trump a fost transferat, printr-o operațiune ținută secretă, de pe avionul Air Force One obișnuit (Boeing 747) pe o aeronavă militară mai mică — un C-32A (Boeing 757 modificat) — pentru a-l duce spre Marea Britanie…
+• Operațiunea a fost declanșată de o amenințare de asasinat împotriva lui Trump sau a aeronavei sale, considerată credibilă de serviciile de informații americane, pe fondul rupturii negocierilor dintre Washington și Teheran și al reluării atacurilor forțelor americane asupra…
+
+⚠️ Rămâne contestat:
+• Detaliile operațiunii vin exclusiv din relatarea inițială a Washington Post, bazată pe „oficiali americani familiarizați cu operațiunea”, nenumiți — un tipar obișnuit pentru subiecte de securitate prezidențială, dar care înseamnă că informația nu poate fi verificată independent…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/trump-zbor-secret-turcia-amenintare-iran.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/trump-zbor-secret-turcia-amenintare-iran.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -674,20 +1274,49 @@ https://farabaliverne.ro/a/trump-zbor-secret-turcia-amenintare-iran.html">Copiaz
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-uk-interzice-capcanele-abonament-burnham">X</button>
+            <button class="tab" data-tinta="fb-uk-interzice-capcanele-abonament-burnham">Facebook</button>
+          </div>
+          <pre class="text" id="x-uk-interzice-capcanele-abonament-burnham">Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027
 
 Premierul britanic Andy Burnham a anunțat, pe 9 august 2026, accelerarea unor reguli care…
 
 Se probează · 2 probate · 1 contestată
 
 https://farabaliverne.ro/a/uk-interzice-capcanele-abonament-burnham.html</pre>
+          <pre class="text ascuns" id="fb-uk-interzice-capcanele-abonament-burnham">Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027
+
+Premierul britanic Andy Burnham a anunțat, pe 9 august 2026, accelerarea unor reguli care obligă firmele să clarifice termenii abonamentelor și să interzică reducerile-fantomă (prețuri de referință umflate artificial). Guvernul estimează economii de sute de milioane de lire pentru consumatori; opoziția și presa de business au ridicat obiecții.
+
+✅ Se probează:
+• Premierul Andy Burnham a anunțat pe 9 august 2026 accelerarea calendarului unor reguli privind abonamentele: companiile vor trebui să clarifice termenii de la înscriere, să trimită mementouri înainte de reînnoirea automată și să ofere o metodă simplă de anulare. Regulile…
+• Pe lângă abonamente, guvernul lansează o consultare pentru a interzice reducerile comerciale înșelătoare — prețuri „anterioare” inventate sau prețuri de referință recomandate umflate artificial, menite să facă o reducere să pară mai mare decât este. Executivul estimează economii…
+
+⚠️ Rămâne contestat:
+• Măsurile nu sunt încă în vigoare — regulile privind abonamentele sunt programate pentru ianuarie 2027, iar interzicerea reducerilor false este deocamdată doar în etapa de consultare publică, nu de lege adoptată. News Media Association a criticat guvernul că a „grăbit” anunțul…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/uk-interzice-capcanele-abonament-burnham.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027
+            <button class="copy" data-x="Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027
 
 Premierul britanic Andy Burnham a anunțat, pe 9 august 2026, accelerarea unor reguli care…
 
 Se probează · 2 probate · 1 contestată
 
+https://farabaliverne.ro/a/uk-interzice-capcanele-abonament-burnham.html" data-fb="Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027
+
+Premierul britanic Andy Burnham a anunțat, pe 9 august 2026, accelerarea unor reguli care obligă firmele să clarifice termenii abonamentelor și să interzică reducerile-fantomă (prețuri de referință umflate artificial). Guvernul estimează economii de sute de milioane de lire pentru consumatori; opoziția și presa de business au ridicat obiecții.
+
+✅ Se probează:
+• Premierul Andy Burnham a anunțat pe 9 august 2026 accelerarea calendarului unor reguli privind abonamentele: companiile vor trebui să clarifice termenii de la înscriere, să trimită mementouri înainte de reînnoirea automată și să ofere o metodă simplă de anulare. Regulile…
+• Pe lângă abonamente, guvernul lansează o consultare pentru a interzice reducerile comerciale înșelătoare — prețuri „anterioare” inventate sau prețuri de referință recomandate umflate artificial, menite să facă o reducere să pară mai mare decât este. Executivul estimează economii…
+
+⚠️ Rămâne contestat:
+• Măsurile nu sunt încă în vigoare — regulile privind abonamentele sunt programate pentru ianuarie 2027, iar interzicerea reducerilor false este deocamdată doar în etapa de consultare publică, nu de lege adoptată. News Media Association a criticat guvernul că a „grăbit” anunțul…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/uk-interzice-capcanele-abonament-burnham.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/uk-interzice-capcanele-abonament-burnham.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -703,20 +1332,49 @@ https://farabaliverne.ro/a/uk-interzice-capcanele-abonament-burnham.html">Copiaz
             <span class="cat">Extern</span>
             <span class="data">2026-08-11</span>
           </div>
-          <pre class="text">Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-zelenski-kosovo-controversa-belgrad">X</button>
+            <button class="tab" data-tinta="fb-zelenski-kosovo-controversa-belgrad">Facebook</button>
+          </div>
+          <pre class="text" id="x-zelenski-kosovo-controversa-belgrad">Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean
 
 În prima sa vizită oficială la Belgrad (7-9 august 2026), președintele…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html</pre>
+          <pre class="text ascuns" id="fb-zelenski-kosovo-controversa-belgrad">Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean
+
+În prima sa vizită oficială la Belgrad (7-9 august 2026), președintele ucrainean Volodimir Zelenski a reafirmat, la o conferință de presă alături de Aleksandar Vučić, că poziția Kievului privind Kosovo „rămâne neschimbată” — adică Ucraina nu recunoaște independența Kosovo. Declarația a stârnit un val de nemulțumire la Priștina, unde autoritățile au retras un steag ucrainean amplasat în centrul capitalei.
+
+✅ Se probează:
+• La o conferință de presă la Palatul Serbiei din Belgrad, pe 8 august 2026, președintele Volodimir Zelenski a fost întrebat dacă Serbia se poate baza în continuare pe poziția fermă a Ucrainei privind Kosovo. Răspunsul citat: „Poziția noastră […] rămâne neschimbată. Am subliniat…
+• Duminică, 9 august 2026, autoritățile din Priștina au retras un steag ucrainean cu sloganul „Free Ukraine”, amplasat pe o arteră centrală a capitalei kosovare încă de la începutul invaziei ruse din 2022. Retragerea a fost anunțată public de primarul Priștinei, Perparim Rama…
+
+⚠️ Rămâne contestat:
+• Vizita lui Zelenski la Belgrad — prima sa deplasare oficială acolo — e interpretată diferit: pentru Kiev, e un pas de reechilibrare a relațiilor cu Serbia (stat aflat sub presiune să aleagă între UE și Rusia); pentru critici din Kosovo și din diaspora ucraineană, declarația…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean
+            <button class="copy" data-x="Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean
 
 În prima sa vizită oficială la Belgrad (7-9 august 2026), președintele…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html" data-fb="Zelenski, la Belgrad: „poziția Ucrainei privind Kosovo rămâne neschimbată” — Priștina reacționează prin retragerea steagului ucrainean
+
+În prima sa vizită oficială la Belgrad (7-9 august 2026), președintele ucrainean Volodimir Zelenski a reafirmat, la o conferință de presă alături de Aleksandar Vučić, că poziția Kievului privind Kosovo „rămâne neschimbată” — adică Ucraina nu recunoaște independența Kosovo. Declarația a stârnit un val de nemulțumire la Priștina, unde autoritățile au retras un steag ucrainean amplasat în centrul capitalei.
+
+✅ Se probează:
+• La o conferință de presă la Palatul Serbiei din Belgrad, pe 8 august 2026, președintele Volodimir Zelenski a fost întrebat dacă Serbia se poate baza în continuare pe poziția fermă a Ucrainei privind Kosovo. Răspunsul citat: „Poziția noastră […] rămâne neschimbată. Am subliniat…
+• Duminică, 9 august 2026, autoritățile din Priștina au retras un steag ucrainean cu sloganul „Free Ukraine”, amplasat pe o arteră centrală a capitalei kosovare încă de la începutul invaziei ruse din 2022. Retragerea a fost anunțată public de primarul Priștinei, Perparim Rama…
+
+⚠️ Rămâne contestat:
+• Vizita lui Zelenski la Belgrad — prima sa deplasare oficială acolo — e interpretată diferit: pentru Kiev, e un pas de reechilibrare a relațiilor cu Serbia (stat aflat sub presiune să aleagă între UE și Rusia); pentru critici din Kosovo și din diaspora ucraineană, declarația…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -732,16 +1390,45 @@ https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html">Copiază te
             <span class="cat">Social</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-ancpi-eterra-cadastru-blocaj">X</button>
+            <button class="tab" data-tinta="fb-ancpi-eterra-cadastru-blocaj">Facebook</button>
+          </div>
+          <pre class="text" id="x-ancpi-eterra-cadastru-blocaj">Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia
 
 Se probează · 5 probate · 2 contestate
 
 https://farabaliverne.ro/a/ancpi-eterra-cadastru-blocaj.html</pre>
+          <pre class="text ascuns" id="fb-ancpi-eterra-cadastru-blocaj">Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia
+
+Sistemul național de cadastru și carte funciară e-Terra e nefuncțional de la atacul cibernetic de tip ransomware din 14 iulie 2026. ANCPI spune că baza de date centrală n-a fost afectată și că sistemul ar putea reporni „săptămâna aceasta”, dar a anunțat deja, pe 9 august, că unele documente vor rămâne indisponibile 1-3 zile suplimentare.
+
+✅ Se probează:
+• ANCPI a confirmat oficial că, pe 14 iulie 2026, a identificat un acces neautorizat în infrastructura sa IT — un atac cibernetic de tip ransomware în care atacatorii au criptat și șters o parte din infrastructura de virtualizare care găzduiește aplicațiile agenției, inclusiv…
+• Instituția susține că baza de date centrală a sistemului cadastral nu a fost afectată și că nu există dovezi că atacatorii ar fi avut acces la aceste date; integritatea evidenței cadastrale și de carte funciară este, potrivit ANCPI, „confirmată”. Afirmația vine din comunicatele…
+
+⚠️ Rămâne contestat:
+• Termenul exact al repornirii a fost amânat repetat și rămâne neclar la 10 august: de la „revenire etapizată” (20 iulie), la „actualizare publică cel târziu 7 august” (anunțată pe 5 august), la „ar putea fi repus în funcțiune săptămâna viitoare” (7 august) — fără nicio dată fermă…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/ancpi-eterra-cadastru-blocaj.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia
+            <button class="copy" data-x="Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia
 
 Se probează · 5 probate · 2 contestate
 
+https://farabaliverne.ro/a/ancpi-eterra-cadastru-blocaj.html" data-fb="Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia
+
+Sistemul național de cadastru și carte funciară e-Terra e nefuncțional de la atacul cibernetic de tip ransomware din 14 iulie 2026. ANCPI spune că baza de date centrală n-a fost afectată și că sistemul ar putea reporni „săptămâna aceasta”, dar a anunțat deja, pe 9 august, că unele documente vor rămâne indisponibile 1-3 zile suplimentare.
+
+✅ Se probează:
+• ANCPI a confirmat oficial că, pe 14 iulie 2026, a identificat un acces neautorizat în infrastructura sa IT — un atac cibernetic de tip ransomware în care atacatorii au criptat și șters o parte din infrastructura de virtualizare care găzduiește aplicațiile agenției, inclusiv…
+• Instituția susține că baza de date centrală a sistemului cadastral nu a fost afectată și că nu există dovezi că atacatorii ar fi avut acces la aceste date; integritatea evidenței cadastrale și de carte funciară este, potrivit ANCPI, „confirmată”. Afirmația vine din comunicatele…
+
+⚠️ Rămâne contestat:
+• Termenul exact al repornirii a fost amânat repetat și rămâne neclar la 10 august: de la „revenire etapizată” (20 iulie), la „actualizare publică cel târziu 7 august” (anunțată pe 5 august), la „ar putea fi repus în funcțiune săptămâna viitoare” (7 august) — fără nicio dată fermă…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/ancpi-eterra-cadastru-blocaj.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/ancpi-eterra-cadastru-blocaj.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -757,20 +1444,49 @@ https://farabaliverne.ro/a/ancpi-eterra-cadastru-blocaj.html">Copiază textul</b
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-anglia-seceta-71-procente-record">X</button>
+            <button class="tab" data-tinta="fb-anglia-seceta-71-procente-record">Facebook</button>
+          </div>
+          <pre class="text" id="x-anglia-seceta-71-procente-record">Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie
 
 Agenția britanică pentru Mediu a extins declarația oficială de secetă la 71,3%…
 
 Se probează · 4 probate · 1 contestată
 
 https://farabaliverne.ro/a/anglia-seceta-71-procente-record.html</pre>
+          <pre class="text ascuns" id="fb-anglia-seceta-71-procente-record">Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie
+
+Agenția britanică pentru Mediu a extins declarația oficială de secetă la 71,3% din teritoriul Angliei, după cea mai uscată lună iulie înregistrată vreodată (doar 10% din media multianuală de precipitații). Rezervele de apă sunt sub nivelul normal, opt companii de apă au impus restricții de consum pentru peste 25 de milioane de oameni, iar a cincea perioadă de caniculă a verii se apropie.
+
+✅ Se probează:
+• Environment Agency (agenția guvernamentală britanică pentru mediu) a declarat oficial secetă în șapte regiuni ale Angliei — East Anglia, Hertfordshire și Londra, Thames, Hampshire și Insula Wight, Devon și Cornwall, West Midlands și Wessex — potrivit raportului „Dry weather and…
+• Luna iulie 2026 a fost cea mai uscată din istoria observațiilor pentru Anglia, cu doar 10% din media multianuală de precipitații (variind regional între 1% în sud-est și 25% în nord-vest). Rezervele de apă acumulate (reservoir storage) au scăzut la 69%, cu 11,6 puncte…
+
+⚠️ Rămâne contestat:
+• Cifrele exacte ale suprafeței aflate în secetă diferă ușor între surse și în timp: raportul oficial din 7 august vorbea despre șapte din regiunile Environment Agency aflate în secetă (aproximativ jumătate din Anglia), în timp ce relatările din 10 august indică 71,3%, respectiv…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/anglia-seceta-71-procente-record.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie
+            <button class="copy" data-x="Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie
 
 Agenția britanică pentru Mediu a extins declarația oficială de secetă la 71,3%…
 
 Se probează · 4 probate · 1 contestată
 
+https://farabaliverne.ro/a/anglia-seceta-71-procente-record.html" data-fb="Anglia, secetă pe aproape trei sferturi din teritoriu — cea mai uscată lună iulie din istorie, valul cinci de caniculă se apropie
+
+Agenția britanică pentru Mediu a extins declarația oficială de secetă la 71,3% din teritoriul Angliei, după cea mai uscată lună iulie înregistrată vreodată (doar 10% din media multianuală de precipitații). Rezervele de apă sunt sub nivelul normal, opt companii de apă au impus restricții de consum pentru peste 25 de milioane de oameni, iar a cincea perioadă de caniculă a verii se apropie.
+
+✅ Se probează:
+• Environment Agency (agenția guvernamentală britanică pentru mediu) a declarat oficial secetă în șapte regiuni ale Angliei — East Anglia, Hertfordshire și Londra, Thames, Hampshire și Insula Wight, Devon și Cornwall, West Midlands și Wessex — potrivit raportului „Dry weather and…
+• Luna iulie 2026 a fost cea mai uscată din istoria observațiilor pentru Anglia, cu doar 10% din media multianuală de precipitații (variind regional între 1% în sud-est și 25% în nord-vest). Rezervele de apă acumulate (reservoir storage) au scăzut la 69%, cu 11,6 puncte…
+
+⚠️ Rămâne contestat:
+• Cifrele exacte ale suprafeței aflate în secetă diferă ușor între surse și în timp: raportul oficial din 7 august vorbea despre șapte din regiunile Environment Agency aflate în secetă (aproximativ jumătate din Anglia), în timp ce relatările din 10 august indică 71,3%, respectiv…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/anglia-seceta-71-procente-record.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/anglia-seceta-71-procente-record.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -786,20 +1502,43 @@ https://farabaliverne.ro/a/anglia-seceta-71-procente-record.html">Copiază textu
             <span class="cat">Economie</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-bnr-dobanda-cheie-650-august-2026">X</button>
+            <button class="tab" data-tinta="fb-bnr-dobanda-cheie-650-august-2026">Facebook</button>
+          </div>
+          <pre class="text" id="x-bnr-dobanda-cheie-650-august-2026">BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare
 
 Banca Națională a României a decis luni, 10 august 2026, să păstreze dobânda-cheie de politică monetară la 6,50% pe an, nivel…
 
 Se probează · 4 probate
 
 https://farabaliverne.ro/a/bnr-dobanda-cheie-650-august-2026.html</pre>
+          <pre class="text ascuns" id="fb-bnr-dobanda-cheie-650-august-2026">BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare
+
+Banca Națională a României a decis luni, 10 august 2026, să păstreze dobânda-cheie de politică monetară la 6,50% pe an, nivel neschimbat de doi ani. Inflația anuală a scăzut la 10,42% în iunie, dar rămâne mult peste țintă.
+
+✅ Se probează:
+• Consiliul de administrație al BNR a decis, luni, 10 august 2026, menținerea ratei dobânzii de politică monetară la 6,50% pe an. Decizia este relatată concordant de mai multe redacții economice.
+• Odată cu dobânda-cheie, BNR a păstrat neschimbate și rata dobânzii la facilitatea de creditare (Lombard), de 7,50% pe an, rata dobânzii la facilitatea de depozit, de 5,50% pe an, precum și nivelurile actuale ale ratelor rezervelor minime obligatorii pentru pasivele în lei și în…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/bnr-dobanda-cheie-650-august-2026.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare
+            <button class="copy" data-x="BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare
 
 Banca Națională a României a decis luni, 10 august 2026, să păstreze dobânda-cheie de politică monetară la 6,50% pe an, nivel…
 
 Se probează · 4 probate
 
+https://farabaliverne.ro/a/bnr-dobanda-cheie-650-august-2026.html" data-fb="BNR menține dobânda-cheie la 6,50% pe an, pentru a noua ședință la rând fără nicio schimbare
+
+Banca Națională a României a decis luni, 10 august 2026, să păstreze dobânda-cheie de politică monetară la 6,50% pe an, nivel neschimbat de doi ani. Inflația anuală a scăzut la 10,42% în iunie, dar rămâne mult peste țintă.
+
+✅ Se probează:
+• Consiliul de administrație al BNR a decis, luni, 10 august 2026, menținerea ratei dobânzii de politică monetară la 6,50% pe an. Decizia este relatată concordant de mai multe redacții economice.
+• Odată cu dobânda-cheie, BNR a păstrat neschimbate și rata dobânzii la facilitatea de creditare (Lombard), de 7,50% pe an, rata dobânzii la facilitatea de depozit, de 5,50% pe an, precum și nivelurile actuale ale ratelor rezervelor minime obligatorii pentru pasivele în lei și în…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/bnr-dobanda-cheie-650-august-2026.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/bnr-dobanda-cheie-650-august-2026.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -815,20 +1554,49 @@ https://farabaliverne.ro/a/bnr-dobanda-cheie-650-august-2026.html">Copiază text
             <span class="cat">Politică</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Bolojan pune 7 condiții pentru viitorul guvern, după ce varianta Mureșan a picat la Cotroceni
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-bolojan-conditii-guvern-varianta-muresan">X</button>
+            <button class="tab" data-tinta="fb-bolojan-conditii-guvern-varianta-muresan">Facebook</button>
+          </div>
+          <pre class="text" id="x-bolojan-conditii-guvern-varianta-muresan">Bolojan pune 7 condiții pentru viitorul guvern, după ce varianta Mureșan a picat la Cotroceni
 
 Pe 9 august 2026, surse politice au relatat că Ilie Bolojan (PNL) a stabilit șapte condiții pentru a vota un viitor…
 
 Se probează · 3 probate · 2 contestate
 
 https://farabaliverne.ro/a/bolojan-conditii-guvern-varianta-muresan.html</pre>
+          <pre class="text ascuns" id="fb-bolojan-conditii-guvern-varianta-muresan">Bolojan pune 7 condiții pentru viitorul guvern, după ce varianta Mureșan a picat la Cotroceni
+
+Pe 9 august 2026, surse politice au relatat că Ilie Bolojan (PNL) a stabilit șapte condiții pentru a vota un viitor guvern — premier tehnocrat, fără miniștri legați de PSD, ținte de deficit, protecție PNRR. Anterior, varianta ca Siegfried Mureșan să fie premier a picat după ce președintele Nicușor Dan nu a fost de acord, a explicat Bolojan. Punem relatările lângă surse: ce se suprapune și unde apar diferențe.
+
+✅ Se probează:
+• Pe 9 august 2026, surse politice citate de Adevărul au relatat că Ilie Bolojan a stabilit șapte condiții pentru susținerea unui viitor guvern: (1) un premier tehnocrat, fără afiliere politică — PNL exclude explicit votul pentru un guvern condus de un lider PSD; (2) miniștri…
+• Varianta ca eurodeputatul PNL Siegfried Mureșan să fie propus premier — susținută de PNL, USR și UDMR — a picat după o discuție la Cotroceni, a explicat Ilie Bolojan: „În discuția pe care am avut-o la Cotroceni, președintele nu a fost de acord cu o asemenea propunere. Nu am…
+
+⚠️ Rămâne contestat:
+• Lista exactă a rivalilor din interiorul PNL vizați de excludere diferă între surse: Adevărul menționează Alina Gorghiu, Cătălin Predoiu și Nicoleta Pauliuc; Puterea.ro menționează Rareș Bogdan, Alina Gorghiu, Cătălin Predoiu și Hubert Thuma. Numele Gorghiu și Predoiu apar în…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/bolojan-conditii-guvern-varianta-muresan.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Bolojan pune 7 condiții pentru viitorul guvern, după ce varianta Mureșan a picat la Cotroceni
+            <button class="copy" data-x="Bolojan pune 7 condiții pentru viitorul guvern, după ce varianta Mureșan a picat la Cotroceni
 
 Pe 9 august 2026, surse politice au relatat că Ilie Bolojan (PNL) a stabilit șapte condiții pentru a vota un viitor…
 
 Se probează · 3 probate · 2 contestate
 
+https://farabaliverne.ro/a/bolojan-conditii-guvern-varianta-muresan.html" data-fb="Bolojan pune 7 condiții pentru viitorul guvern, după ce varianta Mureșan a picat la Cotroceni
+
+Pe 9 august 2026, surse politice au relatat că Ilie Bolojan (PNL) a stabilit șapte condiții pentru a vota un viitor guvern — premier tehnocrat, fără miniștri legați de PSD, ținte de deficit, protecție PNRR. Anterior, varianta ca Siegfried Mureșan să fie premier a picat după ce președintele Nicușor Dan nu a fost de acord, a explicat Bolojan. Punem relatările lângă surse: ce se suprapune și unde apar diferențe.
+
+✅ Se probează:
+• Pe 9 august 2026, surse politice citate de Adevărul au relatat că Ilie Bolojan a stabilit șapte condiții pentru susținerea unui viitor guvern: (1) un premier tehnocrat, fără afiliere politică — PNL exclude explicit votul pentru un guvern condus de un lider PSD; (2) miniștri…
+• Varianta ca eurodeputatul PNL Siegfried Mureșan să fie propus premier — susținută de PNL, USR și UDMR — a picat după o discuție la Cotroceni, a explicat Ilie Bolojan: „În discuția pe care am avut-o la Cotroceni, președintele nu a fost de acord cu o asemenea propunere. Nu am…
+
+⚠️ Rămâne contestat:
+• Lista exactă a rivalilor din interiorul PNL vizați de excludere diferă între surse: Adevărul menționează Alina Gorghiu, Cătălin Predoiu și Nicoleta Pauliuc; Puterea.ro menționează Rareș Bogdan, Alina Gorghiu, Cătălin Predoiu și Hubert Thuma. Numele Gorghiu și Predoiu apar în…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/bolojan-conditii-guvern-varianta-muresan.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/bolojan-conditii-guvern-varianta-muresan.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -844,20 +1612,49 @@ https://farabaliverne.ro/a/bolojan-conditii-guvern-varianta-muresan.html">Copiaz
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-bulgaria-explozie-uzina-munitie-emco">X</button>
+            <button class="tab" data-tinta="fb-bulgaria-explozie-uzina-munitie-emco">Facebook</button>
+          </div>
+          <pre class="text" id="x-bulgaria-explozie-uzina-munitie-emco">Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime
 
 Pe 10 august 2026, un camion cisternă a luat foc și a declanșat explozii la depozitele de muniție ale companiei EMCO…
 
 Se probează · 3 probate · 2 contestate
 
 https://farabaliverne.ro/a/bulgaria-explozie-uzina-munitie-emco.html</pre>
+          <pre class="text ascuns" id="fb-bulgaria-explozie-uzina-munitie-emco">Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime
+
+Pe 10 august 2026, un camion cisternă a luat foc și a declanșat explozii la depozitele de muniție ale companiei EMCO, deținută de armurierul bulgar Emilian Gebrev, lângă orașul Tryavna. Nu au fost raportate victime. EMCO produce muniție inclusiv pentru Ucraina, iar compania a mai avut incidente „suspecte” în 2022 și 2023 — autoritățile au clasificat însă evenimentul de acum ca accident.
+
+✅ Se probează:
+• Pe 10 august 2026, în jurul orei 10:30, au avut loc explozii într-o parte din depozitele uzinei de muniție a companiei EMCO, în satul Belitsa, lângă orașul Tryavna, din centrul Bulgariei. Potrivit relatărilor, un camion cisternă a luat foc, ceea ce a declanșat explozii…
+• Nu au fost raportate victime sau răniți. Ministrul bulgar de Interne, Ivan Demerdziev, a confirmat că nu există victime; aproximativ 300 de angajați au fost evacuați din uzină, iar pompierii din Tryavna și Gabrovo au intervenit pentru stingerea incendiului, care s-a extins și în…
+
+⚠️ Rămâne contestat:
+• Numele exact al localității diferă ușor între surse: BTA și teleSUR plasează incidentul în satul Belitsa, lângă orașul Tryavna; alte relatări preluate din presa bulgară menționează doar „lângă Tryavna”, fără a preciza satul. Diferența e de precizie geografică, nu de fond — toate…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/bulgaria-explozie-uzina-munitie-emco.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime
+            <button class="copy" data-x="Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime
 
 Pe 10 august 2026, un camion cisternă a luat foc și a declanșat explozii la depozitele de muniție ale companiei EMCO…
 
 Se probează · 3 probate · 2 contestate
 
+https://farabaliverne.ro/a/bulgaria-explozie-uzina-munitie-emco.html" data-fb="Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime
+
+Pe 10 august 2026, un camion cisternă a luat foc și a declanșat explozii la depozitele de muniție ale companiei EMCO, deținută de armurierul bulgar Emilian Gebrev, lângă orașul Tryavna. Nu au fost raportate victime. EMCO produce muniție inclusiv pentru Ucraina, iar compania a mai avut incidente „suspecte” în 2022 și 2023 — autoritățile au clasificat însă evenimentul de acum ca accident.
+
+✅ Se probează:
+• Pe 10 august 2026, în jurul orei 10:30, au avut loc explozii într-o parte din depozitele uzinei de muniție a companiei EMCO, în satul Belitsa, lângă orașul Tryavna, din centrul Bulgariei. Potrivit relatărilor, un camion cisternă a luat foc, ceea ce a declanșat explozii…
+• Nu au fost raportate victime sau răniți. Ministrul bulgar de Interne, Ivan Demerdziev, a confirmat că nu există victime; aproximativ 300 de angajați au fost evacuați din uzină, iar pompierii din Tryavna și Gabrovo au intervenit pentru stingerea incendiului, care s-a extins și în…
+
+⚠️ Rămâne contestat:
+• Numele exact al localității diferă ușor între surse: BTA și teleSUR plasează incidentul în satul Belitsa, lângă orașul Tryavna; alte relatări preluate din presa bulgară menționează doar „lângă Tryavna”, fără a preciza satul. Diferența e de precizie geografică, nu de fond — toate…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/bulgaria-explozie-uzina-munitie-emco.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/bulgaria-explozie-uzina-munitie-emco.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -873,20 +1670,49 @@ https://farabaliverne.ro/a/bulgaria-explozie-uzina-munitie-emco.html">Copiază t
             <span class="cat">Politică</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Diana Buzoianu (USR) repetă, de la aprilie la august 2026, că susține alegeri anticipate dacă blocajul politic continuă
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-buzoianu-alegeri-anticipate">X</button>
+            <button class="tab" data-tinta="fb-buzoianu-alegeri-anticipate">Facebook</button>
+          </div>
+          <pre class="text" id="x-buzoianu-alegeri-anticipate">Diana Buzoianu (USR) repetă, de la aprilie la august 2026, că susține alegeri anticipate dacă blocajul politic continuă
 
 Ministra interimară a Mediului, Diana Buzoianu (USR), a spus luni seară, 10 august 2026, la…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/buzoianu-alegeri-anticipate.html</pre>
+          <pre class="text ascuns" id="fb-buzoianu-alegeri-anticipate">Diana Buzoianu (USR) repetă, de la aprilie la august 2026, că susține alegeri anticipate dacă blocajul politic continuă
+
+Ministra interimară a Mediului, Diana Buzoianu (USR), a spus luni seară, 10 august 2026, la Euronews, că România ar trebui să aibă alegeri anticipate „cât mai rapid posibil” dacă partidele nu reușesc să formeze o majoritate parlamentară. Nu e o declarație izolată: verificăm ce a spus, când, și cum s-a schimbat (sau nu) poziția ei din aprilie până acum.
+
+✅ Se probează:
+• Pe 10 august 2026, la emisiunea Euronews, Diana Buzoianu a declarat: „Dacă noi nu putem să creăm această majoritate... ar trebui să avem alegeri. Și ar trebui să avem alegeri cât mai rapid posibil.” A precizat că USR nu discutase încă intern această variantă și că exprimă o…
+• Cu circa două săptămâni mai devreme, pe 29 iulie 2026, la B1 TV, Buzoianu spusese același lucru în termeni mai duri, criticându-l direct pe premierul desemnat de PSD, Sorin Grindeanu: acesta „a distrus țara asta și acum habar nu are de unde își face rost de o majoritate”. A…
+
+⚠️ Rămâne contestat:
+• Tonul s-a înăsprit vizibil de la aprilie la august: în aprilie alegerile anticipate erau „o variantă foarte bună” dacă totul eșuează, iar guvernul Bolojan rămânea prioritatea; în august ea cere alegeri „cât mai rapid posibil”, semn că răbdarea față de negocierile pentru un nou…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/buzoianu-alegeri-anticipate.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Diana Buzoianu (USR) repetă, de la aprilie la august 2026, că susține alegeri anticipate dacă blocajul politic continuă
+            <button class="copy" data-x="Diana Buzoianu (USR) repetă, de la aprilie la august 2026, că susține alegeri anticipate dacă blocajul politic continuă
 
 Ministra interimară a Mediului, Diana Buzoianu (USR), a spus luni seară, 10 august 2026, la…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/buzoianu-alegeri-anticipate.html" data-fb="Diana Buzoianu (USR) repetă, de la aprilie la august 2026, că susține alegeri anticipate dacă blocajul politic continuă
+
+Ministra interimară a Mediului, Diana Buzoianu (USR), a spus luni seară, 10 august 2026, la Euronews, că România ar trebui să aibă alegeri anticipate „cât mai rapid posibil” dacă partidele nu reușesc să formeze o majoritate parlamentară. Nu e o declarație izolată: verificăm ce a spus, când, și cum s-a schimbat (sau nu) poziția ei din aprilie până acum.
+
+✅ Se probează:
+• Pe 10 august 2026, la emisiunea Euronews, Diana Buzoianu a declarat: „Dacă noi nu putem să creăm această majoritate... ar trebui să avem alegeri. Și ar trebui să avem alegeri cât mai rapid posibil.” A precizat că USR nu discutase încă intern această variantă și că exprimă o…
+• Cu circa două săptămâni mai devreme, pe 29 iulie 2026, la B1 TV, Buzoianu spusese același lucru în termeni mai duri, criticându-l direct pe premierul desemnat de PSD, Sorin Grindeanu: acesta „a distrus țara asta și acum habar nu are de unde își face rost de o majoritate”. A…
+
+⚠️ Rămâne contestat:
+• Tonul s-a înăsprit vizibil de la aprilie la august: în aprilie alegerile anticipate erau „o variantă foarte bună” dacă totul eșuează, iar guvernul Bolojan rămânea prioritatea; în august ea cere alegeri „cât mai rapid posibil”, semn că răbdarea față de negocierile pentru un nou…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/buzoianu-alegeri-anticipate.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/buzoianu-alegeri-anticipate.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -902,20 +1728,49 @@ https://farabaliverne.ro/a/buzoianu-alegeri-anticipate.html">Copiază textul</bu
             <span class="cat">Sport</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">FC Argeș învinge campioana en-titre Universitatea Craiova, 0-1, și urcă pe primul loc în SuperLiga
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-craiova-arges-0-1-superliga">X</button>
+            <button class="tab" data-tinta="fb-craiova-arges-0-1-superliga">Facebook</button>
+          </div>
+          <pre class="text" id="x-craiova-arges-0-1-superliga">FC Argeș învinge campioana en-titre Universitatea Craiova, 0-1, și urcă pe primul loc în SuperLiga
 
 Duminică, 9 august 2026, FC Argeș a câștigat 0-1 pe terenul campioanei en-titre Universitatea Craiova, în etapa…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/craiova-arges-0-1-superliga.html</pre>
+          <pre class="text ascuns" id="fb-craiova-arges-0-1-superliga">FC Argeș învinge campioana en-titre Universitatea Craiova, 0-1, și urcă pe primul loc în SuperLiga
+
+Duminică, 9 august 2026, FC Argeș a câștigat 0-1 pe terenul campioanei en-titre Universitatea Craiova, în etapa a 4-a din SuperLiga, cu un gol marcat de Yanis Pîrvu în minutul 7. Pitesteanii urcă pe primul loc, Craiova rămâne pe locul 6.
+
+✅ Se probează:
+• Universitatea Craiova a pierdut pe teren propriu meciul cu FC Argeș, scor 0-1, duminică, 9 august 2026, ora 21:30, în etapa a 4-a din SuperLiga.
+• Golul meciului a fost marcat de Yanis Pîrvu, în minutul 7, cu latul din careu, după o pasă decisivă a lui Taylor Luvambo.
+
+⚠️ Rămâne contestat:
+• Titlurile de presă redau rezultatul în două formate diferite: unele surse (Digisport, iAM Sport) scriu &quot;Universitatea Craiova - FC Argeș 0-1&quot; (echipa gazdă, apoi oaspete), altele (News.ro) scriu &quot;scor 1-0&quot; pentru a desemna victoria oaspeților. Nu e o contradicție de fapt…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/craiova-arges-0-1-superliga.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="FC Argeș învinge campioana en-titre Universitatea Craiova, 0-1, și urcă pe primul loc în SuperLiga
+            <button class="copy" data-x="FC Argeș învinge campioana en-titre Universitatea Craiova, 0-1, și urcă pe primul loc în SuperLiga
 
 Duminică, 9 august 2026, FC Argeș a câștigat 0-1 pe terenul campioanei en-titre Universitatea Craiova, în etapa…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/craiova-arges-0-1-superliga.html" data-fb="FC Argeș învinge campioana en-titre Universitatea Craiova, 0-1, și urcă pe primul loc în SuperLiga
+
+Duminică, 9 august 2026, FC Argeș a câștigat 0-1 pe terenul campioanei en-titre Universitatea Craiova, în etapa a 4-a din SuperLiga, cu un gol marcat de Yanis Pîrvu în minutul 7. Pitesteanii urcă pe primul loc, Craiova rămâne pe locul 6.
+
+✅ Se probează:
+• Universitatea Craiova a pierdut pe teren propriu meciul cu FC Argeș, scor 0-1, duminică, 9 august 2026, ora 21:30, în etapa a 4-a din SuperLiga.
+• Golul meciului a fost marcat de Yanis Pîrvu, în minutul 7, cu latul din careu, după o pasă decisivă a lui Taylor Luvambo.
+
+⚠️ Rămâne contestat:
+• Titlurile de presă redau rezultatul în două formate diferite: unele surse (Digisport, iAM Sport) scriu &quot;Universitatea Craiova - FC Argeș 0-1&quot; (echipa gazdă, apoi oaspete), altele (News.ro) scriu &quot;scor 1-0&quot; pentru a desemna victoria oaspeților. Nu e o contradicție de fapt…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/craiova-arges-0-1-superliga.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/craiova-arges-0-1-superliga.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -931,20 +1786,43 @@ https://farabaliverne.ro/a/craiova-arges-0-1-superliga.html">Copiază textul</bu
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-germania-afd-sondaj-28-procente">X</button>
+            <button class="tab" data-tinta="fb-germania-afd-sondaj-28-procente">Facebook</button>
+          </div>
+          <pre class="text" id="x-germania-afd-sondaj-28-procente">Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%
 
 Un sondaj Infratest dimap, publicat pe 6 august 2026, arată partidul de extremă-dreapta AfD la 28% din intențiile de vot — cel…
 
 Se probează · 3 probate
 
 https://farabaliverne.ro/a/germania-afd-sondaj-28-procente.html</pre>
+          <pre class="text ascuns" id="fb-germania-afd-sondaj-28-procente">Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%
+
+Un sondaj Infratest dimap, publicat pe 6 august 2026, arată partidul de extremă-dreapta AfD la 28% din intențiile de vot — cel mai ridicat nivel măsurat vreodată de acest institut — în timp ce blocul CDU/CSU al cancelarului Friedrich Merz a scăzut la 21%, cel mai slab rezultat din noiembrie 2021.
+
+✅ Se probează:
+• Potrivit sondajului Infratest dimap („Deutschlandtrend”), publicat joi, 6 august 2026, AfD a ajuns la 28% din intențiile de vot — un maxim istoric pentru acest institut — în timp ce blocul CDU/CSU al cancelarului Friedrich Merz a scăzut la 21%, cel mai slab scor din noiembrie…
+• Restul partidelor, potrivit aceluiași sondaj: Verzii 15%, SPD 12%, Die Linke (Stânga) 11% și liberalii FDP 4% — sub pragul de 5% necesar pentru a intra în Bundestag.
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/germania-afd-sondaj-28-procente.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%
+            <button class="copy" data-x="Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%
 
 Un sondaj Infratest dimap, publicat pe 6 august 2026, arată partidul de extremă-dreapta AfD la 28% din intențiile de vot — cel…
 
 Se probează · 3 probate
 
+https://farabaliverne.ro/a/germania-afd-sondaj-28-procente.html" data-fb="Sondaj Infratest dimap: AfD urcă la 28%, maxim istoric, iar blocul CDU/CSU al lui Merz scade la 21%
+
+Un sondaj Infratest dimap, publicat pe 6 august 2026, arată partidul de extremă-dreapta AfD la 28% din intențiile de vot — cel mai ridicat nivel măsurat vreodată de acest institut — în timp ce blocul CDU/CSU al cancelarului Friedrich Merz a scăzut la 21%, cel mai slab rezultat din noiembrie 2021.
+
+✅ Se probează:
+• Potrivit sondajului Infratest dimap („Deutschlandtrend”), publicat joi, 6 august 2026, AfD a ajuns la 28% din intențiile de vot — un maxim istoric pentru acest institut — în timp ce blocul CDU/CSU al cancelarului Friedrich Merz a scăzut la 21%, cel mai slab scor din noiembrie…
+• Restul partidelor, potrivit aceluiași sondaj: Verzii 15%, SPD 12%, Die Linke (Stânga) 11% și liberalii FDP 4% — sub pragul de 5% necesar pentru a intra în Bundestag.
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/germania-afd-sondaj-28-procente.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/germania-afd-sondaj-28-procente.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -960,20 +1838,49 @@ https://farabaliverne.ro/a/germania-afd-sondaj-28-procente.html">Copiază textul
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Moody&#x27;s avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-moody-banci-dependenta-ai-risc-sistemic">X</button>
+            <button class="tab" data-tinta="fb-moody-banci-dependenta-ai-risc-sistemic">Facebook</button>
+          </div>
+          <pre class="text" id="x-moody-banci-dependenta-ai-risc-sistemic">Moody&#x27;s avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley
 
 Agenția de rating Moody&#x27;s a publicat pe 9 august 2026 un raport care avertizează că băncile care adoptă rapid…
 
 Se probează · 3 probate · 2 contestate
 
 https://farabaliverne.ro/a/moody-banci-dependenta-ai-risc-sistemic.html</pre>
+          <pre class="text ascuns" id="fb-moody-banci-dependenta-ai-risc-sistemic">Moody&#x27;s avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley
+
+Agenția de rating Moody&#x27;s a publicat pe 9 august 2026 un raport care avertizează că băncile care adoptă rapid inteligența artificială riscă o „dependență sistemică” de un număr mic de furnizori de modele AI și cloud computing. 🌍 Am rezumat și pus în context în română o știre din presa internațională — sursa originală e linkată mai sus.
+
+✅ Se probează:
+• Moody&#x27;s a publicat, pe 9 august 2026, un raport care avertizează că dependența majorității firmelor financiare de un set relativ restrâns de furnizori de modele AI fundamentale și de cloud computing „riscă să creeze o dependență sistemică” (systemic dependency). Agenția arată că…
+• Raportul identifică riscul „de dependență de furnizor” (vendor dependence risk): dacă un grup restrâns de firme de AI devine dominant, acestea ar putea, în timp, „exercita control asupra prețului serviciilor AI” (exert control over the price of AI services). Sunt menționate și…
+
+⚠️ Rămâne contestat:
+• Raportul din 9 august (dependența sistemică a băncilor de furnizorii AI) și raportul „The European Edge” din 24 iulie (cum concurează băncile europene prin risc/conformitate/AI) sunt două analize Moody&#x27;s distincte, cu accente diferite — una e un avertisment de risc, cealaltă o…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/moody-banci-dependenta-ai-risc-sistemic.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Moody&#x27;s avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley
+            <button class="copy" data-x="Moody&#x27;s avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley
 
 Agenția de rating Moody&#x27;s a publicat pe 9 august 2026 un raport care avertizează că băncile care adoptă rapid…
 
 Se probează · 3 probate · 2 contestate
 
+https://farabaliverne.ro/a/moody-banci-dependenta-ai-risc-sistemic.html" data-fb="Moody&#x27;s avertizează: cursa AI riscă să lege băncile de mâna unui grup mic de firme din Silicon Valley
+
+Agenția de rating Moody&#x27;s a publicat pe 9 august 2026 un raport care avertizează că băncile care adoptă rapid inteligența artificială riscă o „dependență sistemică” de un număr mic de furnizori de modele AI și cloud computing. 🌍 Am rezumat și pus în context în română o știre din presa internațională — sursa originală e linkată mai sus.
+
+✅ Se probează:
+• Moody&#x27;s a publicat, pe 9 august 2026, un raport care avertizează că dependența majorității firmelor financiare de un set relativ restrâns de furnizori de modele AI fundamentale și de cloud computing „riscă să creeze o dependență sistemică” (systemic dependency). Agenția arată că…
+• Raportul identifică riscul „de dependență de furnizor” (vendor dependence risk): dacă un grup restrâns de firme de AI devine dominant, acestea ar putea, în timp, „exercita control asupra prețului serviciilor AI” (exert control over the price of AI services). Sunt menționate și…
+
+⚠️ Rămâne contestat:
+• Raportul din 9 august (dependența sistemică a băncilor de furnizorii AI) și raportul „The European Edge” din 24 iulie (cum concurează băncile europene prin risc/conformitate/AI) sunt două analize Moody&#x27;s distincte, cu accente diferite — una e un avertisment de risc, cealaltă o…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/moody-banci-dependenta-ai-risc-sistemic.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/moody-banci-dependenta-ai-risc-sistemic.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -989,20 +1896,49 @@ https://farabaliverne.ro/a/moody-banci-dependenta-ai-risc-sistemic.html">Copiaz�
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Netanyahu respinge public planul de pace pentru Gaza susținut de Trump
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-netanyahu-respinge-plan-gaza-trump">X</button>
+            <button class="tab" data-tinta="fb-netanyahu-respinge-plan-gaza-trump">Facebook</button>
+          </div>
+          <pre class="text" id="x-netanyahu-respinge-plan-gaza-trump">Netanyahu respinge public planul de pace pentru Gaza susținut de Trump
 
 Pe 9 august 2026, premierul israelian Benjamin Netanyahu a declarat public că Israelul respinge planul în 15 puncte pentru Gaza susținut de…
 
 Se probează · 4 probate · 1 contestată
 
 https://farabaliverne.ro/a/netanyahu-respinge-plan-gaza-trump.html</pre>
+          <pre class="text ascuns" id="fb-netanyahu-respinge-plan-gaza-trump">Netanyahu respinge public planul de pace pentru Gaza susținut de Trump
+
+Pe 9 august 2026, premierul israelian Benjamin Netanyahu a declarat public că Israelul respinge planul în 15 puncte pentru Gaza susținut de administrația Trump, cerând dezarmarea completă a Hamas înainte de orice retragere israeliană — contrar secvenței graduale prevăzute în plan. Punem alături declarațiile și planul original; sursa e presă internațională, rezumată și pusă în context în română.
+
+✅ Se probează:
+• Duminică, 9 august 2026, la începutul unei ședințe de guvern, Benjamin Netanyahu a declarat: „Vreau să fiu precis: Israelul nu acceptă documentul în 15 puncte.” Armata israeliană „nu va efectua nicio retragere până când Hamas nu este dezarmat cu adevărat”, a spus el…
+• Planul în 15 puncte, susținut de „Board of Peace” (organism cu aproximativ 40 de state, inițiat de administrația Trump), prevede inițial eliminarea armamentului greu, a producției de armament și a tunelurilor Hamas, urmată de un proces gradual în care administrarea Fâșiei Gaza…
+
+⚠️ Rămâne contestat:
+• Motivația din spatele respingerii publice a lui Netanyahu este interpretată diferit: unele relatări leagă declarația de alegerile israeliene programate pentru 27 octombrie 2026, unde sondajele arată coaliția sa în pericol de a pierde majoritatea — o legătură plauzibilă, dar care…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/netanyahu-respinge-plan-gaza-trump.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Netanyahu respinge public planul de pace pentru Gaza susținut de Trump
+            <button class="copy" data-x="Netanyahu respinge public planul de pace pentru Gaza susținut de Trump
 
 Pe 9 august 2026, premierul israelian Benjamin Netanyahu a declarat public că Israelul respinge planul în 15 puncte pentru Gaza susținut de…
 
 Se probează · 4 probate · 1 contestată
 
+https://farabaliverne.ro/a/netanyahu-respinge-plan-gaza-trump.html" data-fb="Netanyahu respinge public planul de pace pentru Gaza susținut de Trump
+
+Pe 9 august 2026, premierul israelian Benjamin Netanyahu a declarat public că Israelul respinge planul în 15 puncte pentru Gaza susținut de administrația Trump, cerând dezarmarea completă a Hamas înainte de orice retragere israeliană — contrar secvenței graduale prevăzute în plan. Punem alături declarațiile și planul original; sursa e presă internațională, rezumată și pusă în context în română.
+
+✅ Se probează:
+• Duminică, 9 august 2026, la începutul unei ședințe de guvern, Benjamin Netanyahu a declarat: „Vreau să fiu precis: Israelul nu acceptă documentul în 15 puncte.” Armata israeliană „nu va efectua nicio retragere până când Hamas nu este dezarmat cu adevărat”, a spus el…
+• Planul în 15 puncte, susținut de „Board of Peace” (organism cu aproximativ 40 de state, inițiat de administrația Trump), prevede inițial eliminarea armamentului greu, a producției de armament și a tunelurilor Hamas, urmată de un proces gradual în care administrarea Fâșiei Gaza…
+
+⚠️ Rămâne contestat:
+• Motivația din spatele respingerii publice a lui Netanyahu este interpretată diferit: unele relatări leagă declarația de alegerile israeliene programate pentru 27 octombrie 2026, unde sondajele arată coaliția sa în pericol de a pierde majoritatea — o legătură plauzibilă, dar care…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/netanyahu-respinge-plan-gaza-trump.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/netanyahu-respinge-plan-gaza-trump.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -1018,20 +1954,49 @@ https://farabaliverne.ro/a/netanyahu-respinge-plan-gaza-trump.html">Copiază tex
             <span class="cat">Economie</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-romania-deficit-comercial-s1-2026">X</button>
+            <button class="tab" data-tinta="fb-romania-deficit-comercial-s1-2026">Facebook</button>
+          </div>
+          <pre class="text" id="x-romania-deficit-comercial-s1-2026">Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026
 
 Institutul Național de Statistică a publicat pe 10 august 2026 datele balanței comerciale: deficitul a scăzut…
 
 Se probează · 3 probate · 1 contestată
 
 https://farabaliverne.ro/a/romania-deficit-comercial-s1-2026.html</pre>
+          <pre class="text ascuns" id="fb-romania-deficit-comercial-s1-2026">Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026
+
+Institutul Național de Statistică a publicat pe 10 august 2026 datele balanței comerciale: deficitul a scăzut cu 2% față de primul semestru din 2025, la 16,46 miliarde euro, pe fondul unei creșteri mai rapide a exporturilor decât a importurilor. La nivel lunar (iunie 2026) însă importurile au crescut mai repede decât exporturile.
+
+✅ Se probează:
+• Potrivit datelor Institutului Național de Statistică (INS), publicate pe 10 august 2026, deficitul balanței comerciale (FOB/CIF) în primele șase luni din 2026 a fost de 16,459 miliarde euro, cu 332,1 milioane euro (2%) mai mic decât în aceeași perioadă din 2025 (16,791 miliarde…
+• În perioada ianuarie–iunie 2026, exporturile FOB au totalizat 49,037 miliarde euro (+3,0% față de S1 2025), iar importurile CIF au totalizat 65,497 miliarde euro (+1,7%). Faptul că exporturile au crescut mai repede decât importurile explică reducerea deficitului pe întregul…
+
+⚠️ Rămâne contestat:
+• Tendința anuală (deficit în scădere pe 6 luni) nu se regăsește și la nivel lunar: doar în iunie 2026, exporturile au fost de 8,701 miliarde euro (+5,9% față de iunie 2025), dar importurile au crescut mai repede, cu 9,9%, la 11,662 miliarde euro, ceea ce a dus la un deficit lunar…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/romania-deficit-comercial-s1-2026.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026
+            <button class="copy" data-x="Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026
 
 Institutul Național de Statistică a publicat pe 10 august 2026 datele balanței comerciale: deficitul a scăzut…
 
 Se probează · 3 probate · 1 contestată
 
+https://farabaliverne.ro/a/romania-deficit-comercial-s1-2026.html" data-fb="Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026
+
+Institutul Național de Statistică a publicat pe 10 august 2026 datele balanței comerciale: deficitul a scăzut cu 2% față de primul semestru din 2025, la 16,46 miliarde euro, pe fondul unei creșteri mai rapide a exporturilor decât a importurilor. La nivel lunar (iunie 2026) însă importurile au crescut mai repede decât exporturile.
+
+✅ Se probează:
+• Potrivit datelor Institutului Național de Statistică (INS), publicate pe 10 august 2026, deficitul balanței comerciale (FOB/CIF) în primele șase luni din 2026 a fost de 16,459 miliarde euro, cu 332,1 milioane euro (2%) mai mic decât în aceeași perioadă din 2025 (16,791 miliarde…
+• În perioada ianuarie–iunie 2026, exporturile FOB au totalizat 49,037 miliarde euro (+3,0% față de S1 2025), iar importurile CIF au totalizat 65,497 miliarde euro (+1,7%). Faptul că exporturile au crescut mai repede decât importurile explică reducerea deficitului pe întregul…
+
+⚠️ Rămâne contestat:
+• Tendința anuală (deficit în scădere pe 6 luni) nu se regăsește și la nivel lunar: doar în iunie 2026, exporturile au fost de 8,701 miliarde euro (+5,9% față de iunie 2025), dar importurile au crescut mai repede, cu 9,9%, la 11,662 miliarde euro, ceea ce a dus la un deficit lunar…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/romania-deficit-comercial-s1-2026.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/romania-deficit-comercial-s1-2026.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -1047,16 +2012,45 @@ https://farabaliverne.ro/a/romania-deficit-comercial-s1-2026.html">Copiază text
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-schengen-italia-spania-ceuta">X</button>
+            <button class="tab" data-tinta="fb-schengen-italia-spania-ceuta">Facebook</button>
+          </div>
+          <pre class="text" id="x-schengen-italia-spania-ceuta">Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune
 
 Se probează · 5 probate · 2 contestate
 
 https://farabaliverne.ro/a/schengen-italia-spania-ceuta.html</pre>
+          <pre class="text ascuns" id="fb-schengen-italia-spania-ceuta">Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune
+
+🌍 După ce peste 60.000 de persoane au trecut din Maroc în enclava spaniolă Ceuta (cel puțin 72 de morți raportați în cursul traversării), Italia a suspendat pe 30 iulie libera circulație Schengen pentru resortisanții din țări terțe veniți din Spania, măsură menținută cel puțin până pe 15 august. Spania a dat Romei un ultimatum până pe 9 august să renunțe la controale; Italia a refuzat, iar Madridul a introdus, de…
+
+✅ Se probează:
+• Pe 30 iulie 2026, Italia a reintrodus controale de frontieră cu Spania, suspendând temporar aplicarea Acordului Schengen pentru resortisanții din țări terțe care sosesc din Spania, invocând motive de securitate națională și control al frontierelor. Măsura a venit după ce peste…
+• Presa de stat chineză Xinhua confirmă, citând poziția oficială a Romei, că Italia nu va renunța la restricțiile temporare impuse resortisanților din țări terțe veniți din Spania cel puțin până pe 15 august 2026, din motive de securitate națională — poziție confirmată independent…
+
+⚠️ Rămâne contestat:
+• Numărul exact al persoanelor rămase în Ceuta după valul de sosiri variază între surse — estimările citate merg de la circa 3.000 până la 5.000 de migranți, fără o cifră oficială unică confirmată de autoritățile spaniole în sursele consultate.
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/schengen-italia-spania-ceuta.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune
+            <button class="copy" data-x="Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune
 
 Se probează · 5 probate · 2 contestate
 
+https://farabaliverne.ro/a/schengen-italia-spania-ceuta.html" data-fb="Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune
+
+🌍 După ce peste 60.000 de persoane au trecut din Maroc în enclava spaniolă Ceuta (cel puțin 72 de morți raportați în cursul traversării), Italia a suspendat pe 30 iulie libera circulație Schengen pentru resortisanții din țări terțe veniți din Spania, măsură menținută cel puțin până pe 15 august. Spania a dat Romei un ultimatum până pe 9 august să renunțe la controale; Italia a refuzat, iar Madridul a introdus, de…
+
+✅ Se probează:
+• Pe 30 iulie 2026, Italia a reintrodus controale de frontieră cu Spania, suspendând temporar aplicarea Acordului Schengen pentru resortisanții din țări terțe care sosesc din Spania, invocând motive de securitate națională și control al frontierelor. Măsura a venit după ce peste…
+• Presa de stat chineză Xinhua confirmă, citând poziția oficială a Romei, că Italia nu va renunța la restricțiile temporare impuse resortisanților din țări terțe veniți din Spania cel puțin până pe 15 august 2026, din motive de securitate națională — poziție confirmată independent…
+
+⚠️ Rămâne contestat:
+• Numărul exact al persoanelor rămase în Ceuta după valul de sosiri variază între surse — estimările citate merg de la circa 3.000 până la 5.000 de migranți, fără o cifră oficială unică confirmată de autoritățile spaniole în sursele consultate.
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/schengen-italia-spania-ceuta.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/schengen-italia-spania-ceuta.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -1072,20 +2066,49 @@ https://farabaliverne.ro/a/schengen-italia-spania-ceuta.html">Copiază textul</b
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-todd-blanche-procuror-general-sua">X</button>
+            <button class="tab" data-tinta="fb-todd-blanche-procuror-general-sua">Facebook</button>
+          </div>
+          <pre class="text" id="x-todd-blanche-procuror-general-sua">Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general
 
 🌍 Senatul american, controlat de republicani, l-a confirmat în noaptea de 7 spre 8 august…
 
 Se probează · 5 probate · 2 contestate
 
 https://farabaliverne.ro/a/todd-blanche-procuror-general-sua.html</pre>
+          <pre class="text ascuns" id="fb-todd-blanche-procuror-general-sua">Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general
+
+🌍 Senatul american, controlat de republicani, l-a confirmat în noaptea de 7 spre 8 august 2026, cu votul strâns 50-49, pe Todd Blanche — fostul avocat personal al lui Donald Trump — ca procuror general, al doilea confirmat de la revenirea lui Trump la Casa Albă. Îl înlocuiește pe Pam Bondi, înlăturată din funcție în aprilie 2026; doi senatori republicani s-au alăturat tuturor democraților în opoziție.
+
+✅ Se probează:
+• Senatul SUA, cu majoritate republicană, a votat 50-49 pentru confirmarea lui Todd Blanche ca procuror general, într-un vot desfășurat peste noapte, în 7-8 august 2026.
+• Todd Blanche este fost procuror federal în New York și a devenit cunoscut ca avocatul principal al apărării lui Donald Trump în mai multe procese, inclusiv procesul „hush money” și două cauze federale deschise în timpul administrației Biden.
+
+⚠️ Rămâne contestat:
+• Dacă numirea pune sau nu în pericol independența Departamentului de Justiție e disputat politic: senatorul democrat Dick Durbin a avertizat că, „dacă a existat vreodată un moment în istorie când avem nevoie de un procuror general mai presus de orice reproș... este chiar acum”…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/todd-blanche-procuror-general-sua.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general
+            <button class="copy" data-x="Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general
 
 🌍 Senatul american, controlat de republicani, l-a confirmat în noaptea de 7 spre 8 august…
 
 Se probează · 5 probate · 2 contestate
 
+https://farabaliverne.ro/a/todd-blanche-procuror-general-sua.html" data-fb="Senatul SUA îl confirmă, la limită (50-49), pe Todd Blanche — fostul avocat personal al lui Trump — ca procuror general
+
+🌍 Senatul american, controlat de republicani, l-a confirmat în noaptea de 7 spre 8 august 2026, cu votul strâns 50-49, pe Todd Blanche — fostul avocat personal al lui Donald Trump — ca procuror general, al doilea confirmat de la revenirea lui Trump la Casa Albă. Îl înlocuiește pe Pam Bondi, înlăturată din funcție în aprilie 2026; doi senatori republicani s-au alăturat tuturor democraților în opoziție.
+
+✅ Se probează:
+• Senatul SUA, cu majoritate republicană, a votat 50-49 pentru confirmarea lui Todd Blanche ca procuror general, într-un vot desfășurat peste noapte, în 7-8 august 2026.
+• Todd Blanche este fost procuror federal în New York și a devenit cunoscut ca avocatul principal al apărării lui Donald Trump în mai multe procese, inclusiv procesul „hush money” și două cauze federale deschise în timpul administrației Biden.
+
+⚠️ Rămâne contestat:
+• Dacă numirea pune sau nu în pericol independența Departamentului de Justiție e disputat politic: senatorul democrat Dick Durbin a avertizat că, „dacă a existat vreodată un moment în istorie când avem nevoie de un procuror general mai presus de orice reproș... este chiar acum”…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/todd-blanche-procuror-general-sua.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/todd-blanche-procuror-general-sua.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -1101,20 +2124,49 @@ https://farabaliverne.ro/a/todd-blanche-procuror-general-sua.html">Copiază text
             <span class="cat">Extern</span>
             <span class="data">2026-08-10</span>
           </div>
-          <pre class="text">Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-trump-ordin-vaccinuri-copii">X</button>
+            <button class="tab" data-tinta="fb-trump-ordin-vaccinuri-copii">Facebook</button>
+          </div>
+          <pre class="text" id="x-trump-ordin-vaccinuri-copii">Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi
 
 Președintele Donald Trump a semnat luni, 10 august 2026, un ordin…
 
 Se probează · 4 probate · 1 contestată
 
 https://farabaliverne.ro/a/trump-ordin-vaccinuri-copii.html</pre>
+          <pre class="text ascuns" id="fb-trump-ordin-vaccinuri-copii">Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi
+
+Președintele Donald Trump a semnat luni, 10 august 2026, un ordin executiv care reduce de la 17-18 la 11 numărul de boli pentru care CDC recomandă vaccinare universală la copii și cere separarea vaccinului ROR (rujeolă-oreion-rubeolă) în trei doze individuale. Legătura sugerată cu autismul, invocată în context, nu este susținută de studiile științifice disponibile.
+
+✅ Se probează:
+• Trump a semnat în Biroul Oval, luni 10 august 2026, un ordin executiv care reduce lista bolilor pentru care CDC recomandă vaccinare universală obligatorie la copii de la 17-18 boli la 11.
+• Ordinul cere ca vaccinul ROR (rujeolă-oreion-rubeolă), administrat în prezent ca doză combinată, să fie separat în trei doze individuale.
+
+⚠️ Rămâne contestat:
+• Ordinul și contextul politic în jurul lui sugerează o legătură între vaccinuri și autism; această legătură nu este confirmată de comunitatea științifică și medicală, care citează zeci de studii independente fără rezultate în acest sens. Măsuri similare promovate anterior de…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/trump-ordin-vaccinuri-copii.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi
+            <button class="copy" data-x="Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi
 
 Președintele Donald Trump a semnat luni, 10 august 2026, un ordin…
 
 Se probează · 4 probate · 1 contestată
 
+https://farabaliverne.ro/a/trump-ordin-vaccinuri-copii.html" data-fb="Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi
+
+Președintele Donald Trump a semnat luni, 10 august 2026, un ordin executiv care reduce de la 17-18 la 11 numărul de boli pentru care CDC recomandă vaccinare universală la copii și cere separarea vaccinului ROR (rujeolă-oreion-rubeolă) în trei doze individuale. Legătura sugerată cu autismul, invocată în context, nu este susținută de studiile științifice disponibile.
+
+✅ Se probează:
+• Trump a semnat în Biroul Oval, luni 10 august 2026, un ordin executiv care reduce lista bolilor pentru care CDC recomandă vaccinare universală obligatorie la copii de la 17-18 boli la 11.
+• Ordinul cere ca vaccinul ROR (rujeolă-oreion-rubeolă), administrat în prezent ca doză combinată, să fie separat în trei doze individuale.
+
+⚠️ Rămâne contestat:
+• Ordinul și contextul politic în jurul lui sugerează o legătură între vaccinuri și autism; această legătură nu este confirmată de comunitatea științifică și medicală, care citează zeci de studii independente fără rezultate în acest sens. Măsuri similare promovate anterior de…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/trump-ordin-vaccinuri-copii.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/trump-ordin-vaccinuri-copii.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -1130,20 +2182,49 @@ https://farabaliverne.ro/a/trump-ordin-vaccinuri-copii.html">Copiază textul</bu
             <span class="cat">Extern</span>
             <span class="data">2026-08-09</span>
           </div>
-          <pre class="text">Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet
+          <div class="tabs">
+            <button class="tab activ" data-tinta="x-oms-depozit-dnipro-lovit-trei-ori">X</button>
+            <button class="tab" data-tinta="fb-oms-depozit-dnipro-lovit-trei-ori">Facebook</button>
+          </div>
+          <pre class="text" id="x-oms-depozit-dnipro-lovit-trei-ori">Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet
 
 Un depozit al Organizației Mondiale a Sănătății din regiunea Dnipro, Ucraina, cu provizii medicale pentru spitale…
 
 Se probează · 4 probate · 1 contestată
 
 https://farabaliverne.ro/a/oms-depozit-dnipro-lovit-trei-ori.html</pre>
+          <pre class="text ascuns" id="fb-oms-depozit-dnipro-lovit-trei-ori">Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet
+
+Un depozit al Organizației Mondiale a Sănătății din regiunea Dnipro, Ucraina, cu provizii medicale pentru spitale de pe linia frontului, a fost lovit de trei ori între 3 și 7 august 2026, ultima lovitură distrugându-l complet. OMS estimează pierderi de circa 500.000 de dolari; nu există revendicare oficială rusă pentru atac, iar sursele occidentale atribuie lovitura Rusiei pe baza contextului războiului, nu a unei…
+
+✅ Se probează:
+• Depozitul OMS din Dnipro a fost lovit de trei ori: prima dată pe 3 august 2026, apoi de două ori pe 7 august — a doua lovitură a distrus direct provizii OMS, iar câteva ore mai târziu o a treia lovitură a distrus clădirea în întregime.
+• Din aproximativ 300 de paleți cu provizii medicale de urgență (valoare estimată 500.000 dolari, suficiente pentru a ajuta circa 225.000 de persoane), echipele OMS reușiseră să relocheze doar 130 înainte ca depozitul să fie distrus; restul de aproximativ 170 de paleți au fost…
+
+⚠️ Rămâne contestat:
+• Atribuirea loviturii Rusiei se bazează pe contextul invaziei ruse în Ucraina și pe declarațiile oficialilor ucraineni (ombudsmanul Dmytro Lubinets a condamnat atacul) și OMS, nu pe o revendicare oficială rusă pentru acest atac specific. Niciuna dintre sursele verificate nu…
+
+Unde bat probele: se probează. Sursele, în articol:
+https://farabaliverne.ro/a/oms-depozit-dnipro-lovit-trei-ori.html</pre>
           <div class="actiuni">
-            <button class="copy" data-text="Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet
+            <button class="copy" data-x="Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet
 
 Un depozit al Organizației Mondiale a Sănătății din regiunea Dnipro, Ucraina, cu provizii medicale pentru spitale…
 
 Se probează · 4 probate · 1 contestată
 
+https://farabaliverne.ro/a/oms-depozit-dnipro-lovit-trei-ori.html" data-fb="Un depozit umanitar al OMS din Dnipro, lovit de trei ori în o săptămână, a fost distrus complet
+
+Un depozit al Organizației Mondiale a Sănătății din regiunea Dnipro, Ucraina, cu provizii medicale pentru spitale de pe linia frontului, a fost lovit de trei ori între 3 și 7 august 2026, ultima lovitură distrugându-l complet. OMS estimează pierderi de circa 500.000 de dolari; nu există revendicare oficială rusă pentru atac, iar sursele occidentale atribuie lovitura Rusiei pe baza contextului războiului, nu a unei…
+
+✅ Se probează:
+• Depozitul OMS din Dnipro a fost lovit de trei ori: prima dată pe 3 august 2026, apoi de două ori pe 7 august — a doua lovitură a distrus direct provizii OMS, iar câteva ore mai târziu o a treia lovitură a distrus clădirea în întregime.
+• Din aproximativ 300 de paleți cu provizii medicale de urgență (valoare estimată 500.000 dolari, suficiente pentru a ajuta circa 225.000 de persoane), echipele OMS reușiseră să relocheze doar 130 înainte ca depozitul să fie distrus; restul de aproximativ 170 de paleți au fost…
+
+⚠️ Rămâne contestat:
+• Atribuirea loviturii Rusiei se bazează pe contextul invaziei ruse în Ucraina și pe declarațiile oficialilor ucraineni (ombudsmanul Dmytro Lubinets a condamnat atacul) și OMS, nu pe o revendicare oficială rusă pentru acest atac specific. Niciuna dintre sursele verificate nu…
+
+Unde bat probele: se probează. Sursele, în articol:
 https://farabaliverne.ro/a/oms-depozit-dnipro-lovit-trei-ori.html">Copiază textul</button>
             <a class="deschide" href="https://farabaliverne.ro/a/oms-depozit-dnipro-lovit-trei-ori.html" target="_blank"
                rel="noopener">Vezi articolul</a>
@@ -1153,9 +2234,23 @@ https://farabaliverne.ro/a/oms-depozit-dnipro-lovit-trei-ori.html">Copiază text
       </article>
 </div>
 <script>
+document.querySelectorAll("button.tab").forEach(function(t){
+  t.addEventListener("click", function(){
+    var card = t.closest(".post");
+    card.querySelectorAll("button.tab").forEach(function(x){ x.classList.remove("activ"); });
+    card.querySelectorAll("pre.text").forEach(function(x){ x.classList.add("ascuns"); });
+    t.classList.add("activ");
+    document.getElementById(t.dataset.tinta).classList.remove("ascuns");
+    var lung = card.querySelector(".lung");
+    if (lung) lung.textContent = document.getElementById(t.dataset.tinta).textContent.length + " caractere";
+  });
+});
+
 document.querySelectorAll("button.copy").forEach(function(b){
   b.addEventListener("click", function(){
-    navigator.clipboard.writeText(b.dataset.text).then(function(){
+    var activ = b.closest(".post").querySelector("button.tab.activ").dataset.tinta;
+    var text = activ.indexOf("fb-") === 0 ? b.dataset.fb : b.dataset.x;
+    navigator.clipboard.writeText(text).then(function(){
       var vechi = b.textContent;
       b.textContent = "Copiat";
       b.classList.add("gata");
