@@ -84,8 +84,28 @@ def _clean(html):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def search(query, article_text="", limit=12):
-    """Întoarce candidați ordonați, cel mai potrivit primul."""
+def _nume_in_titlu(nume, titlu):
+    """
+    La portrete, numele persoanei TREBUIE să apară în titlul fișierului.
+
+    Fără verificarea asta, o căutare după „David Popovici" a întors o fotografie
+    intitulată „Bianca Costea, STEAUA TV" — poza altei persoane, care ar fi ajuns
+    pe site sub eticheta „Foto de arhivă — David Popovici". Pe un site de
+    fact-checking, aia e o greșeală mult mai gravă decât lipsa unei poze.
+    """
+    t = titlu.lower()
+    parti = [p for p in re.split(r"\s+", nume.lower()) if len(p) > 2]
+    if not parti:
+        return False
+    return all(p in t for p in parti)
+
+
+def search(query, article_text="", limit=12, nume_persoana=None):
+    """
+    Întoarce candidați ordonați, cel mai potrivit primul.
+
+    `nume_persoana` pornește verificarea strictă de identitate de mai sus.
+    """
     api = (
         "https://commons.wikimedia.org/w/api.php?action=query&format=json"
         "&generator=search&gsrnamespace=6&gsrlimit=%d&gsrsearch=%s"
@@ -102,6 +122,9 @@ def search(query, article_text="", limit=12):
         info = (page.get("imageinfo") or [{}])[0]
         meta = info.get("extmetadata", {})
         title = page.get("title", "")
+
+        if nume_persoana and not _nume_in_titlu(nume_persoana, title):
+            continue
 
         lic = _clean(meta.get("LicenseShortName", {}).get("value", ""))
         if LICENSE_BAD.search(lic) or not LICENSE_OK.match(lic):
@@ -121,8 +144,16 @@ def search(query, article_text="", limit=12):
         if height and width / height < 1.15:      # vrem peisaj, nu portret
             continue
 
+        # Preferăm portretele singulare. „Konferencja Karola Nawrockiego i
+        # Nicușor Dan" e chiar Nicușor Dan, dar apar doi oameni sub o legendă
+        # care numește unul singur. Nu e greșit, doar neglijent — așa că astea
+        # coboară în clasament, fără să fie eliminate.
+        insotit = bool(re.search(r"\b(i|cu|și|and|with|meets|receives)\b|&",
+                                 title, re.IGNORECASE))
+
         author = _clean(meta.get("Artist", {}).get("value", "")) or "autor necunoscut"
         out.append({
+            "_insotit": insotit,
             "title": title.replace("File:", "").rsplit(".", 1)[0],
             "url": info.get("thumburl") or info.get("url"),
             "descriptionurl": info.get("descriptionurl", ""),
@@ -133,6 +164,7 @@ def search(query, article_text="", limit=12):
             "height": height,
         })
 
+    out.sort(key=lambda c: c["_insotit"])
     return out
 
 
