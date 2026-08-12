@@ -1,0 +1,57 @@
+{
+  "slug": "putin-flota-fantoma-nave-raspuns-simetric",
+  "title": "Putin amenință cu „măsuri-oglindă” dacă Occidentul continuă să rețină nave din „flota fantomă” rusă",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "Euronews / Bloomberg / AP (via CP24, News4Jax)",
+  "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships",
+  "dek": "Președintele rus Vladimir Putin a declarat miercuri, 12 august 2026, aflat la bordul crucișătorului Varyag, în timpul exercițiilor Flotei Pacificului lângă insula Sahalin, că Rusia va lua „măsuri-oglindă” dacă țările occidentale continuă să rețină nave legate de așa-numita „flotă fantomă” rusă, pe care le numește „piraterie și banditism”. Declarația e reluată atât de presă occidentală independentă, cât și de presa de stat rusă (RT, Pravda), care o amplifică.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Vladimir Putin a declarat, miercuri, 12 august 2026, la bordul crucișătorului Varyag, în timpul etapei finale a exercițiilor Flotei Pacificului lângă Iujno-Sahalinsk: „Vom fi forțați să răspundem în aceeași monedă”, adăugând că Moscova va acționa „oriunde considerăm noi înșine necesar și potrivit — oriunde”. A numit acțiunile occidentale de reținere a navelor „piraterie și banditism”.",
+      "sources": [
+        {"name": "Euronews — Putin amenință cu confiscări de represalii ale navelor europene", "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"},
+        {"name": "CP24 (AP) — Putin threatens retaliation for Western seizures of Russian commercial vessels", "url": "https://www.cp24.com/news/world/2026/08/12/putin-threatens-retaliation-for-western-seizures-of-russian-commercial-vessels/"},
+        {"name": "News4Jax (AP) — Putin threatens retaliation for Western seizures of Russian commercial vessels", "url": "https://www.news4jax.com/news/world/2026/08/12/putin-threatens-retaliation-for-western-seizures-of-russian-commercial-vessels/"}
+      ]
+    },
+    {
+      "text": "Contextul: sancțiuni noi ale UE, adoptate luna trecută, permit statelor membre să vândă petrolul sau alte mărfuri confiscate de pe navele reținute din „flota fantomă” — un termen care descrie o rețea de tancuri vechi și slab asigurate, folosite de Moscova pentru a ocoli sancțiunile petroliere occidentale. Mai multe țări europene au reținut sau confiscat nave legate de Rusia începând de la finalul lui 2024, inclusiv un caz în care Suedia a transferat Ucrainei o navă rusească de cereale reținută, pe baza unei hotărâri judecătorești.",
+      "sources": [
+        {"name": "Bloomberg — Putin Threatens Retaliation Over EU Moves to Seize Russia's Ships", "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"},
+        {"name": "Euronews — sancțiunile UE care permit vânzarea mărfii confiscate", "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"}
+      ]
+    },
+    {
+      "text": "Comandamentul Flotei Pacificului a raportat lui Putin, cu ocazia aceleiași vizite, că marina rusă e pregătită să înceapă inspecții ale navelor comerciale care deservesc „state neprietenoase” și dispune de suficiente resurse pentru inspectarea și reținerea unor astfel de nave.",
+      "sources": [
+        {"name": "Bloomberg — declarația comandamentului Flotei Pacificului către Putin", "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Deocamdată amenințarea rămâne declarativă — nu există, la data verificării, un incident confirmat în care Rusia să fi reținut efectiv o navă occidentală ca represalii. Diferența dintre retorică și acțiune concretă nu poate fi verificată încă.",
+      "sources": [
+        {"name": "Euronews — declarația de amenințare, fără un incident concret raportat", "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"}
+      ]
+    },
+    {
+      "text": "Presa de stat rusă (RT, Pravda) a preluat și amplificat declarația lui Putin, prezentând-o drept un răspuns legitim la „piraterie” occidentală, fără a menționa că sancțiunile UE vizează tocmai eludarea de către Rusia a embargoului petrolier internațional. Această relatare din surse de stat trebuie citită alături de versiunile occidentale independente (Euronews, Bloomberg, AP), care oferă contextul complet al sancțiunilor.",
+      "sources": [
+        {"name": "RT — Putin warns West over ship seizures", "url": "https://www.rt.com/russia/644154-putin-western-cargo-ships/"},
+        {"name": "Bloomberg — contextul sancțiunilor UE privind flota fantomă", "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Calificarea reținerilor de nave drept „piraterie și banditism” este poziția politică a Kremlinului, nu o descriere juridică — statele occidentale își justifică acțiunile prin sancțiuni adoptate legal, pe care Rusia le contestă ca fiind ilegitime.",
+      "sources": []
+    }
+  ],
+  "aiNote": "Declarația lui Putin este confirmată direct de mai multe agenții și redacții occidentale independente (Euronews, Bloomberg, AP), nu doar de presa de stat rusă — așa că o tratăm ca fapt (Putin a spus asta), separat de conținutul afirmației sale (că reținerile ar fi „piraterie”), care rămâne poziție politică. Presa de stat rusă (RT, Pravda) a preluat și amplificat mesajul, motiv pentru care am marcat explicit acest unghi în secțiunea contestat. Nu există, la ora verificării, dovezi despre represalii concrete.",
+  "math": null,
+  "persoane": []
+}

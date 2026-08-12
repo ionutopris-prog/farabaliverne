@@ -1,0 +1,65 @@
+{
+  "slug": "inflatie-iulie-8-16-chirii-carburanti",
+  "title": "Inflația anuală a coborât la 8,16% în iulie, dar chiriile s-au scumpit cu peste 42%",
+  "category": "Economie",
+  "date": "2026-08-12",
+  "source": "INS / BURSA / Financiarul / Digi24",
+  "url": "https://www.bursa.ro/ins-rata-anuala-a-inflatiei-a-scazut-la-8-16-procente-in-iulie-de-la-10-42-procente-in-iunie-63948958",
+  "dek": "Institutul Național de Statistică a anunțat, pe 12 august 2026, că rata anuală a inflației a scăzut la 8,16% în iulie, de la 10,42% în iunie. Scăderea e reală și susținută de mai multe redacții, dar nu înseamnă preturi mai mici: chiriile sunt cu 42,48% mai scumpe față de iulie 2025, motorina cu 30,7%, iar cafeaua cu 19,47%.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Rata anuală a inflației a scăzut la 8,16% în iulie 2026, de la 10,42% în iunie — o scădere de 2,26 puncte procentuale într-o singură lună, potrivit datelor publicate de Institutul Național de Statistică (INS) pe 12 august 2026. Rata lunară (iulie față de iunie) a fost de 0,58%.",
+      "sources": [
+        {"name": "BURSA — INS: Rata anuală a inflației a scăzut la 8,16% în iulie, de la 10,42% în iunie", "url": "https://www.bursa.ro/ins-rata-anuala-a-inflatiei-a-scazut-la-8-16-procente-in-iulie-de-la-10-42-procente-in-iunie-63948958"},
+        {"name": "Financiarul — Inflația a coborât la 8,16% în iulie 2026", "url": "https://www.financiarul.ro/economie/inflatia-a-coborat-la-8-16-in-iulie-2026"},
+        {"name": "Digi24 — Inflația a scăzut la 8,2% în iulie, dar prețurile continuă să crească", "url": "https://www.digi24.ro/stiri/economie/finante-economie/inflatia-a-scazut-la-82-in-iulie-dar-preturile-continua-sa-creasca-cafeaua-motorina-si-chiriile-printre-cele-mai-mari-scumpiri-3902725"}
+      ]
+    },
+    {
+      "text": "Inflația cumulată de la începutul anului (iulie 2026 față de decembrie 2025) este de 4,4%, iar media pe ultimele 12 luni (august 2025 – iulie 2026) este de 9,8% — o cifră mai mare decât rata anuală de moment, pentru că include lunile din 2025 cu inflație mai ridicată.",
+      "sources": [
+        {"name": "Financiarul — cumulat 4,4%, medie 12 luni 9,8%", "url": "https://www.financiarul.ro/economie/inflatia-a-coborat-la-8-16-in-iulie-2026"},
+        {"name": "DailyBusiness — Inflația anuală a coborât la 8,16% în iulie, de la 10,42% în iunie", "url": "https://www.dailybusiness.ro/actualitate/inflatia-anuala-a-coborat-la-816-in-iulie-de-la-1042-in-iunie-548632/"}
+      ]
+    },
+    {
+      "text": "Pe categorii, cele mai mari scumpiri anuale sunt la chirii (+42,48%), motorină (+30,7%), benzină (+23,15%) și cafea (+19,47%). Serviciile s-au scumpit în medie cu 13,67%, bunurile nealimentare cu 7,93%, iar alimentele cu 5,03%. Energia electrică a crescut doar cu 3,39%, cea mai mică majorare dintre categoriile urmărite.",
+      "sources": [
+        {"name": "Financiarul — defalcarea pe categorii de prețuri", "url": "https://www.financiarul.ro/economie/inflatia-a-coborat-la-8-16-in-iulie-2026"},
+        {"name": "Ziarul Profit — serviciile s-au scumpit cu aproape 14%", "url": "https://www.ziarulprofit.ro/inflatia-coboara-spectaculos-la-816-in-luna-iulie-preturile-insa-nu-scad-serviciile-s-au-scumpit-cu-aproape-14/"},
+        {"name": "Digi24 — cafeaua, motorina și chiriile, printre cele mai mari scumpiri", "url": "https://www.digi24.ro/stiri/economie/finante-economie/inflatia-a-scazut-la-82-in-iulie-dar-preturile-continua-sa-creasca-cafeaua-motorina-si-chiriile-printre-cele-mai-mari-scumpiri-3902725"}
+      ]
+    },
+    {
+      "text": "Au scăzut de la un an la altul prețurile la fructele proaspete (-13,82%) și la cartofi (-13,68%) — singurele categorii cu scădere notabilă în raportul INS.",
+      "sources": [
+        {"name": "Financiarul — scăderile la fructe proaspete și cartofi", "url": "https://www.financiarul.ro/economie/inflatia-a-coborat-la-8-16-in-iulie-2026"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de 8,16% este rata națională (IPC), calculată după metodologia INS. Digi24 citează o rată armonizată (IAPC, folosită pentru comparații la nivel european) de 8,2% — o diferență mică, de 0,04 puncte procentuale, care ține de metoda de calcul, nu de o discrepanță reală în date.",
+        "sources": [
+        {"name": "Digi24 — rata armonizată de 8,2%", "url": "https://www.digi24.ro/stiri/economie/finante-economie/inflatia-a-scazut-la-82-in-iulie-dar-preturile-continua-sa-creasca-cafeaua-motorina-si-chiriile-printre-cele-mai-mari-scumpiri-3902725"},
+        {"name": "BURSA — rata națională de 8,16%", "url": "https://www.bursa.ro/ins-rata-anuala-a-inflatiei-a-scazut-la-8-16-procente-in-iulie-de-la-10-42-procente-in-iunie-63948958"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Titluri precum „inflația coboară spectaculos” (Ziarul Profit) reflectă o interpretare jurnalistică a vitezei scăderii, nu un prag oficial care ar face o scădere „spectaculoasă” sau nu. Scăderea e reală, dar e explicată parțial de un efect de bază statistic (prețurile ridicate la electricitate din iulie 2025 ies din calculul pe 12 luni), nu doar de o încetinire propriu-zisă a scumpirilor curente.",
+      "sources": []
+    }
+  ],
+  "aiNote": "Datele oficiale INS, confirmate de mai multe redacții economice independente, arată clar o scădere a ratei anuale a inflației, de la 10,42% la 8,16%. Important de reținut: „inflație mai mică” nu înseamnă „prețuri mai mici” — majoritatea categoriilor de consum continuă să se scumpească față de anul trecut, unele (chiriile, carburanții) semnificativ. Diferența dintre rata națională (8,16%) și cea armonizată european (8,2%) e nesemnificativă și ține de metodologie.",
+  "math": {
+    "title": "2,26 puncte procentuale într-o lună — cât din scădere e „efect de bază”?",
+    "explanation": "Rata anuală a coborât de la 10,42% (iunie) la 8,16% (iulie), o scădere de 2,26 puncte procentuale. Rata lunară (iulie față de iunie 2026) a fost însă de doar 0,58% — adică prețurile chiar au continuat să crească de la o lună la alta, doar mai încet decât în perioada de comparație din 2025. Scăderea bruscă a ratei anuale se explică parțial prin faptul că, un an în urmă, în iulie 2025, prețurile la electricitate au avut un salt mare, care acum „iese” din fereastra de calcul de 12 luni. Diferența dintre rata anuală curentă (8,16%) și media pe ultimele 12 luni (9,8%) arată același lucru: inflația a fost mai mare în trecutul recent decât e acum, iar media încă reflectă acele luni.",
+    "sources": [
+      {"name": "Financiarul — cifrele complete folosite în calcul", "url": "https://www.financiarul.ro/economie/inflatia-a-coborat-la-8-16-in-iulie-2026"}
+    ]
+  },
+  "persoane": []
+}
