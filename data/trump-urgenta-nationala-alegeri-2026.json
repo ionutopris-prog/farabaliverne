@@ -1,0 +1,85 @@
+{
+  "slug": "trump-urgenta-nationala-alegeri-2026",
+  "title": "Trump nu exclude declararea unei „urgențe de securitate națională” legate de alegerile din 2026",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "CNN / Yahoo News / Common Dreams",
+  "url": "https://www.cnn.com/2026/08/11/politics/trump-national-emergency-election",
+  "dek": "Într-un interviu difuzat luni, 11 august 2026, la emisiunea „Real America's Voice”, gazda Wayne Allyn Root i-a sugerat lui Donald Trump să declare o „urgență de securitate națională pentru alegeri” dacă SAVE America Act nu trece prin Congres. Întrebat dacă ar face-o, Trump a răspuns: „Let me just say stranger things have happened” ([Hai să spun doar că] s-au întâmplat lucruri și mai ciudate). Casa Albă nu a oferit o clarificare separată; juriști citați de presă spun că președintele nu are autoritate legală să impună asemenea măsuri electorale printr-un decret de urgență.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Interviul a avut loc pe 11 august 2026, la emisiunea „Real America's Voice”, moderată de Wayne Allyn Root. Root i-a propus lui Trump ideea că, dacă Congresul „nu reușește să adopte SAVE America Act”, președintele „are dreptul să declare o urgență de securitate națională pentru alegeri” — cu cerințe precum act de identitate cu fotografie, dovada cetățeniei și limitarea votului prin corespondență.",
+      "sources": [
+        {
+          "name": "Common Dreams — Trump Doesn't Rule Out „National Security Emergency for Elections” Floated by Far-Right Host",
+          "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency"
+        },
+        {
+          "name": "CNN Politics — Trump declines to rule out declaring a national security emergency to control the 2026 election",
+          "url": "https://www.cnn.com/2026/08/11/politics/trump-national-emergency-election"
+        }
+      ]
+    },
+    {
+      "text": "Răspunsul exact al lui Trump la propunerea lui Root: „Let me just say stranger things have happened. I'll leave it at that.” — o formulare ambiguă, care nu confirmă și nu infirmă explicit intenția.",
+      "sources": [
+        {
+          "name": "Yahoo News (via CNN Wire) — Trump declines to rule out declaring a national security emergency",
+          "url": "https://sg.news.yahoo.com/trump-declines-rule-declaring-national-192706765.html"
+        },
+        {
+          "name": "Common Dreams — citatul complet al lui Trump",
+          "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency"
+        }
+      ]
+    },
+    {
+      "text": "Comentatori și juriști citați de presă au reacționat critic: jurnalistul CNN Jake Tapper a avertizat că nu există motiv să nu credem că Trump „plănuiește ceva alarmant” pentru alegerile viitoare; avocatul Scott Greenfield a notat că, în opinia sa, „Trump nu are autoritate legală” să facă acest lucru, deși ar putea încerca oricum.",
+      "sources": [
+        {
+          "name": "Common Dreams — reacțiile lui Jake Tapper și Scott Greenfield",
+          "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu este clar dacă răspunsul lui Trump reprezintă o intenție reală sau doar o formulare evazivă, tipică stilului său retoric în interviuri. Casa Albă nu a emis, potrivit surselor citate, o declarație separată de clarificare sau dezmințire. Fără o acțiune oficială concretă (decret, proiect de lege înaintat), afirmația rămâne la stadiul de declarație verbală într-un interviu.",
+      "sources": [
+        {
+          "name": "CNN Politics — fără o clarificare oficială separată a Casei Albe",
+          "url": "https://www.cnn.com/2026/08/11/politics/trump-national-emergency-election"
+        }
+      ]
+    },
+    {
+      "text": "Presa citată menționează că, potrivit unei relatări anterioare a Washington Post, avocați apropiați lui Trump ar fi circulat un proiect de ordin executiv de 17 pagini legat de restricționarea votului prin corespondență, invocând pretinsa interferență electorală chinezească din 2020. Acest proiect nu a fost confirmat oficial ca politică a administrației, iar detaliile provin dintr-o singură relatare jurnalistică — nu am găsit, în sursele publice verificate, o confirmare separată a existenței sau conținutului exact al documentului.",
+      "sources": [
+        {
+          "name": "Common Dreams — mențiunea despre proiectul de ordin executiv raportat de Washington Post",
+          "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Caracterizări precum „plan distopic” sau „lovitură electorală” (folosite de unele titluri de presă) sunt interpretări editoriale ale unui răspuns ambiguu dat într-un interviu — nu o declarație de intenție explicită a lui Trump. Separăm aici reacția critică a comentatorilor (opinie, atribuită) de faptul verificabil (ce a spus efectiv Trump).",
+      "sources": []
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Se probează că Trump, întrebat direct dacă ar declara o „urgență de securitate națională” legată de alegerile din 2026, a răspuns ambiguu, fără să excludă ideea. Nu se probează o intenție oficială clară — nu există, în sursele verificate, un decret, proiect de lege sau declarație separată a Casei Albe care să confirme un plan concret. Juriștii citați spun că președintele nu ar avea autoritatea legală s-o facă, dar asta nu înseamnă că nu ar putea încerca.",
+  "math": {
+    "title": "O întrebare, un răspuns de 11 cuvinte, zero clarificare oficială",
+    "explanation": "Răspunsul integral al lui Trump la propunerea lui Root — „Let me just say stranger things have happened. I'll leave it at that.” — are aproximativ 11 cuvinte. În zilele care au urmat (relatate până la 12 august 2026), sursele publice verificate nu conțin nicio declarație separată a Casei Albe care să confirme, infirme sau clarifice aceste cuvinte. Diferența dintre „un răspuns evaziv de 11 cuvinte” și „o politică oficială anunțată” este exact ce separă, în acest caz, o afirmație contestată de un fapt stabilit.",
+    "sources": [
+      {
+        "name": "Common Dreams — citatul complet și lipsa unei clarificări oficiale ulterioare",
+        "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency"
+      }
+    ]
+  },
+  "persoane": []
+}
