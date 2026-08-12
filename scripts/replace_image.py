@@ -23,6 +23,11 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPTS = os.path.join(ROOT, "scripts")
 
+# Coperta site-ului, aceeași pe care o folosește homepage-ul. Scoțând poza unui
+# articol, share-ul lui trebuie să cadă pe ceva care CHIAR există — altfel
+# previzualizarea rămâne goală, adică exact bug-ul reparat pe 11 august.
+OG_IMPLICIT = "https://farabaliverne.ro/og-cover.png"
+
 IMG = re.compile(r'<img src="\.\./img/articole/[^"]+"[^>]*z-index:1">')
 FIGCAP = re.compile(r'<figcaption class="foto-credit">.*?</figcaption>', re.S)
 META_IMG = re.compile(
@@ -45,7 +50,7 @@ def scoate(path, html):
     """Înapoi la cardul de brand: mai bine fără poză decât cu una greșită."""
     html = IMG.sub("", html)
     html = FIGCAP.sub("", html)
-    html = META_IMG.sub(r"\1https://farabaliverne.ro/img/og-default.jpg\2", html)
+    html = META_IMG.sub(r"\1" + OG_IMPLICIT + r"\2", html)
     open(path, "w", encoding="utf-8").write(html)
 
 
