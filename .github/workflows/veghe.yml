@@ -12,6 +12,11 @@ on:
   schedule:
     - cron: "30 */2 * * *"     # din două în două ore, la și jumătate
   workflow_dispatch:
+    inputs:
+      proba:
+        description: "Probă: forțează alarma, ca să verifici că lanțul merge"
+        type: boolean
+        default: false
 
 concurrency:
   group: veghe
@@ -34,6 +39,7 @@ jobs:
         id: verifica
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VEGHE_PROBA: ${{ inputs.proba && '1' || '' }}
         run: |
           set +e
           IESIRE="$(python3 scripts/veghe.py --json)"
