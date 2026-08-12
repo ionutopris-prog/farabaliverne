@@ -53,6 +53,29 @@ LICENSE_OK = re.compile(
 LICENSE_BAD = re.compile(r"gfdl|non[- ]commercial|\bnc\b|fair use|no derivat", re.IGNORECASE)
 
 # Cuvinte care fac o poză nepotrivită dacă articolul NU e despre asta.
+# Fișiere care nu sunt fotografii. Sub ele scriem „Foto ilustrativă", ceea ce e
+# neadevărat, și arată exact ca un site care n-a găsit nimic.
+#
+# Pe 12 august, patru articole — Zelenski/Kosovo, depozitul OMS din Dnipro,
+# teritoriul ocupat după ISW, explozia din Bulgaria — aveau TOATE același
+# `Flag_of_Turkey.svg`. Pe Commons drapelele și siglele sunt printre cele mai
+# bine cotate fișiere, deci ies primele la orice căutare vagă. Un al cincilea
+# articol, despre eclipsă, avea sigla NASA.
+NEPHOTO = re.compile(
+    r"\b(flags?|drapeau|bandera|bandiera|logos?|logotype|wordmark|emblem|"
+    r"insignia|coat of arms|escudo|wappen|seal|crest|icon|symbol|"
+    r"maps?|karte|mapa|carte|diagram|chart|graph|schematic|banner)\b",
+    re.IGNORECASE)
+
+# Multe fotografii de pe Commons sunt în domeniul public tocmai fiindcă sunt
+# vechi de un secol. Legal, impecabil; jurnalistic, nu: „Foto ilustrativă" sub
+# o știre de azi înseamnă că așa arată lucrul despre care scriem ACUM.
+# Căutarea după Dnipro a întors o fotografie aeriană alb-negru din Primul
+# Război Mondial, iar cea după uzina de muniție, un depozit de obuze britanic
+# din 1917, cu filigranul muzeului pe el.
+# Respingem doar când chiar știm anul — multe poze bune n-au dată deloc.
+AN_MINIM = 2000
+
 RISKY = [
     "crash", "wreck", "accident", "disaster", "burning", "fire", "explosion",
     "funeral", "memorial", "victim", "casualt", "debris", "collision",
@@ -101,6 +124,14 @@ def _nume_in_titlu(nume, titlu):
     return all(p in t for p in parti)
 
 
+def _an_pozei(meta):
+    """Anul fotografiei, dacă Commons îl știe. None = nu putem ști."""
+    brut = (_clean(meta.get("DateTimeOriginal", {}).get("value", "")) or
+            _clean(meta.get("DateTime", {}).get("value", "")))
+    m = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", brut)
+    return int(m.group(1)) if m else None
+
+
 def search(query, article_text="", limit=12, nume_persoana=None):
     """
     Întoarce candidați ordonați, cel mai potrivit primul.
@@ -110,7 +141,7 @@ def search(query, article_text="", limit=12, nume_persoana=None):
     api = (
         "https://commons.wikimedia.org/w/api.php?action=query&format=json"
         "&generator=search&gsrnamespace=6&gsrlimit=%d&gsrsearch=%s"
-        "&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1200"
+        "&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1200"
         % (limit, urllib.parse.quote(query))
     )
     data = json.loads(_get(api))
@@ -125,6 +156,13 @@ def search(query, article_text="", limit=12, nume_persoana=None):
         title = page.get("title", "")
 
         if nume_persoana and not _nume_in_titlu(nume_persoana, title):
+            continue
+
+        if info.get("mime") == "image/svg+xml" or NEPHOTO.search(title):
+            continue
+
+        an = _an_pozei(meta)
+        if an and an < AN_MINIM:
             continue
 
         lic = _clean(meta.get("LicenseShortName", {}).get("value", ""))
