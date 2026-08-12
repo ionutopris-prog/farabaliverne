@@ -1,0 +1,61 @@
+{
+  "slug": "trump-stare-urgenta-alegeri-2026",
+  "title": "Trump nu exclude o „stare de urgență națională” legată de alegerile din 2026, după ce un moderator i-a propus ideea",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "The Hill / Newsweek / NPR",
+  "url": "https://www.newsweek.com/trump-response-national-emergency-midterms-declaration-save-act-12310494",
+  "dek": "Într-un interviu pe Real America's Voice, moderatorul Wayne Allyn Root i-a propus lui Donald Trump ideea de a declara o „stare de urgență pentru securitate națională” dacă Senatul nu adoptă „SAVE America Act” (proiectul care ar cere dovadă de cetățenie la înregistrarea pe listele electorale). Trump a răspuns evaziv: „Să spun doar că lucruri mai ciudate s-au întâmplat. O las la asta.” Experți în drept electoral spun că președintele nu are, constituțional, autoritatea de a controla unilateral alegerile.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Într-un interviu pe Real America's Voice, gazda Wayne Allyn Root i-a sugerat lui Trump să declare o „stare de urgență pentru securitate națională” privind alegerile, ca alternativă dacă Senatul nu adoptă „SAVE America Act”. Trump a răspuns: „Let me just say that stranger things have happened, OK? I'll leave it at that” („Să spun doar că lucruri mai ciudate s-au întâmplat, bine? O las la asta”) — un răspuns evaziv, care nu confirmă și nu infirmă intenția.",
+      "sources": [
+        { "name": "The Hill — Trump to Wayne Root on declaring national security emergency for elections: 'Stranger things have happened'", "url": "https://thehill.com/homenews/administration/6023743-trump-national-emergency-midterms/" },
+        { "name": "Newsweek — Trump Issues Vague Response to Idea for National Emergency Ahead of Midterm", "url": "https://www.newsweek.com/trump-response-national-emergency-midterms-declaration-save-act-12310494" }
+      ]
+    },
+    {
+      "text": "„SAVE America Act” (Safeguard American Voter Eligibility) ar cere dovadă de cetățenie la înregistrarea pe listele electorale și act de identitate cu fotografie la vot. Legea a trecut de Camera Reprezentanților, dar e blocată în Senat, unde republicanii au 53 din 100 de locuri — sub cele 60 de voturi necesare pentru a depăși procedura de cloture.",
+      "sources": [
+        { "name": "The Hill — contextul SAVE America Act și blocajul din Senat", "url": "https://thehill.com/homenews/administration/6023743-trump-national-emergency-midterms/" }
+      ]
+    },
+    {
+      "text": "Expertul în drept electoral Rick Hasen a numit ideea lipsită de temei legal, scriind că „președintele nu are niciun rol în organizarea alegerilor, un punct pe care instanțele l-au ridicat în mod repetat în contestațiile la cele două ordine executive ale sale privind alegerile”.",
+      "sources": [
+        { "name": "The Hill — reacția lui Rick Hasen", "url": "https://thehill.com/homenews/administration/6023743-trump-national-emergency-midterms/" }
+      ]
+    },
+    {
+      "text": "Trump a mai semnat anterior ordine executive legate de alegeri — printre altele, unul care instruia Poșta americană să nu livreze buletine de vot prin corespondență în state fără acces federal la listele de alegători, și altul privind obligativitatea dovezii de cetățenie la înregistrare. Instanțele au blocat ambele ordine.",
+      "sources": [
+        { "name": "Common Dreams — context privind ordinele executive anterioare blocate de instanțe", "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Consensul juridic citat de presă e clar: o „stare de urgență națională” nu i-ar da automat președintelui puterea de a rescrie legile electorale ale statelor, de a amâna alegerile, de a interzice votul prin corespondență sau de a impune noi condiții de vot unilateral — Constituția lasă organizarea alegerilor în sarcina statelor, iar instanțele au susținut constant acest principiu. Rămâne însă neclar, la data verificării, dacă Trump chiar intenționează să încerce acest demers sau dacă răspunsul a fost doar o eschivă retorică.",
+      "sources": [
+        { "name": "Newsweek — limitele constituționale ale unei stări de urgență electorale", "url": "https://www.newsweek.com/trump-response-national-emergency-midterms-declaration-save-act-12310494" },
+        { "name": "NPR — profesor de la Georgetown Law despre SAVE Act și dorința lui Trump de a controla alegerile", "url": "https://www.npr.org/2026/03/16/nx-s1-5743652/georgetown-law-professor-on-the-save-act-and-trumps-desire-to-control-elections" }
+      ]
+    },
+    {
+      "text": "În martie 2026, presa relata că un grup de avocați apropiați lui Trump circula un proiect de ordin executiv de 17 pagini care invoca amenințări chinezești de interferență electorală drept justificare pentru interzicerea votului prin corespondență și numărătoare manuală obligatorie. Nu există, la data acestei ediții, confirmarea că acel proiect a fost semnat sau că se leagă direct de declarația din 11 august — sunt două episoade distincte, aflate în aceeași temă.",
+      "sources": [
+        { "name": "Common Dreams — proiectul de ordin executiv raportat în martie 2026", "url": "https://www.commondreams.org/news/trump-2026-midterm-emergency" }
+      ]
+    }
+  ],
+  "opinie": [
+    "Interpretarea că răspunsul lui Trump ar fi o amenințare voalată la adresa alegerilor de la jumătatea mandatului aparține unor comentatori și jurnaliști (citați ca fiind „stunned”/șocați de formulare) — nu e un fapt stabilit. Răspunsul „lucruri mai ciudate s-au întâmplat” poate fi la fel de bine o eschivă mediatică menită să nu displacă un moderator conservator, fără o intenție reală de a acționa. Cititorul poate urmări dacă vreun ordin executiv concret e semnat în lunile următoare."
+  ],
+  "math": {
+    "title": "De ce SAVE America Act e blocat în Senat",
+    "explanation": "Republicanii controlează Senatul cu 53 din 100 de locuri, dar procedura de cloture (închiderea dezbaterii, necesară înainte de votul final pe majoritatea legilor) cere 60 de voturi. Asta înseamnă că liderul majorității, John Thune, are nevoie de cel puțin 7 voturi de la senatori democrați pentru a debloca legea — voturi pe care, potrivit presei citate, nu le are."
+  },
+  "aiNote": "Citatul exact al lui Trump și contextul interviului sunt confirmate concordant de The Hill, Newsweek și alte publicații americane. Reacția expertului Rick Hasen și limitele constituționale sunt documentate separat. Ce rămâne neclar e intenția reală din spatele răspunsului evaziv al lui Trump — presa americană însăși e împărțită între a-l trata ca un semnal de alarmă și a-l trata ca o eschivă fără urmări; am separat explicit faptul (ce a spus) de interpretare (ce ar putea însemna).",
+  "persoane": []
+}
