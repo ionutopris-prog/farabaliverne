@@ -3,7 +3,7 @@ Veghea: verifică din afară dacă site-ul chiar publică, și spune UNDE s-a ru
 
 De ce din afară: pe 12 august, git-ul era la zi, iar farabaliverne.ro rămăsese
 în urmă 18 ore. Din interiorul GitHub-ului cele două stări arată identic. De-aia
-verificarea pornește de la `stare.json`, pulsul pe care îl scrie
+verificarea pornește de la `stare.txt`, pulsul pe care îl scrie
 `build_site.py` și care ajunge pe server DOAR dacă deploy-ul a reușit.
 
 Trei stări de alarmă, fiecare cu altă cauză și alt lucru de făcut:
@@ -27,6 +27,8 @@ import urllib.request
 from datetime import datetime, timezone
 
 SITE = "https://farabaliverne.ro"
+# `.txt`, nu `.json`: .htaccess refuză toate fișierele .json.
+PULS = "stare.txt"
 REPO = "ionutopris-prog/farabaliverne"
 
 # Cât poate rămâne site-ul în urma git-ului. Un deploy durează ~3 minute, deci
@@ -69,11 +71,11 @@ def stare_site():
     Pulsul de pe server.
 
     Întoarce (puls, site_raspunde). Lipsa pulsului NU înseamnă site căzut:
-    poate fi doar o versiune publicată înainte ca `stare.json` să existe. Cele
+    poate fi doar o versiune publicată înainte ca `stare.txt` să existe. Cele
     două cazuri cer lucruri complet diferite, deci nu le amestecăm.
     """
     try:
-        return json.loads(_cere(f"{SITE}/stare.json")), True
+        return json.loads(_cere(f"{SITE}/{PULS}")), True
     except Exception:
         pass
     try:
@@ -104,7 +106,7 @@ def verifica(token):
 
     if stare is None:
         return ("FĂRĂ PULS",
-                f"Site-ul răspunde, dar n-are `stare.json`. Înseamnă că ce e "
+                f"Site-ul răspunde, dar n-are `stare.txt`. Înseamnă că ce e "
                 f"publicat acum a fost construit înainte să existe pulsul — "
                 f"deci deploy-ul n-a mai ajuns de atunci. Declanșează "
                 f"`deploy.yml` și veghea se liniștește singură.")

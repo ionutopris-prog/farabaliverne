@@ -402,6 +402,11 @@ def build_stare(arts):
     din afară nu putea deosebi cele două stări. Fișierul ăsta poate: dacă
     deploy-ul nu ajunge, el rămâne vechi pe farabaliverne.ro.
 
+    E `.txt`, nu `.json`, fiindcă `.htaccess` refuză toate fișierele `.json`
+    ca să nu se vadă sursele de build. Regula aia e bună și nu merită atinsă
+    pentru un fișier — un `.htaccess` stricat pică tot site-ul. Conținutul e
+    tot JSON.
+
     Îl citește `scripts/veghe.py`.
     """
     ultim = max(arts.values(), key=lambda a: a.get("date") or "", default={})
@@ -411,7 +416,7 @@ def build_stare(arts):
         "ultimul": ultim.get("slug", ""),
         "ultima_data": ultim.get("date", ""),
     }
-    open(os.path.join(ROOT, "stare.json"), "w", encoding="utf-8").write(
+    open(os.path.join(ROOT, "stare.txt"), "w", encoding="utf-8").write(
         json.dumps(stare, ensure_ascii=False, indent=1) + "\n")
 
 
