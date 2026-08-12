@@ -6,6 +6,59 @@
 
 ---
 
+## 🟠 12 august 2026 — Publicarea blocată 18 ore de o unealtă lipsă; drapelul Turciei pe patru articole
+
+**Zece ediții la rând au picat, iar site-ul a stat neactualizat ~18 ore.**
+Articolele se scriau și ajungeau pe GitHub — 30 în total — dar pasul „Verifică
+pozele" pica, deci `deploy.yml` nu mai era declanșat niciodată. Ultima publicare
+reală: 11 aug, 22:38.
+
+Cauza: fallback-ul pe Pillow, adăugat ieri ca să repare `sips` (doar macOS),
+n-avea **Pillow instalat pe runner**. `_comprima_pil` întorcea `None` pe
+`ImportError`, `comprima()` renunța fără un cuvânt, iar pozele rămâneau la
+600 KB - 1 MB. **Al treilea eșec al proiectului care arată ca succes** — după
+tokenul corupt și plafonul de tururi. Tiparul e acum limpede: aici eșecul nu
+strigă, tace.
+- Pillow instalat în workflow
+- `comprima()` **spune** când n-are unealtă, în loc să tacă
+- `scripts/shrink_images.py` repară pozele grele **înainte** de verificare, și
+  pică zgomotos dacă nu găsește nicio unealtă. Verificarea redevine plasă de
+  siguranță pentru ce e legal (hotlink, atribuire), nu blocaj pentru greutate
+- compresia scoate JPEG, deci `.png` devine `.jpg` și articolele se releagă
+- ștergem **înainte** de a scrie: pe macOS `.JPG` și `.jpg` sunt același fișier,
+  deci codul vechi ștergea exact poza tocmai scrisă
+- 7 poze aduse sub limită: 638→224 KB, 579→176, 471→145, 431→245, 361→101,
+  339→95, 315→88
+
+**Patru articole aveau același drapel al Turciei.** Zelenski/Kosovo, depozitul
+OMS din Dnipro, teritoriul ocupat după ISW și explozia din Bulgaria — toate cu
+`Flag_of_Turkey.svg`. Al cincilea, despre eclipsă, avea sigla NASA. Pe Commons
+drapelele și siglele sunt printre cele mai bine cotate fișiere, deci ies primele
+la orice căutare vagă — iar noi le scriam dedesubt „Foto ilustrativă".
+- filtru **NEPHOTO**: drapel, siglă, stemă, hartă, diagramă, plus orice SVG
+- filtru de **vechime** (`AN_MINIM = 2000`): multe poze sunt în domeniul public
+  fiindcă au un secol, nu fiindcă sunt potrivite. Căutarea după Dnipro întorcea
+  o fotografie aeriană alb-negru din Primul Război Mondial; cea după uzina de
+  muniție, un depozit de obuze britanic din 1917, cu filigranul muzeului pe el
+- `scripts/replace_image.py` — schimbă poza unui articol care are deja una
+  greșită: fotografie, legendă, `alt` și `og:image` **deodată**. `apply_images.py`
+  făcea doar migrarea de la hotlink; asta e altceva
+
+**Reparate:** eclipsa (coroana solară, 2017), Zelenski (fotografie reală, cu
+Sikorski), ISW (peisaj de stepă în Donețk).
+**Scoase, rămâne cardul de brand** — două capcane pe care nu le pot rezolva sigur:
+1. **Dnipro**: căutarea prinde **râul**, nu orașul, și întoarce Kievul. Un site
+   de fact-checking nu poate pune Kievul sub o știre despre Dnipro.
+2. **Bulgaria**: poza găsită era un depozit de obuze marcate **„HD GAS"** —
+   muniție chimică, iperită — pe o știre despre o uzină convențională.
+
+*De reținut:* proporția contează. 81 de articole cu poză proprie, 5 greșite.
+Sistemul merge; cedează exact acolo unde căutarea nu găsește o fotografie și se
+agață de primul lucru „de țară". De-aia filtrele se adaugă **după** ce vezi
+eșecul, nu înainte.
+
+---
+
 ## 🔵 11 august 2026 — Automatizarea nu mai pierde ediții; poze proprii, legale
 
 **Ediția automată se pierdea, în tăcere.** Din ~09:00 UTC, o rulare din trei nu
