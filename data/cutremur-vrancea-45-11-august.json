@@ -1,0 +1,55 @@
+{
+    "slug": "cutremur-vrancea-45-11-august",
+    "title": "Cutremur în Vrancea, marți seara — magnitudinea inițială 4,5 revizuită de INFP la 4,3",
+    "category": "Social",
+    "date": "2026-08-12",
+    "source": "Digi24",
+    "url": "https://www.digi24.ro/stiri/actualitate/cutremur-in-romania-marti-seara-3-3902389",
+    "dek": "Un cutremur s-a produs marți, 11 august 2026, ora 20:21, în zona seismică Vrancea, resimțit până la București, Brașov și Constanța. Prima estimare automată a INFP a fost magnitudine 4,5 la 140 km adâncime; valoarea finală, revizuită manual, este 4,3 la 133,2 km. Nu au fost raportate victime sau pagube.",
+    "mainVerdict": "Probat",
+    "probat": [
+        {
+            "text": "Cutremurul s-a produs marți, 11 august 2026, ora 20:21:16 (ora României), în zona seismică Vrancea, județul Buzău. Ora exactă este confirmată identic de toate sursele consultate, fără nicio variație.",
+            "sources": [
+                {"name": "Digi24 — Cutremur în România, marți seara", "url": "https://www.digi24.ro/stiri/actualitate/cutremur-in-romania-marti-seara-3-3902389"},
+                {"name": "HotNews — Un cutremur s-a produs în județul Buzău", "url": "https://hotnews.ro/un-cutremur-de-45-grade-s-a-produs-in-judetul-buzau-2322414"},
+                {"name": "Mediafax — Cutremur în Vrancea, marți seara, cel mai puternic din ultimele aproape șase luni", "url": "https://www.mediafax.ro/social/cutremur-in-vrancea-marti-seara-este-cel-mai-puternic-din-ultimele-aproape-sase-luni-23788829"}
+            ]
+        },
+        {
+            "text": "Seismul s-a resimțit în mai multe orașe aflate la distanțe medii de epicentru: locuitori din București (inclusiv zona Bucur-Obor, unde s-a auzit „trosnind mobila”) și Popești-Leordeni au relatat vibrații; la Focșani (~7 km de epicentru) zguduitura a fost descrisă drept puternică; s-au resimțit unde și la Pitești și Constanța (o ușoară smucitură, mișcare a apei într-o piscină).",
+            "sources": [
+                {"name": "RomaniaTV — Cutremur de 4,5 în România, s-a resimțit și în Capitală", "url": "https://www.romaniatv.net/cutremur-de-45-in-romania-s-a-resimtit-si-in-capitala_9746854.html"},
+                {"name": "Gândul — Cutremur România, Vrancea, Buzău, august 2026", "url": "https://www.gandul.ro/actualitate/cutremur-romania-vrancea-buzau-august-2026-20977369"}
+            ]
+        },
+        {
+            "text": "Nu au fost raportate victime sau pagube materiale. ISU București-Ilfov a transmis un mesaj către populație prin care recomandă păstrarea calmului, avertizând asupra posibilității unor replici, și a precizat că nu au fost înregistrate apeluri la 112 legate de eveniment.",
+            "sources": [
+                {"name": "Digi24 — Cutremur în România, marți seara (reacția ISU)", "url": "https://www.digi24.ro/stiri/actualitate/cutremur-in-romania-marti-seara-3-3902389"},
+                {"name": "HotNews — Un cutremur s-a produs în județul Buzău", "url": "https://hotnews.ro/un-cutremur-de-45-grade-s-a-produs-in-judetul-buzau-2322414"}
+            ]
+        },
+        {
+            "text": "De la începutul lunii august 2026, INFP a înregistrat 14 cutremure în zona Vrancea, cu magnitudini între 2,4 și 4,5; în iulie 2026 fuseseră 23 de cutremure, cu magnitudini între 2 și 3,4. Cutremurul de marți este catalogat drept cel mai puternic din regiune din ultimele aproape șase luni, de la seismul de 4,5 din 26 februarie 2026.",
+            "sources": [
+                {"name": "Știrile ProTV — Cutremur de 4,5 în România, marți seara", "url": "https://stirileprotv.ro/stiri/actualitate/cutremur-de-4-5-in-romania-marti-seara-seismul-s-a-resimtit-si-in-bucuresti.html"},
+                {"name": "Adevărul — Cutremur cu magnitudinea 4,5 în zona seismică Vrancea", "url": "https://adevarul.ro/stiri-interne/evenimente/cutremur-cu-magnitudinea-45-in-zona-seismica-2549204.html"}
+            ]
+        }
+    ],
+    "contestat": [
+        {
+            "text": "Magnitudinea și adâncimea au fost publicate în două valori diferite, nu pentru că sursele s-ar contrazice, ci pentru că INFP a revizuit cifrele la circa o oră după producere. Estimarea automată inițială a fost magnitudine locală 4,5 la 140 km adâncime; valoarea finală manuală, publicată ulterior de INFP, este 4,3 la 133,2 km. Redacțiile care au publicat imediat și nu au mai actualizat textul (Mediafax, Adevărul, RomaniaTV) au rămas la cifra de 4,5; cele care au actualizat articolul după evaluarea manuală (Digi24, HotNews, Știrile ProTV) arată 4,3 ca valoare finală.",
+            "sources": [
+                {"name": "Digi24 — actualizare cu valoarea finală INFP (4,3)", "url": "https://www.digi24.ro/stiri/actualitate/cutremur-in-romania-marti-seara-3-3902389"},
+                {"name": "HotNews — titlu final: magnitudinea 4,3", "url": "https://hotnews.ro/un-cutremur-de-45-grade-s-a-produs-in-judetul-buzau-2322414"},
+                {"name": "Mediafax — a rămas la valoarea preliminară 4,5 / 140 km", "url": "https://www.mediafax.ro/social/cutremur-in-vrancea-marti-seara-este-cel-mai-puternic-din-ultimele-aproape-sase-luni-23788829"}
+            ]
+        }
+    ],
+    "opinie": [],
+    "math": null,
+    "aiNote": "Sursele consultate converg pe faptul central: un cutremur de magnitudine moderată s-a produs marți seara în zona Vrancea, resimțit pe o arie largă, fără victime sau pagube. Singura discrepanță reală este temporală, nu factuală — INFP publică inițial o estimare automată, apoi o revizuiește manual în circa o oră; cifra de 4,5 (preliminară) și 4,3 (finală) circulă amândouă în presă în funcție de momentul la care a fost scris fiecare articol. Am marcat explicit ambele valori, ca cititorul să știe care e cea finală. Lista orașelor unde s-a resimțit cutremurul e parțial diferită între surse — am inclus doar relatările susținute de citate directe sau confirmate de mai multe redacții.",
+    "persoane": []
+}

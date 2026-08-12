@@ -1,0 +1,55 @@
+{
+    "slug": "germania-inflatie-iulie-28-procente",
+    "title": "Inflația din Germania urcă la 2,8% în iulie, peste așteptările pieței — Destatis leagă creșterea de finalul subvenției la carburanți",
+    "category": "Extern",
+    "date": "2026-08-12",
+    "source": "Destatis",
+    "url": "https://www.destatis.de/EN/Press/2026/08/PE26_283_611.html",
+    "dek": "🌍 Rata anuală a inflației în Germania a urcat la 2,8% în iulie 2026, de la 2,3% în iunie, peste consensul analiștilor de 2,7%. Oficiul federal de statistică (Destatis) leagă creșterea de expirarea, pe 30 iunie, a subvenției guvernamentale la carburanți, coincisă cu majorarea prețului petrolului pe fondul războiului Iran-Israel.",
+    "mainVerdict": "Probat",
+    "probat": [
+        {
+            "text": "Rata anuală a inflației (CPI) în Germania a fost 2,8% în iulie 2026, față de 2,3% în iunie 2026 — o accelerare de 0,5 puncte procentuale într-o singură lună, confirmată oficial de Oficiul Federal de Statistică (Destatis) în comunicatul de presă nr. 283/2026. Variația lunară a fost de +0,8%.",
+            "sources": [
+                {"name": "Destatis — Rata inflației în iulie 2026: +2,8% (comunicat oficial, engleză)", "url": "https://www.destatis.de/EN/Press/2026/08/PE26_283_611.html"},
+                {"name": "Destatis — Inflationsrate im Juli 2026 bei +2,8% (comunicat oficial, germană)", "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_283_611.html"}
+            ]
+        },
+        {
+            "text": "Cifra de 2,8% a depășit consensul analiștilor, care se așteptau la 2,7% — abatere confirmată de mai multe surse financiare independente de Destatis.",
+            "sources": [
+                {"name": "FXStreet — inflația anuală a Germaniei urcă la 2,8% în iulie, peste așteptările de 2,7%", "url": "https://www.fxstreet.com/news/germany-annual-cpi-inflation-climbs-to-28-in-july-vs-27-expected-202607301208"},
+                {"name": "Trading Economics — Germania, inflație CPI, știri", "url": "https://tradingeconomics.com/germany/inflation-cpi/news/571245"}
+            ]
+        },
+        {
+            "text": "Destatis explică, în comunicatul oficial, că accelerarea inflației se datorează în principal energiei: prețurile la energie au crescut cu 8,3% an/an (de la 3,4% în iunie), iar carburanții cu 23,0% an/an (de la 11,3% în iunie). Instituția leagă explicit acest salt de expirarea, pe 30 iunie 2026, a subvenției guvernamentale la carburanți („Tankrabatt”), care a coincis cu o creștere a prețului petrolului pe fondul războiului Iran-Israel. Inflația de bază (fără alimente și energie) a fost 2,4%, ușor sub cea din iunie (2,5%) — semn că presiunea vine specific din energie.",
+            "sources": [
+                {"name": "Destatis — Rata inflației în iulie 2026, cu detaliere pe componente și cauze", "url": "https://www.destatis.de/EN/Press/2026/08/PE26_283_611.html"},
+                {"name": "Handelsblatt — Prețurile de consum în iulie: șoc inflaționist după finalul reducerii la carburanți", "url": "https://www.handelsblatt.com/politik/deutschland/verbraucherpreise-im-juli-inflationsschub-nach-ende-des-tankrabatts/100246690.html"}
+            ]
+        },
+        {
+            "text": "La nivelul zonei euro, inflația a urcat la 2,9% în iulie 2026 (de la 2,8% în iunie), peste ținta de 2,0% a Băncii Centrale Europene, cu energia drept principal motor (+10,0% an/an). Printre statele mari, Spania a înregistrat 3,8%, Italia și Olanda 2,9%, Franța 2,4%; cea mai mare rată a fost în Lituania (5,6%), cea mai mică în Estonia (2,0%).",
+            "sources": [
+                {"name": "Eurostat — inflația anuală în zona euro urcă la 2,9%", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-31072026-ap"}
+            ]
+        }
+    ],
+    "contestat": [
+        {
+            "text": "Pentru luna iunie 2026, indicele național german (CPI) arată 2,3%, dar indicele armonizat la nivel european (HICP, folosit pentru comparații între țările UE) arată 2,4% — o diferență metodologică, nu o eroare: cele două coșuri de bunuri nu sunt identice. Pentru iulie 2026, cele două cifre converg la 2,8%.",
+            "sources": [
+                {"name": "Destatis — Rata inflației în iunie 2026: +2,3% (CPI) / comparație cu HICP", "url": "https://www.destatis.de/EN/Press/2026/07/PE26_243_611.html"},
+                {"name": "Destatis — comunicat iulie 2026, cu cifra HICP convergentă la 2,8%", "url": "https://www.destatis.de/EN/Press/2026/08/PE26_283_611.html"}
+            ]
+        }
+    ],
+    "opinie": [],
+    "math": {
+        "title": "De la 2,3% la 2,8% — cât de mult contează finalul subvenției la carburanți",
+        "explanation": "Prețul carburanților a urcat de la +11,3% an/an în iunie la +23,0% an/an în iulie — o dublare aproape exactă a ritmului de creștere, imediat după expirarea subvenției guvernamentale pe 30 iunie. Energia în ansamblu a trecut de la +3,4% la +8,3% an/an. Inflația de bază (fără alimente și energie) a rămas practic neschimbată, 2,4% față de 2,5% în iunie — ceea ce arată că aproape întreaga accelerare a inflației headline, de la 2,3% la 2,8%, poate fi atribuită componentei energetice, nu unei presiuni generalizate a prețurilor în economie."
+    },
+    "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cazul este relativ rar în materie de verificare: Destatis însuși explică mecanismul cauzal (finalul subvenției la carburanți + prețul petrolului legat de războiul Iran-Israel), nu doar comentatori care speculează după publicarea cifrelor. Singura nuanță tehnică este diferența dintre indicele național (CPI) și cel armonizat european (HICP), vizibilă doar pentru luna iunie — nu reprezintă un dezacord între surse, ci doi indicatori statistici diferiți, calculați cu metodologii ușor diferite.",
+    "persoane": []
+}
