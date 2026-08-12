@@ -37,6 +37,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Compresia pozelor. Pe Mac merge `sips`, nativ; pe runner nu există
+      # nimic, iar fără Pillow pozele rămân la 600 KB-1 MB și pică verificarea.
+      # Exact asta a blocat publicarea 18 ore pe 12 august.
+      - name: Unelte pentru poze
+        run: pip install --quiet Pillow
+
       - name: Node
         uses: actions/setup-node@v4
         with:
@@ -106,6 +112,22 @@ jobs:
       # Verificarea rulează exact când apare conținut nou, nu pe un ceas
       # arbitrar. Prinde hotlinkurile spre pozele altor publicații, legendele
       # incomplete și pozele prea grele — înainte ca ele să ajungă pe site.
+      # Greutatea pozei e o problemă de performanță, nu de legalitate. O reparăm
+      # aici, ca verificarea de mai jos să rămână plasă de siguranță pentru ce
+      # chiar trebuie să oprească publicarea (hotlink, atribuire lipsă) — nu
+      # blocaj de rutină pentru o poză de 400 KB.
+      - name: Repară pozele prea grele
+        if: steps.redactor.outputs.changed == 'true'
+        run: |
+          python3 scripts/shrink_images.py
+          if ! git diff --quiet; then
+            git config user.name "Fără Baliverne (bot)"
+            git config user.email "bot@farabaliverne.ro"
+            git add -A
+            git commit -m "Poze: recomprimate sub limita de greutate"
+            git push
+          fi
+
       - name: Verifică pozele
         if: steps.redactor.outputs.changed == 'true'
         run: python3 scripts/verify_images.py

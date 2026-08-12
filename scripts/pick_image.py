@@ -232,31 +232,67 @@ def _comprima_pil(path, tmp):
     return cel_mai_bun
 
 
+def unealta_compresie():
+    """
+    Ce unealtă de compresie avem. None = niciuna, și atunci pozele rămân la
+    mărimea descărcată (600 KB-1 MB de pe Commons).
+
+    Există fiindcă lipsa uneleia era invizibilă: `_comprima_pil` întorcea None
+    pe ImportError, `comprima` renunța fără un cuvânt, iar ediția raporta
+    succes. Pe 12 august asta a blocat publicarea 18 ore.
+    """
+    if shutil.which("sips"):
+        return "sips"
+    try:
+        import PIL  # noqa: F401
+        return "Pillow"
+    except ImportError:
+        return None
+
+
 def comprima(path):
     """
     Scriem într-un fișier temporar și păstrăm rezultatul doar dacă e mai mic
     decât ce aveam. Fără verificarea asta, o recodare poate ieși mai MARE decât
     originalul, ceea ce s-a și întâmplat la prima rulare.
 
-    Încearcă sips (macOS) întâi, apoi Pillow (Linux/CI) — dacă niciunul nu e
-    disponibil, păstrăm fișierul necomprimat în loc să crăpăm întreaga unealtă.
+    Încearcă sips (macOS) întâi, apoi Pillow (Linux/CI). Dacă nu e niciuna,
+    păstrăm fișierul necomprimat — dar o SPUNEM.
+
+    Întoarce calea finală, care poate să difere de cea primită: compresia
+    scoate JPEG, deci un .png comprimat e redenumit .jpg. Altfel am servi
+    octeți JPEG sub antet image/png — browserele ghicesc, dar unii clienți de
+    share nu, și tocmai previzualizările ne interesează.
     """
     initial = os.path.getsize(path)
     if initial <= KB_MAX * 1024:
-        return
+        return path
+
+    if not unealta_compresie():
+        print(f"::warning::nici sips, nici Pillow — {os.path.basename(path)} "
+              f"rămâne la {initial // 1024} KB")
+        return path
 
     tmp = path + ".tmp.jpg"
     cel_mai_bun = _comprima_sips(path, tmp) or _comprima_pil(path, tmp)
+    if not cel_mai_bun or cel_mai_bun[1] >= initial:
+        return path
 
-    if cel_mai_bun and cel_mai_bun[1] < initial:
-        with open(path, "wb") as fh:
-            fh.write(cel_mai_bun[0])
+    # Ștergem ÎNTÂI, scriem după. Invers, un fișier `.JPG` (majuscule, cum vin
+    # unele de pe Commons) ar fi șters chiar după ce l-am rescris ca `.jpg`:
+    # macOS nu deosebește cele două nume, deci `os.remove` lua exact fișierul
+    # nou. Octeții sunt deja în memorie, așa că ordinea asta e sigură.
+    final = os.path.splitext(path)[0] + ".jpg"
+    os.remove(path)
+    with open(final, "wb") as fh:
+        fh.write(cel_mai_bun[0])
+    return final
 
 
 def download(candidate, slug):
     os.makedirs(IMG_DIR, exist_ok=True)
-    ext = os.path.splitext(urllib.parse.urlparse(candidate["url"]).path)[1] or ".jpg"
-    if ext.lower() not in (".jpg", ".jpeg", ".png", ".webp"):
+    ext = os.path.splitext(urllib.parse.urlparse(candidate["url"]).path)[1].lower() or ".jpg"
+    if ext not in (".jpg", ".jpeg", ".png", ".webp"):
         ext = ".jpg"
     path = os.path.join(IMG_DIR, slug + ext)
     with open(path, "wb") as fh:
