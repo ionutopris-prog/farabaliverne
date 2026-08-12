@@ -1,0 +1,67 @@
+{
+  "slug": "consum-record-8000mw-cernavoda",
+  "title": "România a doborât un record de consum de energie, în timp ce Unitatea 2 de la Cernavodă intră în oprire din cauza secetei",
+  "category": "Economie",
+  "date": "2026-08-12",
+  "source": "Digi24 / Gândul",
+  "url": "https://www.digi24.ro/digieconomic/energie/importurile-de-energie-cresc-pe-fondul-crizei-de-la-cernavoda-romania-a-trecut-de-8-000-mw-consum-marti-seara-114143",
+  "dek": "Marți seara, 11 august 2026, consumul de energie electrică al României a trecut de 8.000 MW — un nou record — chiar în timp ce centrala de la Cernavodă a început oprirea controlată a Unității 2, din cauza debitului scăzut al Dunării. Aproape un sfert din energia consumată a venit din import. Cifra exactă a vârfului diferă ușor între surse.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Marți seara, 11 august 2026, consumul de energie electrică al României a depășit 8.000 MW, în jurul orei 19:25 — un nivel raportat ca record de mai multe redacții economice, pe fondul unui val de căldură și al presiunii asupra sistemului energetic național.",
+      "sources": [
+        {"name": "Digi24 — Importurile de energie cresc pe fondul crizei de la Cernavodă. România a trecut de 8.000 MW consum marți seară", "url": "https://www.digi24.ro/digieconomic/energie/importurile-de-energie-cresc-pe-fondul-crizei-de-la-cernavoda-romania-a-trecut-de-8-000-mw-consum-marti-seara-114143"},
+        {"name": "Capital.ro — Consumul de energie a depășit 8.000 MW marți seara. România a importat peste 2.100 MW", "url": "https://www.capital.ro/consumul-de-energie-a-depasit-8-000-mw-marti-seara-romania-a-importat-peste-2-100-mw.html"},
+        {"name": "Antena 3 CNN — Consum de energie record, marți seara, în România. Transelectrica a raportat peste 8.000 MW, la 19:25", "url": "https://www.antena3.ro/economic/consum-de-energie-record-marti-seara-in-romania-transelectrica-a-raportat-peste-8-000-mw-la-19-25-799098.html"}
+      ]
+    },
+    {
+      "text": "Producția internă a acoperit doar circa 5.873 MW din cerere, restul fiind adus prin import — peste 2.100 MW, potrivit datelor Transelectrica citate în presă. Cu alte cuvinte, o parte importantă din energia consumată marți seara a venit din afara țării.",
+      "sources": [
+        {"name": "Digi24 — România a trecut de 8.000 MW consum marți seară", "url": "https://www.digi24.ro/digieconomic/energie/importurile-de-energie-cresc-pe-fondul-crizei-de-la-cernavoda-romania-a-trecut-de-8-000-mw-consum-marti-seara-114143"},
+        {"name": "Capital.ro — România a importat peste 2.100 MW", "url": "https://www.capital.ro/consumul-de-energie-a-depasit-8-000-mw-marti-seara-romania-a-importat-peste-2-100-mw.html"}
+      ]
+    },
+    {
+      "text": "Unitatea 1 de la centrala nucleară Cernavodă fusese oprită controlat pe 28 iulie 2026, iar marți, 11 august, centrala a inițiat și procedurile de oprire controlată a Unității 2 — ambele din cauza debitului scăzut al Dunării, care asigură apa de răcire a reactoarelor.",
+      "sources": [
+        {"name": "Digi24 — Importurile de energie cresc pe fondul crizei de la Cernavodă", "url": "https://www.digi24.ro/digieconomic/energie/importurile-de-energie-cresc-pe-fondul-crizei-de-la-cernavoda-romania-a-trecut-de-8-000-mw-consum-marti-seara-114143"},
+        {"name": "Capital.ro — context Cernavodă/Dunăre", "url": "https://www.capital.ro/consumul-de-energie-a-depasit-8-000-mw-marti-seara-romania-a-importat-peste-2-100-mw.html"}
+      ]
+    },
+    {
+      "text": "Debitul Dunării la intrarea în țară (secțiunea Baziaș) este estimat să rămână staționar la 1.350 mc/s în următoarele zile — sub o treime din media multianuală a lunii august, de circa 3.900 mc/s. România se află sub stare de alertă energetică, instituită pentru 30 de zile începând cu 31 iulie 2026.",
+      "sources": [
+        {"name": "Digi24 — debitul Dunării și alerta energetică", "url": "https://www.digi24.ro/digieconomic/energie/importurile-de-energie-cresc-pe-fondul-crizei-de-la-cernavoda-romania-a-trecut-de-8-000-mw-consum-marti-seara-114143"},
+        {"name": "Capital.ro — media multianuală a debitului Dunării", "url": "https://www.capital.ro/consumul-de-energie-a-depasit-8-000-mw-marti-seara-romania-a-importat-peste-2-100-mw.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra exactă a vârfului de consum diferă între surse: Digi24, Capital.ro și Antena 3 raportează pragul depășit la ora 19:25, cu import de 2.151 MW; Gândul citează un vârf ulterior, de 8.183 MW la ora 19:48, cu un deficit de circa 2.310 MW acoperit din import. Diferența pare să reflecte momente diferite din aceeași seară (consumul a continuat să urce), nu cifre contradictorii.",
+      "sources": [
+        {"name": "Digi24 — 19:25, import 2.151 MW", "url": "https://www.digi24.ro/digieconomic/energie/importurile-de-energie-cresc-pe-fondul-crizei-de-la-cernavoda-romania-a-trecut-de-8-000-mw-consum-marti-seara-114143"},
+        {"name": "Gândul — Consum record energie peste 8.000 MW marți", "url": "https://www.gandul.ro/actualitate/consum-record-energie-peste-8000-mw-marti-20977446"}
+      ]
+    },
+    {
+      "text": "Potrivit Gândul, Ministerul Energiei estimase anterior un vârf maxim de 7.800–8.000 MW pentru această perioadă; cifra înregistrată efectiv a depășit acest prag. Nu am găsit o declarație oficială a Ministerului care să confirme sau să nuanțeze public această estimare inițială — rămâne o afirmație de presă, neconfirmată direct de minister la data verificării.",
+      "sources": [
+        {"name": "Gândul — estimarea Ministerului Energiei vs. cifra reală", "url": "https://www.gandul.ro/actualitate/consum-record-energie-peste-8000-mw-marti-20977446"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Etichetarea „record” depinde de perioada de comparație — presa citată se referă la ultima lună (12 iulie–11 august 2026), în care consumul se situase de regulă sub 7.500–7.700 MW. Nu este clar din sursele consultate dacă e vorba de un record istoric absolut sau doar de cel mai ridicat nivel din acest interval recent — nuanța contează și cititorul o poate verifica pe site-ul Transelectrica."
+    }
+  ],
+  "math": {
+    "title": "Aproape 27% din energia consumată a venit din import",
+    "explanation": "Cu o producție internă de 5.873 MW și un import de 2.151 MW (cifrele citate de Digi24 și Capital.ro pentru ora 19:25), consumul total din acel moment a fost de aproximativ 8.024 MW. Importul a reprezentat deci 2.151 / 8.024 ≈ 26,8% din energia consumată — aproape un sfert venit din afara țării. Această pondere e consistentă cu „deficitul de circa 28%” citat de Gândul pentru vârful ulterior de 8.183 MW."
+  },
+  "aiNote": "Sursele independente confirmă tabloul central: marți seara, 11 august 2026, consumul de energie al României a depășit 8.000 MW, în paralel cu oprirea controlată a Unității 2 de la Cernavodă, din cauza secetei care a redus debitul Dunării. Rămân două rezerve: cifra exactă a vârfului (19:25 vs. 19:48, 8.000+ vs. 8.183 MW) variază ușor între redacții — posibil pentru că citează momente diferite din aceeași seară — iar afirmația că cifra a depășit estimarea inițială a Ministerului Energiei (7.800–8.000 MW) vine dintr-o singură sursă de presă, fără o declarație oficială care să o confirme direct.",
+  "persoane": []
+}
