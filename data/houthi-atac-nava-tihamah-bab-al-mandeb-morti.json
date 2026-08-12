@@ -1,0 +1,78 @@
+{
+  "slug": "houthi-atac-nava-tihamah-bab-al-mandeb-morti",
+  "title": "Houthi au lovit cu rachete o navă comercială în Bab al-Mandeb — cifra morților diferă între surse",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "Al Jazeera / NBC News / Al Arabiya",
+  "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+  "dek": "Nava de cargo Tihamah, deținută de o companie egipteană, a fost lovită marți, 11 august 2026, cu rachete balistice în strâmtoarea Bab al-Mandeb. Guvernul yemenit recunoscut internațional vorbește despre cel puțin 6 morți (4 din echipaj + 2 din operațiunea de salvare) și 10 răniți; alte redacții raportează cifre diferite pentru echipaj — 3 sau 4 morți. Houthii, prin agenția Saba, revendică atacul, dar susțin că nava ar fi fost saudită și ar fi transportat echipament militar — afirmație neconfirmată independent.",
+  "mainVerdict": "Probat, cu cifre contestate",
+  "probat": [
+    {
+      "text": "Nava de cargo Tihamah, deținută de o companie egipteană, a fost lovită marți, 11 august 2026, de trei rachete balistice în strâmtoarea Bab al-Mandeb. La scurt timp după impact, o a patra rachetă a lovit zona în care se desfășura operațiunea de salvare a supraviețuitorilor, ucigând suplimentar cel puțin doi militari implicați în operațiune.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+        },
+        {
+          "name": "NBC News — Four crew, two rescuers killed in Red Sea attack",
+          "url": "https://www.nbcnews.com/world/iran/iran-war-yemen-red-sea-ships-attacked-bab-el-mandeb-strait-rcna592068"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul yemenit recunoscut internațional raportează cel puțin 6 morți în total (4 membri de echipaj — trei cetățeni pakistanezi și un cetățean indonezian — plus cel puțin 2 militari uciși în timpul operațiunii de salvare) și 10 răniți, dintre care 7 membri de echipaj.",
+      "sources": [
+        {
+          "name": "Al Jazeera — bilanțul guvernului yemenit: 6 morți, 10 răniți",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+        }
+      ]
+    },
+    {
+      "text": "Houthii au revendicat atacul prin agenția de presă Saba (controlată de mișcare), susținând că au lovit o navă saudită care ar fi transportat echipament militar în Bab al-Mandeb — fără să numească explicit vasul vizat.",
+      "sources": [
+        {
+          "name": "Al Jazeera — revendicarea Houthi prin agenția Saba",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul exact al morților din rândul echipajului diferă între redacții. Al Jazeera și NBC News (citând guvernul yemenit) vorbesc despre 4 membri ai echipajului uciși, la care se adaugă cel puțin 2 militari din operațiunea de salvare (total 6). Al Arabiya a raportat inițial „trei membri ai echipajului” uciși. Diferența de o persoană la echipaj rămâne neclarificată — poate reflecta stadii diferite ale bilanțului oficial, la ore diferite după atac.",
+      "sources": [
+        {
+          "name": "Al Jazeera — 4 membri ai echipajului + 2 militari",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+        },
+        {
+          "name": "Al Arabiya — „three members of commercial vessel crew” uciși",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/08/11/houthi-missile-attack-kills-three-members-of-commercial-vessel-crew-in-bab-almandeb"
+        },
+        {
+          "name": "Middle East Monitor — 4 membri de echipaj uciși",
+          "url": "https://www.middleeastmonitor.com/20260811-4-crew-members-killed-after-houthi-attack-on-commercial-vessel-in-bab-al-mandeb/"
+        }
+      ]
+    },
+    {
+      "text": "Afirmația Houthi că nava lovită era „saudită” și transporta „echipament militar” nu este confirmată de nicio sursă independentă citată — Al Jazeera identifică nava drept Tihamah, deținută de o companie egipteană, fără să menționeze încărcătură militară. Cele două versiuni (revendicarea combatantului Houthi vs. identificarea presei internaționale) rămân în contradicție directă asupra proprietății și naturii încărcăturii.",
+      "sources": [
+        {
+          "name": "Al Jazeera — nava identificată drept Tihamah, proprietate egipteană",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Revendicarea Houthi este relatarea unei părți combatante într-un conflict activ (războiul Iran–Israel–SUA din 2026, în care Houthii sunt aliați Iranului) și nu poate fi tratată ca fapt stabilit doar pe baza propriei declarații. La fel, motivele reale ale atacului asupra unei nave civile rămân o chestiune de interpretare, nu un fapt verificat independent."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": []
+}
