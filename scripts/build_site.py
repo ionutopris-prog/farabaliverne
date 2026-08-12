@@ -18,7 +18,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   4. commit + push  →  GitHub urcă singur pe site
 """
 import json, re, glob, os, unicodedata
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 def now_edition():
     """Data + „Ediția de X" după ora României, la momentul build-ului (când se pun articole)."""
@@ -392,6 +392,34 @@ def build_sitemap(arts):
     return len(rows)
 
 
+def build_stare(arts):
+    """
+    Pulsul site-ului: un fișier mic, citibil de afară, care spune când a fost
+    construit ultima dată și câte articole avem.
+
+    Rostul e că nu putem afla altfel dacă publicarea chiar a ajuns pe server.
+    Pe 12 august, git-ul era la zi și site-ul rămăsese în urmă 18 ore — nimic
+    din afară nu putea deosebi cele două stări. Fișierul ăsta poate: dacă
+    deploy-ul nu ajunge, el rămâne vechi pe farabaliverne.ro.
+
+    E `.txt`, nu `.json`, fiindcă `.htaccess` refuză toate fișierele `.json`
+    ca să nu se vadă sursele de build. Regula aia e bună și nu merită atinsă
+    pentru un fișier — un `.htaccess` stricat pică tot site-ul. Conținutul e
+    tot JSON.
+
+    Îl citește `scripts/veghe.py`.
+    """
+    ultim = max(arts.values(), key=lambda a: a.get("date") or "", default={})
+    stare = {
+        "construit": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "articole": len(arts),
+        "ultimul": ultim.get("slug", ""),
+        "ultima_data": ultim.get("date", ""),
+    }
+    open(os.path.join(ROOT, "stare.txt"), "w", encoding="utf-8").write(
+        json.dumps(stare, ensure_ascii=False, indent=1) + "\n")
+
+
 def main():
     arts = load()
     total = len(arts)
@@ -442,6 +470,7 @@ def main():
                 elif '</head>' in s:
                     s = s.replace('</head>', '  ' + lds + '\n</head>', 1)
         if s != orig: open(f, "w", encoding="utf-8").write(s)
+    build_stare(arts)
     print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând | sitemap {nsitemap} URL-uri")
 
 if __name__ == "__main__":

@@ -1,0 +1,87 @@
+name: Veghea (site-ul chiar publică?)
+
+# Verifică din AFARĂ dacă farabaliverne.ro se actualizează, și deschide o
+# singură problemă pe incident — nu un mail la fiecare rulare picată.
+#
+# Pe 12 august, zece ediții la rând au picat și au trimis zece mailuri
+# „failed to deploy", dintre care niciunul nu spunea lucrul care conta:
+# site-ul nu mai publicase de 18 ore. Veghea spune exact asta, o dată, și
+# închide singură problema când lucrurile revin la normal.
+
+on:
+  schedule:
+    - cron: "30 */2 * * *"     # din două în două ore, la și jumătate
+  workflow_dispatch:
+    inputs:
+      proba:
+        description: "Probă: forțează alarma, ca să verifici că lanțul merge"
+        type: boolean
+        default: false
+
+concurrency:
+  group: veghe
+  cancel-in-progress: false
+
+jobs:
+  veghe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verifică
+        id: verifica
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VEGHE_PROBA: ${{ inputs.proba && '1' || '' }}
+        run: |
+          set +e
+          IESIRE="$(python3 scripts/veghe.py --json)"
+          set -e
+          echo "$IESIRE"
+          echo "alarma=$(echo "$IESIRE" | python3 -c 'import json,sys; print(json.load(sys.stdin)["alarma"])')" >> "$GITHUB_OUTPUT"
+          {
+            echo "mesaj<<SFARSIT"
+            echo "$IESIRE" | python3 -c 'import json,sys; print(json.load(sys.stdin)["mesaj"])'
+            echo "SFARSIT"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Deschide problema
+        if: steps.verifica.outputs.alarma != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALARMA: ${{ steps.verifica.outputs.alarma }}
+          MESAJ: ${{ steps.verifica.outputs.mesaj }}
+        run: |
+          gh label create veghe --color B60205 --description "Site-ul nu mai publică" --force
+          DESCHISE="$(gh issue list --label veghe --state open --json number --jq '.[].number')"
+          if [ -n "$DESCHISE" ]; then
+            echo "problema e deja deschisă (#$DESCHISE) — nu mai trimit un mail"
+            exit 0
+          fi
+          # Corpul trece printr-un fișier: scris inline, indentarea din YAML ar
+          # ajunge în text și ar strica formatarea mesajului.
+          {
+            printf '%s\n\n' "$MESAJ"
+            printf -- '---\n'
+            printf '*Deschisă automat de Veghe. Se închide singură când site-ul publică din nou.*\n'
+          } > /tmp/veghe-corp.md
+          gh issue create --label veghe \
+            --title "🚨 $ALARMA — farabaliverne.ro" \
+            --body-file /tmp/veghe-corp.md
+
+      - name: Închide problema
+        if: steps.verifica.outputs.alarma == ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESAJ: ${{ steps.verifica.outputs.mesaj }}
+        run: |
+          for N in $(gh issue list --label veghe --state open --json number --jq '.[].number'); do
+            gh issue close "$N" --comment "✅ Rezolvat: $MESAJ"
+          done

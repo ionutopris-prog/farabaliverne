@@ -6,6 +6,49 @@
 
 ---
 
+## 🟣 13 august 2026 — Veghea: o alertă când site-ul nu mai publică
+
+Ieri, zece ediții picate au trimis zece mailuri „failed to deploy", și niciunul
+nu spunea lucrul care conta: **site-ul nu mai publicase de 18 ore**. Invers e și
+mai rău — dacă deploy-ul s-ar fi oprit fără ca edițiile să pice, n-ar fi venit
+niciun mail deloc.
+
+**`stare.txt` — pulsul site-ului.** Scris de `build_site.py`, ajunge pe server
+DOAR dacă deploy-ul a reușit. De-aia comparația lui cu ultimul commit din git
+spune nu doar *că* s-a rupt ceva, ci **unde**. Din interiorul GitHub-ului,
+„git la zi + site la zi" și „git la zi + site rămas în urmă" arată identic.
+
+**`scripts/veghe.py`** verifică din afară și deosebește patru stări, fiecare cu
+altceva de făcut:
+
+| | ce înseamnă | unde te uiți |
+|---|---|---|
+| 🔴 SITE CĂZUT | domeniul nu răspunde | gazda, Datahost |
+| 🟠 FĂRĂ PULS | site-ul merge, dar n-are `stare.txt` | deploy-ul n-a mai ajuns |
+| 🟠 NEPUBLICAT | git are articole, site-ul nu | `deploy.yml` |
+| 🟡 TĂCERE | nici git n-a mai primit nimic | token, cotă, plafon de tururi |
+
+**`.github/workflows/veghe.yml`** rulează din două în două ore și deschide **o
+singură problemă pe incident**, nu un mail pe rulare. O închide singură când
+lucrurile revin.
+
+**Praguri alese pe cadența reală, nu din burtă:** 90 de minute pentru deploy (o
+publicare durează ~3 minute, deci peste atât e rupt, nu lent) și 7 ore pentru
+tăcere — noaptea sunt pauze programate de 3 ore (20→22→01→04 UTC), iar o ediție
+care nu găsește subiecte noi e un rezultat legitim. O alertă care sună degeaba
+se învață să fie ignorată, și atunci n-o mai citești când chiar contează.
+
+**Două lucruri prinse la montaj:**
+1. `stare.json` s-a urcat corect prin FTP, dar serverul întorcea **403**:
+   `.htaccess` refuză toate fișierele `.json`, ca să nu se vadă sursele de
+   build. Regula e bună — mutat pe `.txt`, conținutul rămâne JSON. Un
+   `.htaccess` stricat pică tot site-ul; nu merită atins pentru un fișier.
+2. Alarma a fost **probată de la cap la coadă** (`workflow_dispatch` cu
+   `proba=true`): problemă deschisă → mail → închisă singură la rularea
+   următoare. O alertă pe care n-ai văzut-o niciodată pornind nu e o alertă.
+
+---
+
 ## 🟠 12 august 2026 — Publicarea blocată 18 ore de o unealtă lipsă; drapelul Turciei pe patru articole
 
 **Zece ediții la rând au picat, iar site-ul a stat neactualizat ~18 ore.**
