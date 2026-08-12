@@ -1,0 +1,64 @@
+{
+  "slug": "congo-ebola-focar-record-decese",
+  "title": "Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "Al Jazeera / UN News / Euronews",
+  "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record",
+  "dek": "Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Bilanțul oficial anunțat de autoritățile congoleze marți, 11 august 2026: 2.011 morți din 4.381 de cazuri confirmate de Ebola, tulpina Bundibugyo. Cifrele sunt raportate concordant de mai multe redacții internaționale independente.",
+      "sources": [
+        {"name": "Al Jazeera — DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record", "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record"},
+        {"name": "UN News — Ebola deaths top 2,000 as scientists race to develop vaccine", "url": "https://news.un.org/en/story/2026/08/1168117"},
+        {"name": "Euronews — Ebola death toll in DR Congo outbreak rises to more than 2,000, officials say", "url": "https://www.euronews.com/health/2026/08/11/ebola-death-toll-in-dr-congo-outbreak-rises-to-more-than-2000-officials-say"}
+      ]
+    },
+    {
+      "text": "Focarul a fost declarat oficial pe 15 mai 2026 (OMS a declarat urgență de sănătate publică internațională pe 17 mai), dar virusul circula probabil din februarie 2026. E descris de sursele citate drept cel mai rapid focar de Ebola înregistrat vreodată în RD Congo: pragul de 1.000 de morți a fost depășit, iar apoi s-a ajuns la 2.000 în mai puțin de trei săptămâni — față de peste 12 luni cât a durat aceeași creștere în focarul din 2018–2020.",
+      "sources": [
+        {"name": "UN News — cronologia declarării și viteza de răspândire", "url": "https://news.un.org/en/story/2026/08/1168117"},
+        {"name": "Al Jazeera — comparație cu focarul din 2018-2020", "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record"}
+      ]
+    },
+    {
+      "text": "Nu există vaccin sau tratament aprobat pentru tulpina Bundibugyo, mai rară decât tulpina Zaire (pentru care există vaccinul aprobat Ervebo). OMS a recomandat pe 9 august 2026 trecerea la teste umane la scară largă pentru doi candidați de vaccin specifici tulpinii Bundibugyo, iar un al treilea e în dezvoltare; teste sunt autorizate și în Canada și Marea Britanie. Rezultatele sunt așteptate abia peste câteva luni.",
+      "sources": [
+        {"name": "UN News — teste de vaccin autorizate în Canada și UK", "url": "https://news.un.org/en/story/2026/08/1168117"},
+        {"name": "Euronews — OMS recomandă teste umane la scară largă din 9 august", "url": "https://www.euronews.com/health/2026/08/11/ebola-death-toll-in-dr-congo-outbreak-rises-to-more-than-2000-officials-say"}
+      ]
+    },
+    {
+      "text": "Răspunsul e îngreunat de greve ale personalului medical neplătit, de dezinformare și de practici culturale de înmormântare care presupun contact apropiat cu decedatul. Cel puțin 12 unități medicale au fost atacate, iar un atac asupra unui sat pe 8 august a dus la fuga a peste 28.000 de oameni. Peste 300 de copii au murit până acum.",
+      "sources": [
+        {"name": "UN News — factori care complică răspunsul, atacuri asupra unităților medicale", "url": "https://news.un.org/en/story/2026/08/1168117"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Sursele diferă în privința etalonului de comparație pentru „cât de grav” e acest focar. Al Jazeera îl plasează al doilea ca mărime din istorie, după cel din Africa de Vest (2014-2016, 11.310 morți) — o comparație globală. Euronews îl descrie drept cel mai mare din istoria RD Congo, apropiindu-se de focarul din 2018-2020 (2.300 de morți din 3.500 de cazuri) — o comparație doar între focarele congoleze. Ambele cifre sunt corecte, dar măsoară lucruri diferite.",
+      "sources": [
+        {"name": "Al Jazeera — comparație globală cu focarul din Africa de Vest", "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record"},
+        {"name": "Euronews — comparație cu focarul intern din 2018-2020", "url": "https://www.euronews.com/health/2026/08/11/ebola-death-toll-in-dr-congo-outbreak-rises-to-more-than-2000-officials-say"}
+      ]
+    },
+    {
+      "text": "Al Jazeera menționează un posibil caz raportat în Israel pe 12 august 2026, la un cetățean întors din RD Congo — informația nu era confirmată oficial la momentul redactării acestui articol și nu apare în celelalte surse citate.",
+      "sources": [
+        {"name": "Al Jazeera — posibil caz raportat în Israel", "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Etichetarea focarului drept „cel mai grav” depinde de metrica aleasă — viteza de răspândire, numărul absolut de decese sau raportarea la focarele anterioare din aceeași țară. Nu există un consens unic asupra „gravității”; alegerea metricii ține de unghiul redacției, nu de un fapt măsurabil unic."}
+  ],
+  "math": {
+    "title": "Rata de fatalitate: aproape 46%, mai mare decât la focarul din Africa de Vest",
+    "explanation": "2.011 morți din 4.381 de cazuri confirmate înseamnă o rată de fatalitate de aproximativ 45,9% pentru focarul actual din RD Congo. Pentru comparație, focarul din Africa de Vest (2014-2016) a avut 11.310 decese din 28.616 cazuri cumulate, adică o rată de aproximativ 39,5%. Diferența reflectă parțial tulpina implicată: Bundibugyo, cea din focarul actual, nu are încă vaccin aprobat, spre deosebire de tulpina Zaire din 2014-2016, pentru care ulterior a fost aprobat vaccinul Ervebo — un factor care poate explica de ce rata de fatalitate actuală e mai mare."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am pus alături trei redacții independente (Al Jazeera, UN News, Euronews) pentru cifrele centrale, care coincid; am marcat explicit unde comparațiile dintre surse folosesc etaloane diferite (focar mondial vs. focare anterioare din RD Congo) și unde o informație (cazul posibil din Israel) nu era încă confirmată.",
+  "persoane": []
+}
