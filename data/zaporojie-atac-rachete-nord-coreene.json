@@ -1,0 +1,62 @@
+{
+  "slug": "zaporojie-atac-rachete-nord-coreene",
+  "title": "Atac rusesc ucide cel puțin 12 oameni în Ucraina; Zelenski spune că Rusia a folosit rachete balistice nord-coreene",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "Al Jazeera / Ukrinform / Euronews",
+  "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia",
+  "dek": "În noaptea de 10 spre 11 august 2026, un atac rusesc a ucis cel puțin 12 oameni în Ucraina, șapte dintre ei muncitori la combinatul siderurgic Zaporizhstal. Președintele Zelenski afirmă că Rusia a folosit rachete balistice nord-coreene; Ministerul rus al Apărării spune că a lovit „obiective ale industriei de apărare și centre logistice”. Identificarea rachetelor drept nord-coreene vine din surse ucrainene, reluate de mai multe redacții occidentale independente — fără o confirmare separată, neutră.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Atacul rusesc din noaptea de 10 spre 11 august 2026 a lovit Zaporojie, Kiev, Herson, Harkov, Nikolaev și regiunile Dnipropetrovsk și Donețk, ucigând cel puțin 12 oameni și rănind zeci. Guvernatorul regional Ivan Fedorov a confirmat bilanțul de victime pentru Zaporojie.",
+      "sources": [
+        {"name": "Al Jazeera — Russian attacks kill 12, Zelenskyy claims use of North Korean missiles", "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia"},
+        {"name": "Kyiv Independent — Russia strikes Zaporizhzhia, Kyiv, killing 7", "url": "https://kyivindependent.com/explosions-rock-kyiv-zaporizhzhia-as-russian-ballistic-missiles-strike-cities-across-ukraine/"}
+      ]
+    },
+    {
+      "text": "La combinatul siderurgic Zaporizhstal (grupul Metinvest), o rachetă balistică a lovit în timp ce muncitorii se îndreptau spre adăpost, după alarma aeriană. Șapte angajați au murit și 21-24 au fost răniți; combinatul și-a oprit complet producția, iar alte fabrici Metinvest din zonă funcționează la capacitate redusă.",
+      "sources": [
+        {"name": "Ukrinform — Zaporizhstal plant shuts down due to Russian ballistic strike", "url": "https://www.ukrinform.net/rubric-ato/4153218-zaporizhstal-plant-shuts-down-due-to-russian-ballistic-strike-seven-workers-killed-dozens-wounded.html"}
+      ]
+    },
+    {
+      "text": "Forțele Aeriene ucrainene au raportat 20 de rachete lansate spre Zaporojie într-o singură noapte — un amestec de rachete balistice, rachete hipersonice Zircon și bombe planoare ghidate KAB. Ukrinform identifică explicit printre ele rachete balistice KN-23, „de origine nord-coreeană”, alături de rachete rusești Iskander.",
+      "sources": [
+        {"name": "Euronews — Russia fired North Korean missiles in attack that killed six in Zaporizhzhia, Zelenskyy says", "url": "https://www.euronews.com/2026/08/11/russia-fired-north-korean-missiles-in-attack-that-killed-six-in-zaporizhzhia-zelenskyy-say"},
+        {"name": "Ukrinform — KN-23 „de origine nord-coreeană”", "url": "https://www.ukrinform.net/rubric-ato/4153218-zaporizhstal-plant-shuts-down-due-to-russian-ballistic-strike-seven-workers-killed-dozens-wounded.html"}
+      ]
+    },
+    {
+      "text": "Președintele Volodimir Zelenski a declarat că Rusia primește „tot mai multe proiectile balistice și trupe” de la Coreea de Nord și a avertizat că Moscova s-ar putea pregăti să staționeze mai multe trupe nord-coreene pe teritoriul rus.",
+      "sources": [
+        {"name": "RFE/RL — Ukraine Says Russia Fired North Korean Missiles In Deadly Strike", "url": "https://www.rferl.org/a/ukraine-russia-north-korean-missile-attack/33827030.html"},
+        {"name": "CBC News — Zelenskyy says North Korean ballistic missiles used by Russia", "url": "https://www.cbc.ca/news/world/russia-ukraine-war-1630-9.7302823"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Identificarea rachetelor drept „de origine nord-coreeană” provine din surse militare și guvernamentale ucrainene (Forțele Aeriene, președinția). Redacțiile occidentale citate (Al Jazeera, Euronews, RFE/RL, CBC, Ukrinform, Kyiv Independent) relatează consecvent afirmația, dar toate o atribuie părții ucrainene — nu am găsit, în sursele publice verificate, o confirmare independentă venită dintr-o parte neutră (de exemplu o analiză tehnico-militară separată sau o poziție a unui organism internațional). Coreea de Nord nu a comentat public acuzația.",
+      "sources": [
+        {"name": "Al Jazeera — afirmația e atribuită lui Zelenski, fără confirmare separată", "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia"}
+      ]
+    },
+    {
+      "text": "Ministerul rus al Apărării a declarat că țintele lovite au fost „obiective ale industriei de apărare și centre logistice de transport”, contrazicând descrierea ucraineană a unui atac „calculat să provoace pagube maxime infrastructurii civile”. Cele două versiuni despre natura țintelor nu pot fi împăcate din sursele publice disponibile.",
+      "sources": [
+        {"name": "Al Jazeera — poziția Ministerului rus al Apărării", "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Descrierea atacului drept „calculat să provoace pagube maxime infrastructurii civile” (Zelenski) versus lovirea unor „obiective ale industriei de apărare” (Moscova) reflectă interpretări opuse ale acelorași lovituri, fiecare parte prezentând-o din perspectiva proprie într-un război activ — nu un fapt pe care cititorul îl poate verifica independent din sursele publice."}
+  ],
+  "math": {
+    "title": "7 din cel puțin 12 morți — peste jumătate, la un singur combinat",
+    "explanation": "Din cei cel puțin 12 oameni uciși în toată Ucraina în noaptea de 10 spre 11 august 2026, șapte (peste 58%) au murit într-un singur loc: combinatul Zaporizhstal. Restul de aproximativ cinci decese s-au produs în atacuri separate, în regiunile Dnipropetrovsk și Donețk. Concentrarea arată impactul disproporționat al unei singure lovituri asupra unui sit industrial civil cu mii de angajați, indiferent de natura exactă a țintei militare invocate de partea rusă."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am pus alături afirmația ucraineană (rachete nord-coreene, atac vizând infrastructura civilă) și poziția rusă (obiective militare/logistice) fără să decretăm care e corectă — sursele publice verificate nu permit o confirmare independentă, neutră, a originii exacte a rachetelor.",
+  "persoane": []
+}
