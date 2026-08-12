@@ -96,6 +96,15 @@ def ultim_commit(token):
 
 
 def verifica(token):
+    # Probă cerută manual. Există ca să putem vedea măcar o dată alarma
+    # mergând pe tot lanțul — problemă deschisă, mail, apoi închisă singură.
+    # O alertă pe care n-ai văzut-o niciodată pornind nu e o alertă.
+    # Nu se poate declanșa de la sine: cere pornirea manuală a workflow-ului.
+    if os.environ.get("VEGHE_PROBA"):
+        return ("PROBĂ", "Probă cerută manual — nu e nimic stricat. "
+                         "Dacă vezi mailul ăsta, veghea funcționează. "
+                         "Se închide singură la următoarea verificare.")
+
     stare, raspunde = stare_site()
     commit = ultim_commit(token)
 
