@@ -1,0 +1,52 @@
+{
+  "slug": "project-anchor-gravitatie-hoax-nasa",
+  "title": "\"Project Anchor\": teoria virală despre 7 secunde fără gravitație pe 12 august — ce arată dovezile",
+  "category": "Social",
+  "date": "2026-08-13",
+  "source": "Snopes / Newsweek / Fact Crescendo",
+  "url": "https://www.snopes.com/fact-check/nasa-project-anchor-earth-gravity/",
+  "dek": "Postări virale pe Instagram și Facebook au susținut că un document NASA „scurs” numit „Project Anchor” anunța o pierdere a gravitației Pământului timp de 7 secunde, pe 12 august 2026, din cauza unor unde gravitaționale provenite de la găuri negre. NASA a negat public, iar verificatori independenți (Snopes, Fact Crescendo, Newsweek) nu au găsit nicio urmă a documentului invocat.",
+  "mainVerdict": "Contrazis",
+  "probat": [
+    {
+      "text": "Postările virale, apărute pe Instagram și Facebook, susțineau că în noiembrie 2024 ar fi „scurs” online un document clasificat NASA numit „Project Anchor”, cu un buget de 89 de miliarde de dolari, menit să pregătească omenirea pentru o anomalie gravitațională de 7 secunde, prevăzută pentru 12 august 2026 — cauzată, potrivit teoriei, de coliziunea a două găuri negre ale căror unde gravitaționale s-ar fi anihilat reciproc.",
+      "sources": [
+        {"name": "Snopes — Will Earth lose gravity for 7 seconds on Aug. 12, 2026? The truth about alleged NASA doc", "url": "https://www.snopes.com/fact-check/nasa-project-anchor-earth-gravity/"},
+        {"name": "Newsweek — 'Project Anchor' Theory Explained: NASA Denies Gravity Will be Switched Off", "url": "https://www.newsweek.com/project-anchor-theory-explained-nasa-denies-gravity-will-be-switched-off-12313820"}
+      ]
+    },
+    {
+      "text": "NASA a negat categoric afirmația. Într-un comunicat transmis către Snopes, agenția a declarat că Pământul „nu va pierde gravitația pe 12 august 2026” și a precizat că eclipsa solară totală programată în acea zi nu are niciun efect asupra gravitației planetei.",
+      "sources": [
+        {"name": "Snopes — declarația oficială NASA", "url": "https://www.snopes.com/fact-check/nasa-project-anchor-earth-gravity/"},
+        {"name": "Fact Crescendo Sri Lanka — False: No Evidence NASA's \"Project Anchor\" Predicts Earth Will Lose Gravity", "url": "https://srilanka.factcrescendo.com/english/false-nasa-project-anchor-earth-loses-gravity-august-12-2026/"}
+      ]
+    },
+    {
+      "text": "Verificatori independenți — Snopes, Fact Crescendo, plus investigații citate de BBC și Times of India — au căutat în arhive guvernamentale, în NASA Technical Reports Server, în arhive de social media și în baze de date de presă și nu au găsit nicio referință credibilă, niciun document scurs, nicio linie de buget sau publicație oficială care să confirme existența unui „Project Anchor”. Căutări pe Bing, DuckDuckGo, Google și Yahoo nu au găsit rezultate credibile despre o asemenea scurgere din noiembrie 2024.",
+      "sources": [
+        {"name": "Snopes — verificarea absenței oricărei urme a documentului", "url": "https://www.snopes.com/fact-check/nasa-project-anchor-earth-gravity/"}
+      ]
+    },
+    {
+      "text": "Din punct de vedere fizic, gravitația Pământului este o consecință directă a masei planetei — nu este „un mecanism care poate fi pornit sau oprit”. Undele gravitaționale reale, detectate de instrumente precum LIGO, produc distorsiuni mult mai mici decât lățimea unui proton; nicio teorie fizică acceptată nu susține anihilarea temporară a gravitației unei planete.",
+      "sources": [
+        {"name": "Newsweek — explicația științifică a imposibilității afirmației", "url": "https://www.newsweek.com/project-anchor-theory-explained-nasa-denies-gravity-will-be-switched-off-12313820"},
+        {"name": "Fact Crescendo Sri Lanka — argumentele științifice împotriva teoriei", "url": "https://srilanka.factcrescendo.com/english/false-nasa-project-anchor-earth-loses-gravity-august-12-2026/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Originea exactă a zvonului este atribuită de investigații unui cont fictiv de Instagram care ar fi difuzat povești fabricate, printre care și cea despre „Project Anchor” — dar identitatea reală a celui/celor din spatele contului nu a fost stabilită public de niciuna dintre sursele verificate. Nu numim pe nimeni anume, pentru că nu există o atribuire confirmată.",
+      "sources": [
+        {"name": "Snopes — despre originea zvonului pe rețelele sociale", "url": "https://www.snopes.com/fact-check/nasa-project-anchor-earth-gravity/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Reacțiile de panică relatate în presă (oameni care ar fi făcut planuri de siguranță sau au anulat călătorii din cauza teoriei) reflectă efectul real al dezinformării asupra publicului — dar amploarea exactă a acestor reacții nu este un fapt măsurabil independent, ci relatări jurnalistice punctuale."}
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o verificare din presa internațională de fact-checking (Snopes, Newsweek, Fact Crescendo); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Afirmația centrală — că Pământul ar fi pierdut gravitația 7 secunde pe 12 august 2026 din cauza unui program NASA „Project Anchor” — este contrazisă concordant de declarația oficială NASA, de absența oricărei urme a documentului invocat în arhive verificate independent, și de argumente fizice de bază despre natura gravitației. Nu numim pe nimeni vinovat de „minciună” — arătăm doar că afirmația nu se susține și explicăm mecanismul din spatele confuziei (un cont fictiv, o dată reală — eclipsa din 12 august — folosită ca ancoră pentru o poveste fabricată).",
+  "persoane": []
+}
