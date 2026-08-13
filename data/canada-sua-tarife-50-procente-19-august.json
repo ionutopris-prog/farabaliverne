@@ -1,0 +1,62 @@
+{
+  "slug": "canada-sua-tarife-50-procente-19-august",
+  "title": "Canada se pregătește pentru tarife americane de 50% de la 19 august — Carney: „toate opțiunile sunt pe masă”",
+  "category": "Extern",
+  "date": "2026-08-13",
+  "source": "Bloomberg / CBC / Yahoo Finance (traducere și context AI)",
+  "url": "https://ca.finance.yahoo.com/news/canada-faces-50-u-tariff-062000980.html",
+  "dek": "De la 19 august 2026, SUA urmează să impună tarife de 50% pe o serie de produse canadiene — alcool, lactate, ciment, materiale de construcție și altele — echivalentul a circa 20 de miliarde de dolari americani în exporturi. Premierul Mark Carney spune că „toate opțiunile sunt pe masă” dacă negocierile eșuează, dar evită o ripostă imediată cât timp discuțiile continuă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Președintele Trump a anunțat tarife de 50% pe o listă de produse canadiene, invocate în temeiul secțiunii 338 din Tariff Act din 1930, care urmează să intre în vigoare la ora 00:01 pe 19 august 2026. Lista include alcool, lactate, ciment, miere, crose de hochei, materiale de construcție, mobilier și alte categorii, dar exclude energia, potasiul, peștele și mineralele critice.",
+      "sources": [
+        {"name": "Yahoo Finance Canada — Canada faces a 50% U.S. tariff in less than two weeks", "url": "https://ca.finance.yahoo.com/news/canada-faces-50-u-tariff-062000980.html"},
+        {"name": "Bloomberg — Trump's 50% Tariff Threat Drives Urgent Canada-US Negotiations", "url": "https://www.bloomberg.com/news/articles/2026-08-07/canada-races-for-deal-before-trump-s-50-tariff-inflames-feud"}
+      ]
+    },
+    {
+      "text": "Firma de analiză Desjardins estimează impactul la circa 28 de miliarde de dolari canadieni (aproximativ 19,8 miliarde de dolari americani) în exporturi anuale afectate — aproximativ 5% din totalul livrărilor Canadei către SUA. Ontario, Quebec și Columbia Britanică sunt provinciile cele mai expuse.",
+      "sources": [
+        {"name": "Yahoo Finance — Mark Carney Warns Canada Has a 'Full Range' of Responses Ready", "url": "https://finance.yahoo.com/economy/policy/articles/mark-carney-warns-canada-full-220013422.html"}
+      ]
+    },
+    {
+      "text": "Premierul canadian Mark Carney a declarat, după discuții cu premierii provinciilor la Charlottetown: „Dacă aceste tarife, sau alte măsuri, intră în vigoare, avem o gamă largă de lucruri pe care le putem face.” El a precizat însă că o ripostă imediată, cât timp negocierile continuă, ar fi „contraproductivă”.",
+      "sources": [
+        {"name": "Yahoo Finance — citatul lui Carney despre „full range of responses”", "url": "https://finance.yahoo.com/economy/policy/articles/mark-carney-warns-canada-full-220013422.html"}
+      ]
+    },
+    {
+      "text": "Potrivit Bloomberg, până la mijlocul lunii august niciuna dintre concesiile discutate în negocieri nu fusese finalizată; cele două părți au schimbat poziții scrise, dar nu au ajuns la un acord. Discuțiile continuă zilnic și sunt așteptate să meargă până în preziua termenului-limită de 19 august.",
+      "sources": [
+        {"name": "Yahoo Finance — starea negocierilor la mijlocul lunii august", "url": "https://finance.yahoo.com/economy/policy/articles/mark-carney-warns-canada-full-220013422.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu este clar dacă termenul de 19 august va fi respectat întocmai sau dacă va fi folosit ca instrument de negociere. Carney însuși a sugerat că data-limită ar putea face parte din strategia de negociere a Washingtonului: „În mod normal există un termen. În mod normal există un tarif disproporționat asociat acelui termen” — o observație care lasă loc de interpretare, nu o certitudine despre ce se va întâmpla efectiv pe 19 august.",
+      "sources": [
+        {"name": "Yahoo Finance — declarația lui Carney despre natura termenului-limită", "url": "https://finance.yahoo.com/economy/policy/articles/mark-carney-warns-canada-full-220013422.html"}
+      ]
+    },
+    {
+      "text": "Impactul concret asupra prețurilor pentru consumatorii canadieni rămâne incert pe categorii: pentru alcool s-ar putea vedea doar o „selecție mai largă”, nu neapărat prețuri mai mici; pentru vehicule, reducerile depind de producător și model; pentru lactate, sursele spun explicit că nu există „bază fiabilă” pentru a prezice o schimbare de preț.",
+      "sources": [
+        {"name": "Yahoo Finance Canada — ce se schimbă pentru cumpărători", "url": "https://ca.finance.yahoo.com/news/canada-faces-50-u-tariff-062000980.html"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Unii lideri provinciali au cerut Ottawei contramăsuri „ferme”, inclusiv tarife de ripostă pe alcool și electricitate americană — este o poziție politică a acelor guverne provinciale, nu o decizie confirmată a guvernului federal canadian, care spune deocamdată că preferă negocierea."
+    }
+  ],
+  "math": {
+    "title": "28 de miliarde CAD reprezintă doar o felie din comerțul total cu SUA",
+    "explanation": "Desjardins estimează exporturile afectate la circa 28 de miliarde de dolari canadieni, echivalentul a aproximativ 5% din totalul exporturilor Canadei către Statele Unite. Cu alte cuvinte, chiar dacă tariful de 50% ar rămâne în vigoare pe toată lista de produse vizate, el ar atinge direct doar 1 din 20 de dolari din comerțul bilateral anual — restul de 95% (energie, potasiu, pește, minerale critice și alte categorii) rămâne, deocamdată, în afara acestui pachet de tarife."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Bloomberg, CBC, Yahoo Finance); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce se probează: tariful de 50% anunțat pentru 19 august 2026, lista de produse vizate și cifra estimată a exporturilor afectate. Ce rămâne deschis: dacă termenul va fi respectat sau folosit ca pârghie de negociere, și cum se vor traduce tarifele în prețuri reale pentru consumatori.",
+  "persoane": ["Mark Carney"]
+}
