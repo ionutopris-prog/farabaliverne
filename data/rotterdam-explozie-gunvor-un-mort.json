@@ -1,0 +1,62 @@
+{
+  "slug": "rotterdam-explozie-gunvor-un-mort",
+  "title": "Explozie la rafinăria Gunvor din portul Rotterdam: un mort, mai mulți răniți — cauza, încă neconfirmată oficial",
+  "category": "Extern",
+  "date": "2026-08-13",
+  "source": "Euronews / Gulf News",
+  "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-at-dutch-port-of-rotterdam-leaves-one-dead-and-several-injured-police-say",
+  "dek": "🌍 O explozie a avut loc joi dimineață la terminalul Gunvor Energy din Europoort, cea mai mare zonă industrială a portului Rotterdam. Gunvor confirmă un mort și mai mulți răniți; poliția olandeză spune că „ia în calcul toate scenariile” pentru cauză — relatările inițiale despre motiv diferă între ele.",
+  "mainVerdict": "Probat că a avut loc explozia și decesul — cauza exactă, neconfirmată oficial",
+  "probat": [
+    {
+      "text": "Joi, 13 august 2026, dimineața, a avut loc o explozie la terminalul de rafinărie și combustibili al Gunvor Energy, în Europoort — una dintre cele mai mari zone industriale petrochimice din lume, parte a portului Rotterdam. Compania Gunvor a confirmat oficial: „În această dimineață, un contractor efectua lucrări de mentenanță într-un bazin de rezervoare (tank pit), iar în timpul lucrărilor a avut loc un incident.” Cel puțin o persoană a murit, iar mai multe au fost rănite.",
+      "sources": [
+        {
+          "name": "Euronews — Explosion at Dutch port of Rotterdam leaves one dead and several injured, police say",
+          "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-at-dutch-port-of-rotterdam-leaves-one-dead-and-several-injured-police-say"
+        },
+        {
+          "name": "Gulf News — One Dead, Several Injured in Rotterdam Port Refinery Explosion at Gunvor Energy",
+          "url": "https://gulfnews.com/world/europe/one-dead-in-rotterdam-port-refinery-blast-1.500640089"
+        }
+      ]
+    },
+    {
+      "text": "Serviciile de urgență au trimis mai multe ambulanțe și un elicopter medical la fața locului. Mai multe companii din zona industrială și-au oprit temporar activitatea și și-au evacuat, din precauție, angajații. Poliția a instituit un perimetru de anchetă („crime scene”) pentru a stabili cauza exploziei.",
+      "sources": [
+        {
+          "name": "Euronews — Explosion at Dutch port of Rotterdam leaves one dead and several injured, police say",
+          "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-at-dutch-port-of-rotterdam-leaves-one-dead-and-several-injured-police-say"
+        }
+      ]
+    },
+    {
+      "text": "Ancheta este condusă de poliție, împreună cu experți criminaliști și inspectoratul de muncă olandez. Un purtător de cuvânt al poliției a declarat: „Luăm în calcul toate scenariile și derulăm ancheta cu mai multe părți implicate” — cauza exactă a incidentului nu era stabilită la momentul relatării.",
+      "sources": [
+        {
+          "name": "Gulf News — One Dead, Several Injured in Rotterdam Port Refinery Explosion at Gunvor Energy",
+          "url": "https://gulfnews.com/world/europe/one-dead-in-rotterdam-port-refinery-blast-1.500640089"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Primele relatări despre cauza exploziei diferă între ele și rămân neconfirmate oficial. Postul public NOS a scris, pe surse preliminare, că un echipaj de mentenanță lucra la o secțiune de conducte și că evenimentul ar fi putut fi cauzat de deconectarea acestora. Separat, serviciile de urgență din Rotterdam au raportat o pană majoră de curent și un incendiu la un transformator, „în circumstanțe neclare”, în același interval orar. Poliția nu a confirmat niciuna dintre cele două variante ca fiind cauza exploziei — ancheta e în desfășurare.",
+      "sources": [
+        {
+          "name": "Euronews — Explosion at Dutch port of Rotterdam leaves one dead and several injured, police say",
+          "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-at-dutch-port-of-rotterdam-leaves-one-dead-and-several-injured-police-say"
+        },
+        {
+          "name": "Gulf News — One Dead, Several Injured in Rotterdam Port Refinery Explosion at Gunvor Energy",
+          "url": "https://gulfnews.com/world/europe/one-dead-in-rotterdam-port-refinery-blast-1.500640089"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am ținut separat ce a confirmat oficial Gunvor (explozia, decesul) de ipotezele încă neconfirmate despre cauză (conducte deconectate vs. transformator incendiat), pentru că poliția însăși spune că nu a stabilit cauza.",
+  "math": null,
+  "persoane": []
+}
