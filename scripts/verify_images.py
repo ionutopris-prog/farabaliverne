@@ -76,7 +76,14 @@ def main():
         text = credit.group(1)
         if "Wikimedia Commons" not in text:
             erori.append(f"{slug}: legenda nu spune sursa")
-        if "creativecommons.org" not in text and "Public domain" not in text:
+        # Domeniul public n-are text de licență de linkat — atribuirea e completă
+        # fără link. Commons întoarce eticheta când în engleză („Public domain"),
+        # când tradusă („Domeniu public"), în funcție de șablonul fișierului, iar
+        # verificarea știa doar varianta engleză. O singură poză cu eticheta în
+        # română a oprit deploy-ul 4 ore și jumătate pe 13 august, blocând 11
+        # articole care n-aveau nicio problemă.
+        pd = ("public domain" in text.lower() or "domeniu public" in text.lower())
+        if "creativecommons.org" not in text and not pd:
             erori.append(f"{slug}: legenda nu are link către licență")
         if "de autor necunoscut" in text:
             avertismente.append(f"{slug}: autor neidentificat")
