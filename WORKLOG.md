@@ -6,6 +6,57 @@
 
 ---
 
+## 🟣 13 august 2026 — Un cuvânt în română a oprit publicarea a 11 articole
+
+A doua oară în două zile, publicarea s-a oprit din același loc: pasul „Verifică
+pozele" rulează **înaintea** celui care declanșează deploy-ul, deci o eroare
+acolo nu blochează o poză, blochează tot site-ul. Trei ediții picate (09:07,
+10:57, 11:51 UTC), 11 articole rămase pe GitHub, site-ul înțepenit la 121 de
+articole din 132 timp de patru ore și jumătate.
+
+Cauza, un singur cuvânt: Commons întoarce eticheta de licență când în engleză
+(`Public domain`), când tradusă (`Domeniu public`), în funcție de șablonul
+fișierului. Verificarea știa doar varianta engleză, așa că a cerut „link către
+licență" pentru o poză din **domeniul public** — care nici n-are text de licență
+de linkat. O poză, dintr-un articol despre NATO, a ținut pe loc alte zece care
+n-aveau nimic.
+
+**De rezolvat, decizia fondatorului:** verificarea de legalitate (hotlink,
+atribuire) merită să oprească publicarea — riscul e real. Dar merită ca **o
+singură poză să țină pe loc toate celelalte articole**? Alternativa ar fi ca
+articolul cu problema să-și piardă poza automat (cum face deja verificarea
+vizuală), iar restul să plece. Nu am schimbat asta de capul meu.
+
+---
+
+## 🟣 13 august 2026 — Verificarea vizuală a pozelor, în fiecare ediție
+
+`verify_images.py` verifică ce se poate **măsura**: hotlink, atribuire,
+greutate. Toate pozele greșite ajunse pe site au trecut de el fără o vorbă —
+drapelul Turciei pe patru articole despre Ucraina, Kievul sub o știre despre
+Dnipro, obuze cu iperită sub o uzină convențională de muniție. Nimic din astea
+nu se vede din metadate. Trebuie cineva **să se uite la poză**.
+
+**Varianta ieftină, măsurată și aruncată.** Regula „numele fișierului de pe
+Commons să aibă un cuvânt comun cu ce am căutat" a fost testată pe 82 de poze
+reale: marca 13, din care ~11 erau **bune** — „National Bank of Romania" venise
+ca `Banco_Nacional_de_Rumanía`, „Ambulanță" ca `AMBULANCE_IN_ROMENIA`, iar
+arhivele militare au coduri de tipul `161025-N-ZE250-173`. O alarmă care sună
+degeaba se învață să fie ignorată, deci regula n-a fost livrată.
+
+**`scripts/verifica_poza.py`** se uită efectiv la fotografie, cu Sonnet, 4 poze
+în paralel. La validare a curățat 4/4 fals-pozitive ale regulii ieftine și a
+prins două poze chiar greșite pe care nimic altceva nu le văzuse: o ședință de
+briefing pusă sub un articol despre drone, și un demo de recunoaștere de imagini
+(o banană) sub o știre despre o companie de AI.
+
+Rulează pe abonamentul Max, ca redactorul: **consumă din cotă, nu bani** — la
+~19 ediții pe zi cu 1–3 poze noi fiecare, undeva la 20–60 de apeluri mici pe zi.
+**Nu blochează publicarea:** poza nepotrivită e scoasă și rămâne cardul de
+brand. O poză greșită doare, un site care nu mai publică doare mai mult.
+
+---
+
 ## 🟣 13 august 2026 — Veghea: o alertă când site-ul nu mai publică
 
 Ieri, zece ediții picate au trimis zece mailuri „failed to deploy", și niciunul
