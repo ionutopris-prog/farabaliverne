@@ -1,0 +1,48 @@
+{
+  "slug": "uk-pib-crestere-0-4-trimestrul-2-2026",
+  "title": "Economia britanică a încetinit la 0,4% în trimestrul 2 din 2026, pe fondul efectelor războiului din Iran",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "Reuters / ONS",
+  "url": "https://www.bursa.ro/reuters-economia-britanica-a-crescut-cu-0-4-procente-in-trimestrul-doi-din-2026-47268957",
+  "dek": "Oficiul Național de Statistică al Marii Britanii (ONS) a raportat pe 13 august 2026 o creștere de 0,4% a PIB-ului în trimestrul al doilea din 2026, sub cei 0,6% din trimestrul întâi. ONS leagă încetinirea de efectele conflictului din Iran, dar semnalează și o surpriză pozitivă: creșterea neașteptată de 0,3% în luna iunie, susținută de Campionatul Mondial de fotbal și de vremea caldă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Economia Marii Britanii a crescut cu 0,4% în trimestrul al doilea din 2026, față de 0,6% în trimestrul întâi — o încetinire confirmată de datele oficiale ale Oficiului Național de Statistică (ONS), publicate pe 13 august 2026. Cifra trimestrială a fost în linie cu așteptările analiștilor.",
+      "sources": [
+        {"name": "BURSA / Reuters — Economia britanică a crescut cu 0,4% în trimestrul doi din 2026", "url": "https://www.bursa.ro/reuters-economia-britanica-a-crescut-cu-0-4-procente-in-trimestrul-doi-din-2026-47268957"},
+        {"name": "Financial Intelligence — Economia britanică și-a încetinit creșterea în trimestrul al doilea din 2026", "url": "https://financialintelligence.ro/economia-britanica-si-a-incetinit-cresterea-in-trimestrul-al-doilea-din-2026/"}
+      ]
+    },
+    {
+      "text": "ONS a raportat pentru luna iunie 2026, izolat, o creștere lunară de 0,3% — un rezultat neașteptat, întrucât analiștii intervievați de Reuters anticipaseră o stagnare (0%). Instituția a explicat surpriza prin atenuarea prețurilor la energie, debutul Campionatului Mondial de fotbal (care a stimulat vânzările producătorilor de băuturi și alimente) și temperaturile ridicate, care au impulsionat activitatea unor sectoare.",
+      "sources": [
+        {"name": "Financial Intelligence — Economia britanică și-a încetinit creșterea în trimestrul al doilea din 2026", "url": "https://financialintelligence.ro/economia-britanica-si-a-incetinit-cresterea-in-trimestrul-al-doilea-din-2026/"},
+        {"name": "BURSA / Reuters — Economia britanică a crescut cu 0,4% în trimestrul doi din 2026", "url": "https://www.bursa.ro/reuters-economia-britanica-a-crescut-cu-0-4-procente-in-trimestrul-doi-din-2026-47268957"}
+      ]
+    },
+    {
+      "text": "ONS a precizat că mai puține firme au menționat conflictul din Iran drept motiv de îngrijorare față de lunile precedente — un semnal că efectul negativ al războiului asupra economiei se atenuează, chiar dacă rămâne prezent în datele trimestriale. Pe sectoare, în iunie: servicii +0,4%, industrie -0,2%, construcții -0,1%.",
+      "sources": [
+        {"name": "Financial Intelligence — Economia britanică și-a încetinit creșterea în trimestrul al doilea din 2026", "url": "https://financialintelligence.ro/economia-britanica-si-a-incetinit-cresterea-in-trimestrul-al-doilea-din-2026/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Perspectivele pentru trimestrul al treilea rămân incerte și divergente: Banca Angliei (care a menținut dobânda de politică monetară la 3,75%) a estimat anterior o posibilă stagnare (creștere zero) în trimestrul următor, în timp ce analiștii de la Capital Economics se așteaptă la stagnare atât în trimestrul 2, cât și în trimestrul 3, cu recesiunea drept scenariu de risc. FMI, la rândul său, estimează o creștere anuală de 1,3% pentru 2026 — o cifră mai optimistă decât tonul avertismentelor pe termen scurt. Nu există, la data verificării, un consens ferm între aceste instituții.",
+      "sources": [
+        {"name": "BURSA / Reuters — Economia britanică a crescut cu 0,4% în trimestrul doi din 2026", "url": "https://www.bursa.ro/reuters-economia-britanica-a-crescut-cu-0-4-procente-in-trimestrul-doi-din-2026-47268957"},
+        {"name": "Financial Intelligence — Economia britanică și-a încetinit creșterea în trimestrul al doilea din 2026", "url": "https://financialintelligence.ro/economia-britanica-si-a-incetinit-cresterea-in-trimestrul-al-doilea-din-2026/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Încetinirea reprezintă o treime din ritmul trimestrului anterior",
+    "explanation": "De la 0,6% (trimestrul 1) la 0,4% (trimestrul 2) înseamnă o scădere de 0,2 puncte procentuale, adică aproximativ o treime din ritmul de creștere anterior (0,2/0,6 ≈ 33%). Nu este o contracție — economia tot a crescut — dar ritmul s-a redus vizibil, ceea ce explică de ce Banca Angliei și Capital Economics avertizează asupra riscului de stagnare în trimestrele următoare."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (date oficiale ONS, distribuite de Reuters); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele centrale (0,4% pe trimestru, 0,3% pe iunie) sunt confirmate concordant de mai multe redacții care citează aceleași date ONS. Ce rămâne o chestiune de interpretare, nu de fapt stabilit: cât de mult va continua încetinirea în trimestrele următoare — aici instituțiile citate (Banca Angliei, Capital Economics, FMI) au estimări diferite, de la stagnare la creștere moderată.",
+  "persoane": []
+}
