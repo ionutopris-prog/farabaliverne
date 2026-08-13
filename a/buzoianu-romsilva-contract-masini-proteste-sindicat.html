@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară — Fără Baliverne</title>
-<meta name="description" content="Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină.">
+<title>Buzoianu acuză Romsilva că a promis mașini pentru protestele sindicale — Federația Silva: „fals” — Fără Baliverne</title>
+<meta name="description" content="Ministra interimară a Mediului, Diana Buzoianu, a acuzat joi, 13 august 2026, Romsilva de a fi inclus în noul contract colectiv de muncă o clauză prin care instituția s-ar obliga să asigure mașini pentru protestele Federației sindicale Silva. Federația neagă și vorbește despre o „denaturare” a realității și a cadrului legal — textul exact al clauzei nu a fost făcut public de niciuna dintre părți.">
 <style>
 
   :root{
@@ -125,7 +125,6 @@
   .chip.soft.bad{color:var(--bad);background:var(--bad-bg);border-color:var(--bad-line);box-shadow:none}
   .chip.soft.check{color:var(--check);background:var(--check-bg);border-color:var(--check-line);box-shadow:none}
 
-  /* --- Badge de raport (probat / contestat / opinie) — inlocuieste verdictul-oracol --- */
   .report-badge{
     display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;color:var(--ink-soft);
     background:var(--paper-2);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px;white-space:nowrap;
@@ -173,38 +172,12 @@
   .section-head .more:hover{text-decoration:underline}
   .cat-section{margin-bottom:40px}
 
-  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
-  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-  .card{
-    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
-    box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
-  }
-  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-4px);border-color:var(--line-2)}
-  .card .photo{aspect-ratio:16/9}
-  .card:hover .photo .art{transform:scale(1.06)}
-  .card .cbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:11px;flex:1}
-  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
-  .card h3{
-    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.22;margin:0;
-    letter-spacing:-.005em;color:var(--ink);transition:.15s ease;
-  }
-  .card:hover h3{color:var(--accent-deep)}
-  .card .dek{font-size:13.5px;color:var(--ink-soft);margin:0}
-  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-faint)}
-
   .photo{position:relative;overflow:hidden;background:#e4ede1}
   .photo .art{position:absolute;inset:0;transition:transform .5s ease}
   .photo .glyph{
     position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
     font-size:clamp(40px,9vw,84px);opacity:.92;filter:drop-shadow(0 4px 10px rgba(0,0,0,.2));
   }
-  .photo .srcbadge{
-    position:absolute;left:12px;bottom:12px;z-index:3;font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;
-    background:rgba(20,16,14,.55);backdrop-filter:blur(3px);padding:6px 11px;border-radius:999px;
-    display:inline-flex;align-items:center;gap:6px;transition:.15s ease;
-  }
-  .photo .srcbadge:hover{background:rgba(20,16,14,.78)}
-  .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
   .photo .grad{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.42) 100%)}
   .photo .cat-pill{
     position:absolute;right:12px;top:12px;z-index:3;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
@@ -215,12 +188,6 @@
     color:rgba(255,255,255,.88);background:rgba(20,16,14,.35);padding:4px 9px;border-radius:6px;
   }
   .pattern{position:absolute;inset:0;z-index:1;opacity:.5;mix-blend-mode:soft-light}
-
-  .g-pol{background:linear-gradient(135deg,#6a7ba0,#37426a)}
-  .g-eco{background:linear-gradient(135deg,#4a9179,#245a49)}
-  .g-ext{background:linear-gradient(135deg,#8c6a9c,#4a3563)}
-  .g-soc{background:linear-gradient(135deg,#c07f52,#7d4a2b)}
-  .g-san{background:linear-gradient(135deg,#5f9ab5,#2f5f79)}
 
   .foto-credit{
     display:flex;gap:9px;align-items:flex-start;
@@ -234,57 +201,17 @@
   .foto-credit .attrib{display:block;margin-top:3px;font-size:11px;line-height:1.45;color:var(--ink-faint,#9ca3af)}
   .foto-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
   .foto-credit a:hover{color:var(--accent,#a5372a)}
+  .g-pol{background:linear-gradient(135deg,#6a7ba0,#37426a)}
+  .g-eco{background:linear-gradient(135deg,#4a9179,#245a49)}
+  .g-ext{background:linear-gradient(135deg,#8c6a9c,#4a3563)}
+  .g-soc{background:linear-gradient(135deg,#c07f52,#7d4a2b)}
+  .g-sport{background:linear-gradient(135deg,#3f8f6f,#1f5240)}
+  .g-sci{background:linear-gradient(135deg,#3f7f9f,#1f425a)}
+  .g-state{background:linear-gradient(135deg,#b5563f,#6e2f21)}
   .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
-
-  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
-  .panel .ph{
-    padding:13px 17px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px;font-weight:700;
-    display:flex;align-items:center;justify-content:space-between;
-  }
-  .panel .ph .tag{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
-
-  .rank{list-style:none;margin:0;padding:6px 0}
-  .rank li{display:flex;gap:12px;padding:12px 17px;border-bottom:1px solid var(--line);transition:.15s}
-  .rank li:last-child{border-bottom:0}
-  .rank li:hover{background:var(--paper-2)}
-  .rank a{display:flex;gap:12px}
-  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
-  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
-  .rank .rmeta{margin-top:6px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--ink-faint)}
-
-  .ad{border:1px dashed var(--line-2);border-radius:var(--radius);background:var(--paper-2);overflow:hidden}
-  .ad .adlabel{
-    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center;
-    padding:7px;border-bottom:1px dashed var(--line-2);background:rgba(34,31,27,.02);
-  }
-  .ad .adbox{padding:26px 18px;text-align:center}
-  .ad .adart{
-    width:56px;height:56px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(135deg,#d8b25a,#a5822f);
-    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 8px 18px rgba(165,130,47,.3);
-  }
-  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
-  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
-  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:8px 17px;border-radius:999px;transition:.15s}
-  .ad:hover .adbtn{background:var(--gold);color:#fff}
 
   .method{padding:17px}
   .method p{margin:0 0 13px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
-  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:11px}
-  .method .row:last-child{margin-bottom:0}
-  .method .row .k{font-size:15px;line-height:1.3}
-
-  .support-panel{
-    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fbe9e2;text-align:center;
-    padding:24px 20px;border-radius:var(--radius);box-shadow:var(--shadow);
-  }
-  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
-  .support-panel p{font-size:13px;margin:0 0 16px;color:#f4ddd6;line-height:1.5}
-  .support-panel .sbtn{display:inline-block;background:#faf6ec;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:10px 21px;border-radius:999px;transition:.15s}
-  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.18)}
-  .support-panel small{display:block;margin-top:12px;font-size:11px;color:#f0d4cd;opacity:.9}
-
-  .strip{margin-top:8px}
 
   footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
   footer .wrap{padding:42px 22px 30px}
@@ -306,7 +233,6 @@
   .foot-bottom a:hover{color:#fff}
   .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
 
-  /* ---------- Article page specific ---------- */
   .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
     border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
   .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
@@ -365,12 +291,9 @@
 
   @media(max-width:980px){
     .grid-main{grid-template-columns:1fr}
-    aside{position:static;flex-direction:column}
-    .cards-3{grid-template-columns:repeat(2,1fr)}
   }
   @media(max-width:720px){
     body{font-size:16px}
-    .cards,.cards-3{grid-template-columns:1fr}
     .support{position:static;margin-top:14px}
     .masthead .wrap{padding-bottom:18px}
     .legend .wrap{font-size:12px}
@@ -379,7 +302,7 @@
     .ev-block{padding:18px 18px 20px}
   }
 </style>
-<link rel="canonical" href="https://farabaliverne.ro/a/congo-ebola-focar-record-decese.html">
+<link rel="canonical" href="https://farabaliverne.ro/a/buzoianu-romsilva-contract-masini-proteste-sindicat.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -388,23 +311,23 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Fără Baliverne">
 <meta property="og:locale" content="ro_RO">
-<meta property="og:title" content="Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară — Fără Baliverne">
-<meta property="og:description" content="Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină.">
-<meta property="og:url" content="https://farabaliverne.ro/a/congo-ebola-focar-record-decese.html">
-<meta property="og:image" content="https://farabaliverne.ro/img/articole/congo-ebola-focar-record-decese.jpg">
+<meta property="og:title" content="Buzoianu acuză Romsilva că a promis mașini pentru protestele sindicale — Federația Silva: „fals” — Fără Baliverne">
+<meta property="og:description" content="Ministra interimară a Mediului, Diana Buzoianu, a acuzat joi, 13 august 2026, Romsilva de a fi inclus în noul contract colectiv de muncă o clauză prin care instituția s-ar obliga să asigure mașini pentru protestele Federației sindicale Silva. Federația neagă și vorbește despre o „denaturare” a realității și a cadrului legal — textul exact al clauzei nu a fost făcut public de niciuna dintre părți.">
+<meta property="og:url" content="https://farabaliverne.ro/a/buzoianu-romsilva-contract-masini-proteste-sindicat.html">
+<meta property="og:image" content="https://farabaliverne.ro/img/articole/buzoianu-romsilva-contract-masini-proteste-sindicat.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară — Fără Baliverne">
-<meta name="twitter:description" content="Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină.">
-<meta name="twitter:image" content="https://farabaliverne.ro/img/articole/congo-ebola-focar-record-decese.jpg">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară", "image": ["https://farabaliverne.ro/img/articole/congo-ebola-focar-record-decese.jpg"], "datePublished": "2026-08-12", "dateModified": "2026-08-12", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "publisher": {"@type": "Organization", "name": "Fără Baliverne", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png"}}, "mainEntityOfPage": "https://farabaliverne.ro/a/congo-ebola-focar-record-decese.html", "description": "Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină."}</script>
+<meta name="twitter:title" content="Buzoianu acuză Romsilva că a promis mașini pentru protestele sindicale — Federația Silva: „fals” — Fără Baliverne">
+<meta name="twitter:description" content="Ministra interimară a Mediului, Diana Buzoianu, a acuzat joi, 13 august 2026, Romsilva de a fi inclus în noul contract colectiv de muncă o clauză prin care instituția s-ar obliga să asigure mașini pentru protestele Federației sindicale Silva. Federația neagă și vorbește despre o „denaturare” a realității și a cadrului legal — textul exact al clauzei nu a fost făcut public de niciuna dintre părți.">
+<meta name="twitter:image" content="https://farabaliverne.ro/img/articole/buzoianu-romsilva-contract-masini-proteste-sindicat.jpg">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Buzoianu acuză Romsilva că a promis mașini pentru protestele sindicale — Federația Silva: „fals”", "image": ["https://farabaliverne.ro/img/articole/buzoianu-romsilva-contract-masini-proteste-sindicat.jpg"], "datePublished": "2026-08-13", "dateModified": "2026-08-13", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "publisher": {"@type": "Organization", "name": "Fără Baliverne", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png"}}, "mainEntityOfPage": "https://farabaliverne.ro/a/buzoianu-romsilva-contract-masini-proteste-sindicat.html", "description": "Ministra interimară a Mediului, Diana Buzoianu, a acuzat joi, 13 august 2026, Romsilva de a fi inclus în noul contract colectiv de muncă o clauză prin care instituția s-ar obliga să asigure mașini pentru protestele Federației sindicale Silva. Federația neagă și vorbește despre o „denaturare” a realității și a cadrului legal — textul exact al clauzei nu a fost făcut public de niciuna dintre părți."}</script>
 </head>
 <body>
 
   <div class="topbar">
     <div class="wrap">
-      <div class="date">Miercuri, 12 august 2026 · Ediția de cafeluță</div>
+      <div class="date">Joi, 13 august 2026 · Ediția de după-amiază</div>
       <div class="live"><span class="dot"></span> 137 verificări publicate</div>
     </div>
   </div>
@@ -453,105 +376,90 @@
 
       <article>
         <div class="article-head">
-            <div class="photo g-ext">
+            <div class="photo g-hero">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-congo-ebola-focar-record-decese" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-congo-ebola-focar-record-decese)"/></svg></div>
-                <div class="glyph">🌍</div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-buzoianu-romsilva-contract-masini-proteste-sindicat" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-buzoianu-romsilva-contract-masini-proteste-sindicat)"/></svg></div>
+                <div class="glyph">🌲</div>
               </div>
-              <img src="../img/articole/congo-ebola-focar-record-decese.jpg" alt="Ebola virus virion electron micrograph" loading="eager" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <img src="../img/articole/buzoianu-romsilva-contract-masini-proteste-sindicat.jpg" alt="Diana Buzoianu" loading="eager" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
+              <div class="cat-pill">Politică</div>
             </div>
-<figcaption class="foto-credit"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><span class="txt"><span class="lead"><b>Foto ilustrativă</b> — Ebola virus virion electron micrograph. Nu este o imagine de la evenimentul relatat.</span><span class="attrib">„<a href="https://commons.wikimedia.org/wiki/File:Ebola_Virus.jpg" rel="nofollow noopener" target="_blank">Ebola Virus</a>" de CDC, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>
+<figcaption class="foto-credit"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><span class="txt"><span class="lead"><b>Foto de arhivă</b> — Diana Buzoianu. Nu este o imagine de la evenimentul relatat.</span><span class="attrib">„<a href="https://commons.wikimedia.org/wiki/File:20.01.2026_-_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului,_Igor_Grosu,_cu_Diana-Anda_Buzoianu,_ministra_Mediului,_Apelor_%C8%99i_P%C4%83durilor_a_Rom%C3%A2niei_-_55051836945.jpg" rel="nofollow noopener" target="_blank">20.01.2026 - Întrevederea Președintelui Parlamentului, Igor Grosu, cu Diana-Anda Buzoianu, ministra Mediului, Apelor și Pădurilor a României - 55051836945</a>" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" rel="license nofollow noopener" target="_blank">CC0</a> · decupată</span></span></figcaption>
           <div class="abody">
             <div class="eyebrow">
-              <span class="cat-tag">Extern</span>
+              <span class="cat-tag">Politică</span>
             </div>
-            <h1>Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară</h1>
-            <p class="dek">Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină.</p>
+            <h1>Buzoianu acuză Romsilva că a promis mașini pentru protestele sindicale — Federația Silva: „fals”</h1>
+            <p class="dek">Ministra interimară a Mediului, Diana Buzoianu, a acuzat joi, 13 august 2026, Romsilva de a fi inclus în noul contract colectiv de muncă o clauză prin care instituția s-ar obliga să asigure mașini pentru protestele Federației sindicale Silva. Federația neagă și vorbește despre o „denaturare” a realității și a cadrului legal — textul exact al clauzei nu a fost făcut public de niciuna dintre părți.</p>
             <div class="verdict-row">
-              <div class="report-badge lg"><span class="seg ok">✔ 5 probate</span> <span style="color:var(--line-2)">·</span> <span class="seg warn">⚠ 3 contestate</span> <span style="color:var(--line-2)">·</span> <span class="seg op">✎ 2 opinie</span></div>
-              <span class="chip soft ok sm">unde bat probele: Probat, cu rezerve</span>
+              <div class="report-badge lg"><span class="seg ok">✔ 4 probate</span> <span style="color:var(--line-2)">·</span> <span class="seg warn">⚠ 1 contestată</span> <span style="color:var(--line-2)">·</span> <span class="seg op">✎ 1 opinie</span></div>
+              <span class="chip soft warn sm">unde bat probele: acuzație vs. negare, fără clauza publicată</span>
             </div>
             <div class="meta">
-              <span class="src"><span class="fav" style="background:#1c3f66"></span> Al Jazeera / UN News / Euronews</span>
+              <span class="src"><span class="fav" style="background:#556050"></span> Digi24 / Cotidianul / G4Media</span>
               <span>·</span>
-              <span>2026-08-12</span>
+              <span>2026-08-13</span>
               <span>·</span>
-              <a href="https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record" target="_blank" rel="noopener noreferrer" class="ext">Articol sursă original</a>
+              <a href="https://www.digi24.ro/stiri/actualitate/scandal-la-romsilva-buzoianu-acuza-institutia-ca-asigura-masini-pentru-proteste-sindicalisti-fals-sa-inceteze-atacul-murdar-3905081" target="_blank" rel="noopener noreferrer" class="ext">Articol sursă original</a>
             </div>
           </div>
         </div>
 
-      <a class="src-cite" data-realphoto="1" href="https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record" target="_blank" rel="noopener noreferrer" style="display:flex;gap:0;align-items:stretch;text-decoration:none;border:1px solid var(--line-2);background:var(--card);border-radius:14px;overflow:hidden;margin:2px 0 26px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s" onmouseover="this.style.boxShadow='var(--shadow-hi)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='var(--shadow)';this.style.transform='none'"><span style="flex:0 0 132px;background:#e4ede1;position:relative;overflow:hidden"></span><span style="display:flex;flex-direction:column;justify-content:center;gap:4px;padding:14px 18px;min-width:0"><span style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);font-weight:800">Sursă originală · Al Jazeera / UN News / Euronews</span><span style="font-size:15.5px;color:var(--ink);line-height:1.32;font-weight:600">Focarul de Ebola din RD Congo trece de 2.000 de morți — cel mai rapid focar înregistrat vreodată în țară</span><span style="font-size:13px;color:var(--accent);font-weight:800;margin-top:2px">Citește știrea originală →</span></span></a>
+      <a class="src-cite" href="https://www.digi24.ro/stiri/actualitate/scandal-la-romsilva-buzoianu-acuza-institutia-ca-asigura-masini-pentru-proteste-sindicalisti-fals-sa-inceteze-atacul-murdar-3905081" target="_blank" rel="noopener noreferrer" style="display:flex;gap:0;align-items:stretch;text-decoration:none;border:1px solid var(--line-2);background:var(--card);border-radius:14px;overflow:hidden;margin:2px 0 26px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s" onmouseover="this.style.boxShadow='var(--shadow-hi)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='var(--shadow)';this.style.transform='none'"><span style="flex:0 0 8px;background:var(--accent)"></span><span style="display:flex;flex-direction:column;justify-content:center;gap:4px;padding:14px 18px;min-width:0"><span style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);font-weight:800">Sursă originală · Digi24</span><span style="font-size:15.5px;color:var(--ink);line-height:1.32;font-weight:600">Scandal la Romsilva. Buzoianu acuză instituția că asigură mașini pentru proteste. Sindicaliști: „Fals. Să înceteze atacul murdar”</span><span style="font-size:13px;color:var(--accent);font-weight:800;margin-top:2px">Citește știrea originală →</span></span></a>
 
       <section class="ev-block probat">
         <h2>✅ Se probează</h2>
         <p class="ev-sub">Afirmații susținute de surse verificabile.</p>
         <div class="ev-item">
-          <p>Bilanțul oficial anunțat de autoritățile congoleze marți, 11 august 2026: 2.011 morți din 4.381 de cazuri confirmate de Ebola, tulpina Bundibugyo. Cifrele sunt raportate concordant de mai multe redacții internaționale independente.</p>
+          <p>Diana Buzoianu, ministra interimară a Mediului, a declarat joi, 13 august 2026: „O poveste tare de tot, tocmai am descoperit cum Romsilva s-a obligat să asigure mașini din cadrul instituției pentru protestele organizate de Federația sindicală Silva”. Ea a legat acuzația de negocierea recentă a unui nou contract colectiv de muncă pentru personalul silvic.</p>
           <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record</span></a>
-            <a href="https://news.un.org/en/story/2026/08/1168117" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">UN News — Ebola deaths top 2,000 as scientists race to develop vaccine</span></a>
-            <a href="https://www.euronews.com/health/2026/08/11/ebola-death-toll-in-dr-congo-outbreak-rises-to-more-than-2000-officials-say" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Euronews — Ebola death toll in DR Congo outbreak rises to more than 2,000, officials say</span></a>
+            <a href="https://www.cotidianul.ro/diana-buzoianu-acuza-romsilva-ca-asigura-masini-pentru-protestele-federatiei-silva-prin-contractul-colectiv-de-munca/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Cotidianul — Diana Buzoianu acuză Romsilva că asigură mașini pentru proteste</span></a>
+            <a href="https://www.antena3.ro/politica/buzoianu-acuza-romsilva-a-trecut-in-noul-contract-colectiv-de-munca-ca-va-asigura-masini-pentru-sindicat-la-proteste-799318.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Antena 3 CNN — Buzoianu acuză Romsilva: mașini pentru sindicat la proteste</span></a>
           </div>
         </div>
         <div class="ev-item">
-          <p>Focarul a fost declarat oficial pe 15 mai 2026 (OMS a declarat urgență de sănătate publică internațională pe 17 mai), dar virusul circula probabil din februarie 2026. E descris de sursele citate drept cel mai rapid focar de Ebola înregistrat vreodată în RD Congo: pragul de 1.000 de morți a fost depășit, iar apoi s-a ajuns la 2.000 în mai puțin de trei săptămâni — față de peste 12 luni cât a durat aceeași creștere în focarul din 2018–2020.</p>
+          <p>Buzoianu a criticat prioritățile negocierii, întrebând retoric: „Credeți că negocierile au privit cum ar putea să fie mai în siguranță pădurarii care merg noaptea prin păduri, la control?” — și a susținut că, în schimb, s-ar fi negociat ca protestele Federației Silva împotriva reformei Romsilva să se facă „pe mașinile plătite de Romsilva”.</p>
           <div class="ev-sources">
-            <a href="https://news.un.org/en/story/2026/08/1168117" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">UN News — cronologia declarării și viteza de răspândire</span></a>
-            <a href="https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — comparație cu focarul din 2018-2020</span></a>
+            <a href="https://www.cotidianul.ro/diana-buzoianu-acuza-romsilva-ca-asigura-masini-pentru-protestele-federatiei-silva-prin-contractul-colectiv-de-munca/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Cotidianul — Diana Buzoianu acuză Romsilva că asigură mașini pentru proteste</span></a>
+            <a href="https://hotnews.ro/ce-a-gasit-diana-buzoianu-in-contractul-cu-romsilva-masini-pentru-sindicalistii-care-merg-la-proteste-2323629" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews.ro — Ce a găsit Buzoianu în contractul cu Romsilva</span></a>
           </div>
         </div>
         <div class="ev-item">
-          <p>Nu există vaccin sau tratament aprobat pentru tulpina Bundibugyo, mai rară decât tulpina Zaire (pentru care există vaccinul aprobat Ervebo). OMS a recomandat pe 9 august 2026 trecerea la teste umane la scară largă pentru doi candidați de vaccin specifici tulpinii Bundibugyo, iar un al treilea e în dezvoltare; teste sunt autorizate și în Canada și Marea Britanie. Rezultatele sunt așteptate abia peste câteva luni.</p>
+          <p>Federația sindicală Silva a respins public acuzația, calificând-o drept „falsă” și susținând că „denaturează atât realitatea, cât și cadrul legal”. Sindicatul afirmă că prevederea din contract reflectă doar dispoziții legale care permit administrațiilor să sprijine „în limita posibilităților” activitatea organizațiilor sindicale — și că aceasta „nu înseamnă că Romsilva plătește autobuze sau microbuze pentru deplasarea sindicaliștilor la proteste”.</p>
           <div class="ev-sources">
-            <a href="https://news.un.org/en/story/2026/08/1168117" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">UN News — teste de vaccin autorizate în Canada și UK</span></a>
-            <a href="https://www.euronews.com/health/2026/08/11/ebola-death-toll-in-dr-congo-outbreak-rises-to-more-than-2000-officials-say" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Euronews — OMS recomandă teste umane la scară largă din 9 august</span></a>
+            <a href="https://www.digi24.ro/stiri/actualitate/scandal-la-romsilva-buzoianu-acuza-institutia-ca-asigura-masini-pentru-proteste-sindicalisti-fals-sa-inceteze-atacul-murdar-3905081" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Digi24 — Sindicaliști: „Fals. Să înceteze atacul murdar”</span></a>
           </div>
         </div>
         <div class="ev-item">
-          <p>Răspunsul e îngreunat de greve ale personalului medical neplătit, de dezinformare și de practici culturale de înmormântare care presupun contact apropiat cu decedatul. Cel puțin 12 unități medicale au fost atacate, iar un atac asupra unui sat pe 8 august a dus la fuga a peste 28.000 de oameni. Peste 300 de copii au murit până acum.</p>
+          <p>Diana Buzoianu a legat episodul de un obiectiv politic declarat mai larg — reforma Romsilva — cerând public reorganizarea instituției, pe care a numit-o, într-un context anterior, „nu este vacă de muls pentru nimeni”.</p>
           <div class="ev-sources">
-            <a href="https://news.un.org/en/story/2026/08/1168117" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">UN News — factori care complică răspunsul, atacuri asupra unităților medicale</span></a>
+            <a href="https://www.g4media.ro/diana-buzoianu-tocmai-am-descoperit-cum-romsilva-s-a-obligat-sa-asigure-masini-din-cadrul-institutiei-pentru-protestele-organizate-de-federatia-sindicala-silva.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — Diana Buzoianu susține că Romsilva s-a obligat să asigure mașini</span></a>
           </div>
         </div>
       </section>
-
       <section class="ev-block contestat">
         <h2>⚠️ Contestat / neclar</h2>
         <p class="ev-sub">Puncte unde sursele diferă sau unde formularea inițială era imprecisă.</p>
         <div class="ev-item">
-          <p>Sursele diferă în privința etalonului de comparație pentru „cât de grav” e acest focar. Al Jazeera îl plasează al doilea ca mărime din istorie, după cel din Africa de Vest (2014-2016, 11.310 morți) — o comparație globală. Euronews îl descrie drept cel mai mare din istoria RD Congo, apropiindu-se de focarul din 2018-2020 (2.300 de morți din 3.500 de cazuri) — o comparație doar între focarele congoleze. Ambele cifre sunt corecte, dar măsoară lucruri diferite.</p>
+          <p>Punctul central al disputei rămâne nesoluționat public: nici Buzoianu, nici Federația Silva nu au publicat textul exact al clauzei din contractul colectiv de muncă. Buzoianu o descrie ca pe o obligație explicită de a pune mașini la dispoziția protestelor; sindicatul o descrie ca pe o formulare legală generică, aplicabilă „în limita posibilităților”, care nu echivalează cu finanțarea deplasării la proteste. Fără textul clauzei făcut public de o sursă verificabilă, afirmațiile celor două părți nu pot fi arbitrate din exterior.</p>
           <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — comparație globală cu focarul din Africa de Vest</span></a>
-            <a href="https://www.euronews.com/health/2026/08/11/ebola-death-toll-in-dr-congo-outbreak-rises-to-more-than-2000-officials-say" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Euronews — comparație cu focarul intern din 2018-2020</span></a>
-          </div>
-        </div>
-        <div class="ev-item">
-          <p>Al Jazeera menționează un posibil caz raportat în Israel pe 12 august 2026, la un cetățean întors din RD Congo — informația nu era confirmată oficial la momentul redactării acestui articol și nu apare în celelalte surse citate.</p>
-          <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — posibil caz raportat în Israel</span></a>
+            <a href="https://www.digi24.ro/stiri/actualitate/scandal-la-romsilva-buzoianu-acuza-institutia-ca-asigura-masini-pentru-proteste-sindicalisti-fals-sa-inceteze-atacul-murdar-3905081" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Digi24 — Sindicaliști: „Fals. Să înceteze atacul murdar”</span></a>
+            <a href="https://actualitate.net/a/diana-buzoianu-acuzatii-dure-la-adresa-romsilva-masinile-institutiei-puse-la-dispozitia-sindicalistilor-pentru-proteste" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Actualitate.net — Buzoianu, acuzații dure la adresa Romsilva</span></a>
           </div>
         </div>
       </section>
-
 
       <section class="ev-block opinie">
         <h2>💬 Opinie, nu fapt</h2>
         <p class="ev-sub">Interpretări, etichete și judecăți de valoare — separate explicit de fapte.</p>
-        <div class="opinie-item">Etichetarea focarului drept „cel mai grav” depinde de metrica aleasă — viteza de răspândire, numărul absolut de decese sau raportarea la focarele anterioare din aceeași țară. Nu există un consens unic asupra „gravității”; alegerea metricii ține de unghiul redacției, nu de un fapt măsurabil unic.</div>
+        <div class="opinie-item">Încadrarea episodului drept dovadă că negocierile „au avut prioritățile greșite” (siguranța pădurarilor vs. mașini pentru sindicat) este interpretarea politică a Dianei Buzoianu, într-un context în care ea cere deschis reforma Romsilva. Nu este un fapt stabilit independent că cele două teme s-ar fi exclus reciproc în negociere — articolele citate nu redau conținutul integral al discuțiilor contractuale.</div>
       </section>
 
       <section class="ai-note">
         <h2>🤖 Nota AI</h2>
-        <p>🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am pus alături trei redacții independente (Al Jazeera, UN News, Euronews) pentru cifrele centrale, care coincid; am marcat explicit unde comparațiile dintre surse folosesc etaloane diferite (focar mondial vs. focare anterioare din RD Congo) și unde o informație (cazul posibil din Israel) nu era încă confirmată.</p>
-      </section>
-
-      <section class="math-block">
-        <h2>🧮 Rata de fatalitate: aproape 46%, mai mare decât la focarul din Africa de Vest</h2>
-        <p>2.011 morți din 4.381 de cazuri confirmate înseamnă o rată de fatalitate de aproximativ 45,9% pentru focarul actual din RD Congo. Pentru comparație, focarul din Africa de Vest (2014-2016) a avut 11.310 decese din 28.616 cazuri cumulate, adică o rată de aproximativ 39,5%. Diferența reflectă parțial tulpina implicată: Bundibugyo, cea din focarul actual, nu are încă vaccin aprobat, spre deosebire de tulpina Zaire din 2014-2016, pentru care ulterior a fost aprobat vaccinul Ervebo — un factor care poate explica de ce rata de fatalitate actuală e mai mare.</p>
+        <p>Am pus alături acuzația ministrei Diana Buzoianu și negarea Federației Silva, exact așa cum au fost formulate public, pentru că niciuna dintre părți nu a publicat textul clauzei disputate. Nu decretăm cine are dreptate — asta ar însemna să alegem o parte fără acces la documentul real. Cititorul poate cere Romsilva sau Federației Silva publicarea integrală a contractului colectiv de muncă pentru a verifica singur formularea exactă.</p>
       </section>
 
         <div class="conclusion-box">
@@ -560,7 +468,7 @@
           <p>Am pus alături ce se probează cu surse și ce rămâne contestat, neclar sau opinie. Verifică sursele, cântărește dovezile — tragi tu linia între fapt și interpretare.</p>
           <a href="../index.html" class="backlink">← Înapoi la prima pagină</a>
         </div>
-      </article>
+</article>
 
     </div>
   </main>
