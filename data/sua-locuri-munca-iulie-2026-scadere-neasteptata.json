@@ -1,0 +1,74 @@
+{
+  "slug": "sua-locuri-munca-iulie-2026-scadere-neasteptata",
+  "title": "SUA a pierdut neașteptat 23.000 de locuri de muncă în iulie — dar rata șomajului a scăzut la 4,1%. Ce arată, de fapt, cifrele",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "Biroul de Statistică a Muncii (BLS) / Trading Economics / Indeed Hiring Lab",
+  "url": "https://tradingeconomics.com/united-states/non-farm-payrolls",
+  "dek": "🌍 Economia americană a pierdut 23.000 de locuri de muncă în iulie 2026, în loc de câștigul de 80.000+ estimat de analiști — a treia lună consecutivă cu revizuiri în scădere. Rata șomajului a coborât totuși la 4,1%, de la 4,2%, dar mai mult din cauza reducerii numărului de oameni activi pe piața muncii decât a angajărilor noi.",
+  "mainVerdict": "Cifrele oficiale: probate · „SUA e în recesiune”: neprobat, indicatorii sunt amestecați",
+  "probat": [
+    {
+      "text": "Numărul de locuri de muncă din afara agriculturii (nonfarm payrolls) a scăzut cu 23.000 în iulie 2026, față de o creștere de peste 80.000 estimată de economiști înainte de raport. Cifrele pentru mai și iunie au fost revizuite în jos cu un total de 103.000 de locuri de muncă.",
+      "sources": [
+        {
+          "name": "Trading Economics — United States Non Farm Payrolls",
+          "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+        },
+        {
+          "name": "Indeed Hiring Lab — July 2026 Jobs Report: Unexpected Turbulence",
+          "url": "https://hiringlab.indeed.com/2026/08/07/july-2026-jobs-report-unexpected-turbulence/"
+        }
+      ]
+    },
+    {
+      "text": "Pe sectoare: sectorul public (guvernamental) a pierdut 53.000 de locuri de muncă, iar cel de agrement și ospitalitate (leisure & hospitality) a pierdut 40.000. În schimb, sănătatea a adăugat 22.000 de locuri de muncă. Sectorul privat, per total, a crescut cu 30.000 de locuri de muncă.",
+      "sources": [
+        {
+          "name": "Trading Economics — United States Non Farm Payrolls",
+          "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+        },
+        {
+          "name": "Indeed Hiring Lab — July 2026 Jobs Report: Unexpected Turbulence",
+          "url": "https://hiringlab.indeed.com/2026/08/07/july-2026-jobs-report-unexpected-turbulence/"
+        }
+      ]
+    },
+    {
+      "text": "Rata șomajului a scăzut la 4,1% în iulie, față de 4,2% în iunie. Scăderea s-a datorat în mare parte reducerii ratei de participare la forța de muncă (mai puțini oameni care lucrează sau caută activ de lucru), nu unui val de angajări — un semnal considerat de economiști mai degrabă îngrijorător decât pozitiv.",
+      "sources": [
+        {
+          "name": "Trading Economics — United States Non Farm Payrolls",
+          "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+        },
+        {
+          "name": "Indeed Hiring Lab — July 2026 Jobs Report: Unexpected Turbulence",
+          "url": "https://hiringlab.indeed.com/2026/08/07/july-2026-jobs-report-unexpected-turbulence/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Ce înseamnă raportul pentru Rezerva Federală rămâne disputat între analiști: unii citesc slăbiciunea pieței muncii ca argument pentru reducerea dobânzii de politică monetară, alții atrag atenția că inflația rămâne peste ținta de 2% și că o relaxare monetară prematură ar putea reaprinde creșterea prețurilor. Niciuna dintre cele două interpretări nu e un fapt stabilit — depinde de datele viitoare și de decizia Fed, care nu a fost încă anunțată.",
+      "sources": [
+        {
+          "name": "Indeed Hiring Lab — July 2026 Jobs Report: Unexpected Turbulence",
+          "url": "https://hiringlab.indeed.com/2026/08/07/july-2026-jobs-report-unexpected-turbulence/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Unele comentarii media descriu situația drept „începutul unei recesiuni” — dar un singur indicator negativ (angajări) combinat cu altul aparent pozitiv (șomaj în scădere) nu constituie, prin definiția tehnică folosită de economiști (două trimestre consecutive de contracție a PIB), o recesiune confirmată. Etichetarea rămâne o interpretare, nu un fapt stabilit statistic la această dată.",
+      "sources": []
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele brute (variația locurilor de muncă, rata șomajului, revizuirile) sunt date oficiale ale Biroului de Statistică a Muncii, confirmate concordant de Trading Economics și Indeed Hiring Lab. Interpretarea acestor cifre — ce înseamnă pentru Fed, dacă semnalează recesiune — rămâne deschisă; am separat clar cifrele de etichetele aplicate lor.",
+  "math": {
+    "title": "23.000 pierdute vs. 80.000 așteptate — o diferență de peste 100.000 de locuri de muncă",
+    "text": "Diferența dintre estimarea analiștilor (+80.000) și rezultatul real (−23.000) e de aproximativ 103.000 de locuri de muncă „lipsă” într-o singură lună. La asta se adaugă revizuirea în minus de încă 103.000 pentru mai și iunie — practic, economia americană a creat cu peste 200.000 de locuri de muncă mai puțin decât se credea acum două luni. Rata șomajului de 4,1% nu contrazice acest tablou: ea a scăzut pentru că oamenii au ieșit din câmpul muncii (fie s-au pensionat, fie au renunțat să mai caute), nu pentru că au fost angajați mai mulți."
+  },
+  "persoane": []
+}
