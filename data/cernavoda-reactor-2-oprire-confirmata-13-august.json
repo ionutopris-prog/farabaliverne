@@ -1,0 +1,74 @@
+{
+  "slug": "cernavoda-reactor-2-oprire-confirmata-13-august",
+  "title": "S-a confirmat: Unitatea 2 de la Cernavodă s-a oprit azi — și un diferend nou despre lucrările de dragare de pe Dunăre",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "Mediafax / Gândul",
+  "url": "https://www.mediafax.ro/social/centrala-nucleara-de-la-cernavoda-se-opreste-astazi-reactorul-2-va-fi-deconectat-treptat-in-timp-ce-romania-se-va-baza-pe-importuri-23789586",
+  "dek": "Nuclearelectrica anunțase pe 11 august doar „posibilitatea” opririi Unității 2 de la Cernavodă. Azi, 13 august 2026, oprirea s-a confirmat: manevrele au început la ora 07:00, iar reactorul urma să ajungă la putere zero la prânz. Nou față de ce știam: durata revizuită la „cel puțin 10 zile” și un diferend public despre efectul lucrărilor de dragare — ministrul Miruță a susținut o creștere de 8 cm a nivelului apei, presa a verificat și a găsit doar 4 cm.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Ce era doar o „posibilitate” anunțată de Nuclearelectrica pe 11 august s-a confirmat azi, 13 august 2026: la ora 07:00, centrala a început manevrele de oprire controlată a Unității 2, din cauza nivelului critic al Dunării. Directorul CNE Cernavodă, Romeo Urjan, a declarat că puterea reactorului (care producea aproximativ 680 MW) este redusă treptat, cu deconectarea completă de la Sistemul Energetic Național estimată în jurul prânzului.",
+      "sources": [
+        {
+          "name": "Mediafax — Centrala nucleară de la Cernavodă se oprește astăzi. Reactorul 2 va fi deconectat treptat",
+          "url": "https://www.mediafax.ro/social/centrala-nucleara-de-la-cernavoda-se-opreste-astazi-reactorul-2-va-fi-deconectat-treptat-in-timp-ce-romania-se-va-baza-pe-importuri-23789586"
+        },
+        {
+          "name": "HotNews — Reactorul 2 al Centralei nucleare Cernavodă va fi oprit mâine",
+          "url": "https://hotnews.ro/reactorul-2-al-centralei-nucleare-cernavoda-va-fi-oprit-maine-2322752"
+        }
+      ]
+    },
+    {
+      "text": "Autoritățile spun că, în perioada opririi, România se va baza pe importuri de energie, pe rezerva de la Rovinari 4 și pe producția suplimentară a Hidroelectrica. Secretarul de stat Cristian Bușoi a declarat că, în cel mai rău caz, doar marii consumatori industriali ar putea avea restricții — consumul casnic și serviciile esențiale nu ar fi afectate.",
+      "sources": [
+        {
+          "name": "Mediafax — Bușoi: în cel mai rău caz, marii consumatori industriali ar avea limitări",
+          "url": "https://www.mediafax.ro/social/centrala-nucleara-de-la-cernavoda-se-opreste-astazi-reactorul-2-va-fi-deconectat-treptat-in-timp-ce-romania-se-va-baza-pe-importuri-23789586"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul a alocat bani din Fondul de Rezervă pentru lucrări de dragare la confluența brațului Bala cu Dunărea Veche, menite să crească debitul spre canalul Dunăre-Marea Neagră: 7 milioane de lei inițial, apoi încă 5,2 milioane de lei pe 10 august, pentru continuarea lucrărilor.",
+      "sources": [
+        {
+          "name": "Gândul — Guvernul a alocat 7, apoi 5,2 milioane de lei pentru dragare la Bala",
+          "url": "https://www.gandul.ro/actualitate/cernavoda-reactor-2-oprit-miruta-ministerul-energiei-20976945"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Durata estimată a opririi s-a precizat față de anunțul inițial: directorul CNE Cernavodă, Sorin Rîndașu, vorbise pe 11 august despre „cel puțin două săptămâni”; relatările de azi, 13 august, vorbesc despre „cel puțin 10 zile”, plus 1-2 zile suplimentare până reactorul ajunge la capacitate maximă după ce condițiile se ameliorează. Diferența poate reflecta o reevaluare pe măsură ce prognoza hidrologică s-a schimbat, dar cifra exactă rămâne incertă.",
+      "sources": [
+        {
+          "name": "Mediafax — estimare de cel puțin 10 zile",
+          "url": "https://www.mediafax.ro/social/centrala-nucleara-de-la-cernavoda-se-opreste-astazi-reactorul-2-va-fi-deconectat-treptat-in-timp-ce-romania-se-va-baza-pe-importuri-23789586"
+        }
+      ]
+    },
+    {
+      "text": "Ministrul Transporturilor, Radu Miruță, a afirmat că nivelul apei la Cernavodă a crescut cu 8 centimetri în urma unei operațiuni de scufundare a unor barje, menită să dirijeze mai multă apă spre centrală. Presa a verificat separat cifra și a raportat o creștere reală de doar 4 centimetri — jumătate din ce a susținut ministrul. Ministra Mediului, Diana Buzoianu, a semnalat, la rândul ei, formarea unui „dâmb” pe un tronson de 60 de kilometri, care redirecționează apa și înrăutățește prognoza. Nu am găsit o explicație oficială pentru diferența dintre cifra citată de ministru și cea verificată de presă.",
+      "sources": [
+        {
+          "name": "Gândul — Miruță a susținut o creștere de 8 cm; verificarea a arătat 4 cm",
+          "url": "https://www.gandul.ro/actualitate/cernavoda-reactor-2-oprit-miruta-ministerul-energiei-20976945"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cât de gravă e situația pentru consumatorul obișnuit rămâne, deocamdată, o chestiune de interpretare politică: oficialii Ministerului Energiei insistă că gospodăriile nu vor simți efectul, dar asta depinde de cât de mult se prelungește seceta și de cât de bine funcționează importurile — variabile care nu erau clarificate la data verificării."
+    }
+  ],
+  "math": {
+    "title": "700 MW pierduți reprezintă aproape 9% din vârful de consum al țării",
+    "explanation": "Cu două zile înainte, pe 11 august 2026, consumul de energie al României a atins un record de peste 8.000 MW. Cei circa 700 MW pierduți odată cu oprirea Unității 2 de la Cernavodă (sau ~680 MW, după cifra mai precisă citată de Mediafax) reprezintă deci aproximativ 700/8.000 ≈ 8,75% din acel vârf de consum — o pondere semnificativă, dar pe care importurile și rezervele (Rovinari 4, Hidroelectrica) ar trebui, potrivit oficialilor, să o acopere fără a afecta gospodăriile."
+  },
+  "aiNote": "Sursele independente confirmă tabloul central: ce Nuclearelectrica anunțase pe 11 august doar ca „posibilitate” s-a confirmat azi, 13 august 2026 — Unitatea 2 de la Cernavodă a fost oprită controlat din cauza nivelului critic al Dunării. Rămân două rezerve: durata exactă a opririi s-a precizat de la „cel puțin două săptămâni” (11 august) la „cel puțin 10 zile” (13 august), fără să fie clar dacă e o reevaluare sau doar o formulare diferită; iar afirmația ministrului Miruță despre o creștere de 8 cm a nivelului apei în urma lucrărilor de dragare a fost verificată de presă și redusă la 4 cm, fără o explicație oficială a diferenței. Niciuna dintre aceste rezerve nu schimbă faptul central — centrala funcționează, la data verificării, cu un singur reactor din doi, din cauza secetei.",
+  "persoane": ["Radu Miruță"]
+}
