@@ -1,0 +1,58 @@
+{
+  "slug": "acciza-motorina-redusa-20-16-31-august",
+  "title": "Guvernul reduce acciza la motorină cu 20% între 16 și 31 august",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "AGERPRES / Ministerul Finanțelor",
+  "url": "https://agerpres.ro/comunicate/2026/08/13/comunicat-de-presa---ministerul-finantelor--1584725",
+  "dek": "Ministerul Finanțelor a anunțat pe 13 august 2026 o reducere temporară de 20% a accizei la motorina standard, în perioada 16-31 august, invocând o creștere de peste 34% a cotațiilor internaționale și de peste 23% a prețului la pompă. Rămâne de văzut cât din reducere ajunge efectiv la consumator și ce se întâmplă după 31 august.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Guvernul reduce acciza la motorina standard comercializată pe piața internă cu 20%, în perioada 16-31 august 2026. Măsura se bazează pe un mecanism introdus prin Legea nr. 162/2026, care permite ajustarea temporară a accizei în funcție de evoluția pieței.",
+      "sources": [
+        {"name": "AGERPRES — Comunicat de presă, Ministerul Finanțelor (13.08.2026)", "url": "https://agerpres.ro/comunicate/2026/08/13/comunicat-de-presa---ministerul-finantelor--1584725"},
+        {"name": "Mediafax — Acciza la motorină redusă cu 20% până la sfârșitul lui august", "url": "https://www.mediafax.ro/economic/acciza-la-motorina-redusa-cu-20-pana-la-sfarsitul-lui-august-in-urma-cresterii-preturilor-la-pompa-cu-peste-23-23789995"}
+      ]
+    },
+    {
+      "text": "Concret, reducerea înseamnă 560,86 lei mai puțin acciză la fiecare 1.000 de litri (663,75 lei/tonă), adică acciza scade de la nivelul standard la 2.243,43 lei/1.000 litri (2.654,99 lei/tonă) — echivalentul a circa 0,56 lei mai puțin pe litru.",
+      "sources": [
+        {"name": "AGERPRES — Comunicat de presă, Ministerul Finanțelor (13.08.2026)", "url": "https://agerpres.ro/comunicate/2026/08/13/comunicat-de-presa---ministerul-finantelor--1584725"},
+        {"name": "StartupCafe — Statul reduce cu 20% acciza la motorină în perioada 16-31 august 2026", "url": "https://startupcafe.ro/statul-reduce-cu-20-acciza-la-motorina-in-perioada-16-31-august-2026-105086"}
+      ]
+    },
+    {
+      "text": "Ministrul interimar al Finanțelor, Alexandru Nazare, a motivat decizia prin evoluția cotațiilor internaționale: „cotațiile Platts pentru motorină au crescut cu peste 34%, iar prețul mediu la pompă cu peste 23%”. A descris măsura drept „o intervenție temporară, calibrată pe evoluția pieței”.",
+      "sources": [
+        {"name": "Mediafax — Acciza la motorină redusă cu 20% până la sfârșitul lui august", "url": "https://www.mediafax.ro/economic/acciza-la-motorina-redusa-cu-20-pana-la-sfarsitul-lui-august-in-urma-cresterii-preturilor-la-pompa-cu-peste-23-23789995"},
+        {"name": "StartupCafe — declarația lui Alexandru Nazare", "url": "https://startupcafe.ro/statul-reduce-cu-20-acciza-la-motorina-in-perioada-16-31-august-2026-105086"}
+      ]
+    },
+    {
+      "text": "Mecanismul din Legea 162/2026 nu e o reducere fixă, ci unul reevaluat la fiecare două săptămâni, în funcție de cum evoluează piața — deci nivelul accizei se poate schimba din nou după 31 august, în sus sau în jos.",
+      "sources": [
+        {"name": "AGERPRES — Comunicat de presă, Ministerul Finanțelor (13.08.2026)", "url": "https://agerpres.ro/comunicate/2026/08/13/comunicat-de-presa---ministerul-finantelor--1584725"},
+        {"name": "StartupCafe — Statul reduce cu 20% acciza la motorină", "url": "https://startupcafe.ro/statul-reduce-cu-20-acciza-la-motorina-in-perioada-16-31-august-2026-105086"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Reducerea de acciză nu garantează o scădere identică a prețului afișat la pompă. Ea taie o componentă fiscală fixă (0,56 lei/litru), dar prețul final la stație depinde și de cotațiile internaționale — care, potrivit chiar motivului invocat de minister, sunt în creștere — și de marjele distribuitorilor, care nu au obligația legală de a reduce prețul exact cu suma scutită de acciză.",
+      "sources": [
+        {"name": "AGERPRES — Comunicat de presă, Ministerul Finanțelor (13.08.2026)", "url": "https://agerpres.ro/comunicate/2026/08/13/comunicat-de-presa---ministerul-finantelor--1584725"},
+        {"name": "Mediafax — Acciza la motorină redusă cu 20%", "url": "https://www.mediafax.ro/economic/acciza-la-motorina-redusa-cu-20-pana-la-sfarsitul-lui-august-in-urma-cresterii-preturilor-la-pompa-cu-peste-23-23789995"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Măsura e prezentată de guvern ca sprijin pentru consumatori și pentru sectorul transport-logistică — o apreciere politică. Efectul ei real (cât ajunge la consumator, cât costă bugetul în venituri din accize pierdute și ce se întâmplă după 31 august) rămâne de văzut, nu e un fapt măsurat încă la data verificării."
+  ],
+  "math": {
+    "title": "Cât economisește, concret, un șofer la un plin?",
+    "explanation": "Reducerea de 0,56 lei/litru înseamnă că, la un rezervor de 50 de litri, un șofer plătește cu aproximativ 28 de lei mai puțin doar din acciză (50 × 0,56 lei), presupunând că reducerea ajunge integral la pompă. Pentru un TIR cu rezervor de 600-1000 de litri, economia teoretică ar fi de 336-560 de lei per plin — motivul pentru care măsura e prezentată ca sprijin pentru transport-logistică, sectorul cu cel mai mare consum de motorină."
+  },
+  "aiNote": "Faptele centrale — procentul de reducere, perioada, cifrele exacte în lei și motivul invocat — sunt confirmate concordant de comunicatul oficial al Ministerului Finanțelor și de mai multe redacții economice independente. Am separat clar ce e anunțat oficial (reducerea de acciză, cadrul legal) de ce rămâne incert (cât ajunge efectiv la pompă, ce se întâmplă după 31 august) — a doua parte fiind interpretare, nu fapt confirmat.",
+  "persoane": ["Alexandru Nazare"]
+}
