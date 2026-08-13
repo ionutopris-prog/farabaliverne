@@ -1,0 +1,70 @@
+{
+  "slug": "yemen-houthi-taiz-escaladare-armistitiu-2026",
+  "title": "Ciocniri Houthi–forțe guvernamentale în Taiz, Yemen — ONU avertizează asupra celui mai mare risc de reluare a războiului civil de la armistițiul din 2022",
+  "category": "Extern",
+  "date": "2026-08-13",
+  "source": "Al Jazeera / AP (via ClickOnDetroit)",
+  "url": "https://www.aljazeera.com/news/2026/8/13/yemeni-forces-say-houthi-attack-repelled-in-taiz-amid-escalation",
+  "dek": "🌍 Forțele guvernamentale yemenite spun că au respins un atac Houthi în provincia Taiz, în noaptea de miercuri spre joi, în timp ce ciocnirile se extind pe mai multe fronturi. ONU: Yemenul e „mai expus riscului de conflict la scară largă decât oricând” de la armistițiul din 2022.",
+  "mainVerdict": "Probat, cu rezerve pe cifrele exacte de victime",
+  "probat": [
+    {
+      "text": "Forțele guvernamentale yemenite au raportat că au respins un atac al rebelilor Houthi pe frontul al-Mafalis, la sud de Haifan, în sud-estul provinciei Taiz. Brigada 4 Infanterie Hashd, afiliată guvernului, susține că a respins atacul, provocând „pierderi grele” miliției Houthi — cifră neconfirmată independent. Un oficial al axei militare Tor al-Bahah a descris operațiunea drept o campanie comună de „respingere și zădărnicire” a atacului.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Yemeni forces say Houthi attack repelled in Taiz amid escalation",
+          "url": "https://www.aljazeera.com/news/2026/8/13/yemeni-forces-say-houthi-attack-repelled-in-taiz-amid-escalation"
+        }
+      ]
+    },
+    {
+      "text": "Independent de relatarea părții guvernamentale, agenția Associated Press confirmă că ciocnirile dintre rebelii Houthi (susținuți de Iran) și forțele guvernamentale au continuat peste noapte, până joi, în provincia muntoasă Taiz — cel puțin un soldat guvernamental a fost ucis și altul rănit critic. Potrivit oficialilor militari citați de AP, zeci de militari guvernamentali au fost uciși de la escaladarea începută la începutul lunii iulie 2026, după o perioadă de relativă acalmie care ținea din aprilie 2022.",
+      "sources": [
+        {
+          "name": "AP via ClickOnDetroit — Iran-backed Houthi rebels clash with Yemeni government forces",
+          "url": "https://www.clickondetroit.com/news/world/2026/08/13/iran-backed-houthi-rebels-clash-with-yemeni-government-forces-and-other-mideast-developments/"
+        }
+      ]
+    },
+    {
+      "text": "Trimisul special ONU pentru Yemen, Hans Grundberg, a declarat că „Yemenul este mai expus riscului de a reveni la un conflict la scară largă decât oricând de la armistițiul din 2022”. Șeful pentru afaceri umanitare al ONU, Tom Fletcher, a spus că 6 milioane de yemeniți „se confruntă cu niveluri de urgență ale insecurității alimentare, la limita foametei — cel mai mare număr la nivel global”.",
+      "sources": [
+        {
+          "name": "AP via ClickOnDetroit — Iran-backed Houthi rebels clash with Yemeni government forces",
+          "url": "https://www.clickondetroit.com/news/world/2026/08/13/iran-backed-houthi-rebels-clash-with-yemeni-government-forces-and-other-mideast-developments/"
+        }
+      ]
+    },
+    {
+      "text": "Contextul mai larg al escaladării: rebelii Houthi au lansat un atac cu dronă asupra unei rafinării Aramco din Jazan, Arabia Saudită, și au anunțat luna trecută un blocaj asupra navigației saudite. Președintele Consiliului de Conducere Prezidențial, Rashad al-Alimi, a avertizat că „de acum înainte, nicio acțiune a miliției Houthi nu va rămâne fără un răspuns pe măsură”.",
+      "sources": [
+        {
+          "name": "AP via ClickOnDetroit — Iran-backed Houthi rebels clash with Yemeni government forces",
+          "url": "https://www.clickondetroit.com/news/world/2026/08/13/iran-backed-houthi-rebels-clash-with-yemeni-government-forces-and-other-mideast-developments/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul exact de victime rămâne neclar și vine mai ales din surse militare implicate direct în conflict — partea guvernamentală vorbește despre „pierderi grele” în tabăra Houthi, fără cifre; AP menționează „zeci de morți” în rândul forțelor guvernamentale de la începutul escaladării, tot pe baza unor oficiali militari, nu a unei numărători independente. Houthii nu au fost citați direct în sursele consultate cu o versiune proprie a bilanțului din Taiz.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Yemeni forces say Houthi attack repelled in Taiz amid escalation",
+          "url": "https://www.aljazeera.com/news/2026/8/13/yemeni-forces-say-houthi-attack-repelled-in-taiz-amid-escalation"
+        },
+        {
+          "name": "AP via ClickOnDetroit — Iran-backed Houthi rebels clash with Yemeni government forces",
+          "url": "https://www.clickondetroit.com/news/world/2026/08/13/iran-backed-houthi-rebels-clash-with-yemeni-government-forces-and-other-mideast-developments/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am pus alături relatarea părții guvernamentale yemenite (Al Jazeera) și relatarea independentă a Associated Press, care confirmă escaladarea generală, dar nu bilanțul exact de victime, revendicat doar de o parte a conflictului.",
+  "math": {
+    "title": "De la aprilie 2022 la iulie 2026: peste patru ani de acalmie relativă, întrerupți",
+    "text": "Armistițiul din aprilie 2022 a ținut, cu fluctuații, aproximativ patru ani și trei luni, până la reluarea ciocnirilor de la începutul lunii iulie 2026 — adică circa 51 de luni de relativă acalmie. ONU estimează 6 milioane de yemeniți în insecuritate alimentară de nivel „urgență”, cel mai mare număr de acest fel raportat la nivel global în acest moment."
+  },
+  "persoane": []
+}

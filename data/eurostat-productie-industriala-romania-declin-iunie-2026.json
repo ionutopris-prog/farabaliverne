@@ -1,0 +1,78 @@
+{
+  "slug": "eurostat-productie-industriala-romania-declin-iunie-2026",
+  "title": "Eurostat: România și Luxemburg au cel mai sever declin al producției industriale din UE, în iunie 2026",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "Eurostat / Antena 3 CNN / Capital.ro",
+  "url": "https://www.antena3.ro/economic/eurostat-cel-mai-sever-declin-al-productiei-industriale-din-ue-a-fost-in-romania-si-in-luxemburg-799347.html",
+  "dek": "Producția industrială a scăzut în iunie 2026 cu 5,6% în România față de iunie 2025 — al doilea cel mai sever declin anual din UE, după Luxemburg (-7,9%) și înaintea Estoniei (-4,6%) —, în timp ce media UE a crescut cu 0,6%. În aceeași lună, prețurile producției industriale românești au urcat cu 14,3%, a doua cea mai mare creștere din UE.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Potrivit datelor Eurostat publicate pe 13 august 2026, producția industrială a crescut în iunie 2026 față de iunie 2025 cu 0,6% în UE și cu 0,1% în zona euro. Cele mai severe declinuri anuale au fost înregistrate în Luxemburg (-7,9%), România (-5,6%) și Estonia (-4,6%) — singurele state cu scăderi de peste 4%.",
+      "sources": [
+        {
+          "name": "Antena 3 CNN — Eurostat: cel mai sever declin al producției industriale din UE a fost în România și în Luxemburg",
+          "url": "https://www.antena3.ro/economic/eurostat-cel-mai-sever-declin-al-productiei-industriale-din-ue-a-fost-in-romania-si-in-luxemburg-799347.html"
+        },
+        {
+          "name": "Capital.ro — România se află printre statele cu cel mai mare declin al producției industriale din UE",
+          "url": "https://www.capital.ro/romania-se-afla-printre-statele-cu-cel-mai-mare-declin-al-productiei-industriale-din-ue-doar-luxemburg-si-estonia-au-avut-rezultate-mai-slabe-in-iunie.html"
+        }
+      ]
+    },
+    {
+      "text": "Comparativ cu luna precedentă (iunie față de mai 2026), producția industrială a scăzut cu 2,8% în România, cu 10,7% în Luxemburg și cu 2,2% în Estonia, în timp ce media UE a crescut cu 0,2%, iar zona euro a rămas stabilă (0%).",
+      "sources": [
+        {
+          "name": "Stiripesurse — Eurostat: Luxemburg și România au consemnat cel mai sever declin din UE al producției industriale, în iunie",
+          "url": "https://www.stiripesurse.ro/eurostat-luxemburg-si-romania-au-consemnat-cel-mai-sever-declin-din-ue-al-productiei-industriale-in-iunie_3911884"
+        },
+        {
+          "name": "Ziarul Unirea — Date Eurostat: România și Luxemburg, cel mai sever declin al producției industriale din UE",
+          "url": "https://ziarulunirea.ro/date-eurostat-romania-si-luxemburg-cel-mai-server-declin-al-productiei-industriale-din-ue-1007032/"
+        }
+      ]
+    },
+    {
+      "text": "În aceeași lună, prețurile producției industriale au avut o traiectorie opusă declinului volumului: în România, prețurile au crescut cu 14,3% față de iunie 2025 — al doilea cel mai mare avans din UE, după Bulgaria (18,2%) —, în timp ce în Luxemburg prețurile au scăzut cu 3,7%, singurul declin anual de acest tip înregistrat în UE.",
+      "sources": [
+        {
+          "name": "DailyBusiness.ro — Eurostat: România și Bulgaria au avut cele mai mari creșteri din UE ale prețurilor producției industriale în luna iunie",
+          "url": "https://www.dailybusiness.ro/actualitate/eurostat-romania-si-bulgaria-au-avut-cele-mai-mari-cresteri-din-ue-ale-preturilor-productiei-industriale-in-luna-iunie-548176/"
+        },
+        {
+          "name": "Income Magazine — Eurostat: Bulgaria și România, cel mai semnificativ avans din UE al prețurilor producției industriale, în iunie",
+          "url": "https://incomemagazine.ro/eurostat-bulgaria-si-romania-cel-mai-semnificativ-avans-din-ue-al-preturilor-productiei-industriale-in-iunie/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Un titlu din presă („Eurostat confirmă prăbușirea economiei României: țara noastră nu mai apare în statisticile privind creșterea producției industriale”) formulează declinul ca „prăbușire” și sugerează o excludere a României din statistici. Datele Eurostat citate de celelalte redacții arată însă că România apare în toate seturile de date — doar că, spre deosebire de statele cu creștere, se regăsește în partea de scădere a clasamentului. „Prăbușire” e o etichetă, nu termenul folosit de Eurostat.",
+      "sources": [
+        {
+          "name": "Antena 3 CNN — Eurostat: cel mai sever declin al producției industriale din UE a fost în România și în Luxemburg",
+          "url": "https://www.antena3.ro/economic/eurostat-cel-mai-sever-declin-al-productiei-industriale-din-ue-a-fost-in-romania-si-in-luxemburg-799347.html"
+        },
+        {
+          "name": "Stiripesurse — Eurostat confirmă prăbușirea economiei României (titlu)",
+          "url": "https://www.stiripesurse.ro/eurostat-confirma-prabusirea-economiei-romaniei-tara-noastra-nu-mai-apare-in-statisticile-privind-cresterea-productiei-industriale_3903645"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Interpretarea cauzelor declinului (energie scumpă, cerere externă slabă, seceta care afectează industria alimentară etc.) variază între comentatori economici și nu face parte din comunicatul Eurostat, care oferă doar cifrele agregate pe categorii de produse — nu o explicație cauzală oficială.",
+      "sources": []
+    }
+  ],
+  "aiNote": "🤖 Cifrele din acest articol vin direct din comunicatul Eurostat de pe 13 august 2026 și sunt confirmate concordant de mai multe redacții economice (Antena 3, Capital.ro, Stiripesurse, Ziarul Unirea, DailyBusiness.ro, Income Magazine). Am semnalat separat un titlu care folosește termenul „prăbușire” — o etichetă jurnalistică, nu o formulare din datele oficiale.",
+  "math": {
+    "title": "De ce o scădere de volum poate coexista cu prețuri mai mari",
+    "text": "România a avut simultan cea mai mare scădere de volum a producției industriale (-5,6% anual) și a doua cea mai mare creștere de prețuri industriale (+14,3% anual) din UE. Aritmetic, asta înseamnă că valoarea nominală a producției (preț × cantitate) poate rămâne aproape neschimbată sau chiar poate crește, deși se produc mai puține bunuri — pentru că fiecare unitate produsă costă considerabil mai mult. Cele două cifre nu se contrazic: una măsoară câte bunuri ies din fabrici, cealaltă cât costă ele."
+  },
+  "persoane": []
+}
