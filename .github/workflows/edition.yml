@@ -87,6 +87,11 @@ jobs:
           AFTER="$(git rev-parse HEAD)"
           PENDING="$(git branch --list 'pending/*' | wc -l | tr -d ' ')"
 
+          # Punctul de pornire al ediției. Pașii de mai jos verifică pozele
+          # apărute DE ATUNCI — redactorul face mai multe commituri, deci
+          # „ultimul commit" ar rata majoritatea lor.
+          echo "before=$BEFORE" >> "$GITHUB_OUTPUT"
+
           if [ "$BEFORE" != "$AFTER" ] || [ "$PENDING" -gt 0 ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Ediție publicată."
@@ -125,6 +130,31 @@ jobs:
             git config user.email "bot@farabaliverne.ro"
             git add -A
             git commit -m "Poze: recomprimate sub limita de greutate"
+            git push
+          fi
+
+      # Se UITĂ la pozele noi. Tot ce a ajuns greșit pe site a trecut de
+      # verificarea de metadate fără o vorbă: drapelul Turciei pe patru
+      # articole despre Ucraina, Kievul sub o știre despre Dnipro, obuze cu
+      # iperită sub o uzină convențională. Nimic din astea nu se vede altfel
+      # decât uitându-te la fotografie.
+      #
+      # Nu blochează publicarea: poza nepotrivită e scoasă și rămâne cardul de
+      # brand. O poză greșită doare, un site care nu mai publică doare mai
+      # mult — asta a costat 18 ore pe 12 august.
+      - name: Se uită la pozele noi
+        if: steps.redactor.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          DE_LA: ${{ steps.redactor.outputs.before }}
+        run: |
+          python3 scripts/verifica_poza.py --noi --repara
+          if ! git diff --quiet; then
+            git config user.name "Fără Baliverne (bot)"
+            git config user.email "bot@farabaliverne.ro"
+            git add -A
+            git commit -m "Poze: scoase cele care nu se potriveau cu articolul"
             git push
           fi
 
