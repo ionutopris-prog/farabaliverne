@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Houthii redeschid un front în Yemen: atacuri asupra Arabiei Saudite și a portului Al-Makha — Fără Baliverne</title>
-<meta name="description" content="După aproape cinci luni de pauză, rebelii houthi din Yemen au reluat atacurile asupra Arabiei Saudite și a portului Al-Makha. Houthii vorbesc despre „sute” de victime; guvernul yemenit și alte surse dau cifre între 30 și 58 de morți.">
+<title>Trei directori din fabricile de armament ale statului, plasați sub control judiciar — Fără Baliverne</title>
+<meta name="description" content="Curtea de Apel București a decis definitiv, pe 13 august 2026, plasarea sub control judiciar a trei directori din uzinele de armament ale statului și a unui om de afaceri, într-un dosar DNA în care sunt acuzați de luare/dare de mită. Instanța a respins cererea DNA de arestare preventivă.">
 <style>
 
   :root{
@@ -125,7 +125,6 @@
   .chip.soft.bad{color:var(--bad);background:var(--bad-bg);border-color:var(--bad-line);box-shadow:none}
   .chip.soft.check{color:var(--check);background:var(--check-bg);border-color:var(--check-line);box-shadow:none}
 
-  /* --- Badge de raport (probat / contestat / opinie) — inlocuieste verdictul-oracol --- */
   .report-badge{
     display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;color:var(--ink-soft);
     background:var(--paper-2);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px;white-space:nowrap;
@@ -173,38 +172,12 @@
   .section-head .more:hover{text-decoration:underline}
   .cat-section{margin-bottom:40px}
 
-  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
-  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-  .card{
-    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
-    box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
-  }
-  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-4px);border-color:var(--line-2)}
-  .card .photo{aspect-ratio:16/9}
-  .card:hover .photo .art{transform:scale(1.06)}
-  .card .cbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:11px;flex:1}
-  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
-  .card h3{
-    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.22;margin:0;
-    letter-spacing:-.005em;color:var(--ink);transition:.15s ease;
-  }
-  .card:hover h3{color:var(--accent-deep)}
-  .card .dek{font-size:13.5px;color:var(--ink-soft);margin:0}
-  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-faint)}
-
   .photo{position:relative;overflow:hidden;background:#e4ede1}
   .photo .art{position:absolute;inset:0;transition:transform .5s ease}
   .photo .glyph{
     position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
     font-size:clamp(40px,9vw,84px);opacity:.92;filter:drop-shadow(0 4px 10px rgba(0,0,0,.2));
   }
-  .photo .srcbadge{
-    position:absolute;left:12px;bottom:12px;z-index:3;font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;
-    background:rgba(20,16,14,.55);backdrop-filter:blur(3px);padding:6px 11px;border-radius:999px;
-    display:inline-flex;align-items:center;gap:6px;transition:.15s ease;
-  }
-  .photo .srcbadge:hover{background:rgba(20,16,14,.78)}
-  .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
   .photo .grad{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.42) 100%)}
   .photo .cat-pill{
     position:absolute;right:12px;top:12px;z-index:3;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
@@ -236,89 +209,6 @@
   .foto-credit a:hover{color:var(--accent,#a5372a)}
   .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
 
-  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
-  .panel .ph{
-    padding:13px 17px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px;font-weight:700;
-    display:flex;align-items:center;justify-content:space-between;
-  }
-  .panel .ph .tag{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
-
-  .rank{list-style:none;margin:0;padding:6px 0}
-  .rank li{display:flex;gap:12px;padding:12px 17px;border-bottom:1px solid var(--line);transition:.15s}
-  .rank li:last-child{border-bottom:0}
-  .rank li:hover{background:var(--paper-2)}
-  .rank a{display:flex;gap:12px}
-  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
-  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
-  .rank .rmeta{margin-top:6px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--ink-faint)}
-
-  .ad{border:1px dashed var(--line-2);border-radius:var(--radius);background:var(--paper-2);overflow:hidden}
-  .ad .adlabel{
-    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center;
-    padding:7px;border-bottom:1px dashed var(--line-2);background:rgba(34,31,27,.02);
-  }
-  .ad .adbox{padding:26px 18px;text-align:center}
-  .ad .adart{
-    width:56px;height:56px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(135deg,#d8b25a,#a5822f);
-    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 8px 18px rgba(165,130,47,.3);
-  }
-  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
-  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
-  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:8px 17px;border-radius:999px;transition:.15s}
-  .ad:hover .adbtn{background:var(--gold);color:#fff}
-
-  .method{padding:17px}
-  .method p{margin:0 0 13px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
-  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:11px}
-  .method .row:last-child{margin-bottom:0}
-  .method .row .k{font-size:15px;line-height:1.3}
-
-  .support-panel{
-    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fbe9e2;text-align:center;
-    padding:24px 20px;border-radius:var(--radius);box-shadow:var(--shadow);
-  }
-  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
-  .support-panel p{font-size:13px;margin:0 0 16px;color:#f4ddd6;line-height:1.5}
-  .support-panel .sbtn{display:inline-block;background:#faf6ec;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:10px 21px;border-radius:999px;transition:.15s}
-  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.18)}
-  .support-panel small{display:block;margin-top:12px;font-size:11px;color:#f0d4cd;opacity:.9}
-
-  .strip{margin-top:8px}
-
-  footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
-  footer .wrap{padding:42px 22px 30px}
-  .foot-top{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid #3a352d}
-  .foot-brand{max-width:420px}
-  .foot-brand .fb{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff}
-  .foot-brand .fb .amp{color:#e0a89e}
-  .foot-brand .dev{font-family:var(--serif);font-style:italic;color:#e6bcb2;margin:6px 0 12px;font-size:17px}
-  .foot-brand .creed{font-size:13.5px;color:#b0a790;line-height:1.55}
-  .foot-brand .creed b{color:#f0e6d4;font-weight:700}
-  .foot-cols{display:flex;gap:48px;flex-wrap:wrap}
-  .foot-cols h5{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#948b78;margin:0 0 12px}
-  .foot-cols ul{list-style:none;margin:0;padding:0}
-  .foot-cols li{margin-bottom:8px}
-  .foot-cols a{font-size:14px;color:#d6cec0;transition:.15s}
-  .foot-cols a:hover{color:#fff}
-  .foot-bottom{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#948b78}
-  .foot-bottom a{color:#948b78;transition:.15s}
-  .foot-bottom a:hover{color:#fff}
-  .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
-
-  /* ---------- Article page specific ---------- */
-  .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
-    border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
-  .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
-  .article-head{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
-    overflow:hidden;margin-bottom:28px}
-  .article-head .photo{aspect-ratio:21/9}
-  .article-head .abody{padding:26px 30px 30px}
-  .article-head h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,40px);line-height:1.12;
-    margin:0 0 14px;letter-spacing:-.01em;color:var(--ink)}
-  .article-head .dek{font-size:17px;color:var(--ink-soft);margin:0 0 18px;max-width:70ch}
-  .article-head .verdict-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 16px}
-
   .ev-block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
     padding:22px 26px 26px;margin-bottom:24px}
   .ev-block h2{font-family:var(--serif);font-size:20px;margin:0 0 6px;display:flex;align-items:center;gap:9px}
@@ -348,11 +238,6 @@
   .ai-note h2{font-family:var(--serif);font-size:19px;margin:0 0 10px;display:flex;align-items:center;gap:9px}
   .ai-note p{margin:0;font-size:14.5px;line-height:1.6;color:var(--ink-soft)}
 
-  .math-block{background:var(--card);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow);
-    padding:22px 26px;margin-bottom:24px}
-  .math-block h2{font-family:var(--serif);font-size:19px;margin:0 0 12px;display:flex;align-items:center;gap:9px;color:var(--accent-deep)}
-  .math-block p{margin:0;font-size:14.5px;line-height:1.65;color:var(--ink)}
-
   .conclusion-box{
     background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fff;
     border-radius:var(--radius);padding:30px 30px;text-align:center;box-shadow:var(--shadow-hi);margin:32px 0 8px;
@@ -363,15 +248,43 @@
   .conclusion-box .backlink{background:#faf6ec;color:var(--accent-deep);border:none;font-weight:800}
   .conclusion-box .backlink:hover{background:#fff;color:var(--accent-deep)}
 
+  .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
+    border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
+  .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+  .article-head{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    overflow:hidden;margin-bottom:28px}
+  .article-head .photo{aspect-ratio:21/9}
+  .article-head .abody{padding:26px 30px 30px}
+  .article-head h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,40px);line-height:1.12;
+    margin:0 0 14px;letter-spacing:-.01em;color:var(--ink)}
+  .article-head .dek{font-size:17px;color:var(--ink-soft);margin:0 0 18px;max-width:70ch}
+  .article-head .verdict-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 16px}
+
+  footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
+  footer .wrap{padding:42px 22px 30px}
+  .foot-top{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid #3a352d}
+  .foot-brand{max-width:420px}
+  .foot-brand .fb{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff}
+  .foot-brand .fb .amp{color:#e0a89e}
+  .foot-brand .dev{font-family:var(--serif);font-style:italic;color:#e6bcb2;margin:6px 0 12px;font-size:17px}
+  .foot-brand .creed{font-size:13.5px;color:#b0a790;line-height:1.55}
+  .foot-brand .creed b{color:#f0e6d4;font-weight:700}
+  .foot-cols{display:flex;gap:48px;flex-wrap:wrap}
+  .foot-cols h5{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#948b78;margin:0 0 12px}
+  .foot-cols ul{list-style:none;margin:0;padding:0}
+  .foot-cols li{margin-bottom:8px}
+  .foot-cols a{font-size:14px;color:#d6cec0;transition:.15s}
+  .foot-cols a:hover{color:#fff}
+  .foot-bottom{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#948b78}
+  .foot-bottom a{color:#948b78;transition:.15s}
+  .foot-bottom a:hover{color:#fff}
+  .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
+
   @media(max-width:980px){
     .grid-main{grid-template-columns:1fr}
-    aside{position:static;flex-direction:column}
-    .cards-3{grid-template-columns:repeat(2,1fr)}
   }
   @media(max-width:720px){
     body{font-size:16px}
-    .cards,.cards-3{grid-template-columns:1fr}
-    .support{position:static;margin-top:14px}
     .masthead .wrap{padding-bottom:18px}
     .legend .wrap{font-size:12px}
     .brand{font-size:44px}
@@ -379,7 +292,7 @@
     .ev-block{padding:18px 18px 20px}
   }
 </style>
-<link rel="canonical" href="https://farabaliverne.ro/a/houthi-atacuri-arabia-saudita-yemen-escaladare.html">
+<link rel="canonical" href="https://farabaliverne.ro/a/uzine-armament-directori-control-judiciar-coruptie.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -388,23 +301,23 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Fără Baliverne">
 <meta property="og:locale" content="ro_RO">
-<meta property="og:title" content="Houthii redeschid un front în Yemen: atacuri asupra Arabiei Saudite și a portului Al-Makha — Fără Baliverne">
-<meta property="og:description" content="După aproape cinci luni de pauză, rebelii houthi din Yemen au reluat atacurile asupra Arabiei Saudite și a portului Al-Makha. Houthii vorbesc despre „sute” de victime; guvernul yemenit și alte surse dau cifre între 30 și 58 de morți.">
-<meta property="og:url" content="https://farabaliverne.ro/a/houthi-atacuri-arabia-saudita-yemen-escaladare.html">
-<meta property="og:image" content="https://farabaliverne.ro/img/articole/houthi-atacuri-arabia-saudita-yemen-escaladare.jpg">
+<meta property="og:title" content="Trei directori din fabricile de armament ale statului, plasați sub control judiciar — Fără Baliverne">
+<meta property="og:description" content="Curtea de Apel București a decis definitiv, pe 13 august 2026, plasarea sub control judiciar a trei directori din uzinele de armament ale statului, într-un dosar DNA de corupție.">
+<meta property="og:url" content="https://farabaliverne.ro/a/uzine-armament-directori-control-judiciar-coruptie.html">
+<meta property="og:image" content="https://farabaliverne.ro/img/articole/uzine-armament-directori-control-judiciar-coruptie.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Houthii redeschid un front în Yemen: atacuri asupra Arabiei Saudite și a portului Al-Makha — Fără Baliverne">
-<meta name="twitter:description" content="După aproape cinci luni de pauză, rebelii houthi din Yemen au reluat atacurile asupra Arabiei Saudite și a portului Al-Makha. Houthii vorbesc despre „sute” de victime; guvernul yemenit și alte surse dau cifre între 30 și 58 de morți.">
-<meta name="twitter:image" content="https://farabaliverne.ro/img/articole/houthi-atacuri-arabia-saudita-yemen-escaladare.jpg">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Houthii redeschid un front în Yemen: atacuri asupra Arabiei Saudite și a portului Al-Makha, cifrele victimelor rămân disputate", "image": ["https://farabaliverne.ro/og-cover.png"], "datePublished": "2026-08-11", "dateModified": "2026-08-11", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "publisher": {"@type": "Organization", "name": "Fără Baliverne", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png"}}, "mainEntityOfPage": "https://farabaliverne.ro/a/houthi-atacuri-arabia-saudita-yemen-escaladare.html", "description": "După aproape cinci luni în care au stat pe margine cât Iranul, principalul lor sprijinitor, era lovit de SUA și Israel, rebelii houthi din Yemen au reluat atacurile: asupra unei rafinării Aramco din Jizan (Arabia Saudită, 9 august), asupra portului Al-Makha, unde cel puțin 7 oameni au murit (9-10 august), și asupra forțelor guvernamentale yemenite (6 august). Houthii vorbesc despre „sute” de victime; guvernul yemenit și alte surse militare dau cifre între 30 și 58 de morți — o discrepanță pe care nu o putem tranșa, doar o consemnăm."}</script>
+<meta name="twitter:title" content="Trei directori din fabricile de armament ale statului, plasați sub control judiciar — Fără Baliverne">
+<meta name="twitter:description" content="Curtea de Apel București a decis plasarea sub control judiciar a trei directori din uzinele de armament, într-un dosar DNA de corupție.">
+<meta name="twitter:image" content="https://farabaliverne.ro/img/articole/uzine-armament-directori-control-judiciar-coruptie.jpg">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Trei directori din fabricile de armament ale statului, plasați sub control judiciar într-un dosar de corupție", "image": ["https://farabaliverne.ro/img/articole/uzine-armament-directori-control-judiciar-coruptie.jpg"], "datePublished": "2026-08-13", "dateModified": "2026-08-13", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "publisher": {"@type": "Organization", "name": "Fără Baliverne", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png"}}, "mainEntityOfPage": "https://farabaliverne.ro/a/uzine-armament-directori-control-judiciar-coruptie.html", "description": "Curtea de Apel București a decis definitiv, pe 13 august 2026, plasarea sub control judiciar a trei directori din uzinele de armament ale statului (București și Plopeni) și a unui om de afaceri, într-un dosar DNA în care sunt acuzați de luare/dare de mită. Instanța a respins cererea DNA de arestare preventivă. Important: control judiciar este o măsură preventivă, nu o constatare de vinovăție — persoanele vizate sunt acuzate, nu condamnate."}</script>
 </head>
 <body>
 
   <div class="topbar">
     <div class="wrap">
-      <div class="date">Marți, 11 august 2026 · Ediția de noapte</div>
+      <div class="date">Joi, 13 august 2026 · Ediția de după-amiază</div>
       <div class="live"><span class="dot"></span> 142 verificări publicate</div>
     </div>
   </div>
@@ -427,7 +340,7 @@
       <a href="../index.html#economie">Economie</a>
       <a href="../index.html#extern">Extern</a>
       <a href="../index.html#stiinta">Știință</a>
-      <a href="../index.html#social">Social</a>
+      <a href="../index.html#social" class="active">Social</a>
       <a href="../index.html#sport">Sport</a>
       <a href="../index.html#media-de-stat">Media de stat</a>
       <a href="../politicieni.html">Politicieni</a>
@@ -453,95 +366,67 @@
 
       <article>
         <div class="article-head">
-            <div class="photo g-hero">
+            <div class="photo g-soc">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-houthi-atacuri-arabia-saudita-yemen-escaladare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-houthi-atacuri-arabia-saudita-yemen-escaladare)"/></svg></div>
-                <div class="glyph">🌍</div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-uzine-armament" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-uzine-armament)"/></svg></div>
+                <div class="glyph">⚖️</div>
               </div>
+              <img src="../img/articole/uzine-armament-directori-control-judiciar-coruptie.jpg" alt="Bucharest Court of Appeal" loading="eager" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
+              <div class="cat-pill">Social</div>
             </div>
+<figcaption class="foto-credit"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><span class="txt"><span class="lead"><b>Foto ilustrativă</b> — Curtea de Apel București (clădirea în care s-a luat decizia). Nu este o imagine de la evenimentul relatat.</span><span class="attrib">„<a href="https://commons.wikimedia.org/wiki/File:Court_of_Appeal,_Bucharest_(_DSC6275).jpg" rel="nofollow noopener" target="_blank">Court of Appeal, Bucharest ( DSC6275)</a>" de Matti Blume, via Wikimedia Commons · <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license nofollow noopener" target="_blank">CC BY-SA 4.0</a> · decupată</span></span></figcaption>
           <div class="abody">
             <div class="eyebrow">
-              <span class="cat-tag">Extern</span>
+              <span class="cat-tag">Social</span>
             </div>
-            <h1>Houthii redeschid un front în Yemen: atacuri asupra Arabiei Saudite și a portului Al-Makha, cifrele victimelor rămân disputate</h1>
-            <p class="dek">După aproape cinci luni în care au stat pe margine cât Iranul, principalul lor sprijinitor, era lovit de SUA și Israel, rebelii houthi din Yemen au reluat atacurile: asupra unei rafinării Aramco din Jizan (Arabia Saudită, 9 august), asupra portului Al-Makha, unde cel puțin 7 oameni au murit (9-10 august), și asupra forțelor guvernamentale yemenite (6 august). Houthii vorbesc despre „sute” de victime; guvernul yemenit și alte surse militare dau cifre între 30 și 58 de morți — o discrepanță pe care nu o putem tranșa, doar o consemnăm.</p>
+            <h1>Trei directori din fabricile de armament ale statului, plasați sub control judiciar într-un dosar de corupție</h1>
+            <p class="dek">Curtea de Apel București a decis definitiv, pe 13 august 2026, plasarea sub control judiciar a trei directori din uzinele de armament ale statului (București și Plopeni) și a unui om de afaceri, într-un dosar DNA în care sunt acuzați de luare/dare de mită. Instanța a respins cererea DNA de arestare preventivă. Important: control judiciar este o măsură preventivă, nu o constatare de vinovăție — persoanele vizate sunt acuzate, nu condamnate.</p>
             <div class="verdict-row">
-              <div class="report-badge lg"><span class="seg ok">✔ 6 probate</span> <span style="color:var(--line-2)">·</span> <span class="seg warn">⚠ 2 contestate</span> <span style="color:var(--line-2)">·</span> <span class="seg op">✎ 1 opinie</span></div>
-              <span class="chip soft check sm">unde bat probele: Contestat</span>
+              <div class="report-badge lg"><span class="seg ok">✔ 4 probate</span> <span style="color:var(--line-2)">·</span> <span class="seg op">✎ 1 opinie</span></div>
+              <span class="chip soft check sm">unde bat probele: În verificare — control judiciar dispus</span>
             </div>
             <div class="meta">
-              <span class="src"><span class="fav" style="background:#8c6a9c"></span> Al Jazeera / NBC News / UPI</span>
+              <span class="src"><span class="fav" style="background:#1c3f66"></span> Gândul / Cotidianul</span>
               <span>·</span>
-              <span>2026-08-11</span>
+              <span>2026-08-13</span>
               <span>·</span>
-              <a href="https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha" target="_blank" rel="noopener noreferrer" class="ext">Articol sursă original</a>
+              <a href="https://www.gandul.ro/justitie/protagonistii-din-dosarul-de-coruptie-de-la-fabricile-de-armament-plasati-sub-control-judiciar-pe-durata-cercetarilor-decizia-este-defintiva-20979043" target="_blank" rel="noopener noreferrer" class="ext">Articol sursă original</a>
             </div>
           </div>
         </div>
 
-      <a class="src-cite" data-realphoto="1" href="https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha" target="_blank" rel="noopener noreferrer" style="display:flex;gap:0;align-items:stretch;text-decoration:none;border:1px solid var(--line-2);background:var(--card);border-radius:14px;overflow:hidden;margin:2px 0 26px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s" onmouseover="this.style.boxShadow='var(--shadow-hi)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='var(--shadow)';this.style.transform='none'"><span style="flex:0 0 8px;background:var(--accent)"></span><span style="display:flex;flex-direction:column;justify-content:center;gap:4px;padding:14px 18px;min-width:0"><span style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);font-weight:800">Sursă originală</span><span style="font-size:15.5px;color:var(--ink);line-height:1.32;font-weight:600">„Al Jazeera — New Houthi missile and drone attacks kill seven in Yemen's al-Makha”</span><span style="font-size:13px;color:var(--accent);font-weight:800;margin-top:2px">Citește știrea originală →</span></span></a>
+      <a class="src-cite" data-realphoto="1" href="https://www.gandul.ro/justitie/protagonistii-din-dosarul-de-coruptie-de-la-fabricile-de-armament-plasati-sub-control-judiciar-pe-durata-cercetarilor-decizia-este-defintiva-20979043" target="_blank" rel="noopener noreferrer" style="display:flex;gap:0;align-items:stretch;text-decoration:none;border:1px solid var(--line-2);background:var(--card);border-radius:14px;overflow:hidden;margin:2px 0 26px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s" onmouseover="this.style.boxShadow='var(--shadow-hi)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='var(--shadow)';this.style.transform='none'"><span style="flex:0 0 132px;background:#e4ede1;position:relative;overflow:hidden"><img src="https://www.gandul.ro/wp-content/uploads/2023/09/shutterstock_1728799840-1280x854.jpg" alt="" loading="lazy" onerror="this.parentNode.style.flexBasis='8px';this.parentNode.style.background='var(--accent)';this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></span><span style="display:flex;flex-direction:column;justify-content:center;gap:4px;padding:14px 18px;min-width:0"><span style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);font-weight:800">Sursă originală · Gândul</span><span style="font-size:15.5px;color:var(--ink);line-height:1.32;font-weight:600">„Protagoniștii din dosarul de corupție de la fabricile de armament, plasați sub control judiciar”</span><span style="font-size:13px;color:var(--accent);font-weight:800;margin-top:2px">Citește știrea originală →</span></span></a>
 
       <section class="ev-block probat">
         <h2>✅ Se probează</h2>
         <p class="ev-sub">Afirmații susținute de surse verificabile.</p>
         <div class="ev-item">
-          <p>Pe 6 august 2026, houthii au lansat un atac „la scară largă” cu drone și rachete asupra forțelor yemenite susținute de Arabia Saudită, în guvernoratele Hadramout și Marib, și au lovit separat regiunea saudită Najran. Purtătorul de cuvânt militar houthi, Yahya Saree, a susținut, într-un mesaj pe Telegram, că atacurile au ucis și rănit „sute” de militari.</p>
+          <p>Curtea de Apel București a decis, printr-o hotărâre definitivă din 13 august 2026, plasarea sub control judiciar (pentru 60 de zile, 13 august – 11 octombrie 2026) a patru persoane cercetate de DNA: Mihai Rafiu (director general al Uzinei Mecanice București), Tiberiu Alexandru Pîrvu (director general al Uzinei Mecanice Plopeni), Liliana Sorescu (director comercial la Uzina Mecanică Plopeni) și un om de afaceri, administrator în fapt al mai multor societăți comerciale, acuzat de dare de mită și complicitate.</p>
           <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/6/houthis-claim-to-have-killed-45-in-attacks-on-yemeni-government-forces" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — Houthi attacks on Yemeni government forces kill at least 30</span></a>
+            <a href="https://www.gandul.ro/justitie/protagonistii-din-dosarul-de-coruptie-de-la-fabricile-de-armament-plasati-sub-control-judiciar-pe-durata-cercetarilor-decizia-este-defintiva-20979043" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Gândul — Protagoniștii din dosarul de corupție de la fabricile de armament, plasați sub control judiciar</span></a>
+            <a href="https://www.cotidianul.ro/control-judiciar-pentru-cei-trei-directori-din-industria-de-armament-acuzati-de-luare-de-mita/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Cotidianul — Control judiciar pentru cei trei directori din industria de armament, acuzați de luare de mită</span></a>
           </div>
         </div>
         <div class="ev-item">
-          <p>Sursele guvernamentale yemenite, citate de Al Jazeera și NBC News, confirmă cel puțin 30 de militari yemeniți uciși și 15 răniți în atacurile din Hadramout și Marib — cu mult sub cifra „sute” susținută de houthi. Alte surse militare citate de presă indică 58 de morți, iar surse medicale citaseră anterior 38 de decese — cifrele oscilează în funcție de sursă, dar toate rămân semnificativ sub afirmația houthi.</p>
+          <p>DNA ceruse arestarea preventivă a celor patru; instanța a respins această cerere și a impus, în schimb, control judiciar cu restricții — inclusiv interdicția de a părăsi țara și de a exercita anumite funcții de conducere, plus obligația de a se prezenta la instanță.</p>
           <div class="ev-sources">
-            <a href="https://www.nbcnews.com/world/yemen/houthi-rebel-attacks-kill-least-30-yemeni-government-forces-officials-rcna591274" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">NBC News — Houthi rebel attacks kill at least 30 Yemeni government forces, officials say</span></a>
-            <a href="https://www.aljazeera.com/news/2026/8/6/houthis-claim-to-have-killed-45-in-attacks-on-yemeni-government-forces" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — cifra confirmată de guvern: cel puțin 30 de morți, 15 răniți</span></a>
+            <a href="https://www.gandul.ro/justitie/protagonistii-din-dosarul-de-coruptie-de-la-fabricile-de-armament-plasati-sub-control-judiciar-pe-durata-cercetarilor-decizia-este-defintiva-20979043" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Gândul — decizia instanței</span></a>
+            <a href="https://www.cotidianul.ro/control-judiciar-pentru-cei-trei-directori-din-industria-de-armament-acuzati-de-luare-de-mita/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Cotidianul — respingerea cererii de arestare preventivă</span></a>
           </div>
         </div>
         <div class="ev-item">
-          <p>În atacul asupra regiunii saudite Najran, purtătorul de cuvânt militar saudit, generalul-maior Turki al-Maliki, a raportat 7 cetățeni saudiți, 1 yemenit, 2 egipteni și 1 pakistanez răniți — printre victime, un copil de 4 ani cu arsuri de gradul doi.</p>
+          <p>Potrivit acuzării, sumele de mită pretinse ar fi fost: pentru Rafiu, 48.000 de lei în 12 tranșe (decembrie 2025 – iulie 2026); pentru Pîrvu, 25.900 de lei în trei tranșe (mai – iulie 2026); pentru Sorescu, 24.250 de lei plus 3.800 de dolari, apoi încă 17.200 de lei. Aceste cifre reprezintă acuzații din rechizitoriu, relatate de presă — nu constatări definitive ale unei instanțe pe fondul cauzei.</p>
           <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/7/houthi-strikes-hit-yemen-as-saudi-arabia-braces-for-attacks-what-we-know" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — Houthi strikes hit Yemen as Saudi Arabia braces for attacks: what we know</span></a>
+            <a href="https://www.gandul.ro/justitie/protagonistii-din-dosarul-de-coruptie-de-la-fabricile-de-armament-plasati-sub-control-judiciar-pe-durata-cercetarilor-decizia-este-defintiva-20979043" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Gândul — sumele de mită pretinse</span></a>
+            <a href="https://www.cotidianul.ro/control-judiciar-pentru-cei-trei-directori-din-industria-de-armament-acuzati-de-luare-de-mita/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Cotidianul — detalii sume</span></a>
           </div>
         </div>
         <div class="ev-item">
-          <p>Pe 9 august 2026 a izbucnit un incendiu la rafinăria Aramco din Jizan, pe coasta de sud-vest a Arabiei Saudite; incendiul a fost stins, fără victime raportate. Purtătorul de cuvânt militar houthi, Yahya Saree, a revendicat atacul, susținând că o dronă a lovit „precis” rafinăria.</p>
+          <p>Potrivit acuzării, mitele ar fi fost pretinse pentru urgentarea plăților, aprobarea comenzilor, lansarea procedurilor de achiziție și efectuarea formalităților de recepție a bunurilor livrate către cele două uzine.</p>
           <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — Saudi Arabia says fire extinguished at Aramco facility in Jizan</span></a>
-            <a href="https://www.upi.com/Top_News/World-News/2026/08/09/yemen-saudi-arabia-houthis-claim-fire-refinery-port/4281786291320/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">UPI — Houthis claim fire at Saudi refinery, Yemeni port</span></a>
-          </div>
-        </div>
-        <div class="ev-item">
-          <p>În aceleași zile (9-10 august 2026), houthii au lovit cu rachetă balistică și drone portul Al-Makha, pe coasta Mării Roșii. Forțele armate yemenite au raportat cel puțin 7 morți (4 militari și 3 civili) și 30 de răniți, majoritatea civili; potrivit aceleiași surse, apărarea antiaeriană a interceptat 11 din dronele implicate. Houthii au spus că atacul e un răspuns la o presupusă consolidare militară saudită de-a lungul coastei vestice și în provincia Taiz.</p>
-          <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — New Houthi missile and drone attacks kill seven in Yemen's al-Makha</span></a>
-            <a href="https://www.tribuneindia.com/news/al-mukha/3-civilians-among-7-killed-in-houthi-attack-on-yemens-al-mukha-city-30-injured-says-govts-military" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Tribune India — 3 civilians among 7 killed in Houthi attack on Yemen's Al-Mukha city; 30 injured</span></a>
-          </div>
-        </div>
-        <div class="ev-item">
-          <p>Reluarea atacurilor vine după aproape cinci luni în care houthii au stat pe margine cât Iranul, principalul lor sprijinitor, era lovit de atacuri americano-israeliene. Potrivit Al Jazeera, escaladarea are doi factori: blocajul negocierilor politice interne din Yemen, care i-a determinat pe houthi să creadă că au o poziție de negociere mai puternică, și tensiunile regionale intensificate de războiul israeliano-american cu Iranul, început în februarie 2026.</p>
-          <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/7/houthi-strikes-hit-yemen-as-saudi-arabia-braces-for-attacks-what-we-know" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — motivele reluării atacurilor houthi</span></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="ev-block contestat">
-        <h2>⚠️ Contestat / neclar</h2>
-        <p class="ev-sub">Puncte unde sursele diferă sau unde formularea inițială era imprecisă.</p>
-        <div class="ev-item">
-          <p>Discrepanța dintre cifrele de victime rămâne mare și nu poate fi tranșată din sursele publice disponibile: houthii vorbesc despre „sute” de militari uciși sau răniți în atacul de pe 6 august; sursele guvernamentale yemenite, citate de Al Jazeera și NBC News, confirmă 30 de morți; alte surse militare citează 58, iar surse medicale citaseră anterior 38. Nu decretăm o cifră „corectă” — consemnăm intervalul și sursa fiecărei cifre.</p>
-          <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/6/houthis-claim-to-have-killed-45-in-attacks-on-yemeni-government-forces" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — cifrele contradictorii</span></a>
-            <a href="https://www.nbcnews.com/world/yemen/houthi-rebel-attacks-kill-least-30-yemeni-government-forces-officials-rcna591274" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">NBC News — cifra oficială guvernamentală</span></a>
-          </div>
-        </div>
-        <div class="ev-item">
-          <p>Motivul invocat de houthi pentru atacul asupra portului Al-Makha — o presupusă „consolidare militară saudită” de-a lungul coastei vestice și în provincia Taiz — nu a fost confirmat independent de surse occidentale la data verificării; rămâne afirmația uneia dintre părțile aflate în conflict.</p>
-          <div class="ev-sources">
-            <a href="https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — afirmația houthi, neconfirmată independent</span></a>
+            <a href="https://www.cotidianul.ro/control-judiciar-pentru-cei-trei-directori-din-industria-de-armament-acuzati-de-luare-de-mita/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Cotidianul — natura faptelor acuzate</span></a>
           </div>
         </div>
       </section>
@@ -549,17 +434,12 @@
       <section class="ev-block opinie">
         <h2>💬 Opinie, nu fapt</h2>
         <p class="ev-sub">Interpretări, etichete și judecăți de valoare — separate explicit de fapte.</p>
-        <div class="opinie-item">Ideea că reluarea atacurilor houthi ar echivala cu „o revenire la războiul civil” din Yemen este o interpretare/prognoză din presă, nu un fapt împlinit — armistițiul din 2022 rămâne formal în vigoare, deși grav erodat de atacurile ultimelor săptămâni.</div>
+        <div class="opinie-item">Sumele și faptele descrise mai sus sunt acuzații formulate de DNA într-un dosar aflat în cercetare, nu o condamnare stabilită de instanță pe fondul cauzei. Control judiciar este o măsură preventivă — impusă tocmai pentru că ancheta continuă — și nu o constatare de vinovăție. Persoanele vizate beneficiază de prezumția de nevinovăție până la o hotărâre definitivă pe fond, care nu exista la data acestei verificări.</div>
       </section>
 
       <section class="ai-note">
         <h2>🤖 Nota AI</h2>
-        <p>🌍 Am rezumat și pus în context în română o serie de știri din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am separat explicit faptele confirmate independent (atacurile, datele, locurile) de cifrele disputate ale victimelor, unde houthii și sursele guvernamentale/militare oferă numere foarte diferite — fără să alegem noi o cifră „corectă”.</p>
-      </section>
-
-      <section class="math-block">
-        <h2>🧮 De la 30 la „sute” — un raport de aproape 1 la 10 între cifra oficială și cea houthi</h2>
-        <p>În atacul din 6 august asupra forțelor yemenite, cea mai joasă cifră confirmată public (30 de morți, sursă guvernamentală) e de aproape zece ori mai mică decât pragul minim sugerat de termenul houthi „sute”. Chiar și cea mai ridicată cifră vehiculată de alte surse militare (58) rămâne departe de „sute”. Acest tip de discrepanță e obișnuit în rapoartele de conflict, unde fiecare parte are un interes să-și maximizeze sau minimizeze impactul propriilor acțiuni — motiv pentru care Fără Baliverne pune cifrele alături, cu sursa fiecăreia, în loc să aleagă una singură.</p>
+        <p>Faptele verificabile la această etapă sunt doar cele două decizii de procedură (control judiciar dispus, arestare preventivă respinsă) și conținutul acuzațiilor din rechizitoriu, așa cum au fost relatate concordant de două redacții. Am marcat explicit, în secțiunea Opinie, diferența dintre „acuzat” și „condamnat” — control judiciar nu echivalează cu stabilirea vinovăției, iar noi nu decretăm dacă faptele descrise s-au întâmplat așa cum susține acuzarea.</p>
       </section>
 
         <div class="conclusion-box">
