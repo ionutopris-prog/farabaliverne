@@ -1,0 +1,66 @@
+{
+  "slug": "trump-hormuz-control-trafic-naval-prabusit",
+  "title": "Trump spune că SUA are „control total” asupra Strâmtorii Hormuz — dar traficul naval a scăzut cu peste 90%",
+  "category": "Extern",
+  "date": "2026-08-13",
+  "source": "CBS News / Fox News",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/",
+  "dek": "Președintele american a scris pe rețelele sociale că SUA „are control total” asupra Strâmtorii Hormuz și vrea să-l „păstreze”. Datele publicate de presa americană arată însă că prin strâmtoare mai trec doar 8-12 nave pe zi, față de ~130 înainte de război, iar Iranul insistă că ea rămâne blocată.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Președintele Donald Trump a scris public, în jurul datei de 12-13 august 2026: „The U.S.A. has total control over the Strait of Hormuz. I THINK WE WILL KEEP IT!”, iar oficiali americani au numit propria blocadă navală impusă în zonă „a wall of steel” („un zid de oțel”), afirmând că „nu există nimic ce Iranul poate face în privința asta”.",
+      "sources": [
+        {"name": "CBS News — Trump: „total control” asupra Strâmtorii Hormuz", "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"},
+        {"name": "Fox News — citatele lui Trump și „a wall of steel”", "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-of-hormuz-08-13-26"}
+      ]
+    },
+    {
+      "text": "Traficul comercial prin strâmtoare a scăzut drastic față de perioada dinaintea începerii războiului (28 februarie 2026): de la o medie de aproximativ 130 de nave pe zi, la doar 8 nave marți, 11 august 2026 (minimul ultimei săptămâni), cu o medie de circa 12 nave/zi pe ultimele 10 zile.",
+      "sources": [
+        {"name": "CBS News — date despre prăbușirea traficului naval", "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"},
+        {"name": "Fox News — 8 nave marți, medie ~12/zi pe 10 zile", "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-of-hormuz-08-13-26"}
+      ]
+    },
+    {
+      "text": "Ministrul iranian de externe, Abbas Araghchi, a declarat că SUA „a calculat greșit de multă vreme” situația și comite „o și mai mare eroare de calcul” legată de afirmațiile privind controlul strâmtorii.",
+      "sources": [
+        {"name": "Fox News — Araghchi: SUA a „calculat greșit”", "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-of-hormuz-08-13-26"}
+      ]
+    },
+    {
+      "text": "Autoritatea Strâmtorii Golfului Persic (structură iraniană) susține că strâmtoarea „rămâne blocată” și nu se va redeschide până când „condițiile Iranului nu sunt acceptate”; comandantul unei unități Basij a afirmat că strâmtoarea se află „sub controlul și gestiunea Iranului”, respingând afirmațiile americane.",
+      "sources": [
+        {"name": "CBS News — poziția iraniană despre blocaj", "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cele două tabere folosesc cuvântul „control” cu sensuri diferite: oficialii americani se referă la o blocadă militară impusă navelor legate de Iran (interzicerea traficului spre porturile iraniene), în timp ce Iranul se referă la blocarea traficului comercial internațional obișnuit prin strâmtoare. Asta explică de ce ambele părți revendică „a avea control” în același timp, fără să descrie aceeași realitate. Cifrele de trafic (8-12 nave/zi, față de ~130 înainte de război) arată că strâmtoarea e, în fapt, aproape închisă pentru comerțul obișnuit, indiferent cum e numit acest lucru de fiecare parte — deci afirmația lui Trump că SUA a „păstrat” o strâmtoare funcțională nu se susține din datele de trafic citate chiar de presa americană.",
+      "sources": [
+        {"name": "CBS News — divergența privind sensul „controlului”", "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"},
+        {"name": "Fox News — Iran: strâmtoarea „sub controlul Iranului”", "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-of-hormuz-08-13-26"}
+      ]
+    },
+    {
+      "text": "Impactul economic e documentat și de un actor terț, care nu are interes politic direct: compania de transport maritim Hapag-Lloyd a raportat o scădere de 73% a profitului net față de anul anterior, cu aproximativ 600 de milioane de dolari costuri suplimentare doar în trimestrul doi, din cauza deviărilor de rută și a asigurărilor mai scumpe — o dovadă indirectă că strâmtoarea nu funcționează normal, indiferent de varianta „oficială” susținută de fiecare parte.",
+      "sources": [
+        {"name": "Fox News — Hapag-Lloyd: -73% profit net, ~600 mil. $ costuri suplimentare", "url": "https://www.foxnews.com/live-news/iran-war-trump-strait-of-hormuz-08-13-26"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Formularea „A WALL OF STEEL” folosită de oficialii americani e un slogan politic, nu o descriere tehnică verificabilă a blocadei impuse."
+    },
+    {
+      "text": "Eticheta iraniană că strâmtoarea e „sub controlul și gestiunea Iranului” e, la rândul ei, o revendicare politică — niciuna dintre părți nu publică date independente, verificabile de terți, despre cine anume oprește exact fiecare navă."
+    }
+  ],
+  "math": {
+    "title": "De la 130 la 8-12 nave pe zi — o scădere de peste 90%",
+    "explanation": "Înainte de începerea războiului (28 februarie 2026), prin Strâmtoarea Hormuz treceau în medie aproximativ 130 de nave comerciale pe zi. Pe 11 august 2026 au trecut doar 8, iar media ultimelor 10 zile e de circa 12 nave/zi. Asta înseamnă o scădere de aproximativ 90-94% a traficului obișnuit — indiferent cine „controlează” strâmtoarea în sens militar, ea nu funcționează ca rută comercială normală, ceea ce contrazice imaginea unei strâmtori „redeschise” sub control american."
+  },
+  "aiNote": "Nu decretăm cine „are dreptate” în disputa SUA-Iran despre Hormuz — arătăm ce afirmă fiecare parte și ce spun cifrele publicate de presa americană (CBS, Fox News) despre traficul naval real. Afirmația lui Trump despre „control total” e contrazisă de datele de trafic (scădere de peste 90%), la fel cum afirmația iraniană că strâmtoarea e „sub controlul Iranului” rămâne o revendicare politică fără date independente publice. Cititorul poate urmări cifrele de trafic actualizate prin surse de monitorizare maritimă independente."
+}
