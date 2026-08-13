@@ -1,0 +1,68 @@
+{
+  "slug": "franta-germania-criza-energetica-canicula-nuclear-eolian",
+  "title": "Val de căldură lovește rețelele electrice din Franța și Germania: nuclear redus, eolian în cădere, prețuri duble",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "Capital.ro / RomaniaTV / Generation-NT",
+  "url": "https://www.capital.ro/valul-de-caldura-loveste-puternic-sistemele-energetice-din-europa-preturile-energiei-au-crescut-cu-peste-20-in-franta-si-germania.html",
+  "dek": "Al cincilea val de căldură al verii 2026 a forțat EDF să reducă producția nucleară franceză, iar vântul slab a tăiat producția eoliană germană cu circa 60% sub medie. Prețurile pe piața spot au crescut cu peste 20% în ambele țări, până la 400-460 euro/MWh la vârf de seară. Cifrele exacte ale reducerii nucleare diferă între surse.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Prețurile energiei pe piața spot pentru ziua următoare (day-ahead) au crescut puternic în ambele țări: în Franța cu 21,8%, până la 142,5 euro/MWh; în Germania cu 22,8%, până la 138,50 euro/MWh — potrivit datelor LSEG. La orele de vârf de seară, prețurile au ajuns între 400 și 460 euro/MWh.",
+      "sources": [
+        {"name": "Capital.ro — Valul de căldură lovește puternic sistemele energetice din Europa", "url": "https://www.capital.ro/valul-de-caldura-loveste-puternic-sistemele-energetice-din-europa-preturile-energiei-au-crescut-cu-peste-20-in-franta-si-germania.html"},
+        {"name": "RomaniaTV.net — Franța și Germania, lovite de criza energetică accentuată de secetă", "url": "https://www.romaniatv.net/franta-si-germania-lovite-de-criza-energetica-accentuata-de-seceta-extrema-si-scaderea-productiei-nucleare_9749170.html"}
+      ]
+    },
+    {
+      "text": "EDF a redus producția nucleară franceză din cauza căldurii și secetei: două reactoare complet oprite, patru cu limitări planificate, iar la vârful de consum de prânz producția era limitată cu 7,3 gigawați — aproximativ 12% din întreaga flotă nucleară franceză.",
+      "sources": [
+        {"name": "Capital.ro — Valul de căldură lovește puternic sistemele energetice din Europa", "url": "https://www.capital.ro/valul-de-caldura-loveste-puternic-sistemele-energetice-din-europa-preturile-energiei-au-crescut-cu-peste-20-in-franta-si-germania.html"}
+      ]
+    },
+    {
+      "text": "Datele tehnice publicate de EDF arată că duminică, 9 august 2026, indisponibilitatea flotei nucleare franceze a atins 15,6% — cel mai ridicat nivel de la începutul publicării acestor date, în 2015. Nouă reactoare au avut producția redusă, iar patru erau complet oprite încă de la mijlocul lui iulie. Cauza: restricțiile legale privind temperatura apei evacuate în râuri, pentru protejarea ecosistemelor acvatice, devin greu de respectat când apele sunt deja anormal de calde.",
+      "sources": [
+        {"name": "Generation-NT — Canicule : la disponibilité du parc nucléaire français chute", "url": "https://www.generation-nt.com/actualites/canicule-nucleaire-disponibilite-production-france-2079635"}
+      ]
+    },
+    {
+      "text": "În Germania, vântul slab a redus producția eoliană cu aproximativ 8,1 gigawați, până la doar 4,7 gigawați — circa 60% sub media obișnuită pentru această perioadă a anului, potrivit LSEG.",
+      "sources": [
+        {"name": "Capital.ro — Valul de căldură lovește puternic sistemele energetice din Europa", "url": "https://www.capital.ro/valul-de-caldura-loveste-puternic-sistemele-energetice-din-europa-preturile-energiei-au-crescut-cu-peste-20-in-franta-si-germania.html"}
+      ]
+    },
+    {
+      "text": "EDF a alocat 8,7 miliarde de euro, până în 2040, pentru adaptarea centralelor la căldură extremă — inclusiv sisteme de răcire în circuit închis, care ar reduce dependența de debitul râurilor.",
+      "sources": [
+        {"name": "Generation-NT — Canicule : la disponibilité du parc nucléaire français chute", "url": "https://www.generation-nt.com/actualites/canicule-nucleaire-disponibilite-production-france-2079635"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifrele privind reducerea producției nucleare franceze diferă între surse: Capital.ro vorbește despre 7,3 GW mai puțin la vârful de prânz (~12% din flotă), RomaniaTV.net indică o reducere de 14,4% cu disponibilitate totală la 57%, iar datele tehnice EDF citate de Generation-NT arată o indisponibilitate de 15,6% pe 9 august. Diferențele par să reflecte momente și metrici diferite (reducere la vârf vs. indisponibilitate totală, zile diferite), dar sursele nu explică suficient de clar cum se raportează cifrele una la alta.",
+      "sources": [
+        {"name": "Capital.ro — 7,3 GW, ~12% din flotă", "url": "https://www.capital.ro/valul-de-caldura-loveste-puternic-sistemele-energetice-din-europa-preturile-energiei-au-crescut-cu-peste-20-in-franta-si-germania.html"},
+        {"name": "RomaniaTV.net — 14,4%, disponibilitate 57%", "url": "https://www.romaniatv.net/franta-si-germania-lovite-de-criza-energetica-accentuata-de-seceta-extrema-si-scaderea-productiei-nucleare_9749170.html"},
+        {"name": "Generation-NT — 15,6% indisponibilitate, 9 august", "url": "https://www.generation-nt.com/actualites/canicule-nucleaire-disponibilite-production-france-2079635"}
+      ]
+    },
+    {
+      "text": "Impactul pe termen lung rămâne o proiecție, nu o certitudine: Generation-NT citează o estimare potrivit căreia efectul caniculelor asupra producției anuale e de doar 0,3% în prezent, dar ar putea ajunge la 1,4% până în 2035 „fără măsuri de adaptare” — o ipoteză condiționată, nu un fapt împlinit.",
+      "sources": [
+        {"name": "Generation-NT — Canicule : la disponibilité du parc nucléaire français chute", "url": "https://www.generation-nt.com/actualites/canicule-nucleaire-disponibilite-production-france-2079635"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Declarația comisarului european pentru energie, potrivit căreia sistemul electric european „rămâne stabil” în ciuda valurilor de căldură, e o asigurare politică menită să calmeze piețele — nu o garanție tehnică împotriva riscului de restricții mai severe dacă valurile de căldură se intensifică sau se repetă."
+  ],
+  "math": {
+    "title": "Prețul aproape s-a triplat la orele de vârf",
+    "explanation": "Prețul de referință (day-ahead) a crescut cu circa 22% în ambele țări, până la 138-142 euro/MWh. Dar la orele de vârf de seară, prețul a ajuns la 400-460 euro/MWh — de aproximativ 3 ori mai mult decât media zilei. Diferența arată că problema nu e doar prețul mediu, ci vârfurile de cerere din serile fierbinți, când solicitarea de aer condiționat rămâne ridicată, iar producția (nucleară redusă, eoliană slabă) nu poate ține pasul."
+  },
+  "aiNote": "Am pus alături date din trei surse (Capital.ro, RomaniaTV.net, Generation-NT) care raportează, cu cifre ușor diferite, aceeași criză energetică din Franța și Germania. Cifrele de bază despre prețuri și despre reducerea producției eoliene coincid; cele despre producția nucleară franceză diferă în funcție de momentul și metrica raportată — am semnalat explicit divergența, în loc să aleg o singură cifră „corectă”.",
+  "persoane": []
+}

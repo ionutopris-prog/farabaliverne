@@ -1,0 +1,55 @@
+{
+  "slug": "sua-cpi-iulie-2026-inflatie-3-4-procente",
+  "title": "Inflația din SUA scade ușor la 3,4% în iulie, al doilea declin lunar la rând",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "Fox Business / Trading Economics",
+  "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026",
+  "dek": "🌍 Indicele prețurilor de consum din SUA a crescut 0,1% în iulie față de iunie, iar rata anuală a scăzut la 3,4% (de la 3,5% în iunie), potrivit datelor publicate de Biroul de Statistică a Muncii. Inflația rămâne totuși mult peste ținta de 2% a Rezervei Federale, iar energia costă cu aproape 15% mai mult față de acum un an.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Indicele prețurilor de consum (CPI) a crescut cu 0,1% în iulie 2026 față de iunie. Rata anuală a inflației a scăzut la 3,4%, de la 3,5% în iunie — al doilea declin lunar consecutiv al ratei anuale.",
+      "sources": [
+        {"name": "Fox Business — July CPI inflation: Consumer price growth cooled but remained elevated", "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026"},
+        {"name": "Trading Economics — United States Inflation Rate", "url": "https://tradingeconomics.com/united-states/inflation-cpi"}
+      ]
+    },
+    {
+      "text": "Inflația „core” (fără alimente și energie, considerată un indicator mai stabil al tendinței de fond) a crescut 0,2% lunar și 2,5% anual — în scădere cu 0,1 puncte procentuale față de iunie.",
+      "sources": [
+        {"name": "Fox Business — July CPI inflation report", "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026"}
+      ]
+    },
+    {
+      "text": "Pe componente: energia a scăzut 1,5% lunar, dar rămâne cu 14,7% mai scumpă față de acum un an; benzina a scăzut 2,9% lunar, dar e cu 24,6% mai scumpă anual; alimentele au crescut 0,1% lunar (3,0% anual); locuințele (shelter) au crescut 0,1% lunar (3,2% anual) și au reprezentat aproximativ două treimi din creșterea lunară totală a indicelui.",
+      "sources": [
+        {"name": "Fox Business — July CPI inflation report, componente detaliate", "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026"}
+      ]
+    },
+    {
+      "text": "În urma raportului, piețele financiare au mutat așteptările spre menținerea nemodificată a dobânzii de referință a Rezervei Federale (3,5%-3,75%) la ședința din septembrie — o probabilitate de circa 62%, față de o probabilitate mai mică atribuită unei majorări de 25 de puncte de bază.",
+      "sources": [
+        {"name": "Fox Business — implicații pentru dobânda Fed", "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Deși rata anuală a scăzut pentru a doua lună la rând, ea rămâne mult peste ținta de 2% a Fed, iar energia — componenta care a scăzut cel mai mult luna trecută — e totuși cu aproape 15% mai scumpă decât acum un an. Scăderea e deci relativă (față de luna anterioară), nu o revenire la niveluri considerate normale de banca centrală.",
+      "sources": [
+        {"name": "Fox Business — July CPI inflation report", "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026"},
+        {"name": "Trading Economics — United States Inflation Rate", "url": "https://tradingeconomics.com/united-states/inflation-cpi"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Dacă acest raport confirmă o dezinflație durabilă sau e doar o pauză temporară e o interpretare a analiștilor, nu un fapt stabilit — cu atât mai mult cu cât indicele a scăzut brusc (-0,4%) în iunie, pentru a reveni la o creștere modestă în iulie; o singură lună de date nu stabilește o tendință."
+  ],
+  "math": {
+    "title": "Un galon de benzină costă tot cu un sfert mai mult ca acum un an",
+    "explanation": "Benzina a scăzut 2,9% doar în luna iulie, dar rămâne cu 24,6% mai scumpă față de iulie 2025. Cele două cifre nu se contrazic: reprezintă praguri de comparație diferite (lună față de lună anterioară, respectiv an față de anul anterior). Practic, un consumator plătește azi puțin mai puțin decât în iunie, dar tot cu aproximativ un sfert mai mult decât acum 12 luni."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele oficiale (CPI general, core CPI, componente) sunt confirmate concordant de Fox Business și Trading Economics, ambele preluând datele Biroului de Statistică a Muncii (BLS). Am separat clar cifrele publicate de interpretarea lor (dacă tendința e „durabilă”), care rămâne deschisă.",
+  "persoane": []
+}
