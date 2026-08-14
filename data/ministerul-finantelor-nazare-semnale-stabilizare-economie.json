@@ -1,0 +1,67 @@
+{
+  "slug": "ministerul-finantelor-nazare-semnale-stabilizare-economie",
+  "title": "Ministerul Finanțelor anunță „primele semnale de stabilizare” a economiei — dar alte date oficiale publicate în aceeași zi arată deficitul de cont curent în creștere",
+  "category": "Economie",
+  "date": "2026-08-14",
+  "source": "Ministerul Finanțelor / Digi24 / BURSA",
+  "url": "https://www.digi24.ro/stiri/economie/finante-economie/ministerul-finantelor-vede-semne-de-stabilizare-a-economiei-dupa-scaderea-pib-nazare-contractia-economica-s-a-temperat-3906483",
+  "dek": "Ministrul Finanțelor, Alexandru Nazare, a declarat pe 14 august 2026 că economia României „intră într-o etapă de reechilibrare”, citând temperarea contracției PIB, accelerarea investițiilor din fonduri europene și reducerea deficitului comercial. În aceeași zi însă, BNR a publicat balanța de plăți pe ianuarie-iunie 2026, care arată deficitul de cont curent în creștere, nu în scădere — cele două seturi de date oficiale, pentru perioade diferite, spun povești parțial diferite.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "PIB-ul României a scăzut cu 0,4% în trimestrul al doilea din 2026 față de aceeași perioadă a anului trecut (serie brută), respectiv cu 2% în serie ajustată sezonier, dar a rămas stabil față de trimestrul precedent. Pentru primul semestru din 2026, contracția anuală este de 0,8% (serie brută) / 1,6% (serie ajustată sezonier) față de S1 2025.",
+      "sources": [
+        {"name": "Digi24 — Ministerul Finanțelor vede semne de stabilizare a economiei după scăderea PIB", "url": "https://www.digi24.ro/stiri/economie/finante-economie/ministerul-finantelor-vede-semne-de-stabilizare-a-economiei-dupa-scaderea-pib-nazare-contractia-economica-s-a-temperat-3906483"},
+        {"name": "BURSA — Ministerul Finanțelor: Economia României dă primele semnale de stabilizare", "url": "https://www.bursa.ro/ministerul-finantelor-economia-romaniei-da-primele-semnale-de-stabilizare-48578952"}
+      ]
+    },
+    {
+      "text": "Investițiile finanțate din fonduri europene au crescut de la aproximativ 27,2-27,6 miliarde lei în primul semestru din 2025 la 42,5 miliarde lei în primul semestru din 2026 — un avans de circa 56% (vezi calculul în secțiunea „Un calcul simplu”).",
+      "sources": [
+        {"name": "Digi24 — creșterea investițiilor din fonduri europene", "url": "https://www.digi24.ro/stiri/economie/finante-economie/ministerul-finantelor-vede-semne-de-stabilizare-a-economiei-dupa-scaderea-pib-nazare-contractia-economica-s-a-temperat-3906483"},
+        {"name": "Adevărul — Nazare: Economia României intră într-o etapă de reechilibrare", "url": "https://adevarul.ro/economie/nazare-economia-romaniei-intra-intr-o-etapa-de-2549902.html"}
+      ]
+    },
+    {
+      "text": "Potrivit datelor citate de Ministerul Finanțelor pentru primele cinci luni din 2026 (ianuarie-mai), deficitul de cont curent a scăzut cu 5,4% față de aceeași perioadă din 2025, iar deficitul comercial de bunuri s-a redus cu 3,9%, pe fondul unei creșteri a exporturilor de 2,3% și a unui avans marginal al importurilor.",
+      "sources": [
+        {"name": "Digi24 — reducerea deficitului de cont curent pe ianuarie-mai 2026", "url": "https://www.digi24.ro/stiri/economie/finante-economie/ministerul-finantelor-vede-semne-de-stabilizare-a-economiei-dupa-scaderea-pib-nazare-contractia-economica-s-a-temperat-3906483"},
+        {"name": "BURSA — deficit de cont curent și deficit comercial", "url": "https://www.bursa.ro/ministerul-finantelor-economia-romaniei-da-primele-semnale-de-stabilizare-48578952"}
+      ]
+    },
+    {
+      "text": "Inflația anuală a scăzut de la 10,42% în iunie 2026 la 8,2% în iulie 2026, potrivit cifrelor citate de Ministerul Finanțelor.",
+      "sources": [
+        {"name": "Digi24 — evoluția inflației iunie-iulie 2026", "url": "https://www.digi24.ro/stiri/economie/finante-economie/ministerul-finantelor-vede-semne-de-stabilizare-a-economiei-dupa-scaderea-pib-nazare-contractia-economica-s-a-temperat-3906483"},
+        {"name": "Adevărul — Nazare: Economia României intră într-o etapă de reechilibrare", "url": "https://adevarul.ro/economie/nazare-economia-romaniei-intra-intr-o-etapa-de-2549902.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "În aceeași zi (14 august 2026), BNR a publicat balanța de plăți pentru întregul prim semestru (ianuarie-iunie) 2026, care arată deficitul de cont curent în CREȘTERE, la 14,202 miliarde euro, față de 13,555 miliarde euro în S1 2025 — o creștere de aproximativ 4,8%, nu o scădere de 5,4%. Diferența se explică parțial prin perioadele de referință diferite (Ministerul Finanțelor a citat ianuarie-mai, cinci luni; BNR a publicat ianuarie-iunie, șase luni întregi) și posibil prin metodologii sau surse de date diferite — dar cititorul rămâne cu două cifre oficiale, din aceeași zi, care spun povești opuse despre aceeași balanță externă. Vezi verificarea separată despre datele BNR pentru detalii.",
+      "sources": [
+        {"name": "Digi24 — Deficitul de cont curent al României a crescut la 14,2 miliarde de euro în primul semestru din 2026", "url": "https://www.digi24.ro/stiri/economie/deficitul-de-cont-curent-al-romaniei-a-crescut-la-142-miliarde-de-euro-in-primul-semestru-din-2026-3906527"},
+        {"name": "BURSA — BNR: deficitul de cont curent a urcat la 14,2 miliarde euro", "url": "https://www.bursa.ro/bnr-deficitul-de-cont-curent-a-urcat-la-14-2-miliarde-euro-69578953"}
+      ]
+    },
+    {
+      "text": "Cifra investițiilor din fonduri europene pentru S1 2025 diferă ușor între surse: Digi24 indică 27,2 miliarde lei, BURSA indică 27,6 miliarde lei. Diferența (circa 400 milioane lei) nu schimbă concluzia unei creșteri semnificative, dar arată că nici comunicatul Ministerului Finanțelor nu a fost preluat identic de toate redacțiile.",
+      "sources": [
+        {"name": "Digi24 — 27,2 miliarde lei în S1 2025", "url": "https://www.digi24.ro/stiri/economie/finante-economie/ministerul-finantelor-vede-semne-de-stabilizare-a-economiei-dupa-scaderea-pib-nazare-contractia-economica-s-a-temperat-3906483"},
+        {"name": "BURSA — 27,6 miliarde lei în S1 2025", "url": "https://www.bursa.ro/ministerul-finantelor-economia-romaniei-da-primele-semnale-de-stabilizare-48578952"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Etichetarea situației economice drept „reechilibrare” sau „stabilizare” este o interpretare politică a ministrului Nazare, nu o concluzie statistică unanimă. PIB-ul este încă în contracție, iar deficitul de cont curent pentru semestrul întreg (după datele BNR) a crescut, nu a scăzut — un consultant economic independent citat separat de presă (Adrian Negrescu) estimează chiar o posibilă scădere economică suplimentară în trimestrele trei și patru din 2026. Cititorul poate compara singur optimismul comunicatului ministerial cu cifrele brute ale BNR."
+    }
+  ],
+  "math": {
+    "title": "Un calcul simplu: +56% la investițiile din fonduri europene",
+    "explanation": "Investițiile din fonduri europene au fost de aproximativ 27,2-27,6 miliarde lei în S1 2025 și au ajuns la 42,5 miliarde lei în S1 2026. Diferența este de circa 42,5 − 27,4 (medie) ≈ 15,1 miliarde lei. Raportat la nivelul de pornire: 15,1 / 27,4 ≈ 0,55, adică o creștere de aproximativ 55-56%, cifra citată de minister. Este cea mai solidă cifră pozitivă din comunicat, spre deosebire de deficitul de cont curent, unde perioada de referință mai scurtă (5 luni, nu 6) face comparația cu datele BNR neconcludentă fără verificare directă."
+  },
+  "aiNote": "Cifrele PIB, inflației și investițiilor din fonduri europene citate de Ministerul Finanțelor sunt confirmate concordant de Digi24, BURSA și Adevărul, așa că le tratăm ca probate. Punctul central de tensiune este deficitul de cont curent: comunicatul ministerial (pe 5 luni) arată scădere, în timp ce balanța de plăți BNR publicată în aceeași zi (pe 6 luni întregi) arată creștere. Nu spunem că ministerul „minte” — perioadele de referință diferă real —, dar arătăm explicit contrastul, pentru că cititorul are dreptul să vadă că două comunicate oficiale din aceeași zi, pe același subiect, lasă impresii opuse. „Reechilibrare” rămâne eticheta politică a ministrului, nu un verdict statistic pe care îl decretăm noi.",
+  "persoane": ["Alexandru Nazare"]
+}
