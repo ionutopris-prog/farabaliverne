@@ -1,0 +1,60 @@
+{
+  "slug": "trump-catapulte-abur-portavioane-doris-miller",
+  "title": "Trump ordonă Marinei SUA să renunțe la catapultele electromagnetice și să revină la abur pe viitoarele portavioane",
+  "category": "Extern",
+  "date": "2026-08-14",
+  "source": "Breaking Defense / Navy Lookout / The Hill",
+  "url": "https://breakingdefense.com/2026/08/trump-orders-return-of-steam-catapults-on-carriers-fifth-public-shipyard/",
+  "dek": "Printr-un memorandum de securitate națională semnat joi, 13 august 2026, președintele Donald Trump a ordonat Marinei SUA să renunțe la sistemul electromagnetic de lansare a avioanelor (EMALS) și să revină la catapultele cu abur, începând cu al patrulea portavion din clasa Gerald R. Ford, USS Doris Miller. Experți în apărare și producătorul EMALS avertizează că schimbarea ar costa miliarde de dolari și ani de redesign.",
+  "mainVerdict": "Probat, cu rezerve tehnice contestate",
+  "probat": [
+    {
+      "text": "Trump a semnat un memorandum de securitate națională prin care Marina SUA este direcționată să abandoneze sistemul electromagnetic de lansare a avioanelor (EMALS) în favoarea catapultelor clasice cu abur, începând cu al patrulea portavion din clasa Gerald R. Ford — USS Doris Miller, aflat în construcție la Newport News Shipbuilding. Primele trei portavioane din clasă își păstrează sistemul electromagnetic actual.",
+      "sources": [
+        {"name": "The Hill — Trump orders Navy to ditch EMALS for steam catapults on aircraft carriers", "url": "https://thehill.com/policy/defense/6029103-trump-orders-navy-catapult-reversal/"},
+        {"name": "Breaking Defense — Trump orders return of steam catapults on carriers, fifth public shipyard", "url": "https://breakingdefense.com/2026/08/trump-orders-return-of-steam-catapults-on-carriers-fifth-public-shipyard/"}
+      ]
+    },
+    {
+      "text": "Același memorandum cere înființarea unui al cincilea șantier naval public pentru reparații de submarine și crearea unui centru de reparații de componente, menit să reducă întârzierile de mentenanță. Secretarul Apărării Pete Hegseth are termen 120 de zile să propună un plan privind capacitatea de doc uscat și locațiile noilor facilități.",
+      "sources": [
+        {"name": "Breaking Defense — Trump orders return of steam catapults on carriers, fifth public shipyard", "url": "https://breakingdefense.com/2026/08/trump-orders-return-of-steam-catapults-on-carriers-fifth-public-shipyard/"}
+      ]
+    },
+    {
+      "text": "General Atomics, producătorul sistemului EMALS, a avertizat că schimbarea direcției „ar introduce riscuri semnificative de cost, calendar și integrare”, având în vedere că producția pentru viitoarele nave era deja aproape la jumătate finalizată.",
+      "sources": [
+        {"name": "Navy Lookout — Full steam in reverse: Trump orders US Navy back to old-style aircraft catapults", "url": "https://www.navylookout.com/full-steam-in-reverse-trump-orders-us-navy-back-to-old-style-aircraft-catapults/"},
+        {"name": "Newser — Trump Directs Navy to Restore Steam Catapults to Carriers", "url": "https://www.newser.com/story/394632/trump-directs-navy-to-restore-steam-catapults-to-carriers.html"}
+      ]
+    },
+    {
+      "text": "Trump și-a justificat decizia public, la un eveniment de apărare în Pennsylvania, declarând despre catapultele electromagnetice: „Billions of dollars more they spent on electric catapults and they're not good. They're not nearly as good, too complex” (miliarde de dolari în plus cheltuiți pe catapultele electrice și nu sunt bune, nu sunt nici pe departe la fel de bune, prea complexe).",
+      "sources": [
+        {"name": "Newser — Trump Directs Navy to Restore Steam Catapults to Carriers", "url": "https://www.newser.com/story/394632/trump-directs-navy-to-restore-steam-catapults-to-carriers.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Experți în apărare contestă argumentele tehnice ale deciziei. Bryan Clark, de la Hudson Institute, a spus că redesign-ul necesar ar fi „extensiv” și că „Marina nu a mai cumpărat o catapultă cu abur de peste 20 de ani, așa că e puțin probabil ca furnizorii să poată construi una fără o investiție inițială substanțială”. Datele disponibile sugerează că sistemul electromagnetic economisește aproximativ 100 de milioane de dolari anual per portavion față de catapultele cu abur folosite pe navele clasei Nimitz — cifră care contrazice direct argumentul costurilor mai mici invocat de Trump.",
+      "sources": [
+        {"name": "Navy Lookout — Full steam in reverse: Trump orders US Navy back to old-style aircraft catapults", "url": "https://www.navylookout.com/full-steam-in-reverse-trump-orders-us-navy-back-to-old-style-aircraft-catapults/"},
+        {"name": "Newser — Trump Directs Navy to Restore Steam Catapults to Carriers", "url": "https://www.newser.com/story/394632/trump-directs-navy-to-restore-steam-catapults-to-carriers.html"}
+      ]
+    },
+    {
+      "text": "Oficiali din Marină și General Atomics susțin că sistemul electromagnetic necesită mai puțin personal de operare și are costuri de mentenanță mai mici, iar reversia ar risca să erodeze avansul tehnologic american, în condițiile în care China și Franța avansează cu propriile catapulte electromagnetice.",
+      "sources": [
+        {"name": "Newser — Trump Directs Navy to Restore Steam Catapults to Carriers", "url": "https://www.newser.com/story/394632/trump-directs-navy-to-restore-steam-catapults-to-carriers.html"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă schimbarea la abur reprezintă o decizie tehnică prudentă sau o cheltuială inutilă de miliarde de dolari e o judecată de valoare, contestată între administrație (care invocă fiabilitatea sistemului cu abur) și experții în apărare citați în presă (care invocă eficiența și costurile mai mici ale sistemului electromagnetic). Nu există la data verificării o evaluare independentă publicată a costului final al conversiei."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptele de bază ale memorandumului (renunțarea la EMALS pentru USS Doris Miller, termenul de 120 de zile pentru Hegseth, al cincilea șantier public) sunt confirmate concordant de The Hill, Breaking Defense, Navy Lookout și Newser. Argumentul de cost al lui Trump este însă direct contestat de cifre citate în aceleași relatări (economia de ~100 mil. USD/an a sistemului electromagnetic) — de aceea verdictul este „Probat, cu rezerve tehnice contestate”, nu o validare a argumentelor economice ale ordinului.",
+  "persoane": ["Donald Trump"]
+}
