@@ -1,0 +1,59 @@
+{
+  "slug": "bvb-profit-record-semestru-1-2026",
+  "title": "Bursa de Valori București a avut cel mai bun prim semestru din istoria sa: profit individual de 17 milioane lei",
+  "category": "Economie",
+  "date": "2026-08-13",
+  "source": "AGERPRES / BURSA.RO",
+  "url": "https://agerpres.ro/economic/2026/08/13/bvb-profit-net-individual-de-17-milioane-de-lei-la-6-luni-cel-mai-bun-prim-semestru-din-istorie--1584495",
+  "dek": "Bursa de Valori București (BVB) a raportat, pe 13 august 2026, un profit net individual de 17 milioane lei în primele șase luni din 2026 — cel mai bun prim semestru din istoria sa de peste 30 de ani —, pe fondul dublării volumului tranzacțiilor cu acțiuni. La nivel de grup (consolidat, cu Depozitarul Central și Casa de Compensare), profitul a fost de 13,79 milioane lei.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "BVB a raportat, în situațiile financiare publicate, un profit net individual de 17 milioane lei în primul semestru din 2026, față de 0,66 milioane lei în S1 2025 — cel mai bun prim semestru din istoria bursei, înființată acum peste 30 de ani. Veniturile operaționale individuale au crescut cu 61%, la 28,75 milioane lei.",
+      "sources": [
+        { "name": "AGERPRES — BVB: Profit net individual de 17 milioane de lei la 6 luni, cel mai bun prim semestru din istorie", "url": "https://agerpres.ro/economic/2026/08/13/bvb-profit-net-individual-de-17-milioane-de-lei-la-6-luni-cel-mai-bun-prim-semestru-din-istorie--1584495" },
+        { "name": "Forbes.ro — Bursa de Valori înregistrează cel mai bun prim semestru din istoria sa de 31 de ani", "url": "https://www.forbes.ro/bursa-de-valori-inregistreaza-cel-mai-bun-prim-semestru-din-istoria-sa-de-31-de-ani-profit-net-individual-de-17-milioane-lei-la-6-luni-516367" }
+      ]
+    },
+    {
+      "text": "La nivel de grup (consolidat — BVB, Depozitarul Central și Casa de Compensare CCP.RO), profitul net a fost de 13,79 milioane lei, față de 1,48 milioane lei în S1 2025, cu venituri operaționale de 54,97 milioane lei (+48% față de anul anterior).",
+      "sources": [
+        { "name": "BURSA.RO — BVB și-a majorat puternic profitul în primul semestru", "url": "https://www.bursa.ro/bvb-si-a-majorat-puternic-profitul-in-primul-semestru-00268950" },
+        { "name": "AGERPRES — profit consolidat de 13,79 milioane lei", "url": "https://agerpres.ro/economic/2026/08/13/bvb-profit-net-individual-de-17-milioane-de-lei-la-6-luni-cel-mai-bun-prim-semestru-din-istorie--1584495" }
+      ]
+    },
+    {
+      "text": "Volumul tranzacțiilor cu acțiuni s-a dublat față de S1 2025, ajungând la 14,75 miliarde lei; tranzacțiile cu instrumente cu venit fix au scăzut cu 8%, la 10,88 miliarde lei.",
+      "sources": [
+        { "name": "BURSA.RO — dublarea volumului tranzacțiilor cu acțiuni", "url": "https://www.bursa.ro/bvb-si-a-majorat-puternic-profitul-in-primul-semestru-00268950" }
+      ]
+    },
+    {
+      "text": "Creșterea veniturilor din tranzacționare (+88%, aproximativ 10 milioane lei în plus) este explicată de bursă prin lichiditate mai mare pe piață, interes crescut al investitorilor, tranzacții semnificative, rebalansări de indici și oferte publice, plus o mutare a preferinței investitorilor dinspre instrumentele cu venit fix spre acțiuni.",
+      "sources": [
+        { "name": "BURSA.RO — motivele creșterii veniturilor din tranzacționare", "url": "https://www.bursa.ro/bvb-si-a-majorat-puternic-profitul-in-primul-semestru-00268950" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de „profit record” circulă în presă cu două valori diferite, în funcție de nivelul de raportare: 17 milioane lei (profitul individual al BVB, cifra cea mai des folosită în titluri) și 13,79 milioane lei (profitul consolidat, la nivel de grup). Nu este o contradicție — sunt perimetre contabile diferite —, dar cititorul trebuie să știe la care se referă fiecare titlu de presă atunci când compară cifre din surse diferite.",
+      "sources": [
+        { "name": "AGERPRES — cele două cifre, individuală și consolidată", "url": "https://agerpres.ro/economic/2026/08/13/bvb-profit-net-individual-de-17-milioane-de-lei-la-6-luni-cel-mai-bun-prim-semestru-din-istorie--1584495" },
+        { "name": "BURSA.RO — profit individual 17 mil. lei vs. consolidat 13,79 mil. lei", "url": "https://www.bursa.ro/bvb-si-a-majorat-puternic-profitul-in-primul-semestru-00268950" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Explicația creșterii prin „interes crescut al investitorilor” este parțial o formulare de comunicare a bursei; cifrele confirmă dublarea volumului tranzacționat, dar cauzele exacte (sentiment de piață, oferte publice specifice, rebalansări de indici) nu pot fi verificate independent doar din comunicatul companiei — ar fi nevoie de o analiză separată a tranzacțiilor.",
+      "sources": []
+    }
+  ],
+  "math": {
+    "title": "De ce apar două cifre de „profit record” pentru același semestru",
+    "explanation": "Titlurile din presă citează fie 17 milioane lei, fie 13,79 milioane lei — ambele corecte, dar la niveluri diferite de raportare. Cei 17 milioane lei sunt profitul net individual al societății Bursa de Valori București SA (cea mai bună cifră din istoria companiei, comparată cu 0,66 milioane lei în S1 2025). Cei 13,79 milioane lei sunt profitul net consolidat, la nivel de grup — adică rezultatul BVB adunat cu cel al filialelor sale, Depozitarul Central și casa de compensare CCP.RO, care au propriile costuri și venituri. Diferența dintre cele două cifre (17 față de 13,79 milioane lei) arată, practic, cât „costă” grupul în ansamblu față de societatea-mamă singură — filialele reduc profitul total, chiar dacă BVB, ca entitate individuală, a avut cel mai bun semestru din istoria sa."
+  },
+  "aiNote": "Cifrele centrale sunt confirmate concordant de AGERPRES și BURSA.RO, pe baza acelorași situații financiare publicate de Bursa de Valori București: profit net individual de 17 milioane lei (cel mai bun prim semestru din istorie) și profit net consolidat de 13,79 milioane lei, ambele în creștere puternică față de S1 2025, pe fondul dublării volumului tranzacțiilor cu acțiuni. Singurul punct care merită clarificat este că cele două cifre de profit se referă la perimetre contabile diferite (societate individuală vs. grup consolidat) — nu la o eroare sau la o contradicție între surse.",
+  "persoane": []
+}
