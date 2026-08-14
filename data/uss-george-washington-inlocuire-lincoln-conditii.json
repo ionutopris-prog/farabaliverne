@@ -1,0 +1,114 @@
+{
+  "slug": "uss-george-washington-inlocuire-lincoln-conditii",
+  "title": "Portavionul USS George Washington pleacă spre Orientul Mijlociu să-l înlocuiască pe USS Abraham Lincoln, în timp ce apar relatări despre condiții proaste la bord",
+  "category": "Extern",
+  "date": "2026-08-13",
+  "source": "NBC News / The Hill",
+  "url": "https://www.nbcnews.com/politics/national-security/uss-abraham-lincoln-replaced-poor-troop-conditions-rcna592141",
+  "dek": "USS George Washington a pornit din Pacific spre Orientul Mijlociu pentru a-l înlocui pe USS Abraham Lincoln, aflat de peste 250 de zile în misiune (peste 200 fără escală în port). Presa americană relatează penurii de alimente, probleme cu apa și sănătatea mintală a echipajului, plus cel puțin un incident confirmat de marinar căzut/sărit peste bord; secretarul Apărării Pete Hegseth respinge relatările ca „complet denaturate”.",
+  "mainVerdict": "Probat, cu contestare oficială",
+  "probat": [
+    {
+      "text": "Portavionul USS George Washington, aflat în Pacific, se îndreaptă spre Orientul Mijlociu pentru a-l înlocui pe USS Abraham Lincoln — faptul înlocuirii este relatat concordant de mai multe redacții independente (NBC News, The Hill, Newsweek, Stars and Stripes, Ynet).",
+      "sources": [
+        {
+          "name": "NBC News — USS Lincoln to be replaced amid poor conditions for troops",
+          "url": "https://www.nbcnews.com/politics/national-security/uss-abraham-lincoln-replaced-poor-troop-conditions-rcna592141"
+        },
+        {
+          "name": "The Hill — New aircraft carrier deploys as USS Abraham Lincoln faces reports of poor conditions",
+          "url": "https://thehill.com/policy/defense/6028854-george-washington-replaces-abraham-lincoln/"
+        },
+        {
+          "name": "Stars and Stripes — USS George Washington heads to Middle East to replace Abraham Lincoln",
+          "url": "https://www.stripes.com/branches/navy/2026-08-13/uss-george-washington-middle-east-abraham-lincoln-22541038.html"
+        }
+      ]
+    },
+    {
+      "text": "USS Abraham Lincoln se află în misiune de peste 250-260 de zile consecutive, cu peste 200 de zile fără escală în port — mult peste intervalele normale de 30-45 de zile dintre escale pentru echipajele de portavioane. Portavionul a sprijinit operațiunile militare americane legate de Iran.",
+      "sources": [
+        {
+          "name": "Stars and Stripes — peste 250 de zile în misiune, ~200 fără escală",
+          "url": "https://www.stripes.com/branches/navy/2026-08-13/uss-george-washington-middle-east-abraham-lincoln-22541038.html"
+        },
+        {
+          "name": "The Hill — peste 240 de zile neîntrerupte pe mare",
+          "url": "https://thehill.com/policy/defense/6028854-george-washington-replaces-abraham-lincoln/"
+        },
+        {
+          "name": "Ynetnews — peste 250 de zile fără schimb de echipaj",
+          "url": "https://www.ynetnews.com/article/n5xnm8hkb"
+        }
+      ]
+    },
+    {
+      "text": "Familii ale marinarilor și publicația militară Military Times/Navy Times au relatat penurii de alimente, probleme cu apa (inclusiv contaminare) și instalațiile sanitare (dușuri cu mucegai), deteriorarea sănătății mintale și oboseală extremă a echipajului. Senatorul democrat Richard Blumenthal a documentat aceste relatări într-o scrisoare către Pentagon.",
+      "sources": [
+        {
+          "name": "NBC News — probleme de aprovizionare și sănătate mintală la bordul USS Lincoln",
+          "url": "https://www.nbcnews.com/politics/national-security/uss-abraham-lincoln-replaced-poor-troop-conditions-rcna592141"
+        },
+        {
+          "name": "Newsweek — penurii de alimente, contaminarea apei, probleme de siguranță pe punte (scrisoarea Blumenthal)",
+          "url": "https://www.newsweek.com/uss-abraham-lincoln-replacement-navy-personnel-concerns-12319440"
+        }
+      ]
+    },
+    {
+      "text": "Cel puțin un incident în care un marinar a căzut/a sărit peste bord de pe USS Abraham Lincoln în luna precedentă a fost confirmat oficial — persoana a fost recuperată din apă în decurs de o oră. Alte relatări ale familiilor (necontrazise oficial pe acest punct) descriu marinari opriți de colegi înainte de a sări peste bord. Povestea a fost inițial relatată de reporterul de la Pentagon al publicației Military Times, apoi confirmată independent de CNN.",
+      "sources": [
+        {
+          "name": "CNN — Sailor went overboard from USS Abraham Lincoln, rescued",
+          "url": "https://www.cnn.com/2026/08/13/politics/uss-abraham-lincoln-conditions-extended-deployment-hnk"
+        },
+        {
+          "name": "Newsweek — Navy Responds to Reports USS Lincoln Sailors Are Trying to Jump Overboard",
+          "url": "https://www.newsweek.com/uss-abraham-lincoln-deployment-sailors-overboard-safety-concerns-12312965"
+        }
+      ]
+    },
+    {
+      "text": "Secretarul Apărării Pete Hegseth a respins public relatările despre deteriorarea condițiilor la bordul USS Abraham Lincoln, numindu-le „complet denaturate” (completely misrepresented) — declarație făcută în cadrul unei vizite în Panama — dar a spus că își dorește ca marinarii de pe Lincoln să ajungă acasă și ca rotația echipajelor să fie cât mai rapidă.",
+      "sources": [
+        {
+          "name": "Newsweek — Hegseth characterized concerns as „completely misrepresented”",
+          "url": "https://www.newsweek.com/uss-abraham-lincoln-replacement-navy-personnel-concerns-12319440"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Marina (Navy) a respins explicit doar o parte a relatărilor: un purtător de cuvânt a declarat că, „pe baza informațiilor disponibile la comandă, nu am identificat o creștere a ideației sau a tentativelor de suicid raportate la bordul navei” — o formulare care neagă o CREȘTERE a tentativelor de suicid, nu neapărat existența incidentului confirmat de cădere/săritură peste bord relatat de CNN. Hegseth însuși nu a abordat direct, în declarațiile publice citate, acuzațiile specifice despre penuria de alimente, apă contaminată sau probleme de siguranță pe punte — s-a limitat la a caracteriza relatările în ansamblu drept „denaturate”.",
+      "sources": [
+        {
+          "name": "Newsweek — declarația Marinei despre „nicio creștere” a tentativelor de suicid",
+          "url": "https://www.newsweek.com/uss-abraham-lincoln-deployment-sailors-overboard-safety-concerns-12312965"
+        },
+        {
+          "name": "CNN — reporterul Military Times: Hegseth nu a abordat direct problemele de aprovizionare/apă",
+          "url": "https://www.cnn.com/2026/08/13/politics/uss-abraham-lincoln-conditions-extended-deployment-hnk"
+        }
+      ]
+    },
+    {
+      "text": "Numărul exact al marinarilor care ar fi încercat să sară peste bord rămâne neclar și variază între relatări: NavyTimes/familii vorbesc despre „cel puțin doi” marinari care ar fi încercat, plus alte cazuri în care colegi i-ar fi oprit; oficial este confirmat direct un singur incident (persoana căzută/sărită peste bord, recuperată din apă). Reporterul Military Times care a scos prima dată subiectul a acuzat public că respingerea lui Hegseth echivalează cu „gaslighting” al trupelor — o apreciere care ține de opinie, nu de fapt verificabil.",
+      "sources": [
+        {
+          "name": "Newsweek — relatările familiilor despre mai multe tentative, distincte de incidentul confirmat",
+          "url": "https://www.newsweek.com/uss-abraham-lincoln-deployment-sailors-overboard-safety-concerns-12312965"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Caracterizarea reacției lui Hegseth drept „gaslighting” (făcută public de reporterul Military Times care a relatat inițial despre incidentele de peste bord) este o apreciere subiectivă a unui jurnalist aflat în conflict direct cu declarația oficială — nu un fapt stabilit. Cititorul poate compara cele două versiuni: relatările din presă (susținute de familii și de reportaje independente) și respingerea oficială a Pentagonului."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Dovezile din mai multe redacții americane independente (NBC News, The Hill, Newsweek, CNN, Stars and Stripes) converg pe faptele centrale: USS George Washington este trimis să-l înlocuiască pe USS Abraham Lincoln, aflat de peste 250 de zile în misiune neîntreruptă, iar familiile marinarilor și publicația Military Times au relatat penurii de alimente, probleme cu apa și cu sănătatea mintală, plus cel puțin un incident confirmat de marinar căzut/sărit peste bord (recuperat din apă). Secretarul Apărării Pete Hegseth a respins relatările ca „complet denaturate”, dar Marina a negat explicit doar o CREȘTERE a tentativelor de suicid — nu incidentul confirmat în sine — iar Hegseth nu a contestat punct cu punct acuzațiile despre aprovizionare sau apă. Am tratat la „contestat” exact acolo unde relatările presei și declarațiile oficiale ale Pentagonului diverg sau unde numărul exact de incidente rămâne neclar; nu folosim cuvântul „minciună” pentru nicio parte — arătăm doar unde bat probele.",
+  "persoane": [
+    "Pete Hegseth"
+  ]
+}
