@@ -1,0 +1,79 @@
+{
+  "slug": "sua-raport-transshipment-scam-40-tari-tarife",
+  "title": "Casa Albă acuză peste 40 de țări că ajută China să ocolească tarifele americane, cu pierderi estimate la 19-26 miliarde de dolari pe an — experți independenți contestă precizia cifrei",
+  "category": "Extern",
+  "date": "2026-08-14",
+  "source": "Reuters (via BNN Bloomberg) / Al Jazeera",
+  "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/14/white-house-says-transshipped-goods-cost-us19b-26b-in-lost-tariffs/",
+  "dek": "Un raport al Casei Albe, intitulat „The Great Transshipment Scam”, susține că peste 40 de țări — de la Mexic la India — servesc drept verigi într-o „rețea-umbră” prin care mărfuri chinezești ocolesc tarifele impuse de Trump, cu un cost estimat de 19-26 miliarde de dolari pe an în venituri fiscale pierdute. Estimările independente ale fenomenului variază enorm (de la 10 la peste 100 de miliarde de dolari), iar un expert citat de Al Jazeera consideră raportul mai degrabă o pârghie de negociere comercială decât o cuantificare riguroasă.",
+  "mainVerdict": "Probat parțial, cu cifre contestate",
+  "probat": [
+    {
+      "text": "Casa Albă (prin Biroul pentru Politici Comerciale și Manufacturiere, condus de Peter Navarro) a publicat pe 13 august 2026 raportul „The Great Transshipment Scam”, care identifică peste 40 de țări — printre care Panama, Mexic, Columbia, Brazilia, Argentina, Chile, Peru, Costa Rica, Republica Dominicană și India — drept jurisdicții cu risc ridicat de transshipment (reetichetarea sau reambalarea minimă a mărfurilor chinezești pentru a le disimula originea).",
+      "sources": [
+        {
+          "name": "Reuters via BNN Bloomberg — White House says transshipped goods cost US$19B-$26B in lost tariffs",
+          "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/14/white-house-says-transshipped-goods-cost-us19b-26b-in-lost-tariffs/"
+        },
+        {
+          "name": "Al Jazeera — US accuses dozens of countries of helping China avoid Trump's tariffs",
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs"
+        }
+      ]
+    },
+    {
+      "text": "Raportul estimează pierderea de venituri fiscale ale statului american la 19-26 miliarde de dolari pe an, sumă provenită din tarife neîncasate pe mărfuri (echipamente electrice, circuite integrate, produse din aluminiu, componente auto) care ar intra ocolit pe piața americană.",
+      "sources": [
+        {
+          "name": "Reuters via BNN Bloomberg — cifra oficială de 19-26 miliarde de dolari",
+          "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/14/white-house-says-transshipped-goods-cost-us19b-26b-in-lost-tariffs/"
+        }
+      ]
+    },
+    {
+      "text": "Fenomenul transshipment-ului în sine — reorientarea exporturilor chinezești către țări terțe din Asia de Sud-Est după tarifele impuse începând cu 2018 — este confirmat și de analiști independenți din afara administrației Trump: economistul Robin Brooks de la Brookings Institution a semnalat creșteri „anormale” ale exporturilor Chinei către țări ca Thailanda și Vietnam, greu de explicat doar prin cererea internă locală, iar firma de analiză a lanțurilor de aprovizionare Exiger a estimat separat o valoare de circa 75 de miliarde de dolari în mărfuri transshipate ilegal între februarie 2025 și februarie 2026.",
+      "sources": [
+        {
+          "name": "Reuters/agenții — estimarea independentă Exiger și observațiile Robin Brooks (Brookings)",
+          "url": "https://www.hngn.com/articles/272752/20260813/white-house-says-its-losing-26-billion-year-countries-dodge-trump-tariffs.htm"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Estimările valorii totale a mărfurilor transshipate variază enorm între surse citate chiar în cadrul aceleiași discuții publice — de la 10 miliarde la peste 100 de miliarde de dolari anual, iar unele cifre citate ajung până la 303 miliarde de dolari — ceea ce arată o incertitudine metodologică mare în cuantificarea fenomenului, indiferent de cine face estimarea.",
+      "sources": [
+        {
+          "name": "Reuters via BNN Bloomberg — intervalul larg de estimări (10 mld. – peste 100 mld. de dolari)",
+          "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/14/white-house-says-transshipped-goods-cost-us19b-26b-in-lost-tariffs/"
+        }
+      ]
+    },
+    {
+      "text": "Amitendu Palit, profesor de comerț internațional la National University of Singapore, citat de Al Jazeera, consideră raportul mai degrabă un „mecanism inovator” de presiune tarifară al administrației Trump — venit după ce Curtea Supremă a SUA a respins taxele „Liberation Day” — decât o încercare genuină de a rezolva transshipment-ul; în opinia sa, scopul real ar fi obținerea de acces suplimentar pe piețe pentru produsele americane, nu combaterea evaziunii tarifare ca atare.",
+      "sources": [
+        {
+          "name": "Al Jazeera — opinia profesorului Amitendu Palit despre motivația reală a raportului",
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs"
+        }
+      ]
+    },
+    {
+      "text": "Niciuna dintre țările nominalizate în raport și nici ambasada Chinei nu oferiseră, la momentul publicării știrilor citate, un răspuns public oficial la acuzațiile din raport.",
+      "sources": [
+        {
+          "name": "Al Jazeera — absența unui răspuns oficial din partea țărilor acuzate sau a Chinei",
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Caracterizarea raportului drept o „pârghie de negociere” mai degrabă decât o cuantificare riguroasă a evaziunii tarifare este interpretarea unui singur expert citat (Amitendu Palit) — o perspectivă plauzibilă dată fiind incertitudinea metodologică recunoscută chiar în cifrele Casei Albe, dar care rămâne o opinie, nu un fapt stabilit. Cititorul poate compara motivația declarată de administrația Trump (combaterea evaziunii tarifare) cu această interpretare alternativă."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptul publicării raportului „The Great Transshipment Scam” și cifra oficială de 19-26 miliarde de dolari sunt confirmate de mai multe agenții (Reuters, Al Jazeera) și corespondente ale creșterii exporturilor chinezești către Asia de Sud-Est semnalate independent de economistul Robin Brooks (Brookings) și de firma Exiger. Am marcat la „contestat” variația uriașă a estimărilor totale ale fenomenului (de la 10 la peste 100 de miliarde de dolari) și absența unui răspuns oficial din partea țărilor acuzate sau a Chinei, iar la „opinie” interpretarea unui expert (Amitendu Palit) că raportul ar fi mai degrabă o pârghie de negociere comercială decât o cuantificare exactă — o distincție importantă între fapt (raportul există, cifra oficială e X) și interpretare (de ce a fost publicat acum, cât de exactă e cifra).",
+  "persoane": []
+}
