@@ -1,0 +1,67 @@
+{
+  "slug": "columbia-cutremur-bilant-281-morti-13-august",
+  "title": "Cutremurul din Columbia: bilanțul urcă la 281 de morți, peste 12.000 de case distruse — fereastra de salvare se închide",
+  "category": "Extern",
+  "date": "2026-08-14",
+  "source": "ABC News / Wikipedia / ColombiaOne / Al Jazeera",
+  "url": "https://abcnews.com/International/colombia-earthquake-rescue-operations-continue-224-dead/story?id=135571163",
+  "dek": "🌍 Cutremurul de 7,4 grade din 10 august 2026, cel mai puternic din Columbia în acest secol, a ucis cel puțin 281 de oameni și a distrus peste 12.000 de locuințe, potrivit ultimului bilanț oficial (13 august, seara). Cifra dispăruților variază puternic între surse — de la circa 380 la peste 4.000 — pe măsură ce echipele de salvare confirmă sau infirmă persoane date inițial dispărute.",
+  "mainVerdict": "Probat, cu cifre în mișcare rapidă",
+  "probat": [
+    {
+      "text": "Un cutremur de magnitudine 7,4-7,5 a lovit vestul Columbiei luni, 10 august 2026, ora 07:34 (ora locală), cu epicentrul lângă San José del Palmar, departamentul Chocó, la o adâncime de circa 110 km. Este cel mai puternic cutremur din Columbia din acest secol.",
+      "sources": [
+        {"name": "Wikipedia — 2026 Colombia earthquake", "url": "https://en.wikipedia.org/wiki/2026_Colombia_earthquake"}
+      ]
+    },
+    {
+      "text": "Potrivit bilanțului oficial anunțat de președintele Abelardo De La Espriella în seara de 13 august 2026 (ora 22:12), erau 281 de morți, 3.971 de răniți și 379 de persoane încă date dispărute.",
+      "sources": [
+        {"name": "ABC News — Colombia earthquake death toll climbs to 281, more than 12,000 homes destroyed", "url": "https://abcnews.com/International/colombia-earthquake-rescue-operations-continue-224-dead/story?id=135571163"}
+      ]
+    },
+    {
+      "text": "Peste 12.000 de locuințe au fost complet distruse și peste 74.000 avariate; peste 170 de clădiri s-au prăbușit. Au mai fost afectate un pod pietonal (prăbușit), peste 20 de poduri rutiere, peste 200 de drumuri și 5 aeroporturi.",
+      "sources": [
+        {"name": "ABC News — Colombia earthquake death toll climbs to 281, more than 12,000 homes destroyed", "url": "https://abcnews.com/International/colombia-earthquake-rescue-operations-continue-224-dead/story?id=135571163"}
+      ]
+    },
+    {
+      "text": "Președintele De La Espriella a declarat stare de dezastru național și trei zile de doliu național, activând operațiuni de căutare-salvare și un post de comandă unificat pentru coordonare.",
+      "sources": [
+        {"name": "Wikipedia — 2026 Colombia earthquake", "url": "https://en.wikipedia.org/wiki/2026_Colombia_earthquake"}
+      ]
+    },
+    {
+      "text": "Orașele cele mai afectate au fost Pereira (peste 100 de morți, 65 de clădiri prăbușite) și Cali (aproape 100 de morți, sute de răniți, peste 5.000 de clădiri avariate). Primarul din Cali, Alejandro Eder, a declarat: „Fiecare minut contează în această cursă pentru a salva vieți.”",
+      "sources": [
+        {"name": "Wikipedia — 2026 Colombia earthquake", "url": "https://en.wikipedia.org/wiki/2026_Colombia_earthquake"},
+        {"name": "ABC News — Colombia earthquake death toll climbs to 281, more than 12,000 homes destroyed", "url": "https://abcnews.com/International/colombia-earthquake-rescue-operations-continue-224-dead/story?id=135571163"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul persoanelor date dispărute variază enorm între surse și momente diferite ale zilei: 379 (declarația președintelui, seara de 13 august, via ABC News), 496 (ColombiaOne, tot 13 august), peste 2.700 (Al Jazeera, 11 august) și peste 4.000 (Wikipedia, cifră actualizată continuu). Diferența nu înseamnă neapărat contradicție: în dezastre de amploare, cifra „dispăruți” scade rapid pe măsură ce oamenii evacuați sau blocați reușesc să comunice și sunt scoși de pe listă — dar magnitudinea variației (de la câteva sute la câteva mii) arată cât de fluidă și greu de fixat e această cifră la doar câteva zile după cutremur.",
+      "sources": [
+        {"name": "ColombiaOne — Colombia Earthquake Death Toll Hits 265, With 496 Still Missing", "url": "https://colombiaone.com/2026/08/13/colombia-earthquake-death-toll-hits-265-with-496-still-missing/"},
+        {"name": "Al Jazeera — Colombia quake: Frantic search for survivors as over 2,700 reported missing", "url": "https://www.aljazeera.com/news/2026/8/11/colombia-quake-frantic-search-for-survivors-as-over-2700-reported-missing"},
+        {"name": "Wikipedia — 2026 Colombia earthquake", "url": "https://en.wikipedia.org/wiki/2026_Colombia_earthquake"}
+      ]
+    },
+    {
+      "text": "Numărul exact al morților diferă ușor pe surse din aceeași zi (13 august): 265 (ColombiaOne) vs. 281 (ABC News, declarația prezidențială din aceeași seară) — o diferență de 16, posibil explicată de ora exactă a raportării în cursul zilei, pe măsură ce echipele de salvare confirmau noi victime.",
+      "sources": [
+        {"name": "ColombiaOne — Colombia Earthquake Death Toll Hits 265, With 496 Still Missing", "url": "https://colombiaone.com/2026/08/13/colombia-earthquake-death-toll-hits-265-with-496-still-missing/"},
+        {"name": "ABC News — Colombia earthquake death toll climbs to 281, more than 12,000 homes destroyed", "url": "https://abcnews.com/International/colombia-earthquake-rescue-operations-continue-224-dead/story?id=135571163"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "„Fereastra de 72 de ore” pentru salvări",
+    "explanation": "Cutremurul a avut loc luni, 10 august, la ora 07:34. Pragul clasic folosit de echipele de salvare — șansele de supraviețuire sub dărâmături scad drastic după aproximativ 72 de ore fără apă — s-a împlinit joi, 13 august, spre dimineață. Bilanțul de 281 de morți raportat în seara aceleiași zile vine deci chiar la limita ferestrei critice, ceea ce explică de ce autoritățile vorbesc despre „ultimele eforturi” de căutare a supraviețuitorilor, nu despre operațiuni de rutină."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele oficiale ale unui dezastru natural în desfășurare se schimbă de la o oră la alta; am marcat explicit ca „Contestat” variațiile mari între surse (mai ales la cifra dispăruților), în loc să alegem cifra care pare mai plauzibilă.",
+  "persoane": []
+}
