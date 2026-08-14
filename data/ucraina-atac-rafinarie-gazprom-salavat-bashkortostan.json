@@ -1,0 +1,65 @@
+{
+  "slug": "ucraina-atac-rafinarie-gazprom-salavat-bashkortostan",
+  "title": "Ucraina a lovit rafinăria Gazprom din Salavat, la 1.300 km de graniță — cel mai adânc atac recent în teritoriul rus",
+  "category": "Extern",
+  "date": "2026-08-14",
+  "source": "Kyiv Independent / Ukrinform",
+  "url": "https://kyivindependent.com/russian-gazprom-oil-refinery-1-300-km-from-ukraine-hit-general-staff-confirms/",
+  "dek": "În noaptea de 12 spre 13 august 2026, forțele ucrainene au lovit complexul de rafinare-petrochimie Gazprom Neftekhim Salavat, în Bashkortostan, la aproximativ 1.300 km de granița Ucrainei. Statul Major ucrainean confirmă atacul; Rusia nu a comunicat public un bilanț al pagubelor.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "În noaptea de 12 spre 13 august 2026, forțele de apărare ucrainene au lovit complexul Gazprom Neftekhim Salavat, din orașul Salavat, Bashkortostan, aflat la aproximativ 1.300 km de granița de stat a Ucrainei. Atacul a fost confirmat oficial de Statul Major al Forțelor Armate ucrainene, printr-un anunț pe Facebook, care a raportat și un incendiu la fața locului.",
+      "sources": [
+        { "name": "Kyiv Independent — Russian Gazprom oil refinery 1,300 km from Ukraine hit, General Staff confirms", "url": "https://kyivindependent.com/russian-gazprom-oil-refinery-1-300-km-from-ukraine-hit-general-staff-confirms/" },
+        { "name": "Ukrinform — Ukraine's General Staff confirms strike on oil refinery in Bashkortostan", "url": "https://www.ukrinform.net/rubric-ato/4153782-ukraines-general-staff-confirms-strike-on-oil-refinery-in-bashkortostan.html" }
+      ]
+    },
+    {
+      "text": "Complexul Gazprom Neftekhim Salavat este unul dintre cele mai mari din Rusia, cu o capacitate de procesare de până la 10 milioane de tone de materii prime hidrocarbonate pe an; produce benzină auto, motorină, păcură, bitum, polietilenă și alte produse petrochimice.",
+      "sources": [
+        { "name": "Kyiv Independent — capacitatea și producția rafinăriei", "url": "https://kyivindependent.com/russian-gazprom-oil-refinery-1-300-km-from-ukraine-hit-general-staff-confirms/" },
+        { "name": "Ukrinform — detalii despre complex", "url": "https://www.ukrinform.net/rubric-ato/4153782-ukraines-general-staff-confirms-strike-on-oil-refinery-in-bashkortostan.html" }
+      ]
+    },
+    {
+      "text": "Potrivit Statului Major ucrainean, instalația este implicată în aprovizionarea logistică a armatei ruse — motivul invocat oficial pentru alegerea acestei ținte, aflată adânc în interiorul teritoriului rus.",
+      "sources": [
+        { "name": "Kyiv Independent — motivația militară a atacului", "url": "https://kyivindependent.com/russian-gazprom-oil-refinery-1-300-km-from-ukraine-hit-general-staff-confirms/" }
+      ]
+    },
+    {
+      "text": "Nu este primul atac asupra acestei rafinării: instalația mai fusese lovită în noaptea de 14 iulie 2026.",
+      "sources": [
+        { "name": "Kyiv Independent — atacul anterior din iulie 2026", "url": "https://kyivindependent.com/russian-gazprom-oil-refinery-1-300-km-from-ukraine-hit-general-staff-confirms/" }
+      ]
+    },
+    {
+      "text": "În aceeași dimineață, 13 august 2026, un grup de drone ucrainene a lovit și un centru logistic al companiei Wildberries din regiunea Bashkortostan.",
+      "sources": [
+        { "name": "Ukrinform — atacul asupra centrului logistic Wildberries", "url": "https://www.ukrinform.net/rubric-ato/4153782-ukraines-general-staff-confirms-strike-on-oil-refinery-in-bashkortostan.html" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Bilanțul exact al pagubelor (dimensiunea incendiului, dacă și cât timp a fost oprită producția) nu este confirmat independent — relatările se bazează pe anunțul Statului Major ucrainean; partea rusă nu a comunicat public un bilanț oficial la ora verificării.",
+      "sources": [
+        { "name": "Kyiv Independent — fără confirmare rusă a pagubelor", "url": "https://kyivindependent.com/russian-gazprom-oil-refinery-1-300-km-from-ukraine-hit-general-staff-confirms/" }
+      ]
+    },
+    {
+      "text": "Sursa principală a informației este parte beligerantă în conflict (Statul Major ucrainean); relatarea nu a fost verificată public, la ora scrierii, printr-o sursă terță independentă (de exemplu imagini satelitare comerciale sau o agenție occidentală de presă prezentă la fața locului).",
+      "sources": [
+        { "name": "Ukrinform — sursa e Statul Major ucrainean, via Facebook", "url": "https://www.ukrinform.net/rubric-ato/4153782-ukraines-general-staff-confirms-strike-on-oil-refinery-in-bashkortostan.html" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Interpretarea potrivit căreia atacul „subliniază raza de acțiune continuă a dronelor și rachetelor ucrainene chiar dacă frontul rămâne static” este o citire jurnalistică a semnificației strategice a loviturii, nu un fapt separat de distanța și ținta confirmate oficial."
+    }
+  ],
+  "aiNote": "Faptul central — lovirea complexului Gazprom Neftekhim Salavat, în noaptea de 12/13 august 2026, la circa 1.300 km de granița Ucrainei — este confirmat oficial de Statul Major ucrainean și relatat concordant de mai multe redacții. Rămân două rezerve: (1) bilanțul exact al pagubelor nu are, la ora verificării, o confirmare independentă de partea rusă; (2) sursa primară a informației este beligerantă în conflict, nu o terță parte neutră. Cititorul poate urmări eventuale imagini satelitare independente sau reacții oficiale rusești pentru completarea tabloului.",
+  "persoane": []
+}

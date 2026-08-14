@@ -1,0 +1,61 @@
+{
+  "slug": "polonia-spacex-starlink-discriminare-rezolvata",
+  "title": "SpaceX a exclus Polonia din roaming-ul Starlink european, apoi a revenit după amenințarea cu retragerea celor 50 milioane dolari pentru Ucraina",
+  "category": "Extern",
+  "date": "2026-08-14",
+  "source": "Kyiv Independent / EU Perspectives",
+  "url": "https://kyivindependent.com/ukraines-starlink-access-at-risk-as-polish-foreign-minister-revives-feud-with-musk/",
+  "dek": "SpaceX a exclus Polonia din zona sa europeană de roaming Starlink, fără explicație publică. După ce miniștri polonezi au amenințat cu reconsiderarea celor 50 de milioane de dolari anual plătiți pentru serviciile Starlink folosite de Ucraina, compania a revenit pe 13 august 2026 și a promis tratament egal pentru clienții polonezi.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "SpaceX a exclus Polonia din zona sa de roaming european „Starlink Roam”, care acoperă peste 30 de țări, inclusiv Germania, Cehia și Slovacia — fără să ofere o explicație publică. Restricția afecta clienții noi din 14 iulie 2026 și urma să cuprindă și clienții existenți din 17 august 2026.",
+      "sources": [
+        { "name": "Kyiv Independent — SpaceX backs down after Poland spat, calming fears in Ukraine over Starlink access", "url": "https://kyivindependent.com/ukraines-starlink-access-at-risk-as-polish-foreign-minister-revives-feud-with-musk/" },
+        { "name": "EU Perspectives — Poland to Starlink: open an atlas", "url": "https://euperspectives.eu/2026/08/poland-to-starlink-open-an-atlas/" }
+      ]
+    },
+    {
+      "text": "Ministrul de Externe al Poloniei, Radosław Sikorski, a amenințat public, pe rețele sociale, că țara ar putea reconsidera plata a 50 de milioane de dolari anual pentru serviciile Starlink dacă discriminarea clienților polonezi continuă: „stop discriminating Polish users of Starlink or we might re-think paying you $50 million p.a.”",
+      "sources": [
+        { "name": "Kyiv Post — Poles are Not 'Second-Class': Warsaw Demands Musk Restore Starlink Access", "url": "https://www.kyivpost.com/post/82208" },
+        { "name": "EU Perspectives — citatul lui Sikorski", "url": "https://euperspectives.eu/2026/08/poland-to-starlink-open-an-atlas/" }
+      ]
+    },
+    {
+      "text": "Ministrul Digitalizării, Krzysztof Gawkowski, a cerut oficial explicații de la SpaceX pentru excludere și a insistat pe tratament egal pentru cetățenii polonezi; viceministrul Apărării, Cezary Tomczyk, a adăugat: „Poland is in Europe. Open an atlas... We expect equal treatment.”",
+      "sources": [
+        { "name": "Kyiv Independent — cererea lui Gawkowski", "url": "https://kyivindependent.com/ukraines-starlink-access-at-risk-as-polish-foreign-minister-revives-feud-with-musk/" },
+        { "name": "EU Perspectives — citatul lui Tomczyk", "url": "https://euperspectives.eu/2026/08/poland-to-starlink-open-an-atlas/" }
+      ]
+    },
+    {
+      "text": "Pe 13 august 2026, Gawkowski a anunțat că SpaceX a răspuns cererii Poloniei: „SpaceX has responded to my request and will not treat Polish customers worse than those in other European countries.” Polonia a fost inclusă înapoi pe harta de acoperire Starlink Roam.",
+      "sources": [
+        { "name": "Kyiv Independent — anunțul rezolvării disputei", "url": "https://kyivindependent.com/ukraines-starlink-access-at-risk-as-polish-foreign-minister-revives-feud-with-musk/" },
+        { "name": "EU Perspectives — Polonia reinclusă pe harta Starlink Roam", "url": "https://euperspectives.eu/2026/08/poland-to-starlink-open-an-atlas/" }
+      ]
+    },
+    {
+      "text": "Suma de 50 de milioane de dolari anual reprezintă contribuția Poloniei la finanțarea terminalelor Starlink folosite de Ucraina pe front — aproximativ jumătate din cele circa 42.000 de terminale ucrainene, ceea ce explică miza strategică a disputei.",
+      "sources": [
+        { "name": "Kyiv Independent — miza pentru accesul Ucrainei la Starlink", "url": "https://kyivindependent.com/ukraines-starlink-access-at-risk-as-polish-foreign-minister-revives-feud-with-musk/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "SpaceX nu a explicat public, nici înainte, nici după rezolvarea disputei, motivul inițial al excluderii Poloniei din zona de roaming — dacă a fost o decizie comercială, legată de utilizarea terminalelor în Ucraina, sau altceva rămâne neclar; compania nu a oferit „o justificare specifică, de reglementare”, potrivit cererilor ministrului Gawkowski.",
+      "sources": [
+        { "name": "EU Perspectives — SpaceX nu a explicat public motivul excluderii", "url": "https://euperspectives.eu/2026/08/poland-to-starlink-open-an-atlas/" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Legătura de cauzalitate directă între amenințarea financiară a Poloniei și decizia SpaceX de a reveni este sugerată de presă, dar SpaceX nu a confirmat public că amenințarea privind cei 50 de milioane de dolari a fost motivul concret al schimbării de poziție — coincidența temporală este un fapt, cauzalitatea rămâne o interpretare."
+    }
+  ],
+  "aiNote": "Faptele centrale se probează concordant din mai multe surse: SpaceX a exclus Polonia din zona de roaming Starlink european, oficialii polonezi au amenințat cu retragerea finanțării de 50 de milioane de dolari pentru Ucraina, iar pe 13 august 2026 SpaceX a revenit și a promis tratament egal. Rămâne o rezervă: motivul inițial al excluderii Poloniei nu a fost explicat public de SpaceX, nici după rezolvarea disputei. Cititorul poate urmări comunicările oficiale SpaceX/Starlink pentru o eventuală explicație ulterioară.",
+  "persoane": []
+}
