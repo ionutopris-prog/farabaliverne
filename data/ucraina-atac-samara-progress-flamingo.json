@@ -1,0 +1,56 @@
+{
+  "slug": "ucraina-atac-samara-progress-flamingo",
+  "title": "Ucraina lovește cu rachete Flamingo un centru rusesc de rachete spațiale la 900 km de graniță — Zelenski confirmă atacul la Samara",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Ukrainska Pravda / Euronews",
+  "url": "https://www.pravda.com.ua/eng/news/2026/08/15/8048791/",
+  "dek": "În noaptea de 14 spre 15 august 2026, forțele ucrainene au lovit cu rachete de croazieră Flamingo (producție proprie) Centrul de Rachete și Spațiu „Progress” din regiunea rusă Samara, aflat la aproximativ 900 km de granița cu Ucraina — facilitate care produce rachete Soiuz pentru sateliți militari ruși. Simultan au fost lovite un aerodrom militar și o instalație petrolieră. Zelenski a confirmat public atacul; Rusia nu a comentat oficial daunele.",
+  "mainVerdict": "Probat, confirmat oficial de partea ucraineană — amploarea daunelor și reacția rusă rămân neclare",
+  "probat": [
+    {
+      "text": "Statul Major General al Forțelor Armate ucrainene a confirmat că, în noaptea de 14 spre 15 august 2026, a lovit Centrul de Rachete și Spațiu „Progress” din regiunea Samara (Rusia), aflat la circa 900 km de granița ucraineană. Președintele Volodimir Zelenski a confirmat public atacul, precizând că a fost folosită racheta de croazieră FP-5 „Flamingo”, de producție ucraineană.",
+      "sources": [
+        {"name": "Ukrainska Pravda (ediția în engleză) — Ukraine's General Staff confirms strikes on Progress rocket and space centre and Savasleyka airfield", "url": "https://www.pravda.com.ua/eng/news/2026/08/15/8048791/"},
+        {"name": "Euronews — Ukraine says it has struck Russian rocket and space centre", "url": "https://www.euronews.com/my-europe/2026/08/15/ukraine-says-it-has-struck-russian-rocket-and-space-centre"}
+      ]
+    },
+    {
+      "text": "Centrul „Progress” este descris drept una dintre întreprinderile-cheie ale industriei rachetelor și spațiului din Rusia, aflată în subordinea Roscosmos: produce lansatoare din familia Soiuz, folosite pentru punerea pe orbită a sateliților militari, de recunoaștere și comunicații ai Rusiei, inclusiv pentru constelația Rassvet.",
+      "sources": [
+        {"name": "Euronews — detalii despre rolul centrului Progress în industria spațială rusă", "url": "https://www.euronews.com/my-europe/2026/08/15/ukraine-says-it-has-struck-russian-rocket-and-space-centre"},
+        {"name": "Ukrainska Pravda (ediția în engleză) — Centrul Progress, întreprindere-cheie a industriei rachetelor și spațiului", "url": "https://www.pravda.com.ua/eng/news/2026/08/15/8048791/"}
+      ]
+    },
+    {
+      "text": "Simultan au fost lovite aerodromul militar Savasleyka (regiunea Nijni Novgorod), bază pentru avioanele de interceptare MiG-31K care pot transporta rachete aerobalistice Kinjal, și o instalație petrolieră la Ust-Luga, lângă granița cu Estonia. Statul Major ucrainean a confirmat lovituri directe la ambele obiective principale, urmate de incendii.",
+      "sources": [
+        {"name": "Euronews — lovituri suplimentare la Savasleyka și Ust-Luga", "url": "https://www.euronews.com/my-europe/2026/08/15/ukraine-says-it-has-struck-russian-rocket-and-space-centre"},
+        {"name": "Ukrainska Pravda (ediția în engleză) — incendii la ambele locații lovite", "url": "https://www.pravda.com.ua/eng/news/2026/08/15/8048791/"}
+      ]
+    },
+    {
+      "text": "Zelenski a declarat: „Planul nostru de sancțiuni cu bătaie lungă împotriva Rusiei, pentru acest război, este pus în aplicare, iar reducerea potențialului de război al Rusiei este importantă.” Aceeași noapte, Rusia a lansat 152 de drone asupra Ucrainei, dintre care 124 au fost neutralizate de apărarea antiaeriană ucraineană în 16 locații, potrivit Euronews.",
+      "sources": [
+        {"name": "Euronews — citatul lui Zelenski și bilanțul atacurilor ruse cu drone din aceeași noapte", "url": "https://www.euronews.com/my-europe/2026/08/15/ukraine-says-it-has-struck-russian-rocket-and-space-centre"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Amploarea exactă a daunelor la centrul Progress și la aerodromul Savasleyka nu poate fi verificată independent — sursele disponibile confirmă loviturile directe și incendiile ulterioare, dar nu oferă o evaluare independentă a pagubelor materiale sau a eventualelor victime.",
+      "sources": [
+        {"name": "Ukrainska Pravda (ediția în engleză) — fără evaluare independentă a daunelor", "url": "https://www.pravda.com.ua/eng/news/2026/08/15/8048791/"}
+      ]
+    },
+    {
+      "text": "Nicio reacție oficială din partea autorităților ruse nu apare în sursele consultate la data redactării — nici confirmare, nici infirmare a loviturilor sau a daunelor raportate de partea ucraineană.",
+      "sources": [
+        {"name": "Euronews — fără reacție oficială rusă în relatare", "url": "https://www.euronews.com/my-europe/2026/08/15/ukraine-says-it-has-struck-russian-rocket-and-space-centre"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Am pus alături relatările Ukrainska Pravda (ediția în engleză) și Euronews despre acest atac. Ce se probează, concordant: lovirea centrului Progress din Samara și a aerodromului Savasleyka, folosirea rachetelor Flamingo de producție ucraineană, rolul centrului Progress în industria spațială militară rusă și confirmarea directă a lui Zelenski. Ce rămâne neclar: amploarea reală a daunelor (doar Ucraina a raportat lovituri directe și incendii, fără o evaluare independentă) și poziția oficială a Rusiei, absentă din sursele consultate. Nu am preluat cifre de daune de la surse rusești de stat (Xinhua/RT/TASS nu au apărut în relatările consultate) — dacă apar, vor fi adăugate cu etichetarea corespunzătoare.",
+  "persoane": ["Volodimir Zelenski"]
+}
