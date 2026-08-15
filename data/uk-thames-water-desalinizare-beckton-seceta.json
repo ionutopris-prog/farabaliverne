@@ -1,0 +1,51 @@
+{
+  "slug": "uk-thames-water-desalinizare-beckton-seceta",
+  "title": "Anglia lasă nefolosită uzina de desalinizare de 270 milioane de lire în plină secetă istorică — repornirea abia din iarnă, prea târziu pentru vara 2026",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "The Telegraph (via Yahoo News / AOL)",
+  "url": "https://www.yahoo.com/news/weather-news/articles/thames-dusts-off-250m-desalination-053000200.html",
+  "dek": "Cu peste 70% din Anglia în secetă și temperaturi de 38°C la Londra pe 13 august — a cincea cea mai caldă zi din istoria măsurătorilor britanice —, singura uzină de desalinizare a țării, construită de Thames Water la Beckton cu 270 de milioane de lire, rămâne oprită. Compania speră s-o repornească abia „până la finalul anului”, ca rezervă pentru iarnă — mult după ce actuala secetă se va fi încheiat.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Thames Water pregătește repornirea uzinei de desalinizare de la Beckton (estul Londrei), dar abia „până la finalul anului” — adică din iarnă, mult după ce actualul episod de secetă va fi trecut. Scopul repornirii este să alimenteze rezervoarele pentru iarnă, în avans pentru vara 2027, nu să rezolve criza actuală de apă.",
+      "sources": [
+        {"name": "The Telegraph (Matt Oliver), via Yahoo News — Thames dusts off £250m desalination plant as drought worsens", "url": "https://www.yahoo.com/news/weather-news/articles/thames-dusts-off-250m-desalination-053000200.html"}
+      ]
+    },
+    {
+      "text": "Uzina a costat 270 de milioane de lire și a fost finalizată în 2010. Capacitatea proiectată inițial era de 150 de milioane de litri pe zi, redusă ulterior la 75 de milioane; ar putea acoperi circa 5% din necesarul de apă al Londrei, adică aproximativ 200.000 de locuințe.",
+      "sources": [
+        {"name": "The Telegraph, via Yahoo News — Thames dusts off £250m desalination plant as drought worsens", "url": "https://www.yahoo.com/news/weather-news/articles/thames-dusts-off-250m-desalination-053000200.html"},
+        {"name": "AOL — Thames dusts off £250m desalination plant as drought worsens", "url": "https://www.aol.com/articles/thames-dusts-off-250m-desalination-053000000.html"}
+      ]
+    },
+    {
+      "text": "De la construcție, uzina a fost pornită o singură dată la fiecare câțiva ani — doar de cinci ori în 15 ani, livrând în total 7,2 miliarde de litri de apă potabilă, adică aproximativ patru zile din cererea medie a Londrei. Nu a fost niciodată activată în timpul unei secete reale, inclusiv în episoadele din 2022 și 2025, când Thames Water a invocat lucrări de mentenanță îndelungate.",
+      "sources": [
+        {"name": "The Telegraph, via Yahoo News — Thames dusts off £250m desalination plant as drought worsens", "url": "https://www.yahoo.com/news/weather-news/articles/thames-dusts-off-250m-desalination-053000200.html"}
+      ]
+    },
+    {
+      "text": "Peste 70% din teritoriul Angliei se află în secetă, inclusiv sud-estul țării. Pe 13 august 2026, temperatura a atins 38°C la Kew Gardens (Londra) — a cincea cea mai caldă zi din istoria măsurătorilor din Regatul Unit. La finalul lunii iulie, rezervoarele Thames Water erau umplute în proporție de 74%, iar compania a impus restricții („hosepipe ban”) pentru 16 milioane de clienți.",
+      "sources": [
+        {"name": "The Telegraph, via Yahoo News — Thames dusts off £250m desalination plant as drought worsens", "url": "https://www.yahoo.com/news/weather-news/articles/thames-dusts-off-250m-desalination-053000200.html"},
+        {"name": "AOL.co.uk — Thames Water plans to restart desalination plant – after drought has ended", "url": "https://www.aol.co.uk/articles/thames-water-plans-restart-desalination-150849000.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu există un prag oficial („trigger”) care să declanșeze automat pornirea uzinei — decizia depinde de nivelul rezervoarelor și de prognoza meteo, iar activarea ar necesita, potrivit companiei, câteva săptămâni de pregătire. Conducerea Thames Water ține ședințe zilnice și consideră Beckton „o opțiune vie”, dar nu s-a angajat public la o dată fermă de repornire în plină secetă actuală.",
+      "sources": [
+        {"name": "The Telegraph, via Yahoo News — Thames dusts off £250m desalination plant as drought worsens", "url": "https://www.yahoo.com/news/weather-news/articles/thames-dusts-off-250m-desalination-053000200.html"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Critica potrivit căreia Thames Water „ține uzina oprită în mod deliberat” în timp ce impune restricții de apă cetățenilor este o poziție exprimată public de utilizatori și comentatori (inclusiv pe rețele sociale), nu un fapt stabilit — compania invocă, în schimb, costuri energetice ridicate și probleme tehnice recurente ca motive pentru neutilizare."
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa britanică (The Telegraph, preluată de Yahoo News și AOL); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": []
+}
