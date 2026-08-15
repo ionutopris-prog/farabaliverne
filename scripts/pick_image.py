@@ -335,7 +335,7 @@ def download(candidate, slug):
     path = os.path.join(IMG_DIR, slug + ext)
     with open(path, "wb") as fh:
         fh.write(_get(candidate["url"]))
-    comprima(path)
+    path = comprima(path)
     candidate["local"] = os.path.relpath(path, ROOT)
     candidate["bytes"] = os.path.getsize(path)
     return candidate
