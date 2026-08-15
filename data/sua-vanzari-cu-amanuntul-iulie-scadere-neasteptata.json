@@ -1,0 +1,45 @@
+{
+  "slug": "sua-vanzari-cu-amanuntul-iulie-scadere-neasteptata",
+  "title": "SUA: vânzările cu amănuntul scad neașteptat cu 0,6% în iulie — prima scădere din ultimele 9 luni, după epuizarea rambursărilor fiscale",
+  "category": "Economie",
+  "date": "2026-08-15",
+  "source": "U.S. Census Bureau / Associated Press",
+  "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/",
+  "dek": "Biroul de Recensământ al SUA a raportat vineri, 14 august 2026, o scădere de 0,6% a vânzărilor cu amănuntul în iulie față de iunie — total 763,6 miliarde de dolari — prima scădere din ultimele 9 luni și cea mai mare din ultimele 14 luni, în timp ce economiștii anticipau o creștere de 0,1%. Scăderea a fost condusă de comerțul online și de vânzările auto, pe fondul epuizării rambursărilor fiscale care susținuseră consumul în trimestrul doi.",
+  "mainVerdict": "Probat — date oficiale ale Biroului de Recensământ, confirmate de agenția Associated Press",
+  "probat": [
+    {
+      "text": "Vânzările cu amănuntul și în servicii alimentare din SUA au fost de 763,6 miliarde de dolari în iulie 2026, în scădere cu 0,6% față de iunie — prima scădere lunară din ultimele 9 luni și cea mai amplă din ultimele 14 luni. Economiștii intervievați de agențiile de presă anticipau o creștere de 0,1% (estimările variau între -0,5% și +0,7%), deci rezultatul e o surpriză negativă.",
+      "sources": [
+        {"name": "Honolulu Star-Advertiser (AP) — U.S. retail sales fall 0.6% in July, first decline in 9 months", "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"},
+        {"name": "Transport Topics (AP) — Retail Sales Fall in July", "url": "https://www.ttnews.com/articles/retail-sales-fall-july"}
+      ]
+    },
+    {
+      "text": "Categoriile cu cele mai mari scăderi au fost comerțul online / comercianții fără magazin fizic (-2,2%), dealerii auto și piese (-1,8%), benzinăriile (-0,9%) și magazinele de electronice și electrocasnice (-0,5%). Economiștii citați leagă declinul de epuizarea rambursărilor fiscale generoase din acest an, care susținuseră cheltuielile consumatorilor în trimestrul doi.",
+      "sources": [
+        {"name": "Transport Topics (AP) — categoriile cu cele mai mari scăderi", "url": "https://www.ttnews.com/articles/retail-sales-fall-july"},
+        {"name": "Honolulu Star-Advertiser (AP) — context și cauze ale scăderii", "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"}
+      ]
+    },
+    {
+      "text": "Economistul Christopher S. Rupkey a comentat: „It's not lights out for the economy, but new risks are emerging if the consumer pulls their support for economic growth” („Nu s-au stins luminile pentru economie, dar apar riscuri noi dacă consumatorul își retrage sprijinul pentru creșterea economică”). Pe an, vânzările rămân totuși cu 5,0% peste iulie 2025.",
+      "sources": [
+        {"name": "Transport Topics (AP) — citatul economistului Christopher S. Rupkey", "url": "https://www.ttnews.com/articles/retail-sales-fall-july"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Reacția exactă a piețelor financiare la anunț diferă ca detaliu între sursele consultate — unele menționează doar o ajustare a randamentelor obligațiunilor și a dolarului, fără cifre precise pentru indicii bursieri (S&P 500, Dow, Nasdaq), deci mișcarea exactă a piețelor rămâne de verificat direct pe cotațiile zilei.",
+      "sources": [
+        {"name": "Honolulu Star-Advertiser (AP) — reacția piețelor", "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Dacă scăderea de 0,6% marchează începutul unei încetiniri susținute a consumului american sau doar un efect temporar de bază statistică (după ce Amazon și-a mutat Prime Day din iulie în iunie, umflând artificial cifra lunii anterioare), rămâne interpretare economică — sursele citează ambele explicații fără să tragă o concluzie fermă."
+  ],
+  "aiNote": "Am pus alături două relatări bazate pe firul Associated Press (Honolulu Star-Advertiser și Transport Topics), ambele citând direct datele Biroului de Recensământ al SUA (Census Bureau) și Departamentul Comerțului. Cifrele cheie — scăderea de 0,6%, totalul de 763,6 miliarde de dolari și defalcarea pe categorii — coincid între surse. Nu am reușit să accesez direct raportul CNN sau Marketplace (acces blocat la verificare), dar conținutul lor, văzut în rezultatele de căutare, confirmă aceleași cifre.",
+  "persoane": []
+}
