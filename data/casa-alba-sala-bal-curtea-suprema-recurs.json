@@ -1,0 +1,65 @@
+{
+  "slug": "casa-alba-sala-bal-curtea-suprema-recurs",
+  "title": "Administrația Trump cere Curții Supreme să permită continuarea construcției sălii de bal de la Casa Albă",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "CBS News / Newsweek / KYMA",
+  "url": "https://www.cbsnews.com/news/trump-supreme-court-white-house-ballroom/",
+  "dek": "Vineri, 14 august 2026, administrația Trump a depus o cerere de urgență la Curtea Supremă a SUA pentru a putea continua construcția sălii de bal de la Casa Albă, după ce o curte de apel a decis că proiectul are nevoie de aprobarea Congresului. Justiția trebuie să decidă până pe 21 august; costul exact al proiectului variază între surse.",
+  "mainVerdict": "Probat că s-a depus cererea de urgență; argumentul de securitate națională și suma exactă a costului rămân contestate",
+  "probat": [
+    {
+      "text": "Vineri, 14 august 2026, administrația Trump a depus o cerere de urgență (\"emergency application\") la Curtea Supremă a SUA, prin care solicită să i se permită continuarea construcției sălii de bal de circa 90.000 de picioare pătrate (aproximativ 8.360 mp) de lângă Casa Albă, în locul fostei Aripi de Est, demolate. Cererea vine la o săptămână după ce Curtea de Apel a Districtului Columbia a decis, pe 7 august, că administrația \"foarte probabil\" nu avea autoritatea de a demola și reconstrui fără acordul Congresului.",
+      "sources": [
+        {"name": "CBS News — Trump asks Supreme Court to intervene in White House ballroom legal fight", "url": "https://www.cbsnews.com/news/trump-supreme-court-white-house-ballroom/"},
+        {"name": "KYMA — Trump Administration asks Supreme Court to weigh in on planned White House ballroom", "url": "https://kyma.com/decision-politics/national-politics/2026/08/14/trump-administration-asks-supreme-court-to-weigh-in-on-planned-white-house-ballroom/"}
+      ]
+    },
+    {
+      "text": "Curtea de apel și-a suspendat propria decizie pentru două săptămâni, ca să dea timp guvernului să facă recurs — termen care expiră pe 21 august 2026. Dacă Curtea Supremă nu intervine până atunci, lucrările deasupra solului trebuie oprite.",
+      "sources": [
+        {"name": "CBS News — decizia curții de apel suspendată două săptămâni", "url": "https://www.cbsnews.com/news/trump-supreme-court-white-house-ballroom/"},
+        {"name": "Newsweek — Supreme Court deadline 21 august 2026", "url": "https://www.newsweek.com/supreme-court-to-face-major-decision-on-donald-trumps-white-house-ballroom-12297388"}
+      ]
+    },
+    {
+      "text": "Litigiul central pe care Curtea Supremă trebuie să-l tranșeze e dacă organizația reclamantă, National Trust for Historic Preservation, are calitate procesuală (\"standing\") să conteste proiectul — adică dacă membrii ei sunt \"vătămați\" de o construcție la care obiectează din motive estetice și de conservare istorică.",
+      "sources": [
+        {"name": "KYMA — chestiunea calității procesuale a National Trust for Historic Preservation", "url": "https://kyma.com/decision-politics/national-politics/2026/08/14/trump-administration-asks-supreme-court-to-weigh-in-on-planned-white-house-ballroom/"}
+      ]
+    },
+    {
+      "text": "Construcția e într-un stadiu avansat: potrivit administrației, e finalizată în proporție de circa 65%, cu aproximativ 250 de muncitori pe șantier, iar o parte din structură se ridică deja la circa 70 de picioare (21 m) deasupra solului.",
+      "sources": [
+        {"name": "Newsweek — stadiul construcției, 65% finalizat, 250 de muncitori", "url": "https://www.newsweek.com/supreme-court-to-face-major-decision-on-donald-trumps-white-house-ballroom-12297388"}
+      ]
+    },
+    {
+      "text": "Solicitorul General D. John Sauer a scris judecătorilor că oprirea lucrărilor \"implică o ordonanță extraordinară și ilegală\", iar administrația susține că suspendarea proiectului pune în pericol securitatea națională și siguranța președintelui, a familiei sale și a personalului Executivului — invocând, printre elementele proiectului, adăposturi antiaeriene și dotări medicale.",
+      "sources": [
+        {"name": "CBS News — citatul lui D. John Sauer", "url": "https://www.cbsnews.com/news/trump-supreme-court-white-house-ballroom/"},
+        {"name": "Newsweek — argumentele de securitate națională ale administrației", "url": "https://www.newsweek.com/supreme-court-to-face-major-decision-on-donald-trumps-white-house-ballroom-12297388"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Costul proiectului variază semnificativ, inclusiv în timp: estimarea inițială de 200 de milioane de dolari a urcat succesiv la 300, apoi la 400 de milioane de dolari — cifra citată de CBS News pentru cererea depusă pe 14 august. Suma nu e neapărat identică cu cea de cel puțin 900 de milioane de dolari raportată anterior pentru ansamblul mai larg de lucrări de la Casa Albă (sală de bal, heliport, renovarea Aripii de Vest), dar diferența dintre cifre nu e explicată oficial într-un singur document public — ceea ce face greu de verificat suma exactă doar pentru sala de bal.",
+      "sources": [
+        {"name": "Newsweek — escaladarea estimării de cost, de la 200 la 400 milioane $", "url": "https://www.newsweek.com/supreme-court-to-face-major-decision-on-donald-trumps-white-house-ballroom-12297388"},
+        {"name": "CBS News — costul de 400 de milioane $ citat în cererea din 14 august", "url": "https://www.cbsnews.com/news/trump-supreme-court-white-house-ballroom/"}
+      ]
+    },
+    {
+      "text": "Argumentul de \"securitate națională\" invocat de administrație este contestat direct de organizația reclamantă, National Trust for Historic Preservation, care susține că o oprire temporară a lucrărilor nu creează niciun risc de securitate imediat — poziția fiind, la acest moment, un argument juridic dintr-un proces în curs, nu un fapt stabilit de o instanță.",
+      "sources": [
+        {"name": "KYMA — National Trust for Historic Preservation contestă argumentul de securitate", "url": "https://kyma.com/decision-politics/national-politics/2026/08/14/trump-administration-asks-supreme-court-to-weigh-in-on-planned-white-house-ballroom/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Descrierea proiectului drept o necesitate de securitate pentru președinte și familia sa, versus un exces arhitectural care ocolește controlul Congresului asupra proprietății federale, țin de interpretare politică. Ce e verificabil: cererea de urgență a fost depusă, termenul-limită e 21 august, iar decizia legală finală aparține Curții Supreme, nu declarațiilor vreunei părți."}
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Faptul central — cererea de urgență depusă la Curtea Supremă pe 14 august 2026, cu termen 21 august — e confirmat concordant de mai multe redacții americane independente. Cifra costului proiectului variază puternic între surse și în timp (200 → 300 → 400 milioane $, față de cel puțin 900 de milioane $ pentru ansamblul lucrărilor de la Casa Albă) — am semnalat explicit divergența, în loc s-o prezentăm ca pe o singură statistică fixă. Argumentul de „securitate națională” e poziția oficială a administrației, contestată de organizația reclamantă; decizia legală finală aparține Curții Supreme, nu vreuneia dintre părți.",
+  "persoane": ["Donald Trump"]
+}
