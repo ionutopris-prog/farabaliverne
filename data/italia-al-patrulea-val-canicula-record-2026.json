@@ -1,0 +1,61 @@
+{
+  "slug": "italia-al-patrulea-val-canicula-record-2026",
+  "title": "Italia, în al patrulea val de caniculă al verii — cel mai lung din 2026, cu alertă roșie în 27 de orașe și peste 400 de decese estimate",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "The Local Italy / DCNews (ANSA)",
+  "url": "https://www.thelocal.it/20260814/is-italys-record-august-heatwave-almost-over",
+  "dek": "Italia trece prin al patrulea val de caniculă al verii 2026 — cel mai lung din an, cu 20 de zile consecutive de temperaturi cu 7-8°C peste medie. Ministerul Sănătății a emis alertă roșie pentru toate cele 27 de orașe monitorizate, iar presa italiană estimează peste 400 de decese legate de căldură într-o lună. Răcorire e așteptată începând de 17-18 august.",
+  "mainVerdict": "Probat — valul de caniculă și alerta roșie sunt confirmate oficial; bilanțul de decese e o estimare agregată, nu o cifră oficială unică",
+  "probat": [
+    {
+      "text": "Italia se află în al patrulea val de caniculă al verii 2026 — cel mai lung din an, cu 20 de zile consecutive de temperaturi cu 7-8°C peste medie, potrivit relatării din 14 august 2026.",
+      "sources": [
+        {"name": "The Local Italy — Is Italy's record August heatwave almost over?", "url": "https://www.thelocal.it/20260814/is-italys-record-august-heatwave-almost-over"}
+      ]
+    },
+    {
+      "text": "Ministerul Sănătății italian a emis alertă roșie (nivelul maxim) pentru toate cele 27 de orașe monitorizate la începutul valului de caniculă; pe 14 august, numărul orașelor aflate încă sub alertă roșie maximă scăzuse la 7 (Bari, Bolzano, Genova, Messina, Palermo, Reggio Calabria, Cagliari), față de 18 cu o zi înainte.",
+      "sources": [
+        {"name": "The Local Italy — situația alertelor roșii pe orașe, 14 august 2026", "url": "https://www.thelocal.it/20260814/is-italys-record-august-heatwave-almost-over"},
+        {"name": "DCNews — Italia lovită de al patrulea val de caniculă, citând Ministerul Sănătății și ANSA", "url": "https://www.dcnews.ro/italia-lovita-de-al-patrulea-val-de-canicula-temperaturile-au-ajuns-la-48-de-grade-in-napoli-caldura-extrema-continua-pana-dupa-15-august_1074357.html"}
+      ]
+    },
+    {
+      "text": "Pe 14 august, s-au înregistrat 36-37°C la Roma și Florența. Anterior, pe 7 august, presa italiană (citând ANSA) a raportat o temperatură de aproximativ 48°C la Napoli (măsurătoare la Gara Centrală și în piața Afragola) și 47°C în Sardinia — cea mai ridicată temperatură a verii.",
+      "sources": [
+        {"name": "The Local Italy — temperaturi la Roma și Florența, 14 august", "url": "https://www.thelocal.it/20260814/is-italys-record-august-heatwave-almost-over"},
+        {"name": "DCNews (ANSA) — 48°C la Napoli, 47°C în Sardinia", "url": "https://www.dcnews.ro/italia-lovita-de-al-patrulea-val-de-canicula-temperaturile-au-ajuns-la-48-de-grade-in-napoli-caldura-extrema-continua-pana-dupa-15-august_1074357.html"}
+      ]
+    },
+    {
+      "text": "Presa italiană (citată de DCNews) estimează peste 400 de decese legate de căldura extremă într-o perioadă de aproximativ o lună. Sunt documentate cazuri individuale: un cules de roșii de 19 ani și un tâmplar de 40 de ani decedați în Lombardia, și un agent de pază decedat în Bologna.",
+      "sources": [
+        {"name": "DCNews — bilanțul deceselor și cazurile individuale, citând presa italiană", "url": "https://www.dcnews.ro/italia-lovita-de-al-patrulea-val-de-canicula-temperaturile-au-ajuns-la-48-de-grade-in-napoli-caldura-extrema-continua-pana-dupa-15-august_1074357.html"}
+      ]
+    },
+    {
+      "text": "O răcorire substanțială e așteptată începând cu 17-18 august 2026, odată cu ploi care ajung mai întâi în nordul Italiei duminică și se extind spre sud până marți. Seceta asociată valului de căldură a alimentat incendii, inclusiv unul lângă Como, care a dus la evacuarea a circa 50 de rezidenți.",
+      "sources": [
+        {"name": "The Local Italy — prognoza de răcorire și incendiul de lângă Como", "url": "https://www.thelocal.it/20260814/is-italys-record-august-heatwave-almost-over"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de 48°C raportată la Napoli e o măsurătoare punctuală, la sol/asfalt (Gara Centrală, piața Afragola), nu neapărat temperatura oficială a aerului la umbră, măsurată standard meteorologic. Sursa nu clarifică metodologia exactă a măsurătorii — cititorul ar trebui să trateze cifra cu precauție, ca temperatură de suprafață, nu ca record meteorologic oficial al aerului.",
+      "sources": [
+        {"name": "DCNews (ANSA) — cifra de 48°C, fără precizarea metodologiei de măsurare", "url": "https://www.dcnews.ro/italia-lovita-de-al-patrulea-val-de-canicula-temperaturile-au-ajuns-la-48-de-grade-in-napoli-caldura-extrema-continua-pana-dupa-15-august_1074357.html"}
+      ]
+    },
+    {
+      "text": "Bilanțul de „peste 400 de morți” este o estimare agregată din presa italiană, pe o perioadă de circa o lună, nu un total oficial unic, confirmat de o singură autoritate centralizată (precum un institut de statistică sau minister). Trebuie citit ca atare — o estimare jurnalistică bazată pe rapoarte regionale, nu o cifră administrativă definitivă.",
+      "sources": [
+        {"name": "DCNews — bilanțul prezentat ca estimare din presa italiană", "url": "https://www.dcnews.ro/italia-lovita-de-al-patrulea-val-de-canicula-temperaturile-au-ajuns-la-48-de-grade-in-napoli-caldura-extrema-continua-pana-dupa-15-august_1074357.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Am pus alături relatarea The Local Italy (14 august 2026, în limba engleză) și DCNews (7 august 2026, citând ANSA și Ministerul Sănătății italian) despre al patrulea val de caniculă al verii în Italia. Ambele confirmă amploarea și durata valului, alerta roșie și tendința de răcorire așteptată. Am marcat explicit două puncte care cer precauție: cifra de 48°C la Napoli e o măsurătoare punctuală, posibil de suprafață, nu neapărat temperatura oficială a aerului; iar bilanțul de peste 400 de decese e o estimare agregată din presă, nu o cifră oficială unică. 🌍 Am rezumat și pus în context în română o știre din presa internațională (The Local Italy); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": []
+}
