@@ -1,0 +1,62 @@
+{
+  "slug": "sua-garda-nationala-washington-2029-criminalitate",
+  "title": "Garda Națională rămâne la Washington DC până în 2029 — administrația Trump și presa se contrazic pe cifrele de criminalitate",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "AP / Al Jazeera",
+  "url": "https://www.pbs.org/newshour/nation/washington-grapples-with-a-1-4-billion-national-guard-deployment-extension-until-2029",
+  "dek": "La un an de la declararea unei „urgențe de securitate” în Washington DC, Pentagonul extinde desfășurarea Gărzii Naționale până în ianuarie 2029, cu un cost suplimentar de 1,4 miliarde de dolari. Criminalitatea a scăzut real în oraș — dar administrația Trump a folosit repetat cifre incorecte sau interpretate greșit pentru a-și susține poziția, potrivit AP și Washington Post.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Președintele Donald Trump a declarat pe 11 august 2025 o „urgență de securitate” în Washington DC și a preluat temporar controlul poliției locale, desfășurând Garda Națională în capitala americană. La un an distanță, Pentagonul a anunțat extinderea misiunii până la finalul mandatului lui Trump, ianuarie 2029, cu un cost suplimentar estimat la 1,4 miliarde de dolari (octombrie 2026 – ianuarie 2029), potrivit unei estimări a Departamentului Apărării citate de senatoarea Elizabeth Warren.",
+      "sources": [
+        {"name": "AP (via PBS NewsHour) — Washington grapples with a $1.4 billion National Guard deployment extension until 2029", "url": "https://www.pbs.org/newshour/nation/washington-grapples-with-a-1-4-billion-national-guard-deployment-extension-until-2029"},
+        {"name": "AP (via WTOP) — Washington grapples with a National Guard deployment extended until 2029", "url": "https://wtop.com/dc/2026/08/washington-grapples-with-a-national-guard-deployment-extended-until-2029/"},
+        {"name": "Al Jazeera — DC residents debate safety gains a year into Trump's Guard deployment", "url": "https://www.aljazeera.com/news/2026/8/11/dc-residents-debate-safety-gains-a-year-into-trumps-guard-deployment"}
+      ]
+    },
+    {
+      "text": "În prezent sunt desfășurați aproximativ 4.636 de militari ai Gărzii Naționale în oraș, inclusiv aproape 700 din Garda Națională a DC și trupe aduse din statele Georgia, Carolina de Sud și Mississippi — o creștere majoră față de contingentul inițial de circa 800 de militari din vara lui 2025.",
+      "sources": [
+        {"name": "Al Jazeera — DC residents debate safety gains a year into Trump's Guard deployment", "url": "https://www.aljazeera.com/news/2026/8/11/dc-residents-debate-safety-gains-a-year-into-trumps-guard-deployment"}
+      ]
+    },
+    {
+      "text": "Statisticile Poliției Metropolitane arată o scădere reală a criminalității: infracțiunile totale au scăzut cu 20% până pe 7 august 2026 față de aceeași perioadă din 2025, iar omuciderile au scăzut cu 32% (de la 97 la 66 de cazuri). Biroul procurorului federal pentru District of Columbia atribuie operațiunii peste 13.000 de arestări.",
+      "sources": [
+        {"name": "AP (via PBS NewsHour) — Washington grapples with a $1.4 billion National Guard deployment extension until 2029", "url": "https://www.pbs.org/newshour/nation/washington-grapples-with-a-1-4-billion-national-guard-deployment-extension-until-2029"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Există un dezacord real asupra cât din scăderea criminalității se datorează prezenței Gărzii Naționale și cât unor eforturi locale începute cu ani înainte. AP notează explicit că „există o dezbatere despre cât din acest succes se datorează misiunii lui Trump sau eforturilor locale de ani de zile pentru a reduce rata criminalității”. Un raport al centrului de cercetare Niskanen Center a constatat că desfășurarea trupelor „nu a avut un impact semnificativ asupra criminalității violente”, care era deja în scădere constantă în anii anteriori; reducerile mai clare au fost la infracțiunile împotriva proprietății.",
+      "sources": [
+        {"name": "AP (via PBS NewsHour) — Washington grapples with a $1.4 billion National Guard deployment extension until 2029", "url": "https://www.pbs.org/newshour/nation/washington-grapples-with-a-1-4-billion-national-guard-deployment-extension-until-2029"},
+        {"name": "Al Jazeera — DC residents debate safety gains a year into Trump's Guard deployment", "url": "https://www.aljazeera.com/news/2026/8/11/dc-residents-debate-safety-gains-a-year-into-trumps-guard-deployment"}
+      ]
+    },
+    {
+      "text": "Trump a susținut public că omuciderile din DC au scăzut cu 88% de la desfășurarea Gărzii — o cifră care nu se regăsește în datele oficiale ale poliției (scădere de 32% în perioada citată de AP). Trump a mai spus că anul 2023 a avut „probabil cea mai mare rată a crimelor vreodată” în DC — fals: cele 274 de omucideri din 2023 au fost cu 63% mai puține decât vârful din 1991. Un document oficial al Casei Albe a susținut că DC avea a patra cea mai mare rată a omuciderilor dintre orașele americane în 2024, deși sursa citată de administrație arăta locul cinci în 2023 și niciun loc în top 4 pentru 2024.",
+      "sources": [
+        {"name": "AP (via Yahoo News) — Trump can't stop using false and misleading data to make his case for DC takeover", "url": "https://www.yahoo.com/news/articles/trump-t-stop-using-false-203407612.html"}
+      ]
+    },
+    {
+      "text": "Procurorul general al DC, Brian Schwalb, a dat în judecată administrația pentru motive constituționale legate de controlul asupra poliției locale; un judecător federal de district a decis inițial oprirea desfășurării, decizie ulterior suspendată în apel. Locuitorii și oficialii aleși ai orașului — puternic democrat — văd în prelungirea până în 2029 o restrângere a autonomiei locale, nu doar o măsură de siguranță publică.",
+      "sources": [
+        {"name": "Al Jazeera — DC residents debate safety gains a year into Trump's Guard deployment", "url": "https://www.aljazeera.com/news/2026/8/11/dc-residents-debate-safety-gains-a-year-into-trumps-guard-deployment"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Dacă desfășurarea Gărzii Naționale este o măsură necesară de siguranță publică sau o extindere nejustificată a controlului federal asupra unui oraș democrat rămâne o chestiune de interpretare politică — nu un fapt care poate fi „probat” sau „contrazis”. Ambele tabere se bazează pe interpretări diferite ale acelorași date de bază despre criminalitate."
+  ],
+  "math": {
+    "title": "Ce arată, de fapt, cifrele oficiale",
+    "text": "Omuciderile au scăzut de la 97 la 66 de cazuri în perioada citată de AP — o reducere reală de 32%, nu de 88% cum a susținut Trump. Diferența dintre cele două cifre e uriașă: 88% ar însemna sub 12 omucideri, când datele oficiale ale poliției arată 66. În privința clasamentului global, DC rămâne al 50-lea oraș din lume ca rată a omuciderilor — ceea ce înseamnă că cel puțin 49 de orașe au o rată mai mare, contrazicând direct comparațiile făcute de Trump cu Bogotá sau Ciudad de Mexico ca argument pentru „cea mai periculoasă capitală”."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (agenția AP, preluată de zeci de redacții americane, plus Al Jazeera); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": ["Donald Trump"]
+}
