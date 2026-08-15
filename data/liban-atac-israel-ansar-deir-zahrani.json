@@ -1,0 +1,60 @@
+{
+  "slug": "liban-atac-israel-ansar-deir-zahrani",
+  "title": "Atac aerian israelian ucide 11 oameni în două sate din sudul Libanului — Israel spune că a vizat „infrastructură Hezbollah”, premierul libanez respinge justificarea",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Daily Sabah / The National",
+  "url": "https://www.thenationalnews.com/news/mena/2026/08/15/israeli-strike-kills-seven-in-southern-lebanon/",
+  "dek": "Sâmbătă, 15 august 2026, aviația israeliană a lovit satele Ansar și Deir Al Zahrani din sudul Libanului, la circa 18-20 km de graniță, ucigând 11 oameni (între care trei copii) și rănind cel puțin 12. Armata israeliană spune că a vizat „infrastructură teroristă Hezbollah”, ca răspuns la un atac asupra trupelor sale în zona de securitate convenită; premierul libanez Nawaf Salam a respins că victimele ar fi legate de infrastructură militară. E unul dintre cele mai grave atacuri de la armistițiul din iunie 2026, iar negocierile mediate de SUA de la Roma (6 august) s-au încheiat fără acord.",
+  "mainVerdict": "Probat ce s-a întâmplat și cine a comunicat ce — motivația reală a atacului rămâne contestată între părți",
+  "probat": [
+    {
+      "text": "Aviația israeliană a lovit sâmbătă, 15 august 2026, satele Ansar și Deir Al Zahrani din sudul Libanului, aflate la aproximativ 18-20 km de granița cu Israelul, precum și înălțimea Ali al-Taher, o poziție strategică din zona Nabatieh. Bilanțul confirmat: 11 morți și cel puțin 12 răniți — 7 morți în Ansar (dintre care 3 copii și 2 femei) și 4 morți în Deir Al Zahrani.",
+      "sources": [
+        {"name": "The National — Israeli strike kills seven in southern Lebanon (bilanțul pe localități)", "url": "https://www.thenationalnews.com/news/mena/2026/08/15/israeli-strike-kills-seven-in-southern-lebanon/"},
+        {"name": "Daily Sabah — Israeli strikes kill 11 in Lebanon as Hezbollah vows response", "url": "https://www.dailysabah.com/world/mid-east/israeli-strikes-kill-11-in-lebanon-as-hezbollah-vows-response"}
+      ]
+    },
+    {
+      "text": "Armata israeliană a declarat că a „lovit infrastructura teroristă Hezbollah” în sudul Libanului, ca răspuns la o acțiune a grupării Hezbollah împotriva trupelor sale în zona de securitate convenită prin armistițiul din iunie 2026.",
+      "sources": [
+        {"name": "Daily Sabah — justificarea armatei israeliene", "url": "https://www.dailysabah.com/world/mid-east/israeli-strikes-kill-11-in-lebanon-as-hezbollah-vows-response"},
+        {"name": "The National — armata israeliană spune că a vizat infrastructura Hezbollah și Ali al-Taher", "url": "https://www.thenationalnews.com/news/mena/2026/08/15/israeli-strike-kills-seven-in-southern-lebanon/"}
+      ]
+    },
+    {
+      "text": "Premierul libanez Nawaf Salam a respins justificarea israeliană, declarând că victimele „nu sunt infrastructură militară” și că „responsabilitatea pentru gestionarea oricărei infrastructuri militare pe teritoriul libanez aparține exclusiv statului libanez”. Președintele Joseph Aoun a spus că atacul transmite „un mesaj clar” cu privire la procesul de negociere și la eforturile SUA pentru implementarea acordului de încetare a ostilităților.",
+      "sources": [
+        {"name": "The National — declarația premierului Nawaf Salam", "url": "https://www.thenationalnews.com/news/mena/2026/08/15/israeli-strike-kills-seven-in-southern-lebanon/"},
+        {"name": "Daily Sabah — declarația președintelui Joseph Aoun", "url": "https://www.dailysabah.com/world/mid-east/israeli-strikes-kill-11-in-lebanon-as-hezbollah-vows-response"}
+      ]
+    },
+    {
+      "text": "Atacul este descris de ambele surse drept unul dintre cele mai grave de la armistițiul din iunie 2026, survenind după ce negocierile mediate de SUA de la Roma (6 august 2026) s-au încheiat fără un acord.",
+      "sources": [
+        {"name": "The National — context: negocierile de la Roma s-au încheiat fără acord", "url": "https://www.thenationalnews.com/news/mena/2026/08/15/israeli-strike-kills-seven-in-southern-lebanon/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu există, în sursele consultate, o confirmare independentă a afirmației israeliene potrivit căreia Hezbollah ar fi atacat trupe israeliene în zona de securitate convenită — este declarația armatei israeliene, necoroborată public de o parte terță. Totodată, poziția exactă a Hezbollah privind acest atac specific diferă ușor între relatări: Daily Sabah menționează că gruparea a promis un „răspuns adecvat”, fără alte detalii verificate independent despre conținutul acestei amenințări.",
+      "sources": [
+        {"name": "Daily Sabah — Hezbollah promite „răspuns adecvat”, fără detalii verificate independent", "url": "https://www.dailysabah.com/world/mid-east/israeli-strikes-kill-11-in-lebanon-as-hezbollah-vows-response"}
+      ]
+    },
+    {
+      "text": "Numărul exact de răniți diferă ușor între surse: The National raportează 12 răniți (3 la Ansar, 9 la Deir Al Zahrani), în timp ce alte relatări citate de agentul de cercetare menționau până la 17 — diferența poate ține de momentul actualizării bilanțului, nu de o contradicție de fond asupra atacului în sine.",
+      "sources": [
+        {"name": "The National — bilanț de 12 răniți", "url": "https://www.thenationalnews.com/news/mena/2026/08/15/israeli-strike-kills-seven-in-southern-lebanon/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Acuzația implicită a președintelui Joseph Aoun, potrivit căreia atacul ar urmări să transmită „un mesaj” privind negocierile, este o interpretare politică a motivației israeliene, nu un fapt confirmat independent — la fel ca afirmația Hezbollah potrivit căreia escaladarea ar urmări „consolidarea poziției politice a lui Netanyahu”."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale (Daily Sabah, Turcia, și The National, Emiratele Arabe Unite) sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Ce se probează, concordant între cele două surse: locurile atacului, bilanțul de 11 morți, justificarea oficială israeliană și respingerea ei de către premierul libanez. Ce rămâne contestat: dacă atacul Hezbollah invocat de Israel a avut loc așa cum a fost descris (nu există confirmare terță) și numărul exact de răniți, care variază ușor între relatări. Nu am prezentat nicio parte a conflictului ca fiind „în drept” sau „vinovată” — am pus alături declarațiile oficiale ale ambelor părți.",
+  "persoane": ["Nawaf Salam", "Joseph Aoun"]
+}
