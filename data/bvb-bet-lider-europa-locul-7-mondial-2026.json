@@ -1,0 +1,47 @@
+{
+  "slug": "bvb-bet-lider-europa-locul-7-mondial-2026",
+  "title": "Bursa de Valori București, lider în Europa în 2026 — dar titlurile „cea mai performantă din lume” simplifică: oficial e pe locul 7 din 104 piețe",
+  "category": "Economie",
+  "date": "2026-08-15",
+  "source": "Agerpres (ASF) / Ziarul Financiar / Spotmedia",
+  "url": "https://agerpres.ro/economic/2026/08/14/asf-bet-a-crescut-cu-47-1-in-2026-iar-randamentul-real-dupa-ajustarea-cu-inflatia-este-de-41-8--1584978",
+  "dek": "Autoritatea de Supraveghere Financiară (ASF) a anunțat pe 14 august 2026 că indicele BET al Bursei de Valori București a urcat cu 47,1% de la începutul anului (41,8% randament real, după ajustarea cu inflația) — cea mai bună performanță dintre bursele europene. Titluri din presă din lunile anterioare au vorbit despre BVB drept „cea mai performantă bursă din lume”, dar chiar analiza ASF plasează România pe locul 7 din 104 piețe cu date complete la nivel mondial — lider în Europa, nu global.",
+  "mainVerdict": "Probat: BVB e lider în Europa în 2026, cu cifre oficiale ASF — „cea mai performantă din lume” e o simplificare a titlurilor, contrazisă de aceeași sursă oficială",
+  "probat": [
+    {
+      "text": "Pe 14 august 2026, Autoritatea de Supraveghere Financiară (ASF) a anunțat, prin președintele Alexandru Petrescu și șeful Serviciului Stabilitate Financiară, Marius Acatrinei, că indicele BET a crescut cu 47,1% de la începutul anului 2026 (randament nominal), iar randamentul real, după ajustarea cu inflația acumulată, este de 41,8%.",
+      "sources": [
+        { "name": "Agerpres — ASF: BET a crescut cu 47,1% în 2026, randamentul real e 41,8%", "url": "https://agerpres.ro/economic/2026/08/14/asf-bet-a-crescut-cu-47-1-in-2026-iar-randamentul-real-dupa-ajustarea-cu-inflatia-este-de-41-8--1584978" }
+      ]
+    },
+    {
+      "text": "Potrivit ASF, BET ocupă primul loc în Europa la randament în 2026, fiind urmat de bursa Ungariei (BUX), cu 31,9% nominal și 30,3% real; celelalte piețe europene analizate (Slovenia, Polonia, Norvegia, Austria, Grecia, Italia) au avut randamente nominale sub 29%.",
+      "sources": [
+        { "name": "Agerpres — ASF: comparație cu bursele europene", "url": "https://agerpres.ro/economic/2026/08/14/asf-bet-a-crescut-cu-47-1-in-2026-iar-randamentul-real-dupa-ajustarea-cu-inflatia-este-de-41-8--1584978" }
+      ]
+    },
+    {
+      "text": "În aceeași analiză ASF, România ocupă locul 7 dintr-un total de 104 piețe bursiere mondiale cu date complete disponibile — deci lider în Europa, dar nu lider mondial. Alte analize ale pieței (Ziarul Financiar, la jumătatea anului) arătau BET cu +39,6% de la începutul anului și +83% în ultimele 12 luni, depășind bursele din Budapesta, Ljubljana și Viena — cifre din alt moment al anului, mai mici decât cele mai recente ale ASF, ceea ce reflectă evoluția ulterioară a indicelui, nu o contradicție.",
+      "sources": [
+        { "name": "Agerpres — locul 7 din 104 piețe mondiale", "url": "https://agerpres.ro/economic/2026/08/14/asf-bet-a-crescut-cu-47-1-in-2026-iar-randamentul-real-dupa-ajustarea-cu-inflatia-este-de-41-8--1584978" },
+        { "name": "Ziarul Financiar — Bursa de Valori București, piața cu cele mai mari randamente din Europa la jumătatea anului 2026", "url": "https://www.zf.ro/burse-fonduri-mutuale/bursa-valori-bucuresti-jumatatea-anului-2026-piata-cele-mari-23190485" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "O parte din titlurile de presă din luna iulie au prezentat Bursa de Valori București drept „cea mai performantă bursă din lume” în 2026, cu un avans de circa 49% de la începutul anului — depășind, potrivit acelor articole, toate marile burse europene și internaționale (excluzând unele piețe africane și Venezuela, distorsionate de hiperinflație). Această formulare e contrazisă de analiza oficială ASF din 14 august, care plasează România pe locul 7 mondial din 104 piețe cu date complete — lider clar în Europa, dar nu „cea mai performantă din lume”.",
+      "sources": [
+        { "name": "Spotmedia — Bursa de la București, cea mai performantă din lume în 2026", "url": "https://spotmedia.ro/stiri/economie/bursa-de-la-bucuresti-cea-mai-performanta-din-lume-in-2026-bet-a-urcat-cu-aproape-50-de-la-inceputul-anului" },
+        { "name": "Agerpres — ASF: locul 7 din 104 piețe mondiale", "url": "https://agerpres.ro/economic/2026/08/14/asf-bet-a-crescut-cu-47-1-in-2026-iar-randamentul-real-dupa-ajustarea-cu-inflatia-este-de-41-8--1584978" }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "47,1% nominal vs. 41,8% real — diferența e inflația acumulată",
+    "explanation": "ASF a calculat randamentul real scăzând din creșterea nominală a BET (47,1%) inflația acumulată în intervalul decembrie 2025 – iunie 2026 (3,8% în România). Diferența arată de ce cifrele „nominale” vehiculate în titluri (39,6%, 47%, 49%, în funcție de data măsurătorii) sunt mai mari decât câștigul real al unui investitor, ajustat cu scumpirile din economie — un detaliu pe care titlurile scurte de tip „cea mai performantă bursă” de regulă îl omit."
+  },
+  "aiNote": "Ce se probează: cu cifre oficiale de la ASF (14 august 2026), Bursa de Valori București e într-adevăr lider în Europa la randament în 2026 — atât nominal (47,1%), cât și real, după inflație (41,8%). Ce e o simplificare, nu o minciună: titlurile din presă din vara asta care au numit BVB „cea mai performantă bursă din lume” suprasimplifică — chiar sursa oficială citată de acele articole (ASF) arată că România ocupă locul 7 din 104 piețe mondiale cu date complete, nu locul 1. Diferențele de procent între articole (26%, 39,6%, 47%, 49%) nu sunt neapărat contradicții, ci reflectă momente diferite de măsurare de-a lungul anului, pe un indice aflat în creștere continuă.",
+  "persoane": ["Alexandru Petrescu"]
+}
