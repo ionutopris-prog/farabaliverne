@@ -1,0 +1,85 @@
+{
+  "slug": "indonezia-cutremur-flores-tsunami-15-august",
+  "title": "Cutremur de magnitudine 7,7 lângă insula Flores, Indonezia — alertă de tsunami emisă și ridicată, bilanțul victimelor în actualizare",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Al Jazeera / Wikipedia (2026 East Nusa Tenggara earthquake) / CNBC / The Jakarta Post",
+  "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia",
+  "dek": "Un cutremur de magnitudine 7,7 a lovit sâmbătă, 15 august 2026, la ora 05:58 (ora locală), în largul insulei Flores, Indonezia. A fost emisă o alertă de tsunami, ridicată circa trei ore mai târziu. Bilanțul victimelor a evoluat rapid și diferă între surse — de la 1-2 morți raportați inițial, până la peste 20 în orele următoare.",
+  "mainVerdict": "Probat că a avut loc un cutremur de magnitudine 7,7 cu alertă de tsunami emisă și ridicată; bilanțul exact al morților rămâne contestat/în actualizare între surse",
+  "probat": [
+    {
+      "text": "Un cutremur de magnitudine 7,7 (Mww, conform USGS; Mw 7,61 conform GFZ Helmholtz Centre din Germania) s-a produs sâmbătă, 15 august 2026, la ora 05:58 ora locală (WITA) — echivalent cu 21:58 GMT, vineri, 14 august. Epicentrul a fost localizat la circa 68 km nord-nord-vest de orașul Ende, în provincia Nusa Tenggara de Est, în largul insulei Flores.",
+      "sources": [
+        {"name": "Al Jazeera — magnitudine 7,7, epicentru 68 km NV de Ende, ora 05:58 locală", "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia"},
+        {"name": "Wikipedia — 2026 East Nusa Tenggara earthquake (date USGS/GFZ, coordonate, oră UTC/WITA)", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"}
+      ]
+    },
+    {
+      "text": "Adâncimea cutremurului este raportată la 10 km conform USGS (agenția geologică americană) — o adâncime relativ mică, ceea ce amplifică intensitatea resimțită la suprafață. Alte surse citează adâncimi ușor diferite: agenția germană GFZ Helmholtz Centre a calculat 25 km, iar agenția indoneziană BMKG a raportat inițial 15 km. Diferențele de câțiva-zeci de km între agenții sunt obișnuite la calculul preliminar al adâncimii unui cutremur submarin.",
+      "sources": [
+        {"name": "Al Jazeera — adâncime 10 km (USGS)", "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia"},
+        {"name": "Wikipedia — adâncime USGS 10 km vs. GFZ 25 km", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"}
+      ]
+    },
+    {
+      "text": "Imediat după cutremur, agenția indoneziană de meteorologie, climatologie și geofizică (BMKG) a emis o alertă de tsunami pentru coastele provinciilor Nusa Tenggara de Est, Nusa Tenggara de Vest și Sulawesi de Sud, avertizând asupra unor valuri estimate între 0,5 și 3 metri. Locuitorii din zonele costiere, inclusiv din Maumere și regența Nagekeo, au fost evacuați spre zone mai înalte.",
+      "sources": [
+        {"name": "Manila Times (AFP) — alerta BMKG, val estimat 0,5–3 m", "url": "https://www.manilatimes.net/2026/08/15/world/asia-oceania/strong-77-magnitude-quake-strikes-off-indonesia-usgs/2406098"},
+        {"name": "Sky TG24 — evacuări în Maumere și Nagekeo", "url": "https://tg24.sky.it/mondo/2026/08/15/terremoto-indonesia-oggi"}
+      ]
+    },
+    {
+      "text": "Alerta de tsunami a fost ridicată la circa trei ore după cutremur (în jurul orei 07:30 ora locală a Indoneziei de Vest, WIB). Valurile efectiv înregistrate au fost sub un metru — cel mai mare, de 0,94 m, măsurat în districtul Maurole din regența Ende; alte stații au înregistrat între 19 și 30 cm. Centrul de avertizare din Australia a precizat că nu există risc pentru teritoriul australian.",
+      "sources": [
+        {"name": "Wikipedia — alerta ridicată la 07:30 WIB, val maxim 0,94 m la Maurole", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"},
+        {"name": "Open.online — valuri de 19–30 cm, alerta ridicată", "url": "https://www.open.online/2026/08/15/terremoto-indonesia-15-ago-danni-vittime-tsunami-video/"}
+      ]
+    },
+    {
+      "text": "Cutremurul a fost urmat de zeci, apoi de peste 100 de replici (până la ora 10:00, ora locală, pe 15 august), inclusiv cel puțin șapte cu magnitudine peste 5,0 — cea mai puternică replică înregistrată fiind de magnitudine 6,1. Cutremurul a provocat pagube materiale (clădiri prăbușite sau avariate, alunecări de teren care au blocat drumuri, întreruperi de curent electric) și evacuarea a circa 2.000 de locuitori din regența Nagekeo.",
+      "sources": [
+        {"name": "Wikipedia — peste 100 de replici până la ora 10:00, șapte peste M5,0", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"},
+        {"name": "Al Jazeera — pagube, 2.000 de evacuați din Nagekeo", "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia"}
+      ]
+    },
+    {
+      "text": "Este confirmat, concordant de toate sursele consultate, că cutremurul a provocat victime omenești (morți și răniți) — cifra exactă rămâne neclară și în actualizare (vezi secțiunea „Contestat” de mai jos).",
+      "sources": [
+        {"name": "CNBC — cel puțin 20 de morți, conform salvatorilor", "url": "https://www.cnbc.com/2026/08/15/twenty-dead-after-indonesias-magnitude-7point7-earthquake-rescuers-say.html"},
+        {"name": "The Jakarta Post — cinci morți, conform guvernatorului provinciei", "url": "http://www.thejakartapost.com/indonesia/2026/08/15/five-dead-after-magnitude-77-earthquake-strikes-flores-governor-says"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Bilanțul morților a evoluat rapid și divergent în orele de după cutremur, pe măsură ce echipele de salvare ajungeau în zonele afectate. Cronologic, pe surse: presa de agenție (AFP, citată de Manila Times) raporta inițial, la puțin timp după cutremur, „fără victime confirmate la ora publicării”; agenția de presă chineză Xinhua titra la un moment dat „bilanțul urcă la 2”, apoi „bilanțul urcă la 5”; agenția națională de gestionare a dezastrelor din Indonezia (BNPB) a declarat inițial un mort și patru răniți; guvernatorul provinciei Nusa Tenggara de Est, Emanuel Melkiades Laka Lena, a anunțat ulterior 5 morți (toți uciși de dărâmături în timp ce dormeau) — trei în regența Manggarai, doi în Sikka; în paralel, agenția de salvare (SAR) din Maumere raporta un bilanț separat, de 20 de morți, 6 răniți și 2 persoane prinse sub dărâmături în jurul orașului Maumere. Titlul (URL-ul) articolului Al Jazeera a rămas „at least two killed”, deși textul articolului, actualizat, indică 20 de morți — un exemplu concret de cum titlurile pot rămâne în urma actualizărilor din corpul textului. Motivul principal al divergenței: echipele de salvare nu ajunseseră încă în regența Nagekeo, cea mai apropiată de epicentru, iar comunicațiile de acolo erau afectate — autoritățile au avertizat explicit că bilanțul e provizoriu și poate crește.",
+      "sources": [
+        {"name": "Al Jazeera — titlu „at least two killed”, text actualizat la 20 de morți", "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia"},
+        {"name": "CNBC — cel puțin 20 de morți, 6 răniți, 2 prinși sub dărâmături (SAR Maumere)", "url": "https://www.cnbc.com/2026/08/15/twenty-dead-after-indonesias-magnitude-7point7-earthquake-rescuers-say.html"},
+        {"name": "The Jakarta Post — 5 morți conform guvernatorului, față de 1 mort/4 răniți raportați inițial de BNPB", "url": "http://www.thejakartapost.com/indonesia/2026/08/15/five-dead-after-magnitude-77-earthquake-strikes-flores-governor-says"},
+        {"name": "Wikipedia — cronologia și defalcarea pe regiuni a bilanțului (Manggarai, Sikka, Maumere)", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"},
+        {"name": "Manila Times (AFP) — variantă timpurie, „fără victime raportate la ora publicării”", "url": "https://www.manilatimes.net/2026/08/15/world/asia-oceania/strong-77-magnitude-quake-strikes-off-indonesia-usgs/2406098"}
+      ]
+    },
+    {
+      "text": "Adâncimea exactă a cutremurului diferă ușor între agenții — 10 km (USGS), 15 km (BMKG, în raportarea inițială) și 25 km (GFZ Helmholtz Centre, Germania). Astfel de diferențe de calcul preliminar al adâncimii sunt frecvente la cutremurele submarine puternice și nu schimbă ordinul de mărime al magnitudinii (7,7, respectiv 7,61), dar arată de ce cititorul ar trebui să considere cifrele „preliminare” în primele ore.",
+      "sources": [
+        {"name": "Wikipedia — comparație adâncime USGS/GFZ/BMKG", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"},
+        {"name": "Al Jazeera — adâncime 10 km conform USGS", "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia"}
+      ]
+    },
+    {
+      "text": "La ora verificării acestui articol (după-amiaza zilei de 15 august 2026, ora României), nu exista încă un bilanț oficial unic, agreat de toate autoritățile indoneziene — cifrele citate mai sus (1, 2, 5, 14, 20 de morți, în funcție de sursă și de momentul raportării) provin din surse diferite (BNPB, guvernatorul provincial, agenția SAR locală din Maumere, agenții de presă internaționale) care nu acopereau încă aceleași zone. Autoritățile au precizat că echipele de salvare nu ajunseseră în regența Nagekeo, cea mai apropiată de epicentru, din cauza comunicațiilor afectate — deci bilanțul final ar putea fi diferit de oricare din cifrele de mai sus.",
+      "sources": [
+        {"name": "CNBC — teams yet to reach Nagekeo, officials fear toll will climb", "url": "https://www.cnbc.com/2026/08/15/twenty-dead-after-indonesias-magnitude-7point7-earthquake-rescuers-say.html"},
+        {"name": "Wikipedia — 2026 East Nusa Tenggara earthquake, bilanț defalcat pe regiuni", "url": "https://en.wikipedia.org/wiki/2026_East_Nusa_Tenggara_earthquake"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Diferențele dintre bilanțuri nu indică, în acest caz, dezinformare sau rea-credință — sunt o consecință firească a modului în care circulă informația într-un dezastru natural în desfășurare: surse diferite (guvern central, guvernator provincial, agenție locală de salvare, presă internațională) raportează din zone diferite, în momente diferite, înainte ca autoritățile centrale să consolideze o cifră oficială unică. Cititorul ar trebui să considere orice cifră publicată în primele 24-48 de ore după un cutremur major drept provizorie, indiferent de sursă, și să caute actualizări ulterioare pentru bilanțul final."}
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română relatări din presa internațională (Al Jazeera, AFP/Manila Times, CNBC, The Jakarta Post) și pagina Wikipedia dedicată evenimentului, care la rândul ei citează USGS, BMKG și GFZ Helmholtz Centre; sursele originale sunt linkate mai sus. Faptele de bază — magnitudinea de 7,7, epicentrul lângă insula Flores, alerta de tsunami emisă și apoi ridicată — sunt confirmate concordant de mai multe agenții independente. Bilanțul victimelor NU este încă un fapt consolidat la ora verificării: am semnalat explicit evoluția și divergența cifrelor (de la 1-2 morți raportați inițial, până la 5, 14 sau peste 20 în surse ulterioare), în loc să aleg o singură cifră ca fiind „cea corectă”. Aceasta nu e o poveste despre dezinformare, ci despre cum arată normal fluxul de informație într-un dezastru natural în timp real — cifrele se vor consolida în zilele următoare, pe măsură ce echipele de salvare ajung în toate zonele afectate.",
+  "persoane": []
+}
