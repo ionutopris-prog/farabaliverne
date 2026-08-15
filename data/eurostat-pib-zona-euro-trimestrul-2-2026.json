@@ -1,0 +1,52 @@
+{
+  "slug": "eurostat-pib-zona-euro-trimestrul-2-2026",
+  "title": "PIB-ul zonei euro a crescut cu 0,4% în trimestrul 2 din 2026, dar decalajul dintre state rămâne mare",
+  "category": "Economie",
+  "date": "2026-08-14",
+  "source": "Eurostat",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+  "dek": "Eurostat a confirmat pe 14 august 2026 o creștere trimestrială de 0,4% a PIB-ului în zona euro (0,5% în UE), cu ocuparea forței de muncă în creștere de 0,1%. Sub cifra medie se ascund diferențe mari: Germania și Franța au crescut doar 0,2%, Belgia și Austria au stagnat (0%), în timp ce Spania (0,7%) și Polonia (0,9%) au avansat mult mai rapid.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "PIB-ul zonei euro a crescut cu 0,4% în trimestrul al doilea din 2026 față de trimestrul anterior (1,0% față de anul trecut), iar PIB-ul Uniunii Europene a crescut cu 0,5% (1,2% față de anul trecut). Datele sunt publicate oficial de Eurostat pe 14 august 2026, ca a doua estimare, pe baza datelor statelor membre care acoperă 99% din PIB-ul UE și al zonei euro.",
+      "sources": [
+        {"name": "Eurostat — GDP up by 0.4% in the euro area and by 0.5% in the EU (14.08.2026)", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"},
+        {"name": "Xinhua — Eurozone GDP up 0.4 pct in Q2: Eurostat", "url": "https://english.news.cn/20260730/6b36491d7e38464a910598a16a347047/c.html"}
+      ]
+    },
+    {
+      "text": "Sub media de 0,4%, creșterea e inegală: Germania și Franța au avansat cu doar 0,2%, Italia la fel cu 0,2%, iar Belgia și Austria au stagnat complet (0%). În schimb, Spania a crescut cu 0,7% și Polonia cu 0,9% — de peste patru ori mai repede decât Germania. Pe an, Polonia a avansat 3,7% și Spania 2,7%, față de doar 0,9% pentru Germania și 0,7% pentru Franța.",
+      "sources": [
+        {"name": "Eurostat — GDP up by 0.4% in the euro area and by 0.5% in the EU (14.08.2026)", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"},
+        {"name": "Daily Finland — Eurozone GDP grows 0.4% in Q2", "url": "https://www.dailyfinland.fi/europe/50628/Eurozone-GDP-grows-0.4-in-Q2"}
+      ]
+    },
+    {
+      "text": "Ocuparea forței de muncă a crescut cu 0,1% în trimestrul al doilea, atât în zona euro cât și în UE, față de trimestrul anterior, și cu 0,5% față de anul trecut — un ritm modest, dar pozitiv, publicat tot de Eurostat în aceeași estimare din 14 august 2026.",
+      "sources": [
+        {"name": "Eurostat — GDP up by 0.4% in the euro area and by 0.5% in the EU (14.08.2026)", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Rămâne o chestiune de interpretare dacă cifrele arată reziliență sau doar o pauză înainte de o încetinire mai amplă. Guvernul german își înjumătățise deja, în aprilie 2026, prognoza de creștere pentru întregul an — de la 1% la 0,5% — invocând efectele șocurilor energetice provocate de războiul din Iran. Datele din trimestrul 2 (Germania +0,2%) au depășit ușor așteptările analiștilor (0,1%), dar rămân în linie cu scenariul pesimist anunțat în primăvară, nu cu o revenire clară.",
+      "sources": [
+        {"name": "Euronews — Germany halves GDP forecast from 1% to 0.5% due to Iran war fallout", "url": "https://www.euronews.com/business/2026/04/22/germany-halves-gdp-forecast-from-1-to-05-due-to-iran-war-fallout"},
+        {"name": "Eurostat — GDP up by 0.4% in the euro area and by 0.5% in the EU (14.08.2026)", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Faptul că economiile mari (Germania, Franța) stagnează practic, în timp ce state mai mici din estul și sudul UE (Polonia, Spania) cresc de câteva ori mai repede, poate fi citit fie ca un semn de „recuperare” a periferiei, fie ca un simptom de slăbiciune structurală a motoarelor tradiționale ale UE — ambele interpretări sunt poziții economice, nu fapte stabilite de datele Eurostat, care oferă doar cifrele brute."
+    }
+  ],
+  "math": {
+    "title": "Polonia a crescut de peste patru ori mai repede decât Germania",
+    "explanation": "Germania și Franța au crescut cu 0,2% în trimestrul 2, Polonia cu 0,9% — adică de 4,5 ori mai mult (0,9/0,2). Pe an, decalajul e și mai clar: Polonia +3,7% față de Germania +0,9%, o diferență de peste 4 puncte procentuale. Media zonei euro (0,4%) este, așadar, „trasă în sus” de statele periferice cu creștere rapidă, nu de motoarele economice tradiționale (Germania, Franța), care au contribuit sub medie."
+  },
+  "aiNote": "Cifrele agregate (0,4% zona euro, 0,5% UE) și defalcarea pe țări provin direct din comunicatul oficial Eurostat din 14 august 2026, confirmate și de agenții de presă (Xinhua, Daily Finland) care au raportat aceleași cifre încă de la estimarea rapidă din 30 iulie 2026 — semn de stabilitate a datelor. Ce rămâne deschis interpretării: dacă decalajul mare dintre Germania/Franța (aproape de stagnare) și Spania/Polonia (creștere rapidă) e un semnal de alarmă pentru „motorul” UE sau doar o realocare firească a creșterii spre economii mai mici. Aici am marcat clar unde sursele oferă doar fapte (cifrele Eurostat) și unde intervine interpretarea economică.",
+  "persoane": []
+}
