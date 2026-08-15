@@ -1,0 +1,870 @@
+{
+ "sursa": [
+  "https://www.cdep.ro",
+  "https://www.senat.ro"
+ ],
+ "legislatura": "2024-2028",
+ "oameni": [
+  {
+   "nume": "Enache Mihai-Adrian",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "100",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=100&cam=2&leg=2024"
+  },
+  {
+   "nume": "Bruynseels Ramona-Ioana",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "38",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=38&cam=2&leg=2024"
+  },
+  {
+   "nume": "Coleşa Ilie-Alin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "72",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=72&cam=2&leg=2024"
+  },
+  {
+   "nume": "Corendea Cosmin-Ioan",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "78",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=78&cam=2&leg=2024"
+  },
+  {
+   "nume": "Matieş Călin-Gheorghe",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "185",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=185&cam=2&leg=2024"
+  },
+  {
+   "nume": "Mitrea Dumitrina",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "200",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=200&cam=2&leg=2024"
+  },
+  {
+   "nume": "Muncaciu Sorin-Titus",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "210",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=210&cam=2&leg=2024"
+  },
+  {
+   "nume": "Munteanu Valeriu",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "211",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=211&cam=2&leg=2024"
+  },
+  {
+   "nume": "Simion George-Nicolae",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "279",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=279&cam=2&leg=2024"
+  },
+  {
+   "nume": "Şerban Gianina",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "296",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=296&cam=2&leg=2024"
+  },
+  {
+   "nume": "Tanasă Dan",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "298",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=298&cam=2&leg=2024"
+  },
+  {
+   "nume": "Velcescu Florin-Bogdan",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "321",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=321&cam=2&leg=2024"
+  },
+  {
+   "nume": "Avrămescu Ştefăniţă-Alin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "13",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=13&cam=2&leg=2024"
+  },
+  {
+   "nume": "Biro Daniel-Răzvan",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "27",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=27&cam=2&leg=2024"
+  },
+  {
+   "nume": "Doboş Elena",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "91",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=91&cam=2&leg=2024"
+  },
+  {
+   "nume": "Hristu Cosmin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "142",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=142&cam=2&leg=2024"
+  },
+  {
+   "nume": "Negoescu Mihai-Bogdan",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "227",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=227&cam=2&leg=2024"
+  },
+  {
+   "nume": "Pascariu Mihai-Cosmin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "238",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=238&cam=2&leg=2024"
+  },
+  {
+   "nume": "Priescu Ionelia-Florenţa",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "258",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=258&cam=2&leg=2024"
+  },
+  {
+   "nume": "Puşcaşu Lucian-Florin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "261",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=261&cam=2&leg=2024"
+  },
+  {
+   "nume": "Badea Nelu-Valentin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "15",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=15&cam=2&leg=2024"
+  },
+  {
+   "nume": "Badiu Georgel",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "16",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=16&cam=2&leg=2024"
+  },
+  {
+   "nume": "Barstan Tiberiu-Claudiu",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "20",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=20&cam=2&leg=2024"
+  },
+  {
+   "nume": "Bordian Alexandru",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "33",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=33&cam=2&leg=2024"
+  },
+  {
+   "nume": "Boşutar Tiberiu-Nicolae",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "35",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=35&cam=2&leg=2024"
+  },
+  {
+   "nume": "Butură Cristina-Irina",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "47",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=47&cam=2&leg=2024"
+  },
+  {
+   "nume": "Ciornei Daniel-Cătălin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "60",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=60&cam=2&leg=2024"
+  },
+  {
+   "nume": "Cîrligea Florin-Eugen",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "68",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=68&cam=2&leg=2024"
+  },
+  {
+   "nume": "Cîrligeanu Ariadna-Elena",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "69",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=69&cam=2&leg=2024"
+  },
+  {
+   "nume": "Coman Dragoş-Florin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "74",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=74&cam=2&leg=2024"
+  },
+  {
+   "nume": "Constantinescu Andra-Claudia",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "75",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=75&cam=2&leg=2024"
+  },
+  {
+   "nume": "Dascălu Cristina-Emanuela",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "89",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=89&cam=2&leg=2024"
+  },
+  {
+   "nume": "Enache Diana",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "99",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=99&cam=2&leg=2024"
+  },
+  {
+   "nume": "Florea Gabriel-Florinel",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "108",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=108&cam=2&leg=2024"
+  },
+  {
+   "nume": "Gheorghe Ionel",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "119",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=119&cam=2&leg=2024"
+  },
+  {
+   "nume": "Gheorghe Mihai-Claudiu",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "120",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=120&cam=2&leg=2024"
+  },
+  {
+   "nume": "Gherasim Laura",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "123",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=123&cam=2&leg=2024"
+  },
+  {
+   "nume": "Grosu Veronica",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "134",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=134&cam=2&leg=2024"
+  },
+  {
+   "nume": "Gurlui Silviu-Octavian",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "136",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=136&cam=2&leg=2024"
+  },
+  {
+   "nume": "Guşă Andrei-Cosmin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "137",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=137&cam=2&leg=2024"
+  },
+  {
+   "nume": "Iagăr Monica",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "144",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=144&cam=2&leg=2024"
+  },
+  {
+   "nume": "Iosub Cosmin-Teodor",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "154",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=154&cam=2&leg=2024"
+  },
+  {
+   "nume": "Koler Eduard-Virgil",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "162",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=162&cam=2&leg=2024"
+  },
+  {
+   "nume": "Lovin Ramona",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "173",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=173&cam=2&leg=2024"
+  },
+  {
+   "nume": "Miclău Samuel-Virgil",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "188",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=188&cam=2&leg=2024"
+  },
+  {
+   "nume": "Mihăescu Mugur",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "193",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=193&cam=2&leg=2024"
+  },
+  {
+   "nume": "Mîndrescu Nicolae",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "201",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=201&cam=2&leg=2024"
+  },
+  {
+   "nume": "Murad Mohammad",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "212",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=212&cam=2&leg=2024"
+  },
+  {
+   "nume": "Muşat Doru-Lucian",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "215",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=215&cam=2&leg=2024"
+  },
+  {
+   "nume": "Neamţu George-Mihail",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "224",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=224&cam=2&leg=2024"
+  },
+  {
+   "nume": "Negrea Petru-Gabriel",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "228",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=228&cam=2&leg=2024"
+  },
+  {
+   "nume": "Oancea Silviu-Florin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "230",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=230&cam=2&leg=2024"
+  },
+  {
+   "nume": "Paraschiv Ciprian-Constantin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "235",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=235&cam=2&leg=2024"
+  },
+  {
+   "nume": "Păunescu Silviu-Titus",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "240",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=240&cam=2&leg=2024"
+  },
+  {
+   "nume": "Popescu Antonio-Gabi",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "255",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=255&cam=2&leg=2024"
+  },
+  {
+   "nume": "Popovici Florin-Cornel",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "256",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=256&cam=2&leg=2024"
+  },
+  {
+   "nume": "Puşcaşu Petre",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "262",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=262&cam=2&leg=2024"
+  },
+  {
+   "nume": "Radu Fabian-Cristian",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "263",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=263&cam=2&leg=2024"
+  },
+  {
+   "nume": "Tilea Dumitru",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "301",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=301&cam=2&leg=2024"
+  },
+  {
+   "nume": "Vadim-Tudor Lidia",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "315",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=315&cam=2&leg=2024"
+  },
+  {
+   "nume": "Vărşan Ciprian-Nicolae",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "335",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=335&cam=2&leg=2024"
+  },
+  {
+   "nume": "Vulpoiu Dorel",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "325",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=325&cam=2&leg=2024"
+  },
+  {
+   "nume": "Alecu Robert",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "5",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=5&cam=2&leg=2024"
+  },
+  {
+   "nume": "Artimon Dan-Cătălin",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "11",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=11&cam=2&leg=2024"
+  },
+  {
+   "nume": "Becali George",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "23",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=23&cam=2&leg=2024"
+  },
+  {
+   "nume": "Neacşu Andreea-Firuţa",
+   "partid": "AUR",
+   "camera": "Camera Deputaților",
+   "id": "221",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=221&cam=2&leg=2024"
+  },
+  {
+   "nume": "Macovei Ilie Simona-Elena",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "175",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=175&cam=2&leg=2024"
+  },
+  {
+   "nume": "Baş Ana-Marcela",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "21",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=21&cam=2&leg=2024"
+  },
+  {
+   "nume": "Goidescu Ionel",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "128",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=128&cam=2&leg=2024"
+  },
+  {
+   "nume": "Oltenaşu Sorin-George",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "231",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=231&cam=2&leg=2024"
+  },
+  {
+   "nume": "Vedinaş Verginia",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "319",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=319&cam=2&leg=2024"
+  },
+  {
+   "nume": "Vidra Vlad-Andrei",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "323",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=323&cam=2&leg=2024"
+  },
+  {
+   "nume": "Toader Elena-Laura",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "304",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=304&cam=2&leg=2024"
+  },
+  {
+   "nume": "Caragaţă Florin",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "50",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=50&cam=2&leg=2024"
+  },
+  {
+   "nume": "Ion Nicolae-Mirel",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "148",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=148&cam=2&leg=2024"
+  },
+  {
+   "nume": "Ionescu Tudor",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "152",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=152&cam=2&leg=2024"
+  },
+  {
+   "nume": "Lăzăroi Ioan",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "169",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=169&cam=2&leg=2024"
+  },
+  {
+   "nume": "Pascalini Nini-Alexandru",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "237",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=237&cam=2&leg=2024"
+  },
+  {
+   "nume": "Ţiu Mihai-Adrian",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "312",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=312&cam=2&leg=2024"
+  },
+  {
+   "nume": "Coarnă Dumitru",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "70",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=70&cam=2&leg=2024"
+  },
+  {
+   "nume": "Ciubuc Ciprian",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "62",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=62&cam=2&leg=2024"
+  },
+  {
+   "nume": "Cîmpianu Andreea-Petronela",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "67",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=67&cam=2&leg=2024"
+  },
+  {
+   "nume": "Enachi Raisa",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "101",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=101&cam=2&leg=2024"
+  },
+  {
+   "nume": "Făget Mădălin-Laurenţiu",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "103",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=103&cam=2&leg=2024"
+  },
+  {
+   "nume": "Nagy Vasile",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "218",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=218&cam=2&leg=2024"
+  },
+  {
+   "nume": "Vârgă Mariana",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "318",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=318&cam=2&leg=2024"
+  },
+  {
+   "nume": "Plopeanu Rodica",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "246",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=246&cam=2&leg=2024"
+  },
+  {
+   "nume": "Andrei Cosmin",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "8",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=8&cam=2&leg=2024"
+  },
+  {
+   "nume": "Băişanu Ştefan-Alexandru",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "22",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=22&cam=2&leg=2024"
+  },
+  {
+   "nume": "Constantinescu Andra-Claudia",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "75",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=75&cam=2&leg=2024"
+  },
+  {
+   "nume": "Guşă Andrei-Cosmin",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "137",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=137&cam=2&leg=2024"
+  },
+  {
+   "nume": "Jianu Iosif-Florin",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "158",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=158&cam=2&leg=2024"
+  },
+  {
+   "nume": "Moiseev Alexandrin",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "204",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=204&cam=2&leg=2024"
+  },
+  {
+   "nume": "Szőke Ecaterina-Mariana",
+   "partid": "SOS",
+   "camera": "Camera Deputaților",
+   "id": "292",
+   "fisa": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=292&cam=2&leg=2024"
+  },
+  {
+   "nume": "PEIU Petrișor-Gabriel",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "05495ACE-0730-44D7-B735-9D97285DCCF0",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=05495ACE-0730-44D7-B735-9D97285DCCF0"
+  },
+  {
+   "nume": "CHELARU Mircia",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "9CD64C47-2BE4-43ED-8B32-249577FE8C97",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=9CD64C47-2BE4-43ED-8B32-249577FE8C97"
+  },
+  {
+   "nume": "DUMITRESCU Cristina-Gabriella",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "55C19F8C-80F4-4BD1-B112-E363C2B283F1",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=55C19F8C-80F4-4BD1-B112-E363C2B283F1"
+  },
+  {
+   "nume": "PLĂEȘU Laurențiu",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "4EA5E2F9-CD07-4EB4-912E-A1181CC460B1",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=4EA5E2F9-CD07-4EB4-912E-A1181CC460B1"
+  },
+  {
+   "nume": "VLAHU Nicolae",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "F6B7345B-82CA-43BF-9B7E-EFE5C038B2A0",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=F6B7345B-82CA-43BF-9B7E-EFE5C038B2A0"
+  },
+  {
+   "nume": "IACOB Constantin-Ciprian",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "E4DE63CF-394D-49DA-844A-6B060A232B35",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=E4DE63CF-394D-49DA-844A-6B060A232B35"
+  },
+  {
+   "nume": "BARCARI Dorina",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "EDF20DA3-A851-4622-B534-0B3D833A51B9",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=EDF20DA3-A851-4622-B534-0B3D833A51B9"
+  },
+  {
+   "nume": "CHERTIF Costache",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "9D98D226-76AA-4DEC-9D8D-24A83D344DFB",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=9D98D226-76AA-4DEC-9D8D-24A83D344DFB"
+  },
+  {
+   "nume": "CONSTANTINESCU Rodica",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "FA667A85-17D1-4CB5-A5DB-322D48FCD38D",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=FA667A85-17D1-4CB5-A5DB-322D48FCD38D"
+  },
+  {
+   "nume": "DÎRLĂU Andrei-Emil",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "A98C83AA-D99D-464B-A5A1-44566F751A51",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=A98C83AA-D99D-464B-A5A1-44566F751A51"
+  },
+  {
+   "nume": "GEAMĂNU Ștefan",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "0A82391D-2ECD-4B88-AC27-57B69D159720",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0A82391D-2ECD-4B88-AC27-57B69D159720"
+  },
+  {
+   "nume": "ȘIPOȘ Eugen-Cristian",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "AA6BA21B-D06F-4F62-8659-D4E74ADD85CB",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=AA6BA21B-D06F-4F62-8659-D4E74ADD85CB"
+  },
+  {
+   "nume": "LAVRIC Sorin",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "781AF753-0E1A-4820-9926-7191E4EB16DF",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=781AF753-0E1A-4820-9926-7191E4EB16DF"
+  },
+  {
+   "nume": "NEGRU Corneliu",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "C6BE0951-8179-4AB1-8166-8CAC4C1BF4D4",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=C6BE0951-8179-4AB1-8166-8CAC4C1BF4D4"
+  },
+  {
+   "nume": "PARASCA Teofil",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "3953018D-3E06-4028-BC4B-953FB20F88E9",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3953018D-3E06-4028-BC4B-953FB20F88E9"
+  },
+  {
+   "nume": "PĂUCEAN-FERNANDES Luminița",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "2B2EA3F2-756E-46D5-ACFE-9A41350B7F34",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2B2EA3F2-756E-46D5-ACFE-9A41350B7F34"
+  },
+  {
+   "nume": "PETRE George-Cezar",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "14E542F2-EE04-444E-B539-9E85135DA202",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=14E542F2-EE04-444E-B539-9E85135DA202"
+  },
+  {
+   "nume": "POTECĂ Vasilică",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "A5A25B95-3452-4D9D-983B-A1C7A033CFCD",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=A5A25B95-3452-4D9D-983B-A1C7A033CFCD"
+  },
+  {
+   "nume": "ROMAN Marius-Valentin",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "3090F662-69B9-4088-94EA-AD1847401B50",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3090F662-69B9-4088-94EA-AD1847401B50"
+  },
+  {
+   "nume": "SANDU Mircea-Ionuț",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "74A1CA6F-7E3C-49EA-B9D7-B8DF00BF7766",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=74A1CA6F-7E3C-49EA-B9D7-B8DF00BF7766"
+  },
+  {
+   "nume": "SILEGEANU Cătălin",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "C7757F24-2D04-42A2-833E-C0A9A821AD71",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=C7757F24-2D04-42A2-833E-C0A9A821AD71"
+  },
+  {
+   "nume": "SPAU Dumitru",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "F34848D5-327A-4E34-80DD-C28EB44C8D98",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=F34848D5-327A-4E34-80DD-C28EB44C8D98"
+  },
+  {
+   "nume": "STELEA Niculina",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "5AA76A32-F2F8-42C0-A868-C5AFA29FC744",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=5AA76A32-F2F8-42C0-A868-C5AFA29FC744"
+  },
+  {
+   "nume": "STOICA Ciprian-Titi",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "1969FBC4-5C74-4B09-AFD6-CB64347549DE",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1969FBC4-5C74-4B09-AFD6-CB64347549DE"
+  },
+  {
+   "nume": "ȘTEFĂNESCU Daniela",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "BD44B5A4-E8AB-43C1-8B0E-DC539F57F668",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=BD44B5A4-E8AB-43C1-8B0E-DC539F57F668"
+  },
+  {
+   "nume": "VÂNTU Cristian",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "27B719E9-FA14-4F74-A01C-EB955CE9F0EC",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=27B719E9-FA14-4F74-A01C-EB955CE9F0EC"
+  },
+  {
+   "nume": "VASILE Marian",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "0460DBEB-6CAA-41F0-AEAD-EA380A592FDE",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0460DBEB-6CAA-41F0-AEAD-EA380A592FDE"
+  },
+  {
+   "nume": "VLĂESCU Virgiliu-George",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "AEC2401E-7BFD-4C9F-9F67-F418BCDC5BE5",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=AEC2401E-7BFD-4C9F-9F67-F418BCDC5BE5"
+  },
+  {
+   "nume": "GHEORGHE Daniel-Paul-Romeo",
+   "partid": "AUR",
+   "camera": "Senat",
+   "id": "D2F51E91-D18A-431C-BC9D-6061101CE1D4",
+   "fisa": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=D2F51E91-D18A-431C-BC9D-6061101CE1D4"
+  }
+ ]
+}
