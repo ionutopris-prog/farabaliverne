@@ -1,0 +1,52 @@
+{
+  "slug": "trump-pac-maga-inc-30-milioane-congres-2026",
+  "title": "Trump aprobă o primă tranșă de circa 30 de milioane de dolari din PAC-ul său pentru republicanii vulnerabili din Congres",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "CNN",
+  "url": "https://www.yahoo.com/news/politics/articles/republicans-worry-chances-keeping-congress-100029610.html",
+  "dek": "Președintele Donald Trump a aprobat direcționarea a zeci de milioane de dolari din super PAC-ul său personal, MAGA Inc., către candidați republicani vulnerabili înaintea alegerilor parțiale din noiembrie 2026 — o primă tranșă estimată la circa 30 de milioane de dolari. Mișcarea vine în contextul temerilor tot mai mari din tabăra republicană că partidul ar putea pierde controlul Congresului, pe fondul războiului din Iran și al prețurilor mari la benzină.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Donald Trump a aprobat direcționarea a milioane de dolari din PAC-ul său personal către republicanii vulnerabili înaintea alegerilor din noiembrie 2026, potrivit CNN, care citează surse din interiorul echipei de campanie. Suma primei tranșe, nefinalizată încă, a fost estimată de o sursă la circa 30 de milioane de dolari, urmând să fie distribuită „în săptămânile următoare”.",
+      "sources": [
+        {"name": "CNN via Yahoo News — Republicans worry their chances of keeping Congress are slipping away", "url": "https://www.yahoo.com/news/politics/articles/republicans-worry-chances-keeping-congress-100029610.html"},
+        {"name": "CNN via KVIA — Inside the Trump campaign plan to change that", "url": "https://kvia.com/politics/cnn-us-politics/2026/08/15/republicans-worry-their-chances-of-keeping-congress-are-slipping-away-inside-the-trump-campaign-plan/"}
+      ]
+    },
+    {
+      "text": "Un consilier de campanie citat de CNN a rezumat starea de spirit din tabăra republicană: „There is a path where we keep the House and the Senate. I'm not in a place today where I'm prepared to say we're cautiously optimistic about that” („Există o cale prin care păstrăm și Camera, și Senatul. Nu sunt încă în postura de a spune că suntem prudent optimiști”). Sursele citează drept motive ale îngrijorării impactul războiului din Iran și prețurile mari la benzină, care ar putea reduce prezența la vot a alegătorilor republicani.",
+      "sources": [
+        {"name": "CNN via Yahoo News — Republicans worry their chances of keeping Congress are slipping away", "url": "https://www.yahoo.com/news/politics/articles/republicans-worry-chances-keeping-congress-100029610.html"}
+      ]
+    },
+    {
+      "text": "Potrivit filării la Comisia Electorală Federală (FEC), super PAC-ul MAGA Inc. a strâns peste 400 de milioane de dolari, dar cheltuise, până la sfârșitul lunii iulie 2026, doar circa 0,6% din această sumă (aproximativ 2,3 milioane de dolari) pentru candidați republicani — Trump fiind cunoscut istoric ca reticent să folosească banii PAC-ului propriu pentru a susține alți republicani.",
+      "sources": [
+        {"name": "Washington Examiner — Trump touts large war chest for midterm elections", "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4679239/trump-midterm-election-war-chest-800-million/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Suma reală a PAC-ului diferă de cea invocată public de Trump: într-un interviu pentru Punchbowl News, președintele a declarat că MAGA Inc. are „800 de milioane de dolari de cheltuit”, însă filările oficiale la FEC arată o sumă strânsă de puțin peste 400 de milioane de dolari — mai puțin de jumătate din cifra vehiculată de el. Diferența rămâne neclarificată public.",
+      "sources": [
+        {"name": "Washington Examiner — Trump touts large war chest for midterm elections", "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4679239/trump-midterm-election-war-chest-800-million/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă mișcarea vine „prea târziu” pentru a schimba cursul alegerilor, așa cum sugerează unele surse citate de CNN, sau dacă este un calcul tactic bine pus la punct, rămâne o evaluare politică, nu un fapt verificabil — depinde de rezultatul din noiembrie 2026, necunoscut la data acestei verificări."
+    }
+  ],
+  "math": {
+    "title": "PAC-ul lui Trump a cheltuit până acum sub 1% din bani pentru republicani",
+    "explanation": "Din peste 400 de milioane de dolari strânși de MAGA Inc., doar circa 2,3 milioane (0,6%) fuseseră direcționați către candidați republicani până la finalul lui iulie 2026. Chiar și cu prima tranșă anunțată acum (~30 milioane de dolari), procentul cheltuit ar urca la aproximativ 8% din totalul strâns — o fracțiune mică față de cei 400+ milioane disponibili, ceea ce explică de ce unii consilieri republicani se tem că ajutorul vine târziu și insuficient față de nevoile din teren."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană (CNN, preluată de Yahoo News și afiliați locali CNN, plus Washington Examiner pe cifrele FEC); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Faptele centrale (aprobarea unei prime tranșe de fonduri, îngrijorarea republicanilor privind Congresul) sunt confirmate de mai multe filiale CNN care preiau același material. Contradicția dintre suma declarată public de Trump (800 milioane) și cea din filările FEC (peste 400 milioane) este semnalată explicit — cititorul poate verifica singur filările FEC ale MAGA Inc.",
+  "persoane": [
+    "Donald Trump"
+  ]
+}
