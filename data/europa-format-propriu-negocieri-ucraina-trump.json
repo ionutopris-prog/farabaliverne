@@ -1,0 +1,62 @@
+{
+  "slug": "europa-format-propriu-negocieri-ucraina-trump",
+  "title": "Franța, Germania și Marea Britanie își pregătesc un format propriu de negocieri pe Ucraina, de teamă să nu fie ocolite de Trump",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "The New York Times (via UNN)",
+  "url": "https://unn.ua/en/news/europe-is-working-on-its-own-format-for-peace-talks-on-ukraine-amid-concerns-over-trump-nyt",
+  "dek": "The New York Times relatează, citând trei oficiali europeni, că Franța, Germania și Marea Britanie coordonează un format propriu de negocieri pentru a avea loc la masa discuțiilor privind războiul din Ucraina — de teamă ca administrația Trump să nu încheie un acord cu Rusia peste capul Europei. Macron cere explicit un loc la masă; Merz spune că cele trei țări acționează „la cererea directă a Ucrainei”.",
+  "mainVerdict": "Probat, cu o rezervă privind sursa unică",
+  "probat": [
+    {
+      "text": "The New York Times a relatat, citând trei oficiali europeni, că Franța, Germania și Regatul Unit coordonează eforturi pentru a asigura participarea Europei la viitoarele negocieri privind războiul din Ucraina, de teamă că vor fi excluse de administrația Trump. Franța și Germania conduc dezvoltarea unei poziții comune europene; Regatul Unit este mai reținut, fiind precaut în privința relației sale cu Washingtonul.",
+      "sources": [
+        {
+          "name": "UNN — Europe is working on its own format for peace talks on Ukraine amid concerns over Trump (citând NYT)",
+          "url": "https://unn.ua/en/news/europe-is-working-on-its-own-format-for-peace-talks-on-ukraine-amid-concerns-over-trump-nyt"
+        }
+      ]
+    },
+    {
+      "text": "Președintele francez Emmanuel Macron a declarat că, atunci când vor avea loc negocieri, „europenii vor trebui să fie la masa negocierilor”. Cancelarul german Friedrich Merz a confirmat că cele trei țări acționează „la cererea directă a Ucrainei” și a spus că există „o logică internă” ca Regatul Unit, Germania și Franța să coopereze strâns, în calitate de „mari puteri europene” care contribuie substanțial la sprijinul militar pentru Ucraina.",
+      "sources": [
+        {
+          "name": "UNN — citate Macron și Merz, preluate din NYT",
+          "url": "https://unn.ua/en/news/europe-is-working-on-its-own-format-for-peace-talks-on-ukraine-amid-concerns-over-trump-nyt"
+        }
+      ]
+    },
+    {
+      "text": "Potrivit acelorași surse citate de NYT, oficialii europeni consideră că Polonia, Italia și țările nordice ar trebui consultate în procesul de elaborare a poziției comune, iar obiectivul central este ca niciun eventual acord privind Rusia și Ucraina să nu fie încheiat „peste capul” Europei.",
+      "sources": [
+        {
+          "name": "UNN — detalii despre consultarea Poloniei, Italiei și țărilor nordice",
+          "url": "https://unn.ua/en/news/europe-is-working-on-its-own-format-for-peace-talks-on-ukraine-amid-concerns-over-trump-nyt"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Informația circulă în această formă doar prin preluări ale unui articol NYT — nu am găsit, la momentul verificării, textul original de pe nytimes.com sau o a doua redacție occidentală independentă (Reuters, AP, Politico Europe) care să confirme direct citatele. UNN (agenție de presă ucraineană) este singura sursă verificată direct de noi; rețeaua „Pravda” (site-uri asociate dezinformării pro-Kremlin, ex. news-pravda.com) a preluat masiv aceeași știre în aceeași zi — am evitat să cităm rețeaua Pravda ca sursă și am păstrat doar UNN. Cititorul e încurajat să caute articolul NYT direct pentru confirmare suplimentară.",
+      "sources": [
+        {
+          "name": "UNN — singura sursă verificată direct pentru acest articol",
+          "url": "https://unn.ua/en/news/europe-is-working-on-its-own-format-for-peace-talks-on-ukraine-amid-concerns-over-trump-nyt"
+        }
+      ]
+    },
+    {
+      "text": "Nu e clar din relatare dacă „formatul propriu” înseamnă o structură nouă și formală de negociere sau doar o coordonare informală întărită între cele trei capitale — termenul „format” nu e definit precis în preluarea disponibilă. Rămâne de văzut, în zilele următoare, dacă apar detalii oficiale de la Paris, Berlin sau Londra.",
+      "sources": [
+        {
+          "name": "UNN — relatare fără detalii instituționale precise despre „format”",
+          "url": "https://unn.ua/en/news/europe-is-working-on-its-own-format-for-peace-talks-on-ukraine-amid-concerns-over-trump-nyt"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală (New York Times) e menționată mai sus — o poți citi oricând, inclusiv cu Google Translate. Nucleul faptic — Franța, Germania și Marea Britanie coordonează un format propriu, temându-se de o excludere de către administrația Trump — vine dintr-o singură relatare disponibilă public (UNN, agenție ucraineană), care citează la rândul ei NYT; nu am reușit să găsim articolul NYT original sau o a doua redacție occidentală independentă care să confirme separat citatele lui Macron și Merz, deși ambele apar constant în mai multe preluări ale aceleiași știri NYT. Am marcat explicit această rezervă de sursă unică la „Contestat”, în loc să prezentăm informația ca fiind confirmată din mai multe direcții independente.",
+  "persoane": ["Emmanuel Macron", "Friedrich Merz"]
+}
