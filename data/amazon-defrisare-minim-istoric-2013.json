@@ -1,0 +1,51 @@
+{
+  "slug": "amazon-defrisare-minim-istoric-2013",
+  "title": "Defrișarea Amazonului brazilian a scăzut cu 36% și a ajuns la cel mai mic nivel din 2013",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Mongabay / INPE (institutul spațial brazilian)",
+  "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/",
+  "dek": "Sistemul de monitorizare DETER al institutului spațial brazilian INPE a înregistrat 2.874 km² de alerte de defrișare în Amazon între august 2025 și iulie 2026 — cu 36% mai puțin față de anul anterior și cel mai scăzut nivel din 2013 încoace. Guvernul Lula leagă scăderea de aplicarea mai strictă a legii; organizațiile de mediu avertizează că defrișarea „la ras” e doar o parte din pagubele reale ale pădurii.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Sistemul DETER al INPE (Institutul Național de Cercetări Spațiale al Braziliei) a înregistrat 2.874 km² de alerte de defrișare în Amazonul brazilian în perioada august 2025 – iulie 2026, cu 36% mai puțin decât în perioada anterioară și cu 55,6% sub media ultimului deceniu. Este cel mai scăzut nivel de alerte din 2013 (când s-au înregistrat 2.766 km²).",
+      "sources": [
+        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+      ]
+    },
+    {
+      "text": "Scăderea a coincis cu intensificarea aplicării legii de mediu sub administrația președintelui Luiz Inácio Lula da Silva — inclusiv operațiuni suplimentare de control, monitorizare consolidată și reactivarea protecției teritoriilor indigene. Brazilia s-a angajat public să elimine defrișarea ilegală până în 2030.",
+      "sources": [
+        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+      ]
+    },
+    {
+      "text": "Dacă tendința e confirmată și de sistemul PRODES (cu rezoluție mai mare, folosit pentru statisticile oficiale anuale), Brazilia ar putea înregistra cea mai scăzută rată oficială de defrișare a Amazonului de la începutul monitorizării, în 1988.",
+      "sources": [
+        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra scăderii apare cu ușoare variații de rotunjire în presă — unele surse indică 36%, altele 37% — probabil din calcule ușor diferite pe același set de date DETER; diferența e de un punct procentual, nu o discrepanță de fond.",
+      "sources": [
+        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+      ]
+    },
+    {
+      "text": "Organizațiile de mediu citate atrag atenția că „defrișarea la ras” (clear-cutting), singura măsurată direct de aceste alerte, este doar o formă a pagubelor asupra pădurii — tăierile selective de lemn, seceta, degradarea pădurii și incendiile pot produce pierderi ecologice semnificative fără să apară imediat în statisticile de defrișare. Seceta din 2023-2024 este dată ca exemplu al acestui efect.",
+      "sources": [
+        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Interpretarea scăderii drept un succes politic al guvernului Lula este o poziție susținută de administrația braziliană; măsura în care alte cauze (variații climatice, prețul mărfurilor agricole) au contribuit rămâne o discuție deschisă, nu un fapt tranșat de raportul INPE în sine."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifra centrală (2.874 km², -36%, minim din 2013) vine direct din datele oficiale DETER/INPE, citate concordant. Rezerva principală: alertele DETER măsoară doar defrișarea la ras, nu toate formele de degradare a pădurii — un aspect semnalat chiar de organizațiile de mediu citate în relatare.",
+  "persoane": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "croatia-omis-incendiu-turisti-evacuati",
+  "title": "Incendiu „dintre cele mai grave din istoria Croației” lângă Omiš: aproape 2.000 de evacuați, 40 de răniți, un corp găsit",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Xinhua / Euronews / Croatia Week",
+  "url": "https://english.news.cn/20260815/ee1058918d794198ad168103325d505a/c.html",
+  "dek": "Un incendiu de vegetație izbucnit joi seară, 13 august 2026, lângă Lokva Rogoznica, a ajuns până în orașul turistic Omiš, de pe coasta croată. Autoritățile au evacuat aproximativ 1.000–2.000 de persoane (cifrele diferă între surse), 40 au fost tratate la spital, iar vineri poliția a găsit corpul unei femei într-o zonă arsă — fără să confirme încă legătura cu incendiul.",
+  "mainVerdict": "Probat — cu cifre care variază între surse pe măsură ce situația evolua",
+  "probat": [
+    {
+      "text": "Incendiul a izbucnit joi, 13 august 2026, în jurul orei 20:15–20:20, lângă localitatea Lokva Rogoznica, la sud-est de Omiš, și s-a extins rapid peste noapte spre oraș, favorizat de vânt puternic și de un val de căldură cu temperaturi de până la 39,7°C la Split.",
+      "sources": [
+        { "name": "Euronews — At least 10 in intensive care as wildfire hits Croatia", "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia" },
+        { "name": "Croatia Week — Omiš wildfire: Split opens shelter as nearly 1.000 evacuated", "url": "https://www.croatiaweek.com/omis-wildfire-nearly-1000-evacuated-fire-croatia/" }
+      ]
+    },
+    {
+      "text": "Vineri, 14 august 2026, poliția croată a anunțat că numărul răniților a crescut la 40, dintre care câțiva cu răni grave (potrivit Euronews, cel puțin 10 aflați în stare gravă/terapie intensivă). Șeful pompierilor, Slavko Tucaković, a numit incendiul „unul dintre cele mai grave din istoria Croației”.",
+      "sources": [
+        { "name": "Xinhua — Body found after massive wildfire injures 40 in Croatia", "url": "https://english.news.cn/20260815/ee1058918d794198ad168103325d505a/c.html" },
+        { "name": "Euronews — At least 10 in intensive care as wildfire hits Croatia", "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia" }
+      ]
+    },
+    {
+      "text": "Vineri, poliția a găsit corpul unei femei într-o zonă de vegetație arsă din Lokva Rogoznica, la circa 30 km sud de Split. Identitatea și cauza morții nu erau stabilite la ora verificării; poliția nu a confirmat dacă persoana are legătură cu incendiul. Separat, un bărbat de 34 de ani, cetățean bosniac, fusese declarat dispărut, fără ca poliția să precizeze o legătură cu corpul găsit.",
+      "sources": [
+        { "name": "Xinhua — Body found after massive wildfire injures 40 in Croatia", "url": "https://english.news.cn/20260815/ee1058918d794198ad168103325d505a/c.html" }
+      ]
+    },
+    {
+      "text": "Autoritățile au deschis centre de primire pentru evacuați — la Complexul Sportiv Gripe din Split (peste 300 de persoane găzduite, multe cetățeni străini din Cehia, Slovacia și Polonia) și la sala de sport Ribnjak din Omiš, cu paturi, mâncare și apă. Aproximativ 157–300 de pompieri (cifrele diferă între surse, în funcție de momentul raportării) și patru avioane Canadair au fost mobilizați, iar suprafața arsă este estimată la 900–1.000 de hectare.",
+      "sources": [
+        { "name": "Croatia Week — Omiš wildfire: Split opens shelter as nearly 1.000 evacuated", "url": "https://www.croatiaweek.com/omis-wildfire-nearly-1000-evacuated-fire-croatia/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul persoanelor evacuate diferă considerabil între surse, probabil pentru că situația era în desfășurare: Croatia Week a raportat inițial „aproape 1.000”, o știre Reuters preluată de Internazionale a vorbit despre cel puțin 19 răniți într-o fază mai timpurie, iar Euronews a ajuns ulterior la o cifră de aproximativ 2.000 de evacuați și 40 de răniți. Cifrele nu se contrazic neapărat — par relatări succesive ale unei situații care s-a agravat peste noapte — dar cititorul ar trebui să știe că numărul „final” de la ora verificării poate încă evolua.",
+      "sources": [
+        { "name": "Internazionale (preluare Reuters) — Wildfire descends on Croatian tourist town, injures at least 19", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/14/wildfire-descends-on-croatian-tourist-town-injures-at-least-19" },
+        { "name": "Euronews — At least 10 in intensive care as wildfire hits Croatia", "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia" }
+      ]
+    },
+    {
+      "text": "La ora verificării, nu exista confirmare oficială că incendiul a provocat un deces. Corpul găsit vineri este menționat de Xinhua drept posibil legat de incendiu, dar poliția croată nu stabilise cauza morții și nu confirmase legătura — deci afirmația „incendiul a ucis o persoană” nu se poate încă susține ca fapt stabilit.",
+      "sources": [
+        { "name": "Xinhua — Body found after massive wildfire injures 40 in Croatia", "url": "https://english.news.cn/20260815/ee1058918d794198ad168103325d505a/c.html" }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce se probează clar: incendiul a izbucnit joi seară lângă Omiš, s-a extins rapid, iar zeci de oameni au fost răniți și mii evacuați sau puși în alertă. Ce rămâne neclar la ora verificării: cifrele exacte (evacuați, răniți) variază între relatări succesive ale acelorași agenții, iar legătura dintre corpul găsit vineri și incendiu nu era confirmată oficial de poliție.",
+  "persoane": []
+}
