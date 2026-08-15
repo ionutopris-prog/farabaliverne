@@ -1,0 +1,56 @@
+{
+  "slug": "india-chamoli-tunel-inundatie-14-august",
+  "title": "Prăbușire de tunel la un proiect hidroelectric din Uttarakhand (India): morți și dispăruți, bilanț încă fluid",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Al Jazeera / The Week",
+  "url": "https://www.aljazeera.com/news/2026/8/14/seven-killed-in-tunnel-accident-at-indian-hydropower-project",
+  "dek": "Joi seară, 13 august 2026, apă și moloz au inundat brusc un tunel în construcție al proiectului hidroelectric Vishnugad-Pipalkoti, în districtul Chamoli (Uttarakhand, India), după o alunecare de teren provocată de ploi musonice. Bilanțul diferă ușor între surse și în timp — 6 sau 7 morți, 13 sau 14 răniți, 1-3 dispăruți — pe măsură ce operațiunea de salvare a evoluat. E al doilea accident major la un tunel hidroelectric din Himalaya în mai puțin de o lună, după dezastrul din Sikkim (25 de morți, iulie 2026).",
+  "mainVerdict": "Probat — bilanțul exact rămâne fluid",
+  "probat": [
+    {
+      "text": "Joi, 13 august 2026, în jurul orei 18:30-18:45, o cantitate mare de apă și moloz a năvălit brusc într-un tunel aflat în construcție la proiectul hidroelectric Vishnugad-Pipalkoti, lângă Mayapur, în apropiere de Pipalkoti, districtul Chamoli (Uttarakhand). Cauza indicată este o alunecare de teren declanșată de ploile musonice abundente. Proiectul este dezvoltat de compania de stat Tehri Hydro Development Corporation (THDC) și construit de Hindustan Construction Company (HCC).",
+      "sources": [
+        { "name": "Al Jazeera — Seven killed in tunnel accident at Indian hydropower project", "url": "https://www.aljazeera.com/news/2026/8/14/seven-killed-in-tunnel-accident-at-indian-hydropower-project" },
+        { "name": "The Week — Uttarakhand tunnel collapse: 7 killed; search on for missing workers", "url": "https://www.theweek.in/news/india/2026/08/14/uttarakhand-tunnel-collapse-7-killed-search-on-for-missing-workers.html" }
+      ]
+    },
+    {
+      "text": "Potrivit celor mai recente relatări, bilanțul este de 7 morți confirmați și 14 răniți, cu un muncitor încă dispărut (21 din cei 22 prinși în tunel fuseseră identificați). În total, 28 de oameni se aflau la lucru în schimbul respectiv. Operațiunea de salvare, la care au participat SDRF, NDRF, CISF, ITBP și echipe ale Armatei, a continuat peste noapte; premierul statului Uttarakhand, Pushkar Singh Dhami, a cerut o intervenție „ca pe front de luptă” pentru evacuarea tuturor muncitorilor.",
+      "sources": [
+        { "name": "The Week — bilanț și detalii operațiune de salvare", "url": "https://www.theweek.in/news/india/2026/08/14/uttarakhand-tunnel-collapse-7-killed-search-on-for-missing-workers.html" },
+        { "name": "Al Jazeera — declarația premierului statului Uttarakhand", "url": "https://www.aljazeera.com/news/2026/8/14/seven-killed-in-tunnel-accident-at-indian-hydropower-project" }
+      ]
+    },
+    {
+      "text": "E al doilea accident major la un tunel hidroelectric din Himalaya în mai puțin de o lună. Pe 20 iulie 2026, o explozie suspectată de gaz metan a umplut cu fum și gaze toxice tunelul ADIT-3 de la Samardung (districtul Namchi), parte a proiectului hidroelectric NHPC Teesta Stage VI (500 MW) din Sikkim, prinzând 25 de muncitori; toți cei 25 au murit, ultimul trup fiind recuperat pe 23 iulie 2026.",
+      "sources": [
+        { "name": "SANDRP — July 2026: 25 Workers Killed in NHPC Teesta-VI HEP Tunnel Disaster in Sikkim", "url": "https://sandrp.in/2026/07/24/july-2026-25-workers-killed-in-nhpc-teesta-vi-hep-tunnel-disaster-in-sikkim/" },
+        { "name": "Down To Earth — Sikkim Teesta Hydropower Tunnel Accident", "url": "https://www.downtoearth.org.in/governance/tunnel-accident-at-under-construction-project-on-the-teesta-in-sikkim-kills-12-13-still-trapped" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Bilanțul exact al morților, răniților și dispăruților a variat între surse și în timp, pe măsură ce operațiunea de salvare evolua: o relatare mai timpurie (The Statesman) indica 6 morți, 14 răniți și 2 dispăruți, în timp ce relatările ulterioare (Al Jazeera, The Week) indică 7 morți, 13-14 răniți și 1 dispărut. Diferențele par să reflecte momente diferite ale operațiunii, nu contradicții factuale — dar nu exista, la ora verificării, o cifră finală oficială confirmată.",
+      "sources": [
+        { "name": "The Statesman — Chamoli tunnel accident: 6 workers killed, 14 injured", "url": "https://www.thestatesman.com/cities/chamoli-tunnel-accident-6-workers-killed-14-injured-after-sudden-debris-and-water-surge-2-still-trapped-1503627311.html/amp" },
+        { "name": "The Week — 7 killed, 14 injured, 1 dispărut", "url": "https://www.theweek.in/news/india/2026/08/14/uttarakhand-tunnel-collapse-7-killed-search-on-for-missing-workers.html" }
+      ]
+    },
+    {
+      "text": "Presa și organizații precum SANDRP pun cele două tragedii (Sikkim și Chamoli) alături, ca parte a unui tipar de nesiguranță la proiectele hidroelectrice din Himalaya. Nicio anchetă oficială făcută publică nu a stabilit însă o cauză comună sau răspunderi similare — cauzele tehnice imediate diferă (surpare de apă și moloz la Chamoli, în timp ce la Sikkim a fost o explozie suspectată de gaz metan).",
+      "sources": [
+        { "name": "SANDRP — analiza celor două accidente", "url": "https://sandrp.in/2026/07/24/july-2026-25-workers-killed-in-nhpc-teesta-vi-hep-tunnel-disaster-in-sikkim/" },
+        { "name": "The Week — referire la accidentul din Sikkim „cu mai puțin de o lună înainte”", "url": "https://www.theweek.in/news/india/2026/08/14/uttarakhand-tunnel-collapse-7-killed-search-on-for-missing-workers.html" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Ideea unui „tipar” de nesiguranță în sectorul hidroelectric din Himalaya este susținută de organizații de monitorizare precum SANDRP (South Asia Network on Dams, Rivers and People), critice față de ritmul construcțiilor în zone cu geologie fragilă și ploi musonice intense — este o interpretare, nu o concluzie a unei anchete oficiale indiene, care nu s-a încheiat încă."
+    }
+  ],
+  "aiNote": "Dovezile din mai multe redacții (Al Jazeera, The Week, The Statesman) confirmă accidentul de la tunelul proiectului Vishnugad-Pipalkoti, dar bilanțul exact al victimelor rămâne fluid — l-am marcat explicit ca atare, în loc să alegem o singură cifră. Am adăugat contextul accidentului similar din Sikkim (iulie 2026) pentru că e citat de presa indiană drept al doilea eveniment de acest tip într-o lună, dar am separat clar faptul (cele două accidente au avut loc) de interpretarea că ar exista un „tipar” sistemic — asta rămâne opinia unor organizații de monitorizare, nu o concluzie oficială.",
+  "persoane": []
+}
