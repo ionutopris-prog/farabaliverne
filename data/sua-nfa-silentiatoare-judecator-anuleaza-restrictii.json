@@ -1,0 +1,52 @@
+{
+  "slug": "sua-nfa-silentiatoare-judecator-anuleaza-restrictii",
+  "title": "Un judecător federal din Texas a anulat restricțiile vechi de 92 de ani privind silențiatoarele și armele cu țeavă scurtă — Departamentul de Justiție nu a făcut recurs",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Fox News / CBS News / Texas Tribune",
+  "url": "https://www.foxnews.com/politics/gun-rights-groups-capitalize-after-judge-reverses-decades-old-restrictions",
+  "dek": "Judecătorul federal James Wesley Hendrix, din Lubbock, Texas, a decis pe 5 august 2026 că cerințele de înregistrare din National Firearms Act (1934) pentru silențiatoare și arme cu țeavă scurtă și-au pierdut baza constituțională, după ce taxa de 200 de dolari asociată a fost redusă la zero printr-o lege din 2025. Decizia a intrat în vigoare la miezul nopții pe 13 august, după ce Departamentul de Justiție nu a cerut suspendarea ei. Grupurile pro-arme vorbesc despre o „victorie istorică”; grupurile pentru control al armelor avertizează asupra riscurilor de siguranță publică.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Judecătorul federal James Wesley Hendrix (numit de Donald Trump), din Lubbock, Texas, a decis pe 5 august 2026 că reglementările din National Firearms Act (1934) privind înregistrarea și aprobarea federală a silențiatoarelor, a puștilor și pistoalelor-mitralieră cu țeavă scurtă și a altor arme similare sunt neconstituționale. Argumentul: aceste reguli fuseseră construite pentru a susține colectarea unei taxe federale de transfer/fabricare; după ce „One Big Beautiful Bill Act”, semnată de Trump, a redus acea taxă la 0 dolari (cu efect din 1 ianuarie 2026), reglementările și-ar fi pierdut temeiul constituțional. Judecătorul a scris: „Prevederile contestate din NFA sunt neconstituționale.”",
+      "sources": [
+        {"name": "Fox News — Judge's 'historic' ruling topples decades-old gun restrictions: 'Unconstitutional'", "url": "https://www.foxnews.com/politics/gun-rights-groups-capitalize-after-judge-reverses-decades-old-restrictions"},
+        {"name": "CBS News — Justice Dept. leaves in place ruling that deregulates silencers, shotguns and certain rifles", "url": "https://www.cbsnews.com/news/justice-dept-silencer-shotgun-texas-ruling/"}
+      ]
+    },
+    {
+      "text": "Procesul a fost inițiat de Gun Owners of America și Silencer Shop Foundation, cărora li s-au alăturat 15 state, care au contestat în instanță obligativitatea înregistrării/aprobării federale pentru arme pe care Congresul eliminase taxa asociată.",
+      "sources": [
+        {"name": "KERA News — Longstanding limits on certain firearms, silencers lifted in Texas after judge's order takes effect", "url": "https://www.keranews.org/news/2026-08-14/longstanding-limits-on-certain-firearms-silencers-lifted-in-texas-after-judges-order-takes-effect"}
+      ]
+    },
+    {
+      "text": "Departamentul de Justiție nu a cerut suspendarea de urgență a deciziei până la termenul-limită, iar decizia judecătorului a intrat astfel în vigoare la miezul nopții, pe 13 august 2026. Într-o declarație, Departamentul a spus că „respectă drepturile americanilor la al Doilea Amendament” și că „evaluează în prezent impactul deciziei instanței” — fără să excludă explicit un recurs ulterior.",
+      "sources": [
+        {"name": "CBS News — Justice Dept. leaves in place ruling that deregulates silencers, shotguns and certain rifles", "url": "https://www.cbsnews.com/news/justice-dept-silencer-shotgun-texas-ruling/"},
+        {"name": "Texas Tribune — Limits on certain firearms, silencers lifted for some in Texas after judge's order takes effect", "url": "https://www.texastribune.org/2026/08/13/texas-national-firearms-act-ruling-doj-no-emergency-appeal/"}
+      ]
+    },
+    {
+      "text": "Imediat după miezul nopții de 13 august 2026, la un magazin de arme din Texas, doi cumpărători au ieșit cu silențiatoare fără să mai treacă prin procesul federal de înregistrare și aprobare NFA — descris de surse drept primul transfer de acest fel fără procedura respectivă în 92 de ani.",
+      "sources": [
+        {"name": "Fox News — Judge's 'historic' ruling topples decades-old gun restrictions", "url": "https://www.foxnews.com/politics/gun-rights-groups-capitalize-after-judge-reverses-decades-old-restrictions"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Reacțiile sunt puternic polarizate și țin de o dispută de fond asupra siguranței publice, nu de un fapt verificabil cu un singur răspuns. Reprezentantul Andrew Clyde a numit decizia „cea mai mare victorie din istoria țării” pentru al Doilea Amendament, iar Gun Owners of America a calificat-o „istorică”. În replică, organizația Brady a declarat: „Astăzi, guvernul nostru ne dezamăgește”, iar Giffords a avertizat că armele deregulate — silențiatoare, puști și pistoale-mitralieră cu țeavă scurtă — „sunt rar folosite azi în infracțiuni, dar acum... pot ajunge ușor în mâini greșite”, îngreunând totodată detectarea focurilor de armă de către poliție și martori.",
+      "sources": [
+        {"name": "CBS News — Justice Dept. leaves in place ruling that deregulates silencers, shotguns and certain rifles", "url": "https://www.cbsnews.com/news/justice-dept-silencer-shotgun-texas-ruling/"},
+        {"name": "Fox News — Judge's 'historic' ruling topples decades-old gun restrictions", "url": "https://www.foxnews.com/politics/gun-rights-groups-capitalize-after-judge-reverses-decades-old-restrictions"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Etichetele „cea mai mare victorie din istorie” și „guvernul ne dezamăgește” sunt poziții politice ale taberelor pro și contra reglementării armelor, nu evaluări obiective ale impactului asupra siguranței publice — un impact care, la data verificării, nu avea încă date empirice care să-l cuantifice, decizia fiind în vigoare de doar câteva zile."
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană (Fox News, CBS News, Texas Tribune, KERA News); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": []
+}
