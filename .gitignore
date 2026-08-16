@@ -22,3 +22,11 @@ farabaliverne-deploy.zip
 # intamplat pe 16 august. Se regenereaza oricand cu CLOSCU_ENABLED=1.
 clocsu.html
 closcu.html
+
+# Propunerile redactorului local sunt ciorne, nu continut publicabil.
+local/propuneri/
+# Corpusul se regenereaza din data/ cu scripts/corpus_local.py — nu-l versionam
+# (2 MB duplicat din articole, se reface intr-o secunda).
+local/corpus.jsonl
+local/stil.md
+.venv/

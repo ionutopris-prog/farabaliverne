@@ -183,12 +183,20 @@
         {
           "afirmatie": "„Chinezii au cumpărat porturile din Bolivia.”",
           "unde": "30 ianuarie 2025, podcastul lui Ion Cristoiu",
-          "dovezi": "Bolivia nu are ieșire la mare. Și-a pierdut litoralul în Războiul Pacificului (1879–1884), iar situația a fost consfințită prin tratatul cu Chile din 1904. Singurele ambarcațiuni ale țării patrulează lacul Titicaca. Nu există porturi maritime boliviene pe care cineva să le fi cumpărat. Gazda emisiunii nu a corectat afirmația.",
+          "dovezi": "Bolivia nu are ieșire la mare, iar povestea e una dintre cele mai cunoscute din America de Sud. În 1879, Chile a ocupat portul Antofagasta pornind de la un diferend fiscal — așa a început Războiul Pacificului. În patru ani, Chile luase circa 130.000 km² de teritoriu bolivian, inclusiv toți cei aproximativ 400 de kilometri de coastă la Pacific. Pierderea a fost consfințită prin Tratatul de pace din 1904, al cărui articol II recunoaște teritoriul drept al Chile „absolut și pe veci”, Bolivia primind în schimb acces comercial la porturile chiliene. Bolivia n-a renunțat: a dat Chile în judecată la Curtea Internațională de Justiție, iar pe 1 octombrie 2018 Curtea a decis, cu 12 voturi la 3, că statul chilian NU are obligația legală de a negocia un acces suveran la ocean. Astăzi, singurele ambarcațiuni ale țării patrulează lacul Titicaca. Deci nu doar că nu există porturi maritime boliviene pe care chinezii să le cumpere — inexistența lor e subiectul unui proces internațional încheiat acum opt ani. Gazda emisiunii nu a corectat afirmația.",
           "unde_bat": "Contrazis",
           "surse": [
             {
               "name": "Aktual24 — afirmația despre porturile din Bolivia, la emisiunea lui Ion Cristoiu",
               "url": "https://www.aktual24.ro/sa-radem-cu-calin-georgescu-chinezii-au-cumparat-porturile-din-bolivia-a-afirmat-candidatul-pro-rus-la-emisiunea-lui-ion-cristoiu-in-realitate-bolivia-nu-are-iesire-la-mare/"
+            },
+            {
+              "name": "CIJ — hotărârea din 1 octombrie 2018, Bolivia c. Chile",
+              "url": "https://www.worldcourts.com/icj/eng/decisions/2018.10.01_Bolivia_v_Chile.pdf"
+            },
+            {
+              "name": "Al Jazeera — Curtea: Chile nu e obligată să negocieze accesul la mare",
+              "url": "https://www.aljazeera.com/news/2018/10/1/chile-not-obliged-to-negotiate-sea-access-with-bolivia-icj"
             }
           ]
         },
@@ -225,6 +233,26 @@
             {
               "name": "Wikipedia — Energia eoliană în România (putere instalată și pondere)",
               "url": "https://ro.wikipedia.org/wiki/Energia_eolian%C4%83_%C3%AEn_Rom%C3%A2nia"
+            }
+          ]
+        },
+        {
+          "afirmatie": "„Avem aurul monoatomic. Avem toate metalele rare, posibile și imposibile” — și că acest aur „nici nu există pe tabloul lui Mendeleev”.",
+          "unde": "declarații publice, preluate de mai multe redacții",
+          "dovezi": "Sunt trei lucruri greșite într-o singură frază. Întâi, e un tabel periodic, nu un tablou — Mendeleev era chimist, nu pictor, cum a observat cercetătorul Claudiu Tănăselia de la Cluj. Al doilea, „aurul monoatomic” nu e un element și nu e o formă de aur recunoscută de chimie: e un concept ezoteric popularizat de David Hudson în anii 1970–80, legat de alchimie și de promisiuni de longevitate și „regenerare a ADN-ului”. Al treilea, și cel mai important: dacă s-a vrut spus „monoizotopic”, atunci afirmația se autodesființează. Aurul are un singur izotop stabil, aur-197 — adică TOT aurul din univers e monoizotopic. Nu e nimic special în pământul României; e chimie de manual.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "G4Media — reacția cercetătorului Claudiu Tănăselia la „aurul monoatomic”",
+              "url": "https://www.g4media.ro/reactia-unui-cercetator-la-aurul-monoatomic-al-lui-calin-georgescu-poate-e-ceva-specie-de-aur-folosita-de-daci-poate-a-vrut-sa-zica-aur-monoizotopic.html"
+            },
+            {
+              "name": "G4Media — afirmațiile despre aurul monoatomic și tabloul lui Mendeleev",
+              "url": "https://www.g4media.ro/calin-georgescu-noi-teorii-ale-conspiratiei-romania-are-aurul-monoatomic-nici-nu-exista-pe-tabloul-lui-mendeleev-sunt-doar-un-miliard-de-vaci-in-lume-nu-ai-cum-sa-gasesti-in-magazine-cantitatea.html"
+            },
+            {
+              "name": "Aktual24 — ce este „aurul monoatomic”, concept mistic fără bază științifică",
+              "url": "https://www.aktual24.ro/teoriile-lui-georgescu-ce-este-aurul-monoatomic-care-s-ar-afla-in-pamanturile-romaniei-concept-mistic-care-contravine-valorilor-crestine/"
             }
           ]
         }
