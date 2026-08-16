@@ -549,10 +549,13 @@ def build_sitemap(arts):
         lm = (d.get("date") or today)[:10]
         rows.append('<url><loc>%sa/%s.html</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>' % (B, slug, lm))
     # paginile-hub + credibilitate
-    for pg in ("politicieni.html","cauta.html","publicitate.html","metodologie.html",
+    # `closcu.html` apare doar dacă a fost generată (CLOSCU_ENABLED). Verificarea
+    # `os.path.exists` de mai jos o sare singură când secțiunea e stinsă, deci
+    # sitemap-ul nu trimite niciodată Google spre un 404.
+    for pg in ("politicieni.html","cauta.html","closcu.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
         if os.path.exists(os.path.join(ROOT, pg)):
-            pr = "0.6" if pg in ("politicieni.html","cauta.html") else "0.4"
+            pr = "0.6" if pg in ("politicieni.html","cauta.html","closcu.html") else "0.4"
             rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>%s</priority></url>' % (B, pg, today, pr))
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '

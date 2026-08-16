@@ -17,11 +17,9 @@ __pycache__/
 dist/
 farabaliverne-deploy.zip
 
-# Pagina Closcu e GENERATA si e in spatele CLOSCU_ENABLED. Nu se versioneaza:
-# altfel un "git add -A" o urca, iar primul deploy o publica — exact ce s-a
-# intamplat pe 16 august. Se regenereaza oricand cu CLOSCU_ENABLED=1.
-clocsu.html
-closcu.html
+# closcu.html E versionata, ca index.html si politicieni.html: e o pagina
+# generata pe care vrem sa o publicam. Comutatorul CLOSCU_ENABLED ramane, ca
+# generarea sa fie o decizie explicita, nu un efect secundar.
 
 # Propunerile redactorului local sunt ciorne, nu continut publicabil.
 local/propuneri/

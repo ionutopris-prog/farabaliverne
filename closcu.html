@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloșcu cu Puii de AUR — Fără Baliverne</title>
+<meta name="description" content="Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.">
+<style>
+
+  :root{
+    --ink:#22271f;
+    --ink-soft:#556050;
+    --ink-faint:#87907c;
+    --paper:#e7f0e4;
+    --paper-2:#f1f7ef;
+    --card:#ffffff;
+    --line:#d6e2d0;
+    --line-2:#bfd2b7;
+    --accent:#a5372a;
+    --accent-deep:#7c2620;
+    --accent-soft:#f6e6df;
+    --gold:#b3852e;
+    --ok:#1e8a50;
+    --ok-bg:#e5f5ea;
+    --ok-line:#bfe3cb;
+    --warn:#a8710b;
+    --warn-bg:#fbf0d6;
+    --warn-line:#edd7a0;
+    --bad:#c23b2e;
+    --bad-bg:#fbe7e3;
+    --bad-line:#f0c6bc;
+    --check:#2265a3;
+    --check-bg:#e6f0f9;
+    --check-line:#bcd9ee;
+    --serif:Georgia,'Times New Roman',Cambria,'Iowan Old Style',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --radius:16px;
+    --radius-sm:11px;
+    --shadow:0 1px 2px rgba(34,31,27,.04),0 10px 26px rgba(34,31,27,.06);
+    --shadow-hi:0 6px 14px rgba(34,31,27,.08),0 24px 50px rgba(34,31,27,.13);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 22px}
+  section[id]{scroll-margin-top:66px}
+
+  .topbar{background:var(--accent-deep);color:#fbe9e2;font-size:12.5px;letter-spacing:.02em}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:38px;gap:12px;flex-wrap:wrap;overflow:hidden}
+  .topbar .date{opacity:.92;font-variant:small-caps;letter-spacing:.08em}
+  .topbar .live{display:flex;align-items:center;gap:8px;opacity:.96}
+  .dot{width:8px;height:8px;border-radius:50%;background:#f0b429;box-shadow:0 0 0 0 rgba(240,180,41,.7);animation:pulse 2s infinite}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(240,180,41,.6)}
+    70%{box-shadow:0 0 0 7px rgba(240,180,41,0)}
+    100%{box-shadow:0 0 0 0 rgba(240,180,41,0)}
+  }
+
+  .masthead{background:linear-gradient(180deg,var(--paper-2),var(--paper));border-bottom:2px solid var(--ink)}
+  .masthead .wrap{padding-top:28px;padding-bottom:18px;text-align:center;position:relative}
+  .brand{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(38px,7vw,76px);line-height:.98;letter-spacing:-.01em;margin:0;color:var(--ink);
+  }
+  .brand a{display:inline-block}
+  .brand .amp{color:var(--accent)}
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;margin:13px 0 4px;
+    font-family:var(--serif);font-style:italic;font-size:clamp(15px,2.4vw,20px);color:var(--accent);
+  }
+  .kicker .r{height:1px;width:38px;background:var(--line-2)}
+  .subline{font-size:12.5px;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
+  .support{position:absolute;right:22px;top:28px}
+  .btn-support{
+    border:1.5px solid var(--accent);color:var(--accent);background:var(--paper-2);
+    font-family:var(--sans);font-size:13px;font-weight:700;padding:9px 18px;border-radius:999px;
+    cursor:pointer;transition:.18s ease;display:inline-flex;align-items:center;gap:7px;box-shadow:var(--shadow);
+  }
+  .btn-support:hover{background:var(--accent);color:#fff;transform:translateY(-1px);box-shadow:var(--shadow-hi)}
+
+  .nav{position:sticky;top:0;z-index:40;background:rgba(241,247,239,.9);backdrop-filter:saturate(1.3) blur(10px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;gap:6px;height:54px;overflow-x:auto}
+  .nav a{
+    font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
+    padding:8px 15px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+  }
+  .nav a:hover{color:var(--ink);background:var(--accent-soft)}
+  .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
+  .nav .sep{flex:1}
+  .nav .search{
+    font-size:13px;color:var(--ink-soft);border:1px solid var(--line-2);background:var(--card);
+    padding:8px 13px;border-radius:999px;white-space:nowrap;display:inline-flex;gap:7px;align-items:center;
+    transition:.16s ease;
+  }
+  .nav .search:hover{border-color:var(--accent);color:var(--accent)}
+
+  .legend{border-bottom:1px solid var(--line);background:var(--paper-2)}
+  .legend .wrap{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:12px 22px;font-size:12.5px;color:var(--ink-soft)}
+  .legend .lbl{font-weight:700;color:var(--ink);letter-spacing:.04em;text-transform:uppercase;font-size:11px}
+  .legend span.i{display:inline-flex;align-items:center;gap:7px}
+
+  .chip{
+    display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:800;letter-spacing:.03em;
+    text-transform:uppercase;padding:6px 12px;border-radius:999px;border:1.5px solid transparent;
+    line-height:1;white-space:nowrap;box-shadow:0 2px 6px rgba(34,31,27,.08);
+  }
+  .chip .ic{font-size:12px;line-height:1}
+  .chip.ok{color:#fff;background:var(--ok);border-color:#166b3e}
+  .chip.warn{color:#2b1a02;background:#f5b93e;border-color:#c98f16}
+  .chip.bad{color:#fff;background:var(--bad);border-color:#9c2e23}
+  .chip.check{color:#fff;background:var(--check);border-color:#194f7d}
+  .chip.sm{font-size:10.5px;padding:4px 10px;box-shadow:none}
+  .chip.soft.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok-line);box-shadow:none}
+  .chip.soft.warn{color:var(--warn);background:var(--warn-bg);border-color:var(--warn-line);box-shadow:none}
+  .chip.soft.bad{color:var(--bad);background:var(--bad-bg);border-color:var(--bad-line);box-shadow:none}
+  .chip.soft.check{color:var(--check);background:var(--check-bg);border-color:var(--check-line);box-shadow:none}
+
+  /* --- Badge de raport (probat / contestat / opinie) — inlocuieste verdictul-oracol --- */
+  .report-badge{
+    display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;color:var(--ink-soft);
+    background:var(--paper-2);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px;white-space:nowrap;
+  }
+  .report-badge .seg{display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+  .report-badge .seg.ok{color:var(--ok)}
+  .report-badge .seg.warn{color:var(--warn)}
+  .report-badge .seg.check{color:var(--check)}
+  .report-badge .seg.op{color:var(--ink-faint)}
+  .report-badge.lg{font-size:13.5px;padding:9px 16px;gap:13px;box-shadow:var(--shadow)}
+  .report-badge.sm{font-size:10.5px;padding:5px 10px;gap:8px}
+  .verdict-mini{font-size:10px}
+
+  main{padding:28px 0 40px}
+  .grid-main{display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start}
+
+  .hero{
+    display:block;border-radius:var(--radius);overflow:hidden;background:var(--card);
+    border:1px solid var(--line);box-shadow:var(--shadow);transition:.22s ease;margin-bottom:32px;
+  }
+  .hero:hover{box-shadow:var(--shadow-hi);transform:translateY(-3px)}
+  .hero .photo{aspect-ratio:16/9}
+  .hero .body{padding:24px 28px 28px}
+  .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:13px;flex-wrap:wrap}
+  .cat-tag{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+  .hero h1{
+    font-family:var(--serif);font-weight:700;font-size:clamp(27px,4.4vw,45px);line-height:1.08;
+    margin:0 0 13px;letter-spacing:-.01em;color:var(--ink);transition:.18s ease;
+  }
+  .hero:hover h1{color:var(--accent-deep)}
+  .hero .dek{font-size:17.5px;color:var(--ink-soft);margin:0 0 17px;max-width:62ch}
+  .meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--ink-soft)}
+  .src{
+    display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-2);background:var(--paper-2);
+    padding:6px 12px;border-radius:999px;font-weight:700;font-size:12.5px;color:var(--ink);transition:.15s ease;
+  }
+  .src:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .src .fav{width:14px;height:14px;border-radius:4px;display:inline-block;flex:0 0 auto}
+  .meta .ext{color:var(--ink-faint);font-size:12px}
+  .meta .ext::before{content:"↗ ";opacity:.7}
+
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:9px;margin:0 0 22px}
+  .section-head h2{font-family:var(--serif);font-size:21px;margin:0;letter-spacing:.01em}
+  .section-head .more{font-size:12.5px;color:var(--accent);font-weight:700}
+  .section-head .more:hover{text-decoration:underline}
+  .cat-section{margin-bottom:40px}
+
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
+  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+  /* Lista compactă: articolele mai vechi dintr-o categorie, fără imagine.
+     Rămân toate pe prima pagină și indexabile, dar nu mai cer poze — altfel
+     prima pagină creștea la nesfârșit, în octeți și în număr de imagini. */
+  .mini-list{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+  .mini-head{
+    font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-faint);font-weight:800;padding:10px 2px 8px;
+  }
+  .mini-row{
+    display:flex;gap:16px;align-items:baseline;justify-content:space-between;
+    padding:9px 2px;border-bottom:1px solid var(--line);
+    text-decoration:none;color:inherit;transition:padding-left .15s,color .15s;
+  }
+  .mini-row:last-child{border-bottom:none}
+  .mini-row:hover{padding-left:7px;color:var(--accent)}
+  .mini-title{font-size:15.5px;line-height:1.4;min-width:0}
+  .mini-meta{display:flex;gap:10px;align-items:center;flex:none;white-space:nowrap}
+  .mini-date{font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  @media(max-width:620px){
+    .mini-row{flex-direction:column;gap:6px;align-items:flex-start}
+    .mini-meta{gap:8px}
+  }
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
+  }
+  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-4px);border-color:var(--line-2)}
+  .card .photo{aspect-ratio:16/9}
+  .card:hover .photo .art{transform:scale(1.06)}
+  .card .cbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:11px;flex:1}
+  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .card h3{
+    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.22;margin:0;
+    letter-spacing:-.005em;color:var(--ink);transition:.15s ease;
+  }
+  .card:hover h3{color:var(--accent-deep)}
+  .card .dek{font-size:13.5px;color:var(--ink-soft);margin:0}
+  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-faint)}
+
+  .photo{position:relative;overflow:hidden;background:#e4ede1}
+  .photo .art{position:absolute;inset:0;transition:transform .5s ease}
+  .photo .glyph{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-size:clamp(40px,9vw,84px);opacity:.92;filter:drop-shadow(0 4px 10px rgba(0,0,0,.2));
+  }
+  .photo .srcbadge{
+    position:absolute;left:12px;bottom:12px;z-index:3;font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;
+    background:rgba(20,16,14,.55);backdrop-filter:blur(3px);padding:6px 11px;border-radius:999px;
+    display:inline-flex;align-items:center;gap:6px;transition:.15s ease;
+  }
+  .photo .srcbadge:hover{background:rgba(20,16,14,.78)}
+  .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
+  .photo .grad{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.42) 100%)}
+  .photo .cat-pill{
+    position:absolute;right:12px;top:12px;z-index:3;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+    color:#fff;background:rgba(20,16,14,.42);padding:5px 10px;border-radius:999px;backdrop-filter:blur(2px);
+  }
+  .photo .imgtag{
+    position:absolute;left:12px;top:12px;z-index:3;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:rgba(255,255,255,.88);background:rgba(20,16,14,.35);padding:4px 9px;border-radius:6px;
+  }
+  .pattern{position:absolute;inset:0;z-index:1;opacity:.5;mix-blend-mode:soft-light}
+
+  .g-pol{background:linear-gradient(135deg,#6a7ba0,#37426a)}
+  .g-eco{background:linear-gradient(135deg,#4a9179,#245a49)}
+  .g-ext{background:linear-gradient(135deg,#8c6a9c,#4a3563)}
+  .g-soc{background:linear-gradient(135deg,#c07f52,#7d4a2b)}
+  .g-san{background:linear-gradient(135deg,#5f9ab5,#2f5f79)}
+  .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
+  .g-sport{background:linear-gradient(135deg,#2f8f86,#12615f)}
+  .g-sci{background:linear-gradient(135deg,#5a7fb0,#243a6a)}
+  .g-state{background:linear-gradient(135deg,#8a5a3c,#4a2a1e)}
+
+  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .panel .ph{
+    padding:13px 17px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px;font-weight:700;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .panel .ph .tag{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
+
+  .rank{list-style:none;margin:0;padding:6px 0}
+  .rank li{display:flex;gap:12px;padding:12px 17px;border-bottom:1px solid var(--line);transition:.15s}
+  .rank li:last-child{border-bottom:0}
+  .rank li:hover{background:var(--paper-2)}
+  .rank a{display:flex;gap:12px}
+  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
+  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
+  .rank .rmeta{margin-top:6px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--ink-faint)}
+
+  .ad{border:1px dashed var(--line-2);border-radius:var(--radius);background:var(--paper-2);overflow:hidden}
+  .ad .adlabel{
+    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center;
+    padding:7px;border-bottom:1px dashed var(--line-2);background:rgba(34,31,27,.02);
+  }
+  .ad .adbox{padding:26px 18px;text-align:center}
+  .ad .adart{
+    width:56px;height:56px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(135deg,#d8b25a,#a5822f);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 8px 18px rgba(165,130,47,.3);
+  }
+  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
+  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
+  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:8px 17px;border-radius:999px;transition:.15s}
+  .ad:hover .adbtn{background:var(--gold);color:#fff}
+
+  .method{padding:17px}
+  .method p{margin:0 0 13px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
+  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:11px}
+  .method .row:last-child{margin-bottom:0}
+  .method .row .k{font-size:15px;line-height:1.3}
+
+  .support-panel{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fbe9e2;text-align:center;
+    padding:24px 20px;border-radius:var(--radius);box-shadow:var(--shadow);
+  }
+  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
+  .support-panel p{font-size:13px;margin:0 0 16px;color:#f4ddd6;line-height:1.5}
+  .support-panel .sbtn{display:inline-block;background:#faf6ec;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:10px 21px;border-radius:999px;transition:.15s}
+  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.18)}
+  .support-panel small{display:block;margin-top:12px;font-size:11px;color:#f0d4cd;opacity:.9}
+
+  .strip{margin-top:8px}
+
+  footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
+  footer .wrap{padding:42px 22px 30px}
+  .foot-top{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid #3a352d}
+  .foot-brand{max-width:420px}
+  .foot-brand .fb{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff}
+  .foot-brand .fb .amp{color:#e0a89e}
+  .foot-brand .dev{font-family:var(--serif);font-style:italic;color:#e6bcb2;margin:6px 0 12px;font-size:17px}
+  .foot-brand .creed{font-size:13.5px;color:#b0a790;line-height:1.55}
+  .foot-brand .creed b{color:#f0e6d4;font-weight:700}
+  .foot-cols{display:flex;gap:48px;flex-wrap:wrap}
+  .foot-cols h5{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#948b78;margin:0 0 12px}
+  .foot-cols ul{list-style:none;margin:0;padding:0}
+  .foot-cols li{margin-bottom:8px}
+  .foot-cols a{font-size:14px;color:#d6cec0;transition:.15s}
+  .foot-cols a:hover{color:#fff}
+  .foot-bottom{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#948b78}
+  .foot-bottom a{color:#948b78;transition:.15s}
+  .foot-bottom a:hover{color:#fff}
+  .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
+
+  /* ---------- Article page specific ---------- */
+  .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
+    border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
+  .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+  .article-head{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    overflow:hidden;margin-bottom:28px}
+  .article-head .photo{aspect-ratio:21/9}
+  .article-head .abody{padding:26px 30px 30px}
+  .article-head h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,40px);line-height:1.12;
+    margin:0 0 14px;letter-spacing:-.01em;color:var(--ink)}
+  .article-head .dek{font-size:17px;color:var(--ink-soft);margin:0 0 18px;max-width:70ch}
+  .article-head .verdict-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 16px}
+
+  .ev-block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:22px 26px 26px;margin-bottom:24px}
+  .ev-block h2{font-family:var(--serif);font-size:20px;margin:0 0 6px;display:flex;align-items:center;gap:9px}
+  .ev-block .ev-sub{font-size:13px;color:var(--ink-faint);margin:0 0 18px}
+  .ev-item{padding:16px 0;border-top:1px solid var(--line)}
+  .ev-item:first-of-type{border-top:none;padding-top:4px}
+  .ev-item p{margin:0 0 11px;font-size:15.5px;line-height:1.55;color:var(--ink)}
+  .ev-sources{display:flex;flex-wrap:wrap;gap:8px}
+  .ev-sources a{
+    display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-2);background:var(--paper-2);
+    padding:6px 12px;border-radius:999px;font-weight:600;font-size:12.5px;color:var(--ink-soft);transition:.15s ease;
+    max-width:100%;
+  }
+  .ev-sources a:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .ev-sources a .fav{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+  .ev-sources a span.lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  .ev-block.probat{border-left:5px solid var(--ok)}
+  .ev-block.contestat{border-left:5px solid var(--warn)}
+  .ev-block.neverificabil{border-left:5px solid var(--check)}
+  .ev-block.opinie{border-left:5px solid var(--ink-faint)}
+  .opinie-item{padding:14px 0;border-top:1px solid var(--line);font-size:15.5px;line-height:1.55;color:var(--ink-soft);font-style:italic}
+  .opinie-item:first-of-type{border-top:none;padding-top:4px}
+
+  .ai-note{background:linear-gradient(160deg,var(--paper-2),var(--paper));border:1.5px dashed var(--line-2);
+    border-radius:var(--radius);padding:22px 26px;margin-bottom:24px}
+  .ai-note h2{font-family:var(--serif);font-size:19px;margin:0 0 10px;display:flex;align-items:center;gap:9px}
+  .ai-note p{margin:0;font-size:14.5px;line-height:1.6;color:var(--ink-soft)}
+
+  .math-block{background:var(--card);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:22px 26px;margin-bottom:24px}
+  .math-block h2{font-family:var(--serif);font-size:19px;margin:0 0 12px;display:flex;align-items:center;gap:9px;color:var(--accent-deep)}
+  .math-block p{margin:0;font-size:14.5px;line-height:1.65;color:var(--ink)}
+
+  .conclusion-box{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fff;
+    border-radius:var(--radius);padding:30px 30px;text-align:center;box-shadow:var(--shadow-hi);margin:32px 0 8px;
+  }
+  .conclusion-box .glyph{font-size:34px;margin-bottom:10px}
+  .conclusion-box h3{font-family:var(--serif);font-size:24px;margin:0 0 9px;color:#fff}
+  .conclusion-box p{font-size:14.5px;color:#f4ddd6;margin:0 0 18px;max-width:56ch;margin-left:auto;margin-right:auto;line-height:1.55}
+  .conclusion-box .backlink{background:#faf6ec;color:var(--accent-deep);border:none;font-weight:800}
+  .conclusion-box .backlink:hover{background:#fff;color:var(--accent-deep)}
+
+  @media(max-width:980px){
+    .grid-main{grid-template-columns:1fr}
+    aside{position:static;flex-direction:column}
+    .cards-3{grid-template-columns:repeat(2,1fr)}
+  }
+  @media(max-width:720px){
+    body{font-size:16px}
+    .cards,.cards-3{grid-template-columns:1fr}
+    .support{position:static;margin-top:14px}
+    .masthead .wrap{padding-bottom:18px}
+    .legend .wrap{font-size:12px}
+    .brand{font-size:44px}
+    .article-head .abody{padding:20px 20px 24px}
+    .ev-block{padding:18px 18px 20px}
+  }
+</style>
+<meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
+<link rel="canonical" href="https://farabaliverne.ro/closcu.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#2f8a49">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fără Baliverne">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:title" content="Cloșcu cu Puii de AUR — Fără Baliverne">
+<meta property="og:description" content="Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.">
+<meta property="og:url" content="https://farabaliverne.ro/closcu.html">
+<meta property="og:image" content="https://farabaliverne.ro/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cloșcu cu Puii de AUR — Fără Baliverne">
+<meta name="twitter:description" content="Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.">
+<meta name="twitter:image" content="https://farabaliverne.ro/og-cover.png">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap">
+      <div class="date">Duminică, 16 august 2026 · Ediția de seară târzie</div>
+      <div class="live"><span class="dot"></span> 283 verificări publicate</div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="wrap">
+      <h1 class="brand"><a href="index.html">Fără&nbsp;Baliverne</a></h1>
+      <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
+      <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
+      <div class="support">
+        <a href="#" onclick="gabeIt();return false" class="btn-support">⚡ Gabe it</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html">Acasă</a>
+      <a href="index.html#politica">Politică</a>
+      <a href="index.html#economie">Economie</a>
+      <a href="index.html#extern">Extern</a>
+      <a href="index.html#stiinta">Știință</a>
+      <a href="index.html#social">Social</a>
+      <a href="index.html#sport">Sport</a>
+      <a href="index.html#media-de-stat">Media de stat</a>
+      <a href="politicieni.html">Politicieni</a>
+      <a href="closcu.html">Cloșcu cu Puii de AUR</a>
+      <span class="sep"></span>
+      <a href="cauta.html" class="search">🔍 Caută o afirmație</a>
+    </div>
+  </nav>
+
+  <div class="legend">
+    <div class="wrap">
+      <span class="lbl">Cum stau probele:</span>
+      <span class="i"><span class="chip soft ok"><span class="ic">✅</span> Probat</span> susținut de dovezi</span>
+      <span class="i"><span class="chip soft warn"><span class="ic">⚠️</span> Contestat</span> surse în dezacord</span>
+      <span class="i"><span class="chip soft bad"><span class="ic">❌</span> Contrazis</span> infirmat de dovezi</span>
+      <span class="i"><span class="chip soft check"><span class="ic">🔍</span> În verificare</span> analiză în curs</span>
+    </div>
+  </div>
+
+  <main>
+    <div class="wrap" style="max-width:1120px;margin:0 auto;padding:0 20px">
+      <div style="padding:30px 0 6px">
+        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 4px">Cloșcu cu Puii de AUR</h1>
+        <p style="font-family:Georgia,serif;font-style:italic;color:var(--accent);font-size:17px;margin:0 0 14px">Cine sunt, de unde vin, ce au declarat — și unde bat probele</p>
+        <p style="max-width:70ch;color:var(--ink-soft);font-size:16px;line-height:1.55">Oamenii îi văd la televizor și pe TikTok, dar puțini știu ce au studiat, unde au lucrat și ce s-a ales de afirmațiile lor când le-ai pus lângă documente. Aici adunăm exact asta: <b>fișa fiecăruia, numai cu fapte care au sursă</b>, plus toate verificările noastre despre el, la un loc.</p>
+      </div>
+      <section class="ai-note" style="margin:18px 0 8px">
+        <h2>⚖️ Cum lucrăm aici</h2>
+        <p>Regula casei rămâne neschimbată și aici: <b>nu spunem că cineva „a mințit”</b>. Imputarea intenției nu se poate proba și nu ne-ar face mai credibili — arătăm CE a spus, CE arată dovezile și unde nu se susține. O acuzație oficială e prezentată ca acuzație, nu ca fapt stabilit, iar oricine are un dosar penal beneficiază de prezumția de nevinovăție până la o hotărâre definitivă. Din fișe lipsesc, deliberat, viața privată, familia și orice nu are legătură cu funcția publică sau cu afirmațiile publice.</p>
+      </section>
+      <p style="max-width:70ch;color:var(--ink-faint);font-size:13.5px;margin:0 0 20px">Numele secțiunii e un joc de cuvinte după tezaurul de la Pietroasele. E o glumă de titlu, nu o concluzie: ce contează începe la primul document de mai jos.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px;margin:14px 0 34px">
+      <a href="#calin-georgescu" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#8a6b1f;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">CG</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Călin Georgescu</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#8a6b1f">Cloșcu</b> · 4 verificări</span></span></a>
+      <a href="#george-simion" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#b8860b;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">GS</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">George Simion</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#b8860b">Puiul cel mare</b> · 0 verificări</span></span></a>
+      <a href="#claudiu-tarziu" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#a5872e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">CT</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Claudiu Târziu</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#a5872e">Pui</b> · 0 verificări</span></span></a>
+      <a href="#diana-sosoaca" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#8f6b3d;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">DȘ</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Diana Șoșoacă</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#8f6b3d">Puiul plecat din cuib</b> · 2 verificări</span></span></a>
+      </div>
+        <section class="cat-section" id="calin-georgescu">
+          <div class="section-head"><h2>Călin Georgescu <span style="font-size:12.5px;font-weight:700;color:#fff;background:#8a6b1f;padding:2px 9px;border-radius:20px;vertical-align:middle">Cloșcu</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 4 verificări</span></h2></div>
+          <p style="max-width:70ch;color:var(--ink-soft);font-size:15px;margin:0 0 16px">Inginer, doctor în pedologie, fost secretar general al Ministerului Mediului și fost raportor special al ONU. A candidat ca independent la prezidențialele din 2024. <b>Nu este membru AUR</b> — relația cu partidul a mers însă în zigzag: propus premier de AUR în 2020, respins public de conducerea AUR în 2022, susținut din nou de AUR în 2024.</p>
+          <section class="ev-block probat" style="border-left-color:#8a6b1f">
+            <h2>📋 Fișa</h2>
+            <p class="ev-sub">Numai fapte cu sursă. Fără viață privată.</p>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">Născut.</b> 26 martie 1962, București.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-calin-georgescu/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — Cine este Călin Georgescu</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">Studii.</b> Facultatea de Îmbunătățiri Funciare, Institutul Agronomic „Nicolae Bălcescu” din București (azi Universitatea de Științe Agronomice și Medicină Veterinară), absolvită în 1986. Doctor în pedologie la aceeași universitate, în 1999. A urmat și programul postuniversitar „Securitate și apărare națională — geopolitică și geostrategie” la Colegiul Național de Apărare „Carol I”.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-calin-georgescu/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — studii și doctorat</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">Funcții publice în România.</b> Șef al biroului senatorial pentru mediu din Parlamentul României (1991); consilier la Ministerul Mediului (1992); secretar general al Ministerului Mediului (1997–1998); director în Ministerul Afacerilor Externe (2004–2005).</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-calin-georgescu/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — funcții publice deținute</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">ONU.</b> Raportor special al ONU pentru efectele traficului și depozitării ilicite de produse și deșeuri toxice asupra drepturilor omului (2010–2012) și consilier special al directorului general al ONU-Geneva (2015–2016). Sunt funcții reale, dar de expertiză și mandat limitat — nu funcții de conducere ale ONU.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-calin-georgescu/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — rolurile la ONU</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">Activitate academică.</b> Cadru didactic asociat la Universitatea Națională de Știință și Tehnologie Politehnica București — Centrul universitar Pitești (din 2021), cu funcția de lector din 2024.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-calin-georgescu/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — poziția academică</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">Relația cu AUR, în trei acte.</b> <b>2020</b> — AUR îl propune premier, după alegerile parlamentare; George Simion îl recomandă drept „cinstit, patriot și bun profesionist”. <b>Ianuarie 2022</b> — după ce elogiază la televizor figuri legionare, conducerea AUR se delimitează public: Claudiu Târziu spune că „nu poți să lași niciun dubiu legat de episoadele negre din istoria României”, iar Simion declară „vreau să mă delimitez… nu am fost niciodată fan al Legiunii”. <b>2024</b> — în seara alegerilor, după ce Simion iese pe locul 4, AUR anunță că îl susține pe Georgescu, ca parte a „polului suveranist”. Aceleași fapte, trei poziții diferite în patru ani.</p>
+              <div class="ev-sources"><a href="https://www.digi24.ro/alegeri-prezidentiale-2024/aur-il-sustine-pe-calin-georgescu-desi-in-urma-cu-doi-ani-se-delimita-de-el-dupa-ce-a-facut-propaganda-legionara-3021853" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Digi24 — AUR îl susține pe Georgescu, deși în urmă cu doi ani se delimita de el</span></a><a href="https://www.mediafax.ro/politic/george-simion-calin-georgescu-este-propunerea-aur-pentru-functia-de-prim-ministru-19782321" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Mediafax — Simion: Călin Georgescu este propunerea AUR pentru funcția de prim-ministru</span></a><a href="https://farabaliverne.ro/a/georgescu-legionari-elogiu.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Verificarea noastră — elogiul adus legionarilor</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8a6b1f">Situația juridică.</b> Este trimis în judecată, potrivit acuzării, pentru complicitate la tentativă de acțiuni împotriva ordinii constituționale și comunicare de informații false, în dosarul care îl vizează și pe Horațiu Potra. Pe 6 august 2026, ÎCCJ a respins contestațiile și a deschis calea judecății pe fond. Camera preliminară verifică legalitatea trimiterii în judecată, NU vinovăția. <b>Beneficiază de prezumția de nevinovăție</b> până la o hotărâre definitivă.</p>
+              <div class="ev-sources"><a href="https://farabaliverne.ro/a/georgescu-iccj-proces-fond.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Verificarea noastră — ÎCCJ a respins contestațiile, procesul pe fond poate începe</span></a><a href="https://www.digi24.ro/stiri/actualitate/justitie/incepe-sau-nu-procesul-lui-calin-georgescu-instanta-suprema-urmeaza-sa-ia-o-decizie-in-dosarul-privind-tentativa-de-lovitura-de-stat-3895225" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Digi24 — decizia instanței supreme în dosarul privind tentativa de lovitură de stat</span></a></div>
+            </div>
+          </section>
+          <section class="ev-block contestat" style="border-left-color:#c23b2e">
+            <h2>🗣️ Ce a susținut public</h2>
+            <p class="ev-sub">Afirmația, unde a spus-o, și ce arată documentele. Nu spunem că a mințit — arătăm de ce nu se susține.</p>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>Că în băuturile răcoritoare s-ar afla nanocipuri.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">declarații publice preluate pe larg în presă și pe rețele</p>
+              <p>Verificarea noastră a arătat că nu există cipuri atât de mici pentru că nu există mașina care să le producă — e la limita dintre teorie și fantastic. Am explicat mecanismul, nu am pronunțat un verdict moral.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://farabaliverne.ro/a/georgescu-nanocipuri-sucuri.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Verificarea noastră — nanocipuri în sucuri</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>Că apa nu este H₂O, ci „informație, vibrație, frecvență”, și că are memorie.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">declarații publice, televiziune și rețele sociale</p>
+              <p>„Apa structurată” și memoria apei nu au suport în chimie; verificarea noastră arată ce se probează și ce nu.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://farabaliverne.ro/a/georgescu-apa-structurata.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Verificarea noastră — apa structurată</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>Elogiul adus unor figuri legionare.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">emisiune de televiziune, ianuarie 2022</p>
+              <p>Chiar conducerea AUR s-a delimitat public atunci — vezi cronologia din fișa de mai sus.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://farabaliverne.ro/a/georgescu-legionari-elogiu.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Verificarea noastră — elogiul adus legionarilor</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Ei au anulat alegerile din disperare… și au făcut-o împreună cu colegi externi, respectiv Comisia Europeană! Lucru dovedit de raportul Comisiei Juridice al Congresului SUA…”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">13 februarie 2026, declarație publică în fața Curții de Apel București</p>
+              <p>Raportul invocat a fost citit, cu tot cu anexe. Nu conține nicio dovadă de implicare a Comisiei Europene în anularea alegerilor. Comisia apare doar ca organizator de întâlniri cu platformele de socializare pe tema protejării alegerilor, iar anularea e menționată o singură dată în mii de pagini — într-un citat dintr-o teorie de pe TikTok despre George Soros, nu într-o constatare a raportului.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-calin-georgescu-despre-implicarea-comisiei-europene-in-anularea-alegerilor-prezidentiale-din-2024/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre implicarea Comisiei Europene</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Nu sunt împotriva avortului; fiecare are dreptul să decidă.”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">dezbatere la Realitatea Plus (min. 21:02)</p>
+              <p>În propria carte din 2014, „Cumpăna României”, la pagina 54, scrie că avorturile ar trebui interzise. Nu e vorba de interpretare: e textul lui, publicat sub numele lui.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmațiilor despre avort, Green Deal și datoria țării</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>Că peste 65% dintre produsele lactate consumate în România ar fi din import.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">Realitatea Plus, 4 decembrie (min. 1:10:49)</p>
+              <p>Datele Institutului Național de Statistică pentru 2022: producție internă 5,3 milioane de tone, import 1,3 milioane de tone — adică 21,54% din lactatele disponibile erau importate, iar gradul de autosuficiență era de 84,9%. Cifra reală e de circa trei ori mai mică decât cea afirmată.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre importul de lactate</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>Că peste 900.000 de persoane cu dizabilități nu au putut vota, fiindcă „nu există condiții”.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">Realitatea Plus, 4 decembrie (min. 24:03)</p>
+              <p>Urna mobilă există și e prevăzută de legislația electorală. A fost folosită de 97.660 de alegători la prezidențialele din 24 noiembrie și de 109.205 la parlamentarele din 1 decembrie.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre votul persoanelor cu dizabilități</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Chinezii au cumpărat porturile din Bolivia.”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">30 ianuarie 2025, podcastul lui Ion Cristoiu</p>
+              <p>Bolivia nu are ieșire la mare, iar povestea e una dintre cele mai cunoscute din America de Sud. În 1879, Chile a ocupat portul Antofagasta pornind de la un diferend fiscal — așa a început Războiul Pacificului. În patru ani, Chile luase circa 130.000 km² de teritoriu bolivian, inclusiv toți cei aproximativ 400 de kilometri de coastă la Pacific. Pierderea a fost consfințită prin Tratatul de pace din 1904, al cărui articol II recunoaște teritoriul drept al Chile „absolut și pe veci”, Bolivia primind în schimb acces comercial la porturile chiliene. Bolivia n-a renunțat: a dat Chile în judecată la Curtea Internațională de Justiție, iar pe 1 octombrie 2018 Curtea a decis, cu 12 voturi la 3, că statul chilian NU are obligația legală de a negocia un acces suveran la ocean. Astăzi, singurele ambarcațiuni ale țării patrulează lacul Titicaca. Deci nu doar că nu există porturi maritime boliviene pe care chinezii să le cumpere — inexistența lor e subiectul unui proces internațional încheiat acum opt ani. Gazda emisiunii nu a corectat afirmația.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.aktual24.ro/sa-radem-cu-calin-georgescu-chinezii-au-cumparat-porturile-din-bolivia-a-afirmat-candidatul-pro-rus-la-emisiunea-lui-ion-cristoiu-in-realitate-bolivia-nu-are-iesire-la-mare/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Aktual24 — afirmația despre porturile din Bolivia, la emisiunea lui Ion Cristoiu</span></a><a href="https://www.worldcourts.com/icj/eng/decisions/2018.10.01_Bolivia_v_Chile.pdf" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">CIJ — hotărârea din 1 octombrie 2018, Bolivia c. Chile</span></a><a href="https://www.aljazeera.com/news/2018/10/1/chile-not-obliged-to-negotiate-sea-access-with-bolivia-icj" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Al Jazeera — Curtea: Chile nu e obligată să negocieze accesul la mare</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Lucian Blaga este unul din principalii interziși în România” — și că Blaga și Eminescu nu s-ar preda în școli.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">videoclip pe TikTok, noiembrie 2024, cu peste 304.000 de vizualizări, publicat cu câteva zile înainte de alegeri</p>
+              <p>Amândoi sunt autori canonici. Blaga se studiază din clasa a VIII-a și e în programa de liceu la literatura interbelică și modernistă, iar la Bacalaureat figurează printre autorii canonici pentru proba de Limba și literatura română. Eminescu e parte integrantă a programei de gimnaziu și liceu. Nu e vorba de o nuanță: sunt în manuale și în programa de examen.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.g4media.ro/minciunile-propagate-de-calin-georgescu-pe-tiktok-referitoare-la-educatie-lucian-blaga-si-mihai-eminescu-nu-s-ar-preda-in-scoli-elevii-nu-ar-invata-istorie-si-geografie-la-liceu-despre-medicina.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — afirmațiile despre educație propagate pe TikTok</span></a><a href="https://observatornews.ro/alegeri-prezidentiale-2024/calin-georgescu-sustine-ca-blaga-si-eminescu-nu-se-studiaza-in-scoli-unii-din-principalii-interzisi-in-romania-601191.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Observator — „Blaga și Eminescu nu se studiază în școli”</span></a><a href="https://adevarul.ro/stiri-interne/educatie/calin-georgescu-file-din-realitate-doi-profesori-2404479.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Adevărul — doi profesori demontează mesajele despre educație</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Nu produc eolienele energie, eolienele sunt la nivel de 0,01%.”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">declarație publică, inclusă în lista de declarații controversate strânsă de Observator</p>
+              <p>În 2023, energia eoliană a fost a treia sursă din structura producției de energie electrică a României, cu o pondere de 15,4%. În februarie 2024, puterea instalată în centrale eoliene era de 3.026,91 MW, adică circa 17% din puterea totală instalată a țării. Cifra afirmată e de peste o mie de ori mai mică decât cea reală.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://observatornews.ro/alegeri-prezidentiale-2024/430-de-declaratii-controversate-ale-lui-calin-georgescu-romania-este-o-poarta-intre-dimensiunifiecare-izvor-din-romania-o-sursa-de-lumina-cosmica-601617.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Observator — 430 de declarații controversate (citatul despre eoliene)</span></a><a href="https://ro.wikipedia.org/wiki/Energia_eolian%C4%83_%C3%AEn_Rom%C3%A2nia" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Wikipedia — Energia eoliană în România (putere instalată și pondere)</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Avem aurul monoatomic. Avem toate metalele rare, posibile și imposibile” — și că acest aur „nici nu există pe tabloul lui Mendeleev”.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">declarații publice, preluate de mai multe redacții</p>
+              <p>Sunt trei lucruri greșite într-o singură frază. Întâi, e un tabel periodic, nu un tablou — Mendeleev era chimist, nu pictor, cum a observat cercetătorul Claudiu Tănăselia de la Cluj. Al doilea, „aurul monoatomic” nu e un element și nu e o formă de aur recunoscută de chimie: e un concept ezoteric popularizat de David Hudson în anii 1970–80, legat de alchimie și de promisiuni de longevitate și „regenerare a ADN-ului”. Al treilea, și cel mai important: dacă s-a vrut spus „monoizotopic”, atunci afirmația se autodesființează. Aurul are un singur izotop stabil, aur-197 — adică TOT aurul din univers e monoizotopic. Nu e nimic special în pământul României; e chimie de manual.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.g4media.ro/reactia-unui-cercetator-la-aurul-monoatomic-al-lui-calin-georgescu-poate-e-ceva-specie-de-aur-folosita-de-daci-poate-a-vrut-sa-zica-aur-monoizotopic.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — reacția cercetătorului Claudiu Tănăselia la „aurul monoatomic”</span></a><a href="https://www.g4media.ro/calin-georgescu-noi-teorii-ale-conspiratiei-romania-are-aurul-monoatomic-nici-nu-exista-pe-tabloul-lui-mendeleev-sunt-doar-un-miliard-de-vaci-in-lume-nu-ai-cum-sa-gasesti-in-magazine-cantitatea.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — afirmațiile despre aurul monoatomic și tabloul lui Mendeleev</span></a><a href="https://www.aktual24.ro/teoriile-lui-georgescu-ce-este-aurul-monoatomic-care-s-ar-afla-in-pamanturile-romaniei-concept-mistic-care-contravine-valorilor-crestine/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Aktual24 — ce este „aurul monoatomic”, concept mistic fără bază științifică</span></a></div>
+            </div>
+          </section>
+          <section class="ev-block neverificabil">
+            <h2>📕 Din cartea lui: „Cumpăna României”</h2>
+            <p class="ev-sub">Editura Christiana · ediția a II-a, 2016 · ISBN 978-973-1913-87-2. O carte scrisă de el, publicată sub numele lui — deci nu „i s-a atribuit”, nu „a fost scos din context”. Poate fi găsită în librării și verificată de oricine.</p>
+            <div class="ev-item">
+              <p style="font-family:Georgia,serif;font-size:17.5px;line-height:1.5">„E o împrejurare fericită că atât poporul român și cel rus se împărtășesc cu apa marelui fluviu al spiritualității creștin-ortodoxe.”</p>
+              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">↳ Scris în ediția din 2016 — la doi ani după ce Rusia anexase militar Crimeea.</p>
+            </div>
+            <div class="ev-item">
+              <p style="font-family:Georgia,serif;font-size:17.5px;line-height:1.5">„oficialii români au reacționat violent și obedient, la nivel retoric, în fața unei așa-zise amenințări rusești iminente”</p>
+              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">↳ Din capitolul „Criza ucraineană”. Amenințarea rusă e numită „așa-zisă”.</p>
+            </div>
+            <div class="ev-item">
+              <p style="font-family:Georgia,serif;font-size:17.5px;line-height:1.5">„aderarea la zona euro este o pură nebunie sau o trădare de țară”</p>
+              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">↳ Poziție de politică economică, exprimată în scris.</p>
+            </div>
+            <div class="ev-item">
+              <p style="font-family:Georgia,serif;font-size:17.5px;line-height:1.5">„divorț facil, promiscuitatea, pornografia, promovarea deșănțată a LGBT… sunt tot atâtea căi de decadență culturală și degradare personală”</p>
+              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">↳ Util de pus lângă declarațiile publice de mai târziu, în care se prezintă drept tolerant.</p>
+            </div>
+            <div class="ev-item">
+              <p style="font-family:Georgia,serif;font-size:17.5px;line-height:1.5">„Roșia românească – cultivă această roșie în Germania! Pune-l pe neamț să o facă! Ei bine, nu poate, cu toată tehnologia lui, pentru că pământul țării noastre este cel mai roditor. De aceea este un pământ sfânt.”</p>
+              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">↳ Germania produce anual sute de mii de tone de roșii, majoritatea în sere.</p>
+            </div>
+            <div class="ev-item">
+              <p style="font-family:Georgia,serif;font-size:17.5px;line-height:1.5">„Țăranul român reprezintă gena autentică a civilizației mileniului actual. El reprezintă nu doar șansa redresării României, ci însăși speranța renașterii lumii occidentale…”</p>
+              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">↳ Din a doua carte, „Marea Renaștere. Ieșirea din Matrix” (2022).</p>
+            </div>
+            <div class="ev-sources" style="margin-top:14px"><a href="https://hotnews.ro/ce-scria-calin-georgescu-intr-o-carte-la-doi-ani-dupa-ce-putin-anexase-militar-o-parte-din-ucraina-e-o-imprejurare-fericita-ca-atat-poporul-roman-si-cel-rus-se-impartasesc-cu-apa-marelui-fl-1846737" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — ce scria Georgescu în carte, la doi ani după anexarea Crimeei</span></a><a href="https://www.scena9.ro/article/calin-georgescu-cumpana-romaniei-marea-renastere-iesirea-din-matrix-cronica" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Scena9 — analiza celor două cărți, de Iulian Bocai</span></a><a href="https://www.librariaonline.ro/stiinte_umaniste/stiinte_politice/cumpana_romaniei_calin_georgescu-georgescu_calin-logos-p10077791" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Fișa de catalog a cărții (LibrăriaOnline)</span></a></div>
+          </section>
+          <section class="ev-block opinie">
+            <h2>💬 Convingeri, nu afirmații verificabile</h2>
+            <div class="opinie-item">„România este o poartă între dimensiuni.” · „Fiecare izvor din România este o sursă de lumină cosmică.” · „Carpații sunt coloanele de lumină care susțin echilibrul energetic al întregii planete.” — Astea NU le notăm ca infirmate. Nu se pot proba și nu se pot infirma; sunt convingeri, iar noi nu ratăm convingerile. Le arătăm ca să vezi singur ce fel de discurs e, dar linia dintre credință și afirmație verificabilă rămâne trasă. Sursa: lista Observator cu 430 de declarații.</div>
+          </section>
+          <div class="cards-3">
+          <a href="a/georgescu-nanocipuri-sucuri.html" class="card">
+            <div class="photo g-soc"><div class="art"><div class="glyph">👥</div></div><div class="grad"></div><div class="cat-pill">Social</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Social</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Călin Georgescu: sucurile Pepsi și Fanta „conțin nanocipuri” care „intră în tine ca într-un laptop”. Ce arată dovezile</h3><p class="dek">Într-un podcast din 27 octombrie 2024, Călin Georgescu a spus că băuturi carbogazoase precum Pepsi și Fanta „conțin nanocipuri” care „intră…</p>
+              <div class="cmeta"><span>· 2026-08-08</span><span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span></div>
+            </div></a>
+          <a href="a/georgescu-legionari-elogiu.html" class="card">
+            <div class="photo g-pol"><div class="art"><div class="glyph">⚖️</div></div><div class="grad"></div><div class="cat-pill">Politică</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Georgescu, despre Codreanu și Antonescu ca „martiri”/„eroi”. Ce spun documentele istorice</h3><p class="dek">Călin Georgescu a vorbit elogios despre liderul legionar Corneliu Zelea Codreanu și despre mareșalul Ion Antonescu, i-a numit „martiri”…</p>
+              <div class="cmeta"><span>· 2026-08-08</span><span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span></div>
+            </div></a>
+          <a href="a/georgescu-apa-structurata.html" class="card">
+            <div class="photo g-soc"><div class="art"><div class="glyph">👥</div></div><div class="grad"></div><div class="cat-pill">Social</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Social</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Călin Georgescu: „Apa are o memorie. H2O nu înseamnă nimic”. Ce spune chimia</h3><p class="dek">Călin Georgescu a susținut public că apa „are o memorie”, că „H2O nu înseamnă nimic” și că apa „ne transmite mesaje”. Nu-i judecăm…</p>
+              <div class="cmeta"><span>· 2026-08-08</span><span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span></div>
+            </div></a>
+          <a href="a/georgescu-iccj-proces-fond.html" class="card">
+            <div class="photo g-pol"><div class="art"><div class="glyph">⚖️</div></div><div class="grad"></div><div class="cat-pill">Politică</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>ÎCCJ a respins contestațiile: procesul pe fond poate începe în dosarul Georgescu–Potra</h3><p class="dek">Pe 6 august 2026, Secția penală a ÎCCJ a respins contestațiile și a menținut decizia Curții de Apel București din camera preliminară…</p>
+              <div class="cmeta"><span>· 2026-08-07</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          </div>
+        </section>
+        <section class="cat-section" id="george-simion">
+          <div class="section-head"><h2>George Simion <span style="font-size:12.5px;font-weight:700;color:#fff;background:#b8860b;padding:2px 9px;border-radius:20px;vertical-align:middle">Puiul cel mare</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 0 verificări</span></h2></div>
+          <p style="max-width:70ch;color:var(--ink-soft);font-size:15px;margin:0 0 16px">Cofondator și președinte al AUR, deputat. A pornit din activismul unionist cu Republica Moldova. Are interdicție de intrare în două țări vecine — un fapt confirmat oficial, deși motivul nu a fost făcut public.</p>
+          <section class="ev-block probat" style="border-left-color:#b8860b">
+            <h2>📋 Fișa</h2>
+            <p class="ev-sub">Numai fapte cu sursă. Fără viață privată.</p>
+            <div class="ev-item">
+              <p><b style="color:#b8860b">Născut.</b> 21 septembrie 1986, Focșani, județul Vrancea.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-george-simion/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — Cine este George Simion</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#b8860b">Studii.</b> Colegiul Național „Gheorghe Lazăr” din București; Facultatea de Administrație și Afaceri a Universității din București; masterat la Universitatea „Alexandru Ioan Cuza” din Iași (2008–2010), pe crimele comunismului.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-george-simion/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — studii</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#b8860b">Traseu politic.</b> A devenit cunoscut public din 2009, prin activism unionist; a lansat platforma „Acțiune 2012”, pentru unirea cu Republica Moldova. A cofondat AUR în 2019, împreună cu Claudiu Târziu, după o candidatură nereușită ca independent la europarlamentare. În prezent este deputat și președinte al partidului.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-george-simion/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — traseu politic și fondarea AUR</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#b8860b">Scor la prezidențialele din 2024.</b> Locul 4, cu 13,86% — 1.281.325 de voturi.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-george-simion/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — rezultat 2024</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#b8860b">Interdicții de intrare.</b> Are interdicție de intrare în Republica Moldova și în Ucraina. Sursele diferă la dată: a fost declarat indezirabil și expulzat din R. Moldova în 2015, printr-o decizie a Biroului Migrație și Azil, iar Digi24 relatează o interdicție din 2018, prelungită până în 2028. Motivul oficial NU a fost făcut public — premierul de atunci a spus că a primit documentele justificative, dar că nu le poate divulga. Acuzația privind legături cu servicii de informații ruse este o <b>acuzație</b> vehiculată public, nu un fapt stabilit de vreo instanță.</p>
+              <div class="ev-sources"><a href="https://www.digi24.ro/alegeri-prezidentiale-2024/alegeri-prezidentiale-2024-george-simion-candidatul-controversat-interzis-in-doua-tari-vecine-3005883" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Digi24 — candidatul interzis în două țări vecine</span></a><a href="https://alegeri.hotnews.ro/cine-este-george-simion/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — profil și controverse</span></a></div>
+            </div>
+          </section>
+          <section class="ev-block contestat" style="border-left-color:#c23b2e">
+            <h2>🗣️ Ce a susținut public</h2>
+            <p class="ev-sub">Afirmația, unde a spus-o, și ce arată documentele. Nu spunem că a mințit — arătăm de ce nu se susține.</p>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„…nu am făcut vreo propunere că le dau case.”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">6 mai 2025, Digi24 (min. 49:46)</p>
+              <p>Documentele publice arată opusul: pe planulsimion.ro se promovau apartamente la 35.000 de euro cu finanțare fără dobândă, AUR a cheltuit circa un milion de euro pe panouri cu textul „Case la doar 35.000 de euro pentru Români!”, iar mii de oameni au semnat contracte cu prețuri fixate (35.000 € pentru două camere, 50.000 € pentru trei, 70.000 € pentru patru), condiționate de câștigarea prezidențialelor. Există și filmări în care întreabă cetățenii „Vrei și tu un apartament?” în timp ce semnează contracte.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-george-simion-sustine-ca-nu-a-promis-case-pentru-romani/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre promisiunea caselor</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„În spatele meu este barajul Vidraru care, ca toată România, a fost transformat într-o ruină!”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">februarie 2026, videoclip de chemare la protest, pe Facebook</p>
+              <p>Barajul era intact. Golirea era o operațiune controlată, autorizată, parte dintr-un proiect de retehnologizare de 188 de milioane de euro — explicată public de Hidroelectrica, compania de stat care îl administrează, iar Ministerul Economiei a avertizat asupra dezinformării pe această temă. Există filmări din 2 februarie 2026 și fotografii din 8 februarie 2026 care arată structura neafectată.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-george-simion-spune-ca-barajul-vidraru-a-devenit-o-ruina/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre barajul Vidraru</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„niciunul din top 10 multinaționale în România nu plătesc impozit pe profit”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">18 februarie 2025, interviu „Starea Nației” pe YouTube (min. 37:18)</p>
+              <p>Potrivit datelor Ministerului Finanțelor, primele zece multinaționale din România — între care OMV Petrom, Dacia, Lidl, Kaufland, Rompetrol, Ford, Profi, Carrefour — au plătit împreună peste 4,4 miliarde de lei impozit pe profit în anul anterior. Sumele individuale merg de la zeci de milioane la miliarde de lei și sunt publice pe mfinante.gov.ro.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-i-george-simion-despre-impozitul-platit-de-multinationale/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre impozitul multinaționalelor</span></a></div>
+            </div>
+          </section>
+          <div class="cards-3">
+          <p style="color:var(--ink-faint);font-size:14px">Încă nu avem o verificare publicată despre această persoană. Când apare una, se adaugă automat aici.</p>
+          </div>
+        </section>
+        <section class="cat-section" id="claudiu-tarziu">
+          <div class="section-head"><h2>Claudiu Târziu <span style="font-size:12.5px;font-weight:700;color:#fff;background:#a5872e;padding:2px 9px;border-radius:20px;vertical-align:middle">Pui</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 0 verificări</span></h2></div>
+          <p style="max-width:70ch;color:var(--ink-soft);font-size:15px;margin:0 0 16px">Cofondator al AUR, alături de George Simion. Fișa completă e în lucru — publicăm doar ce am verificat.</p>
+          <section class="ev-block probat" style="border-left-color:#a5872e">
+            <h2>📋 Fișa</h2>
+            <p class="ev-sub">Numai fapte cu sursă. Fără viață privată.</p>
+            <div class="ev-item">
+              <p><b style="color:#a5872e">Rol în partid.</b> A cofondat AUR în 2019, împreună cu George Simion. În februarie 2021 a fost unul dintre cei care au decis retragerea sprijinului politic pentru senatoarea Diana Șoșoacă.</p>
+              <div class="ev-sources"><a href="https://alegeri.hotnews.ro/cine-este-george-simion/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">HotNews — AUR, cofondat de Simion și Târziu</span></a><a href="https://www.g4media.ro/aur-revine-cu-o-precizare-sosoaca-a-fost-exclusa-din-grupul-senatorial-din-partid-n-a-facut-parte-claudiu-tarziu-am-descoperit-ca-nu-avea-semnata-adeziunea-formala.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — precizarea AUR privind situația Dianei Șoșoacă</span></a></div>
+            </div>
+          </section>
+          <section class="ev-block contestat" style="border-left-color:#c23b2e">
+            <h2>🗣️ Ce a susținut public</h2>
+            <p class="ev-sub">Afirmația, unde a spus-o, și ce arată documentele. Nu spunem că a mințit — arătăm de ce nu se susține.</p>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>Că Ministerul Mediului ar avea „intenția de a băga oamenii la închisoare pentru că își sapă o fântână”, cu pedepse de până la zece ani.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">28 iulie 2026, pe Facebook și X, reacționând la un proiect de lege pus în transparență pe 14 iulie</p>
+              <p>Proiectul transpune o directivă europeană privind infracțiunile de mediu și prevede sancțiuni gradate pentru captările ilegale de apă la scară mare — pedeapsa depinde de gravitatea prejudiciului. Administrația Națională „Apele Române” a confirmat că folosirea apei din fântână pentru nevoi proprii nu cere autorizație, nu se plătește și nu atrage amenzi sau pedepse penale. Consiliul Național al Audiovizualului a dispus pe 28 iulie 2026 eliminarea a 35 de materiale care răspândeau informația falsă (33 pe TikTok, unul pe Facebook, unul pe X), între care și postările lui. El s-a apărat spunând că a fost o poziție politică pe documente publice, nu o invenție.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://farabaliverne.ro/a/fantana-zece-ani-inchisoare.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Verificarea noastră — ce spune de fapt proiectul Ministerului Mediului</span></a><a href="https://adevarul.ro/stiri-interne/evenimente/cna-il-vizeaza-pe-claudiu-tarziu-dupa-2546299.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Adevărul — CNA a dispus eliminarea materialelor cu informația falsă despre fântâni</span></a></div>
+            </div>
+          </section>
+          <div class="cards-3">
+          <p style="color:var(--ink-faint);font-size:14px">Încă nu avem o verificare publicată despre această persoană. Când apare una, se adaugă automat aici.</p>
+          </div>
+        </section>
+        <section class="cat-section" id="diana-sosoaca">
+          <div class="section-head"><h2>Diana Șoșoacă <span style="font-size:12.5px;font-weight:700;color:#fff;background:#8f6b3d;padding:2px 9px;border-radius:20px;vertical-align:middle">Puiul plecat din cuib</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 2 verificări</span></h2></div>
+          <p style="max-width:70ch;color:var(--ink-soft);font-size:15px;margin:0 0 16px">A ajuns senatoare în decembrie 2020 pe listele AUR, iar în februarie 2021 a fost scoasă din grupul senatorial. Nuanță pe care o notăm fiindcă e reală: AUR a precizat ulterior că nu a fost exclusă din partid, pentru că nu semnase adeziunea — a fost o retragere a sprijinului politic.</p>
+          <section class="ev-block probat" style="border-left-color:#8f6b3d">
+            <h2>📋 Fișa</h2>
+            <p class="ev-sub">Numai fapte cu sursă. Fără viață privată.</p>
+            <div class="ev-item">
+              <p><b style="color:#8f6b3d">Cum a intrat în Parlament.</b> Aleasă senatoare de Iași în decembrie 2020, pe listele AUR.</p>
+              <div class="ev-sources"><a href="https://romania.europalibera.org/a/senatoarea-diana-%C5%9Fo%C5%9Foac%C4%83-exclus%C4%83-din-aur/31096293.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Europa Liberă — senatoarea Diana Șoșoacă, exclusă din AUR</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p><b style="color:#8f6b3d">Ruptura de AUR.</b> În februarie 2021 a fost scoasă din grupul senatorial AUR, decizia fiind luată de Claudiu Târziu și Sorin Lavric, invocându-se indisciplina. AUR a revenit ulterior cu precizarea că nu putea fi exclusă din partid, întrucât nu avea adeziunea semnată — deci a fost vorba de retragerea sprijinului politic.</p>
+              <div class="ev-sources"><a href="https://www.g4media.ro/senatoarea-diana-sosoaca-a-fost-exclusa-din-partidul-aur-de-catre-claudiu-tarziu-si-sorin-lavric-deputatul-dan-tanasa-e-o-decizie-luata-la-capatul-unui-lung-sir-de-intamplari-in-care-a-transmis-ca.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — exclusă din grupul senatorial de Târziu și Lavric</span></a><a href="https://www.g4media.ro/aur-revine-cu-o-precizare-sosoaca-a-fost-exclusa-din-grupul-senatorial-din-partid-n-a-facut-parte-claudiu-tarziu-am-descoperit-ca-nu-avea-semnata-adeziunea-formala.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">G4Media — precizarea AUR: nu avea adeziunea semnată</span></a><a href="https://www.mediafax.ro/politic/diana-sosoaca-a-fost-exclusa-din-partidul-aur-din-motive-de-indisciplina-aur-transmite-ca-l-au-exclus-si-pe-deputatul-mihai-lasca-19912822" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Mediafax — motivul invocat: indisciplină</span></a></div>
+            </div>
+          </section>
+          <section class="ev-block contestat" style="border-left-color:#c23b2e">
+            <h2>🗣️ Ce a susținut public</h2>
+            <p class="ev-sub">Afirmația, unde a spus-o, și ce arată documentele. Nu spunem că a mințit — arătăm de ce nu se susține.</p>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„În Ucraina avem peste un milion de români. Nu au voie să vorbească în limba română…” — și că nu s-ar putea ruga ori practica ortodoxia în limba lor.</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">22 octombrie 2025, în timpul unei vizite în Rusia, ca invitată a asociației „Prietenii Rusiei”</p>
+              <p>Cifra e greșită de aproape șapte ori: în Ucraina trăiesc circa 151.000 de români, plus 258.600 de persoane care s-au declarat moldoveni. Învățământul în română nu e interzis — în 2024 se preda în 57 de școli, pentru 12.383 de elevi. Numărul a scăzut față de aproximativ 75 de școli în 2017, deci există o problemă reală de discutat; dar „nu au voie” descrie altceva decât ce se întâmplă. Cât despre rugăciune: Ucraina a interzis organizațiile afiliate bisericii ruse, în contextul agresiunii militare, nu practicarea ortodoxiei în limba română.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-diana-sosoaca-sustine-ca-romanii-din-ucraina-nu-pot-sa-invete-sau-sa-se-roage-in-limba-lor/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre românii din Ucraina</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„Suntem singurul stat din lume care și-a plătit vreodată datoria.”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">10 septembrie 2025, Metropola TV (min. 24:03), într-o discuție despre moștenirea lui Ceaușescu</p>
+              <p>Rusia și-a achitat integral datoria externă către Clubul de la Paris în august 2006 — circa 23,7 miliarde de dolari, cu patru ani înainte de termen, economisind peste 12 miliarde din dobânzi. Norvegia stă și mai bine: are active externe nete de peste 1.600 de miliarde de dolari prin fondul suveran, deci problema nici nu se pune. Iar în cazul României, datoria a fost stinsă până în 1989 prin austeritate și epuizarea rezervei de aur, cu un cost uriaș pentru populație.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-sosoaca-despre-plata-datoriei-externe/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea afirmației despre plata datoriei externe</span></a></div>
+            </div>
+            <div class="ev-item">
+              <p style="font-size:17px;line-height:1.45"><b>„fraudă pe bani europeni din despăgubirile pentru uciderea oilor, care nu a fost cerută de UE!”</b></p>
+              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">17 și 23 septembrie 2024, pe Facebook</p>
+              <p>Pesta micilor rumegătoare e recunoscută oficial în Regulamentul UE 429/2016, în anexa II, ca boală care cere măsuri de control și eradicare. Uciderea animalelor urmează proceduri legale (Regulamentul 1099/2009 și manualul operațional al României). Iar despăgubirile NU vin din bani europeni: se plătesc din bugetul de stat, prin Ministerul Agriculturii — deci acuzația de fraudă pe fonduri UE se sprijină pe o premisă care nu există.</p>
+              <p style="margin:0 0 10px"><span class="chip soft bad sm">unde bat probele: Contrazis</span></p>
+              <div class="ev-sources"><a href="https://www.factual.ro/declaratii/fals-diana-sosoaca-acuza-o-presupusa-frauda-pe-bani-europeni-pentru-pesta-ovina/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Factual.ro — verificarea acuzației privind despăgubirile pentru pesta ovină</span></a></div>
+            </div>
+          </section>
+          <div class="cards-3">
+          <a href="a/sosoaca-tribunal-ue-imunitate.html" class="card">
+            <div class="photo g-pol"><div class="art"><div class="glyph">⚖️</div></div><div class="grad"></div><div class="cat-pill">Politică</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Tribunalul UE respinge cererea Dianei Șoșoacă de suspendare a ridicării imunității</h3><p class="dek">Vicepreședintele Tribunalului UE a respins cererea de suspendare, dar procesul de fond privind anularea deciziei Parlamentului European…</p>
+              <div class="cmeta"><span>· 2026-08-07</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sosoaca-clip-ai-penitenciar.html" class="card">
+            <div class="photo g-soc"><div class="art"><div class="glyph">👥</div></div><div class="grad"></div><div class="cat-pill">Social</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Social</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Clipul cu Șoșoacă „gardian de penitenciar” peste Bolojan și Nicușor Dan este generat cu AI</h3><p class="dek">Un videoclip distribuit de filiala SOS Sibiu o arată pe Diana Șoșoacă drept gardian într-un penitenciar în care apar Ilie Bolojan, Nicușor…</p>
+              <div class="cmeta"><span>· 2026-08-07</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          </div>
+        </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <div class="fb">Fără <span class="amp">Baliverne</span></div>
+          <div class="dev">Apă, paie… Adevăr</div>
+          <p class="creed">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b> Fapt ≠ opinie. Agregăm știri din presa românească și internațională, le punem lângă probe și îți lăsăm ție ultima judecată.</p>
+        </div>
+        <div class="foot-cols">
+          <div>
+            <h5>Categorii</h5>
+            <ul>
+              <li><a href="index.html#politica">Politică</a></li>
+              <li><a href="index.html#economie">Economie</a></li>
+              <li><a href="index.html#extern">Extern</a></li>
+              <li><a href="index.html#social">Social</a></li>
+              <li><a href="index.html#sport">Sport</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Despre</h5>
+            <ul>
+              <li><a href="metodologie.html">Metodologie</a></li>
+              <li><a href="cine-suntem.html">Cine suntem</a></li>
+              <li><a href="corectari.html">Corectări</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="publicitate.html">Publicitate</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Cum stau probele</h5>
+            <ul>
+              <li>✅ Probat</li>
+              <li>⚠️ Contestat</li>
+              <li>❌ Contrazis</li>
+              <li>🔍 În verificare</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Fără Baliverne · farabaliverne.ro · Toate mărcile și logo-urile aparțin surselor citate.</span>
+        <span class="legal-links"><a href="termeni.html">Termeni</a> · <a href="confidentialitate.html">Confidențialitate</a> · <a href="corectari.html">Politica de corectare</a></span>
+      </div>
+    </div>
+  </footer>
+<script>
+(function(){
+  var U=location.href, T=(document.title||'Fără Baliverne').replace(/\s*[—-]\s*Fără Baliverne.*$/,'');
+  function e(s){return encodeURIComponent(s);}
+  function toast(m){var t=document.createElement('div');t.textContent=m;t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2f4234;color:#fff;padding:11px 18px;border-radius:12px;font:600 14px system-ui;z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.25)';document.body.appendChild(t);setTimeout(function(){t.style.transition='opacity .4s';t.style.opacity='0';},1700);setTimeout(function(){t.remove();},2200);}
+  window.gabeIt=function(){window.open('https://findgabe.app/?compose='+e(T+'\n'+U),'_blank','noopener');};
+  window.shareFB=function(){window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),'_blank','noopener,width=650,height=600');};
+  window.shareX=function(){window.open('https://twitter.com/intent/tweet?url='+e(U)+'&text='+e(T),'_blank','noopener,width=560,height=460');};
+  window.copyLink=function(){navigator.clipboard.writeText(U).then(function(){toast('Link copiat — dă-l mai departe!');});};
+  window.toggleLike=function(b){var k='fb_like_'+location.pathname,on=localStorage.getItem(k)!=='1';localStorage.setItem(k,on?'1':'0');b.style.background=on?'#a5372a':'';b.style.color=on?'#fff':'';if(on)toast('Mulțumim! ♥');};
+  window.subscribeNotify=function(){if(!('Notification'in window)){toast('Salvează-ne cu Ctrl+D 🔖');return;}Notification.requestPermission().then(function(p){toast(p==='granted'?'Gata! Te anunțăm la verificări noi.':'Salvează-ne cu Ctrl+D 🔖');});};
+  if(/\/a\//.test(location.pathname)){
+    var w=document.createElement('div');w.style.cssText='position:fixed;right:16px;bottom:16px;z-index:9997;display:flex;flex-direction:column;gap:8px;align-items:flex-end';
+    var row=document.createElement('div');row.style.cssText='display:flex;gap:8px';
+    function rnd(txt,fn,bg,fs){var b=document.createElement('button');b.innerHTML=txt;b.onclick=fn;b.style.cssText='width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;color:#fff;background:'+bg+';box-shadow:0 6px 16px rgba(0,0,0,.28);font:700 '+fs+' system-ui';return b;}
+    row.appendChild(rnd('f',window.shareFB,'#1877f2','18px'));
+    row.appendChild(rnd('𝕏',window.shareX,'#000','16px'));
+    var g=document.createElement('button');g.innerHTML='⚡ Gabe it';g.onclick=window.gabeIt;g.style.cssText='padding:12px 18px;border:none;border-radius:30px;cursor:pointer;color:#fff;background:linear-gradient(135deg,#2f8a49,#1f6a37);box-shadow:0 8px 22px rgba(47,138,73,.4);font:800 15px system-ui';
+    w.appendChild(row);w.appendChild(g);document.body.appendChild(w);
+  }
+})();
+</script>
+<script>
+(function(){
+  var el=document.querySelector('.topbar .live'); if(!el) return;
+  var MAP={'Bucharest':'București','Chisinau':'Chișinău','Timisoara':'Timișoara','Iasi':'Iași'};
+  function emo(c){if(c===0)return'☀️';if(c<=3)return'⛅';if(c<=48)return'🌫️';if(c<=67)return'🌧️';if(c<=77)return'❄️';if(c<=82)return'🌦️';return'⛈️';}
+  var tz=''; try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+  var city=((tz.split('/').pop()||'').replace(/_/g,' ')); city=MAP[city]||city||'';
+  var wx='';
+  function paint(){var t=new Date().toLocaleTimeString('ro-RO',{hour:'2-digit',minute:'2-digit'});el.innerHTML='<span class="dot"></span> '+city+' · '+t+wx;}
+  if(city){paint(); setInterval(paint,30000);}
+  try{
+    fetch('https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(city)+'&count=1&language=ro').then(function(r){return r.json();}).then(function(g){
+      if(!g.results||!g.results[0])return; var o=g.results[0];
+      return fetch('https://api.open-meteo.com/v1/forecast?latitude='+o.latitude+'&longitude='+o.longitude+'&current=temperature_2m,weather_code');
+    }).then(function(r){return r&&r.json();}).then(function(w){ if(w&&w.current){wx=' · '+emo(w.current.weather_code)+' '+Math.round(w.current.temperature_2m)+'°'; paint();} }).catch(function(){});
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

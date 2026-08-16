@@ -56,6 +56,10 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Secțiunea „Cloșcu cu Puii de AUR" — fișe de persoană + afirmațiile
+          # lor verificate. E pornită explicit, nu implicit: vizează oameni
+          # numiți, deci publicarea rămâne o decizie luată în clar.
+          CLOSCU_ENABLED: "1"
         run: |
           git config user.name "Fara Baliverne Bot"
           git config user.email "bot@farabaliverne.ro"
