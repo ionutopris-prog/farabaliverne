@@ -1,0 +1,45 @@
+{
+  "slug": "arabia-saudita-neom-hidrogen-verde-finalizare",
+  "title": "Arabia Saudită anunță finalizarea construcției celei mai mari uzine de hidrogen verde din lume, la NEOM — o investiție de 8,5 miliarde de dolari, cu exporturi comerciale abia din 2027",
+  "category": "Economie",
+  "date": "2026-08-16",
+  "source": "SolarQuarter, Interesting Engineering, Offshore Energy, IndexBox",
+  "url": "https://solarquarter.com/2026/08/13/saudi-arabia-completes-8-5-billion-green-hydrogen-plant-in-neom/",
+  "dek": "Compania NEOM Green Hydrogen (joint-venture ACWA Power, Air Products și NEOM, deținută de fondul suveran saudit PIF) a anunțat pe 13 august 2026 finalizarea construcției complexului de hidrogen verde de la Oxagon, în cadrul megaproiectului NEOM — o investiție de 8,4-8,5 miliarde de dolari, prezentată de companie și de presa de specialitate drept „cea mai mare uzină de hidrogen verde din lume”, cu o capacitate țintă de 600 de tone de hidrogen pe zi. Instalația intră acum în faza de punere în funcțiune; exporturile comerciale de amoniac verde sunt programate abia pentru 2027.",
+  "mainVerdict": "Probat parțial — finalizarea construcției și cifrele tehnice (investiție, capacitate, parteneri) sunt confirmate convergent de mai multe publicații de specialitate independente; eticheta „cea mai mare din lume” rămâne o afirmație a proiectului însuși, nepusă în competiție directă cu un clasament independent",
+  "probat": [
+    {
+      "text": "NEOM Green Hydrogen Company — joint-venture între ACWA Power, Air Products și NEOM — a finalizat construcția complexului de hidrogen verde din zona industrială Oxagon, parte a megaproiectului NEOM din provincia Tabuk, Arabia Saudită. Investiția totală este de aproximativ 8,4-8,5 miliarde de dolari.",
+      "sources": [
+        {"name": "SolarQuarter — Saudi Arabia Completes $8.5 Billion Green Hydrogen Plant In NEOM", "url": "https://solarquarter.com/2026/08/13/saudi-arabia-completes-8-5-billion-green-hydrogen-plant-in-neom/"},
+        {"name": "IndexBox — World's Largest Green Hydrogen Plant at NEOM Enters Commissioning Phase", "url": "https://www.indexbox.io/blog/acwa-power-and-air-products-complete-construction-of-neom-green-hydrogen-plant/"}
+      ]
+    },
+    {
+      "text": "Instalația va folosi o rețea integrată de energie regenerabilă (solar și eolian), dimensionată la până la 4 GW, pentru a alimenta electrolizoarele. Capacitatea țintă este de până la 600 de tone de hidrogen fără carbon pe zi, care va fi convertit în amoniac verde pentru a fi mai ușor de depozitat și transportat pe distanțe lungi.",
+      "sources": [
+        {"name": "Interesting Engineering — 600 tons per day: World's largest green hydrogen facility nears commissioning", "url": "https://interestingengineering.com/energy/green-hydrogen-ammonia-complex-construction"},
+        {"name": "SolarQuarter — Saudi Arabia Completes $8.5 Billion Green Hydrogen Plant In NEOM", "url": "https://solarquarter.com/2026/08/13/saudi-arabia-completes-8-5-billion-green-hydrogen-plant-in-neom/"}
+      ]
+    },
+    {
+      "text": "Finalizarea infrastructurii de energie regenerabilă e programată pentru mijlocul anului 2026, urmată de continuarea punerii în funcțiune a electrolizoarelor; primele exporturi comerciale de amoniac verde sunt țintite pentru 2027 — proiectul se încadrează în strategia saudită Vision 2030, de reducere a dependenței de petrol.",
+      "sources": [
+        {"name": "SolarQuarter — Saudi Arabia Completes $8.5 Billion Green Hydrogen Plant In NEOM", "url": "https://solarquarter.com/2026/08/13/saudi-arabia-completes-8-5-billion-green-hydrogen-plant-in-neom/"},
+        {"name": "Offshore Energy — World's 'largest' green hydrogen plant construction reaches 80% completion", "url": "https://www.offshore-energy.biz/worlds-largest-green-hydrogen-plant-construction-reaches-80-completion/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Eticheta „cea mai mare uzină de hidrogen verde din lume” este vehiculată de compania NEOM Green Hydrogen și reluată necritic de majoritatea publicațiilor de specialitate citate — nu am găsit o comparație independentă, verificată de un organism terț, cu alte proiecte de hidrogen verde aflate în construcție la nivel mondial la data verificării. Cifrele tehnice (investiție, capacitate, parteneri) sunt totuși consistente între surse independente.",
+      "sources": [
+        {"name": "IndexBox — World's Largest Green Hydrogen Plant at NEOM Enters Commissioning Phase", "url": "https://www.indexbox.io/blog/acwa-power-and-air-products-complete-construction-of-neom-green-hydrogen-plant/"},
+        {"name": "Offshore Energy — World's 'largest' green hydrogen plant construction reaches 80% completion", "url": "https://www.offshore-energy.biz/worlds-largest-green-hydrogen-plant-construction-reaches-80-completion/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🤖 Cifrele tehnice ale proiectului sunt confirmate convergent de mai multe publicații de specialitate independente de NEOM, dar eticheta „cea mai mare din lume” rămâne o afirmație de marketing a proiectului, nepusă alături de un clasament terț — am marcat explicit această limită la secțiunea „Contestat”, fără să respingem cifrele tehnice care sunt consistente între surse.",
+  "persoane": []
+}
