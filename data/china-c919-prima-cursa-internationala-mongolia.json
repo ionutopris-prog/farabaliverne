@@ -1,0 +1,91 @@
+{
+  "slug": "china-c919-prima-cursa-internationala-mongolia",
+  "title": "Avionul chinezesc C919 a zburat prima cursă comercială internațională — dar rămâne fără certificare occidentală și fără motor propriu",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "Caixin Global",
+  "url": "https://www.caixinglobal.com/2026-08-14/chinas-c919-completes-first-scheduled-international-commercial-flight-102473917.html",
+  "dek": "Pe 12 august 2026, un C919 al Air China a zburat de la Beijing la Ulaanbaatar (Mongolia) — prima cursă internațională programată a avionului „made in China”, prezentată de presa chineză drept un moment istoric pentru COMAC. Ce rămâne neschimbat: aeronava n-are încă certificare de la autoritățile occidentale (EASA/FAA), circa 85% din piese vin din import, iar motorul e american-francez.",
+  "mainVerdict": "Probat, cu rezerve majore",
+  "probat": [
+    {
+      "text": "Miercuri, 12 august 2026, zborul CA723 al Air China, operat cu o aeronavă C919 construită de COMAC (Commercial Aircraft Corporation of China), a decolat de pe Aeroportul Internațional Beijing Capital și a aterizat pe Aeroportul Internațional Chinggis Khaan din Ulaanbaatar, capitala Mongoliei — prima cursă comercială internațională programată a modelului.",
+      "sources": [
+        {
+          "name": "Caixin Global — China's C919 Completes First Scheduled International Commercial Flight",
+          "url": "https://www.caixinglobal.com/2026-08-14/chinas-c919-completes-first-scheduled-international-commercial-flight-102473917.html"
+        },
+        {
+          "name": "TechTimes — Air China C919 Lands in Mongolia Using Bilateral Airworthiness Workaround",
+          "url": "https://www.techtimes.com/articles/324213/20260812/air-china-c919-lands-mongolia-using-bilateral-airworthiness-workaround.htm"
+        }
+      ]
+    },
+    {
+      "text": "Ruta Beijing–Ulaanbaatar urmează să opereze zilnic, dus-întors, sub același număr de zbor CA723/4. Până la acest zbor, C919 acumulase peste 12.000 de zboruri interne și transportase circa 1,6 milioane de pasageri, pe peste 10 rute domestice din China.",
+      "sources": [
+        {
+          "name": "Caixin Global — China's C919 Completes First Scheduled International Commercial Flight",
+          "url": "https://www.caixinglobal.com/2026-08-14/chinas-c919-completes-first-scheduled-international-commercial-flight-102473917.html"
+        }
+      ]
+    },
+    {
+      "text": "Zborul a fost posibil printr-o „recunoaștere bilaterală de navigabilitate” — Mongolia acceptă certificarea de tip emisă de autoritatea chineză (CAAC) pentru acest avion, fără a necesita aprobarea autorităților occidentale. Este exact strategia pe care COMAC o folosește pentru a-și construi treptat un istoric de operare internațională, țară cu țară.",
+      "sources": [
+        {
+          "name": "TechTimes — Air China C919 Lands in Mongolia Using Bilateral Airworthiness Workaround",
+          "url": "https://www.techtimes.com/articles/324213/20260812/air-china-c919-lands-mongolia-using-bilateral-airworthiness-workaround.htm"
+        },
+        {
+          "name": "AirInsight — COMAC C919 Completes First International Flight to Mongolia",
+          "url": "https://airinsight.com/comac-c919-completes-first-international-flight-to-mongolia/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "C919 nu are, la această dată, certificare de la Agenția Europeană de Siguranță a Aviației (EASA) sau de la autoritatea americană (FAA) — cele două organisme ale căror aprobări deschid, în practică, majoritatea piețelor occidentale. Procesul de certificare EASA este în desfășurare, dar termenul estimat de finalizare este 2028–2031. Până atunci, C919 rămâne, practic, izolat de Europa și SUA ca piață comercială.",
+      "sources": [
+        {
+          "name": "AirInsight — COMAC C919 Completes First International Flight to Mongolia",
+          "url": "https://airinsight.com/comac-c919-completes-first-international-flight-to-mongolia/"
+        },
+        {
+          "name": "TechTimes — Air China C919 Lands in Mongolia Using Bilateral Airworthiness Workaround",
+          "url": "https://www.techtimes.com/articles/324213/20260812/air-china-c919-lands-mongolia-using-bilateral-airworthiness-workaround.htm"
+        }
+      ]
+    },
+    {
+      "text": "Eticheta „avion chinezesc made in China” trece cu vederea o dependență structurală: aproximativ 85% din piesele C919 provin din import, aproape jumătate din SUA. Cel mai important component occidental este chiar motorul — CFM LEAP-1C, produs de CFM International (un joint-venture General Electric/Safran), care reprezintă circa 30% din costul de producție al avionului; fără el, COMAC nu poate construi sau zbura niciun C919. Alți furnizori-cheie: Parker Aerospace (SUA) pentru sistemele hidraulice și de comandă a zborului, Liebherr-Aerospace (Germania/Elveția) pentru trenul de aterizare, GE Aerospace pentru o mare parte din avionică.",
+      "sources": [
+        {
+          "name": "SimpleFlying — 5 Major Western Suppliers For The COMAC C919",
+          "url": "https://simpleflying.com/comac-c919-western-suppliers-list/"
+        }
+      ]
+    },
+    {
+      "text": "Această dependență s-a văzut concret în 2025: SUA a suspendat temporar licențele de export pentru motoarele LEAP-1C, iar chiar dacă blocajul a fost ridicat rapid, a dat peste cap calendarul de producție al COMAC. Rezultat: doar 16 aeronave livrate în 2025, sub ținta anunțată de 50 de aeronave pe an — un blocaj în lanțul de aprovizionare care explică ritmul lent de extindere a flotei, în ciuda anunțurilor despre „milestone”-uri istorice. China dezvoltă un motor propriu, CJ-1000A, dar acesta nu este așteptat să fie gata înainte de 2030.",
+      "sources": [
+        {
+          "name": "DefenseTalks — U.S. Export Halt Leaves China's C919 Airliner Without Engines",
+          "url": "https://defensetalks.com/u-s-export-halt-leaves-chinas-c919-airliner-without-engines/"
+        },
+        {
+          "name": "Caixin Global — China's C919 Completes First Scheduled International Commercial Flight",
+          "url": "https://www.caixinglobal.com/2026-08-14/chinas-c919-completes-first-scheduled-international-commercial-flight-102473917.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cât de „revoluționar” e acest pas rămâne o chestiune de interpretare. Presa apropiată de statul chinez și unele publicații specializate îl prezintă drept un „milestone” pentru ambiția Chinei de a rivaliza cu duopolul Boeing–Airbus. Analize occidentale (AirData News, Briefs) văd însă în ruta Beijing–Ulaanbaatar — scurtă, cu trafic redus, aleasă tocmai pentru că nu necesită aprobare occidentală — „un pas simbolic, nu o descoperire” comercială reală. Ambele sunt interpretări ale acelorași fapte, nu un verdict stabilit."
+    }
+  ],
+  "aiNote": "Dovezile arată clar că zborul a avut loc așa cum a fost relatat: primul zbor comercial internațional programat al unui C919, pe ruta Beijing–Ulaanbaatar, pe 12 august 2026. Contextul care lipsește adesea din titlurile entuziaste: avionul nu are certificare occidentală (EASA/FAA), depinde masiv de componente și motor produse în SUA/Europa, iar producția a fost recent perturbată chiar de o restricție americană la export de motoare. Cititorul poate cântări singur cât de „istoric” e pasul, având ambele seturi de fapte alături.",
+  "persoane": []
+}
