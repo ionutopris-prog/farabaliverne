@@ -1,0 +1,45 @@
+{
+  "slug": "bayern-frauen-supercup-wolfsburg-3-0",
+  "title": "Bayern München a câștigat al treilea Supercup feminin consecutiv, 3-0 cu VfL Wolfsburg",
+  "category": "Sport",
+  "date": "2026-08-16",
+  "source": "Sportschau / Kicker",
+  "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html",
+  "dek": "Sâmbătă, 15 august 2026, la Ingolstadt, echipa feminină a lui Bayern München a învins-o pe VfL Wolfsburg cu 3-0 în finala Supercupului german, al treilea trofeu consecutiv de acest fel pentru bavaroaice. Golurile au fost marcate de Jovana Damnjanović (min. 33) și Klara Bühl (min. 45+4 și 46).",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Bayern München a învins-o pe VfL Wolfsburg cu scorul de 3-0, sâmbătă, 15 august 2026, în finala Supercupului feminin german (Google Pixel Supercup der Frauen 2026), disputată pe stadionul din Ingolstadt. A fost al treilea trofeu Supercup câștigat consecutiv de echipa feminină a lui Bayern.",
+      "sources": [
+        {"name": "Sportschau — FC Bayerns Frauen holen Supercup, Wolfsburg ohne Chance", "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html"},
+        {"name": "Bulinews — Bühl brace as Bayern thump Wolfsburg to win Frauen-Supercup", "url": "https://bulinews.com/buhl-brace-bayern-thump-wolfsburg-win-frauen-supercup"}
+      ]
+    },
+    {
+      "text": "Golurile au fost marcate de Jovana Damnjanović (minutul 33) și de Klara Bühl, autoare a unui „dublu” în jurul pauzei (minutele 45+4 și 46). Portărița Wolfsburgului, Stina Johannes, a fost criticată în presa germană pentru evoluția la primele două goluri.",
+      "sources": [
+        {"name": "Bulinews — marcatoarele și minutele golurilor", "url": "https://bulinews.com/buhl-brace-bayern-thump-wolfsburg-win-frauen-supercup"},
+        {"name": "T-Online — Supercup der Frauen: FC Bayern besiegt Wolfsburg", "url": "https://www.t-online.de/sport/fussball/id_101390580/supercup-der-frauen-fc-bayern-besiegt-wolfsburg-und-holt-ersten-titel.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Circumstanțele exacte ale primului gol rămân neclare: unele relatări îl descriu drept o reușită a Damnjanović după o centrare/lovitură liberă a lui Bühl, altele notează că mingea a ajuns în poartă după ce portărița Johannes a intrat cu mingea peste linie, în urma unei coliziuni cu bara — o fază pe care arbitrajul video a validat-o drept gol pentru Damnjanović, nu autogol.",
+      "sources": [
+        {"name": "Sportschau — descrierea fazei primului gol", "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html"},
+        {"name": "T-Online — verdictul VAR pe faza primului gol", "url": "https://www.t-online.de/sport/fussball/id_101390580/supercup-der-frauen-fc-bayern-besiegt-wolfsburg-und-holt-ersten-titel.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Al treilea trofeu la rând, dintr-un istoric de trei ediții",
+    "explanation": "Supercupul feminin german a fost reluat în 2024, după 27 de ani de întrerupere. Cu victoria din 15 august 2026, Bayern a câștigat toate cele trei ediții organizate de la reluare — adică 100% dintre trofeele disputate de când competiția a revenit."
+  },
+  "aiNote": "Scorul, marcatoarele și locul disputării sunt confirmate concordant de Sportschau, Kicker/Bulinews și T-Online. Am marcat drept „contestat” doar detaliul tehnic al fazei primului gol, unde descrierile diferă ușor între redacții — scorul final și rezultatul competiției nu sunt afectate de această diferență.",
+  "persoane": [
+    "Jovana Damnjanović",
+    "Klara Bühl"
+  ]
+}
