@@ -330,6 +330,175 @@ def build_politicieni(arts, shell):
     h = h.replace('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')
     return h, len(with_a), len(without)
 
+def build_closcu(arts, shell):
+    """
+    „Cloșcu cu Puii de AUR" — fișe de persoană + verificările fiecăruia.
+
+    E pagină-hub, NU categorie: un articol despre procesul lui Georgescu e
+    legitim la Politică și trebuie să rămână acolo. Aici e adunat după
+    `persoane[]`, exact ca pagina Politicieni — deci un articol apare în ambele
+    locuri fără să fie mutat.
+    """
+    # Comutator, ca la Debate pe GABE: secțiunea se construiește doar când e
+    # pornită explicit. E cel mai sensibil conținut de pe site — vizează oameni
+    # numiți — deci publicarea rămâne o decizie luată o dată, în clar, nu ceva
+    # care se întâmplă fiindcă a rulat botul.
+    #     CLOSCU_ENABLED=1 python3 scripts/build_site.py
+    if os.environ.get("CLOSCU_ENABLED", "").strip() not in ("1", "true", "da"):
+        return None
+    fise_path = os.path.join(ROOT, "data", "_fise-closcu.json")
+    if not os.path.exists(fise_path):
+        return None
+    F = json.load(open(fise_path, encoding="utf-8"))
+
+    byp = {}
+    for d in arts.values():
+        for p in (d.get("persoane") or []):
+            byp.setdefault(p, []).append(d)
+
+    def fisa(o):
+        col = o.get("culoare", "#8a6b1f")
+        lst = sorted(byp.get(o["nume"], []), key=lambda d: d.get("date", ""), reverse=True)
+        rows = ""
+        for c in o.get("cv", []):
+            srcs = "".join(
+                f'<a href="{s["url"]}" target="_blank" rel="noopener noreferrer">'
+                f'<span class="fav" style="background:#556050"></span>'
+                f'<span class="lbl">{s["name"]}</span></a>' for s in c.get("surse", []))
+            rows += (f'            <div class="ev-item">\n'
+                     f'              <p><b style="color:{col}">{c["k"]}.</b> {c["v"]}</p>\n'
+                     f'              <div class="ev-sources">{srcs}</div>\n'
+                     f'            </div>\n')
+        # Afirmațiile publice — miezul secțiunii. NU numărăm cât au muncit:
+        # o sută de proiecte co-semnate nu spun nimic despre om. Ce spune ceva e
+        # ce a susținut în public și dacă se susține când pui documentele lângă.
+        afirm = ""
+        for a in o.get("afirmatii", []):
+            srcs = "".join(
+                f'<a href="{s["url"]}" target="_blank" rel="noopener noreferrer">'
+                f'<span class="fav" style="background:#556050"></span>'
+                f'<span class="lbl">{s["name"]}</span></a>' for s in a.get("surse", []))
+            afirm += (
+                f'            <div class="ev-item">\n'
+                f'              <p style="font-size:17px;line-height:1.45"><b>{a["afirmatie"]}</b></p>\n'
+                f'              <p style="font-size:13px;color:var(--ink-faint);margin:-4px 0 10px">'
+                f'{a["unde"]}</p>\n'
+                f'              <p>{a["dovezi"]}</p>\n'
+                f'              <p style="margin:0 0 10px"><span class="chip soft bad sm">'
+                f'unde bat probele: {a["unde_bat"]}</span></p>\n'
+                f'              <div class="ev-sources">{srcs}</div>\n'
+                f'            </div>\n')
+        if afirm:
+            afirm = (f'          <section class="ev-block contestat" style="border-left-color:#c23b2e">\n'
+                     f'            <h2>🗣️ Ce a susținut public</h2>\n'
+                     f'            <p class="ev-sub">Afirmația, unde a spus-o, și ce arată documentele. '
+                     f'Nu spunem că a mințit — arătăm de ce nu se susține.</p>\n{afirm}'
+                     f'          </section>\n')
+
+        # Citate din propriile cărți. Cea mai solidă dovadă care există: nu e
+        # „scos din context" și nu i-a fost atribuit de altcineva — a scris-o,
+        # a publicat-o sub numele lui, se poate cumpăra și verifica.
+        c = o.get("carte")
+        if c:
+            cit = ""
+            for q in c["citate"]:
+                cit += (f'            <div class="ev-item">\n'
+                        f'              <p style="font-family:Georgia,serif;font-size:17.5px;'
+                        f'line-height:1.5">{q["text"]}</p>\n'
+                        f'              <p style="font-size:13.5px;color:var(--ink-soft);margin:0">'
+                        f'↳ {q["nota"]}</p>\n'
+                        f'            </div>\n')
+            srcs = "".join(
+                f'<a href="{s["url"]}" target="_blank" rel="noopener noreferrer">'
+                f'<span class="fav" style="background:#556050"></span>'
+                f'<span class="lbl">{s["name"]}</span></a>'
+                for s in c["surse"] + [c["catalog"]])
+            afirm += (f'          <section class="ev-block neverificabil">\n'
+                      f'            <h2>📕 Din cartea lui: {c["titlu"]}</h2>\n'
+                      f'            <p class="ev-sub">{c["detalii"]}</p>\n{cit}'
+                      f'            <div class="ev-sources" style="margin-top:14px">{srcs}</div>\n'
+                      f'          </section>\n')
+
+        # Convingerile se ARATĂ, nu se notează. „România e o poartă între
+        # dimensiuni" nu se poate infirma — e credință, nu afirmație verificabilă.
+        # Dacă am pune ștampila „Contrazis" pe ea, ne-am pierde dreptul de a o
+        # pune acolo unde chiar contează: pe cifre.
+        for c in o.get("credinte", []):
+            afirm += (f'          <section class="ev-block opinie">\n'
+                      f'            <h2>💬 Convingeri, nu afirmații verificabile</h2>\n'
+                      f'            <div class="opinie-item">{c["text"]}</div>\n'
+                      f'          </section>\n')
+
+        carduri = ("".join(pcard_json(d) for d in lst).rstrip("\n")
+                   if lst else
+                   '          <p style="color:var(--ink-faint);font-size:14px">'
+                   'Încă nu avem o verificare publicată despre această persoană. '
+                   'Când apare una, se adaugă automat aici.</p>')
+        return (
+            f'        <section class="cat-section" id="{anchor(o["nume"])}">\n'
+            f'          <div class="section-head"><h2>{o["nume"]} '
+            f'<span style="font-size:12.5px;font-weight:700;color:#fff;background:{col};'
+            f'padding:2px 9px;border-radius:20px;vertical-align:middle">{o["rol"]}</span> '
+            f'<span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· '
+            f'{len(lst)} verificări</span></h2></div>\n'
+            f'          <p style="max-width:70ch;color:var(--ink-soft);font-size:15px;'
+            f'margin:0 0 16px">{o["sumar"]}</p>\n'
+            f'          <section class="ev-block probat" style="border-left-color:{col}">\n'
+            f'            <h2>📋 Fișa</h2>\n'
+            f'            <p class="ev-sub">Numai fapte cu sursă. Fără viață privată.</p>\n{rows}'
+            f'          </section>\n{afirm}'
+            f'          <div class="cards-3">\n{carduri}\n          </div>\n'
+            f'        </section>\n')
+
+    def chip(o):
+        col = o.get("culoare", "#8a6b1f"); c = len(byp.get(o["nume"], []))
+        return (f'      <a href="#{anchor(o["nume"])}" style="display:flex;gap:11px;align-items:center;'
+                f'text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);'
+                f'border-radius:13px;padding:11px 13px">'
+                f'<span style="flex:0 0 40px;height:40px;border-radius:50%;background:{col};color:#fff;'
+                f'display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">'
+                f'{initials(o["nume"])}</span>'
+                f'<span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;'
+                f'line-height:1.2">{o["nume"]}</span>'
+                f'<span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px">'
+                f'<b style="color:{col}">{o["rol"]}</b> · {c} verificări</span></span></a>')
+
+    grid = "\n".join(chip(o) for o in F["oameni"])
+    secs = "".join(fisa(o) for o in F["oameni"])
+    main = (
+        f'    <div class="wrap" style="max-width:1120px;margin:0 auto;padding:0 20px">\n'
+        f'      <div style="padding:30px 0 6px">\n'
+        f'        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 4px">{F["titlu"]}</h1>\n'
+        f'        <p style="font-family:Georgia,serif;font-style:italic;color:var(--accent);'
+        f'font-size:17px;margin:0 0 14px">{F["subtitlu"]}</p>\n'
+        f'        <p style="max-width:70ch;color:var(--ink-soft);font-size:16px;line-height:1.55">'
+        f'{F["intro"]}</p>\n'
+        f'      </div>\n'
+        f'      <section class="ai-note" style="margin:18px 0 8px">\n'
+        f'        <h2>⚖️ Cum lucrăm aici</h2>\n'
+        f'        <p>{F["metoda"]}</p>\n'
+        f'      </section>\n'
+        f'      <p style="max-width:70ch;color:var(--ink-faint);font-size:13.5px;'
+        f'margin:0 0 20px">{F["denumire"]}</p>\n'
+        f'      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));'
+        f'gap:10px;margin:14px 0 34px">\n{grid}\n      </div>\n{secs}    </div>')
+
+    h = re.sub(r'<main>.*?</main>', lambda m: "<main>\n" + main + "\n  </main>", shell, count=1, flags=re.S)
+    h = h.replace("<title>Fără Baliverne — Apă, paie… Adevăr</title>",
+                  f'<title>{F["titlu"]} — Fără Baliverne</title>')
+    for a, b in (('<link rel="canonical" href="https://farabaliverne.ro/">',
+                  '<link rel="canonical" href="https://farabaliverne.ro/closcu.html">'),
+                 ('<meta property="og:url" content="https://farabaliverne.ro/">',
+                  '<meta property="og:url" content="https://farabaliverne.ro/closcu.html">'),
+                 ('<meta property="og:title" content="Fără Baliverne — Apă, paie… Adevăr">',
+                  f'<meta property="og:title" content="{F["titlu"]} — Fără Baliverne">'),
+                 ('<meta name="twitter:title" content="Fără Baliverne — Apă, paie… Adevăr">',
+                  f'<meta name="twitter:title" content="{F["titlu"]} — Fără Baliverne">'),
+                 ('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')):
+        h = h.replace(a, b)
+    return h
+
+
 def build_search_page(arts, shell):
     """Pagină de căutare client-side (filtrează toate articolele după cuvinte)."""
     idx = []
@@ -432,19 +601,40 @@ def main():
     pol, nwith, nwithout = build_politicieni(arts, shell)
     open(os.path.join(ROOT, "politicieni.html"), "w", encoding="utf-8").write(pol)
     open(os.path.join(ROOT, "cauta.html"), "w", encoding="utf-8").write(build_search_page(arts, shell))
+    # 2c. Cloșcu cu Puii de AUR (fișe + verificări pe persoană)
+    closcu = build_closcu(arts, shell)
+    if closcu:
+        open(os.path.join(ROOT, "closcu.html"), "w", encoding="utf-8").write(closcu)
     # 2b. sitemap.xml (toate articolele + hub) pentru Google
     nsitemap = build_sitemap(arts)
     # 3. count pe toate paginile
     pages = [IDX] + glob.glob(os.path.join(ROOT,"a","*.html")) + \
-            [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html")]
+            [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html",
+                                            "closcu.html")]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
     hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html"),
-           os.path.join(ROOT,"cauta.html")}
+           os.path.join(ROOT,"cauta.html"), os.path.join(ROOT,"closcu.html")}
     for f in pages:
         if not os.path.exists(f): continue
         s = open(f, encoding="utf-8").read(); orig = s
         s = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
+        # Linkul spre Cloșcu, pe TOATE paginile. Se injectează aici, nu în
+        # șablon: articolele noi le scrie botul după `a/legea-integritatii...`,
+        # care n-are linkul — altfel ar lipsi de pe tot ce se publică de acum.
+        # Garda caută LINKUL, nu numele fișierului: pe closcu.html numele apare
+        # deja în canonical + og:url, deci un test pe „closcu.html" ar sări
+        # exact pagina care are cea mai mare nevoie de link în navigație.
+        if closcu and 'closcu.html">Cloșcu' not in s:
+            for pref in ("", "../"):
+                s = s.replace(
+                    f'<a href="{pref}politicieni.html">Politicieni</a>',
+                    f'<a href="{pref}politicieni.html">Politicieni</a>\n'
+                    f'      <a href="{pref}closcu.html">Cloșcu cu Puii de AUR</a>')
+        elif not closcu:
+            # Comutatorul e stins: scoatem linkul, altfel rămâne din build-urile
+            # anterioare și trimite cititorii într-un 404.
+            s = re.sub(r'\n?\s*<a href="(?:\.\./)?closcu\.html">Cloșcu cu Puii de AUR</a>', "", s)
         if f in hub:  # data + „ediția de X" pe paginile-hub (după momentul publicării)
             s = date_re.sub(lambda m: m.group(1) + tb + m.group(2), s)
         # Articol: poza proprie la share (og:image) + date structurate (SEO)
