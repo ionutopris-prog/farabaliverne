@@ -1,0 +1,60 @@
+{
+  "slug": "ucraina-atac-wildberries-koledino-moscova-16-august",
+  "title": "Ucraina a lovit cu drone cel mai mare depozit Wildberries din Rusia, la Koledino — atac descris de oficialii ruși drept unul dintre cele mai ample asupra regiunii Moscova",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "The Moscow Times / Kyiv Independent",
+  "url": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506",
+  "dek": "În noaptea de 15 spre 16 august 2026, drone ucrainene au lovit depozitul Wildberries de la Koledino — cel mai mare și mai vechi centru de sortare al celui mai mare retailer online din Rusia — plus alte instalații din regiunea Moscova. Guvernatorul regiunii vorbește despre unul dintre cele mai ample atacuri de acest fel; un bărbat de 83 de ani a murit la Podolsk. Cifrele despre câte drone au fost interceptate vin exclusiv de la oficiali ruși și nu sunt verificate independent.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "În noaptea de 15 spre 16 august 2026, drone ucrainene au lovit mai multe localități din regiunea Moscova, printre care Koledino, Domodedovo, Podolsk, Stupino, Odințovo, Naro-Fominsk, Ramenskoe, Cehov, Kolomna, Kașira și Egorievsk. La Koledino a luat foc depozitul Wildberries — cel mai mare și mai vechi centru de sortare al companiei, cu peste 200.000 m², unde mii de angajați procesează până la 3 milioane de produse pe zi.",
+      "sources": [
+        { "name": "The Moscow Times — Ukrainian Drones Strike Moscow Region, Killing One", "url": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506" },
+        { "name": "Kyiv Independent — Ukrainian forces target Moscow Oblast, damaging Wildberries warehouse", "url": "https://kyivindependent.com/ukrainian-forces-target-moscow-oblast-damaging-wildberries-warehouse-in-major-attack/" }
+      ]
+    },
+    {
+      "text": "Un bărbat de 83 de ani a murit la Podolsk, potrivit guvernatorului regiunii Moscova, Andrei Vorobiov, care a numit atacul unul dintre cele mai ample de acest fel asupra regiunii din ultima vreme. Au fost raportate și pagube la un complex de producție și logistică din Domodedovo, aproape de unul dintre aeroporturile principale ale Moscovei.",
+      "sources": [
+        { "name": "The Moscow Times — victima de la Podolsk și declarația lui Vorobiov", "url": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506" },
+        { "name": "Kyiv Independent — pagubele de la Domodedovo", "url": "https://kyivindependent.com/ukrainian-forces-target-moscow-oblast-damaging-wildberries-warehouse-in-major-attack/" }
+      ]
+    },
+    {
+      "text": "Ucraina vizează depozitele Wildberries într-o campanie începută pe 18 iulie 2026, ca parte a strategiei de „sancțiuni pe rază lungă” asupra infrastructurii economice pe care Kievul o consideră legată de efortul militar rus. Până pe 13 august 2026, cel puțin 21 de depozite Wildberries fuseseră lovite, distrugând circa 27% din capacitatea totală de depozitare a companiei (peste 1,5 milioane m²); Wildberries listează pe platforma sa, printre altele, componente de drone și veste antiglonț, iar divizia sa bancară a fost sancționată de UE în iulie 2026.",
+      "sources": [
+        { "name": "Wikipedia (agregare surse) — Ukrainian strikes on Wildberries warehouses", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" },
+        { "name": "Kyiv Independent — legătura Wildberries cu echipamentul militar și sancțiunile UE", "url": "https://kyivindependent.com/ukrainian-forces-target-moscow-oblast-damaging-wildberries-warehouse-in-major-attack/" }
+      ]
+    },
+    {
+      "text": "Depozitul de la Koledino mai fusese lovit anterior, pe 20 și pe 28 iulie 2026 — atacul din 16 august este a treia lovitură asupra aceleiași instalații în decurs de o lună.",
+      "sources": [
+        { "name": "Wikipedia (agregare surse) — istoricul loviturilor asupra depozitului de la Koledino", "url": "https://en.wikipedia.org/wiki/Ukrainian_strikes_on_Wildberries_warehouses" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifrele privind amploarea atacului diferă și vin exclusiv de la oficiali ruși, fără o verificare independentă: guvernatorul Vorobiov a vorbit despre 187 de drone interceptate în regiune, primarul Moscovei Serghei Sobianin a susținut că spre regiune s-ar fi îndreptat circa 600 de drone, din care 201 interceptate, iar Ministerul rus al Apărării a raportat interceptarea a 822 de drone ucrainene în toată Rusia peste noapte. Ucraina nu a confirmat sau infirmat public aceste cifre la ora verificării.",
+      "sources": [
+        { "name": "Kyiv Independent — cifrele contradictorii ale oficialilor ruși privind dronele interceptate", "url": "https://kyivindependent.com/ukrainian-forces-target-moscow-oblast-damaging-wildberries-warehouse-in-major-attack/" }
+      ]
+    },
+    {
+      "text": "Nu este clar dacă bărbatul de 83 de ani mort la Podolsk a murit direct din cauza atacului asupra depozitului Wildberries sau a altei lovituri din aceeași noapte de bombardament — sursele leagă decesul de „regiunea Moscova”, fără să precizeze o cauzalitate directă cu ținta Wildberries specific.",
+      "sources": [
+        { "name": "The Moscow Times — victima raportată în contextul general al atacului", "url": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Afirmația că Wildberries este o țintă „legitimă” militar rămâne o interpretare de război, susținută de partea ucraineană pe baza produselor listate pe platformă și a sancțiunilor UE asupra diviziei bancare — nu un fapt stabilit independent de vreun tribunal sau organism neutru. Cititorul poate cântări singur argumentele economice și militare invocate de fiecare parte."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptul central — lovirea depozitului Wildberries de la Koledino și a altor instalații din regiunea Moscova, în noaptea de 15/16 august 2026 — este relatat concordant de The Moscow Times, Kyiv Independent și alte redacții. Cifrele exacte despre câte drone au fost lansate sau interceptate vin însă exclusiv din partea oficialilor ruși (guvernator, primarul Moscovei, Ministerul Apărării) și diferă între ele, fără o sursă terță independentă la ora verificării.",
+  "persoane": []
+}
