@@ -1,0 +1,62 @@
+{
+  "slug": "sua-trump-memorandum-hack-back-companii-private",
+  "title": "SUA, prima țară care autorizează companii private să ducă operațiuni cyber ofensive contra grupurilor criminale străine",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "TechCrunch / CyberSecurity Dive / Casa Albă",
+  "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/",
+  "dek": "Președintele Donald Trump a semnat pe 12 august 2026 un memorandum prezidențial de securitate națională (NSPM) care creează, pentru prima dată în SUA, un program formal prin care companii private verificate pot desfășura operațiuni cyber ofensive — supraveghere și operațiuni cu efecte distructive — împotriva grupărilor criminale transnaționale din spațiul cibernetic, sub aprobarea scrisă a Departamentelor Justiției și Securității Interne.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Președintele Donald Trump a semnat, potrivit textului oficial publicat pe site-ul Casei Albe, un memorandum prezidențial de securitate națională (NSPM) datat 12 august 2026, intitulat „Expanding Capabilities to Combat Transnational Cyber-Enabled Crime”. Documentul autorizează un program prin care companii private verificate („Participating Companies”) pot desfășura „Cyber Surveillance Operations” și „Cyber Effects Operations” împotriva unor organizații criminale transnaționale cu activitate cibernetică, sub controlul și direcția guvernului federal.",
+      "sources": [
+        {"name": "Casa Albă — Expanding Capabilities to Combat Transnational Cyber-Enabled Crime (text oficial NSPM)", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
+        {"name": "TechCrunch — In a first, US will allow some private firms to carry out cyberattacks", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"}
+      ]
+    },
+    {
+      "text": "Fiecare operațiune trebuie aprobată în scris de doi „co-directori executivi”, unul din partea Departamentului Justiției (DOJ) și unul din partea Departamentului Securității Interne (DHS), care păstrează controlul și supravegherea asupra performanței companiilor participante. Programul vizează explicit grupări criminale, nu guverne străine — o organizație nu poate fi vizată dacă este „parte instituțională a unui guvern străin sau operează integral sub direcția acestuia”, deși se prezumă că nu e cazul „decât dacă există informații clare” contrare.",
+      "sources": [
+        {"name": "Casa Albă — structura de aprobare DOJ/DHS și excluderea guvernelor străine", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
+        {"name": "CyberSecurity Dive — US government will let private companies hack criminal gangs", "url": "https://www.cybersecuritydive.com/news/us-private-companies-gangs-cyberattacks-offensive-operations/827805/"}
+      ]
+    },
+    {
+      "text": "Companiile participante trebuie să depună o garanție (escrow/bond) de cel puțin 1 milion de dolari, care poate fi confiscată dacă guvernul constată că firma nu respectă regulile programului. Operațiunile care ar putea produce „rezultate critice” — pierderi de vieți omenești, vătămări grave, sau ceva ce s-ar ridica la nivelul unei „folosiri a forței” sau „atac armat” conform dreptului internațional — nu pot fi aprobate doar de cei doi directori executivi și sunt supuse unor restricții suplimentare; companiile trebuie să oprească imediat orice operațiune care depășește parametrii aprobați și să anunțe guvernul.",
+      "sources": [
+        {"name": "Casa Albă — garanția de 1 milion de dolari și restricțiile privind „rezultatele critice”", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
+        {"name": "CyberSecurity Dive — restricții privind pierderea de vieți omenești și folosirea forței", "url": "https://www.cybersecuritydive.com/news/us-private-companies-gangs-cyberattacks-offensive-operations/827805/"}
+      ]
+    },
+    {
+      "text": "Este prima dată, în istoria SUA, când companii private primesc o autorizare federală formală pentru operațiuni cibernetice ofensive împotriva unor grupări criminale — administrațiile anterioare interziseseră companiilor „hack-back”-ul contra atacatorilor cibernetici străini, din cauza riscului de escaladare geopolitică.",
+      "sources": [
+        {"name": "TechCrunch — „In a first, US will allow some private firms to carry out cyberattacks”", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Data exactă a semnării diferă ușor: documentul oficial de pe whitehouse.gov e datat 12 august 2026 (o zi de miercuri), dar mai multe redacții (CNN, TechCrunch) au relatat evenimentul menționând „miercuri” cu date de publicare pe 13 august — posibil o mică diferență de fus orar sau de moment al publicării articolului față de semnare. Am folosit data oficială din documentul Casei Albe.",
+      "sources": [
+        {"name": "Casa Albă — data oficială: 12 august 2026", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
+        {"name": "TechCrunch — relatare publicată 13 august, referindu-se la „miercuri”", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"}
+      ]
+    },
+    {
+      "text": "Presa a descris programul cu termeni diferiți în privința amplorii: unele titluri vorbesc de „hack-back” (companii care contraatacă atacatorii proprii), altele — precum TechCrunch — notează explicit că memorandumul „nu autorizează operațiuni directe de hack-back de către companii private” din proprie inițiativă, ci un program cu aprobare guvernamentală prealabilă, caz cu caz, pentru ținte specifice. Textul oficial confirmă a doua variantă: fiecare operațiune necesită aprobare scrisă prealabilă de la cei doi directori executivi, nu e un drept general de contraatac.",
+      "sources": [
+        {"name": "TechCrunch — memorandumul „nu autorizează hack-back direct”", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"},
+        {"name": "Casa Albă — cerința de aprobare scrisă prealabilă pentru fiecare operațiune", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Expertul în securitate cibernetică Jake Williams, citat de TechCrunch, a numit politica „pe jumătate coaptă” („half-baked”), avertizând că americanii implicați în astfel de operațiuni „ar putea fi ușor clasificați drept combatanți neuniformizați” dacă se află în străinătate, și că guverne străine ar putea acuza fals participanții americani pentru a justifica represalii. CyberSecurity Dive citează îngrijorări similare ale experților privind rigoarea verificării companiilor, riscul de escaladare geopolitică, daunele colaterale asupra infrastructurii unor state aliate și posibile încălcări ale principiilor internaționale anti-piraterie. Acestea sunt evaluări de experți și opinii critice, nu fapte stabilite despre cum va funcționa programul în practică — programul de-abia urmează să primească proceduri operaționale detaliate, în termen de 60 de zile de la semnare."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am comparat textul oficial al memorandumului (whitehouse.gov) cu relatările TechCrunch și CyberSecurity Dive. Nucleul faptic se susține din toate sursele: e primul program federal formal prin care companii private verificate pot desfășura operațiuni cyber ofensive contra unor grupări criminale transnaționale, cu aprobare scrisă prealabilă de la DOJ și DHS, garanție de minimum 1 milion de dolari și interdicție asupra operațiunilor care ar produce pierderi de vieți omenești. Am semnalat două puncte de neclaritate: o mică diferență de dată între documentul oficial (12 august) și relatările de presă (13 august), și o diferență de încadrare — unele titluri vorbesc de „hack-back”, dar textul oficial descrie un proces de aprobare caz cu caz, nu un drept general de contraatac. Criticile experților (risc de escaladare, clasificare drept combatanți) sunt opinii citate, nu fapte confirmate despre cum va funcționa programul în practică.",
+  "persoane": []
+}
