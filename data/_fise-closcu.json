@@ -429,6 +429,24 @@
             }
           ]
         }
+      ],
+      "afirmatii": [
+        {
+          "afirmatie": "Că Ministerul Mediului ar avea „intenția de a băga oamenii la închisoare pentru că își sapă o fântână”, cu pedepse de până la zece ani.",
+          "unde": "28 iulie 2026, pe Facebook și X, reacționând la un proiect de lege pus în transparență pe 14 iulie",
+          "dovezi": "Proiectul transpune o directivă europeană privind infracțiunile de mediu și prevede sancțiuni gradate pentru captările ilegale de apă la scară mare — pedeapsa depinde de gravitatea prejudiciului. Administrația Națională „Apele Române” a confirmat că folosirea apei din fântână pentru nevoi proprii nu cere autorizație, nu se plătește și nu atrage amenzi sau pedepse penale. Consiliul Național al Audiovizualului a dispus pe 28 iulie 2026 eliminarea a 35 de materiale care răspândeau informația falsă (33 pe TikTok, unul pe Facebook, unul pe X), între care și postările lui. El s-a apărat spunând că a fost o poziție politică pe documente publice, nu o invenție.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Verificarea noastră — ce spune de fapt proiectul Ministerului Mediului",
+              "url": "https://farabaliverne.ro/a/fantana-zece-ani-inchisoare.html"
+            },
+            {
+              "name": "Adevărul — CNA a dispus eliminarea materialelor cu informația falsă despre fântâni",
+              "url": "https://adevarul.ro/stiri-interne/evenimente/cna-il-vizeaza-pe-claudiu-tarziu-dupa-2546299.html"
+            }
+          ]
+        }
       ]
     },
     {
@@ -463,6 +481,44 @@
             {
               "name": "Mediafax — motivul invocat: indisciplină",
               "url": "https://www.mediafax.ro/politic/diana-sosoaca-a-fost-exclusa-din-partidul-aur-din-motive-de-indisciplina-aur-transmite-ca-l-au-exclus-si-pe-deputatul-mihai-lasca-19912822"
+            }
+          ]
+        }
+      ],
+      "afirmatii": [
+        {
+          "afirmatie": "„În Ucraina avem peste un milion de români. Nu au voie să vorbească în limba română…” — și că nu s-ar putea ruga ori practica ortodoxia în limba lor.",
+          "unde": "22 octombrie 2025, în timpul unei vizite în Rusia, ca invitată a asociației „Prietenii Rusiei”",
+          "dovezi": "Cifra e greșită de aproape șapte ori: în Ucraina trăiesc circa 151.000 de români, plus 258.600 de persoane care s-au declarat moldoveni. Învățământul în română nu e interzis — în 2024 se preda în 57 de școli, pentru 12.383 de elevi. Numărul a scăzut față de aproximativ 75 de școli în 2017, deci există o problemă reală de discutat; dar „nu au voie” descrie altceva decât ce se întâmplă. Cât despre rugăciune: Ucraina a interzis organizațiile afiliate bisericii ruse, în contextul agresiunii militare, nu practicarea ortodoxiei în limba română.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea afirmației despre românii din Ucraina",
+              "url": "https://www.factual.ro/declaratii/fals-diana-sosoaca-sustine-ca-romanii-din-ucraina-nu-pot-sa-invete-sau-sa-se-roage-in-limba-lor/"
+            }
+          ]
+        },
+        {
+          "afirmatie": "„Suntem singurul stat din lume care și-a plătit vreodată datoria.”",
+          "unde": "10 septembrie 2025, Metropola TV (min. 24:03), într-o discuție despre moștenirea lui Ceaușescu",
+          "dovezi": "Rusia și-a achitat integral datoria externă către Clubul de la Paris în august 2006 — circa 23,7 miliarde de dolari, cu patru ani înainte de termen, economisind peste 12 miliarde din dobânzi. Norvegia stă și mai bine: are active externe nete de peste 1.600 de miliarde de dolari prin fondul suveran, deci problema nici nu se pune. Iar în cazul României, datoria a fost stinsă până în 1989 prin austeritate și epuizarea rezervei de aur, cu un cost uriaș pentru populație.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea afirmației despre plata datoriei externe",
+              "url": "https://www.factual.ro/declaratii/fals-sosoaca-despre-plata-datoriei-externe/"
+            }
+          ]
+        },
+        {
+          "afirmatie": "„fraudă pe bani europeni din despăgubirile pentru uciderea oilor, care nu a fost cerută de UE!”",
+          "unde": "17 și 23 septembrie 2024, pe Facebook",
+          "dovezi": "Pesta micilor rumegătoare e recunoscută oficial în Regulamentul UE 429/2016, în anexa II, ca boală care cere măsuri de control și eradicare. Uciderea animalelor urmează proceduri legale (Regulamentul 1099/2009 și manualul operațional al României). Iar despăgubirile NU vin din bani europeni: se plătesc din bugetul de stat, prin Ministerul Agriculturii — deci acuzația de fraudă pe fonduri UE se sprijină pe o premisă care nu există.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea acuzației privind despăgubirile pentru pesta ovină",
+              "url": "https://www.factual.ro/declaratii/fals-diana-sosoaca-acuza-o-presupusa-frauda-pe-bani-europeni-pentru-pesta-ovina/"
             }
           ]
         }
