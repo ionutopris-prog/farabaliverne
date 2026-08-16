@@ -1,0 +1,53 @@
+{
+  "slug": "sua-criminalitate-trump-effect-cifre-contestate",
+  "title": "Casa Albă anunță „efectul Trump” după o scădere reală a criminalității violente în SUA — dar cercetătorii spun că declinul a început încă din 2022, sub Biden",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "Deseret News / NOTUS / The White House",
+  "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/",
+  "dek": "Un raport al Major Cities Chiefs Association arată omucideri în scădere cu 17% în primele șase luni din 2026 față de 2025, în marile orașe americane. Casa Albă a numit fenomenul „Trump effect” și l-a legat de trimiterea Gărzii Naționale în orașe democrate — dar cercetătorii spun că declinul e mai vechi, iar o analiză independentă a găsit statistici denaturate în privința orașelor Memphis și New Orleans. 🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Potrivit raportului Major Cities Chiefs Association (66 de agenții de aplicare a legii, ianuarie–iunie, comparație 2025 vs. 2026), omuciderile în marile orașe americane au scăzut de la 2.611 la 2.162 de cazuri — o scădere de aproximativ 17%. Au scăzut și violurile (13.277 → 12.449), jafurile (37.938 → 31.629) și agresiunile agravate (117.416 → 110.768), însumând aproape 14.200 de infracțiuni violente raportate în minus în șase luni.",
+      "sources": [
+        {"name": "Deseret News — Violent crime rates across the country are down; White House credits Trump policy", "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"},
+        {"name": "The White House — ICYMI: Violent crime keeps falling in biggest U.S. cities", "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/"}
+      ]
+    },
+    {
+      "text": "Casa Albă a atribuit scăderea „agendei de lege și ordine” a președintelui Donald Trump, citând în comunicat scăderi punctuale de omucideri de 43,9% în Washington DC, 43,7% în Memphis și aproape 25% în New Orleans, și a legat rezultatele de „surse federale și sprijinul Gărzii Naționale” trimise în orașe conduse de democrați.",
+      "sources": [
+        {"name": "The White House — comunicatul oficial care citează cifrele pe orașe", "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/"},
+        {"name": "Deseret News — citează atribuirea oficială Casei Albe", "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cercetătorii de la Council on Criminal Justice (CCJ) avertizează că „niciun succes sau eșec al vreunei politici” nu poate fi izolat drept factor unic, iar analiștii subliniază că tendința de scădere a criminalității a început încă din 2022, sub administrația Biden, ca urmare a revenirii de după vârful din pandemie — cu mult înainte de revenirea lui Trump la Casa Albă în 2025.",
+      "sources": [
+        {"name": "Deseret News — cercetătorii Criminal Justice Policy despre cauzele multiple ale declinului", "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"}
+      ]
+    },
+    {
+      "text": "Investigația NOTUS a arătat că, într-un comunicat separat, Casa Albă a susținut că „cele mai abrupte scăderi de omucideri au venit din orașele în care Administrația Trump a intervenit”, citând Memphis, New Orleans, Los Angeles și Washington DC — dar raportul CCJ la care făcea referire nu susține asta: cea mai mare scădere a fost în Lincoln, Nebraska (nemenționat de Casa Albă), Washington DC a ieșit pe locul 6, Los Angeles pe locul 17, iar Memphis și New Orleans nici măcar nu erau incluse în raportul CCJ (Memphis a fost exclus pentru anomalii statistice, New Orleans nu a făcut parte din analiza celor 36 de orașe).",
+      "sources": [
+        {"name": "NOTUS — Trump's Claims About Combating Crime Are Based on Skewed Data", "url": "https://www.notus.org/trump-white-house/trump-claims-crime-skewed-data"}
+      ]
+    },
+    {
+      "text": "Analistul independent de criminalitate Jeff Asher, ale cărui cifre separate au fost folosite tot de Casa Albă (Memphis -43,3%, New Orleans -32,1% în 2026), a criticat el însuși interpretarea Casei Albe, numind-o o „afirmație incorectă” — chiar autorul datelor citate contestă modul în care acestea au fost folosite pentru a susține narativul „efectul Trump”.",
+      "sources": [
+        {"name": "NOTUS — reacția analistului Jeff Asher", "url": "https://www.notus.org/trump-white-house/trump-claims-crime-skewed-data"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Eticheta „Trump effect” și afirmația liderului Camerei Reprezentanților, Mike Johnson, că republicanii „livrează promisiunea de a face America din nou SIGURĂ” sunt poziții politice, nu concluzii statistice. Scăderea criminalității e reală și documentată de mai multe rapoarte independente; cât din ea se datorează politicilor specifice ale administrației Trump din 2025-2026, față de o tendință națională mai veche, rămâne o chestiune de interpretare pe care cititorul o poate cântări singur."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană de investigație și analiză a datelor. Scăderea criminalității violente e un fapt susținut de mai multe rapoarte independente (Major Cities Chiefs Association, CCJ, Jeff Asher) — nu contestăm asta. Ce am marcat drept contestat e atribuirea acestei scăderi „efectului Trump” și felul selectiv în care Casa Albă a citat orașe și rapoarte: NOTUS a arătat, cu date verificabile, că cifrele pe orașe individuale au fost prezentate denaturat. Nu spunem că Trump „a mințit” — arătăm exact unde comunicatul Casei Albe nu se potrivește cu raportul pe care îl citează.",
+  "persoane": ["Donald Trump", "Mike Johnson"]
+}
