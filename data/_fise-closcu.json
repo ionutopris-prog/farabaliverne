@@ -405,6 +405,54 @@
               "url": "https://www.factual.ro/declaratii/fals-i-george-simion-despre-impozitul-platit-de-multinationale/"
             }
           ]
+        },
+        {
+          "afirmatie": "„Noi suntem cam singurii din Europa care, de exemplu, nu recunoaștem Kosovo.”",
+          "unde": "7 mai 2025, pe canalul de YouTube Digi24HD (min. 54:30)",
+          "dovezi": "Nouă state europene nu recunosc independența Kosovo, nu doar România. Cinci sunt chiar din Uniunea Europeană: România, Cipru, Grecia, Slovacia și Spania. La ele se adaugă Serbia, Belarus, Bosnia și Herțegovina și Rusia. Poziția României e împărtășită de aproape un sfert din statele UE, deci nu e nici singulară, nici excentrică.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea afirmației despre recunoașterea Kosovo",
+              "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-recunoasterea-independentei-statului-kosovo/"
+            }
+          ]
+        },
+        {
+          "afirmatie": "„Gata cu «campania», acum trebuie să oprim frauda imensă! Colegii mei sunt cu conducerea STS acum…”",
+          "unde": "16 mai 2025, pe Facebook, în ziua votului din diaspora",
+          "dovezi": "Au dezmințit, pe rând: Serviciul de Telecomunicații Speciale (sistemele au funcționat în parametri optimi, fără defecțiuni, iar STS nu avea personal în R. Moldova la acea dată), Autoritatea Electorală Permanentă (toate aplicațiile au funcționat normal), Ministerul de Interne, Ministerul de Externe și Guvernul. Purtătorul de cuvânt al diplomației de la Chișinău a cerut public actorilor politici să se abțină de la acuzații nesusținute. Nicio instituție nu a confirmat vreo fraudă.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea acuzației de fraudare a alegerilor",
+              "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-fraudarea-alegerilor-in-republica-moldova/"
+            }
+          ]
+        },
+        {
+          "afirmatie": "„Avem cei mai puțini morți din interiorul Uniunii Europene” — despre bilanțul pandemiei de COVID-19 în România.",
+          "unde": "13 iunie 2025, într-un video distribuit de Robert Malone pe X",
+          "dovezi": "România nu a avut cel mai mic număr de decese din UE în niciun an, din 2020 până în 2025. Din 2022 a coborât sub media europeană, dar Bulgaria, Ungaria, Malta și Slovacia au raportat constant mai puține. „Sub medie” și „cei mai puțini” sunt două lucruri diferite.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea afirmației despre decesele COVID-19",
+              "url": "https://www.factual.ro/declaratii/fals-i-george-simion-despre-pandemia-de-covid-19/"
+            }
+          ]
+        },
+        {
+          "afirmatie": "Că vânzarea acțiunilor la companiile de stat s-ar face prin metoda ABB, „care e deloc transparentă”, spre deosebire de IPO.",
+          "unde": "4 mai 2026, Europa FM, emisiunea „România în direct” (min. 44:10)",
+          "dovezi": "Nota de fundamentare a Guvernului propune mai multe metode, nu doar ABB. Prin ABB sunt vizate doar Hidroelectrica și Romgaz; CEC Bank, CN APM Constanța și Salrom merg pe listare IPO. Iar ABB nu e o metodă netransparentă: informația se pune la dispoziția investitorilor interesați, cu discount anunțat, doar că tranzacția se închide în 24–48 de ore în loc să dureze săptămâni. E o metodă rapidă, nu una ascunsă.",
+          "unde_bat": "Contrazis",
+          "surse": [
+            {
+              "name": "Factual.ro — verificarea afirmației despre privatizarea companiilor de stat",
+              "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-privatizarea-companiilor-de-stat/"
+            }
+          ]
         }
       ]
     },
