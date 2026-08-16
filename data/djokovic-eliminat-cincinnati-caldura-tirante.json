@@ -1,0 +1,53 @@
+{
+  "slug": "djokovic-eliminat-cincinnati-caldura-tirante",
+  "title": "Novak Djokovic, eliminat surprinzător la Cincinnati de Thiago Tirante, după ce a vomitat pe teren în condiții de caniculă",
+  "category": "Sport",
+  "date": "2026-08-16",
+  "source": "ESPN / ATP Tour / Tennis Majors",
+  "url": "https://www.espn.com/tennis/story/_/id/49622465/novak-djokovic-ousted-cincinnati-open-second-round",
+  "dek": "Sâmbătă, 15 august 2026, Novak Djokovic a fost eliminat în turul 2 la Cincinnati Open de argentinianul Thiago Agustín Tirante, scor 2-6, 6-4, 6-4, după ce a vomitat de două ori pe teren și a cerut pauză medicală în condiții de caniculă. Djokovic a explicat că e vorba de „o afecțiune” care îl afectează de câțiva ani, fără să o numească explicit.",
+  "mainVerdict": "Probat — rezultatul și incidentul medical sunt confirmate de mai multe surse sportive independente",
+  "probat": [
+    {
+      "text": "Novak Djokovic a fost eliminat în turul al doilea al Cincinnati Open, sâmbătă, 15 august 2026, de Thiago Agustín Tirante (Argentina), cu scorul 2-6, 6-4, 6-4. A fost prima apariție a lui Djokovic după semifinala pierdută la Wimbledon în fața lui Jannik Sinner.",
+      "sources": [
+        {"name": "ESPN — Novak Djokovic ousted at Cincinnati Open in second round", "url": "https://www.espn.com/tennis/story/_/id/49622465/novak-djokovic-ousted-cincinnati-open-second-round"},
+        {"name": "Tennis Majors — Tirante stuns ailing Djokovic for the biggest win of his career in Cincinnati", "url": "https://www.tennismajors.com/atp/tirante-stuns-ailing-djokovic-for-the-biggest-win-of-his-career-in-cincinnati-858592.html"}
+      ]
+    },
+    {
+      "text": "În setul al doilea, la schimbarea de teren, Djokovic a vomitat de două ori într-un prosop, a cerut fizioterapeutul și medicul, i s-a măsurat tensiunea și a primit pauză medicală, continuând ulterior meciul în condiții de căldură și umiditate ridicate.",
+      "sources": [
+        {"name": "Sky Sports — Novak Djokovic out of Cincinnati Open after struggling with heat and humidity", "url": "https://www.skysports.com/tennis/news/12110/13573406/novak-djokovic-out-of-cincinnati-open-in-second-round-after-struggling-with-heat-and-humidity-against-thiago-agustin-tirante"},
+        {"name": "ATP Tour — Djokovic vs. Tirante, raport de meci", "url": "https://www.atptour.com/en/news/djokovic-tirante-cincinnati-2026-r2-saturday"}
+      ]
+    },
+    {
+      "text": "Djokovic a declarat, după meci: „It's just a condition that I have, health-wise, that has been bothering me for the past couple of years” (E doar o afecțiune de sănătate care mă deranjează de câțiva ani) — fără să numească explicit boala sau simptomul.",
+      "sources": [
+        {"name": "Tennis Up To Date — „It's just the condition that I have health-wise”: Djokovic explains his collapse", "url": "https://tennisuptodate.com/atp/its-just-the-condition-that-i-have-health-wise-novak-djokovic-explains-his-collapse-after-cincinnati-open-defeat"}
+      ]
+    },
+    {
+      "text": "Înfrângerea a pus capăt unei serii impresionante: Djokovic câștigase 355 din precedentele 368 de meciuri (96,5%) la turnee de categorie Masters 1000 după ce lua primul set — Tirante a devenit al 14-lea jucător din istorie care îl învinge pe Djokovic dintr-o asemenea poziție.",
+      "sources": [
+        {"name": "ESPN — statistica seriei Djokovic după câștigarea primului set la Masters 1000", "url": "https://www.espn.com/tennis/story/_/id/49622465/novak-djokovic-ousted-cincinnati-open-second-round"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Legătura directă dintre căldură și starea de rău a lui Djokovic este sugerată de presa sportivă (care descrie condițiile de „caniculă și umiditate”), dar nu confirmată printr-un diagnostic medical public — Djokovic însuși a vorbit despre „o afecțiune” cronică, mai veche, nu a atribuit explicit episodul exclusiv temperaturii din acea zi.",
+      "sources": [
+        {"name": "Tennis Up To Date — Djokovic nu numește explicit afecțiunea", "url": "https://tennisuptodate.com/atp/its-just-the-condition-that-i-have-health-wise-novak-djokovic-explains-his-collapse-after-cincinnati-open-defeat"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "O serie de peste 96% întreruptă de un jucător aflat la prima mare victorie a carierei",
+    "text": "Seria de 355 de victorii din 368 de meciuri (96,5%) după câștigarea primului set la Masters 1000 arăta o dominanță aproape totală a lui Djokovic în acest scenariu — a pierde acest tip de meci înseamnă a fi în minoritatea de sub 4% a cazurilor. Tirante, care nu mai obținuse o victorie de o asemenea anvergură, a intrat astfel într-un grup select de doar 14 jucători din istorie cu această performanță împotriva lui Djokovic."
+  },
+  "aiNote": "Separăm faptele confirmate de mai multe surse sportive independente (scorul, incidentul medical pe teren, seria statistică) de declarația lui Djokovic despre „o afecțiune” — pe care am citat-o exact, fără să o interpretăm sau să presupunem un diagnostic pe care el nu l-a făcut public.",
+  "persoane": ["Novak Djokovic", "Thiago Agustín Tirante"]
+}
