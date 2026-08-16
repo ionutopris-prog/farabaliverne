@@ -1,0 +1,53 @@
+{
+  "slug": "e-sanatatea-mea-platforma-cnas-1-septembrie",
+  "title": "De la 1 septembrie, românii vor avea rețetele, trimiterile și istoricul medical într-un singur portal — „E-Sănătatea Mea”, lansată de CNAS",
+  "category": "Social",
+  "date": "2026-08-16",
+  "source": "Digi24 / CNAS",
+  "url": "https://www.digi24.ro/digieconomic/consumer/e-sanatatea-mea-operationala-de-la-1-septembrie-pacientii-vor-avea-retetele-trimiterile-si-istoricul-medical-intr-un-singur-portal-114809",
+  "dek": "Casa Națională de Asigurări de Sănătate (CNAS) lansează pe 1 septembrie 2026 platforma națională „E-Sănătatea Mea”, un „portofel digital de sănătate” cu 12 module — rețete, bilete de trimitere, istoric medical și programări online. Nu e obligatorie: pacienții pot folosi în continuare hârtie sau telefonul.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Platforma „E-Sănătatea Mea” devine operațională pe 1 septembrie 2026, administrată de CNAS, în cadrul Platformei Informatice din Asigurările de Sănătate (PIAS). Baza legală este o lege promulgată de președintele Nicușor Dan pe 20 iulie 2026. Platforma oferă 12 module: rețete digitale și istoricul lor, bilete de trimitere, istoric medical complet, serviciile decontate prin sistemul public de sănătate, un modul „Pachetul meu” cu fișele medicale, secțiunea „Starea mea” și modulul de informare „Nu ești singur”.",
+      "sources": [
+        {"name": "Digi24 — „E-Sănătatea Mea”, operațională de la 1 septembrie. Pacienții vor avea rețetele, trimiterile și istoricul medical într-un singur portal", "url": "https://www.digi24.ro/digieconomic/consumer/e-sanatatea-mea-operationala-de-la-1-septembrie-pacientii-vor-avea-retetele-trimiterile-si-istoricul-medical-intr-un-singur-portal-114809"},
+        {"name": "Capital.ro — Platforma e-Sănătatea Mea devine disponibilă pe 1 septembrie: pacientul devine utilizator direct al sistemului digital de sănătate", "url": "https://www.capital.ro/platforma-e-sanatatea-mea-devine-disponibila-pe-1-septembrie-pacientul-devine-utilizator-direct-al-sistemului-digital-de-sanatate.html"}
+      ]
+    },
+    {
+      "text": "Președintele CNAS, Horațiu-Remus Moldovan, a declarat că, „pentru prima dată, pacientul găsește într-un singur loc toate serviciile de care poate beneficia”, subliniind că portalul va fi „simplu” și ușor de învățat „de la prima utilizare” — comparând nivelul de dificultate cu cel al utilizării WhatsApp.",
+      "sources": [
+        {"name": "Digi24 — declarația președintelui CNAS, Horațiu-Remus Moldovan", "url": "https://www.digi24.ro/digieconomic/consumer/e-sanatatea-mea-operationala-de-la-1-septembrie-pacientii-vor-avea-retetele-trimiterile-si-istoricul-medical-intr-un-singur-portal-114809"}
+      ]
+    },
+    {
+      "text": "Platforma nu este obligatorie pentru pacienți: aceștia pot continua să folosească documentele pe hârtie sau programările telefonice la fel ca până acum. Pentru furnizorii de servicii medicale, însă, sistemul de programări online va deveni obligatoriu începând cu trimestrul al patrulea din 2026. Accesul e disponibil pentru circa 20 de milioane de asigurați, prin autentificare.",
+      "sources": [
+        {"name": "Digi24 — Pacienții vor putea folosi de la 1 septembrie platforma „E-Sănătatea Mea”. CNAS: Va funcționa ca un portofel digital de sănătate", "url": "https://www.digi24.ro/digieconomic/digital/pacientii-vor-putea-folosi-de-la-1-septembrie-platforma-e-sanatatea-mea-cnas-va-functiona-ca-un-portofel-digital-de-sanatate-112425"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "CNAS susține că platforma va fi accesibilă și persoanelor vârstnice sau din mediul rural fără acces facil la internet, care ar putea apela la medicul de familie sau la rude pentru programări, ori pot folosi metodele tradiționale, telefonice. Rămâne de văzut, după lansarea efectivă din septembrie, dacă aceste soluții de rezervă funcționează în practică la scara a 20 de milioane de potențiali utilizatori — CNAS nu a publicat, la data verificării, un plan detaliat de testare sau date despre securitatea cibernetică a sistemului, dincolo de afirmații generale.",
+      "sources": [
+        {"name": "Digi24 — reacții și întrebări privind accesibilitatea platformei", "url": "https://www.digi24.ro/digieconomic/digital/pacientii-vor-putea-folosi-de-la-1-septembrie-platforma-e-sanatatea-mea-cnas-va-functiona-ca-un-portofel-digital-de-sanatate-112425"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă platforma va reduce efectiv birocrația din sistemul medical sau va rămâne o soluție paralelă puțin folosită (ca alte inițiative digitale anterioare din sănătatea publică românească) este o judecată care nu poate fi făcută înainte de lansarea din septembrie — comparațiile cu alte platforme guvernamentale digitale sunt o opinie, nu un fapt verificabil la această dată."
+    }
+  ],
+  "math": {
+    "title": "20 de milioane de conturi posibile, un singur portal",
+    "explanation": "CNAS estimează circa 20 de milioane de potențiali utilizatori — aproximativ numărul total de asigurați din sistemul public de sănătate din România. Platforma consolidează în 12 module funcții care, până acum, erau împrăștiate pe mai multe canale separate (rețeta pe hârtie de la medicul de familie, biletul de trimitere fizic, programarea telefonică la spital). Succesul practic depinde de câți din cei 20 de milioane chiar își vor crea cont — cifră pe care CNAS nu a publicat-o ca țintă sau estimare la data lansării."
+  },
+  "aiNote": "Faptele de bază — data lansării, administratorul (CNAS), cele 12 module și caracterul neobligatoriu al platformei — sunt confirmate concordant de Digi24 (două articole distincte) și Capital.ro. Nu am găsit, la data verificării, o sursă independentă de CNAS care să evalueze deja funcționarea platformei (fiindcă nu e încă lansată) — de aceea am marcat la Contestat lipsa unor detalii tehnice publice (securitate cibernetică, testare la scară) și am separat clar, la Opinie, orice judecată despre succesul probabil al inițiativei.",
+  "persoane": [
+    "Horațiu-Remus Moldovan",
+    "Nicușor Dan"
+  ]
+}
