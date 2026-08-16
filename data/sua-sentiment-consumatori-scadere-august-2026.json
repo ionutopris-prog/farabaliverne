@@ -1,0 +1,37 @@
+{
+  "slug": "sua-sentiment-consumatori-scadere-august-2026",
+  "title": "Încrederea consumatorilor americani s-a prăbușit în august 2026, arată sondajul Universității Michigan — cea mai mare scădere lunară după doar două luni de recuperare",
+  "category": "Economie",
+  "date": "2026-08-14",
+  "source": "University of Michigan Surveys of Consumers / Yahoo Finance / CryptoBriefing",
+  "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html",
+  "dek": "🌍 Indicele preliminar de încredere a consumatorilor din SUA, publicat de Universitatea Michigan pe 14 august 2026, a scăzut la 51,0 puncte în august — de la 55,2 în iulie și sub estimarea analiștilor de 54,5. E o scădere de 7,6% într-o singură lună, care întrerupe două luni consecutive de îmbunătățire, pe fondul creșterii așteptărilor de inflație și al prețurilor ridicate la carburanți.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Indicele de încredere a consumatorilor (University of Michigan Consumer Sentiment Index), în varianta preliminară pentru august 2026, a coborât la 51,0 puncte, față de 55,2 în lectura finală din iulie și sub estimarea de consens a analiștilor (54,5, conform Reuters). E o scădere de 7,6% de la lună la lună și una de aproximativ 12% față de august 2025 (58,2 puncte). Subindicii au scăzut ambii: Indicele Așteptărilor Consumatorilor a coborât la 50,6 (de la 55,4), iar Indicele Condițiilor Economice Curente la 51,8 (de la 54,8).",
+      "sources": [
+        {"name": "Yahoo Finance — U.S. consumer sentiment falls in August 2026, ending recovery", "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html"},
+        {"name": "CryptoBriefing — Michigan consumer sentiment falls to 51 in August, below estimates", "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"}
+      ]
+    },
+    {
+      "text": "Așteptările de inflație pe un an au urcat la 4,3%, de la 4,2% în iulie, în timp ce așteptările pe termen lung (5-10 ani) au rămas stabile la 3,3%. Doar 8% dintre consumatorii chestionați se așteaptă ca veniturile lor să crească mai repede decât inflația în următorul an. Directoarea sondajului, Joanne Hsu, a declarat că declinul e răspândit pe tot spectrul politic și demografic, cu cea mai abruptă scădere în rândul alegătorilor republicani — al căror sentiment e cu 19% sub nivelul dinaintea conflictului din Iran — precum și în rândul consumatorilor mai în vârstă, cu venituri mici și fără studii superioare.",
+      "sources": [
+        {"name": "CryptoBriefing — declarațiile lui Joanne Hsu și defalcarea pe categorii", "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"},
+        {"name": "Yahoo Finance — așteptări de inflație și context politic", "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html"}
+      ]
+    },
+    {
+      "text": "Scăderea din august întrerupe o revenire de două luni, după minimul istoric de 44,8 puncte înregistrat în mai 2026. Printre cauzele citate de University of Michigan: tensiunile din Orientul Mijlociu, care au perturbat piețele petroliere și au menținut prețul benzinei peste 4 dolari/galon în perioada sondajului.",
+      "sources": [
+        {"name": "CryptoBriefing — contextul minimului din mai 2026 și al prețului benzinei", "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": "51,0 vs. 55,2 = o scădere de (55,2-51,0)/55,2 ≈ 7,6% de la iulie la august 2026 — cifra „-7,6%” citată de sondaj corespunde calculului aritmetic direct.",
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională (Yahoo Finance, CryptoBriefing, pe baza datelor University of Michigan Surveys of Consumers); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": []
+}
