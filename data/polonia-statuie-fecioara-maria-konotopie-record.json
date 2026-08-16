@@ -1,0 +1,53 @@
+{
+  "slug": "polonia-statuie-fecioara-maria-konotopie-record",
+  "title": "Polonia a inaugurat cea mai înaltă statuie a Fecioarei Maria din Europa, ridicată cu bani de la un miliardar local",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "Notes from Poland / RTÉ",
+  "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/",
+  "dek": "În satul Konotopie (aprox. 130 de locuitori), o statuie de 55,6 metri a Fecioarei Maria — mai înaltă decât Cristos Mântuitorul din Rio — a fost sfințită sâmbătă, 15 august 2026. Proiectul, de circa 100 de milioane de zloți (~23 milioane de euro), a fost finanțat integral de miliardarul Roman Karkosik; unii localnici cer ca banii să fi mers spre spitale sau orfelinate.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Statuia din Konotopie, un sat de aproximativ 130 de locuitori din voievodatul Cuiavia-Pomerania (dieceza de Włocławek), are 55,6 metri înălțime și a fost sfințită sâmbătă, 15 august 2026, de ziua Adormirii Maicii Domnului, printr-o slujbă oficiată de episcopul Krzysztof Wętkowski. La ceremonie au participat „mii” de oameni, printre care fostul președinte polonez și laureat Nobel pentru Pace, Lech Wałęsa.",
+      "sources": [
+        {"name": "Notes from Poland — Europe's biggest Virgin Mary statue unveiled in Polish village", "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/"},
+        {"name": "Euronews — Europe's tallest Virgin Mary statue rises in Polish village", "url": "https://www.euronews.com/my-europe/2026/08/15/europes-tallest-virgin-mary-statue-rises-in-polish-village"}
+      ]
+    },
+    {
+      "text": "Proiectul a fost finanțat integral de omul de afaceri Roman Karkosik, unul dintre cei mai bogați oameni din Polonia, împreună cu soția sa, Grażyna. Costul total este estimat la aproximativ 100 de milioane de zloți (~23 milioane de euro). Construcția a durat 18 luni; materialul special de turnare a trebuit adus din Italia, pentru că niciun furnizor polonez nu putea să-l producă.",
+      "sources": [
+        {"name": "Notes from Poland — finanțarea și construcția statuii", "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/"},
+        {"name": "RTÉ — Polish village puts faith in Europe's tallest Virgin Mary statue", "url": "https://www.rte.ie/news/2026/0727/1585319-virgin-mary-statue-poland/"}
+      ]
+    },
+    {
+      "text": "Cu 55,6 metri, statuia depășește Cristos Mântuitorul din Rio de Janeiro (38 metri) și statuia din Miribel, Franța, devenind cea mai înaltă statuie religioasă din Europa. Rămâne însă mai mică decât cea mai înaltă statuie a Fecioarei Maria din lume — Mother of All Asia – Tower of Peace din Batangas, Filipine, de 98,15 metri.",
+      "sources": [
+        {"name": "NBC News — Giant 180-foot statue of the Virgin Mary is inaugurated in a small Polish village", "url": "https://www.nbcnews.com/world/europe/giant-180-ft-statue-virgin-mary-inaugurated-small-polish-village-rcna592669"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Costul de 100 de milioane de zloți a stârnit critici locale. Un cuplu din Sierpce (la aproximativ 30 km de statuie) a declarat pentru presă că banii „ar fi trebuit investiți într-un spital sau un orfelinat”. O pelerină din Płock, Wanda, și-a exprimat scepticismul: „acum, în 90% din cazuri, toată lumea se gândește la ce poate obține din asta”. Alți vizitatori, precum Marek Gizinski, au susținut proiectul, numindu-l „ceva monumental”, iar primărița localității, Renata Golebiewska, speră ca investiția să aducă dezvoltare economică și locuri de muncă într-o regiune săracă.",
+      "sources": [
+        {"name": "RTÉ — reacții pro și contra din partea localnicilor", "url": "https://www.rte.ie/news/2026/0727/1585319-virgin-mary-statue-poland/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă banii ar fi fost „mai bine cheltuiți” pe un spital sau orfelinat, sau dacă statuia „merită” investiția prin turism și identitate religioasă, sunt judecăți de valoare — nu fapte verificabile. Efectul economic real asupra regiunii nu era cunoscut la data acestei verificări."
+    }
+  ],
+  "math": {
+    "title": "55,6 metri — cu 17,6 metri mai sus decât Cristos Mântuitorul",
+    "explanation": "Statuia din Konotopie (55,6 m) depășește cu 17,6 metri statuia lui Cristos Mântuitorul din Rio de Janeiro (38 m) — o diferență de aproape 46%. Rămâne însă cu 42,55 metri mai scundă decât cea mai înaltă statuie a Fecioarei Maria din lume, din Filipine (98,15 m), adică doar 57% din înălțimea acesteia."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptele centrale (înălțime, finanțare, dată) sunt confirmate concordant de mai multe redacții (Notes from Poland, RTÉ, Euronews, NBC News). Reacțiile critice citate în secțiunea Contestat provin dintr-un singur reportaj (RTÉ) — nu am găsit alte redacții care să fi cules aceleași declarații, așa că le tratăm ca voci individuale, nu ca un curent de opinie majoritar confirmat.",
+  "persoane": [
+    "Roman Karkosik"
+  ]
+}
