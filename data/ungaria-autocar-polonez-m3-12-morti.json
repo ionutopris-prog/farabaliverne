@@ -1,0 +1,54 @@
+{
+  "slug": "ungaria-autocar-polonez-m3-12-morti",
+  "title": "Accident grav în Ungaria: autocar polonez răsturnat pe autostrada M3 lângă Mezőkeresztes, 12 morți",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "LBC / index.hu",
+  "url": "https://www.lbc.co.uk/article/twelve-killed-10-injured-polish-bus-overturns-motorway-hungary-5Hjdg6h_2/",
+  "dek": "Un autocar înmatriculat în Polonia, cu 57 de pasageri și 2 șoferi la bord, s-a răsturnat într-un șanț pe autostrada M3 din estul Ungariei, lângă Mezőkeresztes, în jurul orei 1:00 noaptea spre duminică, 16 august 2026. Bilanțul confirmat: 12 morți și 47 de răniți. Cauza exactă e în anchetă — poliția spune că șoferul ar fi putut adormi, dar „trebuie clarificat de autorități”; șoferul a fost reținut. 🌍 Rezumat original în română din presa britanică și maghiară; sursele originale sunt linkate mai sus.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Un autocar înmatriculat în Polonia, cu 57 de pasageri și 2 șoferi (59 de persoane în total), a părăsit banda dreaptă a autostrăzii M3 și s-a răsturnat într-un șanț, între Mezőkeresztes și Mezőnagymihály, în jurul orei 1:00 noaptea spre duminică, 16 august 2026, în timp ce se îndrepta spre Nyíregyháza. Bilanțul confirmat de autoritățile maghiare: 12 morți.",
+      "sources": [
+        {"name": "LBC — Twelve killed, 10 injured as Polish bus overturns on motorway in Hungary", "url": "https://www.lbc.co.uk/article/twelve-killed-10-injured-polish-bus-overturns-motorway-hungary-5Hjdg6h_2/"},
+        {"name": "index.hu — Tragédia az M3-ason: felborult egy turistabusz, többen meghaltak", "url": "https://index.hu/belfold/2026/08/16/m3-autopalya-buszbaleset-halalos-aldozat-kozlekedes-borsod-abauj-zemplen-megye-rendorseg-nyiregyhaza/"}
+      ]
+    },
+    {
+      "text": "Dintre cele 47 de persoane rănite, una se află în stare critică, 9 au răni grave și 37 au răni ușoare, potrivit bilanțului medical citat de presa maghiară. Intervenția a mobilizat 14 echipaje de ambulanță, iar pentru scoaterea autocarului de 24 de tone, sub care erau blocați pasageri, au fost aduse macarale.",
+      "sources": [
+        {"name": "index.hu — bilanțul medical: 1 critic, 9 grav, 37 ușor", "url": "https://index.hu/belfold/2026/08/16/m3-autopalya-buszbaleset-halalos-aldozat-kozlekedes-borsod-abauj-zemplen-megye-rendorseg-nyiregyhaza/"}
+      ]
+    },
+    {
+      "text": "Poliția a declarat că informațiile preliminare indică faptul că șoferul ar fi adormit la volan, dar a subliniat că ipoteza „trebuie clarificată de autorități” printr-o anchetă oficială. Șoferul a fost reținut.",
+      "sources": [
+        {"name": "LBC — preliminary information suggests the driver fell asleep", "url": "https://www.lbc.co.uk/article/twelve-killed-10-injured-polish-bus-overturns-motorway-hungary-5Hjdg6h_2/"},
+        {"name": "index.hu — poliția: ipoteza adormirii la volan trebuie clarificată", "url": "https://index.hu/belfold/2026/08/16/m3-autopalya-buszbaleset-halalos-aldozat-kozlekedes-borsod-abauj-zemplen-megye-rendorseg-nyiregyhaza/"}
+      ]
+    },
+    {
+      "text": "Premierul ungar Péter Magyar și-a exprimat condoleanțele față de familiile victimelor și a mulțumit echipelor de intervenție, într-un mesaj oficial transmis duminică.",
+      "sources": [
+        {"name": "LBC — Hungary PM Peter Magyar's statement of condolences", "url": "https://www.lbc.co.uk/article/twelve-killed-10-injured-polish-bus-overturns-motorway-hungary-5Hjdg6h_2/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cauza exactă a accidentului nu este stabilită oficial. Ipoteza adormirii șoferului la volan este doar „informație preliminară” a poliției, nu o concluzie a anchetei, care era încă în desfășurare la data acestei verificări — cititorul ar trebui să aștepte raportul oficial înainte de a considera cauza confirmată.",
+      "sources": [
+        {"name": "LBC — preliminary information, cause under investigation", "url": "https://www.lbc.co.uk/article/twelve-killed-10-injured-polish-bus-overturns-motorway-hungary-5Hjdg6h_2/"},
+        {"name": "index.hu — trebuie clarificat de autorități", "url": "https://index.hu/belfold/2026/08/16/m3-autopalya-buszbaleset-halalos-aldozat-kozlekedes-borsod-abauj-zemplen-megye-rendorseg-nyiregyhaza/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "12 din 59 de persoane aflate în autocar nu au supraviețuit",
+    "text": "Cu 12 decese dintr-un total de 59 de persoane la bord (57 de pasageri plus 2 șoferi), rata de fatalitate a accidentului este de aproximativ 20% — adică aproape 1 din 5 persoane aflate în autocar. Alte 10 persoane au răni grave sau critice (circa 17% din total), iar 37 au răni ușoare."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa britanică și maghiară; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Bilanțul (12 morți, 47 răniți) și circumstanțele accidentului sunt confirmate concordant de LBC (presă britanică) și index.hu (presă locală maghiară, care citează direct poliția). Cauza exactă rămâne în anchetă — ipoteza „a adormit la volan” e doar preliminară, nu o concluzie oficială.",
+  "persoane": []
+}
