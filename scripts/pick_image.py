@@ -245,9 +245,15 @@ def _comprima_sips(path, tmp):
 def _comprima_pil(path, tmp):
     """Fallback portabil (Linux/CI, fără sips) — Pillow, dacă e instalat."""
     try:
-        from PIL import Image
+        from PIL import Image, ImageFile
     except ImportError:
         return None
+    # Pozele de pe Commons vin des cu ultimii octeți lipsă. `sips` trece peste
+    # și comprimă normal; Pillow ridică „image file is truncated" și refuză să
+    # deschidă fișierul. De-aia mergea pe Mac și pica pe runner: aceeași poză,
+    # două comportamente. Pe 16 august, doi octeți lipsă dintr-un JPEG au ținut
+    # site-ul pe loc șapte ore și jumătate.
+    ImageFile.LOAD_TRUNCATED_IMAGES = True
     cel_mai_bun = None
     for calitate in (85, 70, 55):
         try:
@@ -257,7 +263,11 @@ def _comprima_pil(path, tmp):
                     h = round(im.height * LATIME_MAX / im.width)
                     im = im.resize((LATIME_MAX, h), Image.LANCZOS)
                 im.save(tmp, "JPEG", quality=calitate, optimize=True)
-        except Exception:
+        except Exception as e:
+            # Niciodată tăcut: o compresie care eșuează fără urmă arată exact ca
+            # una care a reușit, iar pasul următor blochează publicarea.
+            print(f"::warning::Pillow n-a putut comprima {os.path.basename(path)} "
+                  f"la calitatea {calitate}: {type(e).__name__}: {e}")
             return cel_mai_bun
         if not os.path.exists(tmp):
             continue
