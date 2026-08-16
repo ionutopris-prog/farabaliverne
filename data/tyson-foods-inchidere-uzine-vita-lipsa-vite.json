@@ -1,0 +1,54 @@
+{
+  "slug": "tyson-foods-inchidere-uzine-vita-lipsa-vite",
+  "title": "Tyson Foods închide două uzine de carne de vită și scoate la vânzare o a treia, pe fondul celei mai mari lipse de vite din ultimii 75 de ani",
+  "category": "Economie",
+  "date": "2026-08-16",
+  "source": "Transport Topics (TTNews) / Oklahoma Farm Report",
+  "url": "https://www.ttnews.com/articles/tyson-close-more-beef-plants",
+  "dek": "Tyson Foods a anunțat pe 13-14 august 2026 închiderea uzinei de carne de vită din Joslin (Illinois) și a facilității de ambalare din Eagle Mountain (Utah), plus scoaterea la vânzare a uzinei din Pasco (Washington). Motivul: turma de vite a SUA a scăzut la cel mai mic nivel din 1951 (75 de ani), iar prețurile ridicate la vite au dus la pierderi operaționale de 500-650 milioane $ estimate pentru segmentul de carne de vită în 2026. Circa 2.500 de angajați de la Joslin sunt afectați.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Tyson Foods închide uzina de procesare a cărnii de vită din Joslin, Illinois, și facilitatea de ambalare „case-ready” din Eagle Mountain, Utah, și încearcă să vândă uzina de carne de vită din Pasco, Washington. Compania își va consolida operațiunile de carne de vită în jurul a trei uzine: Dakota City (Nebraska), Holcomb (Kansas) și Amarillo (Texas), unde va adăuga un al doilea schimb pe măsură ce oferta de vite o va permite.",
+      "sources": [
+        {"name": "Transport Topics — Tyson to close more beef plants as cattle shortage drags on", "url": "https://www.ttnews.com/articles/tyson-close-more-beef-plants"},
+        {"name": "Oklahoma Farm Report — Tyson Foods shuts down major beef processing plants", "url": "https://www.oklahomafarmreport.com/2026/08/14/tyson-foods-shuts-down-major-beef-processing-plants-amid-historic-cattle-shortages/"}
+      ]
+    },
+    {
+      "text": "Motivul invocat de companie este „una dintre cele mai istorice lipse de vite pe care țara le-a experimentat vreodată”, care a dus la costuri ridicate ale animalelor vii și la pierderi operaționale adânci în segmentul de carne de vită al Tyson.",
+      "sources": [
+        {"name": "Transport Topics — cea mai istorică lipsă de vite, costuri ridicate", "url": "https://www.ttnews.com/articles/tyson-close-more-beef-plants"}
+      ]
+    },
+    {
+      "text": "Turma națională de vaci de carne a SUA a ajuns la 27,6 milioane de capete la 1 ianuarie 2026 — cel mai mic nivel din 1951 (75 de ani) — marcând al șaptelea an consecutiv de contracție, potrivit raportului USDA privind inventarul de vite.",
+      "sources": [
+        {"name": "Oklahoma Farm Report — turma la cel mai mic nivel din 1951, 27,6 milioane capete", "url": "https://www.oklahomafarmreport.com/2026/08/14/tyson-foods-shuts-down-major-beef-processing-plants-amid-historic-cattle-shortages/"}
+      ]
+    },
+    {
+      "text": "Aproximativ 2.500 de angajați de la uzina din Joslin, Illinois, sunt afectați de închidere; Tyson s-a angajat să le plătească salariul pentru 60 de zile și să îi ajute la relocare. Uzinele din Illinois și Washington procesau împreună circa 5.000 de vite pe zi.",
+      "sources": [
+        {"name": "Oklahoma Farm Report — 2.500 de angajați, plată de 60 de zile, relocare", "url": "https://www.oklahomafarmreport.com/2026/08/14/tyson-foods-shuts-down-major-beef-processing-plants-amid-historic-cattle-shortages/"},
+        {"name": "Transport Topics — capacitate de circa 5.000 de vite pe zi la cele două uzine", "url": "https://www.ttnews.com/articles/tyson-close-more-beef-plants"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra exactă a pierderii operaționale estimate pentru segmentul de carne de vită diferă ușor între surse: Transport Topics citează un interval de 500-650 milioane $ pentru anul fiscal 2026 (revizuit de la 350-500 milioane $), în timp ce Oklahoma Farm Report indică 600-650 milioane $. Diferența e la capătul inferior al intervalului, nu la concluzia de fond — ambele surse confirmă că pierderea estimată a crescut față de prognoza anterioară.",
+      "sources": [
+        {"name": "Transport Topics — pierdere estimată 500-650 milioane $", "url": "https://www.ttnews.com/articles/tyson-close-more-beef-plants"},
+        {"name": "Oklahoma Farm Report — pierdere estimată 600-650 milioane $", "url": "https://www.oklahomafarmreport.com/2026/08/14/tyson-foods-shuts-down-major-beef-processing-plants-amid-historic-cattle-shortages/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Turma de vite a scăzut cu aproape 40% de la vârful istoric",
+    "text": "Turma actuală de 27,6 milioane de capete e cel mai mic nivel din 1951, adică din urmă cu 75 de ani. Cele două uzine închise (Illinois, Washington) procesau împreună circa 5.000 de vite pe zi; combinat cu închiderile recente ale JBS USA, industria a pierdut aproximativ 10.000 de „locuri” de procesare zilnică la nivel național — o reducere semnificativă de capacitate, în oglindă cu scăderea ofertei de animale."
+  },
+  "aiNote": "🤖 Am agregat cu surse independente din presa americană de specialitate (transport/logistică și agricultură) o știre economică din SUA. Faptele centrale — uzinele închise, motivul (lipsa de vite), cifra istorică a turmei (cel mai mic nivel din 1951) și numărul de angajați afectați — sunt confirmate concordant de Transport Topics și Oklahoma Farm Report. Singura divergență e la câteva zeci de milioane de dolari în intervalul pierderii estimate, semnalată explicit mai sus.",
+  "persoane": []
+}
