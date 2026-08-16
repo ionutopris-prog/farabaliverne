@@ -1,0 +1,56 @@
+{
+  "slug": "sua-dnc-calendar-primare-2028-carolina-sud",
+  "title": "Democrații din SUA au votat noul calendar al primarelor 2028: Carolina de Sud prima, Iowa scoasă din start",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "NOTUS / KCRG",
+  "url": "https://www.notus.org/democrats/dnc-new-presidential-primary-calendar-black-vote-south-carolina",
+  "srcQuote": "DNC Adopts New Early State Presidential Primary Calendar",
+  "dek": "🌍 Comitetul Național Democrat (DNC) a adoptat sâmbătă, 15 august 2026, la Austin, noul calendar al primarelor prezidențiale din 2028: Carolina de Sud deschide seria pe 22 ianuarie, iar Iowa este scoasă complet din grupul statelor timpurii. New Hampshire coboară de pe locul doi pe trei, iar New Mexico intră pentru prima dată în calendarul timpuriu.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Comitetul Național Democrat a votat sâmbătă, 15 august 2026, la Austin, Texas, noul calendar al primarelor timpurii pentru alegerile prezidențiale din 2028, adoptat prin vot deschis, cu majoritate covârșitoare și doar câteva voturi audibile împotrivă. Ordinea aprobată: Carolina de Sud (22 ianuarie 2028), Nevada (1 februarie), New Hampshire (8 februarie), New Mexico (15 februarie), Michigan (22 februarie) și Virginia (29 februarie).",
+      "sources": [
+        {"name": "NOTUS — DNC Adopts New Early State Presidential Primary Calendar", "url": "https://www.notus.org/democrats/dnc-new-presidential-primary-calendar-black-vote-south-carolina"},
+        {"name": "KCRG — DNC approves 2028 presidential nominating calendar; Iowa left out of early voting", "url": "https://www.kcrg.com/2026/08/15/dnc-approves-2028-presidential-nominating-calendar-iowa-left-out-early-voting/"}
+      ]
+    },
+    {
+      "text": "Iowa este scoasă complet din grupul statelor timpurii — o schimbare semnalată încă din 2024, după probleme majore de organizare a caucusurilor din 2020. New Hampshire, care conducea tradițional calendarul, coboară de pe locul doi pe trei, iar New Mexico intră pentru prima oară printre primele state.",
+      "sources": [
+        {"name": "NOTUS — DNC Adopts New Early State Presidential Primary Calendar", "url": "https://www.notus.org/democrats/dnc-new-presidential-primary-calendar-black-vote-south-carolina"},
+        {"name": "KCRG — DNC approves 2028 presidential nominating calendar; Iowa left out of early voting", "url": "https://www.kcrg.com/2026/08/15/dnc-approves-2028-presidential-nominating-calendar-iowa-left-out-early-voting/"}
+      ]
+    },
+    {
+      "text": "Conducerea DNC a motivat schimbarea prin nevoia unei ordini mai reprezentative pentru diversitatea electoratului democrat — alegătorii afro-americani reprezintă peste jumătate din electoratul primarelor democrate din Carolina de Sud, un profil demografic diferit de cel din Iowa sau New Hampshire. Președintele DNC, Ken Martin, a declarat: „Nominalizatul nostru din 2028 [...] va trebui să câștige asta pe toată întinderea Americii”, adăugând: „Fără scurtături, fără încoronare.”",
+      "sources": [
+        {"name": "NOTUS — DNC Adopts New Early State Presidential Primary Calendar", "url": "https://www.notus.org/democrats/dnc-new-presidential-primary-calendar-black-vote-south-carolina"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Delegația Iowa a votat împotriva rezoluției, iar președinta Partidului Democrat din Iowa, Rita Hart, a calificat calendarul drept „complet greșit” și un „set de promisiuni încălcate”, susținând că excluderea statelor din Vestul Mijlociu și a celor rurale subminează strategia electorală democrată pe termen lung — o poziție politică internă a partidului, nu o constatare factuală independentă.",
+      "sources": [
+        {"name": "KCRG — DNC approves 2028 presidential nominating calendar; Iowa left out of early voting", "url": "https://www.kcrg.com/2026/08/15/dnc-approves-2028-presidential-nominating-calendar-iowa-left-out-early-voting/"}
+      ]
+    },
+    {
+      "text": "Marja exactă a votului nu este precizată în niciuna dintre cele două surse verificate — se menționează doar „vot deschis, cu majoritate covârșitoare” (NOTUS) și opoziția delegației Iowa (KCRG), fără un număr exact de voturi pentru/împotrivă.",
+      "sources": [
+        {"name": "NOTUS — DNC Adopts New Early State Presidential Primary Calendar", "url": "https://www.notus.org/democrats/dnc-new-presidential-primary-calendar-black-vote-south-carolina"},
+        {"name": "KCRG — DNC approves 2028 presidential nominating calendar; Iowa left out of early voting", "url": "https://www.kcrg.com/2026/08/15/dnc-approves-2028-presidential-nominating-calendar-iowa-left-out-early-voting/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă noua ordine „reflectă mai bine diversitatea Partidului Democrat” (poziția conducerii DNC) sau „subminează strategia electorală în statele-cheie din Vestul Mijlociu” (poziția Iowa) sunt două interpretări politice aflate în conflict, nu fapte verificabile — depinde de rezultatele alegerilor din 2028, care nu există încă."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Ordinea calendarului și datele sunt confirmate identic de NOTUS și KCRG. Nu am reușit să accesez direct CNN (articol blocat) pentru o a treia confirmare, dar cele două surse folosite sunt independente una de alta și concordante pe toate punctele factuale centrale.",
+  "math": null,
+  "persoane": []
+}

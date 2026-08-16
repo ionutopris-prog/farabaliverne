@@ -1,0 +1,53 @@
+{
+  "slug": "sua-rujeola-record-35-ani-2026",
+  "title": "SUA au înregistrat cele mai multe cazuri de rujeolă din ultimii 35 de ani — și riscă să piardă statutul de țară fără boală endemică",
+  "category": "Social",
+  "date": "2026-08-16",
+  "source": "ABC News / CBS News",
+  "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573",
+  "srcQuote": "US measles cases hit 2,318 in 2026, surpassing last year's total: CDC",
+  "dek": "🌍 Statele Unite au raportat 2.318 cazuri confirmate de rujeolă până pe 24 iulie 2026, depășind totalul din 2025 și atingând cel mai ridicat nivel din ultimii 35 de ani. Aproape toate cazurile sunt la persoane nevaccinate, iar autoritățile sanitare avertizează că țara riscă să piardă statutul de eliminare a rujeolei, deținut din anul 2000.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "SUA au raportat 2.318 cazuri confirmate de rujeolă la nivel național până pe 24 iulie 2026, cifră care depășește totalul întregului an 2025 (2.289 de cazuri) și reprezintă cel mai ridicat număr anual din 1991 încoace — adică din ultimii 35 de ani. Cazurile au fost confirmate în 43 de state plus Districtul Columbia, la care se adaugă 16 cazuri la vizitatori internaționali.",
+      "sources": [
+        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"},
+        {"name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases", "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"}
+      ]
+    },
+    {
+      "text": "Aproximativ 93% dintre cei infectați sunt persoane nevaccinate sau cu statutul de vaccinare necunoscut. Rata de vaccinare ROR (rujeolă-oreion-rubeolă) la intrarea în grădiniță a scăzut la 92,5% în anul școlar 2024-2025, față de 95,2% în 2019-2020 — sub pragul de 95% considerat necesar pentru imunitatea de grup.",
+      "sources": [
+        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"},
+        {"name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases", "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"}
+      ]
+    },
+    {
+      "text": "Focarele repetate pun SUA în pericol de a pierde statutul oficial de „eliminare a rujeolei”, deținut din anul 2000 — statut care înseamnă că boala nu mai circulă continuu în populație timp de peste 12 luni. Cel mai mare focar recent, în vestul statului Texas în 2025, a însumat peste 750 de cazuri și a dus la moartea a doi copii.",
+      "sources": [
+        {"name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases", "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"},
+        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra exactă de cazuri variază ușor în funcție de data raportării — presa citează 2.318 cazuri la 24 iulie, dar surse ulterioare (necesitat verificare directă suplimentară, de aceea nu le includem ca fapt confirmat aici) vehiculează cifre mai mari, spre 2.500+, pentru date de la mijlocul lunii august. Tendința e clar crescătoare, dar cifra „la zi” depinde de momentul exact al raportării CDC.",
+      "sources": [
+        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Atribuirea cauzei exclusiv scăderii ratei de vaccinare este susținută de majoritatea specialiștilor în sănătate publică citați, dar politizarea temei vaccinării (dezbateri privind obligativitatea vaccinării, mișcări anti-vaccin) face ca unele evaluări despre „vinovați” să rămână poziții politice, nu constatări epidemiologice stricte."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Cifrele (2.318 cazuri la 24 iulie 2026, 93% nevaccinați, rata de vaccinare 92,5%) sunt confirmate concordant de ABC News și CBS News, ambele citând date CDC. Nu am putut accesa direct pagina CDC (blocată pentru accesul automatizat), de aceea am marcat explicit, la Contestat, că o cifră mai recentă și mai mare circulă în presă fără să o fi verificat eu însumi prin sursă primară.",
+  "math": {
+    "title": "2.318 cazuri în 2026 față de 1.274 în 2019 — aproape dublu",
+    "text": "Înainte de valul actual, cel mai mare număr anual recent de cazuri de rujeolă în SUA fusese 1.274, în 2019. Cele 2.318 cazuri raportate până pe 24 iulie 2026 reprezintă deja o creștere de peste 80% față de acel prag, deși anul nu s-a încheiat — ceea ce explică de ce specialiștii vorbesc despre cel mai grav an din ultimii 35."
+  },
+  "persoane": []
+}
