@@ -1,0 +1,53 @@
+{
+  "slug": "maroc-ceuta-migranti-arestati-16-august",
+  "title": "Maroc arestează zeci de migranți care încercau o nouă traversare spre Ceuta, la două săptămâni după ce 72.000 de oameni au trecut granița",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "NBC News / Euronews / Al Jazeera",
+  "url": "https://www.euronews.com/my-europe/2026/08/16/morocco-prevents-new-attempts-to-cross-into-ceuta-army-says",
+  "dek": "🌍 Poliția marocană a arestat, sâmbătă 15-16 august 2026, un grup de migranți ascunși lângă Fnideq, care se pregăteau să încerce o nouă traversare spre enclava spaniolă Ceuta, după apeluri pe rețelele sociale la o traversare în masă. Cifrele exacte diferă între surse. Vine la două săptămâni după ce aproximativ 72.000 de persoane au trecut deja granița, cu un bilanț al morților contestat între autoritățile marocane, cele spaniole și o asociație de drepturile omului.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Poliția marocană a intervenit sâmbătă asupra unui grup de migranți ascunși în zona muntoasă de lângă Fnideq, la periferia enclavei spaniole Ceuta, care se pregăteau pentru o nouă tentativă de traversare. Autoritățile au folosit gaze lacrimogene pentru a dispersa grupurile adunate pe dealuri, la aproximativ 3 km de graniță. Operațiunea a venit ca răspuns la mesaje și postări pe rețelele sociale care îndemnau la o traversare colectivă pe 15 august.",
+      "sources": [
+        {"name": "Euronews — Morocco prevents new attempts to cross into Ceuta, army says", "url": "https://www.euronews.com/my-europe/2026/08/16/morocco-prevents-new-attempts-to-cross-into-ceuta-army-says"},
+        {"name": "NBC News — Morocco arrests migrants headed for Spain's Ceuta in security crackdown", "url": "https://www.nbcnews.com/world/spain/morocco-arrests-111-migrants-headed-spains-ceuta-security-crackdown-rcna592757"}
+      ]
+    },
+    {
+      "text": "Intervenția vine la aproximativ două săptămâni după o traversare masivă: la finalul lunii iulie 2026, circa 72.000 de persoane, majoritatea de cetățenie marocană, au trecut neregulat în Ceuta, mai ales pe cale maritimă, într-un interval de câteva zile. Cei mai mulți au fost readmiși ulterior în Maroc de forțele marocane și spaniole; aproximativ 2.000 de persoane, inclusiv circa 1.000 de minori (care nu pot fi expulzați conform legii spaniole), au rămas pe teritoriul spaniol.",
+      "sources": [
+        {"name": "Al Jazeera — Morocco says working to prevent potential new Ceuta crossings surge", "url": "https://www.aljazeera.com/news/2026/8/12/morocco-says-working-to-prevent-potential-new-ceuta-crossings-surge"}
+      ]
+    },
+    {
+      "text": "Ministerul de Interne din Maroc a anunțat intensificarea securității de-a lungul graniței, cu puncte de control pe drumurile de acces spre Fnideq, supraveghere maritimă cu bărci rapide ale marinei și drone, și a declarat că va urmări în instanță persoanele care organizează sau răspândesc online apeluri la traversări ilegale în masă. Pe 7 august, un tribunal marocan a condamnat șapte șoferi de taxi la până la șase luni de închisoare și amenzi de 1.070 de dolari fiecare, pentru transportul de migranți spre graniță.",
+      "sources": [
+        {"name": "Al Jazeera — măsurile marocane și condamnarea taximetriștilor", "url": "https://www.aljazeera.com/news/2026/8/12/morocco-says-working-to-prevent-potential-new-ceuta-crossings-surge"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul exact al persoanelor arestate sâmbătă diferă între surse: NBC News (preluând o agenție de presă) vorbește despre „cel puțin 111” persoane, în timp ce presa marocană, citată de Euronews, indică 294 de persoane reținute (46 de cetățeni marocani și restul din Africa subsahariană). Diferența poate reflecta perioade de raportare diferite sau metodologii diferite de numărare; nu am găsit, la data verificării, o sursă oficială unică ce reconcilieze cele două cifre.",
+      "sources": [
+        {"name": "NBC News — cel puțin 111 persoane arestate", "url": "https://www.nbcnews.com/world/spain/morocco-arrests-111-migrants-headed-spains-ceuta-security-crackdown-rcna592757"},
+        {"name": "Euronews — 294 de persoane arestate, potrivit presei marocane", "url": "https://www.euronews.com/my-europe/2026/08/16/morocco-prevents-new-attempts-to-cross-into-ceuta-army-says"}
+      ]
+    },
+    {
+      "text": "Bilanțul morților din traversarea masivă de la finalul lui iulie este puternic contestat între surse: autoritățile marocane au recuperat 11 cadavre, autoritățile spaniole au raportat cel puțin 80 de morți, iar Asociația Marocană pentru Drepturile Omului estimează cel puțin 141 de decese. Diferența e semnificativă (de la 11 la 141) și arată cât de greu de verificat independent e bilanțul unei asemenea traversări.",
+      "sources": [
+        {"name": "Al Jazeera — cifrele diferite ale bilanțului morților (Maroc, Spania, ONG)", "url": "https://www.aljazeera.com/news/2026/8/12/morocco-says-working-to-prevent-potential-new-ceuta-crossings-surge"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De la 72.000 la câteva sute — proporția e mică, dar tendința contează",
+    "text": "Chiar și cifra mai mare raportată (294 de persoane oprite sâmbătă) reprezintă sub 0,5% din cei aproximativ 72.000 care au trecut deja granița la finalul lui iulie. Asta nu înseamnă că riscul a dispărut: autoritățile marocane tratează evenimentul ca pe un semnal de alarmă pentru o posibilă reluare a traversărilor în masă, nu ca pe un incident izolat."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română știri din presa internațională (Euronews, NBC News, Al Jazeera); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am marcat explicit ca „Contestat” diferențele de cifre între surse (arestări și bilanțul morților), pentru că nu am găsit o sursă oficială care să le reconcilieze.",
+  "persoane": []
+}

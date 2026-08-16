@@ -1,0 +1,36 @@
+{
+  "slug": "uk-met-police-date-victime-al-fayed",
+  "title": "Poliția londoneză (Met) cere scuze după ce a expus adresele de email a 143 de femei care au acuzat de abuz sexual pe Mohamed Al Fayed",
+  "category": "Extern",
+  "date": "2026-08-16",
+  "source": "Euronews / CP24",
+  "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed",
+  "dek": "🌍 Poliția Metropolitană din Londra (Met) a recunoscut o breșă de date: adresele de email a 143 de femei care au depus plângeri de abuz sexual împotriva fostului patron al Harrods, Mohamed Al Fayed (mort în 2023), au fost vizibile pentru ceilalți destinatari ai unui email de actualizare, în loc să fie ascunse. Poliția vorbește despre „eroare umană”, a contactat direct persoanele afectate și s-a auto-sesizat la autoritatea britanică de protecție a datelor (ICO).",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Poliția Metropolitană din Londra a confirmat oficial breșa: adresele de email a aproximativ 143 de persoane care au depus plângeri de abuz sexual împotriva lui Mohamed Al Fayed au fost vizibile de către ceilalți destinatari ai unui email lunar de informare, în loc să fie ascunse (destinatarii au fost puși în „CC” în loc de „CCO”/bcc). Met a numit incidentul „eroare umană” și a transmis scuze oficiale.",
+      "sources": [
+        {"name": "Euronews — UK police apologise after Al Fayed sex abuse data breach", "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed"},
+        {"name": "CP24 — London police apologize after sex abuse complaints against late Harrods owner shared on comms list", "url": "https://www.cp24.com/news/world/2026/08/15/london-police-apologize-after-sex-abuse-complaints-against-late-harrods-owner-shared-on-comms-list/"}
+      ]
+    },
+    {
+      "text": "Potrivit Met, toate persoanele afectate au fost contactate direct în ziua producerii incidentului. Poliția a declarat: „Înțelegem impactul pe care acest lucru îl poate avea asupra victimelor și ne cerem sincer scuze. Toți cei afectați au fost contactați direct în ziua incidentului. Incidentul este investigat ca prioritate și revizuim procesele pentru a preveni o breșă similară.” Cazul a fost autosesizat către Information Commissioner's Office (ICO), autoritatea britanică pentru protecția datelor.",
+      "sources": [
+        {"name": "Euronews — reacția Met Police și autosesizarea la ICO", "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed"}
+      ]
+    },
+    {
+      "text": "Plângerile aparțin unui val de acuzații de viol și agresiune sexuală formulate de sute de femei împotriva lui Mohamed Al Fayed, fostul proprietar al magazinului Harrods, în special după moartea acestuia în 2023, la 94 de ani. Aceste acuzații fac obiectul unor anchete separate ale poliției și ale unui organism de supraveghere a poliției (IOPC), care investighează inclusiv modul în care Met a gestionat de-a lungul timpului plângerile depuse.",
+      "sources": [
+        {"name": "CP24 — contextul valului de acuzații împotriva lui Al Fayed", "url": "https://www.cp24.com/news/world/2026/08/15/london-police-apologize-after-sex-abuse-complaints-against-late-harrods-owner-shared-on-comms-list/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": null,
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa britanică și internațională (Euronews, CP24); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Nu ne pronunțăm aici asupra vinovăției lui Mohamed Al Fayed (subiect al altor anchete separate) — articolul de față privește strict breșa de date recunoscută de poliția britanică și scuzele oficiale transmise victimelor.",
+  "persoane": []
+}
