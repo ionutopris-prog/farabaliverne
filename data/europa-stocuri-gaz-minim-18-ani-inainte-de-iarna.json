@@ -1,0 +1,70 @@
+{
+  "slug": "europa-stocuri-gaz-minim-18-ani-inainte-de-iarna",
+  "title": "Europa intră în sezonul de încălzire cu cel mai mic stoc de gaze din ultimii ~18 ani; Comisia Europeană a relaxat ținta de la 90% la 80%",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "Euronews / eunews.it / ACER / GIE (AGSI+)",
+  "url": "https://www.euronews.com/my-europe/2026/07/08/eu-faces-tougher-gas-storage-refill-task-as-winter-looms-and-high-prices-bite",
+  "dek": "Stocurile de gaze naturale ale UE stăteau la 60,44% din capacitate pe 15 august 2026, cu circa 9-10 puncte procentuale sub media sezonieră pentru această perioadă a anului — cel mai scăzut nivel de la începutul lui august din ultimii cca. 15-18 ani, potrivit analiștilor. Ținta legală de 90% până la 1 noiembrie a fost relaxată de Comisia Europeană la 80%, unele state putând coborî până la 70%.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Stocurile de gaze ale UE se aflau la 60,44% din capacitate pe 15 august 2026, conform platformei oficiale de transparență AGSI+ a Gas Infrastructure Europe (GIE), care acoperă 100% din capacitatea de stocare subterană din UE-27. Nivelul este cu aproximativ 9-10 puncte procentuale sub media istorică pentru această dată a anului.",
+      "sources": [
+        {"name": "Global Energy Flow — EU Gas Storage Level 2026, date GIE/AGSI+", "url": "https://global-energy-flow.com/storage/trajectory/"},
+        {"name": "GIE — platforma oficială AGSI/ALSI (agsi.gie.eu)", "url": "https://www.gie.eu/agsi-and-alsi-transparency-platforms/"}
+      ]
+    },
+    {
+      "text": "Ținta legală a UE, stabilită prin Regulamentul privind stocarea gazelor, este de 90% din capacitate până la 1 noiembrie. Din cauza condițiilor dificile de piață, Comisia Europeană a permis statelor membre să vizeze o țintă relaxată de 80%, cu unele state putând coborî până la 70%.",
+      "sources": [
+        {"name": "Euronews — EU faces tougher gas storage refill task as winter looms", "url": "https://www.euronews.com/my-europe/2026/07/08/eu-faces-tougher-gas-storage-refill-task-as-winter-looms-and-high-prices-bite"},
+        {"name": "ACER — EU will need higher LNG imports to refill gas storage ahead of winter", "url": "https://www.acer.europa.eu/news/eu-will-need-higher-lng-imports-refill-gas-storage-ahead-winter"}
+      ]
+    },
+    {
+      "text": "Printre cauzele citate de analiști: interzicerea contractelor pe termen scurt pentru gaz rusesc pe conductă, începând din iunie 2026; prețurile ridicate, care descurajează injectarea în stocuri; cererea puternică de GNL din Asia (China, India), care redirecționează transporturile dinspre Europa; și perturbările din Strâmtoarea Hormuz, care limitează disponibilitatea GNL pentru piața europeană.",
+      "sources": [
+        {"name": "Euronews — constrângeri asupra realimentării stocurilor", "url": "https://www.euronews.com/my-europe/2026/07/08/eu-faces-tougher-gas-storage-refill-task-as-winter-looms-and-high-prices-bite"},
+        {"name": "eunews.it — Gas storage levels in Europe are at an all-time low", "url": "https://www.eunews.it/en/2026/07/29/gas-storage-levels-in-europe-are-at-an-all-time-low/"}
+      ]
+    },
+    {
+      "text": "Nivelul de umplere variază puternic între statele membre: Portugalia (~84%) și Italia (~74%) sunt printre cele mai bine aprovizionate, în timp ce Germania stătea la ~46% și Suedia la doar ~11,5%, potrivit unei analize Wood Mackenzie citate de eunews.it, cu date de la finalul lunii iulie 2026.",
+      "sources": [
+        {"name": "eunews.it — variații pe țări, analiză Wood Mackenzie", "url": "https://www.eunews.it/en/2026/07/29/gas-storage-levels-in-europe-are-at-an-all-time-low/"}
+      ]
+    },
+    {
+      "text": "La ritmul actual de injecție (aproximativ +0,23–0,25 puncte procentuale pe zi), instrumentele de proiecție estimează că UE va ajunge la circa 78-80% din capacitate până pe 1 noiembrie — aproape de ținta relaxată de 80%, dar cu mult sub ținta legală inițială de 90%.",
+      "sources": [
+        {"name": "Global Energy Flow — traiectorie proiectată spre 1 noiembrie", "url": "https://global-energy-flow.com/storage/trajectory/"},
+        {"name": "OilPrice.com — Europe's Gas Storage Crunch Deepens Ahead of Heating Season", "url": "https://oilprice.com/Energy/Natural-Gas/Europes-Gas-Storage-Crunch-Deepens-Ahead-of-Heating-Season.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Procentul exact de umplere variază ușor în funcție de data instantaneului citat de diverse surse (57,15% pe 2 august, 60,44% pe 15 august, ~55,7% într-o analiză publicată pe 29 iulie) — nu este o contradicție, ci reflectă progresul zilnic al injecției. Pentru cifra curentă, cititorul poate consulta direct platforma oficială agsi.gie.eu, actualizată zilnic.",
+      "sources": [
+        {"name": "Global Energy Flow — istoricul zilnic al nivelului de stocare", "url": "https://global-energy-flow.com/storage/"},
+        {"name": "eunews.it — nivel de 55,7% la data publicării (29 iulie 2026)", "url": "https://www.eunews.it/en/2026/07/29/gas-storage-levels-in-europe-are-at-an-all-time-low/"}
+      ]
+    },
+    {
+      "text": "Proiecțiile pentru 1 noiembrie diferă moderat între modele: unele indică ~75-76%, altele ~78-80%, în funcție de ipotezele privind ritmul zilnic de injecție și revenirea capacității de export de GNL din Qatar și Orientul Mijlociu — este o incertitudine normală de prognoză, nu o eroare factuală.",
+      "sources": [
+        {"name": "Global Energy Flow — proiecție ~78-80% până pe 1 noiembrie", "url": "https://global-energy-flow.com/storage/trajectory/"},
+        {"name": "eunews.it — scenariu optimist de ~75% până pe 1 noiembrie", "url": "https://www.eunews.it/en/2026/07/29/gas-storage-levels-in-europe-are-at-an-all-time-low/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Dacă un nivel de 80% (sau mai puțin) reprezintă un „tampon sigur” pentru iarnă este o judecată de risc a analiștilor, nu un fapt stabilit — depinde de cât de aspră va fi iarna 2026-2027 și de cererea reală, necunoscute la data acestei verificări."}
+  ],
+  "math": {
+    "title": "De la 60,44% la 80% în 78 de zile: ritmul necesar chiar se apropie de cel real",
+    "explanation": "Între 15 august și 1 noiembrie 2026 sunt 78 de zile. Pentru a urca de la 60,44% la ținta relaxată de 80% e nevoie de 19,56 puncte procentuale, adică o medie de aproximativ 0,25 puncte procentuale pe zi (19,56 ÷ 78 ≈ 0,251). Aceasta coincide aproape exact cu ritmul de injecție citat de analiști (~0,23-0,25 puncte/zi), ceea ce explică de ce proiecțiile plasează UE aproape de ținta relaxată de 80% — dar tot cu mult sub ținta legală inițială de 90%, unde diferența ar însemna un ritm de aproape 0,38 puncte procentuale pe zi, semnificativ mai mare decât cel observat."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Euronews, eunews.it, ACER, datele oficiale GIE/AGSI+); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce se probează concordant: stocurile UE sunt semnificativ sub media sezonieră, ținta legală de 90% a fost relaxată la 80% (cu unele state la 70%), iar cauzele includ pierderea gazului rusesc pe termen scurt, competiția cu Asia pentru GNL și perturbările din Hormuz. Am marcat ca punct contestat faptul că procentul exact și proiecțiile pentru 1 noiembrie diferă ușor între surse, în funcție de data instantaneului și de ipotezele de calcul — nu sunt cifre contradictorii, ci actualizări succesive ale acelorași date."
+}
