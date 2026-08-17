@@ -1,0 +1,49 @@
+{
+  "slug": "romania-productie-energie-ins-scade-h1-2026",
+  "title": "Producția de energie a României a scăzut cu 2,6% în primul semestru din 2026, arată INS",
+  "category": "Economie",
+  "date": "2026-08-17",
+  "source": "INS / Observator News / Financial Intelligence",
+  "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html",
+  "dek": "Institutul Național de Statistică (INS) a publicat date provizorii potrivit cărora producția internă de energie a României a scăzut cu 2,6% în primele șase luni din 2026 față de aceeași perioadă din 2025. Pe surse: termocentralele și nuclearul au produs mai puțin, în timp ce hidrocentralele, eolienele și solarul au crescut puternic — iar resursele totale de energie electrică au crescut ușor, nu au scăzut.",
+  "mainVerdict": "Probat — date oficiale INS",
+  "probat": [
+    {
+      "text": "Producția internă de energie a României a însumat 7,929 milioane tep (tone echivalent petrol) în primele șase luni din 2026, în scădere cu 215.200 tep, adică -2,6% față de aceeași perioadă din 2025, potrivit datelor provizorii ale Institutului Național de Statistică (INS).",
+      "sources": [
+        { "name": "Observator News — Producția de energie a României a scăzut cu 2,6% în primele șase luni din 2026", "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html" },
+        { "name": "Financial Intelligence — INS: Producția de energie a României a scăzut cu 2,6%, în primele șase luni", "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" }
+      ]
+    },
+    {
+      "text": "În același interval, resursele de energie primară au scăzut cu 4,1%, iar consumul final de energie electrică s-a redus cu 3,3%. INS explică scăderea resurselor primare prin reducerea atât a producției interne (-2,6%), cât și a importurilor (-5,5%).",
+      "sources": [
+        { "name": "Financial Intelligence — resursele de energie primară și consumul final", "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" },
+        { "name": "Ecopolitic — INS: Producția de energie a României a scăzut cu 2,6%, în primele șase luni", "url": "https://ecopolitic.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" }
+      ]
+    },
+    {
+      "text": "Pe surse de producție a energiei electrice, tabloul e mixt: termocentralele au produs 7,680 miliarde kWh (-5,9%), iar centralele nucleare 4,530 miliarde kWh (-11,7%); în schimb, hidrocentralele au urcat la 7,489 miliarde kWh (+17,9%), eolienele la 3,273 miliarde kWh (+9%), iar solarul la 3,259 miliarde kWh (+42,1%). Per total, resursele de energie electrică au crescut cu 1,1%, la 34,691 miliarde kWh.",
+      "sources": [
+        { "name": "Observator News — defalcarea pe surse de producție electrică", "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html" },
+        { "name": "Financial Intelligence — cifrele pe termocentrale, hidro, nuclear, eolian, solar", "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Titlul „producția de energie a scăzut” se referă strict la producția internă de resurse primare (tep), nu la energia electrică disponibilă în ansamblu — aceasta din urmă a crescut de fapt cu 1,1%, pe fondul avansului solar și eolian. Cititorul care reține doar cifra de -2,6% riscă să înțeleagă greșit că țara are mai puțină electricitate la dispoziție, când datele arată o schimbare de mix energetic (mai puțin termo/nuclear, mai mult regenerabil), nu neapărat un deficit.",
+      "sources": [
+        { "name": "Observator News — cifrele complete, inclusiv creșterea resurselor electrice totale", "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă scăderea producției interne de energie primară e un semnal de îngrijorare structurală (declin industrial, epuizare zăcăminte) sau doar o realocare firească spre surse regenerabile mai ieftine rămâne o interpretare economică — datele INS nu susțin, prin ele însele, nicio concluzie despre „criză energetică”, termen care nu apare în comunicatul oficial."
+    }
+  ],
+  "aiNote": "Am agregat date oficiale publicate de Institutul Național de Statistică (INS) și confirmate concordant de Observator News, Financial Intelligence și Ecopolitic. Nu am folosit varianta unui articol (Gândul) care menționa „primele cinci luni” în titlu, fiindcă celelalte trei surse converg pe „primele șase luni” — am preferat consistența dintre surse independente unei formulări posibil eronate dintr-un titlu.",
+  "persoane": [],
+  "math": null
+}
