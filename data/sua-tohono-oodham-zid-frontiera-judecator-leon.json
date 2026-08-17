@@ -1,0 +1,48 @@
+{
+  "slug": "sua-tohono-oodham-zid-frontiera-judecator-leon",
+  "title": "Judecător federal respinge cererea tribului Tohono O'odham de a opri construcția zidului de frontieră pe rezervația sa",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "Arizona Capitol Times / AZFamily",
+  "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/",
+  "dek": "🌍 Judecătorul federal Richard Leon a respins, pe 14 august 2026, cererea Națiunii Tohono O'odham de a bloca temporar construcția a 62 de mile de zid de frontieră pe rezervația sa de 2,8 milioane de acri din Arizona, invocând considerente de securitate națională. Tribul spune că decizia ignoră impactul asupra siturilor sacre și ia în calcul alte opțiuni legale.",
+  "mainVerdict": "Probat — decizie confirmată de mai multe surse americane",
+  "probat": [
+    {
+      "text": "Pe 14 august 2026, judecătorul federal Richard Leon (Curtea Districtuală a SUA pentru Districtul Columbia) a respins cererea de ordonanță președințială (preliminary injunction) prin care Națiunea Tohono O'odham cerea oprirea construcției a 62 de mile de zid de frontieră pe rezervația sa de 2,8 milioane de acri din sudul Arizonei, la granița cu Mexicul.",
+      "sources": [
+        { "name": "Arizona Capitol Times — Judge denies Arizona Tohono O'odham request to halt border wall construction", "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/" },
+        { "name": "AZFamily — Judge refuses to block border wall build along reservation in Arizona", "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/" }
+      ]
+    },
+    {
+      "text": "Motivarea judecătorului: tribul nu a demonstrat că zidul i-ar modifica granițele rezervației fără autorizarea Congresului, iar acuzația de „trespass” (intruziune ilegală) a fost respinsă — Leon a invocat proclamația din 1907 a președintelui Theodore Roosevelt, care a rezervat pentru controlul federal primii 60 de picioare de la linia de frontieră, și a notat că granițele oficiale ale rezervației au fost stabilite de Congres abia în 1917. Judecătorul a mai spus că „interesele guvernului în asigurarea frontierei […] depășesc orice prejudiciu iremediabil rămas”.",
+      "sources": [
+        { "name": "Arizona Capitol Times — motivarea judecătorului Leon", "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/" }
+      ]
+    },
+    {
+      "text": "Președintele Națiunii Tohono O'odham, Verlon M. Jose, a declarat că decizia nu a abordat „impacturile inevitabile pe care le va avea construcția asupra pământurilor Națiunii și distrugerea permanentă a siturilor sacre”, adăugând că „prea multe probleme critice nu au fost abordate corespunzător” și că tribul analizează opțiunile legale rămase.",
+      "sources": [
+        { "name": "AZFamily — reacția președintelui tribului Verlon Jose", "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/" },
+        { "name": "Arizona Capitol Times — citate din reacția tribului", "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Tribul a argumentat în instanță că sistemul propriu de securitate pe mai multe niveluri (patrule proprii, senzori, cooperare cu autoritățile federale) a redus deja traversările ilegale pe teritoriul rezervației cu „peste 95%”, ceea ce ar face inutil zidul fizic. Această cifră vine din argumentația tribului în proces, redată de presă — nu am găsit o sursă independentă (guvernamentală sau statistică terță) care să o confirme separat, așa că o tratăm ca afirmație a unei părți din litigiu, nu ca fapt verificat.",
+      "sources": [
+        { "name": "AZFamily — argumentul tribului despre reducerea traversărilor", "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă zidul fizic e necesar sau ineficient pe acest teritoriu, față de metodele de securitate deja folosite de trib, este o dezbatere politică între administrația federală și conducerea tribală — nu un fapt pe care instanța l-a tranșat; judecătorul s-a pronunțat strict pe chestiuni de competență legală (autoritatea Congresului, definirea granițelor), nu pe eficacitatea comparată a soluțiilor de securitate."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Decizia judecătorului Richard Leon (14 august 2026) și motivarea ei sunt confirmate concordant de Arizona Capitol Times și AZFamily. Cifra „peste 95%” invocată de trib despre eficiența propriului sistem de securitate am marcat-o explicit la Contestat, fiindcă vine din argumentația tribului în proces și nu am găsit o verificare independentă a ei.",
+  "persoane": [],
+  "math": null
+}
