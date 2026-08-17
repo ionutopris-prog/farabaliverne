@@ -1,0 +1,47 @@
+{
+  "slug": "sua-indiana-inundatii-record-white-river",
+  "title": "Inundații record în Indiana: râul White River a depășit pragul din 1913, cel puțin 7 morți",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "NBC News / CBS News / National Weather Service",
+  "url": "https://www.nbcnews.com/weather/floods/indiana-floods-death-toll-rcna592799",
+  "dek": "Ploi de peste 30 cm căzute între 11 și 17 august 2026 au umflat râul White River din Indiana peste nivelul record stabilit în 1913, forțând evacuări și zeci de salvări cu barca. Autoritățile statale confirmă cel puțin șapte morți, iar guvernatorul Mike Braun a declarat stare de urgență și a mobilizat Garda Națională.",
+  "mainVerdict": "Probat — nivelul record al râului, numărul de morți și declararea stării de urgență sunt confirmate concordant de mai multe redacții americane și de Serviciul Național de Meteorologie",
+  "probat": [
+    {
+      "text": "Între 11 și 17 august 2026, mai multe valuri succesive de furtuni au adus peste 30 cm (peste 12 inci) de ploaie la est de Indianapolis. Serviciul Național de Meteorologie a descris „un tipar umed instalat peste centrul statului Indiana din 11 până în 17 august”, cu perturbări atmosferice repetate care au declanșat ploi și furtuni asupra acelorași zone.",
+      "sources": [
+        { "name": "National Weather Service — Record Flooding of August 2026", "url": "https://www.weather.gov/ind/august2026flooding" },
+        { "name": "CBS News — Indiana's White River breaks 1913 flooding record as governor declares state of emergency", "url": "https://www.cbsnews.com/news/indiana-white-river-flooding-record-emergency/" }
+      ]
+    },
+    {
+      "text": "Râul White River a atins cote record la Anderson și Noblesville, depășind recordul stabilit în 1913 — la Noblesville a ajuns la 24,6 picioare (circa 7,5 metri), cu aproape un picior peste vechiul record. La Indianapolis, râul a fost prognozat să atingă circa 20,5 picioare, mult peste pragul de inundație de 11 picioare.",
+      "sources": [
+        { "name": "National Weather Service — Record Flooding of August 2026", "url": "https://www.weather.gov/ind/august2026flooding" },
+        { "name": "CBS News — Indiana's White River breaks 1913 flooding record as governor declares state of emergency", "url": "https://www.cbsnews.com/news/indiana-white-river-flooding-record-emergency/" }
+      ]
+    },
+    {
+      "text": "Autoritățile din Indiana confirmă cel puțin șapte decese legate de furtuni și inundații, printre victime numărându-se un băiat de 4 ani în comitatul Jennings, o femeie de 58 de ani care a intrat cu mașina în ape revărsate lângă Yorktown, o femeie de 86 de ani în comitatul Porter și doi bărbați, de 32 și 31 de ani, în comitatele LaPorte și Henry. A fost găsit și corpul lui Matthew Morey, 18 ani, boboc admis la Purdue University, dispărut după ce intrase în râul Mississinewa.",
+      "sources": [
+        { "name": "NBC News — At least 7 dead from days of heavy rain and record-setting flooding in Indiana", "url": "https://www.nbcnews.com/weather/floods/indiana-floods-death-toll-rcna592799" },
+        { "name": "CBS News — Indiana storms linked to 7 deaths as floods trigger rescues and evacuations", "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/" }
+      ]
+    },
+    {
+      "text": "Guvernatorul Indianei, Mike Braun, a declarat stare de urgență joi, 13 august, și a mobilizat Garda Națională, afirmând că „răspunsul nostru statal este pe deplin mobilizat, resursele se mută unde este nevoie de ele”. Aproape 130.000 de clienți ai rețelelor de electricitate au rămas fără curent la nivel statal, iar echipele de intervenție au efectuat zeci de salvări cu barca și au evacuat sute de locuitori din zone precum Anderson.",
+      "sources": [
+        { "name": "CBS News — Indiana's White River breaks 1913 flooding record as governor declares state of emergency", "url": "https://www.cbsnews.com/news/indiana-white-river-flooding-record-emergency/" }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": {
+    "title": "24,6 picioare — cu aproape un picior peste recordul de 113 ani",
+    "explanation": "Recordul anterior al râului White River la Noblesville data din 1913, adică de 113 ani. Cota atinsă acum, de 24,6 picioare (~7,5 metri), depășește acel record cu aproape un picior întreg — o diferență semnificativă pentru un curs de apă cu peste un secol de istorie a măsurătorilor. Cu peste 30 cm de ploaie căzuți în doar șase zile pe aceeași regiune, hidrologii explică depășirea recordului mai degrabă prin volumul repetat al ploilor decât printr-un singur eveniment extrem izolat."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele privind cota record a râului și numărul deceselor variază ușor între redacții pe măsură ce bilanțul a fost actualizat pe parcursul mai multor zile (unele surse au raportat inițial 5 sau 6 morți) — am folosit cifra cea mai recentă și cel mai larg confirmată, de cel puțin șapte decese, susținută concordant de NBC News și CBS News la data verificării.",
+  "persoane": []
+}
