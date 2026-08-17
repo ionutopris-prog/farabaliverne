@@ -99,9 +99,17 @@
         {
           "afirmatie": "Că în băuturile răcoritoare s-ar afla nanocipuri.",
           "unde": "declarații publice preluate pe larg în presă și pe rețele",
-          "dovezi": "Verificarea noastră a arătat că nu există cipuri atât de mici pentru că nu există mașina care să le producă — e la limita dintre teorie și fantastic. Am explicat mecanismul, nu am pronunțat un verdict moral.",
+          "dovezi": "Ideea pică nu la cip, ci la <b>antenă</b> — și asta e partea pe care n-o spune nimeni.\n\nCel mai mic cip RFID din lume e al companiei Hitachi. Modelul anunțat oficial în 2006 măsoară 0,15 × 0,15 milimetri și e gros de 7,5 micrometri; ulterior s-a ajuns la 0,05 × 0,05 mm. Deci un cip aproape invizibil chiar există. Numai că nu poate face nimic singur: e un cip PASIV, fără baterie. Ca să funcționeze, primește unde radio de 2,45 GHz <b>printr-o antenă externă</b>, le transformă în energie și abia apoi își transmite numărul de identificare de 128 de biți. Fără antenă e o bucată de siliciu moartă.\n\nIar antena nu poate fi micșorată la fel: dimensiunea ei e impusă de lungimea de undă, nu de priceperea inginerilor. Cea mai mică antenă practică e de ordinul a patru milimetri — de circa optzeci de ori mai mare decât cipul-record. Presa de specialitate a scris exact asta: cipul de dimensiunea prafului a rămas fără o antenă pe măsura lui, iar raza de citire coboară la câțiva milimetri.\n\nCe înseamnă asta pentru un cip într-o băutură: chiar dacă l-ai băga acolo, ar trebui să care cu el o antenă de optzeci de ori mai mare — vizibilă cu ochiul liber în pahar — iar cititorul ar trebui să stea lipit de tine, la câțiva milimetri, ca să scoată din el un simplu număr de serie. Nu locație, nu gânduri, nu control: un număr, scris o singură dată la fabricație și nemodificabil.",
           "unde_bat": "Contrazis",
           "surse": [
+            {
+              "name": "Hitachi — comunicat oficial: cip RFID de 0,15 × 0,15 mm, alimentat printr-o antenă externă",
+              "url": "https://www.hitachi.com/New/cnews/060206.html"
+            },
+            {
+              "name": "RFID Journal — cipul-record și problema antenei",
+              "url": "https://www.rfidjournal.com/news/hitachi-unveils-smallest-rfid-chip/78186/"
+            },
             {
               "name": "Verificarea noastră — nanocipuri în sucuri",
               "url": "https://farabaliverne.ro/a/georgescu-nanocipuri-sucuri.html"
@@ -111,9 +119,13 @@
         {
           "afirmatie": "Că apa nu este H₂O, ci „informație, vibrație, frecvență”, și că are memorie.",
           "unde": "declarații publice, televiziune și rețele sociale",
-          "dovezi": "„Apa structurată” și memoria apei nu au suport în chimie; verificarea noastră arată ce se probează și ce nu.",
+          "dovezi": "Apa <b>este</b> H₂O — asta nu se dispută nicăieri în chimie. Ce se discută e dacă poate ține minte ceva. Și aici există un răspuns măsurat, nu o părere.\n\nMoleculele de apă se leagă între ele prin punți de hidrogen, care se rup și se refac încontinuu. Rețelele ordonate care se formează în apa lichidă durează <b>o fracțiune de nanosecundă</b> — ordinul picosecundelor, adică miimi de miliardime de secundă. Ca să păstrezi o informație, îți trebuie o structură care rămâne. Aici structura se destramă de un miliard de ori înainte să apuci să clipești. Nu există suport fizic pentru memorie, cum nu poți scrie pe apă cu degetul.\n\nIdeea are și o istorie precisă. În iunie 1988, imunologul francez Jacques Benveniste a publicat în revista <i>Nature</i> un studiu care susținea că diluții extreme de anticorpi, în care nu mai rămăsese nicio moleculă din substanța inițială, produc totuși efecte biologice. <i>Nature</i> a publicat articolul însoțit de o notă a redacției, lucru neobișnuit, în care scria că nu există niciun temei fizic pentru o asemenea activitate. La o săptămână după publicare, revista a trimis o echipă în laboratorul lui: John Maddox, redactorul-șef, chimistul Walter Stewart și iluzionistul James Randi. Au făcut șapte încercări de replicare. Primele trei, nerandomizate, au dat rezultate favorabile. Când Randi a impus procedura dublu-orb, cu probe sigilate și amestecate, rezultatele au devenit negative. Concluzia echipei: efectul venea dintr-o părtinire neintenționată a celor care citeau probele. Finanțarea lui Benveniste a fost retrasă, iar replicările independente de după nu au confirmat rezultatele.\n\nDeci nu e o descoperire nouă pe care o ascunde cineva. E o ipoteză veche de aproape patruzeci de ani, testată public, care a picat la prima probă făcută pe nevăzute.",
           "unde_bat": "Contrazis",
           "surse": [
+            {
+              "name": "Wikipedia — Afacerea Benveniste: publicarea în Nature, ancheta, replicarea dublu-orb",
+              "url": "https://en.wikipedia.org/wiki/Benveniste_affair"
+            },
             {
               "name": "Verificarea noastră — apa structurată",
               "url": "https://farabaliverne.ro/a/georgescu-apa-structurata.html"
