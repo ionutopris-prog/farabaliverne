@@ -1,0 +1,35 @@
+{
+  "slug": "houthi-aramco-jazan-al-doilea-atac-neconfirmat",
+  "title": "Houthi revendică un al doilea atac cu drone asupra rafinăriei Aramco din Jazan. Arabia Saudită și Aramco nu au confirmat",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "Xinhua (relatare a revendicării Houthi) — cross-check Al Jazeera",
+  "url": "https://english.news.cn/20260814/43f2b45f7bdf43188573f7116766c15e/c.html",
+  "dek": "Mișcarea Houthi din Yemen a revendicat, pe 13 august 2026, un al doilea atac cu drone în mai puțin de o săptămână asupra rafinăriei Aramco din orașul saudit Jazan — dar, spre deosebire de primul atac (9 august, confirmat parțial de autoritățile saudite), nici Arabia Saudită, nici Aramco nu au comentat oficial a doua revendicare. Rămâne doar afirmația unei părți aflate în conflict, necoroborată independent.",
+  "mainVerdict": "Neconfirmat independent — doar afirmația unei părți în conflict",
+  "probat": [
+    {
+      "text": "Pe 9 august 2026, un prim atac cu dronă asupra rafinăriei Aramco din Jazan a fost revendicat de purtătorul de cuvânt militar Houthi, Yahya Saree, care a spus că gruparea „a reușit să vizeze rafinăria Aramco din Jizan cu un dron, iar lovitura a fost precisă”. Ministerul Energiei saudit a confirmat atunci că a izbucnit un incendiu, stins rapid, fără victime — fără să confirme însă cauza sau implicarea unei drone.",
+      "sources": [
+        { "name": "Al Jazeera — Saudi Arabia says fire extinguished at Aramco facility in Jizan", "url": "https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan" }
+      ]
+    },
+    {
+      "text": "Pe 13 august 2026, agenția Houthi Saba a relatat, citând o sursă militară neidentificată, un al doilea atac — de data aceasta cu două drone — asupra aceleiași rafinării, descris ca represalii pentru presupuse încălcări saudite ale spațiului aerian deasupra provinciilor Saada și Hajjah, aflate sub control Houthi. Sursa militară Houthi a avertizat că gruparea „va continua să răspundă oricăror atacuri sau incursiuni care vizează zonele aflate sub controlul grupării”.",
+      "sources": [
+        { "name": "Xinhua — Yemen's Houthis claim fresh drone attack on Saudi Aramco refinery in Jazan", "url": "https://english.news.cn/20260814/43f2b45f7bdf43188573f7116766c15e/c.html" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Spre deosebire de primul atac, când Arabia Saudită a confirmat cel puțin un incendiu, pentru a doua revendicare (13 august) relatarea Xinhua notează explicit: „nu a existat niciun comentariu imediat din partea autorităților saudite sau Aramco cu privire la afirmația Houthi, și nicio informație nu era disponibilă imediat despre eventuale victime sau daune”. Prin urmare, la data verificării, al doilea atac rămâne doar afirmația unei părți aflate în conflict, fără nicio confirmare independentă a impactului sau chiar a producerii lui.",
+      "sources": [
+        { "name": "Xinhua — absența oricărui comentariu saudit sau Aramco", "url": "https://english.news.cn/20260814/43f2b45f7bdf43188573f7116766c15e/c.html" }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Revendicarea celui de-al doilea atac vine exclusiv din partea Houthi (prin agenția Saba, citată de Xinhua) — o parte implicată direct în conflict, nu o sursă independentă. Am pus alături primul atac (9 august), unde exista cel puțin o confirmare parțială saudită (incendiu stins, fără victime), tocmai ca să arătăm diferența: acolo exista o coroborare minimă, aici — la data verificării — nu există nicio confirmare independentă a celui de-al doilea atac. Nu spunem că Houthi „minte” — arătăm ce s-a confirmat și ce rămâne doar afirmat de o singură parte.",
+  "persoane": []
+}

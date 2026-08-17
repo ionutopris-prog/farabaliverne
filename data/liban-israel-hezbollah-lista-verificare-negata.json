@@ -1,0 +1,43 @@
+{
+  "slug": "liban-israel-hezbollah-lista-verificare-negata",
+  "title": "Liban și Israel au convenit o listă de țări pentru verificarea dezarmării Hezbollah? Reuters relatează, un oficial libanez neagă",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "Reuters (relatări contradictorii) — via Express Tribune și Internazionale",
+  "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament",
+  "dek": "Pe 13 august 2026, agenția Reuters a distribuit două relatări diferite despre negocierile de la Roma: una spune că Israel și Libanul „au convenit” o listă scurtă de patru țări — Marea Britanie, Italia, Elveția și Indonezia — ca posibili verificatori ai dezarmării Hezbollah, alta citează un oficial libanez care neagă că ar exista vreun acord de acest fel, spunând că Beirutul e încă în discuții cu SUA.",
+  "mainVerdict": "Contestat — relatări Reuters în contradicție directă",
+  "probat": [
+    {
+      "text": "O relatare distribuită de agenția Reuters pe 13 august 2026 afirmă că „Israel și Libanul au convenit asupra Marii Britanii, Italiei, Elveției și Indoneziei ca posibili contribuitori” la un mecanism propus de verificare a dezarmării Hezbollah, în urma unor negocieri mediate de SUA desfășurate la Roma săptămâna anterioară.",
+      "sources": [
+        { "name": "Express Tribune (Reuters) — UK, Italy among states considered to verify Hezbollah disarmament", "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament" }
+      ]
+    },
+    {
+      "text": "Negocierile se leagă de un acord din iunie 2026 care condiționează retragerea trupelor israeliene din sudul Libanului de dezarmarea Hezbollah — context confirmat în ambele relatări Reuters, indiferent de contradicția privind lista de țări.",
+      "sources": [
+        { "name": "Express Tribune (Reuters) — context al negocierilor din iunie 2026", "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament" },
+        { "name": "Internazionale (Reuters) — Lebanon has not agreed to shortlist of countries", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Tot pe 13 august 2026, o altă relatare Reuters citează un oficial libanez care spune că „nu există niciun acord de acest fel” și că Beirutul este încă în discuții cu Statele Unite — o negare directă a variantei potrivit căreia lista celor patru țări ar fi fost deja convenită.",
+      "sources": [
+        { "name": "Internazionale (Reuters) — oficial libanez neagă acordul", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says" }
+      ]
+    },
+    {
+      "text": "O sursă cu cunoștințe directe despre negocieri, citată în relatarea care menționează cele patru țări, spune totuși că discuțiile despre listă erau „în fazele incipiente” — o formulare care lasă loc ca ambele variante să fie parțial corecte (o listă vehiculată informal, dar fără un acord formal semnat). Departamentul de Stat american, întrebat, a confirmat doar discuții despre un mecanism de „verificare de către o terță parte”, fără să confirme sau infirme lista de țări.",
+      "sources": [
+        { "name": "Express Tribune (Reuters) — discuții „în fazele incipiente”", "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament" },
+        { "name": "Internazionale (Reuters) — poziția Departamentului de Stat american", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says" }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Am pus alături două relatări ale aceleiași agenții de presă (Reuters), publicate în aceeași zi, care ajung la formulări opuse despre stadiul negocierilor — una vorbește despre un acord pe patru țări, cealaltă despre negarea lui de către un oficial libanez. Nu decretăm care variantă e „adevărată”: arătăm ambele citate, cu sursă, și explicăm de ce ar putea coexista (o listă discutată informal, dar neconfirmată oficial). Cititorul poate urmări dezvoltarea știrii pe măsură ce negocierile de la Roma avansează.",
+  "persoane": []
+}
