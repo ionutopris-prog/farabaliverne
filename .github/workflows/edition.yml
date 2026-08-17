@@ -7,8 +7,18 @@ name: Fără Baliverne — ediția automată
 
 on:
   schedule:
-    # ZI, din ORĂ-N-ORĂ, în TOATE zilele (UTC 04–20 = EEST 07–23): RO+Europa+SUA.
-    - cron: "0 4-20 * * *"
+    # ZI, la 90 DE MINUTE, în TOATE zilele (UTC 04–20:30 = EEST 07–23:30):
+    # RO+Europa+SUA. Cron nu știe „la fiecare 90 de minute", așa că folosim două
+    # linii: fixul la ore pare din serie și jumătatea la cele dintre ele. Ies
+    # 04:00, 05:30, 07:00, 08:30, 10:00, 11:30, 13:00, 14:30, 16:00, 17:30,
+    # 19:00, 20:30 — exact 90 de minute între ele.
+    #
+    # De ce mai rar: edițiile și sesiunile de lucru consumă din ACELAȘI abonament
+    # Max. Pe 17 august, trei ediții la rând au picat pentru că se atinsese
+    # plafonul, iar ziua s-a încheiat cu 8 articole în loc de ~40. Mai rar
+    # înseamnă mai puține articole, dar publicate, nu pierdute la jumătate.
+    - cron: "0 4,7,10,13,16,19 * * *"
+    - cron: "30 5,8,11,14,17,20 * * *"
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
