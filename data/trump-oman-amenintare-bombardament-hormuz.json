@@ -1,0 +1,55 @@
+{
+  "slug": "trump-oman-amenintare-bombardament-hormuz",
+  "title": "Trump amenință că va „bombarda” Omanul dacă „se bagă în cale”, după ce Iranul anunță un acord cu Muscat pentru redeschiderea Strâmtorii Hormuz",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "CBS News / CNN / ABC News / Yahoo News (AP)",
+  "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/",
+  "dek": "🌍 Într-un interviu telefonic acordat lui Trey Yingst de la Fox News, luni, 17 august 2026, președintele Donald Trump a amenințat că SUA va „bombarda” Omanul dacă țara „se bagă în cale” a eforturilor americane privind Strâmtoarea Hormuz. Amenințarea a venit chiar în ziua în care a expirat, fără un acord final SUA-Iran, memorandumul de 60 de zile semnat pe 17 iunie 2026, și după ce Iranul a anunțat că a ajuns la o înțelegere cu Omanul pentru o rută de trafic naval prin strâmtoare.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Într-un interviu telefonic pentru Fox News, acordat jurnalistului Trey Yingst și difuzat luni, 17 august 2026, președintele american Donald Trump a spus, întrebat despre negocierile Iran-Oman pentru Strâmtoarea Hormuz: „If Oman gets in the way, we'll bomb the s*** out of them” („Dacă Omanul se bagă în cale, o să-i bombardăm din senin”).",
+      "sources": [
+        {"name": "CBS News — US-Iran war live updates: deal expired, Strait of Hormuz", "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/"},
+        {"name": "Yahoo News (AP) — Iran live updates: Trump threatens to bomb Oman over Strait of Hormuz", "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-adopt-074458959.html"}
+      ]
+    },
+    {
+      "text": "Amenințarea a venit după ce purtătorul de cuvânt al Ministerului iranian de Externe, Esmaeil Baghaei, a anunțat că Iranul și Omanul au ajuns la o înțelegere („understanding”) privind o hartă/rută de tranzit pentru navele care traversează Strâmtoarea Hormuz — nave care ar intra pe o rută mai apropiată de coasta iraniană și ar ieși pe una mai apropiată de cea omaneză. Textul final al acordului nu era încă finalizat public la data relatării.",
+      "sources": [
+        {"name": "ABC News — Iran live updates", "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-adopt-offensive-aspect-irgc/?id=135700072"},
+        {"name": "Yahoo News (AP) — acordul Iran-Oman pentru harta de navigație", "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-adopt-074458959.html"}
+      ]
+    },
+    {
+      "text": "În aceeași zi a expirat, fără un acord final, memorandumul de înțelegere SUA-Iran semnat la Islamabad pe 17 iunie 2026 — un acord de 60 de zile care oprea operațiunile militare directe și dădea un termen pentru o pace permanentă și rezolvarea disputei nucleare. Întrebat dacă vrea o prelungire a celor 60 de zile, Trump a clătinat din cap și a mimat „nu”, declarând că nu e grăbit să încheie conflictul: „I'm not in a hurry”.",
+      "sources": [
+        {"name": "Yahoo News (AP) — memorandumul de 60 de zile expiră, Trump nu cere extindere", "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-adopt-074458959.html"},
+        {"name": "CBS News — „I'm not in a hurry”", "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/"}
+      ]
+    },
+    {
+      "text": "Trump a mai spus, în același interviu, că nu crede că Omanul „s-a comportat foarte bine”, dar că SUA „s-ar descurca foarte ușor” cu ei („I don't think they've behaved very well, but we'd handle them very easily”), și a repetat ideea, exprimată deja public în zilele anterioare, că ar vrea să declare Strâmtoarea Hormuz „teritoriu” aflat sub controlul SUA prin blocada navală impusă: „We control it with the blockade. And, I like the idea of declaring it a territory”.",
+      "sources": [
+        {"name": "ABC News — declarațiile lui Trump despre Oman și controlul Hormuz", "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-adopt-offensive-aspect-irgc/?id=135700072"}
+      ]
+    },
+    {
+      "text": "Din partea iraniană, viceministrul de Externe Kazem Gharibabadi a răspuns public că Trump trebuie să „accepte realitatea” că strâmtoarea rămâne sub controlul Iranului. Niciuna dintre sursele verificate nu relatează o reacție oficială a guvernului Omanului la amenințarea directă a lui Trump.",
+      "sources": [
+        {"name": "CNN — reacția iraniană și lipsa unui răspuns oficial din Oman", "url": "https://www.cnn.com/2026/08/17/world/live-news/iran-war-trump"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Amenințarea lui Trump la adresa Omanului — un aliat tradițional al SUA în Golf, mediator constant între Washington și Teheran — este o declarație politică/de negociere, nu un anunț oficial de operațiune militară; „bombing rhetoric” similară a mai fost folosită de Trump și în alte dosare fără a fi urmată de acțiune imediată. Cititorul poate cântări credibilitatea amenințării în contextul stilului retoric declarat al președintelui și al lipsei, la data verificării, a oricărui semn concret de pregătire militară împotriva Omanului.",
+      "sources": []
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (CBS News, CNN, ABC News, agenția AP via Yahoo News); sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Citatul exact al lui Trump este confirmat concordant de mai multe redacții independente. Nu am găsit, la data verificării, o reacție oficială publică a guvernului Omanului.",
+  "math": null,
+  "persoane": []
+}
