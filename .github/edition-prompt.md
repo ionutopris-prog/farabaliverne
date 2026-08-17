@@ -37,6 +37,7 @@ PASUL 4 — Construiește: `python3 scripts/build_site.py` (regenerează homepag
 
 PASUL 5 — Publică cu POARTA DE SIGURANȚĂ:
 `git config user.name "Fara Baliverne Bot" && git config user.email "bot@farabaliverne.ro"`.
+**PUBLICĂ DUPĂ FIECARE ARTICOL, nu la final.** Adică: scrii articolul → `build_site.py` → commit + push → abia apoi treci la următorul. Motivul e practic: ai un buget limitat de tururi, iar dacă se termină înainte de commit se pierde TOATĂ munca rulării (s-a întâmplat pe 11 august 2026). Cu publicare după fiecare articol, un buget epuizat te costă cel mult articolul la care lucrai, nu pe toate.
 - RISC MIC (Sport, Extern non-defăimător, Economie/date oficiale, Știință, Media de stat cu etichetare corectă, Social fără persoană numită acuzată): `git add -A && git commit -m "Ediție automată: <titluri>" && git push origin main`.
 - PERSOANĂ NUMITĂ / sensibil (ratezi afirmația unei persoane numite drept „Contrazis", politică internă sensibilă): NU pe main. `git checkout -b pending/<slug>`, commit, `git push origin pending/<slug>`, `gh pr create --fill --base main`; apoi `git checkout main`.
 

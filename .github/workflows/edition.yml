@@ -85,16 +85,22 @@ jobs:
           PROMPT="$(cat .github/edition-prompt.md)
 
           FEREASTRA CURENTA: $W"
-          # Bugetul de tururi trebuie să acopere cercetarea A TOATE articolelor
-          # cerute PLUS pasul final de commit/push. Dacă se termină înainte de
-          # commit, toată munca rulării se pierde — exact ce s-a întâmplat pe
-          # 11 august 2026, când ținta a urcat la 3-4 articole iar bugetul a
-          # rămas la 50.
+          # Buget de tururi: 80, coborât de la 120 pe 17 august.
+          #
+          # Se putea cobora abia DUPĂ ce promptul a fost schimbat să publice după
+          # FIECARE articol, nu la final. Cu commit doar la sfârșit, un buget
+          # epuizat pierdea toată munca rulării — asta s-a întâmplat pe 11
+          # august, când bugetul era 50. Acum un buget atins costă cel mult
+          # articolul în lucru.
+          #
+          # De ce mai mic: edițiile și sesiunile de lucru consumă din același
+          # abonament Max. Rulările de 29 de minute nu produceau mai multe
+          # articole — se învârteau în cercetare care se relua.
           set +e
           claude -p "$PROMPT" \
             --model sonnet \
             --dangerously-skip-permissions \
-            --max-turns 120
+            --max-turns 80
           CODE=$?
           set -e
 
