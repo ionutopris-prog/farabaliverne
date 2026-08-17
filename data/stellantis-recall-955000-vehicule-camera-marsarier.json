@@ -1,0 +1,53 @@
+{
+  "slug": "stellantis-recall-955000-vehicule-camera-marsarier",
+  "title": "Stellantis recheamă în service 955.000 de vehicule în America de Nord, din cauza unui software care poate bloca imaginea camerei de marșarier",
+  "category": "Economie",
+  "date": "2026-08-17",
+  "source": "Reuters / Euronews / TimesLIVE",
+  "url": "https://www.euronews.com/my-europe/2026/08/17/stellantis-recalls-955000-cars-new-setback-for-groups-credibility",
+  "dek": "🌍 Stellantis a anunțat pe 17 august 2026 recheamarea a circa 955.000 de vehicule (Chrysler, Dodge, Jeep, Ram, model 2026-2027) din SUA, Canada și Mexic, pentru că un software al sistemului radio poate împiedica afișarea corectă a imaginii camerei de marșarier. Compania spune că nu are cunoștință de accidente sau răniri legate de defect; soluția e o actualizare over-the-air.",
+  "mainVerdict": "Probat — anunț oficial al producătorului, confirmat de mai multe redacții",
+  "probat": [
+    {
+      "text": "Stellantis a anunțat pe 17 august 2026 recheamarea în service a aproximativ 955.000 de vehicule la nivel global: circa 848.000 în Statele Unite, aproximativ 107.000 în Canada, Mexic și alte piețe (defalcat de Euronews la ~83.000 Canada, ~8.000 Mexic, ~15.000 alte piețe). Sunt vizate modele 2026-2027: Chrysler Pacifica, Pacifica Plug-in Hybrid și Voyager, Dodge Charger, Jeep Cherokee, Compass, Gladiator, Grand Cherokee, Grand Wagoneer și Wrangler, plus Ram 1500, 2500 și ProMaster.",
+      "sources": [
+        { "name": "Euronews — Stellantis recalls 955,000 cars: new setback for group's credibility", "url": "https://www.euronews.com/my-europe/2026/08/17/stellantis-recalls-955000-cars-new-setback-for-groups-credibility" },
+        { "name": "TimesLIVE — Stellantis recalls 955,000 vehicles over software issue", "url": "https://www.timeslive.co.za/motoring/2026-08-17-stellantis-recalls-955000-vehicles-over-software-issue/" },
+        { "name": "The Daily News (Galveston) / Reuters — Stellantis recalls 955,000 vehicles because radio software may disrupt rear-view camera", "url": "https://www.galvnews.com/news_reuters/business/stellantis-recalls-955-000-vehicles-because-radio-software-may-disrupt-rear-view-camera/article_88c975cc-fe9a-575d-8489-b95e843beb52.html" }
+      ]
+    },
+    {
+      "text": "Defectul: software-ul sistemului radio/infotainment poate împiedica afișarea corectă a imaginii camerei de marșarier pe ecranul central, ceea ce reduce vizibilitatea șoferului la mersul înapoi. Stellantis declară că nu are cunoștință de accidente sau răniri legate de această problemă la data anunțului.",
+      "sources": [
+        { "name": "Euronews — detalii tehnice ale defectului", "url": "https://www.euronews.com/my-europe/2026/08/17/stellantis-recalls-955000-cars-new-setback-for-groups-credibility" },
+        { "name": "TimesLIVE — precizarea Stellantis despre absența accidentelor raportate", "url": "https://www.timeslive.co.za/motoring/2026-08-17-stellantis-recalls-955000-vehicles-over-software-issue/" }
+      ]
+    },
+    {
+      "text": "Soluția anunțată nu presupune vizită la service: proprietarii vor primi o actualizare de software prin conexiune wireless (over-the-air), difuzată printr-un mesaj pe ecranul multimedia al mașinii, imediat ce update-ul devine disponibil. Până atunci, șoferii sunt sfătuiți să folosească oglinzile retrovizoare și laterale la manevrele de marșarier.",
+      "sources": [
+        { "name": "TimesLIVE — soluția over-the-air și recomandarea de precauție", "url": "https://www.timeslive.co.za/motoring/2026-08-17-stellantis-recalls-955000-vehicles-over-software-issue/" },
+        { "name": "Euronews — actualizarea wireless, fără intervenție fizică în service", "url": "https://www.euronews.com/my-europe/2026/08/17/stellantis-recalls-955000-cars-new-setback-for-groups-credibility" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Amploarea reală a problemelor de calitate ale Stellantis este ea însăși obiect de dezbatere: Euronews o încadrează ca „un nou eșec pentru credibilitatea grupului”, citând un istoric de recall-uri mari — 1,16 milioane de vehicule în iunie 2024 pentru o problemă similară de cameră de marșarier, 7,3 milioane de vehicule recheamate în 2024, 13,4 milioane în 2025, plus peste 1,3 milioane de Jeep-uri recheamate în iunie 2026 pentru defecte de cablaj la direcția asistată electric (72 de riscuri de incendiu semnalate, o rănire). Compania însăși nu a comentat public, în sursele consultate, dacă acceptă această interpretare sau o consideră disproporționată; cifrele de recall istorice provin din relatările presei, nu dintr-o declarație directă a Stellantis asumând eticheta de „criză de credibilitate”.",
+      "sources": [
+        { "name": "Euronews — istoricul recall-urilor Stellantis și provizioanele de garanție de 11,65 miliarde euro în 2025", "url": "https://www.euronews.com/my-europe/2026/08/17/stellantis-recalls-955000-cars-new-setback-for-groups-credibility" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Caracterizarea recall-ului drept „un nou eșec pentru credibilitatea grupului” (Euronews) e o interpretare jurnalistică a unui tipar de recall-uri repetate, nu o afirmație factuală separată de datele de mai sus — cititorul poate judeca singur, din șirul de cifre istorice, dacă tiparul justifică eticheta."
+    }
+  ],
+  "math": {
+    "title": "955.000 de vehicule, defalcate pe piețe",
+    "explanation": "Cele două surse cu defalcare pe țări (Euronews, cu ~83.000 Canada + ~8.000 Mexic + ~15.000 alte piețe = ~106.000, și rotunjirea generală de „~107.000” din SUA/Reuters) converg în limita rotunjirilor jurnalistice: 848.000 (SUA) + ~106-107.000 (restul piețelor) ≈ 955.000 de vehicule în total, cifra rotundă anunțată de companie. Diferența de ~1.000 de vehicule între cele două defalcări e nesemnificativă statistic (sub 0,15% din total) și ține de rotunjire, nu de o discrepanță reală în date."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Reuters, preluată de Euronews și TimesLIVE); sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Cifrele centrale (955.000 de vehicule, modelele afectate, defectul de software, absența accidentelor raportate) sunt confirmate concordant de toate cele trei surse. Contextul istoric al recall-urilor Stellantis provine dintr-o singură sursă (Euronews) — l-am marcat ca atare, fiindcă e o interpretare jurnalistică a unui tipar, nu o cifră oficială separată.",
+  "persoane": []
+}
