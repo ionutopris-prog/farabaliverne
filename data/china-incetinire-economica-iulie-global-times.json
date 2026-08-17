@@ -1,0 +1,87 @@
+{
+  "slug": "china-incetinire-economica-iulie-global-times",
+  "title": "Global Times a lăudat „reziliența” economiei chineze. O lună mai târziu, datele oficiale arată încetinire",
+  "category": "Media de stat",
+  "date": "2026-08-17",
+  "source": "Global Times (media de stat, China)",
+  "url": "https://www.globaltimes.cn/page/202607/1365978.shtml",
+  "dek": "Ce SUSȚINE presa de stat chineză (Global Times): că economia a crescut 4,7% în S1 2026 și arată „reziliență” în fața presiunilor externe. Ce arată datele oficiale publicate ulterior (National Bureau of Statistics, relatate independent): în iulie, producția industrială și vânzările cu amănuntul au încetinit sub estimările analiștilor, iar investițiile s-au contractat mai mult decât se aștepta. Cifrele nu se contrazic direct — dar tonul optimist al presei de stat omite semnalele de slăbire care au urmat.",
+  "mainVerdict": "Mixt",
+  "probat": [
+    {
+      "text": "PIB-ul Chinei a crescut cu 4,7% în primul semestru din 2026 (69,57 trilioane yuan, aprox. 10,28 trilioane USD), în interiorul țintei anuale oficiale de 4,5-5%. Global Times a prezentat cifra ca dovadă de „reziliență” a economiei, citând un elan „stabil și pozitiv” și noile motoare de creștere care ar fi contribuit cu peste 40% la dezvoltarea economică.",
+      "sources": [
+        {
+          "name": "Global Times (media de stat) — China's H1 GDP grows 4.7%, remaining well within the government's annual growth target",
+          "url": "https://www.globaltimes.cn/page/202607/1365978.shtml"
+        }
+      ]
+    },
+    {
+      "text": "Cifra de creștere trimestrială pe care o citează și Global Times — 4,3% în trimestrul al doilea, față de 5,0% în primul — este confirmată independent: presa economică internațională a descris-o drept cel mai lent ritm de creștere din ultimii aproximativ 3,5 ani, sub ținta oficială de 4,5-5%.",
+      "sources": [
+        {
+          "name": "Global Times (media de stat) — Highlights of China's economy in H1 2026: 4.7% GDP growth, 16.9% foreign trade growth",
+          "url": "https://www.globaltimes.cn/page/202607/1366022.shtml"
+        },
+        {
+          "name": "IBTimes Singapore — China Economy Slows: Industrial Output and Retail Sales Miss Forecasts in July",
+          "url": "https://www.ibtimes.sg/china-economy-slows-industrial-output-retail-sales-miss-forecasts-july-92357"
+        }
+      ]
+    },
+    {
+      "text": "Datele oficiale ale Biroului Național de Statistică (NBS), publicate pe 17 august 2026 și relatate independent, arată că în iulie producția industrială a crescut doar 4,5% an/an (sub 5,3% în iunie și sub estimările de 4,8-5%), iar vânzările cu amănuntul au crescut cu doar 0,6% (sub 1% în iunie și mult sub estimarea de 1,5%). Investițiile în active fixe s-au contractat 6,7% în perioada ianuarie-iulie, mai mult decât se aștepta (-6%).",
+      "sources": [
+        {
+          "name": "IBTimes Singapore — China Economy Slows: Industrial Output and Retail Sales Miss Forecasts in July",
+          "url": "https://www.ibtimes.sg/china-economy-slows-industrial-output-retail-sales-miss-forecasts-july-92357"
+        },
+        {
+          "name": "Free Malaysia Today — China's retail sales, factory activity lagged in July",
+          "url": "https://www.freemalaysiatoday.com/category/business/2026/08/17/china-s-retail-sales-factory-activity-lagged-in-july"
+        }
+      ]
+    },
+    {
+      "text": "Un purtător de cuvânt al NBS a recunoscut public dificultățile, declarând că autoritățile vor „intensifica ajustările politicii contra-ciclice” pentru a sprijini cererea internă — o formulare care admite implicit că economia are nevoie de sprijin suplimentar, nu doar că e „rezilientă”.",
+      "sources": [
+        {
+          "name": "IBTimes Singapore — China Economy Slows: Industrial Output and Retail Sales Miss Forecasts in July",
+          "url": "https://www.ibtimes.sg/china-economy-slows-industrial-output-retail-sales-miss-forecasts-july-92357"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Global Times și datele NBS de iulie nu se contrazic direct din punct de vedere numeric — se referă la perioade diferite (S1/trimestrul 2 vs. luna iulie izolat). Contrastul e unul de interpretare și accent: presa de stat a ales să sublinieze „reziliența” și motoarele noi de creștere, în timp ce datele mai recente (nedisponibile încă la publicarea articolului Global Times din iulie) arată o slăbire care continuă în iulie — producție industrială, vânzări și investiții, toate sub estimările analiștilor.",
+      "sources": [
+        {
+          "name": "Global Times (media de stat) — China's H1 GDP grows 4.7%, remaining well within the government's annual growth target",
+          "url": "https://www.globaltimes.cn/page/202607/1365978.shtml"
+        },
+        {
+          "name": "Free Malaysia Today — China's retail sales, factory activity lagged in July",
+          "url": "https://www.freemalaysiatoday.com/category/business/2026/08/17/china-s-retail-sales-factory-activity-lagged-in-july"
+        }
+      ]
+    },
+    {
+      "text": "Narativul optimist al presei de stat nu menționează riscurile semnalate independent: prețurile locuințelor noi au scăzut 3,2% an/an, iar aproximativ 52% din avuția gospodăriilor chineze este legată de piața imobiliară — un risc structural pe care „reziliența” invocată nu îl adresează. Șomajul urban a urcat la 5,2% în iulie, de la 5% în iunie.",
+      "sources": [
+        {
+          "name": "IBTimes Singapore — China Economy Slows: Industrial Output and Retail Sales Miss Forecasts in July",
+          "url": "https://www.ibtimes.sg/china-economy-slows-industrial-output-retail-sales-miss-forecasts-july-92357"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Etichetarea evoluției economice drept „reziliență” este o alegere retorică a presei de stat, nu o măsurătoare obiectivă. Aceleași cifre brute pot fi citite fie ca stabilitate (creșterea rămâne, tehnic, în intervalul-țintă anual de 4,5-5%), fie ca semnal de alarmă (încetinire succesivă, trimestru după trimestru, lună după lună) — depinde de cadrul de referință ales, nu de un fapt contestabil în sine. Cititorul e cel care decide ce cântărește mai mult."
+    }
+  ],
+  "aiNote": "🤖 Global Times (media de stat, China) a promovat pe larg cifra de creștere a PIB-ului pe S1 2026 (+4,7%) ca dovadă de reziliență economică, la începutul lunii iulie. NU prezentăm această poziție ca fapt stabilit — o punem alături de datele oficiale mai recente ale NBS (publicate pe 17 august și relatate de presă independentă din Singapore și Malaysia), care arată că, în iulie, producția industrială, vânzările cu amănuntul și investițiile au încetinit sub estimările analiștilor. Cifrele de bază coincid acolo unde se suprapun (trimestrul 2: 4,3%, cel mai slab ritm din ultimii ~3,5 ani) — diferența e de accent și de moment al publicării, nu o contrazicere directă a datelor. Cititorul trage concluzia asupra cât de „rezilientă” arată, de fapt, imaginea de ansamblu.",
+  "persoane": []
+}
