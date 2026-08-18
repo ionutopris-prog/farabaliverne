@@ -1,0 +1,87 @@
+{
+  "slug": "uk-rusia-drone-britanice-avertisment",
+  "title": "Rusia amenință Marea Britanie cu „un preț” după relatări despre drone britanice folosite adânc în teritoriul rus",
+  "category": "Extern",
+  "date": "2026-08-18",
+  "source": "AFP / Arab News",
+  "url": "https://www.arabnews.com/node/2655031/world",
+  "dek": "Ambasada Rusiei la Londra a acuzat Marea Britanie de a deveni „complice” la atacurile ucrainene, după ce Sunday Times a scris că drone produse de companii britanice — printre care o filială BAE Systems — au lovit ținte industriale în interiorul Rusiei. Regatul Unit nu a comentat imediat.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Ambasada Rusiei la Londra a transmis, luni, 17 august 2026, un avertisment către Marea Britanie, după ce cotidianul Sunday Times a relatat că drone produse de două companii britanice au fost folosite de Ucraina pentru a lovi ținte militare și industriale în interiorul Rusiei.",
+      "sources": [
+        {
+          "name": "Arab News (AFP) — Moscow warns of 'consequences' after reports UK-made drones hit Russia",
+          "url": "https://www.arabnews.com/node/2655031/world"
+        },
+        {
+          "name": "Free Malaysia Today (AFP) — Moscow warns of 'consequences' after reports UK-made drones hit Russia",
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/08/18/moscow-warns-of-consequences-after-reports-uk-made-drones-hit-russia"
+        },
+        {
+          "name": "The Manila Times (AFP) — Moscow warns of 'consequences' after reports UK-made drones hit Russia",
+          "url": "https://www.manilatimes.net/2026/08/18/world/americas-emea/moscow-warns-of-consequences-after-reports-uk-made-drones-hit-russia/2407207"
+        }
+      ]
+    },
+    {
+      "text": "Citat direct din declarația ambasadei ruse: „Cu cât implicarea sa în conflict este mai profundă și sprijinul pentru mașinăria teroristă de la Kiev mai mare, cu atât mai mare va fi prețul pe care îl va plăti.” Ambasada a mai numit Marea Britanie „complice și co-autor” al atacurilor ucrainene și a acuzat Londra că „alege în mod deliberat escaladarea” conflictului.",
+      "sources": [
+        {
+          "name": "Arab News (AFP) — citatul integral al ambasadei ruse",
+          "url": "https://www.arabnews.com/node/2655031/world"
+        }
+      ]
+    },
+    {
+      "text": "Potrivit relatării Sunday Times, una dintre cele două companii britanice implicate ar fi o filială a producătorului de apărare BAE Systems; drona vizată se numește „Nyan” (dezvoltată de Callen-Lenz/BAE Systems) și ar fi fost folosită, potrivit acelei relatări, în atacuri asupra unor rafinării din regiunea Volgograd (sud-vestul Rusiei) și din apropiere de Iaroslavl (lângă Moscova). A doua companie nu a fost identificată public, din motive de securitate invocate de ziar.",
+      "sources": [
+        {
+          "name": "Kyiv Post — Russia Threatens UK Over British-Made Drones Used in Ukraine's Deep Strikes",
+          "url": "https://www.kyivpost.com/post/82542"
+        },
+        {
+          "name": "Arab News (AFP) — detalii despre BAE Systems și drona „Nyan”",
+          "url": "https://www.arabnews.com/node/2655031/world"
+        }
+      ]
+    },
+    {
+      "text": "Ministerul britanic al Apărării nu a răspuns imediat solicitării de comentariu din partea presei internaționale, la momentul publicării relatărilor despre avertismentul rus.",
+      "sources": [
+        {
+          "name": "Arab News (AFP) — lipsa unui răspuns imediat de la Ministerul Apărării",
+          "url": "https://www.arabnews.com/node/2655031/world"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nici Sunday Times, nici presa internațională care a preluat relatarea nu au publicat dovezi tehnice independente (resturi de dronă recuperate, analiză de componente) care să confirme cu certitudine originea britanică a dronelor folosite în atacurile din Volgograd și Iaroslavl. Informația se bazează pe surse citate de un singur ziar britanic, nu pe o confirmare oficială de la Kiev sau de la Londra.",
+      "sources": [
+        {
+          "name": "Kyiv Post — sursa relatării rămâne Sunday Times, fără confirmare oficială",
+          "url": "https://www.kyivpost.com/post/82542"
+        }
+      ]
+    },
+    {
+      "text": "Unele publicații (de exemplu Breitbart) au titrat despre o amenințare „nucleară” din partea Rusiei în acest context. Citatul disponibil al ambasadei ruse, preluat de AFP, vorbește despre „un preț” pe care Marea Britanie l-ar plăti, fără nicio mențiune explicită la arme nucleare — tratăm extinderea la „amenințare nucleară” drept interpretare a unor redacții, nu un citat confirmat.",
+      "sources": [
+        {
+          "name": "Arab News (AFP) — textul integral al citatului, fără referire nucleară",
+          "url": "https://www.arabnews.com/node/2655031/world"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Etichetarea sprijinului occidental pentru Ucraina drept „mașinărie teroristă” este limbajul folosit de ambasada rusă — o poziție politică a Moscovei în disputa privind războiul din Ucraina, nu o constatare de fapt a redacției."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce se probează: ambasada Rusiei la Londra a transmis un avertisment oficial Marii Britanii, pe 17 august 2026, după ce Sunday Times a scris că drone britanice ar fi lovit ținte în interiorul Rusiei; citatul ambasadei este redat integral de AFP. Ce rămâne nesigur: identitatea exactă a companiilor implicate (doar una e numită, ca filială BAE Systems) și dovezile tehnice care să confirme originea britanică a dronelor folosite în atacurile menționate — acestea vin dintr-o singură relatare de presă britanică, necoroborată public de Kiev sau de Londra. Nu preluăm eticheta de „amenințare nucleară” folosită de unele publicații, pentru că nu apare în citatul oficial disponibil.",
+  "persoane": []
+}
