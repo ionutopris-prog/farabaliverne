@@ -41,7 +41,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STARE = os.path.join(ROOT, "data", "_postate-fb.json")
 API = "https://graph.facebook.com/v21.0"
 SITE = "https://farabaliverne.ro"
-ZILE = 2   # nu postăm articole mai vechi de-atât; pe Facebook n-au sens
+ZILE = 2       # nu postăm articole mai vechi de-atât; pe Facebook n-au sens
+PE_ZI = 4      # plafon zilnic (se poate schimba din FB_MAX_PE_ZI)
 
 
 def stare_citeste():
@@ -84,6 +85,13 @@ def candidate(postate):
                             -int((d.get("date") or "0").replace("-", "")),
                             d.get("slug", "")))
     return out
+
+
+def postate_azi(postate):
+    """Câte au ieșit deja azi. Contorul stă în starea comisă, nu în runner."""
+    azi = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    return sum(1 for v in postate.values()
+               if isinstance(v, dict) and (v.get("cand") or "").startswith(azi))
 
 
 def posteaza(page_id, token, mesaj, link):
@@ -135,7 +143,22 @@ def main():
                                 ("FB_PAGE_TOKEN", token)) if not v]
         print(f"Nu postez: lipsește {', '.join(lipsa)}. Arăt doar ce-ar fi ieșit.\n")
 
-    ales = lista[:max(1, a.cate)]
+    # Plafonul zilnic. Site-ul scoate 10-14 articole pe zi; turnate toate pe
+    # pagină, ar arăta a robot, iar fondatorul posta manual 2-3. Ținem ritmul
+    # ăla — automatizăm gestul, nu schimbăm ce vede omul în feed.
+    try:
+        pe_zi = int(os.environ.get("FB_MAX_PE_ZI", "") or PE_ZI)
+    except ValueError:
+        pe_zi = PE_ZI
+    ramase = max(0, pe_zi - postate_azi(postate))
+    if chiar and ramase == 0:
+        print(f"Plafonul zilnic ({pe_zi}) e atins. Restul așteaptă mâine.")
+        return 0
+
+    n = max(1, a.cate)
+    if chiar:
+        n = min(n, ramase)
+    ales = lista[:n]
     for d in ales:
         link = f"{SITE}/a/{d['slug']}.html"
         mesaj = compune_fb(d)

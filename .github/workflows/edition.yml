@@ -201,8 +201,10 @@ jobs:
       # continue-on-error fiindcă Facebook picat nu are voie să oprească
       # publicarea site-ului — site-ul e treaba principală, pagina e distribuție.
       #
-      # Cel mult unul pe rulare: la 14 ediții pe zi, mai mult ar însemna un
-      # perete de postări, iar Facebook taie distribuția paginilor care torn.
+      # Cel mult unul pe rulare ȘI cel mult 4 pe zi. Site-ul scoate 10-14
+      # articole zilnic; fondatorul posta manual 2-3. Automatizăm gestul, nu
+      # schimbăm ce vede omul în feed — o pagină care toarnă 14 linkuri pe zi
+      # arată a robot, iar Facebook îi taie distribuția.
       - name: Postează pe Facebook
         if: steps.redactor.outputs.changed == 'true'
         continue-on-error: true
@@ -210,6 +212,7 @@ jobs:
           FB_ENABLED: ${{ secrets.FB_ENABLED }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_MAX_PE_ZI: ${{ vars.FB_MAX_PE_ZI }}   # implicit 4, se poate schimba fara cod
         run: |
           python3 scripts/posteaza_facebook.py --publica --cate 1
           if ! git diff --quiet data/_postate-fb.json 2>/dev/null || \
