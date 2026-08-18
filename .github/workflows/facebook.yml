@@ -1,0 +1,70 @@
+name: Facebook — postează și reîncearcă
+
+# La 30 de minute, non-stop. Ia din coadă primul articol neconfirmat și îl pune
+# pe pagină. Ce nu reușește rămâne în coadă și se reîncearcă la rularea
+# următoare — nu se renunță la niciun articol.
+#
+# De ce SEPARAT de ediție: dacă ar sta în workflow-ul ediției, o zi în care
+# redactorul dă greș (plafon de abonament atins, token expirat) ar fi și o zi în
+# care articolele rămase în coadă nu s-ar mai reîncerca niciodată. Aici, coada
+# se drenează indiferent ce face redactorul.
+#
+# Repo-ul e public, deci minutele de Actions sunt gratuite și nelimitate. 48 de
+# rulări pe zi a ~30 de secunde nu costă nimic.
+#
+# Poarta e secretul FB_ENABLED. Fără el, rulările nu postează nimic — doar scriu
+# în log ce ar fi ieșit. Nimic public nu se întâmplă până nu pui cheile.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: facebook
+  cancel-in-progress: false
+
+jobs:
+  posteaza:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write        # ca să comită ce s-a postat
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Postează următorul din coadă
+        env:
+          FB_ENABLED: ${{ secrets.FB_ENABLED }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_MAX_PE_ZI: ${{ vars.FB_MAX_PE_ZI }}   # gol = fără plafon
+        run: python3 scripts/posteaza_facebook.py --publica --cate 1
+
+      # Se comite MEREU, chiar dacă pasul de mai sus a picat: acolo stă și
+      # contorul de eșecuri, iar fără el fiecare rulare ar reîncerca de la zero
+      # și n-ar mai rări niciodată.
+      - name: Ține minte ce s-a postat
+        if: always()
+        run: |
+          if [ -z "$(git status --porcelain data/_postate-fb.json)" ]; then
+            echo "Nimic de comis."; exit 0
+          fi
+          git config user.name "Fara Baliverne Bot"
+          git config user.email "bot@farabaliverne.ro"
+          git add data/_postate-fb.json
+          git commit -m "Facebook: starea cozii"
+          # ediția scrie și ea pe main la fiecare 90 de minute; ne așezăm peste
+          # ce e deja acolo, nu invers
+          for i in 1 2 3; do
+            git pull --rebase --quiet origin main && git push --quiet origin main && exit 0
+            echo "Push respins, reîncerc ($i/3)..."
+            sleep 5
+          done
+          echo "::warning::Nu am putut comite starea cozii. Se reia la rularea următoare."

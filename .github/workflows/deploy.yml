@@ -9,7 +9,16 @@ name: Deploy la Datahost (FTP)
 on:
   push:
     branches: [main]
-  workflow_dispatch: {}   # buton de rulare manuală
+    # Ce nu ajunge niciodată pe FTP nu are de ce să declanșeze un deploy.
+    # `data/` e sursă de build, nu se urcă — iar workflow-ul de Facebook scrie
+    # acolo starea cozii la fiecare 30 de minute. Fără filtrul ăsta ieșeau ~48
+    # de deploy-uri pe zi care nu urcau nimic.
+    paths-ignore:
+      - 'data/**'
+      - '**/*.md'
+      - '.github/**'
+      - 'scripts/**'
+  workflow_dispatch: {}   # buton de rulare manuală (îl folosește și ediția)
 
 jobs:
   ftp-deploy:
