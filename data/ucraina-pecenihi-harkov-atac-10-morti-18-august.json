@@ -1,0 +1,80 @@
+{
+  "slug": "ucraina-pecenihi-harkov-atac-10-morti-18-august",
+  "title": "Atac rusesc cu rachetă asupra satului Pecenihî, din regiunea Harkov: cel puțin 10 morți",
+  "category": "Extern",
+  "date": "2026-08-18",
+  "source": "Euronews / Ukrinform",
+  "url": "https://www.euronews.com/my-europe/2026/08/18/at-least-10-killed-in-russian-strike-in-northeast-ukraines-kharkiv-region-governor-says",
+  "dek": "Rusia a lovit marți dimineață, 18 august 2026, satul Pecenihî din regiunea Harkov, la aproximativ 40 km de graniță, ucigând cel puțin 10 oameni și rănind alți 8, potrivit autorităților ucrainene. Zelenski a promis un „răspuns” și a cerut aliaților mai multă presiune asupra Rusiei.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Un atac rusesc cu rachetă a lovit marți dimineață, 18 august 2026, o intersecție aglomerată din satul Pecenihî (regiunea Harkov, la circa 40 km de granița cu Rusia). Șeful administrației militare regionale, Oleh Sinieubov, a anunțat pe rețelele sociale cel puțin 10 morți și 8 răniți, potrivit informațiilor preliminare.",
+      "sources": [
+        {
+          "name": "Euronews — At least 10 killed in Russian strike in northeast Ukraine's Kharkiv region, governor says",
+          "url": "https://www.euronews.com/my-europe/2026/08/18/at-least-10-killed-in-russian-strike-in-northeast-ukraines-kharkiv-region-governor-says"
+        },
+        {
+          "name": "Ukrinform — Russian missile strike on Pechenihy in Kharkiv region kills 10 and injures eight",
+          "url": "https://www.ukrinform.net/rubric-ato/4155139-russian-missile-strike-on-pechenihy-in-kharkiv-region-kills-10-and-injures-eight.html"
+        }
+      ]
+    },
+    {
+      "text": "Zona lovită era una rezidențială, cu o poștă și magazine în jur. Potrivit Ukrinform, în urma atacului au fost avariate 10 case private, o cafenea, o poștă, un magazin și cel puțin 7 mașini.",
+      "sources": [
+        {
+          "name": "Ukrinform — Russian missile strike on Pechenihy in Kharkiv region kills 10 and injures eight",
+          "url": "https://www.ukrinform.net/rubric-ato/4155139-russian-missile-strike-on-pechenihy-in-kharkiv-region-kills-10-and-injures-eight.html"
+        }
+      ]
+    },
+    {
+      "text": "Președintele ucrainean Volodimir Zelenski și-a exprimat condoleanțele pentru familiile victimelor și a declarat că Ucraina „va răspunde cu siguranță” la acest atac, cerând totodată aliaților occidentali să completeze răspunsul militar cu presiune diplomatică și politică suplimentară asupra Rusiei.",
+      "sources": [
+        {
+          "name": "The Tribune — \"Will definitely respond to this Russian strike\": Zelenskyy says 10 killed in strike on Kharkiv region",
+          "url": "https://www.tribuneindia.com/news/casualties/will-definitely-respond-to-this-russian-strike-zelenskyy-says-10-killed-in-strike-on-kharkiv-region"
+        }
+      ]
+    },
+    {
+      "text": "Atacul se înscrie într-un tipar de escaladare a loviturilor pe distanță lungă: frontul terestru este relativ blocat, iar negocierile de pace sunt înghețate, în timp ce Rusia și Ucraina și-au intensificat reciproc atacurile cu rachete și drone asupra unor ținte aflate departe de linia frontului, ceea ce a împins numărul victimelor civile la cele mai ridicate niveluri de la începutul războiului, în 2022.",
+      "sources": [
+        {
+          "name": "Euronews — At least 10 killed in Russian strike in northeast Ukraine's Kharkiv region, governor says",
+          "url": "https://www.euronews.com/my-europe/2026/08/18/at-least-10-killed-in-russian-strike-in-northeast-ukraines-kharkiv-region-governor-says"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Bilanțul de 10 morți este descris explicit drept preliminar chiar de oficialul care l-a anunțat, șeful administrației militare regionale Harkov — numărul poate crește pe măsură ce echipele de intervenție continuă operațiunile la fața locului. Numele oficialului apare transliterat diferit între agenții („Oleh Sinieubov” / „Oleg Synegubov”), fiind vorba de aceeași persoană.",
+      "sources": [
+        {
+          "name": "Ukrinform — Russian missile strike on Pechenihy in Kharkiv region kills 10 and injures eight",
+          "url": "https://www.ukrinform.net/rubric-ato/4155139-russian-missile-strike-on-pechenihy-in-kharkiv-region-kills-10-and-injures-eight.html"
+        },
+        {
+          "name": "Euronews — At least 10 killed in Russian strike in northeast Ukraine's Kharkiv region, governor says",
+          "url": "https://www.euronews.com/my-europe/2026/08/18/at-least-10-killed-in-russian-strike-in-northeast-ukraines-kharkiv-region-governor-says"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Promisiunea lui Zelenski că Ucraina „va răspunde” este o declarație politică de intenție, nu un fapt verificabil — nu exista, la momentul verificării, un răspuns militar concret anunțat public."
+    }
+  ],
+  "math": {
+    "title": "Un atac printre sute, într-un an de escaladare",
+    "explanation": "Potrivit datelor citate de Euronews de la operatorul ucrainean de energie Naftogaz, Rusia a lansat aproape 300 de atacuri asupra infrastructurii energetice ucrainene de la începutul anului 2026, dintre care 13 doar în săptămâna precedentă — adică aproape două atacuri majore pe zi, în medie, în acea săptămână. Lovitura de la Pecenihî se adaugă acestui tipar de atacuri frecvente pe distanță lungă, într-un moment în care linia frontului este relativ înghețată."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Euronews și Ukrinform confirmă concordant locul, bilanțul preliminar și pagubele; am marcat separat caracterul preliminar al bilanțului, precizat chiar de sursa oficială ucraineană.",
+  "persoane": [
+    "Volodimir Zelenski"
+  ]
+}
