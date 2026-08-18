@@ -17,7 +17,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   3. rulează: python3 scripts/build_site.py
   4. commit + push  →  GitHub urcă singur pe site
 """
-import json, re, glob, os, unicodedata
+import json, re, glob, os, unicodedata, subprocess
 from datetime import datetime, timedelta, timezone
 
 def now_edition():
@@ -84,6 +84,42 @@ def load():
         if slug and os.path.exists(os.path.join(ROOT, "a", slug + ".html")):
             arts[slug] = d
     return arts
+
+def momente():
+    """
+    Ora exactă a publicării fiecărui articol, luată din git.
+
+    Articolele au doar `date` (ziua), iar într-o zi cu 40 de articole asta nu
+    spune nimic despre ordine. Momentul în care fișierul a intrat prima oară în
+    git ESTE momentul publicării — nu trebuie inventat un câmp nou și nu depinde
+    de botul care scrie articolul.
+
+    O singură trecere prin istoric, sub o sutime de secundă.
+    """
+    out = {}
+    try:
+        r = subprocess.run(["git", "log", "--format=@%cI", "--name-only",
+                            "--diff-filter=A", "--", "data/"],
+                           capture_output=True, text=True, cwd=ROOT, timeout=60)
+    except Exception:
+        return out
+    ceas = ""
+    for linie in r.stdout.splitlines():
+        linie = linie.strip()
+        if linie.startswith("@"):
+            ceas = linie[1:]
+        elif linie.startswith("data/") and linie.endswith(".json"):
+            slug = os.path.basename(linie)[:-5]
+            # `git log` merge de la nou la vechi, deci prima apariție e cea mai
+            # recentă. Noi vrem PRIMA intrare în git, deci suprascriem mereu.
+            out[slug] = ceas
+    return out
+
+
+def cheie_timp(d, mom):
+    """Sortare pe zi + oră. Fără ora din git, cade elegant pe zi."""
+    return (d.get("date", ""), mom.get(d.get("slug", ""), ""))
+
 
 def vcl(v):
     v = (v or "").lower()
@@ -187,13 +223,16 @@ def card(d):
           </a>
 '''
 
-def build_feed(arts):
+def build_feed(arts, mom=None):
     """Secțiunile pe categorii, ordonate; exclude articolul din hero."""
+    mom = mom or {}
     out = []
     for cat in CAT_ORDER:
         items = [d for s,d in arts.items() if d["category"] == cat and s != FEATURED]
         if not items: continue
-        items.sort(key=lambda d: d.get("date",""), reverse=True)
+        # Pe ORĂ, nu doar pe zi: într-o zi cu 40 de articole, data singură nu
+        # spune care e cel mai nou. Ora vine din git (vezi `momente`).
+        items.sort(key=lambda d: cheie_timp(d, mom), reverse=True)
         # Doar cele mai recente primesc card cu poză; restul trec în lista
         # compactă, altfel prima pagină crește la nesfârșit — în octeți și în
         # număr de imagini cerute.
@@ -217,9 +256,10 @@ def build_feed(arts):
 ''')
     return "\n".join(out)
 
-def build_featured_script(arts):
+def build_featured_script(arts, mom=None):
     """Hero rotativ: la fiecare refresh, JS alege aleatoriu alt articol pt „principalul"."""
-    items = sorted(arts.values(), key=lambda d: d.get("date",""), reverse=True)[:8]  # doar cele mai noi
+    mom = mom or {}
+    items = sorted(arts.values(), key=lambda d: cheie_timp(d, mom), reverse=True)[:8]  # doar cele mai noi
     data = []
     for d in items:
         glyph, heroimg, fav, srcname = extract(d)
@@ -354,6 +394,106 @@ SHARE_NOU_X = ("window.shareX=function(){if(window.__fbMobil&&navigator.share)"
                "'_blank','noopener,width=560,height=460');};")
 SHARE_DETECT = ("window.__fbMobil=/Android|iPhone|iPad|iPod|Mobile|Silk/i.test("
                 "navigator.userAgent||'');")
+
+
+# Articolele citite dispar de pe prima pagină. Ce s-a citit nu mai e știre.
+#
+# Memoria e în browserul cititorului (localStorage), nu la noi: nu punem cont, nu
+# urmărim pe nimeni, nu pleacă nimic spre server. Cine intră de pe alt telefon
+# vede tot.
+#
+# Cu plasă de siguranță: dacă a citit TOT dintr-o secțiune, nu-i lăsăm un gol —
+# secțiunea rămâne întreagă. Și are mereu un buton prin care le aduce înapoi.
+CITITE_JS = """
+<script>
+(function(){
+  var K='fb_citite';
+  function citite(){ try{ return JSON.parse(localStorage.getItem(K)||'[]'); }catch(e){ return []; } }
+  // Pe pagina articolului: reținem că a fost deschis.
+  var m = location.pathname.match(/\\/a\\/([^\\/]+)\\.html$/);
+  if(m){
+    var L=citite(); if(L.indexOf(m[1])<0){ L.push(m[1]); try{ localStorage.setItem(K, JSON.stringify(L.slice(-400))); }catch(e){} }
+    return;
+  }
+  // Pe prima pagină: ascundem ce s-a citit deja.
+  if(!/(^\\/$|index\\.html$)/.test(location.pathname)) return;
+  document.addEventListener('DOMContentLoaded', function(){
+    var L=citite(); if(!L.length) return;
+    var ascunse=0;
+    document.querySelectorAll('main section.cat-section').forEach(function(sec){
+      var tot=sec.querySelectorAll('a.card, a.mini-row');
+      var deAscuns=[];
+      tot.forEach(function(a){
+        var h=a.getAttribute('href')||'';
+        var s=(h.match(/a\\/([^\\/]+)\\.html$/)||[])[1];
+        if(s && L.indexOf(s)>=0) deAscuns.push(a);
+      });
+      // Dacă a citit tot din secțiune, o lăsăm întreagă — mai bine ceva decât gol.
+      if(deAscuns.length && deAscuns.length < tot.length){
+        deAscuns.forEach(function(a){ a.style.display='none'; a.dataset.fbCitit='1'; });
+        ascunse += deAscuns.length;
+      }
+    });
+    if(!ascunse) return;
+    var b=document.createElement('button');
+    b.textContent = ascunse===1 ? 'Arată și articolul pe care l-ai citit'
+                                : 'Arată și cele '+ascunse+' pe care le-ai citit';
+    b.style.cssText='display:block;margin:18px auto 0;padding:9px 18px;border-radius:999px;border:1px solid var(--line-2);background:var(--card);color:var(--ink-soft);font:600 13px system-ui;cursor:pointer';
+    b.onclick=function(){
+      document.querySelectorAll('[data-fb-citit]').forEach(function(a){ a.style.display=''; });
+      b.remove();
+    };
+    var w=document.querySelector('main .wrap'); if(w) w.appendChild(b);
+  });
+})();
+</script>
+"""
+
+
+# Bara de sus arată ziua CITITORULUI, nu ziua în care a fost construită pagina.
+#
+# Înainte, paginile de articol rămâneau înghețate la momentul publicării: 40 de
+# articole scriau „Ediția de noapte" în capul paginii, iar cine le deschidea
+# marți la prânz vedea „Luni · Ediția de noapte". E o bară de ziar, nu o etichetă
+# a articolului — data publicării apare oricum sub titlu.
+#
+# Se calculează în browser, deci e corectă mereu, indiferent când a fost
+# construită pagina sau când o citește cineva.
+DATA_JS = """
+<script>
+(function(){
+  var el=document.querySelector('.topbar .date'); if(!el) return;
+  var Z=['Duminică','Luni','Marți','Miercuri','Joi','Vineri','Sâmbătă'];
+  var L=['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+  function scrie(){
+    var n=new Date(), h=n.getHours(), e;
+    if(h>=5&&h<8) e='Ediția de dimineață';
+    else if(h>=8&&h<11) e='Ediția de cafeluță';
+    else if(h>=11&&h<14) e='Ediția de amiază';
+    else if(h>=14&&h<17) e='Ediția de după-amiază';
+    else if(h>=17&&h<20) e='Ediția de seară';
+    else if(h>=20&&h<23) e='Ediția de seară târzie';
+    else e='Ediția de noapte';
+    el.textContent=Z[n.getDay()]+', '+n.getDate()+' '+L[n.getMonth()]+' '+n.getFullYear()+' · '+e;
+  }
+  scrie(); setInterval(scrie, 60000);
+})();
+</script>
+"""
+
+
+def pune_data(s):
+    """Injectează, o singură dată, ceasul din bara de sus."""
+    if "Ediția de cafeluță'" in s or "</body>" not in s:
+        return s
+    return s.replace("</body>", DATA_JS + "</body>", 1)
+
+
+def pune_citite(s):
+    """Injectează, o singură dată, scriptul care ține minte ce s-a citit."""
+    if "fb_citite" in s or "</body>" not in s:
+        return s
+    return s.replace("</body>", CITITE_JS + "</body>", 1)
 
 
 def repara_share(s):
@@ -639,7 +779,8 @@ def main():
     total = len(arts)
     # 1. feed
     html = open(IDX, encoding="utf-8").read()
-    html = replace_feed(html, build_feed(arts) + build_featured_script(arts))
+    mom = momente()
+    html = replace_feed(html, build_feed(arts, mom) + build_featured_script(arts, mom))
     open(IDX, "w", encoding="utf-8").write(html)
     # 2. politicieni (clonează shell-ul din index)
     shell = open(IDX, encoding="utf-8").read()
@@ -671,6 +812,8 @@ def main():
         s = open(f, encoding="utf-8").read(); orig = s
         s = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
         s = repara_share(s)
+        s = pune_data(s)
+        s = pune_citite(s)
         # Linkul spre Cloșcu, pe TOATE paginile. Se injectează aici, nu în
         # șablon: articolele noi le scrie botul după `a/legea-integritatii...`,
         # care n-are linkul — altfel ar lipsi de pe tot ce se publică de acum.

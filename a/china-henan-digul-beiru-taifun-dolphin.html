@@ -639,5 +639,68 @@
   }catch(e){}
 })();
 </script>
+
+<script>
+(function(){
+  var el=document.querySelector('.topbar .date'); if(!el) return;
+  var Z=['Duminică','Luni','Marți','Miercuri','Joi','Vineri','Sâmbătă'];
+  var L=['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+  function scrie(){
+    var n=new Date(), h=n.getHours(), e;
+    if(h>=5&&h<8) e='Ediția de dimineață';
+    else if(h>=8&&h<11) e='Ediția de cafeluță';
+    else if(h>=11&&h<14) e='Ediția de amiază';
+    else if(h>=14&&h<17) e='Ediția de după-amiază';
+    else if(h>=17&&h<20) e='Ediția de seară';
+    else if(h>=20&&h<23) e='Ediția de seară târzie';
+    else e='Ediția de noapte';
+    el.textContent=Z[n.getDay()]+', '+n.getDate()+' '+L[n.getMonth()]+' '+n.getFullYear()+' · '+e;
+  }
+  scrie(); setInterval(scrie, 60000);
+})();
+</script>
+
+<script>
+(function(){
+  var K='fb_citite';
+  function citite(){ try{ return JSON.parse(localStorage.getItem(K)||'[]'); }catch(e){ return []; } }
+  // Pe pagina articolului: reținem că a fost deschis.
+  var m = location.pathname.match(/\/a\/([^\/]+)\.html$/);
+  if(m){
+    var L=citite(); if(L.indexOf(m[1])<0){ L.push(m[1]); try{ localStorage.setItem(K, JSON.stringify(L.slice(-400))); }catch(e){} }
+    return;
+  }
+  // Pe prima pagină: ascundem ce s-a citit deja.
+  if(!/(^\/$|index\.html$)/.test(location.pathname)) return;
+  document.addEventListener('DOMContentLoaded', function(){
+    var L=citite(); if(!L.length) return;
+    var ascunse=0;
+    document.querySelectorAll('main section.cat-section').forEach(function(sec){
+      var tot=sec.querySelectorAll('a.card, a.mini-row');
+      var deAscuns=[];
+      tot.forEach(function(a){
+        var h=a.getAttribute('href')||'';
+        var s=(h.match(/a\/([^\/]+)\.html$/)||[])[1];
+        if(s && L.indexOf(s)>=0) deAscuns.push(a);
+      });
+      // Dacă a citit tot din secțiune, o lăsăm întreagă — mai bine ceva decât gol.
+      if(deAscuns.length && deAscuns.length < tot.length){
+        deAscuns.forEach(function(a){ a.style.display='none'; a.dataset.fbCitit='1'; });
+        ascunse += deAscuns.length;
+      }
+    });
+    if(!ascunse) return;
+    var b=document.createElement('button');
+    b.textContent = ascunse===1 ? 'Arată și articolul pe care l-ai citit'
+                                : 'Arată și cele '+ascunse+' pe care le-ai citit';
+    b.style.cssText='display:block;margin:18px auto 0;padding:9px 18px;border-radius:999px;border:1px solid var(--line-2);background:var(--card);color:var(--ink-soft);font:600 13px system-ui;cursor:pointer';
+    b.onclick=function(){
+      document.querySelectorAll('[data-fb-citit]').forEach(function(a){ a.style.display=''; });
+      b.remove();
+    };
+    var w=document.querySelector('main .wrap'); if(w) w.appendChild(b);
+  });
+})();
+</script>
 </body>
 </html>
