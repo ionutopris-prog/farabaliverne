@@ -42,9 +42,18 @@ OLLAMA = "http://localhost:11434/api/generate"
 MODEL = "gemma3:12b"      # multimodal — poate primi și imagini
 DPI = 150                 # cât de mare randăm pagina; 150 e citibil fără să fie uriaș
 
+# 🔴 Fără asta, Ollama folosește un context implicit de câteva mii de tokeni și
+# ARUNCĂ restul în tăcere. Modelul primea un sfert de document și răspundea cu
+# toată încrederea. gemma3:12b suportă 131.072, dar contextul mănâncă memorie:
+# măsurat pe o mașină cu 16 GB, 32.768 merge lejer (Ollama ajunge la ~9 GB).
+# Dacă ai mai multă memorie, urcă-l; dacă mașina începe să înghețe, coboară-l.
+NUM_CTX = 32_768
+
 # Cât text îi dăm modelului dintr-o dată. Peste asta, contextul se umple și
 # modelul începe să uite începutul. Nu tăiem în tăcere: spunem cât am tăiat.
-BUGET = 60_000
+# ~3 caractere pe token în română (mai „scumpă" decât engleza), din care lăsăm
+# loc pentru prompt și răspuns. La 32k context ies vreo 85.000 de caractere.
+BUGET = 85_000
 
 # Sub atâtea caractere pe pagină considerăm că pagina e o poză, nu text.
 # O pagină de carte are 1500-3000 de caractere; una scanată întoarce 0-20
@@ -90,7 +99,7 @@ def randeaza(doc, indici):
 
 def intreaba(prompt, imagini=None, model=MODEL):
     corp = {"model": model, "prompt": prompt, "stream": False,
-            "options": {"temperature": 0.2}}
+            "options": {"temperature": 0.2, "num_ctx": NUM_CTX}}
     if imagini:
         corp["images"] = imagini
     cerere = urllib.request.Request(
