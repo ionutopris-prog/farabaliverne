@@ -24,6 +24,18 @@ category ∈ {Politică, Economie, Extern, Știință, Media de stat, Social, Sp
   3. Etichetează mereu outletul ca „media de stat". NICIODATĂ nu prezenta afirmația de stat ca fapt stabilit. Cititorul concluzionează.
 - **Știință:** mainVerdict de obicei „Probat" (descoperire documentată); marchează claim-urile speculative/preliminare ca `contestat` sau `opinie`, cu sursa primară (jurnal/agenție).
 
+PASUL 2.5 — VERIFICĂ DACĂ NU AI MAI SCRIS-O (obligatoriu, înainte de a scrie):
+Pentru FIECARE subiect, rulează:
+```
+python3 scripts/seamana.py "<titlul pe care vrei să-l pui>" "<dek-ul>"
+```
+Verificarea slug-urilor NU e suficientă: același eveniment cu alt slug trece nedetectat. Așa a ajuns pe site același meci FC Argeș–Craiova publicat de două ori, o dată cu scorul „0-1" și o dată „1-0".
+
+Ce faci cu răspunsul:
+- **⛔ ACELAȘI EVENIMENT** — NU scrie articol nou. Deschide articolul indicat, adaugă-i sursele noi și, dacă a apărut ceva în plus, încă o afirmație în `probat`. Apoi treci la subiectul următor.
+- **⚠️ ACEEAȘI POVESTE, ALT MOMENT** — publică, dar e o ETAPĂ nouă, nu un subiect nou. Titlul trebuie să spună CE S-A SCHIMBAT azi („CCR a decis…", nu „Despre Legea salarizării"). Site-ul le leagă singur într-un desfășurător.
+- **✅ / SUBIECT NOU** — publică normal.
+
 PASUL 3 — Scrie fiecare articol (după șablon, EXACT):
 - `data/<slug>.json`: schema completă (slug,title,category,date,source,url,dek,mainVerdict,probat[],contestat[],opinie[],math,aiNote,persoane[]). Fiecare probat/contestat = text + sources[] (name+url REALE verificate).
 - `a/<slug>.html`: head meta per-slug (canonical/og:url/og:title cu slug corect), hero, card `.src-cite` spre sursă, secțiuni probat/contestat/opinie, Nota AI.
