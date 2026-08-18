@@ -1,0 +1,43 @@
+{
+  "slug": "taiwan-buget-aprobat-266-zile-blocaj-record",
+  "title": "Taiwan: parlamentul aprobă bugetul de stat de circa 93 de miliarde de dolari, după 266 de zile de blocaj record — finanțarea pentru drone rămâne intactă",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "Al Jazeera / Yahoo News (AP)",
+  "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding",
+  "dek": "Parlamentul Taiwanului, controlat de opoziție, a aprobat pe 15 august 2026 bugetul anual de stat — circa 2,986 trilioane de dolari taiwanezi (aproximativ 93 de miliarde de dolari americani), redus cu 48 de miliarde NT$ față de propunerea guvernului — după un blocaj de 266 de zile peste termenul legal, pe fondul pierderii majorității parlamentare de către partidul președintelui William Lai. Finanțarea pentru programul de drone autohtone a fost păstrată integral, deși opoziția (Kuomintang) amenințase inițial cu o reducere de 70%.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Parlamentul Taiwanului a aprobat pe 15 august 2026 bugetul anual de stat, în valoare de circa 2,986 trilioane de dolari taiwanezi (aproximativ 93 de miliarde de dolari americani) — cu 48 de miliarde NT$ mai puțin decât propunerea inițială a guvernului (3,034 trilioane NT$). Aprobarea a venit după un blocaj de 266 de zile peste termenul legal, un record pentru Taiwan.",
+      "sources": [
+        {"name": "Al Jazeera — Taiwan passes defence budget after record delay, retains drone funding", "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding"},
+        {"name": "Yahoo News / AP — Taiwan passes annual budget after long deadlock", "url": "https://www.yahoo.com/news/politics/articles/taiwan-passes-annual-budget-long-012719313.html"}
+      ]
+    },
+    {
+      "text": "Blocajul a survenit pentru că partidul președintelui William Lai (Partidul Progresist Democrat) și-a pierdut majoritatea parlamentară în 2024, iar opoziția — Kuomintang și alte formațiuni — a folosit-o pentru a stopa proiectele guvernului. Președintele parlamentului, Han Kuo-yu, a numit impasul o sursă de „diviziune socială” și „blocaj constituțional”, îndemnând ambele tabere spre compromis.",
+      "sources": [
+        {"name": "Al Jazeera — Taiwan passes defence budget after record delay, retains drone funding", "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding"},
+        {"name": "Yahoo News / AP — Taiwan passes annual budget after long deadlock", "url": "https://www.yahoo.com/news/politics/articles/taiwan-passes-annual-budget-long-012719313.html"}
+      ]
+    },
+    {
+      "text": "Printre reducerile aprobate: 60% din bugetul pentru echipamente și facilități militare, 60% din indemnizațiile speciale pentru șefii de agenții guvernamentale și 50% din bugetele de media și publicitate ale instituțiilor publice. În schimb, finanțarea integrală pentru programul de dezvoltare a dronelor autohtone a fost păstrată — opoziția (Kuomintang) amenințase inițial cu o reducere de 70%, dar a renunțat la propunere după ce nu a găsit suprapuneri sau cheltuieli risipite în program.",
+      "sources": [
+        {"name": "Al Jazeera — Taiwan passes defence budget after record delay, retains drone funding", "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding"}
+      ]
+    },
+    {
+      "text": "Fu Kun-chi, liderul grupului parlamentar Kuomintang, a declarat că opoziția a aprobat 98,4% din propunerea de buget „ca țara să poată funcționa normal”, cerând în schimb ca guvernul să respecte legislația adoptată de opoziție. Președintele Lai Ching-te a cerut ca revizuirea bugetară să revină la „principii de profesionalism, rațiune și proporționalitate” și ca diviziunile politice să nu afecteze funcționarea normală a statului. Bugetul pentru anul viitor prevede o creștere de 16% a cheltuielilor de apărare, pe fondul tensiunilor cu China.",
+      "sources": [
+        {"name": "Yahoo News / AP — Taiwan passes annual budget after long deadlock", "url": "https://www.yahoo.com/news/politics/articles/taiwan-passes-annual-budget-long-012719313.html"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": "",
+  "aiNote": "Cifrele bugetare de bază sunt confirmate concordant de Al Jazeera și Yahoo News/AP, care citează aceleași sume totale și aceeași durată a blocajului (266 de zile). Am observat o cifră aparent eronată despre finanțarea dronelor („63,4 miliarde de dolari”) într-una din sursele brute consultate, care pare o confuzie între dolari taiwanezi și dolari americani; am ales să nu redăm acea cifră exactă și să notăm doar că finanțarea a fost păstrată integral, informație confirmată clar de Al Jazeera.",
+  "persoane": ["William Lai", "Han Kuo-yu", "Fu Kun-chi"]
+}
