@@ -566,6 +566,69 @@ def inrudite(slug, arts, idx, rar, obisnuit, cate=3):
     return [alt for _, alt in rez[:cate]]
 
 
+def fire(arts, idx, rar, obisnuit):
+    """
+    Grupează articolele în FIRE de subiect — componente conexe ale grafului de
+    înrudire.
+
+    Un fir e o poveste care ține mai multe zile: legea salarizării de la refuzul
+    PSD până la decizia CCR, sau Popovici de la „în fața unui record" până la
+    dubla istorică. Astea NU sunt duplicate și nu trebuie unificate — trebuie
+    puse în ordine, ca cititorul să vadă cum a evoluat.
+    """
+    vec = collections.defaultdict(set)
+    for s in arts:
+        for alt in inrudite(s, arts, idx, rar, obisnuit, cate=6):
+            vec[s].add(alt)
+            vec[alt].add(s)
+    vazut, out = set(), {}
+    for s in arts:
+        if s in vazut or s not in vec:
+            continue
+        stiva, comp = [s], set()
+        while stiva:
+            x = stiva.pop()
+            if x in comp:
+                continue
+            comp.add(x)
+            vazut.add(x)
+            stiva += [y for y in vec[x] if y not in comp]
+        # Sub 3 articole nu e un fir, e o trimitere — rămâne pe „Vezi și".
+        # Pe o singură zi nu e o desfășurare, e o zi aglomerată.
+        if len(comp) >= 3 and len({arts[x].get("date") for x in comp}) >= 2:
+            lista = sorted(comp, key=lambda k: (arts[k].get("date", ""), k))
+            for x in comp:
+                out[x] = lista
+    return out
+
+
+def bloc_desfasurator(slug, lista, arts):
+    """Firul întreg, în ordinea zilelor, cu articolul curent marcat."""
+    zile = len({arts[x].get("date") for x in lista})
+    out = [VEZI_START,
+           '      <section class="ev-block" style="border-left:5px solid var(--gold)">',
+           f"        <h2>🧵 Desfășurător · {len(lista)} verificări în {zile} zile</h2>",
+           '        <p class="ev-sub">Cum a evoluat subiectul, în ordinea în care '
+           "l-am verificat. Articolul pe care îl citești e marcat.</p>"]
+    for x in lista:
+        d2 = arts[x]
+        acum = x == slug
+        vc, vl = vcl(d2.get("mainVerdict"))
+        titlu = (f'<b>{d2["title"]}</b>' if acum else
+                 f'<a href="{x}.html" style="text-decoration:underline;'
+                 f'text-underline-offset:2px">{d2["title"]}</a>')
+        out.append(
+            f'        <div class="ev-item" style="padding:10px 0;'
+            f'{"background:var(--paper-2);border-radius:8px;padding-left:10px" if acum else ""}">'
+            f'<p style="margin:0 0 4px;font-size:12px;letter-spacing:.06em;'
+            f'color:var(--ink-faint);font-weight:800">{d2.get("date","")}'
+            f'{" · ESTE ARTICOLUL DE FAȚĂ" if acum else ""}</p>'
+            f'<p style="margin:0 0 5px;font-size:15.5px;line-height:1.35">{titlu}</p>'
+            f'<span class="chip soft {vc} sm">{vl}</span></div>')
+    out += ["      </section>", VEZI_END]
+    return "\n".join(out) + "\n"
+
+
 def bloc_vezi_si(slug, arts, idx, rar, obisnuit):
     legate = inrudite(slug, arts, idx, rar, obisnuit)
     if not legate:
@@ -589,9 +652,16 @@ def bloc_vezi_si(slug, arts, idx, rar, obisnuit):
     return "\n".join(out) + "\n"
 
 
-def pune_vezi_si(s, slug, arts, idx, rar, obisnuit):
-    """Sub secțiunile de dovezi, înainte de caseta de final."""
-    bloc = bloc_vezi_si(slug, arts, idx, rar, obisnuit)
+def pune_vezi_si(s, slug, arts, idx, rar, obisnuit, fire_idx=None):
+    """
+    Sub secțiunile de dovezi, înainte de caseta de final.
+
+    Dacă articolul face parte dintr-un FIR (poveste pe mai multe zile), arătăm
+    desfășurătorul întreg, în ordine. Altfel, doar câteva trimiteri înrudite.
+    """
+    fire_idx = fire_idx or {}
+    bloc = (bloc_desfasurator(slug, fire_idx[slug], arts) if slug in fire_idx
+            else bloc_vezi_si(slug, arts, idx, rar, obisnuit))
     if VEZI_START in s:
         return re.sub(re.escape(VEZI_START) + r".*?" + re.escape(VEZI_END) + r"\n?",
                       lambda m: bloc, s, count=1, flags=re.S)
@@ -968,6 +1038,7 @@ def main():
     html = open(IDX, encoding="utf-8").read()
     mom = momente()
     _idx, _rar, _obis = indice_inrudite(arts)
+    _fire = fire(arts, _idx, _rar, _obis)
     html = replace_feed(html, build_feed(arts, mom) + build_featured_script(arts, mom))
     open(IDX, "w", encoding="utf-8").write(html)
     # 2. politicieni (clonează shell-ul din index)
@@ -1007,7 +1078,7 @@ def main():
             _slug = os.path.basename(f)[:-5]
             if _slug in arts:
                 s = pune_titluri(s, arts[_slug])
-                s = pune_vezi_si(s, _slug, arts, _idx, _rar, _obis)
+                s = pune_vezi_si(s, _slug, arts, _idx, _rar, _obis, _fire)
         # Linkul spre Cloșcu, pe TOATE paginile. Se injectează aici, nu în
         # șablon: articolele noi le scrie botul după `a/legea-integritatii...`,
         # care n-are linkul — altfel ar lipsi de pe tot ce se publică de acum.
