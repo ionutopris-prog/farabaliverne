@@ -1,7 +1,12 @@
 """
 Alege o fotografie REALĂ, liberă de drepturi, pentru un articol.
 
-Sursa: Wikimedia Commons (fără cheie de API, licențe explicite pe fiecare fișier).
+Surse, în ordine: Wikimedia Commons, apoi Openverse (agregatorul Fundației
+Wikimedia peste Flickr, muzee și arhive CC). Amândouă fără cheie de API și fără
+cont, cu licența scrisă pe fiecare fișier. Commons e prima fiindcă are portrete
+de oameni publici și denumiri stabile de instituții; Openverse intră când
+Commons n-are nimic — peisaje, obiecte, situații generice, care sunt exact
+lipsurile lui.
 Poza se DESCARCĂ și se găzduiește la noi — nu mai atârnăm de serverul altcuiva.
 
 Trei protecții, în ordinea importanței:
@@ -205,6 +210,84 @@ def search(query, article_text="", limit=12, nume_persoana=None):
 
     out.sort(key=lambda c: c["_insotit"])
     return out
+
+
+# Openverse acceptă și licențe pe care noi nu le vrem, deci cerem din capul
+# locului doar ce se poate folosi comercial și modifica — noi avem pagină de
+# publicitate, deci suntem comerciali, iar poza o tăiem la formatul nostru.
+OPENVERSE = ("https://api.openverse.org/v1/images/?q=%s"
+             "&license_type=commercial,modification&page_size=%d"
+             "&mature=false")
+
+
+def search_openverse(query, article_text="", limit=20, nume_persoana=None):
+    """Aceiași candidați, aceeași structură, altă sursă.
+
+    Nu caută persoane: pentru portrete Commons e mai de încredere, iar aici
+    n-avem cum verifica dacă omul din poză e chiar cel din titlu. Când se cere
+    o persoană, întoarcem gol și lăsăm Commons să decidă.
+    """
+    if nume_persoana:
+        return []
+    try:
+        data = json.loads(_get(OPENVERSE % (urllib.parse.quote(query), limit)))
+    except Exception:
+        return []
+
+    article_low = article_text.lower()
+    out = []
+    for r in data.get("results", []):
+        titlu = (r.get("title") or "").strip()
+        lic = (r.get("license") or "").lower()
+        if lic not in ("by", "by-sa", "cc0", "pdm"):
+            continue
+        if NEPHOTO.search(titlu):
+            continue
+
+        low = titlu.lower()
+        risky_hit = next((w for w in RISKY if w in low), None)
+        if risky_hit and risky_hit not in article_low:
+            continue
+
+        # Openverse caută și în descriere, nu doar în titlu, așa că întoarce
+        # lucruri fără legătură: la „swimming pool competition" a dat „Dive in
+        # Movies - White Night", o proiecție de film lângă o piscină. Cerem ca
+        # titlul să conțină măcar un cuvânt din ce căutăm. Commons n-are nevoie
+        # de filtrul ăsta — acolo titlul fișierului chiar descrie fișierul.
+        cuvinte = [c for c in re.findall(r"\w{4,}", query.lower())]
+        if cuvinte and not any(c in low for c in cuvinte):
+            continue
+
+        w = r.get("width") or 0
+        h = r.get("height") or 0
+        if w < 900:
+            continue
+        if h and w / h < 1.15:      # vrem peisaj, nu portret
+            continue
+
+        vers = r.get("license_version") or ""
+        scurt = f"CC {lic.upper()} {vers}".strip() if lic not in ("cc0", "pdm") else (
+            "CC0" if lic == "cc0" else "Public domain")
+        out.append({
+            "_insotit": False,
+            "title": titlu or query,
+            "url": r.get("url"),
+            "descriptionurl": r.get("foreign_landing_url") or r.get("detail_url", ""),
+            "license": scurt,
+            "license_url": r.get("license_url") or license_url(scurt),
+            "author": (r.get("creator") or "autor necunoscut")[:80],
+            "width": w,
+            "height": h,
+        })
+    return out
+
+
+def search_tot(query, article_text="", limit=12, nume_persoana=None):
+    """Commons întâi, Openverse pe post de plasă. Prima sursă care dă ceva câștigă."""
+    gasit = search(query, article_text, limit=limit, nume_persoana=nume_persoana)
+    if gasit:
+        return gasit
+    return search_openverse(query, article_text, nume_persoana=nume_persoana)
 
 
 def license_url(short_name):

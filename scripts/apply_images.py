@@ -147,10 +147,17 @@ def aplica(item):
     html = re.sub(r'\s*<div class="srcbadge">.*?</div>\n?', "\n", html,
                   count=1, flags=re.S)
 
-    # legenda cu atribuire
-    html = html.replace('            </div>\n          <div class="abody">',
-                        '            </div>\n' + legenda(item, photo) +
-                        '\n          <div class="abody">', 1)
+    # Legenda cu atribuire. Potrivire TOLERANTĂ la spațiul alb: varianta veche
+    # cerea exact un newline între `</div>` și `<div class="abody">`, iar
+    # articolele mai noi au două. Când nu prindea, poza intra fără atribuire
+    # și funcția raporta senin „OK" — 24 de articole au ajuns așa, cu poze
+    # CC-BY fără credit. Acum, dacă legenda nu intră, e eroare, nu tăcere.
+    html, n_leg = re.subn(r'(</div>)(\s*)(<div class="abody">)',
+                          lambda m: m.group(1) + "\n" + legenda(item, photo)
+                          + m.group(2) + m.group(3),
+                          html, count=1)
+    if n_leg == 0:
+        return "poza a intrat, dar N-AM PUTUT pune legenda de atribuire"
 
     # stilul, o singură dată
     if ".foto-credit{" not in html:
