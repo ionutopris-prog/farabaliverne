@@ -1,0 +1,55 @@
+{
+  "slug": "iran-hatami-recompensa-30000-soldati-americani",
+  "title": "Iran (Press TV/IRNA): șeful Armatei anunță recompensă de 30.000 de dolari pentru uciderea sau capturarea soldaților americani — dublată dacă e făcută de o femeie",
+  "category": "Media de stat",
+  "date": "2026-08-16",
+  "source": "Press TV (media de stat iraniană)",
+  "url": "https://www.presstv.co.uk/Detail/2026/08/16/774472/Iran-Army-chief-announces--30-000-bounty-for-killing-or-capturing-US-troops",
+  "dek": "Generalul-maior Amir Hatami, comandantul șef al Armatei iraniene, a anunțat pe 16 august 2026, potrivit presei de stat (Press TV, IRNA), o recompensă de 30.000 de dolari pentru oricine ucide sau capturează un militar american — sumă dublată la 60.000 de dolari dacă acțiunea e îndeplinită de o femeie iraniană. Surse independente (Stars and Stripes, Jerusalem Post) confirmă că anunțul a fost făcut, dar notează că SUA nu are trupe terestre cunoscute pe teritoriul Iranului, ceea ce ridică semne de întrebare asupra aplicabilității practice a recompensei și îi conturează, cel puțin parțial, un rol propagandistic intern.",
+  "mainVerdict": "Contestat — anunț de stat real, dar cu substanță strategică discutabilă",
+  "probat": [
+    {
+      "text": "Pe 16 august 2026, generalul-maior Amir Hatami, comandantul-șef al Armatei iraniene, a anunțat o recompensă de 30.000 de dolari (echivalentul a 5 miliarde de toman) pentru oricine ucide sau capturează și predă un militar american, sumă dublată la 60.000 de dolari dacă acțiunea e îndeplinită de o femeie iraniană. Anunțul a fost făcut cu ocazia Zilei Naționale a Jurnalistului.",
+      "sources": [
+        {"name": "Press TV — Iran Army chief announces $30,000 bounty for killing or capturing US troops", "url": "https://www.presstv.co.uk/Detail/2026/08/16/774472/Iran-Army-chief-announces--30-000-bounty-for-killing-or-capturing-US-troops"},
+        {"name": "Stars and Stripes — Iran offers up to $60K bounty on US troops", "url": "https://www.stripes.com/theaters/middle_east/2026-08-17/iran-bounty-us-troops-22579432.html"}
+      ]
+    },
+    {
+      "text": "Hatami a precizat că arma folosită va fi cumpărată de Armată la dublul valorii de piață și expusă permanent într-un muzeu, și a declarat, potrivit agenției de stat IRNA, că inițiativa reflectă „dorința exprimată de iranieni de a contribui la efortul de război”.",
+      "sources": [
+        {"name": "Stars and Stripes — Iran offers up to $60K bounty on US troops", "url": "https://www.stripes.com/theaters/middle_east/2026-08-17/iran-bounty-us-troops-22579432.html"}
+      ]
+    },
+    {
+      "text": "Anunțul vine în contextul unui război israeliano-american-iranian aflat la aproape șase luni, început pe 28 februarie 2026 în urma unor lovituri comune SUA-Israel asupra unor ținte iraniene; conflictul a provocat, potrivit Stars and Stripes, 18 morți și circa 700 de răniți în rândul militarilor americani, dintr-un contingent de peste 50.000 de militari SUA staționați în regiunea Orientului Mijlociu.",
+      "sources": [
+        {"name": "Stars and Stripes — Iran offers up to $60K bounty on US troops", "url": "https://www.stripes.com/theaters/middle_east/2026-08-17/iran-bounty-us-troops-22579432.html"}
+      ]
+    },
+    {
+      "text": "Hatami a mai afirmat că loviturile iraniene au avariat portavionul american USS Abraham Lincoln și a declarat că „era prezenței militare americane în Golful Persic s-a încheiat definitiv” — afirmații care nu au fost confirmate independent de armata SUA în sursele consultate.",
+      "sources": [
+        {"name": "The Jerusalem Post — Iranian army chief places $30,000 bounty on killed, captured US soldiers", "url": "https://www.jpost.com/middle-east/article-905660"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Deși recompensa vizează explicit uciderea sau capturarea de „militari americani”, SUA nu are trupe terestre cunoscute staționate pe teritoriul Iranului — potrivit Stars and Stripes, singura incursiune terestră semnificativă a fost o operațiune de salvare din aprilie 2026, după ce un avion american F-15E a fost doborât. Cei peste 50.000 de militari americani din regiune sunt staționați în alte state din Orientul Mijlociu, nu în Iran propriu-zis, ceea ce ridică întrebări asupra aplicabilității practice imediate a recompensei.",
+      "sources": [
+        {"name": "Stars and Stripes — Iran offers up to $60K bounty on US troops", "url": "https://www.stripes.com/theaters/middle_east/2026-08-17/iran-bounty-us-troops-22579432.html"}
+      ]
+    },
+    {
+      "text": "The Jerusalem Post caracterizează declarațiile lui Hatami — inclusiv afirmația privind avarierea USS Abraham Lincoln și descrierea SUA drept „un mare perdant” — ca retorică cu caracter propagandistic, menită să proiecteze o imagine de forță pentru publicul intern iranian, în lipsa unor dovezi militare verificabile independent pentru pretinsa avariere a portavionului.",
+      "sources": [
+        {"name": "The Jerusalem Post — Iranian army chief places $30,000 bounty on killed, captured US soldiers", "url": "https://www.jpost.com/middle-east/article-905660"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": "",
+  "aiNote": "Faptul de bază — anunțul recompensei făcut de generalul Hatami — e confirmat consistent atât de presa de stat iraniană (Press TV, IRNA), cât și de presă independentă occidentală (Stars and Stripes, Jerusalem Post), deci nu există dispută asupra faptului că anunțul a avut loc. Ce rămâne contestat e substanța lui strategică: SUA nu are trupe terestre expuse pe teritoriul iranian, iar afirmația despre avarierea USS Abraham Lincoln nu are confirmare independentă din partea armatei americane, în sursele consultate. Etichetăm sursa principală drept media de stat și punem alături surse independente, astfel încât cititorul să poată judeca singur cât din anunț e amenințare operațională reală și cât e propagandă de război destinată publicului intern iranian.",
+  "persoane": ["Amir Hatami"]
+}
