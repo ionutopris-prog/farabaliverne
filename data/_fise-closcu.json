@@ -1,588 +1,650 @@
 {
-  "titlu": "Cloșcu cu Puii de AUR",
-  "subtitlu": "Cine sunt, de unde vin, ce au declarat — și unde bat probele",
-  "intro": "Oamenii îi văd la televizor și pe TikTok, dar puțini știu ce au studiat, unde au lucrat și ce s-a ales de afirmațiile lor când le-ai pus lângă documente. Aici adunăm exact asta: <b>fișa fiecăruia, numai cu fapte care au sursă</b>, plus toate verificările noastre despre el, la un loc.",
-  "metoda": "Regula casei rămâne neschimbată și aici: <b>nu spunem că cineva „a mințit”</b>. Imputarea intenției nu se poate proba și nu ne-ar face mai credibili — arătăm CE a spus, CE arată dovezile și unde nu se susține. O acuzație oficială e prezentată ca acuzație, nu ca fapt stabilit, iar oricine are un dosar penal beneficiază de prezumția de nevinovăție până la o hotărâre definitivă. Din fișe lipsesc, deliberat, viața privată, familia și orice nu are legătură cu funcția publică sau cu afirmațiile publice.",
-  "denumire": "Numele secțiunii e un joc de cuvinte după tezaurul de la Pietroasele. E o glumă de titlu, nu o concluzie: ce contează începe la primul document de mai jos.",
-  "oameni": [
+ "titlu": "Cloșcu cu Puii de AUR",
+ "subtitlu": "Cine sunt, de unde vin, ce au declarat — și unde bat probele",
+ "intro": "Oamenii îi văd la televizor și pe TikTok, dar puțini știu ce au studiat, unde au lucrat și ce s-a ales de afirmațiile lor când le-ai pus lângă documente. Aici adunăm exact asta: <b>fișa fiecăruia, numai cu fapte care au sursă</b>, plus toate verificările noastre despre el, la un loc.",
+ "metoda": "Regula casei rămâne neschimbată și aici: <b>nu spunem că cineva „a mințit”</b>. Imputarea intenției nu se poate proba și nu ne-ar face mai credibili — arătăm CE a spus, CE arată dovezile și unde nu se susține. O acuzație oficială e prezentată ca acuzație, nu ca fapt stabilit, iar oricine are un dosar penal beneficiază de prezumția de nevinovăție până la o hotărâre definitivă. Din fișe lipsesc, deliberat, viața privată, familia și orice nu are legătură cu funcția publică sau cu afirmațiile publice.",
+ "denumire": "Numele secțiunii e un joc de cuvinte după tezaurul de la Pietroasele. E o glumă de titlu, nu o concluzie: ce contează începe la primul document de mai jos.",
+ "oameni": [
+  {
+   "nume": "Călin Georgescu",
+   "rol": "Cloșcu",
+   "eticheta": "Suveranist · candidat independent în 2024",
+   "culoare": "#8a6b1f",
+   "sumar": "Inginer, doctor în pedologie, fost secretar general al Ministerului Mediului și fost raportor special al ONU. A candidat ca independent la prezidențialele din 2024. <b>Nu este membru AUR</b> — relația cu partidul a mers însă în zigzag: propus premier de AUR în 2020, respins public de conducerea AUR în 2022, susținut din nou de AUR în 2024.",
+   "cv": [
     {
-      "nume": "Călin Georgescu",
-      "rol": "Cloșcu",
-      "eticheta": "Suveranist · candidat independent în 2024",
-      "culoare": "#8a6b1f",
-      "sumar": "Inginer, doctor în pedologie, fost secretar general al Ministerului Mediului și fost raportor special al ONU. A candidat ca independent la prezidențialele din 2024. <b>Nu este membru AUR</b> — relația cu partidul a mers însă în zigzag: propus premier de AUR în 2020, respins public de conducerea AUR în 2022, susținut din nou de AUR în 2024.",
-      "cv": [
-        {
-          "k": "Născut",
-          "v": "26 martie 1962, București.",
-          "surse": [
-            {
-              "name": "HotNews — Cine este Călin Georgescu",
-              "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
-            }
-          ]
-        },
-        {
-          "k": "Studii",
-          "v": "Facultatea de Îmbunătățiri Funciare, Institutul Agronomic „Nicolae Bălcescu” din București (azi Universitatea de Științe Agronomice și Medicină Veterinară), absolvită în 1986. Doctor în pedologie la aceeași universitate, în 1999. A urmat și programul postuniversitar „Securitate și apărare națională — geopolitică și geostrategie” la Colegiul Național de Apărare „Carol I”.",
-          "surse": [
-            {
-              "name": "HotNews — studii și doctorat",
-              "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
-            }
-          ]
-        },
-        {
-          "k": "Funcții publice în România",
-          "v": "Șef al biroului senatorial pentru mediu din Parlamentul României (1991); consilier la Ministerul Mediului (1992); secretar general al Ministerului Mediului (1997–1998); director în Ministerul Afacerilor Externe (2004–2005).",
-          "surse": [
-            {
-              "name": "HotNews — funcții publice deținute",
-              "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
-            }
-          ]
-        },
-        {
-          "k": "ONU",
-          "v": "Raportor special al ONU pentru efectele traficului și depozitării ilicite de produse și deșeuri toxice asupra drepturilor omului (2010–2012) și consilier special al directorului general al ONU-Geneva (2015–2016). Sunt funcții reale, dar de expertiză și mandat limitat — nu funcții de conducere ale ONU.",
-          "surse": [
-            {
-              "name": "HotNews — rolurile la ONU",
-              "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
-            }
-          ]
-        },
-        {
-          "k": "Activitate academică",
-          "v": "Cadru didactic asociat la Universitatea Națională de Știință și Tehnologie Politehnica București — Centrul universitar Pitești (din 2021), cu funcția de lector din 2024.",
-          "surse": [
-            {
-              "name": "HotNews — poziția academică",
-              "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
-            }
-          ]
-        },
-        {
-          "k": "Relația cu AUR, în trei acte",
-          "v": "<b>2020</b> — AUR îl propune premier, după alegerile parlamentare; George Simion îl recomandă drept „cinstit, patriot și bun profesionist”. <b>Ianuarie 2022</b> — după ce elogiază la televizor figuri legionare, conducerea AUR se delimitează public: Claudiu Târziu spune că „nu poți să lași niciun dubiu legat de episoadele negre din istoria României”, iar Simion declară „vreau să mă delimitez… nu am fost niciodată fan al Legiunii”. <b>2024</b> — în seara alegerilor, după ce Simion iese pe locul 4, AUR anunță că îl susține pe Georgescu, ca parte a „polului suveranist”. Aceleași fapte, trei poziții diferite în patru ani.",
-          "surse": [
-            {
-              "name": "Digi24 — AUR îl susține pe Georgescu, deși în urmă cu doi ani se delimita de el",
-              "url": "https://www.digi24.ro/alegeri-prezidentiale-2024/aur-il-sustine-pe-calin-georgescu-desi-in-urma-cu-doi-ani-se-delimita-de-el-dupa-ce-a-facut-propaganda-legionara-3021853"
-            },
-            {
-              "name": "Mediafax — Simion: Călin Georgescu este propunerea AUR pentru funcția de prim-ministru",
-              "url": "https://www.mediafax.ro/politic/george-simion-calin-georgescu-este-propunerea-aur-pentru-functia-de-prim-ministru-19782321"
-            },
-            {
-              "name": "Verificarea noastră — elogiul adus legionarilor",
-              "url": "https://farabaliverne.ro/a/georgescu-legionari-elogiu.html"
-            }
-          ]
-        },
-        {
-          "k": "Situația juridică",
-          "v": "Este trimis în judecată, potrivit acuzării, pentru complicitate la tentativă de acțiuni împotriva ordinii constituționale și comunicare de informații false, în dosarul care îl vizează și pe Horațiu Potra. Pe 6 august 2026, ÎCCJ a respins contestațiile și a deschis calea judecății pe fond. Camera preliminară verifică legalitatea trimiterii în judecată, NU vinovăția. <b>Beneficiază de prezumția de nevinovăție</b> până la o hotărâre definitivă.",
-          "surse": [
-            {
-              "name": "Verificarea noastră — ÎCCJ a respins contestațiile, procesul pe fond poate începe",
-              "url": "https://farabaliverne.ro/a/georgescu-iccj-proces-fond.html"
-            },
-            {
-              "name": "Digi24 — decizia instanței supreme în dosarul privind tentativa de lovitură de stat",
-              "url": "https://www.digi24.ro/stiri/actualitate/justitie/incepe-sau-nu-procesul-lui-calin-georgescu-instanta-suprema-urmeaza-sa-ia-o-decizie-in-dosarul-privind-tentativa-de-lovitura-de-stat-3895225"
-            }
-          ]
-        }
-      ],
-      "afirmatii": [
-        {
-          "afirmatie": "Că în băuturile răcoritoare s-ar afla nanocipuri.",
-          "unde": "declarații publice preluate pe larg în presă și pe rețele",
-          "dovezi": "Ideea pică nu la cip, ci la <b>antenă</b> — și asta e partea pe care n-o spune nimeni.\n\nCel mai mic cip RFID din lume e al companiei Hitachi. Modelul anunțat oficial în 2006 măsoară 0,15 × 0,15 milimetri și e gros de 7,5 micrometri; ulterior s-a ajuns la 0,05 × 0,05 mm. Deci un cip aproape invizibil chiar există. Numai că nu poate face nimic singur: e un cip PASIV, fără baterie. Ca să funcționeze, primește unde radio de 2,45 GHz <b>printr-o antenă externă</b>, le transformă în energie și abia apoi își transmite numărul de identificare de 128 de biți. Fără antenă e o bucată de siliciu moartă.\n\nIar antena nu poate fi micșorată la fel: dimensiunea ei e impusă de lungimea de undă, nu de priceperea inginerilor. Cea mai mică antenă practică e de ordinul a patru milimetri — de circa optzeci de ori mai mare decât cipul-record. Presa de specialitate a scris exact asta: cipul de dimensiunea prafului a rămas fără o antenă pe măsura lui, iar raza de citire coboară la câțiva milimetri.\n\nCe înseamnă asta pentru un cip într-o băutură: chiar dacă l-ai băga acolo, ar trebui să care cu el o antenă de optzeci de ori mai mare — vizibilă cu ochiul liber în pahar — iar cititorul ar trebui să stea lipit de tine, la câțiva milimetri, ca să scoată din el un simplu număr de serie. Nu locație, nu gânduri, nu control: un număr, scris o singură dată la fabricație și nemodificabil.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Hitachi — comunicat oficial: cip RFID de 0,15 × 0,15 mm, alimentat printr-o antenă externă",
-              "url": "https://www.hitachi.com/New/cnews/060206.html"
-            },
-            {
-              "name": "RFID Journal — cipul-record și problema antenei",
-              "url": "https://www.rfidjournal.com/news/hitachi-unveils-smallest-rfid-chip/78186/"
-            },
-            {
-              "name": "Verificarea noastră — nanocipuri în sucuri",
-              "url": "https://farabaliverne.ro/a/georgescu-nanocipuri-sucuri.html"
-            }
-          ]
-        },
-        {
-          "afirmatie": "Că apa nu este H₂O, ci „informație, vibrație, frecvență”, și că are memorie.",
-          "unde": "declarații publice, televiziune și rețele sociale",
-          "dovezi": "Apa <b>este</b> H₂O — asta nu se dispută nicăieri în chimie. Ce se discută e dacă poate ține minte ceva. Și aici există un răspuns măsurat, nu o părere.\n\nMoleculele de apă se leagă între ele prin punți de hidrogen, care se rup și se refac încontinuu. Rețelele ordonate care se formează în apa lichidă durează <b>o fracțiune de nanosecundă</b> — ordinul picosecundelor, adică miimi de miliardime de secundă. Ca să păstrezi o informație, îți trebuie o structură care rămâne. Aici structura se destramă de un miliard de ori înainte să apuci să clipești. Nu există suport fizic pentru memorie, cum nu poți scrie pe apă cu degetul.\n\nIdeea are și o istorie precisă. În iunie 1988, imunologul francez Jacques Benveniste a publicat în revista <i>Nature</i> un studiu care susținea că diluții extreme de anticorpi, în care nu mai rămăsese nicio moleculă din substanța inițială, produc totuși efecte biologice. <i>Nature</i> a publicat articolul însoțit de o notă a redacției, lucru neobișnuit, în care scria că nu există niciun temei fizic pentru o asemenea activitate. La o săptămână după publicare, revista a trimis o echipă în laboratorul lui: John Maddox, redactorul-șef, chimistul Walter Stewart și iluzionistul James Randi. Au făcut șapte încercări de replicare. Primele trei, nerandomizate, au dat rezultate favorabile. Când Randi a impus procedura dublu-orb, cu probe sigilate și amestecate, rezultatele au devenit negative. Concluzia echipei: efectul venea dintr-o părtinire neintenționată a celor care citeau probele. Finanțarea lui Benveniste a fost retrasă, iar replicările independente de după nu au confirmat rezultatele.\n\nDeci nu e o descoperire nouă pe care o ascunde cineva. E o ipoteză veche de aproape patruzeci de ani, testată public, care a picat la prima probă făcută pe nevăzute.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Wikipedia — Afacerea Benveniste: publicarea în Nature, ancheta, replicarea dublu-orb",
-              "url": "https://en.wikipedia.org/wiki/Benveniste_affair"
-            },
-            {
-              "name": "Verificarea noastră — apa structurată",
-              "url": "https://farabaliverne.ro/a/georgescu-apa-structurata.html"
-            }
-          ]
-        },
-        {
-          "afirmatie": "Elogiul adus unor figuri legionare.",
-          "unde": "emisiune de televiziune, ianuarie 2022",
-          "dovezi": "Chiar conducerea AUR s-a delimitat public atunci — vezi cronologia din fișa de mai sus.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Verificarea noastră — elogiul adus legionarilor",
-              "url": "https://farabaliverne.ro/a/georgescu-legionari-elogiu.html"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Ei au anulat alegerile din disperare… și au făcut-o împreună cu colegi externi, respectiv Comisia Europeană! Lucru dovedit de raportul Comisiei Juridice al Congresului SUA…”",
-          "unde": "13 februarie 2026, declarație publică în fața Curții de Apel București",
-          "dovezi": "Raportul invocat a fost citit, cu tot cu anexe. Nu conține nicio dovadă de implicare a Comisiei Europene în anularea alegerilor. Comisia apare doar ca organizator de întâlniri cu platformele de socializare pe tema protejării alegerilor, iar anularea e menționată o singură dată în mii de pagini — într-un citat dintr-o teorie de pe TikTok despre George Soros, nu într-o constatare a raportului.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre implicarea Comisiei Europene",
-              "url": "https://www.factual.ro/declaratii/fals-calin-georgescu-despre-implicarea-comisiei-europene-in-anularea-alegerilor-prezidentiale-din-2024/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Nu sunt împotriva avortului; fiecare are dreptul să decidă.”",
-          "unde": "dezbatere la Realitatea Plus (min. 21:02)",
-          "dovezi": "În propria carte din 2014, „Cumpăna României”, la pagina 54, scrie că avorturile ar trebui interzise. Nu e vorba de interpretare: e textul lui, publicat sub numele lui.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmațiilor despre avort, Green Deal și datoria țării",
-              "url": "https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "Că peste 65% dintre produsele lactate consumate în România ar fi din import.",
-          "unde": "Realitatea Plus, 4 decembrie (min. 1:10:49)",
-          "dovezi": "Datele Institutului Național de Statistică pentru 2022: producție internă 5,3 milioane de tone, import 1,3 milioane de tone — adică 21,54% din lactatele disponibile erau importate, iar gradul de autosuficiență era de 84,9%. Cifra reală e de circa trei ori mai mică decât cea afirmată.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre importul de lactate",
-              "url": "https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "Că peste 900.000 de persoane cu dizabilități nu au putut vota, fiindcă „nu există condiții”.",
-          "unde": "Realitatea Plus, 4 decembrie (min. 24:03)",
-          "dovezi": "Urna mobilă există și e prevăzută de legislația electorală. A fost folosită de 97.660 de alegători la prezidențialele din 24 noiembrie și de 109.205 la parlamentarele din 1 decembrie.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre votul persoanelor cu dizabilități",
-              "url": "https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Chinezii au cumpărat porturile din Bolivia.”",
-          "unde": "30 ianuarie 2025, podcastul lui Ion Cristoiu",
-          "dovezi": "Bolivia nu are ieșire la mare, iar povestea e una dintre cele mai cunoscute din America de Sud. În 1879, Chile a ocupat portul Antofagasta pornind de la un diferend fiscal — așa a început Războiul Pacificului. În patru ani, Chile luase circa 130.000 km² de teritoriu bolivian, inclusiv toți cei aproximativ 400 de kilometri de coastă la Pacific. Pierderea a fost consfințită prin Tratatul de pace din 1904, al cărui articol II recunoaște teritoriul drept al Chile „absolut și pe veci”, Bolivia primind în schimb acces comercial la porturile chiliene. Bolivia n-a renunțat: a dat Chile în judecată la Curtea Internațională de Justiție, iar pe 1 octombrie 2018 Curtea a decis, cu 12 voturi la 3, că statul chilian NU are obligația legală de a negocia un acces suveran la ocean. Astăzi, singurele ambarcațiuni ale țării patrulează lacul Titicaca. Deci nu doar că nu există porturi maritime boliviene pe care chinezii să le cumpere — inexistența lor e subiectul unui proces internațional încheiat acum opt ani. Gazda emisiunii nu a corectat afirmația.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Aktual24 — afirmația despre porturile din Bolivia, la emisiunea lui Ion Cristoiu",
-              "url": "https://www.aktual24.ro/sa-radem-cu-calin-georgescu-chinezii-au-cumparat-porturile-din-bolivia-a-afirmat-candidatul-pro-rus-la-emisiunea-lui-ion-cristoiu-in-realitate-bolivia-nu-are-iesire-la-mare/"
-            },
-            {
-              "name": "CIJ — hotărârea din 1 octombrie 2018, Bolivia c. Chile",
-              "url": "https://www.worldcourts.com/icj/eng/decisions/2018.10.01_Bolivia_v_Chile.pdf"
-            },
-            {
-              "name": "Al Jazeera — Curtea: Chile nu e obligată să negocieze accesul la mare",
-              "url": "https://www.aljazeera.com/news/2018/10/1/chile-not-obliged-to-negotiate-sea-access-with-bolivia-icj"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Lucian Blaga este unul din principalii interziși în România” — și că Blaga și Eminescu nu s-ar preda în școli.",
-          "unde": "videoclip pe TikTok, noiembrie 2024, cu peste 304.000 de vizualizări, publicat cu câteva zile înainte de alegeri",
-          "dovezi": "Amândoi sunt autori canonici. Blaga se studiază din clasa a VIII-a și e în programa de liceu la literatura interbelică și modernistă, iar la Bacalaureat figurează printre autorii canonici pentru proba de Limba și literatura română. Eminescu e parte integrantă a programei de gimnaziu și liceu. Nu e vorba de o nuanță: sunt în manuale și în programa de examen.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "G4Media — afirmațiile despre educație propagate pe TikTok",
-              "url": "https://www.g4media.ro/minciunile-propagate-de-calin-georgescu-pe-tiktok-referitoare-la-educatie-lucian-blaga-si-mihai-eminescu-nu-s-ar-preda-in-scoli-elevii-nu-ar-invata-istorie-si-geografie-la-liceu-despre-medicina.html"
-            },
-            {
-              "name": "Observator — „Blaga și Eminescu nu se studiază în școli”",
-              "url": "https://observatornews.ro/alegeri-prezidentiale-2024/calin-georgescu-sustine-ca-blaga-si-eminescu-nu-se-studiaza-in-scoli-unii-din-principalii-interzisi-in-romania-601191.html"
-            },
-            {
-              "name": "Adevărul — doi profesori demontează mesajele despre educație",
-              "url": "https://adevarul.ro/stiri-interne/educatie/calin-georgescu-file-din-realitate-doi-profesori-2404479.html"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Nu produc eolienele energie, eolienele sunt la nivel de 0,01%.”",
-          "unde": "declarație publică, inclusă în lista de declarații controversate strânsă de Observator",
-          "dovezi": "În 2023, energia eoliană a fost a treia sursă din structura producției de energie electrică a României, cu o pondere de 15,4%. În februarie 2024, puterea instalată în centrale eoliene era de 3.026,91 MW, adică circa 17% din puterea totală instalată a țării. Cifra afirmată e de peste o mie de ori mai mică decât cea reală.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Observator — 430 de declarații controversate (citatul despre eoliene)",
-              "url": "https://observatornews.ro/alegeri-prezidentiale-2024/430-de-declaratii-controversate-ale-lui-calin-georgescu-romania-este-o-poarta-intre-dimensiunifiecare-izvor-din-romania-o-sursa-de-lumina-cosmica-601617.html"
-            },
-            {
-              "name": "Wikipedia — Energia eoliană în România (putere instalată și pondere)",
-              "url": "https://ro.wikipedia.org/wiki/Energia_eolian%C4%83_%C3%AEn_Rom%C3%A2nia"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Avem aurul monoatomic. Avem toate metalele rare, posibile și imposibile” — și că acest aur „nici nu există pe tabloul lui Mendeleev”.",
-          "unde": "declarații publice, preluate de mai multe redacții",
-          "dovezi": "Sunt trei lucruri greșite într-o singură frază. Întâi, e un tabel periodic, nu un tablou — Mendeleev era chimist, nu pictor, cum a observat cercetătorul Claudiu Tănăselia de la Cluj. Al doilea, „aurul monoatomic” nu e un element și nu e o formă de aur recunoscută de chimie: e un concept ezoteric popularizat de David Hudson în anii 1970–80, legat de alchimie și de promisiuni de longevitate și „regenerare a ADN-ului”. Al treilea, și cel mai important: dacă s-a vrut spus „monoizotopic”, atunci afirmația se autodesființează. Aurul are un singur izotop stabil, aur-197 — adică TOT aurul din univers e monoizotopic. Nu e nimic special în pământul României; e chimie de manual.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "G4Media — reacția cercetătorului Claudiu Tănăselia la „aurul monoatomic”",
-              "url": "https://www.g4media.ro/reactia-unui-cercetator-la-aurul-monoatomic-al-lui-calin-georgescu-poate-e-ceva-specie-de-aur-folosita-de-daci-poate-a-vrut-sa-zica-aur-monoizotopic.html"
-            },
-            {
-              "name": "G4Media — afirmațiile despre aurul monoatomic și tabloul lui Mendeleev",
-              "url": "https://www.g4media.ro/calin-georgescu-noi-teorii-ale-conspiratiei-romania-are-aurul-monoatomic-nici-nu-exista-pe-tabloul-lui-mendeleev-sunt-doar-un-miliard-de-vaci-in-lume-nu-ai-cum-sa-gasesti-in-magazine-cantitatea.html"
-            },
-            {
-              "name": "Aktual24 — ce este „aurul monoatomic”, concept mistic fără bază științifică",
-              "url": "https://www.aktual24.ro/teoriile-lui-georgescu-ce-este-aurul-monoatomic-care-s-ar-afla-in-pamanturile-romaniei-concept-mistic-care-contravine-valorilor-crestine/"
-            }
-          ]
-        }
-      ],
-      "credinte": [
-        {
-          "text": "„România este o poartă între dimensiuni.” · „Fiecare izvor din România este o sursă de lumină cosmică.” · „Carpații sunt coloanele de lumină care susțin echilibrul energetic al întregii planete.” — Astea NU le notăm ca infirmate. Nu se pot proba și nu se pot infirma; sunt convingeri, iar noi nu ratăm convingerile. Le arătăm ca să vezi singur ce fel de discurs e, dar linia dintre credință și afirmație verificabilă rămâne trasă. Sursa: lista Observator cu 430 de declarații."
-        }
-      ],
-      "carte": {
-        "titlu": "„Cumpăna României”",
-        "detalii": "Editura Christiana · ediția a II-a, 2016 · ISBN 978-973-1913-87-2. O carte scrisă de el, publicată sub numele lui — deci nu „i s-a atribuit”, nu „a fost scos din context”. Poate fi găsită în librării și verificată de oricine.",
-        "catalog": {
-          "name": "Fișa de catalog a cărții (LibrăriaOnline)",
-          "url": "https://www.librariaonline.ro/stiinte_umaniste/stiinte_politice/cumpana_romaniei_calin_georgescu-georgescu_calin-logos-p10077791"
-        },
-        "citate": [
-          {
-            "text": "„E o împrejurare fericită că atât poporul român și cel rus se împărtășesc cu apa marelui fluviu al spiritualității creștin-ortodoxe.”",
-            "nota": "Scris în ediția din 2016 — la doi ani după ce Rusia anexase militar Crimeea."
-          },
-          {
-            "text": "„oficialii români au reacționat violent și obedient, la nivel retoric, în fața unei așa-zise amenințări rusești iminente”",
-            "nota": "Din capitolul „Criza ucraineană”. Amenințarea rusă e numită „așa-zisă”."
-          },
-          {
-            "text": "„aderarea la zona euro este o pură nebunie sau o trădare de țară”",
-            "nota": "Poziție de politică economică, exprimată în scris."
-          },
-          {
-            "text": "„divorț facil, promiscuitatea, pornografia, promovarea deșănțată a LGBT… sunt tot atâtea căi de decadență culturală și degradare personală”",
-            "nota": "Util de pus lângă declarațiile publice de mai târziu, în care se prezintă drept tolerant."
-          },
-          {
-            "text": "„Roșia românească – cultivă această roșie în Germania! Pune-l pe neamț să o facă! Ei bine, nu poate, cu toată tehnologia lui, pentru că pământul țării noastre este cel mai roditor. De aceea este un pământ sfânt.”",
-            "nota": "Germania produce anual sute de mii de tone de roșii, majoritatea în sere."
-          },
-          {
-            "text": "„Țăranul român reprezintă gena autentică a civilizației mileniului actual. El reprezintă nu doar șansa redresării României, ci însăși speranța renașterii lumii occidentale…”",
-            "nota": "Din a doua carte, „Marea Renaștere. Ieșirea din Matrix” (2022)."
-          }
-        ],
-        "surse": [
-          {
-            "name": "HotNews — ce scria Georgescu în carte, la doi ani după anexarea Crimeei",
-            "url": "https://hotnews.ro/ce-scria-calin-georgescu-intr-o-carte-la-doi-ani-dupa-ce-putin-anexase-militar-o-parte-din-ucraina-e-o-imprejurare-fericita-ca-atat-poporul-roman-si-cel-rus-se-impartasesc-cu-apa-marelui-fl-1846737"
-          },
-          {
-            "name": "Scena9 — analiza celor două cărți, de Iulian Bocai",
-            "url": "https://www.scena9.ro/article/calin-georgescu-cumpana-romaniei-marea-renastere-iesirea-din-matrix-cronica"
-          }
-        ]
+     "k": "Născut",
+     "v": "26 martie 1962, București.",
+     "surse": [
+      {
+       "name": "HotNews — Cine este Călin Georgescu",
+       "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
       }
+     ]
     },
     {
-      "nume": "George Simion",
-      "rol": "Puiul cel mare",
-      "eticheta": "AUR · președinte al partidului",
-      "culoare": "#b8860b",
-      "sumar": "Cofondator și președinte al AUR, deputat. A pornit din activismul unionist cu Republica Moldova. Are interdicție de intrare în două țări vecine — un fapt confirmat oficial, deși motivul nu a fost făcut public.",
-      "cv": [
-        {
-          "k": "Născut",
-          "v": "21 septembrie 1986, Focșani, județul Vrancea.",
-          "surse": [
-            {
-              "name": "HotNews — Cine este George Simion",
-              "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
-            }
-          ]
-        },
-        {
-          "k": "Studii",
-          "v": "Colegiul Național „Gheorghe Lazăr” din București; Facultatea de Administrație și Afaceri a Universității din București; masterat la Universitatea „Alexandru Ioan Cuza” din Iași (2008–2010), pe crimele comunismului.",
-          "surse": [
-            {
-              "name": "HotNews — studii",
-              "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
-            }
-          ]
-        },
-        {
-          "k": "Traseu politic",
-          "v": "A devenit cunoscut public din 2009, prin activism unionist; a lansat platforma „Acțiune 2012”, pentru unirea cu Republica Moldova. A cofondat AUR în 2019, împreună cu Claudiu Târziu, după o candidatură nereușită ca independent la europarlamentare. În prezent este deputat și președinte al partidului.",
-          "surse": [
-            {
-              "name": "HotNews — traseu politic și fondarea AUR",
-              "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
-            }
-          ]
-        },
-        {
-          "k": "Scor la prezidențialele din 2024",
-          "v": "Locul 4, cu 13,86% — 1.281.325 de voturi.",
-          "surse": [
-            {
-              "name": "HotNews — rezultat 2024",
-              "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
-            }
-          ]
-        },
-        {
-          "k": "Interdicții de intrare",
-          "v": "Are interdicție de intrare în Republica Moldova și în Ucraina. Sursele diferă la dată: a fost declarat indezirabil și expulzat din R. Moldova în 2015, printr-o decizie a Biroului Migrație și Azil, iar Digi24 relatează o interdicție din 2018, prelungită până în 2028. Motivul oficial NU a fost făcut public — premierul de atunci a spus că a primit documentele justificative, dar că nu le poate divulga. Acuzația privind legături cu servicii de informații ruse este o <b>acuzație</b> vehiculată public, nu un fapt stabilit de vreo instanță.",
-          "surse": [
-            {
-              "name": "Digi24 — candidatul interzis în două țări vecine",
-              "url": "https://www.digi24.ro/alegeri-prezidentiale-2024/alegeri-prezidentiale-2024-george-simion-candidatul-controversat-interzis-in-doua-tari-vecine-3005883"
-            },
-            {
-              "name": "HotNews — profil și controverse",
-              "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
-            }
-          ]
-        }
-      ],
-      "afirmatii": [
-        {
-          "afirmatie": "„…nu am făcut vreo propunere că le dau case.”",
-          "unde": "6 mai 2025, Digi24 (min. 49:46)",
-          "dovezi": "Documentele publice arată opusul: pe planulsimion.ro se promovau apartamente la 35.000 de euro cu finanțare fără dobândă, AUR a cheltuit circa un milion de euro pe panouri cu textul „Case la doar 35.000 de euro pentru Români!”, iar mii de oameni au semnat contracte cu prețuri fixate (35.000 € pentru două camere, 50.000 € pentru trei, 70.000 € pentru patru), condiționate de câștigarea prezidențialelor. Există și filmări în care întreabă cetățenii „Vrei și tu un apartament?” în timp ce semnează contracte.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre promisiunea caselor",
-              "url": "https://www.factual.ro/declaratii/fals-george-simion-sustine-ca-nu-a-promis-case-pentru-romani/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„În spatele meu este barajul Vidraru care, ca toată România, a fost transformat într-o ruină!”",
-          "unde": "februarie 2026, videoclip de chemare la protest, pe Facebook",
-          "dovezi": "Barajul era intact. Golirea era o operațiune controlată, autorizată, parte dintr-un proiect de retehnologizare de 188 de milioane de euro — explicată public de Hidroelectrica, compania de stat care îl administrează, iar Ministerul Economiei a avertizat asupra dezinformării pe această temă. Există filmări din 2 februarie 2026 și fotografii din 8 februarie 2026 care arată structura neafectată.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre barajul Vidraru",
-              "url": "https://www.factual.ro/declaratii/fals-george-simion-spune-ca-barajul-vidraru-a-devenit-o-ruina/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„niciunul din top 10 multinaționale în România nu plătesc impozit pe profit”",
-          "unde": "18 februarie 2025, interviu „Starea Nației” pe YouTube (min. 37:18)",
-          "dovezi": "Potrivit datelor Ministerului Finanțelor, primele zece multinaționale din România — între care OMV Petrom, Dacia, Lidl, Kaufland, Rompetrol, Ford, Profi, Carrefour — au plătit împreună peste 4,4 miliarde de lei impozit pe profit în anul anterior. Sumele individuale merg de la zeci de milioane la miliarde de lei și sunt publice pe mfinante.gov.ro.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre impozitul multinaționalelor",
-              "url": "https://www.factual.ro/declaratii/fals-i-george-simion-despre-impozitul-platit-de-multinationale/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Noi suntem cam singurii din Europa care, de exemplu, nu recunoaștem Kosovo.”",
-          "unde": "7 mai 2025, pe canalul de YouTube Digi24HD (min. 54:30)",
-          "dovezi": "Nouă state europene nu recunosc independența Kosovo, nu doar România. Cinci sunt chiar din Uniunea Europeană: România, Cipru, Grecia, Slovacia și Spania. La ele se adaugă Serbia, Belarus, Bosnia și Herțegovina și Rusia. Poziția României e împărtășită de aproape un sfert din statele UE, deci nu e nici singulară, nici excentrică.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre recunoașterea Kosovo",
-              "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-recunoasterea-independentei-statului-kosovo/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Gata cu «campania», acum trebuie să oprim frauda imensă! Colegii mei sunt cu conducerea STS acum…”",
-          "unde": "16 mai 2025, pe Facebook, în ziua votului din diaspora",
-          "dovezi": "Au dezmințit, pe rând: Serviciul de Telecomunicații Speciale (sistemele au funcționat în parametri optimi, fără defecțiuni, iar STS nu avea personal în R. Moldova la acea dată), Autoritatea Electorală Permanentă (toate aplicațiile au funcționat normal), Ministerul de Interne, Ministerul de Externe și Guvernul. Purtătorul de cuvânt al diplomației de la Chișinău a cerut public actorilor politici să se abțină de la acuzații nesusținute. Nicio instituție nu a confirmat vreo fraudă.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea acuzației de fraudare a alegerilor",
-              "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-fraudarea-alegerilor-in-republica-moldova/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Avem cei mai puțini morți din interiorul Uniunii Europene” — despre bilanțul pandemiei de COVID-19 în România.",
-          "unde": "13 iunie 2025, într-un video distribuit de Robert Malone pe X",
-          "dovezi": "România nu a avut cel mai mic număr de decese din UE în niciun an, din 2020 până în 2025. Din 2022 a coborât sub media europeană, dar Bulgaria, Ungaria, Malta și Slovacia au raportat constant mai puține. „Sub medie” și „cei mai puțini” sunt două lucruri diferite.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre decesele COVID-19",
-              "url": "https://www.factual.ro/declaratii/fals-i-george-simion-despre-pandemia-de-covid-19/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "Că vânzarea acțiunilor la companiile de stat s-ar face prin metoda ABB, „care e deloc transparentă”, spre deosebire de IPO.",
-          "unde": "4 mai 2026, Europa FM, emisiunea „România în direct” (min. 44:10)",
-          "dovezi": "Nota de fundamentare a Guvernului propune mai multe metode, nu doar ABB. Prin ABB sunt vizate doar Hidroelectrica și Romgaz; CEC Bank, CN APM Constanța și Salrom merg pe listare IPO. Iar ABB nu e o metodă netransparentă: informația se pune la dispoziția investitorilor interesați, cu discount anunțat, doar că tranzacția se închide în 24–48 de ore în loc să dureze săptămâni. E o metodă rapidă, nu una ascunsă.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre privatizarea companiilor de stat",
-              "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-privatizarea-companiilor-de-stat/"
-            }
-          ]
-        }
-      ]
+     "k": "Studii",
+     "v": "Facultatea de Îmbunătățiri Funciare, Institutul Agronomic „Nicolae Bălcescu” din București (azi Universitatea de Științe Agronomice și Medicină Veterinară), absolvită în 1986. Doctor în pedologie la aceeași universitate, în 1999. A urmat și programul postuniversitar „Securitate și apărare națională — geopolitică și geostrategie” la Colegiul Național de Apărare „Carol I”.",
+     "surse": [
+      {
+       "name": "HotNews — studii și doctorat",
+       "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
+      }
+     ]
     },
     {
-      "nume": "Claudiu Târziu",
-      "rol": "Pui",
-      "eticheta": "AUR · cofondator",
-      "culoare": "#a5872e",
-      "sumar": "Cofondator al AUR, alături de George Simion. Fișa completă e în lucru — publicăm doar ce am verificat.",
-      "cv": [
-        {
-          "k": "Rol în partid",
-          "v": "A cofondat AUR în 2019, împreună cu George Simion. În februarie 2021 a fost unul dintre cei care au decis retragerea sprijinului politic pentru senatoarea Diana Șoșoacă.",
-          "surse": [
-            {
-              "name": "HotNews — AUR, cofondat de Simion și Târziu",
-              "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
-            },
-            {
-              "name": "G4Media — precizarea AUR privind situația Dianei Șoșoacă",
-              "url": "https://www.g4media.ro/aur-revine-cu-o-precizare-sosoaca-a-fost-exclusa-din-grupul-senatorial-din-partid-n-a-facut-parte-claudiu-tarziu-am-descoperit-ca-nu-avea-semnata-adeziunea-formala.html"
-            }
-          ]
-        }
-      ],
-      "afirmatii": [
-        {
-          "afirmatie": "Că Ministerul Mediului ar avea „intenția de a băga oamenii la închisoare pentru că își sapă o fântână”, cu pedepse de până la zece ani.",
-          "unde": "28 iulie 2026, pe Facebook și X, reacționând la un proiect de lege pus în transparență pe 14 iulie",
-          "dovezi": "Proiectul transpune o directivă europeană privind infracțiunile de mediu și prevede sancțiuni gradate pentru captările ilegale de apă la scară mare — pedeapsa depinde de gravitatea prejudiciului. Administrația Națională „Apele Române” a confirmat că folosirea apei din fântână pentru nevoi proprii nu cere autorizație, nu se plătește și nu atrage amenzi sau pedepse penale. Consiliul Național al Audiovizualului a dispus pe 28 iulie 2026 eliminarea a 35 de materiale care răspândeau informația falsă (33 pe TikTok, unul pe Facebook, unul pe X), între care și postările lui. El s-a apărat spunând că a fost o poziție politică pe documente publice, nu o invenție.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Verificarea noastră — ce spune de fapt proiectul Ministerului Mediului",
-              "url": "https://farabaliverne.ro/a/fantana-zece-ani-inchisoare.html"
-            },
-            {
-              "name": "Adevărul — CNA a dispus eliminarea materialelor cu informația falsă despre fântâni",
-              "url": "https://adevarul.ro/stiri-interne/evenimente/cna-il-vizeaza-pe-claudiu-tarziu-dupa-2546299.html"
-            }
-          ]
-        }
-      ]
+     "k": "Funcții publice în România",
+     "v": "Șef al biroului senatorial pentru mediu din Parlamentul României (1991); consilier la Ministerul Mediului (1992); secretar general al Ministerului Mediului (1997–1998); director în Ministerul Afacerilor Externe (2004–2005).",
+     "surse": [
+      {
+       "name": "HotNews — funcții publice deținute",
+       "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
+      }
+     ]
     },
     {
-      "nume": "Diana Șoșoacă",
-      "rol": "Puiul plecat din cuib",
-      "eticheta": "SOS România · a intrat în Parlament pe listele AUR",
-      "culoare": "#8f6b3d",
-      "sumar": "A ajuns senatoare în decembrie 2020 pe listele AUR, iar în februarie 2021 a fost scoasă din grupul senatorial. Nuanță pe care o notăm fiindcă e reală: AUR a precizat ulterior că nu a fost exclusă din partid, pentru că nu semnase adeziunea — a fost o retragere a sprijinului politic.",
-      "cv": [
-        {
-          "k": "Cum a intrat în Parlament",
-          "v": "Aleasă senatoare de Iași în decembrie 2020, pe listele AUR.",
-          "surse": [
-            {
-              "name": "Europa Liberă — senatoarea Diana Șoșoacă, exclusă din AUR",
-              "url": "https://romania.europalibera.org/a/senatoarea-diana-%C5%9Fo%C5%9Foac%C4%83-exclus%C4%83-din-aur/31096293.html"
-            }
-          ]
-        },
-        {
-          "k": "Ruptura de AUR",
-          "v": "În februarie 2021 a fost scoasă din grupul senatorial AUR, decizia fiind luată de Claudiu Târziu și Sorin Lavric, invocându-se indisciplina. AUR a revenit ulterior cu precizarea că nu putea fi exclusă din partid, întrucât nu avea adeziunea semnată — deci a fost vorba de retragerea sprijinului politic.",
-          "surse": [
-            {
-              "name": "G4Media — exclusă din grupul senatorial de Târziu și Lavric",
-              "url": "https://www.g4media.ro/senatoarea-diana-sosoaca-a-fost-exclusa-din-partidul-aur-de-catre-claudiu-tarziu-si-sorin-lavric-deputatul-dan-tanasa-e-o-decizie-luata-la-capatul-unui-lung-sir-de-intamplari-in-care-a-transmis-ca.html"
-            },
-            {
-              "name": "G4Media — precizarea AUR: nu avea adeziunea semnată",
-              "url": "https://www.g4media.ro/aur-revine-cu-o-precizare-sosoaca-a-fost-exclusa-din-grupul-senatorial-din-partid-n-a-facut-parte-claudiu-tarziu-am-descoperit-ca-nu-avea-semnata-adeziunea-formala.html"
-            },
-            {
-              "name": "Mediafax — motivul invocat: indisciplină",
-              "url": "https://www.mediafax.ro/politic/diana-sosoaca-a-fost-exclusa-din-partidul-aur-din-motive-de-indisciplina-aur-transmite-ca-l-au-exclus-si-pe-deputatul-mihai-lasca-19912822"
-            }
-          ]
-        }
-      ],
-      "afirmatii": [
-        {
-          "afirmatie": "„În Ucraina avem peste un milion de români. Nu au voie să vorbească în limba română…” — și că nu s-ar putea ruga ori practica ortodoxia în limba lor.",
-          "unde": "22 octombrie 2025, în timpul unei vizite în Rusia, ca invitată a asociației „Prietenii Rusiei”",
-          "dovezi": "Cifra e greșită de aproape șapte ori: în Ucraina trăiesc circa 151.000 de români, plus 258.600 de persoane care s-au declarat moldoveni. Învățământul în română nu e interzis — în 2024 se preda în 57 de școli, pentru 12.383 de elevi. Numărul a scăzut față de aproximativ 75 de școli în 2017, deci există o problemă reală de discutat; dar „nu au voie” descrie altceva decât ce se întâmplă. Cât despre rugăciune: Ucraina a interzis organizațiile afiliate bisericii ruse, în contextul agresiunii militare, nu practicarea ortodoxiei în limba română.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre românii din Ucraina",
-              "url": "https://www.factual.ro/declaratii/fals-diana-sosoaca-sustine-ca-romanii-din-ucraina-nu-pot-sa-invete-sau-sa-se-roage-in-limba-lor/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„Suntem singurul stat din lume care și-a plătit vreodată datoria.”",
-          "unde": "10 septembrie 2025, Metropola TV (min. 24:03), într-o discuție despre moștenirea lui Ceaușescu",
-          "dovezi": "Rusia și-a achitat integral datoria externă către Clubul de la Paris în august 2006 — circa 23,7 miliarde de dolari, cu patru ani înainte de termen, economisind peste 12 miliarde din dobânzi. Norvegia stă și mai bine: are active externe nete de peste 1.600 de miliarde de dolari prin fondul suveran, deci problema nici nu se pune. Iar în cazul României, datoria a fost stinsă până în 1989 prin austeritate și epuizarea rezervei de aur, cu un cost uriaș pentru populație.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea afirmației despre plata datoriei externe",
-              "url": "https://www.factual.ro/declaratii/fals-sosoaca-despre-plata-datoriei-externe/"
-            }
-          ]
-        },
-        {
-          "afirmatie": "„fraudă pe bani europeni din despăgubirile pentru uciderea oilor, care nu a fost cerută de UE!”",
-          "unde": "17 și 23 septembrie 2024, pe Facebook",
-          "dovezi": "Pesta micilor rumegătoare e recunoscută oficial în Regulamentul UE 429/2016, în anexa II, ca boală care cere măsuri de control și eradicare. Uciderea animalelor urmează proceduri legale (Regulamentul 1099/2009 și manualul operațional al României). Iar despăgubirile NU vin din bani europeni: se plătesc din bugetul de stat, prin Ministerul Agriculturii — deci acuzația de fraudă pe fonduri UE se sprijină pe o premisă care nu există.",
-          "unde_bat": "Contrazis",
-          "surse": [
-            {
-              "name": "Factual.ro — verificarea acuzației privind despăgubirile pentru pesta ovină",
-              "url": "https://www.factual.ro/declaratii/fals-diana-sosoaca-acuza-o-presupusa-frauda-pe-bani-europeni-pentru-pesta-ovina/"
-            }
-          ]
-        }
-      ]
+     "k": "ONU",
+     "v": "Raportor special al ONU pentru efectele traficului și depozitării ilicite de produse și deșeuri toxice asupra drepturilor omului (2010–2012) și consilier special al directorului general al ONU-Geneva (2015–2016). Sunt funcții reale, dar de expertiză și mandat limitat — nu funcții de conducere ale ONU.",
+     "surse": [
+      {
+       "name": "HotNews — rolurile la ONU",
+       "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
+      }
+     ]
+    },
+    {
+     "k": "Activitate academică",
+     "v": "Cadru didactic asociat la Universitatea Națională de Știință și Tehnologie Politehnica București — Centrul universitar Pitești (din 2021), cu funcția de lector din 2024.",
+     "surse": [
+      {
+       "name": "HotNews — poziția academică",
+       "url": "https://alegeri.hotnews.ro/cine-este-calin-georgescu/"
+      }
+     ]
+    },
+    {
+     "k": "Relația cu AUR, în trei acte",
+     "v": "<b>2020</b> — AUR îl propune premier, după alegerile parlamentare; George Simion îl recomandă drept „cinstit, patriot și bun profesionist”. <b>Ianuarie 2022</b> — după ce elogiază la televizor figuri legionare, conducerea AUR se delimitează public: Claudiu Târziu spune că „nu poți să lași niciun dubiu legat de episoadele negre din istoria României”, iar Simion declară „vreau să mă delimitez… nu am fost niciodată fan al Legiunii”. <b>2024</b> — în seara alegerilor, după ce Simion iese pe locul 4, AUR anunță că îl susține pe Georgescu, ca parte a „polului suveranist”. Aceleași fapte, trei poziții diferite în patru ani.",
+     "surse": [
+      {
+       "name": "Digi24 — AUR îl susține pe Georgescu, deși în urmă cu doi ani se delimita de el",
+       "url": "https://www.digi24.ro/alegeri-prezidentiale-2024/aur-il-sustine-pe-calin-georgescu-desi-in-urma-cu-doi-ani-se-delimita-de-el-dupa-ce-a-facut-propaganda-legionara-3021853"
+      },
+      {
+       "name": "Mediafax — Simion: Călin Georgescu este propunerea AUR pentru funcția de prim-ministru",
+       "url": "https://www.mediafax.ro/politic/george-simion-calin-georgescu-este-propunerea-aur-pentru-functia-de-prim-ministru-19782321"
+      },
+      {
+       "name": "Verificarea noastră — elogiul adus legionarilor",
+       "url": "https://farabaliverne.ro/a/georgescu-legionari-elogiu.html"
+      }
+     ]
+    },
+    {
+     "k": "Situația juridică",
+     "v": "Este trimis în judecată, potrivit acuzării, pentru complicitate la tentativă de acțiuni împotriva ordinii constituționale și comunicare de informații false, în dosarul care îl vizează și pe Horațiu Potra. Pe 6 august 2026, ÎCCJ a respins contestațiile și a deschis calea judecății pe fond. Camera preliminară verifică legalitatea trimiterii în judecată, NU vinovăția. <b>Beneficiază de prezumția de nevinovăție</b> până la o hotărâre definitivă.",
+     "surse": [
+      {
+       "name": "Verificarea noastră — ÎCCJ a respins contestațiile, procesul pe fond poate începe",
+       "url": "https://farabaliverne.ro/a/georgescu-iccj-proces-fond.html"
+      },
+      {
+       "name": "Digi24 — decizia instanței supreme în dosarul privind tentativa de lovitură de stat",
+       "url": "https://www.digi24.ro/stiri/actualitate/justitie/incepe-sau-nu-procesul-lui-calin-georgescu-instanta-suprema-urmeaza-sa-ia-o-decizie-in-dosarul-privind-tentativa-de-lovitura-de-stat-3895225"
+      }
+     ]
     }
-  ]
+   ],
+   "afirmatii": [
+    {
+     "afirmatie": "Că în băuturile răcoritoare s-ar afla nanocipuri.",
+     "unde": "declarații publice preluate pe larg în presă și pe rețele",
+     "dovezi": "Ideea pică nu la cip, ci la <b>antenă</b> — și asta e partea pe care n-o spune nimeni.\n\nCel mai mic cip RFID din lume e al companiei Hitachi. Modelul anunțat oficial în 2006 măsoară 0,15 × 0,15 milimetri și e gros de 7,5 micrometri; ulterior s-a ajuns la 0,05 × 0,05 mm. Deci un cip aproape invizibil chiar există. Numai că nu poate face nimic singur: e un cip PASIV, fără baterie. Ca să funcționeze, primește unde radio de 2,45 GHz <b>printr-o antenă externă</b>, le transformă în energie și abia apoi își transmite numărul de identificare de 128 de biți. Fără antenă e o bucată de siliciu moartă.\n\nIar antena nu poate fi micșorată la fel: dimensiunea ei e impusă de lungimea de undă, nu de priceperea inginerilor. Cea mai mică antenă practică e de ordinul a patru milimetri — de circa optzeci de ori mai mare decât cipul-record. Presa de specialitate a scris exact asta: cipul de dimensiunea prafului a rămas fără o antenă pe măsura lui, iar raza de citire coboară la câțiva milimetri.\n\nCe înseamnă asta pentru un cip într-o băutură: chiar dacă l-ai băga acolo, ar trebui să care cu el o antenă de optzeci de ori mai mare — vizibilă cu ochiul liber în pahar — iar cititorul ar trebui să stea lipit de tine, la câțiva milimetri, ca să scoată din el un simplu număr de serie. Nu locație, nu gânduri, nu control: un număr, scris o singură dată la fabricație și nemodificabil.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Hitachi — comunicat oficial: cip RFID de 0,15 × 0,15 mm, alimentat printr-o antenă externă",
+       "url": "https://www.hitachi.com/New/cnews/060206.html"
+      },
+      {
+       "name": "RFID Journal — cipul-record și problema antenei",
+       "url": "https://www.rfidjournal.com/news/hitachi-unveils-smallest-rfid-chip/78186/"
+      },
+      {
+       "name": "Verificarea noastră — nanocipuri în sucuri",
+       "url": "https://farabaliverne.ro/a/georgescu-nanocipuri-sucuri.html"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Că apa nu este H₂O, ci „informație, vibrație, frecvență”, și că are memorie.",
+     "unde": "declarații publice, televiziune și rețele sociale",
+     "dovezi": "Apa <b>este</b> H₂O — asta nu se dispută nicăieri în chimie. Ce se discută e dacă poate ține minte ceva. Și aici există un răspuns măsurat, nu o părere.\n\nMoleculele de apă se leagă între ele prin punți de hidrogen, care se rup și se refac încontinuu. Rețelele ordonate care se formează în apa lichidă durează <b>o fracțiune de nanosecundă</b> — ordinul picosecundelor, adică miimi de miliardime de secundă. Ca să păstrezi o informație, îți trebuie o structură care rămâne. Aici structura se destramă de un miliard de ori înainte să apuci să clipești. Nu există suport fizic pentru memorie, cum nu poți scrie pe apă cu degetul.\n\nIdeea are și o istorie precisă. În iunie 1988, imunologul francez Jacques Benveniste a publicat în revista <i>Nature</i> un studiu care susținea că diluții extreme de anticorpi, în care nu mai rămăsese nicio moleculă din substanța inițială, produc totuși efecte biologice. <i>Nature</i> a publicat articolul însoțit de o notă a redacției, lucru neobișnuit, în care scria că nu există niciun temei fizic pentru o asemenea activitate. La o săptămână după publicare, revista a trimis o echipă în laboratorul lui: John Maddox, redactorul-șef, chimistul Walter Stewart și iluzionistul James Randi. Au făcut șapte încercări de replicare. Primele trei, nerandomizate, au dat rezultate favorabile. Când Randi a impus procedura dublu-orb, cu probe sigilate și amestecate, rezultatele au devenit negative. Concluzia echipei: efectul venea dintr-o părtinire neintenționată a celor care citeau probele. Finanțarea lui Benveniste a fost retrasă, iar replicările independente de după nu au confirmat rezultatele.\n\nDeci nu e o descoperire nouă pe care o ascunde cineva. E o ipoteză veche de aproape patruzeci de ani, testată public, care a picat la prima probă făcută pe nevăzute.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Wikipedia — Afacerea Benveniste: publicarea în Nature, ancheta, replicarea dublu-orb",
+       "url": "https://en.wikipedia.org/wiki/Benveniste_affair"
+      },
+      {
+       "name": "Verificarea noastră — apa structurată",
+       "url": "https://farabaliverne.ro/a/georgescu-apa-structurata.html"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Elogiul adus unor figuri legionare.",
+     "unde": "emisiune de televiziune, ianuarie 2022",
+     "dovezi": "Chiar conducerea AUR s-a delimitat public atunci — vezi cronologia din fișa de mai sus.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Verificarea noastră — elogiul adus legionarilor",
+       "url": "https://farabaliverne.ro/a/georgescu-legionari-elogiu.html"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Ei au anulat alegerile din disperare… și au făcut-o împreună cu colegi externi, respectiv Comisia Europeană! Lucru dovedit de raportul Comisiei Juridice al Congresului SUA…”",
+     "unde": "13 februarie 2026, declarație publică în fața Curții de Apel București",
+     "dovezi": "Raportul invocat a fost citit, cu tot cu anexe. Nu conține nicio dovadă de implicare a Comisiei Europene în anularea alegerilor. Comisia apare doar ca organizator de întâlniri cu platformele de socializare pe tema protejării alegerilor, iar anularea e menționată o singură dată în mii de pagini — într-un citat dintr-o teorie de pe TikTok despre George Soros, nu într-o constatare a raportului.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre implicarea Comisiei Europene",
+       "url": "https://www.factual.ro/declaratii/fals-calin-georgescu-despre-implicarea-comisiei-europene-in-anularea-alegerilor-prezidentiale-din-2024/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Nu sunt împotriva avortului; fiecare are dreptul să decidă.”",
+     "unde": "dezbatere la Realitatea Plus (min. 21:02)",
+     "dovezi": "În propria carte din 2014, „Cumpăna României”, la pagina 54, scrie că avorturile ar trebui interzise. Nu e vorba de interpretare: e textul lui, publicat sub numele lui.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmațiilor despre avort, Green Deal și datoria țării",
+       "url": "https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Că peste 65% dintre produsele lactate consumate în România ar fi din import.",
+     "unde": "Realitatea Plus, 4 decembrie (min. 1:10:49)",
+     "dovezi": "Datele Institutului Național de Statistică pentru 2022: producție internă 5,3 milioane de tone, import 1,3 milioane de tone — adică 21,54% din lactatele disponibile erau importate, iar gradul de autosuficiență era de 84,9%. Cifra reală e de circa trei ori mai mică decât cea afirmată.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre importul de lactate",
+       "url": "https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Că peste 900.000 de persoane cu dizabilități nu au putut vota, fiindcă „nu există condiții”.",
+     "unde": "Realitatea Plus, 4 decembrie (min. 24:03)",
+     "dovezi": "Urna mobilă există și e prevăzută de legislația electorală. A fost folosită de 97.660 de alegători la prezidențialele din 24 noiembrie și de 109.205 la parlamentarele din 1 decembrie.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre votul persoanelor cu dizabilități",
+       "url": "https://www.factual.ro/declaratii/calin-georgescu-de-la-avort-si-green-deal-pana-la-datoria-tarii/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Chinezii au cumpărat porturile din Bolivia.”",
+     "unde": "30 ianuarie 2025, podcastul lui Ion Cristoiu",
+     "dovezi": "Bolivia nu are ieșire la mare, iar povestea e una dintre cele mai cunoscute din America de Sud. În 1879, Chile a ocupat portul Antofagasta pornind de la un diferend fiscal — așa a început Războiul Pacificului. În patru ani, Chile luase circa 130.000 km² de teritoriu bolivian, inclusiv toți cei aproximativ 400 de kilometri de coastă la Pacific. Pierderea a fost consfințită prin Tratatul de pace din 1904, al cărui articol II recunoaște teritoriul drept al Chile „absolut și pe veci”, Bolivia primind în schimb acces comercial la porturile chiliene. Bolivia n-a renunțat: a dat Chile în judecată la Curtea Internațională de Justiție, iar pe 1 octombrie 2018 Curtea a decis, cu 12 voturi la 3, că statul chilian NU are obligația legală de a negocia un acces suveran la ocean. Astăzi, singurele ambarcațiuni ale țării patrulează lacul Titicaca. Deci nu doar că nu există porturi maritime boliviene pe care chinezii să le cumpere — inexistența lor e subiectul unui proces internațional încheiat acum opt ani. Gazda emisiunii nu a corectat afirmația.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Aktual24 — afirmația despre porturile din Bolivia, la emisiunea lui Ion Cristoiu",
+       "url": "https://www.aktual24.ro/sa-radem-cu-calin-georgescu-chinezii-au-cumparat-porturile-din-bolivia-a-afirmat-candidatul-pro-rus-la-emisiunea-lui-ion-cristoiu-in-realitate-bolivia-nu-are-iesire-la-mare/"
+      },
+      {
+       "name": "CIJ — hotărârea din 1 octombrie 2018, Bolivia c. Chile",
+       "url": "https://www.worldcourts.com/icj/eng/decisions/2018.10.01_Bolivia_v_Chile.pdf"
+      },
+      {
+       "name": "Al Jazeera — Curtea: Chile nu e obligată să negocieze accesul la mare",
+       "url": "https://www.aljazeera.com/news/2018/10/1/chile-not-obliged-to-negotiate-sea-access-with-bolivia-icj"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Lucian Blaga este unul din principalii interziși în România” — și că Blaga și Eminescu nu s-ar preda în școli.",
+     "unde": "videoclip pe TikTok, noiembrie 2024, cu peste 304.000 de vizualizări, publicat cu câteva zile înainte de alegeri",
+     "dovezi": "Amândoi sunt autori canonici. Blaga se studiază din clasa a VIII-a și e în programa de liceu la literatura interbelică și modernistă, iar la Bacalaureat figurează printre autorii canonici pentru proba de Limba și literatura română. Eminescu e parte integrantă a programei de gimnaziu și liceu. Nu e vorba de o nuanță: sunt în manuale și în programa de examen.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "G4Media — afirmațiile despre educație propagate pe TikTok",
+       "url": "https://www.g4media.ro/minciunile-propagate-de-calin-georgescu-pe-tiktok-referitoare-la-educatie-lucian-blaga-si-mihai-eminescu-nu-s-ar-preda-in-scoli-elevii-nu-ar-invata-istorie-si-geografie-la-liceu-despre-medicina.html"
+      },
+      {
+       "name": "Observator — „Blaga și Eminescu nu se studiază în școli”",
+       "url": "https://observatornews.ro/alegeri-prezidentiale-2024/calin-georgescu-sustine-ca-blaga-si-eminescu-nu-se-studiaza-in-scoli-unii-din-principalii-interzisi-in-romania-601191.html"
+      },
+      {
+       "name": "Adevărul — doi profesori demontează mesajele despre educație",
+       "url": "https://adevarul.ro/stiri-interne/educatie/calin-georgescu-file-din-realitate-doi-profesori-2404479.html"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Nu produc eolienele energie, eolienele sunt la nivel de 0,01%.”",
+     "unde": "declarație publică, inclusă în lista de declarații controversate strânsă de Observator",
+     "dovezi": "În 2023, energia eoliană a fost a treia sursă din structura producției de energie electrică a României, cu o pondere de 15,4%. În februarie 2024, puterea instalată în centrale eoliene era de 3.026,91 MW, adică circa 17% din puterea totală instalată a țării. Cifra afirmată e de peste o mie de ori mai mică decât cea reală.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Observator — 430 de declarații controversate (citatul despre eoliene)",
+       "url": "https://observatornews.ro/alegeri-prezidentiale-2024/430-de-declaratii-controversate-ale-lui-calin-georgescu-romania-este-o-poarta-intre-dimensiunifiecare-izvor-din-romania-o-sursa-de-lumina-cosmica-601617.html"
+      },
+      {
+       "name": "Wikipedia — Energia eoliană în România (putere instalată și pondere)",
+       "url": "https://ro.wikipedia.org/wiki/Energia_eolian%C4%83_%C3%AEn_Rom%C3%A2nia"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Avem aurul monoatomic. Avem toate metalele rare, posibile și imposibile” — și că acest aur „nici nu există pe tabloul lui Mendeleev”.",
+     "unde": "declarații publice, preluate de mai multe redacții",
+     "dovezi": "Sunt trei lucruri greșite într-o singură frază. Întâi, e un tabel periodic, nu un tablou — Mendeleev era chimist, nu pictor, cum a observat cercetătorul Claudiu Tănăselia de la Cluj. Al doilea, „aurul monoatomic” nu e un element și nu e o formă de aur recunoscută de chimie: e un concept ezoteric popularizat de David Hudson în anii 1970–80, legat de alchimie și de promisiuni de longevitate și „regenerare a ADN-ului”. Al treilea, și cel mai important: dacă s-a vrut spus „monoizotopic”, atunci afirmația se autodesființează. Aurul are un singur izotop stabil, aur-197 — adică TOT aurul din univers e monoizotopic. Nu e nimic special în pământul României; e chimie de manual.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "G4Media — reacția cercetătorului Claudiu Tănăselia la „aurul monoatomic”",
+       "url": "https://www.g4media.ro/reactia-unui-cercetator-la-aurul-monoatomic-al-lui-calin-georgescu-poate-e-ceva-specie-de-aur-folosita-de-daci-poate-a-vrut-sa-zica-aur-monoizotopic.html"
+      },
+      {
+       "name": "G4Media — afirmațiile despre aurul monoatomic și tabloul lui Mendeleev",
+       "url": "https://www.g4media.ro/calin-georgescu-noi-teorii-ale-conspiratiei-romania-are-aurul-monoatomic-nici-nu-exista-pe-tabloul-lui-mendeleev-sunt-doar-un-miliard-de-vaci-in-lume-nu-ai-cum-sa-gasesti-in-magazine-cantitatea.html"
+      },
+      {
+       "name": "Aktual24 — ce este „aurul monoatomic”, concept mistic fără bază științifică",
+       "url": "https://www.aktual24.ro/teoriile-lui-georgescu-ce-este-aurul-monoatomic-care-s-ar-afla-in-pamanturile-romaniei-concept-mistic-care-contravine-valorilor-crestine/"
+      }
+     ]
+    }
+   ],
+   "credinte": [
+    {
+     "text": "„România este o poartă între dimensiuni.” · „Fiecare izvor din România este o sursă de lumină cosmică.” · „Carpații sunt coloanele de lumină care susțin echilibrul energetic al întregii planete.” — Astea NU le notăm ca infirmate. Nu se pot proba și nu se pot infirma; sunt convingeri, iar noi nu ratăm convingerile. Le arătăm ca să vezi singur ce fel de discurs e, dar linia dintre credință și afirmație verificabilă rămâne trasă. Sursa: lista Observator cu 430 de declarații."
+    }
+   ],
+   "carte": {
+    "titlu": "„Cumpăna României”",
+    "detalii": "Editura Christiana · ediția a II-a, 2016 · ISBN 978-973-1913-87-2. O carte scrisă de el, publicată sub numele lui — deci nu „i s-a atribuit”, nu „a fost scos din context”. Poate fi găsită în librării și verificată de oricine.",
+    "catalog": {
+     "name": "Fișa de catalog a cărții (LibrăriaOnline)",
+     "url": "https://www.librariaonline.ro/stiinte_umaniste/stiinte_politice/cumpana_romaniei_calin_georgescu-georgescu_calin-logos-p10077791"
+    },
+    "citate": [
+     {
+      "text": "„E o împrejurare fericită că atât poporul român și cel rus se împărtășesc cu apa marelui fluviu al spiritualității creștin-ortodoxe.”",
+      "nota": "Scris în ediția din 2016 — la doi ani după ce Rusia anexase militar Crimeea."
+     },
+     {
+      "text": "„oficialii români au reacționat violent și obedient, la nivel retoric, în fața unei așa-zise amenințări rusești iminente”",
+      "nota": "Din capitolul „Criza ucraineană”. Amenințarea rusă e numită „așa-zisă”."
+     },
+     {
+      "text": "„aderarea la zona euro este o pură nebunie sau o trădare de țară”",
+      "nota": "Poziție de politică economică, exprimată în scris."
+     },
+     {
+      "text": "„divorț facil, promiscuitatea, pornografia, promovarea deșănțată a LGBT… sunt tot atâtea căi de decadență culturală și degradare personală”",
+      "nota": "Util de pus lângă declarațiile publice de mai târziu, în care se prezintă drept tolerant."
+     },
+     {
+      "text": "„Roșia românească – cultivă această roșie în Germania! Pune-l pe neamț să o facă! Ei bine, nu poate, cu toată tehnologia lui, pentru că pământul țării noastre este cel mai roditor. De aceea este un pământ sfânt.”",
+      "nota": "Germania produce anual sute de mii de tone de roșii, majoritatea în sere."
+     },
+     {
+      "text": "„Țăranul român reprezintă gena autentică a civilizației mileniului actual. El reprezintă nu doar șansa redresării României, ci însăși speranța renașterii lumii occidentale…”",
+      "nota": "Din a doua carte, „Marea Renaștere. Ieșirea din Matrix” (2022)."
+     }
+    ],
+    "surse": [
+     {
+      "name": "HotNews — ce scria Georgescu în carte, la doi ani după anexarea Crimeei",
+      "url": "https://hotnews.ro/ce-scria-calin-georgescu-intr-o-carte-la-doi-ani-dupa-ce-putin-anexase-militar-o-parte-din-ucraina-e-o-imprejurare-fericita-ca-atat-poporul-roman-si-cel-rus-se-impartasesc-cu-apa-marelui-fl-1846737"
+     },
+     {
+      "name": "Scena9 — analiza celor două cărți, de Iulian Bocai",
+      "url": "https://www.scena9.ro/article/calin-georgescu-cumpana-romaniei-marea-renastere-iesirea-din-matrix-cronica"
+     }
+    ]
+   }
+  },
+  {
+   "nume": "George Simion",
+   "rol": "Puiul cel mare",
+   "eticheta": "AUR · președinte al partidului",
+   "culoare": "#b8860b",
+   "sumar": "Cofondator și președinte al AUR, deputat. A pornit din activismul unionist cu Republica Moldova. Are interdicție de intrare în două țări vecine — un fapt confirmat oficial, deși motivul nu a fost făcut public.",
+   "cv": [
+    {
+     "k": "Născut",
+     "v": "21 septembrie 1986, Focșani, județul Vrancea.",
+     "surse": [
+      {
+       "name": "HotNews — Cine este George Simion",
+       "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
+      }
+     ]
+    },
+    {
+     "k": "Studii",
+     "v": "Colegiul Național „Gheorghe Lazăr” din București; Facultatea de Administrație și Afaceri a Universității din București; masterat la Universitatea „Alexandru Ioan Cuza” din Iași (2008–2010), pe crimele comunismului.",
+     "surse": [
+      {
+       "name": "HotNews — studii",
+       "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
+      }
+     ]
+    },
+    {
+     "k": "Traseu politic",
+     "v": "A devenit cunoscut public din 2009, prin activism unionist; a lansat platforma „Acțiune 2012”, pentru unirea cu Republica Moldova. A cofondat AUR în 2019, împreună cu Claudiu Târziu, după o candidatură nereușită ca independent la europarlamentare. În prezent este deputat și președinte al partidului.",
+     "surse": [
+      {
+       "name": "HotNews — traseu politic și fondarea AUR",
+       "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
+      }
+     ]
+    },
+    {
+     "k": "Scor la prezidențialele din 2024",
+     "v": "Locul 4, cu 13,86% — 1.281.325 de voturi.",
+     "surse": [
+      {
+       "name": "HotNews — rezultat 2024",
+       "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
+      }
+     ]
+    },
+    {
+     "k": "Interdicții de intrare",
+     "v": "Are interdicție de intrare în Republica Moldova și în Ucraina. Sursele diferă la dată: a fost declarat indezirabil și expulzat din R. Moldova în 2015, printr-o decizie a Biroului Migrație și Azil, iar Digi24 relatează o interdicție din 2018, prelungită până în 2028. Motivul oficial NU a fost făcut public — premierul de atunci a spus că a primit documentele justificative, dar că nu le poate divulga. Acuzația privind legături cu servicii de informații ruse este o <b>acuzație</b> vehiculată public, nu un fapt stabilit de vreo instanță.",
+     "surse": [
+      {
+       "name": "Digi24 — candidatul interzis în două țări vecine",
+       "url": "https://www.digi24.ro/alegeri-prezidentiale-2024/alegeri-prezidentiale-2024-george-simion-candidatul-controversat-interzis-in-doua-tari-vecine-3005883"
+      },
+      {
+       "name": "HotNews — profil și controverse",
+       "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
+      }
+     ]
+    }
+   ],
+   "afirmatii": [
+    {
+     "afirmatie": "„…nu am făcut vreo propunere că le dau case.”",
+     "unde": "6 mai 2025, Digi24 (min. 49:46)",
+     "dovezi": "Documentele publice arată opusul: pe planulsimion.ro se promovau apartamente la 35.000 de euro cu finanțare fără dobândă, AUR a cheltuit circa un milion de euro pe panouri cu textul „Case la doar 35.000 de euro pentru Români!”, iar mii de oameni au semnat contracte cu prețuri fixate (35.000 € pentru două camere, 50.000 € pentru trei, 70.000 € pentru patru), condiționate de câștigarea prezidențialelor. Există și filmări în care întreabă cetățenii „Vrei și tu un apartament?” în timp ce semnează contracte.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre promisiunea caselor",
+       "url": "https://www.factual.ro/declaratii/fals-george-simion-sustine-ca-nu-a-promis-case-pentru-romani/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„În spatele meu este barajul Vidraru care, ca toată România, a fost transformat într-o ruină!”",
+     "unde": "februarie 2026, videoclip de chemare la protest, pe Facebook",
+     "dovezi": "Barajul era intact. Golirea era o operațiune controlată, autorizată, parte dintr-un proiect de retehnologizare de 188 de milioane de euro — explicată public de Hidroelectrica, compania de stat care îl administrează, iar Ministerul Economiei a avertizat asupra dezinformării pe această temă. Există filmări din 2 februarie 2026 și fotografii din 8 februarie 2026 care arată structura neafectată.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre barajul Vidraru",
+       "url": "https://www.factual.ro/declaratii/fals-george-simion-spune-ca-barajul-vidraru-a-devenit-o-ruina/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„niciunul din top 10 multinaționale în România nu plătesc impozit pe profit”",
+     "unde": "18 februarie 2025, interviu „Starea Nației” pe YouTube (min. 37:18)",
+     "dovezi": "Potrivit datelor Ministerului Finanțelor, primele zece multinaționale din România — între care OMV Petrom, Dacia, Lidl, Kaufland, Rompetrol, Ford, Profi, Carrefour — au plătit împreună peste 4,4 miliarde de lei impozit pe profit în anul anterior. Sumele individuale merg de la zeci de milioane la miliarde de lei și sunt publice pe mfinante.gov.ro.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre impozitul multinaționalelor",
+       "url": "https://www.factual.ro/declaratii/fals-i-george-simion-despre-impozitul-platit-de-multinationale/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Noi suntem cam singurii din Europa care, de exemplu, nu recunoaștem Kosovo.”",
+     "unde": "7 mai 2025, pe canalul de YouTube Digi24HD (min. 54:30)",
+     "dovezi": "Nouă state europene nu recunosc independența Kosovo, nu doar România. Cinci sunt chiar din Uniunea Europeană: România, Cipru, Grecia, Slovacia și Spania. La ele se adaugă Serbia, Belarus, Bosnia și Herțegovina și Rusia. Poziția României e împărtășită de aproape un sfert din statele UE, deci nu e nici singulară, nici excentrică.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre recunoașterea Kosovo",
+       "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-recunoasterea-independentei-statului-kosovo/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Gata cu «campania», acum trebuie să oprim frauda imensă! Colegii mei sunt cu conducerea STS acum…”",
+     "unde": "16 mai 2025, pe Facebook, în ziua votului din diaspora",
+     "dovezi": "Au dezmințit, pe rând: Serviciul de Telecomunicații Speciale (sistemele au funcționat în parametri optimi, fără defecțiuni, iar STS nu avea personal în R. Moldova la acea dată), Autoritatea Electorală Permanentă (toate aplicațiile au funcționat normal), Ministerul de Interne, Ministerul de Externe și Guvernul. Purtătorul de cuvânt al diplomației de la Chișinău a cerut public actorilor politici să se abțină de la acuzații nesusținute. Nicio instituție nu a confirmat vreo fraudă.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea acuzației de fraudare a alegerilor",
+       "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-fraudarea-alegerilor-in-republica-moldova/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Avem cei mai puțini morți din interiorul Uniunii Europene” — despre bilanțul pandemiei de COVID-19 în România.",
+     "unde": "13 iunie 2025, într-un video distribuit de Robert Malone pe X",
+     "dovezi": "România nu a avut cel mai mic număr de decese din UE în niciun an, din 2020 până în 2025. Din 2022 a coborât sub media europeană, dar Bulgaria, Ungaria, Malta și Slovacia au raportat constant mai puține. „Sub medie” și „cei mai puțini” sunt două lucruri diferite.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre decesele COVID-19",
+       "url": "https://www.factual.ro/declaratii/fals-i-george-simion-despre-pandemia-de-covid-19/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Că vânzarea acțiunilor la companiile de stat s-ar face prin metoda ABB, „care e deloc transparentă”, spre deosebire de IPO.",
+     "unde": "4 mai 2026, Europa FM, emisiunea „România în direct” (min. 44:10)",
+     "dovezi": "Nota de fundamentare a Guvernului propune mai multe metode, nu doar ABB. Prin ABB sunt vizate doar Hidroelectrica și Romgaz; CEC Bank, CN APM Constanța și Salrom merg pe listare IPO. Iar ABB nu e o metodă netransparentă: informația se pune la dispoziția investitorilor interesați, cu discount anunțat, doar că tranzacția se închide în 24–48 de ore în loc să dureze săptămâni. E o metodă rapidă, nu una ascunsă.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre privatizarea companiilor de stat",
+       "url": "https://www.factual.ro/declaratii/fals-george-simion-despre-privatizarea-companiilor-de-stat/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nume": "Claudiu Târziu",
+   "rol": "Puiul care și-a făcut cuib propriu",
+   "eticheta": "cofondator AUR · plecat în 2025 · președinte ACT",
+   "culoare": "#a5872e",
+   "sumar": "A cofondat AUR alături de George Simion, apoi a demisionat din partid în aprilie 2025 și și-a lansat propria formațiune, Acțiunea Conservatoare (ACT), în iunie 2025. Îl păstrăm aici fiindcă fișa e despre ce a construit și ce a susținut, nu despre carnetul de partid pe care îl are astăzi.",
+   "cv": [
+    {
+     "k": "Rol în partid",
+     "v": "A cofondat AUR în 2019, împreună cu George Simion. În februarie 2021 a fost unul dintre cei care au decis retragerea sprijinului politic pentru senatoarea Diana Șoșoacă.",
+     "surse": [
+      {
+       "name": "HotNews — AUR, cofondat de Simion și Târziu",
+       "url": "https://alegeri.hotnews.ro/cine-este-george-simion/"
+      },
+      {
+       "name": "G4Media — precizarea AUR privind situația Dianei Șoșoacă",
+       "url": "https://www.g4media.ro/aur-revine-cu-o-precizare-sosoaca-a-fost-exclusa-din-grupul-senatorial-din-partid-n-a-facut-parte-claudiu-tarziu-am-descoperit-ca-nu-avea-semnata-adeziunea-formala.html"
+      }
+     ]
+    },
+    {
+     "k": "Plecarea din AUR",
+     "v": "În aprilie 2025 a fost suspendat din funcția de președinte al Consiliului Național de Conduită al AUR, iar pe <b>9 aprilie 2025</b> a demisionat din partid, printr-o scrisoare deschisă. Motivul invocat: transformarea AUR într-un „partid George Simion”. Pe <b>21 iunie 2025</b> și-a lansat propriul partid, <b>Acțiunea Conservatoare (ACT)</b>, al cărui președinte este.",
+     "surse": [
+      {
+       "name": "Mediafax — Târziu anunță lansarea partidului „Acțiunea Conservatoare”",
+       "url": "https://www.mediafax.ro/politic/claudiu-tarziu-anunta-lansarea-unui-partid-dupa-despartirea-de-aur-se-va-numi-actiunea-conservatoare-23556109"
+      },
+      {
+       "name": "G4Media — și-a lansat partidul ACT, la două luni după demisia din AUR",
+       "url": "https://www.g4media.ro/claudiu-tarziu-si-a-lansat-propriul-partid-suveranist-actiunea-conservatoare-act-la-doua-luni-dupa-demisia-din-aur.html"
+      },
+      {
+       "name": "Acțiunea Conservatoare — pagina oficială a lui Claudiu-Richard Târziu",
+       "url": "https://actiuneaconservatoare.ro/claudiu-richard-tarziu/"
+      }
+     ]
+    }
+   ],
+   "afirmatii": [
+    {
+     "afirmatie": "Că Ministerul Mediului ar avea „intenția de a băga oamenii la închisoare pentru că își sapă o fântână”, cu pedepse de până la zece ani.",
+     "unde": "28 iulie 2026, pe Facebook și X, reacționând la un proiect de lege pus în transparență pe 14 iulie",
+     "dovezi": "Proiectul transpune o directivă europeană privind infracțiunile de mediu și prevede sancțiuni gradate pentru captările ilegale de apă la scară mare — pedeapsa depinde de gravitatea prejudiciului. Administrația Națională „Apele Române” a confirmat că folosirea apei din fântână pentru nevoi proprii nu cere autorizație, nu se plătește și nu atrage amenzi sau pedepse penale. Consiliul Național al Audiovizualului a dispus pe 28 iulie 2026 eliminarea a 35 de materiale care răspândeau informația falsă (33 pe TikTok, unul pe Facebook, unul pe X), între care și postările lui. El s-a apărat spunând că a fost o poziție politică pe documente publice, nu o invenție.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Verificarea noastră — ce spune de fapt proiectul Ministerului Mediului",
+       "url": "https://farabaliverne.ro/a/fantana-zece-ani-inchisoare.html"
+      },
+      {
+       "name": "Adevărul — CNA a dispus eliminarea materialelor cu informația falsă despre fântâni",
+       "url": "https://adevarul.ro/stiri-interne/evenimente/cna-il-vizeaza-pe-claudiu-tarziu-dupa-2546299.html"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Despre Corneliu Zelea Codreanu, întemeietorul Mișcării Legionare: că „a avut un sfârșit tragic, nu a fost condamnat pentru alte crime”.",
+     "unde": "declarație publică, întrebat direct dacă îl consideră criminal pe Codreanu",
+     "dovezi": "Afirmația are un sâmbure adevărat, și tocmai de aceea merită desfăcută încet: <b>Codreanu chiar nu a fost condamnat pentru omor</b>. Numai că din asta nu rezultă ce pare să rezulte.\n\nÎntâi, el <b>a fost condamnat</b>. Pe <b>27 mai 1938</b>, un tribunal militar l-a condamnat la <b>10 ani muncă silnică</b>. Deci nu vorbim despre un om pe care justiția l-a lăsat în pace.\n\nAl doilea, motivul pentru care nu a fost judecat pentru asasinate nu e o achitare, ci o execuție. În noaptea de <b>29 spre 30 noiembrie 1938</b>, la Tâncăbești, Codreanu a fost ucis de jandarmi în timp ce se afla în custodia statului, împreună cu alți treisprezece conducători legionari. Un proces pentru faptele organizației nu a mai avut cine să-l țină. „Nu a fost condamnat” descrie aici absența unui proces, nu constatarea unei nevinovății.\n\nAl treilea, și cel mai important: <b>organizația pe care o conducea a ucis</b>. În decembrie 1933, legionarii l-au asasinat pe <b>I.G. Duca, prim-ministru în funcție</b>, la câteva zile după ce acesta dizolvase Garda de Fier. Autorii — Nicolae Constantinescu, Ion Caranica și Doru Belimace — au fost condamnați la muncă silnică pe viață. Faptul că șeful nu a fost condamnat personal nu schimbă ce a făcut mișcarea sub conducerea lui.\n\n<b>O precizare pe care o datorăm exactității:</b> asasinarea lui Armand Călinescu (septembrie 1939) și cea a lui Nicolae Iorga (noiembrie 1940) au avut loc <b>după</b> moartea lui Codreanu, sub conducerea lui Horia Sima. Nu i se pot pune în cârcă lui personal, și nu le punem.",
+     "unde_bat": "Afirmația e exactă la literă și incompletă în efect: adevărat că nu a existat o condamnare pentru omor, dar a existat o condamnare, iar procesul pentru asasinate n-a mai avut loc fiindcă el a fost ucis în custodia statului. Cititorul decide dacă formularea lasă impresia corectă.",
+     "surse": [
+      {
+       "name": "G4Media — Târziu nu se delimitează de Codreanu: „a avut un sfârșit tragic, nu a fost condamnat pentru alte crime”",
+       "url": "https://www.g4media.ro/claudiu-tarziu-nu-se-delimiteaza-de-corneliu-zelea-codreanu-si-miscarea-legionara-care-foloseau-crima-ca-arma-politica-a-avut-un-sfarsit-tragic-nu-a-fost-condamnat-pentru-alte-crime-sub-codreanu.html"
+      },
+      {
+       "name": "Adevărul — Târziu despre Codreanu: „a avut un sfârșit tragic”",
+       "url": "https://adevarul.ro/politica/claudiu-tarziu-nu-se-fereste-sa-si-arate-simpatia-2434306.html"
+      },
+      {
+       "name": "Condamnarea din 27 mai 1938, la 10 ani muncă silnică",
+       "url": "https://www.directmm.ro/cultura/27-mai-1938-procesul-lui-corneliu-zelea-codreanu/"
+      },
+      {
+       "name": "Asasinatele din 29/30 noiembrie 1938 — Codreanu ucis în custodia statului",
+       "url": "https://ro.wikipedia.org/wiki/Asasinatele_din_29/30_noiembrie_1938"
+      },
+      {
+       "name": "Corneliu Zelea Codreanu — parcurs, procese, asasinatul lui I.G. Duca",
+       "url": "https://ro.wikipedia.org/wiki/Corneliu_Zelea_Codreanu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nume": "Diana Șoșoacă",
+   "rol": "Puiul plecat din cuib",
+   "eticheta": "SOS România · a intrat în Parlament pe listele AUR",
+   "culoare": "#8f6b3d",
+   "sumar": "A ajuns senatoare în decembrie 2020 pe listele AUR, iar în februarie 2021 a fost scoasă din grupul senatorial. Nuanță pe care o notăm fiindcă e reală: AUR a precizat ulterior că nu a fost exclusă din partid, pentru că nu semnase adeziunea — a fost o retragere a sprijinului politic.",
+   "cv": [
+    {
+     "k": "Cum a intrat în Parlament",
+     "v": "Aleasă senatoare de Iași în decembrie 2020, pe listele AUR.",
+     "surse": [
+      {
+       "name": "Europa Liberă — senatoarea Diana Șoșoacă, exclusă din AUR",
+       "url": "https://romania.europalibera.org/a/senatoarea-diana-%C5%9Fo%C5%9Foac%C4%83-exclus%C4%83-din-aur/31096293.html"
+      }
+     ]
+    },
+    {
+     "k": "Ruptura de AUR",
+     "v": "În februarie 2021 a fost scoasă din grupul senatorial AUR, decizia fiind luată de Claudiu Târziu și Sorin Lavric, invocându-se indisciplina. AUR a revenit ulterior cu precizarea că nu putea fi exclusă din partid, întrucât nu avea adeziunea semnată — deci a fost vorba de retragerea sprijinului politic.",
+     "surse": [
+      {
+       "name": "G4Media — exclusă din grupul senatorial de Târziu și Lavric",
+       "url": "https://www.g4media.ro/senatoarea-diana-sosoaca-a-fost-exclusa-din-partidul-aur-de-catre-claudiu-tarziu-si-sorin-lavric-deputatul-dan-tanasa-e-o-decizie-luata-la-capatul-unui-lung-sir-de-intamplari-in-care-a-transmis-ca.html"
+      },
+      {
+       "name": "G4Media — precizarea AUR: nu avea adeziunea semnată",
+       "url": "https://www.g4media.ro/aur-revine-cu-o-precizare-sosoaca-a-fost-exclusa-din-grupul-senatorial-din-partid-n-a-facut-parte-claudiu-tarziu-am-descoperit-ca-nu-avea-semnata-adeziunea-formala.html"
+      },
+      {
+       "name": "Mediafax — motivul invocat: indisciplină",
+       "url": "https://www.mediafax.ro/politic/diana-sosoaca-a-fost-exclusa-din-partidul-aur-din-motive-de-indisciplina-aur-transmite-ca-l-au-exclus-si-pe-deputatul-mihai-lasca-19912822"
+      }
+     ]
+    }
+   ],
+   "afirmatii": [
+    {
+     "afirmatie": "„În Ucraina avem peste un milion de români. Nu au voie să vorbească în limba română…” — și că nu s-ar putea ruga ori practica ortodoxia în limba lor.",
+     "unde": "22 octombrie 2025, în timpul unei vizite în Rusia, ca invitată a asociației „Prietenii Rusiei”",
+     "dovezi": "Cifra e greșită de aproape șapte ori: în Ucraina trăiesc circa 151.000 de români, plus 258.600 de persoane care s-au declarat moldoveni. Învățământul în română nu e interzis — în 2024 se preda în 57 de școli, pentru 12.383 de elevi. Numărul a scăzut față de aproximativ 75 de școli în 2017, deci există o problemă reală de discutat; dar „nu au voie” descrie altceva decât ce se întâmplă. Cât despre rugăciune: Ucraina a interzis organizațiile afiliate bisericii ruse, în contextul agresiunii militare, nu practicarea ortodoxiei în limba română.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre românii din Ucraina",
+       "url": "https://www.factual.ro/declaratii/fals-diana-sosoaca-sustine-ca-romanii-din-ucraina-nu-pot-sa-invete-sau-sa-se-roage-in-limba-lor/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„Suntem singurul stat din lume care și-a plătit vreodată datoria.”",
+     "unde": "10 septembrie 2025, Metropola TV (min. 24:03), într-o discuție despre moștenirea lui Ceaușescu",
+     "dovezi": "Rusia și-a achitat integral datoria externă către Clubul de la Paris în august 2006 — circa 23,7 miliarde de dolari, cu patru ani înainte de termen, economisind peste 12 miliarde din dobânzi. Norvegia stă și mai bine: are active externe nete de peste 1.600 de miliarde de dolari prin fondul suveran, deci problema nici nu se pune. Iar în cazul României, datoria a fost stinsă până în 1989 prin austeritate și epuizarea rezervei de aur, cu un cost uriaș pentru populație.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea afirmației despre plata datoriei externe",
+       "url": "https://www.factual.ro/declaratii/fals-sosoaca-despre-plata-datoriei-externe/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "„fraudă pe bani europeni din despăgubirile pentru uciderea oilor, care nu a fost cerută de UE!”",
+     "unde": "17 și 23 septembrie 2024, pe Facebook",
+     "dovezi": "Pesta micilor rumegătoare e recunoscută oficial în Regulamentul UE 429/2016, în anexa II, ca boală care cere măsuri de control și eradicare. Uciderea animalelor urmează proceduri legale (Regulamentul 1099/2009 și manualul operațional al României). Iar despăgubirile NU vin din bani europeni: se plătesc din bugetul de stat, prin Ministerul Agriculturii — deci acuzația de fraudă pe fonduri UE se sprijină pe o premisă care nu există.",
+     "unde_bat": "Contrazis",
+     "surse": [
+      {
+       "name": "Factual.ro — verificarea acuzației privind despăgubirile pentru pesta ovină",
+       "url": "https://www.factual.ro/declaratii/fals-diana-sosoaca-acuza-o-presupusa-frauda-pe-bani-europeni-pentru-pesta-ovina/"
+      }
+     ]
+    },
+    {
+     "afirmatie": "Că Mișcarea Legionară nu ar fi fost o organizație fascistă și că Tribunalul de la Nürnberg ar fi scos-o de sub acuzare.",
+     "unde": "declarații publice, reluate pe rețelele sociale",
+     "dovezi": "Aici totul se sprijină pe o confuzie între <b>a nu fi fost acuzat</b> și <b>a fi fost achitat</b>. Sunt lucruri diferite.\n\nTribunalul Militar Internațional de la Nürnberg a judecat conducerea politică, militară și economică a Germaniei naziste, plus un număr de organizații care funcționau <b>pe teritoriul german</b>. Mișcarea Legionară, organizație românească, <b>nu a fost pusă sub acuzare acolo</b> — pur și simplu nu intra în competența acelui proces.\n\nIar de aici pornește problema: <b>nu poți fi achitat într-un proces în care nu ai fost inculpat.</b> A spune că Nürnberg „a exonerat” Mișcarea Legionară e ca și cum ai spune că un tribunal te-a găsit nevinovat pentru că nu ți-a rostit numele. Absența din rechizitoriu nu e o hotărâre judecătorească.\n\nÎn documentele procurorilor de la Nürnberg, Mișcarea Legionară e menționată ca <b>mișcare fascistă aliată Germaniei</b> — adică exact pe dos față de concluzia care i se atribuie.\n\nÎncadrarea ei ca organizație fascistă în dreptul românesc nu vine de la Nürnberg, ci din <b>jurisprudența din România de după 1945</b>, rezultată din procesele deschise aici.",
+     "unde_bat": "Afirmația nu se susține: Nürnberg nu s-a pronunțat asupra Mișcării Legionare, deci nu avea cum s-o exonereze. Faptul invocat drept dovadă nu există.",
+     "surse": [
+      {
+       "name": "Veridica — „Mișcarea Legionară nu a fost o organizație fascistă”: cum stau lucrurile de fapt",
+       "url": "https://www.veridica.ro/fake-news-dezinformare-propaganda/fake-news-miscarea-legionara-nu-a-fost-o-organizatie-fascista"
+      },
+      {
+       "name": "Factual — declarații verificate ale Dianei Iovanovici-Șoșoacă",
+       "url": "https://www.factual.ro/persoane/diana-iovanovici-sosoaca/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
