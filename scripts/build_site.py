@@ -17,7 +17,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   3. rulează: python3 scripts/build_site.py
   4. commit + push  →  GitHub urcă singur pe site
 """
-import json, re, glob, os, unicodedata, subprocess
+import json, re, glob, os, unicodedata, subprocess, collections
 from datetime import datetime, timedelta, timezone
 
 def now_edition():
@@ -482,6 +482,110 @@ DATA_JS = """
 """
 
 
+VEZI_START = "<!-- AUTO:veziși:start -->"
+VEZI_END = "<!-- AUTO:veziși:end -->"
+_STOP = set("""si sau dar insa iar ca ce cum cand unde care cine este sunt fost fi va
+a al ale ai un o unei unui de la in pe cu din pentru dupa fara intre peste prin sub
+spre catre despre nu mai foarte tot toata toate mult multe putin lui ei lor sa se
+isi au are avea fie ani an luna luni zi zile azi ieri maine acum apoi doar chiar
+deja inca romania roman romani romaniei noua nou noi prima primul primele cat cati
+cate mii milioane miliarde procente suta""".split())
+
+
+def _cuvinte(t):
+    t = unicodedata.normalize("NFKD", t.lower()).encode("ascii", "ignore").decode()
+    return {w for w in re.findall(r"[a-z]{4,}", t) if w not in _STOP}
+
+
+def indice_inrudite(arts):
+    """
+    Pregătește, o singură dată, datele pentru „Vezi și".
+
+    Regula cere un semnal TARE: aceeași sursă citată, aceeași persoană, sau cel
+    puțin trei cuvinte rare comune. Fără condiția asta, două articole fără nicio
+    legătură ajungeau la 10 puncte din cuvinte banale — „SUA transferă rachete
+    ATACMS" se lega de „Marea Britanie, cea mai fierbinte zi: 38,1°C". Măsurat pe
+    338 de articole înainte de a fi pus pe site.
+    """
+    idx = {}
+    for slug, d in arts.items():
+        urls = set()
+        for k in ("probat", "contestat"):
+            for el in d.get(k) or []:
+                for s in el.get("sources") or []:
+                    if s.get("url"):
+                        urls.add(s["url"].split("?")[0])
+        idx[slug] = {"urls": urls, "pers": set(d.get("persoane") or []),
+                     "cuv": _cuvinte(d.get("title", "") + " " + d.get("dek", "")),
+                     "cat": d.get("category", "")}
+    df = collections.Counter()
+    for v in idx.values():
+        for w in v["cuv"]:
+            df[w] += 1
+    rar = {w for w, n in df.items() if n <= 4}
+    obisnuit = {w for w, n in df.items() if 4 < n <= 12}
+    return idx, rar, obisnuit
+
+
+PRAG_INRUDIRE = 10
+
+
+def inrudite(slug, arts, idx, rar, obisnuit, cate=3):
+    a = idx[slug]
+    rez = []
+    for alt, b in idx.items():
+        if alt == slug:
+            continue
+        cu = a["urls"] & b["urls"]
+        pe = a["pers"] & b["pers"]
+        com = a["cuv"] & b["cuv"]
+        r = com & rar
+        if not (cu or pe or len(r) >= 3):
+            continue
+        s = 6 * len(cu) + 4 * len(pe) + 2 * len(r) + len(com & obisnuit)
+        if a["cat"] == b["cat"]:
+            s += 1
+        if s >= PRAG_INRUDIRE:
+            rez.append((s, alt))
+    rez.sort(key=lambda x: (-x[0], x[1]))
+    return [alt for _, alt in rez[:cate]]
+
+
+def bloc_vezi_si(slug, arts, idx, rar, obisnuit):
+    legate = inrudite(slug, arts, idx, rar, obisnuit)
+    if not legate:
+        return ""
+    out = [VEZI_START,
+           '      <section class="ev-block" style="border-left:5px solid var(--gold)">',
+           "        <h2>🔗 Vezi și</h2>",
+           '        <p class="ev-sub">Alte verificări ale noastre legate de acest subiect.</p>']
+    for s2 in legate:
+        d2 = arts[s2]
+        vc, vl = vcl(d2.get("mainVerdict"))
+        out.append(
+            f'        <div class="ev-item" style="padding:11px 0">'
+            f'<p style="margin:0 0 5px;font-size:15.5px;line-height:1.35">'
+            f'<a href="{s2}.html" style="text-decoration:underline;text-underline-offset:2px">'
+            f'{d2["title"]}</a></p>'
+            f'<p style="margin:0"><span class="chip soft {vc} sm">{vl}</span> '
+            f'<span style="font-size:12px;color:var(--ink-faint);margin-left:6px">'
+            f'{d2.get("category","")} · {d2.get("date","")}</span></p></div>')
+    out += ["      </section>", VEZI_END]
+    return "\n".join(out) + "\n"
+
+
+def pune_vezi_si(s, slug, arts, idx, rar, obisnuit):
+    """Sub secțiunile de dovezi, înainte de caseta de final."""
+    bloc = bloc_vezi_si(slug, arts, idx, rar, obisnuit)
+    if VEZI_START in s:
+        return re.sub(re.escape(VEZI_START) + r".*?" + re.escape(VEZI_END) + r"\n?",
+                      lambda m: bloc, s, count=1, flags=re.S)
+    if not bloc:
+        return s
+    ancora = '        <div class="conclusion-box">'
+    return s.replace(ancora, bloc + ancora, 1) if ancora in s else s
+
+
 TITLURI_START = "<!-- AUTO:titluri:start -->"
 TITLURI_END = "<!-- AUTO:titluri:end -->"
 _SURSA_TITLU = re.compile(r"^\s*([^—]{2,40}?)\s*—\s*(.{8,})$", re.S)
@@ -848,6 +952,7 @@ def main():
     # 1. feed
     html = open(IDX, encoding="utf-8").read()
     mom = momente()
+    _idx, _rar, _obis = indice_inrudite(arts)
     html = replace_feed(html, build_feed(arts, mom) + build_featured_script(arts, mom))
     open(IDX, "w", encoding="utf-8").write(html)
     # 2. politicieni (clonează shell-ul din index)
@@ -887,6 +992,7 @@ def main():
             _slug = os.path.basename(f)[:-5]
             if _slug in arts:
                 s = pune_titluri(s, arts[_slug])
+                s = pune_vezi_si(s, _slug, arts, _idx, _rar, _obis)
         # Linkul spre Cloșcu, pe TOATE paginile. Se injectează aici, nu în
         # șablon: articolele noi le scrie botul după `a/legea-integritatii...`,
         # care n-are linkul — altfel ar lipsi de pe tot ce se publică de acum.
