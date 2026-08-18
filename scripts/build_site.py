@@ -482,6 +482,74 @@ DATA_JS = """
 """
 
 
+TITLURI_START = "<!-- AUTO:titluri:start -->"
+TITLURI_END = "<!-- AUTO:titluri:end -->"
+_SURSA_TITLU = re.compile(r"^\s*([^—]{2,40}?)\s*—\s*(.{8,})$", re.S)
+
+
+def bloc_titluri(d):
+    """
+    „Cum a titrat fiecare" — aceeași știre, prin ochii fiecărei publicații.
+
+    Nu punem noi etichete de orientare. Punem titlurile lor, unul lângă altul, și
+    perspectiva se vede singură: aceeași hotărâre e „guvernul a cedat" la unii și
+    „acord istoric" la alții. E metoda casei aplicată presei — arătăm, nu
+    decretăm. Și nu se poate contesta, fiindcă sunt cuvintele lor.
+
+    Materialul există deja: 97% din sursele citate sunt scrise „Publicație —
+    titlu". Nu trebuie cules nimic nou.
+    """
+    vazut, randuri = {}, []
+    for k in ("probat", "contestat"):
+        for el in d.get(k) or []:
+            for s in el.get("sources") or []:
+                m = _SURSA_TITLU.match(s.get("name", ""))
+                if not m or not s.get("url"):
+                    continue
+                pub = m.group(1).strip()
+                titlu = re.sub(r"\s+", " ", m.group(2)).strip()
+                # O publicație apare o singură dată, cu primul titlu citat.
+                if pub.lower() in vazut:
+                    continue
+                vazut[pub.lower()] = True
+                randuri.append((pub, titlu, s["url"]))
+
+    # Sub două publicații nu e o comparație, e o listă.
+    if len(randuri) < 2:
+        return ""
+
+    out = [TITLURI_START,
+           '      <section class="ev-block neverificabil" style="border-left-color:#2265a3">',
+           "        <h2>📰 Cum a titrat fiecare</h2>",
+           '        <p class="ev-sub">Aceeași știre, în cuvintele fiecărei publicații. '
+           "Noi nu le punem etichete de orientare — le punem titlurile alături, iar "
+           "unghiul fiecăreia se vede singur.</p>"]
+    for pub, titlu, url in randuri[:9]:
+        out.append(
+            f'        <div class="ev-item" style="padding:11px 0">'
+            f'<p style="margin:0 0 4px;font-size:11.5px;letter-spacing:.08em;'
+            f'text-transform:uppercase;color:var(--ink-faint);font-weight:800">{pub}</p>'
+            f'<p style="margin:0;font-size:15.5px;line-height:1.4">'
+            f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+            f'style="text-decoration:underline;text-underline-offset:2px">{titlu}</a></p></div>')
+    out += ["      </section>", TITLURI_END]
+    return "\n".join(out) + "\n"
+
+
+def pune_titluri(s, d):
+    """Pune blocul imediat sub cardul spre sursa originală, sus în articol."""
+    bloc = bloc_titluri(d)
+    if TITLURI_START in s:
+        return re.sub(re.escape(TITLURI_START) + r".*?" + re.escape(TITLURI_END) + r"\n?",
+                      lambda m: bloc, s, count=1, flags=re.S)
+    if not bloc:
+        return s
+    ancora = "Citește știrea originală →</span></span></a>\n"
+    if ancora not in s:
+        return s
+    return s.replace(ancora, ancora + "\n" + bloc, 1)
+
+
 def pune_data(s):
     """Injectează, o singură dată, ceasul din bara de sus."""
     if "Ediția de cafeluță'" in s or "</body>" not in s:
@@ -814,6 +882,11 @@ def main():
         s = repara_share(s)
         s = pune_data(s)
         s = pune_citite(s)
+        # „Cum a titrat fiecare" — doar pe paginile de articol, din datele lor.
+        if os.sep + "a" + os.sep in f:
+            _slug = os.path.basename(f)[:-5]
+            if _slug in arts:
+                s = pune_titluri(s, arts[_slug])
         # Linkul spre Cloșcu, pe TOATE paginile. Se injectează aici, nu în
         # șablon: articolele noi le scrie botul după `a/legea-integritatii...`,
         # care n-are linkul — altfel ar lipsi de pe tot ce se publică de acum.
