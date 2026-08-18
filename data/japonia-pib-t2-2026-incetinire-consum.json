@@ -1,0 +1,43 @@
+{
+  "slug": "japonia-pib-t2-2026-incetinire-consum",
+  "title": "Japonia: PIB-ul a crescut doar 0,3% în trimestrul 2 din 2026, sub așteptările analiștilor — consumul privat a scăzut",
+  "category": "Economie",
+  "date": "2026-08-17",
+  "source": "RTTNews / Fortune",
+  "url": "https://www.rttnews.com/3680873/japan-gdp-adds-0-3-in-q2.aspx",
+  "dek": "Guvernul japonez a raportat pe 17 august 2026 date preliminare potrivit cărora economia a crescut cu 0,3% în trimestrul al doilea (aprilie-iunie) față de trimestrul anterior — echivalentul unei rate anualizate de 1,1% — sub cele 0,5% trimestrial / 2,0% anualizat anticipate de analiști. Consumul privat, care reprezintă circa jumătate din economia japoneză, a scăzut pentru prima dată în opt trimestre, iar creșterea a fost susținută în principal de exporturi.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Economia Japoniei a crescut cu 0,3% în trimestrul al doilea din 2026 (aprilie-iunie) față de trimestrul precedent, echivalentul unei rate anualizate de 1,1% — al treilea trimestru consecutiv de expansiune, dar cu un ritm mai lent decât în trimestrul întâi (0,5% trimestrial / circa 1,9-2,1% anualizat, în funcție de sursă). Datele preliminare au fost publicate de guvernul japonez pe 17 august 2026.",
+      "sources": [
+        {"name": "RTTNews — Japan GDP Adds 0.3% In Q2", "url": "https://www.rttnews.com/3680873/japan-gdp-adds-0-3-in-q2.aspx"},
+        {"name": "Fortune — Japan's economy notches 1.1% growth rate as spending dips 1.2%", "url": "https://fortune.com/2026/08/17/japan-gdp-consumer-spending-exports-q2/"}
+      ]
+    },
+    {
+      "text": "Rezultatul a fost sub așteptările pieței: analiștii anticipau o creștere trimestrială de 0,5% și una anualizată de 2,0%. Consumul privat — motorul principal al economiei japoneze — a scăzut pentru prima dată în opt trimestre, iar cheltuielile de capital ale companiilor au scăzut și ele cu 1,2%.",
+      "sources": [
+        {"name": "RTTNews — Japan GDP Adds 0.3% In Q2", "url": "https://www.rttnews.com/3680873/japan-gdp-adds-0-3-in-q2.aspx"},
+        {"name": "Fortune — Japan's economy notches 1.1% growth rate as spending dips 1.2%", "url": "https://fortune.com/2026/08/17/japan-gdp-consumer-spending-exports-q2/"}
+      ]
+    },
+    {
+      "text": "Creșterea a fost susținută în principal de cererea externă: exporturile au crescut, ajutate de cererea internațională pentru automobile japoneze (Toyota, Honda) și semiconductori, alimentată de investițiile globale în inteligență artificială, precum și de un declin al importurilor — inclusiv al celor de petrol, pe fondul deteriorării situației din Orientul Mijlociu.",
+      "sources": [
+        {"name": "Fortune — Japan's economy notches 1.1% growth rate as spending dips 1.2%", "url": "https://fortune.com/2026/08/17/japan-gdp-consumer-spending-exports-q2/"}
+      ]
+    },
+    {
+      "text": "Premierul Sanae Takaichi, care a promis relansarea creșterii economice, are un nivel de sprijin public în scădere treptată în sondaje, deși rămâne relativ bine poziționată comparativ cu unii dintre predecesorii ei — context politic în care încetinirea economică vine ca o veste nedorită pentru guvern.",
+      "sources": [
+        {"name": "Fortune — Japan's economy notches 1.1% growth rate as spending dips 1.2%", "url": "https://fortune.com/2026/08/17/japan-gdp-consumer-spending-exports-q2/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": "",
+  "aiNote": "Datele de PIB sunt cifre oficiale preliminare ale guvernului japonez, confirmate în mod concordant de mai multe publicații economice internaționale (RTTNews, Fortune) — nu există dispută între surse asupra cifrelor de bază. Am notat totuși o mică diferență între surse la baza de comparație a trimestrului precedent (unele redau creșterea T1 2026 ca 1,9%, altele ca 2,1% anualizat), posibil din cauza unor revizuiri succesive ale datelor — un detaliu tehnic, nu o contradicție de fond.",
+  "persoane": []
+}
