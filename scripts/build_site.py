@@ -330,6 +330,48 @@ def build_politicieni(arts, shell):
     h = h.replace('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')
     return h, len(with_a), len(without)
 
+SHARE_VECHI_FB = ("window.shareFB=function(){window.open('https://www.facebook.com/sharer/"
+                  "sharer.php?u='+e(U),'_blank','noopener,width=650,height=600');};")
+SHARE_VECHI_X = ("window.shareX=function(){window.open('https://twitter.com/intent/tweet?url='"
+                 "+e(U)+'&text='+e(T),'_blank','noopener,width=560,height=460');};")
+
+# Pe telefon, sistemul trimite linkurile `facebook.com` direct în aplicația
+# Facebook, iar aplicația NU știe `sharer.php`: deschide fluxul și nu partajează
+# nimic. La fel face și aplicația X cu `intent/tweet`. De-aia butoanele păreau
+# că merg — se deschidea rețeaua — dar nu pleca niciun link.
+#
+# Singura cale care funcționează pe mobil e foaia nativă de partajare a
+# sistemului (Web Share API): primește titlul și adresa, iar aplicația aleasă le
+# ia corect. Pe desktop nu există așa ceva, deci acolo rămâne fereastra clasică,
+# care oricum funcționa.
+SHARE_NOU_FB = ("window.shareFB=function(){if(window.__fbMobil&&navigator.share)"
+                "{navigator.share({title:T,url:U}).catch(function(){});return;}"
+                "window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),"
+                "'_blank','noopener,width=650,height=600');};")
+SHARE_NOU_X = ("window.shareX=function(){if(window.__fbMobil&&navigator.share)"
+               "{navigator.share({title:T,url:U}).catch(function(){});return;}"
+               "window.open('https://twitter.com/intent/tweet?url='+e(U)+'&text='+e(T),"
+               "'_blank','noopener,width=560,height=460');};")
+SHARE_DETECT = ("window.__fbMobil=/Android|iPhone|iPad|iPod|Mobile|Silk/i.test("
+                "navigator.userAgent||'');")
+
+
+def repara_share(s):
+    """
+    Pune partajarea nativă pe mobil, pe orice pagină care are butoanele.
+
+    Se aplică la fiecare build, nu o singură dată: articolele noi le scrie botul
+    după șablon, iar dacă reparația ar sta doar în șablon ar rămâne validă până
+    la prima modificare a lui. Aici se autorepară.
+    """
+    if SHARE_VECHI_FB not in s and SHARE_VECHI_X not in s:
+        return s
+    s = s.replace(SHARE_VECHI_FB, SHARE_NOU_FB).replace(SHARE_VECHI_X, SHARE_NOU_X)
+    if "__fbMobil=/" not in s:
+        s = s.replace("window.shareFB=function()", SHARE_DETECT + "window.shareFB=function()", 1)
+    return s
+
+
 def build_closcu(arts, shell):
     """
     „Cloșcu cu Puii de AUR" — fișe de persoană + verificările fiecăruia.
@@ -611,9 +653,15 @@ def main():
     # 2b. sitemap.xml (toate articolele + hub) pentru Google
     nsitemap = build_sitemap(arts)
     # 3. count pe toate paginile
+    # Toate paginile, nu doar cele generate: și cele statice (termeni, contact,
+    # metodologie, 404…) au butoanele de partajare, deci și ele au nevoie de
+    # reparația pentru mobil. Înainte rămâneau pe varianta veche, care pe telefon
+    # deschidea Facebook fără să trimită nimic.
     pages = [IDX] + glob.glob(os.path.join(ROOT,"a","*.html")) + \
             [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html",
-                                            "closcu.html")]
+                                            "closcu.html","metodologie.html","cine-suntem.html",
+                                            "corectari.html","contact.html","termeni.html",
+                                            "confidentialitate.html","404.html")]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
     hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html"),
@@ -622,6 +670,7 @@ def main():
         if not os.path.exists(f): continue
         s = open(f, encoding="utf-8").read(); orig = s
         s = re.sub(r'\d+ verificări publicate', f'{total} verificări publicate', s)
+        s = repara_share(s)
         # Linkul spre Cloșcu, pe TOATE paginile. Se injectează aici, nu în
         # șablon: articolele noi le scrie botul după `a/legea-integritatii...`,
         # care n-are linkul — altfel ar lipsi de pe tot ce se publică de acum.
