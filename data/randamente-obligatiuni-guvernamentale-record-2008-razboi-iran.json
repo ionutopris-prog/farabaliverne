@@ -1,0 +1,86 @@
+{
+  "slug": "randamente-obligatiuni-guvernamentale-record-2008-razboi-iran",
+  "title": "Randamentele obligațiunilor guvernamentale din SUA, Marea Britanie, Germania și Franța au urcat la maxime din 2008, pe fondul războiului SUA-Iran",
+  "category": "Economie",
+  "date": "2026-08-18",
+  "source": "Yahoo Finance / Trading Economics",
+  "url": "https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-jumps-highest-134239758.html",
+  "dek": "Costurile de împrumut ale marilor economii au urcat în august 2026 la niveluri nemaivăzute de la criza financiară din 2008, pe fondul creșterii prețului petrolului și al tensiunilor legate de războiul SUA-Iran. Cifrele exacte diferă de la o zi la alta și între surse, pentru că randamentele au fluctuat rapid într-o piață în mișcare — dar direcția generală, în creștere, e confirmată de mai multe redacții financiare independente.",
+  "mainVerdict": "Probat, cu nuanțe",
+  "probat": [
+    {
+      "text": "Randamentul obligațiunii americane pe 10 ani a urcat, la mijlocul lunii august 2026, la niveluri nemaivăzute din ultimii ani — relatările citează valori între 4,42% și peste 4,7%, în funcție de ziua exactă a raportării, toate confirmând o creștere accentuată față de nivelul sub 4% dinaintea izbucnirii războiului SUA-Iran, la finalul lui februarie 2026.",
+      "sources": [
+        {
+          "name": "Yahoo Finance — 10-Year Treasury Yield Jumps to Highest Level",
+          "url": "https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-jumps-highest-134239758.html"
+        },
+        {
+          "name": "Trading Economics — US 10Y Bond Yield Hits 33-week High",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/535411"
+        }
+      ]
+    },
+    {
+      "text": "Randamentul obligațiunii britanice pe 10 ani (gilt) a depășit 4,85%, cel mai ridicat nivel de la criza financiară din 2008, cu unele relatări indicând ulterior o depășire a pragului de 5%. Presiunea vine din așteptări de majorare a dobânzii Băncii Angliei, alimentate de prețul mai mare al energiei și de temerile de inflație.",
+      "sources": [
+        {
+          "name": "Trading Economics — UK Gilt Yields Surge as Iran War Sparks Rate Hike Frenzy",
+          "url": "https://tradingeconomics.com/united-kingdom/government-bond-yield/news/537800"
+        }
+      ]
+    },
+    {
+      "text": "Sursele citează în mod concordant trei factori principali în spatele creșterii randamentelor la nivel global: prețul petrolului Brent, care a depășit din nou 100 de dolari pe baril pe fondul reluării atacurilor SUA-Iran și a atacurilor rebelilor houthi asupra petrolierelor saudite; temerile legate de inflație; și incertitudinea privind politica băncilor centrale, inclusiv numirea lui Kevin Warsh la conducerea Fed.",
+      "sources": [
+        {
+          "name": "Yahoo Finance — Bond Markets React to Iran Tensions With Higher Borrowing Costs",
+          "url": "https://finance.yahoo.com/markets/options/articles/bond-markets-react-iran-tensions-214420060.html"
+        },
+        {
+          "name": "Trading Economics — factori pentru creșterea randamentului american",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/535411"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifrele exacte ale randamentului american pe 10 ani diferă considerabil între surse și momente de raportare: 4,42% („maxim din 33 de săptămâni”, Trading Economics), peste 4,7% („cel mai ridicat nivel din acest an”, Yahoo Finance) și 4,71% („cel mai ridicat din ianuarie 2025”, o altă relatare Yahoo Finance). Diferențele reflectă probabil zile diferite de tranzacționare într-o piață care s-a mișcat rapid pe parcursul lunii august, nu o contradicție reală asupra tendinței de fond, care e confirmată de toate sursele: randamentele au crescut constant.",
+      "sources": [
+        {
+          "name": "Trading Economics — 4,42%, maxim din 33 de săptămâni",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/535411"
+        },
+        {
+          "name": "Yahoo Finance — peste 4,7%, cel mai ridicat nivel din acest an",
+          "url": "https://finance.yahoo.com/markets/options/articles/bond-markets-react-iran-tensions-214420060.html"
+        },
+        {
+          "name": "Yahoo Finance — 4,71%, cel mai ridicat din ianuarie 2025",
+          "url": "https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-jumps-highest-134239758.html"
+        }
+      ]
+    },
+    {
+      "text": "Reperul istoric folosit pentru randamentul american pe 30 de ani variază între surse: o relatare Yahoo Finance menționează un maxim „din 2007” atins în mai 2026, iar sinteza altor agenții citează un nivel apropiat de maximul „din 2002” pentru aceeași obligațiune, la o dată ulterioară din august. Ambele pot fi corecte pentru momente diferite ale unei tendințe de creștere continuă, dar niciuna dintre sursele consultate direct nu oferă o serie istorică unică, verificabilă cap-coadă.",
+      "sources": [
+        {
+          "name": "Yahoo Finance — maxim din 2007 pentru randamentul pe 30 de ani (mai 2026)",
+          "url": "https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-jumps-highest-134239758.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Atribuirea creșterii randamentelor „aproape exclusiv” războiului SUA-Iran e o simplificare jurnalistică frecventă, dar sursele citează și factori structurali interni (emisiuni suplimentare de datorie americană, inclusiv din partea companiilor de inteligență artificială, și incertitudine privind independența Fed sub noua conducere) — războiul e un accelerator vizibil, nu singura cauză."
+    }
+  ],
+  "math": {
+    "title": "De la sub 4% la peste 4,7% — o mișcare de peste 70 de puncte de bază în șase luni",
+    "explanation": "Înainte de izbucnirea războiului SUA-Iran, la finalul lui februarie 2026, randamentul american pe 10 ani era sub 4%. Nivelurile raportate în august 2026 (4,42%–4,71%, în funcție de sursă și zi) arată o creștere de cel puțin 42-71 de puncte de bază în circa șase luni — o mișcare semnificativă pentru o piață a obligațiunilor de stat, unde variații de câteva zeci de puncte de bază pe an sunt considerate ample. Chiar și folosind cea mai conservatoare cifră (4,42%), creșterea rămâne una dintre cele mai rapide din ultimul deceniu pentru acest indicator."
+  },
+  "aiNote": "Sursele financiare independente consultate (Yahoo Finance, Trading Economics) confirmă în mod concordant faptul central: randamentele obligațiunilor guvernamentale din SUA și Marea Britanie au urcat semnificativ în august 2026, la niveluri nemaivăzute de ani buni, pe fondul prețului mai mare al petrolului și al tensiunilor din războiul SUA-Iran. Rămân două rezerve tehnice: cifrele exacte ale randamentului variază între surse și momente de raportare (piața s-a mișcat rapid pe parcursul lunii), iar reperele istorice de comparație (2002, 2007, 2008, 2011, în funcție de țară și scadență) diferă ca precizie și nu au fost verificate cap-coadă printr-o serie statistică unică. Cititorul poate verifica nivelurile curente în timp real pe platforme precum Trading Economics sau site-urile băncilor centrale.",
+  "persoane": []
+}
