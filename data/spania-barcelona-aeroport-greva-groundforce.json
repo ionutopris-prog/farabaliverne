@@ -1,0 +1,42 @@
+{
+  "slug": "spania-barcelona-aeroport-greva-groundforce",
+  "title": "Greva de la aeroportul Barcelona-El Prat intră în a treia săptămână — până la 2,4 milioane de pasageri afectați",
+  "category": "Extern",
+  "date": "2026-08-17",
+  "source": "The Local Spain / The Olive Press",
+  "url": "https://www.thelocal.es/20260731/strikes-at-barcelona-and-mallorca-airports-threaten-august-travel-in-spain",
+  "dek": "Greva pe termen nedeterminat a 1.179 de angajați Groundforce de la aeroportul Barcelona-El Prat, declanșată pe 4 august 2026 de sindicatul CGT, a intrat în a treia săptămână, cu impact estimat de Ministerul Transporturilor spaniol asupra a circa 2,4 milioane de pasageri și 11.600 de zboruri până în septembrie. O grevă similară la aeroportul din Palma de Mallorca, a companiei Swissport, a fost anulată la începutul lunii august după un acord cu sindicatul UGT.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Sindicatul CGT a declanșat, pe 4 august 2026, o grevă pe termen nedeterminat a 1.179 de angajați ai Groundforce, compania care asigură serviciile de handling la sol (check-in, îmbarcare, bagaje, coordonarea zborurilor) la terminalele T1 și T2 ale aeroportului Barcelona-El Prat, pentru companii precum Lufthansa, Air France, KLM și Turkish Airlines.",
+      "sources": [
+        {"name": "The Local Spain — Strikes at Barcelona and Mallorca airports threaten August travel in Spain", "url": "https://www.thelocal.es/20260731/strikes-at-barcelona-and-mallorca-airports-threaten-august-travel-in-spain"},
+        {"name": "The Olive Press — Holiday chaos fears as Barcelona airport staff call indefinite strike", "url": "https://www.theolivepress.es/spain-news/2026/07/31/holiday-chaos-fears-as-barcelona-airport-staff-call-indefinite-strike-before-august-getaway-rush/"}
+      ]
+    },
+    {
+      "text": "Ministerul spaniol al Transporturilor estimează că greva ar putea afecta circa 2,4 milioane de pasageri și 11.600 de zboruri pe parcursul unei luni; s-au impus servicii minime obligatorii între 35% și 80% din capacitatea normală, în funcție de rută și de alternativele de conectare disponibile.",
+      "sources": [
+        {"name": "The Local Spain — Strikes at Barcelona and Mallorca airports threaten August travel in Spain", "url": "https://www.thelocal.es/20260731/strikes-at-barcelona-and-mallorca-airports-threaten-august-travel-in-spain"}
+      ]
+    },
+    {
+      "text": "Angajații reclamă oboseală fizică, stres, volum de muncă excesiv, ore suplimentare neplătite, perioade insuficiente de odihnă și lipsa pregătirii pentru personalul nou angajat, într-un context de personal insuficient în plin sezon de vârf.",
+      "sources": [
+        {"name": "The Olive Press — Holiday chaos fears as Barcelona airport staff call indefinite strike", "url": "https://www.theolivepress.es/spain-news/2026/07/31/holiday-chaos-fears-as-barcelona-airport-staff-call-indefinite-strike-before-august-getaway-rush/"}
+      ]
+    },
+    {
+      "text": "O grevă similară anunțată la aeroportul din Palma de Mallorca, a angajaților Swissport, a fost anulată pe 3 august 2026, după ce sindicatul UGT a ajuns la un acord care prevede extinderea programului de lucru la 40 de ore pe săptămână și un bonus lunar de 85 de euro — spre deosebire de Barcelona, unde negocierile rămân nerezolvate.",
+      "sources": [
+        {"name": "The Local Spain — Strikes at Barcelona and Mallorca airports threaten August travel in Spain", "url": "https://www.thelocal.es/20260731/strikes-at-barcelona-and-mallorca-airports-threaten-august-travel-in-spain"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": "",
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele despre numărul de angajați, pasagerii afectați și motivele grevei coincid între The Local Spain și The Olive Press, două publicații independente care acoperă Spania. Nu am găsit, la data documentării, o declarație oficială a Groundforce sau a aeroportului AENA care să contrazică cifrele citate de sindicatul CGT sau de minister.",
+  "persoane": []
+}
