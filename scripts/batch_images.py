@@ -112,6 +112,22 @@ STRAINE = [
 ]
 
 
+def _incepe_cuvant(hay, cheie):
+    """Potrivire pe ÎNCEPUT de cuvânt: «dobând» prinde «dobânda-cheie».
+
+    Cheile temelor sunt rădăcini, nu cuvinte întregi — româna le declină în
+    toate felurile («incendiu/incendii», «maşină/maşini», «dobândă/dobânzi»).
+    Cu potrivire pe cuvânt întreg, aproape niciun nivel tematic nu se
+    declanşa: „incendi" nu prindea „incendiu", „dobând" nu prindea
+    „dobânda-cheie", şi articolele rămâneau fără poză degeaba.
+
+    Ancorăm la început, NU şi la sfârşit. Subşirul liber ar fi fost mai rău:
+    „port" ar fi prins „raport" şi „important", „tren" ar fi prins
+    „antrenament".
+    """
+    return re.search(r"(?<![\wăâîșț])" + re.escape(cheie), hay) is not None
+
+
 def _contine_cuvant(hay, cheie):
     """Potrivire pe cuvinte întregi. Pe subșiruri, «oms» prindea «Tromsø»."""
     return re.search(r"(?<![\wăâîșț])" + re.escape(cheie) + r"(?![\wăâîșț])",
@@ -204,6 +220,20 @@ TEME = {
     "internet": "server room data centre", "date personale": "server room data centre",
     "inteligenţ[ăa] artificial": "computer server room", "algoritm": "computer server room",
     "satelit": "satellite orbit space", "spaţiu": "satellite orbit space",
+    # adăugate după ce au picat pe cazuri reale, 18 august
+    "auto": "car dealership showroom", "înmatricul": "car dealership showroom",
+    "piaţa auto": "car dealership showroom", "piața auto": "car dealership showroom",
+    "banca angliei": "bank of england building", "banca centrală": "bank building finance",
+    "bce": "european central bank building", "rezerva federal": "federal reserve building",
+    "hectare": "forest landscape trees", "pompier": "firefighters equipment",
+    "cibernetic": "computer server room", "atac cibernetic": "computer server room",
+    "apă": "water tap drinking", "canalizare": "water pipes infrastructure",
+    "gunoi": "waste containers recycling", "deşeuri": "waste containers recycling",
+    "deșeuri": "waste containers recycling", "turism": "tourists city street",
+    "hotel": "hotel building facade", "restaurant": "restaurant interior tables",
+    "chirie": "apartment buildings housing", "locuinţ": "apartment buildings housing",
+    "locuinț": "apartment buildings housing", "imobiliar": "apartment buildings housing",
+    "construcţi": "construction site crane", "construcți": "construction site crane",
 }
 
 # Subiecte la care NU căutăm poză deloc: morţi, violenţă, tragedii. Nicio
@@ -233,7 +263,7 @@ def interogari(art):
     # stoc nu e potrivită lângă cinci răniţi prin împuşcare, iar una
     # nepotrivită e mai rea decât cardul de brand. Potrivirea e pe fragment,
     # nu pe cuvânt întreg: „impusc" trebuie să prindă şi „împuşcare".
-    if any(_fara_diacritice(c) in hay_brut for c in FARA_POZA):
+    if any(_incepe_cuvant(hay_brut, _fara_diacritice(c)) for c in FARA_POZA):
         return []
 
     qs = []
@@ -261,7 +291,7 @@ def interogari(art):
     # Sărim complet subiectele grele: acolo cardul de brand e singurul răspuns
     # decent.
     for cheie in sorted(TEME, key=len, reverse=True):
-        if _contine_cuvant(hay, cheie):
+        if _incepe_cuvant(hay, cheie):
             qs.append((TEME[cheie], "temă"))
             break
 

@@ -1,5 +1,140 @@
 [
  {
+  "slug": "ancpi-eterra-cadastru-blocaj",
+  "title": "Cadastrul, blocat de aproape o lună după atacul cibernetic: ANCPI anunță repornirea e-Terra „săptămâna aceasta”, dar avertizează deja că unele documente vor întârzia",
+  "category": "Social",
+  "query": "computer server room",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "139 Server Room 01",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/139_Server_Room_01.jpg/1280px-139_Server_Room_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:139_Server_Room_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Indrajit Das",
+   "width": 1200,
+   "height": 900,
+   "_query": "computer server room",
+   "_tip": "temă"
+  },
+  "motiv": "Server rack cu echipamente informatice — ilustrează generic infrastructura IT/baza de date afectată de atacul cibernetic asupra e-Terra."
+ },
+ {
+  "slug": "aniela-tudor-aur-sarituri-europene-zagreb-2026",
+  "title": "Aniela Tudor, 15 ani, aduce României aurul la sărituri, la Campionatele Europene de gimnastică de la Zagreb",
+  "category": "Sport",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Ambele arată gimnaste cu costum \"USA\" la sol/paralele inegale, nu la sărituri — nepotrivite pentru subiect (Aniela Tudor, România, proba de sărituri)."
+ },
+ {
+  "slug": "apia-inmatriculari-auto-scadere-iulie-2026",
+  "title": "Piața auto din România a scăzut cu 28% în iulie, dar electricele și plug-in hybrid cresc puternic",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt showroom-uri/parcări auto din Marea Britanie (texte în engleză, numere UK — Arnold Clark, CT600 Volkswagen, Škoda Capitol), deci arată altă țară decât cea din articol (România); nicio poză generică potrivită."
+ },
+ {
+  "slug": "belgia-incendiu-record-hautes-fagnes-16-august",
+  "title": "Cel mai mare incendiu din istoria Belgiei: peste 2.700 de hectare arse în rezervația Hautes Fagnes, sate evacuate",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt păduri/naturi verzi, cascade, iarnă sau tropicale — niciuna nu arată foc, fum, incendiu sau vegetație arsă; ar induce în eroare cititorul despre subiect."
+ },
+ {
+  "slug": "berlin-csd-atac-terorist",
+  "title": "Atac la parada Berlin Pride: un mort și 29 de răniți, atacatorul împușcat de poliție a doua zi",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "boe-dobanda-mentinuta-3-75",
+  "title": "Banca Angliei menține dobânda-cheie la 3,75% pentru a cincea oară anul acesta — vot 6–3, trei membri au cerut majorare",
+  "category": "Extern",
+  "query": "bank of england building",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "Bank of England Building, London, UK - Diliff",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bank_of_England_Building%2C_London%2C_UK_-_Diliff.jpg/1280px-Bank_of_England_Building%2C_London%2C_UK_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "author": "Diliff",
+   "width": 1200,
+   "height": 706,
+   "_query": "bank of england building",
+   "_tip": "temă"
+  },
+  "motiv": "Fațada clădirii Băncii Angliei, clar identificabilă, cadru curat cu cer senin — ilustrează onest instituția care a luat decizia."
+ },
+ {
+  "slug": "bulgaria-explozie-uzina-munitie-emco",
+  "title": "Explozie la o uzină de muniție din Bulgaria care aprovizionează Ucraina — fără victime",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "burnete-avertisment-recesiune-2026",
+  "title": "Consilierul prezidențial Radu Burnete: „E foarte posibil ca anul ăsta să încheiem cu o recesiune”",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "buzau-apa-program-valea-slanicului-seceta",
+  "title": "Apă cu program pentru nouă localități de pe Valea Slănicului, în Buzău — seceta a dus debitul râului la un nivel critic",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Niciuna nu ilustrează apă/secetă relevant — sunt termometre de cameră, un bloc din Malaysia și angajați US Forest Service; nimic legat de alimentare cu apă sau râu."
+ },
+ {
+  "slug": "bvb-profit-record-semestru-1-2026",
+  "title": "Bursa de Valori București a avut cel mai bun prim semestru din istoria sa: profit individual de 17 milioane lei",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "toate 4 arată Börse Frankfurt (Germania), nu BVB — instituție greșită, ar induce în eroare"
+ },
+ {
+  "slug": "casa-verde-2026-doar-baterii",
+  "title": "Casa Verde 2026 renunță la panouri fotovoltaice: banii merg doar spre baterii de stocare",
+  "category": "Economie",
+  "query": "Diana Buzoianu",
+  "query_type": "persoană",
+  "photo": {
+   "_insotit": true,
+   "title": "Conferință susținută de Ministrul Mediului, Apelor și Pădurilor, Diana-Anda Buzoianu - 9 iulie 2025",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Conferin%C8%9B%C4%83_sus%C8%9Binut%C4%83_de_Ministrul_Mediului%2C_Apelor_%C8%99i_P%C4%83durilor%2C_Diana-Anda_Buzoianu_-_9_iulie_2025.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Conferin%C8%9B%C4%83_sus%C8%9Binut%C4%83_de_Ministrul_Mediului,_Apelor_%C8%99i_P%C4%83durilor,_Diana-Anda_Buzoianu_-_9_iulie_2025.JPG",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Privesc.Eu România",
+   "width": 1200,
+   "height": 679,
+   "_query": "Diana Buzoianu",
+   "_tip": "persoană"
+  },
+  "motiv": "Poza arată o conferință de presă la Ministerul Mediului, Apelor și Pădurilor din România (bannerul vizibil), instituția condusă de Diana Buzoianu — celelalte 4 sunt din Republica Moldova (steaguri și stema Moldovei), altă țară."
+ },
+ {
   "slug": "cernavoda-dragaj-esec-buzoianu-14-august",
   "title": "Dragajul de pe Dunăre nu a dat rezultatul scontat la Cernavodă — Bolojan anunță un proiect pe termen lung, Bala 2",
   "category": "Economie",
@@ -7,15 +142,684 @@
   "query_type": "persoană",
   "photo": {
    "_insotit": true,
-   "title": "20.01.2026 - Întrevederea Președintelui Parlamentului, Igor Grosu, cu Diana-Anda Buzoianu, ministra Mediului, Apelor și Pădurilor a României - 55051836945",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/20.01.2026_-_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului%2C_Igor_Grosu%2C_cu_Diana-Anda_Buzoianu%2C_ministra_Mediului%2C_Apelor_%C8%99i_P%C4%83durilor_a_Rom%C3%A2niei_-_55051836945.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descriptionurl": "https://commons.wikimedia.org/wiki/File:20.01.2026_-_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului,_Igor_Grosu,_cu_Diana-Anda_Buzoianu,_ministra_Mediului,_Apelor_%C8%99i_P%C4%83durilor_a_Rom%C3%A2niei_-_55051836945.jpg",
-   "license": "CC0",
-   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "author": "Parlamentul Republicii Moldova | Pagina oficială",
+   "title": "Conferință susținută de Ministrul Mediului, Apelor și Pădurilor, Diana-Anda Buzoianu - 9 iulie 2025",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Conferin%C8%9B%C4%83_sus%C8%9Binut%C4%83_de_Ministrul_Mediului%2C_Apelor_%C8%99i_P%C4%83durilor%2C_Diana-Anda_Buzoianu_-_9_iulie_2025.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Conferin%C8%9B%C4%83_sus%C8%9Binut%C4%83_de_Ministrul_Mediului,_Apelor_%C8%99i_P%C4%83durilor,_Diana-Anda_Buzoianu_-_9_iulie_2025.JPG",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Privesc.Eu România",
    "width": 1200,
-   "height": 800
-  }
+   "height": 679,
+   "_query": "Diana Buzoianu",
+   "_tip": "persoană"
+  },
+  "motiv": "Femeie la microfoane cu bannerul „Ministerul Mediului, Apelor și Pădurilor\" — corespunde direct cu ministra Diana Buzoianu citată în articol; celelalte 4 sunt din Moldova (steaguri și stema R. Moldova), țară greșită."
+ },
+ {
+  "slug": "china-ev-cota-piata-europa-vest",
+  "title": "Mărcile auto chinezești ating cote record în Europa de Vest — dar procentele citate în presă măsoară lucruri diferite",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Nicio poză nu arată mașini chinezești (BYD/MG/Chery/Geely); sunt stații de încărcare generice (UK, Turcia, SUA) sau un Ford european — ar induce în eroare pe subiectul specific al articolului."
+ },
+ {
+  "slug": "china-henan-digul-beiru-taifun-dolphin",
+  "title": "China (Xinhua): digul de pe râul Beiru, reparat după ruptura provocată de taifunul Dolphin — „fără victime”, spune presa de stat",
+  "category": "Media de stat",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "china-japonia-ambasada-tokyo-ofiter-jgsdf",
+  "title": "Ofițerul japonez inculpat după ce a intrat cu cuțitul în ambasada Chinei la Tokyo. Ce SUSȚINE presa de stat chineză și ce arată sursele independente",
+  "category": "Media de stat",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt săli de judecată din SUA/UK (una cu drapel american), fără nicio legătură cu Japonia/China/ambasadă/militar — subiectul articolului nici măcar nu implică un tribunal."
+ },
+ {
+  "slug": "coreea-nord-racheta-wonsan-japonia-protest",
+  "title": "Coreea de Nord a lansat a doua rachetă balistică într-o săptămână, Japonia a protestat oficial",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Niciuna nu are legătură cu subiectul (pisici, aprovizionare cu apă, scară în pădure) — nu ilustrează nici măcar generic o rachetă, armată sau context Coreea-Japonia."
+ },
+ {
+  "slug": "costinesti-drona-fragment-mare-13-august",
+  "title": "Fragment de dronă găsit în mare la Costinești, plaja evacuată — MApN: fără risc pirotehnic",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate cele 5 poze arată soldați afgani (text arab/dari, uniforme non-românești) în antrenament de asalt clădire — nimic legat de plajă, mare, dronă sau MApN România."
+ },
+ {
+  "slug": "cutremur-vrancea-45-11-august",
+  "title": "Cutremur în Vrancea, marți seara — magnitudinea inițială 4,5 revizuită de INFP la 4,3",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "david-popovici-200m-liber-semifinala-europene-2026",
+  "title": "David Popovici, cel mai bun timp din semifinalele la 200m liber — se califică în finala de vineri, la Campionatele Europene de la Paris",
+  "category": "Sport",
+  "query": "swimming pool lane",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": true,
+   "title": "King County Aquatic Center competition pool and timing system - 23 November 2022",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg/1280px-King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Tanis Coralee Leonhardi",
+   "width": 1200,
+   "height": 900,
+   "_query": "swimming pool lane",
+   "_tip": "temă"
+  },
+  "motiv": "bazin de înot competițional, cu culoare, blocuri de start și drapele naționale suspendate — ilustrează generic o competiție de înot precum Europenele, fără a pretinde a fi de la evenimentul din Paris."
+ },
+ {
+  "slug": "denis-popescu-record-national-fluture-europene-paris",
+  "title": "Denis Popescu doboară recordul național la 100 m fluture la Europenele de la Paris, dar ratează finala",
+  "category": "Sport",
+  "query": "swimming pool lane",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": true,
+   "title": "King County Aquatic Center competition pool and timing system - 23 November 2022",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg/1280px-King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Tanis Coralee Leonhardi",
+   "width": 1200,
+   "height": 900,
+   "_query": "swimming pool lane",
+   "_tip": "temă"
+  },
+  "motiv": "bazin de înot competițional cu culoare, blocuri de start și steaguri naționale atârnate — generic, potrivit pentru o competiție europeană de înot."
+ },
+ {
+  "slug": "digi-communications-pierdere-459-milioane-euro-s1-2026",
+  "title": "Digi Communications: venituri de 1,2 miliarde de euro în S1 2026, dar pierdere netă de 45,9 milioane de euro",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "drona-galati-a-patra-16-august",
+  "title": "A patra dronă doborâtă în România: un F-18 spaniol a interceptat-o lângă Galați, RO-Alert a ajuns după impact",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 arată drone multirotor (quadcopter/hexacopter) civile de tip hobby sau cercetare — un tip de obiect diferit de drona cu aripă fixă (tip Shahed/Geran) relevantă pentru incidentele de survolare a României dinspre Republica Moldova; ar induce cititorul în eroare asupra tipului real de amenințare."
+ },
+ {
+  "slug": "e-sanatatea-mea-platforma-cnas-1-septembrie",
+  "title": "De la 1 septembrie, românii vor avea rețetele, trimiterile și istoricul medical într-un singur portal — „E-Sănătatea Mea”, lansată de CNAS",
+  "category": "Social",
+  "query": "hospital corridor beds",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "Keynsham Hospital, Claude Harrison Ward",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Keynsham_Hospital%2C_Claude_Harrison_Ward.jpg/1280px-Keynsham_Hospital%2C_Claude_Harrison_Ward.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Keynsham_Hospital,_Claude_Harrison_Ward.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Rwendland",
+   "width": 1200,
+   "height": 900,
+   "_query": "hospital corridor beds",
+   "_tip": "temă"
+  },
+  "motiv": "Salon de spital generic, fără text/însemne care să identifice o țară — poate ilustra sistemul medical. Poza 2 arată explicit clădirea „Sheffield Kidney Institute, University of Sheffield\" (Marea Britanie), o instituție concretă, complet nelegată de subiect."
+ },
+ {
+  "slug": "epstein-dosare-victime-maxwell-instanta",
+  "title": "O judecătoare americană aprobă publicarea unor noi documente din dosarul Epstein, respingând opoziția lui Ghislaine Maxwell",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "europa-format-propriu-negocieri-ucraina-trump",
+  "title": "Franța, Germania și Marea Britanie își pregătesc un format propriu de negocieri pe Ucraina, de teamă să nu fie ocolite de Trump",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "europa-incendii-2026-489826-hectare-record",
+  "title": "489.826 de hectare arse în UE de la începutul anului — al patrulea cel mai negru bilanț din 2012 încoace",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Niciuna nu arată incendiu/foc/fum sau vegetație arsă — sunt jungle, cascadă, iarnă, pădure verde intactă; ar induce cititorul în eroare."
+ },
+ {
+  "slug": "europa-incendii-cost-economic-asigurari-decalaj",
+  "title": "Incendiile din Europa devin o problemă economică: pierderi de 43 de miliarde de euro vara trecută, doar 500 de milioane acoperite de asigurări",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Niciuna nu arată foc/fum/vegetație arsă — sunt păduri verzi, cascade și zăpadă, ar induce în eroare"
+ },
+ {
+  "slug": "europa-incendii-franta-germania-evacuari-14-august",
+  "title": "Incendii noi forțează evacuări masive în Franța și Germania, în plin val de căldură european",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Niciuna nu arată incendiu/foc/fum — sunt păduri tropicale, cascadă, coroane de copaci și zăpadă, deci induc în eroare cititorul."
+ },
+ {
+  "slug": "fantana-zece-ani-inchisoare",
+  "title": "„Zece ani de închisoare dacă îți sapi o fântână în curte”? Ce spune de fapt proiectul Ministerului Mediului",
+  "category": "Politică",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt închisori generice (gard cu sârmă ghimpată), nu au legătură cu fântâni, apă sau gospodării — ar induce cititorul în eroare despre subiectul real (captarea ilegală de apă)."
+ },
+ {
+  "slug": "franta-control-investitii-straine-10-la-suta",
+  "title": "Franța înăsprește controlul investițiilor străine: pragul de notificare scade de la 25% la 10% pentru firmele strategice",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "germania-inflatie-iulie-28-procente",
+  "title": "Inflația din Germania urcă la 2,8% în iulie, peste așteptările pieței — Destatis leagă creșterea de finalul subvenției la carburanți",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate arată magazine din alte țări (UK, Norvegia, Mexic, China) — nicio legătură cu Germania sau cu subiectul carburanți/inflație; nu există o poză oneste pentru acest articol."
+ },
+ {
+  "slug": "gimnastica-zagreb-europene-sabrina-voinea-controversa",
+  "title": "Gimnastică: România, locul 11 la Europenele de la Zagreb — Sabrina Voinea, scoasă din finala de la bârnă după o contestație a propriei antrenoare",
+  "category": "Sport",
+  "query": "gymnastics competition",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "2019-06-28 1st FIG Artistic Gymnastics JWCH Women's All-around competition Subdivision 1 Uneven bars (Martin Rulsch) 108",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/2019-06-28_1st_FIG_Artistic_Gymnastics_JWCH_Women%27s_All-around_competition_Subdivision_1_Uneven_bars_%28Martin_Rulsch%29_108.jpg/1280px-2019-06-28_1st_FIG_Artistic_Gymnastics_JWCH_Women%27s_All-around_competition_Subdivision_1_Uneven_bars_%28Martin_Rulsch%29_108.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:2019-06-28_1st_FIG_Artistic_Gymnastics_JWCH_Women%27s_All-around_competition_Subdivision_1_Uneven_bars_(Martin_Rulsch)_108.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Martin Rulsch, Wikimedia Commons",
+   "width": 1200,
+   "height": 1032,
+   "_query": "gymnastics competition",
+   "_tip": "temă"
+  },
+  "motiv": "Gimnastă la paralele într-o sală de concurs, generic — se potrivește temei; poza 1 e o gimnastă americană (SUA) căzută la sol, alt context și altă echipă."
+ },
+ {
+  "slug": "hormuz-minoan-pioneer-atac-vas",
+  "title": "Cargobotul „Minoan Pioneer”, lovit de un proiectil neidentificat în Strâmtoarea Ormuz — un membru al echipajului dispărut",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "houthi-aramco-jazan-al-doilea-atac-neconfirmat",
+  "title": "Houthi revendică un al doilea atac cu drone asupra rafinăriei Aramco din Jazan. Arabia Saudită și Aramco nu au confirmat",
+  "category": "Extern",
+  "query": "oil refinery industrial",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "Altona oil refinery 2",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Altona_oil_refinery_2.jpg/1280px-Altona_oil_refinery_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Altona_oil_refinery_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Sgroey",
+   "width": 1200,
+   "height": 554,
+   "_query": "oil refinery industrial",
+   "_tip": "temă"
+  },
+  "motiv": "Rafinărie generică cu turnuri de distilare, fără elemente specifice unei alte țări/persoane care ar induce în eroare — potrivită ca ilustrare generică a unei rafinării de tip Aramco."
+ },
+ {
+  "slug": "houthi-atacuri-arabia-saudita-yemen-escaladare",
+  "title": "Houthii redeschid un front în Yemen: atacuri asupra Arabiei Saudite și a portului Al-Makha, cifrele victimelor rămân disputate",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "ice-delaney-hall-a-treia-moarte-new-jersey",
+  "title": "A treia moarte la Delaney Hall: ICE a confirmat decesul unui bărbat din Guatemala, dezvăluit public abia după o schimbare de politică privind raportarea",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "india-arunachal-pradesh-inundatii-militari-disparuti",
+  "title": "Inundații fulger și alunecări de teren în Arunachal Pradesh: cinci militari indieni dispăruți, patru muncitori morți",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "india-chamoli-tunel-inundatie-14-august",
+  "title": "Prăbușire de tunel la un proiect hidroelectric din Uttarakhand (India): morți și dispăruți, bilanț încă fluid",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "inflatie-10-9-putere-cumparare",
+  "title": "Puterea de cumpărare se prăbușește: inflație de 10,9%, salarii și pensii reale în scădere",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "italia-explozie-uzina-munitie-knds-colleferro",
+  "title": "Explozie la uzina de muniție KNDS din Colleferro, lângă Roma — fără victime, cauza exactă e în anchetă",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "iunie-2026-record-caldura-copernicus-omm",
+  "title": "Iunie 2026, cea mai caldă lună iunie din istorie pentru Europa de Vest — Copernicus și OMM confirmă recorduri și în ocean",
+  "category": "Știință",
+  "query": "thermometer hot weather",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "85+ degrees in the living room!!",
+   "url": "https://live.staticflickr.com/3346/4645760186_5f42bbb976_b.jpg",
+   "descriptionurl": "https://www.flickr.com/photos/70928775@N00/4645760186",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "insidious_plots",
+   "width": 1024,
+   "height": 819,
+   "_query": "thermometer hot weather",
+   "_tip": "temă"
+  },
+  "motiv": "Termometru clasic care indică peste 30°C — ilustrează generic căldura extremă, fără să inducă în eroare (fără persoane, țară sau eveniment specific asociat greșit)."
+ },
+ {
+  "slug": "japonia-koizumi-vizita-australia-india-cooperare-aparare",
+  "title": "Ministrul Apărării al Japoniei pleacă în Australia și India să caute alternative la armele americane",
+  "category": "Extern",
+  "query": "Shinjiro Koizumi",
+  "query_type": "persoană",
+  "photo": {
+   "_insotit": true,
+   "title": "Billy Joseph shaking hands with Koizumi Shinjiro in 2026",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Billy_Joseph_shaking_hands_with_Koizumi_Shinjiro_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Billy_Joseph_shaking_hands_with_Koizumi_Shinjiro_in_2026.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "author": "Japanese Ministry of Defense",
+   "width": 1200,
+   "height": 800,
+   "_query": "Shinjiro Koizumi",
+   "_tip": "persoană"
+  },
+  "motiv": "Îl arată pe Koizumi (dreapta) în calitate oficială, dând mâna cu un demnitar străin, lângă drapelul japonez — potrivit pentru un articol despre diplomație/apărare niponă."
+ },
+ {
+  "slug": "jessica-bang-golferista-australiana-moarte",
+  "title": "A murit Jessica Bang, golferistă profesionistă australiană de 18 ani, după o hemoragie cerebrală în Thailanda",
+  "category": "Sport",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "kennedy-center-trump-nume-cladire-inchidere-renovare",
+  "title": "Consiliul Kennedy Center votează repunerea numelui lui Trump pe clădire și închiderea pentru doi ani de renovări",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate cele 5 poze sunt săli de tribunal (SUA/UK), nu clădiri de teatru/instituție culturală ca Kennedy Center — nu se potrivesc subiectului."
+ },
+ {
+  "slug": "liban-atac-israel-ansar-deir-zahrani",
+  "title": "Atac aerian israelian ucide 11 oameni în două sate din sudul Libanului — Israel spune că a vizat „infrastructură Hezbollah”, premierul libanez respinge justificarea",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "litoral-obiecte-suspecte-eforie-tomis-16-august",
+  "title": "Două alerte pe litoral într-o singură dimineață: dronă fără explozibil în Portul Tomis, piesă metalică (nu mină) la Eforie Nord",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "toate arată porturi de containere/nave marfă generice, fără legătură cu drone, mine sau plajă"
+ },
+ {
+  "slug": "maglev-china-800-kmh-53-secunde",
+  "title": "„Trenul glonț” chinezesc care face 0–800 km/h în 5,3 secunde cântărește 1,1 tone și nu duce pe nimeni",
+  "category": "Știință",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate sunt linii de asamblare de mașini obișnuite (fabrici auto, unele în Polonia), nu au legătură cu un maglev experimental — ar induce cititorul în eroare."
+ },
+ {
+  "slug": "mangione-pledoarie-vinovatie-stalking-federal",
+  "title": "Luigi Mangione a pledat vinovat la acuzațiile federale de stalking în uciderea CEO-ului UnitedHealthcare — riscă închisoare pe viață, procesul de stat rămâne incert",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "media-de-stat-china-marea-chinei-de-sud",
+  "title": "Presa de stat chineză spune că sentința din 2016 privind Marea Chinei de Sud e „hârtie fără valoare”. Ce arată sursele independente",
+  "category": "Media de stat",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt săli de judecată americane/britanice generice (fără legătură cu Haga, arbitraj internațional sau Marea Chinei de Sud) — ar induce în eroare, nu ilustrează onest subiectul."
+ },
+ {
+  "slug": "medicamente-oncologice-lipsa-spitale-2026",
+  "title": "Medicamente oncologice lipsă din spitalele românești din iunie — posibil disponibile abia în septembrie",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt exponate de muzeu farmaceutic vechi (dispozitive istorice cehe pentru pilule/tablete) — nu ilustrează deloc criza actuală de medicamente oncologice în spitale."
+ },
+ {
+  "slug": "messina-furt-antonello-da-messina-16-august",
+  "title": "Patru opere ale lui Antonello da Messina, furate dintr-un muzeu din Sicilia — două au fost găsite deja lângă clădire",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "miruta-nave-mangalia-conditie-rheinmetall",
+  "title": "Miruță anunță patru nave militare la Șantierul Mangalia, condiție pentru livrările Rheinmetall — dar șantierul e în insolvență",
+  "category": "Politică",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt șantiere/macarale generice din Germania/Olanda, fără șantier naval sau nave militare — ar induce în eroare cititorul."
+ },
+ {
+  "slug": "moldova-anre-tarif-gaz-energocom-scumpire",
+  "title": "Gazele se scumpesc în Republica Moldova: ANRE propune 20,30 lei/m³, în loc de cei 20,93 ceruți de Energocom — decizia finală, pe 21 august",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate sunt rafturi de magazin (bere, perii, deșeuri COVID, băuturi chinezești) — nimic legat de gaze/energie/Moldova."
+ },
+ {
+  "slug": "motorina-acciza-redusa-partial-16-august",
+  "title": "Reducerea de 20% a accizei la motorină a intrat în vigoare, dar la Rompetrol și Lukoil prețul a rămas neschimbat",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Poza 1 e un oficial guvernamental, nu o benzinărie; poza 2 e o benzinărie braziliană (portugheză „Ducha Grátis\", „Gasolina\", „Alcool\") — altă țară, deloc relevantă pentru prețul motorinei în România."
+ },
+ {
+  "slug": "nicusor-dan-raport-alegeri-2024-intarziere",
+  "title": "Raportul lui Nicușor Dan despre anularea alegerilor din 2024, amânat pentru a patra oară — Administrația Prezidențială spune că a devenit o analiză pe două decenii de „război hibrid” rusesc",
+  "category": "Politică",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Niciuna nu se potrivește: 1 e altă persoană necunoscută, 2 e sindicaliști la un eveniment BNS, iar 3-5 sunt burse germane (Frankfurt/DAX) — nimic legat de Nicușor Dan, Administrația Prezidențială sau raportul alegerilor."
+ },
+ {
+  "slug": "noua-zeelanda-luxon-vot-incredere-penk",
+  "title": "Premierul neozeelandez Christopher Luxon supraviețuiește unui vot de încredere în propriul partid, după o provocare de conducere a lui Chris Penk",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "toate 5 pozele arată porturi/containere/nave marfă, fără nicio legătură cu subiectul politic"
+ },
+ {
+  "slug": "polonia-spacex-starlink-discriminare-rezolvata",
+  "title": "SpaceX a exclus Polonia din roaming-ul Starlink european, apoi a revenit după amenințarea cu retragerea celor 50 milioane dolari pentru Ucraina",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "polonia-statuie-fecioara-maria-konotopie-record",
+  "title": "Polonia a inaugurat cea mai înaltă statuie a Fecioarei Maria din Europa, ridicată cu bani de la un miliardar local",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Ambele fotografii arată un spital britanic (Sheffield), fără nicio legătură cu subiectul (statuie religioasă în Polonia)"
+ },
+ {
+  "slug": "popovici-ans-premii-restante-120-milioane",
+  "title": "Scandalul premiilor sportive neplătite: ANS confirmă restanțe de 120 de milioane de lei către sportivii campioni",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "popovici-aur-100m-liber-europene-paris-2026",
+  "title": "David Popovici ia aurul la 100 m liber la Europenele de la Paris, cu un nou record al competiției — al treilea titlu la rând",
+  "category": "Sport",
+  "query": "swimming pool lane",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": true,
+   "title": "King County Aquatic Center competition pool and timing system - 23 November 2022",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg/1280px-King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Tanis Coralee Leonhardi",
+   "width": 1200,
+   "height": 900,
+   "_query": "swimming pool lane",
+   "_tip": "temă"
+  },
+  "motiv": "bazin de înot generic, cu culoare olimpică (drapele, tribune, blocuri de start) — ilustrează onest tipul de eveniment, fără să pretindă că e de la Paris."
+ },
+ {
+  "slug": "popovici-dubla-istorica-trei-editii-europene",
+  "title": "David Popovici, dubla istorică — primul înotător din istorie cu aur la 100m și 200m liber la trei ediții europene consecutive",
+  "category": "Sport",
+  "query": "swimming pool lane",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": true,
+   "title": "King County Aquatic Center competition pool and timing system - 23 November 2022",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg/1280px-King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Tanis Coralee Leonhardi",
+   "width": 1200,
+   "height": 900,
+   "_query": "swimming pool lane",
+   "_tip": "temă"
+  },
+  "motiv": "bazin olimpic cu culoare, blocuri de start și steaguri naționale — generic, potrivit pentru probă de înot la competiție internațională"
+ },
+ {
+  "slug": "popovici-europene-paris-record",
+  "title": "David Popovici, în fața unui record istoric la Europenele de la Paris: ce se probează și ce ține de viitor",
+  "category": "Sport",
+  "query": "swimming pool lane",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": true,
+   "title": "King County Aquatic Center competition pool and timing system - 23 November 2022",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg/1280px-King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:King_County_Aquatic_Center_competition_pool_and_timing_system_-_23_November_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Tanis Coralee Leonhardi",
+   "width": 1200,
+   "height": 900,
+   "_query": "swimming pool lane",
+   "_tip": "temă"
+  },
+  "motiv": "Bazin olimpic cu blocuri de start și tribune, generic pentru un eveniment de natație internațional — nu identifică nicio persoană sau locație anume."
+ },
+ {
+  "slug": "psg-aston-villa-super-cup-2026",
+  "title": "PSG a învins Aston Villa 2-1 și a păstrat Supercupa Europei — al doilea trofeu la rând, gol validat de VAR în minutul 61",
+  "category": "Sport",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "putin-flota-pacificului-nato-asia-pacific-amenintare",
+  "title": "TASS: Putin spune că NATO „se infiltrează” în Asia-Pacific și amenință Rusia. Ce arată sursele independente",
+  "category": "Media de stat",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate cele 5 poze arată infanterie afgană (probabil) în antrenament de asalt clădiri — nicio legătură cu Rusia, Flota Pacifică, nave sau NATO/Asia-Pacific."
+ },
+ {
+  "slug": "rapid-dinamo-pancu-eliminat-panduru-critica",
+  "title": "Rapid – Dinamo 0-1: Daniel Pancu eliminat în minutul 54, Basarab Panduru spune că scorul „nu reflectă” jocul de pe teren",
+  "category": "Sport",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "rares-toader-birmingham-greutate-locul-5",
+  "title": "Rareș Toader, locul 5 la aruncarea greutății, la Campionatele Europene de Atletism de la Birmingham",
+  "category": "Sport",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Ambele arată o sală de forță/culturism (haltere, genuflexiuni cu bară), nu aruncarea greutății pe stadion — echipament și disciplină greșite pentru subiect."
+ },
+ {
+  "slug": "romania-consum-scadere-11-luni",
+  "title": "Consumul românilor a scăzut 11 luni la rând — iunie 2026, cea mai severă contracție din interval",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate pozele arată magazine clar din alte țări (UK, Norvegia, Mexic, China/Taiwan) — prețuri și texte străine vizibile, nu se potrivesc unui subiect despre consumul din România."
+ },
+ {
+  "slug": "romania-deficit-comercial-s1-2026",
+  "title": "Deficitul comercial al României a scăzut cu 2%, la 16,46 miliarde euro, în primul semestru din 2026",
+  "category": "Economie",
+  "query": "cargo containers port",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "MAERSK HANOI Container Ship (Port Koper SIKOP, 2023)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg/1280px-MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:MAERSK_HANOI_Container_Ship_(Port_Koper_SIKOP,_2023).jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Petar Milošević",
+   "width": 1200,
+   "height": 899,
+   "_query": "cargo containers port",
+   "_tip": "temă"
+  },
+  "motiv": "Navă și macarale de port, ilustrează generic comerțul internațional/importuri-exporturi, fără elemente specifice altei țări evidente în prim-plan."
+ },
+ {
+  "slug": "romania-premier-desemnare-1-septembrie-grindeanu-nazare",
+  "title": "100 de zile fără guvern cu puteri depline: Nicușor Dan plănuiește să desemneze un nou premier pe 1 septembrie — variantele Grindeanu și Nazare",
+  "category": "Politică",
+  "query": "Victoria Palace Bucharest",
+  "query_type": "entitate",
+  "photo": {
+   "_insotit": false,
+   "title": "Bucuresti, Romania. PALATUL VICTORIA. (Sediul Guvernului Romaniei) 1. Dec. 2015 (exterior 1) (B-II-m-A-19877)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Bucuresti%2C_Romania._PALATUL_VICTORIA._%28Sediul_Guvernului_Romaniei%29_1._Dec._2015_%28exterior_1%29_%28B-II-m-A-19877%29.jpg/1280px-Bucuresti%2C_Romania._PALATUL_VICTORIA._%28Sediul_Guvernului_Romaniei%29_1._Dec._2015_%28exterior_1%29_%28B-II-m-A-19877%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania._PALATUL_VICTORIA._(Sediul_Guvernului_Romaniei)_1._Dec._2015_(exterior_1)_(B-II-m-A-19877).jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Britchi Mirela",
+   "width": 1200,
+   "height": 900,
+   "_query": "Victoria Palace Bucharest",
+   "_tip": "entitate"
+  },
+  "motiv": "Clădire instituțională românească (Cotroceni) cu drapel, generică și fără persoane greșit identificate — potrivită ca „foto ilustrativă” pentru un subiect despre decizii prezidențiale/guvernamentale."
+ },
+ {
+  "slug": "romania-ungaria-cooperare-militara-bilaterala",
+  "title": "Șefii apărării din România și Ungaria s-au întâlnit la București pentru a consolida cooperarea militară bilaterală",
+  "category": "Politică",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate cele 5 arată trupe afgane în exerciții de asalt cu inscripții în arabă/farsi — nimic legat de armatele română/maghiară sau întâlniri oficiale la nivel de generali."
  },
  {
   "slug": "romsilva-contracte-fara-licitatie-anap-buzoianu",
@@ -25,15 +829,171 @@
   "query_type": "persoană",
   "photo": {
    "_insotit": true,
-   "title": "20.01.2026 - Întrevederea Președintelui Parlamentului, Igor Grosu, cu Diana-Anda Buzoianu, ministra Mediului, Apelor și Pădurilor a României - 55051836945",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/20.01.2026_-_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului%2C_Igor_Grosu%2C_cu_Diana-Anda_Buzoianu%2C_ministra_Mediului%2C_Apelor_%C8%99i_P%C4%83durilor_a_Rom%C3%A2niei_-_55051836945.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "descriptionurl": "https://commons.wikimedia.org/wiki/File:20.01.2026_-_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului,_Igor_Grosu,_cu_Diana-Anda_Buzoianu,_ministra_Mediului,_Apelor_%C8%99i_P%C4%83durilor_a_Rom%C3%A2niei_-_55051836945.jpg",
-   "license": "CC0",
-   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "author": "Parlamentul Republicii Moldova | Pagina oficială",
+   "title": "Conferință susținută de Ministrul Mediului, Apelor și Pădurilor, Diana-Anda Buzoianu - 9 iulie 2025",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Conferin%C8%9B%C4%83_sus%C8%9Binut%C4%83_de_Ministrul_Mediului%2C_Apelor_%C8%99i_P%C4%83durilor%2C_Diana-Anda_Buzoianu_-_9_iulie_2025.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Conferin%C8%9B%C4%83_sus%C8%9Binut%C4%83_de_Ministrul_Mediului,_Apelor_%C8%99i_P%C4%83durilor,_Diana-Anda_Buzoianu_-_9_iulie_2025.JPG",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "author": "Privesc.Eu România",
    "width": 1200,
-   "height": 800
-  }
+   "height": 679,
+   "_query": "Diana Buzoianu",
+   "_tip": "persoană"
+  },
+  "motiv": "Fundal oficial „Ministerul Mediului, Apelor și Pădurilor\" (România) — instituția exact numită în articol; celelalte 4 sunt din Republica Moldova (steaguri, stemă, Parlament Chișinău), altă țară."
+ },
+ {
+  "slug": "roskilde-danemarca-elev-injunghiat-inceput-an-scolar",
+  "title": "Un elev de 16 ani a murit înjunghiat la o petrecere de început de an școlar în Roskilde, Danemarca",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "schengen-italia-spania-ceuta",
+  "title": "Italia și Spania se blochează reciproc la graniță: Roma suspendă libera circulație pentru sosirile din Spania, Madridul răspunde cu controale de retorsiune",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "spital-bagdasar-arseni-plosnite-inchidere-sectie",
+  "title": "Un focar de ploșnițe închide o secție a Spitalului Bagdasar-Arseni din București",
+  "category": "Social",
+  "query": "hospital corridor beds",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "Keynsham Hospital, Claude Harrison Ward",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Keynsham_Hospital%2C_Claude_Harrison_Ward.jpg/1280px-Keynsham_Hospital%2C_Claude_Harrison_Ward.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Keynsham_Hospital,_Claude_Harrison_Ward.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Rwendland",
+   "width": 1200,
+   "height": 900,
+   "_query": "hospital corridor beds",
+   "_tip": "temă"
+  },
+  "motiv": "Salon spitalicesc generic, ilustrează secția de recuperare; poza 2 arată clar clădiri britanice (Sheffield Kidney Institute, plăcuțe în engleză), induce în eroare asupra locației."
+ },
+ {
+  "slug": "stellantis-recall-955000-vehicule-camera-marsarier",
+  "title": "Stellantis recheamă în service 955.000 de vehicule în America de Nord, din cauza unui software care poate bloca imaginea camerei de marșarier",
+  "category": "Economie",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "sua-rujeola-record-35-ani-2026",
+  "title": "SUA au înregistrat cele mai multe cazuri de rujeolă din ultimii 35 de ani — și riscă să piardă statutul de țară fără boală endemică",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate sunt vaccinuri COVID-19 sau variolă (etichetate explicit), niciuna nu e vaccin ROR/rujeolă — ar induce în eroare cititorul."
+ },
+ {
+  "slug": "suedia-varsta-raspundere-penala-14-ani",
+  "title": "Suedia coboară vârsta răspunderii penale la 14 ani, cu trei zile înainte de alegeri",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Poza 1 e o hartă (grafic, nu fotografie), poza 2 e portret al unui om politic (probabil premierul Kristersson) nemenționat în titlu — niciuna nu ilustrează onest subiectul (minori/justiție penală în Suedia)."
+ },
+ {
+  "slug": "trump-iran-compensatie-hormuz",
+  "title": "Trump cere „compensații” de la Iran pentru 50 de ani de daune, în timp ce negocierile pentru Strâmtoarea Hormuz se blochează",
+  "category": "Extern",
+  "query": "oil refinery industrial",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "Anacortes Refinery 31911",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Anacortes_Refinery_31911.JPG/1280px-Anacortes_Refinery_31911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Anacortes_Refinery_31911.JPG",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "author": "Walter Siegmund (talk)",
+   "width": 1200,
+   "height": 890,
+   "_query": "oil refinery industrial",
+   "_tip": "temă"
+  },
+  "motiv": "rafinărie petrochimică generică lângă munți — cea mai neutră ilustrare a industriei petroliere/energetice legate de subiectul petrol-Iran-Hormuz, fără elemente care sugerează o locație anume."
+ },
+ {
+  "slug": "tulcea-luncavita-drona-explozie-14-august",
+  "title": "Dronă prăbușită lângă Luncavița, Tulcea: explozie și incendiu la 5 km de granița cu Ucraina — al treilea incident aerian în 24 de ore",
+  "category": "Social",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "ucraina-atac-rafinarie-gazprom-salavat-bashkortostan",
+  "title": "Ucraina a lovit rafinăria Gazprom din Salavat, la 1.300 km de graniță — cel mai adânc atac recent în teritoriul rus",
+  "category": "Extern",
+  "query": "oil refinery industrial",
+  "query_type": "temă",
+  "photo": {
+   "_insotit": false,
+   "title": "Altona oil refinery 2",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Altona_oil_refinery_2.jpg/1280px-Altona_oil_refinery_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "descriptionurl": "https://commons.wikimedia.org/wiki/File:Altona_oil_refinery_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Sgroey",
+   "width": 1200,
+   "height": 554,
+   "_query": "oil refinery industrial",
+   "_tip": "temă"
+  },
+  "motiv": "Rafinărie petrochimică generică, fără elemente specifice altei țări (persoane, peisaj distinctiv, palmieri) — potrivită ca ilustrație neutră pentru „rafinărie”, etichetabilă clar ca ilustrativă."
+ },
+ {
+  "slug": "ucraina-atac-samara-progress-flamingo",
+  "title": "Ucraina lovește cu rachete Flamingo un centru rusesc de rachete spațiale la 900 km de graniță — Zelenski confirmă atacul la Samara",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate 5 sunt soldați afgani/irakieni în antrenament de intrare în clădire (text în farsi/dari pe pereți) — nu au legătură cu rachete de croazieră, atac ucrainean sau facilități spațiale rusești; ar induce în eroare cititorul."
+ },
+ {
+  "slug": "ucraina-pecenihi-harkov-atac-10-morti-18-august",
+  "title": "Atac rusesc cu rachetă asupra satului Pecenihî, din regiunea Harkov: cel puțin 10 morți",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "uk-interzice-capcanele-abonament-burnham",
+  "title": "Regatul Unit accelerează interzicerea „capcanelor de abonament” și a reducerilor false — reguli de la ianuarie 2027",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Poza 1 e un aparat japonez de casă (etichete în japoneză), poza 2 e un chioșc administrativ berlinez (imigrări) — niciuna nu are legătură cu Regatul Unit, abonamente sau consumatori."
+ },
+ {
+  "slug": "ungaria-autocar-polonez-m3-12-morti",
+  "title": "Accident grav în Ungaria: autocar polonez răsturnat pe autostrada M3 lângă Mezőkeresztes, 12 morți",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
  },
  {
   "slug": "unicef-gaza-300-copii-armistitiu",
@@ -41,6 +1001,25 @@
   "category": "Extern",
   "query": null,
   "query_type": null,
-  "photo": null
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "virginia-state-university-impuscaturi-arestare",
+  "title": "Cinci răniți prin împușcare la Virginia State University, cu câteva zile înainte de începerea cursurilor — un tânăr de 19 ani, care nu era student, a fost arestat",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "niciun candidat găsit"
+ },
+ {
+  "slug": "zhu-rongji-fost-premier-china-moarte",
+  "title": "A murit Zhu Rongji, fostul premier chinez care a negociat aderarea Chinei la OMC — la vremea respectivă, criticat intern că a „vândut” prea multe concesii",
+  "category": "Extern",
+  "query": null,
+  "query_type": null,
+  "photo": null,
+  "motiv": "Toate patru sunt din Rusia (Sankt Petersburg, chirilic) sau India (bancă ESAF, malayalam) — nimic din China sau legat de Zhu Rongji/OMC."
  }
 ]

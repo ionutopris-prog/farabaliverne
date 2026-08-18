@@ -220,7 +220,8 @@ OPENVERSE = ("https://api.openverse.org/v1/images/?q=%s"
              "&mature=false")
 
 
-def search_openverse(query, article_text="", limit=20, nume_persoana=None):
+def search_openverse(query, article_text="", limit=20, nume_persoana=None,
+                     strict=True):
     """Aceiași candidați, aceeași structură, altă sursă.
 
     Nu caută persoane: pentru portrete Commons e mai de încredere, iar aici
@@ -254,9 +255,14 @@ def search_openverse(query, article_text="", limit=20, nume_persoana=None):
         # Movies - White Night", o proiecție de film lângă o piscină. Cerem ca
         # titlul să conțină măcar un cuvânt din ce căutăm. Commons n-are nevoie
         # de filtrul ăsta — acolo titlul fișierului chiar descrie fișierul.
-        cuvinte = [c for c in re.findall(r"\w{4,}", query.lower())]
-        if cuvinte and not any(c in low for c in cuvinte):
-            continue
+        # `strict` e pentru fluxul vechi, unde luam orbeşte primul candidat şi
+        # aveam nevoie de o cârjă. Când alege cineva uitându-se la poze
+        # (`alege_poza.py`), cârja doar ne sărăceşte lista: multe poze bune au
+        # titluri care nu repetă cuvintele căutării.
+        if strict:
+            cuvinte = [c for c in re.findall(r"\w{4,}", query.lower())]
+            if cuvinte and not any(c in low for c in cuvinte):
+                continue
 
         w = r.get("width") or 0
         h = r.get("height") or 0
@@ -282,12 +288,13 @@ def search_openverse(query, article_text="", limit=20, nume_persoana=None):
     return out
 
 
-def search_tot(query, article_text="", limit=12, nume_persoana=None):
+def search_tot(query, article_text="", limit=12, nume_persoana=None, strict=True):
     """Commons întâi, Openverse pe post de plasă. Prima sursă care dă ceva câștigă."""
     gasit = search(query, article_text, limit=limit, nume_persoana=nume_persoana)
     if gasit:
         return gasit
-    return search_openverse(query, article_text, nume_persoana=nume_persoana)
+    return search_openverse(query, article_text, nume_persoana=nume_persoana,
+                            strict=strict)
 
 
 def license_url(short_name):
