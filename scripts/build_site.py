@@ -328,10 +328,25 @@ def pcard_json(d):
             </div></a>
 '''
 
+def _fara_diacritice(t):
+    return unicodedata.normalize("NFKD", t.lower()).encode("ascii", "ignore").decode()
+
+
 def build_politicieni(arts, shell):
     byp = {}
     for d in arts.values():
         for n in (d.get("persoane") or []): byp.setdefault(n, []).append(d)
+
+    # Dacă un politician din roster e MENȚIONAT în titlu sau în dek, articolul
+    # apare și la el, chiar dacă redactorul a uitat să-l treacă în `persoane[]`.
+    # Se caută numele întreg, nu prenumele — „Ilie Bolojan", nu „Ilie" — ca să nu
+    # ajungă la el orice articol despre un alt om cu același prenume.
+    for d in arts.values():
+        txt = _fara_diacritice(d.get("title", "") + " " + d.get("dek", ""))
+        deja = set(d.get("persoane") or [])
+        for n, _ in ROSTER:
+            if n not in deja and _fara_diacritice(n) in txt:
+                byp.setdefault(n, []).append(d)
     names = [n for n,_ in ROSTER]; party = {n:pt for n,pt in ROSTER}
     for n in byp:
         if n not in party: names.append(n); party[n] = "—"
