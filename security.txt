@@ -4,5 +4,7 @@
 Contact: mailto:contact@farabaliverne.ro
 Expires: 2027-08-18T00:00:00.000Z
 Preferred-Languages: ro, en
-Canonical: https://farabaliverne.ro/.well-known/security.txt
+Canonical: https://farabaliverne.ro/security.txt
+# Nota: calea standard e /.well-known/security.txt, dar hostingul rezerva
+# folderul ala pentru reinnoirea certificatului si nu-l putem folosi.
 Policy: https://farabaliverne.ro/termeni.html

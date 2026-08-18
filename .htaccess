@@ -7,8 +7,6 @@
   RewriteCond %{HTTPS} !=on [OR]
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^ https://farabaliverne.ro%{REQUEST_URI} [L,R=301]
-  # security.txt la calea standard, servit din radacina
-  RewriteRule ^\.well-known/security\.txt$ /security.txt [L]
   # www -> non-www
   RewriteCond %{HTTP_HOST} ^www\.farabaliverne\.ro$ [NC]
   RewriteRule ^ https://farabaliverne.ro%{REQUEST_URI} [L,R=301]
