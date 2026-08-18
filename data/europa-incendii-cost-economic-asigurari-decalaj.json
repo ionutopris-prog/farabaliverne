@@ -1,0 +1,41 @@
+{
+  "slug": "europa-incendii-cost-economic-asigurari-decalaj",
+  "title": "Incendiile din Europa devin o problemă economică: pierderi de 43 de miliarde de euro vara trecută, doar 500 de milioane acoperite de asigurări",
+  "category": "Economie",
+  "date": "2026-08-18",
+  "source": "Reuters / BURSA",
+  "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953",
+  "dek": "Pe fondul valului de incendii de vegetație din Grecia, Croația, Belgia, Franța, Germania și Spania, Reuters relatează, într-un articol reluat de BURSA pe 18 august 2026, că pierderile economice provocate de incendiile din Europa vara trecută s-au ridicat la circa 43 de miliarde de euro, din care doar aproximativ 500 de milioane au fost acoperite de asigurări — un decalaj de circa 42,5 miliarde de euro.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Un incendiu de vegetație pe insula grecească Salamina a provocat 2 morți și mai multe răniți; peste 500 de persoane au fost evacuate, iar la intervenție au participat aproximativ 200 de pompieri, sprijiniți de avioane și elicoptere.",
+      "sources": [
+        {"name": "BURSA (preluare Reuters) — Europa arde, iar incendiile devin o problemă economică", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+      ]
+    },
+    {
+      "text": "Pierderile economice provocate de incendiile din Europa în vara precedentă (2025) sunt estimate la aproximativ 43 de miliarde de euro, din care doar circa 500 de milioane de euro au fost acoperite de despăgubiri de asigurare — un decalaj („protection gap”) de aproximativ 42,5 miliarde de euro între pagubele reale și ce a fost efectiv asigurat.",
+      "sources": [
+        {"name": "BURSA (preluare Reuters) — cifrele pierderilor economice și ale despăgubirilor de asigurare", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+      ]
+    },
+    {
+      "text": "Fenomenul afectează mai multe sectoare economice simultan: agricultura (inclusiv reducerea producției de porumb în Franța), turismul (evacuări din destinații mediteraneene în plin sezon), energia (prețuri crescute cu peste 20% într-o singură zi în anumite piețe) și infrastructura (drumuri, căi ferate, rețele electrice afectate direct de flăcări sau de măsurile de precauție).",
+      "sources": [
+        {"name": "BURSA (preluare Reuters) — impactul pe agricultură, turism, energie și infrastructură", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+      ]
+    },
+    {
+      "text": "Incendii de amploare au fost raportate în aceeași perioadă și în Croația (orașul Omiš, un mort, zeci de răniți, circa 1.200 de evacuați) și în Belgia (rezervația Hautes Fagnes/High Fens, cel mai mare incendiu de vegetație înregistrat vreodată în această țară) — evenimente verificate separat de redacția noastră.",
+      "sources": [
+        {"name": "BURSA (preluare Reuters) — incendiile din Croația și Belgia", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "aiNote": "Cifrele economice (43 de miliarde de euro pierderi, ~500 de milioane despăgubiri) provin dintr-o analiză Reuters reluată de BURSA; nu am găsit încă publicarea originală Reuters pentru a verifica metodologia exactă din spatele estimărilor — le redăm ca atare, atribuite sursei. Evenimentele din Croația și Belgia au verificări separate, mai detaliate, pe site — aici le menționăm doar ca parte a tabloului economic european, fără să repetăm toate detaliile.",
+  "math": "Diferența dintre pierderile totale (43 mld. €) și despăgubirile de asigurare (0,5 mld. €) este de 42,5 mld. €, adică asigurările au acoperit doar aproximativ 1,2% din pagubele estimate ale incendiilor din Europa.",
+  "persoane": []
+}
