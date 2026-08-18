@@ -29,11 +29,6 @@ local/corpus.jsonl
 local/stil.md
 .venv/
 
-# 🔴 Biblioteca modelului local. Contine TEXTUL INTEGRAL al oricarui document
-# pe care fondatorul il baga inauntru — inclusiv acte personale, contracte,
-# documente de la munca. Repo-ul e PUBLIC. Nu are ce cauta in git, niciodata.
-local/biblioteca/
-
 # Documente INTERNE — raman pe disc, NU in git (repo-ul e public).
 # Copie de siguranta in ~/Documents/Backup-farabaliverne/
 WORKLOG.md
