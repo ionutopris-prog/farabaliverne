@@ -15,9 +15,18 @@ name: Facebook — postează și reîncearcă
 # Poarta e secretul FB_ENABLED. Fără el, rulările nu postează nimic — doar scriu
 # în log ce ar fi ieșit. Nimic public nu se întâmplă până nu pui cheile.
 
+# OPRIT (18 august 2026, decizia fondatorului): pe Facebook postează el, și
+# alege el ce merită dat mai departe. Distribuția pe social e conținut, iar
+# conținutul îl decide fondatorul — automatizarea ar fi luat exact decizia asta
+# din mâna lui. Lista din care alege: `de-postat.html`.
+#
+# Ceasul e scos, nu comentat pe jumătate: un cron care rulează în gol la fiecare
+# 30 de minute e zgomot în Actions și ascunde rulările care chiar contează.
+# Rămâne butonul manual, plus scriptul întreg în `scripts/posteaza_facebook.py`,
+# cu tot mecanismul de reîncercare. Dacă vreodată se schimbă decizia, se pune
+# cronul înapoi și se adaugă secretele — nu e nimic de rescris.
+
 on:
-  schedule:
-    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 concurrency:
