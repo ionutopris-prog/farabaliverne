@@ -196,6 +196,29 @@ jobs:
             git push origin main
           fi
 
+      # Postarea pe pagina de Facebook. Poarta e secretul FB_ENABLED: fără el,
+      # scriptul doar arată în log ce ar fi postat, nu iese nimic public.
+      # continue-on-error fiindcă Facebook picat nu are voie să oprească
+      # publicarea site-ului — site-ul e treaba principală, pagina e distribuție.
+      #
+      # Cel mult unul pe rulare: la 14 ediții pe zi, mai mult ar însemna un
+      # perete de postări, iar Facebook taie distribuția paginilor care torn.
+      - name: Postează pe Facebook
+        if: steps.redactor.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          FB_ENABLED: ${{ secrets.FB_ENABLED }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: |
+          python3 scripts/posteaza_facebook.py --publica --cate 1
+          if ! git diff --quiet data/_postate-fb.json 2>/dev/null || \
+             [ -n "$(git status --porcelain data/_postate-fb.json)" ]; then
+            git add data/_postate-fb.json
+            git commit -m "Facebook: postat"
+            git push origin main
+          fi
+
       - name: Publică (declanșează deploy-ul)
         if: steps.redactor.outputs.changed == 'true'
         env:
