@@ -1,0 +1,90 @@
+{
+  "slug": "ungaria-paks-centrala-nucleara-baraje-seceta",
+  "title": "Ungaria scufundă baraje pe Dunăre ca să salveze centrala nucleară de la Paks, amenințată de secetă",
+  "category": "Extern",
+  "date": "2026-08-18",
+  "source": "Euronews / NBC News",
+  "url": "https://www.euronews.com/my-europe/2026/08/18/hungary-opens-sluice-and-sinks-barges-to-protect-nuclear-plant-as-danube-levels-fall",
+  "dek": "Nivelul Dunării a scăzut atât de mult încât Ungaria riscă să oprească centrala nucleară de la Paks, care asigură în mod normal aproape jumătate din electricitatea țării. Autoritățile au deschis o stăvilă și scufundă deliberat două barje lângă centrală pentru a ridica nivelul apei de răcire, în timp ce construiesc un prag permanent din piatră pe fundul râului.",
+  "mainVerdict": "Probat, cu nuanțe",
+  "probat": [
+    {
+      "text": "Din luni la amiază, autoritățile ungare eliberează circa 20 de metri cubi de apă pe secundă din brațul Ráckeve-Soroksár în Dunărea principală, la Dömsöd (la 50 km sud de Budapesta), pentru a ridica local nivelul apei. Concomitent, două barje sunt scufundate deliberat mai la sud, lângă Paks, formând un prag temporar de fund al râului, menit să ridice nivelul apei la priza de răcire a centralei.",
+      "sources": [
+        {
+          "name": "Euronews — Hungary opens sluice and sinks barges to protect nuclear plant as Danube levels fall",
+          "url": "https://www.euronews.com/my-europe/2026/08/18/hungary-opens-sluice-and-sinks-barges-to-protect-nuclear-plant-as-danube-levels-fall"
+        },
+        {
+          "name": "NBC News — Hungary to sink barges, build sill in Danube River to keep nuclear plant running",
+          "url": "https://www.nbcnews.com/world/hungary/hungary-sink-barges-build-sill-danube-river-keep-nuclear-plant-running-rcna592183"
+        }
+      ]
+    },
+    {
+      "text": "Centrala de la Paks, aflată la 100 km sud de Budapesta, asigură în mod normal aproape jumătate din producția de electricitate a Ungariei, prin cele patru reactoare ale sale, care depind de apa de răcire din Dunăre. Seceta prelungită și vremea caldă din regiune au dus la niveluri excepțional de scăzute ale fluviului, forțând deja reduceri temporare de producție în această lună.",
+      "sources": [
+        {
+          "name": "NBC News — impactul operațional asupra centralei",
+          "url": "https://www.nbcnews.com/world/hungary/hungary-sink-barges-build-sill-danube-river-keep-nuclear-plant-running-rcna592183"
+        },
+        {
+          "name": "CGTN — Hungary begins sinking barges to protect Paks nuclear power plant",
+          "url": "https://news.cgtn.com/news/2026-08-16/Hungary-begins-sinking-barges-to-protect-Paks-nuclear-power-plant-1PEHyyNlQVW/p.html"
+        }
+      ]
+    },
+    {
+      "text": "Pe lângă barje, autoritățile construiesc în regim de urgență un prag permanent din piatră pe fundul Dunării, între Paks și Dunaszentbenedek, menit să ridice nivelul apei cu până la un metru. Circa 100 de militari au fost mobilizați pentru lucrări non-stop, iar guvernul estimează costul intervențiilor la câteva miliarde de forinți — mult sub pierderile economice lunare estimate în cazul opririi centralei.",
+      "sources": [
+        {
+          "name": "CGTN — detalii despre pragul de piatră și costurile estimate",
+          "url": "https://news.cgtn.com/news/2026-08-16/Hungary-begins-sinking-barges-to-protect-Paks-nuclear-power-plant-1PEHyyNlQVW/p.html"
+        },
+        {
+          "name": "Hungarian Conservative — Hungary to Sink Two Barges in Danube to Keep Nuclear Plant Running",
+          "url": "https://www.hungarianconservative.com/articles/current/hungary-sink-barge-waterbed-sill-danube-draught-paks-crisis/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Pragurile critice ale nivelului Dunării la care ar trebui oprite turbinele diferă ca precizie între surse: Hungarian Conservative/CGTN citează pragul de -136/-137 cm (risc pentru o turbină) și sub -140 cm (oprire completă) peste 4-5 zile, în timp ce alte relatări (preluate de agenții) vorbesc despre un prag de -132 cm „la începutul zilei de luni”. Toate sursele converg asupra faptului că sub -140 cm centrala ar trebui oprită complet, dar cifrele intermediare variază, posibil din cauza momentelor diferite de raportare într-o situație în evoluție rapidă.",
+      "sources": [
+        {
+          "name": "CGTN — praguri de -136/-137 cm și sub -140 cm",
+          "url": "https://news.cgtn.com/news/2026-08-16/Hungary-begins-sinking-barges-to-protect-Paks-nuclear-power-plant-1PEHyyNlQVW/p.html"
+        },
+        {
+          "name": "Hungarian Conservative — cronologia intervenției",
+          "url": "https://www.hungarianconservative.com/articles/current/hungary-sink-barge-waterbed-sill-danube-draught-paks-crisis/"
+        }
+      ]
+    },
+    {
+      "text": "Volumul de piatră folosit la pragul permanent variază: unele relatări indică un start de 35.000 de metri cubi, extensibil la 110.000, altele citează direct 145.000 de metri cubi. Diferența poate reflecta etape succesive ale lucrării (planul inițial vs. varianta extinsă ulterior), dar niciuna dintre sursele consultate nu clarifică explicit dacă cifrele se referă la aceeași etapă a proiectului.",
+      "sources": [
+        {
+          "name": "Hungarian Conservative — 35.000–110.000 metri cubi",
+          "url": "https://www.hungarianconservative.com/articles/current/hungary-sink-barge-waterbed-sill-danube-draught-paks-crisis/"
+        },
+        {
+          "name": "CGTN — 145.000 metri cubi",
+          "url": "https://news.cgtn.com/news/2026-08-16/Hungary-begins-sinking-barges-to-protect-Paks-nuclear-power-plant-1PEHyyNlQVW/p.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Declarațiile oficialilor unguri despre certitudinea reușitei intervenției („vom preveni asta”) sunt poziții politice de asigurare a populației, nu garanții tehnice verificabile — rezultatul final depinde de evoluția reală a nivelului Dunării și de precipitațiile anunțate în Austria, factori din afara controlului direct al autorităților."
+    }
+  ],
+  "math": {
+    "title": "Reducerea la 10% din capacitate arată cât de aproape a fost centrala de oprire",
+    "explanation": "Paks are o capacitate instalată de aproximativ 2.000 MW și asigură în mod normal aproape jumătate din electricitatea Ungariei. În timpul crizei, producția a fost redusă la circa 10% din capacitate — adică aproximativ 200 MW, o scădere de peste 90% față de funcționarea normală. Această cifră arată cât de aproape a ajuns centrala de o oprire completă înainte de intervenția cu baraje și stăvilă, chiar dacă pragurile exacte de oprire raportate de surse diferă ca precizie."
+  },
+  "aiNote": "Sursele independente consultate (Euronews, NBC News, CGTN — media de stat chineză, dar aici doar cu rol de relatare factuală confirmată și de alte redacții, Hungarian Conservative) confirmă în mod concordant faptul central: seceta a redus critic nivelul Dunării la Paks, iar Ungaria a răspuns prin deschiderea unei stăvile, scufundarea a două barje și construcția unui prag permanent din piatră, pentru a proteja răcirea centralei nucleare care asigură aproape jumătate din electricitatea țării. Rămân două rezerve tehnice: pragurile exacte de nivel al apei la care s-ar opri turbinele/centrala variază ușor între surse, la fel ca volumul de piatră folosit la pragul permanent — diferențe posibil explicate de etapele succesive ale unei intervenții de urgență aflate încă în desfășurare la data verificării.",
+  "persoane": []
+}
