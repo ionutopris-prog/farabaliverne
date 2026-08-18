@@ -7,6 +7,8 @@
   RewriteCond %{HTTPS} !=on [OR]
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^ https://farabaliverne.ro%{REQUEST_URI} [L,R=301]
+  # security.txt la calea standard, servit din radacina
+  RewriteRule ^\.well-known/security\.txt$ /security.txt [L]
   # www -> non-www
   RewriteCond %{HTTP_HOST} ^www\.farabaliverne\.ro$ [NC]
   RewriteRule ^ https://farabaliverne.ro%{REQUEST_URI} [L,R=301]
@@ -39,6 +41,14 @@ Options -Indexes
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Permitted-Cross-Domain-Policies "none"
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()"
+  # HSTS — spune browserului sa nu mai incerce niciodata http. 180 de zile, fara
+  # preload (preload-ul e greu de anulat). Certificat wildcard, deci includeSubDomains e sigur.
+  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
+  # CSP — site static, cu CSS/JS puse direct in pagina (de aici 'unsafe-inline').
+  # Pozele vin si de pe alte domenii (articolele vechi, inca nemutate la noi), deci img-src https:.
+  Header set Content-Security-Policy "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self' https://api.open-meteo.com https://geocoding-api.open-meteo.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
   # HTML mereu proaspăt (site auto-actualizat des) — fără cache în browser/edge
   <FilesMatch "\.html$">
     Header set Cache-Control "no-cache, must-revalidate, max-age=0"
