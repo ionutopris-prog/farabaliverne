@@ -306,8 +306,9 @@
             <a href="mailto:contact@farabaliverne.ro" class="mailto">📧 sau scrie direct la contact@farabaliverne.ro</a>
           </div>
         </form>
+<div id="fb-trimis" style="display:none;margin-top:14px;padding:12px 14px;border:1px solid var(--line-2);border-radius:10px;background:var(--card)">Ți s-a deschis programul de e-mail, cu mesajul completat. Apasă <b>trimite</b> acolo și ajunge la noi. Dacă nu s-a deschis nimic, scrie-ne direct la <b>contact@farabaliverne.ro</b>.</div>
         <div class="form-note">
-          Acest formular este momentan o machetă vizuală — trimiterea reală prin site urmează. Până atunci, scrie-ne direct pe <b>contact@farabaliverne.ro</b>, îți răspundem de acolo.
+          Formularul deschide programul tău de e-mail, cu mesajul gata scris — îl trimiți tu, de la adresa ta. Sau scrie-ne direct la <b>contact@farabaliverne.ro</b>, îți răspundem de acolo.
         </div>
       </div>
 
@@ -471,6 +472,34 @@
       b.remove();
     };
     var w=document.querySelector('main .wrap'); if(w) w.appendChild(b);
+  });
+})();
+</script>
+<!--CONTACT-JS--><script>
+(function(){
+  var f = document.querySelector('form');
+  if (!f) return;
+  f.removeAttribute('onsubmit');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = function(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+    var nume = val('nume'), email = val('email'), mesaj = val('mesaj');
+    var sel = document.getElementById('subiect');
+    var tip = sel ? sel.options[sel.selectedIndex].text : 'Mesaj';
+    if (!mesaj) {
+      alert('Scrie un mesaj înainte de a trimite.');
+      return;
+    }
+    var corp = mesaj + '\n\n— — —\n';
+    if (nume)  corp += 'Nume: ' + nume + '\n';
+    if (email) corp += 'Email: ' + email + '\n';
+    corp += 'Trimis din formularul de pe farabaliverne.ro';
+    var adr = 'mailto:contact@farabaliverne.ro'
+            + '?subject=' + encodeURIComponent('[' + tip + '] farabaliverne.ro')
+            + '&body=' + encodeURIComponent(corp);
+    window.location.href = adr;
+    var n = document.getElementById('fb-trimis');
+    if (n) n.style.display = 'block';
   });
 })();
 </script>

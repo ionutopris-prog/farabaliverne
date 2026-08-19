@@ -785,6 +785,66 @@ def _verdict_normalizat(v):
     return "mixt"
 
 
+# ── Formularul de contact: îl facem să chiar trimită ────────────────────────
+#
+# Site-ul e static, fără backend — și rămâne așa intenționat: e ce am declarat
+# și la reevaluarea de reputație, și e adevărat. Un script de mail pe server ar
+# fi însemnat o țintă clasică de spam, pentru o funcție folosită de câteva ori
+# pe lună.
+#
+# Așa că formularul compune un e-mail și deschide programul de mail al omului,
+# cu totul completat. El apasă „trimite". Nimic nu pleacă fără știrea lui, iar
+# adresa lui nu trece prin serverul nostru — o vedem doar când chiar ne scrie.
+#
+# Textul „machetă vizuală” de sub formular iese, fiindcă nu mai e adevărat.
+CONTACT_JS = """<script>
+(function(){
+  var f = document.querySelector('form');
+  if (!f) return;
+  f.removeAttribute('onsubmit');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = function(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+    var nume = val('nume'), email = val('email'), mesaj = val('mesaj');
+    var sel = document.getElementById('subiect');
+    var tip = sel ? sel.options[sel.selectedIndex].text : 'Mesaj';
+    if (!mesaj) {
+      alert('Scrie un mesaj înainte de a trimite.');
+      return;
+    }
+    var corp = mesaj + '\\n\\n— — —\\n';
+    if (nume)  corp += 'Nume: ' + nume + '\\n';
+    if (email) corp += 'Email: ' + email + '\\n';
+    corp += 'Trimis din formularul de pe farabaliverne.ro';
+    var adr = 'mailto:contact@farabaliverne.ro'
+            + '?subject=' + encodeURIComponent('[' + tip + '] farabaliverne.ro')
+            + '&body=' + encodeURIComponent(corp);
+    window.location.href = adr;
+    var n = document.getElementById('fb-trimis');
+    if (n) n.style.display = 'block';
+  });
+})();
+</script>"""
+
+CONTACT_NOTA = ('<div id="fb-trimis" style="display:none;margin-top:14px;padding:12px 14px;'
+                'border:1px solid var(--line-2);border-radius:10px;background:var(--card)">'
+                'Ți s-a deschis programul de e-mail, cu mesajul completat. '
+                'Apasă <b>trimite</b> acolo și ajunge la noi. Dacă nu s-a deschis nimic, '
+                'scrie-ne direct la <b>contact@farabaliverne.ro</b>.</div>')
+
+
+def pune_contact(s):
+    """Face formularul de contact să funcționeze, oriunde ar fi el."""
+    if "<form" not in s or "CONTACT-JS" in s:
+        return s
+    s = re.sub(r'Acest formular este momentan o machetă vizuală[^<]*',
+               'Formularul deschide programul tău de e-mail, cu mesajul gata scris — '
+               'îl trimiți tu, de la adresa ta. Sau scrie-ne direct la ', s)
+    s = s.replace('</form>', '</form>\n' + CONTACT_NOTA, 1)
+    s = s.replace('</body>', '<!--CONTACT-JS-->' + CONTACT_JS + '\n</body>', 1)
+    return s
+
+
 def build_cifre(arts, shell):
     """Pagina cu cifrele proprii — transparență numerică, nu declarații.
 
@@ -1284,6 +1344,7 @@ def main():
         s = repara_share(s)
         s = pune_data(s)
         s = pune_citite(s)
+        s = pune_contact(s)
         # „Cum a titrat fiecare" — doar pe paginile de articol, din datele lor.
         if os.sep + "a" + os.sep in f:
             _slug = os.path.basename(f)[:-5]
