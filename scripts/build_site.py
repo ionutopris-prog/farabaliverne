@@ -389,6 +389,12 @@ SHARE_VECHI_FB = ("window.shareFB=function(){window.open('https://www.facebook.c
                   "sharer.php?u='+e(U),'_blank','noopener,width=650,height=600');};")
 SHARE_VECHI_X = ("window.shareX=function(){window.open('https://twitter.com/intent/tweet?url='"
                  "+e(U)+'&text='+e(T),'_blank','noopener,width=560,height=460');};")
+# Varianta intermediară, care trimitea X tot prin foaia nativă. A stat pe site
+# câteva zile; trebuie recunoscută ca să poată fi înlocuită la rândul ei.
+SHARE_INTERMEDIAR_X = ("window.shareX=function(){if(window.__fbMobil&&navigator.share)"
+                       "{navigator.share({title:T,url:U}).catch(function(){});return;}"
+                       "window.open('https://twitter.com/intent/tweet?url='+e(U)+'&text='+e(T),"
+                       "'_blank','noopener,width=560,height=460');};")
 
 # Pe telefon, sistemul trimite linkurile `facebook.com` direct în aplicația
 # Facebook, iar aplicația NU știe `sharer.php`: deschide fluxul și nu partajează
@@ -403,9 +409,20 @@ SHARE_NOU_FB = ("window.shareFB=function(){if(window.__fbMobil&&navigator.share)
                 "{navigator.share({title:T,url:U}).catch(function(){});return;}"
                 "window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),"
                 "'_blank','noopener,width=650,height=600');};")
-SHARE_NOU_X = ("window.shareX=function(){if(window.__fbMobil&&navigator.share)"
-               "{navigator.share({title:T,url:U}).catch(function(){});return;}"
-               "window.open('https://twitter.com/intent/tweet?url='+e(U)+'&text='+e(T),"
+# X e ALTĂ situație decât Facebook, iar prima reparație le-a tratat la fel —
+# greșit. Facebook nu permite text precompletat de nicăieri, deci acolo foaia
+# nativă de partajare chiar e singura cale. X, în schimb, acceptă `intent`, iar
+# pe telefon linkul `x.com/intent/post` deschide aplicația X cu titlul și
+# adresa deja scrise.
+#
+# Diferența, pentru omul care apasă: la Facebook primești meniul de partajare
+# al sistemului și alegi tu unde; la X ajungi DIRECT în X, cu postarea începută.
+# Asta aștepta fondatorul de la un buton pe care scrie X.
+#
+# Domeniul e `x.com`, nu `twitter.com`: cel vechi redirecționează, iar
+# redirecțiile pierd uneori parametrii pe aplicațiile mobile.
+SHARE_NOU_X = ("window.shareX=function(){"
+               "window.open('https://x.com/intent/post?url='+e(U)+'&text='+e(T),"
                "'_blank','noopener,width=560,height=460');};")
 SHARE_DETECT = ("window.__fbMobil=/Android|iPhone|iPad|iPod|Mobile|Silk/i.test("
                 "navigator.userAgent||'');")
@@ -761,9 +778,16 @@ def repara_share(s):
     după șablon, iar dacă reparația ar sta doar în șablon ar rămâne validă până
     la prima modificare a lui. Aici se autorepară.
     """
-    if SHARE_VECHI_FB not in s and SHARE_VECHI_X not in s:
+    # Atenție la ordinea verificărilor: paginile deja reparate o dată NU mai
+    # conțin varianta veche, deci o ieșire devreme pe „n-are varianta veche" ar
+    # fi lăsat pe loc toate articolele publicate. Exact așa a scăpat X
+    # nereparat, după ce Facebook fusese rezolvat.
+    if (SHARE_VECHI_FB not in s and SHARE_VECHI_X not in s
+            and SHARE_INTERMEDIAR_X not in s):
         return s
-    s = s.replace(SHARE_VECHI_FB, SHARE_NOU_FB).replace(SHARE_VECHI_X, SHARE_NOU_X)
+    s = (s.replace(SHARE_VECHI_FB, SHARE_NOU_FB)
+          .replace(SHARE_VECHI_X, SHARE_NOU_X)
+          .replace(SHARE_INTERMEDIAR_X, SHARE_NOU_X))
     if "__fbMobil=/" not in s:
         s = s.replace("window.shareFB=function()", SHARE_DETECT + "window.shareFB=function()", 1)
     return s
