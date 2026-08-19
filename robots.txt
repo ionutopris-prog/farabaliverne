@@ -5,3 +5,5 @@ Disallow: /preview/
 Disallow: /de-postat.html
 
 Sitemap: https://farabaliverne.ro/sitemap.xml
+# Feed RSS pentru agregatoare si cititoare de stiri:
+# https://farabaliverne.ro/feed.xml

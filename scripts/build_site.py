@@ -17,7 +17,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   3. rulează: python3 scripts/build_site.py
   4. commit + push  →  GitHub urcă singur pe site
 """
-import json, re, glob, os, unicodedata, subprocess, collections
+import json, re, glob, os, unicodedata, subprocess, collections, html
 from datetime import datetime, timedelta, timezone
 
 def now_edition():
@@ -974,6 +974,73 @@ def build_search_page(arts, shell):
     h = h.replace('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')
     return h
 
+def build_rss(arts, momente_pub):
+    """feed.xml — RSS 2.0 cu ultimele articole.
+
+    Un site de știri fără feed e invizibil pentru jumătate din infrastructura
+    web: agregatoarele, cititoarele de știri, Google News, boții care
+    redistribuie. Costă o funcție și se regenerează singur, ca sitemap-ul.
+
+    Punem ultimele 50, nu tot: un feed cu 362 de intrări e greu de digerat
+    pentru cititoare și nimeni nu derulează atât.
+    """
+    from email.utils import format_datetime
+    from zoneinfo import ZoneInfo
+    B = "https://farabaliverne.ro/"
+
+    def esc(t):
+        return html.escape((t or "").strip(), quote=False)
+
+    # cele mai noi întâi, după momentul publicării (din git), cu data ca rezervă
+    lista = [d for slug, d in arts.items()
+             if os.path.exists(os.path.join(ROOT, "a", slug + ".html"))]
+    lista.sort(key=lambda d: (momente_pub.get(d["slug"], ""), d.get("date", "")),
+               reverse=True)
+
+    items = []
+    for d in lista[:50]:
+        link = f"{B}a/{d['slug']}.html"
+        cand = momente_pub.get(d["slug"]) or (d.get("date") or "")
+        try:
+            dt = datetime.fromisoformat(cand)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=ZoneInfo("Europe/Bucharest"))
+            pub = format_datetime(dt)
+        except ValueError:
+            pub = ""
+        verdict = (d.get("mainVerdict") or "").strip()
+        np_, nc_ = len(d.get("probat") or []), len(d.get("contestat") or [])
+        rezumat = (d.get("dek") or "").strip()
+        if verdict:
+            rezumat += f"\n\nUnde bat probele: {verdict}."
+        if np_ or nc_:
+            rezumat += f" Verificate: {np_} probate, {nc_} contestate."
+        items.append(
+            "    <item>\n"
+            f"      <title>{esc(d.get('title'))}</title>\n"
+            f"      <link>{link}</link>\n"
+            f"      <guid isPermaLink=\"true\">{link}</guid>\n"
+            + (f"      <pubDate>{pub}</pubDate>\n" if pub else "")
+            + f"      <category>{esc(d.get('category'))}</category>\n"
+            f"      <description>{esc(rezumat)}</description>\n"
+            "    </item>")
+
+    acum = format_datetime(datetime.now(ZoneInfo("Europe/Bucharest")))
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+           '  <channel>\n'
+           '    <title>Fără Baliverne</title>\n'
+           f'    <link>{B}</link>\n'
+           '    <description>Agregăm știrile din presa românească și internațională, '
+           'verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>\n'
+           '    <language>ro</language>\n'
+           f'    <lastBuildDate>{acum}</lastBuildDate>\n'
+           f'    <atom:link href="{B}feed.xml" rel="self" type="application/rss+xml"/>\n'
+           + "\n".join(items) + "\n  </channel>\n</rss>\n")
+    open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8").write(xml)
+    return len(items)
+
+
 def build_sitemap(arts):
     """Regenerează sitemap.xml cu TOATE articolele + paginile-hub (SEO Google)."""
     from zoneinfo import ZoneInfo
@@ -1052,6 +1119,8 @@ def main():
         open(os.path.join(ROOT, "closcu.html"), "w", encoding="utf-8").write(closcu)
     # 2b. sitemap.xml (toate articolele + hub) pentru Google
     nsitemap = build_sitemap(arts)
+    # 2c. feed.xml — RSS, ca site-ul sa fie citibil de agregatoare si cititoare
+    nfeed = build_rss(arts, momente())
     # 3. count pe toate paginile
     # Toate paginile, nu doar cele generate: și cele statice (termeni, contact,
     # metodologie, 404…) au butoanele de partajare, deci și ele au nevoie de
@@ -1119,9 +1188,16 @@ def main():
                     s = re.sub(r'<script type="application/ld\+json">.*?</script>', lambda m: lds, s, count=1, flags=re.S)
                 elif '</head>' in s:
                     s = s.replace('</head>', '  ' + lds + '\n</head>', 1)
+        # Linkul catre RSS, pe fiecare pagina: asa il gasesc cititoarele de
+        # stiri si extensiile de browser, fara sa stie adresa pe de rost.
+        if "application/rss+xml" not in s and "</head>" in s:
+            s = s.replace('</head>',
+                          '  <link rel="alternate" type="application/rss+xml" '
+                          'title="Fără Baliverne — articole noi" '
+                          'href="https://farabaliverne.ro/feed.xml">\n</head>', 1)
         if s != orig: open(f, "w", encoding="utf-8").write(s)
     build_stare(arts)
-    print(f"✅ build: {total} articole | feed regenerat | politicieni {nwith} cu verificări + {nwithout} în curând | sitemap {nsitemap} URL-uri")
+    print(f"✅ build: {total} articole | RSS {nfeed} | politicieni {nwith} cu verificări + {nwithout} în curând | sitemap {nsitemap} URL-uri")
 
 if __name__ == "__main__":
     main()
