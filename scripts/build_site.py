@@ -1373,7 +1373,7 @@ def main():
     # deschidea Facebook fără să trimită nimic.
     pages = [IDX] + glob.glob(os.path.join(ROOT,"a","*.html")) + \
             [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html",
-                                            "closcu.html","metodologie.html","cine-suntem.html",
+                                            "closcu.html","cifre.html","metodologie.html","cine-suntem.html",
                                             "corectari.html","contact.html","termeni.html",
                                             "confidentialitate.html","404.html")]
     tb = now_edition()
