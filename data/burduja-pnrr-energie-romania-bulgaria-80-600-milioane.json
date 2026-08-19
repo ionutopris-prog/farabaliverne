@@ -1,0 +1,48 @@
+{
+  "slug": "burduja-pnrr-energie-romania-bulgaria-80-600-milioane",
+  "title": "Burduja: România a bugetat prin PNRR doar 80 de milioane de euro pentru stocarea energiei, față de 600 de milioane ale Bulgariei",
+  "category": "Politică",
+  "date": "2026-08-19",
+  "source": "Marius Tucă Show (Gandul.ro)",
+  "url": "https://www.gandul.ro/emisiuni/marius-tuca-show/secret-bulgari-stocare-energie-burduja-20977382",
+  "dek": "Fostul ministru al Energiei, Sebastian Burduja, a declarat la Marius Tucă Show (11 august 2026) că România a alocat prin PNRR doar 80 de milioane de euro pentru stocarea energiei în baterii, față de 600 de milioane ale Bulgariei, și că înainte de mandatul său exista deja o scrisoare a României către Comisia Europeană prin care se renunța la acei bani. Cifrele despre alocări sunt confirmate independent; afirmația despre scrisoarea de renunțare rămâne neconfirmată de nicio sursă independentă.",
+  "mainVerdict": "Probat, cu nuanțe",
+  "probat": [
+    {
+      "text": "Sebastian Burduja a declarat: „600 de milioane de euro a bugetat Bulgaria în PNRR-ul lor” față de România, care a alocat „80 de milioane, la care voia să renunțe înainte să preiau eu mandatul” — adăugând despre Comisia Europeană: „era cu adresă de la România, că renunță la banii aceia” și că el „m-am dus și am salvat apelul”.",
+      "sources": [
+        {"name": "Gandul — Marius Tucă Show: Secretul bulgarilor la stocare energie (Burduja)", "url": "https://www.gandul.ro/emisiuni/marius-tuca-show/secret-bulgari-stocare-energie-burduja-20977382"}
+      ]
+    },
+    {
+      "text": "Cele două cifre citate de Burduja sunt confirmate independent: Bulgaria a mobilizat prin PNRR (programul RESTORE) 603 milioane de euro pentru proiecte de stocare în baterii, acoperind 50% din costurile eligibile fără licitație competitivă. Alocarea României prin PNRR pentru stocare a fost de 80 de milioane de euro — dar, conform datelor din piață, urmau să fie accesate efectiv doar 50-60 de milioane, o dezangajare de cel puțin 20 de milioane de euro.",
+      "sources": [
+        {"name": "Curs de Guvernare — Diferența la abordarea energiei dintre România și Bulgaria", "url": "https://cursdeguvernare.ro/diferenta-la-abordarea-energiei-dintre-romania-si-bulgaria.html"}
+      ]
+    },
+    {
+      "text": "Rezultatul practic al celor două abordări diferă mult: Bulgaria a ajuns la circa 8,6 GWh capacitate de stocare și 3,3 GW putere instalată, în timp ce România a obținut doar circa 1 GWh din fondurile PNRR, restul capacității venind din Fondul de Modernizare și investiții private.",
+      "sources": [
+        {"name": "Curs de Guvernare — Diferența la abordarea energiei dintre România și Bulgaria", "url": "https://cursdeguvernare.ro/diferenta-la-abordarea-energiei-dintre-romania-si-bulgaria.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Afirmația centrală a lui Burduja — că exista deja o scrisoare trimisă Comisiei Europene, înainte de mandatul său (el a preluat funcția în iunie 2023), prin care România renunța la cei 80 de milioane de euro — nu este confirmată de nicio sursă independentă găsită (presă, document oficial, comunicat al Ministerului Energiei). Rămâne doar afirmația proprie a fostului ministru, redată într-un context de autoevaluare a propriului mandat.",
+      "sources": [
+        {"name": "Gandul — Marius Tucă Show: Secretul bulgarilor la stocare energie (Burduja)", "url": "https://www.gandul.ro/emisiuni/marius-tuca-show/secret-bulgari-stocare-energie-burduja-20977382"}
+      ]
+    },
+    {
+      "text": "Există un eveniment documentat, dar diferit: pe 16 octombrie 2023 — deja în timpul mandatului lui Burduja — Ministerul Energiei a anunțat oficial anularea apelului de proiecte pentru schema de ajutor de stat privind investițiile în stocare de energie (baterii) și panouri fotovoltaice din PNRR, cu mențiunea că ar putea fi reluat în noiembrie. Sursa nu descrie acest eveniment ca pe o „renunțare” la bani dinaintea preluării mandatului, ci ca pe o anulare tehnică a apelului, survenită sub propria sa administrare — ceea ce nu se suprapune clar cu povestea „scrisorii” de dinainte de mandat.",
+      "sources": [
+        {"name": "Economedia — Apelul pentru schema de ajutor din PNRR pentru baterii și panouri fotovoltaice a fost anulat", "url": "https://economedia.ro/oficial-apelul-pentru-schema-de-ajutor-din-pnrr-pentru-investitii-in-baterii-si-panouri-fotovoltaice-a-fost-anulat-ministerul-spune-ca-apelul-ar-putea-fi-reluat-in-noiembrie.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Aici avem un caz tipic de adevăr parțial: cifrele centrale ale lui Burduja (80 mil. € România, 600 mil. € Bulgaria) sunt corecte și confirmate independent de Curs de Guvernare, la fel ca decalajul de rezultate (8,6 GWh vs. 1 GWh). Ce nu rezistă la verificare, sau cel puțin nu are deocamdată o sursă independentă, e povestea „scrisorii de renunțare” trimisă Comisiei Europene înainte de mandatul lui — un detaliu care îl plasează pe Burduja în rolul de salvator al banilor, dar pe care nu l-am găsit confirmat nicăieri altundeva. În schimb, există un eveniment real și documentat — anularea oficială a apelului pe 16 octombrie 2023 — dar acesta a avut loc DUPĂ ce Burduja prelua deja mandatul (iunie 2023), deci nu poate fi „scrisoarea de dinainte” la care se referă el; poate fi o etapă ulterioară a aceleiași povești administrative, sau pur și simplu un episod diferit. Ce ar lămuri lucrurile: publicarea scrisorii propriu-zise sau o declarație a fostului ministru Virgil Popescu (predecesorul lui Burduja), pe care nu am reușit să o găsim.",
+  "math": null,
+  "persoane": ["Sebastian Burduja"]
+}
