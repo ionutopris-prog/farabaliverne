@@ -1,0 +1,58 @@
+{
+  "slug": "uk-inflatie-record-4-luni-2-9-procente",
+  "title": "Inflația din Marea Britanie urcă la 2,9%, cel mai ridicat nivel din ultimele patru luni",
+  "category": "Economie",
+  "date": "2026-08-19",
+  "source": "ONS / Euronews / RTÉ",
+  "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026",
+  "dek": "Oficiul Național de Statistică al Marii Britanii (ONS) a anunțat pe 19 august 2026 că inflația anuală a urcat la 2,9% în iulie, de la 2,6% în iunie — cel mai ridicat nivel din ultimele patru luni. Creșterea e pusă pe seama scumpirii facturilor la energie, după majorarea cu 13% a plafonului Ofgem; inflația de bază (core) a rămas stabilă la 2,6%.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Rata anuală a inflației prețurilor de consum (CPI) a urcat la 2,9% în iulie 2026, de la 2,6% în iunie — o creștere de 0,3 puncte procentuale și cel mai ridicat nivel din ultimele patru luni. Cifra a fost publicată de Oficiul Național de Statistică (ONS) pe 19 august 2026 și este confirmată concordant de mai multe redacții.",
+      "sources": [
+        {"name": "ONS — Consumer price inflation, UK: July 2026", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026"},
+        {"name": "Euronews — UK inflation hits four-month high of 2.9% as energy bills soar", "url": "https://www.euronews.com/business/2026/08/19/uk-inflation-hits-four-month-high-of-29-as-energy-bills-soar"},
+        {"name": "RTÉ — UK inflation picks up after July surge in energy bills", "url": "https://www.rte.ie/news/business/2026/0819/1588451-uk-inflation-figures/"}
+      ]
+    },
+    {
+      "text": "Principalul motor al creșterii a fost energia pentru locuințe: prețul gazului a urcat cu 14,7% (cea mai mare creștere din ultimii patru ani), iar cel al electricității cu 3,6%, pe fondul majorării cu 13% a plafonului de preț stabilit de regulatorul Ofgem. Inflația la capitolul locuințe și servicii casnice a ajuns la 4,1%, de la 2,7% în iunie.",
+      "sources": [
+        {"name": "ONS — Consumer price inflation, UK: July 2026", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026"},
+        {"name": "RTÉ — UK inflation picks up after July surge in energy bills", "url": "https://www.rte.ie/news/business/2026/0819/1588451-uk-inflation-figures/"}
+      ]
+    },
+    {
+      "text": "Inflația de bază (core CPI, care exclude energia, alimentele, alcoolul și tutunul) a rămas stabilă la 2,6% între iunie și iulie — bunurile au accelerat de la 1,7% la 2,2%, dar serviciile au încetinit de la 3,6% la 3,4%, iar cele două mișcări s-au compensat reciproc. Inflația alimentelor a coborât la 1,3%, cel mai scăzut nivel din ultimii doi ani.",
+      "sources": [
+        {"name": "ONS — Consumer price inflation, UK: July 2026", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026"},
+        {"name": "RTÉ — UK inflation picks up after July surge in energy bills", "url": "https://www.rte.ie/news/business/2026/0819/1588451-uk-inflation-figures/"}
+      ]
+    },
+    {
+      "text": "Economiștii citați (inclusiv de la KPMG) nu se așteaptă la o reacție imediată din partea Băncii Angliei prin majorarea dobânzii de referință, întrucât nu au apărut „surprize neplăcute”, iar o piață a muncii mai rece limitează riscul ca scumpirea energiei să se transforme într-o spirală salarii-prețuri.",
+      "sources": [
+        {"name": "RTÉ — UK inflation picks up after July surge in energy bills", "url": "https://www.rte.ie/news/business/2026/0819/1588451-uk-inflation-figures/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Euronews citează un analist care leagă presiunea asupra prețurilor energiei și de conflictul din Orientul Mijlociu și de un „armistițiu fragil” în regiune, în timp ce ONS și RTÉ atribuie creșterea explicit majorării programate a plafonului Ofgem, fără să menționeze acest factor geopolitic ca driver direct al cifrei din iulie. Nu există, în sursele consultate, o cuantificare separată a cât ar proveni din fiecare cauză.",
+      "sources": [
+        {"name": "Euronews — UK inflation hits four-month high of 2.9% as energy bills soar", "url": "https://www.euronews.com/business/2026/08/19/uk-inflation-hits-four-month-high-of-29-as-energy-bills-soar"},
+        {"name": "ONS — Consumer price inflation, UK: July 2026", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2026"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Estimarea economiștilor că „inflația ar trebui să se modereze în lunile următoare”, datorită unor măsuri guvernamentale precum reduceri de TVA la energie, este o previziune, nu un fapt verificabil — depinde de evoluții viitoare ale prețurilor la energie și de deciziile fiscale ale guvernului Burnham.",
+      "sources": []
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (date oficiale ONS, distribuite și de Euronews și RTÉ); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele centrale (2,9% inflație totală, 2,6% core, 14,7% gaz) sunt confirmate concordant de toate cele trei surse. Singurul punct unde sursele nu coincid perfect e accentul explicativ: Euronews leagă presiunea și de conflictul din Orientul Mijlociu, în timp ce ONS și RTÉ pun accentul aproape exclusiv pe majorarea programată a plafonului Ofgem — nu se contrazic factual, dar cântăresc diferit cauzele. Ce ar schimba concluzia: o eventuală reacție a Băncii Angliei la următoarea ședință de politică monetară, sau o nouă mișcare a prețurilor la energie legată de conflictul din Orientul Mijlociu.",
+  "math": null,
+  "persoane": []
+}
