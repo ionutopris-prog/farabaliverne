@@ -833,6 +833,25 @@ CONTACT_NOTA = ('<div id="fb-trimis" style="display:none;margin-top:14px;padding
                 'scrie-ne direct la <b>contact@farabaliverne.ro</b>.</div>')
 
 
+def pune_card_share(s, slug):
+    """og:image → cardul de partajare, dacă a fost generat pentru articolul ăsta.
+
+    Cardul CONȚINE fotografia articolului ca fundal, deci nu pierdem nimic din
+    ce atrăgea privirea — doar punem peste ea afirmația și verdictul. Cine
+    derulează pe telefon vede întâi imaginea; acum imaginea îi spune ceva.
+
+    Dacă fișierul lipsește (articol foarte nou, cardurile se generează după),
+    lăsăm og:image cum era. Mai bine poza veche decât o adresă care dă 404 —
+    Facebook ține minte prima imagine pe care o vede pentru un link.
+    """
+    if not os.path.exists(os.path.join(ROOT, "img", "share", slug + ".jpg")):
+        return s
+    url = f"https://farabaliverne.ro/img/share/{slug}.jpg"
+    s = re.sub(r'(<meta property="og:image" content=")[^"]+(")', r"\1" + url + r"\2", s, count=1)
+    s = re.sub(r'(<meta name="twitter:image" content=")[^"]+(")', r"\1" + url + r"\2", s, count=1)
+    return s
+
+
 def pune_contact(s):
     """Face formularul de contact să funcționeze, oriunde ar fi el."""
     if "<form" not in s or "CONTACT-JS" in s:
@@ -1345,6 +1364,8 @@ def main():
         s = pune_data(s)
         s = pune_citite(s)
         s = pune_contact(s)
+        if "/a/" in f.replace(os.sep, "/") or os.sep + "a" + os.sep in f:
+            s = pune_card_share(s, os.path.basename(f)[:-5])
         # „Cum a titrat fiecare" — doar pe paginile de articol, din datele lor.
         if os.sep + "a" + os.sep in f:
             _slug = os.path.basename(f)[:-5]
@@ -1375,7 +1396,12 @@ def main():
             img = mh.group(1) if mh else "https://farabaliverne.ro/og-cover.png"
             if img.startswith("../"):  # cale locală relativă -> URL absolut (og:image nu poate fi relativ)
                 img = "https://farabaliverne.ro/" + img[len("../"):]
-            if mh:
+            # Cardul de partajare are prioritate: conține deja fotografia ca
+            # fundal, plus afirmația și verdictul. Poza singură rămâne doar
+            # pentru articolele fără card (foarte noi, cardul se face după).
+            slug_f = os.path.splitext(os.path.basename(f))[0]
+            are_card = os.path.exists(os.path.join(ROOT, "img", "share", slug_f + ".jpg"))
+            if mh and not are_card:
                 s = re.sub(r'(<meta property="og:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
                 s = re.sub(r'(<meta name="twitter:image" content=")[^"]*(">)', lambda m: m.group(1)+img+m.group(2), s, count=1)
             slug = os.path.splitext(os.path.basename(f))[0]

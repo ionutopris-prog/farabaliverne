@@ -51,7 +51,13 @@ jobs:
       # nimic, iar fără Pillow pozele rămân la 600 KB-1 MB și pică verificarea.
       # Exact asta a blocat publicarea 18 ore pe 12 august.
       - name: Unelte pentru poze
-        run: pip install --quiet Pillow
+        run: |
+          pip install --quiet Pillow
+          # Fonturi pentru cardurile de partajare. Runnerul n-are Georgia (e
+          # font Apple), iar fara un serif decent cardurile ies cu fontul
+          # implicit al bibliotecii — citibil, dar urat. Liberation Serif e
+          # aproape de Times, al doilea din stiva site-ului.
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-liberation
 
       - name: Node
         uses: actions/setup-node@v4
@@ -181,6 +187,20 @@ jobs:
       - name: Verifică pozele
         if: steps.redactor.outputs.changed == 'true'
         run: python3 scripts/verify_images.py
+
+      # Cardul de partajare — imaginea care apare cand cineva da share. Se face
+      # DUPA verificarea pozelor: cardul foloseste fotografia articolului ca
+      # fundal, deci trebuie sa fie fotografia buna, nu una scoasa apoi.
+      - name: Fă cardurile de partajare
+        if: steps.redactor.outputs.changed == 'true'
+        run: |
+          python3 scripts/card_share.py
+          python3 scripts/build_site.py
+          if ! git diff --quiet || [ -n "$(git status --porcelain img/share)" ]; then
+            git add -A
+            git commit -m "Carduri de partajare pentru articolele noi"
+            git push origin main
+          fi
 
       # Lista de postat manual pe X. API-ul X cere $0,20 pentru o postare cu
       # link, deci postarea automată ar costa ~$126/lună — pentru un cont pe
