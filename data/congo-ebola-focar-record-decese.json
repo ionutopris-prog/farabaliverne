@@ -5,7 +5,7 @@
   "date": "2026-08-12",
   "source": "Al Jazeera / UN News / Euronews",
   "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record",
-  "dek": "Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină.",
+  "dek": "Autoritățile din Republica Democratică Congo au anunțat pe 11 august 2026 că focarul de Ebola cu tulpina rară Bundibugyo a trecut de 2.011 morți din 4.381 de cazuri confirmate. E cel mai rapid focar din istoria țării — de la 1.000 la 2.000 de decese în mai puțin de trei săptămâni — și nu există încă vaccin aprobat pentru această tulpină. Actualizare (17 august 2026): potrivit UN News, bilanțul a urcat la 2.325 de morți din 4.945 de cazuri, depășind recordul anterior de decese din RD Congo (2.299, focarul 2018-2020).",
   "mainVerdict": "Probat",
   "probat": [
     {
@@ -34,6 +34,13 @@
       "text": "Răspunsul e îngreunat de greve ale personalului medical neplătit, de dezinformare și de practici culturale de înmormântare care presupun contact apropiat cu decedatul. Cel puțin 12 unități medicale au fost atacate, iar un atac asupra unui sat pe 8 august a dus la fuga a peste 28.000 de oameni. Peste 300 de copii au murit până acum.",
       "sources": [
         {"name": "UN News — factori care complică răspunsul, atacuri asupra unităților medicale", "url": "https://news.un.org/en/story/2026/08/1168117"}
+      ]
+    },
+    {
+      "text": "Actualizare: potrivit unei relatări UN News din 17 august 2026, bilanțul a ajuns la 2.325 de morți din 4.945 de cazuri confirmate — o rată de fatalitate de circa 46%. Acest total depășește recordul anterior de decese pentru un focar de Ebola din istoria RD Congo, cel din 2018-2020 (2.299 de morți). OMS a declarat că epidemia „ucide o persoană la fiecare 30 de minute”. Un raport separat al OMS (buletin oficial din 14 august 2026) confirma deja 4.665 de cazuri și 2.184 de morți în RD Congo, plus cazuri izolate în Uganda, Franța și Germania — cifre în linie cu progresia raportată de UN News trei zile mai târziu.",
+      "sources": [
+        {"name": "UN News — Ebola outbreak becomes deadliest in DR Congo's history", "url": "https://news.un.org/en/story/2026/08/1168154"},
+        {"name": "OMS — Disease Outbreak News, Ebola disease caused by Bundibugyo virus (14 august 2026)", "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"}
       ]
     }
   ],
