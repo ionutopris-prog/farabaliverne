@@ -1,0 +1,48 @@
+{
+  "slug": "europa-preturi-alimente-canicula-razboi-2026",
+  "title": "Prețurile la pâine, paste și lactate ar putea crește în Europa — Oxford Economics leagă valul de caniculă și seceta de războiul din Ucraina",
+  "category": "Extern",
+  "date": "2026-08-19",
+  "source": "Euronews / FAO (ONU)",
+  "url": "https://www.euronews.com/business/2026/08/19/war-and-heatwaves-threaten-to-push-bread-and-pasta-prices-higher",
+  "dek": "Firma de analiză economică Oxford Economics estimează o creștere de două cifre a prețurilor alimentare globale în 2026, pe fondul unei combinații de secetă, valuri de caniculă în Europa și efectele războiului din Ucraina asupra exporturilor de cereale. Grâul ar putea urca 36% față de anul trecut până în trimestrul al treilea din 2026, iar Organizația pentru Alimentație și Agricultură a ONU (FAO) confirmă deja creșteri lunare la cereale, zahăr și ulei vegetal în iulie.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Potrivit unei analize Oxford Economics citate de Euronews (19 august 2026), prețurile alimentare globale ar urma să crească cu 11,8% în 2026 și cu încă 4,8% în 2027, pe fondul combinației dintre secetă, valuri de căldură extremă și războiul din Ucraina. Grâul este produsul cel mai afectat, cu un preț estimat să urce 36% de la an la an, la 6,92 dolari pe bushel, în trimestrul al treilea din 2026.",
+      "sources": [
+        {"name": "Euronews — Which food prices could rise as war and heatwaves hit supplies?", "url": "https://www.euronews.com/business/2026/08/19/war-and-heatwaves-threaten-to-push-bread-and-pasta-prices-higher"}
+      ]
+    },
+    {
+      "text": "Categoriile cele mai expuse secetei și căldurii sunt cerealele, fructele și legumele, și lactatele — efectele se vor propaga în prețul produselor derivate: pâine, paste, brânză, vin și ulei. Recolta germană de cereale este estimată să scadă cu 7%, iar prognoza combinată pentru UE-27 și Marea Britanie a fost redusă de la 295,5 la 286,6 milioane de tone.",
+      "sources": [
+        {"name": "Euronews — Which food prices could rise as war and heatwaves hit supplies?", "url": "https://www.euronews.com/business/2026/08/19/war-and-heatwaves-threaten-to-push-bread-and-pasta-prices-higher"}
+      ]
+    },
+    {
+      "text": "Indicele prețurilor alimentare al FAO (ONU) pentru iulie 2026 arată deja mișcări în această direcție: cerealele au crescut 3,4% față de iunie și sunt cu 6,9% peste nivelul din iulie 2025, grâul a urcat 5,8% pe fondul perturbărilor exporturilor din Marea Neagră cauzate de războiul din Ucraina și al valurilor de căldură, iar uleiul vegetal a atins cel mai ridicat preț din iunie 2022 (+2%), pe fondul cererii de biodiesel din Indonezia și al prețurilor mai mari la petrol.",
+      "sources": [
+        {"name": "UN News — FAO Food Price Index, July 2026", "url": "https://news.un.org/en/story/2026/08/1168096"}
+      ]
+    },
+    {
+      "text": "Oxford Economics identifică drept „cea mai semnificativă influență” asupra prețurilor alimentare impactul războiului SUA-Iran asupra materiilor prime folosite în producția agricolă — în principal petrol/motorină, gaze naturale și îngrășăminte. Prețul motorinei la nivel global a crescut 36% de la an la an în iulie, iar îngrășămintele sunt estimate să se scumpească 22% în 2026. Rusia și Ucraina dețin împreună aproape 30% din exporturile globale de grâu și peste 10% din cele de porumb, iar blocarea porturilor ucrainene afectează o capacitate anuală de export estimată la 86 de milioane de tone de cereale.",
+      "sources": [
+        {"name": "Euronews — Which food prices could rise as war and heatwaves hit supplies?", "url": "https://www.euronews.com/business/2026/08/19/war-and-heatwaves-threaten-to-push-bread-and-pasta-prices-higher"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Calendarul exact al creșterilor rămâne o estimare, nu un fapt petrecut: Oxford Economics anticipează ca prețurile la alimente proaspete (fructe, legume) să reflecte deja disruptivitatea între octombrie și noiembrie 2026, iar cele la produse procesate (pâine, paste) abia între februarie și mai 2027 — sunt proiecții ale unei singure firme de analiză, nu date oficiale confirmate, și pot fi revizuite dacă recoltele de toamnă sau prețul energiei evoluează altfel decât se anticipează acum.",
+      "sources": [
+        {"name": "Euronews — Which food prices could rise as war and heatwaves hit supplies?", "url": "https://www.euronews.com/business/2026/08/19/war-and-heatwaves-threaten-to-push-bread-and-pasta-prices-higher"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nAm separat explicit ce e deja constatat (indicele FAO pentru iulie 2026, deja publicat) de ce e proiecție (estimările Oxford Economics pentru restul anului 2026 și 2027). FAO și Oxford Economics converg pe aceeași direcție — presiune ascendentă pe prețul cerealelor și al produselor derivate — dar mecanismele pe care le indică diferă în pondere: FAO leagă creșterile de iulie mai ales de Marea Neagră și de vreme, în timp ce Oxford Economics pune accent mai mare pe costurile energiei generate de războiul SUA-Iran. Cititorul din România ar trebui să rețină că e vorba de tendințe globale — cât și când se vor simți exact în prețurile din magazinele românești nu e o cifră pe care o dau aceste surse.",
+  "math": null,
+  "persoane": []
+}
