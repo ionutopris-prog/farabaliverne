@@ -769,6 +769,147 @@ def repara_share(s):
     return s
 
 
+def _verdict_normalizat(v):
+    """Verdictele sunt text liber — sute de formulări. Le aducem la trei coșuri.
+
+    Nu le standardizăm în articole: nuanța („probat, cu rezerve de cifră") e
+    exact ce face site-ul util. Dar ca să poți NUMĂRA ceva, ai nevoie de
+    categorii, iar prima literă a verdictului spune aproape mereu direcția.
+    """
+    t = _fara_diacritice((v or "").strip().lower())
+    if t.startswith("probat") or t.startswith("context probat"):
+        return "probat"
+    if t.startswith(("contestat", "contrazis", "neconfirmat", "neverificabil",
+                     "afirmatie rusa", "anunt neverificat")):
+        return "contestat"
+    return "mixt"
+
+
+def build_cifre(arts, shell):
+    """Pagina cu cifrele proprii — transparență numerică, nu declarații.
+
+    Un site care spune „verificăm riguros" e un blog. Unul care arată câte
+    afirmații a verificat, câte s-au probat, câte nu, și din câte publicații a
+    citit, e verificabil el însuși. E singura pagină de pe site care se dă mai
+    departe fără să fie un articol anume.
+
+    Toate cifrele se calculează din `data/` la fiecare build. Nu există nicio
+    valoare scrisă de mână aici — dacă scade ceva, se vede.
+    """
+    verd = collections.Counter()
+    cat = collections.Counter()
+    zile = collections.Counter()
+    npr = nco = nop = 0
+    surse_domenii = set()
+    surse_total = 0
+
+    for d in arts.values():
+        verd[_verdict_normalizat(d.get("mainVerdict"))] += 1
+        cat[d.get("category") or "—"] += 1
+        if d.get("date"):
+            zile[d["date"]] += 1
+        npr += len(d.get("probat") or [])
+        nco += len(d.get("contestat") or [])
+        nop += len(d.get("opinie") or [])
+        for lst in ("probat", "contestat", "opinie"):
+            for x in (d.get(lst) or []):
+                # Schema nu e uniformă: unele afirmații sunt obiecte cu `sources`,
+                # altele doar text. Cele vechi, dinainte de a fixa forma.
+                if not isinstance(x, dict):
+                    continue
+                for src in (x.get("sources") or []):
+                    if not isinstance(src, dict):
+                        continue
+                    u = (src.get("url") or "")
+                    if "://" in u and len(u.split("/")) > 2:
+                        surse_total += 1
+                        surse_domenii.add(u.split("/")[2].replace("www.", ""))
+
+    total = len(arts)
+    afirm = npr + nco + nop
+    nzile = len(zile) or 1
+    pe_zi = total / nzile
+
+    def cutie(nr, eticheta, sub=""):
+        return (f'<div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);'
+                f'border-radius:14px;padding:18px 20px">'
+                f'<div style="font-size:34px;font-weight:700;line-height:1.1">{nr}</div>'
+                f'<div style="font-weight:600;margin-top:4px">{eticheta}</div>'
+                + (f'<div style="opacity:.65;font-size:14px;margin-top:2px">{sub}</div>' if sub else "")
+                + '</div>')
+
+    def bara(nume, n, maxn, culoare):
+        lat = max(2, round(100 * n / max(1, maxn)))
+        return (f'<div style="margin:9px 0"><div style="display:flex;justify-content:space-between;'
+                f'font-size:15px"><span>{html.escape(nume)}</span><b>{n}</b></div>'
+                f'<div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px">'
+                f'<div style="width:{lat}%;height:100%;background:{culoare}"></div></div></div>')
+
+    maxcat = max(cat.values()) if cat else 1
+    culori = ["#4a7c59", "#6b8e5a", "#8a9a5b", "#a3a86b", "#b8ae7c", "#c9bb8e", "#d8caa2"]
+    bare_cat = "".join(bara(k, v, maxcat, culori[i % len(culori)])
+                       for i, (k, v) in enumerate(cat.most_common()))
+
+    mv = max(verd.values()) if verd else 1
+    bare_verd = (bara("Se probează", verd["probat"], mv, "#4a7c59")
+                 + bara("Nu se susține / contestat", verd["contestat"], mv, "#b4553f")
+                 + bara("Mixt — parte probată, parte nu", verd["mixt"], mv, "#b8912f"))
+
+    main = f'''<div class="wrap">
+      <h1 style="margin-bottom:6px">Cifrele noastre</h1>
+      <p class="sum" style="max-width:70ch">Un site care spune despre sine că verifică riguros e
+      doar un site. Aici sunt cifrele, calculate automat din arhivă la fiecare
+      actualizare — nimic scris de mână. Dacă ceva scade, se vede.</p>
+
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin:26px 0">
+        {cutie(total, "verificări publicate", f"în {nzile} zile · ~{pe_zi:.0f} pe zi")}
+        {cutie(afirm, "afirmații analizate", "fiecare cu sursele ei")}
+        {cutie(len(surse_domenii), "publicații citate", f"{surse_total} linkuri către surse")}
+      </div>
+
+      <h2 style="margin-top:30px">Ce am găsit</h2>
+      <p class="sum" style="max-width:70ch">Nu decretăm „adevărat” sau „fals”. Spunem ce se
+      probează cu surse și ce nu, iar cititorul trage concluzia. Verdictele reale
+      sunt nuanțate („probat, cu rezerve de cifră”); aici sunt strânse în trei
+      coșuri, doar ca să poată fi numărate.</p>
+      <div style="margin:18px 0;max-width:560px">{bare_verd}</div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin:22px 0">
+        {cutie(npr, "afirmații care se probează")}
+        {cutie(nco, "afirmații contestate")}
+        {cutie(nop, "marcate ca opinie", "nu se verifică, se semnalează")}
+      </div>
+
+      <h2 style="margin-top:30px">Despre ce scriem</h2>
+      <div style="margin:18px 0;max-width:560px">{bare_cat}</div>
+
+      <h2 style="margin-top:30px">Ce nu spun cifrele astea</h2>
+      <p class="sum" style="max-width:70ch">Că avem dreptate. Numărul de verificări nu e o dovadă
+      de calitate, iar o publicație citată de o sută de ori nu devine mai
+      adevărată. Cifrele arată <b>cât</b> și <b>ce</b> am făcut — dacă am făcut
+      bine se vede doar deschizând articolele și urmărind sursele. De-aia sunt
+      linkurile acolo: ca să nu ne credeți pe cuvânt.</p>
+      <p class="sum" style="max-width:70ch">Greșelile pe care le găsim le scriem
+      la <a href="corectari.html">Corectări</a>. Cum lucrăm, la
+      <a href="metodologie.html">Metodologie</a>.</p>
+    </div>'''
+
+    h = re.sub(r'<main>.*?</main>', lambda m: "<main>\n" + main + "\n  </main>", shell, count=1, flags=re.S)
+    h = h.replace("<title>Fără Baliverne — Apă, paie… Adevăr</title>",
+                  "<title>Cifrele noastre — Fără Baliverne</title>")
+    for a, b in (('<link rel="canonical" href="https://farabaliverne.ro/">',
+                  '<link rel="canonical" href="https://farabaliverne.ro/cifre.html">'),
+                 ('<meta property="og:url" content="https://farabaliverne.ro/">',
+                  '<meta property="og:url" content="https://farabaliverne.ro/cifre.html">'),
+                 ('<meta property="og:title" content="Fără Baliverne — Apă, paie… Adevăr">',
+                  '<meta property="og:title" content="Cifrele noastre — Fără Baliverne">'),
+                 ('<meta name="twitter:title" content="Fără Baliverne — Apă, paie… Adevăr">',
+                  '<meta name="twitter:title" content="Cifrele noastre — Fără Baliverne">'),
+                 ('<a href="index.html" class="active">Acasă</a>', '<a href="index.html">Acasă</a>')):
+        h = h.replace(a, b)
+    return h
+
+
 def build_closcu(arts, shell):
     """
     „Cloșcu cu Puii de AUR" — fișe de persoană + verificările fiecăruia.
@@ -1058,10 +1199,10 @@ def build_sitemap(arts):
     # `closcu.html` apare doar dacă a fost generată (CLOSCU_ENABLED). Verificarea
     # `os.path.exists` de mai jos o sare singură când secțiunea e stinsă, deci
     # sitemap-ul nu trimite niciodată Google spre un 404.
-    for pg in ("politicieni.html","cauta.html","closcu.html","publicitate.html","metodologie.html",
+    for pg in ("politicieni.html","cauta.html","closcu.html","cifre.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
         if os.path.exists(os.path.join(ROOT, pg)):
-            pr = "0.6" if pg in ("politicieni.html","cauta.html","closcu.html") else "0.4"
+            pr = "0.6" if pg in ("politicieni.html","cauta.html","closcu.html","cifre.html") else "0.4"
             rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>%s</priority></url>' % (B, pg, today, pr))
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '
@@ -1114,6 +1255,7 @@ def main():
     open(os.path.join(ROOT, "politicieni.html"), "w", encoding="utf-8").write(pol)
     open(os.path.join(ROOT, "cauta.html"), "w", encoding="utf-8").write(build_search_page(arts, shell))
     # 2c. Cloșcu cu Puii de AUR (fișe + verificări pe persoană)
+    open(os.path.join(ROOT, "cifre.html"), "w", encoding="utf-8").write(build_cifre(arts, shell))
     closcu = build_closcu(arts, shell)
     if closcu:
         open(os.path.join(ROOT, "closcu.html"), "w", encoding="utf-8").write(closcu)
@@ -1188,6 +1330,14 @@ def main():
                     s = re.sub(r'<script type="application/ld\+json">.*?</script>', lambda m: lds, s, count=1, flags=re.S)
                 elif '</head>' in s:
                     s = s.replace('</head>', '  ' + lds + '\n</head>', 1)
+        # Linkul catre pagina de cifre, langa Metodologie in subsol: acolo stau
+        # paginile de credibilitate, si acolo se uita cineva care vrea sa stie
+        # daca ne poate crede.
+        if 'href="cifre.html"' not in s and '<a href="metodologie.html">Metodologie</a>' in s:
+            s = s.replace('<a href="metodologie.html">Metodologie</a>',
+                          '<a href="metodologie.html">Metodologie</a>\n'
+                          '            <a href="cifre.html">Cifrele noastre</a>', 1)
+
         # Linkul catre RSS, pe fiecare pagina: asa il gasesc cititoarele de
         # stiri si extensiile de browser, fara sa stie adresa pe de rost.
         if "application/rss+xml" not in s and "</head>" in s:

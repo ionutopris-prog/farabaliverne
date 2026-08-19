@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Publicitate — Fără Baliverne</title>
-<meta name="description" content="Publicitate pe Fără Baliverne — reclame clar etichetate care nu influențează verificările. Independența editorială nu e de vânzare.">
+<title>Cifrele noastre — Fără Baliverne</title>
+<meta name="description" content="Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.">
 <style>
 
   :root{
@@ -175,6 +175,29 @@
 
   .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
   .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+  /* Lista compactă: articolele mai vechi dintr-o categorie, fără imagine.
+     Rămân toate pe prima pagină și indexabile, dar nu mai cer poze — altfel
+     prima pagină creștea la nesfârșit, în octeți și în număr de imagini. */
+  .mini-list{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+  .mini-head{
+    font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-faint);font-weight:800;padding:10px 2px 8px;
+  }
+  .mini-row{
+    display:flex;gap:16px;align-items:baseline;justify-content:space-between;
+    padding:9px 2px;border-bottom:1px solid var(--line);
+    text-decoration:none;color:inherit;transition:padding-left .15s,color .15s;
+  }
+  .mini-row:last-child{border-bottom:none}
+  .mini-row:hover{padding-left:7px;color:var(--accent)}
+  .mini-title{font-size:15.5px;line-height:1.4;min-width:0}
+  .mini-meta{display:flex;gap:10px;align-items:center;flex:none;white-space:nowrap}
+  .mini-date{font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  @media(max-width:620px){
+    .mini-row{flex-direction:column;gap:6px;align-items:flex-start}
+    .mini-meta{gap:8px}
+  }
   .card{
     background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
     box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
@@ -223,6 +246,8 @@
   .g-san{background:linear-gradient(135deg,#5f9ab5,#2f5f79)}
   .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
   .g-sport{background:linear-gradient(135deg,#2f8f86,#12615f)}
+  .g-sci{background:linear-gradient(135deg,#5a7fb0,#243a6a)}
+  .g-state{background:linear-gradient(135deg,#8a5a3c,#4a2a1e)}
 
   aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
@@ -367,7 +392,8 @@
     .ev-block{padding:18px 18px 20px}
   }
 </style>
-<link rel="canonical" href="https://farabaliverne.ro/publicitate.html">
+<meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
+<link rel="canonical" href="https://farabaliverne.ro/cifre.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -376,14 +402,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Fără Baliverne">
 <meta property="og:locale" content="ro_RO">
-<meta property="og:title" content="Publicitate — Fără Baliverne">
+<meta property="og:title" content="Cifrele noastre — Fără Baliverne">
 <meta property="og:description" content="Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.">
-<meta property="og:url" content="https://farabaliverne.ro/publicitate.html">
+<meta property="og:url" content="https://farabaliverne.ro/cifre.html">
 <meta property="og:image" content="https://farabaliverne.ro/og-cover.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Publicitate — Fără Baliverne">
+<meta name="twitter:title" content="Cifrele noastre — Fără Baliverne">
 <meta name="twitter:description" content="Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.">
 <meta name="twitter:image" content="https://farabaliverne.ro/og-cover.png">
   <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
@@ -435,22 +461,43 @@
   </div>
 
   <main>
-    <div class="wrap" style="max-width:820px;margin:0 auto;padding:0 20px">
-      <div style="padding:30px 0 10px">
-        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 8px">Publicitate</h1>
-        <p style="color:var(--ink-faint);font-size:16px;line-height:1.55;max-width:640px">Fără Baliverne rămâne gratis pentru cititori. Ne susținem prin reclame <b>clar etichetate</b>, care nu influențează niciodată ce verificăm sau cum. Independența editorială e netransmisibilă.</p>
+<div class="wrap">
+      <h1 style="margin-bottom:6px">Cifrele noastre</h1>
+      <p class="sum" style="max-width:70ch">Un site care spune despre sine că verifică riguros e
+      doar un site. Aici sunt cifrele, calculate automat din arhivă la fiecare
+      actualizare — nimic scris de mână. Dacă ceva scade, se vede.</p>
+
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin:26px 0">
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">362</div><div style="font-weight:600;margin-top:4px">verificări publicate</div><div style="opacity:.65;font-size:14px;margin-top:2px">în 14 zile · ~26 pe zi</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">2273</div><div style="font-weight:600;margin-top:4px">afirmații analizate</div><div style="opacity:.65;font-size:14px;margin-top:2px">fiecare cu sursele ei</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">496</div><div style="font-weight:600;margin-top:4px">publicații citate</div><div style="opacity:.65;font-size:14px;margin-top:2px">3226 linkuri către surse</div></div>
       </div>
-      <div style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);font-weight:800;margin:18px 0 8px">Spații disponibile</div>
-      <div style="border:1px dashed var(--line-2);background:var(--card);border-radius:18px;padding:28px;text-align:center">
-        <div style="font-size:44px">📣</div>
-        <div style="font-weight:800;font-size:20px;margin-top:6px">Primul loc e liber</div>
-        <div style="color:var(--ink-faint);font-size:15.5px;line-height:1.5;margin:8px auto 0;max-width:520px">Nu avem încă parteneri. Reclamele vor fi mereu <b>clar etichetate „Publicitate"</b> și nu vor influența ce verificăm — independența editorială nu e de vânzare.</div>
+
+      <h2 style="margin-top:30px">Ce am găsit</h2>
+      <p class="sum" style="max-width:70ch">Nu decretăm „adevărat” sau „fals”. Spunem ce se
+      probează cu surse și ce nu, iar cititorul trage concluzia. Verdictele reale
+      sunt nuanțate („probat, cu rezerve de cifră”); aici sunt strânse în trei
+      coșuri, doar ca să poată fi numărate.</p>
+      <div style="margin:18px 0;max-width:560px"><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Se probează</span><b>319</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:100%;height:100%;background:#4a7c59"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Nu se susține / contestat</span><b>36</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:11%;height:100%;background:#b4553f"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Mixt — parte probată, parte nu</span><b>7</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:2%;height:100%;background:#b8912f"></div></div></div></div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin:22px 0">
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">1378</div><div style="font-weight:600;margin-top:4px">afirmații care se probează</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">561</div><div style="font-weight:600;margin-top:4px">afirmații contestate</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">334</div><div style="font-weight:600;margin-top:4px">marcate ca opinie</div><div style="opacity:.65;font-size:14px;margin-top:2px">nu se verifică, se semnalează</div></div>
       </div>
-      <div style="margin-top:34px;padding:22px;border:1px dashed var(--line-2);border-radius:16px;text-align:center">
-        <div style="font-weight:800;font-size:17px;margin-bottom:6px">Vrei să apari aici?</div>
-        <p style="color:var(--ink-faint);font-size:14.5px;margin:0 0 12px">Reclame decente, etichetate „Publicitate", lângă un public care caută adevărul.</p>
-        <a href="contact.html" style="display:inline-block;padding:10px 18px;border:1px solid var(--accent);color:var(--accent);border-radius:10px;text-decoration:none;font-weight:700">Scrie-ne →</a>
-      </div>
+
+      <h2 style="margin-top:30px">Despre ce scriem</h2>
+      <div style="margin:18px 0;max-width:560px"><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Extern</span><b>165</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:100%;height:100%;background:#4a7c59"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Economie</span><b>79</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:48%;height:100%;background:#6b8e5a"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Sport</span><b>34</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:21%;height:100%;background:#8a9a5b"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Social</span><b>32</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:19%;height:100%;background:#a3a86b"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Politică</span><b>30</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:18%;height:100%;background:#b8ae7c"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Media de stat</span><b>18</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:11%;height:100%;background:#c9bb8e"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Știință</span><b>4</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:2%;height:100%;background:#d8caa2"></div></div></div></div>
+
+      <h2 style="margin-top:30px">Ce nu spun cifrele astea</h2>
+      <p class="sum" style="max-width:70ch">Că avem dreptate. Numărul de verificări nu e o dovadă
+      de calitate, iar o publicație citată de o sută de ori nu devine mai
+      adevărată. Cifrele arată <b>cât</b> și <b>ce</b> am făcut — dacă am făcut
+      bine se vede doar deschizând articolele și urmărind sursele. De-aia sunt
+      linkurile acolo: ca să nu ne credeți pe cuvânt.</p>
+      <p class="sum" style="max-width:70ch">Greșelile pe care le găsim le scriem
+      la <a href="corectari.html">Corectări</a>. Cum lucrăm, la
+      <a href="metodologie.html">Metodologie</a>.</p>
     </div>
   </main>
 
@@ -476,8 +523,7 @@
           <div>
             <h5>Despre</h5>
             <ul>
-              <li><a href="metodologie.html">Metodologie</a>
-            <a href="cifre.html">Cifrele noastre</a></li>
+              <li><a href="metodologie.html">Metodologie</a></li>
               <li><a href="cine-suntem.html">Cine suntem</a></li>
               <li><a href="corectari.html">Corectări</a></li>
               <li><a href="contact.html">Contact</a></li>
