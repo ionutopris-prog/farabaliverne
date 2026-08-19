@@ -1,0 +1,92 @@
+{
+  "slug": "asia-piete-bursiere-prabusire-kospi-nikkei-19-august",
+  "title": "Bursele din Tokyo și Seul se prăbușesc: Kospi -6,4% cu întrerupător de circuit activat, Nikkei -3,2%",
+  "category": "Economie",
+  "date": "2026-08-19",
+  "source": "Yahoo Finance / investinglive / News On Japan",
+  "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-drops-below-8-000-010100412.html",
+  "dek": "Indicii bursieri din Coreea de Sud și Japonia au căzut abrupt miercuri, 19 august 2026: Kospi a pierdut până la 6,4%, declanșând întrerupătorul automat de circuit, iar Nikkei 225 a închis cu -3,2%, la cel mai slab nivel din 4 august. Cauzele citate de presa financiară: vânzări masive de acțiuni din sectorul semiconductoarelor peste noapte pe Wall Street, randamente în creștere la obligațiunile guvernamentale japoneze și prețul petrolului împins în sus de tensiunile din Golf.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Indicele sud-coreean Kospi a deschis în scădere de circa 5% și a ajuns rapid la -6,4% (534,25 puncte, până la 7.769,16 puncte, la ora 9:51 locală), declanșând mecanismul automat „sidecar” — Korea Exchange a suspendat tranzacționarea algoritmică pe acțiunile Kospi timp de cinci minute.",
+      "sources": [
+        {
+          "name": "Yahoo Finance — Kospi drops below 8,000, triggers yet another 2026 trading halt",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-drops-below-8-000-010100412.html"
+        },
+        {
+          "name": "investinglive — Asia-Pacific market news: Asian equities slide, Kospi circuit breaker",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/"
+        }
+      ]
+    },
+    {
+      "text": "Vânzarea a fost concentrată pe cei doi giganți ai cipurilor care formează aproximativ jumătate din capitalizarea Kospi: Samsung Electronics și SK Hynix au scăzut fiecare cu circa 7% în cursul ședinței.",
+      "sources": [
+        {
+          "name": "Yahoo Finance — selloff concentrat pe Samsung și SK Hynix",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-drops-below-8-000-010100412.html"
+        },
+        {
+          "name": "investinglive — Samsung și SK Hynix, fiecare -7%",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/"
+        }
+      ]
+    },
+    {
+      "text": "Nikkei 225 a închis miercuri cu -3,2%, la 65.326,42 puncte — cel mai slab nivel de la 4 august 2026. Printre acțiunile cele mai afectate: Furukawa Electric (-14%), Kioxia Holdings (-13%) și SoftBank Group (-10%), alături de alte companii din sectorul cipurilor și AI (Tokyo Electron, Advantest, Ibiden, Fujikura, Screen Holdings, Lasertec).",
+      "sources": [
+        {
+          "name": "News On Japan — Nikkei Drops 3.2% as AI Selloff and Bond Yields Hit Tokyo",
+          "url": "https://newsonjapan.com/article/150426.php"
+        }
+      ]
+    },
+    {
+      "text": "Scăderea a fost declanșată de o combinație de factori: vânzări reînnoite pe acțiunile legate de inteligența artificială și semiconductoare (după o ședință slabă pe Wall Street, unde Nasdaq a scăzut 0,66% iar ETF-ul VanEck pe semiconductoare a pierdut 5,4%), randamentul obligațiunilor guvernamentale japoneze pe 10 ani apropiindu-se de 3% — cel mai ridicat nivel din 1996, pe fondul speculațiilor privind o majorare de dobândă a Băncii Japoniei în septembrie — și prețul petrolului Brent, care a urcat spre 91,6 dolari/baril pe fondul tensiunilor din Golf (Emiratele Arabe Unite au oprit schimburile comerciale cu Iranul, iar Franța a expulzat doi diplomați iranieni).",
+      "sources": [
+        {
+          "name": "News On Japan — cauzele scăderii: AI, randamente, petrol",
+          "url": "https://newsonjapan.com/article/150426.php"
+        },
+        {
+          "name": "investinglive — tensiuni Golf, petrol, RBA",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Amploarea exactă a scăderii pe titluri individuale diferă între relatări, pentru că sunt surprinse în momente diferite ale ședinței: investinglive raportează Kioxia la -9% și Tokyo Electron la -4% în timpul zilei, în timp ce News On Japan indică, la închidere, Kioxia -13% și Furukawa Electric -14%. Diferența reflectă evoluția intraday a titlurilor, nu o contradicție între surse.",
+      "sources": [
+        {
+          "name": "investinglive — cifre intraday",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/"
+        },
+        {
+          "name": "News On Japan — cifre la închidere",
+          "url": "https://newsonjapan.com/article/150426.php"
+        }
+      ]
+    },
+    {
+      "text": "Ponderea cauzelor variază de la o redacție la alta: News On Japan pune accentul pe randamentele obligațiunilor și pe vânzarea tehnologică globală, în timp ce investinglive insistă mai mult pe tensiunile geopolitice din Golf și pe avertismentul viceguvernatorului Băncii Rezervelor Australiei, Sam Hauser, privind o posibilă nouă majorare de dobândă dacă inflația rămâne ridicată. Cel mai probabil e vorba despre factori care s-au suprapus, nu despre o singură cauză dominantă — dar nicio sursă nu oferă o defalcare procentuală a contribuției fiecăruia.",
+      "sources": [
+        {
+          "name": "News On Japan — accent pe randamente și AI",
+          "url": "https://newsonjapan.com/article/150426.php"
+        },
+        {
+          "name": "investinglive — accent pe Golf și RBA",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asian-equities-slide-kospi-circuit-breaker/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": "Un întrerupător de circuit sidecar pe Kospi se declanșează automat când contractele futures Kospi 200 scad cu cel puțin 5% și rămân acolo minimum un minut — este un prag tehnic, nu o evaluare de conținut. Diferența dintre „-5% la deschidere” și „-6,4% la 9:51” arată o accelerare a vânzărilor de aproximativ 1,4 puncte procentuale în primele minute de tranzacționare, ceea ce explică de ce mecanismul s-a activat rapid: pragul de 5% pentru declanșare a fost depășit cu suficient pentru ca panica să se autoalimenteze, măcar temporar, prin vânzările algoritmice.",
+  "aiNote": "Am pus alături trei surse financiare independente (Yahoo Finance, investinglive, News On Japan) care confirmă concordant scăderea abruptă de miercuri: Kospi a atins -6,4% intraday cu întrerupător de circuit activat, iar Nikkei a închis cu -3,2%, cel mai slab nivel din două săptămâni. Cifrele pe titluri individuale diferă ușor pentru că fiecare sursă a surprins piața într-un moment diferit al zilei (intraday vs. la închidere) — nu pentru că s-ar contrazice. Ceea ce lipsește din relatări e o defalcare clară a ponderii fiecărei cauze (vânzarea tehnologică globală, randamentele obligațiunilor japoneze, tensiunile din Golf): sursele le înșiră pe toate ca factori concurenți, fără să spună care a cântărit mai mult. Cititorul poate urmări separat, în zilele următoare, dacă piețele își revin rapid (semn că a fost panică de o zi) sau dacă scăderea continuă (semn că unul dintre factorii structurali — randamentele sau geopolitica — domină).",
+  "persoane": []
+}
