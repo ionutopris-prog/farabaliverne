@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 20 Aug 2026 01:32:40 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 01:36:47 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bursele din Tokyo și Seul se prăbușesc: Kospi -6,4% cu întrerupător de circuit activat, Nikkei -3,2%</title>
+      <link>https://farabaliverne.ro/a/asia-piete-bursiere-prabusire-kospi-nikkei-19-august.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/asia-piete-bursiere-prabusire-kospi-nikkei-19-august.html</guid>
+      <pubDate>Wed, 19 Aug 2026 22:32:56 +0000</pubDate>
+      <category>Economie</category>
+      <description>Indicii bursieri din Coreea de Sud și Japonia au căzut abrupt miercuri, 19 august 2026: Kospi a pierdut până la 6,4%, declanșând întrerupătorul automat de circuit, iar Nikkei 225 a închis cu -3,2%, la cel mai slab nivel din 4 august. Cauzele citate de presa financiară: vânzări masive de acțiuni din sectorul semiconductoarelor peste noapte pe Wall Street, randamente în creștere la obligațiunile guvernamentale japoneze și prețul petrolului împins în sus de tensiunile din Golf.
+
+Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Ministrul israelian Ben-Gvir cere „30-40 de eliminări pe noapte” în Gaza — Franța, Germania și ONU condamnă declarația</title>
       <link>https://farabaliverne.ro/a/ben-gvir-apel-ucidere-30-40-gaza-condamnare-franta-germania.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
       <description>Guvernul japonez a raportat pe 17 august 2026 date preliminare potrivit cărora economia a crescut cu 0,3% în trimestrul al doilea (aprilie-iunie) față de trimestrul anterior — echivalentul unei rate anualizate de 1,1% — sub cele 0,5% trimestrial / 2,0% anualizat anticipate de analiști. Consumul privat, care reprezintă circa jumătate din economia japoneză, a scăzut pentru prima dată în opt trimestre, iar creșterea a fost susținută în principal de exporturi.
 
 Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Ministrul Apărării al Japoniei pleacă în Australia și India să caute alternative la armele americane</title>
-      <link>https://farabaliverne.ro/a/japonia-koizumi-vizita-australia-india-cooperare-aparare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/japonia-koizumi-vizita-australia-india-cooperare-aparare.html</guid>
-      <pubDate>Mon, 17 Aug 2026 22:44:14 +0000</pubDate>
-      <category>Extern</category>
-      <description>Ministrul japonez al Apărării, Shinjiro Koizumi, pleacă într-un turneu de trei zile în Australia și India (18-20 august 2026) pentru a aprofunda cooperarea militară, pe fondul temerilor Tokyo că războaiele prelungite din Ucraina și Orientul Mijlociu ar putea afecta stocurile americane de muniție destinate aliaților.
-
-Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>

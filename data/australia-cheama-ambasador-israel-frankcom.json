@@ -1,0 +1,68 @@
+{
+  "slug": "australia-cheama-ambasador-israel-frankcom",
+  "title": "Armata israeliană închide fără acuzații penale ancheta morții lui Zomi Frankcom — Australia cheamă ambasadorul Israel",
+  "category": "Extern",
+  "date": "2026-08-19",
+  "source": "ABC News Australia",
+  "url": "https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204",
+  "dek": "Armata israeliană (IDF) a anunțat pe 19 august 2026 că nu va înainta acuzații penale în cazul loviturii aeriene din aprilie 2024 asupra unui convoi World Central Kitchen din Gaza, în care a murit voluntara australiană Zomi Frankcom, alături de alți șase lucrători umanitari. Ministrul australian de Externe, Penny Wong, s-a declarat „outraged” (indignată) și a anunțat că a chemat ambasadorul Israel la Canberra, Hillel Newman.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "IDF a concluzionat, într-o anchetă internă, că soldații au identificat greșit un presupus luptător Hamas călătorind în convoiul World Central Kitchen (WCK), din cauza unui gardian de securitate înarmat neanunțat și a traseului necoordonat urmat de convoi — motiv pentru care a decis să nu recomande acuzații penale. Armata a recunoscut însă „eșecuri grave” în procesul de evaluare a țintei.",
+      "sources": [
+        {
+          "name": "ABC News Australia — Israel's military clears soldiers of criminal wrongdoing in Gaza strike that killed Zomi Frankcom",
+          "url": "https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204"
+        }
+      ]
+    },
+    {
+      "text": "Măsurile disciplinare (non-penale) anunțate de IDF: doi comandanți (un colonel și un maior) au fost retrogradați din funcție, iar alți trei ofițeri superiori (un colonel, un general-maior și un general de brigadă) au primit mustrări oficiale.",
+      "sources": [
+        {
+          "name": "ABC News Australia — detalii despre măsurile disciplinare IDF",
+          "url": "https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204"
+        }
+      ]
+    },
+    {
+      "text": "Atacul din 1 aprilie 2024 asupra convoiului WCK a ucis șapte lucrători umanitari: australianca Zomi Frankcom, palestinianul Saifeddin Issam Ayad Abutaha, polonezul Damian Sobol, americano-canadianul Jacob Flickinger și britanicii John Chapman, James Henderson și James Kirby.",
+      "sources": [
+        {
+          "name": "ABC News Australia — cei șapte lucrători umanitari uciși",
+          "url": "https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204"
+        }
+      ]
+    },
+    {
+      "text": "Ministrul australian de Externe, Penny Wong, a declarat că guvernul australian a aflat de decizia Israelului „aseară târziu, cu puțin înainte să fie anunțată public, în Ziua Mondială Umanitară — ceea ce e cu atât mai jignitor pentru cei dragi lui Zomi”. Wong a spus că va chema ambasadorul Israel la Canberra, Hillel Newman, și că a instruit ambasadorul Australiei în Israel să comunice direct poziția Australiei guvernului israelian.",
+      "sources": [
+        {
+          "name": "ABC News Australia — Federal politics live: Wong 'outraged' after IDF soldiers cleared over Zomi Frankcom killing",
+          "url": "https://www.abc.net.au/news/2026-08-20/federal-politics-live-blog-zomi-frankcom/107055724"
+        }
+      ]
+    },
+    {
+      "text": "World Central Kitchen a reacționat la decizia IDF, numind-o „inconsistentă cu adevărul complet și profund jignitoare”. Presa regională australiană (agenția AAP, preluată de o rețea de ziare locale) a relatat aceeași decizie și reacția de indignare a autorităților australiene.",
+      "sources": [
+        {
+          "name": "ABC News Australia — reacția World Central Kitchen",
+          "url": "https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204"
+        },
+        {
+          "name": "Illawarra Mercury (AAP) — Outrage: Israel clears soldiers over Australian's death",
+          "url": "https://www.illawarramercury.com.au/story/9333812/outrage-israel-clears-soldiers-over-australians-death/"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    "Dacă retrogradarea a doi comandanți și mustrarea altor trei ofițeri reprezintă un nivel adecvat de răspundere pentru moartea a șapte civili este o chestiune de apreciere politică, nu un fapt verificabil. Penny Wong și World Central Kitchen consideră măsurile insuficiente; IDF le prezintă drept concluzia unei anchete interne serioase care a găsit „eșecuri”, dar nu intenție penală. Cititorul poate compara singur măsurile disciplinare cu numărul victimelor."
+  ],
+  "math": "",
+  "aiNote": "Relatarea se sprijină pe surse concordante — ABC News Australia (două articole separate) și agenția de presă australiană AAP, preluată de o rețea de ziare regionale. Toate redau aceleași fapte de bază: concluzia IDF, măsurile disciplinare și reacția lui Penny Wong. Nu am găsit surse care să contrazică vreunul dintre aceste elemente; diferența dintre poziții e una de evaluare (dacă răspunderea disciplinară e suficientă), nu de fapte disputate — de aceea am pus-o la secțiunea Opinie, nu la Contestat. Ce lipsește: raportul integral al anchetei militare israeliene nu pare să fi fost făcut public în relatările consultate, doar concluziile sale; o publicare a raportului complet ar permite verificarea independentă a lanțului de decizii care a dus la atac.",
+  "persoane": ["Penny Wong"]
+}
