@@ -1,0 +1,36 @@
+{
+  "slug": "germania-exporturi-record-zew-august",
+  "title": "Germania a avut cele mai mari exporturi lunare din istorie în iunie 2026, iar încrederea investitorilor a crescut a patra lună la rând, în ciuda nivelului scăzut al Rinului",
+  "category": "Extern",
+  "date": "2026-08-18",
+  "source": "Destatis / ZEW / Yahoo Finance / ActionForex",
+  "url": "https://www.destatis.de/EN/Press/2026/08/PE26_278_51.html",
+  "dek": "Oficiul Federal German de Statistică (Destatis) a anunțat pe 7 august 2026 exporturi de 139,3 miliarde de euro în iunie — cel mai ridicat nivel lunar înregistrat vreodată, depășind recordul din septembrie 2022. O săptămână mai târziu, indicele ZEW al încrederii investitorilor a urcat la 34,2 puncte în august, al patrulea avans lunar consecutiv, pe fondul rezultatelor corporative solide — deși institutul avertizează că nivelul record de scăzut al Rinului rămâne un risc acut pentru activitatea economică.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Potrivit comunicatului oficial Destatis din 7 august 2026, Germania a exportat bunuri în valoare de 139,3 miliarde de euro în iunie 2026 (date ajustate calendaristic și sezonier) — cel mai ridicat nivel înregistrat vreodată într-o singură lună, depășind recordul anterior de 139,1 miliarde de euro din septembrie 2022. Exporturile au crescut cu 0,9% față de mai 2026 și cu 6,6% față de iunie 2025, al cincilea avans lunar consecutiv. Importurile au ajuns la 123,9 miliarde de euro (+4,4% lunar, +8,4% anual), iar balanța comercială a înregistrat un surplus de 15,4 miliarde de euro.",
+      "sources": [
+        {"name": "Destatis — Exports in June 2026: +0.9% on May 2026", "url": "https://www.destatis.de/EN/Press/2026/08/PE26_278_51.html"}
+      ]
+    },
+    {
+      "text": "Indicele ZEW al sentimentului economic german a urcat la 34,2 puncte în august 2026, de la 26,3 în iulie, peste consensul analiștilor de 30,1 — al patrulea avans lunar consecutiv și cel mai ridicat nivel din februarie 2026. Indicele condițiilor curente s-a îmbunătățit și el, de la -77,6 la -61,1 (peste așteptarea de -68,8), deși rămâne puternic negativ. ZEW a atribuit îmbunătățirea rezultatelor financiare trimestriale solide ale companiilor, exporturilor recente puternice și sprijinului programelor federale de infrastructură; industria auto a avut cel mai mare avans sectorial (+22,2 puncte), deși balanța a rămas sub zero.",
+      "sources": [
+        {"name": "ActionForex — Germany ZEW Sentiment Strengthens to 34.2 as Current Conditions Improve", "url": "https://www.actionforex.com/live-comments/650980-germany-zew-sentiment-strengthens-to-34-2-as-current-conditions-improve/"},
+        {"name": "Yahoo Finance — German investor morale improves more than expected in August, ZEW finds", "url": "https://finance.yahoo.com/news/german-investor-morale-improves-more-091704731.html"}
+      ]
+    },
+    {
+      "text": "ZEW a semnalat explicit nivelul record de scăzut al apei pe Rin drept „un risc acut suplimentar” pentru activitatea economică germană — fluviul e o rută cheie pentru transportul industrial de materii prime și combustibil, iar nivelurile scăzute limitează încărcătura navelor și cresc costurile de transport.",
+      "sources": [
+        {"name": "ActionForex — Germany ZEW Sentiment Strengthens to 34.2 as Current Conditions Improve", "url": "https://www.actionforex.com/live-comments/650980-germany-zew-sentiment-strengthens-to-34-2-as-current-conditions-improve/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nAm folosit direct comunicatul oficial Destatis pentru cifrele de comerț exterior — nu o interpretare secundară — și datele publicate de ZEW pentru indicele de încredere. Cele două cifre (exporturi record în iunie, încredere în creștere în august) vin din surse diferite, la date diferite, dar converg spre aceeași direcție: economia germană arată semne de revenire după o perioadă slabă. Am păstrat și avertismentul ZEW despre Rin, pentru că e parte din același comunicat care anunță vestea bună — un exemplu clar în care sursa oficială însăși pune laolaltă progresul și riscul, fără să aleagă una dintre ele.",
+  "math": null,
+  "persoane": []
+}
