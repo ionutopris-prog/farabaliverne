@@ -1,0 +1,53 @@
+{
+  "slug": "grindeanu-datorie-1000-euro-secunda-socol",
+  "title": "Grindeanu spune că „Bolojan se împrumută cu 1.000 de euro pe secundă” — cifra e reală, atribuirea exclusivă nu",
+  "category": "Politică",
+  "date": "2026-08-13",
+  "source": "Gândul / Mediafax",
+  "url": "https://gandul.ro/actualitate/grindeanu-bilant-guvern-bolojan-datorie-20978965",
+  "dek": "La bilanțul de 100 de zile de la demiterea guvernului Bolojan, liderul PSD Sorin Grindeanu a spus că „premierul demis Bolojan se împrumută cu 1.000 de euro pe secundă”. Calculul (434 milioane lei pe zi) vine dintr-un studiu al economistului Cristian Socol despre creșterea datoriei publice pe 12 luni — o perioadă care acoperă și lunile dinaintea numirii lui Bolojan și intervalul în care a guvernat doar ca interimar, fără putere legislativă deplină.",
+  "mainVerdict": "Probat ce a declarat Grindeanu — cifra matematică e corectă, dar atribuirea ei integrală lui Bolojan simplifică un indicator agregat pe 12 luni",
+  "probat": [
+    {
+      "text": "Joi, 13 august 2026, la o conferință de presă la Parlament — un bilanț la 100 de zile de la demiterea guvernului Bolojan —, liderul PSD Sorin Grindeanu a declarat: „premierul demis Bolojan se împrumută cu 1.000 de euro pe secundă”, calculând că aceasta înseamnă 434 de milioane de lei adăugați zilnic la datoria publică a României. Grindeanu a mai citat alte cifre: contracție economică de 1,1% în T1 2026, scădere a producției industriale timp de cinci luni consecutive, aproape 8.300 de firme intrate în insolvență/faliment în patru luni și 173 de locuri de muncă pierdute zilnic.",
+      "sources": [
+        {"name": "Gândul — Grindeanu: România se împrumută cu 1.000 de euro pe secundă", "url": "https://gandul.ro/actualitate/grindeanu-bilant-guvern-bolojan-datorie-20978965"}
+      ]
+    },
+    {
+      "text": "Cifra provine dintr-un calcul al economistului Cristian Socol: datoria administrației publice a României a crescut de la 1.013,2 miliarde de lei (30 aprilie 2025) la 1.171,6 miliarde de lei (30 aprilie 2026) — o majorare de 158,3 miliarde de lei într-un an, echivalentă cu aproximativ 434 milioane lei pe zi, respectiv circa 5.000 de lei (~1.000 de euro) pe secundă. Socol a legat această creștere de depășirea pragului de 60% din PIB la datoria guvernamentală (60,1% potrivit Eurostat, 60,2% potrivit Ministerului Finanțelor) — peste criteriul de la Maastricht.",
+      "sources": [
+        {"name": "Mediafax — România a depășit pragul de 60% din PIB la datoria publică. Cristian Socol: în ultimul an, datoria a crescut cu aproape 5.000 de lei pe secundă", "url": "https://www.mediafax.ro/economic/romania-a-depasit-pragul-de-60-din-pib-la-datoria-publica-cristian-socol-in-ultimul-an-datoria-a-crescut-cu-aproape-5-000-de-lei-pe-secunda-23776398"}
+      ]
+    },
+    {
+      "text": "Ilie Bolojan a fost desemnat premier pe 20 iunie 2025, iar guvernul său a depus jurământul pe 23 iunie 2025. Perioada de calcul a lui Socol (30 aprilie 2025 – 30 aprilie 2026) include așadar aproximativ două luni dinaintea numirii sale. Guvernul Bolojan a fost, la rândul lui, demis prin moțiune de cenzură pe 5 mai 2026, cu 281 de voturi „pentru” — de atunci, Bolojan conduce doar un cabinet interimar, cu atribuții limitate la administrarea treburilor curente, până la formarea unui nou guvern (Grindeanu însuși este propunerea PSD pentru preluarea funcției, discutată pentru 1 septembrie 2026).",
+      "sources": [
+        {"name": "AGERPRES — Moțiunea de cenzură - adoptată de Parlament cu 281 de voturi; Guvernul Bolojan a fost demis", "url": "https://agerpres.ro/politic/2026/05/05/motiunea-de-cenzura---adoptata-de-parlament-cu-281-de-voturi-guvernul-bolojan-a-fost-demis--1553085"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nici Gândul, nici Mediafax nu raportează o reacție oficială din partea lui Ilie Bolojan sau a Ministerului Finanțelor la afirmația lui Grindeanu privind „cei 1.000 de euro pe secundă” — la data verificării, formularea nu a fost nici confirmată, nici contestată public punct cu punct de guvern.",
+      "sources": [
+        {"name": "Gândul — Grindeanu: România se împrumută cu 1.000 de euro pe secundă", "url": "https://gandul.ro/actualitate/grindeanu-bilant-guvern-bolojan-datorie-20978965"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Caracterizarea guvernului Bolojan drept „ilegal și lipsit de orice legitimitate democratică”, folosită de Grindeanu în aceeași conferință, este o poziție politică a liderului PSD — cabinetul interimar funcționează pe baza unei proceduri constituționale standard după o moțiune de cenzură, nu printr-o declarație de ilegalitate confirmată de vreo instanță sau autoritate.",
+      "sources": []
+    }
+  ],
+  "math": {
+    "title": "10 din cele 12 luni calculate au fost sub guvernarea Bolojan — dar doar 10 săptămâni cu putere legislativă deplină",
+    "explanation": "Perioada folosită de Socol pentru calcul (30 aprilie 2025 – 30 aprilie 2026) are 365 de zile. Bolojan a preluat guvernarea pe 23 iunie 2025, adică după 54 de zile din acest interval — deci circa 85% din perioadă (311 zile) a fost sub conducerea sa. Dar guvernul a fost demis pe 5 mai 2026, cu doar 25 de zile înainte de finalul intervalului calculat, iar de atunci Bolojan administrează doar afacerile curente, fără a putea iniția sau susține politici fiscale noi. Practic, creșterea datoriei e un indicator agregat pe 12 luni de deficit bugetar, dobânzi și cheltuieli deja angajate — nu o „decizie de a se împrumuta” pe care un singur premier o ia zilnic, cu atât mai puțin în ultimele luni, când a guvernat cu puteri reduse.",
+    "sources": [
+      {"name": "AGERPRES — Moțiunea de cenzură - adoptată de Parlament cu 281 de voturi; Guvernul Bolojan a fost demis", "url": "https://agerpres.ro/politic/2026/05/05/motiunea-de-cenzura---adoptata-de-parlament-cu-281-de-voturi-guvernul-bolojan-a-fost-demis--1553085"}
+    ]
+  },
+  "aiNote": "Ce s-a verificat: declarația lui Sorin Grindeanu din 13 august 2026, potrivit căreia „premierul demis Bolojan se împrumută cu 1.000 de euro pe secundă”, și sursa cifrei — un calcul al economistului Cristian Socol, publicat separat de Mediafax, despre creșterea datoriei publice a României cu 158,3 miliarde de lei între 30 aprilie 2025 și 30 aprilie 2026. Aritmetica se verifică: 158,3 miliarde de lei împărțite la 365 de zile dau aproximativ 434 de milioane de lei pe zi, adică circa 5.000 de lei — aproximativ 1.000 de euro — pe secundă. Cifra pe care o citează Grindeanu nu e inventată.\n\nUnde se desparte declarația de context: Grindeanu atribuie întreaga sumă „premierului Bolojan”, ca și cum ar fi rezultatul direct al deciziilor sale zilnice. În realitate, e vorba despre creșterea datoriei publice naționale pe un an calendaristic — un indicator agregat, care reflectă deficitul bugetar structural, dobânzile la datoria deja existentă și cheltuieli angajate de mai multe guverne, nu o linie de credit pe care un premier o „trage” personal. În plus, intervalul de calcul include aproximativ două luni dinaintea numirii lui Bolojan (preluarea a avut loc pe 23 iunie 2025) și se suprapune, spre final, cu perioada de după moțiunea de cenzură din 5 mai 2026, când guvernul funcționează doar interimar, cu atribuții limitate la administrarea curentă.\n\nCe lipsește: o defalcare oficială, lună de lună, a creșterii datoriei publice, care ar arăta cât s-a acumulat înainte și după 23 iunie 2025 și cât după demiterea din 5 mai 2026 — o asemenea detaliere nu a fost publicată de Ministerul Finanțelor la data verificării. Lipsește și o reacție oficială a lui Bolojan sau a Guvernului la formularea exactă a lui Grindeanu.\n\nCe ar schimba concluzia: o defalcare lunară oficială a datoriei publice, care ar putea arăta că majoritatea creșterii s-a produs efectiv sub guvernarea cu puteri depline a lui Bolojan (iunie 2025 – mai 2026) — caz în care atribuirea, deși tot simplificată ca „decizie personală”, ar fi mai puțin disproporționată temporal decât pare acum.",
+  "persoane": ["Sorin Grindeanu", "Ilie Bolojan"]
+}
