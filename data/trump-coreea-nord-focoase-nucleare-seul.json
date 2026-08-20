@@ -1,0 +1,85 @@
+{
+  "slug": "trump-coreea-nord-focoase-nucleare-seul",
+  "title": "Trump spune că Coreea de Nord are „57” de focoase nucleare — Seul estimează între 80 și 120",
+  "category": "Extern",
+  "date": "2026-08-20",
+  "source": "Korea Herald / Fox News",
+  "url": "https://www.koreaherald.com/article/10847029",
+  "dek": "Trump a citat, miercuri, cifra de 57 de focoase nucleare nord-coreene, apărându-și relația cu Kim Jong Un. Joi, ministrul apărării sud-coreean a spus în Parlament că estimarea Seulului e „între 80 și 120”, dar a recunoscut că „o cifră exactă e greu de dat”. Federation of American Scientists estimează circa 60.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Președintele american Donald Trump a declarat miercuri, 19 august 2026, că Coreea de Nord deține 57 de focoase nucleare „foarte puternice”, în timp ce își apăra relația cu liderul nord-coreean Kim Jong Un și semnala o posibilă întâlnire cu acesta mai târziu în 2026. Citat: „The fact that I get along with him, that's a good thing (...) I know Kim Jong Un very well, and he's going to be fine as long as we have a smart president.”",
+      "sources": [
+        {
+          "name": "Fox News — Trump reveals exact number of North Korea's nuclear weapons",
+          "url": "https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons"
+        },
+        {
+          "name": "NBC News — Trump says Kim Jong Un has 57 nuclear weapons",
+          "url": "https://www.nbcnews.com/world/asia/trump-kim-jong-un-nuclear-weapons-north-korea-south-military-drills-rcna593487"
+        }
+      ]
+    },
+    {
+      "text": "Joi, 20 august 2026, ministrul apărării sud-coreean Ahn Gyu-back a declarat în fața Comisiei de Apărare Națională din Adunarea Națională că estimarea Seulului este „între 80 și 120” de focoase, adăugând explicit: „Our estimate is between 80 and 120, but giving an accurate figure is limited.” Ahn a precizat că estimarea vine de la institute de cercetare locale, calculată pe baza plutoniului estimat produs de regim.",
+      "sources": [
+        {
+          "name": "Korea Herald — Defense Minister shares N. Korea nuke estimate above Trump's",
+          "url": "https://www.koreaherald.com/article/10847029"
+        }
+      ]
+    },
+    {
+      "text": "Federation of American Scientists (FAS), organizație independentă de analiză a arsenalelor nucleare, estimează în raportul din 2026 că Coreea de Nord a asamblat aproximativ 60 de focoase nucleare, deși deține suficient material fisil (plutoniu și uraniu îmbogățit) pentru până la 90, pe baza celor șase teste nucleare efectuate.",
+      "sources": [
+        {
+          "name": "Federation of American Scientists — Status of World Nuclear Forces",
+          "url": "https://fas.org/initiative/status-world-nuclear-forces/"
+        }
+      ]
+    },
+    {
+      "text": "Coreea de Nord nu permite inspecții internaționale independente ale programului său nuclear din aprilie 2009, când a expulzat inspectorii Agenției Internaționale pentru Energie Atomică (AIEA) de la Yongbyon, în urma condamnării de către Consiliul de Securitate ONU a unui lansări de rachetă. De atunci, orice estimare externă a arsenalului se bazează pe imagini satelitare și modelare, nu pe verificare directă.",
+      "sources": [
+        {
+          "name": "CNN — U.S. issues warning to North Korea for expelling inspectors",
+          "url": "https://www.cnn.com/2009/WORLD/asiapcf/04/16/nkorea.nuclear.inspectors.out/index.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cele trei cifre citate public — 57 (Trump), 80-120 (ministrul sud-coreean Ahn Gyu-back) și circa 60 (FAS) — diferă semnificativ, unele de peste două ori. Nici Trump, nici ministrul sud-coreean nu au precizat public sursa exactă a cifrei lor; presa americană notează că declarația lui Trump ar fi prima ocazie în care un oficial guvernamental american a dat public un număr exact, dar nu se știe dacă se bazează pe informații de spionaj clasificate sau e o aproximare.",
+      "sources": [
+        {
+          "name": "Fox News — precizia neobișnuită a cifrei lui Trump",
+          "url": "https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons"
+        },
+        {
+          "name": "Korea Herald — „our estimate is between 80 and 120, but giving an accurate figure is limited”",
+          "url": "https://www.koreaherald.com/article/10847029"
+        }
+      ]
+    },
+    {
+      "text": "Coreea de Sud nu poate recunoaște oficial, ca poziție diplomatică, că Coreea de Nord deține arme nucleare — ceea ce ajută la explicarea de ce ministrul Ahn a oferit un interval, nu o cifră fixă, și de ce a insistat că „urmărirea denuclearizării trebuie să continue”, indiferent de numărul exact.",
+      "sources": [
+        {
+          "name": "Korea Herald — poziția Seulului privind denuclearizarea",
+          "url": "https://www.koreaherald.com/article/10847029"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    "Diferența dintre cifre nu înseamnă neapărat că una dintre ele e „greșită”: estimările despre un arsenal nuclear secret se bazează pe analiza materialului fisil produs, pe teste nucleare și pe informații de spionaj, niciodată pe o numărătoare directă. Toate cifrele citate — a lui Trump inclusiv — sunt aproximări cu marje de eroare mari, nu fapte verificate."
+  ],
+  "math": {
+    "title": "De ce cifrele pot varia de la 57 la 120, fără ca vreuna să fie inventată",
+    "explanation": "Un focos nuclear „asamblat” nu poate fi numărat de la distanță — se estimează indirect, din cantitatea de plutoniu și uraniu îmbogățit pe care serviciile de informații cred că regimul le-a produs de-a lungul anilor (pornind de la cele șase teste nucleare, 2006-2017), împărțită la cantitatea de material necesară pentru un focos. Diferite institute folosesc ipoteze diferite despre eficiența procesului de îmbogățire și despre câte focoase au fost efectiv asamblate față de câte ar putea fi asamblate din materialul disponibil — de-aici intervalul de la ~57-60 până la 120. FAS estimează separat „focoase asamblate” (~60) și „material suficient pentru” (până la 90); ministrul sud-coreean pare să folosească un interval care include ambele scenarii, de unde plafonul de 120."
+  },
+  "aiNote": "Ce s-a verificat: trei cifre publice — 57, citată de Trump la Casa Albă pe 19 august, fără sursă precizată; 80-120, declarată de ministrul apărării sud-coreean Ahn Gyu-back în Parlament pe 20 august, cu rezerva explicită că „o cifră exactă e greu de dat”; și circa 60 (plus material pentru până la 90), estimarea independentă a Federation of American Scientists.\n\nUnde se despart sursele: niciuna dintre cele trei cifre nu vine dintr-o verificare directă — Coreea de Nord nu a mai permis inspecții internaționale din 2009. Cifrele sunt modelări bazate pe materialul fisil estimat produs și pe testele nucleare cunoscute; institute diferite fac ipoteze diferite despre eficiența procesului și despre câte focoase sunt efectiv „gata de folosire” față de câte ar putea fi, teoretic, asamblate din materialul disponibil.\n\nCe lipsește: sursa exactă a cifrei lui Trump — dacă vine din informații clasificate sau e o rotunjire; și orice confirmare independentă, de vreme ce nu există acces internațional la instalațiile nord-coreene.\n\nCe ar schimba concluzia: o dezvăluire credibilă de informații de informații sau reluarea inspecțiilor internaționale AIEA.",
+  "persoane": []
+}
