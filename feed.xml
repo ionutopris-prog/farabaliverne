@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 20 Aug 2026 19:56:33 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 20:01:15 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Grindeanu spune că „Bolojan se împrumută cu 1.000 de euro pe secundă” — cifra e reală, atribuirea exclusivă nu</title>
+      <link>https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-socol.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-socol.html</guid>
+      <pubDate>Thu, 20 Aug 2026 16:57:08 +0000</pubDate>
+      <category>Politică</category>
+      <description>La bilanțul de 100 de zile de la demiterea guvernului Bolojan, liderul PSD Sorin Grindeanu a spus că „premierul demis Bolojan se împrumută cu 1.000 de euro pe secundă”. Calculul (434 milioane lei pe zi) vine dintr-un studiu al economistului Cristian Socol despre creșterea datoriei publice pe 12 luni — o perioadă care acoperă și lunile dinaintea numirii lui Bolojan și intervalul în care a guvernat doar ca interimar, fără putere legislativă deplină.
+
+Unde bat probele: Probat ce a declarat Grindeanu — cifra matematică e corectă, dar atribuirea ei integrală lui Bolojan simplifică un indicator agregat pe 12 luni. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Sorana Cîrstea, eliminată în optimi la Cincinnati de Jessica Pegula, după un meci de peste două ore în trei seturi</title>
       <link>https://farabaliverne.ro/a/sorana-cirstea-eliminata-optimi-cincinnati-pegula.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu nuanțe. Verificate: 3 probate, 2 contestate.</desc
       <description>Ministerul Educației a publicat marți, 18 august, primele rezultate la bacalaureat pentru sesiunea de toamnă: 33,8% dintre candidații prezenți au promovat, cea mai mare rată din ultimii ani. Sursele diferă însă în privința intervalului exact al recordului — 12 ani, 15 ani sau „a doua sesiune de toamnă de la actualul format”.
 
 Unde bat probele: Probat, cu nuanțe. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>1.500 de șoferi de autobuz paralizează nordul Londrei: 26 de zile de grevă din cauza căldurii din cabine</title>
-      <link>https://farabaliverne.ro/a/londra-greva-autobuze-arriva-canicula-cabine.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/londra-greva-autobuze-arriva-canicula-cabine.html</guid>
-      <pubDate>Tue, 18 Aug 2026 09:25:16 +0000</pubDate>
-      <category>Extern</category>
-      <description>Peste 1.500 de șoferi de autobuz Arriva London North, din 8 depouri, au intrat în grevă pe 14 august, cu un nou val chiar azi, 18-21 august — parte dintr-un calendar de 26 de zile de acțiune eșalonate până în octombrie. Sindicatul Unite spune că temperaturile din cabine trec de 40°C, iar sistemele actuale de „răcire cu aer” reduc temperatura doar cu 2-3 grade.
-
-Unde bat probele: Probat. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
