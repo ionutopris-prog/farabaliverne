@@ -1,0 +1,93 @@
+{
+  "slug": "taiwan-kaohsiung-sondaje-false-china-lai",
+  "title": "Președintele Taiwanului acuză China de „sondaje false” în cursa pentru Kaohsiung. Presa de stat chineză neagă și vorbește de „zvonuri” inventate de Lai",
+  "category": "Media de stat",
+  "date": "2026-08-20",
+  "source": "Newtalk / Global Times",
+  "url": "https://newtalk.tw/news/view/2026-08-12/1052943",
+  "dek": "Președintele taiwanez William Lai Ching-te a susținut, pe 12 august 2026, la o ședință a Comitetului Central al DPP din Kaohsiung, că R.P. Chineză răspândește știri și sondaje false pentru a influența alegerile locale din oraș — inclusiv un sondaj care ar arăta candidatul DPP câștigând cu sub 1%. Presa de stat chineză (Global Times) respinge acuzația și susține că Lai și presa apropiată de DPP au „inventat” povestea pentru câștig politic. Niciuna dintre părți nu a publicat, până acum, dovezi tehnice verificabile despre originea sondajului contestat — punem afirmațiile alături de un raport independent (MERICS) care documentează un tipar mai larg de dezinformare chineză la alegerile taiwaneze.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Pe 12 august 2026, la o ședință a Comitetului Central al Partidului Progresist Democrat (DPP) din Kaohsiung, președintele William Lai Ching-te a declarat că circulă în oraș „știri false” — cum că actualul candidat DPP, Lai Jui-lung, „nu poate ține situația sub control” și că partidul e dezbinat — și „sondaje false”, care ar arăta o victorie a lui Lai Jui-lung cu mai puțin de 1% în fața contracandidatului. Lai a avertizat că vor urma probabil și „materiale video și mesaje false”.",
+      "sources": [
+        {
+          "name": "Newtalk — „指中國在高雄介選 賴清德：賴瑞隆難撐大局、民調贏不到1%『都假的』”",
+          "url": "https://newtalk.tw/news/view/2026-08-12/1052943"
+        },
+        {
+          "name": "Liberty Times (自由時報) — „賴清德示警：中國介選不只假消息和假民調”",
+          "url": "https://news.ltn.com.tw/news/Kaohsiung/breakingnews/5537589"
+        }
+      ]
+    },
+    {
+      "text": "Lai a legat aceste afirmații de „Conferința de la Beidaihe” a Partidului Comunist Chinez, spunând că Beijingul ar privi rezultatul alegerilor locale din Taiwan de la finalul anului 2026 drept un indicator al succesului strategiei sale față de Taiwan, și a enumerat patru direcții pe care le atribuie deciziilor de la Beidaihe: opoziție față de bugetul de apărare taiwanez, izolarea internațională a Taiwanului, întărirea unor „coloane a cincea” pe insulă și mobilizarea forțelor pro-China pentru alegerile locale.",
+      "sources": [
+        {
+          "name": "Fount Media (放言) — „賴清德中常會首提『北戴河會議』”",
+          "url": "https://www.fountmedia.io/article/412724"
+        }
+      ]
+    },
+    {
+      "text": "Global Times (media de stat, R.P. Chineză), într-un comentariu semnat Hai Feng, a respins acuzația lui Lai, susținând că DPP și presa apropiată de partid au „lansat” mai întâi narativul, iar Lai l-a „preluat” pentru a-l transforma într-un avertisment despre „interferența electorală a PCC” — și a cerut dovezi concrete: „Dacă chiar există «interferență electorală a PCC», unde sunt dovezile? Martorii? Urmele banilor?”. Editorialul acuză DPP de un tipar repetitiv: să eticheteze drept „false” sondajele care îi sunt nefavorabile.",
+      "sources": [
+        {
+          "name": "Global Times (media de stat) — „Lai Ching-te, pro-DPP media stage double act…”",
+          "url": "https://www.globaltimes.cn/page/202608/1368134.shtml"
+        }
+      ]
+    },
+    {
+      "text": "Institutul german MERICS (Mercator Institute for China Studies) a documentat, într-un raport independent, un tipar mai larg de operațiuni de dezinformare ale R.P. Chineze țintind alegerile din Taiwan: folosirea inteligenței artificiale generative pentru deepfake-uri și identități artificiale, „spălarea” originii informațiilor prin site-uri și conturi piratate, și o creștere de aproximativ 40% a volumului de dezinformare înainte de alegeri. Meta a eliminat, într-o campanie anterioară, 7.704 conturi false asociate rețelei „Spamouflage”, iar Google și X au șters sute de mii de conturi legate de stat.",
+      "sources": [
+        {
+          "name": "MERICS — „In a savvy disinformation offensive, China takes aim at Taiwan election”",
+          "url": "https://merics.org/en/report/savvy-disinformation-offensive-china-takes-aim-taiwan-election"
+        }
+      ]
+    },
+    {
+      "text": "Biroul Național de Securitate al Taiwanului (NSB), instituția guvernamentală de informații, a publicat pe 11 ianuarie 2026 o analiză proprie susținând că R.P. Chineză folosește firme chineze de IT și marketing pentru a crea site-uri de știri false, a administra conturi și a colecta și răspândi dezinformare, ca parte a unui „război cognitiv” continuu împotriva Taiwanului.",
+      "sources": [
+        {
+          "name": "Focus Taiwan — „China uses fake news sites, accounts to spread misinformation against Taiwan: NSB”",
+          "url": "https://focustaiwan.tw/politics/202601110005"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Niciuna dintre cele două părți nu a publicat, până la ora verificării, dovezi tehnice specifice despre sondajul contestat din Kaohsiung — de exemplu cine l-a comandat, cine l-a difuzat prima dată sau o urmă documentară care să lege explicit conținutul de un actor chinez de stat. Afirmația lui Lai se bazează pe declarația sa publică din 12 august; respingerea Global Times se bazează pe absența acestor dovezi, nu pe o contra-investigație publicată. Nu am găsit un raport al unui organism independent de fact-checking taiwanez (de exemplu Taiwan FactCheck Center) dedicat explicit acestui sondaj.",
+      "sources": [
+        {
+          "name": "Newtalk — declarația lui Lai, fără dovezi tehnice publicate",
+          "url": "https://newtalk.tw/news/view/2026-08-12/1052943"
+        },
+        {
+          "name": "Global Times (media de stat) — respingerea, fără contra-investigație publicată",
+          "url": "https://www.globaltimes.cn/page/202608/1368134.shtml"
+        }
+      ]
+    },
+    {
+      "text": "Raportul MERICS documentează un tipar general de dezinformare chineză la alegerile taiwaneze (axat inițial pe alegerile prezidențiale din ianuarie 2024), care face plauzibilă, la nivel de metodă, acuzația lui Lai — dar nu constituie o confirmare independentă a episodului specific din Kaohsiung, petrecut cu doi ani mai târziu, la alegeri locale diferite.",
+      "sources": [
+        {
+          "name": "MERICS — raportul se referă la alegerile din 2024, nu la Kaohsiung 2026",
+          "url": "https://merics.org/en/report/savvy-disinformation-offensive-china-takes-aim-taiwan-election"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Global Times califică relatarea lui Lai drept „abilități de zvonit mai slabe decât ale unor elevi de școală primară” — o etichetă disprețuitoare, nu o dovadă. La fel, descrierea de către Lai a sondajului drept „fals” fără a arăta cine l-a produs rămâne, deocamdată, o acuzație politică, nu un fapt stabilit tehnic. Cititorul poate cântări credibilitatea fiecărei părți știind că ambele au un interes electoral direct în cum e perceput episodul."
+    }
+  ],
+  "math": "",
+  "aiNote": "📡 Aici avem o dispută directă între un politician numit (președintele taiwanez William Lai Ching-te) și presa de stat a unei alte țări (Global Times, R.P. Chineză) — tratăm ambele afirmații ca susțineri contestate, nu ca fapte stabilite. Ce a spus Lai, documentat prin presa taiwaneză (Newtalk, Liberty Times, Fount Media): pe 12 august 2026 a acuzat R.P. Chineză de răspândirea unor știri și sondaje false în cursa pentru primăria Kaohsiung, legând acuzația de directive atribuite Conferinței de la Beidaihe a PCC. Ce a răspuns Global Times: a negat, a cerut dovezi concrete („martorii? urmele banilor?”) și a susținut că DPP inventează sistematic acuzații de „interferență” ori de câte ori un sondaj îi e nefavorabil. Niciuna dintre părți nu a arătat public o probă tehnică (de exemplu urma unui cont, a unei plăți sau a unui site) care să lege sondajul contestat de un actor anume. Ce sprijină parțial plauzibilitatea acuzației lui Lai, fără s-o confirme direct: un raport independent al institutului german MERICS documentează, separat, un tipar real și susținut de operațiuni chineze de dezinformare electorală în Taiwan — folosire de AI generativă, conturi false, creștere de ~40% a volumului de dezinformare înainte de alegeri — plus o analiză proprie a Biroului Național de Securitate taiwanez (NSB) din ianuarie 2026 cu concluzii similare. Dar aceste surse documentează un tipar general, la alegerile din 2024, nu episodul specific din Kaohsiung 2026. Ce ar schimba concluzia: publicarea de către NSB, un fact-checker independent (de exemplu Taiwan FactCheck Center) sau o platformă (Meta/Google/X) a unei urme tehnice concrete care leagă sondajul contestat din Kaohsiung de o operațiune chineză — sau, la polul opus, dovada că sondajul a fost produs de o casă de sondaje taiwaneză reală.",
+  "persoane": ["Lai Ching-te"]
+}
