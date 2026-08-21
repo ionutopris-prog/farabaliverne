@@ -148,7 +148,12 @@ def extract(d):
 # Câte articole din fiecare categorie primesc card cu poză pe prima pagină.
 # Restul trec în lista compactă. Cu 7 categorii, imaginile se plafonează la
 # ~42 — indiferent câte articole se adună în timp.
-CARDURI_PE_CATEGORIE = 6
+# Toate articolele primesc card cu poză, nu doar cele mai noi (decizia
+# fondatorului, 21 august 2026): „vreau ca toate articolele pe pagina acasă,
+# când derulezi în jos, să se vadă frumos cu poză exact cum se văd primele".
+# Ce face costul suportabil: cardurile folosesc miniatura de 520px (~35 KB, nu
+# ~550 KB) și `loading="lazy"`, deci browserul cere poza abia când ajunge la ea.
+CARDURI_PE_CATEGORIE = 10000
 
 
 def card_img(slug, heroimg):
