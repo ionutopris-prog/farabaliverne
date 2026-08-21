@@ -1,0 +1,48 @@
+{
+  "slug": "uk-vanzari-amanuntul-scadere-iulie-2026",
+  "title": "Vânzările cu amănuntul din Marea Britanie au scăzut 0,5% în iulie — dar ONS titrează „creștere pe trei luni”",
+  "category": "Economie",
+  "date": "2026-08-21",
+  "source": "Office for National Statistics (ONS)",
+  "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026",
+  "dek": "🌍 Oficiul britanic de statistică (ONS) a raportat vineri, 21 august, o scădere de 0,5% a volumului vânzărilor cu amănuntul în iulie 2026 față de iunie, exact cum anticipa piața. Chiar ONS și-a titrat însă comunicatul „vânzările au crescut în cele trei luni până în iulie” — cele două cifre nu se contrazic, doar măsoară perioade diferite.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Volumul vânzărilor cu amănuntul din Marea Britanie a scăzut cu 0,5% în iulie 2026 față de iunie, potrivit primei estimări ONS publicate vineri, 21 august — exact în linie cu așteptările pieței. Luna anterioară, iunie, a fost revizuită la o creștere de 0,7% (față de o estimare inițială mai mare).",
+      "sources": [
+        {"name": "Retail Times — Retail sales volumes are estimated to have fallen by 0.5% in July 2026, ONS reports", "url": "https://retailtimes.co.uk/retail-sales-volumes-are-estimated-to-have-fallen-by-0-5-in-july-2026-ons-reports/"},
+        {"name": "FXStreet — United Kingdom Retail Sales decline 0.5% MoM in July, as expected", "url": "https://www.fxstreet.com/news/united-kingdom-retail-sales-decline-05-mom-in-july-as-expected-202608210601"}
+      ]
+    },
+    {
+      "text": "Pe sectoare, scăderea a fost condusă de îmbrăcăminte și încălțăminte (-2,7%, cel mai amplu declin lunar din mai anul trecut) și de comercianții non-store, în principal online (-3,6%). Alimentele au crescut cu 0,5%, susținute de supermarketuri, iar cota vânzărilor online din total a scăzut la 28,3% față de luna precedentă.",
+      "sources": [
+        {"name": "Retail Times — Retail sales volumes are estimated to have fallen by 0.5% in July 2026, ONS reports", "url": "https://retailtimes.co.uk/retail-sales-volumes-are-estimated-to-have-fallen-by-0-5-in-july-2026-ons-reports/"},
+        {"name": "Grocery Gazette — Retail sales fell in July despite food and drinks boost", "url": "https://www.grocerygazette.co.uk/2026/08/21/retail-sales-fell-in-july-despite-food-and-drinks-boost/"}
+      ]
+    },
+    {
+      "text": "Comunicatul oficial ONS este titrat „Retail sales rose in the three months to July 2026” — vânzările au crescut pe fereastra de trei luni (mai-iunie-iulie), chiar dacă luna iulie luată separat a scăzut. ONS explică declinul lunar prin faptul că o parte din cerere a fost „mutată înainte, spre iunie”, din cauza unor promoții pornite mai devreme decât de obicei, iar vremea și evenimentele de vară nu au mai oferit un impuls suplimentar în iulie.",
+      "sources": [
+        {"name": "ONS — Retail sales, Great Britain: July 2026", "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026"},
+        {"name": "Retail Times — Retail sales volumes are estimated to have fallen by 0.5% in July 2026, ONS reports", "url": "https://retailtimes.co.uk/retail-sales-volumes-are-estimated-to-have-fallen-by-0-5-in-july-2026-ons-reports/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Titlurile din presă și titlul oficial ONS par să spună lucruri opuse — „vânzările au scăzut” versus „vânzările au crescut” — dar nu se contrazic: primul se referă la variația lunii iulie față de iunie (-0,5%), al doilea la variația mediei ultimelor trei luni față de trei luni anterioare. Ambele cifre sunt corecte; diferă doar fereastra de timp aleasă pentru titlu.",
+      "sources": [
+        {"name": "ONS — Retail sales, Great Britain: July 2026", "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026"},
+        {"name": "Retail Times — Retail sales volumes are estimated to have fallen by 0.5% in July 2026, ONS reports", "url": "https://retailtimes.co.uk/retail-sales-volumes-are-estimated-to-have-fallen-by-0-5-in-july-2026-ons-reports/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "claim": "ONS spune, în aceeași lansare de date, atât că vânzările au scăzut 0,5% în iulie față de iunie, cât și că vânzările „au crescut pe cele trei luni până în iulie”.",
+    "check": "Nu e o contradicție aritmetică: -0,5% e variația lunară (iulie vs. iunie), iar „creșterea pe trei luni” compară media volumului din mai-iunie-iulie cu media din perioada anterioară de trei luni. O lună poate scădea față de luna precedentă și, în același timp, trimestrul din care face parte poate fi peste trimestrul anterior — mai ales după o creștere puternică în mai (+1,3%) și iunie (+0,7%)."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română un comunicat oficial de statistică din Marea Britanie; sursele originale, inclusiv comunicatul ONS, sunt linkate mai sus. Cifrele vin direct de la Oficiul britanic de statistică (ONS) și sunt reluate concordant de mai multe publicații (Retail Times, FXStreet, Grocery Gazette). Singurul lucru care merită clarificat e aparenta contradicție dintre titlul din presă („vânzările au scăzut”) și titlul oficial ONS („vânzările au crescut pe trei luni”) — ambele sunt corecte, doar măsoară ferestre de timp diferite."
+}
