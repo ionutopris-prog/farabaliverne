@@ -17,8 +17,12 @@ on:
     # Max. Pe 17 august, trei ediții la rând au picat pentru că se atinsese
     # plafonul, iar ziua s-a încheiat cu 8 articole în loc de ~40. Mai rar
     # înseamnă mai puține articole, dar publicate, nu pierdute la jumătate.
-    - cron: "0 4,7,10,13,16,19 * * *"
-    - cron: "30 5,8,11,14,17,20 * * *"
+    # LA 120 DE MINUTE (decizia fondatorului, 21 august 2026): 9 ediții pe zi
+    # în loc de 12. Motivul e bugetul — edițiile și sesiunile de lucru trag din
+    # același abonament Max, iar pe 20-21 august zece ediții la rând au picat cu
+    # „session limit" fiindcă lucram în paralel la alt proiect. Mai rar, dar care
+    # chiar rulează, bate mai des și pe gol.
+    - cron: "0 4,6,8,10,12,14,16,18,20 * * *"
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
