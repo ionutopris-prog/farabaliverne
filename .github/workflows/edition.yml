@@ -42,6 +42,10 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Reține punctul de pornire
+        id: base
+        run: echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
       - name: Python
         uses: actions/setup-python@v5
         with:
@@ -216,8 +220,22 @@ jobs:
             git push origin main
           fi
 
+      # Rulează MEREU, chiar dacă redactorul a picat la jumătate.
+      # Pe 20-21 august, redactorul a comis 8 articole și apoi a atins plafonul de
+      # abonament; fiind pas eșuat, GitHub a sărit peste publicare, iar articolele
+      # au stat o zi întreagă în repo fără să ajungă pe site. Nu ne mai uităm dacă
+      # redactorul a reușit, ci dacă pe main chiar a apărut ceva nou.
       - name: Publică (declanșează deploy-ul)
-        if: steps.redactor.outputs.changed == 'true'
+        if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy.yml --ref main
+        run: |
+          git fetch -q origin main
+          INAINTE="${{ steps.base.outputs.sha }}"
+          ACUM="$(git rev-parse origin/main)"
+          if [ "$INAINTE" != "$ACUM" ]; then
+            echo "main a avansat: $INAINTE -> $ACUM · urc pe site"
+            gh workflow run deploy.yml --ref main
+          else
+            echo "nimic nou pe main · nu e nimic de urcat"
+          fi
