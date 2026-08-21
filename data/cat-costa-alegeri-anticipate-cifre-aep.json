@@ -1,0 +1,96 @@
+{
+  "slug": "cat-costa-alegeri-anticipate-cifre-aep",
+  "title": "Cât ar costa alegeri anticipate: costurile trecute sunt publice până la ultimul euro, dar suma vehiculată pentru un scrutin nou nu are sursă",
+  "category": "Politică",
+  "date": "2026-08-21",
+  "source": "Antena 3 CNN / Spotmedia",
+  "url": "https://www.antena3.ro/politica/alegeri-parlamentare-2024/organizarea-alegerilor-din-romania-in-2024-si-2025-a-costat-sute-de-milioane-de-euro-pretul-pe-alegator-prezent-a-fost-chiar-si-45-e-774297.html",
+  "dek": "Cât au costat alegerile din 2024 și 2025 se știe exact: 680 de milioane de euro, cifre prezentate chiar de președintele Autorității Electorale Permanente. Cât ar costa unele anticipate — nu. Sumele care circulă („cu 30-40% mai mult”, „220-230 de milioane”) nu apar în niciun document sau declarație a AEP pe care am putut-o verifica.",
+  "mainVerdict": "Probat parțial — costurile trecute se probează, estimarea pentru anticipate nu",
+  "probat": [
+    {
+      "text": "Organizarea alegerilor din 2024 și 2025 a costat aproximativ 680 de milioane de euro. Defalcat: alegerile locale și europarlamentare din 2024 — 249.763.800 de euro; alegerile parlamentare din decembrie 2024 (Senat și Camera Deputaților) — 119.952.588 de euro; prezidențialele din 2024 — 147.000.000 de euro; prezidențialele din 2025 — 160.982.962 de euro. Cifrele au fost prezentate de Adrian Țuțuianu, președintele Autorității Electorale Permanente, într-o conferință de presă, și au fost relatate identic de mai multe redacții pe 21 ianuarie 2026.",
+      "sources": [
+        {
+          "name": "Antena 3 CNN — costurile alegerilor 2024 și 2025",
+          "url": "https://www.antena3.ro/politica/alegeri-parlamentare-2024/organizarea-alegerilor-din-romania-in-2024-si-2025-a-costat-sute-de-milioane-de-euro-pretul-pe-alegator-prezent-a-fost-chiar-si-45-e-774297.html"
+        },
+        {
+          "name": "Spotmedia — 680 de milioane de euro",
+          "url": "https://spotmedia.ro/stiri/social/alegerile-din-2024-si-2025-ne-au-costat-680-milioane-de-euro-s-au-folosit-2-700-de-tone-de-hartie"
+        }
+      ]
+    },
+    {
+      "text": "Tipărirea buletinelor de vot, luată separat, a costat 6.578.000 de euro la parlamentare, 5.451.000 de euro la locale, 1.794.000 de euro la prezidențialele din 2024 și 1.900.000 de euro la cele din 2025. Tot Țuțuianu a afirmat că simplificarea buletinului la o singură pagină ar reduce aceste costuri cu aproximativ 80%.",
+      "sources": [
+        {
+          "name": "Antena 3 CNN — costul tipăririi buletinelor",
+          "url": "https://www.antena3.ro/politica/alegeri-parlamentare-2024/organizarea-alegerilor-din-romania-in-2024-si-2025-a-costat-sute-de-milioane-de-euro-pretul-pe-alegator-prezent-a-fost-chiar-si-45-e-774297.html"
+        }
+      ]
+    },
+    {
+      "text": "Consumul de hârtie pentru cele două cicluri electorale a fost de peste 2,7 milioane de kilograme, adică 2.700 de tone: 1.502.544 kg la locale și europarlamentare, circa 1.000.000 kg la parlamentare și 216.501 kg la prezidențiale.",
+      "sources": [
+        {
+          "name": "Spotmedia — 2.700 de tone de hârtie",
+          "url": "https://spotmedia.ro/stiri/social/alegerile-din-2024-si-2025-ne-au-costat-680-milioane-de-euro-s-au-folosit-2-700-de-tone-de-hartie"
+        }
+      ]
+    },
+    {
+      "text": "Alegeri parlamentare anticipate nu pot fi organizate pe legislația electorală actuală fără modificarea Legii 208/2015, în special la termene. Termenul constituțional de trei luni de la dizolvarea Parlamentului este obligatoriu și toate operațiunile electorale trebuie să încapă în el. Declarația aparține tot lui Adrian Țuțuianu, într-un interviu la Digi24 din 15 iulie 2026.",
+      "sources": [
+        {
+          "name": "Digi24 — Țuțuianu despre anticipate și termenul de 3 luni",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/adrian-tutuianu-seful-aep-spune-ca-se-pot-organiza-anticipate-dar-cu-modificari-legislative-termenul-de-3-luni-e-obligatoriu-3862897"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "În spațiul public circulă afirmația că alegerile anticipate ar costa „cu 30-40% mai mult” decât cele din 2024, atribuită președintelui AEP. Nu am găsit această cifră în niciuna dintre sursele pe care le-am putut verifica direct — nici în relatările despre conferința de presă în care au fost prezentate costurile, nici în interviul de la Digi24. Nu spunem că afirmația e falsă; spunem că, la data publicării acestui articol, nu i-am găsit o sursă verificabilă.",
+      "sources": [
+        {
+          "name": "Digi24 — interviul integral, fără cifre de cost",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/adrian-tutuianu-seful-aep-spune-ca-se-pot-organiza-anticipate-dar-cu-modificari-legislative-termenul-de-3-luni-e-obligatoriu-3862897"
+        },
+        {
+          "name": "Antena 3 CNN — conferința cu cifrele oficiale",
+          "url": "https://www.antena3.ro/politica/alegeri-parlamentare-2024/organizarea-alegerilor-din-romania-in-2024-si-2025-a-costat-sute-de-milioane-de-euro-pretul-pe-alegator-prezent-a-fost-chiar-si-45-e-774297.html"
+        }
+      ]
+    },
+    {
+      "text": "O a doua sumă vehiculată, 220-230 de milioane de euro pentru un scrutin anticipat în toamna lui 2026, provine dintr-un calcul de redacție publicat de Puterea.ro pe 24 iunie 2026, care pornește de la costul parlamentarelor din 2024 (119.952.588 de euro) și adaugă inflația estimată la peste 11%, plus circa 1,3 milioane de euro pentru hârtie. Este o estimare jurnalistică, nu o cifră a AEP — iar diferența față de „30-40% mai mult” este uriașă: primul calcul ar da 156-168 de milioane, al doilea aproape dublează suma de pornire.",
+      "sources": [
+        {
+          "name": "Puterea.ro — calculul pentru anticipate",
+          "url": "https://www.puterea.ro/ce-ar-insemna-in-cifre-eventuale-alegeri-anticipate-pentru-aceasta-toamna-puterea-a-facut-toate-calculele/"
+        },
+        {
+          "name": "Antena 3 CNN — costul parlamentarelor 2024",
+          "url": "https://www.antena3.ro/politica/alegeri-parlamentare-2024/organizarea-alegerilor-din-romania-in-2024-si-2025-a-costat-sute-de-milioane-de-euro-pretul-pe-alegator-prezent-a-fost-chiar-si-45-e-774297.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Că un scrutin anticipat ar fi mai scump decât unul programat este o așteptare rezonabilă — termene comprimate, tipărire în regim de urgență, personal suplimentar. Cât anume mai scump rămâne însă o chestiune de calcul, nu de intuiție, iar calculul public nu există încă.",
+      "sources": [
+        {
+          "name": "Puterea.ro — premisele calculului",
+          "url": "https://www.puterea.ro/ce-ar-insemna-in-cifre-eventuale-alegeri-anticipate-pentru-aceasta-toamna-puterea-a-facut-toate-calculele/"
+        }
+      ]
+    }
+  ],
+  "math": "Verificare de adunare: 249.763.800 (locale + europarlamentare) + 119.952.588 (parlamentare) + 147.000.000 (prezidențiale 2024) + 160.982.962 (prezidențiale 2025) = 677.699.350 de euro. Cifra rotunjită de „680 de milioane” se susține. Aplicată pe baza parlamentarelor din 2024, o creștere de 30-40% ar însemna 155,9-167,9 milioane de euro; estimarea de 220-230 de milioane ar însemna o creștere de 83-92%. Cele două cifre care circulă nu pot fi ambele corecte pentru același scrutin.",
+  "aiNote": "Ce s-a verificat exact și pe ce surse: cifrele de cost pentru alegerile din 2024 și 2025 apar identic la Antena 3 CNN și Spotmedia, ambele relatând aceeași conferință de presă a Autorității Electorale Permanente din ianuarie 2026, cu sume la nivel de euro — nu rotunjite, ceea ce indică o sursă documentară, nu o estimare. Am verificat și adunarea lor: dau 677,7 milioane, deci „680 de milioane” e o rotunjire corectă, nu o cifră aruncată.\n\nUnde se despart sursele: la costul unui scrutin anticipat. Aici nu avem o cifră instituțională, ci două numere care circulă și care nu se pot împăca. „Cu 30-40% mai mult decât în 2024” ar însemna 156-168 de milioane. Calculul publicat de Puterea.ro dă 220-230 de milioane, adică o creștere de 83-92%. Diferența dintre ele — peste 60 de milioane de euro — nu vine din opinii diferite, ci din baze de calcul diferite: unul pare să compare doar cu parlamentarele, celălalt adaugă inflație și costuri de urgență.\n\nCe lipsește: o estimare publicată de AEP, cu ipotezele la vedere. Fără ea, oricine poate cita numărul care îi convine, iar amândouă sună la fel de oficial în presă. Instituția are datele: știe cât a costat fiecare operațiune în 2024, la nivel de euro, fiindcă le-a prezentat public. Ce nu e public e cât ar costa aceleași operațiuni comprimate în trei luni.\n\nCe ar schimba concluzia: un document AEP sau o declarație datată în care instituția își asumă o cifră și ipotezele ei. Atunci discuția s-ar muta de la „ce număr circulă” la „e realist numărul”. Până atunci, singurul lucru solid din toată această discuție sunt costurile trecute — iar acelea, spre deosebire de estimări, se verifică până la ultimul euro.",
+  "persoane": [
+    "Adrian Țuțuianu"
+  ]
+}
