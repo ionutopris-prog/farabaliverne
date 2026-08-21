@@ -1,0 +1,90 @@
+{
+  "slug": "trump-census-24000-non-cetateni-vot-2020",
+  "title": "Trump spune că un raport al Census Bureau arată 24.000 de non-cetățeni care au votat ilegal în 2020 — experții contestă metodologia",
+  "category": "Extern",
+  "date": "2026-08-21",
+  "source": "NPR / Votebeat",
+  "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting",
+  "dek": "Președintele Trump a susținut pe rețelele sociale că o analiză nepublicată a Census Bureau arată aproximativ 24.000 de voturi ale unor non-cetățeni în alegerile din 2020, cifră ce ar urma să „explodeze”. Echipa din spatele raportului a inclus persoane afiliate unui think tank apropiat lui Trump, iar experți electorali independenți spun că metodologia e nesigură și că, din cauza marjei de eroare, cifra reală ar putea fi apropiată de zero.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Președintele Donald Trump a declarat pe rețelele sociale, pe 18-19 august 2026, că o analiză a Census Bureau, bazată pe peste 128 de milioane de înregistrări electorale din 2020, „proves that over 24,000 Noncitizens voted illegally” și că cifra finală va „exploda” după verificarea a încă 32 de milioane de înregistrări.",
+      "sources": [
+        {
+          "name": "NPR — Experts raise alarms over Census Bureau report Trump is touting on noncitizen voting",
+          "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting"
+        },
+        {
+          "name": "Votebeat — Trump says census report shows 24,000 noncitizens voted in 2020 election",
+          "url": "https://www.votebeat.org/national/2026/08/20/trump-census-bureau-noncitizen-voters-2020-election-methodology/"
+        }
+      ]
+    },
+    {
+      "text": "Raportul Census Bureau are 7 pagini și, neobișnuit pentru agenție, nu are autor precizat. Potrivit unui angajat al agenției citat de NPR, echipa care a lucrat la el a inclus persoane afiliate America First Policy Institute — un think tank fondat de oficiali din prima administrație Trump — iar analiza nu a fost realizată de funcționarii de carieră ai Census Bureau.",
+      "sources": [
+        {
+          "name": "NPR — legăturile raportului cu America First Policy Institute",
+          "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting"
+        }
+      ]
+    },
+    {
+      "text": "Proporția pe care se bazează afirmația este de circa 24.000 din 128 de milioane de înregistrări analizate, adică aproximativ 0,02%. Experți electorali citați de NPR și Votebeat contestă fiabilitatea metodei de potrivire a datelor: David Becker (Center for Election Innovation & Research) a numit analiza „laughable”, spunând că „datele de recensământ nu pot fi asociate în mod fiabil cu datele despre votanți”; Michael Morse (Universitatea Pennsylvania) a semnalat probleme grave de identificare și înregistrări de naturalizare incomplete; Amy O'Hara (Georgetown) a spus că raportului „îi lipsesc măsurile de eroare sau discuția despre distorsiuni”.",
+      "sources": [
+        {
+          "name": "NPR — criticile experților electorali (Becker, Morse, O'Hara)",
+          "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting"
+        },
+        {
+          "name": "Votebeat — Beth Jarosz și Terri Ann Lowenthal despre lipsa de transparență a raportului",
+          "url": "https://www.votebeat.org/national/2026/08/20/trump-census-bureau-noncitizen-voters-2020-election-methodology/"
+        }
+      ]
+    },
+    {
+      "text": "Justin Levitt, specialist în drept electoral citat de Votebeat, a avertizat că cifra de 24.000 s-ar putea încadra în marja de eroare a metodei folosite, ceea ce ar însemna că numărul real de voturi ale unor non-cetățeni ar putea fi zero. Chiar dacă cifrele ar fi exacte, ele nu ar fi schimbat rezultatul din 2020 în statele citate ca exemplu: Wisconsin a înregistrat circa 500 de cazuri identificate, în timp ce Trump a pierdut statul cu peste 20.000 de voturi, iar Arizona a înregistrat circa 1.100 de cazuri, cu o marjă de înfrângere de peste 10.000 de voturi.",
+      "sources": [
+        {
+          "name": "Votebeat — Justin Levitt despre marja de eroare și impactul asupra rezultatului",
+          "url": "https://www.votebeat.org/national/2026/08/20/trump-census-bureau-noncitizen-voters-2020-election-methodology/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "O examinare Reuters a dosarelor federale de instanță, citată de sursele consultate, a găsit doar 129 de persoane acuzate în baza legii federale care interzice votul non-cetățenilor de la adoptarea acesteia, în 1996, dintre care doar 73 condamnate sau care au pledat vinovat. Acest istoric contrastă puternic cu cifra de „peste 24.000” pe care Trump o prezintă drept dovadă, dar nu infirmă direct metoda folosită în noul raport al Census Bureau — doar arată cât de rar au fost documentate, până acum, cazuri reale de vot al unor non-cetățeni.",
+      "sources": [
+        {
+          "name": "NPR — context istoric despre urmăririle penale pentru vot al non-cetățenilor",
+          "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting"
+        }
+      ]
+    },
+    {
+      "text": "Departamentul pentru Securitate Internă (DHS) a anunțat separat că a găsit 250.000 de non-cetățeni pe registrele electorale din patru state, dar nu a făcut publică metodologia folosită pentru a ajunge la această cifră, ceea ce face imposibilă compararea ei directă cu cea din raportul Census Bureau sau verificarea independentă a acurateței sale.",
+      "sources": [
+        {
+          "name": "NPR — anunțul DHS privind cei 250.000 de non-cetățeni",
+          "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Afirmația lui Trump că cifrele „dovedesc” că a câștigat alegerile din 2020 este o poziție politică, nu o concluzie susținută de sursele consultate — chiar experții care nu contestă neapărat existența unor cazuri izolate de vot al unor non-cetățeni spun că numărul lor, chiar dacă real, nu ar fi schimbat rezultatul în statele-cheie citate ca exemplu.",
+      "sources": []
+    }
+  ],
+  "math": {
+    "title": "0,02% dintr-un eșantion e departe de „a dovedi” alegerile furate",
+    "explanation": "24.000 din 128 de milioane de înregistrări analizate înseamnă aproximativ 0,019-0,02% din eșantion. Chiar dacă am accepta cifra brută ca reală, ea nu se apropie de marjele cu care Trump a pierdut statele-pivot citate în exemplele experților: circa 500 de cazuri identificate în Wisconsin, un stat pierdut cu peste 20.000 de voturi (adică de peste 40 de ori mai puține cazuri decât diferența de voturi), și circa 1.100 de cazuri în Arizona, pierdut cu peste 10.000 de voturi (de peste 9 ori mai puține). Un specialist electoral avertizează că marja de eroare a metodei de potrivire a datelor ar putea reduce chiar și cifra de 24.000 la aproape zero, la nivel național."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: afirmația președintelui Trump, făcută pe rețelele sociale pe 18-19 august 2026, că un raport al Census Bureau arată peste 24.000 de voturi ilegale ale unor non-cetățeni în 2020. Verificarea s-a bazat pe relatările NPR și Votebeat, care au vorbit direct cu experți electorali (David Becker, Michael Morse, Amy O'Hara, Justin Levitt, Beth Jarosz, Terri Ann Lowenthal) și cu un angajat al Census Bureau.\n\nUnde se despart sursele: Trump prezintă cifra de 24.000 drept „dovadă” a unei fraude electorale masive; experții electorali independenți spun că metoda de potrivire a datelor dintre recensământ și registrele de vot este nesigură, iar unul dintre ei avertizează că marja de eroare ar putea aduce cifra reală aproape de zero. Diferența nu ține de fapte disputate, ci de fiabilitatea metodologiei — raportul nu are autor asumat, ceva neobișnuit pentru Census Bureau, iar printre cei care au lucrat la el se numără persoane afiliate unui think tank apropiat lui Trump.\n\nCe lipsește: metodologia completă a raportului Census Bureau nu a fost făcută publică, la fel ca metodologia din spatele anunțului separat al DHS despre 250.000 de non-cetățeni pe listele electorale din patru state. Fără aceste detalii, nici cifrele Trump/DHS, nici contraargumentele experților nu pot fi verificate complet independent — doar comparate cu istoricul cunoscut al urmăririlor penale (129 de acuzați, 73 condamnați din 1996 încoace, potrivit unei examinări Reuters a dosarelor de instanță).\n\nCe ar schimba concluzia: publicarea metodologiei complete a Census Bureau (autor, sursele de date, marja de eroare declarată) și finalizarea verificării celor 32 de milioane de înregistrări suplimentare anunțate de Trump. Până atunci, cifra de „24.000” rămâne o afirmație bazată pe un raport pe care propriii experți citați de presă îl consideră nesigur.",
+  "persoane": [
+    "Donald Trump"
+  ]
+}
