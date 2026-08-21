@@ -1,0 +1,57 @@
+{
+  "slug": "nicusor-dan-premier-1-septembrie-grindeanu-nazare",
+  "title": "Surse: Nicușor Dan ar vrea să numească un premier pe 1 septembrie, PSD negociază un guvern minoritar",
+  "category": "Politică",
+  "date": "2026-08-13",
+  "source": "Antena 3 CNN / RomaniaTV / Ziarul Profit",
+  "url": "https://www.antena3.ro/politica/surse-nicusor-dan-ar-vrea-sa-anunte-un-premier-pe-1-septembrie-psd-negociaza-un-guvern-minoritar-799310.html",
+  "dek": "Potrivit unor surse politice citate de mai multe redacții, președintele Nicușor Dan ar avea în plan să nominalizeze un nou premier în jurul datei de 1 septembrie 2026 — variantele vehiculate fiind Sorin Grindeanu (PSD) sau Alexandru Nazare (PNL). Nicio declarație oficială a Cotrocenilor sau a celor doi politicieni nu confirmă deocamdată calendarul sau numele.",
+  "mainVerdict": "Neverificabil",
+  "probat": [
+    {
+      "text": "Guvernul condus de Ilie Bolojan a fost demis pe 5 mai 2026 printr-o moțiune de cenzură. Au urmat două încercări eșuate de învestire: Eugen Tomac s-a retras înainte de vot, iar Adrian Veștea a obținut doar 189 de voturi, sub pragul necesar de 233.",
+      "sources": [
+        {"name": "RomaniaTV — context: eșecurile Tomac și Veștea", "url": "https://www.romaniatv.net/nicusor-dan-are-in-plan-sa-desemneze-un-nou-premier-la-1-septembrie-variante-sorin-grindeanu-si-alexandru-nazare_9749701.html"}
+      ]
+    },
+    {
+      "text": "Nicușor Dan a declarat public, anterior, că nu va nominaliza un alt premier până nu va avea certitudinea că există șanse reale de învestire în Parlament — poziție relatată constant de presă după cele două eșecuri.",
+      "sources": [
+        {"name": "RomaniaTV — declarația lui Nicușor Dan despre condiția certitudinii învestirii", "url": "https://www.romaniatv.net/nicusor-dan-are-in-plan-sa-desemneze-un-nou-premier-la-1-septembrie-variante-sorin-grindeanu-si-alexandru-nazare_9749701.html"}
+      ]
+    },
+    {
+      "text": "Liderul UDMR, Kelemen Hunor, a declarat public: „Până când președintele nu nominalizează, eu de aici nu mă mișc. Nu plec din barcă, stânga sau dreapta, până nu avem o nominalizare.” Declarația confirmă că UDMR așteaptă o nominalizare și nu exclude, în acest context, sprijinirea unui eventual guvern minoritar PSD.",
+      "sources": [
+        {"name": "Antena 3 CNN — declarația lui Kelemen Hunor", "url": "https://www.antena3.ro/politica/surse-nicusor-dan-ar-vrea-sa-anunte-un-premier-pe-1-septembrie-psd-negociaza-un-guvern-minoritar-799310.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Planul unei nominalizări pe 1 septembrie și numele vehiculate — Sorin Grindeanu sau Alexandru Nazare — provin exclusiv din „surse politice” anonime, relatate în termeni similari de mai multe redacții (Antena 3 CNN, RomaniaTV, Ziarul Profit, B1TV, Stirile Kanal D). Nicio declarație oficială a Administrației Prezidențiale, a lui Sorin Grindeanu sau a lui Alexandru Nazare nu confirmă până acum nici calendarul, nici numele. Cititorul ar trebui să trateze aceste informații ca fiind neconfirmate oficial, nu ca fapt împlinit.",
+      "sources": [
+        {"name": "Antena 3 CNN — Surse: Nicușor Dan ar vrea să anunțe un premier pe 1 septembrie", "url": "https://www.antena3.ro/politica/surse-nicusor-dan-ar-vrea-sa-anunte-un-premier-pe-1-septembrie-psd-negociaza-un-guvern-minoritar-799310.html"},
+        {"name": "RomaniaTV — Nicușor Dan are în plan să desemneze un nou premier la 1 septembrie", "url": "https://www.romaniatv.net/nicusor-dan-are-in-plan-sa-desemneze-un-nou-premier-la-1-septembrie-variante-sorin-grindeanu-si-alexandru-nazare_9749701.html"}
+      ]
+    },
+    {
+      "text": "Cifra de voturi pe care PSD ar conta — circa 180 proprii, plus UDMR și disidenți din AUR/PNL, pentru un total estimat de 233–240 — este o estimare din surse politice, nu un total oficial confirmat. Precedentul recent arată cât de nesigure sunt astfel de calcule înainte de vot: Adrian Veștea avea susținere anunțată public, dar a obținut doar 189 de voturi din cele 233 necesare — cu 44 mai puțin decât pragul.",
+      "sources": [
+        {"name": "RomaniaTV — cifrele de voturi negociate de PSD", "url": "https://www.romaniatv.net/nicusor-dan-are-in-plan-sa-desemneze-un-nou-premier-la-1-septembrie-variante-sorin-grindeanu-si-alexandru-nazare_9749701.html"},
+        {"name": "Antena 3 CNN — strategia PSD pentru voturi și acordurile cu UPR", "url": "https://www.antena3.ro/politica/surse-nicusor-dan-ar-vrea-sa-anunte-un-premier-pe-1-septembrie-psd-negociaza-un-guvern-minoritar-799310.html"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Formularea „guvern minoritar PSD” ca soluție iminentă a crizei politice este o interpretare vehiculată de sursele citate de presă, nu o certitudine — istoricul ultimelor luni (două tentative de învestire eșuate) arată că estimările privind sprijinul parlamentar s-au dovedit, până acum, greșite."
+    }
+  ],
+  "math": {
+    "title": "189 de voturi înseamnă 81% din pragul necesar — nu suficient",
+    "explanation": "Pentru învestirea unui guvern e nevoie de votul majorității deputaților și senatorilor prezenți, calculat aici la pragul de 233 de voturi. Adrian Veștea a obținut 189 de voturi, adică aproximativ 81% din pragul necesar (189/233 ≈ 0,81) — cu 44 de voturi mai puțin decât era nevoie. Diferența arată de ce estimările anunțate dinainte de un vot de învestitură (inclusiv cea vehiculată acum, de 233–240 de voturi pentru un eventual guvern PSD) trebuie tratate cu rezervă până la votul efectiv din plen."
+  },
+  "aiNote": "Această relatare se bazează exclusiv pe „surse politice” anonime, citate similar de mai multe redacții — nu pe declarații oficiale ale Administrației Prezidențiale sau ale politicienilor menționați. Am marcat verdictul principal ca „Neverificabil” tocmai din acest motiv: calendarul (1 septembrie) și numele vehiculate (Grindeanu, Nazare) pot fi corecte, dar nu sunt confirmate public de nicio sursă oficială la data verificării. Ce se probează cu certitudine: contextul crizei guvernamentale (demiterea Bolojan, eșecurile Tomac și Veștea) și declarația publică a lui Kelemen Hunor. Recomandăm cititorului să urmărească o eventuală confirmare oficială înainte de a trata acest plan ca fapt împlinit.",
+  "persoane": ["Nicușor Dan", "Sorin Grindeanu", "Alexandru Nazare"]
+}

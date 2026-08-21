@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 21 Aug 2026 18:34:36 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 18:48:10 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cât ar costa alegeri anticipate: costurile trecute sunt publice până la ultimul euro, dar suma vehiculată pentru un scrutin nou nu are sursă</title>
+      <link>https://farabaliverne.ro/a/cat-costa-alegeri-anticipate-cifre-aep.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/cat-costa-alegeri-anticipate-cifre-aep.html</guid>
+      <pubDate>Fri, 21 Aug 2026 17:34:39 +0200</pubDate>
+      <category>Politică</category>
+      <description>Cât au costat alegerile din 2024 și 2025 se știe exact: 680 de milioane de euro, cifre prezentate chiar de președintele Autorității Electorale Permanente. Cât ar costa unele anticipate — nu. Sumele care circulă („cu 30-40% mai mult”, „220-230 de milioane”) nu apar în niciun document sau declarație a AEP pe care am putut-o verifica.
+
+Unde bat probele: Probat parțial — costurile trecute se probează, estimarea pentru anticipate nu. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Vânzările cu amănuntul din Marea Britanie au scăzut 0,5% în iulie — dar ONS titrează „creștere pe trei luni”</title>
       <link>https://farabaliverne.ro/a/uk-vanzari-amanuntul-scadere-iulie-2026.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu context. Verificate: 3 probate, 1 contestate.</desc
       <description>Sondajul Reuters/Ipsos încheiat luni, 17 august 2026, arată aprobarea președintelui Donald Trump la 33%, cel mai slab scor din al doilea mandat și egal cu minimul înregistrat în decembrie 2017, în primul mandat. Declinul vine în paralel cu războiul SUA-Iran, prelungit dincolo de armistițiul expirat, și cu prețuri mai mari la benzină — 80% dintre americani cred că implicarea SUA în conflict „va continua o perioadă lungă”.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Prețurile la pâine, paste și lactate ar putea crește în Europa — Oxford Economics leagă valul de caniculă și seceta de războiul din Ucraina</title>
-      <link>https://farabaliverne.ro/a/europa-preturi-alimente-canicula-razboi-2026.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/europa-preturi-alimente-canicula-razboi-2026.html</guid>
-      <pubDate>Wed, 19 Aug 2026 09:22:00 +0000</pubDate>
-      <category>Extern</category>
-      <description>Firma de analiză economică Oxford Economics estimează o creștere de două cifre a prețurilor alimentare globale în 2026, pe fondul unei combinații de secetă, valuri de caniculă în Europa și efectele războiului din Ucraina asupra exporturilor de cereale. Grâul ar putea urca 36% față de anul trecut până în trimestrul al treilea din 2026, iar Organizația pentru Alimentație și Agricultură a ONU (FAO) confirmă deja creșteri lunare la cereale, zahăr și ulei vegetal în iulie.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
