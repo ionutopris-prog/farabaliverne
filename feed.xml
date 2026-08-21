@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 21 Aug 2026 12:27:31 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 18:10:09 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Candidata susținută de Trump pentru guvernator în Wyoming, Megan Degenfelder, pierde alegerile primare în fața lui Eric Barlow</title>
+      <link>https://farabaliverne.ro/a/wyoming-degenfelder-trump-barlow-primar-guvernator.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/wyoming-degenfelder-trump-barlow-primar-guvernator.html</guid>
+      <pubDate>Fri, 21 Aug 2026 09:27:39 +0000</pubDate>
+      <category>Extern</category>
+      <description>Senatorul de stat Eric Barlow a câștigat marți, 18 august 2026, primarele republicane pentru guvernator din Wyoming, cu 45% din voturi, față de 29,7% pentru Megan Degenfelder — candidata susținută public de patru ori de Donald Trump. E cel mai recent dintr-un șir de eșecuri ale candidaților la guvernator susținuți de Trump în 2026, deși numărul exact de înfrângeri diferă între surse.
+
+Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Trump spune că un raport al Census Bureau arată 24.000 de non-cetățeni care au votat ilegal în 2020 — experții contestă metodologia</title>
       <link>https://farabaliverne.ro/a/trump-census-24000-non-cetateni-vot-2020.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 5 probate, 3 contestate.</description>
       <description>🌍 Pe 5 august 2026, un citat atribuit comandantului Gărzilor Revoluționare iraniene, Ahmad Vahidi, despre continuarea programului nuclear a apărut pe un cont X anonim din India — și în câteva ore a ajuns citat ca fapt într-un discurs oficial al premierului israelian Benjamin Netanyahu. Nu există nicio dovadă că Vahidi ar fi spus vreodată acele cuvinte; Fox News și-a corectat relatarea, iar Iranul a numit totul o fabricație.
 
 Unde bat probele: Contrazis. Verificate: 5 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>India semnează un contract de leasing de 1.943 de crore rupii pentru două drone MQ-9B Sea Guardian, pentru marina sa</title>
-      <link>https://farabaliverne.ro/a/india-mq9b-sea-guardian-leasing-marina.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/india-mq9b-sea-guardian-leasing-marina.html</guid>
-      <pubDate>Tue, 18 Aug 2026 22:37:58 +0000</pubDate>
-      <category>Extern</category>
-      <description>Ministerul indian al Apărării a semnat, pe 17 august 2026, cu General Atomics Aeronautical Systems un contract de leasing pe 30 de luni pentru două drone de supraveghere maritimă MQ-9B Sea Guardian, în valoare de aproximativ 1.943 de crore rupii (circa 203 milioane de dolari). Scopul declarat: să acopere golul de supraveghere lăsat de flota actuală de MQ-9A, până la livrarea celor 31 de drone cumpărate definitiv de India.
-
-Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
