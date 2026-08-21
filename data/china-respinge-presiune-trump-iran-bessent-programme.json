@@ -1,0 +1,62 @@
+{
+  "slug": "china-respinge-presiune-trump-iran-bessent-programme",
+  "title": "China respinge public presiunea lui Trump asupra Iranului — Bessent cere Beijingului să „se alinieze”",
+  "category": "Extern",
+  "date": "2026-08-21",
+  "source": "Gulf News",
+  "url": "https://gulfnews.com/world/asia/china/china-rejects-donald-trumps-push-for-sanctions-and-pressure-on-iran-1.500647718",
+  "dek": "🌍 Purtătorul de cuvânt al MAE chinez, Lin Jian, a spus vineri, 21 august, că sancțiunile și presiunea „nu ajută la rezolvarea problemei” Iranului — răspuns la campania „Economic D-Day” anunțată de Trump. Secretarul Trezoreriei american, Scott Bessent, i-a cerut Chinei să „se alinieze”, spunând că țara importă „50% din energie” din Golf; datele citate de presă arată o cifră mai mică pentru petrolul brut.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Purtătorul de cuvânt al Ministerului chinez de Externe, Lin Jian, a declarat vineri, 21 august 2026, în cadrul unei conferințe de presă la Beijing, că „impunerea de sancțiuni și presiunea nu ajută la rezolvarea problemei” iraniene, cerând „părților relevante” să găsească soluții „prin mijloace diplomatice și politice”. A adăugat că China se opune „sancțiunilor unilaterale ilegale, fără bază în dreptul internațional și neautorizate de Consiliul de Securitate al ONU”.",
+      "sources": [
+        {"name": "Gulf News — China Rejects Trump's Iran Sanctions Push", "url": "https://gulfnews.com/world/asia/china/china-rejects-donald-trumps-push-for-sanctions-and-pressure-on-iran-1.500647718"},
+        {"name": "Ednews — China pushes back against Trump's 'Economic D-Day' campaign", "url": "https://ednews.net/en/china-pushes-back-against-trumps-economic-d-day-campaign-against-iran/"}
+      ]
+    },
+    {
+      "text": "Declarația chineză a venit ca răspuns la anunțul lui Donald Trump din 19 august 2026, care a promis „cea mai zdrobitoare operațiune economică” împotriva Iranului, și la declarațiile ulterioare ale secretarului Trezoreriei SUA, Scott Bessent, care a spus, într-un interviu la CNBC, joi 20 august, că SUA pregătesc „cele mai dure sancțiuni din istorie” împotriva Iranului.",
+      "sources": [
+        {"name": "South China Morning Post — US urges China to back its 'most crushing economic operation' against Iran", "url": "https://www.scmp.com/news/china/diplomacy/article/3364734/us-urges-china-back-its-most-crushing-economic-operation-against-iran"}
+      ]
+    },
+    {
+      "text": "Bessent i-a cerut public Chinei, întrebat fiind dacă noile sancțiuni ar viza și Beijingul, să „se alinieze programului” („get with the programme”), argumentând că „chinezii obțin 50% din energia lor din Golf, așa că le-ar face un mare serviciu să se alinieze”. A mai spus că aceasta va fi „cea mai mare izolare economică coordonată din istoria lumii” și că țările „ori sunt cu noi, ori împotriva noastră”.",
+      "sources": [
+        {"name": "South China Morning Post — US urges China to back its 'most crushing economic operation' against Iran", "url": "https://www.scmp.com/news/china/diplomacy/article/3364734/us-urges-china-back-its-most-crushing-economic-operation-against-iran"}
+      ]
+    },
+    {
+      "text": "Ministrul iranian de externe, Abbas Araghchi, a scris pe X, pe 20 august 2026, că așa-numita „Zi D economică” („Economic D-Day”) este „o deturnare de la propria criză a Americii: datorie fără precedent și costuri ale dobânzilor în creștere”, avertizând că „insistarea pe politici eșuate va aduce doar o nouă înfrângere — și ostilitatea iranienilor”.",
+      "sources": [
+        {"name": "The Jerusalem Post — Iran's Araghchi: Trump's economic 'D-Day' will only bring further defeat to US", "url": "https://www.jpost.com/middle-east/iran-news/article-906065"},
+        {"name": "Vanguard — Iran slams Trump's economic pressure plan as more 'failed policies'", "url": "https://www.vanguardngr.com/2026/08/iran-slams-trumps-economic-pressure-plan-as-more-failed-policies/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra folosită de Bessent — că China obține „50% din energie” din Golf — nu se potrivește exact cu datele citate de presă despre importurile chineze de țiței: potrivit South China Morning Post, țările din Golf (conduse de Arabia Saudită și Emiratele Arabe Unite) au reprezentat 27,6% din importurile totale de țiței ale Chinei în iulie 2026. Diferența poate veni din faptul că Bessent vorbește despre „energie” în sens larg (inclusiv gaz), nu doar despre petrol brut, dar sursele disponibile nu clarifică metodologia exactă a cifrei de 50%.",
+      "sources": [
+        {"name": "South China Morning Post — 27,6% din importurile de țiței ale Chinei", "url": "https://www.scmp.com/news/china/diplomacy/article/3364734/us-urges-china-back-its-most-crushing-economic-operation-against-iran"}
+      ]
+    },
+    {
+      "text": "Nu este clar din sursele disponibile dacă declarația lui Lin Jian reprezintă o poziție nouă a Beijingului sau doar o reafirmare a opoziției constante a Chinei față de sancțiunile unilaterale americane — China a criticat în termeni similari sancțiunile SUA asupra Iranului de-a lungul mai multor ani anteriori.",
+      "sources": [
+        {"name": "Gulf News — China Rejects Trump's Iran Sanctions Push", "url": "https://gulfnews.com/world/asia/china/china-rejects-donald-trumps-push-for-sanctions-and-pressure-on-iran-1.500647718"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Formularea lui Bessent — „ori sunt cu noi, ori împotriva noastră” — este o poziționare politică americană, nu un fapt verificabil; la fel, caracterizarea de către Teheran a presiunii americane drept „eșuată” sau „terorism economic” reflectă poziția iraniană într-o dispută în curs, nu un rezultat stabilit independent."
+    }
+  ],
+  "math": {
+    "claim": "Bessent spune că China obține 50% din energia sa din Golf, ca argument pentru a se alinia sancțiunilor americane împotriva Iranului.",
+    "check": "Datele citate de South China Morning Post arată că țările din Golf au reprezentat 27,6% din importurile de țiței ale Chinei în iulie 2026 — mai puțin de jumătate din cifra de 50% invocată de Bessent pentru „energie” în ansamblu. Cele două cifre nu sunt neapărat incompatibile (energia include și gaz natural, nu doar petrol brut), dar diferența e suficient de mare încât să merite o sursă oficială, care lipsește din articolele disponibile."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: declarația purtătorului de cuvânt al MAE chinez, Lin Jian, din 21 august 2026, corroborată de Gulf News și Ednews; declarațiile secretarului Trezoreriei SUA, Scott Bessent, la CNBC, relatate de South China Morning Post; și reacția ministrului iranian de externe Abbas Araghchi de pe 20 august, confirmată concordant de Jerusalem Post și Vanguard. Toate cele trei declarații publice — americană, chineză, iraniană — sunt corroborate de cel puțin două redacții independente.\n\nUnde apare o discrepanță: cifra lui Bessent despre „50% din energia” Chinei venită din Golf nu se potrivește exact cu datele despre importurile de țiței citate de SCMP (27,6% în iulie 2026). Nu știm dacă diferența vine din faptul că Bessent include și gazele naturale, din surse de date diferite, sau dintr-o rotunjire retorică pentru efect — nicio sursă oficială a Trezoreriei SUA nu detaliază calculul.\n\nCe lipsește: o reacție oficială, cu nume, a Guvernului chinez la cererea directă a lui Bessent de a „se alinia”, dincolo de poziția generală anti-sancțiuni a lui Lin Jian; și claritate asupra a ce sancțiuni noi, concrete, ar viza efectiv China dacă Beijingul nu cooperează.\n\nCe ar schimba concluzia: un comunicat oficial al Ministerului chinez de Comerț sau al Trezoreriei SUA cu măsuri punctuale împotriva unor companii sau bănci chineze, sau o eventuală întâlnire Trump-Xi anunțată pentru septembrie 2026, menționată de Bessent."
+}
