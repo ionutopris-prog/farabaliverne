@@ -220,6 +220,16 @@ jobs:
             git push origin main
           fi
 
+      # Poarta de siguranță oprea articolele sensibile pe ramuri `pending/`,
+      # dar nu anunța pe nimeni: până pe 21 august se adunaseră acolo 67, dintre
+      # care 49 de politică internă. Acum, la fiecare ediție, ce e parcat ajunge
+      # într-o singură problemă pe GitHub, actualizată — nu într-o tăcere.
+      - name: Ce a rămas parcat (o singură problemă, actualizată)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/parcate.py || true
+
       # Rulează MEREU, chiar dacă redactorul a picat la jumătate.
       # Pe 20-21 august, redactorul a comis 8 articole și apoi a atins plafonul de
       # abonament; fiind pas eșuat, GitHub a sărit peste publicare, iar articolele
