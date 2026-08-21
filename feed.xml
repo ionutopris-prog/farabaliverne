@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 21 Aug 2026 11:01:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:27:31 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Trump spune că un raport al Census Bureau arată 24.000 de non-cetățeni care au votat ilegal în 2020 — experții contestă metodologia</title>
+      <link>https://farabaliverne.ro/a/trump-census-24000-non-cetateni-vot-2020.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/trump-census-24000-non-cetateni-vot-2020.html</guid>
+      <pubDate>Fri, 21 Aug 2026 08:01:20 +0000</pubDate>
+      <category>Extern</category>
+      <description>Președintele Trump a susținut pe rețelele sociale că o analiză nepublicată a Census Bureau arată aproximativ 24.000 de voturi ale unor non-cetățeni în alegerile din 2020, cifră ce ar urma să „explodeze”. Echipa din spatele raportului a inclus persoane afiliate unui think tank apropiat lui Trump, iar experți electorali independenți spun că metodologia e nesigură și că, din cauza marjei de eroare, cifra reală ar putea fi apropiată de zero.
+
+Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Trump face miting la Myrtle Beach pentru Darline Graham, cu 4 zile înainte de turul doi din Carolina de Sud</title>
       <link>https://farabaliverne.ro/a/trump-myrtle-beach-miting-darline-graham-turul-doi.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis. Verificate: 5 probate, 3 contestate.</description>
       <description>Ministerul indian al Apărării a semnat, pe 17 august 2026, cu General Atomics Aeronautical Systems un contract de leasing pe 30 de luni pentru două drone de supraveghere maritimă MQ-9B Sea Guardian, în valoare de aproximativ 1.943 de crore rupii (circa 203 milioane de dolari). Scopul declarat: să acopere golul de supraveghere lăsat de flota actuală de MQ-9A, până la livrarea celor 31 de drone cumpărate definitiv de India.
 
 Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Rusia cheamă ambasadorul Japoniei, în oglindă, după ce Tokyo a protestat față de vizita lui Putin în Kurile</title>
-      <link>https://farabaliverne.ro/a/rusia-japonia-ambasador-convocat-putin-etorofu.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/rusia-japonia-ambasador-convocat-putin-etorofu.html</guid>
-      <pubDate>Tue, 18 Aug 2026 22:33:59 +0000</pubDate>
-      <category>Extern</category>
-      <description>După ce Japonia convocase ambasadorul rus pentru vizita lui Putin pe insula Iturup (13 august 2026), Moscova a convocat, la rândul ei, ambasadorul japonez Akira Muto, marți, 18 august 2026, ca să protesteze față de declarațiile premierului Sanae Takaichi și ale ministrului de externe Toshimitsu Motegi. E o etapă nouă a disputei teritoriale asupra Insulelor Kurile/Teritoriilor de Nord, care blochează un tratat de pace japonezo-rus de la 1945 încoace.
-
-Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
