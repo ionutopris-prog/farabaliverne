@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 21 Aug 2026 21:32:30 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 21:40:47 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Termocentrala Turceni s-a oprit din nou, în plină criză energetică și val de caniculă</title>
+      <link>https://farabaliverne.ro/a/termocentrala-turceni-oprire-avarie-criza-energetica.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/termocentrala-turceni-oprire-avarie-criza-energetica.html</guid>
+      <pubDate>Fri, 21 Aug 2026 18:32:38 +0000</pubDate>
+      <category>Economie</category>
+      <description>Grupul energetic nr. 5 de la Turceni a fost oprit în noaptea de 20 august, din cauza unei neetanșeități la cazan. Sursele diferă la puterea pierdută (200 sau 220 MW) și la data repornirii — inițial „duminică seara”, apoi actualizat la „luni, 24 august”.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 6 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>ANI: 122 de persoane sunt vizate de „amendamentul Fritz”, 15 deja eliberate din funcție</title>
       <link>https://farabaliverne.ro/a/ani-122-persoane-amendament-fritz.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Plan raportat convergent de surse anonime — data și numele 
       <description>După demiterea guvernului Bolojan, PSD susține varianta Sorin Grindeanu pentru șefia unui nou Guvern, iar consultările oficiale la Cotroceni sunt așteptate după 15 august 2026. Rămâne contestat, între relatările din presă, dacă UDMR s-a angajat deja să-l susțină pe Grindeanu (cum scria unele redacții la sfârșitul lui iulie) sau dacă, la 11-12 august, partidul își păstrează propriul candidat și condiționează orice sprijin de nominalizarea oficială a președintelui.
 
 Unde bat probele: Probat ce s-a declarat public — rezultatul negocierilor rămâne deschis. Verificate: 5 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>CCR amână până pe 23 septembrie conflictul Guvern–ÎCCJ pe restanțele de 4,8 miliarde lei ale magistraților</title>
-      <link>https://farabaliverne.ro/a/ccr-amana-magistrati-restante-23-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ccr-amana-magistrati-restante-23-septembrie.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Curtea Constituțională a amânat pentru 23 septembrie 2026 decizia în conflictul juridic dintre Guvern și Înalta Curte de Casație și Justiție, pe tema unor restanțe salariale ale magistraților estimate la 4,8 miliarde lei. Sesizarea a fost depusă de premierul interimar Ilie Bolojan — cel mai longeviv șef de guvern interimar din România postdecembristă, într-un moment în care negocierile pentru un premier nou rămân blocate.
-
-Unde bat probele: Probat — amânare procedurală, nu decizie pe fond. Verificate: 6 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
