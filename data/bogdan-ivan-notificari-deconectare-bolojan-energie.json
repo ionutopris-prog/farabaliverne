@@ -1,0 +1,102 @@
+{
+  "slug": "bogdan-ivan-notificari-deconectare-bolojan-energie",
+  "title": "Bogdan Ivan spune că industria a primit notificări de limitare a curentului, Ministerul Energiei și Bolojan resping alarma de „blackout”",
+  "category": "Politică",
+  "date": "2026-08-21",
+  "source": "Digi24",
+  "url": "https://www.digi24.ro/stiri/actualitate/politica/min-energiei-dezminte-informatia-lansata-de-bogdan-ivan-ca-marii-consumatori-ar-fi-primit-notificari-de-limitare-sau-deconectare-3912735",
+  "dek": "Fostul ministru PSD al Energiei, Bogdan Ivan, a scris pe 19 august că marii consumatori industriali au primit notificări de limitare a curentului, numind situația „cel mai negru scenariu”. Ministerul Energiei și premierul interimar Ilie Bolojan spun că e vorba de o procedură standard, nu de un blackout iminent — document real, dar interpretare disputată.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Bogdan Ivan a publicat pe 19 august 2026 un document arătând că marii consumatori industriali de energie electrică au primit o notificare oficială legată de posibila limitare a consumului, formulând situația drept „cel mai negru scenariu” și spunând că „criza a ajuns la poarta fabricilor”. Documentul pe care el l-a făcut public conținea însă și mențiunea „Prezenta comunicare are caracter strict informativ”.",
+      "sources": [
+        {
+          "name": "Digi24 — Min. Energiei dezminte informația lansată de Bogdan Ivan",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/min-energiei-dezminte-informatia-lansata-de-bogdan-ivan-ca-marii-consumatori-ar-fi-primit-notificari-de-limitare-sau-deconectare-3912735"
+        },
+        {
+          "name": "Adevărul — Ilie Bolojan îl acuză pe Bogdan Ivan",
+          "url": "https://adevarul.ro/politica/ilie-bolojan-il-acuza-pe-bogdan-ivan-ca-a-creat-2550953.html"
+        }
+      ]
+    },
+    {
+      "text": "Ministerul Energiei confirmă că un astfel de document există, dar îl descrie diferit: marii consumatori primesc, ca procedură legală standard, o „înștiințare că se află pe un normativ” — o listă de firme care ar putea fi limitate primele, doar dacă deficitul energetic național ar depăși un anumit prag, și doar cu un preaviz de 24 de ore. Ministerul respinge ideea unei deconectări reale sau iminente.",
+      "sources": [
+        {
+          "name": "Digi24 — Min. Energiei dezminte informația lansată de Bogdan Ivan",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/min-energiei-dezminte-informatia-lansata-de-bogdan-ivan-ca-marii-consumatori-ar-fi-primit-notificari-de-limitare-sau-deconectare-3912735"
+        },
+        {
+          "name": "Mediafax — Bogdan Ivan, reacție după ce Bolojan l-a acuzat de dezinformare",
+          "url": "https://www.mediafax.ro/economic/bogdan-ivan-reactie-dupa-ce-bolojan-l-a-acuzat-de-dezinformare-de-ce-nu-promiteti-in-seara-aceasta-23793051"
+        }
+      ]
+    },
+    {
+      "text": "Premierul interimar Ilie Bolojan l-a criticat public pe Bogdan Ivan, spunând: „Să anunți că intrăm în blackout este o dovadă de iresponsabilitate” și explicând că „de la o înștiințare că ești pe o listă” până la anunțul unui blackout „e o mare diferență”. Potrivit lui, lista de mari consumatori e ținută confidențială tocmai pentru a evita panica.",
+      "sources": [
+        {
+          "name": "Mediafax — Ilie Bolojan, critici dure la adresa lui Bogdan Ivan",
+          "url": "https://www.mediafax.ro/politic/ilie-bolojan-critici-dure-la-adresa-lui-bogdan-ivan-pentru-mesajul-privind-criza-energetica-sa-anunti-ca-intram-in-blackout-este-o-dovada-de-iresponsabilitate-23792998"
+        },
+        {
+          "name": "Adevărul — Ilie Bolojan îl acuză pe Bogdan Ivan",
+          "url": "https://adevarul.ro/politica/ilie-bolojan-il-acuza-pe-bogdan-ivan-ca-a-creat-2550953.html"
+        }
+      ]
+    },
+    {
+      "text": "Bogdan Ivan a respins criticile lui Bolojan, spunând public că sunt „acuzații mincinoase și agresive” și insistând că relatarea lui „nu este o exagerare, nu este alarmism, este realitate”. El i-a cerut public lui Bolojan să promită că notificările primite deja de companii „nu vor fi urmate de nimic”.",
+      "sources": [
+        {
+          "name": "RomaniaTV — Reacția fostului ministru al Energiei",
+          "url": "https://www.romaniatv.net/ilie-bolojan-il-critica-dur-pe-bogdan-ivan-dupa-ce-acesta-a-sustinut-ca-romania-risca-sa-intre-in-blackout-o-atitudine-iresponsabila-reactia-fostului-ministru-al-energiei_9760477.html"
+        },
+        {
+          "name": "Mediafax — Bogdan Ivan, reacție după ce Bolojan l-a acuzat de dezinformare",
+          "url": "https://www.mediafax.ro/economic/bogdan-ivan-reactie-dupa-ce-bolojan-l-a-acuzat-de-dezinformare-de-ce-nu-promiteti-in-seara-aceasta-23793051"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cele două tabere nu contrazic existența documentului, ci sensul lui: pentru Ivan, notificarea arată că „industria riscă deconectarea”; pentru Ministerul Energiei și Bolojan, e o procedură administrativă de rutină („înștiințare că ești pe o listă”), aplicabilă doar într-un scenariu extrem și cu preaviz. Niciuna dintre redacții nu a publicat numărul companiilor notificate sau pragul exact (în MW) al deficitului care ar declanșa o limitare reală.",
+      "sources": [
+        {
+          "name": "Digi24 — Min. Energiei dezminte informația lansată de Bogdan Ivan",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/min-energiei-dezminte-informatia-lansata-de-bogdan-ivan-ca-marii-consumatori-ar-fi-primit-notificari-de-limitare-sau-deconectare-3912735"
+        },
+        {
+          "name": "G4Media — PNL despre „fake news-ul” promovat de Bogdan Ivan",
+          "url": "https://www.g4media.ro/pnl-despre-fake-news-ul-promovat-de-fostul-ministru-psd-bogdan-ivan-nu-romania-nu-a-ramas-fara-energie-industria-nu-a-fost-deconectata-un-fost-ministru-al-energiei-ar-trebui-sa-explice-realitatea.html"
+        }
+      ]
+    },
+    {
+      "text": "PNL a numit mesajul lui Ivan „fake news”, susținând că „România nu a rămas fără energie” și că „industria nu a fost deconectată” — o formulare care răspunde unei afirmații („industria a fost deconectată”) mai tare decât ceea ce a spus de fapt Ivan, care a vorbit despre riscul de limitare, nu despre o deconectare deja produsă.",
+      "sources": [
+        {
+          "name": "G4Media — PNL despre „fake news-ul” promovat de Bogdan Ivan",
+          "url": "https://www.g4media.ro/pnl-despre-fake-news-ul-promovat-de-fostul-ministru-psd-bogdan-ivan-nu-romania-nu-a-ramas-fara-energie-industria-nu-a-fost-deconectata-un-fost-ministru-al-energiei-ar-trebui-sa-explice-realitatea.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Etichetarea reciprocă drept „dezinformare”/„acuzații mincinoase” este o poziție politică de o parte și de alta (PSD vs. PNL), nu un fapt verificabil independent. Niciuna dintre părți nu a publicat public documentul integral și lista completă de firme notificate, ceea ce ar permite o verificare directă a interpretării corecte."
+    }
+  ],
+  "math": {
+    "title": "Ce lipsește din dispută: pragul exact în MW",
+    "explanation": "Documentul citat de Bogdan Ivan menționează o formulare de tipul „vă oprim curentul dacă deficitul național de energie depășește X MW”, dar nicio sursă citată nu publică valoarea reală a lui X sau cât de aproape este sistemul românesc de acel prag în prezent. Fără acest număr, nu se poate evalua independent dacă riscul descris de Ivan este iminent (cum sugerează el) sau doar teoretic (cum susține Ministerul Energiei)."
+  },
+  "aiNote": "Ce s-a verificat: existența unui document trimis marilor consumatori industriali de energie, pe care Bogdan Ivan l-a făcut public pe 19 august 2026, numit-o dovadă a unui risc iminent de limitare a curentului. Digi24, Adevărul, Mediafax și RomaniaTV confirmă independent atât textul mesajului lui Ivan, cât și reacția Ministerului Energiei și a premierului Bolojan.\n\nUnde se despart sursele: nu la faptele brute (documentul există, a fost trimis, conține clauza „caracter strict informativ”), ci la interpretare. Ivan citește documentul ca pe un avertisment real de limitare a consumului industrial; Ministerul și Bolojan îl descriu ca pe o procedură administrativă de rutină, aplicabilă doar într-un scenariu extrem de deficit, cu preaviz de 24 de ore. Ambele tabere au interes politic în versiunea proprie: Ivan (PSD, fost ministru) poate arăta o gestiune defectuoasă a crizei energetice de către actualul guvern; Bolojan și PNL vor să evite panica într-un context în care ambele reactoare de la Cernavodă au fost oprite din cauza secetei.\n\nCe lipsește: pragul exact (în MW) al deficitului care ar declanșa o limitare reală, numărul de companii aflate pe listă și nivelul actual al importurilor de energie — date care ar permite oricui să judece singur cât de aproape suntem de scenariul descris de Ivan. Nicio sursă citată nu le publică.\n\nCe ar schimba concluzia: publicarea de către Ministerul Energiei a pragului real (X MW) și a datelor curente de deficit/import ar arăta clar dacă notificarea era o formalitate îndepărtată sau un semnal apropiat de aplicare.",
+  "persoane": [
+    "Bogdan Ivan",
+    "Ilie Bolojan"
+  ]
+}
