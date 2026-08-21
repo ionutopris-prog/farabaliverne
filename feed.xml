@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 21 Aug 2026 21:28:09 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 21:32:30 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ANI: 122 de persoane sunt vizate de „amendamentul Fritz”, 15 deja eliberate din funcție</title>
+      <link>https://farabaliverne.ro/a/ani-122-persoane-amendament-fritz.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/ani-122-persoane-amendament-fritz.html</guid>
+      <pubDate>Fri, 21 Aug 2026 18:28:30 +0000</pubDate>
+      <category>Politică</category>
+      <description>Șeful ANI, Bogdan Sticlosu, spune că 122 de persoane din evidențele Agenției intră sub incidența interdicției de 3 ani introduse prin „amendamentul Fritz”, iar pentru 15 au fost deja dispuse măsuri de eliberare din funcție. CCR a validat amendamentul pe 17 august ca fiind constituțional.
+
+Unde bat probele: Probat. Verificate: 6 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Comisia de Constituționalitate a Senatului a votat, 6 la 3, o anchetă privind întâlnirea Bolojan–Tănăsescu</title>
       <link>https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu-6-3.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce s-a declarat public — rezultatul negocierilor răm
       <description>Curtea Constituțională a amânat pentru 23 septembrie 2026 decizia în conflictul juridic dintre Guvern și Înalta Curte de Casație și Justiție, pe tema unor restanțe salariale ale magistraților estimate la 4,8 miliarde lei. Sesizarea a fost depusă de premierul interimar Ilie Bolojan — cel mai longeviv șef de guvern interimar din România postdecembristă, într-un moment în care negocierile pentru un premier nou rămân blocate.
 
 Unde bat probele: Probat — amânare procedurală, nu decizie pe fond. Verificate: 6 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Surse: Nicușor Dan ar vrea să numească un premier pe 1 septembrie, PSD negociază un guvern minoritar</title>
-      <link>https://farabaliverne.ro/a/nicusor-dan-premier-1-septembrie-grindeanu-nazare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/nicusor-dan-premier-1-septembrie-grindeanu-nazare.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Potrivit unor surse politice citate de mai multe redacții, președintele Nicușor Dan ar avea în plan să nominalizeze un nou premier în jurul datei de 1 septembrie 2026 — variantele vehiculate fiind Sorin Grindeanu (PSD) sau Alexandru Nazare (PNL). Nicio declarație oficială a Cotrocenilor sau a celor doi politicieni nu confirmă deocamdată calendarul sau numele.
-
-Unde bat probele: Neverificabil. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
