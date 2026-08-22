@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 22 Aug 2026 21:32:43 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 23:17:36 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pentagonul îl demite pe redactorul-șef al Stars and Stripes, la o lună după ce a numit independența editorială o „linie roșie” într-un interviu CBS</title>
+      <link>https://farabaliverne.ro/a/pentagon-stars-and-stripes-demite-redactor-sef-insubordonare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/pentagon-stars-and-stripes-demite-redactor-sef-insubordonare.html</guid>
+      <pubDate>Sat, 22 Aug 2026 18:32:48 +0000</pubDate>
+      <category>Extern</category>
+      <description>Pentagonul le-a trimis vineri, 21 august 2026, notificări de încetare a activității redactorului-șef Erik Slavin, editorului Max Lederer Jr. și reporterei Lara Korte de la ziarul militar Stars and Stripes, invocând insubordonare. Slavin fusese cel care, într-un interviu CBS din iulie, spusese că orice încercare a Pentagonului de a interfera cu independența editorială a publicației ar reprezenta o „linie roșie”.
+
+Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Negocierile comerciale SUA-Canada se prăbușesc din nou: Trump impune tarife de 50%, Carney promite răspuns „dolar pentru dolar” din 8 septembrie</title>
       <link>https://farabaliverne.ro/a/canada-sua-negocieri-esuate-tarife-50-procente-22-august.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că negocierile au eșuat și că există un termen PNR
       <description>Liderul PSD, Sorin Grindeanu, a declarat pe 13 august 2026 că este „cel mai aproape” de a forma o nouă majoritate parlamentară, cu UDMR drept principal partener identificat, și țintește un guvern cu puteri depline după 1 septembrie. Sursele politice citate de presă spun că PSD mai are nevoie de circa 15 voturi — posibil de la parlamentari neafiliați sau AUR — deși Grindeanu declarase în mai că exclude o majoritate cu AUR.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Grindeanu îl atacă pe Bolojan după datele INS: „Îți lipsesc aproape 40 de miliarde, Ilie!”</title>
-      <link>https://farabaliverne.ro/a/grindeanu-bolojan-pib-atac-40-miliarde.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-bolojan-pib-atac-40-miliarde.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Liderul PSD Sorin Grindeanu l-a acuzat pe premierul interimar Ilie Bolojan că a „prăbușit economia”, după ce INS a raportat scăderea PIB în primul semestru din 2026. Cifrele INS despre scădere sunt confirmate oficial; calculul „lipsesc 40 de miliarde” e însă interpretarea politică a lui Grindeanu, nu o cifră oficială a Ministerului Finanțelor — iar la ora verificării nu exista un răspuns oficial din partea Guvernului.
-
-Unde bat probele: Mixt — scăderea PIB e confirmată oficial; calculul „40 de miliarde” e o estimare politică proprie. Verificate: 2 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
