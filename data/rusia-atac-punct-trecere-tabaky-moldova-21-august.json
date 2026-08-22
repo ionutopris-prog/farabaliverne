@@ -1,0 +1,61 @@
+{
+  "slug": "rusia-atac-punct-trecere-tabaky-moldova-21-august",
+  "title": "Rusia lovește cu drone Shahed punctul de trecere Tabaky, la frontiera Ucrainei cu Moldova",
+  "category": "Extern",
+  "date": "2026-08-21",
+  "source": "Euronews / Kyiv Independent / European Pravda",
+  "url": "https://www.euronews.com/my-europe/2026/08/21/russian-drones-hit-border-crossing-with-moldova-in-overnight-strike-ukraine-says",
+  "dek": "🌍 În noaptea de 20 spre 21 august 2026, drone rusești Shahed au avariat punctul de trecere internațional Tabaky, la granița Ucrainei cu Republica Moldova, în cadrul unui val mai amplu de atacuri asupra regiunii Odesa. Traficul a fost suspendat temporar și redirecționat, iar Ucraina a informat oficial autoritățile de la Chișinău.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Drone rusești de tip Shahed au lovit, în noaptea de 20 spre 21 august 2026, punctul de trecere a frontierei Tabaky, aflat pe granița dintre Ucraina și Republica Moldova, în regiunea Odesa. Serviciul de Grăniceri de Stat al Ucrainei a confirmat că traficul de pasageri și vehicule prin acest punct a fost suspendat și redirecționat către alte puncte de trecere.",
+      "sources": [
+        {
+          "name": "Euronews — Russian drones hit border crossing with Moldova in overnight strike, Ukraine says",
+          "url": "https://www.euronews.com/my-europe/2026/08/21/russian-drones-hit-border-crossing-with-moldova-in-overnight-strike-ukraine-says"
+        },
+        {
+          "name": "European Pravda / eurointegration.com.ua — Border crossing with Moldova suspended after Russian Shahed strike",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/08/21/7243893/"
+        }
+      ]
+    },
+    {
+      "text": "Atacul a provocat avarii la clădiri și structuri ale punctului de trecere, iar pompierii au stins incendiile izbucnite la fața locului. Traficul a fost repornit ulterior, după remedierea situației. Aceleași drone Shahed au vizat, în același val de atacuri, districtele Bolhrad și Izmail din regiunea Odesa.",
+      "sources": [
+        {
+          "name": "European Pravda / eurointegration.com.ua — daune la clădiri, incendii stinse, trafic redeschis ulterior",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/08/21/7243893/"
+        }
+      ]
+    },
+    {
+      "text": "Ucraina a informat oficial autoritățile de la Chișinău despre incident. Kyiv Independent a plasat acest atac în contextul unui val mai larg de lovituri rusești din 20-21 august, care au ucis cel puțin 7 civili și au rănit 31 în mai multe regiuni ucrainene (Herson, Donețk, Sumî, Kiev), în timp ce apărarea antiaeriană ucraineană a doborât 182 de drone și 6 rachete de croazieră.",
+      "sources": [
+        {
+          "name": "Kyiv Independent — Russian attacks kill at least 7, injure 31 across Ukraine, including strike on border crossing with Moldova",
+          "url": "https://kyivindependent.com/russia-kills-at-least-6-injures-26-civilians-in-latest-wave-of-attacks/"
+        },
+        {
+          "name": "European Pravda / eurointegration.com.ua — notificarea autorităților de la Chișinău",
+          "url": "https://www.eurointegration.com.ua/eng/news/2026/08/21/7243893/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Sursele consultate nu precizează dacă a existat vreo victimă directă la punctul de trecere Tabaky — cifrele de 7 morți și 31 de răniți citate de Kyiv Independent se referă la valul de atacuri din toată Ucraina în acea noapte, nu specific la acest punct de frontieră. Nu am găsit, până la momentul verificării, o reacție oficială separată a autorităților de la Chișinău pe acest incident anume.",
+      "sources": [
+        {
+          "name": "Kyiv Independent — bilanțul general al atacurilor din noaptea 20-21 august",
+          "url": "https://kyivindependent.com/russia-kills-at-least-6-injures-26-civilians-in-latest-wave-of-attacks/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: trei surse independente — Euronews, Kyiv Independent și European Pravda (eurointegration.com.ua) — confirmă, cu detalii convergente, lovitura asupra punctului de trecere Tabaky din noaptea de 20 spre 21 august 2026 și suspendarea temporară a traficului. Nu există contradicții relevante între ele pe faptele centrale.\n\nCe lipsește: nicio sursă nu confirmă victime directe la punctul de frontieră în sine — bilanțul de 7 morți și 31 de răniți aparține atacului mai amplu din acea noapte, nu strict acestui incident. La fel, nu am găsit o reacție publică oficială a autorităților moldovenești, deși Ucraina afirmă că le-a informat. Ce ar schimba concluzia: o declarație oficială de la Chișinău sau o evaluare independentă a pagubelor la punctul de trecere.",
+  "persoane": []
+}
