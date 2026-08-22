@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 22 Aug 2026 23:22:14 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 23:27:24 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Rusia lovește cu drone Shahed punctul de trecere Tabaky, la frontiera Ucrainei cu Moldova</title>
+      <link>https://farabaliverne.ro/a/rusia-atac-punct-trecere-tabaky-moldova-21-august.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/rusia-atac-punct-trecere-tabaky-moldova-21-august.html</guid>
+      <pubDate>Sat, 22 Aug 2026 20:22:18 +0000</pubDate>
+      <category>Extern</category>
+      <description>🌍 În noaptea de 20 spre 21 august 2026, drone rusești Shahed au avariat punctul de trecere internațional Tabaky, la granița Ucrainei cu Republica Moldova, în cadrul unui val mai amplu de atacuri asupra regiunii Odesa. Traficul a fost suspendat temporar și redirecționat, iar Ucraina a informat oficial autoritățile de la Chișinău.
+
+Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>CNSU aprobă un dig temporar și eliberări de apă din Olt, ca să țină Cernavodă în viață pe Dunărea la cel mai scăzut debit din istoria recentă</title>
       <link>https://farabaliverne.ro/a/cernavoda-cnsu-masuri-urgenta-dig-olt-22-august.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis — citatul atribuit lui Vahidi nu are nicio sursă 
       <description>Premierul interimar Ilie Bolojan a fost huiduit sâmbătă, 15 august 2026, la ceremonia de Ziua Marinei din Constanța. Președintele Nicușor Dan a lipsit — al doilea an consecutiv — și s-a retras cu familia la Mănăstirea Dejani, lângă Făgăraș, în timp ce Administrația Prezidențială a fost reprezentată de un consilier.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Legea salarizării bugetarilor, fără acord după negocierile de la Cotroceni: miza e de 770 de milioane de euro din PNRR, cu termen 31 august</title>
-      <link>https://farabaliverne.ro/a/legea-salarizarii-cotroceni-esec-negocieri-pnrr.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/legea-salarizarii-cotroceni-esec-negocieri-pnrr.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Negocierile pentru noua Lege a salarizării bugetarilor, purtate la Palatul Cotroceni pe 11-12 august 2026 între președintele Nicușor Dan, liderii PSD, PNL, USR, UDMR și ministrul interimar al Muncii, Dragoș Pîslaru, s-au încheiat fără un acord politic complet. Miza: 770 de milioane de euro din PNRR, cu termen-limită 31 august 2026. Sindicatele din Educație resping ultima formulă, calificând-o „o cacealma”; Sănătatea cere 20 de miliarde de lei în plus.
-
-Unde bat probele: Probat că negocierile au eșuat și că există un termen PNRR strict; contestat/opinie rămâne dacă formula propusă e insuficientă („cacealma”, potrivit sindicatelor din Educație) sau un progres real față de varianta inițială. Verificate: 5 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
