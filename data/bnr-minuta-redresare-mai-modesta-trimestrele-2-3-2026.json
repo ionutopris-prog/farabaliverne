@@ -1,0 +1,76 @@
+{
+  "slug": "bnr-minuta-redresare-mai-modesta-trimestrele-2-3-2026",
+  "title": "BNR: redresarea economiei românești va fi „mai modestă” în trimestrele II și III din 2026 decât se estima anterior",
+  "category": "Economie",
+  "date": "2026-08-22",
+  "source": "BNR / Economedia / Antena3 CNN",
+  "url": "https://www.bnr.ro/25743-minuta-sedintei-de-politica-monetara-a-consiliului-de-administratie-al-bancii-nationale-a-romaniei-din-10-august-2026",
+  "dek": "Banca Națională a României a publicat pe 21 august 2026 minuta ședinței de politică monetară din 10 august, în care Consiliul de Administrație estimează că activitatea economică își va reveni „mai modest” în trimestrele II și III din 2026 față de prognozele anterioare, pe fondul unei economii care a stagnat în T1 2026 după o contracție de 1,9% în T4 2025.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "BNR a publicat pe 21 august 2026, pe site-ul propriu, minuta ședinței de politică monetară a Consiliului de Administrație din 10 august 2026. Documentul e sursa primară pentru toate cifrele de mai jos; presa economică (Economedia, Antena 3 CNN, Stiripesurse, New Money) a preluat și rezumat aceleași date în aceeași zi.",
+      "sources": [
+        {
+          "name": "BNR — Minuta ședinței de politică monetară din 10 august 2026",
+          "url": "https://www.bnr.ro/25743-minuta-sedintei-de-politica-monetara-a-consiliului-de-administratie-al-bancii-nationale-a-romaniei-din-10-august-2026"
+        },
+        {
+          "name": "Economedia — BNR estimează o redresare mai modestă a economiei României în trimestrele II și III",
+          "url": "https://economedia.ro/bnr-estimeaza-o-redresare-mai-modesta-a-economiei-romaniei-in-trimestrele-ii-si-iii.html"
+        }
+      ]
+    },
+    {
+      "text": "Potrivit minutei, economia a stagnat în trimestrul I din 2026, după o contracție de 1,9% în trimestrul IV din 2025; comparativ cu T1 2025, PIB a scăzut cu 1,2%. Formarea brută de capital fix și-a încetinit puternic creșterea, iar exporturile nete și-au înjumătățit impactul expansionist față de aceeași perioadă a anului trecut.",
+      "sources": [
+        {
+          "name": "Antena 3 CNN — BNR: Economia României se va redresa mai modest în trimestrele II și III din 2026 decât se estima anterior",
+          "url": "https://www.antena3.ro/economic/bnr-economia-romaniei-se-va-redresa-mai-modest-in-trimestrele-ii-si-iii-din-2026-decat-se-estima-anterior-800341.html"
+        },
+        {
+          "name": "Evenimentdeolt — BNR: Economia României se va redresa mai modest în trimestrele II și III din 2026",
+          "url": "https://evenimentdeolt.ro/2026/08/22/bnr-economia-romaniei-se-va-redresa-mai-modest-in-trimestrele-ii-si-iii-din-2026-decat-se-estima-anterior/"
+        }
+      ]
+    },
+    {
+      "text": "Rata anuală a inflației a fost de 10,42% în iunie 2026, în scădere de la 10,85% în mai. Inflația de bază CORE2 ajustat a urcat însă la 8,3% în iunie, de la 8,2% în martie — un semnal că, dincolo de prețurile volatile (energie, combustibili), presiunile de fond rămân ridicate. Consiliul BNR estimează o scădere substanțială a inflației anuale abia în trimestrul III din 2026, pe măsură ce ies din calcul efectele directe ale eliminării plafonării prețului la energie electrică și ale majorării TVA și accizelor din 2025.",
+      "sources": [
+        {
+          "name": "Jurnalul — BNR menține dobânda la 6,5%. Adrian Negrescu, mesaj clar pentru toamnă",
+          "url": "https://jurnalul.ro/bani-afaceri/economia/bnr-dobanda-cheie-6-5-august-2026-decizie-politica-monetara-inflatie-10-42-1041206.html"
+        },
+        {
+          "name": "Ziare.com — BNR face noi prognoze economice: scădere substanțială a inflației în trimestrul al treilea",
+          "url": "https://ziare.com/inflatie-romania/prognoze-bnr-trimestrul-trei-2026-2025308"
+        }
+      ]
+    },
+    {
+      "text": "În aceeași ședință din 10 august 2026, Consiliul de Administrație al BNR a decis menținerea ratei dobânzii de politică monetară la 6,50% pe an, a ratei dobânzii la facilitatea de creditare (Lombard) la 7,50% și a ratei dobânzii la facilitatea de depozit la 5,50%, precum și a nivelurilor actuale ale rezervelor minime obligatorii. Decizia a fost motivată de faptul că presiunile inflaționiste rămân ridicate, iar perspectivele asupra evoluției prețurilor sunt marcate de incertitudini legate de consolidarea fiscală și de contextul geopolitic internațional.",
+      "sources": [
+        {
+          "name": "Economica.net — BNR a menținut dobânda cheie la 6,50% pe an",
+          "url": "https://www.economica.net/bnr-a-mentinut-dobanda-cheie-la-650-pe-an_966865.html"
+        },
+        {
+          "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%",
+          "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "„Redresare mai modestă” este formularea proprie a Consiliului BNR, nu o previziune numerică exactă publicată în minută — documentul nu detaliază o cifră revizuită de creștere pentru T2-T3 2026, ci descrie direcția reviziei (mai lentă reducere a deficitului de cerere agregată). O cifră exactă de creștere pentru aceste trimestre va rezulta abia din următorul Raport asupra inflației."
+    }
+  ],
+  "math": {
+    "title": "De ce inflația „scade” și „crește” în același timp",
+    "explanation": "Cele două cifre — 10,42% inflație anuală și 8,3% CORE2 ajustat — nu se contrazic, măsoară lucruri diferite. Inflația anuală (IPC) include TOATE prețurile, inclusiv cele volatile — energie, combustibili, legume-fructe — care pot scădea brusc când iese din calcul un efect de bază (de exemplu plafonarea prețului la electricitate, eliminată în 2025). CORE2 ajustat exclude tocmai aceste componente volatile și arată presiunea „de fond”, mai greu de temperat prin politică monetară. Faptul că inflația totală scade (10,85% → 10,42%) în timp ce CORE2 urcă (8,2% → 8,3%) înseamnă că partea „ieftinită” din calcul a fost cea volatilă, nu presiunea structurală — de aici și decizia BNR de a păstra dobânda neschimbată, în loc să o reducă."
+  },
+  "aiNote": "Cifrele din acest articol provin direct din minuta oficială a BNR, publicată pe 21 august 2026, și sunt confirmate concordant de mai multe redacții economice (Economedia, Antena 3 CNN, Ziare.com, Economica.net, Adevărul, Jurnalul). Nu există aici o afirmație contestată de verificat — este un document oficial al băncii centrale, iar rolul nostru a fost să-l rezumăm corect și să explicăm mecanismul din spatele cifrelor, nu să arbitrăm o dispută.\n\nSingura nuanță: sintagma „redresare mai modestă” e o formulare calitativă a Consiliului BNR, nu o cifră de creștere revizuită — o previziune numerică exactă pentru T2-T3 2026 va apărea abia în următorul Raport trimestrial asupra inflației al băncii centrale. Cititorul interesat de cifra exactă va trebui să aștepte acel raport.",
+  "persoane": []
+}
