@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 08:28:56 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 08:39:55 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Queensland anunță pedepse minime obligatorii pentru minorii care încalcă cauțiunea. Închisorile statului sunt deja la 168% din capacitate</title>
@@ -66,6 +66,16 @@ Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
       <description>🌍 Agenția de stat iraniană IRNA a anunțat pe 22 august 2026 că Teheranul a facilitat trecerea prin Strâmtoarea Hormuz a unor nave care transportau petrol irakian. Afirmația a fost preluată de Arab News, care o atribuie explicit agenției iraniene și unor oficiali irakieni. La momentul verificării nu am găsit o confirmare independentă (Reuters, AP, AFP) a permisiunii ca atare — iar datele de trafic din strâmtoare rămân mult sub nivelul de dinainte de război.
 
 Unde bat probele: Se susține doar din surse de stat — fără confirmare independentă. Verificate: 3 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Oil Terminal Constanța intră în grevă pe 24 august, după ce statul a refuzat o majorare de 6,5%</title>
+      <link>https://farabaliverne.ro/a/oil-terminal-constanta-greva-24-august-refuz-majorare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/oil-terminal-constanta-greva-24-august-refuz-majorare.html</guid>
+      <pubDate>Sun, 23 Aug 2026 05:29:03 +0000</pubDate>
+      <category>Economie</category>
+      <description>Sindicatul de la cel mai mare terminal petrolier din Constanța, deținut în proporție de 87,76% de Ministerul Energiei, anunță declanșarea conflictului colectiv de muncă din 24 august, după ~50 de zile de negocieri eșuate pentru o majorare de 6,5%. Cifrele vehiculate de sindicat arată o grevă de 5 zile ca fiind mai costisitoare decât majorarea refuzată — dar sunt estimări ale unei singure părți, nu audit independent.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Tribunalul a respins insolvența STB pentru hârtii incomplete, nu pentru datorii inexistente — Ciucu invocă Kafka</title>
@@ -378,16 +388,6 @@ Unde bat probele: Probat. Verificate: 6 probate, 2 contestate.</description>
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>Legea decarbonizării, adoptată cu amendamentul PSD privind cărbunele; Pîslaru avertizează asupra riscului pentru 5 miliarde de euro din PNRR</title>
-      <link>https://farabaliverne.ro/a/legea-decarbonizarii-amendament-carbune-pnrr-risc.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/legea-decarbonizarii-amendament-carbune-pnrr-risc.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Camera Deputaților, for decizional, a adoptat pe 5 august 2026 Legea decarbonizării sectorului energetic cu un amendament PSD-AUR care interzice închiderea centralelor pe cărbune înainte de a fi puse în funcțiune capacități înlocuitoare. Ministrul Fondurilor Europene, Dragoș Pîslaru, avertizează că amendamentul pune în pericol un jalon PNRR de circa 5 miliarde de euro, iar președintele Nicușor Dan a anunțat că ar putea trimite legea la reexaminare — Guvernul a cerut oficial acest lucru.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
       <title>Bogdan Ivan spune că industria a primit notificări de limitare a curentului, Ministerul Energiei și Bolojan resping alarma de „blackout”</title>
       <link>https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</guid>
@@ -396,6 +396,16 @@ Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</desc
       <description>Fostul ministru PSD al Energiei, Bogdan Ivan, a scris pe 19 august că marii consumatori industriali au primit notificări de limitare a curentului, numind situația „cel mai negru scenariu”. Ministerul Energiei și premierul interimar Ilie Bolojan spun că e vorba de o procedură standard, nu de un blackout iminent — document real, dar interpretare disputată.
 
 Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Legea decarbonizării, adoptată cu amendamentul PSD privind cărbunele; Pîslaru avertizează asupra riscului pentru 5 miliarde de euro din PNRR</title>
+      <link>https://farabaliverne.ro/a/legea-decarbonizarii-amendament-carbune-pnrr-risc.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/legea-decarbonizarii-amendament-carbune-pnrr-risc.html</guid>
+      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
+      <category>Politică</category>
+      <description>Camera Deputaților, for decizional, a adoptat pe 5 august 2026 Legea decarbonizării sectorului energetic cu un amendament PSD-AUR care interzice închiderea centralelor pe cărbune înainte de a fi puse în funcțiune capacități înlocuitoare. Ministrul Fondurilor Europene, Dragoș Pîslaru, avertizează că amendamentul pune în pericol un jalon PNRR de circa 5 miliarde de euro, iar președintele Nicușor Dan a anunțat că ar putea trimite legea la reexaminare — Guvernul a cerut oficial acest lucru.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Comisia de anchetă pe întâlnirea Bolojan–Tănăsescu, aprobată în comisie — PNL și USR se opun trimiterii ei în plenul Senatului</title>
@@ -418,16 +428,6 @@ Unde bat probele: Contestat. Verificate: 6 probate, 2 contestate.</description>
 Unde bat probele: Probat parțial — cifra e reală, cauza politică invocată de Grindeanu e contestată. Verificate: 5 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>Comisia de constituționalitate a Senatului aprobă, 6 la 3, anchetarea întâlnirii nedeclarate Bolojan–Tănăsescu; rezoluția merge acum la votul plenului</title>
-      <link>https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Comisia de constituționalitate a Senatului a votat marți, 18 august 2026, cu 6 voturi la 3, declanșarea unei anchete parlamentare privind întâlnirea nedeclarată din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Elena-Simina Tănăsescu — survenită cu trei zile înainte ca Legea Integrității să ajungă pe masa Curții. Rezoluția a fost trimisă spre votul plenului Senatului, iar primele audieri ar putea începe pe 26 august.
-
-Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
-    </item>
-    <item>
       <title>Grindeanu spune că România se împrumută „cu 1.000 de euro pe secundă” — ce arată calculul pe cifrele Ministerului Finanțelor</title>
       <link>https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</guid>
@@ -438,6 +438,16 @@ Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
 Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
+      <title>Comisia de constituționalitate a Senatului aprobă, 6 la 3, anchetarea întâlnirii nedeclarate Bolojan–Tănăsescu; rezoluția merge acum la votul plenului</title>
+      <link>https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu.html</guid>
+      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
+      <category>Politică</category>
+      <description>Comisia de constituționalitate a Senatului a votat marți, 18 august 2026, cu 6 voturi la 3, declanșarea unei anchete parlamentare privind întâlnirea nedeclarată din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Elena-Simina Tănăsescu — survenită cu trei zile înainte ca Legea Integrității să ajungă pe masa Curții. Rezoluția a fost trimisă spre votul plenului Senatului, iar primele audieri ar putea începe pe 26 august.
+
+Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
+    </item>
+    <item>
       <title>Manda îi cere demisia lui Bolojan și acuză „cea mai drastică” scădere a puterii de cumpărare din ultimii 15 ani — ce confirmă datele INS și ce nu</title>
       <link>https://farabaliverne.ro/a/manda-bolojan-acuzatii-economice-100-zile.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/manda-bolojan-acuzatii-economice-100-zile.html</guid>
@@ -446,16 +456,6 @@ Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
       <description>Secretarul general al PSD, europarlamentarul Claudiu Manda, i-a cerut vineri, 14 august 2026, demisia premierului interimar Ilie Bolojan, la peste 100 de zile de la moțiunea de cenzură, invocând peste 510.000 de șomeri, scădere de PIB, „cea mai drastică” scădere a puterii de cumpărare a salariilor din ultimii 15 ani și o inflație „dublată”. Datele INS confirmă direcția cifrelor economice de bază, dar nu susțin superlativele istorice, iar „dublarea” inflației depinde de luna aleasă drept reper.
 
 Unde bat probele: Contestat. Verificate: 6 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Bolojan, după decizia CCR pe Legea ANI: „Vendetele politice cresc riscul ca România să piardă bani și credibilitate”</title>
-      <link>https://farabaliverne.ro/a/bolojan-vendete-politice-risc-fonduri-ue-cedo.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-vendete-politice-risc-fonduri-ue-cedo.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Premierul interimar Ilie Bolojan a reacționat pe 18 august 2026 la decizia CCR care menține termenul de 30 de zile ce îl poate lăsa pe Dominic Fritz fără mandatul de primar, avertizând că „reglările de conturi politice” riscă să pericliteze jalonul PNRR de 31 august și să provoace o nouă condamnare a României la CEDO. PSD respinge public, încă din 7 august, caracterizarea amendamentului drept vizare politică a lui Fritz.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Bolojan s-a întâlnit nedeclarat cu șefa CCR, cu trei zile înainte de decizia pe Legea Integrității — Senatul a deschis o anchetă</title>
@@ -478,14 +478,14 @@ Unde bat probele: Probat că întâlnirea a avut loc — motivul rămâne neveri
 Unde bat probele: Probat. Verificate: 5 probate, 1 contestate.</description>
     </item>
     <item>
-      <title>Surse: Pîslaru a trimis la Bruxelles o nouă formă a legii salarizării, fără liderii coaliției de la Cotroceni</title>
-      <link>https://farabaliverne.ro/a/pislaru-lege-salarizare-bruxelles-secret.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/pislaru-lege-salarizare-bruxelles-secret.html</guid>
+      <title>Bolojan, după decizia CCR pe Legea ANI: „Vendetele politice cresc riscul ca România să piardă bani și credibilitate”</title>
+      <link>https://farabaliverne.ro/a/bolojan-vendete-politice-risc-fonduri-ue-cedo.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-vendete-politice-risc-fonduri-ue-cedo.html</guid>
       <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
       <category>Politică</category>
-      <description>Antena 3, citând surse din negocieri, susține că ministrul interimar al Muncii, Dragoș Pîslaru, a trimis Comisiei Europene o nouă variantă a Legii salarizării unitare — cu o anvelopă de 12 miliarde de lei, cu 4 miliarde peste proiectul inițial — fără ca liderii politici prezenți la Cotroceni să fi văzut acest text. Președintele Cartel Alfa, Bogdan Hossu, a criticat public lipsa de transparență a discuțiilor.
+      <description>Premierul interimar Ilie Bolojan a reacționat pe 18 august 2026 la decizia CCR care menține termenul de 30 de zile ce îl poate lăsa pe Dominic Fritz fără mandatul de primar, avertizând că „reglările de conturi politice” riscă să pericliteze jalonul PNRR de 31 august și să provoace o nouă condamnare a României la CEDO. PSD respinge public, încă din 7 august, caracterizarea amendamentului drept vizare politică a lui Fritz.
 
-Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
+Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Șefa CCR explică întâlnirea cu Bolojan — „doar despre spații”; ÎCCJ cere clarificări și invocă litigiul de 4,8 miliarde de lei pe salariile magistraților, unde premierul e parte</title>
@@ -498,14 +498,14 @@ Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
 Unde bat probele: Probat. Verificate: 5 probate, 1 contestate.</description>
     </item>
     <item>
-      <title>Șefa CCR s-a retras ca raportor pe Legea Integrității, după scandalul întâlnirii cu Bolojan — Curtea a decis luni, dar comisia de anchetă a fost respinsă în Senat</title>
-      <link>https://farabaliverne.ro/a/ccr-bolojan-tanasescu-intalnire-decizie-legea-integritatii.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ccr-bolojan-tanasescu-intalnire-decizie-legea-integritatii.html</guid>
+      <title>Surse: Pîslaru a trimis la Bruxelles o nouă formă a legii salarizării, fără liderii coaliției de la Cotroceni</title>
+      <link>https://farabaliverne.ro/a/pislaru-lege-salarizare-bruxelles-secret.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/pislaru-lege-salarizare-bruxelles-secret.html</guid>
       <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
       <category>Politică</category>
-      <description>Președinta CCR, Simina Tănăsescu, s-a retras ca judecător-raportor pe dosarul Legii Integrității după ce s-a aflat despre o întâlnire neanunțată cu premierul interimar Ilie Bolojan, în biroul președintelui Senatului, cu trei zile înainte de decizie. CSM și Înalta Curte au cerut clarificări; o comisie parlamentară de anchetă a fost respinsă în Senat pentru lipsă de semnături. CCR a decis totuși luni, 17 august: partea din lege care viza partenerii demnitarilor a picat, dar pierderea mandatului după 30 de zile — care îl afectează pe Dominic Fritz — a rămas în picioare.
+      <description>Antena 3, citând surse din negocieri, susține că ministrul interimar al Muncii, Dragoș Pîslaru, a trimis Comisiei Europene o nouă variantă a Legii salarizării unitare — cu o anvelopă de 12 miliarde de lei, cu 4 miliarde peste proiectul inițial — fără ca liderii politici prezenți la Cotroceni să fi văzut acest text. Președintele Cartel Alfa, Bogdan Hossu, a criticat public lipsa de transparență a discuțiilor.
 
-Unde bat probele: Probat, cu rezerve — faptele întâlnirii și ale deciziei sunt confirmate; legătura de cauzalitate dintre ele rămâne nedovedită. Verificate: 6 probate, 1 contestate.</description>
+Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
