@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rafila Alexandru — Deputat PSD, Iaşi — Fără Baliverne</title>
+<meta name="description" content="Rafila Alexandru, deputat PSD de Iaşi. Ce e documentat despre el din surse publice: activitate în mandat, comisii, birou parlamentar, declarații de avere — și verificările Fără Baliverne.">
+<style>
+
+  :root{
+    --ink:#22271f;
+    --ink-soft:#556050;
+    --ink-faint:#87907c;
+    --paper:#e7f0e4;
+    --paper-2:#f1f7ef;
+    --card:#ffffff;
+    --line:#d6e2d0;
+    --line-2:#bfd2b7;
+    --accent:#a5372a;
+    --accent-deep:#7c2620;
+    --accent-soft:#f6e6df;
+    --gold:#b3852e;
+    --ok:#1e8a50;
+    --ok-bg:#e5f5ea;
+    --ok-line:#bfe3cb;
+    --warn:#a8710b;
+    --warn-bg:#fbf0d6;
+    --warn-line:#edd7a0;
+    --bad:#c23b2e;
+    --bad-bg:#fbe7e3;
+    --bad-line:#f0c6bc;
+    --check:#2265a3;
+    --check-bg:#e6f0f9;
+    --check-line:#bcd9ee;
+    --serif:Georgia,'Times New Roman',Cambria,'Iowan Old Style',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --radius:16px;
+    --radius-sm:11px;
+    --shadow:0 1px 2px rgba(34,31,27,.04),0 10px 26px rgba(34,31,27,.06);
+    --shadow-hi:0 6px 14px rgba(34,31,27,.08),0 24px 50px rgba(34,31,27,.13);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 22px}
+  section[id]{scroll-margin-top:66px}
+
+  .topbar{background:var(--accent-deep);color:#fbe9e2;font-size:12.5px;letter-spacing:.02em}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:38px;gap:12px;flex-wrap:wrap;overflow:hidden}
+  .topbar .date{opacity:.92;font-variant:small-caps;letter-spacing:.08em}
+  .topbar .live{display:flex;align-items:center;gap:8px;opacity:.96}
+  .dot{width:8px;height:8px;border-radius:50%;background:#f0b429;box-shadow:0 0 0 0 rgba(240,180,41,.7);animation:pulse 2s infinite}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(240,180,41,.6)}
+    70%{box-shadow:0 0 0 7px rgba(240,180,41,0)}
+    100%{box-shadow:0 0 0 0 rgba(240,180,41,0)}
+  }
+
+  .masthead{background:linear-gradient(180deg,var(--paper-2),var(--paper));border-bottom:2px solid var(--ink)}
+  .masthead .wrap{padding-top:28px;padding-bottom:18px;text-align:center;position:relative}
+  .brand{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(38px,7vw,76px);line-height:.98;letter-spacing:-.01em;margin:0;color:var(--ink);
+  }
+  .brand a{display:inline-block}
+  .brand .amp{color:var(--accent)}
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;margin:13px 0 4px;
+    font-family:var(--serif);font-style:italic;font-size:clamp(15px,2.4vw,20px);color:var(--accent);
+  }
+  .kicker .r{height:1px;width:38px;background:var(--line-2)}
+  .subline{font-size:12.5px;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
+  .support{position:absolute;right:22px;top:28px}
+  .btn-support{
+    border:1.5px solid var(--accent);color:var(--accent);background:var(--paper-2);
+    font-family:var(--sans);font-size:13px;font-weight:700;padding:9px 18px;border-radius:999px;
+    cursor:pointer;transition:.18s ease;display:inline-flex;align-items:center;gap:7px;box-shadow:var(--shadow);
+  }
+  .btn-support:hover{background:var(--accent);color:#fff;transform:translateY(-1px);box-shadow:var(--shadow-hi)}
+
+  .nav{position:sticky;top:0;z-index:40;background:rgba(241,247,239,.9);backdrop-filter:saturate(1.3) blur(10px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;gap:6px;height:54px;overflow-x:auto}
+  .nav a{
+    font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
+    padding:8px 15px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+  }
+  .nav a:hover{color:var(--ink);background:var(--accent-soft)}
+  .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
+  .nav .sep{flex:1}
+  .nav .search{
+    font-size:13px;color:var(--ink-soft);border:1px solid var(--line-2);background:var(--card);
+    padding:8px 13px;border-radius:999px;white-space:nowrap;display:inline-flex;gap:7px;align-items:center;
+    transition:.16s ease;
+  }
+  .nav .search:hover{border-color:var(--accent);color:var(--accent)}
+
+  .legend{border-bottom:1px solid var(--line);background:var(--paper-2)}
+  .legend .wrap{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:12px 22px;font-size:12.5px;color:var(--ink-soft)}
+  .legend .lbl{font-weight:700;color:var(--ink);letter-spacing:.04em;text-transform:uppercase;font-size:11px}
+  .legend span.i{display:inline-flex;align-items:center;gap:7px}
+
+  .chip{
+    display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:800;letter-spacing:.03em;
+    text-transform:uppercase;padding:6px 12px;border-radius:999px;border:1.5px solid transparent;
+    line-height:1;white-space:nowrap;box-shadow:0 2px 6px rgba(34,31,27,.08);
+  }
+  .chip .ic{font-size:12px;line-height:1}
+  .chip.ok{color:#fff;background:var(--ok);border-color:#166b3e}
+  .chip.warn{color:#2b1a02;background:#f5b93e;border-color:#c98f16}
+  .chip.bad{color:#fff;background:var(--bad);border-color:#9c2e23}
+  .chip.check{color:#fff;background:var(--check);border-color:#194f7d}
+  .chip.sm{font-size:10.5px;padding:4px 10px;box-shadow:none}
+  .chip.soft.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok-line);box-shadow:none}
+  .chip.soft.warn{color:var(--warn);background:var(--warn-bg);border-color:var(--warn-line);box-shadow:none}
+  .chip.soft.bad{color:var(--bad);background:var(--bad-bg);border-color:var(--bad-line);box-shadow:none}
+  .chip.soft.check{color:var(--check);background:var(--check-bg);border-color:var(--check-line);box-shadow:none}
+
+  /* --- Badge de raport (probat / contestat / opinie) — inlocuieste verdictul-oracol --- */
+  .report-badge{
+    display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;color:var(--ink-soft);
+    background:var(--paper-2);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px;white-space:nowrap;
+  }
+  .report-badge .seg{display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+  .report-badge .seg.ok{color:var(--ok)}
+  .report-badge .seg.warn{color:var(--warn)}
+  .report-badge .seg.check{color:var(--check)}
+  .report-badge .seg.op{color:var(--ink-faint)}
+  .report-badge.lg{font-size:13.5px;padding:9px 16px;gap:13px;box-shadow:var(--shadow)}
+  .report-badge.sm{font-size:10.5px;padding:5px 10px;gap:8px}
+  .verdict-mini{font-size:10px}
+
+  main{padding:28px 0 40px}
+  .grid-main{display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start}
+
+  .hero{
+    display:block;border-radius:var(--radius);overflow:hidden;background:var(--card);
+    border:1px solid var(--line);box-shadow:var(--shadow);transition:.22s ease;margin-bottom:32px;
+  }
+  .hero:hover{box-shadow:var(--shadow-hi);transform:translateY(-3px)}
+  .hero .photo{aspect-ratio:16/9}
+  .hero .body{padding:24px 28px 28px}
+  .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:13px;flex-wrap:wrap}
+  .cat-tag{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+  .hero h1{
+    font-family:var(--serif);font-weight:700;font-size:clamp(27px,4.4vw,45px);line-height:1.08;
+    margin:0 0 13px;letter-spacing:-.01em;color:var(--ink);transition:.18s ease;
+  }
+  .hero:hover h1{color:var(--accent-deep)}
+  .hero .dek{font-size:17.5px;color:var(--ink-soft);margin:0 0 17px;max-width:62ch}
+  .meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--ink-soft)}
+  .src{
+    display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-2);background:var(--paper-2);
+    padding:6px 12px;border-radius:999px;font-weight:700;font-size:12.5px;color:var(--ink);transition:.15s ease;
+  }
+  .src:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .src .fav{width:14px;height:14px;border-radius:4px;display:inline-block;flex:0 0 auto}
+  .meta .ext{color:var(--ink-faint);font-size:12px}
+  .meta .ext::before{content:"↗ ";opacity:.7}
+
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:9px;margin:0 0 22px}
+  .section-head h2{font-family:var(--serif);font-size:21px;margin:0;letter-spacing:.01em}
+  .section-head .more{font-size:12.5px;color:var(--accent);font-weight:700}
+  .section-head .more:hover{text-decoration:underline}
+  .cat-section{margin-bottom:40px}
+
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
+  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+  /* Lista compactă: articolele mai vechi dintr-o categorie, fără imagine.
+     Rămân toate pe prima pagină și indexabile, dar nu mai cer poze — altfel
+     prima pagină creștea la nesfârșit, în octeți și în număr de imagini. */
+  .mini-list{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+  .mini-head{
+    font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-faint);font-weight:800;padding:10px 2px 8px;
+  }
+  .mini-row{
+    display:flex;gap:16px;align-items:baseline;justify-content:space-between;
+    padding:9px 2px;border-bottom:1px solid var(--line);
+    text-decoration:none;color:inherit;transition:padding-left .15s,color .15s;
+  }
+  .mini-row:last-child{border-bottom:none}
+  .mini-row:hover{padding-left:7px;color:var(--accent)}
+  .mini-title{font-size:15.5px;line-height:1.4;min-width:0}
+  .mini-meta{display:flex;gap:10px;align-items:center;flex:none;white-space:nowrap}
+  .mini-date{font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  @media(max-width:620px){
+    .mini-row{flex-direction:column;gap:6px;align-items:flex-start}
+    .mini-meta{gap:8px}
+  }
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
+  }
+  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-4px);border-color:var(--line-2)}
+  .card .photo{aspect-ratio:16/9}
+  .card:hover .photo .art{transform:scale(1.06)}
+  .card .cbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:11px;flex:1}
+  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .card h3{
+    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.22;margin:0;
+    letter-spacing:-.005em;color:var(--ink);transition:.15s ease;
+  }
+  .card:hover h3{color:var(--accent-deep)}
+  .card .dek{font-size:13.5px;color:var(--ink-soft);margin:0}
+  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-faint)}
+
+  .photo{position:relative;overflow:hidden;background:#e4ede1}
+  .photo .art{position:absolute;inset:0;transition:transform .5s ease}
+  .photo .glyph{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-size:clamp(40px,9vw,84px);opacity:.92;filter:drop-shadow(0 4px 10px rgba(0,0,0,.2));
+  }
+  .photo .srcbadge{
+    position:absolute;left:12px;bottom:12px;z-index:3;font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;
+    background:rgba(20,16,14,.55);backdrop-filter:blur(3px);padding:6px 11px;border-radius:999px;
+    display:inline-flex;align-items:center;gap:6px;transition:.15s ease;
+  }
+  .photo .srcbadge:hover{background:rgba(20,16,14,.78)}
+  .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
+  .photo .grad{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.42) 100%)}
+  .photo .cat-pill{
+    position:absolute;right:12px;top:12px;z-index:3;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+    color:#fff;background:rgba(20,16,14,.42);padding:5px 10px;border-radius:999px;backdrop-filter:blur(2px);
+  }
+  .photo .imgtag{
+    position:absolute;left:12px;top:12px;z-index:3;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:rgba(255,255,255,.88);background:rgba(20,16,14,.35);padding:4px 9px;border-radius:6px;
+  }
+  .pattern{position:absolute;inset:0;z-index:1;opacity:.5;mix-blend-mode:soft-light}
+
+  .g-pol{background:linear-gradient(135deg,#6a7ba0,#37426a)}
+  .g-eco{background:linear-gradient(135deg,#4a9179,#245a49)}
+  .g-ext{background:linear-gradient(135deg,#8c6a9c,#4a3563)}
+  .g-soc{background:linear-gradient(135deg,#c07f52,#7d4a2b)}
+  .g-san{background:linear-gradient(135deg,#5f9ab5,#2f5f79)}
+  .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
+  .g-sport{background:linear-gradient(135deg,#2f8f86,#12615f)}
+  .g-sci{background:linear-gradient(135deg,#5a7fb0,#243a6a)}
+  .g-state{background:linear-gradient(135deg,#8a5a3c,#4a2a1e)}
+
+  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .panel .ph{
+    padding:13px 17px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px;font-weight:700;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .panel .ph .tag{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
+
+  .rank{list-style:none;margin:0;padding:6px 0}
+  .rank li{display:flex;gap:12px;padding:12px 17px;border-bottom:1px solid var(--line);transition:.15s}
+  .rank li:last-child{border-bottom:0}
+  .rank li:hover{background:var(--paper-2)}
+  .rank a{display:flex;gap:12px}
+  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
+  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
+  .rank .rmeta{margin-top:6px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--ink-faint)}
+
+  .ad{border:1px dashed var(--line-2);border-radius:var(--radius);background:var(--paper-2);overflow:hidden}
+  .ad .adlabel{
+    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center;
+    padding:7px;border-bottom:1px dashed var(--line-2);background:rgba(34,31,27,.02);
+  }
+  .ad .adbox{padding:26px 18px;text-align:center}
+  .ad .adart{
+    width:56px;height:56px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(135deg,#d8b25a,#a5822f);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 8px 18px rgba(165,130,47,.3);
+  }
+  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
+  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
+  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:8px 17px;border-radius:999px;transition:.15s}
+  .ad:hover .adbtn{background:var(--gold);color:#fff}
+
+  .method{padding:17px}
+  .method p{margin:0 0 13px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
+  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:11px}
+  .method .row:last-child{margin-bottom:0}
+  .method .row .k{font-size:15px;line-height:1.3}
+
+  .support-panel{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fbe9e2;text-align:center;
+    padding:24px 20px;border-radius:var(--radius);box-shadow:var(--shadow);
+  }
+  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
+  .support-panel p{font-size:13px;margin:0 0 16px;color:#f4ddd6;line-height:1.5}
+  .support-panel .sbtn{display:inline-block;background:#faf6ec;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:10px 21px;border-radius:999px;transition:.15s}
+  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.18)}
+  .support-panel small{display:block;margin-top:12px;font-size:11px;color:#f0d4cd;opacity:.9}
+
+  .strip{margin-top:8px}
+
+  footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
+  footer .wrap{padding:42px 22px 30px}
+  .foot-top{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid #3a352d}
+  .foot-brand{max-width:420px}
+  .foot-brand .fb{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff}
+  .foot-brand .fb .amp{color:#e0a89e}
+  .foot-brand .dev{font-family:var(--serif);font-style:italic;color:#e6bcb2;margin:6px 0 12px;font-size:17px}
+  .foot-brand .creed{font-size:13.5px;color:#b0a790;line-height:1.55}
+  .foot-brand .creed b{color:#f0e6d4;font-weight:700}
+  .foot-cols{display:flex;gap:48px;flex-wrap:wrap}
+  .foot-cols h5{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#948b78;margin:0 0 12px}
+  .foot-cols ul{list-style:none;margin:0;padding:0}
+  .foot-cols li{margin-bottom:8px}
+  .foot-cols a{font-size:14px;color:#d6cec0;transition:.15s}
+  .foot-cols a:hover{color:#fff}
+  .foot-bottom{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#948b78}
+  .foot-bottom a{color:#948b78;transition:.15s}
+  .foot-bottom a:hover{color:#fff}
+  .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
+
+  /* ---------- Article page specific ---------- */
+  .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
+    border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
+  .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+  .article-head{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    overflow:hidden;margin-bottom:28px}
+  .article-head .photo{aspect-ratio:21/9}
+  .article-head .abody{padding:26px 30px 30px}
+  .article-head h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,40px);line-height:1.12;
+    margin:0 0 14px;letter-spacing:-.01em;color:var(--ink)}
+  .article-head .dek{font-size:17px;color:var(--ink-soft);margin:0 0 18px;max-width:70ch}
+  .article-head .verdict-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 16px}
+
+  .ev-block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:22px 26px 26px;margin-bottom:24px}
+  .ev-block h2{font-family:var(--serif);font-size:20px;margin:0 0 6px;display:flex;align-items:center;gap:9px}
+  .ev-block .ev-sub{font-size:13px;color:var(--ink-faint);margin:0 0 18px}
+  .ev-item{padding:16px 0;border-top:1px solid var(--line)}
+  .ev-item:first-of-type{border-top:none;padding-top:4px}
+  .ev-item p{margin:0 0 11px;font-size:15.5px;line-height:1.55;color:var(--ink)}
+  .ev-sources{display:flex;flex-wrap:wrap;gap:8px}
+  .ev-sources a{
+    display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-2);background:var(--paper-2);
+    padding:6px 12px;border-radius:999px;font-weight:600;font-size:12.5px;color:var(--ink-soft);transition:.15s ease;
+    max-width:100%;
+  }
+  .ev-sources a:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .ev-sources a .fav{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+  .ev-sources a span.lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  .ev-block.probat{border-left:5px solid var(--ok)}
+  .ev-block.contestat{border-left:5px solid var(--warn)}
+  .ev-block.neverificabil{border-left:5px solid var(--check)}
+  .ev-block.opinie{border-left:5px solid var(--ink-faint)}
+  .opinie-item{padding:14px 0;border-top:1px solid var(--line);font-size:15.5px;line-height:1.55;color:var(--ink-soft);font-style:italic}
+  .opinie-item:first-of-type{border-top:none;padding-top:4px}
+
+  .ai-note{background:linear-gradient(160deg,var(--paper-2),var(--paper));border:1.5px dashed var(--line-2);
+    border-radius:var(--radius);padding:22px 26px;margin-bottom:24px}
+  .ai-note h2{font-family:var(--serif);font-size:19px;margin:0 0 10px;display:flex;align-items:center;gap:9px}
+  .ai-note p{margin:0;font-size:14.5px;line-height:1.6;color:var(--ink-soft)}
+
+  .math-block{background:var(--card);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:22px 26px;margin-bottom:24px}
+  .math-block h2{font-family:var(--serif);font-size:19px;margin:0 0 12px;display:flex;align-items:center;gap:9px;color:var(--accent-deep)}
+  .math-block p{margin:0;font-size:14.5px;line-height:1.65;color:var(--ink)}
+
+  .conclusion-box{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fff;
+    border-radius:var(--radius);padding:30px 30px;text-align:center;box-shadow:var(--shadow-hi);margin:32px 0 8px;
+  }
+  .conclusion-box .glyph{font-size:34px;margin-bottom:10px}
+  .conclusion-box h3{font-family:var(--serif);font-size:24px;margin:0 0 9px;color:#fff}
+  .conclusion-box p{font-size:14.5px;color:#f4ddd6;margin:0 0 18px;max-width:56ch;margin-left:auto;margin-right:auto;line-height:1.55}
+  .conclusion-box .backlink{background:#faf6ec;color:var(--accent-deep);border:none;font-weight:800}
+  .conclusion-box .backlink:hover{background:#fff;color:var(--accent-deep)}
+
+  @media(max-width:980px){
+    .grid-main{grid-template-columns:1fr}
+    aside{position:static;flex-direction:column}
+    .cards-3{grid-template-columns:repeat(2,1fr)}
+  }
+  @media(max-width:720px){
+    body{font-size:16px}
+    .cards,.cards-3{grid-template-columns:1fr}
+    .support{position:static;margin-top:14px}
+    .masthead .wrap{padding-bottom:18px}
+    .legend .wrap{font-size:12px}
+    .brand{font-size:44px}
+    .article-head .abody{padding:20px 20px 24px}
+    .ev-block{padding:18px 18px 20px}
+  }
+
+/* ─── pagina unui parlamentar ─────────────────────────────────── */
+.pp-cap{margin:0 0 20px}
+.pp-grup{display:inline-block;padding:4px 12px;border-radius:30px;color:#fff;font-size:12.5px;
+         font-weight:800;letter-spacing:.02em}
+.pp-rol{font-size:13px;color:var(--ink-faint);margin-left:10px}
+.pp-cap h1{font-family:var(--serif);font-size:36px;line-height:1.1;margin:10px 0 10px;letter-spacing:-.02em}
+.pp-meta{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;color:var(--ink-soft)}
+.pp-meta b{color:var(--ink);font-weight:700}
+.pp-doua{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px;align-items:start}
+.pp-sec,.pp-box{background:var(--card);border:1px solid var(--line);border-radius:16px;
+                box-shadow:var(--shadow);padding:20px 22px;margin-bottom:16px}
+.pp-sec h2{font-family:var(--serif);font-size:21px;margin:0 0 4px;letter-spacing:-.01em}
+.pp-box h2{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
+           font-weight:800;margin:0 0 10px}
+.pp-h3{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
+       font-weight:800;margin:14px 0 6px}
+.pp-sub{margin:0 0 14px;font-size:13.5px;color:var(--ink-faint);line-height:1.5}
+.pp-lista{margin:0;padding:0;list-style:none}
+.pp-lista li{padding:8px 0;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.45}
+.pp-lista li:last-child{border-bottom:none}
+.pp-lk li{border-bottom:none;padding:5px 0}
+.pp-gol{font-size:14px;color:var(--ink-faint);font-style:italic;line-height:1.5}
+.pp-cifre{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px}
+.pp-cifra{background:var(--paper-2);border:1px solid var(--line);border-radius:11px;padding:13px 14px}
+.pp-cifra b{display:block;font-family:var(--serif);font-size:26px;line-height:1;margin-bottom:5px}
+.pp-cifra span{font-size:12px;color:var(--ink-soft);line-height:1.35}
+.pp-verif{border-top:1px solid var(--line);padding:13px 0}
+.pp-vr{display:flex;gap:9px;align-items:center;margin-bottom:5px;flex-wrap:wrap}
+.pp-verdict{padding:3px 10px;border-radius:30px;font-size:11.5px;font-weight:800;
+            background:var(--paper-2);border:1px solid var(--line-2);color:var(--ink-soft)}
+.pp-data{font-size:12.5px;color:var(--ink-faint)}
+.pp-verif a{font-size:15.5px;line-height:1.4}
+.pp-verif p{margin:4px 0 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
+.pp-mic{font-size:13.5px;line-height:1.55;color:var(--ink-soft);margin:0 0 9px}
+.pp-mic:last-child{margin-bottom:0}
+.pp-lipsa{background:var(--paper-2)}
+@media (max-width:860px){.pp-doua{grid-template-columns:1fr}.pp-cap h1{font-size:27px}}
+</style>
+<meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
+<link rel="canonical" href="https://farabaliverne.ro/parlamentar/rafila-alexandru.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#2f8a49">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fără Baliverne">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:title" content="Fără Baliverne — Apă, paie… Adevăr">
+<meta property="og:description" content="Rafila Alexandru, deputat PSD de Iaşi. Ce e documentat despre el din surse publice: activitate în mandat, comisii, birou parlamentar, declarații de avere — și verificările Fără Baliverne.">
+<meta property="og:url" content="https://farabaliverne.ro/parlamentar/rafila-alexandru.html">
+<meta property="og:image" content="https://farabaliverne.ro/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fără Baliverne — Apă, paie… Adevăr">
+<meta name="twitter:description" content="Rafila Alexandru, deputat PSD de Iaşi. Ce e documentat despre el din surse publice: activitate în mandat, comisii, birou parlamentar, declarații de avere — și verificările Fără Baliverne.">
+<meta name="twitter:image" content="https://farabaliverne.ro/og-cover.png">
+  <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap">
+      <div class="date">Duminică, 23 august 2026 · Ediția de seară</div>
+      <div class="live"><span class="dot"></span> 519 verificări publicate</div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="wrap">
+      <h1 class="brand"><a href="../index.html">Fără&nbsp;Baliverne</a></h1>
+      <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
+      <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
+      <div class="support">
+        <a href="#" onclick="gabeIt();return false" class="btn-support">⚡ Gabe it</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="../index.html" class="active">Acasă</a>
+      <a href="index.html#politica">Politică</a>
+      <a href="index.html#economie">Economie</a>
+      <a href="index.html#extern">Extern</a>
+      <a href="index.html#stiinta">Știință</a>
+      <a href="index.html#social">Social</a>
+      <a href="index.html#sport">Sport</a>
+      <a href="index.html#media-de-stat">Media de stat</a>
+      <a href="../politicieni.html">Politicieni</a>
+      <a href="../parlament.html">Parlament</a>
+      <span class="sep"></span>
+      <a href="../cauta.html" class="search">🔍 Caută o afirmație</a>
+    </div>
+  </nav>
+
+  <div class="legend">
+    <div class="wrap">
+      <span class="lbl">Cum stau probele:</span>
+      <span class="i"><span class="chip soft ok"><span class="ic">✅</span> Probat</span> susținut de dovezi</span>
+      <span class="i"><span class="chip soft warn"><span class="ic">⚠️</span> Contestat</span> surse în dezacord</span>
+      <span class="i"><span class="chip soft bad"><span class="ic">❌</span> Contrazis</span> infirmat de dovezi</span>
+      <span class="i"><span class="chip soft check"><span class="ic">🔍</span> În verificare</span> analiză în curs</span>
+    </div>
+  </div>
+
+  <main>
+    <div class="wrap" style="max-width:1040px">
+      <a href="../parlament.html" class="backlink">← Înapoi în hemiciclu</a>
+
+      <div class="pp-cap">
+        <span class="pp-grup" style="background:#c0392b">PSD</span>
+        <span class="pp-rol">Deputat · Iaşi</span>
+        <h1>Rafila Alexandru</h1>
+        <div class="pp-meta">
+          <span><b>Născut:</b> 27 dec. 1961</span>
+          <span><b>Mandat validat:</b> 21 decembrie 2024 - HCD nr.109/2024</span>
+          <span><b>Contact:</b> <a href="mailto:alexandru.rafila@cdep.ro">alexandru.rafila@cdep.ro</a></span>
+        </div>
+      </div>
+
+      <div class="pp-doua">
+        <div>
+          <section class="pp-sec"><h2>Ce am verificat</h2><div class="pp-gol">Nicio verificare încă. Când o afirmație de-a lui ajunge sub lupă, apare aici.</div></section>
+
+          <section class="pp-sec">
+            <h2>Activitatea în mandat</h2>
+            <p class="pp-sub">Cifre luate din evidența oficială, arătate brut. Nu le interpretăm —
+              multe inițiative nu înseamnă nici bine, nici rău.</p>
+            <div class="pp-cifre"><div class="pp-cifra"><b>14</b><span>luări de cuvânt</span></div><div class="pp-cifra"><b>16</b><span>propuneri legislative</span></div><div class="pp-cifra"><b>5</b><span>devenite legi</span></div><div class="pp-cifra"><b>1</b><span>moțiuni semnate</span></div></div>
+          </section>
+
+          <section class="pp-sec">
+            <h2>Comisii</h2>
+            <ul class='pp-lista'><li>Comisia pentru sănătate şi familie - Preşedinte (Din Iun. 2025)</li></ul>
+            
+          </section>
+        </div>
+
+        <aside>
+          <section class="pp-box">
+            <h2>Birou parlamentar</h2>
+            <ul class='pp-lista'><li>Iasi, Bd. Independentei, nr.14, bl.I 1-2,etj.1, jud. Iasi</li></ul>
+          </section>
+
+          <section class="pp-box">
+            <h2>Documente oficiale</h2>
+            <ul class="pp-lista pp-lk">
+              <li><a href="https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=264&amp;cam=2&amp;leg=2024" target="_blank" rel="noopener">Fișa pe cdep.ro ↗</a></li>
+              <li><a href="https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=264&amp;cam=2&amp;leg=2024&amp;pag=0" target="_blank" rel="noopener">Curriculum Vitae ↗</a></li>
+              <li><a href="https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=264&amp;cam=2&amp;leg=2024&amp;pag=5" target="_blank" rel="noopener">Declarația de avere ↗</a></li>
+              <li><a href="https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=264&amp;cam=2&amp;leg=2024&amp;pag=6" target="_blank" rel="noopener">Declarația de interese ↗</a></li>
+              <li><a href="https://www.cdep.ro/ords/pls/steno/evot2015.data" target="_blank" rel="noopener">Cum a votat electronic ↗</a></li>
+            </ul>
+          </section>
+
+          <section class="pp-box"><h2>Grupul parlamentar</h2><p class="pp-mic">Grupul parlamentar al Partidului Social Democrat</p></section>
+
+          <section class="pp-box pp-lipsa">
+            <h2>Ce nu găsești aici</h2>
+            <p class="pp-mic"><b>Câte voturi a luat.</b> În România se votează pe listă de partid,
+              nu pe persoană — nu există „voturile lui" de publicat.</p>
+            <p class="pp-mic"><b>Dosare penale sau condamnări.</b> Le punem doar cu document
+              judiciar verificat, nu din presă. Până atunci, tăcem — o acuzație greșită
+              despre un om cu nume e exact greșeala pe care o vânăm la alții.</p>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <div class="fb">Fără <span class="amp">Baliverne</span></div>
+          <div class="dev">Apă, paie… Adevăr</div>
+          <p class="creed">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b> Fapt ≠ opinie. Agregăm știri din presa românească și internațională, le punem lângă probe și îți lăsăm ție ultima judecată.</p>
+        </div>
+        <div class="foot-cols">
+          <div>
+            <h5>Categorii</h5>
+            <ul>
+              <li><a href="index.html#politica">Politică</a></li>
+              <li><a href="index.html#economie">Economie</a></li>
+              <li><a href="index.html#extern">Extern</a></li>
+              <li><a href="index.html#social">Social</a></li>
+              <li><a href="index.html#sport">Sport</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Despre</h5>
+            <ul>
+              <li><a href="../metodologie.html">Metodologie</a>
+            <a href="../cifre.html">Cifrele noastre</a></li>
+              <li><a href="../cine-suntem.html">Cine suntem</a></li>
+              <li><a href="../corectari.html">Corectări</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+              <li><a href="../publicitate.html">Publicitate</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Cum stau probele</h5>
+            <ul>
+              <li>✅ Probat</li>
+              <li>⚠️ Contestat</li>
+              <li>❌ Contrazis</li>
+              <li>🔍 În verificare</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Fără Baliverne · farabaliverne.ro · Toate mărcile și logo-urile aparțin surselor citate.</span>
+        <span class="legal-links"><a href="../termeni.html">Termeni</a> · <a href="../confidentialitate.html">Confidențialitate</a> · <a href="../corectari.html">Politica de corectare</a></span>
+      </div>
+    </div>
+  </footer>
+<script>
+(function(){
+  var U=location.href, T=(document.title||'Fără Baliverne').replace(/\s*[—-]\s*Fără Baliverne.*$/,'');
+  function e(s){return encodeURIComponent(s);}
+  function toast(m){var t=document.createElement('div');t.textContent=m;t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2f4234;color:#fff;padding:11px 18px;border-radius:12px;font:600 14px system-ui;z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.25)';document.body.appendChild(t);setTimeout(function(){t.style.transition='opacity .4s';t.style.opacity='0';},1700);setTimeout(function(){t.remove();},2200);}
+  window.gabeIt=function(){window.open('https://findgabe.app/?compose='+e(T+'\n'+U),'_blank','noopener');};
+  window.__fbMobil=/Android|iPhone|iPad|iPod|Mobile|Silk/i.test(navigator.userAgent||'');window.shareFB=function(){if(window.__fbMobil&&navigator.share){navigator.share({title:T,url:U}).catch(function(){});return;}window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),'_blank','noopener,width=650,height=600');};
+  window.shareX=function(){window.open('https://x.com/intent/post?url='+e(U)+'&text='+e(T),'_blank','noopener,width=560,height=460');};
+  window.copyLink=function(){navigator.clipboard.writeText(U).then(function(){toast('Link copiat — dă-l mai departe!');});};
+  window.toggleLike=function(b){var k='fb_like_'+location.pathname,on=localStorage.getItem(k)!=='1';localStorage.setItem(k,on?'1':'0');b.style.background=on?'#a5372a':'';b.style.color=on?'#fff':'';if(on)toast('Mulțumim! ♥');};
+  window.subscribeNotify=function(){if(!('Notification'in window)){toast('Salvează-ne cu Ctrl+D 🔖');return;}Notification.requestPermission().then(function(p){toast(p==='granted'?'Gata! Te anunțăm la verificări noi.':'Salvează-ne cu Ctrl+D 🔖');});};
+  if(/\/a\//.test(location.pathname)){
+    var w=document.createElement('div');w.style.cssText='position:fixed;right:16px;bottom:16px;z-index:9997;display:flex;flex-direction:column;gap:8px;align-items:flex-end';
+    var row=document.createElement('div');row.style.cssText='display:flex;gap:8px';
+    function rnd(txt,fn,bg,fs){var b=document.createElement('button');b.innerHTML=txt;b.onclick=fn;b.style.cssText='width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;color:#fff;background:'+bg+';box-shadow:0 6px 16px rgba(0,0,0,.28);font:700 '+fs+' system-ui';return b;}
+    row.appendChild(rnd('f',window.shareFB,'#1877f2','18px'));
+    row.appendChild(rnd('𝕏',window.shareX,'#000','16px'));
+    var g=document.createElement('button');g.innerHTML='⚡ Gabe it';g.onclick=window.gabeIt;g.style.cssText='padding:12px 18px;border:none;border-radius:30px;cursor:pointer;color:#fff;background:linear-gradient(135deg,#2f8a49,#1f6a37);box-shadow:0 8px 22px rgba(47,138,73,.4);font:800 15px system-ui';
+    w.appendChild(row);w.appendChild(g);document.body.appendChild(w);
+  }
+})();
+</script>
+<script>
+(function(){
+  var el=document.querySelector('.topbar .live'); if(!el) return;
+  var MAP={'Bucharest':'București','Chisinau':'Chișinău','Timisoara':'Timișoara','Iasi':'Iași'};
+  function emo(c){if(c===0)return'☀️';if(c<=3)return'⛅';if(c<=48)return'🌫️';if(c<=67)return'🌧️';if(c<=77)return'❄️';if(c<=82)return'🌦️';return'⛈️';}
+  var tz=''; try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+  var city=((tz.split('/').pop()||'').replace(/_/g,' ')); city=MAP[city]||city||'';
+  var wx='';
+  function paint(){var t=new Date().toLocaleTimeString('ro-RO',{hour:'2-digit',minute:'2-digit'});el.innerHTML='<span class="dot"></span> '+city+' · '+t+wx;}
+  if(city){paint(); setInterval(paint,30000);}
+  try{
+    fetch('https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(city)+'&count=1&language=ro').then(function(r){return r.json();}).then(function(g){
+      if(!g.results||!g.results[0])return; var o=g.results[0];
+      return fetch('https://api.open-meteo.com/v1/forecast?latitude='+o.latitude+'&longitude='+o.longitude+'&current=temperature_2m,weather_code');
+    }).then(function(r){return r&&r.json();}).then(function(w){ if(w&&w.current){wx=' · '+emo(w.current.weather_code)+' '+Math.round(w.current.temperature_2m)+'°'; paint();} }).catch(function(){});
+  }catch(e){}
+})();
+</script>
+
+<script>
+(function(){
+  var el=document.querySelector('.topbar .date'); if(!el) return;
+  var Z=['Duminică','Luni','Marți','Miercuri','Joi','Vineri','Sâmbătă'];
+  var L=['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+  function scrie(){
+    var n=new Date(), h=n.getHours(), e;
+    if(h>=5&&h<8) e='Ediția de dimineață';
+    else if(h>=8&&h<11) e='Ediția de cafeluță';
+    else if(h>=11&&h<14) e='Ediția de amiază';
+    else if(h>=14&&h<17) e='Ediția de după-amiază';
+    else if(h>=17&&h<20) e='Ediția de seară';
+    else if(h>=20&&h<23) e='Ediția de seară târzie';
+    else e='Ediția de noapte';
+    el.textContent=Z[n.getDay()]+', '+n.getDate()+' '+L[n.getMonth()]+' '+n.getFullYear()+' · '+e;
+  }
+  scrie(); setInterval(scrie, 60000);
+})();
+</script>
+
+<script>
+(function(){
+  var K='fb_citite';
+  function citite(){ try{ return JSON.parse(localStorage.getItem(K)||'[]'); }catch(e){ return []; } }
+  // Pe pagina articolului: reținem că a fost deschis.
+  var m = location.pathname.match(/\/a\/([^\/]+)\.html$/);
+  if(m){
+    var L=citite(); if(L.indexOf(m[1])<0){ L.push(m[1]); try{ localStorage.setItem(K, JSON.stringify(L.slice(-400))); }catch(e){} }
+    return;
+  }
+  // Pe prima pagină: ascundem ce s-a citit deja.
+  if(!/(^\/$|index\.html$)/.test(location.pathname)) return;
+  document.addEventListener('DOMContentLoaded', function(){
+    var L=citite(); if(!L.length) return;
+    var ascunse=0;
+    document.querySelectorAll('main section.cat-section').forEach(function(sec){
+      var tot=sec.querySelectorAll('a.card, a.mini-row');
+      var deAscuns=[];
+      tot.forEach(function(a){
+        var h=a.getAttribute('href')||'';
+        var s=(h.match(/a\/([^\/]+)\.html$/)||[])[1];
+        if(s && L.indexOf(s)>=0) deAscuns.push(a);
+      });
+      // Dacă a citit tot din secțiune, o lăsăm întreagă — mai bine ceva decât gol.
+      if(deAscuns.length && deAscuns.length < tot.length){
+        deAscuns.forEach(function(a){ a.style.display='none'; a.dataset.fbCitit='1'; });
+        ascunse += deAscuns.length;
+      }
+    });
+    if(!ascunse) return;
+    var b=document.createElement('button');
+    b.textContent = ascunse===1 ? 'Arată și articolul pe care l-ai citit'
+                                : 'Arată și cele '+ascunse+' pe care le-ai citit';
+    b.style.cssText='display:block;margin:18px auto 0;padding:9px 18px;border-radius:999px;border:1px solid var(--line-2);background:var(--card);color:var(--ink-soft);font:600 13px system-ui;cursor:pointer';
+    b.onclick=function(){
+      document.querySelectorAll('[data-fb-citit]').forEach(function(a){ a.style.display=''; });
+      b.remove();
+    };
+    var w=document.querySelector('main .wrap'); if(w) w.appendChild(b);
+  });
+})();
+</script>
+</body>
+</html>

@@ -17,7 +17,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   3. rulează: python3 scripts/build_site.py
   4. commit + push  →  GitHub urcă singur pe site
 """
-import json, re, glob, os, unicodedata, subprocess, collections, html
+import json, re, glob, os, unicodedata, subprocess, collections, html, time
 from datetime import datetime, timedelta, timezone
 
 def now_edition():
@@ -1307,6 +1307,16 @@ def build_sitemap(arts):
     # `closcu.html` apare doar dacă a fost generată (CLOSCU_ENABLED). Verificarea
     # `os.path.exists` de mai jos o sare singură când secțiunea e stinsă, deci
     # sitemap-ul nu trimite niciodată Google spre un 404.
+    # Cele 464 de pagini de parlamentar. Fără ele în sitemap, Google le-ar găsi
+    # doar prin linkurile din hemiciclu, care sunt puse de JavaScript.
+    _pdir = os.path.join(ROOT, "parlamentar")
+    if os.path.isdir(_pdir):
+        for _f in sorted(os.listdir(_pdir)):
+            if _f.endswith(".html"):
+                rows.append('<url><loc>%sparlamentar/%s</loc><lastmod>%s</lastmod>'
+                            '<changefreq>monthly</changefreq><priority>0.5</priority></url>'
+                            % (B, _f, time.strftime("%Y-%m-%d")))
+
     for pg in ("politicieni.html","parlament.html","cauta.html","closcu.html","cifre.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
         if os.path.exists(os.path.join(ROOT, pg)):

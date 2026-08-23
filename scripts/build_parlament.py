@@ -35,6 +35,11 @@ def scurt(g):
     return SCURT.get(g, g[:14])
 
 
+def slug(n):
+    import re as _re
+    return _re.sub(r"[^a-z0-9]+", "-", fara_diacritice(n).lower()).strip("-")
+
+
 def fara_diacritice(n):
     return "".join(c for c in unicodedata.normalize("NFD", n)
                    if unicodedata.category(c) != "Mn")
@@ -54,7 +59,8 @@ def date():
             oameni.append([x["nume"], gi,
                            "D" if x["camera"] == "Camera Deputaților" else "S",
                            x.get("circumscriptie") or "la nivel naţional",
-                           x["fisa"]])
+                           "parlamentar/" + slug(x["nume"]) + ".html",   # pagina noastră
+                           x["fisa"]])                                    # sursa oficială
     return oameni, legenda, d.get("actualizat", "")
 
 
@@ -85,6 +91,53 @@ def main_html(oameni, legenda, actualizat):
         <div class="pl-legenda">{leg}</div>
       </div>
 
+      <section class="pl-prez">
+        <h2>Prezidiul — cine conduce și de ce</h2>
+        <p class="pl-prez-sub">Locurile din prezidiu nu se ocupă din obicei, ci după regulament.
+          Fiecare poziție are articolul care o impune.</p>
+
+        <div class="pl-masa">
+          <div class="pl-loc"><span>Secretar · Camera Deputaților</span><b>un secretar al Camerei</b></div>
+          <div class="pl-loc pl-loc-mare"><span>Prezidează, alternativ</span>
+            <b>Președintele Camerei Deputaților / Președintele Senatului</b></div>
+          <div class="pl-loc"><span>Secretar · Senat</span><b>un secretar al Senatului</b></div>
+        </div>
+        <p class="pl-temei"><b>Art. 30, Regulamentul activităților comune:</b>
+          „Lucrările ședințelor comune sunt conduse, <b>alternativ</b>, de președintele Camerei
+          Deputaților și de președintele Senatului, <b>asistați de 2 secretari, câte unul de la
+          fiecare Cameră</b>."</p>
+
+        <div class="pl-prez-doua">
+          <div class="pl-nota">
+            <h3>Ședință obișnuită, o singură Cameră</h3>
+            <p>Președintele Camerei conduce lucrările plenului, <b>asistat obligatoriu de 2 secretari</b>.
+              Tot el acordă cuvântul, stabilește ordinea votării și precizează semnificația votului.
+              <span class="pl-art">Art. 34 lit. b), Regulamentul Camerei Deputaților</span></p>
+          </div>
+          <div class="pl-nota pl-ceremonie">
+            <h3>Ședința de constituire — ceremonia</h3>
+            <p>Până la alegerea Biroului permanent, lucrările sunt conduse de deputatul cu
+              <b>cel mai mare număr de mandate</b>, ca <b>președinte senior</b>, asistat de
+              <b>cei mai tineri 4 deputați</b>, în calitate de secretari. La egalitate de mandate,
+              conduce cel mai în vârstă.
+              <span class="pl-art">Art. 2 alin. (1), Regulamentul Camerei Deputaților</span></p>
+          </div>
+        </div>
+
+        <div class="pl-comune">
+          <h3>Ce se face doar în ședință comună</h3>
+          <div class="pl-comune-g">
+            <span>Depunerea jurământului de către Președintele României</span>
+            <span>Punerea sub acuzare a Președintelui pentru înaltă trădare</span>
+            <span>Suspendarea din funcție a Președintelui</span>
+            <span>Numirea Avocatului Poporului</span>
+            <span>Reexaminarea Legii bugetului de stat</span>
+            <span>Revizuirea Constituției, când Camerele nu se înțeleg</span>
+          </div>
+          <p class="pl-art">Art. 13, Regulamentul activităților comune</p>
+        </div>
+      </section>
+
       <div class="pl-note">
         <div class="pl-nota">
           <h2>De ce stau așa</h2>
@@ -112,6 +165,39 @@ def main_html(oameni, legenda, actualizat):
 
 
 STIL = '''
+.pl-prez{background:var(--card);border:1px solid var(--line);border-radius:16px;
+         box-shadow:var(--shadow);padding:24px;margin-top:16px}
+.pl-prez h2{font-family:var(--serif);font-size:24px;margin:0 0 5px;letter-spacing:-.01em}
+.pl-prez-sub{margin:0 0 18px;font-size:14.5px;color:var(--ink-soft);line-height:1.55;max-width:760px}
+.pl-masa{display:flex;gap:12px;align-items:stretch;margin-bottom:12px;flex-wrap:wrap}
+.pl-loc{flex:1 1 180px;background:var(--paper-2);border:1px solid var(--line);border-radius:11px;padding:14px 16px}
+.pl-loc span{display:block;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;
+             font-weight:800;color:var(--ink-faint);margin-bottom:5px}
+.pl-loc b{font-size:14.5px;line-height:1.4;font-weight:600}
+.pl-loc-mare{flex:2 1 320px;background:var(--ink);border-color:var(--ink)}
+.pl-loc-mare span{color:#c9d3c2}
+.pl-loc-mare b{color:#fff}
+.pl-temei{background:var(--paper-2);border:1px solid var(--line);border-radius:11px;
+          padding:13px 16px;font-size:14px;line-height:1.55;color:var(--ink-soft);margin:0 0 16px}
+.pl-temei b{color:var(--ink)}
+.pl-prez-doua{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.pl-prez h3{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
+            font-weight:800;margin:0 0 8px}
+.pl-prez .pl-nota p{font-size:14.5px;line-height:1.6}
+.pl-ceremonie{background:#fdfaf1;border-color:#e6d9b8}
+.pl-ceremonie h3{color:#8a6a15}
+.pl-ceremonie p{color:#5f4d1e}
+.pl-art{display:block;margin-top:8px;font-size:12.5px;color:var(--ink-faint);font-style:italic}
+.pl-comune{border-top:1px solid var(--line);padding-top:16px}
+.pl-comune-g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 22px}
+.pl-comune-g span{font-size:14px;line-height:1.45;padding:7px 0;border-bottom:1px solid var(--line);
+                  color:var(--ink-soft)}
+@media (max-width:900px){
+  .pl-prez-doua{grid-template-columns:1fr}
+  .pl-comune-g{grid-template-columns:1fr}
+  .pl-prez h2{font-size:20px}
+}
+
 /* ─── Parlamentul României ─────────────────────────────────────── */
 .pl-cap{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;margin:0 0 6px}
 .pl-cap h1{font-family:var(--serif);font-size:38px;line-height:1.08;margin:0;letter-spacing:-.02em}
@@ -127,6 +213,8 @@ STIL = '''
 .pl-txt{min-width:0}
 .pl-nume{font-family:var(--serif);font-size:19px;line-height:1.2;letter-spacing:-.01em}
 .pl-nume a{color:var(--accent);text-underline-offset:3px}
+.pl-sep{color:var(--line-2)}
+.pl-src{font-size:12.5px}
 .pl-det{font-size:13.5px;color:var(--ink-soft);margin-top:2px}
 .pl-dr{margin-left:auto;text-align:right;flex:0 0 auto;font-size:12.5px;color:var(--ink-faint)}
 .pl-sala{position:relative;height:420px;max-width:1060px;margin:0 auto}
@@ -191,8 +279,10 @@ SCRIPT = '''
     var o=O[idx]; if(!o) return;
     if(sel>=0&&poz[sel]) poz[sel].classList.remove("pl-sel");
     sel=idx; poz[idx].classList.add("pl-sel");
-    nume.innerHTML='<a href="'+o[4]+'" target="_blank" rel="noopener noreferrer">'+o[0]+'</a>';
-    det.textContent=L[o[1]].nume+" · "+(o[2]==="D"?"Camera Deputaților":"Senat");
+    nume.innerHTML='<a href="'+o[4]+'">'+o[0]+'</a>';
+    det.innerHTML=L[o[1]].nume+" · "+(o[2]==="D"?"Camera Deputaților":"Senat")
+      +' <span class="pl-sep">·</span> <a class="pl-src" href="'+o[5]
+      +'" target="_blank" rel="noopener noreferrer">fișa oficială cdep.ro ↗</a>';
     dr2.textContent="Circumscripția "+o[3];
     punct.style.background=L[o[1]].culoare;
   }
@@ -205,7 +295,7 @@ SCRIPT = '''
     // A doua atingere pe acelaşi scaun deschide fişa. Prima doar selectează:
     // pe telefon degetul trece peste zeci de scaune, iar deschiderea din prima
     // te-ar scoate de pe pagină din greşeală.
-    if(idx===sel) window.open(O[idx][4],"_blank","noopener");
+    if(idx===sel) window.location.href=O[idx][4];   // a doua atingere: pagina noastră
     else arata(idx);
   },{passive:true});
 })();
