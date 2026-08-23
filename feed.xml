@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 17:19:08 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 17:20:36 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SUA au rambursat 100 de miliarde de dolari din tarifele vamale — dar banii merg la companii, nu la cumpărători</title>
+      <link>https://farabaliverne.ro/a/sua-rambursari-tarife-100-miliarde-consumatori.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/sua-rambursari-tarife-100-miliarde-consumatori.html</guid>
+      <pubDate>Sun, 23 Aug 2026 14:19:24 +0000</pubDate>
+      <category>Economie</category>
+      <description>Administrația Trump a certificat 100 de miliarde de dolari în rambursări din cele 166 de miliarde de dolari colectate din tarifele vamale declarate ilegale de Curtea Supremă. Banii merg către marii importatori — Apple, Nike, FedEx, Amazon, Target, Ford — dar puține companii s-au angajat public să întoarcă sumele către cumpărătorii care, practic, au plătit tarifele prin prețuri mai mari.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Trump spune că economia americană „n-a fost niciodată mai puternică” și că ar câștiga „cu 25 de puncte” — datele oficiale arată o încetinire</title>
       <link>https://farabaliverne.ro/a/trump-cohen-interviu-economie-25-puncte.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 3 contestate.</description>
       <description>Grupul energetic nr. 5 de la Turceni a fost oprit în noaptea de 20 august, din cauza unei neetanșeități la cazan. Sursele diferă la puterea pierdută (200 sau 220 MW) și la data repornirii — inițial „duminică seara”, apoi actualizat la „luni, 24 august”.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 6 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>ANI: 122 de persoane sunt vizate de „amendamentul Fritz”, 15 deja eliberate din funcție</title>
-      <link>https://farabaliverne.ro/a/ani-122-persoane-amendament-fritz.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ani-122-persoane-amendament-fritz.html</guid>
-      <pubDate>Fri, 21 Aug 2026 18:28:30 +0000</pubDate>
-      <category>Politică</category>
-      <description>Șeful ANI, Bogdan Sticlosu, spune că 122 de persoane din evidențele Agenției intră sub incidența interdicției de 3 ani introduse prin „amendamentul Fritz”, iar pentru 15 au fost deja dispuse măsuri de eliberare din funcție. CCR a validat amendamentul pe 17 august ca fiind constituțional.
-
-Unde bat probele: Probat. Verificate: 6 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
