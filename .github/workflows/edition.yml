@@ -192,6 +192,28 @@ jobs:
             git push
           fi
 
+      # Repară singur ce se poate repara, ÎNAINTE de verificarea care oprește
+      # publicarea. Pe 23 august, trei ediții la rând au fost marcate ROȘU deși
+      # publicaseră 9 articole: verificarea pica pe trei poze hotlinkate din
+      # articole VECHI, plus una de 311 KB și una cu numele schimbat la
+      # redenumirea slug-ului. Fondatorul primea „all jobs have failed" pentru
+      # muncă reușită, iar cardurile de partajare și lista de postat rămâneau
+      # nefăcute, fiindcă pașii de după un pas picat se sar.
+      # Scoaterea hotlinkului nu slăbește regula — o aplică automat: poza
+      # străină dispare și rămâne cardul de brand, exact ce cerea verificarea.
+      - name: Repară singur pozele hotlinkate
+        if: steps.redactor.outputs.changed == 'true'
+        continue-on-error: true
+        run: |
+          python3 scripts/scoate_hotlink.py --chiar
+          if ! git diff --quiet; then
+            git config user.name "Fără Baliverne (bot)"
+            git config user.email "bot@farabaliverne.ro"
+            git add -A
+            git commit -m "Poze: scoase hotlinkurile, rămâne cardul de brand"
+            git push
+          fi
+
       - name: Verifică pozele
         if: steps.redactor.outputs.changed == 'true'
         run: python3 scripts/verify_images.py

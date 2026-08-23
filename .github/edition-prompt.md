@@ -52,7 +52,7 @@ Ce faci cu răspunsul:
 
 PASUL 3 — Scrie fiecare articol (după șablon, EXACT):
 - `data/<slug>.json`: schema completă (slug,title,category,date,source,url,dek,mainVerdict,probat[],contestat[],opinie[],math,aiNote,persoane[]). Fiecare probat/contestat = text + sources[] (name+url REALE verificate).
-- `a/<slug>.html`: head meta per-slug (canonical/og:url/og:title cu slug corect), hero, card `.src-cite` spre sursă, secțiuni probat/contestat/opinie, Nota AI.
+- `a/<slug>.html`: **NU îl scrie de mână.** Rulează `python3 scripts/scrie_articol.py <slug>` — generează pagina din JSON, cu head meta corect (canonical/og:url/og:title/og:image pe slug-ul tău), hero, card `.src-cite`, secțiunile probat/contestat/opinie, Nota AI și blocul de cifre. Scrisul de mână al celor ~750 de linii de HTML îți mânca bugetul de tururi pe muncă mecanică, nu pe verificare — de-aia edițiile se opreau la jumătate. Tu scrii DOAR JSON-ul; HTML-ul e mecanic.
 - **POZA — obligatoriu prin unealtă, NICIODATĂ hotlink la poza altei publicații.**
   Rulează: `python3 scripts/article_image.py <slug> "<ce căutăm>" "<titlu + dek>" [persoana]`
   - `<ce căutăm>`: dacă articolul are o **persoană numită** → numele ei exact, plus argumentul `persoana`. Altfel, **instituția sau locul**, în engleză, cu denumirea stabilă de pe Commons („National Bank of Romania building", „Cernavodă Nuclear Power Plant", „United States Senate chamber").
