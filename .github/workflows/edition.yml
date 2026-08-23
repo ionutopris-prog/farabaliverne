@@ -170,6 +170,27 @@ jobs:
       # aici, ca verificarea de mai jos să rămână plasă de siguranță pentru ce
       # chiar trebuie să oprească publicarea (hotlink, atribuire lipsă) — nu
       # blocaj de rutină pentru o poză de 400 KB.
+      # Un `git push` simplu moare cu exit 128 daca altcineva a urcat pe main
+      # intre timp: alta editie, workflow-ul de deploy, sau fondatorul lucrand
+      # local. Pasul pica, iar pasii de dupa (carduri de partajare, lista de
+      # postat) se sar — desi articolele erau deja in siguranta. S-a intamplat
+      # pe 23 august, la prima rulare de dupa reparatii.
+      # Functia trage cu rebase si reincearca de trei ori inainte sa renunte.
+      - name: Pregăteste urcarea în siguranță
+        run: |
+          cat > "$RUNNER_TEMP/urca.sh" <<'SH'
+          urca() {
+            for i in 1 2 3; do
+              git pull --rebase -q origin main && git push -q origin main && return 0
+              echo "push respins (incercarea $i) — mai incerc"
+              sleep $((i * 5))
+            done
+            echo "::warning::Nu am putut urca dupa 3 incercari; continui, articolele sunt deja comise local."
+            return 0
+          }
+          SH
+          echo "OK"
+
       - name: Repară pozele prea grele
         if: steps.redactor.outputs.changed == 'true'
         run: |
@@ -179,7 +200,7 @@ jobs:
             git config user.email "bot@farabaliverne.ro"
             git add -A
             git commit -m "Poze: recomprimate sub limita de greutate"
-            git push
+            . "$RUNNER_TEMP/urca.sh"; urca
           fi
 
       # Se UITĂ la pozele noi. Tot ce a ajuns greșit pe site a trecut de
@@ -204,7 +225,7 @@ jobs:
             git config user.email "bot@farabaliverne.ro"
             git add -A
             git commit -m "Poze: scoase cele care nu se potriveau cu articolul"
-            git push
+            . "$RUNNER_TEMP/urca.sh"; urca
           fi
 
       # Repară singur ce se poate repara, ÎNAINTE de verificarea care oprește
@@ -226,7 +247,7 @@ jobs:
             git config user.email "bot@farabaliverne.ro"
             git add -A
             git commit -m "Poze: scoase hotlinkurile, rămâne cardul de brand"
-            git push
+            . "$RUNNER_TEMP/urca.sh"; urca
           fi
 
       - name: Verifică pozele
@@ -244,7 +265,7 @@ jobs:
           if ! git diff --quiet || [ -n "$(git status --porcelain img/share)" ]; then
             git add -A
             git commit -m "Carduri de partajare pentru articolele noi"
-            git push origin main
+            . "$RUNNER_TEMP/urca.sh"; urca
           fi
 
       # Lista de postat manual pe X. API-ul X cere $0,20 pentru o postare cu
@@ -258,7 +279,7 @@ jobs:
           if ! git diff --quiet de-postat.html; then
             git add de-postat.html
             git commit -m "Lista de postat, actualizată"
-            git push origin main
+            . "$RUNNER_TEMP/urca.sh"; urca
           fi
 
       # Poarta de siguranță oprea articolele sensibile pe ramuri `pending/`,
