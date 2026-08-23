@@ -476,10 +476,13 @@
 .pl-src{font-size:12.5px}
 .pl-det{font-size:13.5px;color:var(--ink-soft);margin-top:2px}
 .pl-dr{margin-left:auto;text-align:right;flex:0 0 auto;font-size:12.5px;color:var(--ink-faint)}
-.pl-sala{display:grid;grid-template-columns:repeat(auto-fill,minmax(19px,1fr));
-         gap:5px;max-width:1000px;margin:0 auto;padding:4px 0}
-.pl-scaun{aspect-ratio:1;border-radius:50%;border:1px solid rgba(34,39,31,.18);padding:0;
+.pl-sala{position:relative;height:470px;max-width:1000px;margin:0 auto}
+.pl-scaun{position:absolute;border-radius:50%;border:1px solid rgba(34,39,31,.18);padding:0;
           box-sizing:border-box;cursor:pointer;transition:transform .1s;appearance:none}
+.pl-prezidiu{position:absolute;left:50%;top:0;transform:translateX(-50%);width:200px;height:26px;
+   border-radius:6px;background:var(--paper-2);border:1px solid var(--line-2);display:flex;
+   align-items:center;justify-content:center;font-size:11px;letter-spacing:.1em;
+   text-transform:uppercase;color:var(--ink-faint);font-weight:800;z-index:2}
 .pl-scaun:hover,.pl-scaun.pl-sel,.pl-scaun:focus-visible{transform:scale(1.45);z-index:5;outline:0;
           box-shadow:0 0 0 2px var(--card),0 0 0 3.5px var(--ink)}
 .pl-legenda{display:flex;gap:20px;flex-wrap:wrap;align-items:center;border-top:1px solid var(--line);
@@ -497,7 +500,7 @@
 @media (max-width:900px){
   .pl-note{grid-template-columns:1fr}
   .pl-cap h1{font-size:28px}
-  .pl-sala{grid-template-columns:repeat(auto-fill,minmax(16px,1fr));gap:4px}
+  .pl-sala{height:340px}
   .pl-bara{flex-wrap:wrap}
   .pl-dr{margin-left:0;width:100%;text-align:left}
 }
@@ -646,7 +649,7 @@
             </div>
           </div>
         </div>
-        <div class="pl-sala" id="plSala"></div>
+        <div class="pl-sala" id="plSala"><div class="pl-prezidiu">Prezidiu</div></div>
         <div class="pl-rezultat" id="plRez" hidden></div>
         <div class="pl-legenda"><span class="pl-leg"><i style="background:#c0392b"></i><b>PSD</b> 127</span><span class="pl-leg"><i style="background:#1f3a63"></i><b>AUR</b> 90</span><span class="pl-leg"><i style="background:#d8a72b"></i><b>PNL</b> 76</span><span class="pl-leg"><i style="background:#2f7fc1"></i><b>USR</b> 59</span><span class="pl-leg"><i style="background:#3f8f3f"></i><b>UDMR</b> 31</span><span class="pl-leg"><i style="background:#b0b6aa"></i><b>Neafiliați</b> 22</span><span class="pl-leg"><i style="background:#7a5c9e"></i><b>UPR</b> 18</span><span class="pl-leg"><i style="background:#8a8f83"></i><b>Minorități</b> 17</span><span class="pl-leg"><i style="background:#6d4a8f"></i><b>SOS</b> 13</span><span class="pl-leg"><i style="background:#2e8b6f"></i><b>PACE</b> 11</span></div>
       </div>
@@ -831,17 +834,32 @@
   var el=document.getElementById("plDate"); if(!el) return;
   var D=JSON.parse(el.textContent), O=D.o, L=D.l;
   var sala=document.getElementById("plSala");
-  // Toţi cei 464 într-un singur bloc, în ordinea grupurilor — aşa culorile
-  // formează benzi continue şi se vede dintr-o privire cât cântăreşte fiecare.
-  // Fără arc: semicercul arăta frumos, dar la 464 de puncte pe zece rânduri
-  // curbe nu puteai nimeri un om anume cu degetul.
-  var poz=[];
-  for(var k=0;k<O.length;k++){
-    var s=document.createElement("button");
-    s.type="button"; s.className="pl-scaun"; s.dataset.i=k;
-    s.style.background=L[O[k][1]].culoare;
-    s.setAttribute("aria-label",O[k][0]+" — "+L[O[k][1]].nume);
-    sala.appendChild(s); poz.push(s);
+  // Semicerc cu prezidiul SUS, iar oamenii aşezaţi PE COLOANE: fiecare coloană
+  // se umple de jos în sus, apoi trecem la următoarea. Aşa fiecare partid ocupă
+  // o FELIE continuă a sălii, cum arată în realitate.
+  // (Varianta pe rânduri împrăştia acelaşi partid pe toată lăţimea — se vedea
+  // ca dungi orizontale, nu ca grupuri aşezate împreună.)
+  var lat=sala.clientWidth||1000, inalt=sala.clientHeight||470;
+  var randuri=10, total=O.length, coloane=Math.ceil(total/randuri);
+  var d=Math.max(9,Math.min(17,Math.round(lat/(coloane*1.35))));
+  var cx=lat/2, cy=d*1.6, r0=inalt*0.16;
+  var dr=(inalt-cy-d*1.6-r0)/(randuri-1);
+
+  var poz=[], k=0;
+  for(var c=0;c<coloane && k<total;c++){
+    var t=coloane===1?0.5:c/(coloane-1);
+    var a=t*Math.PI;                       // 0 = stânga, π = dreapta
+    for(var rr=randuri-1;rr>=0 && k<total;rr--){   // de JOS (rândul exterior) în SUS
+      var r=r0+rr*dr;
+      var s=document.createElement("button");
+      s.type="button"; s.className="pl-scaun"; s.dataset.i=k;
+      s.style.left=Math.round(cx-r*Math.cos(a)-d/2)+"px";
+      s.style.top=Math.round(cy+r*Math.sin(a)-d/2)+"px";
+      s.style.width=d+"px"; s.style.height=d+"px";
+      s.style.background=L[O[k][1]].culoare;
+      s.setAttribute("aria-label",O[k][0]+" — "+L[O[k][1]].nume);
+      sala.appendChild(s); poz.push(s); k++;
+    }
   }
 
   var nume=document.getElementById("plNume"), det=document.getElementById("plDet"),
