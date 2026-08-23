@@ -425,7 +425,7 @@
 }
 
 .pl-prez{background:var(--card);border:1px solid var(--line);border-radius:16px;
-         box-shadow:var(--shadow);padding:24px;margin:0 0 16px}
+         box-shadow:var(--shadow);padding:24px;margin:16px 0 0}
 .pl-prez h2{font-family:var(--serif);font-size:24px;margin:0 0 5px;letter-spacing:-.01em}
 .pl-prez-sub{margin:0 0 18px;font-size:14.5px;color:var(--ink-soft);line-height:1.55;max-width:760px}
 .pl-masa{display:flex;gap:12px;align-items:stretch;margin-bottom:12px;flex-wrap:wrap}
@@ -476,7 +476,7 @@
 .pl-src{font-size:12.5px}
 .pl-det{font-size:13.5px;color:var(--ink-soft);margin-top:2px}
 .pl-dr{margin-left:auto;text-align:right;flex:0 0 auto;font-size:12.5px;color:var(--ink-faint)}
-.pl-sala{position:relative;height:470px;max-width:1000px;margin:0 auto}
+.pl-sala{position:relative;height:560px;max-width:1000px;margin:0 auto}
 .pl-scaun{position:absolute;border-radius:50%;border:1px solid rgba(34,39,31,.18);padding:0;
           box-sizing:border-box;cursor:pointer;transition:transform .1s;appearance:none}
 .pl-prezidiu{position:absolute;left:50%;top:0;transform:translateX(-50%);width:200px;height:26px;
@@ -500,7 +500,7 @@
 @media (max-width:900px){
   .pl-note{grid-template-columns:1fr}
   .pl-cap h1{font-size:28px}
-  .pl-sala{height:340px}
+  .pl-sala{height:400px}
   .pl-bara{flex-wrap:wrap}
   .pl-dr{margin-left:0;width:100%;text-align:left}
 }
@@ -584,6 +584,29 @@
       <p class="pl-intro">Fiecare scaun e un om cu nume. Treci cu degetul sau cu cursorul peste sală.
         <b>Nu dăm note și nu ținem scor</b> — arătăm ce e documentat, tragi tu linia.</p>
 
+      <div class="pl-card">
+        <div class="pl-bara" id="plBara">
+          <i id="plPunct"></i>
+          <div class="pl-txt">
+            <div class="pl-nume" id="plNume">Plimbă degetul sau cursorul peste sală</div>
+            <div class="pl-det" id="plDet">Fiecare scaun e un om cu nume — apare aici.</div>
+          </div>
+          <div class="pl-dreapta">
+            <div class="pl-dr" id="plDr">464 de locuri</div>
+            <div class="pl-cauta">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+              <input id="plQ" type="search" placeholder="Parlamentarul tău" autocomplete="off"
+                     aria-label="Caută parlamentarul tău după localitate sau nume">
+            </div>
+          </div>
+        </div>
+        <div class="pl-sala" id="plSala"><div class="pl-prezidiu">Prezidiu</div></div>
+        <div class="pl-rezultat" id="plRez" hidden></div>
+        <div class="pl-legenda"><span class="pl-leg"><i style="background:#c0392b"></i><b>PSD</b> 127</span><span class="pl-leg"><i style="background:#1f3a63"></i><b>AUR</b> 90</span><span class="pl-leg"><i style="background:#d8a72b"></i><b>PNL</b> 76</span><span class="pl-leg"><i style="background:#2f7fc1"></i><b>USR</b> 59</span><span class="pl-leg"><i style="background:#3f8f3f"></i><b>UDMR</b> 31</span><span class="pl-leg"><i style="background:#b0b6aa"></i><b>Neafiliați</b> 22</span><span class="pl-leg"><i style="background:#7a5c9e"></i><b>UPR</b> 18</span><span class="pl-leg"><i style="background:#8a8f83"></i><b>Minorități</b> 17</span><span class="pl-leg"><i style="background:#6d4a8f"></i><b>SOS</b> 13</span><span class="pl-leg"><i style="background:#2e8b6f"></i><b>PACE</b> 11</span></div>
+      </div>
+
       <section class="pl-prez">
         <h2>Prezidiul — cine conduce și de ce</h2>
         <p class="pl-prez-sub">Locurile din prezidiu nu se ocupă din obicei, ci după regulament.
@@ -630,29 +653,6 @@
           <p class="pl-art">Art. 13, Regulamentul activităților comune</p>
         </div>
       </section>
-
-      <div class="pl-card">
-        <div class="pl-bara" id="plBara">
-          <i id="plPunct"></i>
-          <div class="pl-txt">
-            <div class="pl-nume" id="plNume">Plimbă degetul sau cursorul peste sală</div>
-            <div class="pl-det" id="plDet">Fiecare scaun e un om cu nume — apare aici.</div>
-          </div>
-          <div class="pl-dreapta">
-            <div class="pl-dr" id="plDr">464 de locuri</div>
-            <div class="pl-cauta">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                   stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
-                <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
-              <input id="plQ" type="search" placeholder="Parlamentarul tău" autocomplete="off"
-                     aria-label="Caută parlamentarul tău după localitate sau nume">
-            </div>
-          </div>
-        </div>
-        <div class="pl-sala" id="plSala"><div class="pl-prezidiu">Prezidiu</div></div>
-        <div class="pl-rezultat" id="plRez" hidden></div>
-        <div class="pl-legenda"><span class="pl-leg"><i style="background:#c0392b"></i><b>PSD</b> 127</span><span class="pl-leg"><i style="background:#1f3a63"></i><b>AUR</b> 90</span><span class="pl-leg"><i style="background:#d8a72b"></i><b>PNL</b> 76</span><span class="pl-leg"><i style="background:#2f7fc1"></i><b>USR</b> 59</span><span class="pl-leg"><i style="background:#3f8f3f"></i><b>UDMR</b> 31</span><span class="pl-leg"><i style="background:#b0b6aa"></i><b>Neafiliați</b> 22</span><span class="pl-leg"><i style="background:#7a5c9e"></i><b>UPR</b> 18</span><span class="pl-leg"><i style="background:#8a8f83"></i><b>Minorități</b> 17</span><span class="pl-leg"><i style="background:#6d4a8f"></i><b>SOS</b> 13</span><span class="pl-leg"><i style="background:#2e8b6f"></i><b>PACE</b> 11</span></div>
-      </div>
 
       <div class="pl-note">
         <div class="pl-nota">
@@ -852,9 +852,16 @@
     col[col.length-1]++;
   }
   var coloane=col.length;
-  var d=Math.max(8,Math.min(16,Math.round(lat/(coloane*1.25))));
-  var cx=lat/2, cy=d*1.6, r0=inalt*0.16;
-  var dr=(inalt-cy-d*1.6-r0)/(randuri-1);
+  // Ca să NU se înghesuie: raza rândului interior se calculează din câte
+  // coloane trebuie să încapă pe el. Lungimea arcului interior e π·r0, deci
+  // r0 = coloane × (diametru + spaţiu) / π. Înainte r0 era o fracţiune fixă
+  // din înălţime, iar rândurile de sus ieşeau lipite unul de altul.
+  var d=Math.max(9,Math.min(15,Math.round(lat/78)));
+  var spatiu=Math.max(3,Math.round(d*0.28));
+  var cx=lat/2, cy=d*1.7;
+  var r0=coloane*(d+spatiu)/Math.PI;
+  var rMax=Math.min(cx-d, inalt-cy-d);
+  var dr=Math.max(d+spatiu, (rMax-r0)/(randuri-1));
 
   var poz=[], k=0;
   for(var c=0;c<coloane && k<total;c++){
