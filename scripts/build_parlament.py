@@ -348,7 +348,7 @@ SCRIPT = '''
   // nimeni care doar se uită la hemiciclu.
   var q=document.getElementById("plQ"), rez=document.getElementById("plRez"), LOC=null, CIRC=null;
   function curat(s){return s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()
-                     .replace(/[-\s]+/g," ").trim();}
+                     .replace(/[-\\s]+/g," ").trim();}
   function delegatie(nrCirc){
     var d=[],sn=[];
     for(var i=0;i<O.length;i++){
