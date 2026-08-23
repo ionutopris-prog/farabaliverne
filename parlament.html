@@ -840,8 +840,19 @@
   // (Varianta pe rânduri împrăştia acelaşi partid pe toată lăţimea — se vedea
   // ca dungi orizontale, nu ca grupuri aşezate împreună.)
   var lat=sala.clientWidth||1000, inalt=sala.clientHeight||470;
-  var randuri=10, total=O.length, coloane=Math.ceil(total/randuri);
-  var d=Math.max(9,Math.min(17,Math.round(lat/(coloane*1.35))));
+  // Fiecare PARTID începe pe coloană nouă. Altfel coloana de la graniţă avea
+  // două culori (7 roşii + 3 bleumarin), iar blocurile arătau murdare.
+  // Ultima coloană a unui partid poate fi mai scurtă — spaţiul gol e cinstit,
+  // amestecul nu.
+  var randuri=10, total=O.length;
+  var col=[], gAct=-1;                     // câţi oameni intră în fiecare coloană
+  for(var q=0;q<O.length;q++){
+    if(O[q][1]!==gAct){ gAct=O[q][1]; col.push(0); }        // partid nou → coloană nouă
+    else if(col[col.length-1]===randuri){ col.push(0); }    // coloana s-a umplut
+    col[col.length-1]++;
+  }
+  var coloane=col.length;
+  var d=Math.max(8,Math.min(16,Math.round(lat/(coloane*1.25))));
   var cx=lat/2, cy=d*1.6, r0=inalt*0.16;
   var dr=(inalt-cy-d*1.6-r0)/(randuri-1);
 
@@ -849,7 +860,7 @@
   for(var c=0;c<coloane && k<total;c++){
     var t=coloane===1?0.5:c/(coloane-1);
     var a=t*Math.PI;                       // 0 = stânga, π = dreapta
-    for(var rr=randuri-1;rr>=0 && k<total;rr--){   // de JOS (rândul exterior) în SUS
+    for(var rr=randuri-1;rr>=randuri-col[c] && k<total;rr--){  // de JOS în SUS, câţi încap
       var r=r0+rr*dr;
       var s=document.createElement("button");
       s.type="button"; s.className="pl-scaun"; s.dataset.i=k;
