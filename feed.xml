@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 19:24:05 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 19:24:46 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Malaysia: coaliția lui Anwar Ibrahim pierde statul Negeri Sembilan — al doilea eșec regional în două luni, după Johor</title>
+      <link>https://farabaliverne.ro/a/malaysia-negeri-sembilan-pakatan-harapan-infrangere-anwar.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/malaysia-negeri-sembilan-pakatan-harapan-infrangere-anwar.html</guid>
+      <pubDate>Sun, 23 Aug 2026 16:24:11 +0000</pubDate>
+      <category>Extern</category>
+      <description>Alianța Barisan Nasional–Perikatan Nasional a câștigat 25 din cele 36 de locuri din adunarea de stat Negeri Sembilan, la alegerile din 1 august 2026, luând puterea de la Pakatan Harapan (PH), coaliția care îl susține pe premierul federal Anwar Ibrahim. E a doua înfrângere regională a PH în două luni, după Johor (iulie); premierul de stat demis, Aminuddin Harun, și-a pierdut propriul loc, iar ministrul federal al Transporturilor, Anthony Loke, a pierdut și el circumscripția sa.
+
+Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Curtea Supremă a SUA permite temporar continuarea construcției sălii de bal de la Casa Albă</title>
       <link>https://farabaliverne.ro/a/casa-alba-sala-bal-curtea-suprema-suspendare-roberts.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contestat — afirmație de stat vs. context independent. Veri
       <description>Zelenski a semnat, pe 20 august 2026, un decret prin care sancționează Animaccord — studioul rus care produce desenul animat pentru copii „Masha și Ursul” — și conducerea lui, acuzându-l că răspândește „narative pro-ruse” și finanțează statul rus. Kremlinul respinge acuzația, numind decizia „o declarație de război” împotriva unui desen animat.
 
 Unde bat probele: Probat — acuzație oficială, contestată public de partea vizată. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>AEP propune o nouă lege a partidelor: prag de 100 de fondatori în loc de 3, partidele-clonă de familie ar dispărea</title>
-      <link>https://farabaliverne.ro/a/aep-lege-partide-100-fondatori-tutuianu.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/aep-lege-partide-100-fondatori-tutuianu.html</guid>
-      <pubDate>Fri, 21 Aug 2026 20:25:33 +0000</pubDate>
-      <category>Politică</category>
-      <description>Autoritatea Electorală Permanentă, condusă de Adrian Țuțuianu, a pus vineri, 21 august 2026, în transparență decizională un proiect de lege a partidelor care ridică pragul minim de fondatori de la 3 la 100 și mută înregistrarea partidelor de la tribunal la AEP. Scopul declarat: partidele „de familie”, precum clonele PSDI și PSDU. Proiectul e doar propunere — decizia finală e la Parlament.
-
-Unde bat probele: Probat, propunere aflată în consultare. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
