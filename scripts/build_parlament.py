@@ -47,6 +47,11 @@ def fara_diacritice(n):
 
 def date():
     d = json.load(open(os.path.join(ROOT, "data", "_parlament.json"), encoding="utf-8"))
+    try:
+        fise = {f["id"] + f["camera"]: f for f in
+                json.load(open(os.path.join(ROOT, "data", "_fise.json"), encoding="utf-8"))["fise"]}
+    except Exception:
+        fise = {}
     pe = {}
     for x in d["oameni"]:
         pe.setdefault(scurt(x["grup"]), []).append(x)
@@ -61,7 +66,11 @@ def date():
                            x.get("circumscriptie") or "la nivel naţional",
                            "parlamentar/" + slug(x["nume"]) + ".html",   # pagina noastră
                            x["fisa"],                                     # sursa oficială
-                           x.get("circumscriptie_nr") or 0])              # pentru „Parlamentarul tău"
+                           x.get("circumscriptie_nr") or 0,               # pentru „Parlamentarul tău"
+                           # Cei 17 deputaţi ai minorităţilor reprezintă fiecare altă
+                           # comunitate — armeni, romi, evrei, greci… „Grupul
+                           # minorităţilor" nu spune nimic; organizaţia spune tot.
+                           (fise.get(x["id"] + x["camera"], {}) or {}).get("organizatie", "")])
     return oameni, legenda, d.get("actualizat", "")
 
 
@@ -353,7 +362,7 @@ SCRIPT = '''
     if(sel>=0&&poz[sel]) poz[sel].classList.remove("pl-sel");
     sel=idx; poz[idx].classList.add("pl-sel");
     nume.innerHTML='<a href="'+o[4]+'">'+o[0]+'</a>';
-    det.innerHTML=L[o[1]].nume+" · "+(o[2]==="D"?"Camera Deputaților":"Senat")
+    det.innerHTML=(o[7]||L[o[1]].nume)+" · "+(o[2]==="D"?"Camera Deputaților":"Senat")
       +' <span class="pl-sep">·</span> <a class="pl-src" href="'+o[5]
       +'" target="_blank" rel="noopener noreferrer">fișa oficială cdep.ro ↗</a>';
     dr2.textContent="Circumscripția "+o[3];

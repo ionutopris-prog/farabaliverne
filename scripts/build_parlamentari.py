@@ -126,6 +126,7 @@ def pagina(om, f, art, invelis):
       <div class="pp-cap">
         <span class="pp-grup" style="background:{culoare}">{e(grup)}</span>
         <span class="pp-rol">{rol} · {e(circ)}</span>
+        {'<div class="pp-org">Reprezintă <b>' + e(f.get("organizatie")) + '</b></div>' if f and f.get("organizatie") else ''}
         <h1>{e(om["nume"])}</h1>
         <div class="pp-meta">
           {'<span><b>Născut:</b> ' + e(f.get("nascut")) + '</span>' if f and f.get("nascut") else ''}
@@ -211,6 +212,8 @@ STIL = '''
 .pp-grup{display:inline-block;padding:4px 12px;border-radius:30px;color:#fff;font-size:12.5px;
          font-weight:800;letter-spacing:.02em}
 .pp-rol{font-size:13px;color:var(--ink-faint);margin-left:10px}
+.pp-org{margin-top:9px;font-size:14.5px;color:var(--ink-soft)}
+.pp-org b{color:var(--ink)}
 .pp-cap h1{font-family:var(--serif);font-size:36px;line-height:1.1;margin:10px 0 10px;letter-spacing:-.02em}
 .pp-meta{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;color:var(--ink-soft)}
 .pp-meta b{color:var(--ink);font-weight:700}
