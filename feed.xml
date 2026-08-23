@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 17:20:36 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 17:23:57 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Zelenski spune că Rusia ar putea primi până la 50.000 de soldați nord-coreeni suplimentari. Phenianul neagă, Seulul nu vede semne</title>
+      <link>https://farabaliverne.ro/a/zelenski-coreea-nord-30-50000-soldati-negare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/zelenski-coreea-nord-30-50000-soldati-negare.html</guid>
+      <pubDate>Sun, 23 Aug 2026 14:20:41 +0000</pubDate>
+      <category>Extern</category>
+      <description>Volodimir Zelenski a ridicat, pe 8 august, estimarea privind soldații nord-coreeni pe care Rusia i-ar putea primi la 30.000-50.000, fără să spună pe ce informații se bazează. Kim Yo-jong, sora liderului nord-coreean, a numit afirmația „complet lipsită de fundament”, iar armata sud-coreeană spune că nu vede semne de desfășurare iminentă — dar nici nu exclude pregătiri în curs. Trei poziții, niciuna confirmată independent cu probe publice.
+
+Unde bat probele: Contestat. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>SUA au rambursat 100 de miliarde de dolari din tarifele vamale — dar banii merg la companii, nu la cumpărători</title>
       <link>https://farabaliverne.ro/a/sua-rambursari-tarife-100-miliarde-consumatori.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, propunere aflată în consultare. Verificate: 4 probat
       <description>Rusia a lovit vineri, 21 august 2026, un centru comercial din Krivîi Rih cu două valuri de drone, la circa 30 de minute distanță — al doilea val a lovit clădirea în timp ce echipele de salvare interveneau deja. Bilanțul, în creștere pe parcursul zilei: 14 morți, peste 120 de răniți, dintre care 22 de copii.
 
 Unde bat probele: Probat. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Termocentrala Turceni s-a oprit din nou, în plină criză energetică și val de caniculă</title>
-      <link>https://farabaliverne.ro/a/termocentrala-turceni-oprire-avarie-criza-energetica.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/termocentrala-turceni-oprire-avarie-criza-energetica.html</guid>
-      <pubDate>Fri, 21 Aug 2026 18:32:38 +0000</pubDate>
-      <category>Economie</category>
-      <description>Grupul energetic nr. 5 de la Turceni a fost oprit în noaptea de 20 august, din cauza unei neetanșeități la cazan. Sursele diferă la puterea pierdută (200 sau 220 MW) și la data repornirii — inițial „duminică seara”, apoi actualizat la „luni, 24 august”.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 6 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
