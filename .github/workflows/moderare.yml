@@ -78,7 +78,19 @@ jobs:
             git push -q origin --delete "pending/$ram" 2>/dev/null || true
           }
 
-          if printf '%s' "$CMD" | grep -q "publica toate"; then
+          # „Publica" simplu înseamnă „publică tot". Cerusem `publica toate`, dar
+          # răspunsul natural la un email e un cuvânt, nu o formulă — iar o
+          # comandă pe care omul o scrie firesc și mașina o respinge e o unealtă
+          # stricată, nu un utilizator care greșește.
+          TOT=0
+          printf '%s' "$CMD" | grep -qE "publica( toate)?|aproba|^ *(da|ok)" && TOT=1
+          # Dacă a numit un slug anume, nu publicăm tot — comanda precisă câștigă.
+          for b in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/pending | sed 's|origin/pending/||'); do
+            printf '%s' "$CMD" | grep -q "$b" && TOT=0
+          done
+          printf '%s' "$CMD" | grep -q "respinge" && TOT=0
+
+          if [ "$TOT" -eq 1 ]; then
             for b in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/pending | sed 's|origin/pending/||'); do
               publica_unul "$b" || true
             done
