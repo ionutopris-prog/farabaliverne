@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 10:18:02 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 11:21:38 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>CCR publică motivarea pe „amendamentul Fritz”: legea nu sancționează retroactiv, ci încheie un „mandat viciat” — USR acuză „fraudarea Constituției”</title>
@@ -66,6 +66,16 @@ Unde bat probele: Probat, dintr-o singură publicație care citează surse ofici
       <description>🌍 Barilul Brent a închis la 94,39 dolari pe 22 august 2026, în creștere cu 0,65% pe zi și 6,39% pe săptămână, după ce administrația americană a amenințat cu sancțiuni economice partenerii comerciali ai Iranului. Analiștii citați nu sunt de acord asupra efectului: unul spune că impactul imediat pe ofertă e limitat, fiindcă exporturile iraniene sunt deja puternic restrânse. Traficul prin Hormuz a scăzut la 7 nave într-o zi.
 
 Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Australia: un deputat One Nation a spus că politica partidului pe migrație e „nu foarte diferită” de a guvernului. Liderul partidului l-a corectat în câteva ore</title>
+      <link>https://farabaliverne.ro/a/one-nation-migratie-hanson-farley-cifre.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/one-nation-migratie-hanson-farley-cifre.html</guid>
+      <pubDate>Sun, 23 Aug 2026 07:18:05 +0000</pubDate>
+      <category>Extern</category>
+      <description>🌍 Deputatul One Nation David Farley a declarat pe 23 august 2026, la emisiunea Insiders de la ABC, că tăierile de migrație propuse de partid ar duce la circa 230.000 de migranți pe an — „nu foarte diferit” de laburiști și de Coaliție. Pauline Hanson, liderul partidului, l-a contrazis public în câteva ore: politica e de 130.000, adică „mai puțin de jumătate” din nivelul actual. Diferența dintre cele două cifre vine din felul în care se numără muncitorii sezonieri.
+
+Unde bat probele: Ambele cifre sunt reale — se numără lucruri diferite. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Indonezia ia în calcul limitarea carburantului subvenționat după tipul mașinii. Deocamdată e o intenție, nu o decizie</title>
@@ -496,16 +506,6 @@ Unde bat probele: Probat parțial — cifra e reală, cauza politică invocată 
       <description>Comisia de constituționalitate a Senatului a votat marți, 18 august 2026, cu 6 voturi la 3, declanșarea unei anchete parlamentare privind întâlnirea nedeclarată din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Elena-Simina Tănăsescu — survenită cu trei zile înainte ca Legea Integrității să ajungă pe masa Curții. Rezoluția a fost trimisă spre votul plenului Senatului, iar primele audieri ar putea începe pe 26 august.
 
 Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Grindeanu spune că România se împrumută „cu 1.000 de euro pe secundă” — ce arată calculul pe cifrele Ministerului Finanțelor</title>
-      <link>https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Economie</category>
-      <description>La o conferință de presă ținută joi, 13 august 2026, la 100 de zile de la demiterea Guvernului Bolojan, liderul PSD Sorin Grindeanu a declarat că premierul interimar „se împrumută cu 1.000 de euro pe secundă — adică 434 de milioane de lei în plus la datoria României pe zi”. Am verificat calculul pe datele publice ale Ministerului Finanțelor: cifrele de context (252 de miliarde lei împrumutate în 2024, ~275 de miliarde în 2026, datorie peste 60% din PIB) se confirmă, dar rata exactă de „1.000 euro/secundă” nu corespunde niciunui indicator oficial publicat sub această formă — cade undeva între deficitul zilnic și necesarul brut zilnic de finanțare, fără ca metoda de calcul să fie explicată public.
-
-Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
