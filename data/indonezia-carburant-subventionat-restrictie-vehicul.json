@@ -1,0 +1,66 @@
+{
+  "slug": "indonezia-carburant-subventionat-restrictie-vehicul",
+  "title": "Indonezia ia în calcul limitarea carburantului subvenționat după tipul mașinii. Deocamdată e o intenție, nu o decizie",
+  "category": "Extern",
+  "date": "2026-08-23",
+  "source": "The Jakarta Post",
+  "url": "https://www.thejakartapost.com/business/2026/08/23/indonesia-mulls-vehicle-based-curb-on-subsidized-fuel",
+  "dek": "🌍 Guvernul indonezian analizează folosirea tipului de vehicul drept criteriu pentru a stabili cine mai poate cumpăra Pertalite, benzina subvenționată RON 90. Ținta declarată sunt gospodăriile din decilele 9 și 10 — cele mai bogate 20%. Ministrul coordonator al Economiei a spus explicit că mecanismul e încă în lucru și a refuzat să precizeze ce categorii de mașini ar fi vizate. Nu există dată de aplicare și nici cifre publice privind costul subvenției.",
+  "mainVerdict": "Probat că se discută — neprobat că s-a decis",
+  "probat": [
+    {
+      "text": "Guvernul indonezian ia în calcul folosirea tipului de vehicul drept criteriu pentru accesul la Pertalite, benzina subvenționată cu cifră octanică RON 90. Ministrul coordonator al Economiei, Airlangga Hartarto, a explicat logica astfel: „Tipul de vehicul reflectă decila [socioeconomică] a unei persoane”.",
+      "sources": [
+        {
+          "name": "The Jakarta Post — Indonesia mulls vehicle-based curb on subsidized fuel",
+          "url": "https://www.thejakartapost.com/business/2026/08/23/indonesia-mulls-vehicle-based-curb-on-subsidized-fuel"
+        }
+      ]
+    },
+    {
+      "text": "Ținta restricției, potrivit ministrului de Finanțe Purbaya Yudhi Sadewa, ar fi gospodăriile clasificate în decilele 9 și 10 din sistemul național indonezian de date socioeconomice DTSEN — adică cele mai înstărite 20% dintre gospodării.",
+      "sources": [
+        {
+          "name": "The Jakarta Post — Indonesia mulls vehicle-based curb on subsidized fuel",
+          "url": "https://www.thejakartapost.com/business/2026/08/23/indonesia-mulls-vehicle-based-curb-on-subsidized-fuel"
+        }
+      ]
+    },
+    {
+      "text": "Ministrul Airlangga Hartarto a declarat explicit că guvernul „încă rafinează mecanismul” și că detaliile vor urma. El a refuzat să precizeze ce categorii de vehicule ar intra sub restricție.",
+      "sources": [
+        {
+          "name": "The Jakarta Post — Indonesia mulls vehicle-based curb on subsidized fuel",
+          "url": "https://www.thejakartapost.com/business/2026/08/23/indonesia-mulls-vehicle-based-curb-on-subsidized-fuel"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Titlurile de acest tip se citesc ușor ca „Indonezia limitează carburantul subvenționat”, dar sursa nu susține asta. Nu există o decizie adoptată, nu există o listă de vehicule vizate, nu există un calendar de aplicare și nu există cifre publicate privind costul subvenției sau volumele de combustibil implicate. Ce există e o intenție anunțată de doi miniștri, cu mecanismul recunoscut ca neterminat.",
+      "sources": [
+        {
+          "name": "The Jakarta Post — Indonesia mulls vehicle-based curb on subsidized fuel",
+          "url": "https://www.thejakartapost.com/business/2026/08/23/indonesia-mulls-vehicle-based-curb-on-subsidized-fuel"
+        }
+      ]
+    },
+    {
+      "text": "Legătura dintre tipul mașinii și venitul gospodăriei este premisa pe care stă toată schema, dar în relatare ea apare ca afirmație a ministrului, nu ca rezultat al unui studiu citat. Fără datele care leagă parcul auto de decilele DTSEN, nu se poate verifica dacă criteriul ar nimeri într-adevăr cele mai bogate 20% — sau ar prinde și gospodării cu mașină mare și venit mic.",
+      "sources": [
+        {
+          "name": "The Jakarta Post — Indonesia mulls vehicle-based curb on subsidized fuel",
+          "url": "https://www.thejakartapost.com/business/2026/08/23/indonesia-mulls-vehicle-based-curb-on-subsidized-fuel"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă tipul de mașină e un indicator bun sau slab al bogăției e o dezbatere de politică publică, nu un fapt. Argumentul guvernului are o logică simplă; contraargumentul, la fel de simplu, e că o mașină veche și mare nu înseamnă venit mare. Care dintre ele cântărește mai mult se poate stabili doar cu datele, care nu sunt publice."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\nCe s-a verificat exact: pagina The Jakarta Post din 23 august 2026 (răspuns 200, pe subiect), care conține declarațiile a doi miniștri indonezieni — Airlangga Hartarto (Economie) și Purbaya Yudhi Sadewa (Finanțe) — despre intenția de a folosi tipul vehiculului drept criteriu pentru benzina subvenționată Pertalite.\nCe e adevărat și ce lipsește: e adevărat că guvernul lucrează la o astfel de restricție și că ținta declarată sunt cele mai bogate 20% dintre gospodării. Lipsește tot restul: ce mașini, de când, cât costă subvenția azi, câți oameni ar fi afectați. Un titlu care spune „Indonezia limitează” ar fi adevărul trunchiat — partea care lipsește, că nimic nu e decis, schimbă complet sensul.\nCe ar schimba concluzia: publicarea mecanismului final, un act normativ, sau o listă concretă de categorii de vehicule. Până atunci, ce se probează e că se discută.",
+  "persoane": []
+}
