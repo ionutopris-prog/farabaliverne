@@ -345,20 +345,30 @@ def _comprima_pil(path, tmp):
     # site-ul pe loc șapte ore și jumătate.
     ImageFile.LOAD_TRUNCATED_IMAGES = True
     cel_mai_bun = None
-    for calitate in (85, 70, 55):
+    # Scara merge în DOUĂ dimensiuni: întâi calitatea, apoi lățimea. Numai
+    # calitatea nu ajunge — o poză deja la LATIME_MAX nu se redimensionează
+    # deloc, iar recodarea JPEG a unui JPEG poate ieși mai MARE decât
+    # originalul. Pe 23 august, o poză de 311 KB la exact 1200px a dat 399 KB
+    # la q85, 349 la q70 și fix 311 la q55 — ultima treaptă a scării vechi.
+    # Fiind „nu mai mică decât originalul", a fost respinsă, iar verificarea a
+    # picat trei ediții la rând pe 11 KB. Aceeași poză: 296 KB la q45, 268 la
+    # q35, și 212 KB la 1000px/q55. Treptele lipseau, nu unealta.
+    trepte = [(LATIME_MAX, q) for q in (85, 70, 55, 45, 35)]
+    trepte += [(l, q) for l in (1000, 800) for q in (70, 55, 45, 35)]
+    for latime, calitate in trepte:
         try:
             with Image.open(path) as im:
                 im = im.convert("RGB")
-                if im.width > LATIME_MAX:
-                    h = round(im.height * LATIME_MAX / im.width)
-                    im = im.resize((LATIME_MAX, h), Image.LANCZOS)
+                if im.width > latime:
+                    h = round(im.height * latime / im.width)
+                    im = im.resize((latime, h), Image.LANCZOS)
                 im.save(tmp, "JPEG", quality=calitate, optimize=True)
         except Exception as e:
             # Niciodată tăcut: o compresie care eșuează fără urmă arată exact ca
             # una care a reușit, iar pasul următor blochează publicarea.
             print(f"::warning::Pillow n-a putut comprima {os.path.basename(path)} "
-                  f"la calitatea {calitate}: {type(e).__name__}: {e}")
-            return cel_mai_bun
+                  f"la {latime}px/calitate {calitate}: {type(e).__name__}: {e}")
+            continue
         if not os.path.exists(tmp):
             continue
         marime = os.path.getsize(tmp)
