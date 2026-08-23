@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 05:45:07 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 05:49:39 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Premierul Malaeziei spune că „Taiwanul e parte a Chinei” — Taipei acuză legitimarea folosirii forței pentru reunificare</title>
+      <link>https://farabaliverne.ro/a/anwar-ibrahim-taiwan-parte-china-mofa-raspuns.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/anwar-ibrahim-taiwan-parte-china-mofa-raspuns.html</guid>
+      <pubDate>Sun, 23 Aug 2026 02:45:17 +0000</pubDate>
+      <category>Extern</category>
+      <description>Într-un interviu pentru Al Jazeera din 16 august 2026, premierul malaysian Anwar Ibrahim a spus: „Văd Taiwanul ca parte a Chinei, e o singură Chină, e acceptat de toți”, comparând o eventuală desprindere a Taiwanului de o provincie malaysiană care ar încerca să se separe — sugerând că forța ar fi justificată. Ministerul taiwanez de Externe a răspuns pe 18 august, acuzând că declarația „legitimează poziția Chinei privind reunificarea prin forță” și a avertizat asupra unui posibil impact economic.
+
+Unde bat probele: Probat — declarația și reacția sunt confirmate de sursele citate; interpretarea politică a fiecărei părți rămâne opinie, nu fapt. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>China numește Scarborough Shoal „rezervație naturală”; SUA spune că e un pretext „destabilizant” pentru extinderea controlului maritim</title>
       <link>https://farabaliverne.ro/a/china-scarborough-shoal-rezervatie-naturala-sua-destabilizant.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 3 contestate.</desc
       <description>Economistul Radu Georgescu susține, citând Eurostat, că România are „cea mai mare scădere economică din UE” în 2026. Cifrele Eurostat pentru trimestrul 2 arată însă că PIB-ul românesc a scăzut cu 2% anual — a doua cea mai slabă performanță din UE, după Irlanda (-5,6%), nu prima. Pe altă cifră din lista sa, inflația, Eurostat chiar îi dă dreptate.
 
 Unde bat probele: Probat parțial — „cea mai mare scădere” nu se susține. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>„Îți lipsesc aproape 40 de miliarde, Ilie!” — Grindeanu îl atacă pe Bolojan după datele INS care arată economia României în scădere în primul semestru din 2026</title>
-      <link>https://farabaliverne.ro/a/grindeanu-bolojan-pib-s1-2026-atac.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-bolojan-pib-s1-2026-atac.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Liderul PSD Sorin Grindeanu l-a atacat dur pe premierul interimar Ilie Bolojan pe 14 august 2026, după ce Institutul Național de Statistică a publicat date arătând că PIB-ul a scăzut cu 0,8% (serie brută) în primul semestru din 2026, deși bugetul fusese construit pe o creștere de 1%. Cifrele INS se confirmă din surse oficiale; calculul exact al „aproape 40 de miliarde de lei” lipsă este propria estimare a lui Grindeanu, nu o cifră publicată de o instituție independentă.
-
-Unde bat probele: Mixt. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
