@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 13:16:20 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 13:20:33 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Argentina: reforma băncii centrale a lui Milei ajunge miercuri la vot, opoziția vede o portiță pentru împrumuturi noi</title>
+      <link>https://farabaliverne.ro/a/argentina-reforma-banca-centrala-vot-milei.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/argentina-reforma-banca-centrala-vot-milei.html</guid>
+      <pubDate>Sun, 23 Aug 2026 10:16:40 +0000</pubDate>
+      <category>Economie</category>
+      <description>Camera Deputaților din Argentina votează miercuri, 26 august 2026, proiectul prin care președintele Javier Milei vrea să interzică prin lege finanțarea guvernului de către banca centrală (BCRA). Susținătorii spun că măsura pune capăt definitiv emisiunii monetare pentru acoperirea deficitului; criticii identifică o clauză prin care banca ar putea totuși împrumuta pe piețele internaționale folosind rezervele ca garanție.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Cancelarul german Merz, huiduit la vizita în zona afectată de cel mai mare incendiu de vegetație al verii — a apărut public la două zile după stingerea focului</title>
       <link>https://farabaliverne.ro/a/germania-merz-huiduit-hurtgenwald-incendiu.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</desc
       <description>Camera Deputaților, for decizional, a adoptat pe 5 august 2026 Legea decarbonizării sectorului energetic cu un amendament PSD-AUR care interzice închiderea centralelor pe cărbune înainte de a fi puse în funcțiune capacități înlocuitoare. Ministrul Fondurilor Europene, Dragoș Pîslaru, avertizează că amendamentul pune în pericol un jalon PNRR de circa 5 miliarde de euro, iar președintele Nicușor Dan a anunțat că ar putea trimite legea la reexaminare — Guvernul a cerut oficial acest lucru.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Bogdan Ivan spune că industria a primit notificări de limitare a curentului, Ministerul Energiei și Bolojan resping alarma de „blackout”</title>
-      <link>https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Fostul ministru PSD al Energiei, Bogdan Ivan, a scris pe 19 august că marii consumatori industriali au primit notificări de limitare a curentului, numind situația „cel mai negru scenariu”. Ministerul Energiei și premierul interimar Ilie Bolojan spun că e vorba de o procedură standard, nu de un blackout iminent — document real, dar interpretare disputată.
-
-Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
