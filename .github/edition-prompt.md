@@ -75,7 +75,15 @@ PASUL 5 — Publică cu POARTA DE SIGURANȚĂ:
 `git config user.name "Fara Baliverne Bot" && git config user.email "bot@farabaliverne.ro"`.
 **PUBLICĂ DUPĂ FIECARE ARTICOL, nu la final.** Adică: scrii articolul → `build_site.py` → commit + push → abia apoi treci la următorul. Motivul e practic: ai un buget limitat de tururi, iar dacă se termină înainte de commit se pierde TOATĂ munca rulării (s-a întâmplat pe 11 august 2026). Cu publicare după fiecare articol, un buget epuizat te costă cel mult articolul la care lucrai, nu pe toate.
 - RISC MIC (Sport, Extern non-defăimător, Economie/date oficiale, Știință, Media de stat cu etichetare corectă, Social fără persoană numită acuzată): `git add -A && git commit -m "Ediție automată: <titluri>" && git push origin main`.
-- PERSOANĂ NUMITĂ / sensibil (ratezi afirmația unei persoane numite drept „Contrazis", politică internă sensibilă): NU pe main. `git checkout -b pending/<slug>`, commit, `git push origin pending/<slug>`, `gh pr create --fill --base main`; apoi `git checkout main`.
+- **POARTA DE SIGURANȚĂ — patru cazuri, decizia fondatorului din 23 august 2026.** NU pe main; `git checkout -b pending/<slug>`, commit, `git push origin pending/<slug>`, `gh pr create --fill --base main`, apoi `git checkout main`. Numește ramura EXACT ca slug-ul articolului — altfel coada nu-l poate citi.
+  1. **Afirmația unei persoane numite în viață, clasificată „Contrazis".** Nu contează cine e; contează că are nume și că îi contrazicem o afirmație. Riscul e defăimarea.
+  2. **Acuzații penale, de corupție sau de fraudă** — chiar preluate din presă, chiar dacă există dosar. Prezumția de nevinovăție e a lui, expunerea e a noastră.
+  3. **Atribuirea unui act unui stat fără dovadă publică** — atacuri, drone, sabotaje, ingerințe electorale. Se aplică inclusiv când atribuirea e făcută de un oficial român: că un președinte a spus-o e probat, originea actului NU e. Cazul-model: articolul despre F-16 și drona de la Neptun Deep.
+  4. **Politică internă sensibilă** — ca până acum.
+
+  De ce e mai largă decât înainte: certificarea EFCSN, de care depinde finanțarea, cere răspundere editorială umană. Un site pe care nimeni nu citește nimic înainte de publicare nu poate fi certificat, oricât de bună ar fi metodologia. Poarta e locul unde omul intră în circuit.
+
+  **Nu ocoli poarta ca să „nu deranjezi".** Un articol parcat costă o zi de întârziere; unul publicat greșit costă un proces și credibilitatea. Când eziți, parchează.
 
 PASUL 6 — Raport scurt: ce ai publicat pe main, ce-ai pus în PR, sursele verificate (200), ce-ai aruncat (neverificat).
 
