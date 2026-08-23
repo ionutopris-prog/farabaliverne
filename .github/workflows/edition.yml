@@ -89,7 +89,21 @@ jobs:
           git config user.email "bot@farabaliverne.ro"
           BEFORE="$(git rev-parse HEAD)"
           H=$((10#$(date -u +%H)))
-          if [ "$H" -ge 3 ] && [ "$H" -le 20 ]; then
+          D=$(date -u +%u)          # 1=luni ... 6=sambata, 7=duminica
+          # WEEKEND: in Romania nu prea se intampla nimic sambata si duminica,
+          # iar internationalul se aduna necitit toata saptamana. Decizia
+          # fondatorului (23 august 2026): pastram DOAR trei editii romanesti
+          # pe zi in weekend (06, 12 si 18 UTC = 09, 15 si 21 EEST), iar
+          # restul merg pe international, cu voie sa reia subiecte mari
+          # scapate in cursul saptamanii.
+          WEEKEND=0
+          if [ "$D" -ge 6 ]; then WEEKEND=1; fi
+          RO_WEEKEND=0
+          if [ "$H" -eq 6 ] || [ "$H" -eq 12 ] || [ "$H" -eq 18 ]; then RO_WEEKEND=1; fi
+
+          if [ "$H" -ge 3 ] && [ "$H" -le 20 ] && [ "$WEEKEND" -eq 1 ] && [ "$RO_WEEKEND" -eq 0 ]; then
+            W="ZI DE WEEKEND — INTERNATIONAL. REGULA ROMANIEI NU SE APLICA in fereastra asta: nu esti obligat sa publici despre Romania, si NU forta un subiect romanesc slab doar ca sa bifezi. Focus: SUA in primul rand (politica federala, Congres, instante, economie, Fed), apoi Europa, apoi restul lumii. Ai voie si TREBUIE sa reiei subiecte MARI din cursul saptamanii care au ramas neacoperite — nu doar ce s-a intamplat in ultimele ore: o lege importanta votata marti, o decizie de instanta de joi, un raport economic de vineri. Verifica intai in data/ ca nu le-ai facut deja (foloseste scripts/seamana.py). Prefera subiecte CU MIZA, unde exista afirmatii de verificat, nu comunicate. Daca gasesti totusi ceva romanesc nou si important, publica-l — dar ca alegere, nu ca obligatie."
+          elif [ "$H" -ge 3 ] && [ "$H" -le 20 ]; then
             W="ZI (06-23 EEST) — Romania + Europa + SUA (politica/economie/social/sport/extern). NU Stiinta (are editie proprie noaptea). Daca presa romaneasca nu are subiecte NOI, completeaza din presa INTERNATIONALA, inclusiv din EST (Asia/Orient, unde ziua s-a incheiat) — rezumat in romana + link sursa + eticheta traducere AI. Nu lasa editia goala."
           elif [ "$H" -eq 1 ]; then
             W="NOAPTE STIINTA (04 EEST) — editie DEDICATA DOAR categoriei Stiinta: spatiu, sanatate, tehnologie, clima, descoperiri, cu surse primare (NASA/ESA, reviste, agentii). Publica 2-4 articole doar Stiinta."
