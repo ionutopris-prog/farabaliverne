@@ -1,0 +1,75 @@
+{
+  "slug": "sua-rambursari-tarife-100-miliarde-consumatori",
+  "title": "SUA au rambursat 100 de miliarde de dolari din tarifele vamale — dar banii merg la companii, nu la cumpărători",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "Fortune / PYMNTS",
+  "url": "https://fortune.com/article/fortune-500-companies-billions-tariff-refunds-customers-08-19-2026/",
+  "dek": "Administrația Trump a certificat 100 de miliarde de dolari în rambursări din cele 166 de miliarde de dolari colectate din tarifele vamale declarate ilegale de Curtea Supremă. Banii merg către marii importatori — Apple, Nike, FedEx, Amazon, Target, Ford — dar puține companii s-au angajat public să întoarcă sumele către cumpărătorii care, practic, au plătit tarifele prin prețuri mai mari.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Administrația Trump a certificat rambursarea a 100 de miliarde de dolari din cele 166 de miliarde de dolari colectate sub tarifele impuse prin legea IEEPA, după ce Curtea Supremă a invalidat acele tarife în februarie 2026. Sumele au fost distribuite către mari importatori americani.",
+      "sources": [
+        {
+          "name": "Fortune — Fortune 500 companies are getting billions in tariff refunds. Will customers see any of it?",
+          "url": "https://fortune.com/article/fortune-500-companies-billions-tariff-refunds-customers-08-19-2026/"
+        },
+        {
+          "name": "PYMNTS — S&P 500 Companies Claim First Payouts From $100 Billion Tariff Refund Wave",
+          "url": "https://www.pymnts.com/legal/2026/sp-500-companies-claim-first-payouts-from-100-billion-tariff-refund-wave/"
+        }
+      ]
+    },
+    {
+      "text": "Sumele individuale raportate: Target a încasat 994 de milioane de dolari, Apple circa 2,2 miliarde, Nike aproximativ 986 de milioane (din care 302 milioane primite deja până în mai), FedEx 800 de milioane, Amazon circa 640 de milioane, iar Ford a raportat un beneficiu de 1,3 miliarde de dolari legat de aceste rambursări. La nivelul S&P 500, peste 40 de companii au declarat împreună 9,6 miliarde de dolari în rambursări, din care 2,1 miliarde deja încasate în numerar.",
+      "sources": [
+        {
+          "name": "Fortune — Fortune 500 companies are getting billions in tariff refunds. Will customers see any of it?",
+          "url": "https://fortune.com/article/fortune-500-companies-billions-tariff-refunds-customers-08-19-2026/"
+        },
+        {
+          "name": "PYMNTS — S&P 500 Companies Claim First Payouts From $100 Billion Tariff Refund Wave",
+          "url": "https://www.pymnts.com/legal/2026/sp-500-companies-claim-first-payouts-from-100-billion-tariff-refund-wave/"
+        }
+      ]
+    },
+    {
+      "text": "Companiile diferă vizibil în privința a ceea ce fac cu banii. FedEx s-a angajat public să distribuie o parte din rambursări către clienți începând din august și a început deja plățile. Target a spus că va folosi banii pentru reduceri de preț la raft, nu pentru rambursări directe către cumpărători. Amazon a declarat că poate oferi rambursări doar unui „număr limitat” de clienți, în circumstanțe specifice în care poate urmări exact cine a suportat costul tarifului. Nike și Apple nu au clarificat public un mecanism de rambursare pentru cumpărători, deși Nike se confruntă deja cu procese din partea consumatorilor pe acest subiect.",
+      "sources": [
+        {
+          "name": "Fortune — Fortune 500 companies are getting billions in tariff refunds. Will customers see any of it?",
+          "url": "https://fortune.com/article/fortune-500-companies-billions-tariff-refunds-customers-08-19-2026/"
+        },
+        {
+          "name": "PYMNTS — S&P 500 Companies Claim First Payouts From $100 Billion Tariff Refund Wave",
+          "url": "https://www.pymnts.com/legal/2026/sp-500-companies-claim-first-payouts-from-100-billion-tariff-refund-wave/"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Că banii ar trebui să ajungă înapoi la cumpărători e o poziție larg răspândită în dezbaterea publică americană, motivată de faptul că tarifele s-au reflectat de regulă în prețuri mai mari la raft. Dar companiile nu au nicio obligație legală să facă asta: rambursările merg contractual către importator, iar decizia despre ce se întâmplă mai departe cu banii — investiție, profit, reducere de preț sau rambursare directă — rămâne una comercială, nu una impusă de lege.",
+      "sources": [
+        {
+          "name": "Fortune — Fortune 500 companies are getting billions in tariff refunds. Will customers see any of it?",
+          "url": "https://fortune.com/article/fortune-500-companies-billions-tariff-refunds-customers-08-19-2026/"
+        }
+      ]
+    }
+  ],
+  "math": {
+    "title": "100 mld $ rambursați, dar cine i-a plătit inițial?",
+    "explanation": "Tarifele IEEPA au fost plătite la vamă de importatori, care în mod obișnuit transferă costul suplimentar în prețul final către cumpărători. Rambursarea celor 100 de miliarde de dolari merge, contabil, tot către importatori — nu există un mecanism automat prin care suma să ajungă la cei care, practic, au dus costul prin prețuri mai mari la raft. Din companiile citate, doar FedEx s-a angajat explicit să întoarcă bani către clienți; celelalte fie redirecționează suma spre reduceri viitoare de preț, fie nu au clarificat public un plan.",
+    "sources": [
+      {
+        "name": "Fortune — Fortune 500 companies are getting billions in tariff refunds. Will customers see any of it?",
+        "url": "https://fortune.com/article/fortune-500-companies-billions-tariff-refunds-customers-08-19-2026/"
+      }
+    ]
+  },
+  "aiNote": "🤖 Am verificat cifrele de rambursare din două surse economice independente (Fortune, PYMNTS), care coincid pe sumele raportate de companii. Miza nu e dacă rambursările au avut loc — sunt confirmate și publice — ci ce se întâmplă cu banii mai departe. Aici sursele arată o divergență reală între companii, nu o contrazicere între ele: FedEx a ales să întoarcă bani către clienți, Target redirecționează suma spre reduceri de preț viitoare, iar Amazon, Nike și Apple nu au clarificat public un mecanism pentru cumpărători. Ce lipsește din dosarul public: niciuna dintre companii nu a publicat o metodologie prin care să demonstreze cât din costul tarifului a fost efectiv transferat cumpărătorilor, așa că nu se poate calcula exact cât ar trebui rambursat fiecărui client. Dacă vreuna dintre companiile tăcute ar anunța un plan concret de rambursare, ar schimba semnificativ tabloul.",
+  "persoane": []
+}
