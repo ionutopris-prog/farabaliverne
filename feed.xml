@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 15:30:37 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 15:30:55 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Trump spune că economia americană „n-a fost niciodată mai puternică” și că ar câștiga „cu 25 de puncte” — datele oficiale arată o încetinire</title>
+      <link>https://farabaliverne.ro/a/trump-cohen-interviu-economie-25-puncte.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/trump-cohen-interviu-economie-25-puncte.html</guid>
+      <pubDate>Sun, 23 Aug 2026 12:30:42 +0000</pubDate>
+      <category>Extern</category>
+      <description>Într-un interviu de împăcare cu fostul său avocat Michael Cohen, difuzat integral duminică, 23 august 2026, pe 77 WABC, Donald Trump a spus despre economia americană că „n-a fost niciodată mai puternică” și că, „dacă aș candida azi, cred că aș câștiga cu 25 de puncte”. Datele oficiale (BEA, BLS) arată o creștere economică în scădere și un sondaj Reuters/Ipsos din aceeași săptămână îi dă aprobarea la 33%, minimul mandatului.
+
+Unde bat probele: Contestat. Verificate: 2 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Dinamo învinge Universitatea Cluj 2-1, în inferioritate numerică, și devine lider în SuperLiga</title>
       <link>https://farabaliverne.ro/a/dinamo-u-cluj-2-1-etapa-6-lider-superliga.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 6 probate, 3 contestate.</desc
       <description>Șeful ANI, Bogdan Sticlosu, spune că 122 de persoane din evidențele Agenției intră sub incidența interdicției de 3 ani introduse prin „amendamentul Fritz”, iar pentru 15 au fost deja dispuse măsuri de eliberare din funcție. CCR a validat amendamentul pe 17 august ca fiind constituțional.
 
 Unde bat probele: Probat. Verificate: 6 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Comisia de Constituționalitate a Senatului a votat, 6 la 3, o anchetă privind întâlnirea Bolojan–Tănăsescu</title>
-      <link>https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu-6-3.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu-6-3.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Comisia pentru constituționalitate a Senatului a aprobat pe 18 august, cu 6 voturi (PSD, AUR, PACE) la 3 (PNL, USR), înființarea unei comisii de anchetă privind întâlnirea neanunțată din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Simina Tănăsescu. PACE acuză PNL-USR că blochează trimiterea hotărârii în plenul Senatului; Bolojan respinge scandalul, iar CCR susține că discuția a fost strict administrativă.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
