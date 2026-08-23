@@ -1,0 +1,66 @@
+{
+  "slug": "petrol-brent-sanctiuni-parteneri-iran",
+  "title": "Petrolul a crescut a doua săptămână la rând după amenințarea cu sancțiuni asupra partenerilor Iranului. Brent la 94,39 dolari",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "Arab News",
+  "url": "https://www.arabnews.com/node/2655484/business-economy",
+  "dek": "🌍 Barilul Brent a închis la 94,39 dolari pe 22 august 2026, în creștere cu 0,65% pe zi și 6,39% pe săptămână, după ce administrația americană a amenințat cu sancțiuni economice partenerii comerciali ai Iranului. Analiștii citați nu sunt de acord asupra efectului: unul spune că impactul imediat pe ofertă e limitat, fiindcă exporturile iraniene sunt deja puternic restrânse. Traficul prin Hormuz a scăzut la 7 nave într-o zi.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "La 22 august 2026, barilul de țiței Brent se tranzacționa la 94,39 dolari, în creștere cu 0,65% (61 de cenți), iar cel american WTI la 87,06 dolari, în creștere cu 0,26% (23 de cenți). Pe ansamblul săptămânii, Brent a urcat cu 6,39%, iar WTI cu 5,66% — a doua săptămână consecutivă de creștere.",
+      "sources": [
+        {
+          "name": "Arab News — Oil rises as Trump threatens sanctions on Iran partners",
+          "url": "https://www.arabnews.com/node/2655484/business-economy"
+        }
+      ]
+    },
+    {
+      "text": "Creșterea a urmat anunțului administrației americane privind sancțiuni economice asupra partenerilor comerciali ai Iranului, descrise ca „cele mai dure penalități financiare din istorie”, cu obiectivul declarat de a răsturna conducerea iraniană. Acordul de pace dintre Statele Unite și Iran a expirat fără reluarea negocierilor.",
+      "sources": [
+        {
+          "name": "Arab News — Oil rises as Trump threatens sanctions on Iran partners",
+          "url": "https://www.arabnews.com/node/2655484/business-economy"
+        }
+      ]
+    },
+    {
+      "text": "Traficul comercial prin Strâmtoarea Hormuz rămâne perturbat: joi au traversat doar 7 nave de marfă, în scădere de la 14 în ziua precedentă.",
+      "sources": [
+        {
+          "name": "Arab News — Oil rises as Trump threatens sanctions on Iran partners",
+          "url": "https://www.arabnews.com/node/2655484/business-economy"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Analiștii citați în aceeași relatare nu sunt de acord asupra cauzei și a efectului. Crispus Nyaga (Empire FX) spune că „impactul imediat asupra ofertei poate fi limitat, fiindcă exporturile iraniene sunt deja puternic constrânse” — adică sancțiunile pe partenerii Iranului n-ar scoate mult petrol în plus de pe piață, pentru că petrolul acela deja nu circula. Phil Flynn (Price Futures Group) mută accentul: „Hormuz e încă o problemă, dar nu mai e singura poveste”. John Kilduff (Again Capital) merge în direcția opusă: „Sancțiunile au fost singurul lucru care a adus Iranul la ordine”.",
+      "sources": [
+        {
+          "name": "Arab News — Oil rises as Trump threatens sanctions on Iran partners",
+          "url": "https://www.arabnews.com/node/2655484/business-economy"
+        }
+      ]
+    },
+    {
+      "text": "Legătura de cauzalitate dintre anunțul sancțiunilor și creșterea prețului e o interpretare de piață, nu un fapt măsurat. În aceeași săptămână acționau simultan: expirarea acordului cu Iranul, perturbarea traficului prin Hormuz și amenințarea cu sancțiuni. Cât din cei 6,39% ai Brentului vine din fiecare nu se poate separa din datele disponibile.",
+      "sources": [
+        {
+          "name": "Arab News — Oil rises as Trump threatens sanctions on Iran partners",
+          "url": "https://www.arabnews.com/node/2655484/business-economy"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Formularea „cele mai dure penalități financiare din istorie” este o caracterizare politică, folosită de partea care le anunță. Cât de dure sunt în fapt se poate stabili doar comparând textul sancțiunilor cu regimurile anterioare — nu din adjectiv."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus.\nCe s-a verificat exact: pagina Arab News din 22 august 2026 (răspuns 200, pe subiect), cu cotațiile Brent și WTI, variațiile zilnice și săptămânale, cifra traficului din Hormuz și citatele nominale ale celor trei analiști.\nUnde se despart sursele: nu între publicații, ci în interiorul aceleiași relatări. Trei analiști de piață citați spun trei lucruri diferite despre ce înseamnă sancțiunile pentru ofertă. Am pus toate trei citatele, fiindcă dezacordul dintre ei ESTE informația — nu o slăbiciune a relatării.\nCe e ușor de citit greșit: titlul leagă creșterea de amenințarea cu sancțiuni, dar în aceeași săptămână s-au petrecut trei lucruri care mișcă prețul. O creștere de 6,39% atribuită unei singure cauze e o simplificare care se strecoară ușor.\nCe lipsește: volumele efective de export iranian înainte și după anunț, textul sancțiunilor, și o serie mai lungă de date privind traficul din Hormuz — o singură zi cu 7 nave față de 14 poate fi tendință sau poate fi zgomot.",
+  "persoane": []
+}
