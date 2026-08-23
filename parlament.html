@@ -392,6 +392,11 @@
     .ev-block{padding:18px 18px 20px}
   }
 
+.pl-sala.pl-filtrat .pl-scaun:not(.pl-marcat){opacity:.28}
+.pl-scaun.pl-marcat{transform:scale(1.75);z-index:4;
+  box-shadow:0 0 0 2px var(--card),0 0 0 3.5px var(--ink),0 3px 8px rgba(34,31,27,.25)}
+.pl-scaun.pl-marcat:hover,.pl-scaun.pl-marcat.pl-sel{transform:scale(2.1)}
+
 .pl-dreapta{margin-left:auto;text-align:right;flex:0 0 auto;display:flex;flex-direction:column;
             align-items:flex-end;gap:7px}
 .pl-dr{font-size:12.5px;color:var(--ink-faint)}
@@ -925,6 +930,16 @@
     return '<a class="pl-om" href="'+o[4]+'"><i style="background:'+L[o[1]].culoare+'"></i>'
       +'<span><b>'+o[0]+'</b>'+L[o[1]].nume+' · '+(o[2]==="D"?"Deputat":"Senator")+'</span></a>';
   }
+  function marcheaza(nr){
+    // Bilele celor care te reprezintă rămân în relief până ştergi căutarea.
+    // Restul se estompează, ca ochiul să meargă direct la ele — nu le ascundem,
+    // doar le dăm la o parte.
+    for(var i=0;i<poz.length;i++){
+      var al=(nr!==null && String(O[i][6])===String(nr));
+      poz[i].classList.toggle("pl-marcat",al);
+    }
+    sala.classList.toggle("pl-filtrat",nr!==null);
+  }
   function arataCirc(nr,eticheta){
     var g=delegatie(nr), tot=g.dep.length+g.sen.length;
     if(!tot){rez.hidden=true;return;}
@@ -933,6 +948,7 @@
       +'pe lista județului te reprezintă deopotrivă. Aici sunt <b>'+g.dep.length+' deputați și '
       +g.sen.length+' senatori</b>.</p>'
       +'<div class="pl-rez-grid">'+g.dep.concat(g.sen).map(card).join("")+'</div>';
+    marcheaza(nr);
     rez.hidden=false; rez.scrollIntoView({behavior:"smooth",block:"nearest"});
   }
   function cautaNume(t){
@@ -941,11 +957,11 @@
     if(!g.length) return false;
     rez.innerHTML='<h3 class="pl-rez-cap">'+g.length+' potriviri după nume</h3>'
       +'<div class="pl-rez-grid">'+g.map(card).join("")+'</div>';
-    rez.hidden=false; return true;
+    rez.hidden=false; marcheaza(null); return true;
   }
   function cauta(){
     var t=curat(q.value);
-    if(t.length<2){rez.hidden=true;return;}
+    if(t.length<2){rez.hidden=true;marcheaza(null);return;}
     if(!LOC){
       // Livrat ca .js, nu .json: .htaccess blochează deliberat fişierele .json,
       // ca să nu se servească sursele de build. Regula e bună — schimbăm doar
