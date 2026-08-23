@@ -1,0 +1,63 @@
+{
+  "slug": "casa-alba-sala-bal-curtea-suprema-suspendare-roberts",
+  "title": "Curtea Supremă a SUA permite temporar continuarea construcției sălii de bal de la Casa Albă",
+  "category": "Extern",
+  "date": "2026-08-21",
+  "source": "ABC News / Roll Call / SCOTUSblog",
+  "url": "https://abcnews.com/Politics/supreme-court-chief-justice-allows-construction-white-house/story?id=135846623",
+  "dek": "Președintele Curții Supreme, John Roberts, a semnat vineri, 21 august 2026, un ordin administrativ de o singură propoziție prin care suspendă temporar decizia unei instanțe inferioare care bloca lucrările deasupra solului la sala de bal de la Casa Albă. E o etapă nouă în litigiul pornit de National Trust for Historic Preservation: administrația Trump poate continua construcția în timp ce Curtea Supremă decide dacă preia definitiv cazul.",
+  "mainVerdict": "Probat că ordinul de suspendare temporară a fost emis; argumentele de fond ale ambelor părți rămân nedecise",
+  "probat": [
+    {
+      "text": "Vineri, 21 august 2026, președintele Curții Supreme, John Roberts, a semnat un ordin administrativ („administrative stay”) de o singură propoziție, care suspendă temporar decizia curții de apel ce interzicea continuarea lucrărilor deasupra solului la sala de bal de circa 90.000 de picioare pătrate (aproximativ 8.360 mp) construită lângă Casa Albă, pe locul fostei Aripi de Est, demolate. Ordinul a fost emis chiar în ziua în care expira termenul de suspendare a deciziei curții de apel.",
+      "sources": [
+        {"name": "ABC News — Supreme Court chief justice allows construction on White House ballroom to continue", "url": "https://abcnews.com/Politics/supreme-court-chief-justice-allows-construction-white-house/story?id=135846623"},
+        {"name": "Roll Call — White House ballroom construction can proceed, SCOTUS says", "url": "https://rollcall.com/2026/08/21/white-house-ballroom-construction-can-proceed-scotus-says/"}
+      ]
+    },
+    {
+      "text": "Ordinul lui Roberts nu ia poziție asupra fondului cauzei și nu oferă nicio motivare — potrivit SCOTUSblog, e explicit temporar, „while the court continues to review the matter pending further rulings”. Curtea Supremă urmează să decidă separat dacă preia definitiv apelul administrației Trump împotriva deciziei Curții de Apel a Districtului Columbia, care stabilise pe 7 august că administrația „foarte probabil” nu are autoritatea de a demola și reconstrui fără acordul Congresului.",
+      "sources": [
+        {"name": "SCOTUSblog — Supreme Court allows White House ballroom construction to continue for now", "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-white-house-ballroom-construction-to-continue-for-now/"},
+        {"name": "Roll Call — White House ballroom construction can proceed, SCOTUS says", "url": "https://rollcall.com/2026/08/21/white-house-ballroom-construction-can-proceed-scotus-says/"}
+      ]
+    },
+    {
+      "text": "Potrivit documentelor depuse de administrație, la data cererii construcția era finalizată în proporție de circa 65%, cu aproximativ 250 de muncitori lucrând 20 de ore pe zi, șapte zile pe săptămână. Lucrările subterane (inclusiv un adăpost descris de administrație ca facilitate de securitate) nu erau vizate de interdicția inițială și au continuat neîntrerupt.",
+      "sources": [
+        {"name": "ABC News — cifre despre stadiul construcției", "url": "https://abcnews.com/Politics/supreme-court-chief-justice-allows-construction-white-house/story?id=135846623"},
+        {"name": "Roll Call — lucrările subterane exceptate de la interdicție", "url": "https://rollcall.com/2026/08/21/white-house-ballroom-construction-can-proceed-scotus-says/"}
+      ]
+    },
+    {
+      "text": "Președintele Trump a reacționat pe Truth Social, spunând că administrația este „recunoscătoare” pentru decizie. National Trust for Historic Preservation, organizația care a depus procesul, a reafirmat poziția că administrația nu are „autoritate legală unilaterală” de a demola și construi pe proprietate federală fără aprobarea Congresului.",
+      "sources": [
+        {"name": "Roll Call — reacțiile celor două părți", "url": "https://rollcall.com/2026/08/21/white-house-ballroom-construction-can-proceed-scotus-says/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Administrația susține că lucrarea e „vitally required by national security” și că a fost autorizată implicit de Congres printr-o prevedere legală mai veche despre „alterații și îmbunătățiri” la Casa Albă. National Trust for Historic Preservation contestă direct acest argument, susținând că administrația încearcă să „depășească controlul judecătoresc” („outrun judicial review”) accelerând construcția înainte ca instanțele să apuce să decidă asupra fondului — poziție care, la acest moment, e un argument juridic dintr-un proces în curs, nu un fapt stabilit de vreo instanță.",
+      "sources": [
+        {"name": "SCOTUSblog — argumentele administrației și ale National Trust", "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-white-house-ballroom-construction-to-continue-for-now/"},
+        {"name": "ABC News — poziția National Trust for Historic Preservation", "url": "https://abcnews.com/Politics/supreme-court-chief-justice-allows-construction-white-house/story?id=135846623"}
+      ]
+    },
+    {
+      "text": "Costul proiectului a variat între surse și în timp: estimarea inițială de 200 de milioane de dolari a urcat succesiv la 300, apoi la 400 de milioane de dolari — cifră citată și de Roll Call pentru cererea de urgență. Surse anterioare menționau cel puțin 900 de milioane de dolari pentru ansamblul mai larg de lucrări de la Casa Albă (sală de bal, heliport, renovarea Aripii de Vest); diferența dintre cifre nu e clarificată oficial într-un singur document public.",
+      "sources": [
+        {"name": "Roll Call — cost estimat de 400 de milioane $", "url": "https://rollcall.com/2026/08/21/white-house-ballroom-construction-can-proceed-scotus-says/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {"text": "Dacă lucrarea de la Casa Albă reprezintă o necesitate legitimă de securitate sau un exces arhitectural care ocolește controlul Congresului asupra proprietății federale ține de interpretare politică. Ce e verificabil: ordinul de suspendare temporară a fost emis pe 21 august, nu ia poziție asupra fondului, iar decizia legală finală aparține în continuare Curții Supreme, nu declarațiilor vreuneia dintre părți."}
+  ],
+  "math": {
+    "title": "Construcția a avansat cu aproximativ o treime în doar o săptămână de proces",
+    "explanation": "Documentele depuse pe 14 august indicau o construcție deja avansată; până la ordinul din 21 august, ritmul de lucru declarat (250 de muncitori, 20 de ore pe zi, șapte zile pe săptămână) arată de ce administrația a insistat pe urgență — orice întrerupere ar fi oprit un șantier care avansa vizibil mai rapid decât calendarul judiciar al procesului. Acesta e și argumentul central al National Trust: că viteza construcției, nu doar conținutul ei legal, urmărea să facă opoziția juridică lipsită de obiect până la o decizie pe fond."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: ordinul de suspendare temporară semnat de John Roberts pe 21 august 2026 e confirmat concordant de ABC News, Roll Call și SCOTUSblog — o sursă specializată exclusiv pe jurisprudența Curții Supreme. Toate trei sunt de acord că ordinul nu ia poziție asupra fondului cauzei.\n\nUnde se despart sursele: cifra costului proiectului variază semnificativ în timp (200 → 300 → 400 milioane $) și între surse, iar relația exactă cu cifra de peste 900 de milioane $ raportată anterior pentru ansamblul lucrărilor de la Casa Albă nu apare clarificată într-un document oficial unic — probabil pentru că include componente diferite (sală de bal, heliport, renovări), dar administrația nu a publicat o defalcare completă.\n\nCe lipsește: nu există încă un calendar public pentru decizia Curții Supreme asupra fondului cauzei — dacă va prelua definitiv apelul administrației și când. Nici argumentul de securitate națională, nici cel privind autoritatea de a construi fără aprobarea Congresului nu au fost tranșate de vreo instanță; ambele rămân poziții ale părților într-un proces în desfășurare.\n\nCe ar schimba concluzia: o decizie pe fond a Curții Supreme — fie confirmând autoritatea administrației, fie cerând aprobarea explicită a Congresului — ar lămuri chestiunea legală centrală. Până atunci, construcția avansează, ceea ce National Trust susține că ar putea face orice decizie ulterioară lipsită de efect practic.",
+  "persoane": ["Donald Trump"]
+}
