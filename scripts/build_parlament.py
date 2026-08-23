@@ -407,11 +407,17 @@ SCRIPT = '''
   function cauta(){
     var t=curat(q.value);
     if(t.length<2){rez.hidden=true;return;}
-    if(!LOC){rez.hidden=false;rez.innerHTML='<p class="pl-rez-sub">Se încarcă lista localităților…</p>';
-      fetch("date/localitati.json").then(function(r){return r.json();})
-        .then(function(d){LOC=d.loc;CIRC=d.circ;cauta();})
-        .catch(function(){rez.innerHTML='<p class="pl-rez-sub">Nu am putut încărca lista localităților. '
-          +'Caută după numele parlamentarului.</p>';});
+    if(!LOC){
+      // Livrat ca .js, nu .json: .htaccess blochează deliberat fişierele .json,
+      // ca să nu se servească sursele de build. Regula e bună — schimbăm doar
+      // ambalajul, nu protecţia. Se încarcă o singură dată, la prima căutare.
+      rez.hidden=false; rez.innerHTML='<p class="pl-rez-sub">Se încarcă lista localităților…</p>';
+      var sc=document.createElement("script");
+      sc.src="date/localitati.js";
+      sc.onload=function(){ if(window.FB_LOC){LOC=window.FB_LOC.loc;CIRC=window.FB_LOC.circ;cauta();} };
+      sc.onerror=function(){rez.innerHTML='<p class="pl-rez-sub">Nu am putut încărca lista localităților. '
+        +'Caută după numele parlamentarului.</p>';};
+      document.head.appendChild(sc);
       return;}
     var l=LOC[t];
     if(!l){ // potrivire pe început de nume, dacă nu e exactă
