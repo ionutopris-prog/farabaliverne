@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 09:25:50 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 09:26:37 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>CCR publică motivarea pe „amendamentul Fritz”: legea nu sancționează retroactiv, ci încheie un „mandat viciat” — USR acuză „fraudarea Constituției”</title>
@@ -96,6 +96,16 @@ Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
       <description>🌍 Agenția de stat iraniană IRNA a anunțat pe 22 august 2026 că Teheranul a facilitat trecerea prin Strâmtoarea Hormuz a unor nave care transportau petrol irakian. Afirmația a fost preluată de Arab News, care o atribuie explicit agenției iraniene și unor oficiali irakieni. La momentul verificării nu am găsit o confirmare independentă (Reuters, AP, AFP) a permisiunii ca atare — iar datele de trafic din strâmtoare rămân mult sub nivelul de dinainte de război.
 
 Unde bat probele: Se susține doar din surse de stat — fără confirmare independentă. Verificate: 3 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Japonia execută primul condamnat la moarte sub guvernul Takaichi — incendiatorul de la un salon pachinko din Osaka, unde au murit 5 oameni în 2009</title>
+      <link>https://farabaliverne.ro/a/japonia-executie-takami-osaka-pachinko-takaichi.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/japonia-executie-takami-osaka-pachinko-takaichi.html</guid>
+      <pubDate>Sun, 23 Aug 2026 06:26:16 +0000</pubDate>
+      <category>Extern</category>
+      <description>Sunao Takami, 58 de ani, a fost spânzurat pe 21 august 2026 la Osaka, condamnat pentru incendierea în 2009 a unui salon pachinko în care au murit 5 oameni și au fost rănite 10. E prima execuție din mandatul premierului Sanae Takaichi (din octombrie 2025) și prima din iunie 2025. Execuția a avut loc în timpul pauzei parlamentare, ceea ce organizații pentru drepturile omului au numit o tactică de evitare a dezbaterii publice; ministrul Justiției a negat că timingul a fost intenționat. Japonia și SUA rămân singurele state G7 care mai aplică pedeapsa cu moartea.
+
+Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
     <item>
       <title>Trump scutește temporar de tarif carnea de vită importată peste cotă — critici spun că măsura nu rezolvă lipsa de vite din SUA</title>
@@ -428,16 +438,6 @@ Unde bat probele: Probat. Verificate: 6 probate, 2 contestate.</description>
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>Bogdan Ivan spune că industria a primit notificări de limitare a curentului, Ministerul Energiei și Bolojan resping alarma de „blackout”</title>
-      <link>https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Fostul ministru PSD al Energiei, Bogdan Ivan, a scris pe 19 august că marii consumatori industriali au primit notificări de limitare a curentului, numind situația „cel mai negru scenariu”. Ministerul Energiei și premierul interimar Ilie Bolojan spun că e vorba de o procedură standard, nu de un blackout iminent — document real, dar interpretare disputată.
-
-Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
       <title>Legea decarbonizării, adoptată cu amendamentul PSD privind cărbunele; Pîslaru avertizează asupra riscului pentru 5 miliarde de euro din PNRR</title>
       <link>https://farabaliverne.ro/a/legea-decarbonizarii-amendament-carbune-pnrr-risc.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/legea-decarbonizarii-amendament-carbune-pnrr-risc.html</guid>
@@ -446,6 +446,16 @@ Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
       <description>Camera Deputaților, for decizional, a adoptat pe 5 august 2026 Legea decarbonizării sectorului energetic cu un amendament PSD-AUR care interzice închiderea centralelor pe cărbune înainte de a fi puse în funcțiune capacități înlocuitoare. Ministrul Fondurilor Europene, Dragoș Pîslaru, avertizează că amendamentul pune în pericol un jalon PNRR de circa 5 miliarde de euro, iar președintele Nicușor Dan a anunțat că ar putea trimite legea la reexaminare — Guvernul a cerut oficial acest lucru.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Bogdan Ivan spune că industria a primit notificări de limitare a curentului, Ministerul Energiei și Bolojan resping alarma de „blackout”</title>
+      <link>https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bogdan-ivan-notificari-deconectare-bolojan-energie.html</guid>
+      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
+      <category>Politică</category>
+      <description>Fostul ministru PSD al Energiei, Bogdan Ivan, a scris pe 19 august că marii consumatori industriali au primit notificări de limitare a curentului, numind situația „cel mai negru scenariu”. Ministerul Energiei și premierul interimar Ilie Bolojan spun că e vorba de o procedură standard, nu de un blackout iminent — document real, dar interpretare disputată.
+
+Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Comisia de anchetă pe întâlnirea Bolojan–Tănăsescu, aprobată în comisie — PNL și USR se opun trimiterii ei în plenul Senatului</title>
@@ -468,16 +478,6 @@ Unde bat probele: Contestat. Verificate: 6 probate, 2 contestate.</description>
 Unde bat probele: Probat parțial — cifra e reală, cauza politică invocată de Grindeanu e contestată. Verificate: 5 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>Grindeanu spune că România se împrumută „cu 1.000 de euro pe secundă” — ce arată calculul pe cifrele Ministerului Finanțelor</title>
-      <link>https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Economie</category>
-      <description>La o conferință de presă ținută joi, 13 august 2026, la 100 de zile de la demiterea Guvernului Bolojan, liderul PSD Sorin Grindeanu a declarat că premierul interimar „se împrumută cu 1.000 de euro pe secundă — adică 434 de milioane de lei în plus la datoria României pe zi”. Am verificat calculul pe datele publice ale Ministerului Finanțelor: cifrele de context (252 de miliarde lei împrumutate în 2024, ~275 de miliarde în 2026, datorie peste 60% din PIB) se confirmă, dar rata exactă de „1.000 euro/secundă” nu corespunde niciunui indicator oficial publicat sub această formă — cade undeva între deficitul zilnic și necesarul brut zilnic de finanțare, fără ca metoda de calcul să fie explicată public.
-
-Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
       <title>Comisia de constituționalitate a Senatului aprobă, 6 la 3, anchetarea întâlnirii nedeclarate Bolojan–Tănăsescu; rezoluția merge acum la votul plenului</title>
       <link>https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/senat-comisie-ancheta-bolojan-tanasescu.html</guid>
@@ -488,6 +488,16 @@ Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
 Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
     </item>
     <item>
+      <title>Grindeanu spune că România se împrumută „cu 1.000 de euro pe secundă” — ce arată calculul pe cifrele Ministerului Finanțelor</title>
+      <link>https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/grindeanu-datorie-1000-euro-secunda-verificare.html</guid>
+      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
+      <category>Economie</category>
+      <description>La o conferință de presă ținută joi, 13 august 2026, la 100 de zile de la demiterea Guvernului Bolojan, liderul PSD Sorin Grindeanu a declarat că premierul interimar „se împrumută cu 1.000 de euro pe secundă — adică 434 de milioane de lei în plus la datoria României pe zi”. Am verificat calculul pe datele publice ale Ministerului Finanțelor: cifrele de context (252 de miliarde lei împrumutate în 2024, ~275 de miliarde în 2026, datorie peste 60% din PIB) se confirmă, dar rata exactă de „1.000 euro/secundă” nu corespunde niciunui indicator oficial publicat sub această formă — cade undeva între deficitul zilnic și necesarul brut zilnic de finanțare, fără ca metoda de calcul să fie explicată public.
+
+Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
+    <item>
       <title>Manda îi cere demisia lui Bolojan și acuză „cea mai drastică” scădere a puterii de cumpărare din ultimii 15 ani — ce confirmă datele INS și ce nu</title>
       <link>https://farabaliverne.ro/a/manda-bolojan-acuzatii-economice-100-zile.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/manda-bolojan-acuzatii-economice-100-zile.html</guid>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
       <description>Secretarul general al PSD, europarlamentarul Claudiu Manda, i-a cerut vineri, 14 august 2026, demisia premierului interimar Ilie Bolojan, la peste 100 de zile de la moțiunea de cenzură, invocând peste 510.000 de șomeri, scădere de PIB, „cea mai drastică” scădere a puterii de cumpărare a salariilor din ultimii 15 ani și o inflație „dublată”. Datele INS confirmă direcția cifrelor economice de bază, dar nu susțin superlativele istorice, iar „dublarea” inflației depinde de luna aleasă drept reper.
 
 Unde bat probele: Contestat. Verificate: 6 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Bolojan s-a întâlnit nedeclarat cu șefa CCR, cu trei zile înainte de decizia pe Legea Integrității — Senatul a deschis o anchetă</title>
-      <link>https://farabaliverne.ro/a/bolojan-tanasescu-intalnire-secreta-ancheta-senat.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-tanasescu-intalnire-secreta-ancheta-senat.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Premierul interimar Ilie Bolojan s-a văzut, vineri, 14 august 2026, cu președinta CCR Simina Tănăsescu, în biroul președintelui Senatului — întâlnire nedeclarată public, cu trei zile înainte ca CCR să decidă pe Legea Integrității. Tănăsescu spune că a fost o discuție administrativă despre sediul Curții și că nu s-a vorbit despre dosare; Senatul a deschis totuși o anchetă parlamentară, cu audieri pe 26 august.
-
-Unde bat probele: Probat că întâlnirea a avut loc — motivul rămâne neverificabil independent, doar afirmat de participanți. Verificate: 5 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
