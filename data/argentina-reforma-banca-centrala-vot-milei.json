@@ -1,0 +1,78 @@
+{
+  "slug": "argentina-reforma-banca-centrala-vot-milei",
+  "title": "Argentina: reforma băncii centrale a lui Milei ajunge miercuri la vot, opoziția vede o portiță pentru împrumuturi noi",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "Rio Times / Buenos Aires Times",
+  "url": "https://www.riotimesonline.com/argentina-central-bank-reform-charter-vote-2026/",
+  "dek": "Camera Deputaților din Argentina votează miercuri, 26 august 2026, proiectul prin care președintele Javier Milei vrea să interzică prin lege finanțarea guvernului de către banca centrală (BCRA). Susținătorii spun că măsura pune capăt definitiv emisiunii monetare pentru acoperirea deficitului; criticii identifică o clauză prin care banca ar putea totuși împrumuta pe piețele internaționale folosind rezervele ca garanție.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Un raport de comisie susținut de La Libertad Avanza (partidul lui Milei) și blocurile aliate a fost semnat pe 12 august 2026, cu 42 de semnături, deschizând calea către un vot în plen. Votul în Camera Deputaților este programat pentru miercuri, 26 august 2026.",
+      "sources": [
+        {
+          "name": "Rio Times — Argentina Central Bank Reform Heads to a Floor Vote",
+          "url": "https://www.riotimesonline.com/argentina-central-bank-reform-charter-vote-2026/"
+        },
+        {
+          "name": "Rio Times — Argentina Pushes Central Bank Reform Toward August 19 Vote",
+          "url": "https://www.riotimesonline.com/argentina-pushes-central-bank-reform-toward-august-19-vote/"
+        }
+      ]
+    },
+    {
+      "text": "Reforma propusă de Milei schimbă statutul BCRA în patru puncte: reduce mandatul băncii la un singur obiectiv (stabilitatea valorii monedei/prețurilor, formularea exactă nu e încă fixată), interzice explicit finanțarea cheltuielilor guvernamentale de către banca centrală, elimină treptat „letras intransferibles” — titlurile de trezorerie netransferabile folosite până acum pentru a transforma rezervele în bani de cheltuit — și impune condiții mai stricte (cauză gravă, decret prezidențial și o majoritate de două treimi în ambele camere) pentru demiterea conducerii băncii.",
+      "sources": [
+        {
+          "name": "Buenos Aires Times — Milei outlines Central Bank reform bill aimed at monetary discipline",
+          "url": "https://www.batimes.com.ar/news/economy/milei-outlines-central-bank-reform-bill-aimed-at-monetary-discipline.phtml"
+        },
+        {
+          "name": "Rio Times — Argentina Central Bank Reform Heads to a Floor Vote",
+          "url": "https://www.riotimesonline.com/argentina-central-bank-reform-charter-vote-2026/"
+        }
+      ]
+    },
+    {
+      "text": "La Libertad Avanza deține aproximativ 93 din cele 257 de locuri din Camera Deputaților după alegerile parțiale din octombrie 2025, adică nu are majoritate proprie. Guvernul depinde de voturile blocurilor aliate, iar la 20 august negocierile pentru asigurarea cvorumului erau încă în curs.",
+      "sources": [
+        {
+          "name": "Rio Times — Argentina Central Bank Reform Heads to a Floor Vote",
+          "url": "https://www.riotimesonline.com/argentina-central-bank-reform-charter-vote-2026/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Principala critică, semnalată de un raport al firmei de analiză PxQ, vizează o clauză pe care criticii o numesc „cal troian”: aceasta ar permite băncii centrale să „ridice dolari pe piețele internaționale folosind rezervele brute ca garanție”. Dacă interpretarea se confirmă, clauza ar redeschide un canal de facto prin care statul poate ajunge, indirect, la resurse suplimentare — chiar dacă legea interzice explicit finanțarea directă a guvernului. Nu există încă o poziție publică a guvernului care să respingă punct cu punct această interpretare.",
+      "sources": [
+        {
+          "name": "Rio Times — Report Warns Argentina Central Bank Reform Could Unlock Borrowing Against Reserves",
+          "url": "https://www.riotimesonline.com/report-warns-argentina-central-bank-reform-could-unlock-borrowing-against-reserves/"
+        }
+      ]
+    },
+    {
+      "text": "Opoziția principală a părăsit dezbaterile în comisie, semn că respinge inclusiv procedura de adoptare, nu doar conținutul legii. Rezultatul votului de miercuri rămâne incert, întrucât guvernul nu are garantată majoritatea necesară.",
+      "sources": [
+        {
+          "name": "Rio Times — Argentina Central Bank Reform Heads to a Floor Vote",
+          "url": "https://www.riotimesonline.com/argentina-central-bank-reform-charter-vote-2026/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă reforma va pune capăt real practicii de emisie monetară pentru acoperirea deficitului bugetar sau va deschide doar un canal alternativ de îndatorare rămâne o chestiune de interpretare economică, nu un fapt care se poate verifica înainte ca legea să intre în vigoare și să fie aplicată."
+    }
+  ],
+  "math": {
+    "title": "93 din 257 nu e majoritate",
+    "explanation": "Pentru a trece în Camera Deputaților, un proiect obișnuit are nevoie de majoritatea simplă a celor prezenți la vot (cvorum de jumătate plus unu din cei 257 de deputați, apoi majoritate din cei prezenți). La Libertad Avanza și aliații controlează aproximativ 93 de locuri — sub pragul de 129 necesar pentru o majoritate absolută din totalul Camerei. De aici depinde negocierea cu blocurile mici: fără voturi suplimentare, reforma poate pica sau poate fi amânată, ca și în prima tentativă de vot din 19 august."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nMiza reală a acestei reforme nu e doar dacă trece votul de miercuri, ci ce înseamnă tehnic textul: interzicerea explicită a finanțării guvernului de către banca centrală e clară, dar clauza semnalată de PxQ despre împrumuturi externe garantate cu rezervele nu a fost, până acum, respinsă public de guvern punct cu punct. Diferența contează pentru că explică de ce opoziția — care nu se opune neapărat principiului „bancă centrală independentă” — a părăsit totuși comisia: nu contestă obiectivul declarat, ci mecanismul prin care ar putea fi ocolit.\n\nCe lipsește pentru a lămuri disputa: formularea finală a articolului privind operațiunile pe piețele internaționale (variantele circulate diferă) și o poziție oficială punct cu punct a Ministerului Economiei argentinian față de raportul PxQ. Rezultatul votului de miercuri, 26 august, și textul adoptat efectiv vor arăta dacă portița descrisă de critici a rămas în lege sau a fost eliminată în ultimul moment.",
+  "persoane": ["Javier Milei"]
+}
