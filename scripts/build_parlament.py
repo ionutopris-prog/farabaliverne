@@ -419,7 +419,15 @@ SCRIPT = '''
       +g.sen.length+' senatori</b>.</p>'
       +'<div class="pl-rez-grid">'+g.dep.concat(g.sen).map(card).join("")+'</div>';
     marcheaza(nr);
-    rez.hidden=false; rez.scrollIntoView({behavior:"smooth",block:"nearest"});
+    // Bara nu mai are voie să arate un om rămas de la o trecere anterioară cu
+    // mouse-ul: lângă un rezultat de căutare, asta se citeşte ca răspuns şi
+    // pare că datele sunt greşite. Arătăm judeţul căutat.
+    sel=-1;
+    for(var z=0;z<poz.length;z++) poz[z].classList.remove("pl-sel");
+    nume.textContent=eticheta;
+    det.textContent=g.dep.length+" deputați și "+g.sen.length+" senatori";
+    dr2.textContent="apasă o bilă evidențiată";
+    punct.style.background="var(--line-2)";
   }
   function cautaNume(t){
     var g=[];
