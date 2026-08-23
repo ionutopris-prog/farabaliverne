@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 19:18:04 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 19:24:05 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Curtea Supremă a SUA permite temporar continuarea construcției sălii de bal de la Casa Albă</title>
+      <link>https://farabaliverne.ro/a/casa-alba-sala-bal-curtea-suprema-suspendare-roberts.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/casa-alba-sala-bal-curtea-suprema-suspendare-roberts.html</guid>
+      <pubDate>Sun, 23 Aug 2026 16:18:13 +0000</pubDate>
+      <category>Extern</category>
+      <description>Președintele Curții Supreme, John Roberts, a semnat vineri, 21 august 2026, un ordin administrativ de o singură propoziție prin care suspendă temporar decizia unei instanțe inferioare care bloca lucrările deasupra solului la sala de bal de la Casa Albă. E o etapă nouă în litigiul pornit de National Trust for Historic Preservation: administrația Trump poate continua construcția în timp ce Curtea Supremă decide dacă preia definitiv cazul.
+
+Unde bat probele: Probat că ordinul de suspendare temporară a fost emis; argumentele de fond ale ambelor părți rămân nedecise. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Zelenski spune că Rusia ar putea primi până la 50.000 de soldați nord-coreeni suplimentari. Phenianul neagă, Seulul nu vede semne</title>
       <link>https://farabaliverne.ro/a/zelenski-coreea-nord-30-50000-soldati-negare.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — acuzație oficială, contestată public de partea v
       <description>Autoritatea Electorală Permanentă, condusă de Adrian Țuțuianu, a pus vineri, 21 august 2026, în transparență decizională un proiect de lege a partidelor care ridică pragul minim de fondatori de la 3 la 100 și mută înregistrarea partidelor de la tribunal la AEP. Scopul declarat: partidele „de familie”, precum clonele PSDI și PSDU. Proiectul e doar propunere — decizia finală e la Parlament.
 
 Unde bat probele: Probat, propunere aflată în consultare. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Atac rusesc în două valuri asupra unui mall din Krivîi Rih, orașul natal al lui Zelenski: 14 morți, peste 120 de răniți</title>
-      <link>https://farabaliverne.ro/a/krivii-rih-atac-drone-mall-dublu-val.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/krivii-rih-atac-drone-mall-dublu-val.html</guid>
-      <pubDate>Fri, 21 Aug 2026 18:40:55 +0000</pubDate>
-      <category>Extern</category>
-      <description>Rusia a lovit vineri, 21 august 2026, un centru comercial din Krivîi Rih cu două valuri de drone, la circa 30 de minute distanță — al doilea val a lovit clădirea în timp ce echipele de salvare interveneau deja. Bilanțul, în creștere pe parcursul zilei: 14 morți, peste 120 de răniți, dintre care 22 de copii.
-
-Unde bat probele: Probat. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
