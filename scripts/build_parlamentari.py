@@ -48,11 +48,22 @@ def scurt(g):
 
 
 def verificari_despre(nume):
-    """Articolele noastre în care apare persoana. Legătura dintre secţiunea asta
-    şi produsul principal: scaunul duce la om, omul duce la ce am verificat."""
-    cheie = fara(nume).lower().split()
-    inv = " ".join(reversed(cheie))          # fişele au „Nume Prenume", articolele invers
-    out = []
+    """Articolele noastre în care apare persoana.
+
+    Potrivirea NU poate fi pe şir exact. Rosterul are „Bolojan Ilie-Gavril"
+    (nume, apoi prenume compus), articolele au „Ilie Bolojan". Compararea
+    naivă rata premierul, cu 52 de verificări, şi arăta „nicio verificare".
+
+    Regula: spargem ambele nume în cuvinte (şi pe cratimă), şi acceptăm dacă
+    toate cuvintele din articol se regăsesc la parlamentar ŞI numele de familie
+    — primul cuvânt din roster — apare în articol. Aşa „Ilie Bolojan" prinde,
+    dar „Ilie Popescu" nu.
+    """
+    parti = [x for x in re.split(r"[\s-]+", fara(nume).lower()) if len(x) > 1]
+    if not parti:
+        return []
+    familie, toate = parti[0], set(parti)
+    out, vazute = [], set()
     for f in os.listdir(os.path.join(ROOT, "data")):
         if not f.endswith(".json") or f.startswith("_"):
             continue
@@ -60,8 +71,10 @@ def verificari_despre(nume):
             d = json.load(open(os.path.join(ROOT, "data", f), encoding="utf-8"))
         except Exception:
             continue
-        for p in (d.get("persoane") or []):
-            if fara(p).lower() in (" ".join(cheie), inv):
+        for pers in (d.get("persoane") or []):
+            pp = {x for x in re.split(r"[\s-]+", fara(pers).lower()) if len(x) > 1}
+            if len(pp) >= 2 and pp <= toate and familie in pp and d["slug"] not in vazute:
+                vazute.add(d["slug"])
                 out.append({"slug": d["slug"], "titlu": d.get("title", ""),
                             "data": d.get("date", ""), "verdict": d.get("mainVerdict", ""),
                             "dek": d.get("dek", "")[:220]})

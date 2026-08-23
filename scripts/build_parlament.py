@@ -60,7 +60,8 @@ def date():
                            "D" if x["camera"] == "Camera Deputaților" else "S",
                            x.get("circumscriptie") or "la nivel naţional",
                            "parlamentar/" + slug(x["nume"]) + ".html",   # pagina noastră
-                           x["fisa"]])                                    # sursa oficială
+                           x["fisa"],                                     # sursa oficială
+                           x.get("circumscriptie_nr") or 0])              # pentru „Parlamentarul tău"
     return oameni, legenda, d.get("actualizat", "")
 
 
@@ -85,9 +86,19 @@ def main_html(oameni, legenda, actualizat):
             <div class="pl-nume" id="plNume">Plimbă degetul sau cursorul peste sală</div>
             <div class="pl-det" id="plDet">Fiecare scaun e un om cu nume — apare aici.</div>
           </div>
-          <div class="pl-dr" id="plDr">{len(oameni)} de locuri</div>
+          <div class="pl-dreapta">
+            <div class="pl-dr" id="plDr">{len(oameni)} de locuri</div>
+            <div class="pl-cauta">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+              <input id="plQ" type="search" placeholder="Parlamentarul tău" autocomplete="off"
+                     aria-label="Caută parlamentarul tău după localitate sau nume">
+            </div>
+          </div>
         </div>
         <div class="pl-sala" id="plSala"><div class="pl-prezidiu">Prezidiu</div></div>
+        <div class="pl-rezultat" id="plRez" hidden></div>
         <div class="pl-legenda">{leg}</div>
       </div>
 
@@ -165,6 +176,38 @@ def main_html(oameni, legenda, actualizat):
 
 
 STIL = '''
+.pl-dreapta{margin-left:auto;text-align:right;flex:0 0 auto;display:flex;flex-direction:column;
+            align-items:flex-end;gap:7px}
+.pl-dr{font-size:12.5px;color:var(--ink-faint)}
+.pl-cauta{display:flex;align-items:center;gap:6px;width:190px;height:26px;box-sizing:border-box;
+          padding:0 11px;border:1px solid var(--line-2);border-radius:30px;background:var(--paper-2);
+          color:var(--ink-faint);transition:border-color .15s,background .15s}
+.pl-cauta:focus-within{border-color:var(--accent);background:var(--card);color:var(--accent)}
+.pl-cauta svg{flex:0 0 auto}
+.pl-cauta input{border:0;background:transparent;outline:0;width:100%;font:inherit;font-size:12.5px;
+                color:var(--ink);padding:0}
+.pl-cauta input::placeholder{color:var(--ink-faint);font-weight:700}
+.pl-cauta input::-webkit-search-cancel-button{-webkit-appearance:none}
+.pl-rezultat{margin-top:14px;border-top:1px solid var(--line);padding-top:15px}
+.pl-rez-cap{font-family:var(--serif);font-size:20px;margin:0 0 3px;letter-spacing:-.01em}
+.pl-rez-sub{margin:0 0 14px;font-size:13.5px;color:var(--ink-soft);line-height:1.55}
+.pl-rez-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.pl-om{display:flex;gap:10px;align-items:flex-start;background:var(--paper-2);border:1px solid var(--line);
+       border-radius:11px;padding:11px 13px;text-decoration:none}
+.pl-om:hover{border-color:var(--line-2);background:var(--card)}
+.pl-om i{width:10px;height:10px;border-radius:50%;flex:0 0 auto;margin-top:5px;
+         border:1px solid rgba(34,39,31,.2)}
+.pl-om b{display:block;font-size:14.5px;line-height:1.35;color:var(--ink)}
+.pl-om span{font-size:12.5px;color:var(--ink-faint)}
+.pl-optiuni{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.pl-optiuni button{padding:6px 13px;border:1px solid var(--line-2);border-radius:30px;
+                   background:var(--card);font:inherit;font-size:13px;color:var(--ink);cursor:pointer}
+.pl-optiuni button:hover{border-color:var(--accent);color:var(--accent)}
+@media (max-width:900px){
+  .pl-dreapta{margin-left:0;width:100%;align-items:stretch;text-align:left}
+  .pl-cauta{width:100%;height:34px}
+}
+
 .pl-prez{background:var(--card);border:1px solid var(--line);border-radius:16px;
          box-shadow:var(--shadow);padding:24px;margin-top:16px}
 .pl-prez h2{font-family:var(--serif);font-size:24px;margin:0 0 5px;letter-spacing:-.01em}
@@ -298,6 +341,77 @@ SCRIPT = '''
     if(idx===sel) window.location.href=O[idx][4];   // a doua atingere: pagina noastră
     else arata(idx);
   },{passive:true});
+
+  // ─── „Parlamentarul tău" ────────────────────────────────────────
+  // Caută după localitate (10.217, din SIRUTA publicat de INS) sau după nume.
+  // Tabelul se încarcă abia la prima tastare — 299 KB pe care nu-i plăteşte
+  // nimeni care doar se uită la hemiciclu.
+  var q=document.getElementById("plQ"), rez=document.getElementById("plRez"), LOC=null, CIRC=null;
+  function curat(s){return s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()
+                     .replace(/[-\s]+/g," ").trim();}
+  function delegatie(nrCirc){
+    var d=[],sn=[];
+    for(var i=0;i<O.length;i++){
+      if(String(O[i][6])===String(nrCirc)) (O[i][2]==="D"?d:sn).push(i);
+    }
+    return {dep:d,sen:sn};
+  }
+  function card(i){
+    var o=O[i];
+    return '<a class="pl-om" href="'+o[4]+'"><i style="background:'+L[o[1]].culoare+'"></i>'
+      +'<span><b>'+o[0]+'</b>'+L[o[1]].nume+' · '+(o[2]==="D"?"Deputat":"Senator")+'</span></a>';
+  }
+  function arataCirc(nr,eticheta){
+    var g=delegatie(nr), tot=g.dep.length+g.sen.length;
+    if(!tot){rez.hidden=true;return;}
+    rez.innerHTML='<h3 class="pl-rez-cap">'+eticheta+'</h3>'
+      +'<p class="pl-rez-sub">În România nu ai <b>un</b> parlamentar, ai o <b>delegație</b>: toți cei aleși '
+      +'pe lista județului te reprezintă deopotrivă. Aici sunt <b>'+g.dep.length+' deputați și '
+      +g.sen.length+' senatori</b>.</p>'
+      +'<div class="pl-rez-grid">'+g.dep.concat(g.sen).map(card).join("")+'</div>';
+    rez.hidden=false; rez.scrollIntoView({behavior:"smooth",block:"nearest"});
+  }
+  function cautaNume(t){
+    var g=[];
+    for(var i=0;i<O.length && g.length<12;i++) if(curat(O[i][0]).indexOf(t)>=0) g.push(i);
+    if(!g.length) return false;
+    rez.innerHTML='<h3 class="pl-rez-cap">'+g.length+' potriviri după nume</h3>'
+      +'<div class="pl-rez-grid">'+g.map(card).join("")+'</div>';
+    rez.hidden=false; return true;
+  }
+  function cauta(){
+    var t=curat(q.value);
+    if(t.length<2){rez.hidden=true;return;}
+    if(!LOC){rez.hidden=false;rez.innerHTML='<p class="pl-rez-sub">Se încarcă lista localităților…</p>';
+      fetch("date/localitati.json").then(function(r){return r.json();})
+        .then(function(d){LOC=d.loc;CIRC=d.circ;cauta();})
+        .catch(function(){rez.innerHTML='<p class="pl-rez-sub">Nu am putut încărca lista localităților. '
+          +'Caută după numele parlamentarului.</p>';});
+      return;}
+    var l=LOC[t];
+    if(!l){ // potrivire pe început de nume, dacă nu e exactă
+      for(var k in LOC){ if(k.indexOf(t)===0){l=LOC[k];break;} }
+    }
+    if(l){
+      var jud=l.slice(1);
+      if(jud.length===1){arataCirc(jud[0],l[0]+" ține de circumscripția "+CIRC[jud[0]]);return;}
+      rez.innerHTML='<h3 class="pl-rez-cap">„'+l[0]+'" există în '+jud.length+' județe</h3>'
+        +'<p class="pl-rez-sub">Alege-l pe al tău:</p><div class="pl-optiuni">'
+        +jud.map(function(n){return '<button data-nr="'+n+'" data-e="'+l[0]+', '+CIRC[n]+'">'
+          +CIRC[n]+'</button>';}).join("")+'</div>';
+      rez.hidden=false; return;
+    }
+    if(!cautaNume(t)){
+      rez.innerHTML='<p class="pl-rez-sub">Nu găsesc „'+q.value+'". Încearcă numele localității '
+        +'(ex. <i>Zalău</i>) sau al parlamentarului.</p>'; rez.hidden=false;
+    }
+  }
+  if(q){
+    var timp; q.addEventListener("input",function(){clearTimeout(timp);timp=setTimeout(cauta,180);});
+    rez.addEventListener("click",function(ev){
+      var b=ev.target.closest("button[data-nr]"); if(b) arataCirc(b.dataset.nr,b.dataset.e);
+    });
+  }
 })();
 '''
 
