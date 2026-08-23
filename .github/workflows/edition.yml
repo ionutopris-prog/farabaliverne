@@ -101,17 +101,6 @@ jobs:
           RO_WEEKEND=0
           if [ "$H" -eq 6 ] || [ "$H" -eq 12 ] || [ "$H" -eq 18 ]; then RO_WEEKEND=1; fi
 
-          # In weekend taiem doua editii de zi, ca socoteala pe 24h sa iasa
-          # exact 3 romanesti + 6 internationale. Cele doua de NOAPTE (Asia la
-          # 22 UTC si Stiinta la 01 UTC) sunt tot internationale si intra in
-          # cele 6 — fara taietura ar iesi 8. Sarim la 08 si 14 UTC.
-          # O editie sarita nu costa nimic: iesim inainte sa pornim redactorul.
-          if [ "$WEEKEND" -eq 1 ] && { [ "$H" -eq 8 ] || [ "$H" -eq 14 ]; }; then
-            echo "Weekend: editia de la ${H}:00 UTC e sarita intentionat (3 RO + 6 international pe 24h)."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "before=$BEFORE" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
 
           if [ "$H" -ge 3 ] && [ "$H" -le 20 ] && [ "$WEEKEND" -eq 1 ] && [ "$RO_WEEKEND" -eq 0 ]; then
             W="ZI DE WEEKEND — INTERNATIONAL. REGULA ROMANIEI NU SE APLICA in fereastra asta: nu esti obligat sa publici despre Romania, si NU forta un subiect romanesc slab doar ca sa bifezi. Acoperi TOATA LUMEA, fara regiune obligatorie: Asia-Pacific, America (SUA, Canada, America Latina), Africa, Europa, Orientul Mijlociu. ROTESTE regiunile intre editii si in cadrul aceleiasi editii — nu face trei articole despre aceeasi tara. Alege dupa MIZA subiectului, nu dupa harta. Ai voie si TREBUIE sa reiei subiecte MARI din cursul saptamanii care au ramas neacoperite — nu doar ce s-a intamplat in ultimele ore: o lege importanta votata marti, o decizie de instanta de joi, un raport economic de vineri. Verifica intai in data/ ca nu le-ai facut deja (foloseste scripts/seamana.py). Prefera subiecte CU MIZA, unde exista afirmatii de verificat, nu comunicate. Daca gasesti totusi ceva romanesc nou si important, publica-l — dar ca alegere, nu ca obligatie."
