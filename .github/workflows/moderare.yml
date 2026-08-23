@@ -1,0 +1,113 @@
+name: Moderare — publică ce aprobă fondatorul
+
+# Fondatorul primește pe email articolele oprite de poarta de siguranță.
+# GitHub permite RĂSPUNSUL la mailul de notificare — răspunsul devine comentariu
+# pe problemă. Workflow-ul ăsta citește comentariul și execută.
+#
+# Adică: primești mailul pe telefon, răspunzi „publică toate", gata. Fără laptop,
+# fără GitHub, fără mine.
+#
+# Comenzi acceptate (oriunde în comentariu, cu sau fără diacritice):
+#   publica toate            → publică tot ce e parcat
+#   publica <slug>           → publică doar articolul ăla
+#   respinge <slug>          → șterge ramura, articolul nu se publică niciodată
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  moderare:
+    # Doar pe problema cozii, și DOAR comentariile proprietarului. Altfel
+    # oricine ar putea comenta „publica toate" pe un repo public.
+    if: |
+      contains(github.event.issue.title, 'Articole care așteaptă aprobarea ta') &&
+      github.event.comment.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unelte pentru poze
+        run: pip install --quiet Pillow
+
+      - name: Execută comanda
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMENTARIU: ${{ github.event.comment.body }}
+          NR: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "Fara Baliverne Bot"
+          git config user.email "bot@farabaliverne.ro"
+          git fetch -q origin '+refs/heads/pending/*:refs/remotes/origin/pending/*' || true
+
+          # Normalizăm: fără diacritice, litere mici. Răspunsul dat de pe telefon
+          # vine cum vine — „Publică", „publica", „PUBLICA TOATE".
+          CMD="$(printf '%s' "$COMENTARIU" | tr 'ĂÂÎȘȚăâîșț' 'AAISTaaist' | tr '[:upper:]' '[:lower:]')"
+
+          # Răspunsul la un mail GitHub include textul citat al mesajului
+          # original. Tăiem tot de la prima linie citată încolo, altfel
+          # comanda s-ar putea citi din ce a scris botul, nu din ce ai scris tu.
+          CMD="$(printf '%s' "$CMD" | sed '/^>/,$d')"
+
+          PUBLICATE=""; RESPINSE=""
+
+          publica_unul() {
+            local slug="$1" b="origin/pending/$slug"
+            git rev-parse --verify -q "$b" >/dev/null || { echo "nu există ramura pentru $slug"; return 1; }
+            git diff --name-only --diff-filter=A -z "origin/main...$b" | xargs -0 -r git checkout "$b" --
+            [ -f "data/$slug.json" ] || { echo "$slug: nu am găsit datele"; return 1; }
+            PUBLICATE="$PUBLICATE $slug"
+            git push -q origin --delete "pending/$slug" 2>/dev/null || true
+          }
+
+          if printf '%s' "$CMD" | grep -q "publica toate"; then
+            for b in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/pending | sed 's|origin/pending/||'); do
+              for f in $(git diff --name-only --diff-filter=A "origin/main...origin/pending/$b" -- data/ | grep '\.json$'); do
+                s="$(basename "$f" .json)"; [ -f "a/$s.html" ] || publica_unul "$b" || true
+              done
+            done
+          else
+            for b in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/pending | sed 's|origin/pending/||'); do
+              if printf '%s' "$CMD" | grep -q "publica.*$b"; then publica_unul "$b" || true; fi
+              if printf '%s' "$CMD" | grep -q "respinge.*$b"; then
+                git push -q origin --delete "pending/$b" 2>/dev/null && RESPINSE="$RESPINSE $b"
+              fi
+            done
+          fi
+
+          if [ -n "$PUBLICATE" ]; then
+            python3 scripts/build_site.py
+            python3 scripts/shrink_images.py || true
+            python3 scripts/scoate_hotlink.py --chiar || true
+            git add -A
+            git commit -m "Publicate la aprobarea fondatorului:$PUBLICATE"
+            for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin main && break; sleep 5; done
+            gh workflow run deploy.yml --ref main || true
+          fi
+
+          MESAJ=""
+          [ -n "$PUBLICATE" ] && MESAJ="✅ Publicat:$PUBLICATE — ajunge pe site în câteva minute."
+          [ -n "$RESPINSE" ] && MESAJ="$MESAJ
+          🗑️ Respins (ramura ștearsă):$RESPINSE"
+          if [ -z "$MESAJ" ]; then
+            MESAJ="Nu am recunoscut nicio comandă. Scrie \`publica toate\`, \`publica <slug>\` sau \`respinge <slug>\`.
+          Ca să MODIFICI un articol înainte de publicare, spune-i lui Claude ce să schimbe — răspunsul aici doar publică sau respinge, nu editează."
+          fi
+          gh issue comment "$NR" --body "$MESAJ"
+
+      - name: Reface coada
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/parcate.py || true

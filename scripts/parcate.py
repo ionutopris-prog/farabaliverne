@@ -19,6 +19,33 @@ FONDATOR = "ionutopris-prog"
 def sh(*a, **k):
     return subprocess.run(a, capture_output=True, text=True, **k).stdout.strip()
 
+
+def rezumat_articol(b, fisier, d):
+    """Articolul, în formă citibilă — ca să-l poți judeca direct din email,
+    fără să intri pe GitHub. Fondatorul nu poate aproba ce nu vede."""
+    r = [f"### {d.get('title','(fără titlu)')}",
+         f"`{d.get('category','?')}` · {d.get('date','?')} · **{d.get('mainVerdict','?')}**",
+         f"Sursă: {d.get('source','?')} — {d.get('url','')}",
+         "", f"**Rezumat:** {d.get('dek','')}", ""]
+    for cheie, et in (("probat", "✅ Se probează"), ("contestat", "⚠️ Contestat / neclar"),
+                      ("opinie", "💬 Opinie, nu fapt")):
+        it = d.get(cheie) or []
+        if not it:
+            continue
+        r.append(f"**{et}** ({len(it)}):")
+        for x in it:
+            t = x.get("text", "") if isinstance(x, dict) else str(x)
+            r.append(f"- {t[:600]}{'…' if len(t) > 600 else ''}")
+            for sr in (x.get("sources") or [] if isinstance(x, dict) else []):
+                r.append(f"  - [{sr.get('name','sursă')[:90]}]({sr.get('url','')})")
+        r.append("")
+    nota = str(d.get("aiNote", ""))
+    if nota:
+        r.append(f"**🤖 Nota AI:** {nota[:900]}{'…' if len(nota) > 900 else ''}")
+    r.append(f"\n<sub>Ramura: `{b.split('origin/')[-1]}` · slug: `{fisier}`</sub>")
+    return "\n".join(r)
+
+
 def main():
     sh("git", "fetch", "-q", "origin", "+refs/heads/pending/*:refs/remotes/origin/pending/*")
     branches = sh("git", "for-each-ref", "--format=%(refname:short)",
@@ -52,7 +79,7 @@ def main():
                     titlu, cat, data = d.get("title", slug), d.get("category", "?"), d.get("date", "?")
                 except Exception:
                     pass
-            asteapta.append((data, cat, titlu, slug))
+            asteapta.append((data, cat, titlu, slug, rezumat_articol(b, slug, d) if raw else ""))
 
     # Căutăm în TOATE stările, nu doar „open". Problema se închide singură când
     # nu mai e nimic parcat; dacă am căuta doar printre cele deschise, la
@@ -79,15 +106,25 @@ def main():
 
     asteapta.sort(reverse=True)
     pe_cat = {}
-    for _, cat, _, _ in asteapta:
+    for _, cat, _, _, _ in asteapta:
         pe_cat[cat] = pe_cat.get(cat, 0) + 1
     rezumat = " · ".join(f"{c}: {n}" for c, n in sorted(pe_cat.items(), key=lambda x: -x[1]))
-    linii = "\n".join(f"- **{d}** · `{c}` — {t}  \n  `{s}`" for d, c, t, s in asteapta)
+    linii = "\n".join(f"- **{d}** · `{c}` — {t}  \n  `{s}`" for d, c, t, s, _ in asteapta)
     corp = (f"**{len(asteapta)} articole** scrise și oprite de poarta de siguranță "
             f"(politică internă sau persoană numită). Nu sunt pe site.\n\n"
             f"{rezumat}\n\n---\n\n{linii}\n\n---\n\n"
-            f"Ca să le publici: dă-i lui Claude lista de slug-uri pe care le vrei, "
-            f"sau spune „toate”.")
+            f"---\n\n"
+            f"### Ce poți face — direct din email\n\n"
+            f"**Răspunde la mailul ăsta** (sau comentează aici) cu una dintre:\n\n"
+            f"| Comandă | Ce face |\n|---|---|\n"
+            f"| `publica toate` | publică tot ce e în listă |\n"
+            f"| `publica <slug>` | publică doar articolul ăla |\n"
+            f"| `respinge <slug>` | șterge definitiv, nu se publică |\n\n"
+            f"Diacriticele și majusculele nu contează. Textul citat din mail e ignorat, "
+            f"deci poți răspunde normal, fără să ștergi nimic.\n\n"
+            f"**Vrei să MODIFICI un articol înainte de publicare?** Comenzile de mai sus "
+            f"doar publică sau resping. Pentru schimbări de conținut, spune-i lui Claude "
+            f"ce anume să schimbe — el editează, apoi publici.")
 
     if existent:
         # O problemă închisă („nu mai e nimic parcat") trebuie REDESCHISĂ când
@@ -103,10 +140,10 @@ def main():
         # De-aia: corpul se editează întotdeauna, dar când apar articole NOI
         # față de ce era acolo, lăsăm și un comentariu — ăla ajunge pe email.
         vechi_corp = sh("gh", "issue", "view", existent, "--json", "body", "--jq", ".body")
-        noi = [(d, c, t, sl) for d, c, t, sl in asteapta if f"`{sl}`" not in vechi_corp]
+        noi = [(d, c, t, sl, txt) for d, c, t, sl, txt in asteapta if f"`{sl}`" not in vechi_corp]
         subprocess.run(["gh", "issue", "edit", existent, "--body", corp])
         if noi:
-            lista = "\n".join(f"- **{d}** · `{c}` — {t}  \n  `{sl}`" for d, c, t, sl in noi)
+            lista = "\n\n---\n\n".join(txt for *_, txt in noi)
             subprocess.run(["gh", "issue", "edit", existent, "--add-assignee", FONDATOR],
                            capture_output=True)
             subprocess.run(["gh", "issue", "comment", existent, "--body",
