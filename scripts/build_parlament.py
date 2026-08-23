@@ -79,29 +79,6 @@ def main_html(oameni, legenda, actualizat):
       <p class="pl-intro">Fiecare scaun e un om cu nume. Treci cu degetul sau cu cursorul peste sală.
         <b>Nu dăm note și nu ținem scor</b> — arătăm ce e documentat, tragi tu linia.</p>
 
-      <div class="pl-card">
-        <div class="pl-bara" id="plBara">
-          <i id="plPunct"></i>
-          <div class="pl-txt">
-            <div class="pl-nume" id="plNume">Plimbă degetul sau cursorul peste sală</div>
-            <div class="pl-det" id="plDet">Fiecare scaun e un om cu nume — apare aici.</div>
-          </div>
-          <div class="pl-dreapta">
-            <div class="pl-dr" id="plDr">{len(oameni)} de locuri</div>
-            <div class="pl-cauta">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                   stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
-                <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
-              <input id="plQ" type="search" placeholder="Parlamentarul tău" autocomplete="off"
-                     aria-label="Caută parlamentarul tău după localitate sau nume">
-            </div>
-          </div>
-        </div>
-        <div class="pl-sala" id="plSala"><div class="pl-prezidiu">Prezidiu</div></div>
-        <div class="pl-rezultat" id="plRez" hidden></div>
-        <div class="pl-legenda">{leg}</div>
-      </div>
-
       <section class="pl-prez">
         <h2>Prezidiul — cine conduce și de ce</h2>
         <p class="pl-prez-sub">Locurile din prezidiu nu se ocupă din obicei, ci după regulament.
@@ -148,6 +125,29 @@ def main_html(oameni, legenda, actualizat):
           <p class="pl-art">Art. 13, Regulamentul activităților comune</p>
         </div>
       </section>
+
+      <div class="pl-card">
+        <div class="pl-bara" id="plBara">
+          <i id="plPunct"></i>
+          <div class="pl-txt">
+            <div class="pl-nume" id="plNume">Plimbă degetul sau cursorul peste sală</div>
+            <div class="pl-det" id="plDet">Fiecare scaun e un om cu nume — apare aici.</div>
+          </div>
+          <div class="pl-dreapta">
+            <div class="pl-dr" id="plDr">{len(oameni)} de locuri</div>
+            <div class="pl-cauta">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+              <input id="plQ" type="search" placeholder="Parlamentarul tău" autocomplete="off"
+                     aria-label="Caută parlamentarul tău după localitate sau nume">
+            </div>
+          </div>
+        </div>
+        <div class="pl-sala" id="plSala"></div>
+        <div class="pl-rezultat" id="plRez" hidden></div>
+        <div class="pl-legenda">{leg}</div>
+      </div>
 
       <div class="pl-note">
         <div class="pl-nota">
@@ -209,7 +209,7 @@ STIL = '''
 }
 
 .pl-prez{background:var(--card);border:1px solid var(--line);border-radius:16px;
-         box-shadow:var(--shadow);padding:24px;margin-top:16px}
+         box-shadow:var(--shadow);padding:24px;margin:0 0 16px}
 .pl-prez h2{font-family:var(--serif);font-size:24px;margin:0 0 5px;letter-spacing:-.01em}
 .pl-prez-sub{margin:0 0 18px;font-size:14.5px;color:var(--ink-soft);line-height:1.55;max-width:760px}
 .pl-masa{display:flex;gap:12px;align-items:stretch;margin-bottom:12px;flex-wrap:wrap}
@@ -260,16 +260,12 @@ STIL = '''
 .pl-src{font-size:12.5px}
 .pl-det{font-size:13.5px;color:var(--ink-soft);margin-top:2px}
 .pl-dr{margin-left:auto;text-align:right;flex:0 0 auto;font-size:12.5px;color:var(--ink-faint)}
-.pl-sala{position:relative;height:820px;max-width:760px;margin:0 auto}
-.pl-scaun{position:absolute;border-radius:50%;border:1px solid rgba(34,39,31,.18);
-          box-sizing:border-box;cursor:pointer;transition:transform .08s}
-.pl-scaun:hover,.pl-scaun.pl-sel{transform:scale(1.8);z-index:5;
+.pl-sala{display:grid;grid-template-columns:repeat(auto-fill,minmax(19px,1fr));
+         gap:5px;max-width:1000px;margin:0 auto;padding:4px 0}
+.pl-scaun{aspect-ratio:1;border-radius:50%;border:1px solid rgba(34,39,31,.18);padding:0;
+          box-sizing:border-box;cursor:pointer;transition:transform .1s;appearance:none}
+.pl-scaun:hover,.pl-scaun.pl-sel,.pl-scaun:focus-visible{transform:scale(1.45);z-index:5;outline:0;
           box-shadow:0 0 0 2px var(--card),0 0 0 3.5px var(--ink)}
-.pl-prezidiu{position:absolute;left:0;top:50%;transform:translateY(-50%) rotate(180deg);
-   writing-mode:vertical-rl;width:26px;height:190px;
-   border-radius:6px;background:var(--paper-2);border:1px solid var(--line-2);display:flex;
-   align-items:center;justify-content:center;font-size:11px;letter-spacing:.1em;
-   text-transform:uppercase;color:var(--ink-faint);font-weight:800}
 .pl-legenda{display:flex;gap:20px;flex-wrap:wrap;align-items:center;border-top:1px solid var(--line);
             margin-top:16px;padding-top:15px}
 .pl-leg{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink-soft)}
@@ -285,7 +281,7 @@ STIL = '''
 @media (max-width:900px){
   .pl-note{grid-template-columns:1fr}
   .pl-cap h1{font-size:28px}
-  .pl-sala{height:560px}
+  .pl-sala{grid-template-columns:repeat(auto-fill,minmax(16px,1fr));gap:4px}
   .pl-bara{flex-wrap:wrap}
   .pl-dr{margin-left:0;width:100%;text-align:left}
 }
@@ -296,31 +292,19 @@ SCRIPT = '''
   var el=document.getElementById("plDate"); if(!el) return;
   var D=JSON.parse(el.textContent), O=D.o, L=D.l;
   var sala=document.getElementById("plSala");
-  // Hemiciclu VERTICAL: acelaşi semicerc, rotit 90°. Centrul stă pe marginea
-  // din stânga, la mijlocul înălţimii, iar rândurile se desfăşoară spre dreapta,
-  // de sus în jos. Prezidiul rămâne în centrul cercului — adică pe stânga.
-  var lat=sala.clientWidth||760, inalt=sala.clientHeight||820;
-  var cx=34, cy=inalt/2, r0=inalt*0.13, randuri=10, d=Math.max(8,Math.round(inalt/64));
-  var dr=(Math.min(lat-d-6, cy)-r0-d)/(randuri-1);
-  var g=[],sg=0,i,j; for(i=0;i<randuri;i++){g.push(r0+i*dr);sg+=r0+i*dr;}
-  var per=[],ram=O.length;
-  for(i=0;i<randuri;i++){var n=(i===randuri-1)?ram:Math.round(O.length*g[i]/sg);per.push(n);ram-=n;}
-  var k=0,poz=[];
-  for(i=0;i<randuri;i++){
-    var r=g[i];
-    for(j=0;j<per[i]&&k<O.length;j++,k++){
-      // unghi de la -90° (sus) la +90° (jos), deschis spre dreapta
-      var t=per[i]===1?0.5:j/(per[i]-1), a=-Math.PI/2+t*Math.PI;
-      var s=document.createElement("div");
-      s.className="pl-scaun"; s.dataset.i=k;
-      s.style.left=Math.round(cx+r*Math.cos(a)-d/2)+"px";
-      s.style.top=Math.round(cy+r*Math.sin(a)-d/2)+"px";
-      s.style.width=d+"px"; s.style.height=d+"px";
-      s.style.background=L[O[k][1]].culoare;
-      s.setAttribute("aria-label",O[k][0]);
-      sala.appendChild(s); poz.push(s);
-    }
+  // Toţi cei 464 într-un singur bloc, în ordinea grupurilor — aşa culorile
+  // formează benzi continue şi se vede dintr-o privire cât cântăreşte fiecare.
+  // Fără arc: semicercul arăta frumos, dar la 464 de puncte pe zece rânduri
+  // curbe nu puteai nimeri un om anume cu degetul.
+  var poz=[];
+  for(var k=0;k<O.length;k++){
+    var s=document.createElement("button");
+    s.type="button"; s.className="pl-scaun"; s.dataset.i=k;
+    s.style.background=L[O[k][1]].culoare;
+    s.setAttribute("aria-label",O[k][0]+" — "+L[O[k][1]].nume);
+    sala.appendChild(s); poz.push(s);
   }
+
   var nume=document.getElementById("plNume"), det=document.getElementById("plDet"),
       dr2=document.getElementById("plDr"), punct=document.getElementById("plPunct"), sel=-1;
   function arata(idx){
