@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 05:49:39 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 07:42:25 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Global Times promovează debutul bursier al CXMT ca „autonomie tehnologică” — chiar sursa de stat recunoaște un decalaj de 2-3 generații față de Samsung, SK Hynix și Micron</title>
+      <link>https://farabaliverne.ro/a/china-cxmt-dram-decalaj-generatii-global-times.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/china-cxmt-dram-decalaj-generatii-global-times.html</guid>
+      <pubDate>Sun, 23 Aug 2026 02:49:44 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>Ce SUSȚINE presa de stat chineză (Global Times): că debutul bursier al CXMT — a patra companie din lume capabilă de producție independentă de memorie DRAM, după Samsung, SK Hynix și Micron — e un pas istoric spre autonomia tehnologică a Chinei. Ce recunoaște chiar același articol, și confirmă un analist independent citat separat: CXMT rămâne cu 2-3 generații tehnologice în urma liderilor globali, iar accesul la echipamente EUV rămâne blocat de restricțiile occidentale.
+
+Unde bat probele: Probat, cu context omis — debutul bursier și titlul de „a patra companie DRAM” sunt reale; cadrul de „autonomie tehnologică” trece rapid peste un decalaj pe care aceeași sursă îl recunoaște explicit. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Premierul Malaeziei spune că „Taiwanul e parte a Chinei” — Taipei acuză legitimarea folosirii forței pentru reunificare</title>
       <link>https://farabaliverne.ro/a/anwar-ibrahim-taiwan-parte-china-mofa-raspuns.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Faptul întâlnirii: probat, nenegat. Acuzația de „trafic d
       <description>INS a anunțat pe 14 august 2026 că PIB-ul real al României a scăzut în primul semestru cu 0,8% (serie brută) și 1,6% (serie ajustată sezonier) față de S1 2025 — sub ținta de creștere de 1% din buget. Liderul PSD Sorin Grindeanu îl acuză pe premierul interimar Ilie Bolojan că a „prăbușit economia”, deși guvernul Bolojan a inclus și miniștri PSD până la moțiunea de cenzură din 5 mai 2026, votată chiar de PSD.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>România are „cea mai mare scădere economică din UE”? Datele Eurostat arată altceva — Irlanda a scăzut mai mult</title>
-      <link>https://farabaliverne.ro/a/georgescu-pib-romania-scadere-eurostat-t2-2026.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/georgescu-pib-romania-scadere-eurostat-t2-2026.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Economie</category>
-      <description>Economistul Radu Georgescu susține, citând Eurostat, că România are „cea mai mare scădere economică din UE” în 2026. Cifrele Eurostat pentru trimestrul 2 arată însă că PIB-ul românesc a scăzut cu 2% anual — a doua cea mai slabă performanță din UE, după Irlanda (-5,6%), nu prima. Pe altă cifră din lista sa, inflația, Eurostat chiar îi dă dreptate.
-
-Unde bat probele: Probat parțial — „cea mai mare scădere” nu se susține. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
