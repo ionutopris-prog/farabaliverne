@@ -476,12 +476,13 @@
 .pl-src{font-size:12.5px}
 .pl-det{font-size:13.5px;color:var(--ink-soft);margin-top:2px}
 .pl-dr{margin-left:auto;text-align:right;flex:0 0 auto;font-size:12.5px;color:var(--ink-faint)}
-.pl-sala{position:relative;height:420px;max-width:1060px;margin:0 auto}
+.pl-sala{position:relative;height:820px;max-width:760px;margin:0 auto}
 .pl-scaun{position:absolute;border-radius:50%;border:1px solid rgba(34,39,31,.18);
           box-sizing:border-box;cursor:pointer;transition:transform .08s}
 .pl-scaun:hover,.pl-scaun.pl-sel{transform:scale(1.8);z-index:5;
           box-shadow:0 0 0 2px var(--card),0 0 0 3.5px var(--ink)}
-.pl-prezidiu{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:190px;height:26px;
+.pl-prezidiu{position:absolute;left:0;top:50%;transform:translateY(-50%) rotate(180deg);
+   writing-mode:vertical-rl;width:26px;height:190px;
    border-radius:6px;background:var(--paper-2);border:1px solid var(--line-2);display:flex;
    align-items:center;justify-content:center;font-size:11px;letter-spacing:.1em;
    text-transform:uppercase;color:var(--ink-faint);font-weight:800}
@@ -500,7 +501,7 @@
 @media (max-width:900px){
   .pl-note{grid-template-columns:1fr}
   .pl-cap h1{font-size:28px}
-  .pl-sala{height:300px}
+  .pl-sala{height:560px}
   .pl-bara{flex-wrap:wrap}
   .pl-dr{margin-left:0;width:100%;text-align:left}
 }
@@ -834,9 +835,12 @@
   var el=document.getElementById("plDate"); if(!el) return;
   var D=JSON.parse(el.textContent), O=D.o, L=D.l;
   var sala=document.getElementById("plSala");
-  var lat=sala.clientWidth||1060, inalt=sala.clientHeight||420;
-  var cx=lat/2, cy=inalt-24, r0=inalt*0.26, randuri=10, d=Math.max(8,Math.round(lat/82));
-  var dr=(Math.min(cx,cy)-r0-d)/(randuri-1);
+  // Hemiciclu VERTICAL: acelaşi semicerc, rotit 90°. Centrul stă pe marginea
+  // din stânga, la mijlocul înălţimii, iar rândurile se desfăşoară spre dreapta,
+  // de sus în jos. Prezidiul rămâne în centrul cercului — adică pe stânga.
+  var lat=sala.clientWidth||760, inalt=sala.clientHeight||820;
+  var cx=34, cy=inalt/2, r0=inalt*0.13, randuri=10, d=Math.max(8,Math.round(inalt/64));
+  var dr=(Math.min(lat-d-6, cy)-r0-d)/(randuri-1);
   var g=[],sg=0,i,j; for(i=0;i<randuri;i++){g.push(r0+i*dr);sg+=r0+i*dr;}
   var per=[],ram=O.length;
   for(i=0;i<randuri;i++){var n=(i===randuri-1)?ram:Math.round(O.length*g[i]/sg);per.push(n);ram-=n;}
@@ -844,11 +848,12 @@
   for(i=0;i<randuri;i++){
     var r=g[i];
     for(j=0;j<per[i]&&k<O.length;j++,k++){
-      var t=per[i]===1?0.5:j/(per[i]-1), a=Math.PI-t*Math.PI;
+      // unghi de la -90° (sus) la +90° (jos), deschis spre dreapta
+      var t=per[i]===1?0.5:j/(per[i]-1), a=-Math.PI/2+t*Math.PI;
       var s=document.createElement("div");
       s.className="pl-scaun"; s.dataset.i=k;
       s.style.left=Math.round(cx+r*Math.cos(a)-d/2)+"px";
-      s.style.top=Math.round(cy-r*Math.sin(a)-d/2)+"px";
+      s.style.top=Math.round(cy+r*Math.sin(a)-d/2)+"px";
       s.style.width=d+"px"; s.style.height=d+"px";
       s.style.background=L[O[k][1]].culoare;
       s.setAttribute("aria-label",O[k][0]);
