@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    :root{
+      --ink:#22271f; --ink-soft:#556050; --ink-faint:#87907c;
+      --paper:#e7f0e4; --paper-2:#f1f7ef; --card:#fff;
+      --line:#d6e2d0; --line-2:#bfd2b7;
+      --accent:#a5372a; --accent-deep:#7c2620; --accent-soft:#f6e6df; --gold:#b3852e;
+      --serif:Georgia,'Times New Roman',Cambria,serif;
+      --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    }
+    body{margin:0;background:var(--paper);font-family:var(--sans);color:var(--ink);
+         -webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-decoration:none} a:hover{color:var(--accent-deep);text-decoration:underline}
+    .eticheta{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);font-weight:800}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+          box-shadow:0 1px 2px rgba(34,31,27,.04),0 10px 26px rgba(34,31,27,.06)}
+  </style>
+</helmet>
+
+<div style="min-height:100%;background:var(--paper)">
+  <div style="max-width:1180px;margin:0 auto;padding:34px 28px 46px">
+
+    <h1 style="font-family:var(--serif);font-size:34px;line-height:1.1;margin:0 0 6px;letter-spacing:-.02em">
+      Prezidiul — cine conduce și de ce
+    </h1>
+    <p style="max-width:780px;margin:0 0 24px;font-size:16px;line-height:1.55;color:var(--ink-soft)">
+      Locurile din prezidiu nu se ocupă din obicei, ci după regulament. Fiecare poziție de mai jos
+      are articolul care o impune — linkul e alături, ca să verifici singur.
+    </p>
+
+    <!-- masa prezidiului -->
+    <div class="card" style="padding:26px 28px;margin-bottom:16px">
+      <div class="eticheta" style="margin-bottom:14px">Ședință comună a celor două Camere</div>
+      <div style="display:flex;gap:14px;align-items:stretch;justify-content:center;margin-bottom:14px">
+        <sc-for list="{{comuna}}" as="c" hint-placeholder-count="3">
+          <div style="flex-grow:{{c.crestere}};background:{{c.fundal}};border:1px solid {{c.linie}};
+                      border-radius:11px;padding:15px 17px;min-width:0">
+            <div style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+                        font-weight:800;color:{{c.ton}};margin-bottom:5px">{{c.rol}}</div>
+            <div style="font-size:15px;line-height:1.4;color:var(--ink)">{{c.cine}}</div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="background:var(--paper-2);border:1px solid var(--line);border-radius:11px;
+                  padding:13px 16px;font-size:14px;line-height:1.55;color:var(--ink-soft)">
+        <b style="color:var(--ink)">Art. 30, Regulamentul activităților comune:</b>
+        „Lucrările ședințelor comune sunt conduse, <b style="color:var(--ink)">alternativ</b>,
+        de președintele Camerei Deputaților și de președintele Senatului,
+        <b style="color:var(--ink)">asistați de 2 secretari, câte unul de la fiecare Cameră</b>."
+        <a href="#" style="white-space:nowrap">vezi textul ↗</a>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px">
+
+      <div class="card" style="padding:22px 24px">
+        <div class="eticheta" style="margin-bottom:12px">Ședință obișnuită, o singură Cameră</div>
+        <div style="font-size:15px;line-height:1.6;color:var(--ink-soft);margin-bottom:12px">
+          Președintele Camerei conduce lucrările plenului,
+          <b style="color:var(--ink)">asistat obligatoriu de 2 secretari</b>. Tot el acordă cuvântul,
+          stabilește ordinea votării și precizează semnificația votului.
+        </div>
+        <div style="font-size:13px;color:var(--ink-faint)">
+          Art. 34 lit. b), Regulamentul Camerei Deputaților · <a href="#">textul ↗</a>
+        </div>
+      </div>
+
+      <div class="card" style="padding:22px 24px;border-color:#e6d9b8;background:#fdfaf1">
+        <div class="eticheta" style="color:#8a6a15;margin-bottom:12px">Ședința de constituire — ceremonia</div>
+        <div style="font-size:15px;line-height:1.6;color:#5f4d1e;margin-bottom:12px">
+          Până la alegerea Biroului permanent, lucrările sunt conduse de deputatul cu
+          <b>cel mai mare număr de mandate</b>, ca <b>președinte senior</b>, asistat de
+          <b>cei mai tineri 4 deputați</b>, în calitate de secretari. La egalitate de mandate,
+          conduce cel mai în vârstă.
+        </div>
+        <div style="font-size:13px;color:#8a6a15">
+          Art. 2 alin. (1), Regulamentul Camerei Deputaților · <a href="#" style="color:#8a6a15">textul ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:22px 24px;margin-top:16px">
+      <div class="eticheta" style="margin-bottom:12px">Ce se face doar în ședință comună</div>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 22px">
+        <sc-for list="{{comune}}" as="x" hint-placeholder-count="6">
+          <div style="font-size:14.5px;line-height:1.45;padding:8px 0;border-bottom:1px solid var(--line)">{{x}}</div>
+        </sc-for>
+      </div>
+      <div style="font-size:13px;color:var(--ink-faint);margin-top:12px">
+        Art. 13, Regulamentul activităților comune · <a href="#">lista completă ↗</a>
+      </div>
+    </div>
+
+    <div class="card" style="padding:20px 22px;margin-top:16px;background:var(--accent-soft);border-color:#eccfc4">
+      <div class="eticheta" style="color:var(--accent-deep);margin-bottom:8px">Ce nu se poate ști</div>
+      <div style="font-size:14.5px;line-height:1.55;color:var(--accent-deep)">
+        Regulamentele spun <b>ce funcție</b> stă la prezidiu, nu <b>la ce scaun</b> stă fiecare parlamentar
+        în sală. Nici Camera, nici Senatul nu publică o hartă a locurilor. Tot ce se poate afirma cu sursă
+        e blocul grupului — restul ar fi presupunerea noastră, iar aici nu presupunem.
+      </div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"$preview":{"width":1440,"height":1020}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      comuna: [
+        { rol: 'Secretar · Camera Deputaților', cine: 'un secretar al Camerei', crestere: 1,
+          fundal: '#f1f7ef', linie: '#d6e2d0', ton: '#87907c' },
+        { rol: 'Prezidează (alternativ)', cine: 'Președintele Camerei Deputaților / Președintele Senatului',
+          crestere: 2, fundal: '#22271f', linie: '#22271f', ton: '#c9d3c2' },
+        { rol: 'Secretar · Senat', cine: 'un secretar al Senatului', crestere: 1,
+          fundal: '#f1f7ef', linie: '#d6e2d0', ton: '#87907c' },
+      ],
+      comune: [
+        'Depunerea jurământului de către Președintele României',
+        'Punerea sub acuzare a Președintelui pentru înaltă trădare',
+        'Suspendarea din funcție a Președintelui',
+        'Numirea Avocatului Poporului',
+        'Reexaminarea Legii bugetului de stat',
+        'Revizuirea Constituției, când Camerele nu se înțeleg',
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

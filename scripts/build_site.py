@@ -1307,10 +1307,10 @@ def build_sitemap(arts):
     # `closcu.html` apare doar dacă a fost generată (CLOSCU_ENABLED). Verificarea
     # `os.path.exists` de mai jos o sare singură când secțiunea e stinsă, deci
     # sitemap-ul nu trimite niciodată Google spre un 404.
-    for pg in ("politicieni.html","cauta.html","closcu.html","cifre.html","publicitate.html","metodologie.html",
+    for pg in ("politicieni.html","parlament.html","cauta.html","closcu.html","cifre.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
         if os.path.exists(os.path.join(ROOT, pg)):
-            pr = "0.6" if pg in ("politicieni.html","cauta.html","closcu.html","cifre.html") else "0.4"
+            pr = "0.6" if pg in ("politicieni.html","parlament.html","cauta.html","closcu.html","cifre.html") else "0.4"
             rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>%s</priority></url>' % (B, pg, today, pr))
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '
@@ -1407,6 +1407,16 @@ def main():
         # Garda caută LINKUL, nu numele fișierului: pe closcu.html numele apare
         # deja în canonical + og:url, deci un test pe „closcu.html" ar sări
         # exact pagina care are cea mai mare nevoie de link în navigație.
+        # Linkul spre Parlament, pe TOATE paginile. Se injectează aici, nu în
+        # şablon, din acelaşi motiv ca la Cloşcu: articolele noi se scriu după
+        # `a/legea-integritatii...`, care n-are linkul.
+        if os.path.exists(os.path.join(ROOT, "parlament.html")) and 'parlament.html">Parlament' not in s:
+            for pref in ("", "../"):
+                s = s.replace(
+                    f'<a href="{pref}politicieni.html">Politicieni</a>',
+                    f'<a href="{pref}politicieni.html">Politicieni</a>\n'
+                    f'      <a href="{pref}parlament.html">Parlament</a>')
+
         if closcu and 'closcu.html">Cloșcu' not in s:
             for pref in ("", "../"):
                 s = s.replace(

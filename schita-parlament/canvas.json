@@ -1,0 +1,69 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "Hemiciclul"
+    },
+    {
+      "file": "ParlamentarulTau.dc.html",
+      "x": 1560,
+      "y": 1620,
+      "w": 1440,
+      "h": 1080,
+      "title": "Parlamentarul tău"
+    },
+    {
+      "file": "Fisa.dc.html",
+      "x": 1560,
+      "y": 0,
+      "w": 1440,
+      "h": 1460,
+      "title": "Fișa parlamentarului"
+    },
+    {
+      "file": "Prezidiu.dc.html",
+      "x": 0,
+      "y": 1620,
+      "w": 1440,
+      "h": 1020,
+      "title": "Prezidiul"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "nota-date",
+      "x": 0,
+      "y": -150,
+      "w": 640,
+      "text": "SCHIȚĂ — privată, nu atinge site-ul.\n\nNumele din hemiciclu sunt REALE: 123 de parlamentari din data/_parlamentari.json, luați de pe cdep.ro și senat.ro (AUR 95, SOS 28). Scaunele lor sunt opace.\n\nScaunele palide sunt grupurile pentru care rosterul nu e încă extras — numărul de locuri e aproximativ acolo. Se rezolvă extinzând parlamentari.py la toate grupurile."
+    },
+    {
+      "id": "nota-principiu",
+      "x": 1560,
+      "y": -150,
+      "w": 640,
+      "text": "Constrângerea de design care contează:\n\nO fișă de politician alunecă natural spre scorecard — note, clasamente, „cel mai leneș parlamentar\". Aia ar contrazice principiul roșu și ar transforma secțiunea în armă.\n\nDe-aia fișa arată cifre BRUTE cu sursa alături, iar verdictele stau pe AFIRMAȚII, niciodată pe om. Casetele „Ce NU găsești aici\" și „Cum citești pagina asta\" spun asta explicit cititorului."
+    },
+    {
+      "id": "nota-regulament",
+      "x": 0,
+      "y": 1470,
+      "w": 900,
+      "text": "Temeiul legal, găsit în regulamente:\n\nArt. 18 Regulamentul Camerei — președintele Camerei ÎMPREUNĂ CU LIDERII DE GRUP repartizează locurile în sala de ședințe PENTRU FIECARE GRUP.\n\nArt. 20 Regulamentul Senatului — repartizarea se face PRIN NEGOCIERE între liderii grupurilor, în ORDINEA DESCRESCĂTOARE A MĂRIMII lor.\n\nDeci: blocurile pe grup sunt documentate și ordonate după mărime. Poziția individuală în interiorul blocului nu o publică nimeni — de-aia e alfabetică, și scrie asta pe pagină."
+    },
+    {
+      "id": "nota-cautare",
+      "x": 1560,
+      "y": 1470,
+      "w": 900,
+      "text": "„Parlamentarul tău\" — ce e real și ce nu, verificat pe 23 aug 2026:\n\nREAL: localitate → județ → circumscripție → lista de parlamentari. cdep.ro publică indexul „După circumscripția electorală\", circumscripția e pe fișa fiecăruia, iar emailul oficial @cdep.ro există pentru toți.\n\nNU EXISTĂ: biroul parlamentar. Legea 96/2006 spune că POT organiza birouri și primesc bani de la buget pentru ele, dar adresa nu se publică. Coloana „Birou parlamentar\" de pe cdep.ro e GOALĂ la toți cei 173 de deputați listați — din 173, doar 4 au pus ceva, și alea sunt conturi de Facebook și Instagram.\n\nDeci promisiunea se schimbă din „unde îl găsești\" în „cum îi scrii\". Mai puțin spectaculos, dar adevărat — și emailul e oricum mai acționabil decât o adresă la care nu e nimeni."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

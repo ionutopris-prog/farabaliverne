@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    :root{
+      --ink:#22271f; --ink-soft:#556050; --ink-faint:#87907c;
+      --paper:#e7f0e4; --paper-2:#f1f7ef; --card:#fff;
+      --line:#d6e2d0; --line-2:#bfd2b7;
+      --accent:#a5372a; --accent-deep:#7c2620; --accent-soft:#f6e6df;
+      --gold:#b3852e; --ok:#1e8a50; --ok-bg:#e5f5ea; --ok-line:#bfe3cb;
+      --warn:#a8710b; --warn-bg:#fbf0d6; --warn-line:#edd7a0;
+      --bad:#c23b2e; --bad-bg:#fbe7e3; --bad-line:#f0c6bc;
+      --check:#2265a3; --check-bg:#e6f0f9; --check-line:#bcd9ee;
+      --serif:Georgia,'Times New Roman',Cambria,serif;
+      --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    }
+    body{margin:0;background:var(--paper);font-family:var(--sans);color:var(--ink);
+         -webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{color:var(--accent-deep);text-decoration:underline}
+    .eticheta{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;
+              color:var(--ink-faint);font-weight:800}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+          box-shadow:0 1px 2px rgba(34,31,27,.04),0 10px 26px rgba(34,31,27,.06)}
+    .rand{display:flex;justify-content:space-between;gap:16px;padding:11px 0;
+          border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.45}
+  </style>
+</helmet>
+
+<div style="min-height:100%;background:var(--paper)">
+
+  <div style="border-bottom:1px solid var(--line-2);background:var(--paper-2)">
+    <div style="max-width:1180px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:28px">
+      <div style="font-family:var(--serif);font-size:21px;font-weight:700;letter-spacing:-.01em">
+        Fără <span style="color:var(--accent)">Baliverne</span>
+      </div>
+      <div style="display:flex;gap:20px;font-size:14px;color:var(--ink-soft)">
+        <span>Acasă</span><span>Politică</span><span>Economie</span><span>Extern</span>
+        <span>Politicieni</span>
+        <span style="color:var(--accent);font-weight:700">Parlamentul României</span>
+      </div>
+      <div style="margin-left:auto;font-size:12.5px;color:var(--ink-faint);font-style:italic">Apă, paie… Adevăr</div>
+    </div>
+  </div>
+
+  <div style="max-width:1180px;margin:0 auto;padding:22px 28px 52px">
+
+    <div style="font-size:13.5px;color:var(--ink-soft);margin-bottom:18px">
+      <a href="#">← Înapoi la hemiciclu</a>
+    </div>
+
+    <!-- antet persoana -->
+    <div class="card" style="padding:26px 28px;display:flex;gap:24px;align-items:flex-start;margin-bottom:16px">
+      <div style="width:104px;height:130px;border-radius:11px;background:var(--paper-2);
+                  border:1px dashed var(--line-2);display:flex;align-items:center;justify-content:center;
+                  flex:0 0 auto;text-align:center;font-size:11px;color:var(--ink-faint);padding:8px;line-height:1.4">
+        fotografie<br>oficială<br>cdep.ro
+      </div>
+      <div style="flex-grow:1;min-width:0">
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px">
+          <span style="display:inline-flex;align-items:center;gap:7px;padding:4px 12px;border-radius:30px;
+                       background:#1f3a63;color:#fff;font-size:12.5px;font-weight:800;letter-spacing:.02em">
+            AUR
+          </span>
+          <span style="font-size:13px;color:var(--ink-faint)">Camera Deputaților · Circumscripția Argeș</span>
+        </div>
+        <h1 style="font-family:var(--serif);font-size:36px;line-height:1.1;margin:0 0 10px;letter-spacing:-.02em">
+          Enache Mihai-Adrian
+        </h1>
+        <div style="display:flex;gap:26px;flex-wrap:wrap;font-size:14px;color:var(--ink-soft)">
+          <div><b style="color:var(--ink)">Mandat</b> · 2024–2028, primul</div>
+          <div><b style="color:var(--ink)">Ales cu</b> · 14.207 voturi <a href="#" style="font-size:12.5px">(BEC)</a></div>
+          <div><b style="color:var(--ink)">Grup</b> · AUR, din dec. 2024</div>
+        </div>
+      </div>
+      <div style="flex:0 0 auto;text-align:right">
+        <a href="#" style="display:inline-block;padding:9px 16px;border:1px solid var(--line-2);
+                           border-radius:30px;font-size:13.5px;font-weight:700;background:var(--paper-2)">
+          Fișa oficială cdep.ro ↗
+        </a>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:16px;align-items:start">
+
+      <!-- coloana stanga -->
+      <div style="display:flex;flex-direction:column;gap:16px">
+
+        <!-- verificari -->
+        <div class="card" style="padding:22px 24px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px">
+            <h2 style="font-family:var(--serif);font-size:22px;margin:0;letter-spacing:-.01em">
+              Ce am verificat despre el
+            </h2>
+            <span style="font-size:13px;color:var(--ink-faint)">3 verificări</span>
+          </div>
+          <p style="margin:0 0 16px;font-size:13.5px;color:var(--ink-faint);line-height:1.5">
+            Afirmații publice ale lui, trecute prin metoda casei. Verdictul e despre
+            <b>afirmație</b>, niciodată despre om.
+          </p>
+          <sc-for list="{{verificari}}" as="v" hint-placeholder-count="3">
+            <div style="border-top:1px solid var(--line);padding:14px 0">
+              <div style="display:flex;align-items:center;gap:9px;margin-bottom:6px;flex-wrap:wrap">
+                <span style="padding:3px 10px;border-radius:30px;font-size:11.5px;font-weight:800;
+                             background:{{v.bg}};color:{{v.fg}};border:1px solid {{v.line}}">{{v.verdict}}</span>
+                <span style="font-size:12.5px;color:var(--ink-faint)">{{v.data}}</span>
+              </div>
+              <div style="font-size:15.5px;line-height:1.42;font-weight:600">{{v.titlu}}</div>
+              <div style="font-size:13.5px;color:var(--ink-soft);margin-top:4px;line-height:1.5">{{v.dek}}</div>
+            </div>
+          </sc-for>
+        </div>
+
+        <!-- activitate -->
+        <div class="card" style="padding:22px 24px">
+          <h2 style="font-family:var(--serif);font-size:22px;margin:0 0 4px;letter-spacing:-.01em">
+            Activitatea în mandat
+          </h2>
+          <p style="margin:0 0 14px;font-size:13.5px;color:var(--ink-faint);line-height:1.5">
+            Cifre luate direct din evidența Camerei. Le arătăm brut, fără să le interpretăm —
+            un număr mare de inițiative nu înseamnă nici bine, nici rău.
+          </p>
+          <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px">
+            <sc-for list="{{cifre}}" as="c" hint-placeholder-count="4">
+              <div style="background:var(--paper-2);border:1px solid var(--line);border-radius:11px;padding:13px 14px">
+                <div style="font-family:var(--serif);font-size:26px;line-height:1;margin-bottom:5px">{{c.val}}</div>
+                <div style="font-size:12px;color:var(--ink-soft);line-height:1.35">{{c.eticheta}}</div>
+              </div>
+            </sc-for>
+          </div>
+          <div class="eticheta" style="margin-bottom:6px">Ultimele luări de cuvânt</div>
+          <sc-for list="{{luari}}" as="l" hint-placeholder-count="3">
+            <div class="rand">
+              <span style="min-width:0">{{l.subiect}}</span>
+              <span style="color:var(--ink-faint);white-space:nowrap;flex:0 0 auto">{{l.data}}</span>
+            </div>
+          </sc-for>
+        </div>
+
+        <!-- stiri -->
+        <div class="card" style="padding:22px 24px">
+          <h2 style="font-family:var(--serif);font-size:22px;margin:0 0 12px;letter-spacing:-.01em">
+            În presă
+          </h2>
+          <sc-for list="{{stiri}}" as="s" hint-placeholder-count="3">
+            <div class="rand" style="align-items:baseline">
+              <span style="min-width:0"><a href="#">{{s.titlu}}</a></span>
+              <span style="color:var(--ink-faint);white-space:nowrap;flex:0 0 auto;font-size:12.5px">{{s.sursa}}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <!-- coloana dreapta -->
+      <div style="display:flex;flex-direction:column;gap:16px">
+
+        <div class="card" style="padding:20px 22px">
+          <div class="eticheta" style="margin-bottom:10px">Date oficiale</div>
+          <div class="rand"><span style="color:var(--ink-soft)">Data nașterii</span><span>12 mai 1979</span></div>
+          <div class="rand"><span style="color:var(--ink-soft)">Studii</span><span style="text-align:right">Drept, Univ. Pitești</span></div>
+          <div class="rand"><span style="color:var(--ink-soft)">Comisii</span><span style="text-align:right">Juridică; Buget</span></div>
+          <div class="rand" style="border-bottom:none"><span style="color:var(--ink-soft)">Grup parlamentar</span><span>AUR</span></div>
+        </div>
+
+        <div class="card" style="padding:20px 22px">
+          <div class="eticheta" style="margin-bottom:10px">Birou parlamentar</div>
+          <div style="font-size:14.5px;line-height:1.55;color:var(--ink-soft)">
+            Str. Victoriei 28, Pitești<br>
+            Program: luni 10–14, joi 14–18<br>
+            <a href="#" style="font-size:13.5px">contact@…</a>
+          </div>
+        </div>
+
+        <div class="card" style="padding:20px 22px;border-color:var(--warn-line);background:var(--warn-bg)">
+          <div class="eticheta" style="color:#8a5d09;margin-bottom:8px">Declarație de avere</div>
+          <div style="font-size:14.5px;line-height:1.55;color:#6f4c08">
+            Ultima depusă: <b>14 iunie 2026</b><br>
+            <span style="font-size:13px">Depusă în termen. Următoarea scadență: 15 iunie 2027.</span>
+          </div>
+          <a href="#" style="display:inline-block;margin-top:10px;font-size:13.5px;font-weight:700;color:#8a5d09">
+            Vezi documentul ↗
+          </a>
+        </div>
+
+        <div class="card" style="padding:20px 22px;background:var(--paper-2)">
+          <div class="eticheta" style="margin-bottom:8px">Cum citești pagina asta</div>
+          <div style="font-size:13.5px;line-height:1.55;color:var(--ink-soft)">
+            Tot ce vezi aici e copiat din surse publice, cu linkul alături. Nu adunăm cifrele
+            într-un scor și nu-l comparăm cu alții — dacă ai nevoie de o concluzie,
+            <b style="color:var(--ink)">o tragi tu</b>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"$preview":{"width":1440,"height":1460}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      verificari: [
+        { verdict: 'Probat', bg: '#e5f5ea', fg: '#1e8a50', line: '#bfe3cb', data: '18 aug 2026',
+          titlu: 'A susținut că bugetul apărării a crescut cu 40% față de 2024 — cifra se confirmă în legea bugetului',
+          dek: 'Creșterea nominală e reală. În termeni reali, ajustat cu inflația, e 27% — ambele cifre apar în surse.' },
+        { verdict: 'Contrazis', bg: '#fbe7e3', fg: '#c23b2e', line: '#f0c6bc', data: '02 aug 2026',
+          titlu: 'A spus că România e „singura țară din UE" fără o lege a lobby-ului',
+          dek: 'Șase state membre nu au reglementare dedicată, potrivit raportului Transparency International 2025.' },
+        { verdict: 'Neverificabil', bg: '#e6f0f9', fg: '#2265a3', line: '#bcd9ee', data: '21 iul 2026',
+          titlu: 'A afirmat că i s-au promis fonduri pentru circumscripție „într-o discuție privată"',
+          dek: 'Nu există înregistrare, document sau martor public. Rămâne cuvântul lui — nici probat, nici infirmat.' },
+      ],
+      cifre: [
+        { val: '11', eticheta: 'proiecte inițiate' },
+        { val: '2', eticheta: 'devenite lege' },
+        { val: '48', eticheta: 'luări de cuvânt' },
+        { val: '91%', eticheta: 'prezență la vot' },
+      ],
+      luari: [
+        { subiect: 'Dezbatere pe legea salarizării — valoarea de referință', data: '19 aug 2026' },
+        { subiect: 'Interpelare: stadiul lotului de autostradă A3 Zimbor', data: '11 aug 2026' },
+        { subiect: 'Declarație politică — prețul energiei pentru industrie', data: '04 aug 2026' },
+      ],
+      stiri: [
+        { titlu: 'Comisia juridică a amânat votul pe amendamentul privind incompatibilitățile', sursa: 'Agerpres' },
+        { titlu: 'Ce a votat delegația AUR la sesiunea extraordinară din 24 august', sursa: 'HotNews' },
+        { titlu: 'Interpelarea despre A3 primește răspuns de la Ministerul Transporturilor', sursa: 'Economedia' },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>
