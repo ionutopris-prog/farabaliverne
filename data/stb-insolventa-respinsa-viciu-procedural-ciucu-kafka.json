@@ -1,0 +1,64 @@
+{
+  "slug": "stb-insolventa-respinsa-viciu-procedural-ciucu-kafka",
+  "title": "Tribunalul a respins insolvența STB pentru hârtii incomplete, nu pentru datorii inexistente — Ciucu invocă Kafka",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "AGERPRES / Digi24 / ZF",
+  "url": "https://agerpres.ro/justitie/2026/08/18/tribunalul-bucuresti-respinge-cererea-de-intrare-in-insolventa-a-stb-primarul-general-neasteptat--1585858",
+  "src_quote": "Tribunalul București respinge cererea de intrare în insolvență a STB; Primarul general: Neașteptat",
+  "dek": "Tribunalul București a respins pe 18 august cererea STB de intrare în insolvență — nu pentru că datoriile n-ar fi reale, ci pentru că firma nu a indicat numele, adresele și valoarea individuală a creanțelor a mii de angajați-creditori. Primarul Ciprian Ciucu a citat Procesul lui Kafka; cifrele privind datoria totală a STB diferă considerabil între sursele oficiale citate (1,6 vs. 5,6 miliarde de lei).",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Societatea de Transport București (STB) a depus, pe 6 august 2026, o cerere de deschidere a propriei proceduri de insolvență, după ce Consiliul General al Municipiului București a aprobat acest demers. Tribunalul București a respins cererea marți, 18 august 2026, motivând decizia prin „nedepunerea tuturor documentelor prevăzute” de Legea nr. 85/2014.",
+      "sources": [
+        {"name": "AGERPRES — Tribunalul București respinge cererea de intrare în insolvență a STB; Primarul general: Neașteptat", "url": "https://agerpres.ro/justitie/2026/08/18/tribunalul-bucuresti-respinge-cererea-de-intrare-in-insolventa-a-stb-primarul-general-neasteptat--1585858"},
+        {"name": "Adevărul — Tribunalul București a respins cererea STB de intrare în insolvență. Ciprian Ciucu: „Neașteptat”", "url": "https://adevarul.ro/stiri-interne/evenimente/tribunalul-bucuresti-a-respins-cererea-stb-de-2550697.html"}
+      ]
+    },
+    {
+      "text": "Motivul concret al respingerii: instanța a invocat articolul 67 alineatul (1) litera c) din Legea 85/2014, arătând că STB nu a indicat concret numele, prenumele și adresele creditorilor salariați — s-a limitat la mențiunea generică „salariați” — și nu a precizat valoarea individuală a creanțelor fiecăruia. Suma datorată salariaților pentru bilete de odihnă și tratament, menționată în dosar, este de 3.285.880 de lei.",
+      "sources": [
+        {"name": "Digi24 — De ce a respins Tribunalul București cererea de intrare în insolvență a STB. Motivarea instanței, prezentată de Ciprian Ciucu", "url": "https://www.digi24.ro/stiri/actualitate/social/de-ce-a-respins-tribunalul-bucuresti-cererea-de-intrare-in-insolventa-a-stb-motivarea-instantei-prezentata-de-ciprian-ciucu-3914785"}
+      ]
+    },
+    {
+      "text": "Primarul general Ciprian Ciucu a reacționat spunând că e o decizie „neașteptat[ă]” și că a vorbit cu conducerea STB, care „se jură că le-au verificat de șapte ori” documentele înainte de depunere. A citat un pasaj din „Procesul” lui Franz Kafka pentru a ilustra ce consideră el o birocrație absurdă, unde un viciu de formă blochează un demers legitim.",
+      "sources": [
+        {"name": "Realitatea.NET — Insolvența STB, respinsă de Tribunalul București. Ciprian Ciucu: „Dosarul a fost verificat de 7 ori!”", "url": "https://www.realitatea.net/stiri/economie/insolventa-stb-respinsa-de-tribunalul-bucuresti-ciprian-ciucu-instanta-a-spus-ca-dosarul-nu-este-complet-totzzz"},
+        {"name": "Digi24 — De ce a respins Tribunalul București cererea de intrare în insolvență a STB. Motivarea instanței, prezentată de Ciprian Ciucu", "url": "https://www.digi24.ro/stiri/actualitate/social/de-ce-a-respins-tribunalul-bucuresti-cererea-de-intrare-in-insolventa-a-stb-motivarea-instantei-prezentata-de-ciprian-ciucu-3914785"}
+      ]
+    },
+    {
+      "text": "STB are la dispoziție 7 zile pentru a face apel la decizie, la Secția a VII-a Civilă a Tribunalului București. Separat, în același dosar-context, tribunalul a consolidat într-un alt fișier cinci cereri de insolvență depuse de creditori ai STB (printre care RAMCO SRL, Romanian Security Systems SRL și Terra Palfinger SRL) — o procedură distinctă de cererea proprie a STB, respinsă acum.",
+      "sources": [
+        {"name": "AGERPRES — Tribunalul București respinge cererea de intrare în insolvență a STB; Primarul general: Neașteptat", "url": "https://agerpres.ro/justitie/2026/08/18/tribunalul-bucuresti-respinge-cererea-de-intrare-in-insolventa-a-stb-primarul-general-neasteptat--1585858"},
+        {"name": "ZF — Tribunalul București a respins insolvența STB, companie cu datorii de 5,6 mld. lei; primarul Capitalei, Ciprian Ciucu: neașteptat, sper să facă STB apel", "url": "https://www.zf.ro/eveniment/tribunalul-bucuresti-respins-insolventa-stb-companie-datorii-5-6-mld-lei-primarul-capitalei-ciprian-ciucu-neasteptat-sper-stb-faca-apel-prima-conditie-oricarui-serviciu-public-fie-suportabil-punct-23219716"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra datoriei totale a STB diferă considerabil între surse care citează, fiecare, declarații ale primarului Ciucu: AGERPRES/Realitatea vorbesc despre datorii cumulate de „peste 1,6 miliarde de lei”, în timp ce ZF titrează o datorie de „5,6 miliarde de lei”. Nu este clar, din articolele disponibile, dacă diferența ține de ce anume se include în calcul (datorii curente vs. datorii plus penalități plus dobânzi acumulate, sau perioade de referință diferite) — o clarificare oficială din partea STB sau a Primăriei ar lămuri exact ce reprezintă fiecare cifră.",
+      "sources": [
+        {"name": "Realitatea.NET — Insolvența STB, respinsă de Tribunalul București. Ciprian Ciucu: „Dosarul a fost verificat de 7 ori!”", "url": "https://www.realitatea.net/stiri/economie/insolventa-stb-respinsa-de-tribunalul-bucuresti-ciprian-ciucu-instanta-a-spus-ca-dosarul-nu-este-complet-totzzz"},
+        {"name": "ZF — Tribunalul București a respins insolvența STB, companie cu datorii de 5,6 mld. lei", "url": "https://www.zf.ro/eveniment/tribunalul-bucuresti-respins-insolventa-stb-companie-datorii-5-6-mld-lei-primarul-capitalei-ciprian-ciucu-neasteptat-sper-stb-faca-apel-prima-conditie-oricarui-serviciu-public-fie-suportabil-punct-23219716"}
+      ]
+    },
+    {
+      "text": "Ciucu susține că managementul STB „se jură” că documentele au fost verificate de șapte ori și depuse corect, ceea ce ar sugera o eroare a instanței sau o cerință excesivă; instanța, la rândul ei, a motivat în scris exact ce lipsea din dosar (identificarea nominală a creditorilor salariați). Cele două versiuni nu se exclud neapărat — dosarul poate fi fost verificat intern de multe ori și totuși să nu fi respectat, formal, cerința legală citată de instanță —, dar niciuna dintre surse nu conține o replică punct-cu-punct a STB la motivarea exactă a tribunalului.",
+      "sources": [
+        {"name": "Realitatea.NET — Insolvența STB, respinsă de Tribunalul București. Ciprian Ciucu: „Dosarul a fost verificat de 7 ori!”", "url": "https://www.realitatea.net/stiri/economie/insolventa-stb-respinsa-de-tribunalul-bucuresti-ciprian-ciucu-instanta-a-spus-ca-dosarul-nu-este-complet-totzzz"}
+      ]
+    }
+  ],
+  "opinie": [
+    "Comparația cu „Procesul” lui Kafka, făcută de Ciprian Ciucu, e o interpretare — o judecată de valoare despre caracterul absurd al birocrației. Motivarea instanței este un fapt verificabil (lipsa datelor de identificare a creditorilor salariați); dacă acea cerință legală e „birocrație inutilă” sau o garanție legitimă pentru drepturile salariaților la procedura de insolvență ține de poziția fiecăruia, nu de un fapt stabilit."
+  ],
+  "math": {
+    "title": "Cât cântărește, de fapt, datoria pentru bilete de tratament în tabloul STB",
+    "explanation": "Suma exactă pentru care dosarul a fost respins — 3.285.880 de lei datorați salariaților pentru bilete de odihnă și tratament — reprezintă circa 0,2% din cifra mai mică vehiculată pentru datoria totală a STB (1,6 miliarde de lei) și sub 0,06% din cifra mai mare (5,6 miliarde de lei). Cu alte cuvinte, o sumă administrativ minoră, legată de o formalitate de identificare a creditorilor, a blocat un demers legal menit să rezolve o datorie de sute sau mii de ori mai mare — ceea ce explică de ce decizia a fost descrisă, chiar de primar, drept „neașteptată”."
+  },
+  "aiNote": "Ce s-a verificat: STB a depus, pe 6 august 2026, cerere proprie de intrare în insolvență, aprobată în prealabil de Consiliul General al Municipiului București; Tribunalul București a respins-o pe 18 august, invocând un motiv strict procedural — lipsa numelor, adreselor și valorilor individuale ale creanțelor angajaților-creditori, cerute de art. 67 alin. (1) lit. c) din Legea 85/2014. Aceste fapte sunt confirmate concordant de AGERPRES, Adevărul, Digi24 și ZF. Unde se despart sursele: cifra datoriei totale a STB diferă de peste trei ori între articole care citează, fiecare, declarații ale aceluiași primar (1,6 vs. 5,6 miliarde de lei) — posibil pentru că se referă la perioade sau componente diferite (datorii curente vs. datorii plus penalități), dar nicio sursă nu detaliază explicit calculul. Ce lipsește: o precizare oficială, din partea STB sau a Primăriei, despre ce anume compune fiecare cifră, și, separat, rezultatul apelului pe care STB îl poate depune în 7 zile. Ce ar schimba concluzia: decizia din apel sau un comunicat oficial care să clarifice cifra exactă a datoriei.",
+  "persoane": ["Ciprian Ciucu"]
+}
