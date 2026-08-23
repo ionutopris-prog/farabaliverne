@@ -62,20 +62,25 @@ jobs:
 
           PUBLICATE=""; RESPINSE=""
 
+          # Ramura NU se numește întotdeauna ca articolul dinăuntru: redactorul
+          # redenumește slug-ul după ce alege titlul final. De-aia nu verificăm
+          # `data/<nume-ramura>.json`, ci ce a apărut efectiv după checkout.
           publica_unul() {
-            local slug="$1" b="origin/pending/$slug"
-            git rev-parse --verify -q "$b" >/dev/null || { echo "nu există ramura pentru $slug"; return 1; }
+            local ram="$1" b="origin/pending/$1"
+            git rev-parse --verify -q "$b" >/dev/null || { echo "nu există ramura $ram"; return 1; }
+            local adaugate
+            adaugate="$(git diff --name-only --diff-filter=A "origin/main...$b" -- data/ | grep '\.json$' || true)"
+            [ -n "$adaugate" ] || { echo "$ram: nu aduce niciun articol nou"; return 1; }
             git diff --name-only --diff-filter=A -z "origin/main...$b" | xargs -0 -r git checkout "$b" --
-            [ -f "data/$slug.json" ] || { echo "$slug: nu am găsit datele"; return 1; }
-            PUBLICATE="$PUBLICATE $slug"
-            git push -q origin --delete "pending/$slug" 2>/dev/null || true
+            for f in $adaugate; do
+              PUBLICATE="$PUBLICATE $(basename "$f" .json)"
+            done
+            git push -q origin --delete "pending/$ram" 2>/dev/null || true
           }
 
           if printf '%s' "$CMD" | grep -q "publica toate"; then
             for b in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/pending | sed 's|origin/pending/||'); do
-              for f in $(git diff --name-only --diff-filter=A "origin/main...origin/pending/$b" -- data/ | grep '\.json$'); do
-                s="$(basename "$f" .json)"; [ -f "a/$s.html" ] || publica_unul "$b" || true
-              done
+              publica_unul "$b" || true
             done
           else
             for b in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/pending | sed 's|origin/pending/||'); do
