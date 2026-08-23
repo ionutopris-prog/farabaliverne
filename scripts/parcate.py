@@ -10,6 +10,11 @@ mai fie posibilă: o problemă, actualizată zilnic, cu tot ce așteaptă.
 import json, os, subprocess, sys
 
 TITLU = "📝 Articole care așteaptă aprobarea ta"
+# Fondatorul NU e abonat explicit la repo (API-ul de subscription dă 404), deci
+# o problemă deschisă de bot poate să nu-i trimită niciun email. Atribuirea și
+# mențiunea @ notifică ÎNTOTDEAUNA, indiferent de setările de notificare — de
+# aia le punem pe amândouă, nu ne bazăm pe „watching".
+FONDATOR = "ionutopris-prog"
 
 def sh(*a, **k):
     return subprocess.run(a, capture_output=True, text=True, **k).stdout.strip()
@@ -49,7 +54,11 @@ def main():
                     pass
             asteapta.append((data, cat, titlu, slug))
 
-    numar = sh("gh", "issue", "list", "--state", "open", "--search", TITLU,
+    # Căutăm în TOATE stările, nu doar „open". Problema se închide singură când
+    # nu mai e nimic parcat; dacă am căuta doar printre cele deschise, la
+    # următorul articol oprit s-ar deschide una nouă — și ai ajunge cu zece
+    # probleme identice în loc de una reluată.
+    numar = sh("gh", "issue", "list", "--state", "all", "--search", TITLU,
                "--json", "number,title", "--limit", "5")
     existent = None
     try:
@@ -81,6 +90,10 @@ def main():
             f"sau spune „toate”.")
 
     if existent:
+        # O problemă închisă („nu mai e nimic parcat") trebuie REDESCHISĂ când
+        # apare ceva nou. Altfel `gh issue list --state open` n-o mai găsește,
+        # se deschide una nouă la fiecare ediție, și ajungi cu zece probleme.
+        subprocess.run(["gh", "issue", "reopen", existent], capture_output=True)
         # Corpul problemei se actualizează mereu, ca să fie lista completă
         # într-un singur loc. Dar GitHub NU trimite notificare la editarea
         # corpului — doar la deschidere și la comentarii. Între 21 și 23
@@ -94,14 +107,18 @@ def main():
         subprocess.run(["gh", "issue", "edit", existent, "--body", corp])
         if noi:
             lista = "\n".join(f"- **{d}** · `{c}` — {t}  \n  `{sl}`" for d, c, t, sl in noi)
+            subprocess.run(["gh", "issue", "edit", existent, "--add-assignee", FONDATOR],
+                           capture_output=True)
             subprocess.run(["gh", "issue", "comment", existent, "--body",
-                            f"**{len(noi)} articol(e) nou(i)** parcate de la ultima verificare "
-                            f"(total în așteptare: {len(asteapta)}):\n\n{lista}"])
+                            f"@{FONDATOR} — **{len(noi)} articol(e) nou(i)** parcate de la ultima "
+                            f"verificare (total în așteptare: {len(asteapta)}):\n\n{lista}"])
             print(f"actualizat #{existent} + comentariu: {len(noi)} noi din {len(asteapta)} parcate")
         else:
             print(f"actualizat #{existent}: {len(asteapta)} parcate, niciunul nou")
     else:
-        subprocess.run(["gh", "issue", "create", "--title", TITLU, "--body", corp])
+        subprocess.run(["gh", "issue", "create", "--title", TITLU,
+                        "--assignee", FONDATOR,
+                        "--body", f"@{FONDATOR}\n\n{corp}"])
         print(f"deschis: {len(asteapta)} parcate")
 
 if __name__ == "__main__":
