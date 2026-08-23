@@ -1,0 +1,86 @@
+{
+  "slug": "oil-terminal-constanta-greva-24-august-refuz-majorare",
+  "title": "Oil Terminal Constanța intră în grevă pe 24 august, după ce statul a refuzat o majorare de 6,5%",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "Economedia / Ziua de Constanța / Adevărul",
+  "url": "https://economedia.ro/consiliul-sindicatului-oil-terminal-declanseaza-conflictul-colectiv-de-munca-pe-24-august-guvernul-a-refuzat-aprobarea-majorarii-salariilor-cu-65.html",
+  "dek": "Sindicatul de la cel mai mare terminal petrolier din Constanța, deținut în proporție de 87,76% de Ministerul Energiei, anunță declanșarea conflictului colectiv de muncă din 24 august, după ~50 de zile de negocieri eșuate pentru o majorare de 6,5%. Cifrele vehiculate de sindicat arată o grevă de 5 zile ca fiind mai costisitoare decât majorarea refuzată — dar sunt estimări ale unei singure părți, nu audit independent.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Sindicatul de la Oil Terminal SA a anunțat pe 19 august 2026 declanșarea conflictului colectiv de muncă, cu protest începând din 24 august, după ce Ministerul Energiei — acționar majoritar cu 87,7579% din capital — a transmis că nu va mai promova memorandumuri de aprobare a majorării salariale. Cererea sindicală e de 6,5%, caracterizată de sindicat drept sub rata inflației.",
+      "sources": [
+        {
+          "name": "Economedia — Sindicatul Oil Terminal declanșează conflictul colectiv de muncă pe 24 august",
+          "url": "https://economedia.ro/consiliul-sindicatului-oil-terminal-declanseaza-conflictul-colectiv-de-munca-pe-24-august-guvernul-a-refuzat-aprobarea-majorarii-salariilor-cu-65.html"
+        },
+        {
+          "name": "Ziua de Constanța — Oil Terminal SA anunță declanșarea conflictului colectiv de muncă",
+          "url": "https://www.ziuaconstanta.ro/stiri/actualitate/oil-terminal-sa-anunta-declansarea-conflictulului-colectiv-de-munca-negocierile-privind-majorarea-salariala-au-esuat-950134.html"
+        },
+        {
+          "name": "Adevărul — Sindicatul Oil Terminal anunță declanșarea conflictului colectiv de muncă",
+          "url": "https://adevarul.ro/economie/sindicatul-oil-terminal-anunta-declansarea-2550980.html"
+        }
+      ]
+    },
+    {
+      "text": "Negocierile durează de aproximativ 50 de zile și au implicat, pe lângă conducerea Oil Terminal, reprezentanți ai Ministerului Energiei, ai Consiliului Județean Constanța și ai Prefecturii Constanța — fără ca vreunul dintre aceste organisme să deblocheze memorandumul necesar majorării.",
+      "sources": [
+        {
+          "name": "Capital — Conflict de muncă la Oil Terminal",
+          "url": "https://www.capital.ro/conflict-de-munca-la-oil-terminal-sindicatul-anunta-ca-incepe-protestul-pe-24-august-dupa-esecul-negocierilor-salariale.html"
+        },
+        {
+          "name": "Știrile ProTV — Sindicaliștii, la un pas de grevă la Oil Terminal",
+          "url": "https://stirileprotv.ro/stiri/actualitate/sindicalistii-la-un-pas-de-greva-la-oil-terminal-cel-mai-mare-terminal-petrolier-din-constanta-negocierile-au-esuat.html"
+        }
+      ]
+    },
+    {
+      "text": "Oil Terminal este cel mai mare operator de produse petroliere din portul Constanța, cu rol în importul, exportul și tranzitul de țiței, produse petroliere și chimicale lichide pentru zona Mării Negre — ceea ce explică de ce sindicatul avertizează asupra unor riscuri pentru aprovizionarea rafinăriilor dacă protestul se prelungește.",
+      "sources": [
+        {
+          "name": "Știrile ProTV — cel mai mare terminal petrolier din Constanța",
+          "url": "https://stirileprotv.ro/stiri/actualitate/sindicalistii-la-un-pas-de-greva-la-oil-terminal-cel-mai-mare-terminal-petrolier-din-constanta-negocierile-au-esuat.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifrele puse față în față de sindicat — cca. 4 milioane de lei costul majorării cerute până la finalul anului, față de peste 6,5 milioane de lei pierderi estimate dintr-o grevă de 5 zile — vin din partea CNS Cartel ALFA, federația care susține sindicatul de la Oil Terminal, nu dintr-un audit independent sau de la companie. Nu există, până la verificare, o estimare separată a Ministerului Energiei sau a conducerii Oil Terminal pentru a confirma sau contrazice aceste cifre.",
+      "sources": [
+        {
+          "name": "Antena 3 CNN — o grevă de 5 zile ar costa mai mult decât creșterea salariilor",
+          "url": "https://www.antena3.ro/actualitate/oil-terminal-intra-in-conflict-de-munca-sindicalistii-avertizeaza-o-greva-de-5-zile-ar-costa-mai-mult-decat-cresterea-salariilor-800068.html"
+        },
+        {
+          "name": "Capital — cifrele conflictului de muncă",
+          "url": "https://www.capital.ro/conflict-de-munca-la-oil-terminal-sindicatul-anunta-ca-incepe-protestul-pe-24-august-dupa-esecul-negocierilor-salariale.html"
+        }
+      ]
+    },
+    {
+      "text": "Refuzul Ministerului Energiei nu vine cu o justificare publică detaliată în articolele consultate — doar cu formularea că „nu va mai promova proiecte de memorandum” pentru majorări salariale. În același timp, Știrile ProTV citează un profit al companiei de 12,2 milioane de lei în primul semestru din 2026, cu 8 milioane de lei peste cât era bugetat (de 2,9 ori mai mult) — o cifră care, dacă e corectă, complică imaginea unei companii care nu și-ar putea permite majorarea, dar care nu spune nimic despre motivele de politică bugetară ale statului acționar (de exemplu, ținte de deficit la nivelul întregului portofoliu de companii de stat).",
+      "sources": [
+        {
+          "name": "Știrile ProTV — profitul Oil Terminal pe primul semestru 2026",
+          "url": "https://stirileprotv.ro/stiri/actualitate/sindicalistii-la-un-pas-de-greva-la-oil-terminal-cel-mai-mare-terminal-petrolier-din-constanta-negocierile-au-esuat.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Că o majorare de 6,5% e „sub rata inflației” e o caracterizare a sindicatului, folosită ca argument moral pentru cerere — corectă sau nu în raport cu inflația oficială a momentului, ea rămâne un argument de negociere, nu un fapt independent verificat aici."
+    }
+  ],
+  "math": {
+    "title": "4 milioane vs. 6,5 milioane de lei — dar cine a calculat cele două cifre?",
+    "explanation": "Sindicatul susține că majorarea cerută (6,5%) ar costa Oil Terminal aproximativ 4 milioane de lei până la finalul anului, în timp ce o grevă de doar 5 zile ar produce pierderi de peste 6,5 milioane de lei — deci de peste 1,6 ori mai mult. Aritmetica internă e coerentă (6,5 > 4), dar ambele cifre vin din aceeași sursă — CNS Cartel ALFA — și niciuna nu a fost confirmată public de conducerea Oil Terminal sau de Ministerul Energiei. Compania a raportat, potrivit Știrilor ProTV, un profit de 12,2 milioane de lei doar în primul semestru din 2026, deci suma cerută de sindicat (4 milioane pe tot anul) reprezintă circa o treime din acel profit semestrial — un raport util pentru cititor, dar care nu spune nimic despre motivele reale ale refuzului guvernamental."
+  },
+  "aiNote": "Ce s-a verificat: anunțul conflictului colectiv de muncă de la Oil Terminal SA e confirmat concordant de Economedia, Ziua de Constanța, Adevărul, Capital, Antena 3 CNN și Știrile ProTV — data (19 august), procentul cerut (6,5%), acționarul majoritar (statul, prin Ministerul Energiei, cu 87,76%) și data protestului (24 august) coincid între surse.\n\nUnde rămân semne de întrebare: cele două cifre-cheie ale conflictului — costul majorării (~4 milioane lei) și pierderile dintr-o grevă de 5 zile (peste 6,5 milioane lei) — provin exclusiv de la CNS Cartel ALFA, federația sindicală. Nu am găsit, la data verificării, o reacție publică a Ministerului Energiei sau a conducerii Oil Terminal la aceste cifre, nici o explicație oficială a motivului pentru care memorandumul de majorare a fost blocat.\n\nCe lipsește: poziția Ministerului Energiei despre motivul refuzului (politică de deficit bugetar la nivelul companiilor de stat? precedent pentru alte companii cu acționariat majoritar de stat?) și o estimare independentă a impactului unei greve asupra aprovizionării rafinăriilor din zona Mării Negre.\n\nCe ar schimba concluzia: dacă Ministerul Energiei ar publica propriile cifre sau o justificare a refuzului, sau dacă negocierile ar fi reluate înainte de 24 august, evitând protestul.",
+  "persoane": []
+}
