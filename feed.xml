@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 23 Aug 2026 09:27:46 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 09:28:34 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>CCR publică motivarea pe „amendamentul Fritz”: legea nu sancționează retroactiv, ci încheie un „mandat viciat” — USR acuză „fraudarea Constituției”</title>
@@ -96,6 +96,16 @@ Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
       <description>🌍 Agenția de stat iraniană IRNA a anunțat pe 22 august 2026 că Teheranul a facilitat trecerea prin Strâmtoarea Hormuz a unor nave care transportau petrol irakian. Afirmația a fost preluată de Arab News, care o atribuie explicit agenției iraniene și unor oficiali irakieni. La momentul verificării nu am găsit o confirmare independentă (Reuters, AP, AFP) a permisiunii ca atare — iar datele de trafic din strâmtoare rămân mult sub nivelul de dinainte de război.
 
 Unde bat probele: Se susține doar din surse de stat — fără confirmare independentă. Verificate: 3 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Comisia ONU pentru drepturile omului avertizează că alegerile din Sudanul de Sud, programate în decembrie 2026, riscă să reaprindă conflictul și „crime de atrocitate”</title>
+      <link>https://farabaliverne.ro/a/onu-avertisment-sudan-sud-alegeri-decembrie-atrocitati.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/onu-avertisment-sudan-sud-alegeri-decembrie-atrocitati.html</guid>
+      <pubDate>Sun, 23 Aug 2026 06:27:51 +0000</pubDate>
+      <category>Extern</category>
+      <description>Comisia ONU pentru Drepturile Omului în Sudanul de Sud a avertizat că „factori de risc multipli pentru crime de atrocitate converg” înaintea primelor alegeri naționale din istoria țării, programate pentru decembrie 2026 — aproape 15 ani de la independența din 2011. Comisia a documentat 407 încălcări ale armistițiului între august 2025 și ianuarie 2026 și lupte reluate în cinci state. Aproape jumătate din prevederile acordului de pace din 2018 rămân neimplementate. Nu există, la data verificării, un răspuns public al guvernului de la Juba la aceste avertismente.
+
+Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
     <item>
       <title>Japonia execută primul condamnat la moarte sub guvernul Takaichi — incendiatorul de la un salon pachinko din Osaka, unde au murit 5 oameni în 2009</title>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
       <description>La o conferință de presă ținută joi, 13 august 2026, la 100 de zile de la demiterea Guvernului Bolojan, liderul PSD Sorin Grindeanu a declarat că premierul interimar „se împrumută cu 1.000 de euro pe secundă — adică 434 de milioane de lei în plus la datoria României pe zi”. Am verificat calculul pe datele publice ale Ministerului Finanțelor: cifrele de context (252 de miliarde lei împrumutate în 2024, ~275 de miliarde în 2026, datorie peste 60% din PIB) se confirmă, dar rata exactă de „1.000 euro/secundă” nu corespunde niciunui indicator oficial publicat sub această formă — cade undeva între deficitul zilnic și necesarul brut zilnic de finanțare, fără ca metoda de calcul să fie explicată public.
 
 Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Manda îi cere demisia lui Bolojan și acuză „cea mai drastică” scădere a puterii de cumpărare din ultimii 15 ani — ce confirmă datele INS și ce nu</title>
-      <link>https://farabaliverne.ro/a/manda-bolojan-acuzatii-economice-100-zile.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/manda-bolojan-acuzatii-economice-100-zile.html</guid>
-      <pubDate>Fri, 21 Aug 2026 17:48:28 +0200</pubDate>
-      <category>Politică</category>
-      <description>Secretarul general al PSD, europarlamentarul Claudiu Manda, i-a cerut vineri, 14 august 2026, demisia premierului interimar Ilie Bolojan, la peste 100 de zile de la moțiunea de cenzură, invocând peste 510.000 de șomeri, scădere de PIB, „cea mai drastică” scădere a puterii de cumpărare a salariilor din ultimii 15 ani și o inflație „dublată”. Datele INS confirmă direcția cifrelor economice de bază, dar nu susțin superlativele istorice, iar „dublarea” inflației depinde de luna aleasă drept reper.
-
-Unde bat probele: Contestat. Verificate: 6 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
