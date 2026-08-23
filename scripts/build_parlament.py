@@ -101,7 +101,7 @@ def main_html(oameni, legenda, actualizat):
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                    stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
                 <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
-              <input id="plQ" type="search" placeholder="Parlamentarul tău" autocomplete="off"
+              <input id="plQ" type="search" placeholder="Localitate, județ sau nume" autocomplete="off"
                      aria-label="Caută parlamentarul tău după localitate sau nume">
             </div>
           </div>
@@ -444,9 +444,28 @@ SCRIPT = '''
         +'Caută după numele parlamentarului.</p>';};
       document.head.appendChild(sc);
       return;}
+    // ÎNTÂI judeţul. Sălaj, Bihor, Cluj sunt JUDEŢE, nu localităţi — nu apar în
+    // tabelul SIRUTA de localităţi, iar căutarea cădea pe o potrivire
+    // aproximativă şi nimerea alt judeţ. Omul care scrie „Sălaj" vrea Sălaj.
+    for(var nr in CIRC){
+      if(curat(CIRC[nr])===t){ arataCirc(nr,"Circumscripția "+CIRC[nr]); return; }
+    }
     var l=LOC[t];
-    if(!l){ // potrivire pe început de nume, dacă nu e exactă
-      for(var k in LOC){ if(k.indexOf(t)===0){l=LOC[k];break;} }
+    if(!l){ // localitate scrisă pe jumătate: potrivim pe început, dar numai dacă
+            // e o singură candidată — altfel întrebăm, nu ghicim
+      var cand=[];
+      for(var k in LOC){ if(k.indexOf(t)===0){ cand.push(k); if(cand.length>1) break; } }
+      if(cand.length===1) l=LOC[cand[0]];
+      else if(cand.length>1){
+        var lista=[];
+        for(var k2 in LOC){ if(k2.indexOf(t)===0){ lista.push(LOC[k2]); if(lista.length>=8) break; } }
+        rez.innerHTML='<h3 class="pl-rez-cap">Mai multe localități încep cu „'+q.value+'"</h3>'
+          +'<p class="pl-rez-sub">Scrie numele întreg, sau alege:</p><div class="pl-optiuni">'
+          +lista.map(function(x){return x.slice(1).map(function(n){
+              return '<button data-nr="'+n+'" data-e="'+x[0]+', '+CIRC[n]+'">'+x[0]+', '+CIRC[n]+'</button>';
+            }).join("");}).join("")+'</div>';
+        rez.hidden=false; marcheaza(null); return;
+      }
     }
     if(l){
       var jud=l.slice(1);
@@ -459,7 +478,7 @@ SCRIPT = '''
     }
     if(!cautaNume(t)){
       rez.innerHTML='<p class="pl-rez-sub">Nu găsesc „'+q.value+'". Încearcă numele localității '
-        +'(ex. <i>Zalău</i>) sau al parlamentarului.</p>'; rez.hidden=false;
+        +'(ex. <i>Zalău</i>), al județului (ex. <i>Sălaj</i>) sau al parlamentarului.</p>'; rez.hidden=false;
     }
   }
   if(q){
