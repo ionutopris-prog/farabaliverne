@@ -22,7 +22,16 @@ on:
     # același abonament Max, iar pe 20-21 august zece ediții la rând au picat cu
     # „session limit" fiindcă lucram în paralel la alt proiect. Mai rar, dar care
     # chiar rulează, bate mai des și pe gol.
-    - cron: "0 4,6,8,10,12,14,16,18,20 * * *"
+    # 5 ediţii de zi (decizia fondatorului, 24 august 2026), la orele când se
+    # citeşte de fapt în România: 08, 12, 17, 20 şi 23. Erau 9, din două în două
+    # ore, inclusiv la 07 dimineaţa şi la 19 lipit de 21 — ore în care nu intra
+    # nimeni. Mai puţine, dar în ferestrele bune.
+    #   05 UTC = 08 RO · dimineaţa, la deschiderea telefoanelor
+    #   09 UTC = 12 RO · mijlocul zilei
+    #   14 UTC = 17 RO · ieşirea de la muncă, cea mai bună fereastră
+    #   17 UTC = 20 RO · seara, când se citeşte cel mai mult
+    #   20 UTC = 23 RO · târziu, prinde şi după-amiaza americană
+    - cron: "0 5,9,14,17,20 * * *"
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
@@ -99,12 +108,12 @@ jobs:
           WEEKEND=0
           if [ "$D" -ge 6 ]; then WEEKEND=1; fi
           RO_WEEKEND=0
-          if [ "$H" -eq 6 ] || [ "$H" -eq 12 ] || [ "$H" -eq 18 ]; then RO_WEEKEND=1; fi
+          if [ "$H" -eq 5 ] || [ "$H" -eq 14 ] || [ "$H" -eq 20 ]; then RO_WEEKEND=1; fi
 
 
-          if [ "$H" -ge 3 ] && [ "$H" -le 20 ] && [ "$WEEKEND" -eq 1 ] && [ "$RO_WEEKEND" -eq 0 ]; then
+          if [ "$H" -ge 5 ] && [ "$H" -le 20 ] && [ "$WEEKEND" -eq 1 ] && [ "$RO_WEEKEND" -eq 0 ]; then
             W="ZI DE WEEKEND — INTERNATIONAL. REGULA ROMANIEI NU SE APLICA in fereastra asta: nu esti obligat sa publici despre Romania, si NU forta un subiect romanesc slab doar ca sa bifezi. Acoperi TOATA LUMEA, fara regiune obligatorie: Asia-Pacific, America (SUA, Canada, America Latina), Africa, Europa, Orientul Mijlociu. ROTESTE regiunile intre editii si in cadrul aceleiasi editii — nu face trei articole despre aceeasi tara. Alege dupa MIZA subiectului, nu dupa harta. Ai voie si TREBUIE sa reiei subiecte MARI din cursul saptamanii care au ramas neacoperite — nu doar ce s-a intamplat in ultimele ore: o lege importanta votata marti, o decizie de instanta de joi, un raport economic de vineri. Verifica intai in data/ ca nu le-ai facut deja (foloseste scripts/seamana.py). Prefera subiecte CU MIZA, unde exista afirmatii de verificat, nu comunicate. Daca gasesti totusi ceva romanesc nou si important, publica-l — dar ca alegere, nu ca obligatie."
-          elif [ "$H" -ge 3 ] && [ "$H" -le 20 ]; then
+          elif [ "$H" -ge 5 ] && [ "$H" -le 20 ]; then
             W="ZI (06-23 EEST) — Romania + Europa + SUA (politica/economie/social/sport/extern). NU Stiinta (are editie proprie noaptea). Daca presa romaneasca nu are subiecte NOI, completeaza din presa INTERNATIONALA, inclusiv din EST (Asia/Orient, unde ziua s-a incheiat) — rezumat in romana + link sursa + eticheta traducere AI. Nu lasa editia goala."
           elif [ "$H" -eq 1 ]; then
             W="NOAPTE STIINTA (04 EEST) — editie DEDICATA DOAR categoriei Stiinta: spatiu, sanatate, tehnologie, clima, descoperiri, cu surse primare (NASA/ESA, reviste, agentii). Publica 2-4 articole doar Stiinta."
