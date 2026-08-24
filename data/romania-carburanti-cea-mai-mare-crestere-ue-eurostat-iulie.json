@@ -1,0 +1,74 @@
+{
+  "slug": "romania-carburanti-cea-mai-mare-crestere-ue-eurostat-iulie",
+  "title": "România, cea mai mare creștere a prețurilor la carburanți din UE — dar datele sunt dinainte de reducerea accizei",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "Eurostat / Digi24 / Rador / Observator News",
+  "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260821-1",
+  "dek": "Eurostat a publicat pe 21 august 2026 datele pentru iulie: prețurile carburanților au crescut în România cu 24,2% față de iulie 2025 — cea mai mare creștere din UE, unde media a fost de 16,9%. Datele acoperă o perioadă anterioară reducerii de acciză la motorină, intrată în vigoare abia din 16 august.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Potrivit Eurostat, în iulie 2026 prețurile carburanților și lubrifianților pentru transport personal au fost, în România, cu 24,2% mai mari decât în iulie 2025 — cea mai mare creștere anuală din cele 27 de state membre ale UE, unde media a fost de 16,9%. Pe locurile următoare: Germania și Lituania (22,9% fiecare), Bulgaria (22,2%), Olanda (22,0%) și Finlanda (20,5%).",
+      "sources": [
+        {
+          "name": "Eurostat — Evolution of fuel prices in July 2026",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260821-1"
+        },
+        {
+          "name": "Digi24 — România, cea mai mare scumpire a carburanților din UE",
+          "url": "https://www.digi24.ro/digieconomic/energie/romania-cea-mai-mare-scumpire-a-carburantilor-din-ue-preturile-au-crescut-cu-peste-24-intr-un-an-115655"
+        },
+        {
+          "name": "Observator News — carburanții s-au scumpit cu 24,2% în ultimul an, România pe primul loc în UE",
+          "url": "https://observatornews.ro/economic/carburantii-sau-scumpit-cu-242-in-ultimul-an-romania-pe-primul-loc-in-ue-663842.html"
+        }
+      ]
+    },
+    {
+      "text": "Singura țară din UE unde prețurile carburanților au fost mai mici în iulie 2026 față de iulie 2025 este Ungaria (-0,1%). Cele mai mici creșteri s-au înregistrat în Suedia (1,2%) și Irlanda (3,2%).",
+      "sources": [
+        {
+          "name": "Rador — România a avut cea mai mare creștere a prețurilor carburanților din UE",
+          "url": "https://www.rador.ro/2026/08/23/romania-a-avut-cea-mai-mare-crestere-a-preturilor-carburantilor-din-ue-in-ultimele-12-luni-potrivit-datelor-eurostat/"
+        }
+      ]
+    },
+    {
+      "text": "Pe variație lunară (iulie față de iunie 2026), în România motorina s-a scumpit cu 4,6%, iar benzina s-a ieftinit cu 0,8% — în timp ce media UE a arătat creșteri la ambele: 4,3% la motorină și 4,7% la benzină.",
+      "sources": [
+        {
+          "name": "Digi24 — România, pe primul loc în UE la creșterea prețurilor carburanților",
+          "url": "https://www.digi24.ro/stiri/economie/romania-pe-primul-loc-in-ue-la-cresterea-preturilor-carburantilor-motorina-s-a-scumpit-cu-46-benzina-s-a-ieftinit-cu-08-3915629"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Datele Eurostat citate în presă acoperă luna iulie 2026, deci o perioadă anterioară intrării în vigoare a reducerii de acciză la motorină (promulgată de președintele Nicușor Dan pe 4 august, cu efecte așteptate la pompă abia din 16 august 2026). Comparația „România, cea mai scumpă creștere din UE” e corectă pentru iulie, dar nu spune nimic despre efectul măsurii fiscale ulterioare — următorul raport Eurostat (pentru august) va arăta dacă reducerea de acciză a schimbat clasamentul.",
+      "sources": [
+        {
+          "name": "Fără Baliverne — Benzina și motorina s-au scumpit din nou, 12 august 2026",
+          "url": "https://farabaliverne.ro/a/criza-carburanti-reducere-acciza-16-august.html"
+        }
+      ]
+    },
+    {
+      "text": "Niciuna dintre sursele consultate nu explică în text de ce România a avut cea mai mare creștere anuală — nu se leagă explicit de accize, de adaosul comercial al distribuitorilor sau de alți factori interni. Fără o descompunere oficială a cauzelor, cifra Eurostat arată efectul, nu explicația.",
+      "sources": [
+        {
+          "name": "Digi24 — România, cea mai mare scumpire a carburanților din UE",
+          "url": "https://www.digi24.ro/digieconomic/energie/romania-cea-mai-mare-scumpire-a-carburantilor-din-ue-preturile-au-crescut-cu-peste-24-intr-un-an-115655"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "24,2% față de 16,9% — cât de departe e România de media UE",
+    "explanation": "Creșterea de 24,2% din România înseamnă un ritm de scumpire cu 7,3 puncte procentuale peste media UE de 16,9% — și cu 24,3 puncte procentuale peste Ungaria, singura țară cu prețuri mai mici. Comparativ, la nivel intern, INS a raportat deja pe 12 august o scumpire anuală a motorinei de 30,7% în coșul de consum românesc — o cifră diferită de cea Eurostat (24,2%), pentru că măsoară alt produs (motorină, nu media carburanți+lubrifianți) și altă metodologie de calcul al indicelui."
+  },
+  "aiNote": "Ce s-a verificat: cifra de 24,2% pentru România și media UE de 16,9% (iulie 2026 față de iulie 2025) sunt confirmate identic de Eurostat (sursa primară), Digi24, Rador, Observator News și Radio România — inclusiv clasamentul (Germania și Lituania la 22,9%, Bulgaria la 22,2%, Ungaria singura cu scădere).\n\nUnde contează contextul: datele Eurostat sunt pentru iulie 2026, deci privesc o fereastră de dinaintea reducerii de acciză la motorină promulgate pe 4 august și aplicate de la 16 august — măsură pe care Fără Baliverne a documentat-o deja. Titlurile din presă („cea mai mare creștere din UE”) sunt corecte ca fapt istoric, dar riscă să fie citite ca o descriere a situației actuale, când de fapt arată o fotografie de acum o lună.\n\nCe lipsește: nicio sursă verificată nu explică mecanismul exact al scumpirii românești — cât vine din acciza pre-reducere, cât din adaosul comercial al distribuitorilor (subiect pe care Federația Operatorilor Români de Transport l-a ridicat la jumătatea lunii august) și cât din prețul internațional al țițeiului.\n\nCe ar schimba concluzia: raportul Eurostat pentru august 2026, care va arăta dacă reducerea de acciză a scos România din fruntea clasamentului UE.",
+  "persoane": []
+}
