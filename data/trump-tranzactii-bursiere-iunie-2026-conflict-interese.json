@@ -1,0 +1,61 @@
+{
+  "slug": "trump-tranzactii-bursiere-iunie-2026-conflict-interese",
+  "title": "Trump a făcut peste 1.000 de tranzacții bursiere în iunie, între 78 și 263 de milioane de dolari — inclusiv pe Palantir, în jurul acordului cu Iranul",
+  "category": "Extern",
+  "date": "2026-08-24",
+  "source": "CNBC / Fortune / Forbes — declarația financiară obligatorie a președintelui SUA",
+  "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
+  "dek": "Declarația financiară obligatorie, publicată în august, arată că președintele Donald Trump a făcut peste 1.000 de tranzacții bursiere în iunie 2026, într-un interval estimat între 78,1 și 263,1 milioane de dolari. A cumpărat Berkshire Hathaway, Visa, Mastercard și Palantir, a vândut Meta și Motorola Solutions. Casa Albă spune că portofoliul e administrat independent, dar mișcările pe Palantir din jurul acordului de pace SUA-Iran readuc în discuție conflictul de interese.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Declarația financiară periodică depusă de președintele Donald Trump arată peste 1.000 de tranzacții bursiere efectuate în iunie 2026, cu o valoare totală estimată — declarațiile americane raportează intervale, nu sume exacte — între 78,1 și 263,1 milioane de dolari. Achizițiile au depășit 49 de milioane de dolari, iar vânzările, minimum 28,5 milioane de dolari.",
+      "sources": [
+        {
+          "name": "CNBC — Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
+          "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html"
+        },
+        {
+          "name": "Fortune — Trump's stock disclosure shows more than 1,000 trades in June",
+          "url": "https://fortune.com/2026/08/22/trump-stock-market-trading-disclosure-june-vanguard-etf/"
+        }
+      ]
+    },
+    {
+      "text": "Printre achiziții: Berkshire Hathaway, Visa, Mastercard și Cintas (fiecare între 1 și 5 milioane de dolari), Fidelity National Information Services, Home Depot, Coinbase și ETF-uri pe acțiuni tech și pe obligațiuni ale Trezoreriei SUA. Printre vânzări, pe 18 iunie: Meta Platforms și Motorola Solutions (peste 1 milion de dolari fiecare), plus Vanguard Dividend Appreciation Index Fund ETF (între 5 și 25 de milioane de dolari, pe 22 iunie), RTX și Northrop Grumman.",
+      "sources": [
+        {
+          "name": "TipRanks — Trump's Portfolio Made 1,000 June Trades, Buying Berkshire, Visa, and Selling Meta",
+          "url": "https://www.tipranks.com/news/trumps-portfolio-made-1000-june-trades-buying-berkshire-visa-and-selling-meta"
+        }
+      ]
+    },
+    {
+      "text": "Tranzacțiile pe Palantir Technologies, companie cu contracte de apărare și informații, au fost punctuale: o achiziție de 1.001–15.000 dolari pe 3 iunie, o vânzare de 15.001–50.000 dolari pe 16 iunie și o alta de 500.001 dolari–1 milion pe 18 iunie — la doar patru zile după acordul de pace SUA-Iran anunțat pe 14 iunie 2026.",
+      "sources": [
+        {
+          "name": "Forbes — Trump Made Big Stock Trades In SpaceX, Palantir And Tech Companies In June",
+          "url": "https://www.forbes.com/sites/zacharyfolk/2026/08/23/trump-made-big-stock-trades-in-spacex-palantir-and-tech-companies-in-june/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Casa Albă a declarat că președintele „nu are capacitatea de a direcționa, influența sau oferi îndrumări” asupra portofoliului, care ar fi administrat de manageri independenți, cu strategii automatizate — o poziție oficială, nu un fapt verificabil independent, pentru că declarațiile financiare nu arată cine ia efectiv deciziile de tranzacționare, zi cu zi.",
+      "sources": [
+        {
+          "name": "CNBC — Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway",
+          "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "78,1–263,1 milioane de dolari: de ce declarația nu dă o sumă exactă",
+    "explanation": "Legea americană privind etica în funcțiile publice (Ethics in Government Act) obligă la declararea tranzacțiilor pe TRANȘE de valoare (de ex. „1.001–15.000 dolari”, „500.001 dolari–1 milion”), nu pe sume exacte — de-asta presa americană citează mereu un interval minim și unul maxim, obținut prin însumarea limitelor inferioare, respectiv superioare, ale tuturor tranșelor. Diferența de 185 de milioane de dolari între cele două capete nu înseamnă incertitudine reală a jurnaliștilor, ci limita structurală a formularului de declarare."
+  },
+  "aiNote": "Ce s-a verificat: numărul de tranzacții (peste 1.000), intervalul de valoare (78,1–263,1 milioane dolari) și lista principalelor titluri cumpărate și vândute sunt confirmate identic de CNBC, Fortune, Forbes, TipRanks și Seeking Alpha, toate citând aceeași declarație financiară obligatorie depusă de Trump. Nu e o scurgere de informații sau o acuzație — e un document public, depus conform legii.\n\nUnde contează contextul: mișcările pe Palantir Technologies — o companie cu contracte guvernamentale de apărare și informații — s-au petrecut la câteva zile după ce administrația Trump a anunțat, pe 14 iunie 2026, un acord de pace cu Iranul. Asta nu dovedește că președintele a folosit informații privilegiate din poziția sa oficială pentru a tranzacționa, dar arată de ce jurnaliștii americani citează exact această suprapunere de date drept exemplu al conflictului structural de interese: un președinte cu portofoliu bursier activ ia decizii de politică externă și comercială care pot influența exact acțiunile pe care le deține.\n\nCe lipsește: declarația financiară nu spune CINE a apăsat efectiv pe butonul de cumpărare/vânzare — Trump personal sau un manager independent, așa cum susține Casa Albă. Legea americană nu obligă la această precizare, iar fără ea, afirmația Casei Albe rămâne o poziție oficială, nu un fapt verificat.\n\nCe ar schimba concluzia: publicarea contractelor sau instrucțiunilor date managerilor de portofoliu, care ar arăta dacă deciziile au fost cu adevărat automatizate și fără input direct de la președinte.",
+  "persoane": []
+}
