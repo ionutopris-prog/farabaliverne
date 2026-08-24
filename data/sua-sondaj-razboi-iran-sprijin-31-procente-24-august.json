@@ -1,0 +1,77 @@
+{
+  "slug": "sua-sondaj-razboi-iran-sprijin-31-procente-24-august",
+  "title": "Sondaj Reuters/Ipsos: sprijinul american pentru războiul cu Iranul scade la 31%, aprobarea lui Trump rămâne la minimul mandatului",
+  "category": "Extern",
+  "date": "2026-08-24",
+  "source": "Reuters/Ipsos (via U.S. News, The Jerusalem Post, WSAU)",
+  "url": "https://www.usnews.com/news/world/articles/2026-08-24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds",
+  "dek": "Un sondaj Reuters/Ipsos încheiat luni, 24 august 2026, arată sprijinul american pentru acțiunea militară în Iran la 31% — al treilea declin consecutiv față de 37% în martie și 34% la începutul lunii august. Aprobarea președintelui Donald Trump rămâne la 33%, minimul celor două mandate, pentru al doilea sondaj la rând.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Sondajul Reuters/Ipsos, desfășurat pe parcursul a patru zile și încheiat luni, 24 august 2026, arată că doar 31% dintre americani sprijină acțiunea militară a SUA împotriva Iranului — în scădere față de 37% în sondajul din martie 2026 și 34% într-un sondaj anterior din august. Eșantionul a cuprins 1.215 adulți din SUA, cu o marjă de eroare de 3 puncte procentuale.",
+      "sources": [
+        {
+          "name": "U.S. News (Reuters) — Trump's Approval Holds at Record Low as US Support for Iran War Falls",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds"
+        },
+        {
+          "name": "The Jerusalem Post — US support for Iran war falls to 31% as Trump approval remains at record low",
+          "url": "https://www.jpost.com/american-politics/article-906467"
+        },
+        {
+          "name": "WSAU (Reuters) — Trump's approval holds at record low as US support for Iran war falls",
+          "url": "https://wsau.com/2026/08/24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds/"
+        }
+      ]
+    },
+    {
+      "text": "Aprobarea generală a președintelui Trump rămâne la 33%, cel mai slab nivel înregistrat în sondajele Reuters/Ipsos din oricare dintre cele două mandate ale sale — al doilea sondaj consecutiv la acest nivel. Scăderea sprijinului pentru războiul cu Iranul este determinată în special de republicanii care nu mai susțin conflictul: 69% dintre respondenții republicani sprijină războiul, față de 77% în martie.",
+      "sources": [
+        {
+          "name": "U.S. News (Reuters) — Trump's Approval Holds at Record Low as US Support for Iran War Falls",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds"
+        },
+        {
+          "name": "WSAU (Reuters) — Trump's approval holds at record low as US support for Iran war falls",
+          "url": "https://wsau.com/2026/08/24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds/"
+        }
+      ]
+    },
+    {
+      "text": "83% dintre americani cred că războiul cu Iranul va continua „o perioadă lungă de timp”, în creștere față de 80% la un sondaj anterior din august. Prețurile la benzină au crescut cu peste un dolar pe galon față de nivelul dinaintea războiului, ceea ce pare să apese asupra ratingului de aprobare al lui Trump și al aliaților săi republicani.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post — US support for Iran war falls to 31% as Trump approval remains at record low",
+          "url": "https://www.jpost.com/american-politics/article-906467"
+        },
+        {
+          "name": "WSAU (Reuters) — Trump's approval holds at record low as US support for Iran war falls",
+          "url": "https://wsau.com/2026/08/24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Comparația directă dintre ultimele două sondaje (34% la începutul lunii august, față de 31% acum) reprezintă o diferență de 3 puncte procentuale — exact marja de eroare declarată (±3 puncte, la un eșantion de 1.215 adulți). Luată izolat, această mișcare se află la limita semnificației statistice. Ce dă totuși greutate tendinței este consecvența pe trei sondaje succesive (37% în martie, 34% în august, 31% acum), un declin constant, nu o singură fluctuație.",
+      "sources": [
+        {
+          "name": "U.S. News (Reuters) — Trump's Approval Holds at Record Low as US Support for Iran War Falls",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-24/trumps-approval-holds-at-record-low-as-us-support-for-iran-war-falls-reuters-ipsos-poll-finds"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    "Dacă declinul sprijinului pentru război reflectă oboseala față de un conflict prelungit, prețul benzinei sau ambele, ține de interpretare — sondajul măsoară opinia publică, nu cauzele ei exacte. Presa citată în acest articol nu pretinde altceva."
+  ],
+  "math": {
+    "title": "De ce o mișcare de 3 puncte, „la limita erorii”, poate fi totuși un semnal real",
+    "explanation": "Cu un eșantion de 1.215 adulți și o marjă de eroare de ±3 puncte procentuale, diferența dintre un singur sondaj și următorul (34% → 31%) nu poate fi, luată separat, distinsă cu certitudine de zgomotul statistic. Însă probabilitatea ca TREI sondaje succesive și independente (37% în martie, 34% la începutul lunii august, 31% acum) să arate întâmplător aceeași direcție de scădere, dacă sprijinul real ar fi stabil, este mică — fiecare pas separat are o șansă de circa 50% de a merge „în jos” din pură variație aleatorie, deci trei scăderi consecutive au o probabilitate de aproximativ 12,5% (0,5³) de a apărea din întâmplare. Tendința e deci mai solidă decât ultima cifră izolată."
+  },
+  "aiNote": "Ce s-a verificat: cifrele — 31% sprijin pentru acțiunea militară în Iran, 33% aprobare generală pentru Trump, 69% sprijin republican (față de 77% în martie), 83% care cred că războiul va dura mult — sunt raportate concordant de trei publicații care preiau același sondaj Reuters/Ipsos (U.S. News, The Jerusalem Post, WSAU), toate citând aceeași metodologie: sondaj de patru zile încheiat luni, 24 august 2026, pe 1.215 adulți, marjă de eroare de 3 puncte. Unde sunt limitele: nu am putut accesa direct pagina Reuters.com cu toplines-urile complete (crosstab-urile pe partid, vârstă, regiune) — informația vine din publicații care preiau firul de știri Reuters, nu din raportul brut Ipsos. Diferența dintre ultimele două sondaje (34% și 31%) e la limita marjei de eroare declarate; ce dă totuși greutate concluziei e consecvența pe trei valuri succesive ale aceluiași sondaj, cu aceeași metodologie. Ce lipsește: datele demografice complete și eventualele întrebări despre motivele exacte ale scăderii (preț carburant, durata conflictului, altele) nu sunt publicate în sursele consultate. Ce ar schimba concluzia: un toplines Ipsos publicat integral, sau un sondaj independent (Gallup, Pew, YouGov) din aceeași perioadă care ar arăta o direcție diferită.",
+  "persoane": [
+    "Donald Trump"
+  ]
+}
