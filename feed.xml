@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 24 Aug 2026 07:38:06 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 07:46:35 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>România, cea mai mare creștere a prețurilor la carburanți din UE — dar datele sunt dinainte de reducerea accizei</title>
+      <link>https://farabaliverne.ro/a/romania-carburanti-cea-mai-mare-crestere-ue-eurostat-iulie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/romania-carburanti-cea-mai-mare-crestere-ue-eurostat-iulie.html</guid>
+      <pubDate>Mon, 24 Aug 2026 04:38:19 +0000</pubDate>
+      <category>Economie</category>
+      <description>Eurostat a publicat pe 21 august 2026 datele pentru iulie: prețurile carburanților au crescut în România cu 24,2% față de iulie 2025 — cea mai mare creștere din UE, unde media a fost de 16,9%. Datele acoperă o perioadă anterioară reducerii de acciză la motorină, intrată în vigoare abia din 16 august.
+
+Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Arabia Saudită a pus discret transferurile bancare către Emiratele Arabe Unite sub control sporit, ca la țările cu risc ridicat. Riadul neagă orice restricție directă</title>
       <link>https://farabaliverne.ro/a/arabia-saudita-eau-restrictii-bancare-tensiuni.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 5 probate, 0 contestate.</description>
       <description>Deputata de stat Angie Nixon, membră recentă a Democratic Socialists of America, a câștigat marți, 18 august 2026, primarele democrate pentru Senatul SUA din Florida cu circa 56% la 44%, învingându-l pe Alexander Vindman — martorul-cheie din primul proces de demitere al lui Trump — deși acesta strânsese de aproape 16 ori mai mulți bani de campanie. În alegerile generale din noiembrie, Nixon o va înfrunta pe republicana Ashley Moody, senatoare în funcție.
 
 Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Parlamentul, convocat în sesiune extraordinară pe 24-26 august, ca să repare Legea integrității și să salveze 2,84 miliarde euro din PNRR</title>
-      <link>https://farabaliverne.ro/a/parlament-sesiune-extraordinara-24-26-august-legea-integritatii-hidrogen.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/parlament-sesiune-extraordinara-24-26-august-legea-integritatii-hidrogen.html</guid>
-      <pubDate>Sat, 22 Aug 2026 06:26:26 +0000</pubDate>
-      <category>Politică</category>
-      <description>Biroul permanent al Camerei Deputaților și președintele Senatului, Mircea Abrudean, au convocat vineri, 21 august, o nouă sesiune extraordinară pentru 24-26 august. Camera reexaminează Legea integrității după decizia CCR nr. 883/17 august, iar Senatul votează Legea hidrogenului — condiție pentru Cererea de plată nr. 5 din PNRR, de 2,84 miliarde de euro.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 5 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
