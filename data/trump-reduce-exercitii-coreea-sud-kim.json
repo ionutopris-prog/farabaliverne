@@ -34,6 +34,20 @@
       "sources": [
         { "name": "AP (via News4JAX) — Trump orders Pentagon to scale back joint exercises with South Korea", "url": "https://www.news4jax.com/news/politics/2026/08/16/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea/" }
       ]
+    },
+    {
+      "text": "Pe 19 august 2026, Kim Yo Jong, sora lui Kim Jong Un, a transmis printr-o declarație publicată de agenția de stat nord-coreeană KCNA că „nu a existat nicio comunicare” între liderii Coreei de Nord și SUA despre care să știe ea: „Nu știu deloc despre asta, și poate e singurul lucru pe care nu-l știu în privința politicii externe a conducerii noastre supreme” — un răspuns la afirmațiile lui Trump că ar căuta o întâlnire cu Kim Jong Un.",
+      "sources": [
+        { "name": "CNN — Kim Jong Un's powerful sister says she is 'completely unaware' if he contacted Trump", "url": "https://www.cnn.com/2026/08/19/asia/kim-jong-un-sister-unaware-trump-talks-intl" },
+        { "name": "The Hill — Kim Yo Jong denies awareness of planned meeting between Trump and Kim Jong Un", "url": "https://thehill.com/policy/international/6040217-kim-yo-jong-denies-trump-talks/" }
+      ]
+    },
+    {
+      "text": "Pe 21 august 2026, tot printr-o declarație KCNA, Kim Yo Jong a reacționat la reducerea exercițiului Ulchi Freedom Shield de la 11 la 5 zile, spunând că Coreea de Sud „a cules ce a semănat” și numind alianța SUA-Coreea de Sud o relație de tip „stăpân-servitor”, iar armata sud-coreeană „armata marionetă”: „Coreea de Sud nu poate scoate niciun cuvânt de protest când soldații americani pleacă fără nicio coordonare reciprocă, la ordinul unilateral al șefului executiv american”. Declarația a venit după ce Coreea de Nord lansase, pe 20 august, aproximativ 10 rachete balistice cu rază scurtă spre Marea Japoniei.",
+      "sources": [
+        { "name": "The Japan Times — Kim Jong Un's sister mocks South Korea as U.S. 'puppet' over drill cutback", "url": "https://www.japantimes.co.jp/news/2026/08/21/asia-pacific/politics/kim-sister-korea-us-drills/" },
+        { "name": "NK News — Kim Yo Jong mocks 'puppet' Seoul as Trump cuts short U.S.-ROK military drills", "url": "https://www.nknews.org/2026/08/kim-yo-jong-mocks-puppet-seoul-as-trump-cuts-short-u-s-rok-military-drills/" }
+      ]
     }
   ],
   "contestat": [],
@@ -49,6 +63,6 @@
     "title": "18.000 de militari, într-un exercițiu redus înainte să înceapă",
     "explanation": "Ulchi Freedom Shield mobilizează în mod normal aproximativ 18.000 de militari sud-coreeni pe durata a 11 zile. Ordinul lui Trump de reducere „substanțială” a venit chiar în ziua în care exercițiul urma să înceapă — prea târziu pentru anulare, potrivit propriei sale formulări, dar suficient de devreme pentru a-i schimba amploarea din mers. Deocamdată nu există o cifră publică a reducerii (de exemplu, procentul de trupe sau de activități anulate), pentru că anunțul rămâne, la data verificării, o instrucțiune, nu un plan detaliat făcut public de Pentagon."
   },
-  "aiNote": "Sursele americane de presă (Al Jazeera și relatarea Associated Press, preluată de mai multe televiziuni locale) confirmă concordant citatul exact al lui Trump de pe Truth Social, motivele invocate (cost, relația cu Kim Jong Un, nemulțumirea privind Iranul), amploarea exercițiului Ulchi Freedom Shield și reacția critică a senatorului Mark Kelly. Am separat clar faptele confirmate de aprecierile personale — atât caracterizarea lui Trump despre Coreea de Nord, cât și eticheta „miopă și o greșeală” a lui Kelly — ca opinii politice, nu ca fapte stabilite.",
-  "persoane": ["Donald Trump"]
+  "aiNote": "Sursele americane de presă (Al Jazeera și relatarea Associated Press, preluată de mai multe televiziuni locale) confirmă concordant citatul exact al lui Trump de pe Truth Social, motivele invocate (cost, relația cu Kim Jong Un, nemulțumirea privind Iranul), amploarea exercițiului Ulchi Freedom Shield și reacția critică a senatorului Mark Kelly. Am separat clar faptele confirmate de aprecierile personale — atât caracterizarea lui Trump despre Coreea de Nord, cât și eticheta „miopă și o greșeală” a lui Kelly — ca opinii politice, nu ca fapte stabilite.\n\nActualizare (21-22 august 2026): am adăugat reacția lui Kim Yo Jong, sora lui Kim Jong Un, la reducerea exercițiilor — două declarații separate, transmise ambele prin agenția de stat nord-coreeană KCNA și confirmate concordant de CNN, The Hill, The Japan Times și NK News. Tratăm aceste declarații ca poziții oficiale nord-coreene relatate de presă, nu ca fapte verificate independent despre ce se întâmplă de fapt în spatele scenei diplomatice — în special negarea ei privind contactele Trump-Kim Jong Un, care nu poate fi confirmată sau infirmată din surse publice.",
+  "persoane": ["Donald Trump", "Kim Yo Jong"]
 }
