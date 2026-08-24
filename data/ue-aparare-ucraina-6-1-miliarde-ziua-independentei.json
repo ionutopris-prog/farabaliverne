@@ -1,0 +1,41 @@
+{
+  "slug": "ue-aparare-ucraina-6-1-miliarde-ziua-independentei",
+  "title": "UE aprobă 6,1 miliarde de euro pentru apărarea aeriană a Ucrainei, chiar de Ziua Independenței",
+  "category": "Extern",
+  "date": "2026-08-24",
+  "source": "Euronews / Ukrainska Pravda",
+  "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences",
+  "dek": "Comisia Europeană a anunțat luni, 24 august — Ziua Independenței Ucrainei —, un nou pachet de 6,1 miliarde de euro pentru achiziții de apărare aeriană, muniție și radare, parte din împrumutul de 90 de miliarde de euro aprobat în februarie 2026. Anunțul coincide cu o întâlnire a „Coaliției celor dispuși” la Kiev.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Comisia Europeană a aprobat, pe 24 august 2026, un pachet de 6,1 miliarde de euro pentru achiziții de apărare a Ucrainei — sisteme de apărare aeriană și antirachetă, rachete, muniție și radare. Președinta Comisiei, Ursula von der Leyen, a declarat: „am aprobat 6,1 miliarde de euro pentru sistemele de apărare aeriană și antirachetă, rachetele, munițiile și radarele de care Ucraina are nevoie urgentă.”",
+      "sources": [
+        {"name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences", "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"},
+        {"name": "Ukrainska Pravda — European Commission approves €6.1bn in defence procurement for Ukraine", "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050020/"}
+      ]
+    },
+    {
+      "text": "Pachetul face parte din împrumutul de 90 de miliarde de euro pentru Ucraina, adoptat de Parlamentul European și Consiliu prin Regulamentul (UE) 2026/467 în februarie 2026 — din care 30 de miliarde susțin funcționarea statului și serviciile publice esențiale, iar 60 de miliarde sunt alocate consolidării capacității militare pentru 2026-2027. Suma de 6,1 miliarde se adaugă unei tranșe anterioare de apărare de 16 miliarde de euro, din care 8,35 miliarde fuseseră deja transferate Kievului, inclusiv o tranșă de 3,47 miliarde pe 30 iulie 2026.",
+      "sources": [
+        {"name": "Ukrainska Pravda — European Commission approves €6.1bn in defence procurement for Ukraine", "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050020/"}
+      ]
+    },
+    {
+      "text": "Cea mai mare parte a achizițiilor va fi făcută de la companii de apărare din UE. Comisia a motivat urgența prin intensificarea atacurilor rusești cu rachete balistice și drone — potrivit Euronews, doar în iunie 2026 au fost înregistrate 376 de atacuri cu rachete asupra Ucrainei — și a subliniat nevoia de a reduce stocurile existente, a reprioritiza comenzile și a accelera producția.",
+      "sources": [
+        {"name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences", "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"}
+      ]
+    },
+    {
+      "text": "Anunțul a fost făcut chiar de Ziua Independenței Ucrainei (24 august), în timp ce lideri europeni s-au reunit la Kiev într-o întâlnire a „Coaliției celor dispuși” pentru a coordona sprijinul aerian suplimentar și aprovizionarea cu energie pentru iarnă. Președintele Consiliului European, António Costa, a declarat că sprijinul aliat a fost „neclintit” din 2022 încoace, cu angajamente pentru garanții de securitate post-conflict.",
+      "sources": [
+        {"name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences", "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Euronews, Ukrainska Pravda); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele (6,1 miliarde de euro, cadrul de 90 de miliarde, tranșele anterioare) coincid între cele două surse independente și se bazează pe declarația oficială a președintei Comisiei Europene, nu pe surse anonime — de aceea verdictul este „Probat” fără rezerve.",
+  "persoane": ["Ursula von der Leyen"]
+}
