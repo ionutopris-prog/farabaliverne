@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 24 Aug 2026 20:37:57 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 20:42:24 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Camera Deputaților a adoptat noul text al Legii Integrității, după ce CCR a anulat declararea averii partenerilor demnitarilor</title>
+      <link>https://farabaliverne.ro/a/camera-deputatilor-vot-legea-integritatii-post-ccr-24-august.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/camera-deputatilor-vot-legea-integritatii-post-ccr-24-august.html</guid>
+      <pubDate>Mon, 24 Aug 2026 17:38:09 +0000</pubDate>
+      <category>Politică</category>
+      <description>Camera Deputaților a votat luni, 24 august 2026, cu 183 pentru, 84 împotrivă și 3 abțineri, textul reexaminat al Legii integrității, după ce CCR a declarat neconstituțională obligația partenerilor demnitarilor de a-și declara averea. Legea merge la Senat, cameră decizională, cu termen PNRR la 31 august.
+
+Unde bat probele: Probat, cu nuanțe. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Patru românce intră direct pe tabloul principal la US Open 2026 — Sorana Cîrstea, cap de serie 17</title>
       <link>https://farabaliverne.ro/a/us-open-2026-patru-romance-tablou-principal.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
       <description>Comitetul Național pentru Situații de Urgență a aprobat pe 21 august un pachet de intervenții — dragaj continuu, un dig temporar pe Dunărea Veche și eliberări suplimentare de apă din lacurile de pe Olt, începând cu 22 august — pentru a asigura apa de răcire la Cernavodă, unde ambele reactoare sunt oprite de la sfârșitul lui iulie din cauza secetei.
 
 Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Pentagonul îl demite pe redactorul-șef al Stars and Stripes, la o lună după ce a numit independența editorială o „linie roșie” într-un interviu CBS</title>
-      <link>https://farabaliverne.ro/a/pentagon-stars-and-stripes-demite-redactor-sef-insubordonare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/pentagon-stars-and-stripes-demite-redactor-sef-insubordonare.html</guid>
-      <pubDate>Sat, 22 Aug 2026 18:32:48 +0000</pubDate>
-      <category>Extern</category>
-      <description>Pentagonul le-a trimis vineri, 21 august 2026, notificări de încetare a activității redactorului-șef Erik Slavin, editorului Max Lederer Jr. și reporterei Lara Korte de la ziarul militar Stars and Stripes, invocând insubordonare. Slavin fusese cel care, într-un interviu CBS din iulie, spusese că orice încercare a Pentagonului de a interfera cu independența editorială a publicației ar reprezenta o „linie roșie”.
-
-Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
