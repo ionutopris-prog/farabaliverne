@@ -1,0 +1,59 @@
+{
+  "slug": "ue-sase-state-taxa-profituri-exceptionale-petrol",
+  "title": "Șase state UE cer o taxă comună pe profiturile excepționale ale companiilor petroliere, pe fondul crizei din Golf",
+  "category": "Extern",
+  "date": "2026-08-24",
+  "source": "Euronews / RTÉ",
+  "url": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits",
+  "dek": "Germania, Italia, Austria, Polonia, Portugalia și Spania au cerut, într-o scrisoare comună, ca miniștrii de finanțe ai UE să discute pe 18-19 septembrie, la Dublin, o taxă la nivelul blocului pe profiturile excepționale ale companiilor petroliere. E o cerere de a pune subiectul pe agendă, nu o decizie — iar în interiorul Germaniei, care a semnat scrisoarea, coaliția de guvernare e împărțită pe temă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Cele șase țări au trimis o scrisoare comună președinției irlandeze a Consiliului UE, cerând ca miniștrii de finanțe să pună pe agenda reuniunii din 18-19 septembrie 2026, de la Dublin, un „cadru la nivelul UE pentru taxarea profiturilor excepționale”, invocând explicit lecțiile din 2022 (când UE a mai introdus o taxă temporară similară, după invazia Rusiei în Ucraina).",
+      "sources": [
+        {
+          "name": "Euronews — Six EU countries push for windfall tax on oil companies amid surging war profits",
+          "url": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+        },
+        {
+          "name": "RTÉ — 6 countries want EU talks on taxing windfall oil profits",
+          "url": "https://www.rte.ie/news/business/2026/0824/1588973-6-countries-want-eu-talks-on-taxing-windfall-oil-profits/"
+        }
+      ]
+    },
+    {
+      "text": "Scrisoarea leagă cererea de criza energetică declanșată de blocarea Strâmtorii Hormuz de către Iran, pe fondul conflictului israeliano-iranian: potrivit RTÉ, prețul țițeiului a crescut cu aproximativ 25%, motorina cu peste 70%, iar benzina cu circa 20%. Miniștrii scriu: „companiile petroliere se bucură de o profitabilitate și de marje la produsele rafinate care depășesc creșterea prețului țițeiului” și cer și rezultatele unei anchete europene privind marjele rafinăriilor.",
+      "sources": [
+        {
+          "name": "RTÉ — citate din scrisoare și cifrele privind prețurile",
+          "url": "https://www.rte.ie/news/business/2026/0824/1588973-6-countries-want-eu-talks-on-taxing-windfall-oil-profits/"
+        },
+        {
+          "name": "Euronews — context și semnatari",
+          "url": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+        }
+      ]
+    },
+    {
+      "text": "În interiorul Germaniei, unul dintre cele șase semnatare, poziția e disputată chiar în coaliția de guvernare: ministrul de finanțe Lars Klingbeil (SPD) susține taxa, spunând că profiturile excepționale de criză trebuie să revină în beneficiul consumatorilor, în timp ce CDU a cancelarului Friedrich Merz se opune unei noi taxe de tip windfall.",
+      "sources": [
+        {
+          "name": "Euronews — poziția lui Klingbeil și opoziția CDU",
+          "url": "https://www.euronews.com/my-europe/2026/08/23/six-eu-countries-push-for-windfall-tax-on-oil-companies-amid-surging-war-profits"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Cererea celor șase țări e o poziție politică, nu o concluzie economică stabilită: afirmația din scrisoare — că marjele rafinăriilor depășesc nejustificat creșterea prețului țițeiului — este chiar motivul pentru care miniștrii cer o anchetă europeană pe marje, adică e o ipoteză de verificat, nu un fapt deja probat. Companiile petroliere nu au fost citate cu un răspuns în sursele consultate."
+    }
+  ],
+  "math": {
+    "title": "O cerere pe agendă, nu o lege",
+    "explanation": "Șase din 27 de state membre UE au semnat scrisoarea. Pentru ca o taxă la nivel UE să devină realitate, ar fi nevoie fie de acordul unanim al statelor membre în Consiliu (pentru un instrument fiscal comun), fie ca fiecare stat să adopte propria taxă națională, cum s-a întâmplat parțial și în 2022. Reuniunea din 18-19 septembrie e primul pas — o discuție pe agendă, nu un vot."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nAm verificat cererea celor șase țări pe două surse independente — Euronews și RTÉ — care coincid pe semnatari, pe data reuniunii de la Dublin și pe citatele din scrisoare. Ce merită subliniat: afirmația centrală a scrisorii, că rafinăriile au marje disproporționate față de creșterea prețului țițeiului, e formulată de miniștri chiar ca ipoteză de verificat — ei cer o anchetă europeană pe exact acest punct, nu prezintă cifre finale. Tratăm deci afirmația ca poziție politică a celor șase guverne, nu ca fapt economic stabilit.\n\nCe lipsește: rezultatul anchetei europene pe marjele rafinăriilor, poziția celorlalte 21 de state UE care nu au semnat scrisoarea, și orice reacție directă a companiilor petroliere vizate. Ce ar schimba concluzia: dacă anchreta arată că marjele sunt în linie cu costurile de aprovizionare din criza Hormuz, argumentul central al scrisorii ar cădea; dacă miniștrii de finanțe ajung la un acord la Dublin, subiectul trece din „propunere” în „politică UE”.",
+  "persoane": ["Lars Klingbeil", "Friedrich Merz"]
+}
