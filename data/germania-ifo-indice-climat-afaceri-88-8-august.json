@@ -1,0 +1,69 @@
+{
+  "slug": "germania-ifo-indice-climat-afaceri-88-8-august",
+  "title": "Indicele Ifo al climatului de afaceri din Germania urcă la 88,8 în august 2026, cel mai ridicat nivel din ultimul an",
+  "category": "Economie",
+  "date": "2026-08-25",
+  "source": "Institutul Ifo / FX.co / Trading Economics",
+  "url": "https://www.ifo.de/en/ifo-business-climate-index-germany-august-2026",
+  "dek": "Institutul Ifo din München a publicat marți, 25 august 2026, indicele lunar al climatului de afaceri din Germania: 88,8 puncte, al patrulea avans lunar consecutiv și peste așteptările analiștilor (87,2). Ambele componente — evaluarea situației curente și așteptările — au crescut față de iulie.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Indicele Ifo al climatului de afaceri din Germania a urcat la 88,8 puncte în august 2026, cea mai ridicată valoare din ultimele 12 luni și al patrulea avans lunar consecutiv. Cifra depășește prognoza analiștilor, de 87,2 puncte.",
+      "sources": [
+        {
+          "name": "FX.co — German Business Sentiment Brightens as Ifo Index Climbs in August",
+          "url": "https://www.fx.co/en/forex-news/3114177"
+        },
+        {
+          "name": "Trading Economics — German Business Climate Hits Six-Month High",
+          "url": "https://tradingeconomics.com/germany/business-confidence/news/527683"
+        }
+      ]
+    },
+    {
+      "text": "Ambele componente ale indicelui au crescut: evaluarea situației curente a urcat la 88,5 puncte (de la 86,5 în iulie), iar componenta de așteptări la 89,1 puncte (de la 86,8 în iulie). Institutul Ifo, sondaj lunar realizat pe aproximativ 9.000 de companii germane, e considerat unul dintre cei mai urmăriți indicatori economici din zona euro.",
+      "sources": [
+        {
+          "name": "FX.co — Germany Ifo Business Sentiment at 1-Year High",
+          "url": "https://www.fx.co/en/forex-news/3114222"
+        },
+        {
+          "name": "Trading Economics — componentele indicelui",
+          "url": "https://tradingeconomics.com/germany/business-confidence/news/527683"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Valoarea exactă a lunii iulie 2026, folosită ca bază de comparație, diferă ușor între surse — 86,6 la unele agregatoare, 86,7 la altele — o diferență de o zecime de punct, tipică revizuirilor ulterioare ale datelor Ifo și fără impact asupra concluziei (creșterea la 88,8 rămâne un avans clar față de luna precedentă, oricare ar fi cifra de referință).",
+      "sources": [
+        {
+          "name": "FX.co — 86,6 în iulie",
+          "url": "https://www.fx.co/en/forex-news/3114177"
+        },
+        {
+          "name": "Trading Economics — cifrele componentelor",
+          "url": "https://tradingeconomics.com/germany/business-confidence/news/527683"
+        }
+      ]
+    },
+    {
+      "text": "Analiștii citați avertizează că îmbunătățirea sentimentului rămâne fragilă: tensiunile geopolitice din Orientul Mijlociu continuă să pună presiune pe prețurile energiei, cu impact potențial asupra celei mai mari economii din zona euro. Indicele Ifo măsoară percepția companiilor, nu producția sau PIB-ul efectiv, deci nu garantează că avansul se va reflecta automat în datele economice viitoare.",
+      "sources": [
+        {
+          "name": "FX.co — avertismentul privind fragilitatea recuperării",
+          "url": "https://www.fx.co/en/forex-news/3114222"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "88,8 puncte, pe o scală fără prag fix de „bine” sau „rău”",
+    "explanation": "Indicele Ifo nu are un prag oficial peste care economia e considerată „sănătoasă” — e un indicator relativ, calculat cu anul 2015 ca bază 100. Valoarea de 88,8 rămâne sub acel nivel de referință, dar traiectoria contează mai mult decât nivelul absolut: patru creșteri lunare consecutive (de la un minim de sub 87 în perioada anterioară) arată o îmbunătățire graduală a sentimentului, nu o revenire completă."
+  },
+  "aiNote": "🇩🇪 Verificare de rutină pe o cifră oficială: indicele Ifo e publicat lunar de Institutul Ifo din München pe baza unui sondaj la aproximativ 9.000 de firme germane și e urmărit ca semnal timpuriu pentru economia Germaniei, cea mai mare din zona euro — cu efecte indirecte și asupra cererii externe pentru exporturile românești. Cifrele din surse independente (FX.co, Trading Economics) coincid pe indicele general (88,8) și pe componente; singura mică diferență, pe cifra de referință din iulie (86,6 vs. 86,7), e nesemnificativă și nu schimbă concluzia.",
+  "persoane": []
+}
