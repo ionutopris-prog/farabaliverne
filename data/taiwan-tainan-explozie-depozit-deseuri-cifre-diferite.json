@@ -1,0 +1,77 @@
+{
+  "slug": "taiwan-tainan-explozie-depozit-deseuri-cifre-diferite",
+  "title": "Explozie la un depozit ilegal de deșeuri în Tainan, Taiwan — 13 sau 15 răniți, 8 sau 68 de case avariate, în funcție de sursă",
+  "category": "Extern",
+  "date": "2026-08-25",
+  "source": "Focus Taiwan / Taipei Times / TASS / Al Jazeera",
+  "url": "https://focustaiwan.tw/society/202608220003",
+  "dek": "🌍 Un incendiu izbucnit într-un depozit ilegal de deșeuri (aliaj aluminiu-magneziu și ulei uzat) din cartierul Annan, Tainan, a fost urmat de o explozie în noaptea de 22 spre 23 august 2026, rănind ușor un număr de oameni și avariind locuințe din vecinătate. Numărul exact de răniți și de case avariate diferă semnificativ între relatări — între 13 și 15 răniți, respectiv între 8 și 68 de case — deși mai multe surse citează, deopotrivă, Biroul de Pompieri al orașului Tainan.",
+  "mainVerdict": "Evenimentul e confirmat; amploarea pagubelor rămâne neclară, cu cifre care diferă de 8 ori la casele avariate",
+  "probat": [
+    {
+      "text": "Biroul de Pompieri al orașului Tainan a raportat că a primit alertă la ora 1:12, pe 22/23 august 2026, pentru un incendiu la deșeuri într-un teren viran de pe Haidian Road, Annan. Au fost trimise 53 de autospeciale și 144 de pompieri, iar 36 de rezidenți din zonă au fost evacuați. Focul a fost stins după peste patru ore. Cazul a fost trimis procurorilor, existând suspiciunea că un bărbat cu numele de familie Yang ar fi permis unui operator din Kaohsiung să depoziteze ilegal deșeuri la acea adresă.",
+      "sources": [
+        {
+          "name": "Focus Taiwan — Fire explosion in Tainan injures 13, damages homes, vehicles",
+          "url": "https://focustaiwan.tw/society/202608220003"
+        },
+        {
+          "name": "Taipei Times — Tainan explosion and blaze leave at least 13 injured, 11 houses damaged",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/08/23/2003862967"
+        }
+      ]
+    },
+    {
+      "text": "Focus Taiwan și Al Jazeera raportează 13 răniți în total (3 pompieri și 10 civili), cu răni ușoare — în special abraziuni și arsuri —, toți externați după tratament. Focus Taiwan mai precizează 8 case și 20 de vehicule avariate (11 mașini, 6 autospeciale de pompieri, o ambulanță, două vehicule de intervenție). TaiwanPlus dă o cifră apropiată — 13-14 răniți (3 pompieri, 11 rezidenți) și 11 case avariate —, dar adaugă că, în total, 57 de gospodării din zonă au fost „afectate” de incident, o categorie mai largă decât „case avariate structural”.",
+      "sources": [
+        {
+          "name": "Focus Taiwan — Fire explosion in Tainan injures 13, damages homes, vehicles",
+          "url": "https://focustaiwan.tw/society/202608220003"
+        },
+        {
+          "name": "Al Jazeera — Explosion injures 13 in Taiwan",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/explosion-injures-13-in-taiwan"
+        },
+        {
+          "name": "TaiwanPlus — Tainan Explosion and Blaze Leave at Least 13 Injured, 11 Houses Damaged",
+          "url": "https://www.taiwanplus.com/news/taiwan-news/other/260822002/tainan-explosion-and-blaze-leave-at-least-13-injured-11-houses-damaged"
+        }
+      ]
+    },
+    {
+      "text": "Taipei Times, citând tot Biroul de Pompieri al orașului Tainan, raportează 15 răniți (12 civili și 3 pompieri) și 68 de locuințe avariate — dintre care 3, cele mai apropiate de explozie, cu daune „serioase”. Agenția rusă de stat TASS a preluat aceleași cifre de la Taipei Times.",
+      "sources": [
+        {
+          "name": "Taipei Times — Tainan fire injures 15 and damages 68 homes",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/08/23/2003862967"
+        },
+        {
+          "name": "TASS — Nearly 70 houses damaged, 15 people injured in fire and explosion in Taiwan — newspaper",
+          "url": "https://tass.com/emergencies/2176581"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifrele diferă semnificativ între surse care citesc, aparent, aceeași sursă oficială (Biroul de Pompieri Tainan): 13-15 răniți (diferență mică, posibil explicabilă prin momentul raportării) și 8-11 vs. 68 de case avariate (diferență majoră). TaiwanPlus oferă un indiciu care ar putea explica parțial diferența: pe lângă cele 11 case cu „daune” pe care le numără explicit, outletul menționează separat 57 de gospodării „afectate” — o cifră mult mai apropiată de cea a Taipei Times (68) decât de cea a Focus Taiwan (8). E posibil ca „case avariate” și „gospodării afectate” să fie categorii diferite, contabilizate diferit de la o redacție la alta, dar niciuna dintre surse nu explică exact criteriul folosit.",
+      "sources": [
+        {
+          "name": "Focus Taiwan — 13 răniți, 8 case avariate",
+          "url": "https://focustaiwan.tw/society/202608220003"
+        },
+        {
+          "name": "Taipei Times — 15 răniți, 68 case avariate",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/08/23/2003862967"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "8 vs. 68 de case avariate",
+    "explanation": "Focus Taiwan (agenția de presă oficială a Taiwanului) raportează 8 locuințe avariate, TaiwanPlus 11; Taipei Times și TASS raportează 68, dintre care 3 cu daune „serioase”. TaiwanPlus însă mai dă și cifra de 57 de gospodării „afectate” în total — apropiată de cea a Taipei Times. Diferența pare să vină din ce anume se numără (case cu daune structurale directe vs. gospodării afectate într-un sens mai larg), nu neapărat dintr-o eroare, dar nicio sursă nu explică exact metodologia."
+  },
+  "aiNote": "Ce s-a verificat exact: evenimentul de bază — incendiul urmat de explozie în Tainan, în noaptea de 22 spre 23 august 2026 — e confirmat concordant de Focus Taiwan (agenția oficială taiwaneză), TaiwanPlus, Taipei Times, Al Jazeera și TASS. Ora alertei (1:12), numărul de pompieri și autospeciale mobilizate (144 / 53) coincid în toate relatările.\nUnde se despart sursele: numărul de răniți diferă ușor (13-15) — plauzibil, între un bilanț inițial și unul actualizat. Dar numărul de „case avariate” diferă masiv: 8 (Focus Taiwan) și 11 (TaiwanPlus) față de 68 (Taipei Times, preluat de TASS). Un indiciu parțial: TaiwanPlus, aceeași sursă care dă 11 case „avariate”, menționează separat că 57 de gospodării au fost „afectate” în total — o cifră apropiată de cea a Taipei Times. Nu putem stabili cu certitudine dacă diferența vine dintr-un criteriu diferit de numărare (daune structurale directe vs. impact mai larg) sau dintr-o eroare de transcriere într-una dintre relatări.\nCe lipsește: sursa primară în chineză a Biroului de Pompieri Tainan, cu bilanțul final și metodologia exactă de numărare a locuințelor afectate.\nCe ar schimba concluzia: un comunicat oficial în limba chineză al autorităților din Tainan cu bilanțul final al pagubelor, sau o clarificare din partea uneia dintre redacții despre ce anume au numărat.",
+  "persoane": []
+}
