@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 25 Aug 2026 12:42:58 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:43:14 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Indicele Ifo al climatului de afaceri din Germania urcă la 88,8 în august 2026, cel mai ridicat nivel din ultimul an</title>
+      <link>https://farabaliverne.ro/a/germania-ifo-indice-climat-afaceri-88-8-august.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/germania-ifo-indice-climat-afaceri-88-8-august.html</guid>
+      <pubDate>Tue, 25 Aug 2026 09:43:08 +0000</pubDate>
+      <category>Economie</category>
+      <description>Institutul Ifo din München a publicat marți, 25 august 2026, indicele lunar al climatului de afaceri din Germania: 88,8 puncte, al patrulea avans lunar consecutiv și peste așteptările analiștilor (87,2). Ambele componente — evaluarea situației curente și așteptările — au crescut față de iulie.
+
+Unde bat probele: Probat. Verificate: 2 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Putin acuză, la televiziunea de stat rusă, că Ucraina „a deschis cutia Pandorei” — promite represalii „mult mai distructive”</title>
       <link>https://farabaliverne.ro/a/putin-cutia-pandorei-vesti-tv-represalii-ucraina.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
       <description>Donald Trump a anunțat pe 21 august 2026 că permite importul a 300.000 de tone de carne de vită tocată, fără tariful suplimentar impus peste cota OMC, timp de 90 de zile — în schimbul unui angajament din partea exportatorilor străini de a vinde cu 25% sub prețul curent de piață. Măsura vine după ce prețul cărnii tocate a urcat de la 5,55 dolari/livră, când Trump a preluat mandatul, la 6,89 dolari/livră în iulie — o creștere de 24%. Senatorul republican Tim Sheehy (Montana) a criticat decizia, spunând că lovește crescătorii de vite, „majoritatea republicani MAGA”. Economiști citează faptul că refacerea efectivelor de vite durează cel puțin trei ani, mult peste fereastra de 90 de zile.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Oil Terminal Constanța intră în grevă pe 24 august, după ce statul a refuzat o majorare de 6,5%</title>
-      <link>https://farabaliverne.ro/a/oil-terminal-constanta-greva-24-august-refuz-majorare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/oil-terminal-constanta-greva-24-august-refuz-majorare.html</guid>
-      <pubDate>Sun, 23 Aug 2026 05:29:03 +0000</pubDate>
-      <category>Economie</category>
-      <description>Sindicatul de la cel mai mare terminal petrolier din Constanța, deținut în proporție de 87,76% de Ministerul Energiei, anunță declanșarea conflictului colectiv de muncă din 24 august, după ~50 de zile de negocieri eșuate pentru o majorare de 6,5%. Cifrele vehiculate de sindicat arată o grevă de 5 zile ca fiind mai costisitoare decât majorarea refuzată — dar sunt estimări ale unei singure părți, nu audit independent.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
