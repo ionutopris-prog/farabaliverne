@@ -1,0 +1,73 @@
+{
+  "slug": "trump-arabia-saudita-acord-nuclear-congres-israel",
+  "title": "Trump trimite acordul nuclear cu Arabia Saudită în Congres, dar îl leagă de recunoașterea Israelului",
+  "category": "Extern",
+  "date": "2026-08-26",
+  "source": "AP / The Hill / CNBC",
+  "url": "https://www.usnews.com/news/world/articles/2026-08-25/trump-sends-saudi-nuclear-deal-to-congress-but-says-riyadh-must-recognize-israel",
+  "dek": "🌍 Administrația Trump a trimis luni, 25 august 2026, Congresului acordul de cooperare nucleară civilă cu Arabia Saudită (un „acord secțiunea 123”), negociat în iulie. Trump insistă că acordul intră în vigoare doar dacă Riadul aderă la Acordurile Abraham cu Israelul — condiție pe care Arabia Saudită nu a acceptat-o public, cerând în schimb un drum ireversibil spre un stat palestinian.",
+  "mainVerdict": "Probat, cu rezerve — acordul a fost trimis în Congres; condiția privind Israelul și limitele reale la îmbogățirea uraniului rămân disputate",
+  "probat": [
+    {
+      "text": "Administrația Trump a trimis Congresului, luni, 25 august 2026, un acord de cooperare nucleară civilă cu Arabia Saudită, cunoscut drept „acord secțiunea 123” (după secțiunea din legea americană a energiei atomice care reglementează exportul de tehnologie nucleară civilă către alte state). Acordul, negociat în iulie 2026, ar permite companiilor americane — în primul rând Westinghouse, aflată sub controlul Cameco (Canada) și Brookfield — să construiască reactoare AP1000 în regatul saudit, într-un proiect estimat la zeci de miliarde de dolari, pe o durată de 30 de ani.",
+      "sources": [
+        {
+          "name": "U.S. News / AP — Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-25/trump-sends-saudi-nuclear-deal-to-congress-but-says-riyadh-must-recognize-israel"
+        },
+        {
+          "name": "The Hill — Trump sends Saudi nuclear deal to Congress amid proliferation fears",
+          "url": "https://thehill.com/policy/defense/6052862-trump-sent-saudi-nuclear-deal-congress/"
+        }
+      ]
+    },
+    {
+      "text": "Potrivit legii americane, Congresul are 90 de zile de sesiune pentru a se opune acordului; dacă nu îl respinge explicit în acest interval, acesta intră automat în vigoare. Un vot de respingere ar putea fi, la rândul lui, blocat de un veto prezidențial, care ar necesita o majoritate de două treimi în Congres pentru a fi anulat.",
+      "sources": [
+        {
+          "name": "The Hill — Trump sends Saudi nuclear deal to Congress amid proliferation fears",
+          "url": "https://thehill.com/policy/defense/6052862-trump-sent-saudi-nuclear-deal-congress/"
+        }
+      ]
+    },
+    {
+      "text": "Trump a declarat că acordul „este condiționat în totalitate de aderarea Arabiei Saudite la respectatele și de succes Acorduri Abraham” (acordurile de normalizare a relațiilor cu Israelul semnate de alte state arabe din 2020 încoace). Arabia Saudită, la rândul ei, a cerut public un drum ireversibil spre un stat palestinian drept precondiție pentru recunoașterea Israelului, iar premierul israelian Benjamin Netanyahu a respins ideea unei statalități palestiniene ca fiind, spune el, incompatibilă cu securitatea Israelului. Ambasada saudită la Washington nu a răspuns solicitărilor de comentariu.",
+      "sources": [
+        {
+          "name": "Jerusalem Post — Donald Trump says Saudi Arabia must recognize Israel for nuclear deal",
+          "url": "https://www.jpost.com/middle-east/article-906593"
+        },
+        {
+          "name": "U.S. News / AP — Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-25/trump-sends-saudi-nuclear-deal-to-congress-but-says-riyadh-must-recognize-israel"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Trump a susținut public, referitor la acord: „Nu va exista nicio îmbogățire de material!” — adică nicio îmbogățire a uraniului pe teritoriul saudit. Textul acordului, potrivit relatărilor despre conținutul lui, nu conține însă o interdicție permanentă a îmbogățirii sau a reprocesării combustibilului nuclear uzat; el prevede, în schimb, un studiu de fezabilitate de doi ani pentru o eventuală instalație de îmbogățire construită și operată de o companie americană. Senatorii democrați Edward Markey și Jeff Merkley, alături de reprezentanții John Garamendi și Donald Beyer, au cerut ca acordul să oblige Arabia Saudită să renunțe definitiv la producerea de uraniu de calitate militară și să accepte cele mai stricte standarde de inspecție ale Agenției Internaționale pentru Energie Atomică (AIEA). Ce e adevărat în afirmația lui Trump: nu există, la momentul semnării, o instalație de îmbogățire funcțională sau aprobată. Ce lipsește: acordul nu exclude definitiv o asemenea instalație pe viitor — lasă ușa deschisă printr-un studiu de fezabilitate, ceea ce criticii numesc o portiță, nu o interdicție.",
+      "sources": [
+        {
+          "name": "CNBC — Trump's Saudi nuclear agreement reaches Congress as experts warn of proliferation risk",
+          "url": "https://www.cnbc.com/2026/08/26/trump-saudi-nuclear-agreement-congress-iran-deal-.html"
+        },
+        {
+          "name": "Fox News — Democrats blast Trump Saudi nuclear deal as GOP touts regional alliance",
+          "url": "https://www.foxnews.com/politics/democrats-blast-trump-saudi-nuclear-deal-gop-touts-regional-alliance"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă normalizarea saudito-israeliană chiar se va întâmpla înainte ca acordul nuclear să intre în vigoare este, la acest moment, o presupunere politică, nu un fapt: depinde de o negociere separată, blocată tocmai pe tema unui stat palestinian, pe care nici Riadul, nici Netanyahu nu par dispuși să o cedeze. Legarea celor două dosare de către Trump e o alegere de strategie, nu o garanție de rezultat."
+    }
+  ],
+  "math": {
+    "title": "90 de zile de sesiune, nu 90 de zile calendaristice",
+    "explanation": "Ceasul congresional pentru respingerea acordului curge în „zile de sesiune” — zilele în care Camera Reprezentanților și Senatul se află efectiv în ședință — nu în zile calendaristice. Cu recesuri de vară și de sărbători incluse, 90 de zile de sesiune pot însemna, în practică, patru-cinci luni calendaristice, ceea ce împinge termenul-limită dincolo de finalul lui 2026."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: trimiterea acordului de cooperare nucleară civilă SUA-Arabia Saudită în Congres, pe 25 august 2026, și condiția explicită a lui Trump privind normalizarea cu Israelul — confirmate concordant de AP/U.S. News, The Hill și Jerusalem Post. Separat, am verificat afirmația lui Trump despre excluderea îmbogățirii uraniului, comparând-o cu relatările CNBC și Fox News despre conținutul real al textului și cu criticile publice ale senatorilor Markey și Merkley.\n\nUnde se despart sursele: nu există o contradicție între redacții, ci între declarația publică a lui Trump și mecanismul tehnic descris în acord. „Nicio îmbogățire” e adevărat ca stare de fapt imediată, dar acordul lasă loc unei instalații viitoare de îmbogățire, prin studiul de fezabilitate de doi ani — o nuanță pe care declarația lui Trump nu o menționează.\n\nCe lipsește: textul integral și public al acordului secțiunea 123 nu a fost, la momentul verificării, disponibil pentru consultare directă; relatările se bazează pe surse din Congres și din administrație. Nu se știe încă dacă Arabia Saudită va accepta efectiv normalizarea cu Israelul, condiție de care Trump leagă intrarea în vigoare a acordului.\n\nCe ar schimba concluzia: publicarea textului integral al acordului ar clarifica definitiv dacă studiul de fezabilitate pentru îmbogățire are sau nu o clauză de excludere ulterioară; un anunț oficial saudit despre normalizare (sau despre refuzul ei) ar clarifica dacă acordul are șanse reale să intre în vigoare.",
+  "persoane": ["Donald Trump"]
+}
