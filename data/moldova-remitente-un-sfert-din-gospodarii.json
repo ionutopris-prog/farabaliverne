@@ -1,0 +1,54 @@
+{
+ "slug": "moldova-remitente-un-sfert-din-gospodarii",
+ "title": "Un sfert din gospodăriile Moldovei trăiesc din banii trimiși de acasă. Fără ei, 23,4% ar coborî sub pragul sărăciei",
+ "category": "Social",
+ "tara": "Moldova",
+ "date": "2026-08-26",
+ "source": "UNFPA Moldova / ASEM / Biroul Național de Statistică",
+ "url": "https://moldova.unfpa.org/sites/default/files/pub-pdf/2date26-date6/ASEM_Poalelungi%20O_PROFILUL%20MIGRAN%C8%9AILOR%20site.pdf",
+ "dek": "Datele din studiile privind migrația arată o dependență pe care scumpirile o fac vizibilă: un sfert dintre gospodăriile din Republica Moldova primesc remitențe, iar pentru jumătate dintre ele banii de peste hotare înseamnă peste 50% din venitul disponibil. Fără ei, aproape un sfert dintre gospodării ar fi sub pragul sărăciei.",
+ "mainVerdict": "Probat",
+ "probat": [
+  {
+   "text": "Un sfert dintre gospodăriile din Republica Moldova primesc remitențe — bani trimiși de membri ai familiei plecați la muncă în străinătate.",
+   "sources": [
+    {"name": "ASEM / UNFPA Moldova — Profilul migranților din Republica Moldova (studiu)", "url": "https://moldova.unfpa.org/sites/default/files/pub-pdf/2date26-date6/ASEM_Poalelungi%20O_PROFILUL%20MIGRAN%C8%9AILOR%20site.pdf"}
+   ]
+  },
+  {
+   "text": "Pentru jumătate dintre gospodăriile care primesc remitențe, acești bani reprezintă peste 50% din venitul disponibil. Fără ei, 23,4% dintre gospodării s-ar afla sub pragul sărăciei.",
+   "sources": [
+    {"name": "ASEM / UNFPA Moldova — ponderea remitențelor în venitul gospodăriilor", "url": "https://moldova.unfpa.org/sites/default/files/pub-pdf/2date26-date6/ASEM_Poalelungi%20O_PROFILUL%20MIGRAN%C8%9AILOR%20site.pdf"}
+   ]
+  },
+  {
+   "text": "În perioada 2014-2020, Republica Moldova a pierdut 8,3% din populație din cauza migrației internaționale.",
+   "sources": [
+    {"name": "Fundația Europeană de Formare (ETF) — fișă de țară privind migrația și competențele, Moldova", "url": "https://www.etf.europa.eu/sites/default/files/2021-11/etf_skills_and_migration_country_fiche_moldova_2021_ro.pdf"}
+   ]
+  },
+  {
+   "text": "Între 2014 și 2023, 58-63% dintre emigranți au plecat anual din mediul rural, iar restul de 37-42% din orașe. Migrația lovește deci mai tare satul decât orașul.",
+   "sources": [
+    {"name": "ASEM / UNFPA Moldova — structura pe medii a emigrației", "url": "https://moldova.unfpa.org/sites/default/files/pub-pdf/2date26-date6/ASEM_Poalelungi%20O_PROFILUL%20MIGRAN%C8%9AILOR%20site.pdf"}
+   ]
+  }
+ ],
+ "contestat": [
+  {
+   "text": "Cifrele provin din studii cu ani de referință diferiți — unele acoperă 2014-2020, altele 2014-2023 — și nu din măsurători ale anului 2026. Ele descriu o structură persistentă, nu situația de luna aceasta. Cine le prezintă drept „datele de acum” le forțează.",
+   "sources": [
+    {"name": "ETF — anul de referință al fișei de țară", "url": "https://www.etf.europa.eu/sites/default/files/2021-11/etf_skills_and_migration_country_fiche_moldova_2021_ro.pdf"}
+   ]
+  },
+  {
+   "text": "Nu se probează afirmația frecventă că remitențele „țin economia pe linia de plutire” în sensul că ar fi principalul motor al creșterii. Ele susțin consumul gospodăriilor, ceea ce e altceva decât investiția sau producția. Ponderea lor în PIB se măsoară separat, iar studiile citate aici nu o stabilesc.",
+   "sources": [
+    {"name": "Biroul Național de Statistică — conturile naționale și veniturile gospodăriilor", "url": "https://statistica.gov.md/ro?lang=ro"}
+   ]
+  }
+ ],
+ "opinie": [],
+ "aiNote": "Cifra care leagă acest articol de cel despre gaz e 23,4%. Aproape un sfert dintre gospodării stau deasupra pragului sărăciei doar fiindcă cineva din familie muncește în altă țară. Peste asta vine o factură cu 882 de lei mai mare pe lună. Nu trag concluzia că urmează o criză — nu se poate proba, și n-o afirm. Observ doar că într-o țară unde plasa de siguranță e formată din rude plecate, deciziile de tarif nu se opresc la Chișinău: se simt și în conturile din Italia, Germania sau Marea Britanie, de unde pleacă banii.",
+ "persoane": []
+}

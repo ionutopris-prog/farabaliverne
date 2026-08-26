@@ -1,0 +1,70 @@
+{
+ "slug": "moldova-anre-a-aprobat-gaz-41-la-suta-1-septembrie",
+ "title": "ANRE a aprobat: gazul se scumpește cu circa 41% în Republica Moldova, de la 1 septembrie",
+ "category": "Economie",
+ "tara": "Moldova",
+ "date": "2026-08-26",
+ "source": "Moldova 1 / TVR Moldova / NewsMaker",
+ "url": "https://moldova1.md/p/83649",
+ "dek": "Pe 21 august 2026, Agenția Națională pentru Reglementare în Energetică a aprobat un tarif de 20,30 lei/m³ cu TVA pentru gazele furnizate de Energocom consumatorilor casnici — cu 5,88 lei mai mult decât cei 14,42 lei plătiți până acum, adică o creștere de circa 41%. Tariful intră în vigoare pe 1 septembrie. Este cifra pe care ANRE o propusese pe 14 august, mai mică decât cei 20,93 lei ceruți de Energocom.",
+ "mainVerdict": "Probat",
+ "probat": [
+  {
+   "text": "ANRE a aprobat un tarif de 20,30 lei/m³ cu TVA pentru gazele naturale livrate de Energocom consumatorilor casnici, față de 14,42 lei/m³ cât se plătea până acum — o creștere de aproximativ 41%, adică 5,88 lei în plus la fiecare metru cub. Tariful se aplică de la 1 septembrie 2026.",
+   "sources": [
+    {"name": "Moldova 1 (televiziunea publică) — ANRE a aprobat un tarif de 20,3 lei pentru un metru cub", "url": "https://moldova1.md/p/83649"},
+    {"name": "TVR Moldova — ANRE aprobă noi prețuri la gazele furnizate de Energocom", "url": "https://tvrmoldova.md/article/72c77da93780886f/anre-aproba-noi-preturi-la-gazele-furnizate-de-energocom-intra-in-vigoare-de-la-1-septembrie.html"}
+   ]
+  },
+  {
+   "text": "Energocom ceruse 20,93 lei/m³, invocând abateri financiare acumulate de circa 107 milioane de lei. ANRE a aprobat o cifră mai mică decât cea cerută.",
+   "sources": [
+    {"name": "Moldova 1 — cererea Energocom și decizia ANRE", "url": "https://moldova1.md/p/83649"},
+    {"name": "NewsMaker — analiză: ce stă în spatele solicitării Energocom", "url": "https://newsmaker.md/ro/gazele-naturale-s-ar-putea-scumpi-cu-45-%C3%AEn-moldova-ce-st%C4%83-%C3%AEn-spatele-solicit%C4%83rii-energocom-%C8%99i-ce-spun-exper%C8%9Bii-analiz%C4%83"}
+   ]
+  },
+  {
+   "text": "Motivul invocat oficial este costul de procurare. Potrivit datelor prezentate în ședință, costul estimat pentru perioada august–decembrie 2026 este de 623,54 euro pentru o mie de metri cubi, față de 423,28 euro cât a fost în ianuarie–iulie 2026.",
+   "sources": [
+    {"name": "Moldova 1 — costurile de procurare prezentate în ședința ANRE", "url": "https://moldova1.md/p/83649"}
+   ]
+  },
+  {
+   "text": "Alexei Taran, directorul general al ANRE, a explicat decizia prin dependența totală de import: „Moldova depinde 100% de achiziția gazelor naturale de pe piețele internaționale”. Eugeniu Buzatu, director interimar la Energocom, a spus că cererea de ajustare „a rezultat din factori externi, obiectivi, aflați în afara controlului furnizorului”.",
+   "sources": [
+    {"name": "Moldova 1 — declarațiile din ședința ANRE", "url": "https://moldova1.md/p/83649"}
+   ]
+  },
+  {
+   "text": "Scumpirea a fost relatată identic, ca cifră, și de presa de limbă rusă din Republica Moldova, inclusiv de Sputnik Moldova — mass-media de stat rusă — care a titrat tot „cu 41%”. Pe cifra în sine nu există divergență între surse; diferă doar accentul editorial.",
+   "sources": [
+    {"name": "Sputnik Moldova (presă de stat rusă — etichetată ca atare) — „Tariful la gaz a crescut în Moldova cu 41%”", "url": "https://md.sputniknews.com/20260821/tariful-la-gaz-a-crescut-in-moldova-cu-41-dintr-o-data--aprobat-de-anre-78924902.html"},
+    {"name": "Telegraph.md — ANRE a majorat cu 41% tariful la gazele naturale", "url": "https://telegraph.md/anre-a-majorat-cu-41-tariful-la-gazele-naturale-de-cand-si-cat-vor-achita-consumatorii/"}
+   ]
+  }
+ ],
+ "contestat": [
+  {
+   "text": "Nu se probează, deocamdată, că scumpirea se oprește aici. Directorul interimar al Energocom, Eugeniu Buzatu, a declarat că după gaz se poate scumpi și tariful la încălzirea centralizată. Este o declarație despre viitor, nu o decizie luată — nicio cifră nu a fost aprobată pentru încălzire la data acestui articol.",
+   "sources": [
+    {"name": "Realitatea.md — șeful Energocom despre posibila scumpire a încălzirii", "url": "https://realitatea.md/moldoveni-pregatiti-banii-seful-energocom-anunta-ca-dupa-gaz-se-poate-scumpi-si-tariful-la-incalzire-centralizata/"}
+   ]
+  },
+  {
+   "text": "Nu se poate proba din documentele publice că tariful ar fi fost stabilit ca „decizie politică”, așa cum sugerează unele comentarii din spațiul public. Documentele ANRE arată o metodologie de calcul bazată pe costul de procurare; dacă acel cost este cel real se poate verifica doar prin auditarea contractelor de achiziție, care nu sunt publice integral.",
+   "sources": [
+    {"name": "ANRE — pagina oficială a agenției", "url": "https://anre.md/"}
+   ]
+  }
+ ],
+ "opinie": [
+  {
+   "text": "Ministrul Energiei, Dorin Junghietu, a propus trecerea la ajustări trimestriale ale tarifului, în locul celor anuale, ca prețul să reflecte piața „în timp real”. Este o propunere de politică publică, nu o măsură adoptată.",
+   "sources": [
+    {"name": "Moldova 1 — propunerea ministrului Energiei", "url": "https://moldova1.md/p/83649"}
+   ]
+  }
+ ],
+ "aiNote": "Cifra de 41% e ușor de rostit și greu de simțit. Tradusă în bani: o gospodărie care ardea 150 m³ pe lună în plin sezon rece plătea 2.163 lei; de la 1 septembrie plătește 3.045. Diferența, 882 de lei pe lună, într-o țară unde pensia medie e sub 4.000. Ce nu se vede în comunicate e că tariful e o consecință, nu o cauză: 623 de euro la mia de metri cubi în loc de 423 înseamnă că gazul se cumpără acum de pe piața liberă, la preț de piață liberă. Întrebarea care merită pusă mai departe nu e „de ce 41%”, ci „de ce costul de procurare a crescut cu 47% de la o jumătate de an la alta” — iar la aia răspund contractele, care nu sunt publice.",
+ "persoane": ["Alexei Taran", "Eugeniu Buzatu", "Dorin Junghietu"]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "moldova-cine-verifica-verificatorii-acuzatia-aparat-de-stat",
+ "title": "„Luptătorii cu dezinformarea, transformați în aparat de stat represiv”. Ce se probează din acuzația adusă verificatorilor din Moldova",
+ "category": "Media de stat",
+ "tara": "Moldova",
+ "date": "2026-08-26",
+ "source": "noi.md / Stopfals.md / Poynter IFCN",
+ "url": "https://noi.md/md/analitica/iluzia-independentei-cum-luptatorii-impotriva-dezinformarii-din-moldova-s-au-transformat-intr-un-aparat-de-stat-represiv",
+ "dek": "Un material publicat de portalul noi.md susține că organizațiile moldovenești care combat dezinformarea și-au pierdut independența și au devenit „un aparat de stat represiv”. Am verificat ce se poate proba despre cine sunt aceste organizații, cine le-a înființat și ce structuri de control există — și ce anume din acuzație rămâne afirmație.",
+ "mainVerdict": "Neprobat",
+ "probat": [
+  {
+   "text": "Campania „STOP FALS!” funcționează din noiembrie 2015 și este condusă de Asociația Presei Independente (API), în parteneriat cu Centrul pentru Jurnalism Independent (CJI) și Asociația Presei Electronice (APEL/ATVJI). Este prezentată ca singura platformă de fact-checking din Republica Moldova.",
+   "sources": [
+    {"name": "Stopfals.md — pagina „Despre noi”, cu fondatorii și data începerii campaniei", "url": "https://stopfals.md/ro/about-us/2"},
+    {"name": "Asociația Presei Independente — descrierea proiectului", "url": "https://www.api.md/api-/-stopfalsmd-best-project-against-disinformation/"}
+   ]
+  },
+  {
+   "text": "Stopfals.md figurează în registrul public al Codului de Principii al International Fact-Checking Network, găzduit de institutul american Poynter — un mecanism prin care organizațiile de verificare își asumă reguli de transparență a surselor, a finanțării și a corecțiilor.",
+   "sources": [
+    {"name": "Poynter — IFCN Code of Principles, fișa Stopfals.md", "url": "https://ifcncodeofprinciples.poynter.org/application/public/stopfalsmd/661a8b0eba7689d4814294c6"}
+   ]
+  },
+  {
+   "text": "WatchDog.MD este o organizație de tip think-tank, înregistrată în 2017 de un grup de activiști civici și comentatori politici. Este o asociație privată, nu o instituție publică.",
+   "sources": [
+    {"name": "WatchDog.MD — pagina oficială a organizației", "url": "https://www.facebook.com/watchdogmd/"}
+   ]
+  }
+ ],
+ "contestat": [
+  {
+   "text": "Acuzația centrală — că aceste organizații ar fi devenit „un aparat de stat represiv” — nu se probează din materialul care o formulează. Un aparat de stat presupune putere publică: dreptul de a sancționa, de a interzice, de a obliga. Nici StopFals, nici WatchDog nu au competențe de acest fel; sancțiunile audiovizuale în Republica Moldova sunt date de Consiliul Audiovizualului, o autoritate publică distinctă, cu proceduri proprii.",
+   "sources": [
+    {"name": "noi.md — materialul care formulează acuzația", "url": "https://noi.md/md/analitica/iluzia-independentei-cum-luptatorii-impotriva-dezinformarii-din-moldova-s-au-transformat-intr-un-aparat-de-stat-represiv"},
+    {"name": "Stopfals.md — natura activității: articole de verificare, fără competențe de sancționare", "url": "https://stopfals.md/"}
+   ]
+  },
+  {
+   "text": "Nu se poate proba, din sursele publice consultate, nici teza inversă — că finanțarea acestor organizații ar fi complet neutră politic. Proiectele de combatere a dezinformării din Republica Moldova sunt susținute în mare parte din fonduri externe, iar cine plătește un program are, inevitabil, o agendă tematică. Asta nu dovedește control editorial, dar întrebarea despre finanțare este legitimă și merită răspuns cu documente, nu cu indignare.",
+   "sources": [
+    {"name": "Poynter — cerințele de transparență a finanțării din Codul de Principii", "url": "https://ifcncodeofprinciples.poynter.org/"}
+   ]
+  },
+  {
+   "text": "Nu se probează afirmația că verificarea faptelor ar echivala cu cenzura. Un articol de verificare nu retrage o licență și nu blochează un site; el afirmă ceva ce poate fi la rândul lui contestat public. Confuzia dintre a contrazice și a interzice este chiar mecanismul prin care se atacă, de regulă, activitatea de fact-checking.",
+   "sources": [
+    {"name": "Independent.md — Consiliul Audiovizualului denunță un fals al presei ruse privind cenzura în Moldova", "url": "https://www.independent.md/consiliul-audiovizualului-denunta-un-nou-fals-al-presei-ruse-privind-cenzura-in-moldova/"}
+   ]
+  }
+ ],
+ "opinie": [
+  {
+   "text": "Titlul „Iluzia independenței” este o judecată de valoare, nu o constatare. Îl reținem ca opinie a autorului materialului, nu ca fapt stabilit.",
+   "sources": [
+    {"name": "noi.md — materialul integral", "url": "https://noi.md/md/analitica/iluzia-independentei-cum-luptatorii-impotriva-dezinformarii-din-moldova-s-au-transformat-intr-un-aparat-de-stat-represiv"}
+   ]
+  }
+ ],
+ "aiNote": "Verificăm aici pe cineva care face aceeași meserie cu noi, așa că datorăm cititorului o precizare: și noi suntem verificabili. Fără Baliverne e făcut de o singură persoană, care își pune numele pe site, cu ajutorul unui model de inteligență artificială, fără finanțare, fără agenți de publicitate și fără venituri. Cine vrea să ne acuze de ceva are unde să se uite. Asta e proba pe care o cerem și de la ceilalți, în ambele direcții: nu „ești independent?”, ci „arată-mi de unde vin banii și cine răspunde cu numele lui”. Acuzația din acest material nu trece testul, fiindcă nu aduce documente — dar întrebarea din spatele ei, despre cine finanțează combaterea dezinformării, e o întrebare bună, la care merită răspuns cu acte.",
+ "persoane": []
+}

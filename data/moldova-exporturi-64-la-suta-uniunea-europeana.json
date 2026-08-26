@@ -1,0 +1,63 @@
+{
+ "slug": "moldova-exporturi-64-la-suta-uniunea-europeana",
+ "title": "Două treimi din exporturile Moldovei merg în Uniunea Europeană. Cifrele oficiale pe primul semestru din 2026",
+ "category": "Economie",
+ "tara": "Moldova",
+ "date": "2026-08-26",
+ "source": "Biroul Național de Statistică / Jurnal.md",
+ "url": "https://statistica.gov.md/ro/comertul-international-cu-marfuri-al-republicii-moldova-in-luna-9539_62578.html",
+ "dek": "În ianuarie-iunie 2026, exporturile Republicii Moldova au însumat 1.650,5 milioane de euro, cu 12,5% mai mult decât în aceeași perioadă din 2025. Uniunea Europeană a absorbit 64,2% din total. Reorientarea comercială, discutată ani întregi la nivel politic, se vede acum în cifre.",
+ "mainVerdict": "Probat",
+ "probat": [
+  {
+   "text": "În ianuarie-iunie 2026, exporturile de mărfuri ale Republicii Moldova au totalizat 1.650,5 milioane de euro, în creștere cu 12,5% față de perioada corespunzătoare din 2025.",
+   "sources": [
+    {"name": "Biroul Național de Statistică — comerțul internațional cu mărfuri, date lunare", "url": "https://statistica.gov.md/ro/comertul-international-cu-marfuri-al-republicii-moldova-in-luna-9539_62578.html"}
+   ]
+  },
+  {
+   "text": "Schimburile cu Uniunea Europeană (UE-27) au reprezentat 64,2% din totalul exporturilor în primul semestru din 2026.",
+   "sources": [
+    {"name": "Biroul Național de Statistică — structura pe țări și grupuri de țări", "url": "https://statistica.gov.md/ro/comertul-international-cu-marfuri-al-republicii-moldova-in-luna-9539_62578.html"},
+    {"name": "Jurnal.md — UE, principala piață de desfacere pentru exporturile din Moldova", "url": "https://www.jurnal.md/ro/news/ed40258ea37958e6/uniunea-europeana-principala-piata-de-desfacere-pentru-exporturile-din-moldova-ce-loc-ocupa-rusia-grafic.html"}
+   ]
+  },
+  {
+   "text": "Din 2025, Uniunea Europeană a lărgit accesul produselor agricole moldovenești: contingente tarifare majorate pentru prune, struguri de masă, cireșe și mere, iar pentru usturoi, roșii și suc de struguri — liberalizare completă.",
+   "sources": [
+    {"name": "Delegația UE în Republica Moldova — exporturile Republicii Moldova", "url": "https://www.eeas.europa.eu/delegations/moldova/exporturile-republicii-moldova_ro"},
+    {"name": "Ministerul Agriculturii și Industriei Alimentare — informații privind accesul pe piața UE", "url": "https://maia.gov.md/ro/content/6577"}
+   ]
+  },
+  {
+   "text": "Efectul se vede pe produse: exporturile de mere către UE au ajuns la 36,1 mii de tone în 2025, valorând 25,5 milioane de dolari, față de 24,8 mii de tone și 16 milioane în 2024. Cireșele au urcat de la 2,1 mii de tone și 4,7 milioane de dolari, la 3,1 mii de tone și 12,2 milioane.",
+   "sources": [
+    {"name": "Ministerul Agriculturii și Industriei Alimentare — date pe produse", "url": "https://maia.gov.md/ro/content/6577"}
+   ]
+  }
+ ],
+ "contestat": [
+  {
+   "text": "Nu se poate compara direct ponderea actuală a Rusiei cu cea a Uniunii Europene pe baza cifrelor citate frecvent în presă: procentul de 9% pentru Rusia provine din 2021, iar cel de 64,2% pentru UE din 2026. Sunt ani diferiți. O comparație corectă cere ambele cifre din același an, iar acele date se iau din tabelele BNS pe anul curent.",
+   "sources": [
+    {"name": "Jurnal.md — graficul care compară piețele, cu anii de referință", "url": "https://www.jurnal.md/ro/news/ed40258ea37958e6/uniunea-europeana-principala-piata-de-desfacere-pentru-exporturile-din-moldova-ce-loc-ocupa-rusia-grafic.html"},
+    {"name": "Biroul Național de Statistică — seriile de date pe ani", "url": "https://statistica.gov.md/ro?lang=ro"}
+   ]
+  },
+  {
+   "text": "Creșterea exporturilor cu 12,5% este exprimată în euro, la prețuri curente. O parte din ea vine din creșterea prețurilor, nu din creșterea cantităților vândute. Fără datele în volum fizic, procentul nu spune singur cât s-a produs mai mult.",
+   "sources": [
+    {"name": "Biroul Național de Statistică — metodologia statisticii comerțului exterior", "url": "https://statistica.gov.md/ro?lang=ro"}
+   ]
+  },
+  {
+   "text": "Nu se probează afirmația că liberalizarea comercială cu UE ar fi singura cauză a creșterii. Reactivarea „Rutelor Solidarității” prin România și Moldova, după perturbarea comerțului prin Marea Neagră, a schimbat și ea traseele mărfurilor. Cauzele se suprapun.",
+   "sources": [
+    {"name": "Newsweek România — UE reactivează „Rutele Solidarității” prin România și Moldova", "url": "https://newsweek.ro/international/ue-reactiveaza-rutele-solidaritatii-prin-romania-si-moldova-rusia-distruge-comertul-prin-marea-neagra"}
+   ]
+  }
+ ],
+ "opinie": [],
+ "aiNote": "Cifra de 64,2% e cea mai puțin spectaculoasă și cea mai importantă din tot ce am scris azi despre Moldova. Reorientarea comercială nu se face prin declarații și nu se anunță la televizor; se vede în tabele, cu ani întârziere, după ce fermierii au găsit cumpărători și au trecut de normele fitosanitare. Merele și cireșele din tabelul acela spun despre direcția țării mai mult decât orice cluster de negociere deschis la Bruxelles — fiindcă o piață pierdută se recâștigă greu, iar una câștigată se apără singură.",
+ "persoane": []
+}

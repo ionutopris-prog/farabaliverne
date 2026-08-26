@@ -1,0 +1,62 @@
+{
+ "slug": "moldova-bnm-inflatie-92-la-suta-trimestrul-patru",
+ "title": "Banca Națională a Moldovei vede inflația la 9,2% în ultimul trimestru. Ce spun cifrele din raport și ce nu spun",
+ "category": "Economie",
+ "tara": "Moldova",
+ "date": "2026-08-26",
+ "source": "Bani.md / Banca Națională a Moldovei",
+ "url": "https://bani.md/final-de-an-cu-scumpiri-bnm-vede-tarife-mai-mari-si-o-inflatie-de-92/",
+ "dek": "Raportul de inflație din august al Băncii Naționale a Moldovei estimează o inflație medie de 7,2% pentru 2026, cu vârf de 9,2% în ultimul trimestru — peste banda-țintă de 5% ±1,5 puncte. Prețurile reglementate, între care gazul scumpit cu 41% de la 1 septembrie, sunt motorul principal.",
+ "mainVerdict": "Probat",
+ "probat": [
+  {
+   "text": "Banca Națională a Moldovei estimează o inflație medie anuală de 7,2% pentru 2026, cu o accelerare la 9,2% în trimestrul patru. Pentru 2027, prognoza scade la 6,2% în medie și la 3,8% la finalul anului.",
+   "sources": [
+    {"name": "Bani.md — cifrele din raportul de inflație al BNM, august 2026", "url": "https://bani.md/final-de-an-cu-scumpiri-bnm-vede-tarife-mai-mari-si-o-inflatie-de-92/"},
+    {"name": "Banca Națională a Moldovei — rapoartele asupra inflației", "url": "https://www.bnm.md/ro/content/rapoarte-asupra-inflatiei"}
+   ]
+  },
+  {
+   "text": "Ținta de inflație a BNM este de 5%, cu o bandă de toleranță de ±1,5 puncte procentuale — deci intervalul 3,5%–6,5%. Prognoza proprie a băncii arată inflația peste acest interval până la mijlocul lui 2027.",
+   "sources": [
+    {"name": "Bani.md — ținta și banda de toleranță", "url": "https://bani.md/final-de-an-cu-scumpiri-bnm-vede-tarife-mai-mari-si-o-inflatie-de-92/"}
+   ]
+  },
+  {
+   "text": "Motorul creșterii sunt prețurile reglementate: +15,8% anual în trimestrul patru și +9,4% în medie pe 2026. La ele se adaugă carburanții, estimați la +19,2% anual în trimestrul patru și +15,1% în medie pe an.",
+   "sources": [
+    {"name": "Bani.md — defalcarea pe prețuri reglementate și carburanți", "url": "https://bani.md/final-de-an-cu-scumpiri-bnm-vede-tarife-mai-mari-si-o-inflatie-de-92/"}
+   ]
+  },
+  {
+   "text": "Inflația de bază — cea care exclude tocmai prețurile reglementate și componentele volatile — este estimată la 5,6% pentru acest an, adică în interiorul benzii-țintă. Diferența dintre 5,6% și 9,2% arată cât din scumpire vine din decizii administrative, nu din presiunea cererii.",
+   "sources": [
+    {"name": "Bani.md — inflația de bază estimată de BNM", "url": "https://bani.md/final-de-an-cu-scumpiri-bnm-vede-tarife-mai-mari-si-o-inflatie-de-92/"}
+   ]
+  },
+  {
+   "text": "Prognoza este coerentă cu decizia ANRE din 21 august, prin care gazul se scumpește cu circa 41% de la 1 septembrie — una dintre componentele majore ale coșului de prețuri reglementate.",
+   "sources": [
+    {"name": "Moldova 1 — tariful aprobat de ANRE", "url": "https://moldova1.md/p/83649"},
+    {"name": "Fără Baliverne — verificarea privind tariful aprobat de ANRE", "url": "https://farabaliverne.ro/a/moldova-anre-a-aprobat-gaz-41-la-suta-1-septembrie.html"}
+   ]
+  }
+ ],
+ "contestat": [
+  {
+   "text": "O prognoză nu este un fapt. Cifrele de mai sus sunt estimări ale băncii centrale, nu măsurători ale unei realități petrecute. Ele se pot rata în ambele sensuri, iar BNM însăși publică revizuiri de la un raport la altul. A le prezenta drept „inflația va fi 9,2%” înseamnă a transforma o proiecție în certitudine.",
+   "sources": [
+    {"name": "Banca Națională a Moldovei — metodologia și revizuirile rapoartelor de inflație", "url": "https://www.bnm.md/ro/content/rapoarte-asupra-inflatiei"}
+   ]
+  },
+  {
+   "text": "Nu se probează afirmația, frecventă în dezbaterea publică, că inflația din Republica Moldova ar fi „provocată” exclusiv de scumpirea gazului. Inflația de bază, care exclude prețurile reglementate, este de 5,6% — deci există presiune inflaționistă și în afara tarifelor administrate. Gazul explică diferența, nu întregul.",
+   "sources": [
+    {"name": "Bani.md — inflația de bază față de cea totală", "url": "https://bani.md/final-de-an-cu-scumpiri-bnm-vede-tarife-mai-mari-si-o-inflatie-de-92/"}
+   ]
+  }
+ ],
+ "opinie": [],
+ "aiNote": "Cifra care merită reținută nu e 9,2%, ci diferența dintre 9,2% și 5,6%. Prima e ce simte omul la casa de marcat; a doua e ce ar fi simțit dacă statul n-ar fi trebuit să ajusteze tarifele. Cele trei puncte și jumătate dintre ele sunt costul unei tranziții energetice făcute sub presiune, nu din alegere — gaz cumpărat de pe piața liberă, la preț de piață liberă, după ce ruta ieftină s-a închis în ianuarie 2025. Se poate discuta dacă tranziția a fost bine gestionată. Nu se poate discuta că ea a avut un preț, și că prețul se plătește acum, de către gospodării.",
+ "persoane": []
+}
