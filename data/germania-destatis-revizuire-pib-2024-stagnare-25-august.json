@@ -1,0 +1,56 @@
+{
+ "slug": "germania-destatis-revizuire-pib-2024-stagnare-25-august",
+ "title": "Germania: Oficiul de Statistică revizuiește PIB-ul — 2024 nu mai apare ca an de recesiune, ci de stagnare",
+ "category": "Economie",
+ "date": "2026-08-25",
+ "source": "Destatis (Oficiul Federal de Statistică al Germaniei)",
+ "url": "https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html",
+ "dek": "Oficiul Federal de Statistică al Germaniei (Destatis) a publicat, pe 25 august 2026, rezultatele detaliate ale PIB-ului pentru trimestrul al doilea și o revizuire istorică a datelor care merge până în 2011. Cea mai mare schimbare: anul 2024, raportat inițial cu o contracție de 0,5%, apare acum ca an de stagnare economică (0,0%) — pe fondul unor date noi despre cifra de afaceri a firmelor și despre recensământul locuințelor din 2022.",
+ "mainVerdict": "Probat — cifrele oficiale ale Destatis; ce înseamnă revizuirea pentru narativa politică a „recesiunii” germane rămâne interpretare, nu fapt suplimentar",
+ "probat": [
+  {
+   "text": "Destatis a publicat, pe 25 august 2026, rezultatele detaliate privind produsul intern brut al Germaniei pentru trimestrul al doilea din 2026: creștere de 0,3% față de trimestrul precedent (ajustat sezonier și calendaristic) — revizuită în sus față de estimarea preliminară de 0,2% publicată în iulie — și de 1,0% față de trimestrul al doilea din 2025. Președinta Destatis, Ruth Brand, a declarat că „economia germană își menține avântul de creștere văzut la începutul anului”, cu exporturile drept principal motor.",
+   "sources": [
+    {
+     "name": "Destatis — Gross domestic product: detailed economic performance results for the 2nd quarter of 2026",
+     "url": "https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html"
+    }
+   ]
+  },
+  {
+   "text": "În același comunicat, Destatis a revizuit seriile istorice ale PIB-ului începând din 2011. Cea mai semnificativă schimbare privește anul 2024: performanța economică raportată anterior ca o contracție de 0,5% apare acum ca stagnare (0,0%). Pentru intervalul 2011-2021, ratele anuale de creștere au fost revizuite în sus, cumulat, cu 0,8 puncte procentuale.",
+   "sources": [
+    {
+     "name": "Destatis — Gross domestic product: detailed economic performance results for the 2nd quarter of 2026",
+     "url": "https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html"
+    },
+    {
+     "name": "IndexBox — Germany GDP Q2 2026: Modest Growth and Major Historical Revisions by Destatis",
+     "url": "https://www.indexbox.io/blog/german-economy-grows-02-in-q2-2026-destatis-revises-historical-gdp-data/"
+    }
+   ]
+  },
+  {
+   "text": "Destatis a explicat public trei cauze tehnice ale revizuirii: (1) datele din statistica structurală a întreprinderilor, disponibile abia la 18 luni de la finalul anului de referință, cu detalii despre cifra de afaceri, investiții și structura costurilor; (2) date noi despre chirii, provenite din recensământul clădirilor și locuințelor din 2022; și (3) o măsurare mai completă a achizițiilor făcute direct de gospodăriile germane în străinătate.",
+   "sources": [
+    {
+     "name": "Destatis — Gross domestic product: detailed economic performance results for the 2nd quarter of 2026",
+     "url": "https://www.destatis.de/EN/Press/2026/08/PE26_303_811.html"
+    }
+   ]
+  }
+ ],
+ "contestat": [],
+ "opinie": [
+  {
+   "text": "În spațiul public german, ultimii ani au fost descriși frecvent drept o perioadă de recesiune economică. Revizuirea Destatis din 25 august schimbă evaluarea oficială pentru unul dintre acei ani (2024, din contracție în stagnare). Dacă asta schimbă în mod semnificativ narativa publică despre „anii de recesiune” sau dacă rămâne un detaliu statistic fără miză politică reală e o interpretare — redacția nu a găsit, la data acestei verificări, o reacție oficială publicată a Guvernului german la revizuirea specifică din 25 august.",
+   "sources": []
+  }
+ ],
+ "math": {
+  "title": "Cât s-a schimbat evaluarea anului 2024",
+  "explanation": "Vechea cifră pentru 2024 era o contracție de 0,5% a PIB-ului. Noua cifră, publicată de Destatis pe 25 august 2026, e 0,0% — o revizuire de 0,5 puncte procentuale, suficientă pentru a muta anul din categoria „recesiune” în categoria „stagnare”. La această schimbare se adaugă o revizuire cumulată de 0,8 puncte procentuale pentru toată perioada 2011-2021, ceea ce arată o corecție amplă, nu doar un ajustaj punctual pentru un singur an."
+ },
+ "aiNote": "Ce s-a verificat exact: cifrele de creștere pentru trimestrul al doilea din 2026 (0,3% trimestrial, 1,0% anual) și revizuirea istorică a anului 2024 (de la -0,5% la 0,0%) vin direct din comunicatul oficial Destatis din 25 august 2026, coroborat cu o analiză independentă (IndexBox) care confirmă aceleași cifre pentru 2011-2021.\n\nUnde lipsește precizia: comunicatul Destatis explică metodologic de ce s-a schimbat evaluarea (date noi despre firme, recensământul locuințelor, cheltuielile gospodăriilor în străinătate), dar nu discută explicit implicațiile politice ale schimbării — adică dacă afirmațiile publice anterioare ale oficialilor germani despre „trei ani de recesiune” rămân valabile sau trebuie corectate. Redacția nu a găsit o reacție oficială a Cancelariei sau a Ministerului de Finanțe german publicată specific ca răspuns la comunicatul din 25 august.\n\nCe lipsește: o declarație oficială recentă a Guvernului german care să confirme sau să respingă explicit noua evaluare pentru 2024, precum și o listă completă, an cu an, a tuturor revizuirilor din intervalul 2011-2021 (Destatis publică doar cifra cumulată de 0,8 puncte procentuale, nu detalierea completă pe fiecare an în parte).\n\nCe ar schimba concluzia: o reacție publică oficială a Guvernului german la revizuire, care ar arăta dacă discursul politic despre „anii de recesiune” se actualizează în urma noilor date statistice sau rămâne neschimbat.",
+ "persoane": ["Ruth Brand"]
+}
