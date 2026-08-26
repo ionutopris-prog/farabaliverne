@@ -32,6 +32,11 @@ on:
     #   17 UTC = 20 RO · seara, când se citeşte cel mai mult
     #   20 UTC = 23 RO · târziu, prinde şi după-amiaza americană
     - cron: "0 5,9,14,17,20 * * *"
+    # MOLDOVA — două ediții proprii pe zi, cerute de fondator pe 26 august.
+    #   07 UTC = 10 RO · dimineaţa
+    #   12 UTC = 15 RO · după-amiaza
+    # Merg pe presa de la Chişinău ŞI pe cea de limbă rusă, inclusiv Tiraspol.
+    - cron: "0 7,12 * * *"
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch: {}         # buton „Run workflow" pentru test manual
@@ -111,7 +116,16 @@ jobs:
           if [ "$H" -eq 5 ] || [ "$H" -eq 14 ] || [ "$H" -eq 20 ]; then RO_WEEKEND=1; fi
 
 
-          if [ "$H" -ge 5 ] && [ "$H" -le 20 ] && [ "$WEEKEND" -eq 1 ] && [ "$RO_WEEKEND" -eq 0 ]; then
+          if [ "$H" -eq 7 ] || [ "$H" -eq 12 ]; then
+            W="MOLDOVA (10 si 15 RO) — editie DEDICATA Republicii Moldova. Publica 2-3 articole, toate despre Republica Moldova, si pune in JSON campul \"tara\": \"Moldova\" la fiecare.
+            SURSE de pornit, in limba romana: Moldpres (agentie de stat, eticheteaz-o), Moldova 1 (televiziune publica), TVR Moldova, NewsMaker, Ziarul de Garda, Realitatea.md, Unimedia, Jurnal.md, TV8, IPN, Agora, #diez, Europa Libera Moldova, Bani.md.
+            SURSE in limba RUSA, obligatoriu consultate: NewsMaker ru, Point.md, Logos Press, Infotag, Nokta. Presa de stat rusa (Sputnik Moldova, TASS, RIA, Lenta, Rossiyskaya Gazeta) se poate cita DOAR etichetata ca presa de stat si DOAR alaturi de o sursa independenta.
+            TIRASPOL: agentia oficiala Novosti Pridnestrovya si Vspmr.org se pot cita, etichetate explicit ca surse ale administratiei de la Tiraspol, cu verificare incrucisata din presa independenta de la Chisinau. NU le ignora — sunt singurele care spun ce a decis administratia de acolo.
+            INSTITUTII: ANRE, BNM, Biroul National de Statistica, Guvernul si Parlamentul Republicii Moldova, instante.justice.md.
+            TOT ce publici e in limba ROMANA. Traducerile din rusa se marcheaza ca atare, cu link la textul original.
+            La ECONOMIE scrie despre economia MOLDOVEI (gaz, ANRE, leul moldovenesc, remitente, buget, exporturi), nu despre cea romaneasca.
+            Verifica intai in data/ ca nu ai facut deja subiectul (scripts/seamana.py). Daca nu gasesti trei subiecte NOI cu miza, publica doua — nu umple cu comunicate."
+          elif [ "$H" -ge 5 ] && [ "$H" -le 20 ] && [ "$WEEKEND" -eq 1 ] && [ "$RO_WEEKEND" -eq 0 ]; then
             W="ZI DE WEEKEND — INTERNATIONAL. REGULA ROMANIEI NU SE APLICA in fereastra asta: nu esti obligat sa publici despre Romania, si NU forta un subiect romanesc slab doar ca sa bifezi. Acoperi TOATA LUMEA, fara regiune obligatorie: Asia-Pacific, America (SUA, Canada, America Latina), Africa, Europa, Orientul Mijlociu. ROTESTE regiunile intre editii si in cadrul aceleiasi editii — nu face trei articole despre aceeasi tara. Alege dupa MIZA subiectului, nu dupa harta. Ai voie si TREBUIE sa reiei subiecte MARI din cursul saptamanii care au ramas neacoperite — nu doar ce s-a intamplat in ultimele ore: o lege importanta votata marti, o decizie de instanta de joi, un raport economic de vineri. Verifica intai in data/ ca nu le-ai facut deja (foloseste scripts/seamana.py). Prefera subiecte CU MIZA, unde exista afirmatii de verificat, nu comunicate. Daca gasesti totusi ceva romanesc nou si important, publica-l — dar ca alegere, nu ca obligatie."
           elif [ "$H" -ge 5 ] && [ "$H" -le 20 ]; then
             W="ZI (06-23 EEST) — Romania + Europa + SUA (politica/economie/social/sport/extern). NU Stiinta (are editie proprie noaptea). Daca presa romaneasca nu are subiecte NOI, completeaza din presa INTERNATIONALA, inclusiv din EST (Asia/Orient, unde ziua s-a incheiat) — rezumat in romana + link sursa + eticheta traducere AI. Nu lasa editia goala."

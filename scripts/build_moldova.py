@@ -36,18 +36,31 @@ def articole():
     return {s: d for s, d in toate.items() if este_moldova(d)}
 
 
-# Câte articole din România se arată în secțiunea de jos. Cititorul din Chișinău
-# vrea să vadă ce se întâmplă dincolo de Prut, dar prima pagină rămâne a lui.
-DIN_ROMANIA = 12
+# Câte articole se arată în fiecare dintre secțiunile de jos.
+CATE_JOS = 12
+
+# Ce se întâmplă în lume nu aparține niciunui mal — se pune în AMBELE case.
+# Ce e despre România se pune ca vecinătate, nu ca știre proprie.
+CATEGORII_LUMII = {"Extern", "Știință", "Media de stat"}
 
 
-def din_romania(n=DIN_ROMANIA):
-    """Cele mai noi articole care NU sunt despre Moldova."""
+def _restul():
+    """Articolele care NU sunt despre Moldova, de la cel mai nou."""
     toate = B.load()
     rest = [d for s, d in toate.items() if not este_moldova(d)]
     mom = B.momente()
     rest.sort(key=lambda d: B.cheie_timp(d, mom), reverse=True)
-    return rest[:n]
+    return rest
+
+
+def din_lume(n=CATE_JOS):
+    """Internaționalul — apare și aici, și pe prima pagină românească."""
+    return [d for d in _restul() if d.get("category") in CATEGORII_LUMII][:n]
+
+
+def din_romania(n=CATE_JOS):
+    """Ce ține de România: politică, economie, social, sport de dincolo de Prut."""
+    return [d for d in _restul() if d.get("category") not in CATEGORII_LUMII][:n]
 
 
 def feed(arts):
@@ -109,6 +122,8 @@ def main():
     for cat in B.CAT_ORDER:
         if any(d["category"] == cat for d in arts.values()):
             linkuri.append(f'<a href="#{cat.lower().replace(" ", "-")}">{cat}</a>')
+    if din_lume(1):
+        linkuri.append('<a href="#din-lume">Din lume</a>')
     if din_romania(1):
         linkuri.append('<a href="#din-romania">Din România</a>')
     linkuri += ['<span class="sep"></span>',
@@ -119,17 +134,22 @@ def main():
                    coaja, count=1, flags=re.S)
 
     # --- conținutul --------------------------------------------------------
-    vecini = din_romania()
-    sectiunea_ro = ""
-    if vecini:
-        sectiunea_ro = (
-            '<section class="sec" id="din-romania">\n  <div class="wrap">\n'
-            '    <h2 class="sec-title">Din România</h2>\n'
-            '    <p class="dek" style="margin:-6px 0 18px">Ce se verifică dincolo de Prut, '
-            'la Fără Baliverne.</p>\n'
-            f'    <div class="grid">\n{"".join(B.card(d) for d in vecini)}    </div>\n'
-            '    <p style="margin-top:18px"><a href="https://farabaliverne.ro/">'
-            'Vezi tot la Fără Baliverne →</a></p>\n  </div>\n</section>\n')
+    def bloc(titlu, ancora, explicatie, articole):
+        if not articole:
+            return ""
+        return (f'<section class="sec" id="{ancora}">\n  <div class="wrap">\n'
+                f'    <h2 class="sec-title">{titlu}</h2>\n'
+                f'    <p class="dek" style="margin:-6px 0 18px">{explicatie}</p>\n'
+                f'    <div class="grid">\n{"".join(B.card(d) for d in articole)}    </div>\n'
+                '    <p style="margin-top:18px"><a href="https://farabaliverne.ro/">'
+                'Vezi tot la Fără Baliverne →</a></p>\n  </div>\n</section>\n')
+
+    sectiunea_ro = (
+        bloc("Din lume", "din-lume",
+             "Ce se verifică în afară — aceleași articole ca la Fără Baliverne. "
+             "Lumea nu e nici a unui mal, nici a celuilalt.", din_lume())
+        + bloc("Din România", "din-romania",
+               "Ce se verifică dincolo de Prut, la Fără Baliverne.", din_romania()))
 
     corp = f'''
   <section class="wrap" style="padding:28px 0 6px">
