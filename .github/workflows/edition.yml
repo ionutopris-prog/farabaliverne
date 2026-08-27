@@ -39,7 +39,19 @@ on:
     - cron: "0 7,12 * * *"
     - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
     - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
-  workflow_dispatch: {}         # buton „Run workflow" pentru test manual
+  workflow_dispatch:            # buton „Run workflow" pentru test manual
+    # De ce are optiune: fereastra se alegea DOAR dupa ora, deci o pornire
+    # manuala la 10 UTC dadea mereu editia de zi. Nu se putea proba niciodata
+    # editia moldoveneasca sau cea de noapte fara sa astepti ora ei — iar
+    # GitHub sare des peste rularile programate (27 aug: 05, 07 si 09 UTC,
+    # toate trei nerulate).
+    inputs:
+      fereastra:
+        description: "Ce editie sa ruleze"
+        required: false
+        default: auto
+        type: choice
+        options: [auto, moldova, zi, weekend-international, asia, stiinta]
 
 concurrency:
   group: editie-automata
@@ -115,6 +127,19 @@ jobs:
           RO_WEEKEND=0
           if [ "$H" -eq 5 ] || [ "$H" -eq 14 ] || [ "$H" -eq 20 ]; then RO_WEEKEND=1; fi
 
+
+          # Fereastra fortata de la buton bate ceasul.
+          F="${{ github.event.inputs.fereastra }}"
+          if [ -n "$F" ] && [ "$F" != "auto" ]; then
+            case "$F" in
+              moldova)              H=7  ;;
+              zi)                   H=9; WEEKEND=0 ;;
+              weekend-international) H=9; WEEKEND=1; RO_WEEKEND=0 ;;
+              asia)                 H=22 ;;
+              stiinta)              H=1  ;;
+            esac
+            echo "fereastra fortata manual: $F"
+          fi
 
           if [ "$H" -eq 7 ] || [ "$H" -eq 12 ]; then
             W="MOLDOVA (10 si 15 RO) — editie DEDICATA Republicii Moldova. Publica 2-3 articole, toate despre Republica Moldova, si pune in JSON campul \"tara\": \"Moldova\" la fiecare.
