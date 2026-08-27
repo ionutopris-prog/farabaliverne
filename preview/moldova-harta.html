@@ -81,14 +81,12 @@
   .kicker .r{height:1px;width:38px;background:var(--line-2)}
   .subline{font-size:12.5px;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
   .support{position:absolute;right:22px;top:28px}
-  /* Butonul sta in dreapta, ca inainte, dar centrat pe verticala cu
-     titlul: aceeasi cutie ca a lui (top 28, inaltime 74), iar butonul
-     asezat la mijlocul ei. */
-  .support{top:28px;height:74px;display:flex;align-items:center;
-    justify-content:center}
+  /* Cele doua butoane stau UNUL SUB ALTUL, lipite de dreapta.
+     Fara asta se aseaza alaturi si acopera coada titlului. */
+  .support{display:flex;flex-direction:column;align-items:flex-end;gap:9px}
   .btn-md{
-    display:inline-flex;align-items:center;
-    padding:9px 20px;border-radius:999px;
+    display:inline-flex;align-items:center;gap:9px;
+    padding:9px 17px;border-radius:999px;
     font-size:13.5px;font-weight:700;letter-spacing:.01em;
     color:var(--accent);border:1.5px solid var(--accent);
     background:transparent;transition:.16s ease;
@@ -448,7 +446,8 @@
       <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
       <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
       <div class="support">
-        <a href="/moldova/" class="btn-md" title="Fara Scorneli — verificarile din Republica Moldova">Fără Scorneli · Moldova</a>
+        <a href="#" onclick="gabeIt();return false" class="btn-support">⚡ Gabe it</a>
+        <a href="/moldova/" class="btn-md" title="Fara Scorneli — verificarile din Republica Moldova"><svg viewBox="0 0 100 140" width="17" height="24" aria-hidden="true" style="vertical-align:-4px"><path d="M38 8 L62 14 L72 30 L80 52 L86 74 L88 96 L78 124 L66 134 L52 130 L40 120 L30 100 L22 78 L18 56 L24 34 Z" fill="currentColor" opacity=".9"/></svg> Fără Scorneli · Moldova</a>
       </div>
     </div>
   </header>

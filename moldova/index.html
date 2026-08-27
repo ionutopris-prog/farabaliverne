@@ -82,6 +82,20 @@
   .kicker .r{height:1px;width:38px;background:var(--line-2)}
   .subline{font-size:12.5px;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
   .support{position:absolute;right:22px;top:28px}
+  /* Butonul sta in dreapta, ca inainte, dar centrat pe verticala cu
+     titlul: aceeasi cutie ca a lui (top 28, inaltime 74), iar butonul
+     asezat la mijlocul ei. */
+  .support{top:28px;height:74px;display:flex;align-items:center;
+    justify-content:center}
+  .btn-md{
+    display:inline-flex;align-items:center;
+    padding:9px 20px;border-radius:999px;
+    font-size:13.5px;font-weight:700;letter-spacing:.01em;
+    color:var(--accent);border:1.5px solid var(--accent);
+    background:transparent;transition:.16s ease;
+  }
+  .btn-md:hover{color:#fff;background:var(--accent);
+    box-shadow:0 5px 14px rgba(165,55,42,.26)}
   .btn-support{
     border:1.5px solid var(--accent);color:var(--accent);background:var(--paper-2);
     font-family:var(--sans);font-size:13px;font-weight:700;padding:9px 18px;border-radius:999px;
@@ -98,6 +112,11 @@
   .nav a:hover{color:var(--ink);background:var(--accent-soft)}
   .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
   .nav .sep{flex:1}
+  .nav .md{
+    color:var(--accent);border:1px solid var(--accent);
+    background:transparent;
+  }
+  .nav .md:hover{color:#fff;background:var(--accent)}
   .nav .search{
     font-size:13px;color:var(--ink-soft);border:1px solid var(--line-2);background:var(--card);
     padding:8px 13px;border-radius:999px;white-space:nowrap;display:inline-flex;gap:7px;align-items:center;
@@ -419,8 +438,8 @@
 
   <div class="topbar">
     <div class="wrap">
-      <div class="date">Miercuri, 26 august 2026 · Ediția de seară târzie</div>
-      <div class="live"><span class="dot"></span> 21 verificări despre Moldova</div>
+      <div class="date">Joi, 27 august 2026 · Ediția de după-amiază</div>
+      <div class="live"><span class="dot"></span> 23 verificări despre Moldova</div>
     </div>
   </div>
 
@@ -430,7 +449,7 @@
       <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
       <div class="subline">Moldova · de la Fără Baliverne</div>
       <div class="support">
-        <a href="#" onclick="gabeIt();return false" class="btn-support">⚡ Gabe it</a>
+        <a href="/moldova/" class="btn-md" title="Fara Scorneli — verificarile din Republica Moldova">Fără Scorneli · Moldova</a>
       </div>
     </div>
   </header>
@@ -469,6 +488,30 @@
   <div class="wrap">
     <h2 class="sec-title">Politică</h2>
     <div class="grid">
+          <a href="a/moldova-cod-parlament-anti-traseism-doar-pas.html" class="card">
+
+            <div class="photo g-pol">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-cod-parlament-anti-traseism-doar-pas" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-cod-parlament-anti-traseism-doar-pas)"/></svg></div>
+                <div class="glyph">🏛️</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Politică</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Unimedia / Veridica.md / Moldpres / Sputnik Moldova</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Doar cu voturile PAS: Parlamentul de la Chișinău adoptă noul Cod de organizare — limbă română obligatorie în plen și interdicție de a schimba fracțiunea</h3>
+              <p class="dek">Parlamentul R. Moldova a adoptat în lectura a doua noul Cod de organizare și funcționare a legislativului, cu votul exclusiv al fracțiunii PAS (52 de…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Unimedia / Veridica.md / Moldpres / Sputnik Moldova</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/moldova-plahotniuc-apel-procurorii-cer-25-de-ani.html" class="card">
 
             <div class="photo g-pol">
@@ -552,14 +595,14 @@
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Politică</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> NewsMaker / Europa Liberă Moldova / Logos Press</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NewsMaker / Europa Liberă Moldova / Logos Press / Moldova 1 / TVR Moldova</div>
             </div>
             <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Găgăuzia rămâne fără bașcan: Adunarea Populară a declarat funcția vacantă. Ce se probează și ce se afirmă doar, de ambele părți</h3>
+              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 5</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Găgăuzia rămâne fără bașcan și fără dată pentru alegeri: Parlamentul schimbă regulile electorale, Adunarea Populară eșuează a treia oară din lipsă de cvorum</h3>
               <p class="dek">Pe 17 august 2026, Adunarea Populară a Găgăuziei a declarat vacantă funcția de bașcan, deținută de Evghenia Guțul, condamnată definitiv la 7 ani de…</p>
               <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> NewsMaker / Europa Liberă Moldova / Logos Press</span>
+                <span class="src"><span class="fav" style="background:#888"></span> NewsMaker / Europa Liberă Moldova / Logos Press / Moldova 1 / TVR Moldova</span>
                 <span>· 2026-08-26</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>
@@ -572,6 +615,30 @@
   <div class="wrap">
     <h2 class="sec-title">Economie</h2>
     <div class="grid">
+          <a href="a/moldova-tva-accize-transnistria-guvern-aprobat.html" class="card">
+
+            <div class="photo g-eco">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-tva-accize-transnistria-guvern-aprobat" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-tva-accize-transnistria-guvern-aprobat)"/></svg></div>
+                <div class="glyph">📊</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Economie</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Realitatea.md / NewsMaker / Novosti Pridnestrovya (Tiraspol) / Sputnik Moldova</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Guvernul de la Chișinău aprobă TVA și accize treptate pentru mărfurile din Transnistria; Tiraspolul vorbește despre „rechet”, MID PMR despre „escaladare”</h3>
+              <p class="dek">Pe 26 august 2026, Guvernul R. Moldova a aprobat aplicarea treptată a TVA și accizelor pentru mărfurile importate de operatorii economici din regiunea…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Realitatea.md / NewsMaker / Novosti Pridnestrovya (Tiraspol) / Sputnik Moldova</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/moldova-bnm-inflatie-92-la-suta-trimestrul-patru.html" class="card">
 
             <div class="photo g-eco">
@@ -1009,6 +1076,150 @@
     <h2 class="sec-title">Din lume</h2>
     <p class="dek" style="margin:-6px 0 18px">Ce se verifică în afară — aceleași articole ca la Fără Baliverne. Lumea nu e nici a unui mal, nici a celuilalt.</p>
     <div class="grid">
+          <a href="a/china-india-runda-discutii-frontiera-wang-yi-doval-beijing.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-india-runda-discutii-frontiera-wang-yi-doval-beijing" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-india-runda-discutii-frontiera-wang-yi-doval-beijing)"/></svg></div>
+                <div class="glyph">💧</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/china-india-runda-discutii-frontiera-wang-yi-doval-beijing.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Kathmandu Post / The Express Tribune</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>China și India țin la Beijing o nouă rundă de discuții despre frontieră. Wang Yi și Ajit Doval promit continuarea dialogului, runda viitoare — în India, în 2027</h3>
+              <p class="dek">🌍 Ministrul chinez de externe Wang Yi și consilierul indian pentru securitate națională Ajit Doval au avut, pe 25 august 2026 la Beijing, o nouă rundă de…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> The Kathmandu Post / The Express Tribune</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/japonia-australia-indonezia-prima-intalnire-trilaterala-aparare.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-japonia-australia-indonezia-prima-intalnire-trilaterala-aparare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-japonia-australia-indonezia-prima-intalnire-trilaterala-aparare)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Nippon.com (Jiji Press) / The Japan Times</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Japonia, Australia și Indonezia țin prima întâlnire trilaterală a miniștrilor apărării, la câteva săptămâni după apropierea militară Jakarta-Beijing</h3>
+              <p class="dek">🌍 Miniștrii apărării din Japonia (Shinjiro Koizumi), Australia (Richard Marles) și Indonezia (Sjafrie Sjamsoeddin) au avut pe 26 august 2026 prima discuție…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Nippon.com (Jiji Press) / The Japan Times</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/iran-oman-hormuz-irgc-venituri-cadru-interimar.html" class="card">
+
+            <div class="photo g-state">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-iran-oman-hormuz-irgc-venituri-cadru-interimar" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-iran-oman-hormuz-irgc-venituri-cadru-interimar)"/></svg></div>
+                <div class="glyph">💧</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/iran-oman-hormuz-irgc-venituri-cadru-interimar.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Media de stat</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> gCaptain / Daily Sabah (preluând Bloomberg)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Media de stat</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>IRGC spune că Iranul și Omanul „au căzut de acord” pe împărțirea veniturilor din Hormuz. Declarația comună a celor două state vorbește doar de un „cadru interimar”</h3>
+              <p class="dek">📡 Purtătorul de cuvânt al Corpului Gărzilor Revoluționare (IRGC), Hossein Mohebbi, a declarat pe 26 august 2026 că Iranul și Omanul „au ajuns la un acord”…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> gCaptain / Daily Sabah (preluând Bloomberg)</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/china-pla-filipine-patrule-scarborough-provocari.html" class="card">
+
+            <div class="photo g-state">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-pla-filipine-patrule-scarborough-provocari" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-pla-filipine-patrule-scarborough-provocari)"/></svg></div>
+                <div class="glyph">📡</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/china-pla-filipine-patrule-scarborough-provocari.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Media de stat</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Global Times / Xinhua / China Daily (media de stat, China) + Reuters</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Media de stat</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Armata chineză acuză Filipine de „provocări” în Marea Chinei de Sud — a treia oară în 2026 cu același scenariu</h3>
+              <p class="dek">📡 Ce SUSȚINE presa/armata de stat chineză (Global Times, Xinhua, China Daily — media de stat din R.P. Chineză): Comandamentul de Teatru Sudic al Armatei…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Global Times / Xinhua / China Daily (media de stat, China) + Reuters</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/trump-arabia-saudita-acord-nuclear-congres-israel.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-arabia-saudita-acord-nuclear-congres-israel" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-arabia-saudita-acord-nuclear-congres-israel)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/trump-arabia-saudita-acord-nuclear-congres-israel.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> AP / The Hill / CNBC</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump trimite acordul nuclear cu Arabia Saudită în Congres, dar îl leagă de recunoașterea Israelului</h3>
+              <p class="dek">🌍 Administrația Trump a trimis luni, 25 august 2026, Congresului acordul de cooperare nucleară civilă cu Arabia Saudită (un „acord secțiunea 123”), negociat…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> AP / The Hill / CNBC</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/iran-tv-stat-amenintare-barron-trump-recompensa.html" class="card">
+
+            <div class="photo g-state">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-iran-tv-stat-amenintare-barron-trump-recompensa" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-iran-tv-stat-amenintare-barron-trump-recompensa)"/></svg></div>
+                <div class="glyph">📡</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/iran-tv-stat-amenintare-barron-trump-recompensa.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Media de stat</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews / Washington Post / CNN</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Media de stat</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Televiziunea de stat iraniană a difuzat un videoclip care amenință viața lui Barron Trump, cu o „recompensă” de 10 milioane de dolari</h3>
+              <p class="dek">Un canal al televiziunii de stat iraniene, afiliat Gărzii Revoluționare (IRGC), a difuzat pe 24 august 2026 un montaj intitulat „Unde și cum ar trebui să-l…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Euronews / Washington Post / CNN</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/putin-decret-preluare-infrastructura-neprotejata-drone.html" class="card">
 
             <div class="photo g-ext">
@@ -1071,7 +1282,7 @@
               <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Arab News / Korea Times</div>
             </div>
             <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
               <h3>Trump spune că a scos toate minele din Hormuz. Teheranul spune că strâmtoarea rămâne închisă, în ciuda acordului cu Omanul</h3>
               <p class="dek">🌍 Miniștrii de externe ai Iranului și Omanului au convenit marți, 25 august 2026, la Teheran, un cadru pentru un culoar naval temporar și un proiect comun de…</p>
               <div class="cmeta">
@@ -1153,150 +1364,6 @@
               </div>
             </div>
           </a>
-          <a href="a/coreea-sud-sua-rubio-cho-hyun-coordonare-25-august.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-coreea-sud-sua-rubio-cho-hyun-coordonare-25-august" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-coreea-sud-sua-rubio-cho-hyun-coordonare-25-august)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/coreea-sud-sua-rubio-cho-hyun-coordonare-25-august.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Yonhap / Korea JoongAng Daily / UPI</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Seul și Washington vorbesc din nou după cinci luni de tăcere — Coreea de Sud promite să transforme apropierea lui Trump de Kim în discuții reale, dar Phenianul nu confirmă niciun contact</h3>
-              <p class="dek">🌍 Ministrul de Externe sud-coreean Cho Hyun și secretarul de stat american Marco Rubio au vorbit luni seară, 24 august 2026, la telefon — prima convorbire…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Yonhap / Korea JoongAng Daily / UPI</span>
-                <span>· 2026-08-25</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/scotus-ridica-suspendare-vot-corespondenta-trump-24-august.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-scotus-ridica-suspendare-vot-corespondenta-trump-24-august" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-scotus-ridica-suspendare-vot-corespondenta-trump-24-august)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/scotus-ridica-suspendare-vot-corespondenta-trump-24-august.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> CBS News / NPR / Votebeat</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Curtea Supremă a SUA permite parțial ordinul lui Trump privind votul prin corespondență — dar spune explicit că nu s-a pronunțat pe legalitatea lui</h3>
-              <p class="dek">🌍 Curtea Supremă a SUA a ridicat, pe 24 august 2026, una din cele două suspendări care blocau ordinul executiv al lui Donald Trump privind listele DHS de…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> CBS News / NPR / Votebeat</span>
-                <span>· 2026-08-25</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/sua-judecator-anuleaza-interdictie-vize-75-tari.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sua-judecator-anuleaza-interdictie-vize-75-tari" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sua-judecator-anuleaza-interdictie-vize-75-tari)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/sua-judecator-anuleaza-interdictie-vize-75-tari.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> NPR / Al Jazeera / PBS NewsHour</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>O judecătoare federală din SUA anulează interdicția de vize a administrației Trump pentru cetățenii a 75 de țări</h3>
-              <p class="dek">🌍 Judecătoarea federală Jeannette Vargas, de la Curtea Districtuală a SUA pentru Districtul de Sud al New York-ului, a decis vineri, 21 august 2026, că…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> NPR / Al Jazeera / PBS NewsHour</span>
-                <span>· 2026-08-25</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/china-xinhua-japonia-delegatie-beijing-reparare-relatii.html" class="card">
-
-            <div class="photo g-state">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-xinhua-japonia-delegatie-beijing-reparare-relatii" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-xinhua-japonia-delegatie-beijing-reparare-relatii)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/china-xinhua-japonia-delegatie-beijing-reparare-relatii.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Media de stat</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Xinhua (China) / Al Jazeera / South China Morning Post</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Media de stat</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Xinhua cere Japoniei să „asculte vocile chibzuite” — o delegație transpartinică de parlamentari japonezi a ajuns la Beijing să repare relațiile, dar experții sunt sceptici</h3>
-              <p class="dek">📡 Purtătorul de cuvânt al Ministerului de Externe chinez, Lin Jian, a declarat pe 21 august 2026, citat de Xinhua, că Beijingul „ia notă” de „vocile…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Xinhua (China) / Al Jazeera / South China Morning Post</span>
-                <span>· 2026-08-25</span>
-                <span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/taiwan-tainan-explozie-depozit-deseuri-cifre-diferite.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-taiwan-tainan-explozie-depozit-deseuri-cifre-diferite" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-taiwan-tainan-explozie-depozit-deseuri-cifre-diferite)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/taiwan-tainan-explozie-depozit-deseuri-cifre-diferite.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Focus Taiwan / Taipei Times / TASS / Al Jazeera</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Explozie la un depozit ilegal de deșeuri în Tainan, Taiwan — 13 sau 15 răniți, 8 sau 68 de case avariate, în funcție de sursă</h3>
-              <p class="dek">🌍 Un incendiu izbucnit într-un depozit ilegal de deșeuri (aliaj aluminiu-magneziu și ulei uzat) din cartierul Annan, Tainan, a fost urmat de o explozie în…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Focus Taiwan / Taipei Times / TASS / Al Jazeera</span>
-                <span>· 2026-08-25</span>
-                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/houthi-amzan-tanc-petrolier-yanbu-racheta.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-houthi-amzan-tanc-petrolier-yanbu-racheta" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-houthi-amzan-tanc-petrolier-yanbu-racheta)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Jerusalem Post / Times of Israel</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Tancul petrolier saudit Amzan, lovit lângă Yanbu — Bahri confirmă incidentul, Houthii revendică racheta</h3>
-              <p class="dek">🌍 Compania saudită de transport maritim Bahri a confirmat luni, 24 august 2026, că nava sa „Amzan” a fost implicată într-un „incident maritim” în Marea…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Jerusalem Post / Times of Israel</span>
-                <span>· 2026-08-25</span>
-                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
-              </div>
-            </div>
-          </a>
     </div>
     <p style="margin-top:18px"><a href="https://farabaliverne.ro/">Vezi tot la Fără Baliverne →</a></p>
   </div>
@@ -1306,6 +1373,54 @@
     <h2 class="sec-title">Din România</h2>
     <p class="dek" style="margin:-6px 0 18px">Ce se verifică dincolo de Prut, la Fără Baliverne.</p>
     <div class="grid">
+          <a href="a/nicusor-dan-esec-lege-salarizare-770-milioane.html" class="card">
+
+            <div class="photo g-pol">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-nicusor-dan-esec-lege-salarizare-770-milioane" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-nicusor-dan-esec-lege-salarizare-770-milioane)"/></svg></div>
+                <div class="glyph">🏛️</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Politică</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> HotNews / Gândul / Profit.ro</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Nicușor Dan confirmă oficial eșecul Legii salarizării: România pierde 770 de milioane de euro din PNRR</h3>
+              <p class="dek">Președintele Nicușor Dan a anunțat miercuri seară, 26 august 2026, că PSD, PNL, USR și UDMR nu au ajuns la un consens pe Legea salarizării unitare și că țara…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> HotNews / Gândul / Profit.ro</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/romania-safe-prima-plata-25-miliarde-aparare.html" class="card">
+
+            <div class="photo g-eco">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-romania-safe-prima-plata-25-miliarde-aparare" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-romania-safe-prima-plata-25-miliarde-aparare)"/></svg></div>
+                <div class="glyph">📊</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/romania-safe-prima-plata-25-miliarde-aparare.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Economie</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Economedia / Economica.net</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>România a primit prima plată de 2,5 miliarde de euro prin instrumentul european de apărare SAFE</h3>
+              <p class="dek">România a încasat miercuri, 26 august 2026, prima tranșă din programul european de apărare SAFE — 2,5 miliarde de euro, adică 15% din alocarea totală de 16,7…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Economedia / Economica.net</span>
+                <span>· 2026-08-26</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/sindicate-educatie-resping-lege-salarizare-26-august.html" class="card">
 
             <div class="photo g-pol">
@@ -1541,54 +1656,6 @@
               <p class="dek">Sorana Cîrstea (locul 17 WTA), Jaqueline Cristian (41), Gabriela Ruse (73) și Irina Begu (82, cu ranking protejat după accidentare) au intrat direct pe…</p>
               <div class="cmeta">
                 <span class="src"><span class="fav" style="background:#888"></span> Romania Insider / Sport.ro</span>
-                <span>· 2026-08-24</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/ce-cere-4-miliarde-lei-masuri-fiscale-legea-salarizarii.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-ce-cere-4-miliarde-lei-masuri-fiscale-legea-salarizarii" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-ce-cere-4-miliarde-lei-masuri-fiscale-legea-salarizarii)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/ce-cere-4-miliarde-lei-masuri-fiscale-legea-salarizarii.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Atlas News / Antena3</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Comisia Europeană cere României 4 miliarde de lei măsuri fiscale suplimentare înainte de legea salarizării — pe masă, extinderea CASS la pensii</h3>
-              <p class="dek">Potrivit unor surse din negocieri, Bruxelles-ul nu acceptă anvelopa de 12 miliarde de lei a legii salarizării fără măsuri compensatorii de circa 4 miliarde…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Atlas News / Antena3</span>
-                <span>· 2026-08-24</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/anaf-controale-transport-alternativ-816-firme-2026.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-anaf-controale-transport-alternativ-816-firme-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-anaf-controale-transport-alternativ-816-firme-2026)"/></svg></div>
-                <div class="glyph">📊</div>
-              </div>
-              
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Profit.ro (citând date ANAF)</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 0</span></div></div>
-              <h3>ANAF a controlat 816 firme din transportul alternativ (Uber, Bolt): 423,8 milioane de lei obligații fiscale neplătite, arată datele Fiscului</h3>
-              <p class="dek">ANAF a verificat 816 operatori economici din transportul alternativ — firme care lucrează prin platforme precum Uber și Bolt — de la începutul anului 2026…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Profit.ro (citând date ANAF)</span>
                 <span>· 2026-08-24</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>

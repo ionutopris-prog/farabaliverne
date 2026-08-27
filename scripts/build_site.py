@@ -41,6 +41,25 @@ def now_edition():
     else:              ed = "Ediția de noapte"
     return f"{date_str} · {ed}"
 
+# Semnele pentru butonul Moldova (vezi build-ul paginilor, mai jos).
+HARTA_MD = '<svg viewBox="0 0 100 140" width="17" height="24" aria-hidden="true" style="vertical-align:-4px"><path d="M38 8 L62 14 L72 30 L80 52 L86 74 L88 96 L78 124 L66 134 L52 130 L40 120 L30 100 L22 78 L18 56 L24 34 Z" fill="currentColor" opacity=".9"/></svg>'
+BOUR_MD = '<svg viewBox="0 0 32 32" width="19" height="19" aria-hidden="true" style="vertical-align:-4px" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7c-3 0-4 3-3 5 1 2 3 2 4 1"/><path d="M25 7c3 0 4 3 3 5-1 2-3 2-4 1"/><path d="M8 13c0-4 3-6 8-6s8 2 8 6c0 5-2 8-4 10-1.5 1.5-2.5 2-4 2s-2.5-.5-4-2c-2-2-4-5-4-10z"/><circle cx="12.5" cy="15" r="1.2" fill="currentColor" stroke="none"/><circle cx="19.5" cy="15" r="1.2" fill="currentColor" stroke="none"/><path d="M16 20v3"/></svg>'
+STIL_MD = (
+    "  /* Butonul sta in dreapta, ca inainte, dar centrat pe verticala cu\n"
+    "     titlul: aceeasi cutie ca a lui (top 28, inaltime 74), iar butonul\n"
+    "     asezat la mijlocul ei. */\n"
+    "  .support{top:28px;height:74px;display:flex;align-items:center;\n"
+    "    justify-content:center}\n"
+    "  .btn-md{\n"
+    "    display:inline-flex;align-items:center;\n"
+    "    padding:9px 20px;border-radius:999px;\n"
+    "    font-size:13.5px;font-weight:700;letter-spacing:.01em;\n"
+    "    color:var(--accent);border:1.5px solid var(--accent);\n"
+    "    background:transparent;transition:.16s ease;\n"
+    "  }\n"
+    "  .btn-md:hover{color:#fff;background:var(--accent);\n"
+    "    box-shadow:0 5px 14px rgba(165,55,42,.26)}\n")
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDX  = os.path.join(ROOT, "index.html")
 
@@ -1473,6 +1492,44 @@ def main():
             s = s.replace('<a href="metodologie.html">Metodologie</a>',
                           '<a href="metodologie.html">Metodologie</a>\n'
                           '            <a href="cifre.html">Cifrele noastre</a>', 1)
+
+        # In fruntea paginii ramane UN SINGUR buton: cel catre Moldova.
+        # „Gabe it" a fost scos de aici pe 27 august, la cererea fondatorului —
+        # ramane doar in cutia din dreapta, langa Facebook si X, unde e locul lui.
+        s = re.sub(r'\s*<a href="#" onclick="gabeIt\(\);return false" '
+                   r'class="btn-support">[^<]*</a>', "", s, count=1)
+        if 'class="btn-md"' not in s and '<div class="support">' in s:
+            s = s.replace('<div class="support">',
+                          '<div class="support">\n        '
+                          '<a href="/moldova/" class="btn-md" '
+                          'title="Fara Scorneli — verificarile din Republica Moldova">'
+                          'Fără Scorneli · Moldova</a>', 1)
+        if ".btn-md{" not in s and ".btn-support{" in s:
+            s = s.replace("  .btn-support{", STIL_MD + "  .btn-support{", 1)
+
+        # Butonul mic din meniu, pe fiecare pagina. Cerut de fondator
+        # pe 27 august. Se pune dupa Parlament, fiindca e sectiune, nu categorie.
+        # Are stil propriu (chenar, nu pastila plina) ca sa se vada ca duce in
+        # alta casa — Fara Scorneli — nu la o rubrica de-a noastra.
+        # Paginile de articol au meniul cu legaturi relative („../parlament.html"),
+        # cele din radacina fara. Butonul insa duce mereu la adresa absoluta.
+        if 'href="/moldova/"' not in s:
+            for tinta in ('<a href="parlament.html">Parlament</a>',
+                          '<a href="../parlament.html">Parlament</a>'):
+                if tinta in s:
+                    s = s.replace(tinta, tinta + '\n'
+                                  '            <a href="/moldova/" class="md" '
+                                  'title="Fără Scorneli — verificările din Republica Moldova">'
+                                  '🇲🇩 Moldova</a>', 1)
+                    break
+        if ".nav .md{" not in s and ".nav .search{" in s:
+            s = s.replace("  .nav .search{",
+                          "  .nav .md{\n"
+                          "    color:var(--accent);border:1px solid var(--accent);\n"
+                          "    background:transparent;\n"
+                          "  }\n"
+                          "  .nav .md:hover{color:#fff;background:var(--accent)}\n"
+                          "  .nav .search{", 1)
 
         # Linkul catre RSS, pe fiecare pagina: asa il gasesc cititoarele de
         # stiri si extensiile de browser, fara sa stie adresa pe de rost.
