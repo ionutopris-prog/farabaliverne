@@ -31,14 +31,14 @@ on:
     #   14 UTC = 17 RO · ieşirea de la muncă, cea mai bună fereastră
     #   17 UTC = 20 RO · seara, când se citeşte cel mai mult
     #   20 UTC = 23 RO · târziu, prinde şi după-amiaza americană
-    - cron: "0 5,9,14,17,20 * * *"
+    - cron: "17 5,9,14,17,20 * * *"
     # MOLDOVA — două ediții proprii pe zi, cerute de fondator pe 26 august.
     #   07 UTC = 10 RO · dimineaţa
     #   12 UTC = 15 RO · după-amiaza
     # Merg pe presa de la Chişinău ŞI pe cea de limbă rusă, inclusiv Tiraspol.
-    - cron: "0 7,12 * * *"
-    - cron: "0 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
-    - cron: "0 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
+    - cron: "23 7,12 * * *"
+    - cron: "37 22 * * *"        # NOAPTE Asia/Orient/Media de stat (UTC 22 = EEST 01) — zilnic
+    - cron: "43 1 * * *"         # NOAPTE ȘTIINȚĂ — ediție dedicată DOAR Științei (UTC 01 = EEST 04) — zilnic
   workflow_dispatch:            # buton „Run workflow" pentru test manual
     # De ce are optiune: fereastra se alegea DOAR dupa ora, deci o pornire
     # manuala la 10 UTC dadea mereu editia de zi. Nu se putea proba niciodata
@@ -128,7 +128,18 @@ jobs:
           if [ "$H" -eq 5 ] || [ "$H" -eq 14 ] || [ "$H" -eq 20 ]; then RO_WEEKEND=1; fi
 
 
-          # Fereastra fortata de la buton bate ceasul.
+          # 🔴 Fereastra se ia din CRON-UL care a declansat rularea, nu din ceas.
+          # De ce: rularile programate pornesc cu intarzieri de 40-120 de minute.
+          # O editie moldoveneasca de la 07:23 pornita la 08:10 ar fi citit ora 8
+          # si ar fi facut editia de zi. Cron-ul spune ce trebuia sa fie.
+          S="${{ github.event.schedule }}"
+          case "$S" in
+            "23 7,12 * * *") H=7  ;;   # MOLDOVA
+            "37 22 * * *")   H=22 ;;   # ASIA
+            "43 1 * * *")    H=1  ;;   # STIINTA
+          esac
+
+          # Fereastra fortata de la buton bate si cron-ul, si ceasul.
           F="${{ github.event.inputs.fereastra }}"
           if [ -n "$F" ] && [ "$F" != "auto" ]; then
             case "$F" in
