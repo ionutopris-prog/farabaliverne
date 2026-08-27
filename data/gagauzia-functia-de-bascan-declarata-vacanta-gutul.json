@@ -1,12 +1,12 @@
 {
  "slug": "gagauzia-functia-de-bascan-declarata-vacanta-gutul",
- "title": "Găgăuzia rămâne fără bașcan: Adunarea Populară a declarat funcția vacantă. Ce se probează și ce se afirmă doar, de ambele părți",
+ "title": "Găgăuzia rămâne fără bașcan și fără dată pentru alegeri: Parlamentul schimbă regulile electorale, Adunarea Populară eșuează a treia oară din lipsă de cvorum",
  "category": "Politică",
  "tara": "Moldova",
  "date": "2026-08-26",
- "source": "NewsMaker / Europa Liberă Moldova / Logos Press",
+ "source": "NewsMaker / Europa Liberă Moldova / Logos Press / Moldova 1 / TVR Moldova",
  "url": "https://newsmaker.md/ro/gu%C8%9Bul-pierde-oficial-func%C8%9Bia-de-ba%C8%99can-al-g%C4%83g%C4%83uziei-adunarea-popular%C4%83-a-declarat-vacant-postul",
- "dek": "Pe 17 august 2026, Adunarea Populară a Găgăuziei a declarat vacantă funcția de bașcan, deținută de Evghenia Guțul, condamnată definitiv la 7 ani de închisoare în dosarul finanțării ilegale a partidului „Șor”. Decizia a trecut cu 12 voturi. Data alegerilor nu a fost stabilită. Am pus față în față versiunea de la Chișinău și cea difuzată internațional în numele lui Guțul.",
+ "dek": "Pe 17 august 2026, Adunarea Populară a Găgăuziei a declarat vacantă funcția de bașcan, deținută de Evghenia Guțul, condamnată definitiv la 7 ani de închisoare în dosarul finanțării ilegale a partidului „Șor”. Actualizare: pe 25 august, Parlamentul de la Chișinău a votat, doar cu voturile PAS, modificări la Codul Electoral cu cerințe noi pentru candidați; pe 26 august, Adunarea Populară a eșuat pentru a treia oară să stabilească data alegerilor, din lipsă de cvorum. Am pus față în față versiunea de la Chișinău și cea de la Comrat.",
  "mainVerdict": "Probat parțial",
  "probat": [
   {
@@ -35,6 +35,19 @@
    "sources": [
     {"name": "Ziar.md — când ar putea avea loc alegerile", "url": "https://ziar.md/functia-de-bascan-al-gagauziei-declarata-vacanta-cand-ar-putea-avea-loc-alegerile/"}
    ]
+  },
+  {
+   "text": "Actualizare, 25 august 2026: Parlamentul de la Chișinău a votat în lectură finală, cu 53 de voturi din partea fracțiunii PAS (împotrivă: 4 deputați „Alternativa”, 3 socialiști, 2 neafiliați, 1 comunist), modificări la Codul Electoral pentru alegerile din Găgăuzia. Noile cerințe pentru candidații la bașcan: domiciliu stabilit în regiune de cel puțin 10 ani și cunoașterea limbii române; înregistrarea la domiciliu trebuie făcută cu cel puțin 3 luni înainte de scrutin, iar Adunarea Populară va fi aleasă pe sistem proporțional, ca și consiliile locale.",
+   "sources": [
+    {"name": "Moldova 1 — vot final pentru alegerile din Găgăuzia, opoziția merge la Curtea Constituțională", "url": "https://moldova1.md/p/83931"}
+   ]
+  },
+  {
+   "text": "Actualizare, 26 august 2026: Adunarea Populară a Găgăuziei a eșuat pentru a treia oară — după ședințele din 31 iulie și 3 august — să stabilească data alegerilor pentru bașcan, din lipsă de cvorum; aproximativ jumătate dintre deputații de la Comrat au lipsit. Valentin Gaidarji, președintele forului, a anunțat convocarea Prezidiului pentru a fixa o nouă ședință.",
+   "sources": [
+    {"name": "NewsMaker — alegerile bașcanului rămân fără dată, jumătate din deputați au ignorat ședința", "url": "https://newsmaker.md/ro/alegerile-bascanului-raman-fara-data-jumatate-din-deputatii-de-la-comrat-au-ignorat-sedinta"},
+    {"name": "TVR Moldova — deputații nu au reușit din nou să stabilească data alegerilor", "url": "https://tvrmoldova.md/article/a0ab8351749698f9/in-uta-gagauzia-deputatii-nu-au-reusit-din-nou-sa-stabileasca-data-alegerilor-pentru-bascan.html"}
+   ]
   }
  ],
  "contestat": [
@@ -56,6 +69,18 @@
    "sources": [
     {"name": "Realitatea.md — Găgăuzia rămâne fără bașcan după condamnarea definitivă", "url": "https://realitatea.md/gagauzia-ramane-fara-bascan-dupa-condamnarea-definitiva-a-evgheniei-gutul/"}
    ]
+  },
+  {
+   "text": "Opoziția de la Comrat și liderul PSRM, Igor Dodon, califică cerințele noi (10 ani de domiciliu, cunoașterea limbii române) drept „discriminatorii” și anunță sesizarea Curții Constituționale, invocând schimbarea regulilor de campanie cu doar două luni înainte de scrutinul programat pentru 15 noiembrie. Nu se probează, deocamdată, dacă modificarea încalcă vreun standard obligatoriu pentru Moldova — e o dispută politico-juridică pe care doar CC o poate tranșa, nu presa.",
+   "sources": [
+    {"name": "Moldova 1 — reacția lui Dodon și sesizarea la Curtea Constituțională", "url": "https://moldova1.md/p/83931"}
+   ]
+  },
+  {
+   "text": "Nu se poate stabili din surse publice dacă absența la ședința din 26 august a fost boicot organizat sau absențe individuale — presa citează doar cifra (aproximativ jumătate din deputați) și declarația lui Gaidarji, fără o listă publică a motivelor invocate de cei absenți.",
+   "sources": [
+    {"name": "NewsMaker — jumătate din deputați au ignorat ședința", "url": "https://newsmaker.md/ro/alegerile-bascanului-raman-fara-data-jumatate-din-deputatii-de-la-comrat-au-ignorat-sedinta"}
+   ]
   }
  ],
  "opinie": [
@@ -66,6 +91,6 @@
    ]
   }
  ],
- "aiNote": "Am observat ceva ce merită spus separat: versiunea „persecuție politică” circulă internațional nu prin presă politică, ci printr-un canal de știri financiare, sub forma unui comunicat despre o carte. E o rută obișnuită pentru a face un mesaj să pară știre neutră, fiindcă apare pe un site mare, cu autoritate, într-o secțiune unde nimeni nu verifică politica. Nu spun că e o operațiune coordonată — nu am cum să probez asta. Spun doar cititorului să se uite la ce fel de site apare un text, nu doar la cât de mare e numele de pe el.",
- "persoane": ["Evghenia Guțul", "Ilan Șor", "Valentin Gaidargi"]
+ "aiNote": "Am observat ceva ce merită spus separat: versiunea „persecuție politică” circulă internațional nu prin presă politică, ci printr-un canal de știri financiare, sub forma unui comunicat despre o carte. E o rută obișnuită pentru a face un mesaj să pară știre neutră, fiindcă apare pe un site mare, cu autoritate, într-o secțiune unde nimeni nu verifică politica. Nu spun că e o operațiune coordonată — nu am cum să probez asta. Spun doar cititorului să se uite la ce fel de site apare un text, nu doar la cât de mare e numele de pe el.\n\nActualizare, 25-26 august: povestea a intrat într-o a doua etapă. Nu mai e doar despre vacantarea funcției, ci despre regulile jocului care urmează. Parlamentul de la Chișinău a votat cerințe noi pentru candidați cu doar câteva luni înainte de scrutin — un calendar strâns pe care opoziția îl contestă la Curtea Constituțională, iar Adunarea Populară de la Comrat răspunde, la rândul ei, prin lipsă repetată de cvorum. Nu tranșăm cine blochează pe cine: absența cvorumului poate fi la fel de bine o formă de protest politic ca și o simplă lipsă de organizare, iar sursele consultate nu documentează public motivele individuale ale deputaților absenți.",
+ "persoane": ["Evghenia Guțul", "Ilan Șor", "Valentin Gaidarji", "Igor Dodon"]
 }
