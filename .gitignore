@@ -33,3 +33,9 @@ local/stil.md
 # Copie de siguranta in ~/Documents/Backup-farabaliverne/
 WORKLOG.md
 CLAUDE.md
+
+# Chatul redactorului: ciornele si indexul raman LOCALE.
+# Ciornele nu se comit — se citesc, se verifica sursele, si abia apoi devin
+# articole adevarate (redenumite fara „_"). Indexul are 10 MB si se reface.
+data/_ciorna-*
+data/_index_chat.jsonl

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Chat cu redactorul Fara Baliverne. Modelul ruleaza local, pe MLX.
+exec python3 "$(dirname "$0")/scripts/chat_redactor.py" "$@"
