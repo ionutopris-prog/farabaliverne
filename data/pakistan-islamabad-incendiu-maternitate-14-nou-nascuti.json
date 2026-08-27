@@ -1,0 +1,60 @@
+{
+  "slug": "pakistan-islamabad-incendiu-maternitate-14-nou-nascuti",
+  "title": "Incendiu la secția de terapie intensivă neonatală dintr-un spital din Islamabad: 14 nou-născuți morți, familiile acuză uși blocate din interior",
+  "category": "Extern",
+  "date": "2026-08-26",
+  "source": "AP / CBS News / Al Jazeera / SCMP",
+  "url": "https://www.cbsnews.com/news/fire-kills-14-newborns-pakistan-hospital/",
+  "dek": "În dimineața de 26 august 2026, un incendiu a izbucnit în secția de terapie intensivă neonatală a Institutului Pakistanez de Științe Medicale (PIMS) din Islamabad, unul dintre cele mai mari spitale publice din capitală. Din cei 15 bebeluși aflați acolo, 14 au murit; unul singur a fost salvat. Autoritățile pakistaneze atribuie, provizoriu, cauza unei defecțiuni la un aparat de aer condiționat, iar premierul Shehbaz Sharif a dispus o anchetă și a suspendat un oficial. Familiile victimelor SUSȚIN că ușile secției erau blocate din interior, iar spitalul justifică practica prin prevenirea furtului de copii, nu prin proceduri de urgență — o afirmație pe care nu am găsit-o confirmată sau infirmată oficial în sursele consultate.",
+  "mainVerdict": "Probat că incendiul a ucis 14 din 15 nou-născuți aflați în secție și că autoritățile investighează o defecțiune de aer condiționat ca primă ipoteză; contestat/neclarificat rămâne dacă ușile secției erau efectiv blocate din interior în momentul incendiului și cât a durat exact intervenția pompierilor",
+  "probat": [
+    {
+      "text": "Incendiul a izbucnit în jurul orei 6:45, dimineața, în secția de terapie intensivă neonatală (secția de ginecologie/nursery) a Institutului Pakistanez de Științe Medicale (PIMS) din Islamabad, unul dintre cele mai mari spitale publice ale capitalei. Autoritățile au declarat că explozia compresorului unui aparat de aer condiționat din interiorul secției a declanșat flăcările.",
+      "sources": [
+        {"name": "CBS News — Fire tears through hospital nursery in Islamabad, killing 14 newborns", "url": "https://www.cbsnews.com/news/fire-kills-14-newborns-pakistan-hospital/"},
+        {"name": "SCMP — 15 newborns die in Pakistan hospital fire triggered by air-con fault", "url": "https://www.scmp.com/news/asia/south-asia/article/3365296/15-newborns-die-pakistan-hospital-fire-triggered-air-con-fault"}
+      ]
+    },
+    {
+      "text": "Din cei 15 nou-născuți aflați în secție la momentul incendiului, 14 au murit; unul singur a fost salvat. Restul spitalului nu a fost afectat, iar autoritățile nu au raportat alți răniți în afara secției.",
+      "sources": [
+        {"name": "Fox11 — Fire at Pakistan hospital nursery kills 14 newborns, prompts investigation", "url": "https://fox11online.com/news/nation-world/fire-at-pakistan-hospital-nursery-kills-14-newborns-prompts-investigation-institute-of-medical-sciences-islamabad-prime-minister-shehbaz-sharif"},
+        {"name": "Al Jazeera — Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns", "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns"}
+      ]
+    },
+    {
+      "text": "Premierul pakistanez Shehbaz Sharif a dispus o anchetă imediată, a promis „măsuri stricte împotriva celor găsiți vinovați” și a suspendat un oficial de rang înalt din Ministerul federal al Sănătății, Aslam Ghauri/Ghaury. Au fost formate două comitete separate de anchetă — unul al administrației districtuale, altul al biroului premierului.",
+      "sources": [
+        {"name": "ABC News — 14 newborns killed in fire at Pakistan hospital, doctor says", "url": "https://abcnews.com/International/fire-pakistan-hospital-kills-14-newborns-doctor/story?id=135962435"},
+        {"name": "Al Jazeera — suspendarea oficialului și cele două comitete de anchetă", "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns"}
+      ]
+    },
+    {
+      "text": "Un incendiu similar, cauzat tot de o defecțiune de aer condiționat, a ucis 11 bebeluși în 2024 la Spitalul Didactic Sahiwal, din provincia Punjab — anchetă în care s-au găsit extinctoare expirate.",
+      "sources": [
+        {"name": "ABC News — precedentul de la Sahiwal (2024)", "url": "https://abcnews.com/International/fire-pakistan-hospital-kills-14-newborns-doctor/story?id=135962435"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Familii ale victimelor și martori citați de Al Jazeera SUSȚIN că ieșirile secției erau blocate din interior în momentul incendiului, iar echipele de salvare au trebuit să spargă gratii de beton și geamuri pentru a intra. Spitalul ar fi justificat, potrivit acelorași surse, practica ușilor încuiate prin prevenirea furtului de copii — nu ca măsură specifică de urgență. Nu am găsit, în sursele consultate, o confirmare sau infirmare oficială din partea conducerii spitalului sau a autorităților pakistaneze cu privire la starea exactă a ușilor în momentul incendiului.",
+      "sources": [
+        {"name": "Al Jazeera — acuzațiile privind ușile blocate din interior", "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns"}
+      ]
+    },
+    {
+      "text": "Există o discrepanță între cronologiile oficiale ale intervenției: administrația districtuală susține că apelul de urgență a fost înregistrat la 6:45 și că răspunsul a durat 7 minute, în timp ce serviciul de salvare Rescue 1122 afirmă că a fost notificat abia la 6:55 și a ajuns la fața locului la 7:06. Diferența de zece minute între cele două versiuni nu a fost explicată public de autorități.",
+      "sources": [
+        {"name": "Al Jazeera — cronologiile diferite ale intervenției (administrație vs. Rescue 1122)", "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Un membru al familiei unei victime a caracterizat evenimentul drept rezultatul unei „atitudini criminale” a personalului spitalului — o interpretare a intenției/vinovăției care ține de reacția emoțională a familiilor îndoliate, nu de o concluzie a anchetei oficiale, aflată încă în desfășurare la data redactării."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (AP, CBS News, Al Jazeera, SCMP, ABC News); sursele originale sunt linkate mai sus.\n\nCe s-a verificat exact: faptul incendiului, locul (secția de terapie intensivă neonatală, PIMS Islamabad), bilanțul (14 morți din 15 bebeluși) și reacția oficială (anchetă dispusă de premier, un oficial suspendat) sunt confirmate constant de mai multe agenții internaționale.\n\nUnde se despart sursele: acuzația privind ușile blocate din interior vine din relatările Al Jazeera, bazate pe declarațiile familiilor și martorilor — nu am găsit o confirmare independentă sau o poziție oficială a spitalului despre această acuzație specifică. La fel, cele două cronologii diferite ale intervenției (administrația districtuală vs. serviciul de salvare Rescue 1122) nu au fost reconciliate public.\n\nCe lipsește: raportul final al anchetei oficiale, care ar trebui să stabilească dacă ușile erau într-adevăr blocate, cine e responsabil pentru întreținerea aparatului de aer condiționat și de ce a existat decalajul de zece minute între cele două cronologii ale intervenției.\n\nCe ar schimba concluzia: dacă anchetele oficiale confirmă sau infirmă explicit acuzația privind ușile blocate, sau dacă apar noi detalii despre responsabilitatea instituțională — vom actualiza articolul.",
+  "persoane": []
+}
