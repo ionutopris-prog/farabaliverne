@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 28 Aug 2026 16:26:49 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 16:28:15 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hubble și Gaia găsesc dovada celei mai vechi fuziuni galactice din istoria Căii Lactee, acum 11,8 miliarde de ani</title>
+      <link>https://farabaliverne.ro/a/hubble-gaia-fuziune-lkh-cale-lactee.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/hubble-gaia-fuziune-lkh-cale-lactee.html</guid>
+      <pubDate>Fri, 28 Aug 2026 13:27:08 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă internațională a folosit telescopul spațial Hubble și satelitul Gaia pentru a identifica rămășițele unei galaxii pitice, botezată Low-energy-Kraken-Heracles (LKH), înghițită de tânăra Cale Lactee la doar 2 miliarde de ani după Big Bang — cu 1,8 miliarde de ani mai devreme decât cea mai veche fuziune cunoscută până acum. Rezumăm ce arată exact datele și ce rămâne de confirmat.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>SUA, Coreea de Sud și Japonia anunță exercițiul Freedom Edge din 7-11 septembrie. Phenianul: „răspuns serios, imediat și puternic” la ce numește „mișcări ostile”</title>
       <link>https://farabaliverne.ro/a/coreea-freedom-edge-septembrie-kcna-reactie-hostile.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
       <description>Președintele Nicușor Dan a promulgat, luni, 24 august 2026, două legi de ajutor de stat pentru crescătorii de porci și bovine, motivate de efectele crizei din Orientul Mijlociu asupra sectorului agricol. Schema pentru porci însumează circa 11,5 milioane de euro, iar cea pentru bovine circa 54,4 milioane de euro — un total de aproximativ 66 de milioane de euro, cu un plafon de 50.000 de euro per beneficiar.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>O dronă necunoscută a intrat din Republica Moldova în România — fragmente găsite în Vrancea, MApN: fără încărcătură explozivă</title>
-      <link>https://farabaliverne.ro/a/drona-vrancea-galati-fara-explozibil-24-august.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/drona-vrancea-galati-fara-explozibil-24-august.html</guid>
-      <pubDate>Tue, 25 Aug 2026 17:41:16 +0000</pubDate>
-      <category>Social</category>
-      <description>O țintă aeriană neidentificată a intrat luni, 24 august 2026, dinspre regiunea Odesa în spațiul aerian al Republicii Moldova, apoi în România, în zona Galați. MApN a emis RO-Alert și a ridicat de la sol două avioane F-16 și un elicopter IAR-330 SOCAT; fragmente ale unui obiect au fost găsite ulterior în comuna Garoafa, județul Vrancea. Ministerul Apărării a confirmat că obiectul nu avea încărcătură explozivă.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
