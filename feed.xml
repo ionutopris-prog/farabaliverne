@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 28 Aug 2026 16:33:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 16:33:40 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un studiu pe zeci de milioane de pacienți leagă medicamentele GLP-1 de un risc mai mic de tuberculoză la diabetici — dar legătura slăbește în analiza restrânsă la SUA</title>
+      <link>https://farabaliverne.ro/a/glp1-tuberculoza-risc-studiu-nature-communications.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/glp1-tuberculoza-risc-studiu-nature-communications.html</guid>
+      <pubDate>Fri, 28 Aug 2026 13:33:06 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu retrospectiv publicat pe 24 august 2026 în Nature Communications, semnat de Liao, Wu și Lai, a comparat pacienți cu diabet de tip 2 din baza de date globală TriNetX (peste 153 de milioane de persoane, 143 de organizații medicale) care iau agoniști GLP-1 față de cei cu alte patru clase de antidiabetice. Concluzia principală: risc mai mic de tuberculoză la utilizatorii de GLP-1, în toate cele patru comparații globale. Rezumăm ce arată exact datele și de ce autorii înșiși spun că nu e dovadă de cauzalitate.
+
+Unde bat probele: Probat. Verificate: 2 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Raportul internațional „Starea Climei 2025” confirmă recorduri de gaze cu efect de seră, nivel al mării și căldură oceanică</title>
       <link>https://farabaliverne.ro/a/stare-climei-2025-raport-bams-record-caldura-oceanica.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce a decis Curtea — legalitatea de fond a ordinului r
       <description>Președintele Nicușor Dan i-a reunit din nou, pe 25 august, la Cotroceni, pe liderii PSD, PNL, USR și UDMR pentru legea salarizării bugetarilor — iar întâlnirea s-a încheiat tot fără acord. Ministrul interimar al Muncii, Dragoș Pîslaru, a avertizat că, fără un acord politic „azi”, nu mai există timp ca legea să fie adoptată și promulgată până la termenul de 31 august, de care depinde un jalon PNRR de 770 de milioane de euro.
 
 Unde bat probele: Probat că negocierile au eșuat din nou și că termenul e tot mai aproape — acordul politic rămâne deschis. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Consilierul lui Isărescu a avertizat despre un „dezastru” economic; BNR spune că e opinie personală, nu poziția băncii</title>
-      <link>https://farabaliverne.ro/a/bnr-radulescu-avertisment-dezastru-opinie-personala.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bnr-radulescu-avertisment-dezastru-opinie-personala.html</guid>
-      <pubDate>Tue, 25 Aug 2026 20:31:12 +0000</pubDate>
-      <category>Economie</category>
-      <description>Eugen Rădulescu, consilier al guvernatorului BNR Mugur Isărescu, a scris pe Facebook că „demența politicienilor a ajuns la paroxism” și că urmează „scăderi dramatice de venituri”, în contextul blocajului de la legea salarizării. BNR a precizat oficial, pe 25 august, că mesajul e opinie personală, nu poziție a băncii, iar senatorul PSD Daniel Zamfir a cerut demiterea lui.
-
-Unde bat probele: Probat ce a spus și cine — previziunea de „dezastru” rămâne opinie personală, nu poziție a BNR. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
