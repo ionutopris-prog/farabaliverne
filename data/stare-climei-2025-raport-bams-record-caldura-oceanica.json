@@ -1,0 +1,57 @@
+{
+  "slug": "stare-climei-2025-raport-bams-record-caldura-oceanica",
+  "title": "Raportul internațional „Starea Climei 2025” confirmă recorduri de gaze cu efect de seră, nivel al mării și căldură oceanică",
+  "category": "Știință",
+  "date": "2026-08-28",
+  "source": "NOAA / Bulletin of the American Meteorological Society (BAMS)",
+  "url": "https://www.ncei.noaa.gov/bams-state-of-climate",
+  "dek": "Al 36-lea raport anual „Starea Climei”, publicat de NOAA cu recenzie inter pares în Bulletin of the American Meteorological Society, cu contribuția a peste 590 de oameni de știință din peste 60 de țări, arată recorduri de CO2, nivel al mării și căldură oceanică pentru 2025. Separat, serviciul european Copernicus a măsurat pe 22 august 2026 cea mai fierbinte zi pentru oceanele lumii de când există înregistrări prin satelit. Rezumăm cifrele exacte și de ce cele două recorduri nu trebuie amestecate.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Concentrația medie globală de CO2 a atins 425,6±0,1 părți per milion (ppm) în 2025 — o creștere de 53% față de nivelul preindustrial de ~278 ppm. Emisiile de carbon din combustibili fosili au atins un nou record, 10,3±0,5 petagrame de carbon pe an (față de ~3,0 petagrame în anii 1960). Metanul și protoxidul de azot au atins, de asemenea, concentrații record în 2025, potrivit raportului.",
+      "sources": [
+        { "name": "NOAA NCEI — pagina oficială „State of the Climate” 2025", "url": "https://www.ncei.noaa.gov/bams-state-of-climate" },
+        { "name": "EurekAlert — comunicat oficial AMS/NOAA despre raport", "url": "https://www.eurekalert.org/news-releases/1139418" }
+      ]
+    },
+    {
+      "text": "Nivelul mediu global al mării a atins un nou record pentru al 14-lea an consecutiv, la aproximativ 111,2 mm peste media anului 1993 (când au început măsurătorile prin satelit) — din care ~1,6 mm/an, din 2005 încoace, vin din dilatarea termică a apei încălzite, iar ~2,0 mm/an din topirea ghețarilor și a calotelor glaciare. Conținutul de căldură al oceanului (măsurat de la suprafață până la 2.000 m adâncime) a atins, de asemenea, un nivel record în 2025, iar 87% din suprafața oceanelor a fost afectată de cel puțin un val de căldură marină pe parcursul anului.",
+      "sources": [
+        { "name": "NOAA NCEI — Executive Summary, „State of the Climate in 2025”", "url": "https://www.ncei.noaa.gov/sites/default/files/2026-08/Executive-Summary-SoC2025.pdf" },
+        { "name": "EurekAlert — sinteza recordurilor din raport", "url": "https://www.eurekalert.org/news-releases/1139418" }
+      ]
+    },
+    {
+      "text": "2025 s-a clasat printre primii trei cei mai calzi ani înregistrați global de la mijlocul anilor 1800, iar ultimii 11 ani (2015–2025) au fost cei mai calzi din istoria măsurătorilor. Important: 2025 a fost cel mai cald an înregistrat FĂRĂ prezența unui episod El Niño (care, de regulă, amplifică temperaturile globale) — un semn citat de autori ca deosebit de îngrijorător, pentru că arată încălzire susținută chiar și în absența factorului natural care de obicei „împinge” recordurile în sus. Arctica a avut al doilea cel mai cald an și un minim record de gheață marină la extinderea maximă, iar Antarctica a avut cel mai cald an de la începutul măsurătorilor din 1979.",
+      "sources": [
+        { "name": "NOAA NCEI — raport complet și rezumat executiv", "url": "https://www.ncei.noaa.gov/bams-state-of-climate" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Un record diferit, apărut în presă în aceleași zile, riscă să fie amestecat cu raportul anual: pe 22 august 2026, serviciul Copernicus Climate Change Service (C3S) al UE a măsurat cea mai fierbinte temperatură medie a suprafeței oceanelor lumii din istoria înregistrărilor prin satelit (din 1979) — 21,10°C, peste recordul anterior de 21,09°C din martie 2024. Acesta e un instantaneu (o singură zi), măsurat de altă instituție (C3S, nu NOAA/BAMS), cu altă metodologie, și NU face parte din raportul „Starea Climei 2025”, care acoperă anul calendaristic trecut. Cele două cifre sunt corecte separat, dar nu sunt aceeași dovadă și nu trebuie citate una în locul celeilalte.",
+      "sources": [
+        { "name": "Scientific American — Earth's oceans just hit their hottest temperature ever recorded", "url": "https://www.scientificamerican.com/article/earths-oceans-just-hit-their-hottest-temperature-ever-recorded/" }
+      ]
+    },
+    {
+      "text": "Climatologul Zachary Labe, citat de Scientific American, atribuie recordul din august 2026 parțial unui episod El Niño puternic aflat în desfășurare și avertizează că recordul „probabil nu va rezista mult” — adică e posibil să fie depășit din nou în câteva luni. Asta contrastează cu ce arată raportul BAMS pentru 2025: anul de referință al raportului a fost cald FĂRĂ ajutorul El Niño, în timp ce recordul de zi din august 2026 vine tocmai cu acest impuls natural suplimentar. Confuzia dintre „cald din cauza încălzirii globale” și „cald din cauza El Niño” e ușor de făcut, dar cele două cauze se adaugă, nu se substituie.",
+      "sources": [
+        { "name": "Scientific American — context și citatul lui Zachary Labe", "url": "https://www.scientificamerican.com/article/earths-oceans-just-hit-their-hottest-temperature-ever-recorded/" }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un raport științific oficial (NOAA/BAMS, recenzie inter pares, peste 590 de autori din peste 60 de țări) și o știre conexă despre un record de temperatură oceanică, publicate ambele în presa științifică internațională în august 2026. Ce s-a verificat exact: cifrele din raportul „Starea Climei 2025” — CO2 la 425,6 ppm, nivel al mării record al 14-lea an la rând, conținut de căldură oceanică record — vin direct din pagina oficială NOAA NCEI și din rezumatul executiv publicat de instituție. Unde se despart lucrurile: presa a pus alături, în aceleași zile, raportul anual BAMS (despre tot anul 2025) și un record de o singură zi măsurat de Copernicus C3S pe 22 august 2026 — două instituții diferite, două metodologii diferite, două perioade diferite. Am marcat distincția la „contestat” nu pentru că vreo cifră ar fi greșită, ci pentru că amestecarea lor („cel mai cald an ȘI cea mai fierbinte zi, la fel”) creează impresia unui singur record uriaș, când sunt de fapt două dovezi separate, ambele reale. Ce lipsește: raportul BAMS 2025 nu acoperă evoluția din 2026, iar recordul de căldură oceanică din august 2026 e prea recent pentru a ști dacă va rezista sau va fi depășit curând, așa cum avertizează chiar climatologul citat de Scientific American. Ce ar schimba concluzia: dacă temperaturile oceanice ar scădea semnificativ odată cu trecerea episodului El Niño în lunile următoare, recordul de zi ar rămâne un vârf izolat; tendința de fond (raportul anual, pe termen lung) rămâne însă cea documentată de BAMS, indiferent de acest episod.",
+  "math": {
+    "title": "425,6 ppm și 10,3 petagrame: ce înseamnă, de fapt, cifrele din raport",
+    "explanation": "„Ppm” (părți per milion) arată câte molecule de CO2 sunt la fiecare milion de molecule de aer — 425,6 ppm înseamnă că din fiecare milion de molecule din atmosferă, aproape 426 sunt dioxid de carbon. Înainte de Revoluția Industrială, cifra era de circa 278 ppm; azi e cu 53% mai mare, aproape toată creșterea venind din arderea combustibililor fosili (cărbune, petrol, gaz). O „petagramă” de carbon înseamnă un miliard de tone — deci 10,3 petagrame pe an înseamnă peste 10 miliarde de tone de carbon eliberate anual doar din combustibili fosili, de peste trei ori mai mult decât în anii 1960. Iar „conținutul de căldură al oceanului” măsurat până la 2.000 m adâncime contează pentru că oceanele absorb peste 90% din căldura suplimentară reținută de atmosferă din cauza gazelor cu efect de seră — practic, dacă vrei să știi cât de mult „s-a încălzit” planeta cu adevărat, te uiți mai degrabă la ocean decât la temperatura aerului de la suprafață, care variază mult de la an la an. De-asta un raport ca „Starea Climei” combină toate aceste măsurători (aer, ocean, gheață, nivelul mării) — fiecare cifră izolată poate fi contestată sau explicată prin variații naturale, dar toate arătând în aceeași direcție, an de an, sunt mult mai greu de explicat altfel decât prin încălzire susținută.",
+    "sources": [
+      { "name": "NOAA NCEI — Executive Summary, „State of the Climate in 2025”", "url": "https://www.ncei.noaa.gov/sites/default/files/2026-08/Executive-Summary-SoC2025.pdf" },
+      { "name": "NOAA NCEI — pagina oficială a raportului", "url": "https://www.ncei.noaa.gov/bams-state-of-climate" }
+    ]
+  },
+  "persoane": []
+}
