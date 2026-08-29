@@ -1,0 +1,59 @@
+{
+  "slug": "taiwan-nvidia-supermicro-servere-ai-china-acuzare",
+  "title": "Nouă persoane, printre care angajați Nvidia și Super Micro din Taiwan, trimise în judecată pentru exportul ilegal către China a 74 de servere AI interzise",
+  "category": "Extern",
+  "date": "2026-08-25",
+  "source": "Taipei Times / PBS News / Al Jazeera",
+  "url": "https://www.taipeitimes.com/News/front/archives/2026/08/25/2003863077",
+  "dek": "🌍 Parchetul din Keelung a trimis în judecată, pe 24-25 august 2026, nouă persoane — printre care un manager al filialei taiwaneze Nvidia și doi foști angajați Super Micro — acuzate că au deturnat către China 74 de servere AI de tip B300, interzise la export, prin transporturi directe și tranzitări prin Indonezia, Japonia și Hong Kong. Alte 56 de servere destinate, potrivit acuzării, aceluiași scop, au fost oprite la vamă înainte să părăsească Taiwanul. Prezumția de nevinovăție rămâne valabilă pentru toți cei acuzați până la o hotărâre judecătorească definitivă.",
+  "mainVerdict": "Probat, cu nuanțe",
+  "probat": [
+    {
+      "text": "Parchetul Districtual din Keelung a anunțat, pe 24-25 august 2026, punerea sub acuzare a nouă persoane pentru exportul ilegal către China a unor servere de inteligență artificială echipate cu procesoare grafice Nvidia de tip „B300” — model interzis la vânzare către China, printre care un manager al filialei taiwaneze Nvidia (identificat public doar prin numele de familie, „Chang”) și doi foști angajați ai filialei taiwaneze Super Micro, alături de directori din alte șase companii de distribuție și logistică.",
+      "sources": [
+        {
+          "name": "Taipei Times — Nine indicted over AI server exports",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/08/25/2003863077"
+        },
+        {
+          "name": "PBS News — Taiwan charges 9 over illegal AI server exports to China, including Nvidia and Super Micro staffers",
+          "url": "https://www.pbs.org/newshour/world/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staffers"
+        }
+      ]
+    },
+    {
+      "text": "Potrivit rechizitoriului, din 130 de servere B300 comandate, 74 au ajuns efectiv la clienți din China — 50 tranzitate prin Indonezia, 16 livrate direct, iar 8 trimise prin Japonia și apoi Hong Kong. Alte 56 de servere, destinate aceluiași scop, au fost reținute de vama taiwaneză după ce au fost depistate nereguli, înainte să părăsească țara. Opt din cei nouă inculpați sunt acuzați de abuz de încredere și fals în documente; procurorii cer pedeapsa maximă de cinci ani pentru patru dintre ei, inclusiv pentru managerul Nvidia, descris drept „figura-cheie” care ar fi autorizat livrarea plăcilor grafice B300.",
+      "sources": [
+        {
+          "name": "PBS News — Taiwan charges 9 over illegal AI server exports to China",
+          "url": "https://www.pbs.org/newshour/world/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staffers"
+        },
+        {
+          "name": "Al Jazeera — Nvidia, Supermicro employees charged over export of AI servers to China",
+          "url": "https://www.aljazeera.com/economy/2026/8/25/nvidia-supermicro-employees-charged-over-export-of-ai-servers-to-china"
+        }
+      ]
+    },
+    {
+      "text": "Procurorii susțin că inculpații au creat site-uri false și au falsificat documente pentru a eluda restricțiile la export, inclusiv prin înființarea unei companii-paravan în Japonia. Nvidia a declarat că va colabora cu autoritățile taiwaneze „pentru a rezolva acuzațiile cât mai rapid posibil”; Super Micro a precizat că arestările au rezultat din cooperarea proprie a companiei cu autoritățile și s-a angajat să-și „consolideze programul de conformitate la export”.",
+      "sources": [
+        {
+          "name": "PBS News — Taiwan charges 9 over illegal AI server exports to China",
+          "url": "https://www.pbs.org/newshour/world/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staffers"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Cazul e o punere sub acuzare, nu o condamnare — prezumția de nevinovăție rămâne valabilă pentru toți cei nouă inculpați până la o hotărâre judecătorească definitivă. Faptul că Nvidia și Super Micro descriu cooperarea cu autoritățile ca proprie inițiativă (nu ca reacție la o anchetă externă) e o interpretare a companiilor, nu un fapt confirmat independent de parchet."
+    }
+  ],
+  "math": {
+    "title": "74 din 130 au ajuns la destinație, 56 au fost oprite la timp",
+    "explanation": "Din cele 130 de servere B300 comandate, autoritățile taiwaneze susțin că 74 (57%) au ajuns efectiv în China prin rute directe sau tranzitate prin Indonezia, Japonia și Hong Kong, în timp ce celelalte 56 (43%) au fost reținute la vamă înainte de export — un raport care arată atât amploarea presupusei rețele, cât și eficiența controalelor care au oprit, în cele din urmă, aproape jumătate din transport."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: rechizitoriul Parchetului din Keelung din 24-25 august 2026, confirmat independent de Taipei Times, PBS News și Al Jazeera — trei redacții separate, cu cifre care coincid (9 inculpați, 74 de servere ajunse în China, 56 reținute la vamă). Am verificat direct fiecare pagină (răspuns 200, pe subiect).\n\nDe ce nu e clasificat „Contrazis”: nu contrazicem o afirmație a vreunei persoane numite — relatăm o punere sub acuzare oficială, cu sursă publică (parchetul taiwanez) și cu reacții ale companiilor implicate. Singurul inculpat identificat public poartă doar numele de familie „Chang”, fără alte date care să permită identificarea lui completă din articolul nostru.\n\nCe lipsește: identitatea completă a celor nouă inculpați (majoritatea nu au fost nominalizați public de presă), stadiul procesual exact (dată de proces, dacă vreunul dintre inculpați e reținut sau în libertate) și o poziție oficială a autorităților chineze sau a destinatarilor serverelor.\n\nCe ar schimba concluzia: verdictul procesului, care poate confirma, reduce sau infirma acuzațiile — până atunci, ce avem e un rechizitoriu, nu o vinovăție stabilită.",
+  "persoane": []
+}

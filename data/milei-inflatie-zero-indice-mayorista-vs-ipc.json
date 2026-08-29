@@ -1,0 +1,76 @@
+{
+  "slug": "milei-inflatie-zero-indice-mayorista-vs-ipc",
+  "title": "Milei a sărbătorit „inflația zero” în iulie — dar a citat indicele greșit față de promisiunea sa inițială",
+  "category": "Economie",
+  "date": "2026-08-23",
+  "source": "Chequeado.com",
+  "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/",
+  "dek": "Președintele argentinian Javier Milei a scris pe X că inflația „a început cu zero” în iulie 2026, citând o creștere de 0,8% a indicelui de prețuri en-gros (IPIM). Problema: în martie 2026 promisese explicit că inflația de consum (IPC) — cea care contează pentru cumpărăturile zilnice ale oamenilor — va „începe cu 0” în august. Cifra reală a IPC pentru iulie a fost 2,1%, de peste 2,5 ori mai mare decât cea invocată de el.",
+  "mainVerdict": "Contrazis",
+  "probat": [
+    {
+      "text": "Javier Milei a scris pe platforma X, referitor la datele din iulie 2026: „Y al final Julio empezó con cero. Inflación mayorista = 0,8”, prezentând cifra ca dovada că promisiunea sa despre inflație s-a împlinit.",
+      "sources": [
+        {
+          "name": "Chequeado — Milei celebró el 0,8% de inflación mayorista: por qué no equivale al IPC y qué mide cada índice",
+          "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/"
+        }
+      ]
+    },
+    {
+      "text": "Cifra de 0,8% citată de Milei este cea a indicelui de prețuri en-gros (IPIM — Índice de Precios Internos al por Mayor), care măsoară prețurile plătite de producători și importatori pentru bunuri și materii prime, fiind foarte sensibil la cursul dolarului. Acesta e diferit de indicele de prețuri de consum (IPC), care măsoară ce plătesc efectiv oamenii la cumpărături — inclusiv servicii, chirii și utilități, pe care IPIM nu le include.",
+      "sources": [
+        {
+          "name": "Chequeado — Milei celebró el 0,8% de inflación mayorista: por qué no equivale al IPC y qué mide cada índice",
+          "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/"
+        }
+      ]
+    },
+    {
+      "text": "În martie 2026, Milei promisese explicit că inflația de consum (IPC) — nu cea en-gros — va „începe cu 0” în august. Promisiunea inițială viza deci indicele care contează pentru bugetul zilnic al argentinienilor, nu pe cel al producătorilor.",
+      "sources": [
+        {
+          "name": "Chequeado — Milei celebró el 0,8% de inflación mayorista: por qué no equivale al IPC y qué mide cada índice",
+          "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/"
+        }
+      ]
+    },
+    {
+      "text": "Inflația de consum (IPC) reală pentru iulie 2026 a fost de 2,1% — de peste 2,5 ori mai mare decât cifra de 0,8% invocată de Milei — influențată mai ales de scumpirea serviciilor (3,1%), în timp ce bunurile au crescut doar 1,6%.",
+      "sources": [
+        {
+          "name": "Chequeado — Milei celebró el 0,8% de inflación mayorista: por qué no equivale al IPC y qué mide cada índice",
+          "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/"
+        },
+        {
+          "name": "Infobae — Qué pasará con la inflación de este mes: el 0,8% que dio el dato mayorista alienta al Gobierno, pero el petróleo abre dudas",
+          "url": "https://www.infobae.com/economia/2026/08/22/que-pasara-con-la-inflacion-de-este-mes-el-08-que-dio-el-dato-mayorista-alienta-al-gobierno-pero-el-petroleo-abre-dudas/"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Specialiștii citați de Chequeado.com subliniază că nu există o relație mecanică, unu-la-unu, între indicele en-gros (IPIM) și cel de consum (IPC) — o cifră mică la unul nu garantează automat aceeași cifră la celălalt, mai ales pe termen scurt. E posibil ca o parte din scăderea prețurilor en-gros să ajungă, cu întârziere, și la consumatori — dar asta rămâne o proiecție, nu un fapt deja confirmat de datele lui iulie.",
+      "sources": [
+        {
+          "name": "Chequeado — Milei celebró el 0,8% de inflación mayorista: por qué no equivale al IPC y qué mide cada índice",
+          "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/"
+        }
+      ]
+    }
+  ],
+  "math": {
+    "title": "0,8% vs. 2,1% — diferența dintre indici, în cifre",
+    "explanation": "Milei a promis în martie 2026 că inflația de CONSUM (IPC) va „începe cu 0” în august. Cifra pe care a sărbătorit-o în iulie — 0,8% — este însă a indicelui EN-GROS (IPIM), care măsoară altceva: prețurile plătite de producători și importatori, nu de cumpărători. Indicele pe care îl promisese inițial, IPC, a fost de fapt 2,1% în iulie — de peste 2,5 ori mai mare decât cifra invocată public. Diferența nu e o eroare de rotunjire, ci compararea a doi indicatori economici distincți, cu coșuri de bunuri și metodologii diferite.",
+    "sources": [
+      {
+        "name": "Chequeado — Milei celebró el 0,8% de inflación mayorista: por qué no equivale al IPC y qué mide cada índice",
+        "url": "https://chequeado.com/el-explicador/milei-celebro-el-08-de-inflacion-mayorista-por-que-no-equivale-al-ipc-y-que-mide-cada-indice/"
+      }
+    ]
+  },
+  "aiNote": "🤖 Ce s-a verificat exact: afirmația publică a lui Javier Milei de pe X, care citează 0,8% inflație pentru iulie 2026, comparată cu promisiunea sa din martie 2026 (inflația de consum „va începe cu 0” în august) și cu datele oficiale de inflație pentru iulie, relatate de Chequeado.com (organizație argentiniană de fact-checking) și Infobae.\n\nUnde se desparte afirmația de fapte: Milei a citat indicele de prețuri EN-GROS (IPIM), care măsoară ce plătesc producătorii și importatorii, nu indicele de prețuri de CONSUM (IPC), pe care îl promisese explicit în martie. Sunt doi indicatori distincți, cu metodologii și coșuri de bunuri diferite — IPC include servicii, chirii și utilități pe care IPIM nu le cuprinde. Cifra IPC reală pentru iulie a fost 2,1%, nu 0,8%.\n\nCe lipsește: nu există, deocamdată, o proiecție oficială clară despre cât și cât de repede scăderea prețurilor en-gros s-ar putea transmite la consumatori — economiștii spun că nu există o relație mecanică între cei doi indici.\n\nCe ar schimba concluzia: dacă IPC ar coborî efectiv aproape de zero în lunile următoare, promisiunea inițială a lui Milei s-ar putea confirma cu întârziere — dar, pe datele disponibile acum, afirmația sărbătorită în iulie se bazează pe un indicator diferit de cel promis, iar cifra reală a indicatorului promis a fost de peste 2,5 ori mai mare.",
+  "persoane": ["Javier Milei"]
+}

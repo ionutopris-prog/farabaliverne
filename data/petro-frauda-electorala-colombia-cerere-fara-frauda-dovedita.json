@@ -1,0 +1,83 @@
+{
+  "slug": "petro-frauda-electorala-colombia-cerere-fara-frauda-dovedita",
+  "title": "Petro a acuzat public „fraudă algoritmică” la alegerile din Colombia, dar propria lui cerere în instanță spune că nu există fraudă dovedită",
+  "category": "Extern",
+  "date": "2026-08-23",
+  "source": "Portafolio / Infobae / Semana",
+  "url": "https://www.portafolio.co/economia/gobierno/demanda-anunciada-por-petro-para-anular-la-eleccion-de-de-la-espriella-aclara-que-no-hay-fraude-probado-498667",
+  "dek": "Fostul președinte columbian Gustavo Petro a susținut public, la începutul lunii august 2026, că alegerile prezidențiale din 21 iunie au fost afectate de o „fraudă algoritmică și sistematică” — inclusiv acuzația că 120.000 de documente electorale ar fi fost alterate. Cererea de anulare depusă la Consiliul de Stat de avocați apropiați lui Petro afirmă însă explicit, în text, că nu susține că voturile au fost alterate și că nu există fraudă dovedită. Registraduría a respins punctual acuzațiile privind formularele E-14.",
+  "mainVerdict": "Contestat — acuzații publice care nu se regăsesc, ca atare, în documentul depus la instanță",
+  "probat": [
+    {
+      "text": "La turul doi al alegerilor prezidențiale din Columbia, desfășurat pe 21 iunie 2026, Abelardo de la Espriella l-a învins pe candidatul susținut de Petro, senatorul Iván Cepeda, cu o diferență de 0,96 puncte procentuale. Consiliul Național Electoral (CNE) a proclamat victoria lui De la Espriella prin Rezoluția E-3181, din 24 iunie 2026.",
+      "sources": [
+        {
+          "name": "Infobae — Gustavo Petro insistió en fraude electoral a cuatro días de dejar el poder",
+          "url": "https://www.infobae.com/colombia/2026/08/03/gustavo-petro-insistio-en-fraude-electoral-a-cuatro-dias-de-dejar-el-poder-hablo-de-oscuridad-en-el-escrutinio-que-dio-ganador-a-de-la-espriella/"
+        },
+        {
+          "name": "Portafolio — Demanda anunciada por Petro para anular la elección de De La Espriella aclara que no hay fraude probado",
+          "url": "https://www.portafolio.co/economia/gobierno/demanda-anunciada-por-petro-para-anular-la-eleccion-de-de-la-espriella-aclara-que-no-hay-fraude-probado-498667"
+        }
+      ]
+    },
+    {
+      "text": "Un grup de avocați susținuți de Petro a depus, pe 21 iulie 2026, la Consiliul de Stat (secția a cincea a Camerei de Contencios Administrativ) o cerere de anulare a rezoluției CNE care l-a proclamat pe De la Espriella. Cererea contestă slăbirea controalelor de identificare, autenticitate, integritate și trasabilitate digitală a formularelor electorale (E-14) — nu susține direct alterarea voturilor. Textul depus conține fraza: „Esta afirmación no supone sostener que se hayan alterado votos, que el resultado sea falso ni que exista fraude probado”, precizând mai departe că argumentul „no depende de afirmar fraude probado en esta etapa”.",
+      "sources": [
+        {
+          "name": "Portafolio — Demanda anunciada por Petro para anular la elección de De La Espriella aclara que no hay fraude probado",
+          "url": "https://www.portafolio.co/economia/gobierno/demanda-anunciada-por-petro-para-anular-la-eleccion-de-de-la-espriella-aclara-que-no-hay-fraude-probado-498667"
+        }
+      ]
+    },
+    {
+      "text": "Consiliul de Stat a admis cererea spre studiu pe 25-26 iulie 2026, după ce o versiune anterioară fusese respinsă pentru deficiențe de formă și corectată de reclamant. Admiterea e un pas procedural — deschide analiza juridică asupra valabilității rezoluției contestate — și nu implică o decizie pe fond, nici suspendarea actului contestat.",
+      "sources": [
+        {
+          "name": "Infobae — Consejo de Estado le dio espaldarazo al petrismo aceptando demanda contra elección de Abelardo de la Espriella",
+          "url": "https://www.infobae.com/colombia/2026/07/26/consejo-de-estado-le-dio-espaldarazo-al-petrismo-aceptando-demanda-contra-eleccion-de-abelardo-de-la-espriella-entrara-a-estudiar-supuestas-pruebas/"
+        }
+      ]
+    },
+    {
+      "text": "Pe 23 iunie 2026, Registraduría Nacional del Estado Civil a răspuns punctual acuzațiilor lui Petro despre formularele E-14, declarând că „nu a fost suprimat «lacătul hash» de pe platforma de consultare a formularelor E-14”, că „înregistrările orare ale digitalizării și descărcării actelor rămân disponibile în metadatele fișierelor și în jurnalele interne ale sistemului” și că implementarea codului hash „reprezintă o întărire a măsurilor de securitate, nu o eliminare a controalelor”.",
+      "sources": [
+        {
+          "name": "Semana — Registraduría responde a Petro y niega haber eliminado mecanismos de seguridad en los formularios E-14",
+          "url": "https://www.semana.com/politica/articulo/registraduria-responde-a-petro-y-niega-haber-eliminado-mecanismos-de-seguridad-en-los-formularios-e-14/202632/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "La 3 august 2026, cu patru zile înainte de a preda puterea, Petro a susținut public că numărătoarea din 21 iunie s-a desfășurat „în întuneric” („oscuridad”), a afirmat că „registratorul a mințit” în privința lacătului hash și a declarat că cel puțin 120.000 de documente electorale ar fi fost „alterate”, potrivit unui grup de 70.000 de „martori digitali” convocați de el să reanalizeze actele de scrutin. Aceste afirmații nu au, potrivit surselor consultate, un corespondent cantificat identic în cererea depusă la Consiliul de Stat, care nu menționează un număr de voturi sau documente afectate și evită explicit să susțină că frauda ar fi dovedită.",
+      "sources": [
+        {
+          "name": "Infobae — Gustavo Petro insistió en fraude electoral a cuatro días de dejar el poder",
+          "url": "https://www.infobae.com/colombia/2026/08/03/gustavo-petro-insistio-en-fraude-electoral-a-cuatro-dias-de-dejar-el-poder-hablo-de-oscuridad-en-el-escrutinio-que-dio-ganador-a-de-la-espriella/"
+        },
+        {
+          "name": "Portafolio — El presidente es ilegítimo: Petro escala sus denuncias de fraude a días de dejar el poder",
+          "url": "https://www.portafolio.co/economia/gobierno/el-presidente-es-ilegitimo-petro-escala-sus-denuncias-de-fraude-a-dias-de-dejar-el-poder-499650"
+        }
+      ]
+    },
+    {
+      "text": "Registraduría a respins punctual afirmația despre lacătul hash cu argumente tehnice verificabile (metadate și jurnale de sistem disponibile), dar sursele consultate nu conțin un răspuns oficial separat, punct cu punct, la acuzația ulterioară privind cele 120.000 de documente „alterate” anunțată pe 3 august — acuzație formulată după respingerea inițială din 23 iunie.",
+      "sources": [
+        {
+          "name": "Semana — Registraduría responde a Petro y niega haber eliminado mecanismos de seguridad en los formularios E-14",
+          "url": "https://www.semana.com/politica/articulo/registraduria-responde-a-petro-y-niega-haber-eliminado-mecanismos-de-seguridad-en-los-formularios-e-14/202632/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă neconcordanța dintre discursul public al lui Petro (fraudă, documente alterate, președinte „ilegitim”) și textul mai prudent al propriei cereri juridice reflectă o strategie deliberată de comunicare sau doar o formulare legală standard, cerută de pragul de probă din procedura administrativă, rămâne o chestiune de interpretare pe care doar Petro și avocații săi o pot lămuri."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nAcest articol a trecut prin poarta de aprobare umană înainte de publicare pentru că evaluează critic afirmațiile unei persoane numite, aflate în viață — fostul președinte Gustavo Petro — clasificate aici drept contestate.\n\nCe s-a verificat: cererea de anulare depusă pe 21 iulie 2026 la Consiliul de Stat, susținută de avocați apropiați lui Petro, conține explicit fraza că nu susține alterarea voturilor și că „nu depinde de a afirma fraudă dovedită în această etapă”. În paralel, Petro a declarat public, pe 3 august, că 120.000 de documente au fost „alterate” și că registratorul „a mințit” — afirmații mai tranșante decât cele din propriul dosar juridic. Nu spunem că Petro a mințit; nu putem ști ce avea în minte. Arătăm doar diferența, documentată în sursele citate, dintre pragul de probă folosit în declarațiile publice și cel din documentul depus în instanță.\n\nUnde se despart sursele: Registraduría a respins tehnic, punctual, acuzația privind „lacătul hash” de pe formularele E-14, cu argumente verificabile despre metadate și jurnale de sistem — dar acest răspuns a venit pe 23 iunie, înainte ca Petro să ridice acuzația mai gravă a celor 120.000 de documente, pe 3 august. Nu am găsit un răspuns oficial separat la acea acuzație ulterioară.\n\nCe lipsește: o decizie a Consiliului de Stat pe fondul cererii (admiterea din iulie e doar un pas procedural), identitatea și metodologia exactă a celor „70.000 de martori digitali” invocați de Petro, și un răspuns oficial, punctual, la acuzația celor 120.000 de documente. Dacă apare o hotărâre a Consiliului de Stat, ea ar trebui tratată ca etapă nouă a aceleiași povești, nu ca subiect separat.",
+  "persoane": []
+}

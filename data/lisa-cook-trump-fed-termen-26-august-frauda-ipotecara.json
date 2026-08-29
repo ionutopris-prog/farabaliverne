@@ -1,0 +1,83 @@
+{
+  "slug": "lisa-cook-trump-fed-termen-26-august-frauda-ipotecara",
+  "title": "Termenul dat de Casa Albă guvernatoarei Fed Lisa Cook să răspundă acuzațiilor de fraudă ipotecară expiră mâine",
+  "category": "Extern",
+  "date": "2026-08-25",
+  "source": "AP / CNBC / Washington Post",
+  "url": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html",
+  "dek": "Casa Albă i-a dat guvernatoarei Rezervei Federale, Lisa Cook, termen până miercuri, 26 august 2026, să răspundă acuzațiilor de fraudă ipotecară aduse de directorul FHFA, Bill Pulte, înainte ca Donald Trump să decidă dacă o demite. Cook, care nu a fost inculpată penal, respinge acuzațiile prin avocați, iar Curtea Supremă a blocat în iunie 2026 o încercare anterioară de demitere, spunând că nu i s-a oferit dreptul la apărare.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Președintele Trump a trimis, printr-o scrisoare datată 5 august 2026 și semnată de Dan Scavino (adjunct al șefului de cabinet al Casei Albe), o notificare guvernatoarei Fed Lisa Cook prin care spune că „ia în considerare” demiterea ei și îi cere să răspundă în scris, în 21 de zile — adică până miercuri, 26 august 2026 — acuzațiilor că ar fi făcut declarații false în unul sau mai multe contracte de credit ipotecar.",
+      "sources": [
+        {
+          "name": "SCOTUSblog — Trump informs Lisa Cook that he is „considering” her removal",
+          "url": "https://www.scotusblog.com/2026/08/trump-informs-lisa-cook-that-he-is-considering-her-removal/"
+        },
+        {
+          "name": "CNBC — Trump revives effort to fire Fed's Lisa Cook",
+          "url": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html"
+        }
+      ]
+    },
+    {
+      "text": "Acuzațiile pornesc de la sesizări penale depuse de directorul Agenției Federale de Finanțare a Locuințelor (FHFA), Bill Pulte, la Departamentul de Justiție. O primă sesizare susține că Cook ar fi declarat drept „reședință principală” atât o casă din Ann Arbor, Michigan, cât și un condominiu din Atlanta, la interval de doar două săptămâni, pentru a obține condiții de credit mai avantajoase. O a doua sesizare vizează un condominiu din Cambridge, Massachusetts, cumpărat în aprilie 2021 ca „a doua locuință”, deși Cook ar fi declarat ulterior venituri din chirie pentru acesta.",
+      "sources": [
+        {
+          "name": "HousingWire — FHFA's Pulte files new criminal referral against Fed's Cook",
+          "url": "https://www.housingwire.com/articles/pulte-cook-new-criminal-referral-mortgage-fraud/"
+        },
+        {
+          "name": "X/Pulte — anunțul primei sesizări penale",
+          "url": "https://x.com/pulte/status/1958111353505189889"
+        }
+      ]
+    },
+    {
+      "text": "Curtea Supremă a SUA a decis pe 29 iunie 2026, cu 5 voturi la 4, că Trump nu poate demite deocamdată o guvernatoare a Fed fără să-i ofere procedura la care are dreptul — înștiințare și posibilitatea de a răspunde acuzațiilor înainte de demitere „pentru motiv întemeiat” (for cause). Judecătorul-șef John Roberts a scris că independența Fed față de președinte a fost stabilită deliberat de Congres și că orice schimbare a acestei structuri „trebuie să vină de la Congres, nu de la instanțe”.",
+      "sources": [
+        {
+          "name": "CNBC — Supreme Court rules Trump cannot fire Fed governor Lisa Cook for now",
+          "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html"
+        },
+        {
+          "name": "NBC News — Supreme Court rules Trump cannot fire Fed member Lisa Cook",
+          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rules-trump-cannot-fire-fed-member-lisa-cook-grants-powe-rcna234931"
+        }
+      ]
+    },
+    {
+      "text": "Cook nu a fost inculpată penal în niciunul dintre cele două dosare, iar avocații ei, Abbe Lowell și Norm Eisen, au respins acuzațiile printr-un comunicat: „Aceste acuzații sunt la fel de nefondate acum cum erau acum un an, când președintele Trump a încercat să o demită pe guvernatoarea Cook și să interfereze cu independența Rezervei Federale. […] Nu există motiv întemeiat pentru demiterea guvernatoarei Cook”, potrivit faptelor și precedentului stabilit de Curtea Supremă.",
+      "sources": [
+        {
+          "name": "CNBC — reacția avocaților lui Cook",
+          "url": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html"
+        },
+        {
+          "name": "Axios — White House revives unprecedented effort to remove Fed governor Lisa Cook",
+          "url": "https://www.axios.com/2026/08/07/trump-white-house-fed-cook"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Avocații lui Cook susțin că directorul FHFA, Bill Pulte, a „selectat convenabil” (cherry-picked) informații din documentele de credit pentru a construi sesizările penale — de exemplu, ignorând contextul declarațiilor ulterioare despre veniturile din chirie. FHFA și Casa Albă nu au răspuns public, potrivit surselor citate, la acuzația de selecție părtinitoare a datelor; niciuna dintre cele două versiuni ale poveștii — „fraudă dovedită prin documente” versus „date scoase din context” — nu a fost validată deocamdată de o instanță sau de un procuror.",
+      "sources": [
+        {
+          "name": "Banking Dive — Trump official „cherry-picked” mortgage data, Fed governor's lawyer says",
+          "url": "https://www.bankingdive.com/news/lisa-cook-trump-bondi-letter-mortgage-fraud-allegations-pulte-supreme-doj-investigation/805811/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă acuzațiile de fraudă ipotecară sunt un motiv „întemeiat” de demitere în sensul legii Rezervei Federale sau doar un pretext politic pentru a înlocui o guvernatoare ale cărei voturi nu au susținut reducerile de dobândă cerute de Trump este o interpretare politică, nu un fapt stabilit — depinde de o eventuală decizie judecătorească viitoare, care nu există la data verificării."
+    }
+  ],
+  "math": null,
+  "aiNote": "Am verificat acest fir pe surse americane independente între ele — SCOTUSblog, CNBC, NBC News, Axios, HousingWire și Banking Dive — care coincid pe datele-cheie: scrisoarea de 5 august, termenul de 21 de zile (deci 26 august), decizia Curții Supreme din 29 iunie și cele două sesizări penale ale lui Bill Pulte. Nu am găsit nicio sursă independentă de Casa Albă sau de FHFA care să confirme faptele din spatele acuzațiilor de fraudă — ele rămân, până acum, afirmații ale unui oficial numit de Trump, contestate punct cu punct de avocații lui Cook.\n\nUnde se despart sursele: FHFA prezintă cronologia creditelor ipotecare drept dovadă de fraudă (declararea a două locuințe diferite drept „reședință principală” în intervale scurte), în timp ce avocații lui Cook spun că informația a fost selectată convenabil, fără contextul complet al declarațiilor ulterioare de venituri din chirie. Niciuna dintre versiuni nu a fost testată încă într-un proces sau într-o anchetă independentă finalizată — Cook nu a fost inculpată.\n\nCe lipsește: rezultatul anchetei Departamentului de Justiție pe cele două sesizări ale lui Pulte, precum și răspunsul scris pe care Cook trebuie să-l depună până pe 26 august. Ce ar schimba concluzia: dacă Trump o demite efectiv după acest termen, urmează aproape sigur un nou proces la Curtea Supremă — instanța a lăsat deschisă doar chestiunea procedurii (dreptul la apărare), nu a validat sau infirmat acuzațiile de fond.",
+  "persoane": ["Lisa Cook"]
+}
