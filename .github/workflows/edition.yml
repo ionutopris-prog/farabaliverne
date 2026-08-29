@@ -65,6 +65,7 @@ jobs:
       contents: write        # ca botul să facă push
       pull-requests: write    # ca să deschidă PR la persoane numite
       actions: write          # ca să declanșeze workflow-ul de deploy
+      issues: write           # ca să țină la zi problema cu articolele parcate
     steps:
       - name: Checkout
         uses: actions/checkout@v4
