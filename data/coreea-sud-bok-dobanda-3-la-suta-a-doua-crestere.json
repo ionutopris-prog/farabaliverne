@@ -1,0 +1,47 @@
+{
+  "slug": "coreea-sud-bok-dobanda-3-la-suta-a-doua-crestere",
+  "title": "Banca centrală a Coreei de Sud majorează dobânda de referință la 3%, a doua creștere consecutivă, pe fondul inflației de bază ridicate",
+  "category": "Economie",
+  "date": "2026-08-27",
+  "source": "Bank of Korea — cu Korea Herald, Korea JoongAng Daily, CNBC, Bloomberg",
+  "url": "https://www.koreaherald.com/article/10854054",
+  "dek": "Consiliul de politică monetară al Băncii Coreei (BOK) a majorat pe 27 august 2026 dobânda de referință cu 0,25 puncte procentuale, de la 2,75% la 3%, a doua creștere consecutivă după cea din iulie. Decizia a fost luată cu 6 voturi pentru și unul împotrivă, pe fondul inflației de bază ridicate și al unui boom în exporturile de cipuri, care a determinat BOK să-și revizuiască în sus prognoza de creștere economică pentru 2026, de la 2,6% la 3,3%.",
+  "mainVerdict": "Probat, pe baza comunicatului oficial al Băncii Coreei și a relatărilor concordante ale presei economice sud-coreene și internaționale",
+  "probat": [
+    {
+      "text": "Banca Coreei a majorat, pe 27 august 2026, dobânda de referință (rata reverse repo pe 7 zile) cu 0,25 puncte procentuale, de la 2,75% la 3% — cel mai ridicat nivel din ianuarie 2025. Este a doua majorare consecutivă, după cea din iulie 2026, care fusese prima creștere a BOK din ianuarie 2023.",
+      "sources": [
+        {"name": "Korea Herald — BOK raises key rate for 2nd consecutive session to 3%, revises up 2026 forecast to 3.3%", "url": "https://www.koreaherald.com/article/10854054"},
+        {"name": "Korea JoongAng Daily — BOK delivers back-to-back rate hike as growth outlook strengthens to 3.3%", "url": "https://www.koreajoongangdaily.com/business/bok-delivers-backtoback-rate-hike-as-growth-outlook-strengthens-to-33/12848313"}
+      ]
+    },
+    {
+      "text": "Decizia consiliului de politică monetară a fost luată cu 6 voturi pentru și un vot împotrivă — membrul Hwang Kun-il a propus menținerea dobânzii la 2,75%.",
+      "sources": [
+        {"name": "Korea Herald — detalii despre votul 6-1 al consiliului BOK", "url": "https://www.koreaherald.com/article/10854054"}
+      ]
+    },
+    {
+      "text": "Inflația de bază (core) a atins în iulie 2026 nivelul de 2,6% an/an, cel mai ridicat din decembrie 2023, în timp ce inflația generală a fost de 2,7-2,8%. Guvernatorul BOK, Shin Hyun-song, a spus că este necesară o acțiune „preemptivă” pentru a preveni extinderea presiunilor inflaționiste, folosind o expresie coreeană: „dacă poți opri ceva cu sapa, nu ar trebui să aștepți până trebuie să folosești lopata”.",
+      "sources": [
+        {"name": "CNBC — Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated", "url": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html"},
+        {"name": "Korea JoongAng Daily — citatul guvernatorului Shin Hyun-song despre acțiunea preemptivă", "url": "https://www.koreajoongangdaily.com/business/bok-delivers-backtoback-rate-hike-as-growth-outlook-strengthens-to-33/12848313"}
+      ]
+    },
+    {
+      "text": "Odată cu majorarea dobânzii, BOK și-a revizuit în sus prognoza de creștere economică pentru 2026, de la 2,6% (estimarea din mai) la 3,3%, și pentru 2027, de la 2,1% la 2,9% — pe fondul unui boom al exporturilor de cipuri semiconductoare și al revenirii consumului intern, alături de o nouă creștere a prețurilor locuințelor din Seul.",
+      "sources": [
+        {"name": "Korea Herald — revizuirea în sus a prognozei de creștere pentru 2026 și 2027", "url": "https://www.koreaherald.com/article/10854054"},
+        {"name": "Bloomberg — BOK Delivers Rare Back-to-Back Rate Hike to Curb Inflation Risks", "url": "https://www.bloomberg.com/news/articles/2026-08-27/bok-delivers-back-to-back-rate-hike-to-curb-inflation-risks"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Faptul că BOK a ales să majoreze dobânda de două ori la rând, în ciuda riscului de a încetini creșterea economică, arată că banca centrală tratează prețurile locuințelor din Seul și inflația de bază drept riscuri mai presante decât un eventual impact negativ asupra creditării — o alegere de politică monetară pe care timpul o va valida sau nu, nu un fapt care poate fi verificat acum."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională (Korea Herald, Korea JoongAng Daily, CNBC, Bloomberg); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele despre dobândă, vot și inflație sunt concordante în toate sursele verificate, așa că nu există un conflict de fapte de semnalat aici — doar o decizie de politică monetară ale cărei efecte rămân de văzut.",
+  "persoane": []
+}
