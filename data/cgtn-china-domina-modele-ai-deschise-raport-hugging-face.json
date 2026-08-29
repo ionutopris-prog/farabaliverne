@@ -1,0 +1,48 @@
+{
+  "slug": "cgtn-china-domina-modele-ai-deschise-raport-hugging-face",
+  "title": "CGTN și Global Times susțin că China „domină” cursa modelelor AI deschise, citând un raport Hugging Face — raportul însuși avertizează să nu fie citit așa",
+  "category": "Media de stat",
+  "date": "2026-08-23",
+  "source": "CGTN, Global Times (media de stat chineză) — cu raportul „State of Open Models: Summer 2026” al Hugging Face și CNBC",
+  "url": "https://news.cgtn.com/news/2026-08-23/Capacity-Revealed-How-China-s-technology-became-a-global-public-good-1PQC7QFQM1i/p.html",
+  "dek": "CGTN și Global Times, televiziunea și, respectiv, ziarul de stat chinez, SUSȚIN de mai multe ori în august 2026 că „China domină” cursa inteligenței artificiale cu modele deschise, citând un raport real al platformei Hugging Face și declarații ale directorului executiv al companiei, Clément Delangue. Raportul confirmă, într-adevăr, că laboratoarele chineze au lansat în 2026 modele deschise cu mult mai mulți parametri decât cele americane — dar avertizează explicit, în propriul text, că aceste cifre „nu ar trebui interpretate ca măsuri directe ale calității modelelor, adopției comerciale sau cotei de piață”.",
+  "mainVerdict": "Probat parțial: cifrele brute despre parametri și descărcări sunt reale și confirmate de raportul primar Hugging Face; contestată rămâne concluzia de „dominație”, pe care raportul citat o infirmă explicit prin propriile sale rezerve metodologice",
+  "probat": [
+    {
+      "text": "Raportul „State of Open Models: Summer 2026” al Hugging Face confirmă că, în aproape fiecare lună din 2026, cel mai mare și mai performant model deschis lansat de un laborator chinez a avut mai mulți parametri decât orice model lansat de un laborator american: intervalul chinez a variat între 754 de miliarde și 2,78 trilioane de parametri lunar, în timp ce modelele americane au rămas sub 130 de miliarde de parametri în cinci din cele șapte luni analizate.",
+      "sources": [
+        {"name": "Hugging Face — State of Open Models: Summer 2026 (raportul primar)", "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"},
+        {"name": "CGTN — Capacity Revealed: How China's technology became a global public good", "url": "https://news.cgtn.com/news/2026-08-23/Capacity-Revealed-How-China-s-technology-became-a-global-public-good-1PQC7QFQM1i/p.html"}
+      ]
+    },
+    {
+      "text": "Modelele derivate din Qwen (Alibaba) au ajuns la 151.448 de proiecte pe Hugging Face Hub — de 2,6 ori mai multe decât întreaga amprentă Meta și de 4,7 ori mai multe decât proiectele bazate pe Llama — cu un ritm de creștere de 180-210 proiecte noi pe zi în primele șapte luni din 2026. Familia Qwen a strâns 2,045 de miliarde de descărcări cumulate.",
+      "sources": [
+        {"name": "Hugging Face — cifrele exacte despre ecosistemul de derivate Qwen", "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"}
+      ]
+    },
+    {
+      "text": "Clément Delangue, directorul executiv al Hugging Face, a declarat, în context relatat separat de CNBC și preluat de Global Times pe 5 august 2026, că „cele mai bune modele AI deschise vin din China” și că țara „domină acum la modelele deschise” — o declarație a unei persoane reale, din afara Chinei, pe care presa de stat chineză a amplificat-o.",
+      "sources": [
+        {"name": "Global Times — citatul lui Clément Delangue despre China „câștigând cursa AI”", "url": "https://www.globaltimes.cn/page/202608/1367566.shtml"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Chiar raportul Hugging Face citat de CGTN și Global Times avertizează explicit, în propriul text, că „descărcările indică utilizarea în cadrul ecosistemului Hub, dar nu surprind utilizarea prin API, desfășurările private sau modelele distribuite prin alte canale” și că „activitatea pe Hub ar trebui văzută ca o perspectivă asupra dezvoltării ecosistemului, nu ca o măsurătoare completă a pieței AI”. Raportul mai spune direct că aceste cifre „nu ar trebui interpretate ca măsuri directe ale calității modelelor, adopției comerciale sau cotei de piață” — exact concluzia pe care titlurile CGTN/Global Times o sugerează cititorului.",
+      "sources": [
+        {"name": "Hugging Face — rezervele metodologice explicite din raportul original", "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"}
+      ]
+    },
+    {
+      "text": "Raportul mai arată că, deși laboratoarele chineze domină la numărul de parametri, doar 3% din volumul total de descărcări din 2026 s-a dus către modele de peste 70 de miliarde de parametri — adică scara mare, unde China conduce, nu reflectă adopția practică majoritară pe platformă. Modelele americane precum Nemotron 3 Ultra (NVIDIA, 561 miliarde parametri) rămân excepții notabile la categoria „mare” pentru SUA.",
+      "sources": [
+        {"name": "Hugging Face — decuplarea între scara modelelor și volumul real de descărcări", "url": "https://huggingface.co/blog/state-of-open-models-summer-2026"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "📡 Am tratat acest subiect ca „Media de stat” fiindcă CGTN și Global Times prezintă un raport real, independent (Hugging Face), dar selectiv — reținând cifrele care susțin narativul „China domină AI” și omițând rezervele pe care raportul însuși le face despre limitele acelorași cifre.\n\nCe s-a verificat exact: am citit raportul primar „State of Open Models: Summer 2026” direct de pe blogul Hugging Face, nu doar preluările CGTN/Global Times. Cifrele despre parametri (754 mld.–2,78 trilioane pentru China vs. sub 130 mld. pentru SUA în 5 din 7 luni) și despre derivatele Qwen (151.448, de 2,6 ori Meta) sunt reale și apar identic în sursa primară.\n\nUnde se desparte narativul de raport: CGTN/Global Times transformă aceste cifre de scară și volum în concluzia „China câștigă/domină cursa AI”. Raportul Hugging Face, autorul cifrelor, spune explicit contrariul acestei extrapolări: că numărul de parametri și descărcările „nu ar trebui interpretate ca măsuri directe ale calității, adopției comerciale sau cotei de piață”, și că doar 3% din descărcările totale merg către modelele mari unde China conduce. Cu alte cuvinte, cifrele sunt adevărate; concluzia de „dominație” pe care presa de stat o construiește pe ele nu e susținută de aceeași sursă.\n\nCe lipsește: o comparație independentă, din afara Hugging Face, a performanței (nu doar a scării) modelelor chineze față de cele americane pe benchmark-uri standard — raportul citat măsoară activitate pe platformă, nu calitate.\n\nCe ar schimba concluzia: un studiu independent de benchmark care ar arăta că modelele chineze mari sunt și calitativ superioare, nu doar mai numeroase ca parametri — lucru pe care raportul Hugging Face nu îl afirmă.",
+  "persoane": []
+}
