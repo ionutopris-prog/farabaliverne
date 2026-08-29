@@ -1,0 +1,78 @@
+{
+  "slug": "ice-arestari-record-iulie-2026-fara-cazier",
+  "title": "ICE a arestat aproape 50.000 de oameni în iulie 2026 — record lunar, iar peste jumătate nu aveau cazier",
+  "category": "Extern",
+  "date": "2026-08-29",
+  "source": "NPR / CBS News / Deportation Data Project (UC Berkeley–UCLA)",
+  "url": "https://www.wwno.org/npr-news/2026-08-26/immigration-arrests-soar-hitting-50-000-in-july",
+  "dek": "Agenția americană pentru imigrație (ICE) a făcut 49.571 de arestări în iulie 2026, cel mai ridicat total lunar din al doilea mandat al lui Trump — cu 15% peste recordul din iunie. Pentru prima dată, peste jumătate dintre cei arestați zilnic nu aveau cazier; DHS respinge eticheta de „fără cazier” ca înșelătoare.",
+  "mainVerdict": "Probat — cifrele vin din date oficiale ICE, verificate de un proiect universitar independent; rămâne contestată interpretarea etichetei „fără cazier”",
+  "probat": [
+    {
+      "text": "ICE a înregistrat 49.571 de arestări în iulie 2026 — cel mai ridicat total lunar din istoria recentă a agenției și din al doilea mandat al președintelui Trump — față de 43.021 în iunie 2026, o creștere de aproximativ 15%. Media zilnică a fost de circa 1.580–1.599 arestări (sursele variază ușor la rotunjire). Datele provin direct de la ICE și au fost obținute și analizate de Deportation Data Project, un proiect de cercetare independent, condus de cercetători de la UC Berkeley și UCLA.",
+      "sources": [
+        {
+          "name": "NPR (via WWNO) — „Immigration arrests soar, hitting 50,000 in July”",
+          "url": "https://www.wwno.org/npr-news/2026-08-26/immigration-arrests-soar-hitting-50-000-in-july"
+        },
+        {
+          "name": "CBS News — „ICE arrested a record number of people without criminal records”",
+          "url": "https://www.cbsnews.com/news/ice-arrests-record-high-july-new-data/"
+        }
+      ]
+    },
+    {
+      "text": "Creșterea nu a venit din raiduri concentrate și mediatizate în orașe, ca sub fosta secretară DHS Kristi Noem, ci din extinderea arestărilor pe mai multe fronturi tăcute: aeroporturi, punctele de verificare periodică (ICE check-ins) și sălile de judecată pentru imigrație. Actualul secretar DHS, Markwayne Mullin, numit în martie 2026, a mutat abordarea spre atingerea țintelor de deportare „ținând departamentul departe de titluri”, potrivit cercetătorului Graeme Blair, de la Deportation Data Project.",
+      "sources": [
+        {
+          "name": "NPR (via WWNO) — schimbarea de la Noem la Mullin și metodele de arestare",
+          "url": "https://www.wwno.org/npr-news/2026-08-26/immigration-arrests-soar-hitting-50-000-in-july"
+        }
+      ]
+    },
+    {
+      "text": "Peste jumătate dintre arestări au venit din doar patru state — Texas, Florida, California și Georgia. Trei dintre ele (Texas, Florida, Georgia) participă la programul 287(g), care permite poliției locale și de stat să aplice legea federală a imigrației sub supravegherea ICE; Florida este statul cu cea mai extinsă participare, cu toate cele 67 de comitate înscrise în acorduri 287(g).",
+      "sources": [
+        {
+          "name": "NPR (via WWNO) — distribuția geografică și programul 287(g)",
+          "url": "https://www.wwno.org/npr-news/2026-08-26/immigration-arrests-soar-hitting-50-000-in-july"
+        }
+      ]
+    },
+    {
+      "text": "Iulie a fost prima lună în care persoanele fără cazier au reprezentat majoritatea arestărilor zilnice: peste 800 de oameni fără cazier au fost arestați în medie, în fiecare zi — un record. Doar aproximativ 4% dintre cei reținuți în iulie aveau condamnări pentru infracțiuni violente (definite după standardele Biroului de Statistici Judiciare al Departamentului Justiției); aproximativ 6% din totalul celor internați în custodia ICE de la începutul administrației actuale se încadrează în aceeași categorie. Aproape jumătate din arestările din iunie-iulie (circa 45.300) au avut loc în comunități, nu în închisori sau penitenciare.",
+      "sources": [
+        {
+          "name": "CBS News — recordul arestărilor fără cazier și procentul condamnărilor pentru infracțiuni violente",
+          "url": "https://www.cbsnews.com/news/ice-arrests-record-high-july-new-data/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Un purtător de cuvânt al Departamentului Securității Interne (DHS) a respins public accentul pus pe eticheta „fără cazier”, declarând pentru CBS News: „ICE aplică legea așa cum e scrisă. Ce face pe cineva o țintă a aplicării legilor privind imigrația este dacă se află sau nu ilegal în SUA — punct.” DHS a adăugat că mulți dintre cei clasificați drept „fără cazier” sunt de fapt „teroriști, abuzatori de drepturi ale omului, membri de bande și alții” — o afirmație pe care DHS nu a susținut-o public cu o defalcare numerică verificabilă, iar datele Deportation Data Project nu includ informații despre presupuse infracțiuni comise în afara SUA.",
+      "sources": [
+        {
+          "name": "CBS News — reacția DHS și limitele datelor disponibile",
+          "url": "https://www.cbsnews.com/news/ice-arrests-record-high-july-new-data/"
+        }
+      ]
+    },
+    {
+      "text": "Arestările la sălile de judecată pentru imigrație au fost criticate de organizații pentru drepturi civile și contestate în instanță — inclusiv printr-o coaliție care a cerut blocarea la nivel național a acestei practici — pe motiv că descurajează prezentarea la audieri și ridică probleme de drepturi procedurale (due process). Deputata democrată Gwen Moore a declarat că, în loc să vizeze infractori violenți, campania administrației Trump a lovit disproporționat persoane fără cazier. Acestea sunt poziții politice și juridice aflate încă în dispută în instanțele americane, nu fapte stabilite despre legalitatea practicii.",
+      "sources": [
+        {
+          "name": "ACLU of NorCal — coaliție cere blocarea arestărilor la sălile de judecată pentru imigrație",
+          "url": "https://www.aclunorcal.org/press-releases/civil-rights-coalition-files-motions-to-block-trump-administrations-immigration-courthouse-arrest-and-detention-policies-nationwide/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De la 43.000 la 49.571, într-o lună",
+    "explanation": "43.021 de arestări în iunie 2026 au devenit 49.571 în iulie — o creștere de 6.550 de arestări, adică aproximativ 15%. La o medie de circa 1.580–1.600 de arestări pe zi în iulie, peste jumătate (peste 800 pe zi) au fost ale unor persoane fără cazier — ceea ce înseamnă că partea de creștere „nouă” față de profilul tradițional de aplicare a legii (infractori cu antecedente) a venit în cea mai mare parte din categoria persoanelor fără condamnări penale."
+  },
+  "aiNote": "Ce s-a verificat: cifrele de bază (49.571 arestări în iulie 2026, 43.021 în iunie, creșterea de 15%) provin direct din date ICE obținute de Deportation Data Project — un proiect universitar independent (UC Berkeley/UCLA) — și sunt relatate concordant de NPR și CBS News, două redacții americane independente cu metodologii separate de calcul al mediei zilnice (diferența de 1.580 vs. 1.599/zi e de rotunjire, nu o contradicție de fond.\n\nUnde se despart sursele — de fapt, unde se despart INTERPRETĂRILE: datele arată clar că, pentru prima dată, majoritatea persoanelor arestate zilnic în iulie nu aveau cazier (peste 800/zi) și doar aproximativ 4% din cei reținuți aveau condamnări pentru infracțiuni violente. DHS nu contestă cifrele brute, ci eticheta: susține că mulți dintre cei clasificați „fără cazier” sunt de fapt teroriști sau infractori periculoși — dar nu a publicat o defalcare numerică verificabilă pentru această afirmație, iar Deportation Data Project precizează explicit că datele nu includ presupuse infracțiuni comise în afara SUA. Deci avem o cifră fermă (peste jumătate fără cazier) și o contra-explicație a autorității responsabile (DHS) care nu poate fi, deocamdată, verificată independent.\n\nCe lipsește: o defalcare oficială și verificabilă, din partea DHS, a persoanelor pe care le consideră periculoase în ciuda lipsei de cazier american — și un rezultat al proceselor în curs privind legalitatea arestărilor la sălile de judecată pentru imigrație. O astfel de defalcare, sau o decizie judecătorească fermă asupra practicii, ar schimba echilibrul acestei verificări."
+}
