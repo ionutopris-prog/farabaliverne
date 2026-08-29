@@ -1542,5 +1542,15 @@ def main():
     build_stare(arts)
     print(f"✅ build: {total} articole | RSS {nfeed} | politicieni {nwith} cu verificări + {nwithout} în curând | sitemap {nsitemap} URL-uri")
 
+    # Fără Scorneli — Moldova. Se reface AICI, nu separat: pagina se croiește
+    # din index.html abia construit, iar cine uită s-o cheme lasă secțiunea
+    # moldovenească înghețată în timp ce acasă-ul merge înainte. S-a întâmplat
+    # pe 29 august 2026 — două articole moldovenești publicate, dar /moldova/
+    # arăta încă ediția de acum trei zile. Rulează după build_site, niciodată
+    # înainte, și nu doboară ediția dacă pică.
+    md = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_moldova.py")
+    r = subprocess.run(["python3", md], capture_output=True, text=True)
+    print((r.stdout or r.stderr).strip() or "⚠️ moldova: fără răspuns")
+
 if __name__ == "__main__":
     main()
