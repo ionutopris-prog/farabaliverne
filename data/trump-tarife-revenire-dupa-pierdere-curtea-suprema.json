@@ -1,0 +1,67 @@
+{
+  "slug": "trump-tarife-revenire-dupa-pierdere-curtea-suprema",
+  "title": "Tarifele lui Trump, „lovite” de Curtea Supremă în februarie, sunt acum mai mari decât imediat după decizie — dar tot sub nivelul dinainte",
+  "category": "Economie",
+  "date": "2026-08-30",
+  "source": "PolitiFact / The Budget Lab (Yale) / Fox News",
+  "url": "https://www.politifact.com/article/2026/aug/25/trump-trade-tariffs-supreme-court/",
+  "dek": "Pe 20 februarie 2026, Curtea Supremă a SUA a decis, 6-3, că legea IEEPA nu îi dă președintelui puterea de a impune tarife generalizate — o înfrângere pe care Trump a numit-o „foarte nefericită”. Șase luni mai târziu, folosind alte patru legi comerciale, administrația a reconstruit un regim de tarife care a urcat rata medie la 11,0%, potrivit celui mai recent calcul independent (The Budget Lab, Yale) — sub nivelul de 15-17% de dinainte de decizie, dar de peste trei ori mai mare decât minimul de 8,3% de imediat după ea.",
+  "mainVerdict": "Probat, cu nuanțe între serii de date",
+  "probat": [
+    {
+      "text": "Curtea Supremă a SUA a decis, pe 20 februarie 2026, cu 6 voturi la 3 (opinia majoritară scrisă de judecătorul-șef John Roberts, disidenți Thomas, Alito și Kavanaugh), că legea IEEPA (International Emergency Economic Powers Act) nu autorizează președintele să impună tarife generalizate, în cazul Learning Resources, Inc. v. Trump. Toate tarifele impuse sub IEEPA au încetat la 24 februarie 2026, ora 00:00 (ora de est).",
+      "sources": [
+        {"name": "White & Case — United States terminates IEEPA-based tariffs following Supreme Court decision", "url": "https://www.whitecase.com/insight-alert/united-states-terminates-ieepa-based-tariffs-following-supreme-court-decision"},
+        {"name": "Congress.gov / CRS — Supreme Court Rules Against Tariffs Imposed Under IEEPA", "url": "https://www.congress.gov/crs-product/LSB11398"}
+      ]
+    },
+    {
+      "text": "Trump a reacționat la decizie în discursul Stării Uniunii din 24 februarie 2026, numind-o „very unfortunate” (foarte nefericită) și anunțând că administrația va urma „alternative legal avenues” pentru a menține tarifele. În aceeași săptămână a impus, prin Secțiunea 122 din Trade Act 1974, un tarif global — inițial anunțat la 10%, majorat la 15% (plafonul legal maxim pentru această secțiune) chiar înainte de intrarea în vigoare pe 24 februarie.",
+      "sources": [
+        {"name": "Fox News — Trump rips Supreme Court tariff ruling in SOTU, vows new legal fight after 6-3 blow", "url": "https://www.foxnews.com/politics/trump-rips-supreme-court-tariff-ruling-sotu-vows-new-legal-fight-after-6-3-blow.print"},
+        {"name": "News on AIR (India) — US President Donald Trump hikes global tariffs from 10 to 15 after court setback", "url": "https://www.newsonair.gov.in/us-president-donald-trump-hikes-global-tariffs-from-10-to-15-after-court-setback"}
+      ]
+    },
+    {
+      "text": "Tariful de 15% pe baza Secțiunii 122 nu putea fi permanent: legea limitează această autoritate la 150 de zile. Termenul a expirat pe 24 iulie 2026, iar administrația l-a înlocuit, în același minut, cu tarife noi de 10-12,5% pe baza Secțiunii 301, aplicate la produse din aproximativ 80 de țări. Anterior, pe 7 mai 2026, o Curte de Comerț Internațional anulase deja tariful de 10% de sub Secțiunea 122 într-o decizie 2-1, dar efectul a fost limitat la cei trei importatori reclamanți, nu la toți plătitorii.",
+      "sources": [
+        {"name": "Skadden — US Trade Court Strikes Down Section 122 Tariffs, but Ruling's Fate Is Uncertain", "url": "https://www.skadden.com/insights/publications/2026/05/us-trade-court-strikes-down-section-122-tariffs"},
+        {"name": "Fennemore — New U.S. Tariffs Replace Expiring Section 122 Tariffs", "url": "https://www.fennemorelaw.com/new-u-s-tariffs-replace-expiring-section-122-tariffs/"}
+      ]
+    },
+    {
+      "text": "Potrivit celui mai recent calcul al The Budget Lab (Yale University), rata medie statutară a tarifelor SUA se situează acum la 11,0%, nivel la care s-a stabilizat după expirarea tarifelor Secțiunii 122 pe 24 iulie și înlocuirea lor cu cele de sub Secțiunea 301. Aceeași sursă estimează venituri suplimentare de circa 1,2-1,3 trilioane de dolari pentru bugetul federal în perioada 2026-2035, din aceste tarife.",
+      "sources": [
+        {"name": "The Budget Lab, Yale University — The State of U.S. Tariffs (tracker actualizat continuu)", "url": "https://budgetlab.yale.edu/research/state-us-tariffs"}
+      ]
+    },
+    {
+      "text": "Administrația a raportat venituri din tarife de 124 de miliarde de dolari în anul fiscal în curs, de circa trei ori mai mult decât anul anterior — cifră citată de Trump ca justificare economică a politicii, inclusiv ca sursă potențială pentru reducerea datoriei publice.",
+      "sources": [
+        {"name": "Fox News — cifrele de venituri citate de Trump", "url": "https://www.foxnews.com/politics/trump-rips-supreme-court-tariff-ruling-sotu-vows-new-legal-fight-after-6-3-blow.print"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Afirmația implicită că tarifele „au revenit la fel de puternice” după pierderea de la Curtea Supremă este doar parțial adevărată. Estimările pentru rata efectivă/ponderată dinainte de decizie variau între 15,3% (Global Trade Alert) și 17,0% (Tax Policy Center), în timp ce imediat după decizie rata a scăzut la aproximativ 8,3%. Rata actuală de 11,0% (statutară, Yale Budget Lab) e deci de peste trei ori mai mare decât minimul post-decizie, dar rămâne clar sub nivelul dinainte de hotărârea CSJ — administrația a recuperat parțial terenul pierdut, nu integral, și pe o bază legală diferită, expusă la noi contestații în instanță.",
+      "sources": [
+        {"name": "The Budget Lab, Yale — cifra actuală de 11,0%", "url": "https://budgetlab.yale.edu/research/state-us-tariffs"},
+        {"name": "PolitiFact — After Supreme Court loss, Trump tariffs have bounced back", "url": "https://www.politifact.com/article/2026/aug/25/trump-trade-tariffs-supreme-court/"}
+      ]
+    },
+    {
+      "text": "Baza legală a noilor tarife rămâne contestată în instanță. Tariful Secțiunii 122 fusese deja declarat neconstituțional de o Curte de Comerț Internațional pe 7 mai 2026 (decizie 2-1, cu efect limitat doar la reclamanți, acum în apel), iar administrația l-a lăsat oricum să expire la termenul legal de 150 de zile, înlocuindu-l cu Secțiunea 301 — o bază legală diferită, care nu a fost testată încă în instanțe la același nivel.",
+      "sources": [
+        {"name": "Skadden — decizia din 7 mai 2026 și apelul în curs", "url": "https://www.skadden.com/insights/publications/2026/05/us-trade-court-strikes-down-section-122-tariffs"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De la 15-17%, la 8,3%, la 11,0%: trei numere, trei momente diferite",
+    "explanation": "Rata de dinainte de decizia CSJ (15,3-17,0%, în funcție de sursă) și rata de 11,0% de acum nu sunt calculate identic — prima e o medie ponderată cu volumul comerțului (trade-weighted), a doua e o rată statutară medie (Yale Budget Lab). Diferența de metodologie explică parțial de ce cifrele nu sunt direct comparabile procent cu procent, dar toate sursele converg pe aceeași tendință: o scădere bruscă la 8,3% imediat după decizie, urmată de o revenire parțială, prin alte legi, la aproximativ două treimi din nivelul inițial."
+  },
+  "aiNote": "Ce s-a verificat: cronologia legală completă, de la decizia Curții Supreme din 20 februarie 2026 (care a anulat tarifele bazate pe IEEPA) până la tarifele actuale bazate pe Secțiunea 301, trecând prin Secțiunea 122 (10%, apoi 15%, expirată legal după 150 de zile pe 24 iulie) — confirmată de firme de avocatură specializate în comerț internațional (White & Case, Skadden, Fennemore) și de serviciul de cercetare al Congresului SUA. Rata actuală de 11,0% vine din tracker-ul The Budget Lab de la Yale, actualizat continuu.\n\nUnde se despart sursele: pe metodologia de calcul a ratei tarifare — „trade-weighted” (ponderată cu volumul comerțului, 15,3-17,0% înainte de decizie) versus „statutară medie” (11,0% acum), ceea ce face comparația directă imprecisă, deși toate sursele arată aceeași direcție: o cădere bruscă, urmată de o recuperare parțială. De asemenea, motivul politic invocat de Trump (venituri de 124 de miliarde de dolari, de trei ori mai mult ca anul trecut) e o cifră reală, dar nu spune nimic despre cine suportă efectiv costul — studii ale Federal Reserve Bank of New York, citate de Tax Foundation, arată că aproape 90% din costurile tarifelor cad pe firme și consumatori americani, nu pe exportatorii străini.\n\nCe lipsește: nu există încă o decizie finală, la nivel de Curte Supremă sau de apel, asupra legalității tarifelor bazate pe Secțiunea 301 sau asupra apelului privind Secțiunea 122 — regimul tarifar actual rămâne, din punct de vedere legal, provizoriu.\n\nCe ar schimba concluzia: o decizie definitivă a instanțelor de apel împotriva Secțiunii 301 ar readuce situația la un nou minim, similar cu cel de 8,3% de după decizia din februarie; o extindere legislativă prin Congres a tarifelor ar face, dimpotrivă, nivelul actual permanent.",
+  "persoane": ["Donald Trump"]
+}
