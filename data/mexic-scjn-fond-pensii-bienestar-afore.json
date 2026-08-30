@@ -1,0 +1,70 @@
+{
+  "slug": "mexic-scjn-fond-pensii-bienestar-afore",
+  "title": "Curtea Supremă a Mexicului validează fondul de pensii al lui Sheinbaum, alimentat din conturile Afore inactive",
+  "category": "Economie",
+  "date": "2026-08-30",
+  "source": "Rio Times / SCJN",
+  "url": "https://www.riotimesonline.com/mexicos-top-court-backs-issste-pension-fund-boosting-state-workers-up-to-us1050-a-month/",
+  "dek": "Curtea Supremă a Mexicului (SCJN) a decis în unanimitate, pe 12 august 2026, că Fondul de Pensii pentru Bunăstare — creat în 2024 și alimentat parțial din conturile Afore inactive — este constituțional. Angajații statului pot primi un supliment de pensie de până la aproximativ 1.050 de dolari pe lună, dar media reală a suplimentelor plătite e mult sub acest plafon, iar pe rețele circulă cifre de creștere umflate, nesusținute de decret.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Pe 12 august 2026, Plenul Curții Supreme de Justiție a Națiunii (SCJN) a rezolvat Acțiunea de Neconstituționalitate 116/2024 și a validat, în unanimitate, constituționalitatea Fondului de Pensii pentru Bunăstare, creat printr-un decret publicat în Monitorul Oficial al Federației pe 30 aprilie 2024. Judecătorii au considerat că schimbarea normativă nu încalcă drepturile lucrătorilor, pentru că modifică doar administratorul resurselor și „consolidează sistemul de securitate socială”.",
+      "sources": [
+        {
+          "name": "N+ (N Más) — SCJN valida creación del Fondo de Pensiones Bienestar con recursos de cuentas de Afore inactivas",
+          "url": "https://www.nmas.com.mx/sociedad/scjn-valida-creacion-del-fondo-de-pensiones-bienestar-con-recursos-de-cuentas-de-afore-inactivas/"
+        },
+        {
+          "name": "Tribuna — Aprobado por la Corte: el dinero no reclamado de las Afores se irá a Pensiones para el Bienestar",
+          "url": "https://tribuna.com.mx/mexico/2026/08/12/aprobado-por-la-corte-el-dinero-no-reclamado-de-las-afores-se-ira-a-pensiones-para-el-bienestar_653065/"
+        }
+      ]
+    },
+    {
+      "text": "Fondul a fost constituit în 2024 cu aproximativ 45 de miliarde de pesos proveniți din conturi Afore (administratorii privați de fonduri de pensii) inactive de cel puțin cinci ani. Curtea a confirmat că lucrătorii sau beneficiarii lor își păstrează proprietatea permanentă și indefinită asupra acestor economii și pot cere returnarea banilor oricând — schimbarea afectează doar cine administrează suma, nu dreptul de proprietate asupra ei.",
+      "sources": [
+        {
+          "name": "Serpientes y Escaleras — SCJN avala Fondo de Pensiones para el Bienestar; trabajadores mantienen la propiedad de sus recursos",
+          "url": "https://serpientesyescaleras.mx/scjn-avala-fondo-de-pensiones-para-el-bienestar-trabajadores-mantienen-la-propiedad-de-sus-recursos/"
+        }
+      ]
+    },
+    {
+      "text": "Decizia validează separat suplimentul de pensie pentru angajații statului aflați sub ISSSTE (Institutul de Securitate și Servicii Sociale al Lucrătorilor de Stat): fondul completează diferența dintre economiile din contul individual și salariul final, cu un plafon lunar indexat de 17.885,85 pesos în 2026 — circa 1.050 de dolari, la cursul de 17,01 pesos/dolar din 17 august 2026.",
+      "sources": [
+        {
+          "name": "Rio Times — Mexico's Top Court Backs the Pension Fund for State Workers, Boosting State Workers Up to US$1,050 a Month",
+          "url": "https://www.riotimesonline.com/mexicos-top-court-backs-issste-pension-fund-boosting-state-workers-up-to-us1050-a-month/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Plafonul de 1.050 de dolari (17.885,85 pesos) este maximul legal, nu suma primită de un pensionar obișnuit. Potrivit datelor citate de Rio Times, suplimentul mediu efectiv plătit este de aproximativ 3.975 de pesos pe lună — sub un sfert din plafon — pentru că el completează doar diferența până la salariul final al fiecărui angajat, iar mulți pensionari au deja economii individuale apropiate de acest nivel.",
+      "sources": [
+        {
+          "name": "Rio Times — Mexico's Top Court Backs the Pension Fund for State Workers",
+          "url": "https://www.riotimesonline.com/mexicos-top-court-backs-issste-pension-fund-boosting-state-workers-up-to-us1050-a-month/"
+        }
+      ]
+    },
+    {
+      "text": "Pe rețelele sociale au circulat, după decizie, cifre de creștere de 14.700 de pesos sau de „340%” pentru pensii, care nu apar în decretul oficial al SCJN și nu sunt confirmate de presa economică mexicană majoră (El Economista, Infobae, presa citată aici) — par a fi produse de conturi de conținut fără sursă verificabilă, nu de o cifră oficială.",
+      "sources": [
+        {
+          "name": "Rio Times — Mexico's Top Court Backs the Pension Fund for State Workers",
+          "url": "https://www.riotimesonline.com/mexicos-top-court-backs-issste-pension-fund-boosting-state-workers-up-to-us1050-a-month/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă transferul banilor Afore inactivi către un fond public administrat de stat este o măsură de protecție socială sau un risc pentru autonomia economiilor private ține de poziție politică — susținătorii guvernului Sheinbaum văd o consolidare a securității sociale, criticii independenți ai reformei din 2024 au semnalat îngrijorări legate de controlul statului asupra unor fonduri mari de economii. Ambele evaluări sunt interpretări, nu fapte verificabile din decizia SCJN, care s-a limitat la constituționalitate, nu la oportunitatea politicii."
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională și din presa economică mexicană; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: decizia unanimă a SCJN din 12 august 2026 (Acțiunea de Neconstituționalitate 116/2024), care validează Fondul de Pensii pentru Bunăstare creat prin decretul din aprilie 2024, e confirmată concordant de mai multe redacții economice mexicane (N+, Tribuna, Serpientes y Escaleras) și de Rio Times în engleză.\n\nUnde apare confuzia: plafonul legal de 17.885,85 pesos (~1.050 dolari) pe lună a fost preluat în titluri și pe rețele ca fiind suma pe care „o vor primi” pensionarii, deși e vorba de un maxim absolut, atins doar de cei cu economii individuale foarte mici. Media reală a suplimentelor plătite e de circa 3.975 de pesos — sub un sfert din plafon. E genul de cifră care sună impresionant tocmai pentru că i se scoate contextul (plafon, nu medie).\n\nCe lipsește: nu există încă date agregate oficiale despre câți pensionari ISSSTE ating efectiv plafonul, nici o cifră publică despre suma totală distribuită din fond de la constituirea lui în 2024.\n\nCe ar schimba concluzia: publicarea de către ISSSTE sau Secretaría de Hacienda a unei distribuții statistice a suplimentelor plătite ar arăta dacă 3.975 de pesos e cu adevărat mediana, sau dacă exemplul citat de Rio Times e un caz izolat.",
+  "persoane": []
+}
