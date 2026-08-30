@@ -1,0 +1,41 @@
+{
+  "slug": "roman-telescop-nasa-lansare-30-august",
+  "title": "NASA a primit „go” pentru lansarea telescopului spațial Roman, programată sâmbătă cu o rachetă Falcon Heavy",
+  "category": "Știință",
+  "date": "2026-08-30",
+  "source": "NASA Science / SpaceNews / Space.com",
+  "url": "https://science.nasa.gov/blogs/roman/2026/08/28/nasas-roman-space-telescope-go-for-launch/",
+  "dek": "NASA și SpaceX au încheiat vineri, 28 august 2026, revizuirea de pregătire a lansării (Launch Readiness Review) și au confirmat că telescopul spațial Nancy Grace Roman e pregătit să decoleze sâmbătă, 30 august, ora 7:26 dimineața (ora Florida), de la Kennedy Space Center, cu o rachetă Falcon Heavy. Rezumăm ce arată sursele oficiale despre misiune și ce e încă doar prognoză, nu fapt împlinit.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "NASA și SpaceX au finalizat vineri, 28 august 2026, Launch Readiness Review și au declarat misiunea „go” pentru lansare: telescopul spațial Nancy Grace Roman e programat să decoleze sâmbătă, 30 august 2026, la ora 7:26 dimineața (ora de vară a Floridei), de pe rampa Launch Complex 39A a Centrului Spațial Kennedy, propulsat de o rachetă SpaceX Falcon Heavy. Meteorologii estimau șanse de 60% pentru condiții favorabile de lansare — deci, la ora scrierii acestui articol, lansarea era programată, nu încă produsă.",
+      "sources": [
+        {"name": "NASA Science — NASA's Roman Space Telescope 'Go' for Launch", "url": "https://science.nasa.gov/blogs/roman/2026/08/28/nasas-roman-space-telescope-go-for-launch/"},
+        {"name": "SpaceNews — Roman Space Telescope ready for Aug. 30 launch", "url": "https://spacenews.com/roman-space-telescope-ready-for-aug-30-launch/"}
+      ]
+    },
+    {
+      "text": "Telescopul are o oglindă de 2,4 metri, aceeași dimensiune ca a telescopului Hubble, dar un câmp vizual de cel puțin 100 de ori mai mare — ceea ce îi permite să fotografieze porțiuni mult mai întinse din cer într-o singură expunere, cu detaliu comparabil cu Hubble. Misiunea are ca obiective principale studierea energiei întunecate și a materiei întunecate, descoperirea de exoplanete printr-un recensământ statistic al sistemelor planetare din galaxie și cartografierea a peste un miliard de galaxii.",
+      "sources": [
+        {"name": "NASA Science — pagina misiunii Roman Space Telescope", "url": "https://science.nasa.gov/mission/roman-space-telescope/"}
+      ]
+    },
+    {
+      "text": "După lansare, racheta va plasa telescopul pe o traiectorie spre punctul Lagrange L2 Soare-Pământ, la aproximativ 1,5 milioane de kilometri de Pământ — aceeași regiune orbitală în care se află și telescopul James Webb. E a șasea misiune principală a NASA lansată cu o rachetă din familia Falcon de la Kennedy, după IXPE, Psyche, GOES-U, Europa Clipper și IMAP.",
+      "sources": [
+        {"name": "Space.com — NASA's Roman Space Telescope is ready for launch aboard SpaceX Falcon Heavy rocket", "url": "https://www.space.com/space-exploration/launches-spacecraft/nasas-roman-space-telescope-is-ready-for-launch-aboard-spacex-falcon-heavy-rocket"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {"text": "Cifra vehiculată în presă — peste 100.000 de exoplanete descoperite în primele 18 luni de observații — e o estimare a echipei de misiune bazată pe capacitatea instrumentelor, nu un rezultat deja obținut; numărul real depinde de cât de bine funcționează telescopul odată ajuns pe orbită, lucru care nu se poate ști înainte de lansare și de faza de calibrare."}
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un anunț oficial NASA, publicat pe blogul misiunii Roman și confirmat de SpaceNews și Space.com. Fapt important de precizat: la momentul scrierii acestui articol (dimineața zilei de 30 august 2026, ora României), lansarea era programată pentru câteva ore mai târziu, nu produsă încă — de aceea am formulat titlul și textul la timpul prezent/viitor apropiat („e pregătit”, „programată”), nu ca eveniment încheiat. Șansele de condiții meteo favorabile erau estimate la 60%, ceea ce înseamnă că o amânare rămânea posibilă până în ultimul moment. Cifrele despre performanța telescopului (numărul de exoplanete, cartografierea a peste un miliard de galaxii) sunt obiective și estimări ale misiunii, nu rezultate confirmate — le vom putea verifica abia după ce telescopul începe observațiile științifice, la câteva luni de la lansare.",
+  "math": {
+    "title": "De ce contează „de 100 de ori mai mare” câmpul vizual",
+    "explanation": "Hubble face fotografii extrem de detaliate, dar dintr-o „gaură de cheie” îngustă a cerului — ca și cum ai privi orașul printr-un tub. Roman are aceeași putere de rezoluție (aceeași oglindă de 2,4 metri), dar un „obiectiv” mult mai larg: o singură expunere acoperă o suprafață de cer de peste 100 de ori mai mare decât o expunere Hubble, la aceeași claritate. Practic, ceea ce Hubble ar face în sute de expuneri separate, cusute apoi cap la cap, Roman poate face într-una singură. De-aici vine și miza recensământului de exoplanete: în loc să caute planete stea cu stea, Roman poate scana simultan milioane de stele dintr-o zonă întinsă a galaxiei, folosind metoda microlentilei gravitaționale (când o stea din prim-plan mărește temporar lumina unei stele din fundal, iar o planetă din jurul ei lasă o semnătură detectabilă în acea deformare)."
+  },
+  "persoane": []
+}
