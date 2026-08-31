@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 31 Aug 2026 10:54:36 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 11:03:36 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JWST a găsit un obiect nou: o „stea-gaură neagră” din zorii universului, publicată în Nature</title>
+      <link>https://farabaliverne.ro/a/jwst-mom-bh1-stea-gaura-neagra-zorii-universului.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/jwst-mom-bh1-stea-gaura-neagra-zorii-universului.html</guid>
+      <pubDate>Mon, 31 Aug 2026 07:54:42 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat în Nature pe 12 august 2026 descrie MoM-BH*-1, un obiect observat la 660 de milioane de ani după Big Bang: o gaură neagră de circa 100.000 de mase solare, învăluită într-un cocon dens de gaz care o face să strălucească precum o stea uriașă. Autorii spun că fenomenul ar putea explica misterioasele „puncte roșii mici” din imaginile telescopului spațial James Webb — dar avertizează ei înșiși că e prea devreme pentru concluzii ferme.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>ADN dintr-un specimen de muzeu vechi de 190 de ani confirmă o specie distinctă de pangolin în Himalaya</title>
       <link>https://farabaliverne.ro/a/pangolin-himalayan-specie-noua-adn-muzeu-1836.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, pe baza comunicatului oficial al Băncii Coreei și a 
       <description>Comitetul executiv al Băncii Naționale a Moldovei a majorat, pe 6 august 2026, rata de bază de la 7% la 7,5% pe an — cel mai ridicat nivel din ultimii trei ani. Decizia vine în contextul unei „presiuni inflaționiste persistente”, spune BNM, deși inflația a scăzut ușor în trimestrul trei. În aceeași perioadă, creditele de consum și cele ipotecare au atins niveluri record, iar un economist spune că fenomenul e „greu de înțeles”.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Parlamentul de la Chișinău schimbă regulile alegerilor din Găgăuzia. Comratul spune că autonomia „își pierde competențele”</title>
-      <link>https://farabaliverne.ro/a/gagauzia-reforma-electorala-sistem-proportional-consiliu.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/gagauzia-reforma-electorala-sistem-proportional-consiliu.html</guid>
-      <pubDate>Fri, 28 Aug 2026 19:38:53 +0000</pubDate>
-      <category>Politică</category>
-      <description>Pe 24-25 august 2026, Parlamentul Republicii Moldova a votat în lectură finală modificări la Codul electoral care schimbă, începând cu următorul ciclu, sistemul de alegere a Adunării Populare a Găgăuziei dintr-unul uninominal într-unul proporțional și restructurează Consiliul Electoral Central al autonomiei. Majoritatea parlamentară invocă o decizie a Curții Constituționale și recomandări OSCE/ODIHR; Adunarea Populară a Găgăuziei a cerut, fără succes, retragerea proiectului, iar un fost bașcan spune că autonomia „își pierde competențele”.
-
-Unde bat probele: Contestat. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
