@@ -5,7 +5,7 @@
   "date": "2026-08-31",
   "source": "EVZ / Puterea.ro / RomâniaTV",
   "url": "https://evz.ro/claudiu-manda-anunta-ca-psd-are-voturile-pentru-un-guvern-minoritar-sorin-grindeanu-singura-optiune-de-premier.html",
-  "dek": "La ședința conducerii PSD de luni, 31 august 2026, de la Sinaia, secretarul general Claudiu Manda a spus că partidul „are” voturile pentru un guvern minoritar și că Sorin Grindeanu e „singura” variantă de premier acceptată de social-democrați. România e fără guvern cu puteri depline de 118 zile, iar președintele Nicușor Dan a anunțat consultări cu partidele pentru 1 septembrie. Cifrele vehiculate în presă despre cele 233 de voturi necesare rămân, deocamdată, o sumă de promisiuni politice, nu un rezultat verificat.",
+  "dek": "La ședința conducerii PSD de luni, 31 august 2026, de la Sinaia, secretarul general Claudiu Manda a spus că partidul „are” voturile pentru un guvern minoritar și că Sorin Grindeanu e „singura” variantă de premier acceptată de social-democrați — iar Consiliul Politic Național a votat oficial că PSD susține doar un guvern minoritar propriu sau unul „format în jurul PSD”, fără să voteze un Executiv din care nu face parte. România e fără guvern cu puteri depline de 118 zile, iar președintele Nicușor Dan a anunțat consultări cu partidele pentru 1 septembrie. Cifrele vehiculate în presă despre cele 233 de voturi necesare rămân, deocamdată, o sumă de promisiuni politice, nu un rezultat verificat.",
   "mainVerdict": "Probat, cu rezerve",
   "probat": [
     {
@@ -49,6 +49,19 @@
         {
           "name": "DCNews — Planul lui Nicușor Dan pentru Guvern. UDMR a spus pe cine votează premier",
           "url": "https://www.dcnews.ro/planul-lui-nicusor-dan-pentru-guvern-udmr-a-spus-pe-cine-voteaza-premier_1079343.html"
+        }
+      ]
+    },
+    {
+      "text": "La finalul ședinței, Consiliul Politic Național al PSD a adoptat trei rezoluții: partidul va susține fie un guvern minoritar PSD, fie un guvern „format în jurul PSD” (cu participarea posibilă a altor forțe, printre care UDMR), dar nu va vota niciun Guvern din care nu face parte. Prim-vicepreședintele PSD, Ionuț Pucheanu, a declarat: „Evident că, pentru noi, Sorin Grindeanu este prima opțiune. Dar, dacă președintele vine cu altă nominalizare...” — lăsând loc de negociere pe numele premierului, deși varianta liberalului Siegfried Mureșan a fost exclusă explicit de PSD.",
+      "sources": [
+        {
+          "name": "Digi24 — Social-democrații au votat: Guvern propriu sau în jurul PSD, variantele puse pe masa lui Nicușor Dan",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/liderii-psd-i-au-chemat-pe-social-democratii-din-tara-la-sinaia-pentru-a-stabili-ce-guvern-vor-sustine-variantele-puse-pe-masa-3928157"
+        },
+        {
+          "name": "Gândul — PSD, ședință Sinaia: rezoluție guvern",
+          "url": "https://www.gandul.ro/politica/psd-sedinta-sinaia-rezolutie-guvern-20994373"
         }
       ]
     }
@@ -95,6 +108,7 @@
   "persoane": [
     "Claudiu Manda",
     "Sorin Grindeanu",
-    "Nicușor Dan"
+    "Nicușor Dan",
+    "Ionuț Pucheanu"
   ]
 }
