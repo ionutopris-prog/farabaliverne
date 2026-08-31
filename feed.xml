@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 31 Aug 2026 18:25:21 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 18:27:22 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TASS: un activist pro-rus acuză Moldova că transportă armament pentru Ucraina pe calea ferată. Calea Ferată a Moldovei spune că sunt doar cereale</title>
+      <link>https://farabaliverne.ro/a/moldova-tass-sorokin-armament-cale-ferata-dezinformare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-tass-sorokin-armament-cale-ferata-dezinformare.html</guid>
+      <pubDate>Mon, 31 Aug 2026 15:25:37 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>Pe 26 august 2026, agenția de stat rusă TASS a preluat declarația lui Dmitri Sorokin, șeful unei organizații pro-Kremlin de la Sankt Petersburg, potrivit căruia Moldova și-ar fi pus calea ferată la dispoziția Ucrainei pentru transportul de armament și ar urma să-i transfere 20 de locomotive. Ce SUSȚINE sursa rusă și ce arată, în fapt, datele oficiale ale Căii Ferate a Moldovei despre marfa aflată în tranzit.
+
+Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>PSD spune că are voturile pentru un guvern minoritar cu Grindeanu premier, în ziua în care Nicușor Dan pregătește consultările pentru 1 septembrie</title>
       <link>https://farabaliverne.ro/a/psd-sinaia-voturi-guvern-minoritar-grindeanu-31-august.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Opinie. Verificate: 3 probate, 0 contestate.</description>
       <description>Mohsen Rezaei, secretarul Consiliului Suprem de Securitate Națională al Iranului, a declarat pe 27 august 2026 că Teheranul pregătește condiții pentru redeschiderea Strâmtorii Hormuz — inclusiv încetarea războiului regional — și susține că Iranul a convenit cu Omanul un coridor naval prin strâmtoare. Partea Omaneză nu a confirmat public un acord încheiat; SUA s-au retras din negocieri în favoarea presiunii economice.
 
 Unde bat probele: Probat parțial — condițiile iraniene sunt reale, „acordul” cu Omanul rămâne neconfirmat de partea terță. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Presa de stat iraniană: armata a trecut la o doctrină „ofensivă” și numește atacul asupra bazei americane din Iordania „acțiune preventivă legitimă”. Ce spune Rezoluția ONU 2817</title>
-      <link>https://farabaliverne.ro/a/iran-doctrina-ofensiva-akraminia-iordania-onu-2817.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/iran-doctrina-ofensiva-akraminia-iordania-onu-2817.html</guid>
-      <pubDate>Sat, 29 Aug 2026 04:04:39 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Ce SUSȚINE presa de stat iraniană (PressTV): generalul Mohammad Akraminia a declarat pe 26 august 2026 că armata iraniană a trecut de la o doctrină „defensivă” la una „ofensivă”, iar loviturile asupra unei baze americane din Iordania au fost „acțiune preventivă legitimă conform dreptului internațional”. Punem afirmația alături de Rezoluția 2817 a Consiliului de Securitate ONU, adoptată aproape unanim, care condamnă aceste atacuri. NU prezentăm poziția oficialului iranian ca fapt stabilit; cititorul concluzionează.
-
-Unde bat probele: Contestat. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
