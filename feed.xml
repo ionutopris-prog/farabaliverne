@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 31 Aug 2026 10:52:07 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 10:54:36 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ADN dintr-un specimen de muzeu vechi de 190 de ani confirmă o specie distinctă de pangolin în Himalaya</title>
+      <link>https://farabaliverne.ro/a/pangolin-himalayan-specie-noua-adn-muzeu-1836.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/pangolin-himalayan-specie-noua-adn-muzeu-1836.html</guid>
+      <pubDate>Mon, 31 Aug 2026 07:52:19 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu internațional, publicat în Communications Biology, a folosit ADN dintr-un specimen colectat în 1836 în Nepal pentru a confirma că pangolinii din Himalaya formează o specie distinctă — Manis aurita — separată de pangolinul chinezesc. Descoperirea tranșează și o dispută de denumire din 2025 și ar putea ajuta la combaterea traficului cu solzi de pangolin, cel mai traficat mamifer din lume.
+
+Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Un studiu australian: nivelul de bicarbonat din sângele americanilor a crescut odată cu CO2 din atmosferă</title>
       <link>https://farabaliverne.ro/a/co2-bicarbonat-sange-nhanes-studiu-2026.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
       <description>Pe 24-25 august 2026, Parlamentul Republicii Moldova a votat în lectură finală modificări la Codul electoral care schimbă, începând cu următorul ciclu, sistemul de alegere a Adunării Populare a Găgăuziei dintr-unul uninominal într-unul proporțional și restructurează Consiliul Electoral Central al autonomiei. Majoritatea parlamentară invocă o decizie a Curții Constituționale și recomandări OSCE/ODIHR; Adunarea Populară a Găgăuziei a cerut, fără succes, retragerea proiectului, iar un fost bașcan spune că autonomia „își pierde competențele”.
 
 Unde bat probele: Contestat. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Universitatea Craiova, eliminată din Europa League de Ararat-Armenia, cu un penalty repetat în minutul 90+8</title>
-      <link>https://farabaliverne.ro/a/craiova-ararat-armenia-eliminare-europa-league-penalty-repetat.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/craiova-ararat-armenia-eliminare-europa-league-penalty-repetat.html</guid>
-      <pubDate>Fri, 28 Aug 2026 17:37:53 +0000</pubDate>
-      <category>Sport</category>
-      <description>Ararat-Armenia a învins-o pe Universitatea Craiova cu 1-0 în manșa retur a play-off-ului Europa League, joi, 27 august 2026, cu un gol marcat din penalty repetat, în minutul 90+8. Cu 1-1 în tur, campioana României a fost eliminată la general (1-2) și va juca în schimb faza principală a Conference League.
-
-Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
