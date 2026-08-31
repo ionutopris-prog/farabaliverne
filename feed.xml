@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 31 Aug 2026 23:17:59 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 23:21:35 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Trump anunță „cel mai mare acord petrolier din istorie” cu Venezuela — durata concesiunii, operatorul privat și legalitatea rămân disputate</title>
+      <link>https://farabaliverne.ro/a/trump-venezuela-acord-petrolier-65-miliarde-barili.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/trump-venezuela-acord-petrolier-65-miliarde-barili.html</guid>
+      <pubDate>Mon, 31 Aug 2026 20:18:10 +0000</pubDate>
+      <category>Economie</category>
+      <description>Donald Trump a anunțat pe 29 august 2026 un acord prin care o companie nouă, cu capital american, ar urma să controleze 55% din producția a 17 zăcăminte petroliere venezuelene, cu 65 de miliarde de barili de rezerve. Trump spune că nu costă nimic contribuabilii americani și că va scădea prețul benzinei; identitatea reală a capacității financiare a operatorului privat, durata exactă a concesiunii (100 sau 25 de ani, în funcție de sursă) și legalitatea acordului față de Constituția Venezuelei rămân disputate.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>Concertul de Ziua Independenței a costat aproape 10 milioane de lei, fără licitație publică. Guvernul spune că a „redus costurile cu 21%”</title>
       <link>https://farabaliverne.ro/a/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — cifrele vin din date oficiale ICE, verificate de un
       <description>Ancheta (inquest) redeschisă asupra morții liderului anti-apartheid Steve Biko, mort în custodia poliției sud-africane în 1977, a intrat efectiv în ședințe pe 24 august 2026 la Înalta Curte din Gqeberha. Doar doi din opt martori la evenimentele din jurul morții lui mai sunt în viață, iar familia cere ca fostul spion al apartheidului Craig Williamson să fie citat să depună mărturie.
 
 Unde bat probele: Probat — reluarea procesului e confirmată de mai multe surse independente; rămân deschise chestiuni de procedură și răspundere. Verificate: 6 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Ceban spune că apa de pe Nistru e „sperietură” a autorităților. În aceeași zi, Comisia moldo-ucraineană reducea deversările de urgență la 60 m³/s</title>
-      <link>https://farabaliverne.ro/a/moldova-ceban-hajder-criza-apei-nistru-comisia-60-m3s.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-ceban-hajder-criza-apei-nistru-comisia-60-m3s.html</guid>
-      <pubDate>Sat, 29 Aug 2026 13:22:35 +0000</pubDate>
-      <category>Politică</category>
-      <description>Primarul Chișinăului, Ion Ceban, a acuzat pe 28 august autoritățile centrale că „sperie oamenii” cu o criză a apei pe Nistru care, spune el, nu există — la Nord, la Dubăsari, nivelurile ar fi cele mai ridicate din vară. În aceeași zi, ministrul Mediului, Gheorghe Hajder, îi răspundea cu alte cifre, iar Comisia Nistreană moldo-ucraineană decidea, tot pe 28 august, să reducă temporar deversările din lacul Novodnestrovsk, aflat aproape de un nivel considerat critic.
-
-Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
