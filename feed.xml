@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 31 Aug 2026 18:28:56 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 18:29:20 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Concertul de Ziua Independenței a costat aproape 10 milioane de lei, fără licitație publică. Guvernul spune că a „redus costurile cu 21%”</title>
+      <link>https://farabaliverne.ro/a/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.html</guid>
+      <pubDate>Mon, 31 Aug 2026 15:29:08 +0000</pubDate>
+      <category>Economie</category>
+      <description>O investigație RISE Moldova, publicată pe 29 august 2026, a arătat că bugetul concertului de 35 de ani de independență a crescut de la 500.000 la 10 milioane de lei, iar contractul a fost atribuit direct instituției „Moldova-Concert”, fără licitație publică. Guvernul răspunde că a renegociat și a redus suma cu 2,75 milioane de lei față de varianta inițială — dar nu răspunde la întrebarea de ce nu a organizat o licitație pentru o sărbătoare care are, în fiecare an, aceeași dată fixă.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Premierul Tofan: „Nu cred că vom putea ajuta 80% dintre gospodării” cu compensații la energie, în iarna care vine</title>
       <link>https://farabaliverne.ro/a/moldova-tofan-compensatii-iarna-80-la-suta-gospodarii.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — reluarea procesului e confirmată de mai multe surs
       <description>Primarul Chișinăului, Ion Ceban, a acuzat pe 28 august autoritățile centrale că „sperie oamenii” cu o criză a apei pe Nistru care, spune el, nu există — la Nord, la Dubăsari, nivelurile ar fi cele mai ridicate din vară. În aceeași zi, ministrul Mediului, Gheorghe Hajder, îi răspundea cu alte cifre, iar Comisia Nistreană moldo-ucraineană decidea, tot pe 28 august, să reducă temporar deversările din lacul Novodnestrovsk, aflat aproape de un nivel considerat critic.
 
 Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Claudiu Năsui a depus jurământul ca ministru la Chișinău. De la „nu are nevoie de traducător” la „se face Unirea la foc încet” — reacțiile din clasa politică</title>
-      <link>https://farabaliverne.ro/a/moldova-nasui-juramant-reactii-usatii-ceban-dodon.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-nasui-juramant-reactii-usatii-ceban-dodon.html</guid>
-      <pubDate>Sat, 29 Aug 2026 13:22:35 +0000</pubDate>
-      <category>Politică</category>
-      <description>Fostul deputat român USR Claudiu Năsui a depus jurământul pe 28 august 2026 ca ministru al Dezvoltării Economice și Digitalizării al R. Moldova, după ce a primit cetățenia moldovenească prin decret prezidențial. Numirea a stârnit un val de reacții la Chișinău — de la ironia liderului Partidului Nostru, Renato Usatîi, la acuzația de „predare a țării” venită de la Moscova (relatată separat) și la o speculație unionistă a fostului președinte Igor Dodon. Punem alături ce a spus fiecare, ca declarație de opinie, nu ca fapt stabilit.
-
-Unde bat probele: Opinie. Verificate: 3 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
