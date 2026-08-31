@@ -5,7 +5,7 @@
     "date": "2026-08-12",
     "source": "Democracy Docket",
     "url": "https://www.democracydocket.com/news-alerts/federal-judge-blocks-trumps-anti-mail-voting-executive-order-again-this-time-nationwide/",
-    "dek": "🌍 Judecătoarea federală Indira Talwani (Massachusetts) a extins, pe 11 august 2026, la nivel național injoncțiunea care blochează Secțiunea 3 din Ordinul Executiv 14399 al lui Donald Trump — care cerea USPS să refuze livrarea buletinelor de vot prin corespondență pentru alegătorii neînscriși pe liste aprobate de stat. Administrația a cerut deja Curții Supreme să suspende decizia; cererea era încă în așteptare la data verificării.",
+    "dek": "🌍 Judecătoarea federală Indira Talwani (Massachusetts) a extins, pe 11 august 2026, la nivel național injoncțiunea care blochează Secțiunea 3 din Ordinul Executiv 14399 al lui Donald Trump — care cerea USPS să refuze livrarea buletinelor de vot prin corespondență pentru alegătorii neînscriși pe liste aprobate de stat. UPDATE 31 august: Curtea Supremă a ridicat pe 24 august, cu 6 voturi la 3, acea injoncțiune națională — dar pe motive procedurale (cauza nu era încă „coaptă” pentru judecată), nu pentru că ar fi validat ordinul lui Trump. Patru zile mai târziu, Talwani a impus un nou blocaj temporar de 14 zile asupra regulilor finale ale USPS.",
     "mainVerdict": "Probat",
     "probat": [
         {
@@ -35,6 +35,14 @@
                 {"name": "SCOTUSblog — administrația Trump cere Curții Supreme să deschidă calea noilor restricții la votul prin corespondență", "url": "https://www.scotusblog.com/2026/07/trump-administration-asks-supreme-court-to-clear-the-way-for-new-mail-in-voting-restrictions/"},
                 {"name": "The Boston Globe — Trump, Curtea Supremă și ordinul privind votul prin corespondență", "url": "https://www.bostonglobe.com/2026/07/27/nation/trump-supreme-court-mail-voting-order/"}
             ]
+        },
+        {
+            "text": "Pe 24 august 2026, Curtea Supremă a ridicat, cu 6 voturi la 3 (cei trei judecători numiți de președinți democrați, în minoritate), injoncțiunea națională a Talwani — dar pe temei procedural: majoritatea a considerat că litigiul nu era încă „copt” pentru judecată, pentru că directivele (către DHS, procurori și USPS) nu produseseră încă un prejudiciu concret, iar regula finală a USPS era doar în curs de elaborare. Judecătoarea Sonia Sotomayor, în opinia separată alături de Elena Kagan, a scris că decizia „doar amână judecata” fără să tranșeze legalitatea ordinului, iar judecătoarea Ketanji Brown Jackson a subliniat explicit că hotărârea „nu se pronunță asupra legalității” tentativelor președintelui de a interveni în alegeri. Patru zile mai târziu, joi 28 august, Talwani a impus un nou blocaj temporar de 14 zile asupra unor părți din regula finală a USPS (care cerea statelor să pună identificatori unici pe plicurile de vot), motivând că statele reclamante riscă un prejudiciu ireparabil — unele fiind obligate prin lege să trimită deja buletinele către alegători. O nouă audiere e programată pe 3 septembrie 2026.",
+            "sources": [
+                {"name": "SCOTUSblog — Curtea Supremă permite administrației Trump să avanseze cu ordinul privind votul prin corespondență", "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/"},
+                {"name": "Votebeat — Curtea Supremă ridică una din cele două injoncțiuni asupra ordinului lui Trump", "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"},
+                {"name": "Axios — Judecătoarea ridică blocajul național asupra ordinului lui Trump", "url": "https://www.axios.com/2026/08/26/trump-mail-voting-rules-nationwide-injunction"}
+            ]
         }
     ],
     "contestat": [
@@ -48,6 +56,6 @@
     ],
     "opinie": [],
     "math": null,
-    "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am separat strict faptul juridic (ce a decis judecătoarea Talwani pe 11 august 2026) de pozițiile aflate în dispută ale părților (reclamanții civici vs. administrația Trump), care rămân contestate și urmează să fie soluționate de instanțele superioare. Nu prezentăm nicio parte drept „mincinoasă” — doar ce a decis instanța și ce susține fiecare tabără. Cererea de urgență a administrației la Curtea Supremă era încă în așteptare la data verificării; rezultatul ei poate schimba situația descrisă aici.",
+    "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am separat strict faptul juridic (ce a decis judecătoarea Talwani pe 11 august, apoi Curtea Supremă pe 24 august și din nou Talwani pe 28 august 2026) de pozițiile aflate în dispută ale părților (reclamanții civici vs. administrația Trump), care rămân contestate și urmează să fie soluționate de instanțele superioare. Important de reținut: decizia Curții Supreme din 24 august NU a validat ordinul lui Trump pe fond — a fost o decizie procedurală, pe motiv că litigiul nu era încă „copt”, iar chiar judecătorii din majoritate au scris explicit că nu se pronunță asupra legalității. Cine ar citi doar titlul „Curtea Supremă permite lui Trump să meargă mai departe” ar putea crede că bătălia juridică s-a încheiat — nu e cazul; ea continuă la Talwani, cu o nouă audiere pe 3 septembrie 2026. Nu prezentăm nicio parte drept „mincinoasă” — doar ce a decis instanța și ce susține fiecare tabără.",
     "persoane": ["Donald Trump"]
 }
