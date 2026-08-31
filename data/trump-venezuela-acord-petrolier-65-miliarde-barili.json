@@ -1,0 +1,76 @@
+{
+    "slug": "trump-venezuela-acord-petrolier-65-miliarde-barili",
+    "title": "Trump anunță „cel mai mare acord petrolier din istorie” cu Venezuela — durata concesiunii, operatorul privat și legalitatea rămân disputate",
+    "category": "Economie",
+    "date": "2026-08-31",
+    "source": "CNBC / PBS NewsHour / Yahoo Finance",
+    "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
+    "dek": "Donald Trump a anunțat pe 29 august 2026 un acord prin care o companie nouă, cu capital american, ar urma să controleze 55% din producția a 17 zăcăminte petroliere venezuelene, cu 65 de miliarde de barili de rezerve. Trump spune că nu costă nimic contribuabilii americani și că va scădea prețul benzinei; identitatea reală a capacității financiare a operatorului privat, durata exactă a concesiunii (100 sau 25 de ani, în funcție de sursă) și legalitatea acordului față de Constituția Venezuelei rămân disputate.",
+    "mainVerdict": "Probat, cu rezerve",
+    "probat": [
+        {
+            "text": "Pe 29 august 2026, Donald Trump a anunțat un acord cu guvernul interimar al Venezuelei, condus de Delcy Rodríguez, negociat de secretarul de stat Marco Rubio și secretarul apărării Pete Hegseth. Acordul creează o companie nouă, cu capital mixt — guvernul american și un operator privat american — care ar prelua exploatarea a 17 zăcăminte petroliere venezuelene neexploatate, cu rezerve dovedite de 65 de miliarde de barili. Compania nouă ar urma să dea SUA 55% din producția efectivă, printr-o combinație de participație și drept de cumpărare a petrolului la preț de cost.",
+            "sources": [
+                {"name": "CNBC — Trump anunță acordul cu Venezuela pentru 65 de miliarde de barili de rezerve", "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"},
+                {"name": "NBC News — SUA a încheiat un acord cu Venezuela pentru controlul a 65 de miliarde de barili", "url": "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966"},
+                {"name": "PBS NewsHour — Ce știm despre acordul lui Trump care dă SUA acces la rezervele Venezuelei", "url": "https://www.pbs.org/newshour/politics/what-we-know-about-trumps-deal-giving-u-s-access-to-vast-oil-reserves-in-venezuela"}
+            ]
+        },
+        {
+            "text": "Trump a calificat acordul drept „cel mai mare acord petrolier din istoria lumii”, spunând că vine „fără niciun cost” pentru contribuabilii americani și că va contribui la scăderea „substanțială” a prețului benzinei în SUA pe termen lung. Administrația estimează un potențial de investiții de peste 100 de miliarde de dolari în industria petrolieră venezueleană și venituri fiscale de circa 209 miliarde de dolari pentru Caracas.",
+            "sources": [
+                {"name": "NPR — Trump spune că SUA a încheiat un acord cu Venezuela pentru controlul a 65 de miliarde de barili", "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves"},
+                {"name": "The Hill — Trump spune că SUA a obținut controlul majoritar asupra unei mari părți din rezervele Venezuelei", "url": "https://thehill.com/homenews/administration/6058643-trump-says-he-secured-majority-u-s-control-of-large-slice-of-venezuelas-oil-reserve/"}
+            ]
+        },
+        {
+            "text": "Delcy Rodríguez conduce guvernul interimar al Venezuelei de la capturarea lui Nicolás Maduro de către forțele americane, în ianuarie 2026 — un fapt verificat independent într-o verificare anterioară a acestei redacții. Guvernul ei nu a fost ales, iar un calendar electoral nu a fost stabilit public. Rodríguez a numit acordul „istoric” și a spus că va avea „un impact mare asupra vieții venezuelenilor pe termen lung”, transformând rezervele petroliere „în bunăstare și prosperitate” pentru țară.",
+            "sources": [
+                {"name": "Venezuelanalysis — Rodríguez laudă acordul petrolier cu Trump, promite „bunăstare și prosperitate”", "url": "https://venezuelanalysis.com/news/venezuela-rodriguez-touts-trump-oil-deal-promises-welfare-and-prosperity/"},
+                {"name": "Fortune — Venezuelenii critică acordul guvernului lor care cedează rezerve vaste SUA", "url": "https://fortune.com/2026/08/30/venezuela-oil-reserves-trump-us-access-delcy-rodriguez/"}
+            ]
+        }
+    ],
+    "contestat": [
+        {
+            "text": "Durata reală a concesiunii diferă între surse și nu a fost clarificată public de nicio parte. Majoritatea agențiilor americane (CNBC, PBS, NBC, ABC) au scris, pe baza declarațiilor lui Trump, despre o concesiune de 100 de ani. Venezuelanalysis, citând propria informare despre acord, a scris despre un contract de 25 de ani pentru operatorii privați, cu un preț fix de 19 dolari pe baril pentru Venezuela și o participație suplimentară de 35% a SUA în compania de operare. Textul integral al acordului nu a fost făcut public, așa că discrepanța nu poate fi verificată direct la sursă.",
+            "sources": [
+                {"name": "PBS NewsHour — concesiune de 100 de ani pentru 17 zăcăminte", "url": "https://www.pbs.org/newshour/politics/what-we-know-about-trumps-deal-giving-u-s-access-to-vast-oil-reserves-in-venezuela"},
+                {"name": "Venezuelanalysis — „cel mai mare acord petrolier”: leasing de 100 de ani, actualizat cu detalii despre 25 de ani și 19 $/baril", "url": "https://venezuelanalysis.com/news/trump-biggest-oil-deal-100-year-lease-of-venezuelan-oil-reserves/"}
+            ]
+        },
+        {
+            "text": "Identitatea operatorului privat nu a fost dezvăluită la anunț; relatări ulterioare l-au identificat drept North American Blue Energy Partners — o firmă despre care Yahoo Finance scrie explicit că „nu e suficient de mare încât să pună singură banii” necesari pentru investiția de 100 de miliarde de dolari promisă de Trump. Administrația nu a clarificat public de unde ar urma să vină efectiv acei bani, deși Trump a exclus fondurile contribuabililor. Rămân nelămurite și dacă producția va crește în timpul mandatului lui Trump (până în ianuarie 2029) și dacă marile companii petroliere americane vor investi efectiv, având în vedere litigiile vechi nerezolvate din Venezuela.",
+            "sources": [
+                {"name": "Yahoo Finance — Acordul lui Trump cu Venezuela lasă nelămurită întrebarea de 100 de miliarde de dolari", "url": "https://finance.yahoo.com/energy/articles/trump-venezuela-deal-leaves-100-155334143.html"}
+            ]
+        },
+        {
+            "text": "Chiar secretarul de stat Marco Rubio a spus că „nicio companie petrolieră americană mare nu va lua asta în serios, pentru că știu că nu va dura” — o rezervă venită din interiorul administrației, nu din exterior. Bob McNally, fost consilier energetic în administrația George W. Bush, a spus că investitorii vor rămâne precauți chiar dacă termenii acordului, odată publicați, trec testul legal, pentru că „un viitor președinte ar putea renunța, iar Caracas a expulzat de două ori investitori străini” în trecut.",
+            "sources": [
+                {"name": "PBS NewsHour — scepticismul lui Rubio și al analiștilor energetici", "url": "https://www.pbs.org/newshour/politics/what-we-know-about-trumps-deal-giving-u-s-access-to-vast-oil-reserves-in-venezuela"}
+            ]
+        },
+        {
+            "text": "Legalitatea acordului e disputată chiar în interiorul Venezuelei. Constituția venezueleană prevede că resursele minerale și hidrocarburile sunt „bunuri de domeniu public inalienabile” ale statului. Economistul Ricardo Hausmann (Harvard) a numit acordul „expropriere de active” și neconstituțional, iar economistul Francisco Rodríguez a pus la îndoială dacă un acord de această amploare nu ar necesita aprobarea Parlamentului, potrivit Constituției. Criticii spun că guvernul interimar, neales, al Delcyei Rodríguez nu are legitimitatea sau puterea constituțională de a angaja Venezuela într-un asemenea contract. Aceasta este o dispută juridică reală, nesoluționată de o instanță — nu un fapt stabilit.",
+            "sources": [
+                {"name": "LatinTimes — Economist de la Harvard numește acordul „rușinos”, Rodríguez și Trump se contrazic", "url": "https://www.latintimes.com/harvard-economist-calls-venezuela-oil-deal-shameful-rodriguez-trump-contradict-each-other-598852"},
+                {"name": "Fortune (opinie) — Acordul secret al lui Trump cu Delcy Rodríguez e ilegitim", "url": "https://fortune.com/2026/08/31/venezuela-trump-oil-deal-delcy-rodriguez-illegitimate-illegal-unhelpful/"}
+            ]
+        }
+    ],
+    "opinie": [
+        {
+            "text": "Reacțiile din interiorul taberei chaviste sunt împărțite. Fiul lui Nicolás Maduro și Partidul Socialist Unit al Venezuelei (PSUV) au anunțat „sprijin deplin” pentru Rodríguez și acord. În același timp, zeci de chaviști au protestat, cerând eliberarea lui Maduro și a Ciliei Flores și numind acordul o „trădare” a suveranității naționale asupra resurselor petroliere ale țării.",
+            "sources": [
+                {"name": "Fortune — Venezuelenii critică acordul guvernului lor care cedează rezerve vaste SUA", "url": "https://fortune.com/2026/08/30/venezuela-oil-reserves-trump-us-access-delcy-rodriguez/"}
+            ]
+        }
+    ],
+    "math": {
+        "title": "100 de ani sau 25? Aceeași concesiune, două cifre diferite",
+        "explanation": "Marea presă americană (CNBC, PBS, NBC, ABC), pe baza declarațiilor lui Trump, a scris despre o concesiune de 100 de ani. Venezuelanalysis, citând propria informare directă despre textul acordului, a scris despre un contract de 25 de ani, cu 19 dolari pe baril fixați pentru Venezuela. Nicio parte n-a corectat public discrepanța, iar acordul în sine nu a fost publicat — deci cifra corectă nu poate fi verificată independent la data acestei verificări."
+    },
+    "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: existența acordului, structura lui de bază (55% din producție pentru SUA, 17 zăcăminte, 65 de miliarde de barili) și cifrele pe care Trump le-a pus public — pe baza a șapte agenții și publicații americane independente (CNBC, NBC, PBS, NPR, The Hill, Yahoo Finance, Fortune).\n\nUnde se despart sursele: durata concesiunii (100 vs. 25 de ani) și, implicit, valoarea reală pe termen lung a acordului pentru fiecare parte. Diferența vine probabil din faptul că textul integral al acordului nu a fost publicat — presa lucrează din declarații și din surse neoficiale, nu din document.\n\nCe lipsește: identitatea completă și capacitatea financiară reală a operatorului privat (North American Blue Energy Partners, o firmă despre care chiar sursele americane spun că nu poate finanța singură investiția promisă), sursa efectivă a celor 100 de miliarde de dolari anunțați, și un răspuns juridic din partea unei instanțe venezuelene sau internaționale la criticile de neconstituționalitate.\n\nCe ar schimba concluzia: publicarea textului integral al acordului ar limpezi disputa privind durata și procentele; o decizie a unei instanțe (venezuelene sau internaționale) ar limpezi disputa privind legalitatea; iar prima livrare reală de investiții sau petrol ar arăta dacă acordul e mai mult decât un anunț politic. Nu prezentăm nicio declarație a lui Trump sau a lui Rodríguez drept minciună — arătăm doar ce se poate verifica independent și ce rămâne, la această oră, doar afirmat.",
+    "persoane": ["Donald Trump"]
+}
