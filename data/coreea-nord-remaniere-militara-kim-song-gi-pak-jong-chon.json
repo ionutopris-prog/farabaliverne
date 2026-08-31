@@ -1,0 +1,57 @@
+{
+  "slug": "coreea-nord-remaniere-militara-kim-song-gi-pak-jong-chon",
+  "title": "Coreea de Nord schimbă ministrul apărării — KCNA anunță că Kim Song-gi îl înlocuiește pe No Kwang-chol, iar Pak Jong-chon revine în comisia militară",
+  "category": "Media de stat",
+  "date": "2026-08-30",
+  "source": "KCNA (media de stat, Coreea de Nord) — via Korea Times, Reuters, The Japan Times",
+  "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20260830/n-korea-names-new-defense-minister-amid-modernization-drive",
+  "dek": "📡 Agenția de stat nord-coreeană KCNA a anunțat duminică, 30 august 2026, că Kim Jong-un a decis o remaniere a conducerii militare: Kim Song-gi devine ministrul apărării, în locul lui No Kwang-chol, iar veteranul Pak Jong-chon revine ca vicepreședinte al Comisiei Militare Centrale. Faptul remanierii e confirmat independent de Reuters, Korea Times și The Japan Times, care au preluat anunțul KCNA — dar motivele reale rămân speculație, pentru că accesul independent la politica internă nord-coreeană nu există.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "KCNA a anunțat duminică, 30 august 2026, că la a doua ședință a Comisiei Militare Centrale din cadrul celui de-al 9-lea Congres al Partidului Muncii, ținută sâmbătă, 29 august, sub conducerea lui Kim Jong-un, Kim Song-gi — anterior director al Biroului Politic General al Armatei Populare Coreene — a fost numit ministru al Apărării Naționale, luând locul lui No Kwang-chol.",
+      "sources": [
+        {"name": "Korea Times — N. Korea names new defense minister amid modernization drive", "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20260830/n-korea-names-new-defense-minister-amid-modernization-drive"},
+        {"name": "Reuters (via Yahoo News) — North Korea names new defense minister, KCNA says", "url": "https://www.yahoo.com/news/articles/north-korea-names-defense-minister-092511452.html"}
+      ]
+    },
+    {
+      "text": "No Kwang-chol nu a fost înlăturat complet din structura de putere: a fost redirecționat ca prim-vicedirector al Departamentului Industriei Munițiilor al Partidului Muncitoresc.",
+      "sources": [
+        {"name": "Korea Times — N. Korea names new defense minister amid modernization drive", "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20260830/n-korea-names-new-defense-minister-amid-modernization-drive"}
+      ]
+    },
+    {
+      "text": "Veteranul militar Pak Jong-chon, înlăturat din conducere în februarie 2026, a fost repus în funcția de vicepreședinte al Comisiei Militare Centrale și realês în Comitetul Central și Biroul Politic al partidului — o poziție descrisă de presă drept cheie pentru supravegherea politicii militare nord-coreene.",
+      "sources": [
+        {"name": "The Japan Times — North Korea replaces defense minister in 'structural reorganization'", "url": "https://www.japantimes.co.jp/news/2026/08/30/asia-pacific/politics/north-korea-dismisses-defense-minister-in/"},
+        {"name": "Korea Times — N. Korea names new defense minister amid modernization drive", "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20260830/n-korea-names-new-defense-minister-amid-modernization-drive"}
+      ]
+    },
+    {
+      "text": "Remanierea a fost anunțată în aceeași perioadă în care Kim Jong-un a onorat public oameni de știință din domeniul apărării pentru progrese în „armamentul de luptă”, pe fondul apropierii tot mai vizibile a Phenianului de Moscova, în contextul războiului Rusiei împotriva Ucrainei.",
+      "sources": [
+        {"name": "Reuters (via Yahoo News) — North Korea names new defense minister, KCNA says", "url": "https://www.yahoo.com/news/articles/north-korea-names-defense-minister-092511452.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Motivul real al schimbării rămâne speculație. KCNA nu a explicat de ce a fost înlocuit No Kwang-chol, mulțumindu-se cu formule generice despre „realizări științifico-militare inovatoare” care ar fi deschis „perspective sigure” — limbaj de propagandă, nu o explicație verificabilă. Nu există surse independente cu acces la deliberările interne ale conducerii nord-coreene; tot ce știm despre motive vine filtrat prin KCNA.",
+      "sources": [
+        {"name": "The Japan Times — North Korea replaces defense minister in 'structural reorganization'", "url": "https://www.japantimes.co.jp/news/2026/08/30/asia-pacific/politics/north-korea-dismisses-defense-minister-in/"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Legătura pe care unele redacții o fac între remaniere și apropierea de Rusia e o interpretare a contextului, nu o cauzalitate confirmată oficial de Phenian."
+    }
+  ],
+  "math": {
+    "title": "A doua revenire a lui Pak Jong-chon în șase luni",
+    "explanation": "Pak Jong-chon fusese înlăturat din conducerea militară în februarie 2026. Numirea sa ca vicepreședinte al Comisiei Militare Centrale, pe 29 august, vine la aproximativ șase luni de la acea înlăturare — al doilea reviriment public al carierei sale în acest interval."
+  },
+  "aiNote": "📡 Sursa acestei știri e KCNA, agenția oficială de presă a Coreei de Nord — o etichetăm ca media de stat, așa cum facem cu orice afirmație care vine din presa controlată de un guvern. Faptul remanierii în sine e confirmat independent: Reuters, Korea Times și The Japan Times au preluat și verificat că anunțul a fost făcut, cu aceleași nume și funcții. Ce NU putem verifica independent sunt motivele din spatele deciziei — de ce exact acum, de ce No Kwang-chol a fost mutat (nu demis complet), ce rol joacă relația cu Moscova. Presa citată speculează pe marginea acestor întrebări, dar KCNA nu oferă explicații verificabile, iar Coreea de Nord nu permite acces independent la politica sa internă. Am marcat la „Contestat” exact acest gol de informație, ca să nu lăsăm impresia că motivul e stabilit.",
+  "persoane": []
+}
