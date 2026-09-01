@@ -1,0 +1,47 @@
+{
+  "slug": "china-xinhua-solar-depaseste-carbune-capacitate-instalata",
+  "title": "Xinhua anunță că solarul a depășit cărbunele în China „pentru prima dată” — dar doar la capacitatea instalată, nu la electricitatea produsă efectiv",
+  "category": "Media de stat",
+  "date": "2026-09-01",
+  "source": "Xinhua / Administrația Națională de Energie a Chinei / Hong Kong Free Press",
+  "url": "https://english.news.cn/20260901/8a28eff2a7314888bcb409867aabd4c9/c.html",
+  "dek": "📡 Administrația Națională de Energie a Chinei (NEA) a anunțat pe 1 septembrie 2026, prin agenția de stat Xinhua, că la sfârșitul lunii iulie capacitatea fotovoltaică instalată a țării (1,286 miliarde kW) a depășit-o pentru prima dată pe cea a cărbunelui (1,285 miliarde kW) — o diferență de sub 0,1%. Xinhua a numit momentul „o etapă importantă” a tranziției verzi, dar a omis cifra echivalentă pentru electricitatea produsă efectiv: în primele șapte luni din 2026, solarul a asigurat doar 13% din consumul chinez, iar cărbunele a rămas, potrivit datelor guvernamentale publicate în iulie, principala sursă de electricitate a țării, cu aproape jumătate din producție.",
+  "mainVerdict": "Probat, cu rezerve — cifra de capacitate e reală, dar cadrul de „prima sursă de energie” înșală asupra electricității produse",
+  "probat": [
+    {
+      "text": "Administrația Națională de Energie a Chinei a declarat, potrivit Xinhua, că „la sfârșitul lunii iulie a acestui an, capacitatea instalată de energie solară a Chinei a atins 1,286 miliarde kilowați” și că, „pentru prima dată, capacitatea instalată fotovoltaică a depășit-o pe cea a energiei pe cărbune, devenind cea mai mare categorie de sursă de energie din China” — cărbunele avea 1,285 miliarde kW instalați la aceeași dată, o diferență de aproximativ un milion de kilowați, sub 0,1% din total.",
+      "sources": [
+        {"name": "Xinhua — China's photovoltaic power capacity overtakes coal-fired power for first time", "url": "https://english.news.cn/20260901/8a28eff2a7314888bcb409867aabd4c9/c.html"},
+        {"name": "Hong Kong Free Press — China says solar power capacity surpasses coal for first time", "url": "https://hongkongfp.com/2026/09/01/china-says-solar-power-capacity-surpasses-coal-for-first-time/"}
+      ]
+    },
+    {
+      "text": "Energia fotovoltaică reprezenta la sfârșitul lui iulie peste 30% din capacitatea totală instalată a Chinei, iar dintre capacitățile noi adăugate în primele șapte luni din 2026, peste 40% au fost solare. Liu Zhiqiang, oficial al Consiliului Electricității din China, a declarat că „aceasta marchează o etapă importantă în tranziția energetică verde și cu emisii scăzute a Chinei”.",
+      "sources": [
+        {"name": "Xinhua — China's photovoltaic power capacity overtakes coal-fired power for first time", "url": "https://english.news.cn/20260901/8a28eff2a7314888bcb409867aabd4c9/c.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra anunțată de NEA e despre capacitatea instalată — câtă electricitate ar putea produce teoretic centralele dacă ar funcționa la capacitate maximă — nu despre electricitatea produsă efectiv. Chiar Xinhua citează, pentru aceeași perioadă (ianuarie-iulie 2026), o generare solară de 802,4 miliarde kWh, adică doar 13% din consumul total de electricitate al Chinei — un decalaj uriaș față de peste 30% din capacitatea instalată, explicabil prin faptul că panourile solare produc doar câteva ore pe zi, cu soare, în timp ce o centrală pe cărbune poate funcționa aproape non-stop.",
+      "sources": [
+        {"name": "Xinhua — China's photovoltaic power capacity overtakes coal-fired power for first time", "url": "https://english.news.cn/20260901/8a28eff2a7314888bcb409867aabd4c9/c.html"}
+      ]
+    },
+    {
+      "text": "Datele oficiale ale guvernului chinez, publicate în iulie 2026, arată că, în prima jumătate a anului, cărbunele a asigurat 49,7% din producția totală de electricitate a Chinei — sub 50% pentru prima dată în istorie, dar tot aproape jumătate din toată electricitatea generată în țară, de departe cea mai mare sursă unică. Eolianul și solarul la un loc au generat împreună aproape 25% din energie — solarul singur, mult mai puțin. Anunțul Xinhua despre „prima sursă de energie” omite complet aceste cifre de generare, care arată o realitate mai puțin spectaculoasă decât titlul.",
+      "sources": [
+        {"name": "China State Council (gov.cn) — China's coal-fired power output share falls below 50 pct for first time in H1", "url": "https://english.www.gov.cn/archive/statistics/202607/30/content_WS6a6b131ac6d00ca5f9a0c7c4.html"},
+        {"name": "Oilprice.com — Coal Falls Below 50% Of China's Power Mix For First Time Ever", "url": "https://oilprice.com/Latest-Energy-News/World-News/Coal-Falls-Below-50-Of-Chinas-Power-Mix-For-First-Time-Ever.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "1,286 vs 1,285 miliarde kW instalați — dar 13% vs ~50% din electricitatea produsă",
+    "explanation": "Diferența de capacitate instalată dintre solar (1,286 miliarde kW) și cărbune (1,285 miliarde kW) e de sub 0,1%, practic o egalitate statistică. Dar capacitatea instalată nu se traduce direct în electricitate produsă: în aceeași perioadă, solarul a generat doar 13% din consumul chinez, în timp ce cărbunele a rămas la aproape 50% din producția totală — un raport de aproximativ 4 la 1 în favoarea cărbunelui, explicat de „factorul de capacitate” mult mai mic al panourilor solare (funcționează doar cu soare, câteva ore pe zi) față de o centrală pe cărbune, care poate rula aproape non-stop."
+  },
+  "aiNote": "📡 Ce SUSȚINE presa de stat chineză (Xinhua, citând Administrația Națională de Energie): că, pentru prima dată, capacitatea instalată de energie solară a Chinei a depășit-o pe cea a cărbunelui, devenind „cea mai mare categorie de sursă de energie din țară” — prezentat ca „o etapă importantă” a tranziției verzi.\n\nCe s-a verificat exact: cifrele de capacitate instalată (1,286 miliarde kW solar vs. 1,285 miliarde kW cărbune, la sfârșitul lunii iulie 2026) provin dintr-un anunț oficial al NEA, reluat identic de Xinhua și confirmat de presa independentă (Hong Kong Free Press, Euronews) — nu există dubiu asupra acestei cifre punctuale.\n\nUnde se despart sursele: nu e o dispută asupra cifrei, ci asupra sensului ei. „Capacitate instalată” înseamnă cât ar putea produce teoretic o centrală la funcționare maximă, nu cât produce efectiv. Panourile solare au un „factor de capacitate” mult mai mic decât o termocentrală pe cărbune — funcționează doar când e soare, de obicei 15-20% din timp, față de 50-60% pentru cărbune. De aceea, deși capacitatea solară a depășit-o cu puțin pe cea a cărbunelui, electricitatea chiar produsă de solar (13% din consumul chinez pe primele șapte luni, chiar potrivit cifrei citate de Xinhua) rămâne mult sub cea produsă de cărbune (aproape 50% din total, potrivit datelor guvernamentale publicate în iulie). Titlul „solarul a devenit prima sursă de energie” lasă impresia că solarul produce acum mai multă electricitate decât cărbunele — ceea ce cifrele de generare, incluse chiar în articolul Xinhua dar netraduse în titlu, nu susțin.\n\nCe lipsește: o cifră oficială, pentru aceeași perioadă exactă (ianuarie-iulie 2026), a electricității generate de cărbune, care ar permite o comparație directă solar-cărbune la generare, nu doar la capacitate; Xinhua a publicat cifra de generare solară, dar nu și pe cea de cărbune.\n\nCe ar schimba concluzia: dacă factorul de capacitate al solarului chinez ar continua să crească rapid (prin stocare pe baterii sau rețele mai flexibile) până când generarea reală s-ar apropia de cea a cărbunelui — un proces posibil, dar care, potrivit datelor actuale, mai are ani de parcurs.",
+  "persoane": []
+}
