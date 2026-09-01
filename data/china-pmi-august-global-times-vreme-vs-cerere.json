@@ -1,0 +1,48 @@
+{
+  "slug": "china-pmi-august-global-times-vreme-vs-cerere",
+  "title": "Global Times pune contracția PMI-ului chinez pe seama vremii extreme. Datele oficiale arată a doua lună consecutivă sub pragul de creștere, cu cererea internă tot slabă",
+  "category": "Media de stat",
+  "date": "2026-08-31",
+  "source": "Global Times / Biroul Național de Statistică al Chinei / South China Morning Post",
+  "url": "https://www.globaltimes.cn/page/202608/1369444.shtml",
+  "dek": "Biroul Național de Statistică al Chinei (NBS) a anunțat luni, 31 august 2026, un PMI manufacturier de 49,8 pentru august — în urcare față de 49,2 în iulie, dar rămas sub pragul de 50 care separă contracția de creștere, pentru a doua lună consecutivă, punând capăt unei serii de patru luni de expansiune încheiate în iunie. Global Times (presă de stat) titrează urcarea drept „semn clar de avânt în creșterea manufacturieră” și pune explicit menținerea sub prag pe seama „vremii extreme” (caniculă, taifunuri, inundații). NBS și analiști independenți citați de South China Morning Post confirmă cifrele, dar atribuie limitarea îmbunătățirii și cererii interne slabe — un factor structural, nu doar meteorologic — pe care Global Times nu îl menționează.",
+  "mainVerdict": "Probate cifrele oficiale; contestată e explicația Global Times, care atribuie contracția aproape exclusiv vremii și omite cererea internă slabă, menționată explicit de sursele independente",
+  "probat": [
+    {
+      "text": "PMI-ul manufacturier oficial al Chinei a fost 49,8 în august 2026, în urcare cu 0,6 puncte față de 49,2 în iulie, potrivit datelor publicate de Biroul Național de Statistică (NBS) luni, 31 august. Subindicii au arătat producție în expansiune (50,4, față de 49,9 în iulie) și comenzi noi tot în expansiune (50,6, față de 48,5), inclusiv comenzi noi la export (50,1, față de 49,6). Statisticianul NBS Huo Lihui a declarat că „situația generală a afacerilor în manufactură s-a îmbunătățit vizibil în august”, cu 16 din cele 21 de industrii chestionate înregistrând avansuri lunare.",
+      "sources": [
+        {"name": "South China Morning Post — China's factory activity stays in contraction in August despite improvement", "url": "https://www.scmp.com/economy/economic-indicators/article/3365785/chinas-factory-activity-stays-contraction-august-despite-improvement"}
+      ]
+    },
+    {
+      "text": "Cifra de 49,8 a rămas sub pragul de 50 care separă contracția de expansiune, marcând a doua lună consecutivă de contracție și punând capăt unei serii de patru luni de creștere încheiate în iunie 2026.",
+      "sources": [
+        {"name": "South China Morning Post — China's factory activity stays in contraction in August despite improvement", "url": "https://www.scmp.com/economy/economic-indicators/article/3365785/chinas-factory-activity-stays-contraction-august-despite-improvement"}
+      ]
+    },
+    {
+      "text": "Global Times a titrat: „PMI-ul manufacturier al Chinei urcă la 49,8 în august, semn de avânt în creșterea economică”, descriind cifra drept un „reviriment clar” și menționând explicit că „temperaturile ridicate, taifunurile, ploile torențiale și inundațiile au menținut PMI-ul manufacturier din august sub pragul de 50”, atribuind astfel plafonarea sub prag în principal factorilor meteorologici temporari.",
+      "sources": [
+        {"name": "Global Times — China's manufacturing PMI rises to 49.8 in August, a sign of improving growth momentum", "url": "https://www.globaltimes.cn/page/202608/1369444.shtml"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Sursele independente citează, alături de factorii meteorologici, cererea internă slabă drept cauză structurală a plafonării sub pragul de 50 — un element pe care relatarea Global Times nu îl menționează deloc, concentrându-se aproape exclusiv pe explicația meteorologică pentru a susține narativul de „avânt” și „revenire clară”.",
+      "sources": [
+        {"name": "South China Morning Post — China's factory activity stays in contraction in August despite improvement", "url": "https://www.scmp.com/economy/economic-indicators/article/3365785/chinas-factory-activity-stays-contraction-august-despite-improvement"}
+      ]
+    },
+    {
+      "text": "Analistul Lynn Song, de la ING, a spus doar că datele „au ieșit puțin mai puternice decât se aștepta piața” — o evaluare tehnică, de surprindere statistică, nu o confirmare a „revenirii clare” susținute de Global Times.",
+      "sources": [
+        {"name": "South China Morning Post — China's factory activity stays in contraction in August despite improvement", "url": "https://www.scmp.com/economy/economic-indicators/article/3365785/chinas-factory-activity-stays-contraction-august-despite-improvement"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": "PMI manufacturier: 49,2 (iulie) → 49,8 (august) — o creștere de 0,6 puncte, dar tot sub pragul de 50 care marchează expansiunea. E a doua lună consecutivă sub acest prag, după patru luni de expansiune încheiate în iunie 2026.",
+  "aiNote": "📡 Am încadrat subiectul ca „Media de stat” fiindcă miezul verificării e felul în care Global Times a ales să explice o cifră oficială — nu cifra în sine, care e confirmată identic de NBS și de presa independentă (South China Morning Post).\n\nCe s-a verificat exact: cifra brută (49,8 în august, față de 49,2 în iulie) și faptul că rămâne sub pragul de 50 — pe aceste puncte, Global Times și SCMP coincid perfect, ambele citând aceleași date NBS.\n\nUnde se despart sursele: pe explicație, nu pe cifre. Global Times atribuie plafonarea sub prag aproape exclusiv vremii extreme (caniculă, taifunuri, inundații) — un adevăr parțial, fiindcă vremea a fost menționată și de NBS. Dar SCMP adaugă un factor pe care Global Times îl omite complet: cererea internă slabă, un element structural, nu sezonier, care nu dispare odată cu vremea. E genul de adevăr trunchiat în care fiecare propoziție e corectă izolat, dar selecția a ceea ce se spune și ce se omite schimbă impresia lăsată cititorului — de la „recuperare frânată temporar” la „recuperare fragilă, cu o cauză structurală nerezolvată”.\n\nCe lipsește: date defalcate pe sectoare (nemanufacturier, servicii, construcții) care ar arăta dacă slăbiciunea cererii interne e generalizată sau concentrată — sursele consultate nu au oferit aceste cifre în relatările citate aici.\n\nCe ar schimba concluzia: dacă PMI-ul de septembrie ar reveni clar peste 50 concomitent cu o creștere documentată a cererii interne (nu doar a comenzilor la export), afirmația Global Times despre „avânt” s-ar confirma; dacă rămâne sub prag și în lunile următoare, explicația meteorologică izolată devine tot mai greu de susținut.",
+  "persoane": []
+}
