@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 01 Sep 2026 20:57:04 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 20:59:22 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AEP începe controlul la marile partide de la 1 septembrie; AUR intră la verificare abia din octombrie, la cererea proprie</title>
+      <link>https://farabaliverne.ro/a/aep-control-partide-mari-septembrie-aur-octombrie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/aep-control-partide-mari-septembrie-aur-octombrie.html</guid>
+      <pubDate>Tue, 01 Sep 2026 17:57:11 +0000</pubDate>
+      <category>Politică</category>
+      <description>Autoritatea Electorală Permanentă (AEP) a început marți, 1 septembrie 2026, misiuni de control la activitatea financiară din 2025 a PSD, PNL, USR, SOS România și UDMR, cu termen de finalizare în noiembrie. AUR nu e printre ele: controlul la acest partid începe abia pe 1 octombrie. Președintele AEP, Adrian Țuțuianu, spune că amânarea a fost cerută chiar de AUR, ca să nu se suprapună cu un control paralel al Curții de Conturi, tot de la 1 septembrie.
+
+Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Camera Deputaților scoate PNL și USR din Biroul Permanent, cu voturile AUR și SOS; liberalii și useriștii merg la CCR</title>
       <link>https://farabaliverne.ro/a/camera-deputatilor-birou-permanent-pnl-usr-aur-sos-ccr.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
       <description>🌍 Parchetul din Keelung a trimis în judecată, pe 24-25 august 2026, nouă persoane — printre care un manager al filialei taiwaneze Nvidia și doi foști angajați Super Micro — acuzate că au deturnat către China 74 de servere AI de tip B300, interzise la export, prin transporturi directe și tranzitări prin Indonezia, Japonia și Hong Kong. Alte 56 de servere destinate, potrivit acuzării, aceluiași scop, au fost oprite la vamă înainte să părăsească Taiwanul. Prezumția de nevinovăție rămâne valabilă pentru toți cei acuzați până la o hotărâre judecătorească definitivă.
 
 Unde bat probele: Probat, cu nuanțe. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>USR cere din nou anchetă disciplinară în Camera Deputaților, pe motiv că un amendament la legea ANI ar fi fost „introdus pe sub mână”</title>
-      <link>https://farabaliverne.ro/a/usr-amendament-fraudulos-legea-ani-plangere-penala.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/usr-amendament-fraudulos-legea-ani-plangere-penala.html</guid>
-      <pubDate>Sat, 29 Aug 2026 18:36:56 +0000</pubDate>
-      <category>Politică</category>
-      <description>USR susține că un amendament la legea ANI a apărut în raportul Comisiei juridice a Camerei Deputaților atribuit fals comisiei, fără să fi fost depus, dezbătut sau votat de membrii ei. Partidul a depus deja, pe 31 iulie, o plângere penală pentru fals intelectual la Parchetul General, iar acum îi cere președintelui Camerei, Sorin Grindeanu, o cercetare disciplinară. Nimeni nu a fost numit oficial ca responsabil, iar Camera Deputaților nu a răspuns public acuzației.
-
-Unde bat probele: Contestat. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
