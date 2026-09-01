@@ -1,0 +1,69 @@
+{
+    "slug": "camera-deputatilor-birou-permanent-pnl-usr-aur-sos-ccr",
+    "title": "Camera Deputaților scoate PNL și USR din Biroul Permanent, cu voturile AUR și SOS; liberalii și useriștii merg la CCR",
+    "category": "Politică",
+    "date": "2026-09-01",
+    "source": "Adevărul / Digi24",
+    "url": "https://adevarul.ro/politica/camera-deputatilor-si-a-ales-noul-birou-permanent-2553458.html",
+    "dek": "Camera Deputaților a votat marți, 1 septembrie 2026, noua componență a Biroului Permanent pentru sesiunea de toamnă: două posturi de secretar au trecut de la PNL și USR la AUR și SOS România, cu voturile PSD, AUR, SOS, UDMR, UPR, minorităților naționale și ale unor neafiliați. PNL și USR au părăsit sala înainte de vot și au anunțat că vor contesta decizia la Curtea Constituțională, vorbind despre o „majoritate toxică” între PSD și partidele considerate extremiste. Nici PSD, nici AUR, nici SOS România nu au răspuns public, în relatările citate, acuzației de „înțelegere pe sub masă”.",
+    "mainVerdict": "Probat, cu interpretări politice divergente",
+    "probat": [
+        {
+            "text": "Plenul Camerei Deputaților a ales, marți, 1 septembrie 2026, noua componență a Biroului Permanent pentru sesiunea ordinară de toamnă. Singura schimbare față de componența anterioară a fost la posturile de secretar: Ramona Ioana Bruynseels (AUR) a preluat locul Ralucăi Turcan (PNL), iar Verginia Vedinaș (SOS România) a preluat locul Oanei Murariu (USR). PNL și USR și-au păstrat câte un post de vicepreședinte (Adrian Cozma, respectiv Cătălin Drulă).",
+            "sources": [
+                {
+                    "name": "Adevărul — Camera Deputaților și-a ales noul Birou Permanent. PNL și USR au părăsit plenul înaintea votului",
+                    "url": "https://adevarul.ro/politica/camera-deputatilor-si-a-ales-noul-birou-permanent-2553458.html"
+                }
+            ]
+        },
+        {
+            "text": "Modificarea componenței a fost votată cu sprijinul PSD, AUR, SOS, UDMR, Uniți Pentru România, grupului minorităților naționale și al unor deputați neafiliați. Deputații PNL și USR au părăsit sala plenului înainte de vot, în semn de protest.",
+            "sources": [
+                {
+                    "name": "Adevărul — USR și PNL contestă la CCR schimbarea la vârful Camerei Deputaților",
+                    "url": "https://adevarul.ro/politica/usr-si-pnl-contesta-la-ccr-schimbarea-la-varful-2553462.html"
+                },
+                {
+                    "name": "Digi24 — Criză în Parlament: USR și PNL contestă la CCR alianța PSD cu AUR și SOS pentru conducerea Camerei Deputaților",
+                    "url": "https://www.digi24.ro/stiri/actualitate/politica/criza-in-parlament-usr-si-pnl-contesta-la-ccr-alianta-psd-cu-aur-si-sos-pentru-conducerea-camerei-deputatilor-3930845"
+                }
+            ]
+        },
+        {
+            "text": "Liderii de grup ai PNL și USR, Gabriel Andronache și Diana Stoica, au anunțat că partidele vor ataca decizia la Curtea Constituțională, invocând reguli constituționale și regulamentare privind reprezentarea proporțională a grupurilor parlamentare. Deputatul USR Cătălin Drulă a declarat că schimbarea „nu e un simplu joc de funcții” și că „PSD le-a oferit extremiștilor mai multă putere”, precizând că AUR și SOS dețin acum patru din cele 12 voturi ale Biroului Permanent.",
+            "sources": [
+                {
+                    "name": "Digi24 — Criză în Parlament: USR și PNL contestă la CCR alianța PSD cu AUR și SOS pentru conducerea Camerei Deputaților",
+                    "url": "https://www.digi24.ro/stiri/actualitate/politica/criza-in-parlament-usr-si-pnl-contesta-la-ccr-alianta-psd-cu-aur-si-sos-pentru-conducerea-camerei-deputatilor-3930845"
+                },
+                {
+                    "name": "Adevărul — USR și PNL contestă la CCR schimbarea la vârful Camerei Deputaților",
+                    "url": "https://adevarul.ro/politica/usr-si-pnl-contesta-la-ccr-schimbarea-la-varful-2553462.html"
+                }
+            ]
+        }
+    ],
+    "contestat": [],
+    "opinie": [
+        {
+            "text": "Liderul deputaților USR, Diana Stoica, a caracterizat noua configurație drept „o majoritate toxică în Parlament: PSD și extremiștii”, iar Gabriel Andronache (PNL) a vorbit despre „o majoritate formată pe sub masă” între PSD, AUR, SOS și UPR. Acestea sunt evaluări politice ale opoziției, nu fapte verificabile independent — votul în sine e documentat, dar caracterul „toxic” sau „pe sub masă” al alianței rămâne interpretarea celor care au pierdut posturile.",
+            "sources": [
+                {
+                    "name": "Adevărul — USR și PNL contestă la CCR schimbarea la vârful Camerei Deputaților",
+                    "url": "https://adevarul.ro/politica/usr-si-pnl-contesta-la-ccr-schimbarea-la-varful-2553462.html"
+                }
+            ]
+        }
+    ],
+    "math": {
+        "title": "4 din 12 voturi ale Biroului Permanent, la AUR și SOS",
+        "explanation": "Din cele 12 voturi ale Biroului Permanent al Camerei Deputaților, AUR deține acum trei (un vicepreședinte plus doi secretari/chestor) și SOS România unul, potrivit numărătorii citate de USR — față de o reprezentare mai mică înainte de votul din 1 septembrie. Cifra vine din declarația lui Cătălin Drulă, reluată de Digi24; Camera Deputaților nu a publicat, la data verificării, o defalcare oficială separată a voturilor pe grup parlamentar."
+    },
+    "aiNote": "Ce s-a verificat exact: votul din plenul Camerei Deputaților din 1 septembrie 2026 pentru noua componență a Biroului Permanent, pe baza relatărilor Adevărul (două articole separate — rezultatul votului și anunțul contestației la CCR) și Digi24, care confirmă independent aceleași fapte de bază: cine a câștigat și cine a pierdut posturi de secretar, plecarea PNL și USR din sală, și intenția de a sesiza CCR.\n\nUnde se despart sursele: pe fapte, sursele coincid — nu există contradicție între Adevărul și Digi24 privind cine a votat ce și cine a plecat din sală. Divergența e de altă natură: e o dispută de interpretare politică, nu de fapte. USR și PNL numesc noua majoritate „toxică” și formată „pe sub masă”; nici Adevărul, nici Digi24 nu au reușit să obțină, la momentul publicării, o reacție oficială din partea PSD, AUR sau SOS România care să confirme sau să conteste această caracterizare.\n\nCe lipsește: poziția oficială a PSD, AUR și SOS despre acuzația de înțelegere informală, precum și motivarea votului UDMR, Uniți Pentru România și a minorităților naționale, care a fost decisivă pentru rezultat — niciuna dintre sursele citate nu explică de ce aceste grupuri au votat în acest sens. Lipsește, de asemenea, decizia CCR pe fond.\n\nCe ar schimba concluzia: o reacție publică a PSD/AUR/SOS care să confirme sau infirme existența unei înțelegeri prealabile, precum și hotărârea Curții Constituționale asupra contestației depuse de PNL și USR — abia atunci se va ști dacă modificarea componenței respectă regulile de reprezentare proporțională invocate de cele două partide.",
+    "persoane": [
+        "Cătălin Drulă",
+        "Diana Stoica",
+        "Gabriel Andronache"
+    ]
+}
