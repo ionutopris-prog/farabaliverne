@@ -1,0 +1,79 @@
+{
+  "slug": "zona-euro-pmi-industrie-august-2026-patru-ani",
+  "title": "Industria din zona euro a crescut în august 2026 în cel mai rapid ritm din ultimii patru ani, arată PMI S&P Global",
+  "category": "Economie",
+  "date": "2026-09-02",
+  "source": "S&P Global / Reuters (RTE, Investing.com)",
+  "url": "https://www.rte.ie/news/business/2026/0901/1589914-euro-zone-pmi/",
+  "dek": "Indicele PMI manufacturier al zonei euro, publicat de S&P Global pe 1 septembrie 2026, a urcat la 52,7 în august, de la 51,9 în iulie — cel mai bun nivel din mai 2022, dar ușor sub estimarea preliminară de 52,8. Comenzile noi au crescut în cel mai rapid ritm de la începutul lui 2022, iar Germania și Irlanda au condus creșterea. Imaginea nu e uniformă: Italia a intrat în contracție pentru prima dată din ianuarie, iar Spania a rămas tot în teritoriu negativ.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Indicele PMI manufacturier al zonei euro, calculat de S&P Global, a urcat la 52,7 în august 2026, de la 51,9 în iulie — cel mai ridicat nivel din mai 2022. Cifra e ușor sub estimarea preliminară („flash”) de 52,8, publicată la mijlocul lunii.",
+      "sources": [
+        {
+          "name": "RTÉ — Euro zone factory growth at over 4-year high in August",
+          "url": "https://www.rte.ie/news/business/2026/0901/1589914-euro-zone-pmi/"
+        },
+        {
+          "name": "Investing.com (Reuters) — Euro zone factory growth at more than four-year high in August, PMI shows",
+          "url": "https://www.investing.com/news/economy-news/euro-zone-factory-growth-at-more-than-fouryear-high-in-august-pmi-shows-4883588"
+        }
+      ]
+    },
+    {
+      "text": "Comenzile noi au crescut în cel mai rapid ritm din 2022 încoace, iar sub-indicele de producție a urcat la 53,3 (de la 52,9 în iulie), un maxim de 54 de luni. Ocuparea forței de muncă în industrie a rămas „practic neschimbată”, punând capăt unei serii de peste trei ani de scăderi lunare consecutive.",
+      "sources": [
+        {
+          "name": "Investing.com (Reuters) — Euro zone factory growth at more than four-year high in August, PMI shows",
+          "url": "https://www.investing.com/news/economy-news/euro-zone-factory-growth-at-more-than-fouryear-high-in-august-pmi-shows-4883588"
+        }
+      ]
+    },
+    {
+      "text": "Germania a înregistrat cea mai puternică creștere a industriei prelucrătoare din ultimii peste patru ani, iar Irlanda a urcat la 55,4, aproape de un maxim de patru ani. Franța a contribuit și ea la expansiunea generală. Economistul Joe Hayes (S&P Global Market Intelligence) a spus că datele arată „cele mai clare semne de până acum” că economia industrială a zonei euro „a scuturat de pe ea șocul prețului petrolului”.",
+      "sources": [
+        {
+          "name": "Investing.com (Reuters) — Euro zone factory growth at more than four-year high in August, PMI shows",
+          "url": "https://www.investing.com/news/economy-news/euro-zone-factory-growth-at-more-than-fouryear-high-in-august-pmi-shows-4883588"
+        }
+      ]
+    },
+    {
+      "text": "Nu toate economiile mari au contribuit la creștere: Italia a intrat în contracție pentru prima dată din ianuarie, iar Spania a rămas tot în teritoriu negativ — cifra agregată de 52,7 pentru zona euro maschează o distribuție inegală între țări.",
+      "sources": [
+        {
+          "name": "Investing.com (Reuters) — Euro zone factory growth at more than four-year high in August, PMI shows",
+          "url": "https://www.investing.com/news/economy-news/euro-zone-factory-growth-at-more-than-fouryear-high-in-august-pmi-shows-4883588"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Titlurile de presă vorbesc despre „cel mai bun ritm din ultimii patru ani”, dar cifra finală (52,7) a ieșit sub estimarea preliminară (52,8) publicată cu două săptămâni înainte — un semnal că avântul industrial, deși real, a fost ceva mai slab decât anticipaseră inițial analiștii S&P Global.",
+      "sources": [
+        {
+          "name": "RTÉ — Euro zone factory growth at over 4-year high in August",
+          "url": "https://www.rte.ie/news/business/2026/0901/1589914-euro-zone-pmi/"
+        }
+      ]
+    },
+    {
+      "text": "Costurile de producție „s-au calmat la un minim de șase luni”, potrivit raportului, dar rămân „mult peste nivelurile de dinaintea începerii conflictului din Orientul Mijlociu” — o precizare care arată că inflația de costuri e în scădere, nu la un nivel normal istoric.",
+      "sources": [
+        {
+          "name": "Investing.com (Reuters) — Euro zone factory growth at more than four-year high in August, PMI shows",
+          "url": "https://www.investing.com/news/economy-news/euro-zone-factory-growth-at-more-than-fouryear-high-in-august-pmi-shows-4883588"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Ce înseamnă 52,7 la un indice PMI",
+    "explanation": "PMI (Purchasing Managers' Index) e un indice de sondaj: orice valoare peste 50,0 arată expansiune a activității față de luna anterioară, sub 50,0 arată contracție. 52,7 înseamnă deci creștere, dar nu spune nimic despre viteza absolută a producției — doar despre direcția și amploarea relativă a schimbării percepute de managerii de achiziții chestionați."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre economică din presa internațională (date S&P Global, distribuite de Reuters, preluate de RTÉ și Investing.com); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: cifrele centrale ale raportului PMI manufacturier pe zona euro pentru august 2026 (52,7, față de 51,9 în iulie și 52,8 estimarea preliminară), sub-indicii de producție, comenzi noi și ocupare, plus performanța pe țări (Germania, Irlanda, Franța în creștere; Italia, Spania în contracție). RTÉ și Investing.com/Reuters confirmă concordant cifrele-cheie.\n\nUnde se despart sursele: nu pe fapte — cele două relatări coincid pe cifre. Diferă doar în accent: RTÉ pune titlul pe „maxim de peste patru ani”, în timp ce Investing.com/Reuters detaliază și partea mai puțin favorabilă — Italia și Spania în contracție, costurile încă ridicate față de perioada dinaintea conflictului din Orientul Mijlociu.\n\nCe lipsește: datele complete, țară cu țară, pentru toate cele 20 de state din zona euro — raportul citat detaliază explicit doar Germania, Franța, Irlanda, Italia și Spania. Nu există în sursele citate o defalcare pentru celelalte economii.\n\nCe ar schimba concluzia: publicarea PMI-ului compozit (servicii + industrie) pentru septembrie, care ar arăta dacă avântul industrial din august a continuat sau a fost un episod izolat.",
+  "persoane": []
+}
