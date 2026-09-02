@@ -1,0 +1,42 @@
+{
+  "slug": "moderna-merck-vaccin-arn-melanom-faza-3",
+  "title": "Moderna și Merck anunță că vaccinul lor ARN personalizat a trecut primul test de fază 3 împotriva revenirii melanomului",
+  "category": "Știință",
+  "date": "2026-09-02",
+  "source": "Comunicat comun Merck / Moderna",
+  "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/",
+  "dek": "Merck și Moderna au anunțat pe 19 august 2026 că, în studiul de fază 3 INTerpath-001, vaccinul lor personalizat pe bază de ARN mesager (intismeran autogene), administrat alături de imunoterapicul Keytruda (pembrolizumab), a întârziat semnificativ revenirea melanomului la 1.137 de pacienți cu boală operată, comparativ cu Keytruda administrat singur. Companiile nu au publicat încă cifrele exacte ale beneficiului — doar că obiectivele studiului au fost „îndeplinite”.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Merck și Moderna au anunțat printr-un comunicat comun, pe 19 august 2026, că studiul de fază 3 INTerpath-001 a îndeplinit obiectivul principal (supraviețuire fără recidivă, RFS) și obiectivul secundar cheie (supraviețuire fără metastaze la distanță, DMFS) pentru combinația intismeran autogene (vaccin ARN personalizat) plus Keytruda, comparativ cu Keytruda administrat singur, la pacienți cu melanom cutanat complet îndepărtat chirurgical, în stadiile IIB până la IV.",
+      "sources": [
+        {"name": "Merck — Merck and Moderna Announce Phase 3 INTerpath-001 Trial Met Endpoints", "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"},
+        {"name": "ecancer — Phase 3 INTerpath-001 trial met endpoints of RFS and DMFS", "url": "https://ecancer.org/en/news/28748-phase-3-interpath-001-trial-of-intismeran-autogene-plus-pembrolizumab-met-endpoints-of-rfs-and-dmfs-in-patients-with-completely-resected-stage-iib-iv-melanoma"}
+      ]
+    },
+    {
+      "text": "Studiul a inclus 1.137 de pacienți, randomizați în raport 2:1 între brațul combinație (intismeran, 1 mg la trei săptămâni, până la nouă doze) plus Keytruda (400 mg la șase săptămâni, până la nouă cicluri, aproximativ un an de tratament) și brațul cu Keytruda singur. Companiile spun că profilul de siguranță al combinației a fost „consistent cu cel observat în studiile raportate anterior” și că nu a apărut niciun semnal nou de siguranță.",
+      "sources": [
+        {"name": "Merck — Merck and Moderna Announce Phase 3 INTerpath-001 Trial Met Endpoints", "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"}
+      ]
+    },
+    {
+      "text": "Presa de specialitate medicală (BioPharm International, Targeted Oncology, Pharmacy Times, AJMC) a descris rezultatul ca prima citire pozitivă de fază 3 pentru o terapie individualizată pe bază de neoantigene și pentru un tratament oncologic bazat pe ARN mesager — categorie diferită de vaccinurile ARN pentru boli infecțioase, precum cele COVID-19.",
+      "sources": [
+        {"name": "Pharmacy Times — Phase 3 Trial Marks First Success for Personalized mRNA Cancer Therapy in Resected Melanoma", "url": "https://www.pharmacytimes.com/view/phase-3-trial-marks-first-success-for-personalized-mrna-cancer-therapy-in-resected-melanoma"},
+        {"name": "STAT News — Moderna, Merck's mRNA cancer vaccine succeeds in melanoma trial", "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {"text": "Comunicatul Merck/Moderna spune că beneficiul a fost „semnificativ statistic și relevant clinic”, dar nu publică nicio cifră concretă — nici procentul de reducere a riscului de recidivă, nici numărul de luni câștigate, nici intervalele de încredere. STAT News confirmă explicit că firmele „nu au publicat imediat date detaliate” și că acestea urmează să fie prezentate „la o conferință medicală internațională viitoare”. Până atunci, afirmația „a funcționat” se sprijină doar pe cuvântul companiilor care ar urma să vândă produsul, nu pe date verificabile independent sau trecute prin recenzie inter pares."}
+  ],
+  "aiNote": "🔬 Am verificat comunicatul oficial Merck/Moderna din 19 august 2026 și l-am pus alături de acoperirea presei medicale de specialitate (BioPharm International, Targeted Oncology, Pharmacy Times, AJMC, ecancer, STAT News). \n\nCe s-a verificat exact: că studiul de fază 3 INTerpath-001, pe 1.137 de pacienți cu melanom operat, a „îndeplinit” obiectivele de supraviețuire fără recidivă și fără metastaze la distanță pentru combinația vaccin ARN + Keytruda, față de Keytruda singur. Asta e confirmat direct de comunicatul companiilor și repetat identic în toată presa de specialitate — pentru că, la acest stadiu, toate sursele citează același comunicat, nu date independente.\n\nUnde se desparte afirmația de dovadă: „a îndeplinit obiectivele” e o formulare statistică (a trecut de pragul de semnificație), nu o descriere a mărimii beneficiului. Companiile nu au spus câți pacienți din brațul cu vaccin au evitat recidiva față de brațul de control, cu cât s-a redus riscul sau cât de mari sunt intervalele de încredere. Nu există încă o publicație științifică revizuită de alți cercetători — doar un comunicat de presă, util pentru investitori, dar insuficient pentru concluzii medicale ferme.\n\nCe lipsește: datele complete, care Merck și Moderna spun că vor fi prezentate „la o conferință medicală internațională viitoare” și supuse ulterior autorităților de reglementare (FDA/EMA). Fără ele, nu se poate spune cât de mare e beneficiul real sau pentru ce subgrupuri de pacienți contează cel mai mult.\n\nCe ar schimba concluzia: publicarea cifrelor complete (procent de reducere a riscului, curbe de supraviețuire) la conferința anunțată, și eventual avizul agențiilor de reglementare. Până atunci, tratăm rezultatul ca pe un anunț real și verificat al companiilor — nu ca pe un fapt medical stabilit definitiv.",
+  "math": {
+    "title": "De ce contează „date topline” vs. date complete",
+    "explanation": "Când o companie farmaceutică anunță că un studiu „a îndeplinit obiectivele”, asta înseamnă că diferența dintre grupul tratat și grupul de control a trecut un prag statistic prestabilit (de obicei p<0,05) — dar pragul ăsta spune doar că diferența probabil nu e întâmplătoare, nu spune cât de mare e ea. Un beneficiu „semnificativ statistic” poate însemna o reducere a riscului de recidivă de 60% sau de 15% — ambele ar „îndeplini obiectivul”, dar au relevanță clinică foarte diferită pentru un pacient. De-aia comunitatea medicală așteaptă datele complete, prezentate la o conferință și publicate într-o revistă cu recenzie inter pares, înainte să tragă concluzii despre cât de util e tratamentul în practică."
+  },
+  "persoane": []
+}

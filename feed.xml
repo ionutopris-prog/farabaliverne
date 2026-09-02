@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 02 Sep 2026 09:32:52 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 09:34:21 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un studiu pe 75 de meteoriți arată că rocile spațiale nu „ard”, ci se topesc și se fragmentează în șapte etape</title>
+      <link>https://farabaliverne.ro/a/meteoriti-sapte-etape-studiu-jenniskens.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/meteoriti-sapte-etape-studiu-jenniskens.html</guid>
+      <pubDate>Wed, 02 Sep 2026 06:32:55 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă condusă de Peter Jenniskens (SETI Institute și NASA Ames Research Center) a analizat imagini video și fotografii de la 75 de căderi de meteoriți și a identificat șapte etape distincte prin care trece o rocă spațială din momentul intrării în atmosferă până ajunge pe sol. Concluzia principală: topirea și fragmentarea, nu simpla „ardere” prin evaporare, controlează cât de multă masă pierde roca și dacă supraviețuiește impactul.
+
+Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Astronautele Jessica Meir și Sophie Adenot au făcut a șasea ieșire în spațiu doar cu femei din istorie</title>
       <link>https://farabaliverne.ro/a/iss-spacewalk-meir-adenot-6-doar-femei.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, pe surse concordante din presa sud-coreeană și inter
       <description>Trei zile după viitura devastatoare de la granița Tibet–Nepal, presa de stat chineză (CCTV, People's Daily) a limitat sever informația despre victimele de pe teritoriul ei, iar filmările cu dezastrul, apărute pe rețelele chineze, au fost șterse rapid de cenzori. SUSȚINEM, pe baza a trei publicații independente din trei țări diferite (Australia, Noua Zeelandă, India), că a existat un tipar consecvent de ștergere și minimizare, în timp ce presa nepaleză a raportat liber, cu bilanț detaliat pe naționalități.
 
 Unde bat probele: Probat că filmările au fost șterse și informația a fost limitată pe partea chineză; nu se poate stabili din surse publice dacă motivul e strict politic sau include și dificultăți logistice reale. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Garda Revoluționară iraniană susține că are control „complet și decisiv” asupra Strâmtorii Hormuz — CENTCOM spune că nava americană escortează, nu Iranul, traficul naval</title>
-      <link>https://farabaliverne.ro/a/irgc-hormuz-control-complet-decisiv-blocaj-sua.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/irgc-hormuz-control-complet-decisiv-blocaj-sua.html</guid>
-      <pubDate>Sat, 29 Aug 2026 22:46:43 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Marina Gărzii Revoluționare (IRGC) a declarat pe 28 august 2026, prin presa de stat iraniană PressTV, că menține control „complet și decisiv” asupra Strâmtorii Hormuz și că niciun vas nu poate trece fără coordonare prealabilă cu Teheranul. CENTCOM (comandamentul militar american pentru regiune) respinge afirmația: spune că strâmtoarea rămâne o „cale navigabilă internațională” prin care navele comerciale trec cu asistență militară americană, nu cu permisiunea Iranului.
-
-Unde bat probele: Contestat — controlul „complet” revendicat de Iran e infirmat de partea americană; ce e cert e că traficul naval prin Hormuz rămâne mult sub nivelul dinaintea războiului. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
