@@ -1,0 +1,46 @@
+{
+  "slug": "meteoriti-sapte-etape-studiu-jenniskens",
+  "title": "Un studiu pe 75 de meteoriți arată că rocile spațiale nu „ard”, ci se topesc și se fragmentează în șapte etape",
+  "category": "Știință",
+  "date": "2026-09-02",
+  "source": "Meteoritics & Planetary Science / SETI Institute / NASA Ames",
+  "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air",
+  "dek": "O echipă condusă de Peter Jenniskens (SETI Institute și NASA Ames Research Center) a analizat imagini video și fotografii de la 75 de căderi de meteoriți și a identificat șapte etape distincte prin care trece o rocă spațială din momentul intrării în atmosferă până ajunge pe sol. Concluzia principală: topirea și fragmentarea, nu simpla „ardere” prin evaporare, controlează cât de multă masă pierde roca și dacă supraviețuiește impactul.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Peter Jenniskens (SETI Institute, afiliat și cu NASA Ames Research Center) a condus un studiu care a analizat date video și fotografice de la 75 de căderi de meteoriți documentate, urmărind unghiul de intrare, viteza de rotație și rata de pierdere de masă a fiecărei roci. Rezultatele au fost publicate în revista științifică Meteoritics & Planetary Science.",
+      "sources": [
+        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"},
+        {"name": "SETI Institute — New study reveals how space rocks become meteorites", "url": "https://www.seti.org/news/how-space-rocks-become-meteorites/"}
+      ]
+    },
+    {
+      "text": "Echipa a identificat șapte etape distincte în viața unei roci care cade prin atmosferă: intrarea în atmosferă fără efecte vizibile; începutul luminozității (ablația incipientă); creșterea luminozității odată cu formarea bolidului („fireball”); luminozitate maximă însoțită de topire; începutul fragmentării frontale a rocii; fragmentarea în partea din spate; și, în final, continuarea topirii și fragmentării până la stingerea luminozității, urmată de cădere liberă și formarea crustei de fuziune pe fragmentele rămase.",
+      "sources": [
+        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"}
+      ]
+    },
+    {
+      "text": "Concluzia centrală a studiului contrazice ideea intuitivă că meteoriții „ard” pierzând masă prin evaporare la căldură. Datele arată că topirea materialului de la suprafață, urmată de fragmentare pe măsură ce presiunea aerodinamică crește, sunt mecanismele care determină cât de repede o rocă își pierde masa, încetinește și — dacă supraviețuiește — ajunge pe sol. Fragmentarea începe la presiuni mult mai mici decât rezistența mecanică măsurată a meteoriților, ceea ce explică de ce multe roci se sparg în bucăți mult înainte să atingă solul.",
+      "sources": [
+        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"}
+      ]
+    },
+    {
+      "text": "Echipa a verificat modelul și pe cazul asteroidului de circa 20 de metri diametru care a explodat deasupra orașului Celeabinsk, Rusia, la 15 februarie 2013, la aproximativ 30 km altitudine — un eveniment care a rănit circa 1.500 de persoane, majoritatea de la unde de șoc și cioburi de geam. Conform cercetătorilor, obiectul a trecut prin aceleași șapte etape identificate în studiu.",
+      "sources": [
+        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"},
+        {"name": "Space.com — Scientists trace 7 stages of a meteorite's life from hurtling space rock to Earth's surface", "url": "https://www.space.com/stargazing/meteor-showers/scientists-trace-7-stages-of-a-meteorites-life-from-hurtling-space-rock-to-earths-surface"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu științific publicat în revista cu recenzie inter pares Meteoritics & Planetary Science, relatat de Universe Today și SETI Institute (instituția cercetătorului principal) și confirmat de Space.com. Nota e scurtă fiindcă e o descoperire documentată, nu o afirmație contestată: metoda (analiza a 75 de căderi filmate/fotografiate), rezultatul și publicația sunt clare și verificabile. Singura nuanță de reținut e că modelul celor șapte etape descrie un tipar statistic observat pe 75 de cazuri — nu înseamnă că fiecare meteorit trece prin toate etapele identic; rocile mici sau foarte rezistente pot sări unele etape, iar cele foarte fragile se pot dezintegra complet înainte de ultima etapă.",
+  "math": {
+    "title": "De ce contează ordinea: topire, apoi fragmentare",
+    "explanation": "Ideea populară e că meteoriții „ard” ca un băț de chibrit — se consumă treptat prin căldură. Studiul arată altceva: presiunea aerului din fața rocii care cade cu zeci de kilometri pe secundă creează atât căldură, cât și o forță mecanică uriașă. Mai întâi, suprafața se topește și materialul topit e smuls de curentul de aer (nu evaporat). Abia apoi, când presiunea acumulată depășește un prag mult sub rezistența brută a rocii, aceasta începe să se fragmenteze — mai întâi în față, apoi în spate. Practic, roca nu „arde până dispare”, ci se sparge în bucăți din ce în ce mai mici, iar bucățile care supraviețuiesc până la sol sunt cele care au trecut prin toate cele șapte etape fără să se dezintegreze complet."
+  },
+  "persoane": []
+}
