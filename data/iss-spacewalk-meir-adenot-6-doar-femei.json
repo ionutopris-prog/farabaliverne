@@ -1,0 +1,40 @@
+{
+  "slug": "iss-spacewalk-meir-adenot-6-doar-femei",
+  "title": "Astronautele Jessica Meir și Sophie Adenot au făcut a șasea ieșire în spațiu doar cu femei din istorie",
+  "category": "Știință",
+  "date": "2026-09-02",
+  "source": "NASA — blogul Stației Spațiale Internaționale",
+  "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/",
+  "dek": "Pe 1 septembrie 2026, astronauta NASA Jessica Meir și astronauta ESA Sophie Adenot au ieșit în spațiu timp de 6 ore și 49 de minute pentru a înlocui o cameră video și a instala un reflector de navigație pe Stația Spațială Internațională — a șasea ieșire în spațiu din istorie realizată exclusiv de femei.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Jessica Meir (NASA) și Sophie Adenot (ESA) au efectuat pe 1 septembrie 2026 o ieșire în spațiu (spacewalk) de 6 ore și 49 de minute în afara Stației Spațiale Internaționale. Au instalat un reflector nou (retroflector) pe modulul Harmony, folosit pentru navigația navelor care andochează la stație, și au înlocuit o cameră video HD de pe structura exterioară a stației (Camera Port 3). Au mai prelevat probe de microorganisme de pe exteriorul stației și au început pregătirile pentru înlocuirea, într-o ieșire viitoare, a unui radiator al detectorului de particule Alpha Magnetic Spectrometer.",
+      "sources": [
+        {"name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station", "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"},
+        {"name": "Space.com — Two astronauts replace ISS camera and docking aid on 6th-ever all-female spacewalk", "url": "https://www.space.com/space-exploration/international-space-station/two-astronauts-replace-iss-camera-and-docking-aid-on-6th-ever-all-female-spacewalk-video"}
+      ]
+    },
+    {
+      "text": "A fost a șasea ieșire în spațiu din istorie realizată exclusiv de femei — de la începutul programului spațial. Pentru Jessica Meir a fost a șaptea ieșire în spațiu din carieră, iar pentru Sophie Adenot, a treia. Per total, a fost a 284-a ieșire în spațiu în sprijinul Stației Spațiale Internaționale de la lansarea acesteia.",
+      "sources": [
+        {"name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station", "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"},
+        {"name": "Hoodline — Meir, Adenot Complete Sixth All-Female ISS Spacewalk", "url": "https://hoodline.com/2026/09/meir-and-adenot-s-all-female-spacewalk-marks-only-the-sixth-ever/"}
+      ]
+    },
+    {
+      "text": "În timpul ieșirii, Sophie Adenot a semnalat probleme de mobilitate la brațul stâng, cauzate de hamul încălzitorului de mănușă, care îi restrângea mișcarea din umăr — motiv pentru care echipa de la sol a reorganizat parțial sarcinile între cei doi astronauți, fără a întrerupe misiunea.",
+      "sources": [
+        {"name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station", "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un anunț oficial de pe blogul NASA al Stației Spațiale Internaționale, confirmat de Space.com și Hoodline. Nota e scurtă fiindcă nu există nimic disputat aici: e o relatare tehnică a unei operațiuni de mentenanță, cu cifre și fapte confirmate direct de agenția care a organizat-o. Singurul element de nuanțat e statistica „a șasea ieșire doar cu femei” — ea numără de la primul spacewalk exclusiv feminin (2019) și depinde de definiția folosită (unele numărători includ și ieșiri chinezești sau rusești separat); am preluat cifra așa cum apare în sursele NASA și Hoodline, fără să o transformăm în recod absolut.",
+  "math": {
+    "title": "De ce contează un reflector de navigație",
+    "explanation": "Retroflectorul instalat pe modulul Harmony nu e un simplu accesoriu: navele care se apropie de stație pentru andocare folosesc lasere care „citesc” lumina reflectată de aceste ținte pentru a-și calcula distanța și unghiul de apropiere cu precizie milimetrică, fără GPS (care nu funcționează la fel de fin în spațiu). Un reflector uzat sau prost aliniat poate introduce erori mici, dar cumulate, în ultimii metri ai andocării — exact segmentul cel mai riscant al oricărei misiuni către ISS."
+  },
+  "persoane": []
+}
