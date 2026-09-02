@@ -1,0 +1,49 @@
+{
+  "slug": "iran-mashhad-masina-adunare-pro-guvernamentala-patru-morti",
+  "title": "O mașină intră într-o adunare pro-guvernamentală din Mashhad și ucide patru oameni; iustiția iraniană vorbește de accident, conturi de pe rețele sociale de „atac”",
+  "category": "Media de stat",
+  "date": "2026-09-02",
+  "source": "Mizan (media de stat/judiciară, Iran) — cu Reuters/AP prin Jpost, Arab News, Khaleej Times",
+  "url": "https://www.jpost.com/middle-east/iran-news/article-907309",
+  "dek": "📡 O mașină a intrat, în noaptea de 1 spre 2 septembrie 2026, într-o adunare de susținători ai guvernului și forțelor armate iraniene din Mashhad, ucigând patru oameni și rănind peste zece. Poliția rutieră și agenția judiciară de stat Mizan susțin că a fost un accident, provocat de un șofer cu deficiențe de vedere; conturi de pe rețelele sociale (printre care Visegrád 24 și un cont OSINT) l-au numit „atac cu mașina” („car-ramming attack”), fără dovezi publice care să susțină varianta intenționată. Punem alături ce s-a confirmat independent și ce rămâne doar afirmație, de-o parte și de alta.",
+  "mainVerdict": "Probat că mașina a lovit o adunare pro-guvernamentală, ucigând patru oameni; contestată rămâne doar caracterizarea „atac intenționat” de pe rețelele sociale, neconfirmată de nicio sursă independentă consultată — dar și varianta oficială „accident” vine exclusiv de la o autoritate de stat, fără o anchetă independentă publică",
+  "probat": [
+    {
+      "text": "În noaptea de 1 spre 2 septembrie 2026, o mașină a intrat într-o adunare de susținători ai guvernului iranian și ai forțelor armate din Mashhad (al doilea oraș ca mărime al Iranului), ucigând patru oameni și rănind peste zece. Adunarea făcea parte dintr-o serie de evenimente recurente ale susținătorilor Republicii Islamice și ai armatei sale, organizate de la începutul războiului cu Statele Unite, de la sfârșitul lunii februarie 2026.",
+      "sources": [
+        {"name": "Khaleej Times — contextul adunărilor pro-guvernamentale recurente din timpul războiului cu SUA", "url": "https://www.khaleejtimes.com/world/mena/iran-car-hits-pro-government-gathering-deaths"},
+        {"name": "Jerusalem Post — bilanțul de 4 morți și peste 10 răniți", "url": "https://www.jpost.com/middle-east/iran-news/article-907309"}
+      ]
+    },
+    {
+      "text": "Potrivit lui Mohsen Mousa-Abadi, șeful poliției rutiere din provincia Razavi Khorasan, mașina circula cu viteză mare, s-a ciocnit inițial cu un alt autovehicul, a pierdut controlul, a lovit parapeți de siguranță și indicatoare rutiere, apoi a intrat în mulțime. Șoferul, arestat la fața locului, are aproximativ 35 de ani, permis condiționat din motive medicale și nu vede cu ochiul stâng, conducând doar cu ochiul drept; un oficial al poliției a declarat că verificările inițiale au arătat că șoferul „nu era într-o stare normală”.",
+      "sources": [
+        {"name": "Jerusalem Post — declarațiile șefului poliției rutiere din Razavi Khorasan", "url": "https://www.jpost.com/middle-east/iran-news/article-907309"},
+        {"name": "Times Live (AP) — secvența accidentului și starea șoferului", "url": "https://www.timeslive.co.za/news/world/2026-09-02-car-hits-pro-government-gathering-in-iran-killing-four/"}
+      ]
+    },
+    {
+      "text": "Agenția judiciară de stat Mizan a declarat că accidentul „nu a fost intenționat și nu a avut legătură cu securitatea”, iar autoritățile iraniene au comunicat că nu există, deocamdată, niciun indiciu de motivație politică. Presa internațională care a preluat relatarea (Jpost, Arab News, Khaleej Times, Times Live, prin agențiile Reuters/AP) a redat aceeași versiune oficială, fără elemente suplimentare de anchetă independentă.",
+      "sources": [
+        {"name": "Times Live (AP) — concluzia Mizan: „nici intenționat, nici legat de securitate”", "url": "https://www.timeslive.co.za/news/world/2026-09-02-car-hits-pro-government-gathering-in-iran-killing-four/"},
+        {"name": "Arab News — preluarea variantei oficiale de accident", "url": "https://www.arabnews.com/middle-east/update-1-car-hits-pro-government-gathering-in-iran-killing-four-3000172"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Pe platforma X, conturi precum „Open Source Intel” și „Visegrád 24” au caracterizat evenimentul diferit de varianta oficială: primul a scris că „o mașină a intrat într-o adunare pro-IRGC în zona Eghbal Lahouri, cu un număr foarte mare de victime raportate”, iar al doilea a vorbit despre „atac cu mașina («car-ramming attack») împotriva unei adunări pro-regim”. Niciunul dintre aceste conturi nu a publicat dovezi verificabile (imagini, filmări, surse la fața locului identificabile) pentru varianta „atac intenționat”, iar bilanțul de „număr foarte mare de victime” din primele postări nu se confirmă în relatările ulterioare, care indică patru morți — nu „un număr foarte mare”. Nicio sursă independentă de presă consultată nu susține caracterizarea drept atac deliberat.",
+      "sources": [
+        {"name": "Open Source Intel (X/Twitter) — postarea inițială despre incident", "url": "https://x.com/Osint613/status/2094882309451182222"},
+        {"name": "Visegrád 24 (X/Twitter) — caracterizarea drept „atac cu mașina”", "url": "https://x.com/visegrad24/status/2094907047242338739"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Nici varianta oficială, nici cea de pe rețelele sociale nu vin dintr-o sursă complet neutră: concluzia de „accident” aparține exclusiv autorităților iraniene (poliție și justiție de stat), într-un context de război activ cu Statele Unite, în care recunoașterea unui atac intenționat asupra propriilor susținători ar fi fost un semnal politic incomod pentru guvern; iar caracterizarea de „atac” de pe rețelele sociale vine de la conturi cu agendă declarat critică la adresa regimului iranian, fără dovezi publicate. Cu informațiile disponibile la ora redactării, varianta „accident” e cea susținută de faptele verificabile (secvența ciocnire-pierdere control-impact, descrisă coerent de poliția locală, plus deficiența medicală documentată a șoferului), dar absența unei anchete independente, publice, înseamnă că nu putem exclude complet alte explicații."
+    }
+  ],
+  "aiNote": "📡 Am tratat acest subiect ca „Media de stat”, fiindcă versiunea oficială a evenimentului vine din declarațiile poliției rutiere iraniene și ale agenției judiciare de stat Mizan, fără o anchetă independentă publicată. Am pus alături caracterizarea alternativă care circulă pe rețelele sociale (conturi X precum Open Source Intel și Visegrád 24) și am verificat-o față de relatările presei internaționale care a preluat, prin Reuters/AP, varianta poliției.\n\nCe s-a verificat exact: secvența accidentului (ciocnire cu alt vehicul → pierdere control → impact cu bariere → impact cu mulțimea), bilanțul de 4 morți și peste 10 răniți, arestarea și profilul medical al șoferului (fără vedere la ochiul stâng, permis condiționat) — toate confirmate concordant de poliția locală și presa internațională care a preluat relatarea.\n\nUnde se despart sursele: doar la interpretarea intenției. Autoritățile iraniene numesc evenimentul „accident, fără legătură cu securitatea”; conturile de pe X îl numesc „atac cu mașina”, fără dovezi publicate. Bilanțul inițial vehiculat pe rețelele sociale („un număr foarte mare de victime”) s-a dovedit, de asemenea, exagerat față de cifra confirmată ulterior de patru morți.\n\nCe lipsește: o anchetă independentă, publică, care să confirme sau să infirme varianta „accident” a autorităților iraniene — la ora redactării, singura sursă a acestei concluzii e chiar statul iranian, aflat în conflict activ cu SUA și cu interes să minimizeze orice semnal de instabilitate internă.\n\nCe ar schimba concluzia: publicarea unor imagini video needitate de la fața locului, mărturii verificabile ale martorilor sau o anchetă a unei părți terțe ar clarifica definitiv dacă a fost, într-adevăr, un accident sau dacă existau elemente de intenționalitate pe care autoritățile nu le-au recunoscut public.",
+  "persoane": []
+}
