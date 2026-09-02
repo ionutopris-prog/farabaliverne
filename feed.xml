@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 02 Sep 2026 09:34:21 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 09:35:02 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Moderna și Merck anunță că vaccinul lor ARN personalizat a trecut primul test de fază 3 împotriva revenirii melanomului</title>
+      <link>https://farabaliverne.ro/a/moderna-merck-vaccin-arn-melanom-faza-3.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moderna-merck-vaccin-arn-melanom-faza-3.html</guid>
+      <pubDate>Wed, 02 Sep 2026 06:34:30 +0000</pubDate>
+      <category>Știință</category>
+      <description>Merck și Moderna au anunțat pe 19 august 2026 că, în studiul de fază 3 INTerpath-001, vaccinul lor personalizat pe bază de ARN mesager (intismeran autogene), administrat alături de imunoterapicul Keytruda (pembrolizumab), a întârziat semnificativ revenirea melanomului la 1.137 de pacienți cu boală operată, comparativ cu Keytruda administrat singur. Companiile nu au publicat încă cifrele exacte ale beneficiului — doar că obiectivele studiului au fost „îndeplinite”.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Un studiu pe 75 de meteoriți arată că rocile spațiale nu „ard”, ci se topesc și se fragmentează în șapte etape</title>
       <link>https://farabaliverne.ro/a/meteoriti-sapte-etape-studiu-jenniskens.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contestat — cauza principală a scăderii, potrivit propriil
       <description>Armata Coreei de Sud a confirmat vineri, 28 august 2026, că soldați nord-coreeni au trecut din nou, „recent”, Linia de Demarcație Militară (MDL) în sectorul estic al zonei demilitarizate, al doilea asemenea incident în ultimele două săptămâni — după cel din jurul datei de 15 august 2026, primul de acest fel din acest an. În ambele cazuri, trupele sud-coreene au tras focuri de avertisment, iar soldații nord-coreeni s-au retras.
 
 Unde bat probele: Probat, pe surse concordante din presa sud-coreeană și internațională. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>China a scos rapid din rețelele proprii filmările cu viitura de la Gyirong, în timp ce Nepal relatează liber despre victime</title>
-      <link>https://farabaliverne.ro/a/china-cenzura-filmari-inundatii-tibet-gyirong.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/china-cenzura-filmari-inundatii-tibet-gyirong.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:43:09 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Trei zile după viitura devastatoare de la granița Tibet–Nepal, presa de stat chineză (CCTV, People's Daily) a limitat sever informația despre victimele de pe teritoriul ei, iar filmările cu dezastrul, apărute pe rețelele chineze, au fost șterse rapid de cenzori. SUSȚINEM, pe baza a trei publicații independente din trei țări diferite (Australia, Noua Zeelandă, India), că a existat un tipar consecvent de ștergere și minimizare, în timp ce presa nepaleză a raportat liber, cu bilanț detaliat pe naționalități.
-
-Unde bat probele: Probat că filmările au fost șterse și informația a fost limitată pe partea chineză; nu se poate stabili din surse publice dacă motivul e strict politic sau include și dificultăți logistice reale. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
