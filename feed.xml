@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 03 Sep 2026 19:42:42 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 19:44:51 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Parlamentul de la Chișinău desființează direcțiile raionale de învățământ: reforma „Restart în educație” a trecut de lectura a doua</title>
+      <link>https://farabaliverne.ro/a/moldova-restart-educatie-lectura-doua-directii-desfiintate.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-restart-educatie-lectura-doua-directii-desfiintate.html</guid>
+      <pubDate>Thu, 03 Sep 2026 16:43:03 +0000</pubDate>
+      <category>Politică</category>
+      <description>Deputații au adoptat pe 3 septembrie 2026, în lectura a doua, reforma „Restart în educație”, care desființează direcțiile raionale și municipale de învățământ și le înlocuiește cu Agenții Teritoriale pentru Educație (ATE), subordonate direct Ministerului Educației și Cercetării. Reforma intră în vigoare la 1 ianuarie 2027 pentru majoritatea țării, dar abia din 2028 pentru Chișinău, Bălți și UTA Găgăuzia. Primarul general al Chișinăului, Ion Ceban, acuză guvernarea că vrea „control politic” asupra școlilor; ministrul Educației, Dan Perciun, susține că scopul e exact invers — depolitizarea managementului școlar.
+
+Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Un diplomat american preia Misiunea OSCE la Chișinău și devine mediator în dosarul transnistrean</title>
       <link>https://farabaliverne.ro/a/moldova-osce-christopher-smith-mediator-transnistria.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</desc
       <description>Un studiu internațional, publicat în Communications Biology, a folosit ADN dintr-un specimen colectat în 1836 în Nepal pentru a confirma că pangolinii din Himalaya formează o specie distinctă — Manis aurita — separată de pangolinul chinezesc. Descoperirea tranșează și o dispută de denumire din 2025 și ar putea ajuta la combaterea traficului cu solzi de pangolin, cel mai traficat mamifer din lume.
 
 Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Un studiu australian: nivelul de bicarbonat din sângele americanilor a crescut odată cu CO2 din atmosferă</title>
-      <link>https://farabaliverne.ro/a/co2-bicarbonat-sange-nhanes-studiu-2026.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/co2-bicarbonat-sange-nhanes-studiu-2026.html</guid>
-      <pubDate>Mon, 31 Aug 2026 07:49:59 +0000</pubDate>
-      <category>Știință</category>
-      <description>Doi cercetători din Australia (The Kids Research Institute Australia / Curtin University și ANU) au analizat două decenii de date medicale din SUA (NHANES) și au găsit că bicarbonatul din sânge a crescut cu circa 7% din 1999, în paralel cu creșterea CO2 atmosferic. Autorii înșiși spun clar: e o corelație la nivel de populație, nu o dovadă de cauzalitate — și explică de ce.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>

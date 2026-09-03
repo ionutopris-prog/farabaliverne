@@ -1,0 +1,48 @@
+{
+ "slug": "moldova-comisie-ancheta-intreprinderi-stat-cumul-functii-30-zile",
+ "title": "Statul nu știe câte întreprinderi are: comisia parlamentară de anchetă găsește o persoană cu 13 posturi în consilii de administrație și își prelungește mandatul cu 30 de zile",
+ "category": "Politică",
+ "tara": "Moldova",
+ "date": "2026-09-03",
+ "source": "Realitatea.md / TVR Moldova / ZiarulNational.md",
+ "url": "https://realitatea.md/raportul-comisiei-de-ancheta-privind-intreprinderile-de-stat-prelungit-cu-30-de-zile/",
+ "dek": "Parlamentul de la Chișinău a votat pe 3 septembrie 2026, cu 53 de voturi, prelungirea cu 30 de zile a mandatului comisiei de anchetă privind întreprinderile de stat, înființată în iulie după scandalul de la MoldATSA. Comisia a găsit trei registre oficiale cu cifre diferite ale numărului de întreprinderi de stat (515, 163 și 609) și șase persoane care cumulează peste trei posturi în consilii de administrație — una dintre ele, simultan, 13.",
+ "mainVerdict": "Probat",
+ "probat": [
+  {
+   "text": "Comisia de anchetă a Parlamentului privind întreprinderile de stat a fost înființată la 2 iulie 2026, din 11 deputați, la inițiativa fracțiunii PAS, condusă de deputatul Dinu Plîngău, în urma scandalului de la întreprinderea de stat MoldATSA. Mandatul inițial era de 60 de zile, cu termen pentru un raport care să includă propuneri legislative.",
+   "sources": [
+    {"name": "TVR Moldova — Control la companiile de stat, după scandalul MoldATSA: Parlamentul a creat o comisie de anchetă", "url": "https://tvrmoldova.md/article/ec82e83153cb1804/control-la-companiile-de-stat-dupa-scandalul-moldatsa-parlamentul-a-creat-o-comisie-de-ancheta.html"}
+   ]
+  },
+  {
+   "text": "Pe 3 septembrie 2026, Parlamentul a votat cu 53 de voturi prelungirea cu 30 de zile a activității comisiei, la inițiativa președintelui ei, Dinu Plîngău, motivul invocat fiind volumul mare de documente și complexitatea informațiilor colectate de la autorități, întreprinderi de stat și alte entități.",
+   "sources": [
+    {"name": "ZiarulNational.md — Parlamentul a prelungit ancheta în regim de urgență", "url": "https://www.ziarulnational.md/alarmant-statul-nu-stie-cate-companii-detine-dar-le-plateste-salarii-de-lux-parlamentul-a-prelungit-ancheta-in-regim-de-urgenta-323-de-intreprinderi-sunt-fara-idno-iar-salariile-s-au-majorat-cu-80-fara-nicio-explicatie"},
+    {"name": "Realitatea.md — Raportul comisiei de anchetă privind întreprinderile de stat, prelungit cu 30 de zile", "url": "https://realitatea.md/raportul-comisiei-de-ancheta-privind-intreprinderile-de-stat-prelungit-cu-30-de-zile/"}
+   ]
+  },
+  {
+   "text": "Comisia a descoperit că numărul întreprinderilor de stat diferă între registrele oficiale: 515 în Registrul de stat al persoanelor juridice, 163 în Registrul patrimoniului public și 609 în Registrul fiscal de stat. Dintre cele 515 din registrul de bază, 323 nu au IDNO (numărul de identificare de stat) corect înregistrat.",
+   "sources": [
+    {"name": "ZiarulNational.md — discrepanțele dintre cele trei registre și cele 323 de întreprinderi fără IDNO", "url": "https://www.ziarulnational.md/alarmant-statul-nu-stie-cate-companii-detine-dar-le-plateste-salarii-de-lux-parlamentul-a-prelungit-ancheta-in-regim-de-urgenta-323-de-intreprinderi-sunt-fara-idno-iar-salariile-s-au-majorat-cu-80-fara-nicio-explicatie"}
+   ]
+  },
+  {
+   "text": "Pe cele 1.648 de poziții existente anul acesta în consiliile de administrație ale întreprinderilor de stat, comisia a găsit șase persoane care cumulează simultan peste trei posturi, una dintre ele ajungând la 13 consilii deodată, iar o alta la 8-9. Președintele comisiei, Dinu Plîngău, a declarat: „O persoană era și în 8 și 9 și 13 consilii de administrare (...) în multe cazuri o singură persoană ca membru în consiliu putea încasa 350.000-400.000 de lei anual”.",
+   "sources": [
+    {"name": "TVR Moldova — Campionii sinecurelor: șase persoane cumulează până la 13 posturi în consiliile de stat", "url": "https://tvrmoldova.md/article/226567aa20160a50/campionii-sinecurelor-sase-persoane-cumuleaza-pana-la-13-posturi-in-consiliile-de-stat.html"}
+   ]
+  },
+  {
+   "text": "Ca exemplu de creștere salarială semnalată de comisie, la MoldATSA salariul mediu a crescut de la aproximativ 32.000 de lei în 2019 la circa 63.000 de lei în 2026, o majorare de 81%, fără o explicație publică documentată.",
+   "sources": [
+    {"name": "ZiarulNational.md — creșterea de 81% a salariilor la MoldATSA, 2019-2026", "url": "https://www.ziarulnational.md/alarmant-statul-nu-stie-cate-companii-detine-dar-le-plateste-salarii-de-lux-parlamentul-a-prelungit-ancheta-in-regim-de-urgenta-323-de-intreprinderi-sunt-fara-idno-iar-salariile-s-au-majorat-cu-80-fara-nicio-explicatie"}
+   ]
+  }
+ ],
+ "contestat": [],
+ "opinie": [],
+ "aiNote": "Toate cifrele de aici vin dintr-o singură sursă instituțională — comisia parlamentară de anchetă, condusă de un deputat PAS — și n-au fost, până acum, contrazise public de nimeni. De asta mainVerdict e „Probat”, nu pentru că am verificat independent fiecare cifră, ci pentru că sunt declarații oficiale ale unui organ al Parlamentului, aflate acum în relatarea a trei publicații care coincid pe date.\n\nCe merită reținut e mecanismul, nu doar cifrele: statul moldovean ține trei registre oficiale ale propriilor întreprinderi (persoane juridice, patrimoniu public, fiscal), iar acestea nu se potrivesc — 515, 163 și 609. Asta nu e o acuzație împotriva unei persoane, e o constatare despre calitatea evidenței publice: dacă nici Parlamentul, prin comisia lui de anchetă, nu poate spune cu precizie câte întreprinderi de stat există, cu atât mai puțin poate verifica cine le administrează și cu ce bani.\n\nCumulul de funcții — o persoană în 13 consilii simultan, alta în 8-9 — e prezentat de comisie ca sursă de venit suplimentar, nu ca ilegalitate dovedită în instanță; comisia vorbește despre „abateri de la legislație” constatate, nu despre condamnări. Persoanele nu sunt numite public în relatările citate, așa că nu putem verifica identitatea lor sau apăra un drept la replică — rămâne o constatare agregată a comisiei, nu o acuzație individuală.\n\nCe lipsește: comisia nu a publicat încă raportul final cu „soluțiile juridice” promise de Plîngău, iar cele 30 de zile suplimentare sunt tocmai pentru asta. Cifrele despre MoldATSA (salariul mediu 32.000 → 63.000 de lei) nu sunt însoțite, în sursele citate, de o explicație a componenței salariului — spor, bonusuri, funcție nouă — care ar putea schimba mult interpretarea creșterii. Raportul final, așteptat peste o lună, e ce ar clarifica dacă „abaterile” devin sesizări penale sau doar recomandări legislative.",
+ "persoane": ["Dinu Plîngău"]
+}
