@@ -4,7 +4,7 @@
  "category": "Media de stat",
  "tara": "Moldova",
  "date": "2026-08-31",
- "source": "NewsMaker / KP.RU (presă rusă) / MAE Republica Moldova",
+ "source": "NewsMaker / KP.RU (presă rusă) / MAE Republica Moldova / TVR Moldova",
  "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului",
  "dek": "Liderul de facto al regiunii transnistrene, Vadim Krasnoselski, a anunțat pe 28 august că pe malul stâng al Nistrului vor fi deschise 17 secții de votare pentru alegerile din Duma de Stat a Rusiei, din 18-20 septembrie. Ministerul de Externe de la Chișinău spune că a coordonat cu Ambasada Rusiei o singură secție, la Chișinău, și că restul e „inacceptabil” și încalcă suveranitatea R. Moldova. Am pus declarația lui Krasnoselski — care vine dintr-o administrație necontrolată de Chișinău — lângă poziția oficială a MAE.",
  "mainVerdict": "Probat parțial",
@@ -26,6 +26,13 @@
    "text": "Biroul politici de reintegrare, de la Chișinău, a calificat intenția deschiderii celor 16-17 secții suplimentare în regiunea transnistreană, fără acordul autorităților constituționale, drept o încălcare a principiului suveranității și integrității teritoriale a Republicii Moldova. Instituția a argumentat, printre altele, că nu poate garanta măsurile de securitate și că mass-media nu poate reflecta obiectiv procesul, în condițiile a ceea ce a numit cenzură informațională în regiune.",
    "sources": [
     {"name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei", "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"}
+   ]
+  },
+  {
+   "text": "Actualizare 3 septembrie 2026: Ministerul Afacerilor Externe și Integrării Europene l-a convocat pe ambasadorul Rusiei la Chișinău, Oleg Ozerov, și i-a înmânat o notă oficială de protest pe acest subiect — un pas mai formal decât reacția verbală din 30 august. MAE a precizat că „organizarea oricărui proces electoral pe teritoriul Republicii Moldova necesită acordul prealabil și expres al autorităților moldovenești” și a cerut părții ruse „să se abțină de la deschiderea secțiilor de votare în raioanele din stânga Nistrului”.",
+   "sources": [
+    {"name": "TVR Moldova — Ministerul Afacerilor Externe l-a convocat pe Ozerov și i-a înmânat o notă de protest", "url": "https://tvrmoldova.md/article/36bd5a494de909ab/ministerul-afacerilor-externe-l-a-convocat-pe-ozerov-si-i-a-inmanat-o-nota-de-protest.html"},
+    {"name": "NewsMaker (ru) — Молдова направляет России ноту протеста из-за открытия избирательных участков в Приднестровье", "url": "https://newsmaker.md/ru/moldova-napravila-rossii-notu-protesta-iz-za-otkrytiya-izbiratelnyh-uchastkov-v-pridnestrove"}
    ]
   }
  ],
