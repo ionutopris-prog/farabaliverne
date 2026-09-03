@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 03 Sep 2026 09:38:12 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 09:38:47 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oceanele lumii au atins, pe 22 august, cea mai fierbinte temperatură medie zilnică din istoria măsurătorilor prin satelit</title>
+      <link>https://farabaliverne.ro/a/oceane-record-temperatura-22-august-copernicus.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/oceane-record-temperatura-22-august-copernicus.html</guid>
+      <pubDate>Thu, 03 Sep 2026 06:38:20 +0000</pubDate>
+      <category>Știință</category>
+      <description>Serviciul european Copernicus pentru Schimbări Climatice a confirmat că temperatura medie a oceanului planetar (exclusiv zonele polare) a atins 21,1°C pe 22 august 2026 — un nou record pentru seria de date care începe în 1979, depășind cu puțin recordul anterior de 21,09°C, stabilit în martie 2024. Neobișnuit e momentul: oceanele ating de regulă vârful de căldură în martie-aprilie, nu în august, când ar trebui să înceapă să se răcească.
+
+Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Șapte specii noi de „briozoare” arată că un grup marin vechi de 250 de milioane de ani continuă să evolueze</title>
       <link>https://farabaliverne.ro/a/briozoare-horneridae-specii-noi-noua-zeelanda.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
       <description>Australia și Noua Zeelandă au cerut o condamnare fermă a testului chinezesc din 6 iulie 2026, cu o rachetă balistică lansată de pe submarin în Pacific. Papua Noua Guinee, Insulele Solomon, Kiribati și Nauru s-au opus vizării exclusive a Chinei, cerând ca aceeași regulă să se aplice și SUA, Franței, Japoniei sau Marii Britanii. Declarația finală a Forumului a rămas generală, fără să numească China.
 
 Unde bat probele: Probat, cu poziții politice opuse. Verificate: 5 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Președintele Parlamentului iranian contestă public cifra secretarului Trezoreriei SUA despre petrolul din Hormuz</title>
-      <link>https://farabaliverne.ro/a/iran-ghalibaf-bessent-cifre-disputate-hormuz.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/iran-ghalibaf-bessent-cifre-disputate-hormuz.html</guid>
-      <pubDate>Sun, 30 Aug 2026 23:04:44 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Ce SUSȚINE presa de stat iraniană (PressTV): că președintele Parlamentului, Mohammad Bagher Ghalibaf, a demontat public cifra de „130 de milioane de barili” scoși din Strâmtoarea Hormuz, invocată de secretarul Trezoreriei SUA Scott Bessent, opunându-i alte cifre — 130 de miliarde de dolari costuri de război (Moody's) și un randament al obligațiunilor americane la maximul din 2008. Niciuna dintre cifrele disputate nu are, potrivit presei internaționale, o confirmare independentă completă.
-
-Unde bat probele: Contestat — cifre disputate reciproc, doar unele confirmate independent. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
