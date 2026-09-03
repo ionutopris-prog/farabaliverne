@@ -1,0 +1,49 @@
+{
+  "slug": "oceane-record-temperatura-22-august-copernicus",
+  "title": "Oceanele lumii au atins, pe 22 august, cea mai fierbinte temperatură medie zilnică din istoria măsurătorilor prin satelit",
+  "category": "Știință",
+  "date": "2026-09-03",
+  "source": "Copernicus Climate Change Service (C3S) / Copernicus Marine Service",
+  "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record",
+  "dek": "Serviciul european Copernicus pentru Schimbări Climatice a confirmat că temperatura medie a oceanului planetar (exclusiv zonele polare) a atins 21,1°C pe 22 august 2026 — un nou record pentru seria de date care începe în 1979, depășind cu puțin recordul anterior de 21,09°C, stabilit în martie 2024. Neobișnuit e momentul: oceanele ating de regulă vârful de căldură în martie-aprilie, nu în august, când ar trebui să înceapă să se răcească.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Copernicus Climate Change Service (C3S), serviciul Uniunii Europene pentru monitorizarea climei, a anunțat că temperatura medie a suprafeței oceanului planetar, măsurată pentru zona „extra-polară” (între 60° latitudine nordică și 60° latitudine sudică, adică excluzând regiunile polare), a atins 21,1°C pe 22 august 2026 — un nou record în seria de date ERA5, care merge înapoi până în 1979. Recordul anterior, de 21,09°C, fusese stabilit în martie 2024.",
+      "sources": [
+        {"name": "Copernicus Climate Change Service — Copernicus: Daily global sea surface temperature breaks 2024 record (comunicat oficial)", "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record"}
+      ]
+    },
+    {
+      "text": "Momentul recordului e neobișnuit: temperatura medie a oceanului global atinge de regulă vârful anual în martie-aprilie, la finalul verii din emisfera sudică, și scade apoi treptat. Un nou record stabilit în august e, prin urmare, ieșit din tiparul sezonier obișnuit — iar valoarea de acum depășește și recordul anterior pentru luna august, de 20,98°C, înregistrat în 2023.",
+      "sources": [
+        {"name": "Copernicus — context privind tiparul sezonier al temperaturii oceanului", "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record"},
+        {"name": "The Watchers — Global sea surface temperature sets new record, reaching 21.1°C as El Niño strengthens", "url": "https://watchers.news/2026/08/25/global-sea-surface-temperature-sets-new-record-reaching-21-1c-70f-as-el-nino-strengthens/"}
+      ]
+    },
+    {
+      "text": "Samantha Burgess, responsabila strategică pentru climă la ECMWF (Centrul European pentru Prognoze Meteorologice pe Termen Mediu, care operează serviciul Copernicus), a spus: „Acest record e un alt semnal clar al unui ocean sub presiune tot mai mare. El Niño adaugă căldură sistemului, dar o face peste zeci de ani de încălzire cauzată de activitatea umană”. Cauza principală citată e încălzirea pe termen lung, indusă de emisiile de gaze cu efect de seră; episodul El Niño care se dezvoltă în prezent în Pacificul tropical e un factor suplimentar, nu principalul motor.",
+      "sources": [
+        {"name": "Copernicus — citatul Samanthei Burgess și cauzele recordului", "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Marja recordului e extrem de mică — doar 0,01°C peste vechiul record (21,1°C față de 21,09°C) — o diferență apropiată de limitele de precizie ale măsurătorilor. Comunicatul Copernicus însuși avertizează că „recordurile zilnice trebuie interpretate întotdeauna în contextul climatic mai larg” și că nu se știe încă dacă această depășire e temporară sau semnalează o tendință care va continua în lunile următoare.",
+      "sources": [
+        {"name": "Copernicus — avertismentul privind interpretarea recordurilor zilnice", "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română comunicatul oficial al Copernicus Climate Change Service — sursă primară, instituția europeană care operează chiar măsurătorile citate.\n\nCe s-a verificat exact: pe 22 august 2026, temperatura medie zilnică a oceanului global (excluzând polii) a atins 21,1°C, ușor peste recordul anterior de 21,09°C din martie 2024, conform seriei de date ERA5 care începe în 1979. E o cifră oficială, publicată de instituția care întreține chiar setul de date.\n\nUnde e nevoie de nuanță: diferența dintre noul record și cel vechi e de doar 0,01°C — sub pragul la care majoritatea cititorilor ar considera o schimbare „vizibilă”. Semnificația reală a știrii nu stă în acea fracțiune de grad, ci în tipar: recordul a venit într-o lună (august) în care oceanul ar trebui să se răcească după vârful de primăvară, nu să bată recorduri istorice — și vine după o serie de recorduri lunare aproape consecutive de-a lungul lui 2026.\n\nCe lipsește: Copernicus însuși spune că nu se poate ști încă dacă acest vârf e un episod temporar, legat strict de El Niño-ul aflat în dezvoltare, sau primul semn al unei tendințe mai lungi. Ce ar lămuri lucrurile: datele din lunile următoare — dacă temperatura oceanului rămâne aproape de acest nivel după ce El Niño se stinge, semnalul ar deveni mult mai greu de pus pe seama unui fenomen trecător.",
+  "math": {
+    "title": "De ce o diferență de 0,01°C poate fi totuși o știre relevantă",
+    "explanation": "Temperatura medie a întregului ocean planetar e o cifră calculată din milioane de măsurători — de la satelit, de la boi plutitoare, de la nave — agregate pe o suprafață de sute de milioane de kilometri pătrați. Pentru ca media globală să crească, chiar și cu doar 0,01°C, e nevoie ca o cantitate uriașă de energie termică suplimentară să fi fost absorbită de ocean, pentru că apa are o capacitate calorică foarte mare — încălzește greu și se răcește greu, comparativ cu aerul. De aceea, spre deosebire de o temperatură zilnică la sol (care poate varia cu câteva grade de la o zi la alta din motive banale, locale), o schimbare mică a temperaturii medii a oceanului global reflectă, de regulă, o cantitate mare de energie acumulată la scară planetară — motiv pentru care climatologii urmăresc acești indicatori chiar și atunci când cifrele brute par mici.",
+    "sources": [
+      {"name": "Copernicus — despre rolul oceanului în bilanțul energetic al climei", "url": "https://climate.copernicus.eu/copernicus-daily-global-sea-surface-temperature-breaks-2024-record"}
+    ]
+  },
+  "persoane": []
+}
