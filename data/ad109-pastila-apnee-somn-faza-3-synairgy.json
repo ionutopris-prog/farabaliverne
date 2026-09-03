@@ -1,0 +1,49 @@
+{
+  "slug": "ad109-pastila-apnee-somn-faza-3-synairgy",
+  "title": "O pastilă luată o dată pe noapte a redus cu 44% întreruperile respirației la pacienții cu apnee de somn, arată un trial de fază 3",
+  "category": "Știință",
+  "date": "2026-09-03",
+  "source": "American Journal of Respiratory and Critical Care Medicine / American Thoracic Society",
+  "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa",
+  "dek": "Rezultatele trialului de fază 3 „SynAIRgy”, pe 646 de adulți cu apnee obstructivă de somn, arată că pastila experimentală AD109 (aroxybutynin + atomoxetină), produsă de compania americană Apnimed, a redus indicele de apnee-hipopnee cu circa 44%, față de 18% la grupul cu placebo. Rezultatele au fost publicate în American Journal of Respiratory and Critical Care Medicine; compania a depus deja cerere de aprobare la FDA, dar decizia oficială nu a fost încă luată.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Trialul „SynAIRgy”, de fază 3, a inclus 646 de adulți cu apnee obstructivă de somn (OSA) ușoară până la severă, care nu tolerau sau refuzau tratamentul standard cu aparat CPAP (presiune pozitivă continuă în căile respiratorii). Studiul, randomizat și controlat cu placebo, s-a desfășurat timp de 6 luni în 69 de centre din SUA și Canada. Rezultatele au fost publicate în American Journal of Respiratory and Critical Care Medicine, cu o analiză mecanistică însoțitoare în American Journal of Respiratory Cell and Molecular Biology, și prezentate oficial de American Thoracic Society (ATS).",
+      "sources": [
+        {"name": "American Thoracic Society — Once-Nightly Pill Treats Causes of Airway Collapse to Control OSA (comunicat oficial)", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"},
+        {"name": "ScienceDaily — Goodbye CPAP? New sleep apnea pill cuts breathing events by 44%", "url": "https://www.sciencedaily.com/releases/2026/08/260831015203.htm"}
+      ]
+    },
+    {
+      "text": "Medicamentul, numit AD109, combină două substanțe active — aroxybutynin și atomoxetină — și țintește cauzele neuromusculare ale colapsului căilor respiratorii în timpul somnului, spre deosebire de CPAP, care tratează mecanic simptomul. La pacienții tratați cu AD109, indicele de apnee-hipopnee (AHI, numărul de întreruperi ale respirației pe oră de somn) a scăzut cu circa 44% față de momentul inițial, comparativ cu 18% la grupul placebo. 41% dintre participanții care au dus trialul până la capăt au ajuns la un AHI sub 10 (considerat aproape de normal), iar 18% au atins „control complet” al bolii; peste 40% dintre pacienți au trecut într-o categorie mai puțin severă de OSA.",
+      "sources": [
+        {"name": "American Thoracic Society — cifrele complete ale trialului SynAIRgy", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+      ]
+    },
+    {
+      "text": "Compania Apnimed, care dezvoltă medicamentul, a primit din partea FDA (agenția americană pentru medicamente) desemnarea „Fast Track” și a depus deja o cerere de aprobare (New Drug Application), cu o dată-țintă pentru decizia FDA fixată în trimestrul I din 2027. Dr. Patrick Strollo, de la University of Pittsburgh Medical Center, unul dintre cercetătorii implicați, a spus că rezultatele „oferă dovezi încurajatoare că țintirea disfuncției neuromusculare se poate traduce în beneficii clinice reale”.",
+      "sources": [
+        {"name": "American Thoracic Society — statutul cererii la FDA și citatul Dr. Strollo", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Medicamentul NU e încă aprobat de FDA — decizia oficială e așteptată abia în primul trimestru al lui 2027, deci pastila nu e disponibilă pentru pacienți în acest moment. În plus, circa 21% dintre participanții din brațul cu AD109 au întrerupt tratamentul din cauza efectelor secundare (gură uscată, greață, insomnie, dificultăți la urinare) — o rată de abandon care arată că medicamentul nu e potrivit pentru toată lumea, iar rezultatele de „44% reducere” se referă la cei care au continuat tratamentul, nu la toți pacienții înrolați inițial.",
+      "sources": [
+        {"name": "American Thoracic Society — profilul de siguranță și rata de întrerupere a tratamentului", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română comunicatul oficial al American Thoracic Society, care prezintă rezultatele publicate în American Journal of Respiratory and Critical Care Medicine — surse primare medicale, nu presă secundară.\n\nCe s-a verificat exact: un trial de fază 3, randomizat, controlat cu placebo, pe 646 de pacienți, arată o reducere clinic relevantă a indicelui de apnee-hipopnee cu AD109 față de placebo (44% vs. 18%). E un rezultat solid din punct de vedere metodologic — placebo-controlat, publicat cu recenzie de la egal la egal (peer-review).\n\nUnde e nevoie de nuanță: titlurile din presă („La revedere, CPAP?”) anticipează o aprobare care încă nu există — FDA nu s-a pronunțat, iar decizia oficială vine abia în 2027. Totodată, un sfert din pacienții tratați au renunțat din cauza efectelor secundare, ceea ce înseamnă că cifrele de eficacitate raportate provin din grupul care a tolerat medicamentul, nu din toți cei înscriși în studiu — o distincție importantă pe care titlurile optimiste o omit adesea.\n\nCe lipsește: date pe termen lung (trialul a durat doar 6 luni) și o comparație directă, cap la cap, cu eficacitatea CPAP la pacienții care îl folosesc corect — AD109 a fost testat pe oameni care oricum nu tolerau sau refuzau CPAP, nu pe o populație generală de pacienți cu OSA. Fără Baliverne nu dă sfaturi medicale.",
+  "math": {
+    "title": "Ce înseamnă „indice de apnee-hipopnee” și de ce contează pragul de 44%",
+    "explanation": "Indicele de apnee-hipopnee (AHI) numără de câte ori pe oră de somn respirația unei persoane se oprește aproape complet (apnee) sau scade semnificativ (hipopnee). Un AHI sub 5 e considerat normal, între 5 și 15 — apnee ușoară, între 15 și 30 — moderată, peste 30 — severă. O reducere de 44% a AHI-ului mediu în grupul tratat cu AD109 înseamnă, practic, că persoanele respective au trecut, în medie, cu o treaptă sau două mai jos pe această scală de severitate — de exemplu, de la apnee moderată la ușoară. Compararea cu grupul placebo (care a scăzut doar cu 18%, un „efect placebo” obișnuit în trialurile pe somn, parțial din cauza atenției sporite acordate obiceiurilor de somn în timpul studiului) e ceea ce arată că efectul observat se datorează probabil medicamentului, nu doar participării la trial.",
+    "sources": [
+      {"name": "American Thoracic Society — definirea AHI și compararea cu placebo", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+    ]
+  },
+  "persoane": []
+}

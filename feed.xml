@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 03 Sep 2026 09:34:14 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 09:35:43 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hubble a surprins un „decagon” — un val atmosferic cu zece laturi — în jurul polului sud al lui Saturn</title>
+      <link>https://farabaliverne.ro/a/saturn-decagon-hubble-polul-sud.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/saturn-decagon-hubble-polul-sud.html</guid>
+      <pubDate>Thu, 03 Sep 2026 06:34:25 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat pe 2 septembrie 2026 în Science Advances, bazat pe observații ale telescopului spațial Hubble, descrie prima structură mare, cu laturi regulate, văzută vreodată la polul sud al lui Saturn: un „decagon” cu zece laturi, asemănător — dar nu identic — cu celebrul hexagon de la polul nord, cunoscut de peste 40 de ani. Cercetătorii spun clar că fenomenul pare să se fi format recent și că nu știu încă de ce.
+
+Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>NBC News: hackeri legați de Iran ar fi încercat atacuri cibernetice asupra infrastructurii critice din SUA — fără succes deocamdată; un grup de pe Telegram amenință cu „evenimente neașteptate”</title>
       <link>https://farabaliverne.ro/a/iran-hackeri-atacuri-cibernetice-infrastructura-sua.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</desc
       <description>În aceeași săptămână, doi oficiali din industria petrolului iraniană (NIOC) au numit „nefondate” zvonurile despre lipsa benzinei, în timp ce vicepreședintele executiv Mohammad Jafar Ghaempanah a spus public că prețurile la benzină și motorină trebuie schimbate „azi” și că „a continua pe acest drum e imposibil”. Cozi de kilometri la benzinării, filmate și relatate independent, arată o presiune reală pe piața de carburanți.
 
 Unde bat probele: Contestat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Siria îl numește consilier prezidențial pe fostul comandant al forțelor kurde FDS, la două zile după ce acestea s-au dizolvat ca forță militară independentă</title>
-      <link>https://farabaliverne.ro/a/siria-mazloum-abdi-consilier-prezidential-dizolvare-fds.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/siria-mazloum-abdi-consilier-prezidential-dizolvare-fds.html</guid>
-      <pubDate>Sun, 30 Aug 2026 18:16:45 +0000</pubDate>
-      <category>Extern</category>
-      <description>Președintele sirian Ahmed al-Sharaa l-a numit, printr-un decret prezidențial, pe Mazloum Abdi, fostul comandant al Forțelor Democratice Siriene (FDS, structura kurdă), consilier al Președinției. Numirea vine la două zile după ce Abdi a anunțat, pe 25 august 2026, dizolvarea FDS ca forță militară independentă, ca parte a unui acord de integrare cu Damascul negociat după ce kurzii au pierdut teren militar în fața trupelor guvernamentale, în ianuarie 2026.
-
-Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
