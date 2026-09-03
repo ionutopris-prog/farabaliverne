@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 03 Sep 2026 21:02:36 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:05:35 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nicușor Dan promite premierul „în zilele următoare” — Simion prezisese cu trei zile înainte că nu va fi desemnat nimeni până pe 21 septembrie</title>
+      <link>https://farabaliverne.ro/a/nicusor-dan-premier-zilele-urmatoare-simion-21-septembrie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/nicusor-dan-premier-zilele-urmatoare-simion-21-septembrie.html</guid>
+      <pubDate>Thu, 03 Sep 2026 18:02:51 +0000</pubDate>
+      <category>Politică</category>
+      <description>Președintele Nicușor Dan a declarat, pe 3 septembrie 2026, că va desemna un premier „în zilele următoare”, după aproape patru luni de guvern interimar. Declarația vine la trei zile după ce liderul AUR, George Simion, prezisese pe Facebook că „până cel puțin pe 21 septembrie nu va fi desemnat niciun premier”. Ambele sunt afirmații ale unor politicieni cu interes direct în deznodământ — una speră să se confirme, cealaltă mizează pe eșecul rivalului.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Statul nu știe câte întreprinderi are: comisia parlamentară de anchetă găsește o persoană cu 13 posturi în consilii de administrație și își prelungește mandatul cu 30 de zile</title>
       <link>https://farabaliverne.ro/a/moldova-comisie-ancheta-intreprinderi-stat-cumul-functii-30-zile.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
       <description>Liderul de facto al regiunii transnistrene, Vadim Krasnoselski, a anunțat pe 28 august că pe malul stâng al Nistrului vor fi deschise 17 secții de votare pentru alegerile din Duma de Stat a Rusiei, din 18-20 septembrie. Ministerul de Externe de la Chișinău spune că a coordonat cu Ambasada Rusiei o singură secție, la Chișinău, și că restul e „inacceptabil” și încalcă suveranitatea R. Moldova. Am pus declarația lui Krasnoselski — care vine dintr-o administrație necontrolată de Chișinău — lângă poziția oficială a MAE.
 
 Unde bat probele: Probat parțial. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>JWST a găsit un obiect nou: o „stea-gaură neagră” din zorii universului, publicată în Nature</title>
-      <link>https://farabaliverne.ro/a/jwst-mom-bh1-stea-gaura-neagra-zorii-universului.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/jwst-mom-bh1-stea-gaura-neagra-zorii-universului.html</guid>
-      <pubDate>Mon, 31 Aug 2026 07:54:42 +0000</pubDate>
-      <category>Știință</category>
-      <description>Un studiu publicat în Nature pe 12 august 2026 descrie MoM-BH*-1, un obiect observat la 660 de milioane de ani după Big Bang: o gaură neagră de circa 100.000 de mase solare, învăluită într-un cocon dens de gaz care o face să strălucească precum o stea uriașă. Autorii spun că fenomenul ar putea explica misterioasele „puncte roșii mici” din imaginile telescopului spațial James Webb — dar avertizează ei înșiși că e prea devreme pentru concluzii ferme.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
