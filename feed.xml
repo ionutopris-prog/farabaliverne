@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 03 Sep 2026 21:08:42 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:09:29 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Djokovic, eliminat în turul 1 la US Open de Mariano Navone — cade un streak de 78 de victorii consecutive și unul de 23 de ani pentru „Big Three”</title>
+      <link>https://farabaliverne.ro/a/djokovic-eliminat-us-open-navone-streak-78.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/djokovic-eliminat-us-open-navone-streak-78.html</guid>
+      <pubDate>Thu, 03 Sep 2026 18:08:58 +0000</pubDate>
+      <category>Sport</category>
+      <description>Novak Djokovic a pierdut, pe 30 august 2026, meciul din turul 1 al US Open cu argentinianul Mariano Navone (locul 49 ATP), scor 6-7(5-7), 7-5, 6-4, 2-6, 1-6, după 4 ore și 36 de minute — cel mai lung meci de turul 1 din cariera lui la Grand Slam-uri. Înfrângerea rupe un streak de 78 de victorii consecutive în primul tur la turneele de Grand Slam, cel mai lung din era Open, și marchează prima dată din 2003 când niciunul dintre Djokovic, Federer sau Nadal nu ajunge în turul 2 al unui major.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Deficitul bugetar a scăzut cu 37% în șapte luni — dar costul datoriei publice a urcat cu 26,5%, iar estimarea pentru tot anul rămâne 6,2% din PIB</title>
       <link>https://farabaliverne.ro/a/deficit-bugetar-scazut-37-la-suta-dobanzi-26-5-la-suta.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 5 probate, 3 contestate.</desc
       <description>Executivul a decis vineri, 28 august 2026, să mențină în funcțiune grupurile pe lignit de la Craiova (până în trimestrul al doilea din 2027) și Turceni (până în primul trimestru din 2028), deși România se angajase prin PNRR să le închidă până la 31 august 2026. Premierul interimar Ilie Bolojan avertizează asupra unei pierderi de până la 100 de milioane de euro; Comisia Europeană spune că jalonul nu mai poate fi renegociat la această dată, iar un regulator european contestă chiar argumentul de siguranță energetică invocat de Guvern.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Un nou obiect aerian a intrat în spațiul Moldovei dinspre Ucraina și a revenit după nouă minute. Al patrulea incident de acest fel în august</title>
-      <link>https://farabaliverne.ro/a/moldova-obiect-aerian-dnestrovsk-30-august-noua-minute.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-obiect-aerian-dnestrovsk-30-august-noua-minute.html</guid>
-      <pubDate>Mon, 31 Aug 2026 08:05:41 +0000</pubDate>
-      <category>Extern</category>
-      <description>Duminică, 30 august 2026, un obiect aerian a intrat în spațiul aerian al Republicii Moldova dinspre Ucraina, lângă satul Dnestrovsk din regiunea transnistreană, și a revenit pe aceeași rută nouă minute mai târziu. Serviciul Operații Aeriene al Armatei Naționale spune că survolarea a avut loc în contextul atacurilor aeriene rusești asupra Ucrainei din aceeași zi. E al patrulea incident de acest tip raportat oficial în august.
-
-Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
