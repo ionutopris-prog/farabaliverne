@@ -1,0 +1,41 @@
+{
+  "slug": "briozoare-horneridae-specii-noi-noua-zeelanda",
+  "title": "Șapte specii noi de „briozoare” arată că un grup marin vechi de 250 de milioane de ani continuă să evolueze",
+  "category": "Știință",
+  "date": "2026-09-03",
+  "source": "Zoological Journal of the Linnean Society (Smith et al., 2026)",
+  "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html",
+  "dek": "Un studiu publicat în Zoological Journal of the Linnean Society descrie 7 specii noi din familia Horneridae — briozoare cu schelete asemănătoare dantelei, găsite în apele adânci din jurul Noii Zeelande — ridicând la 11 numărul total de specii cunoscute din regiune, față de doar 2 cât se credea până acum. Descoperirea arată că acest grup vechi de 250 de milioane de ani nu e o relicvă înghețată în timp, ci continuă să producă specii noi.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Studiul, condus de profesoara emerită Abby Smith (Departamentul de Științe Marine, Universitatea Otago, Noua Zeelandă), împreună cu Dr. Helen Jenkins, Dr. Paul Taylor și Dr. Andrea Waeschenbach (Muzeul de Istorie Naturală din Londra), a fost publicat în Zoological Journal of the Linnean Society. Cercetătorii au analizat probe din apele sudice ale Noii Zeelande, între Strâmtoarea Cook și insulele subantarctice, și au identificat 11 specii de briozoare din familia Horneridae (ordinul Cyclostomatida) — dintre care 7 sunt noi pentru știință — grupate în trei genuri, dintre care unul nou descris și altul reinstituit.",
+      "sources": [
+        {"name": "Phys.org — Seven new species show 250-million-year-old marine group is still evolving", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+      ]
+    },
+    {
+      "text": "Briozoarele (bryozoa) sunt organisme marine coloniale, cu schelete calcaroase fine, asemănătoare unei dantele, care formează structuri ce oferă habitat altor viețuitoare din apele adânci. Familia Horneridae are o istorie fosilă de circa 250 de milioane de ani. Până la acest studiu, se credea că doar 2 specii din această familie trăiesc în apele Noii Zeelande; noua cercetare ridică numărul total cunoscut la 11.",
+      "sources": [
+        {"name": "Phys.org — detalii despre taxonomia și distribuția familiei Horneridae", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+      ]
+    },
+    {
+      "text": "Trei dintre speciile noi au primit nume comemorative: una după nava de cercetare RV Polaris II, iar celelalte două după cercetătoarele Elizabeth Girvan și Kim Currie. Profesoara Smith a rezumat miza practică a lucrării astfel: „Nu poți conserva, gestiona, studia sau înțelege o specie dacă nu știi că există” — un argument pentru continuarea cercetării taxonomice de bază chiar și în grupuri considerate deja bine cunoscute.",
+      "sources": [
+        {"name": "Phys.org — citatul profesoarei Abby Smith și numele noilor specii", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română o descoperire publicată în Zoological Journal of the Linnean Society, o revistă cu recenzie de la egal la egal (peer-review), relatată de Phys.org pe baza comunicatului Universității Otago.",
+  "math": {
+    "title": "Cum se stabilește azi că o specie e „nouă” pentru știință",
+    "explanation": "Identificarea unei specii noi nu înseamnă doar găsirea unui animal necunoscut — de multe ori, ca aici, exemplarele existau deja în colecțiile muzeelor, uneori de zeci sau chiar de peste 100 de ani, dar erau clasificate greșit sau grupate laolaltă cu specii asemănătoare. Cercetătorii moderni compară atent forma și structura fină a scheletului (morfologie), iar tot mai des adaugă și analiza ADN-ului (secvențiere genetică), pentru a vedea dacă două populații care arată asemănător sunt totuși suficient de diferite genetic încât să fie considerate specii separate, nu doar variații ale aceleiași specii. Așa se explică de ce un grup „vechi” — cu fosile de 250 de milioane de ani — poate încă produce specii „noi” pentru catalogul științific: distincția e între vechimea liniei evolutive și momentul în care oamenii de știință au reușit, cu instrumentele de azi, să separe corect speciile din interiorul ei.",
+    "sources": [
+      {"name": "Phys.org — metodologia studiului privind familia Horneridae", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+    ]
+  },
+  "persoane": []
+}
