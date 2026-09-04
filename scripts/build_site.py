@@ -65,6 +65,43 @@ IDX  = os.path.join(ROOT, "index.html")
 
 FEATURED = "legea-integritatii-vot-final"   # articolul din hero (rămâne curatoriat manual)
 CAT_ORDER = ["Politică", "Economie", "Extern", "Știință", "Media de stat", "Social", "Sport"]
+
+
+# Verdictul, redus la un cuvant — DOAR pentru Google, nu pentru cititor.
+#
+# `mainVerdict` e text liber, si asa ramane: peste 200 de formulari distincte
+# in 727 de articole, multe propozitii intregi („Probat ce a declarat X — cifra
+# ramane o estimare, neverificabila independent"). Aia e nuanta, e valoarea
+# noastra, si NU se atinge. Cititorul vede in continuare fraza intreaga.
+#
+# Dar ClaimReview — formatul prin care Google recunoaste o verificare — cere
+# obligatoriu `alternateName`: „a human-readable short word or phrase".
+# Un cuvant. Asta e tot ce ii dam.
+#
+# 🔴 NU dam `ratingValue`. E doar recomandat, nu obligatoriu (verificat in
+# documentatia Google pe 4 septembrie 2026). O nota numerica ar insemna sa
+# punem adevarul pe o scara de la 1 la 5 — exact ce nu facem. Cuvantul „Probat"
+# e al nostru; cifra ar fi fost a altcuiva.
+VERDICT_SCURT = ("Contrazis", "Neprobat", "Neverificabil", "Neconfirmat",
+                 "Contestat", "Mixt", "Opinie", "În verificare",
+                 "Probat parțial", "Probat")
+
+def verdict_scurt(v):
+    """Primul cuvant-cheie cu care incepe verdictul. „Mixt" daca nu incepe cu niciunul.
+
+    Ordinea din VERDICT_SCURT conteaza: „Probat parțial" trebuie incercat
+    inaintea lui „Probat", altfel toate partialele ar trece drept probate.
+    Cele ~27 de verdicte care incep altfel („Cifrele oficiale: probate · …”)
+    sunt chiar amestecate — „Mixt" nu e o pierdere de nuanta, e adevarul lor.
+    """
+    t = (v or "").strip()
+    if not t:
+        return None
+    tl = t.lower()
+    for eticheta in VERDICT_SCURT:
+        if tl.startswith(eticheta.lower()):
+            return "Neverificabil" if eticheta == "Neconfirmat" else eticheta
+    return "Mixt"
 CAT_ID = {"Politică":"politica","Economie":"economie","Extern":"extern","Știință":"stiinta","Media de stat":"media-de-stat","Social":"social","Sport":"sport"}
 GCLASS = {"Politică":"g-pol","Economie":"g-eco","Social":"g-soc","Sport":"g-sport","Extern":"g-ext","Știință":"g-sci","Media de stat":"g-state"}
 CATGLYPH = {"Politică":"⚖️","Economie":"💶","Social":"👥","Extern":"🌍","Sport":"⚽","Știință":"🔬","Media de stat":"📡"}
@@ -1480,7 +1517,25 @@ def main():
                       "author":{"@type":"Organization","name":"Fără Baliverne","url":"https://farabaliverne.ro"},
                       "publisher":{"@type":"Organization","name":"Fără Baliverne","logo":{"@type":"ImageObject","url":"https://farabaliverne.ro/apple-touch-icon.png"}},
                       "mainEntityOfPage":"https://farabaliverne.ro/a/"+slug+".html","description":d.get("dek","")}
-                lds = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + '</script>'
+                # ClaimReview: cardul de identitate al unei verificari. Fara el,
+                # Google nu stie ca pagina e un fact-check si nu intra in Fact
+                # Check Explorer, unde cauta jurnalistii. Vezi `verdict_scurt`.
+                blocuri = [ld]
+                eticheta = verdict_scurt(d.get("mainVerdict"))
+                if eticheta:
+                    cr = {"@context":"https://schema.org","@type":"ClaimReview",
+                          "url":"https://farabaliverne.ro/a/"+slug+".html",
+                          "claimReviewed":d["title"],
+                          "datePublished":d.get("date",""),
+                          "author":{"@type":"Organization","name":"Fără Baliverne",
+                                    "url":"https://farabaliverne.ro"},
+                          "reviewRating":{"@type":"Rating","alternateName":eticheta}}
+                    sursa = d.get("url")
+                    if sursa:
+                        cr["itemReviewed"] = {"@type":"Claim",
+                            "appearance":{"@type":"CreativeWork","url":sursa}}
+                    blocuri.append(cr)
+                lds = '<script type="application/ld+json">' + json.dumps(blocuri if len(blocuri) > 1 else ld, ensure_ascii=False) + '</script>'
                 if 'application/ld+json' in s:
                     s = re.sub(r'<script type="application/ld\+json">.*?</script>', lambda m: lds, s, count=1, flags=re.S)
                 elif '</head>' in s:
