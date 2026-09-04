@@ -1,0 +1,102 @@
+{
+  "slug": "spania-ceuta-proteste-luna-migranti-sanchez",
+  "title": "O lună după valul de migranți din Ceuta, zeci de mii de spanioli protestează în peste 200 de orașe și cer demisia lui Pedro Sánchez",
+  "category": "Extern",
+  "date": "2026-09-04",
+  "source": "Al Jazeera / ABC News",
+  "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on",
+  "dek": "🌍 Pe 2 septembrie 2026, de Ziua Ceuta, zeci de mii de spanioli au ieșit în stradă în peste 200 de localități — circa 50.000 doar la Madrid — la o lună după ce aproximativ 70.000-72.000 de persoane au trecut granița dinspre Maroc într-un singur weekend. Guvernul Sánchez spune că mai rămân 5.000 de migranți în enclavă; cifrele exacte ale morților și ale celor rămași diferă între autorități și surse locale.",
+  "mainVerdict": "Probat, cu cifre care diferă între surse",
+  "probat": [
+    {
+      "text": "Miercuri, 2 septembrie 2026 — coincizând cu „Ziua Ceuta”, sărbătoarea locală care marchează preluarea orașului de către portughezi în secolul XV — zeci de mii de oameni au protestat în peste 200 de localități din Spania, cu adunarea cea mai mare la Madrid, unde au participat aproximativ 50.000 de persoane. Proteste semnificative au avut loc și la Barcelona, Valencia și Sevilla.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Thousands protest in Spain as Ceuta's migrant crisis festers a month on",
+          "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on"
+        },
+        {
+          "name": "ABC News (wire) — Tensions tied to Ceuta migrant crisis overshadow a date usually reserved for celebration",
+          "url": "https://abcnews.com/International/wireStory/tensions-tied-ceuta-migrant-crisis-overshadow-date-reserved-136142375"
+        }
+      ]
+    },
+    {
+      "text": "Protestatarii au cerut soluții pentru criza umanitară din Ceuta și demisia premierului Pedro Sánchez, cu lozinci precum „Ceuta nu se vinde, trebuie apărată” și „O Ceuta unită nu va fi niciodată înfrântă”.",
+      "sources": [
+        {
+          "name": "Al Jazeera — lozincile protestatarilor",
+          "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on"
+        },
+        {
+          "name": "ABC News (wire) — cererile protestatarilor",
+          "url": "https://abcnews.com/International/wireStory/tensions-tied-ceuta-migrant-crisis-overshadow-date-reserved-136142375"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul Sánchez a alocat 309 milioane de euro pentru ajutor social legat de criză și susține că autoritățile marocane au „ajutat rapid” la returnarea migranților. Premierul a atribuit valul migrator unei „lecturi greșite a unei hotărâri judecătorești” și dezinformării din mediul online.",
+      "sources": [
+        {
+          "name": "Al Jazeera — poziția guvernului Sánchez",
+          "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on"
+        },
+        {
+          "name": "ABC News (wire) — negarea abandonării Ceutei",
+          "url": "https://abcnews.com/International/wireStory/tensions-tied-ceuta-migrant-crisis-overshadow-date-reserved-136142375"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul exact al persoanelor care au trecut granița din Maroc în weekendul de 30-31 iulie 2026 diferă: Al Jazeera indică „peste 70.000”, ABC News „aproximativ 72.000”. Diferența e mică (sub 3%) și nu schimbă amploarea evenimentului — cel mai mare val de traversări dintr-o dată la această frontieră.",
+      "sources": [
+        {
+          "name": "Al Jazeera — peste 70.000",
+          "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on"
+        },
+        {
+          "name": "ABC News (wire) — aproximativ 72.000",
+          "url": "https://abcnews.com/International/wireStory/tensions-tied-ceuta-migrant-crisis-overshadow-date-reserved-136142375"
+        }
+      ]
+    },
+    {
+      "text": "Bilanțul morților din această vară diferă și el: Al Jazeera scrie „cel puțin 80”, ABC News „minimum 90”. Niciuna dintre surse nu precizează o metodologie de numărare comună (recuperări din mare vs. dispariții raportate), ceea ce poate explica parțial diferența.",
+      "sources": [
+        {
+          "name": "Al Jazeera — cel puțin 80 de morți",
+          "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on"
+        },
+        {
+          "name": "ABC News (wire) — minimum 90 de morți",
+          "url": "https://abcnews.com/International/wireStory/tensions-tied-ceuta-migrant-crisis-overshadow-date-reserved-136142375"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul spaniol susține că 5.000 de migranți, dintre care 1.200 de minori, mai rămân în Ceuta la o lună de la valul din iulie. Al Jazeera notează explicit că „statisticile locale indică cifre mai mari” decât cele oficiale, fără să dea o cifră alternativă precisă — un punct pe care autoritățile locale și guvernul central nu par să-l fi reconciliat public.",
+      "sources": [
+        {
+          "name": "Al Jazeera — divergența dintre cifrele guvernului și cele locale",
+          "url": "https://www.aljazeera.com/news/2026/9/2/thousands-protest-in-spain-as-ceutas-migrant-crisis-festers-a-month-on"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Criza a devenit un teren de luptă politică: partidele de opoziție PP și Vox au făcut din Ceuta un punct central al ofensivei împotriva guvernului de stânga al lui Pedro Sánchez, în timp ce Sánchez respinge acuzația că ar fi „abandonat” enclava. Cine are dreptate în privința gestionării crizei rămâne o chestiune de interpretare politică, nu un fapt care poate fi tranșat cu cifre.",
+      "sources": [
+        {
+          "name": "US News — Ceuta residents call for calm as Spain rallies over enclave's migrant crisis",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-02/ceuta-residents-call-for-calm-as-spain-rallies-over-enclaves-migrant-crisis"
+        }
+      ]
+    }
+  ],
+  "math": null,
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: amploarea protestelor de pe 2 septembrie 2026 (Al Jazeera și relatarea de agenție preluată de ABC News coincid pe cifra centrală, ~50.000 la Madrid, peste 200 de localități) și contextul — valul de migranți din 30-31 iulie 2026, cel mai mare dintr-o dată la granița Ceuta.\n\nUnde se despart sursele: pe cifre secundare — numărul exact al celor care au trecut granița (70.000 vs. 72.000), bilanțul morților (80 vs. 90) și mai ales câți migranți mai sunt încă în Ceuta, unde guvernul spune 5.000, iar sursele locale citate de Al Jazeera indică „mai mulți”, fără cifră. Diferențele mici (sub 5.000) probabil vin din momente diferite de numărare sau din ce se consideră „migrant rămas în Ceuta” (înregistrat oficial vs. estimat pe teren).\n\nCe lipsește: o cifră oficială unică, publicată de administrația Ceutei sau de guvernul central, care să reconcilieze numărul celor rămași. Fără ea, afirmațiile „5.000” și „mai mulți” rămân ambele plauzibile, dar neconfirmate reciproc.\n\nCe ar schimba concluzia: un raport oficial al administrației locale din Ceuta cu cifre actualizate ar închide disputa despre câți migranți rămân efectiv acolo.",
+  "persoane": ["Pedro Sánchez"]
+}
