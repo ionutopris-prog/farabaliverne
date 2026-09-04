@@ -1,0 +1,37 @@
+{
+  "slug": "psilocibina-nervi-chimioterapie-soareci-md-anderson",
+  "title": "Psilocibina a prevenit leziunile nervoase provocate de chimioterapie, într-un studiu pe șoareci",
+  "category": "Știință",
+  "date": "2026-09-04",
+  "source": "Science (Dougherty, Amit et al., 2026) / MD Anderson Cancer Center",
+  "url": "https://www.mdanderson.org/newsroom/research-newsroom/psilocybin-prevents-chemotherapy-related-nerve-injury-and-associated-symptoms-in-preclinical-models.h00-159858501.html",
+  "dek": "Un studiu publicat în revista Science pe 3 septembrie 2026, realizat la MD Anderson Cancer Center, arată că două doze de psilocibină administrate înainte de chimioterapie au protejat șoarecii de leziuni nervoase timp de până la șase cicluri de tratament, cu trei chimioterapice diferite. Cercetătorii avertizează explicit că rezultatele sunt doar preclinice — nu au fost testate încă pe oameni — și urmează un studiu clinic de fază 2 pentru a verifica dacă efectul se reproduce la pacienți.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Cercetătorii de la MD Anderson Cancer Center au arătat, într-un studiu publicat în revista Science pe 3 septembrie 2026, că administrarea a două doze de psilocibină înainte de chimioterapie a prevenit apariția leziunilor nervoase la șoareci, inclusiv după cicluri repetate de tratament — până la șase cicluri, cu trei chimioterapice diferite (cisplatin, paclitaxel și docetaxel) și în mai multe scenarii experimentale (cu tumoră, fără tumoră). Coautorul Patrick Dougherty a subliniat că e „prima dată când psilocibina a fost folosită ca agent neuroprotector”, iar coautoarea Moran Amit a numit consistența rezultatelor „fără precedent”.",
+      "sources": [
+        {"name": "MD Anderson — Psilocybin prevents chemotherapy-related nerve injury and associated symptoms in preclinical models", "url": "https://www.mdanderson.org/newsroom/research-newsroom/psilocybin-prevents-chemotherapy-related-nerve-injury-and-associated-symptoms-in-preclinical-models.h00-159858501.html"},
+        {"name": "Scientific American — 'Unparalleled' study finds psilocybin protects against nerve damage from chemotherapy", "url": "https://www.scientificamerican.com/article/unparalleled-study-finds-psilocybin-protects-against-nerve-damage-from-chemotherapy/"}
+      ]
+    },
+    {
+      "text": "Mecanismul propus: psilocibina activează receptori de serotonină (5-HT2A) de pe fibrele nervoase senzoriale, ceea ce ajută la menținerea mișcării mitocondriilor de-a lungul microtubulilor din interiorul neuronilor — un fel de „șine” prin care se transportă energia. Chimioterapia deteriorează în mod normal aceste microtubuli, blocând transportul de energie și ducând la degradarea nervilor; psilocibina pare să contracareze acest efect. Un compus înrudit, tabernanthalog — care activează aceiași receptori dar nu produce efecte halucinogene — a oferit o protecție similară la șoareci, ceea ce sugerează că efectul nu depinde de proprietățile psihedelice ale substanței.",
+      "sources": [
+        {"name": "Nature (News) — Magic-mushroom compound blocks a severe side effect of chemotherapy, in mice", "url": "https://www.nature.com/articles/d41586-026-02744-6"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Rezultatele sunt limitate strict la șoareci și la modele celulare de laborator; nu există încă date pe oameni, dincolo de rapoarte anecdotice ale unor pacienți aflați în alte studii clinice cu psilocibină, care ar fi semnalat ameliorarea simptomelor. Echipa plănuiește un studiu clinic de fază 2 (NeuroGuard, NCT07227909), pe pacienți cu cancer colorectal, de sân și cap-gât, tocmai pentru a testa dacă efectul observat la șoareci se reproduce la oameni. Titlurile care prezintă deja psilocibina drept un tratament dovedit pentru neuropatia indusă de chimioterapie depășesc ce arată, deocamdată, cercetarea."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în revista Science (sursă primară), completat cu relatările MD Anderson (instituția care a condus cercetarea), Scientific American și un articol de context din Nature.\n\nCe s-a verificat exact: la șoareci, două doze de psilocibină administrate înainte de chimioterapie au prevenit leziunile nervoase timp de până la șase cicluri de tratament, cu trei chimioterapice diferite. Mecanismul propus — protejarea transportului de mitocondrii de-a lungul microtubulilor din neuroni — a fost testat și confirmat parțial cu un compus înrudit, non-halucinogen, ceea ce sugerează că efectul nu ține de proprietățile psihedelice ale substanței.\n\nUnde e nevoie de prudență: e un studiu preclinic, pe animale — nu o dovadă că psilocibina previne neuropatia la pacienții oncologici umani. Neuropatia indusă de chimioterapie e o problemă reală și greu de tratat, pentru care există puține opțiuni eficiente, ceea ce explică entuziasmul din presă; dar drumul de la „a funcționat la șoareci” la „funcționează la oameni” eșuează frecvent în cercetarea medicală, iar autorii înșiși cer un studiu clinic dedicat înainte de orice concluzie.\n\nCe lipsește: rezultatele studiului clinic de fază 2 (NeuroGuard), care abia urmează să înceapă și care va arăta dacă protecția observată la șoareci se regăsește și la pacienții oncologici reali, sub tratament activ.",
+  "math": {
+    "title": "De ce contează c-a fost testat un compus „non-halucinogen” în paralel",
+    "explanation": "Când un studiu arată un beneficiu al unei substanțe psihedelice, întrebarea firească e dacă efectul terapeutic ține de „călătoria” psihedelică în sine sau de altceva, mai ușor de separat și de administrat clinic — mai ales la pacienți oncologici deja vulnerabili, cărora nu li s-ar putea da rutinier o substanță halucinogenă înainte de fiecare ședință de chimioterapie. De-aia contează testarea tabernanthalog-ului, un compus înrudit chimic cu psilocibina, care activează aceiași receptori de serotonină dar nu produce halucinații: dacă acesta oferă o protecție similară — cum au observat cercetătorii — înseamnă că mecanismul neuroprotector poate fi, teoretic, separat de efectul psihedelic. Practic, asta deschide drumul spre un eventual medicament administrabil pe scară largă, fără nevoia de supraveghere specială pentru o experiență psihedelică — dar rămâne, deocamdată, o ipoteză bazată pe date de laborator, nu un tratament testat clinic."
+  },
+  "persoane": []
+}
