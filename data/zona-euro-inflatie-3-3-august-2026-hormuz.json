@@ -1,0 +1,82 @@
+{
+  "slug": "zona-euro-inflatie-3-3-august-2026-hormuz",
+  "title": "Inflația din zona euro a urcat la 3,3% în august, cel mai mare avans din ultimii trei ani — dar aproape tot saltul vine din energie",
+  "category": "Economie",
+  "date": "2026-09-04",
+  "source": "Eurostat / Euronews",
+  "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap",
+  "dek": "Estimarea flash a Eurostat, publicată pe 1 septembrie 2026, arată inflația anuală a zonei euro la 3,3% în august, de la 2,9% în iulie — cel mai ridicat nivel din ultimii trei ani. Energia a sărit la +14,3%, pe fondul redeschiderii conflictului din Golf și al blocării Strâmtorii Hormuz, în timp ce inflația de bază a scăzut ușor. Piețele se așteaptă ca BCE să majoreze dobânda pe 10 septembrie.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Eurostat a publicat pe 1 septembrie 2026 estimarea flash pentru august: inflația anuală în zona euro a urcat la 3,3%, de la 2,9% în iulie. Potrivit Euronews și Yahoo Finance, e cel mai ridicat nivel din ultimii trei ani (raportat la o creștere similară din septembrie 2023). Datele complete, definitive, urmează să fie publicate de Eurostat pe 17 septembrie 2026.",
+      "sources": [
+        {
+          "name": "Eurostat — Euro area annual inflation up to 3.3%",
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap"
+        },
+        {
+          "name": "Euronews — Eurozone inflation jumps to 3.3% in August as energy prices surge",
+          "url": "https://www.euronews.com/business/2026/09/01/eurozone-inflation-jumps-to-33-in-august-as-energy-prices-surge"
+        },
+        {
+          "name": "Yahoo Finance — Eurozone inflation jumps 3.3%",
+          "url": "https://finance.yahoo.com/economy/policy/articles/eurozone-inflation-jumps-3-3-094315987.html"
+        }
+      ]
+    },
+    {
+      "text": "Componenta energie a sărit la +14,3% anual în august, de la +10,3% în iulie — motorul principal al creșterii. Potrivit lui Leo Barincou, economist la Oxford Economics, citat de Euronews, avansul a fost „determinat de o revenire a prețurilor la combustibil, în urma redeschiderii blocajului din Strâmtoarea Hormuz”, în contextul războiului din Iran.",
+      "sources": [
+        {
+          "name": "Eurostat — defalcarea pe componente (energie 14,3% vs. 10,3%)",
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap"
+        },
+        {
+          "name": "Euronews — citatul lui Leo Barincou (Oxford Economics)",
+          "url": "https://www.euronews.com/business/2026/09/01/eurozone-inflation-jumps-to-33-in-august-as-energy-prices-surge"
+        }
+      ]
+    },
+    {
+      "text": "În același timp, inflația de bază — indicele total fără energie, alimente, alcool și tutun, măsura preferată de BCE pentru presiunile „de fond” — a scăzut ușor, la 2,4% în august, de la 2,5% în iulie. Componenta servicii a coborât și ea, la 3,0% de la 3,3%. Practic, saltul inflației totale e concentrat aproape în întregime în energie, nu într-o încălzire generalizată a prețurilor.",
+      "sources": [
+        {
+          "name": "Eurostat — inflația de bază 2,4% (excl. energie, alimente, alcool, tutun)",
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap"
+        }
+      ]
+    },
+    {
+      "text": "Piețele financiare se așteaptă ca Banca Centrală Europeană să majoreze rata dobânzii de depozit cu 0,25 puncte procentuale, de la 2,25% la 2,50%, la reuniunea din 10 septembrie 2026. Această cifră reflectă anticipările pieței, nu o decizie oficială deja luată — BCE nu s-a pronunțat public, la data acestui articol, asupra mărimii exacte a următoarei mișcări.",
+      "sources": [
+        {
+          "name": "Euronews — anticipările pieței pentru reuniunea BCE din 10 septembrie",
+          "url": "https://www.euronews.com/business/2026/09/01/eurozone-inflation-jumps-to-33-in-august-as-energy-prices-surge"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Reperul exact al „celui mai ridicat nivel din ultimii ani” variază ușor în formulare între redacții — unele scriu „cel mai ridicat din ultimii trei ani”, altele leagă explicit reperul de septembrie 2023. Diferența nu schimbă concluzia (rata e într-adevăr cea mai mare din ultimii ani), dar cititorul care vrea luna exactă de comparație ar trebui să aștepte seria istorică completă publicată de Eurostat, nu doar formularea din presă.",
+      "sources": [
+        {
+          "name": "Euronews — „three-year high”",
+          "url": "https://www.euronews.com/business/2026/09/01/eurozone-inflation-jumps-to-33-in-august-as-energy-prices-surge"
+        },
+        {
+          "name": "Eurostat — Statistics Explained, seria istorică a inflației",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Inflation_in_the_euro_area"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De ce a crescut inflația totală exact cu 0,4 puncte procentuale",
+    "explanation": "Energia are o pondere de aproximativ 9% în coșul de consum HICP al zonei euro (Eurostat). Componenta energie a urcat cu 4,0 puncte procentuale (de la 10,3% la 14,3%). Înmulțind cele două — 4,0% × 9% ≈ 0,36 puncte procentuale — obținem, aproximativ, exact cât a urcat inflația totală (0,4 puncte, de la 2,9% la 3,3%). Aritmetica arată mecanismul: aproape tot saltul lunii august vine din energie, ceea ce explică de ce inflația de bază a putut, în același timp, să scadă ușor."
+  },
+  "aiNote": "Ce s-a verificat exact: cifrele publicate direct de Eurostat în estimarea flash din 1 septembrie 2026 — inflație totală 3,3% (de la 2,9%), energie 14,3% (de la 10,3%), inflație de bază 2,4% (de la 2,5%) — confirmate și de relatările Euronews și Yahoo Finance.\n\nUnde se despart sursele: nu pe cifre, ci pe interpretare. Titlurile din presă pun accent pe cifra totală, mai spectaculoasă („cel mai mare avans din trei ani”), dar defalcarea pe componente arată o poveste mai nuanțată — presiunile „de fond” (servicii, bunuri industriale, alimente) s-au temperat ușor, iar aproape tot saltul vine dintr-un singur șoc extern: prețul energiei, legat de conflictul din Golf și blocajul din Strâmtoarea Hormuz.\n\nCe lipsește: datele definitive (nu doar estimarea flash) urmează abia pe 17 septembrie, iar decizia oficială a BCE pentru 10 septembrie nu a fost încă anunțată — cifra de „0,25 puncte procentuale” e o anticipare a piețelor, nu un fapt împlinit.\n\nCe ar schimba concluzia: dacă datele definitive din 17 septembrie ar revizui semnificativ componenta energie, sau dacă BCE ar decide altă mărime a majorării decât cea anticipată de piețe.",
+  "persoane": []
+}
