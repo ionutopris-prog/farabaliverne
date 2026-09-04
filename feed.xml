@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 04 Sep 2026 20:52:03 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 20:53:59 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Reform UK a picat pe locul trei într-un sondaj, sub Conservatori — dar alt institut, în aceeași săptămână, îl arată la egalitate cu Labour</title>
+      <link>https://farabaliverne.ro/a/reform-uk-sondaje-contradictorii-locul-trei-egalitate.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/reform-uk-sondaje-contradictorii-locul-trei-egalitate.html</guid>
+      <pubDate>Fri, 04 Sep 2026 17:52:37 +0000</pubDate>
+      <category>Politică</category>
+      <description>Un sondaj More in Common, publicat pe 1 septembrie 2026, arată Reform UK pe locul trei (22%), sub Labour (26%) și Conservatori (23%) — cea mai slabă cotă a partidului lui Nigel Farage din ultimele 18 luni. Dar sondajul YouGov din aceeași perioadă (30-31 august) arată Reform la egalitate cu Labour, 23%, cu mult peste Conservatori (20%). Chiar directorul More in Common avertizează că diferențele sunt „în marja de eroare”.
+
+Unde bat probele: Surse în dezacord. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Inflația din zona euro a urcat la 3,3% în august, cel mai mare avans din ultimii trei ani — dar aproape tot saltul vine din energie</title>
       <link>https://farabaliverne.ro/a/zona-euro-inflatie-3-3-august-2026-hormuz.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Marți, 1 septembrie 2026, CENTCOM a lovit noi ținte ale Gărzii Revoluționare Iraniene (IRGC), iar o lovitură a distrus o casă din Kuhestak (Hormozgan) unde avea loc o nuntă. Bilanțul s-a stabilizat miercuri la patru morți — două femei și doi copii, de 4 și 16 ani — și 67 de răniți, iar Semiluna Roșie iraniană a depus miercuri, 2 septembrie, o sesizare formală la Curtea Penală Internațională, cerând o anchetă independentă. În aceleași 24-48 de ore, IRGC a lovit din nou baze americane și aliate din Iordania, apoi, în noaptea de 2 spre 3 septembrie, a trimis rachete și drone spre Kuweit și Bahrain — a doua rundă consecutivă de represalii, condamnată de ambele guverne și de Consiliul de Cooperare al Golfului.
 
 Unde bat probele: Probat că schimbul de lovituri a avut loc pe 1 septembrie și a continuat cu atacuri asupra Kuweitului și Bahrainului în noaptea de 2-3 septembrie; probat că Semiluna Roșie iraniană a sesizat CPI. Contestate rămân bilanțul american la lovitura de la nuntă (SUA n-au confirmat ținta) și pretențiile IRGC despre victime americane grele în Iordania, neconfirmate independent. Verificate: 6 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Xinhua anunță că solarul a depășit cărbunele în China „pentru prima dată” — dar doar la capacitatea instalată, nu la electricitatea produsă efectiv</title>
-      <link>https://farabaliverne.ro/a/china-xinhua-solar-depaseste-carbune-capacitate-instalata.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/china-xinhua-solar-depaseste-carbune-capacitate-instalata.html</guid>
-      <pubDate>Tue, 01 Sep 2026 22:50:12 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>📡 Administrația Națională de Energie a Chinei (NEA) a anunțat pe 1 septembrie 2026, prin agenția de stat Xinhua, că la sfârșitul lunii iulie capacitatea fotovoltaică instalată a țării (1,286 miliarde kW) a depășit-o pentru prima dată pe cea a cărbunelui (1,285 miliarde kW) — o diferență de sub 0,1%. Xinhua a numit momentul „o etapă importantă” a tranziției verzi, dar a omis cifra echivalentă pentru electricitatea produsă efectiv: în primele șapte luni din 2026, solarul a asigurat doar 13% din consumul chinez, iar cărbunele a rămas, potrivit datelor guvernamentale publicate în iulie, principala sursă de electricitate a țării, cu aproape jumătate din producție.
-
-Unde bat probele: Probat, cu rezerve — cifra de capacitate e reală, dar cadrul de „prima sursă de energie” înșală asupra electricității produse. Verificate: 2 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
