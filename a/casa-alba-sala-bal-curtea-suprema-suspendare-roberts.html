@@ -397,6 +397,115 @@
     .article-head .abody{padding:20px 20px 24px}
     .ev-block{padding:18px 18px 20px}
   }
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     PALETA „ALB APPLE + PETROL" — 4 septembrie 2026
+     ═══════════════════════════════════════════════════════════════════════
+     Aleasa de fondator dupa ce ne-am uitat la cum amesteca Apple culorile pe
+     apple.com/macbook-air. Descoperirea care a schimbat tot: Apple NU coloreaza
+     fundalul. Il tine gri-neutru (#f5f5f7) si lasa fotografia produsului sa
+     aduca toata culoarea. Noi avem 513 poze pe prima pagina — deci fundalul se
+     retrage, iar pozele ies in fata.
+
+     🔴 Blocul asta sta la COADA foii de stil dinadins, ca sa bata regulile de
+     mai sus fara !important. Daca vrei paleta veche inapoi: sterge blocul.
+     Nu umbla la regulile de deasupra, sunt neatinse.
+
+     🔴 Culorile verdictelor (--ok, --bad, --warn, --check) NU se ating.
+     Alea nu sunt decor, sunt informatie: verde=probat, rosu=contrazis.
+     De-aia accentul e petrol si nu rosu — caramiziul vechi (#a5372a) era
+     aproape identic cu rosul de „Contestat" si ochiul le confunda pe alb.
+     ═══════════════════════════════════════════════════════════════════════ */
+  :root{
+    --paper:#fbfbfd; --paper-2:#f7f7f9; --card:#ffffff;
+    --line:#ececf1;  --line-2:#e0e0e6;
+    --ink:#1d1d1f;   --ink-soft:#6e6e73; --ink-faint:#86868b;
+    --accent:#13817d; --accent-deep:#0e6360; --accent-soft:#eef7f6;
+    --panou-bg:#fafdfc; --panou-line:#eaf4f2;
+    /* curba si durata luate din codul Apple: `color .32s cubic-bezier(.4,0,.6,1)` */
+    --lin:.32s cubic-bezier(.4,0,.6,1);
+  }
+
+  /* accentul iese din litere; ramane doar pe fundaluri si butoane */
+  .cat-tag, .section-head .more, .brand .amp,
+  .panel .ph .tag, .math-block h2{color:var(--ink)}
+
+  /* banda de sus: petrol adanc, scris alb (era roz, din paleta veche) */
+  .topbar{color:rgba(255,255,255,.86)}
+  .nav a.active{box-shadow:0 4px 12px rgba(19,129,125,.26)}
+
+  /* panourile din dreapta erau petrol PLIN si dureau ochii pe alb */
+  .support-panel, .conclusion-box{
+    background:var(--panou-bg); color:var(--ink);
+    border:1px solid var(--panou-line);
+    box-shadow:0 1px 2px rgba(16,60,58,.04), 0 10px 26px rgba(16,60,58,.05)}
+  .support-panel h4, .conclusion-box h4, .support-panel b{color:var(--ink)}
+  .support-panel p{color:#4a5654}
+  .support-panel small{color:#6e7b79; opacity:1}
+  .support-panel .sbtn, .conclusion-box .backlink{
+    background:var(--accent); color:#fff; border:none}
+
+  /* ── STICLA: bara de meniu si cardurile ────────────────────────────────
+     Sticla mata are nevoie de ceva in spate ca sa se vada. Pe meniu merge —
+     continutul trece pe sub el cand derulezi. Pe carduri, pozele razbat. */
+  .nav{background:rgba(255,255,255,.68);
+    -webkit-backdrop-filter:saturate(180%) blur(20px);
+    backdrop-filter:saturate(180%) blur(20px);
+    border-bottom:1px solid rgba(0,0,0,.06)}
+  .card{background:rgba(255,255,255,.72);
+    -webkit-backdrop-filter:saturate(180%) blur(18px);
+    backdrop-filter:saturate(180%) blur(18px);
+    border:1px solid rgba(0,0,0,.05);
+    box-shadow:0 1px 2px rgba(0,0,0,.03), 0 12px 28px rgba(0,0,0,.05)}
+
+  /* ── OGLINDA: aceeasi miscare peste tot ────────────────────────────────
+     Secretul nu e culoarea, e `inset 0 1px 0 rgba(255,255,255,...)`: dunga
+     de lumina pe muchia de sus face pastila sa para sticla groasa prinsa de
+     lumina. Fara ea arata a plastic. */
+  .nav a, .nav .md, .nav .search, .card, .mini-row, .section-head .more,
+  .support-panel .sbtn, .support-panel button, .support-panel a,
+  .conclusion-box .backlink, .panel{
+    transition:color var(--lin), background-color var(--lin),
+               box-shadow var(--lin), transform var(--lin),
+               border-color var(--lin), padding-left var(--lin)}
+
+  .nav a:hover, .nav .md:hover, .nav .search:hover,
+  .section-head .more:hover, .mini-row:hover{
+    background:rgba(255,255,255,.72); color:var(--ink);
+    border-radius:999px; text-decoration:none;
+    -webkit-backdrop-filter:saturate(200%) blur(14px);
+    backdrop-filter:saturate(200%) blur(14px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.95),
+               inset 0 -1px 0 rgba(0,0,0,.03),
+               0 1px 2px rgba(0,0,0,.05), 0 8px 20px rgba(0,0,0,.08)}
+  .mini-row:hover{border-radius:12px; padding-left:12px}
+
+  .card:hover{transform:translateY(-4px); background:rgba(255,255,255,.9);
+    -webkit-backdrop-filter:saturate(200%) blur(18px);
+    backdrop-filter:saturate(200%) blur(18px);
+    border-color:rgba(255,255,255,.9);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,1),
+               0 2px 4px rgba(0,0,0,.04), 0 20px 44px rgba(0,0,0,.13)}
+  .panel:hover, .support-panel:hover{
+    box-shadow:inset 0 1px 0 rgba(255,255,255,1),
+               0 2px 4px rgba(16,60,58,.04), 0 16px 34px rgba(16,60,58,.10)}
+
+  /* butoanele care isi au fundalul lor INCHIS (Facebook, X, Gabe it):
+     luciu interior si ridicare, NU sticla alba — alba peste negru = murdarie */
+  .support-panel .sbtn:hover, .conclusion-box .backlink:hover,
+  .support-panel button[style*="background:#1877f2"]:hover,
+  .support-panel button[style*="background:#000"]:hover,
+  .support-panel a[onclick*="gabeIt"]:hover,
+  .support-panel button[onclick*="gabeIt"]:hover{
+    transform:translateY(-2px); filter:saturate(1.08) brightness(1.06);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.3),
+               0 2px 5px rgba(0,0,0,.12), 0 12px 26px rgba(0,0,0,.22)}
+  .support-panel button[style*="var(--card)"]:hover{
+    background:rgba(255,255,255,.85); transform:translateY(-2px);
+    -webkit-backdrop-filter:saturate(200%) blur(14px);
+    backdrop-filter:saturate(200%) blur(14px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,1),
+               0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
 </style>
 <link rel="canonical" href="https://farabaliverne.ro/a/casa-alba-sala-bal-curtea-suprema-suspendare-roberts.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
