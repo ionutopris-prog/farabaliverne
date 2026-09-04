@@ -1,0 +1,58 @@
+{
+  "slug": "katz-80-procente-gazani-emigrare-sondaje",
+  "title": "Ministrul israelian al Apărării spune că 80% dintre gazani vor să emigreze; sondajele publicate arată 43-52%",
+  "category": "Extern",
+  "date": "2026-09-04",
+  "source": "The Times of Israel / France24 (AFP)",
+  "url": "https://www.timesofisrael.com/katz-israel-will-facilitate-emigration-from-gaza-by-any-means-as-soon-as-trump-allows/",
+  "dek": "La o conferință Ynet/Yedioth Ahronoth pe 2 septembrie 2026, ministrul israelian al Apărării, Israel Katz, a spus că planul de relocare a populației din Fâșia Gaza e doar „înghețat”, nu abandonat, și a susținut că „80% dintre gazani vor să plece” din cauza Hamas — fără să indice sursa cifrei. Cele mai recente sondaje publicate independent (PCPSR, mai 2025; Gallup International, martie 2025) arată procente de 43%, respectiv 52%.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Israel Katz a declarat, la o conferință găzduită de Ynet și Yedioth Ahronoth pe 2 septembrie 2026, că planul israelian de relocare a populației din Gaza „nu a fost anulat; se discută tot timpul, chiar și acum” și că Israelul este „organizat și pregătit să îi scoată — pe mare, pe aer, prin orice mijloc posibil”, condiționat de aprobarea SUA.",
+      "sources": [
+        {"name": "The Times of Israel — Katz: Israel will facilitate emigration from Gaza 'by any means' as soon as Trump allows", "url": "https://www.timesofisrael.com/katz-israel-will-facilitate-emigration-from-gaza-by-any-means-as-soon-as-trump-allows/"},
+        {"name": "France24 (AFP) — Israel organised and prepared to remove Gaza population if US gives green light: Katz", "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"}
+      ]
+    },
+    {
+      "text": "La aceeași conferință, Katz a afirmat că „80% dintre oamenii din Gaza vor să plece, dar Hamas îi împiedică”. France24 (AFP) notează explicit, în relatare, că ministrul a spus acest lucru „fără să-și citeze sursa” („without citing his source”).",
+      "sources": [
+        {"name": "France24 (AFP) — Katz, without citing his source, said 80 percent...", "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"}
+      ]
+    },
+    {
+      "text": "Cel mai recent sondaj independent publicat, realizat de Palestinian Center for Policy and Survey Research (PCPSR) în Cisiordania și Fâșia Gaza, între 1-4 mai 2025, arată că 43% dintre respondenții din Gaza s-au declarat pregătiți să emigreze la finalul războiului, dintre care 49% ar face-o prin porturile și aeroporturile israeliene, dacă ar fi posibil.",
+      "sources": [
+        {"name": "PCPSR — Public Opinion Poll No. 95, comunicat oficial (PDF)", "url": "https://www.pcpsr.org/sites/default/files/Poll%2095%20press%20release%206May2025%20ENGLISH.pdf"}
+      ]
+    },
+    {
+      "text": "Un sondaj separat, realizat de Gallup International și publicat de The Telegraph, pe un eșantion de 532 de locuitori ai Gazei chestionați între 2-13 martie 2025, arată că 52% ar pleca temporar sau permanent (38% temporar, cu intenția de a se întoarce, 14% permanent), în timp ce 39% ar rămâne în Gaza.",
+      "sources": [
+        {"name": "JNS — Half of Gazans would leave if given opportunity (Gallup International)", "url": "https://www.jns.org/israel-news/half-of-gazans-would-leave-if-given-opportunity"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de „80%” invocată de Katz nu se regăsește în niciunul dintre sondajele publicate independent găsite despre acest subiect; cele mai apropiate cifre disponibile — 43% (PCPSR, mai 2025) și 52% (Gallup International, martie 2025) — sunt cu 28-37 de puncte procentuale mai mici. Nu se poate exclude existența unui sondaj intern, necitat, la care se referă Katz, dar niciuna dintre sursele citate nu confirmă existența sau metodologia unui asemenea sondaj cu rezultat de 80%.",
+      "sources": [
+        {"name": "France24 (AFP) — fără sursă citată pentru cifra de 80%", "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"},
+        {"name": "PCPSR — Poll 95: 43%", "url": "https://www.pcpsr.org/sites/default/files/Poll%2095%20press%20release%206May2025%20ENGLISH.pdf"},
+        {"name": "JNS — Gallup International: 52%", "url": "https://www.jns.org/israel-news/half-of-gazans-would-leave-if-given-opportunity"}
+      ]
+    },
+    {
+      "text": "Sondajele independente disponibile au fost realizate în martie și mai 2025, înaintea evoluțiilor politice și militare din vara-toamna 2026; declarația lui Katz e din septembrie 2026. Diferența de aproape un an și jumătate între datele sondajelor și declarația ministrului înseamnă că nu poate fi exclusă o schimbare reală a opiniei publice din Gaza în acest interval — dar, în lipsa unui sondaj mai recent publicat, cifra de 80% rămâne nesusținută de dovezi verificabile la data acestui articol.",
+      "sources": []
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Distincția dintre „a vrea să pleci” într-un sondaj ipotetic și a sprijini efectiv un plan de relocare a întregii populații e una politică și etică, nu doar statistică — sondajele citate (chiar la 43-52%) nu întreabă despre un plan specific de relocare organizat de un guvern străin, ci despre disponibilitatea generală de a emigra. Folosirea oricărei cifre de sondaj pentru a justifica un plan de relocare în masă rămâne o poziție politică a autorului planului, nu o concluzie care decurge automat din date."
+    }
+  ],
+  "aiNote": "Aici nu ni se contestă un fapt petrecut, ci o cifră invocată pentru a justifica o politică: Israel Katz a spus, la o conferință publică, că „80% dintre gazani vor să emigreze”, dar — potrivit chiar relatării France24/AFP — fără să numească vreo sursă. Am căutat sondaje publicate independent pe exact acest subiect (dorința locuitorilor din Gaza de a emigra) și am găsit două, ambele din 2025: PCPSR (43%, mai 2025) și Gallup International, via JNS/Telegraph (52%, martie 2025). Niciunul nu se apropie de 80%.\n\nUnde se despart sursele: nu e vorba de dezacord între surse independente, ci de o afirmație a unui oficial care nu se regăsește în datele publice disponibile. Diferența e prea mare (28-37 puncte procentuale) ca să fie pusă pe seama metodologiei sau a rotunjirii.\n\nCe lipsește: un sondaj recent (2026) care să susțină cifra lui Katz, dacă există unul intern, necitat public. Fără el, afirmația rămâne o cifră nesusținută, folosită într-un context politic sensibil — justificarea unui plan de relocare a populației din Gaza.\n\nCe ar schimba concluzia: publicarea unui sondaj cu metodologie verificabilă, din 2026, care să arate o cifră apropiată de 80%; asta ar arăta fie o schimbare reală și rapidă de opinie, fie ar confirma sursa la care s-a referit ministrul.",
+  "persoane": ["Israel Katz"]
+}
