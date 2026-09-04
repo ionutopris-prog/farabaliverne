@@ -443,9 +443,25 @@
   .cat-tag, .section-head .more, .brand .amp,
   .panel .ph .tag, .math-block h2{color:var(--ink)}
 
-  /* banda de sus: petrol adanc, scris alb (era roz, din paleta veche) */
-  .topbar{color:rgba(255,255,255,.86)}
-  .nav a.active{box-shadow:0 4px 12px rgba(19,129,125,.26)}
+  /* banda de sus: petrol DESCHIS, scris alb (era roz, din paleta veche).
+     Fondatorul a observat ca banda si pastila „Acasa" aveau doua nuante
+     diferite de petrol — #0e6360 sus, #13817d in meniu. Acum e una singura. */
+  .topbar{background:var(--accent); color:rgba(255,255,255,.86)}
+
+  /* 🔴 Meniul: TOATE intrarile arata la fel, inclusiv „Acasa".
+     Pastila plina de dinainte il facea pe „Acasa" alt animal decat fratii lui.
+     Cererea fondatorului, 4 sept 2026: „toate meniurile sa arate la fel" si
+     „oglinda ca restul meniurilor".
+
+     `:not(:hover)` e cheia si m-a prins o data. Cu `background:transparent`
+     simplu pe `.nav a.active`, pastila dispare — dar dispare si oglinda, fiindca
+     regula bate hover-ul la specificitate egala. Asa, cat sta linistit e ca
+     oricare altul; sub mouse primeste aceeasi sticla.
+
+     „Moldova" si „Cauta o afirmatie" raman cu conturul lor: nu sunt categorii,
+     sunt destinatii. Decizia lui, aceeasi zi. */
+  .nav a.active:not(:hover){background:transparent; box-shadow:none}
+  .nav a.active{color:var(--ink-soft); font-weight:700}
 
   /* panourile din dreapta erau petrol PLIN si dureau ochii pe alb */
   .support-panel, .conclusion-box{

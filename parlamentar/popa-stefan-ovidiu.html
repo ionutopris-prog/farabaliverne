@@ -443,9 +443,25 @@
   .cat-tag, .section-head .more, .brand .amp,
   .panel .ph .tag, .math-block h2{color:var(--ink)}
 
-  /* banda de sus: petrol adanc, scris alb (era roz, din paleta veche) */
-  .topbar{color:rgba(255,255,255,.86)}
-  .nav a.active{box-shadow:0 4px 12px rgba(19,129,125,.26)}
+  /* banda de sus: petrol DESCHIS, scris alb (era roz, din paleta veche).
+     Fondatorul a observat ca banda si pastila „Acasa" aveau doua nuante
+     diferite de petrol — #0e6360 sus, #13817d in meniu. Acum e una singura. */
+  .topbar{background:var(--accent); color:rgba(255,255,255,.86)}
+
+  /* 🔴 Meniul: TOATE intrarile arata la fel, inclusiv „Acasa".
+     Pastila plina de dinainte il facea pe „Acasa" alt animal decat fratii lui.
+     Cererea fondatorului, 4 sept 2026: „toate meniurile sa arate la fel" si
+     „oglinda ca restul meniurilor".
+
+     `:not(:hover)` e cheia si m-a prins o data. Cu `background:transparent`
+     simplu pe `.nav a.active`, pastila dispare — dar dispare si oglinda, fiindca
+     regula bate hover-ul la specificitate egala. Asa, cat sta linistit e ca
+     oricare altul; sub mouse primeste aceeasi sticla.
+
+     „Moldova" si „Cauta o afirmatie" raman cu conturul lor: nu sunt categorii,
+     sunt destinatii. Decizia lui, aceeasi zi. */
+  .nav a.active:not(:hover){background:transparent; box-shadow:none}
+  .nav a.active{color:var(--ink-soft); font-weight:700}
 
   /* panourile din dreapta erau petrol PLIN si dureau ochii pe alb */
   .support-panel, .conclusion-box{
@@ -519,46 +535,6 @@
     backdrop-filter:saturate(200%) blur(14px);
     box-shadow:inset 0 1px 0 rgba(255,255,255,1),
                0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
-
-/* ─── pagina unui parlamentar ─────────────────────────────────── */
-.pp-cap{margin:0 0 20px}
-.pp-grup{display:inline-block;padding:4px 12px;border-radius:30px;color:#fff;font-size:12.5px;
-         font-weight:800;letter-spacing:.02em}
-.pp-rol{font-size:13px;color:var(--ink-faint);margin-left:10px}
-.pp-org{margin-top:9px;font-size:14.5px;color:var(--ink-soft)}
-.pp-org b{color:var(--ink)}
-.pp-cap h1{font-family:var(--serif);font-size:36px;line-height:1.1;margin:10px 0 10px;letter-spacing:-.02em}
-.pp-meta{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;color:var(--ink-soft)}
-.pp-meta b{color:var(--ink);font-weight:700}
-.pp-doua{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px;align-items:start}
-.pp-sec,.pp-box{background:var(--card);border:1px solid var(--line);border-radius:16px;
-                box-shadow:var(--shadow);padding:20px 22px;margin-bottom:16px}
-.pp-sec h2{font-family:var(--serif);font-size:21px;margin:0 0 4px;letter-spacing:-.01em}
-.pp-box h2{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
-           font-weight:800;margin:0 0 10px}
-.pp-h3{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
-       font-weight:800;margin:14px 0 6px}
-.pp-sub{margin:0 0 14px;font-size:13.5px;color:var(--ink-faint);line-height:1.5}
-.pp-lista{margin:0;padding:0;list-style:none}
-.pp-lista li{padding:8px 0;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.45}
-.pp-lista li:last-child{border-bottom:none}
-.pp-lk li{border-bottom:none;padding:5px 0}
-.pp-gol{font-size:14px;color:var(--ink-faint);font-style:italic;line-height:1.5}
-.pp-cifre{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px}
-.pp-cifra{background:var(--paper-2);border:1px solid var(--line);border-radius:11px;padding:13px 14px}
-.pp-cifra b{display:block;font-family:var(--serif);font-size:26px;line-height:1;margin-bottom:5px}
-.pp-cifra span{font-size:12px;color:var(--ink-soft);line-height:1.35}
-.pp-verif{border-top:1px solid var(--line);padding:13px 0}
-.pp-vr{display:flex;gap:9px;align-items:center;margin-bottom:5px;flex-wrap:wrap}
-.pp-verdict{padding:3px 10px;border-radius:30px;font-size:11.5px;font-weight:800;
-            background:var(--paper-2);border:1px solid var(--line-2);color:var(--ink-soft)}
-.pp-data{font-size:12.5px;color:var(--ink-faint)}
-.pp-verif a{font-size:15.5px;line-height:1.4}
-.pp-verif p{margin:4px 0 0;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
-.pp-mic{font-size:13.5px;line-height:1.55;color:var(--ink-soft);margin:0 0 9px}
-.pp-mic:last-child{margin-bottom:0}
-.pp-lipsa{background:var(--paper-2)}
-@media (max-width:860px){.pp-doua{grid-template-columns:1fr}.pp-cap h1{font-size:27px}}
 </style>
 <meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
 <link rel="canonical" href="https://farabaliverne.ro/parlamentar/popa-stefan-ovidiu.html">
