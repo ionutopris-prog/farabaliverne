@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 04 Sep 2026 09:40:10 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:40:50 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Telescopul solar Inouye a surprins pentru prima dată vârtejuri minuscule de plasmă pe suprafața Soarelui</title>
+      <link>https://farabaliverne.ro/a/soare-vartejuri-plasma-inouye-nature.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/soare-vartejuri-plasma-inouye-nature.html</guid>
+      <pubDate>Fri, 04 Sep 2026 06:40:16 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat în Nature pe 5 august 2026 descrie prima observație directă a unor vârtejuri minuscule de plasmă la suprafața Soarelui — unele de doar 20 de kilometri în diametru — surprinse cu telescopul solar Daniel K. Inouye din Hawaii. Cercetătorii spun că aceste structuri ar putea explica un mister vechi al fizicii solare: cum ajunge coroana Soarelui, stratul exterior al atmosferei sale, să fie de sute de ori mai fierbinte decât suprafața aflată dedesubt.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Psilocibina a prevenit leziunile nervoase provocate de chimioterapie, într-un studiu pe șoareci</title>
       <link>https://farabaliverne.ro/a/psilocibina-nervi-chimioterapie-soareci-md-anderson.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
       <description>🇨🇳 Ce SUSȚINE presa de stat chineză (CGTN, Xinhua, Global Times): că demiterea, pe 28 august 2026, a unui ofițer al Forțelor de Autoapărare japoneze care a pătruns cu un cuțit în ambasada Chinei la Tokyo „expune probleme mai profunde” — răspândirea forțelor de dreapta și un control intern defectuos al armatei japoneze. Faptele de bază ale incidentului sunt confirmate și de agenții japoneze independente; interpretarea sistemică rămâne doar a părții chineze. Punem alături ce s-a întâmplat efectiv și ce a făcut Japonia în privința lui.
 
 Unde bat probele: Contestat. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Global Times pune contracția PMI-ului chinez pe seama vremii extreme. Datele oficiale arată a doua lună consecutivă sub pragul de creștere, cu cererea internă tot slabă</title>
-      <link>https://farabaliverne.ro/a/china-pmi-august-global-times-vreme-vs-cerere.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/china-pmi-august-global-times-vreme-vs-cerere.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:03:26 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Biroul Național de Statistică al Chinei (NBS) a anunțat luni, 31 august 2026, un PMI manufacturier de 49,8 pentru august — în urcare față de 49,2 în iulie, dar rămas sub pragul de 50 care separă contracția de creștere, pentru a doua lună consecutivă, punând capăt unei serii de patru luni de expansiune încheiate în iunie. Global Times (presă de stat) titrează urcarea drept „semn clar de avânt în creșterea manufacturieră” și pune explicit menținerea sub prag pe seama „vremii extreme” (caniculă, taifunuri, inundații). NBS și analiști independenți citați de South China Morning Post confirmă cifrele, dar atribuie limitarea îmbunătățirii și cererii interne slabe — un factor structural, nu doar meteorologic — pe care Global Times nu îl menționează.
-
-Unde bat probele: Probate cifrele oficiale; contestată e explicația Global Times, care atribuie contracția aproape exclusiv vremii și omite cererea internă slabă, menționată explicit de sursele independente. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
