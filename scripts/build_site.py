@@ -1363,15 +1363,31 @@ def build_sitemap(arts):
     # `closcu.html` apare doar dacă a fost generată (CLOSCU_ENABLED). Verificarea
     # `os.path.exists` de mai jos o sare singură când secțiunea e stinsă, deci
     # sitemap-ul nu trimite niciodată Google spre un 404.
-    # Cele 464 de pagini de parlamentar. Fără ele în sitemap, Google le-ar găsi
-    # doar prin linkurile din hemiciclu, care sunt puse de JavaScript.
+    # Paginile de parlamentar — dar numai cele care au măcar o verificare.
+    # Fără ele în sitemap, Google le-ar găsi doar prin linkurile din hemiciclu,
+    # care sunt puse de JavaScript.
+    #
+    # 🔴 Pe 4 septembrie 2026, 451 din 464 erau schelet gol: nume, partid, cifre
+    # de activitate, nicio verificare. Le ceream lui Google să le viziteze pe
+    # toate, în timp ce bugetul lui de crawl era ~60 de pagini pe zi și noi
+    # publicam ~23 de articole pe zi. Rezultatul: 566 de pagini rămase
+    # „descoperite, neindexate" — și restanța creștea, nu scădea.
+    # Fișele goale poartă și `noindex` (vezi build_parlamentari.py); aici doar
+    # nu le mai cerem. Când omul primește prima verificare, intră singură înapoi.
     _pdir = os.path.join(ROOT, "parlamentar")
     if os.path.isdir(_pdir):
         for _f in sorted(os.listdir(_pdir)):
-            if _f.endswith(".html"):
-                rows.append('<url><loc>%sparlamentar/%s</loc><lastmod>%s</lastmod>'
-                            '<changefreq>monthly</changefreq><priority>0.5</priority></url>'
-                            % (B, _f, time.strftime("%Y-%m-%d")))
+            if not _f.endswith(".html"):
+                continue
+            try:
+                _h = open(os.path.join(_pdir, _f), encoding="utf-8").read()
+            except OSError:
+                continue
+            if 'href="../a/' not in _h:      # fișă fără nicio verificare
+                continue
+            rows.append('<url><loc>%sparlamentar/%s</loc><lastmod>%s</lastmod>'
+                        '<changefreq>monthly</changefreq><priority>0.5</priority></url>'
+                        % (B, _f, time.strftime("%Y-%m-%d")))
 
     for pg in ("politicieni.html","parlament.html","cauta.html","closcu.html","cifre.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
@@ -1606,6 +1622,24 @@ def main():
     md = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_moldova.py")
     r = subprocess.run(["python3", md], capture_output=True, text=True)
     print((r.stdout or r.stderr).strip() or "⚠️ moldova: fără răspuns")
+
+    # Fișele parlamentarilor. Aceeași poveste, descoperită pe 4 septembrie 2026:
+    # nimic nu chema `build_parlamentari.py`, așa că toate cele 464 de pagini
+    # înghețaseră pe 23 august — scriau „521 de verificări" când site-ul avea
+    # deja 719, și încă purtau un buton scos de atunci. Douăsprezece zile în
+    # care nimeni n-a observat, fiindcă restul site-ului mergea impecabil.
+    #
+    # Rulează DUPĂ build_site (își croiește pagina din index.html abia făcut) și
+    # ÎNAINTE de sitemap-ul final de mai jos, fiindcă sitemap-ul se uită în
+    # fișiere ca să afle cine are verificări și cine e schelet gol.
+    pl = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_parlamentari.py")
+    r = subprocess.run(["python3", pl], capture_output=True, text=True)
+    print((r.stdout or r.stderr).strip() or "⚠️ parlamentari: fără răspuns")
+
+    # Sitemap-ul, încă o dată: prima rulare l-a scris pe baza fișelor VECHI.
+    # Dacă un parlamentar tocmai și-a primit prima verificare, abia acum se știe.
+    if r.returncode == 0:
+        print(f"✅ sitemap refăcut: {build_sitemap(arts)} URL-uri")
 
 if __name__ == "__main__":
     main()

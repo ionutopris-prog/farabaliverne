@@ -81,6 +81,20 @@
   .kicker .r{height:1px;width:38px;background:var(--line-2)}
   .subline{font-size:12.5px;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
   .support{position:absolute;right:22px;top:28px}
+  /* Butonul sta in dreapta, ca inainte, dar centrat pe verticala cu
+     titlul: aceeasi cutie ca a lui (top 28, inaltime 74), iar butonul
+     asezat la mijlocul ei. */
+  .support{top:28px;height:74px;display:flex;align-items:center;
+    justify-content:center}
+  .btn-md{
+    display:inline-flex;align-items:center;
+    padding:9px 20px;border-radius:999px;
+    font-size:13.5px;font-weight:700;letter-spacing:.01em;
+    color:var(--accent);border:1.5px solid var(--accent);
+    background:transparent;transition:.16s ease;
+  }
+  .btn-md:hover{color:#fff;background:var(--accent);
+    box-shadow:0 5px 14px rgba(165,55,42,.26)}
   .btn-support{
     border:1.5px solid var(--accent);color:var(--accent);background:var(--paper-2);
     font-family:var(--sans);font-size:13px;font-weight:700;padding:9px 18px;border-radius:999px;
@@ -97,6 +111,11 @@
   .nav a:hover{color:var(--ink);background:var(--accent-soft)}
   .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
   .nav .sep{flex:1}
+  .nav .md{
+    color:var(--accent);border:1px solid var(--accent);
+    background:transparent;
+  }
+  .nav .md:hover{color:#fff;background:var(--accent)}
   .nav .search{
     font-size:13px;color:var(--ink-soft);border:1px solid var(--line-2);background:var(--card);
     padding:8px 13px;border-radius:999px;white-space:nowrap;display:inline-flex;gap:7px;align-items:center;
@@ -458,8 +477,8 @@
 
   <div class="topbar">
     <div class="wrap">
-      <div class="date">Duminică, 23 august 2026 · Ediția de seară</div>
-      <div class="live"><span class="dot"></span> 521 verificări publicate</div>
+      <div class="date">Vineri, 4 septembrie 2026 · Ediția de cafeluță</div>
+      <div class="live"><span class="dot"></span> 719 verificări publicate</div>
     </div>
   </div>
 
@@ -469,7 +488,7 @@
       <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
       <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
       <div class="support">
-        <a href="#" onclick="gabeIt();return false" class="btn-support">⚡ Gabe it</a>
+        <a href="/moldova/" class="btn-md" title="Fara Scorneli — verificarile din Republica Moldova">Fără Scorneli · Moldova</a>
       </div>
     </div>
   </header>
@@ -486,6 +505,7 @@
       <a href="index.html#media-de-stat">Media de stat</a>
       <a href="../politicieni.html">Politicieni</a>
       <a href="../parlament.html">Parlament</a>
+            <a href="/moldova/" class="md" title="Fără Scorneli — verificările din Republica Moldova">🇲🇩 Moldova</a>
       <span class="sep"></span>
       <a href="../cauta.html" class="search">🔍 Caută o afirmație</a>
     </div>
@@ -519,7 +539,7 @@
 
       <div class="pp-doua">
         <div>
-          <section class="pp-sec"><h2>Ce am verificat</h2><div class="pp-gol">Nicio verificare încă. Când o afirmație de-a lui ajunge sub lupă, apare aici.</div></section>
+          <section class="pp-sec"><h2>Ce am verificat despre Drulă</h2><p class="pp-sub">Verdictul e despre <b>afirmație</b>, niciodată despre om.</p><div class="pp-verif"><div class="pp-vr"><span class="pp-verdict">Probat, cu interpretări politice divergente</span><span class="pp-data">2026-09-01</span></div><a href="../a/camera-deputatilor-birou-permanent-pnl-usr-aur-sos-ccr.html"><b>Camera Deputaților scoate PNL și USR din Biroul Permanent, cu voturile AUR și SOS; liberalii și useriștii merg la CCR</b></a><p>Camera Deputaților a votat marți, 1 septembrie 2026, noua componență a Biroului Permanent pentru sesiunea de toamnă: două posturi de secretar au trecut de la PNL și USR la AUR și SOS România, cu voturile PSD, AUR, SOS, U</p></div></section>
 
           <section class="pp-sec">
             <h2>Activitatea în mandat</h2>

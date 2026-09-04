@@ -191,6 +191,25 @@ def pagina(om, f, art, invelis):
     url = f"https://farabaliverne.ro/parlamentar/{slug(om['nume'])}.html"
     s = s.replace('<link rel="canonical" href="https://farabaliverne.ro/">',
                   f'<link rel="canonical" href="{url}">')
+
+    # Pagina unui parlamentar despre care încă n-am verificat nimic conține doar
+    # numele, partidul și cifrele de activitate — schelet, nimic propriu. 451 din
+    # 464 arătau așa pe 4 septembrie 2026.
+    #
+    # 🔴 De ce contează: Google ne dădea ~60 de vizite de robot pe zi, iar noi
+    # publicăm ~23 de articole pe zi. Bugetul se ducea aproape tot pe articolele
+    # noi, iar 566 de pagini stăteau „descoperite, neindexate". Cele 451 de fișe
+    # goale stăteau și ele la coadă, cerându-și rândul degeaba. În plus, 451 de
+    # pagini aproape identice sunt exact tiparul pe care Google îl numește
+    # conținut subțire.
+    #
+    # Pagina rămâne pe site și se deschide normal — doar nu mai cere să fie
+    # indexată. În clipa în care omul primește prima verificare, `art` nu mai e
+    # gol, eticheta dispare singură și pagina intră înapoi în sitemap. Nimic de
+    # întreținut cu mâna.
+    if not art:
+        s = s.replace('<link rel="canonical"',
+                      '<meta name="robots" content="noindex,follow">\n<link rel="canonical"', 1)
     s = s.replace('<meta property="og:url" content="https://farabaliverne.ro/">',
                   f'<meta property="og:url" content="{url}">')
     dek = (f'{om["nume"]}, {rol.lower()} {grup} de {circ}. Ce e documentat despre el din surse '
