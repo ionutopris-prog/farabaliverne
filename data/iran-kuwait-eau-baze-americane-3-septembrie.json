@@ -1,0 +1,47 @@
+{
+  "slug": "iran-kuwait-eau-baze-americane-3-septembrie",
+  "title": "Armata iraniană susține că a lovit baze americane în Kuwait și Emiratele Arabe Unite — un oficial american spune că atacurile „nu au afectat” nicio instalație militară a SUA",
+  "category": "Media de stat",
+  "date": "2026-09-05",
+  "source": "Tasnim (media de stat, Iran) / Critical Threats Project / Al Jazeera / Reuters",
+  "url": "https://www.criticalthreats.org/analysis/iran-update-september-3-2026",
+  "dek": "În noaptea de 2 spre 3 septembrie 2026, Artesh (armata regulată iraniană) a anunțat că a lovit cu rachete și drone baza Ahmad al-Jaber din Kuwait și baza Al Minhad din Emiratele Arabe Unite, susținând că a distrus sisteme de comunicații prin satelit, depozite de echipamente și hangare de avioane de luptă. Este a treia noapte consecutivă de represalii iraniene după loviturile americane de pe 1 septembrie, care au ucis cel puțin 11 oameni, inclusiv cinci la o nuntă din Kuhestak. Un oficial american, citat de presa anti-regim, a declarat însă că atacurile din 3 septembrie „nu au afectat nicio bază americană” din regiune — o contradicție directă între versiunea agenției de stat iraniene și evaluarea părții americane, pe care nu o poate arbitra, deocamdată, nicio sursă terță independentă.",
+  "mainVerdict": "Probat că atacurile au avut loc și că Iranul le revendică; contestată rămâne amploarea reală a pagubelor, pe care partea americană o neagă în întregime",
+  "probat": [
+    {
+      "text": "Armata iraniană (Artesh) a declarat că a lovit, în noaptea de 2 spre 3 septembrie 2026, baza Ahmad al-Jaber din Kuwait, susținând că a distrus „sisteme de comunicații prin satelit, depozite de echipamente și hangare de avioane de luptă”. La baza Al Minhad din Emiratele Arabe Unite, Iranul a revendicat lovirea „pozițiilor de trupe și a instalațiilor radar”. Kuweitul a confirmat doar că apărarea sa antiaeriană a intervenit împotriva „dronelor și rachetelor ostile”, fără să comenteze pagubele revendicate de Teheran.",
+      "sources": [
+        {"name": "Critical Threats Project (AEI) — Iran Update, 3 septembrie 2026", "url": "https://www.criticalthreats.org/analysis/iran-update-september-3-2026"}
+      ]
+    },
+    {
+      "text": "Este a treia noapte consecutivă de represalii: pe 1 septembrie, Iranul lovise deja baze din Iordania (Camp Titin, baza Prince Hassan) și Irak (provincia Erbil), iar în noaptea următoare a țintit Bahrainul (baza aeriană Sheikh Isa) cu drone kamikaze. Purtătorul de cuvânt militar iranian, Ebrahim Zolfaghari, a declarat că Iranul „nu va mai exercita reținere” și a amenințat cu noi lovituri.",
+      "sources": [
+        {"name": "The Jerusalem Post — Iranian retaliatory strikes on Jordan, Iraq, Bahrain, Kuwait", "url": "https://www.jpost.com/middle-east/article-907279"},
+        {"name": "Al Jazeera — US military says launching new attacks on Iran", "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"}
+      ]
+    },
+    {
+      "text": "Un oficial american, citat de Critical Threats Project, a spus că loviturile iraniene din 3 septembrie „nu au afectat nicio bază americană”. Tiparul se repetă din nopțile anterioare: pentru atacul din Iordania de pe 1 septembrie, doi oficiali americani au declarat pentru Reuters că nu au existat victime americane, iar armata iordaniană a precizat că a interceptat 10 din cele 13 rachete balistice trase, restul căzând în zone nepopulate.",
+      "sources": [
+        {"name": "Critical Threats Project (AEI) — Iran Update, 3 septembrie 2026", "url": "https://www.criticalthreats.org/analysis/iran-update-september-3-2026"},
+        {"name": "The Jerusalem Post — Iranian retaliatory strikes on Jordan, Iraq, Bahrain, Kuwait", "url": "https://www.jpost.com/middle-east/article-907279"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Separat, Arabia Saudită a acuzat Iranul că a lovit, în noaptea de 31 august spre 1 septembrie, petrolierul Sidr al companiei de stat Bahri în Strâmtoarea Hormuz, incident soldat cu moartea a doi marinari filipinezi. Iranul nu a confirmat și nu a negat explicit atacul asupra Sidr — Garda Revoluționară a oferit o versiune alternativă, susținând că două petroliere „au luat foc după ce au lovit mine”, nu că au fost atacate direct. Responsabilitatea Iranului pentru acest incident specific rămâne, deci, o acuzație saudită neconfirmată public de Teheran, nu un fapt stabilit.",
+      "sources": [
+        {"name": "Al Jazeera — Saudi Arabia condemns deadly Iranian attack on tanker in Strait of Hormuz", "url": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "3 nopți, 5 țări",
+    "explanation": "Între 1 și 3 septembrie 2026, Iranul a revendicat atacuri asupra unor baze sau instalații din cinci țări din jurul Golfului — Iordania, Irak, Bahrain, Kuwait și Emiratele Arabe Unite — dar în niciunul dintre cazuri o sursă independentă (americană, a țării-gazdă sau terță) nu a confirmat amploarea pagubelor descrisă de partea iraniană."
+  },
+  "aiNote": "📡 Sursa primară a afirmațiilor despre pagube este armata iraniană (Artesh/IRGC), relatată de agenții de stat precum Tasnim — etichetăm mereu așa, indiferent de subiect. Am pus alături evaluarea unui oficial american (citat de Critical Threats Project, un institut de analiză militară, nu o parte beligerantă) și confirmările independente ale Iordaniei și Kuweitului privind interceptările.\n\nCe s-a verificat exact: că atacurile au avut loc fizic (confirmat de apărarea antiaeriană a Kuweitului și a Iordaniei, care au reacționat la rachete/drone reale) și că Iranul a revendicat public țintele și pagubele. Ce nu s-a putut verifica independent e AMPLOAREA pagubelor pe care Teheran le revendică — „hangare distruse”, „sisteme radar lovite” — afirmații care vin dintr-o singură sursă, partizană în conflict.\n\nUnde se despart sursele: Iranul are un interes clar să prezinte represaliile ca eficiente, pentru consum intern și descurajare regională; SUA și statele-gazdă au un interes la fel de clar să minimizeze pagubele, pentru a nu părea vulnerabile. Niciuna dintre părți nu e o sursă neutră.\n\nCe lipsește: imagini satelitare sau evaluări ale unei părți terțe (de exemplu, o agenție de presă cu acces la fața locului) care să confirme sau să infirme independent starea reală a bazelor lovite.\n\nCe ar schimba concluzia: publicarea unor imagini verificabile ale pagubelor, sau o recunoaștere americană/a țării-gazdă a unor stricăciuni reale — lucru care, pentru loviturile anterioare din acest val, nu s-a întâmplat până acum.",
+  "persoane": []
+}
