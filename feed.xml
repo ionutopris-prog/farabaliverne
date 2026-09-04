@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 04 Sep 2026 07:54:45 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:36:42 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ministrul israelian al Apărării spune că 80% dintre gazani vor să emigreze; sondajele publicate arată 43-52%</title>
+      <link>https://farabaliverne.ro/a/katz-80-procente-gazani-emigrare-sondaje.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/katz-80-procente-gazani-emigrare-sondaje.html</guid>
+      <pubDate>Fri, 04 Sep 2026 04:54:52 +0000</pubDate>
+      <category>Extern</category>
+      <description>La o conferință Ynet/Yedioth Ahronoth pe 2 septembrie 2026, ministrul israelian al Apărării, Israel Katz, a spus că planul de relocare a populației din Fâșia Gaza e doar „înghețat”, nu abandonat, și a susținut că „80% dintre gazani vor să plece” din cauza Hamas — fără să indice sursa cifrei. Cele mai recente sondaje publicate independent (PCPSR, mai 2025; Gallup International, martie 2025) arată procente de 43%, respectiv 52%.
+
+Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Netanyahu: doborârea regimului iranian este „misiunea centrală” a Israelului, „la îndemână”</title>
       <link>https://farabaliverne.ro/a/netanyahu-doborare-regim-iranian-la-indemana.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că schimbul de lovituri a avut loc; contestate rămân
       <description>Donald Trump a anunțat pe 29 august 2026 un acord prin care o companie nouă, cu capital american, ar urma să controleze 55% din producția a 17 zăcăminte petroliere venezuelene, cu 65 de miliarde de barili de rezerve. Trump spune că nu costă nimic contribuabilii americani și că va scădea prețul benzinei; identitatea reală a capacității financiare a operatorului privat, durata exactă a concesiunii (100 sau 25 de ani, în funcție de sursă) și legalitatea acordului față de Constituția Venezuelei rămân disputate.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>Concertul de Ziua Independenței a costat aproape 10 milioane de lei, fără licitație publică. Guvernul spune că a „redus costurile cu 21%”</title>
-      <link>https://farabaliverne.ro/a/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.html</guid>
-      <pubDate>Mon, 31 Aug 2026 15:29:08 +0000</pubDate>
-      <category>Economie</category>
-      <description>O investigație RISE Moldova, publicată pe 29 august 2026, a arătat că bugetul concertului de 35 de ani de independență a crescut de la 500.000 la 10 milioane de lei, iar contractul a fost atribuit direct instituției „Moldova-Concert”, fără licitație publică. Guvernul răspunde că a renegociat și a redus suma cu 2,75 milioane de lei față de varianta inițială — dar nu răspunde la întrebarea de ce nu a organizat o licitație pentru o sărbătoare care are, în fiecare an, aceeași dată fixă.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
