@@ -2,15 +2,20 @@
 """
 Construiește secțiunea **Fără Scorneli — Moldova**: `moldova/index.html`.
 
-Aceeași casă, alt nume la poartă. Se servește din două locuri deodată:
+Aceeași casă, alt nume la poartă. Trăiește la o singură adresă:
   • https://farabaliverne.ro/moldova/            (folderul, urcat de deploy-ul obișnuit)
-  • https://moldova.farabaliverne.ro/            (subdomeniu din cPanel, cu document
-    root pe ACELAȘI folder `public_html/moldova` — deci zero muncă în plus la urcare)
 
-🔴 De ce `<base href="https://farabaliverne.ro/">` în cap: pagina stă într-un folder,
-dar pe subdomeniu folderul devine rădăcină. Fără `base`, un link către `a/x.html` ar
-căuta `moldova.farabaliverne.ro/a/x.html`, care nu există. Cu `base`, toate legăturile
-relative — articole, poze — se duc la site-ul mare, de oriunde ai deschide pagina.
+🔴 Subdomeniul `moldova.farabaliverne.ro` NU există și nu se cumpără. A fost plănuit
+cândva, dar pagina a rămas cu canonical, og:url, sigla și „Acasă" arătând spre el —
+patru trimiteri spre NXDOMAIN. Google citea canonical-ul și înțelegea că adevărata
+pagină e la o adresă moartă, deci putea scoate toată secțiunea din căutări; cine
+dădea pe siglă ajungea în gol. Reparat pe 4 septembrie 2026. Dacă adresa asta se
+mai scrie vreodată undeva, e greșeală.
+
+🔴 De ce `<base href="https://farabaliverne.ro/">` în cap: pagina stă în folderul
+`/moldova/`, dar linkurile spre articole sunt relative (`a/x.html`), moștenite din
+index-ul mare. Fără `base` s-ar căuta `farabaliverne.ro/moldova/a/x.html`, care nu
+există. Cu `base`, toate legăturile relative — articole, poze — se duc la rădăcină.
 
 Rulare:  python3 scripts/build_moldova.py
 """
@@ -21,6 +26,28 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_site as B
 from moldova import este_moldova
+
+# Adresa paginii. Scrisă o dată, ca să nu se mai împrăștie prin fișier.
+#
+# 🔴 Toate ancorele din meniu se construiesc PORNIND de la ea, absolute, și nu
+# ca simple `#sectiune`. Motivul e `<base href="https://farabaliverne.ro/">` din
+# cap: după standard, până și un link care are doar diez se socotește față de
+# `base`. Deci `#politica` ajungea la `farabaliverne.ro/#politica` — adică pe
+# prima pagină a României. Meniul Moldovei te scotea din Moldova. Reparat pe
+# 4 septembrie 2026. Dacă cineva scurtează linkurile înapoi la `#ceva`, se strică
+# la loc, tăcut, fiindcă pagina se încarcă perfect — doar că altundeva.
+ACASA = "https://farabaliverne.ro/moldova/"
+
+
+def ANCORA(cat):
+    """Ancora unei categorii — aceeași ca pe site-ul mare.
+
+    Înainte se făcea cu `cat.lower()`, ceea ce dădea `id="media de stat"`
+    (cu spații!) în timp ce meniul trimitea la `#media-de-stat`. Butonul nu
+    ducea nicăieri. `B.CAT_ID` e harta pe care o folosește deja index-ul mare,
+    deci acum cele două pagini vorbesc aceeași limbă.
+    """
+    return B.CAT_ID.get(cat, cat.lower().replace(" ", "-"))
 
 ROOT = B.ROOT
 IESIRE = os.path.join(ROOT, "moldova", "index.html")
@@ -75,7 +102,7 @@ def feed(arts):
         if not items:
             continue
         items.sort(key=lambda d: B.cheie_timp(d, mom), reverse=True)
-        ancora = B.slugify(cat) if hasattr(B, "slugify") else cat.lower()
+        ancora = ANCORA(cat)
         bucati.append(
             f'<section class="sec" id="{ancora}">\n'
             f'  <div class="wrap">\n'
@@ -95,9 +122,9 @@ def main():
     coaja = re.sub(r'<meta name="description" content=".*?">',
                    f'<meta name="description" content="{DESCRIERE}">', coaja, count=1, flags=re.S)
     coaja = re.sub(r'<link rel="canonical"[^>]*>',
-                   '<link rel="canonical" href="https://moldova.farabaliverne.ro/">', coaja, count=1)
+                   '<link rel="canonical" href="https://farabaliverne.ro/moldova/">', coaja, count=1)
     for prop, val in [("og:title", f"{NUME} — Moldova"), ("og:description", DESCRIERE),
-                      ("og:url", "https://moldova.farabaliverne.ro/"),
+                      ("og:url", "https://farabaliverne.ro/moldova/"),
                       ("og:site_name", f"{NUME} Moldova")]:
         coaja = re.sub(rf'<meta property="{prop}" content=".*?">',
                        f'<meta property="{prop}" content="{val}">', coaja, count=1, flags=re.S)
@@ -109,7 +136,7 @@ def main():
 
     # --- fruntea paginii ---------------------------------------------------
     coaja = re.sub(r'<h1 class="brand">.*?</h1>',
-                   f'<h1 class="brand"><a href="https://moldova.farabaliverne.ro/">'
+                   f'<h1 class="brand"><a href="https://farabaliverne.ro/moldova/">'
                    f'Fără&nbsp;Scorneli</a></h1>', coaja, count=1, flags=re.S)
     coaja = re.sub(r'<div class="subline">.*?</div>',
                    f'<div class="subline">{SUBLINE}</div>', coaja, count=1, flags=re.S)
@@ -118,14 +145,14 @@ def main():
                    f'{len(arts)} verificări despre Moldova</div>', coaja, count=1, flags=re.S)
 
     # --- meniul ------------------------------------------------------------
-    linkuri = ['<a href="https://moldova.farabaliverne.ro/" class="active">Acasă</a>']
+    linkuri = ['<a href="https://farabaliverne.ro/moldova/" class="active">Acasă</a>']
     for cat in B.CAT_ORDER:
         if any(d["category"] == cat for d in arts.values()):
-            linkuri.append(f'<a href="#{cat.lower().replace(" ", "-")}">{cat}</a>')
+            linkuri.append(f'<a href="{ACASA}#{ANCORA(cat)}">{cat}</a>')
     if din_lume(1):
-        linkuri.append('<a href="#din-lume">Din lume</a>')
+        linkuri.append(f'<a href="{ACASA}#din-lume">Din lume</a>')
     if din_romania(1):
-        linkuri.append('<a href="#din-romania">Din România</a>')
+        linkuri.append(f'<a href="{ACASA}#din-romania">Din România</a>')
     linkuri += ['<span class="sep"></span>',
                 '<a href="https://farabaliverne.ro/">← Fără Baliverne (România)</a>',
                 '<a href="https://farabaliverne.ro/cauta.html" class="search">🔍 Caută o afirmație</a>']
