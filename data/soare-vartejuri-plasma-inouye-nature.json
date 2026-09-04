@@ -1,0 +1,37 @@
+{
+  "slug": "soare-vartejuri-plasma-inouye-nature",
+  "title": "Telescopul solar Inouye a surprins pentru prima dată vârtejuri minuscule de plasmă pe suprafața Soarelui",
+  "category": "Știință",
+  "date": "2026-09-04",
+  "source": "Nature / NSF NSO / Max Planck Institute for Solar System Research",
+  "url": "https://www.mpg.de/26900660/tiny-vortices-discovered-on-the-sun-s-surface",
+  "dek": "Un studiu publicat în Nature pe 5 august 2026 descrie prima observație directă a unor vârtejuri minuscule de plasmă la suprafața Soarelui — unele de doar 20 de kilometri în diametru — surprinse cu telescopul solar Daniel K. Inouye din Hawaii. Cercetătorii spun că aceste structuri ar putea explica un mister vechi al fizicii solare: cum ajunge coroana Soarelui, stratul exterior al atmosferei sale, să fie de sute de ori mai fierbinte decât suprafața aflată dedesubt.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "O echipă de cercetători de la National Science Foundation National Solar Observatory (NSF NSO, SUA), Institutul Max Planck pentru Cercetarea Sistemului Solar (MPS, Germania) și High Altitude Observatory (HAO, SUA) a publicat în Nature, pe 5 august 2026, prima observație directă a unor vârtejuri de plasmă la suprafața Soarelui (fotosferă), folosind telescopul solar Daniel K. Inouye din Hawaii — cel mai mare telescop solar din lume. Vârtejurile au între 500 și 2.000 de kilometri în diametru, iar cele mai fine structuri observate au aproximativ 20 de kilometri — o rezoluție comparată de cercetători cu „a distinge o monedă de un euro de la 180 de kilometri distanță”.",
+      "sources": [
+        {"name": "Max Planck Society — Tiny Vortices Discovered on the Sun's Surface", "url": "https://www.mpg.de/26900660/tiny-vortices-discovered-on-the-sun-s-surface"},
+        {"name": "ScienceDaily — The sun is covered in tiny whirlpools we've never seen before", "url": "https://www.sciencedaily.com/releases/2026/08/260807035142.htm"}
+      ]
+    },
+    {
+      "text": "Structurile sunt identificate ca instabilități Kelvin-Helmholtz — vârtejuri care apar la marginile granulelor solare, acolo unde straturi de plasmă care se mișcă cu viteze diferite alunecă unul peste altul, similar valurilor care se rup la suprafața oceanului. Cercetătorii consideră că aceste vârtejuri ar putea răsuci liniile câmpului magnetic solar, acumulând energie care se eliberează apoi brusc sub formă de „nanoflăcări” (nanoflares), și ar putea explica de ce câmpurile magnetice se răspândesc prin atmosfera Soarelui mult mai repede decât prezic modelele actuale.",
+      "sources": [
+        {"name": "Sci.News — Inouye Solar Telescope Discovers Hidden Plasma Vortices on Sun", "url": "https://www.sci.news/astronomy/inouye-solar-telescope-plasma-vortices-sun-14974.html"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Descoperirea arată un mecanism plauzibil și nou-observat de transport al energiei, dar autorii înșiși îl prezintă drept o piesă dintr-un puzzle mai vechi — misterul „încălzirii coroanei” — nu drept soluția completă. Cât de mult contribuie exact aceste vârtejuri la temperatura extremă a coroanei solare (câteva milioane de grade, față de circa 5.500°C la suprafață) rămâne o întrebare cantitativă deschisă, care va necesita observații și modelări suplimentare."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Nature (sursă primară), confirmat de comunicatul Institutului Max Planck (unul dintre institutele autoare) și relatat de ScienceDaily și Sci.News.\n\nCe s-a verificat exact: cu telescopul solar Inouye din Hawaii, echipa a observat direct, pentru prima dată, vârtejuri de plasmă de doar 20-2.000 de kilometri la suprafața Soarelui, identificate ca instabilități Kelvin-Helmholtz — un fenomen fizic cunoscut teoretic, dar niciodată văzut atât de clar la această scară pe Soare, din cauza limitărilor de rezoluție ale telescoapelor mai vechi.\n\nUnde e nevoie de prudență: legătura dintre aceste vârtejuri și „încălzirea coroanei” — un mister vechi de decenii al fizicii solare — e prezentată de cercetători ca un mecanism plauzibil, susținut de observație, nu ca o explicație completă și cuantificată. Cât de mult din energia coroanei vine efectiv din acest proces, față de alte mecanisme propuse de-a lungul timpului (unde magnetice, reconectare magnetică la scară mare etc.), rămâne de stabilit.\n\nCe lipsește: modelări cantitative care să lege direct energia acumulată în aceste vârtejuri de temperatura măsurată a coroanei — pasul următor, spun cercetătorii, pentru a confirma cât de importantă e contribuția acestui mecanism față de altele.",
+  "math": {
+    "title": "De ce e un mister „coroana mai fierbinte decât suprafața”",
+    "explanation": "Normal, cu cât te îndepărtezi de o sursă de căldură, cu atât temperatura scade — așa funcționează un foc de tabără sau un calorifer. Suprafața Soarelui (fotosfera) are circa 5.500°C, dar coroana, stratul de atmosferă solară aflat deasupra ei, la mii de kilometri distanță de „sursă”, ajunge la câteva milioane de grade — de sute de ori mai fierbinte. E ca și cum aerul de deasupra unui foc ar fi mult mai fierbinte decât flăcările înseși. Explicația general acceptată e că energia nu vine din simpla radiație termică, ci e transportată sub formă de energie magnetică, „împachetată” prin mișcări turbulente ale plasmei de la suprafață și eliberată brusc mai sus, în coroană, prin procese precum micro-erupțiile (nanoflăcările). Vârtejurile descoperite acum ar fi tocmai mecanismul care „împachetează” energia magnetică la suprafață, înainte ca ea să fie transportată și eliberată deasupra — o piesă căutată de multă vreme în acest puzzle."
+  },
+  "persoane": []
+}
