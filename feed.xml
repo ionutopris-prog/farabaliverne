@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 04 Sep 2026 09:36:42 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:37:50 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Interiorul lui Marte are o anomalie termică uriașă: emisfera sudică e cu 200-400°C mai caldă și parțial topită</title>
+      <link>https://farabaliverne.ro/a/marte-anomalie-termica-emisfera-sudica-tomografie-maree.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/marte-anomalie-termica-emisfera-sudica-tomografie-maree.html</guid>
+      <pubDate>Fri, 04 Sep 2026 06:36:55 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat în Nature pe 27 august 2026 arată că interiorul emisferei sudice a lui Marte e cu 200-400°C mai fierbinte decât cel al emisferei nordice și parțial topit. Cercetătorii au ajuns la concluzie folosind „tomografia de maree” — o metodă care reconstituie structura internă a planetei din felul în care aceasta se deformează sub atracția gravitațională a Soarelui — pe date adunate de trei sonde NASA de-a lungul a peste două decenii. Cauza exactă a asimetriei rămâne necunoscută.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Ministrul israelian al Apărării spune că 80% dintre gazani vor să emigreze; sondajele publicate arată 43-52%</title>
       <link>https://farabaliverne.ro/a/katz-80-procente-gazani-emigrare-sondaje.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că summitul are loc și că liderii s-au întâlnit; a
       <description>Duminică, 30 august 2026, CENTCOM a lovit două lansatoare ale Gărzii Revoluționare Iraniene (IRGC) de pe Insula Larak, în sudul Iranului — prima acțiune militară americană împotriva Teheranului după o lună de calm relativ în jurul Strâmtorii Hormuz. IRGC a răspuns cu o operațiune numită „Pedeapsa Agresorului”, susținând că a lovit cu rachete și drone baze americane din Iordania (King Hussein și Al-Azraq) și din Emiratele Arabe Unite (Al Minhad), provocând „daune grele”. Amman a confirmat interceptarea a opt rachete, fără victime; Abu Dhabi a negat pur și simplu că ar fi avut loc vreun atac pe teritoriul său.
 
 Unde bat probele: Probat că schimbul de lovituri a avut loc; contestate rămân amploarea daunelor pretinse de Iran în Iordania și însuși atacul pretins în Emiratele Arabe Unite. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Trump anunță „cel mai mare acord petrolier din istorie” cu Venezuela — durata concesiunii, operatorul privat și legalitatea rămân disputate</title>
-      <link>https://farabaliverne.ro/a/trump-venezuela-acord-petrolier-65-miliarde-barili.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/trump-venezuela-acord-petrolier-65-miliarde-barili.html</guid>
-      <pubDate>Mon, 31 Aug 2026 20:18:10 +0000</pubDate>
-      <category>Economie</category>
-      <description>Donald Trump a anunțat pe 29 august 2026 un acord prin care o companie nouă, cu capital american, ar urma să controleze 55% din producția a 17 zăcăminte petroliere venezuelene, cu 65 de miliarde de barili de rezerve. Trump spune că nu costă nimic contribuabilii americani și că va scădea prețul benzinei; identitatea reală a capacității financiare a operatorului privat, durata exactă a concesiunii (100 sau 25 de ani, în funcție de sursă) și legalitatea acordului față de Constituția Venezuelei rămân disputate.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 4 contestate.</description>
     </item>
   </channel>
 </rss>
