@@ -1,0 +1,81 @@
+{
+  "slug": "sua-raport-angajari-august-trump-fed-dobanda",
+  "title": "SUA: raportul de angajări din august arată nevoie de dobândă mai mare, chiar când Trump cere una mai mică",
+  "category": "Economie",
+  "date": "2026-09-05",
+  "source": "Biroul de Statistică a Muncii (BLS) / The Spokesman-Review",
+  "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+  "dek": "Biroul de Statistică a Muncii (BLS) a raportat, pe 4 septembrie 2026, 162.000 de locuri de muncă noi în august — de trei ori peste estimarea analiștilor — plus revizuiri în sus pentru iunie și iulie. Președintele Trump a cerut Fed-ului să reducă dobânda și a amenințat că oprește comerțul cu țările față de care SUA are deficit; economiști citează exact raportul ca argument pentru o dobândă mai mare, nu mai mică.",
+  "mainVerdict": "Probat — cifrele BLS sunt publice și verificabile; ce ar trebui să facă Fed-ul rămâne o divergență de interpretare economică, nu un fapt contrazis",
+  "probat": [
+    {
+      "text": "Biroul de Statistică a Muncii (BLS) a raportat, pe 4 septembrie 2026, o creștere de 162.000 de locuri de muncă în sectorul non-agricol pentru luna august — aproape triplu față de estimarea medie a analiștilor (circa 53.000). Rata șomajului a rămas neschimbată, la 4,1%.",
+      "sources": [
+        {
+          "name": "BLS — Employment Situation, August 2026 (comunicat oficial)",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+        }
+      ]
+    },
+    {
+      "text": "Cifrele pentru iunie și iulie au fost revizuite în sus: iunie de la +20.000 la +31.000 (plus 11.000), iar iulie de la -23.000 (o contracție) la +21.000 (plus 44.000). Cumulat, cele două luni arată cu 55.000 de locuri de muncă mai mult decât se raportase inițial.",
+      "sources": [
+        {
+          "name": "BLS — Employment Situation, August 2026 (comunicat oficial)",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+        }
+      ]
+    },
+    {
+      "text": "Este primul raport lunar de angajare produs sub noul comisar al BLS, Brett Matsumoto, confirmat de Senat pe 7 august 2026. Predecesoarea lui, Erika McEntarfer, fusese demisă de Trump în august 2025, după un raport slab cu revizuiri mari în jos, pe motiv că ar fi „falsificat” datele — o acuzație pentru care nu s-a prezentat public nicio dovadă.",
+      "sources": [
+        {
+          "name": "NBC News — Trump names Brett Matsumoto to lead Bureau of Labor Statistics after firing agency's chief",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-names-brett-matsumoto-bureau-labor-statistics-commissioner-rcna256791"
+        },
+        {
+          "name": "Yahoo Finance — Trump fired the BLS chief over 'rigged' data claims. Economists say it cost the economy $20 billion",
+          "url": "https://finance.yahoo.com/economy/articles/trump-fired-bls-chief-over-110000985.html"
+        }
+      ]
+    },
+    {
+      "text": "După publicarea raportului, economiști citați de presă americană au spus că datele susțin de fapt o dobândă mai mare, nu mai mică. Capital Economics: „Even the most committed dove would struggle to find anything in the August employment report to justify keeping interest rates unchanged” („chiar și cel mai înverșunat susținător al relaxării ar avea greutăți să găsească în raportul de angajări din august ceva care să justifice păstrarea dobânzii neschimbate”). Kathy Bostjancic (Nationwide) a spus că raportul „oferă un sprijin suplimentar pentru majorări de dobândă anul acesta”. Traderii au crescut probabilitatea unei majorări la ședința Fed din 15-16 septembrie de la circa 55% la circa 62%.",
+      "sources": [
+        {
+          "name": "The Spokesman-Review — Strong job gains signal Fed hike as Trump levels new threat",
+          "url": "https://www.spokesman.com/stories/2026/sep/04/strong-job-gains-signal-fed-hike-as-trump-levels-n/"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Președintele Trump a reacționat pe Truth Social lăudând raportul („Great jobs number just announced, breaking all estimates (except mine!) by double and triple”) și a cerut Fed-ului, condus din mai 2026 de Kevin Warsh (numit de el însuși), să reducă dobânda: „The Fed Board, with its great new leader, must get smart – BE PATRIOTS for a change” și „We should have the LOWEST RATE of any country in the World … LOWER THE RATE OR I'LL STOP TRADING WITH COUNTRIES WITH WHICH WE HAVE A DEFICIT”. Aceasta e o poziție de politică economică — o preferință declarată, nu o afirmație despre fapte care poate fi „probată” sau „contrazisă”. Logica economică standard (angajare puternică → risc de inflație → dobândă mai mare) e cea citată de economiștii de mai sus; poziția lui Trump o contrazice ca recomandare de politică, nu ca dispută de cifre.",
+      "sources": [
+        {
+          "name": "The Spokesman-Review — Strong job gains signal Fed hike as Trump levels new threat",
+          "url": "https://www.spokesman.com/stories/2026/sep/04/strong-job-gains-signal-fed-hike-as-trump-levels-n/"
+        }
+      ]
+    }
+  ],
+  "math": {
+    "title": "55.000 de locuri de muncă, ascunse în revizuiri",
+    "explanation": "Prima estimare pentru iulie arătase o contracție de 23.000 de locuri de muncă; după revizuire, luna a ieșit pe plus, cu 21.000. Împreună cu revizuirea lui iunie, diferența cumulată e de 55.000 de locuri de muncă — o reamintire că prima cifră lunară publicată e mereu provizorie, indiferent cine conduce statistica oficială."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: că BLS a raportat pe 4 septembrie 2026 un plus de 162.000 de locuri de muncă în august, cu șomajul neschimbat la 4,1%, și cu revizuiri în sus de 55.000 de locuri de muncă pentru iunie-iulie combinate. Toate cifrele sunt publice, pe site-ul oficial al BLS.\n\nUnde se despart sursele: nu pe cifre — nimeni nu contestă cele 162.000 de locuri de muncă. Divergența e despre ce ar trebui să facă Fed-ul cu ele. Mecanismul economic standard e simplu: angajare mai puternică decât se aștepta înseamnă, de regulă, presiune inflaționistă mai mare, iar băncile centrale răspund de obicei cu dobânzi mai mari, nu mai mici — de-aici probabilitatea de majorare care a urcat de la 55% la 62% imediat după raport. Cererea președintelui Trump de reducere a dobânzii nu e o afirmație despre datele economice, ci o preferință de politică publică, motivată explicit de competitivitatea comercială („We should have the LOWEST RATE of any country in the World”), nu de argumentul anti-inflaționist.\n\nCe lipsește: decizia efectivă a Fed-ului, care se ia abia pe 15-16 septembrie 2026, după ce se publică și datele de inflație (CPI, PPI) din săptămâna următoare — acelea, nu raportul de angajări, ar putea încă justifica o pauză.\n\nCe ar schimba concluzia: dacă inflația de săptămâna viitoare iese neașteptat de slabă, argumentul „angajare puternică → dobândă mai mare” s-ar tempera; dacă iese peste așteptări, presiunea pentru majorare crește și mai mult.",
+  "persoane": [
+    "Donald Trump",
+    "Kevin Warsh",
+    "Brett Matsumoto"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-raport-angajari-august-trump-fed-dobanda.jpg\" alt=\"United States Federal Reserve building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — United States Federal Reserve building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2025 construction Eccles Federal Reserve Building Washington DC 2025-02-10 12-05-42</a>\" de G. Edward Johnson, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-raport-angajari-august-trump-fed-dobanda.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "G. Edward Johnson"
+  }
+}
