@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 09:30:32 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 09:31:40 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cercetătorii de la Washington University au descoperit structuri imunitare, asemănătoare ganglionilor limfatici, ascunse în măduva osoasă a craniului</title>
+      <link>https://farabaliverne.ro/a/craniu-maduva-osoasa-hub-imunitar-creier.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/craniu-maduva-osoasa-hub-imunitar-creier.html</guid>
+      <pubDate>Sat, 05 Sep 2026 06:30:56 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu condus de Jonathan Kipnis și Jang Hyun Park la Washington University School of Medicine din St. Louis, publicat pe 19 august 2026 în Nature, arată — la șoareci — că măduva osoasă a craniului conține structuri asemănătoare ganglionilor limfatici, care reacționează la semnale din creier mai repede decât ganglionii limfatici obișnuiți, aflați la distanță. Echipa a găsit dovezi indirecte că structuri similare există și la oameni, dar cercetarea principală, cu mecanismul demonstrat, rămâne la stadiul de model animal.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Fizicieni de la Carnegie Mellon găsesc o formă a efectului Hall care nu ar trebui să existe, potrivit teoriei clasice</title>
       <link>https://farabaliverne.ro/a/carnegie-mellon-efect-hall-in-plan.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că bilanțul oficial chinez a crescut substanțial fa�
       <description>Miniștrii de externe ai Suediei, Poloniei, Olandei și Spaniei au trimis o scrisoare comună prin care cer Comisiei Europene un compromis pentru a folosi cele aproximativ 200 de miliarde de euro în active rusești blocate la Euroclear, în Belgia, pentru finanțarea Ucrainei. Suedezii leagă cererea de o creștere a atacurilor hibride atribuite Rusiei, precum drona explozivă descoperită pe aeroportul din Leipzig — dar legătura cauzală rămâne o interpretare politică, nu un fapt stabilit, iar Belgia, care ar purta riscul juridic, rămâne rezervată.
 
 Unde bat probele: Probat, cu o legătură cauzală neconfirmată. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Parlamentul Estoniei a ales-o pe Ülle Madise președintă, cu 71 din 101 voturi</title>
-      <link>https://farabaliverne.ro/a/estonia-ulle-madise-presedinte-71-voturi.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/estonia-ulle-madise-presedinte-71-voturi.html</guid>
-      <pubDate>Wed, 02 Sep 2026 18:06:27 +0000</pubDate>
-      <category>Extern</category>
-      <description>Riigikogu, parlamentul unicameral al Estoniei, a ales-o miercuri, 2 septembrie 2026, pe Ülle Madise — până acum Cancelar al Justiției (avocatul poporului) — ca președintă a țării, cu 71 de voturi din 101, peste pragul de două treimi. A fost singura candidată pe buletin și devine a doua femeie președinte a Estoniei, după Kersti Kaljulaid (2016-2021).
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
