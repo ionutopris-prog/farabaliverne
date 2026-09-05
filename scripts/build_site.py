@@ -1405,6 +1405,52 @@ def build_sitemap(arts):
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '
            + "\n  ".join(rows) + "\n</urlset>\n")
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(xml)
+    build_sitemap_news(arts)
+    return len(rows)
+
+
+def build_sitemap_news(arts):
+    """
+    Sitemap separat pentru Google News, cu articolele din ultimele 48 de ore.
+
+    Google News nu se uită în sitemap-ul mare — vrea unul dedicat, cu schema
+    `news`, care conține DOAR ce e proaspăt. Ăsta e canalul gratuit prin care
+    o știre poate ajunge la cititori în ziua în care contează, nu peste o
+    săptămână, când Google ajunge la ea prin sitemap-ul obișnuit.
+
+    Regula lui Google: maximum 1.000 de URL-uri și doar articole mai noi de
+    48 de ore. Ce e mai vechi trebuie scos, altfel sitemap-ul e respins.
+    """
+    from datetime import datetime, timedelta, timezone
+    B = "https://farabaliverne.ro/"
+    limita = datetime.now(timezone.utc) - timedelta(hours=48)
+    rows = []
+    for slug in sorted(arts.keys()):
+        if not os.path.exists(os.path.join(ROOT, "a", slug + ".html")):
+            continue
+        a = arts[slug]
+        d = (a.get("date") or "")[:10]
+        if not d:
+            continue
+        try:
+            cand = datetime.strptime(d, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if cand < limita:
+            continue
+        titlu = (a.get("title") or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        rows.append(
+            '<url><loc>%sa/%s.html</loc>'
+            '<news:news><news:publication>'
+            '<news:name>Fără Baliverne</news:name><news:language>ro</news:language>'
+            '</news:publication>'
+            '<news:publication_date>%s</news:publication_date>'
+            '<news:title>%s</news:title></news:news></url>' % (B, slug, d, titlu))
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+           '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n  '
+           + "\n  ".join(rows) + "\n</urlset>\n")
+    open(os.path.join(ROOT, "sitemap-news.xml"), "w", encoding="utf-8").write(xml)
     return len(rows)
 
 
