@@ -1,0 +1,84 @@
+{
+  "slug": "coreea-sud-lee-jae-myung-aprobare-minim-istoric",
+  "title": "Coreea de Sud: remanierea guvernului nu oprește căderea popularității lui Lee Jae-myung, la minim istoric",
+  "category": "Politică",
+  "date": "2026-09-05",
+  "source": "Gallup Korea / Realmeter / Korea Herald / Korea Times",
+  "url": "https://www.koreaherald.com/article/10862697",
+  "dek": "Președintele sud-coreean Lee Jae-myung a remaniat șase miniștri pe 31 august 2026, printre care responsabilii cu politica imobiliară, subiectul cel mai criticat public. Sondajul Gallup Korea publicat pe 4 septembrie arată aprobarea la 40% — minim de la preluarea mandatului, în iunie 2025 — iar un sondaj anterior Realmeter dăduse deja 38,9%. Cifrele diferă între institute, dar tendința e aceeași: în scădere de șapte săptămâni la rând.",
+  "mainVerdict": "Probat — cifrele vin din două sondaje distincte, cu metodologii diferite, dar ambele confirmă independent aceeași tendință de scădere",
+  "probat": [
+    {
+      "text": "Președintele Lee Jae-myung a anunțat, pe 31 august 2026, o remaniere a șase miniștri cheie — finanțe, apărare, justiție, IMM-uri, egalitate de gen și transport/infrastructură — inclusiv cei doi oficiali responsabili de politica imobiliară, principala sursă de nemulțumire publică din ultimele luni.",
+      "sources": [
+        {
+          "name": "Korea Herald — Lee's approval rating hits new low of 40% (poll)",
+          "url": "https://www.koreaherald.com/article/10862697"
+        }
+      ]
+    },
+    {
+      "text": "Sondajul Gallup Korea, realizat marți-joi (1-3 septembrie 2026) pe 1.001 de adulți, cu marjă de eroare de ±3,1 puncte, arată aprobarea lui Lee la 40% (în scădere cu 2 puncte față de săptămâna anterioară) — minimul de la preluarea mandatului, în iunie 2025 — iar dezaprobarea a urcat la 51%, maximul de până acum. Motivele principale ale nemulțumirii: politica imobiliară (23%), economia și nivelul de trai (11%) și numirile de personal, direct legate de remaniere (9%).",
+      "sources": [
+        {
+          "name": "Korea Times — Lee's approval rating hits new low of 40% (poll)",
+          "url": "https://www.koreatimes.co.kr/southkorea/politics/20260904/lees-approval-rating-hits-new-low-of-40-poll"
+        }
+      ]
+    },
+    {
+      "text": "Un sondaj anterior, realizat de Realmeter (24-28 august 2026, telefonic automat, 2.509 respondenți, marjă de eroare de 2 puncte, comandat de Energy Economy) arătase deja aprobarea sub 40%, la 38,9% (scădere de 1,3 puncte), cu dezaprobarea la 58,7%. Era a șaptea săptămână consecutivă de scădere și prima oară de la preluarea mandatului când aprobarea a coborât sub pragul de 40%. Cea mai mare cădere a fost în rândul alegătorilor de 50 de ani, unde aprobarea a scăzut cu 7,5 puncte, la 40,8%.",
+      "sources": [
+        {
+          "name": "Korea Herald — Realmeter poll: Lee's approval falls below 40% for first time",
+          "url": "https://www.koreaherald.com/article/10856806"
+        }
+      ]
+    },
+    {
+      "text": "Sprijinul pentru partide s-a mișcat în aceeași direcție: Partidul Democrat (al lui Lee) a scăzut 1 punct, la 38%, în timp ce Partidul Puterii Poporului (opoziție) a urcat 5 puncte, la 30% — maxim istoric sub administrația Lee, potrivit sondajului Gallup Korea.",
+      "sources": [
+        {
+          "name": "Korea Times — Lee's approval rating hits new low of 40% (poll)",
+          "url": "https://www.koreatimes.co.kr/southkorea/politics/20260904/lees-approval-rating-hits-new-low-of-40-poll"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cele două sondaje dau cifre diferite pentru aprobare — 40% (Gallup Korea) față de 38,9% (Realmeter) — dar nu se contrazic ca tendință: diferența vine din metodologie (Gallup Korea folosește interviu telefonic cu operator uman, eșantion mai mic de 1.001 persoane; Realmeter folosește sondaj telefonic automatizat, cu eșantion mai mare, de 2.509 persoane, dar rată de răspuns de doar 3,9%) și din perioade de culegere diferite (1-3 septembrie față de 24-28 august). Ambele sunt institute consacrate în Coreea de Sud, iar direcția — scădere continuă — coincide.",
+      "sources": [
+        {
+          "name": "Korea Herald — Realmeter poll: Lee's approval falls below 40% for first time",
+          "url": "https://www.koreaherald.com/article/10856806"
+        },
+        {
+          "name": "Korea Times — Lee's approval rating hits new low of 40% (poll)",
+          "url": "https://www.koreatimes.co.kr/southkorea/politics/20260904/lees-approval-rating-hits-new-low-of-40-poll"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă remanierea guvernamentală de la finalul lui august a fost un răspuns real la nemulțumirea publică sau doar o schimbare de fațadă rămâne o interpretare deschisă: sondajul Gallup, făcut chiar în săptămâna de după remaniere, arată că îngrijorările legate de noile numiri au contribuit ele însele la scădere (9% din motivele de dezaprobare), nu la o ameliorare. E prea devreme, cu un singur sondaj post-remaniere, pentru a spune dacă efectul se va inversa sau adânci.",
+      "sources": []
+    }
+  ],
+  "math": {
+    "title": "7,5 puncte, cea mai mare cădere, la o singură categorie de vârstă",
+    "explanation": "În sondajul Realmeter, aprobarea generală a scăzut cu 1,3 puncte într-o săptămână — dar în rândul alegătorilor de 50 de ani, căderea a fost de 7,5 puncte, de peste cinci ori mai mare decât media. Diferența arată că nemulțumirea nu e uniformă: se concentrează într-un singur segment de vârstă, probabil cel mai afectat de politica imobiliară criticată."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: că președintele Lee Jae-myung a remaniat șase miniștri pe 31 august 2026, și că două sondaje distincte, Gallup Korea (1-3 septembrie, 40% aprobare) și Realmeter (24-28 august, 38,9% aprobare), arată amândouă un nivel de aprobare la minime istorice de la preluarea mandatului.\n\nUnde se despart sursele: nu pe tendință — ambele institute arată scădere — ci pe cifra exactă. Diferența de 1,1 puncte între 40% și 38,9% vine din metodologii diferite: Gallup Korea sună un eșantion mai mic cu operatori umani; Realmeter folosește un sistem automatizat cu eșantion mai mare, dar cu o rată de răspuns de doar 3,9% — ceea ce înseamnă că peste 96% dintre numerele apelate nu au răspuns, un factor care poate introduce erori sistematice greu de cuantificat. Cele două sondaje au fost făcute și în săptămâni diferite (24-28 august față de 1-3 septembrie), deci nici nu descriu neapărat exact același moment.\n\nCe lipsește: un sondaj făcut de un al treilea institut, în aceeași fereastră de timp, care să confirme independent dacă scăderea continuă sau s-a oprit după remaniere — un singur ciclu de sondaj post-remaniere nu e suficient ca să tragem o concluzie despre efectul ei.\n\nCe ar schimba concluzia: următorul sondaj Gallup Korea sau Realmeter, din săptămâna 8-12 septembrie, care ar arăta dacă scăderea s-a oprit (validând remanierea ca răspuns eficient) sau a continuat (arătând că schimbarea de miniștri n-a atins cauza reală a nemulțumirii).",
+  "persoane": [
+    "Lee Jae-myung"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/coreea-sud-lee-jae-myung-aprobare-minim-istoric.jpg\" alt=\"Lee Jae-myung\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Lee Jae-myung. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Lee_Jae-myung_and_Bongbong_Marcos_in_Manila_(2026)_06.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Lee Jae-myung and Bongbong Marcos in Manila (2026) 06</a>\" de Presidential Communications Office, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/coreea-sud-lee-jae-myung-aprobare-minim-istoric.jpg",
+    "licenta": "Public domain",
+    "autor": "Presidential Communications Office"
+  }
+}

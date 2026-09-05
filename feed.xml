@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 22:13:19 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 22:15:16 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SUA: raportul de angajări din august arată nevoie de dobândă mai mare, chiar când Trump cere una mai mică</title>
+      <link>https://farabaliverne.ro/a/sua-raport-angajari-august-trump-fed-dobanda.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/sua-raport-angajari-august-trump-fed-dobanda.html</guid>
+      <pubDate>Sat, 05 Sep 2026 19:14:00 +0000</pubDate>
+      <category>Economie</category>
+      <description>Biroul de Statistică a Muncii (BLS) a raportat, pe 4 septembrie 2026, 162.000 de locuri de muncă noi în august — de trei ori peste estimarea analiștilor — plus revizuiri în sus pentru iunie și iulie. Președintele Trump a cerut Fed-ului să reducă dobânda și a amenințat că oprește comerțul cu țările față de care SUA are deficit; economiști citează exact raportul ca argument pentru o dobândă mai mare, nu mai mică.
+
+Unde bat probele: Probat — cifrele BLS sunt publice și verificabile; ce ar trebui să facă Fed-ul rămâne o divergență de interpretare economică, nu un fapt contrazis. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Un studiu chinezesc spune că șofatul agresiv ar putea uza bateria de peste 2,5 ori mai repede — dar cifra e o prognoză a unui model, nu o măsurătoare</title>
       <link>https://farabaliverne.ro/a/shanghai-dianji-condus-agresiv-baterii-electrice-2-5-ori.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Ministerul Finanțelor a anunțat, pe 31 august 2026, că deficitul bugetar consolidat pe primele șapte luni din 2026 a scăzut cu 37% față de aceeași perioadă din 2025, coborând la 2,34% din PIB. Cifra e reală, dar comunicatul ministerului nu pune alături costul datoriei publice, care a crescut cu 26,5% în aceeași perioadă, și nici faptul că estimarea pentru tot anul rămâne 6,2% din PIB — de peste două ori pragul UE de 3%.
 
 Unde bat probele: Probat, cu context. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Nicușor Dan promite premierul „în zilele următoare” — Simion prezisese cu trei zile înainte că nu va fi desemnat nimeni până pe 21 septembrie</title>
-      <link>https://farabaliverne.ro/a/nicusor-dan-premier-zilele-urmatoare-simion-21-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/nicusor-dan-premier-zilele-urmatoare-simion-21-septembrie.html</guid>
-      <pubDate>Thu, 03 Sep 2026 18:02:51 +0000</pubDate>
-      <category>Politică</category>
-      <description>Președintele Nicușor Dan a declarat, pe 3 septembrie 2026, că va desemna un premier „în zilele următoare”, după aproape patru luni de guvern interimar. Declarația vine la trei zile după ce liderul AUR, George Simion, prezisese pe Facebook că „până cel puțin pe 21 septembrie nu va fi desemnat niciun premier”. Ambele sunt afirmații ale unor politicieni cu interes direct în deznodământ — una speră să se confirme, cealaltă mizează pe eșecul rivalului.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
