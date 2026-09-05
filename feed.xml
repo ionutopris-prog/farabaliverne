@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 09:23:30 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 09:26:30 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un studiu pe șoareci: semaglutida administrată la bătrânețe le-a prelungit viața și le-a încetinit îmbătrânirea</title>
+      <link>https://farabaliverne.ro/a/semaglutida-soareci-durata-viata-nature.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/semaglutida-soareci-durata-viata-nature.html</guid>
+      <pubDate>Sat, 05 Sep 2026 06:24:05 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu condus de laboratorul Danica Chen de la UC Berkeley, publicat pe 2 septembrie 2026 în Nature, arată că șoarecii femele bătrâne tratate 3 luni cu semaglutidă (substanța activă din Ozempic și Wegovy) au trăit cu o durată mediană de viață de 834 de zile, față de 742 de zile la lotul netratat — cu circa 100 de zile mai mult, în medie, la cele tratate până la finalul vieții. Studiul e pe șoareci, nu pe oameni, și doar pe femele.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Trump spune că inflația din Iran a ajuns la 300% — datele Statisticii oficiale iraniene și ale agențiilor independente arată sub 90%</title>
       <link>https://farabaliverne.ro/a/trump-iran-inflatie-300-procente-date-oficiale.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu o acuzație neconfirmată independent. Verificate: 
       <description>Indicele PMI manufacturier al zonei euro, publicat de S&amp;P Global pe 1 septembrie 2026, a urcat la 52,7 în august, de la 51,9 în iulie — cel mai bun nivel din mai 2022, dar ușor sub estimarea preliminară de 52,8. Comenzile noi au crescut în cel mai rapid ritm de la începutul lui 2022, iar Germania și Irlanda au condus creșterea. Imaginea nu e uniformă: Italia a intrat în contracție pentru prima dată din ianuarie, iar Spania a rămas tot în teritoriu negativ.
 
 Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Pîslaru spune că indexarea pensiilor și salariilor „e posibilă” din 2027, dar condiționată de un buget cu surse de finanțare clare</title>
-      <link>https://farabaliverne.ro/a/pislaru-indexare-pensii-salarii-2027-buget-bruxelles.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/pislaru-indexare-pensii-salarii-2027-buget-bruxelles.html</guid>
-      <pubDate>Wed, 02 Sep 2026 09:49:56 +0000</pubDate>
-      <category>Economie</category>
-      <description>Ministrul interimar al Muncii, Dragoș Pîslaru, a declarat pe 1 septembrie 2026 că indexarea pensiilor și salariilor de anul viitor e posibilă „dacă avem un buget bine făcut”, și că nu vede motive ca Bruxelles-ul să se opună, atâta timp cât România arată sursele de finanțare. Indexarea e amânată succesiv din 2025 până acum, iar punctul de pensie a rămas înghețat pe tot anul 2026. Afirmația lui despre poziția Comisiei Europene nu poate fi verificată independent, pentru că nu există, la data publicării, o poziție oficială a Bruxelles-ului pe acest subiect anume.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 5 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
