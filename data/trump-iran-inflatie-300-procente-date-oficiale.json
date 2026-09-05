@@ -1,0 +1,51 @@
+{
+  "slug": "trump-iran-inflatie-300-procente-date-oficiale",
+  "title": "Trump spune că inflația din Iran a ajuns la 300% — datele Statisticii oficiale iraniene și ale agențiilor independente arată sub 90%",
+  "category": "Extern",
+  "date": "2026-09-05",
+  "source": "Truth Social / Trading Economics / IranWire / VINnews",
+  "url": "https://vinnews.com/2026/08/31/trump-says-iran-in-total-chaos-claims-regime-has-no-navy-300-inflation-and-over-100000-protesters-killed/",
+  "dek": "Președintele american Donald Trump a scris pe Truth Social, pe 31 august 2026, că Iranul e „oficial un stat eșuat”, fără marină, aviație sau monedă funcțională, cu „inflație de 300%” și „peste 100.000 de protestatari uciși”. Cifra de inflație nu se susține: Statistica oficială iraniană a raportat 87,9% în iulie 2026, iar agenții independente (IranWire, Iran International) confirmă o rată anuală în jurul a 80-88% — mare, reală, dar de peste trei ori sub cifra vehiculată de Trump. Numărul protestatarilor uciși e la fel de disputat, fără nicio sursă publică ce se apropie de 100.000.",
+  "mainVerdict": "Contrazis pentru cifra de inflație — datele oficiale iraniene și cele independente arată o rată reală de circa 80-90%, nu 300%; celelalte afirmații (fără marină/aviație/monedă) sunt formulări retorice, nu fapte verificabile separat",
+  "probat": [
+    {
+      "text": "Pe 31 august 2026, pe Truth Social, Donald Trump a scris despre Iran: „Nu au Marină, nu au Forțe Aeriene, nu au monedă, nu își plătesc soldații sau poliția, Inflația e la 300%, iar conducerea lor e în deplină dezordine și incapabilă să reprezinte cum trebuie țara”, declarând Iranul „oficial un Stat Eșuat”. În aceeași postare a susținut că „peste 100.000 de protestatari au fost uciși”.",
+      "sources": [
+        {"name": "VINnews — Trump Says Iran In 'Total Chaos'", "url": "https://vinnews.com/2026/08/31/trump-says-iran-in-total-chaos-claims-regime-has-no-navy-300-inflation-and-over-100000-protesters-killed/"},
+        {"name": "The Jerusalem Post — Trump says Iran has 350% inflation (afirmație similară, altă dată)", "url": "http://www.jpost.com/middle-east/iran-news/article-906225"}
+      ]
+    },
+    {
+      "text": "Statistica oficială a Iranului (Statistical Center of Iran) a raportat o rată anuală a inflației de 87,9% pentru iulie 2026, în scădere de la 88,6% în iunie — prima încetinire după trei luni de creșteri. Rata rămâne, deci, foarte ridicată, dar la mai puțin de o treime din cifra de 300% citată de Trump.",
+      "sources": [
+        {"name": "Trading Economics — Iran Inflation Rate CPI", "url": "https://tradingeconomics.com/iran/inflation-cpi"}
+      ]
+    },
+    {
+      "text": "Presa independentă din diaspora iraniană, care monitorizează separat prețurile fiindcă nu are încredere necondiționată în cifrele guvernului de la Teheran, ajunge la estimări similare, nu la cea a lui Trump: ISNA (agenție semi-oficială) și analize citate de Iran International plasează inflația anuală „peste 80%”, iar IranWire scrie despre o rată de 84,4% în august 2026 — toate în aceeași ordine de mărime ca datele oficiale, departe de 300%.",
+      "sources": [
+        {"name": "Iran International — Iran's annual inflation remains above 80%", "url": "https://www.iranintl.com/en/202608161229"},
+        {"name": "IranWire — Iran's Inflation Crisis Deepens as Year-on-Year Rate Hits 84.4% in August", "url": "https://iranwire.com/en/news/156819-irans-inflation-crisis-deepens-as-year-on-year-rate-hits-844-in-august/"}
+      ]
+    },
+    {
+      "text": "Oficiali iranieni au respins public afirmațiile lui Trump despre colapsul economic și militar, potrivit VINnews, deși articolul nu redă o declarație oficială textuală. Nu există, în sursele publice verificate, o cifră confirmată independent de 100.000 de protestatari uciși — o organizație care monitorizează separat victimele (citată într-un comentariu pe IranWire) vorbește despre aproximativ 36.500 de decese documentate prin registre de spital și morgă, o cifră mult mai mică și, la rândul ei, nesigură.",
+      "sources": [
+        {"name": "VINnews — Trump Says Iran In 'Total Chaos'", "url": "https://vinnews.com/2026/08/31/trump-says-iran-in-total-chaos-claims-regime-has-no-navy-300-inflation-and-over-100000-protesters-killed/"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Afirmațiile despre lipsa totală a marinei, aviației sau monedei Iranului sunt formulări retorice de propagandă de război, greu de tratat ca fapte verificabile separate — Iranul are, evident, o marină și o forță aeriană, chiar dacă slăbite de conflict; „nu au monedă” e o hiperbolă pentru colapsul valutar al rialului, nu o afirmație literală. Tratăm aici doar cifra de inflație, singura pentru care există date numerice comparabile.",
+      "sources": []
+    }
+  ],
+  "math": {
+    "title": "300% vs ~88% — de peste 3 ori mai mult",
+    "explanation": "Cifra lui Trump (300%) e de peste trei ori mai mare decât rata oficială iraniană raportată pentru iulie 2026 (87,9%) și decât estimările independente (80-88%). Inflația reală e oricum una dintre cele mai mari din lume — problema nu e că Trump exagerează o situație bună, ci că exagerează una deja gravă."
+  },
+  "aiNote": "Această afirmație vine de la un politician aflat în funcție, contrazisă de date numerice publice — de aceea articolul trece prin verificarea suplimentară a redacției înainte de publicare.\n\nCe s-a verificat exact: textul integral al postării lui Trump de pe Truth Social (31 august 2026, redat de VINnews) și cifrele de inflație raportate de Statistica oficială a Iranului (87,9% în iulie 2026, via Trading Economics) și de presa independentă din diaspora iraniană (peste 80%, respectiv 84,4% — Iran International, IranWire).\n\nUnde se despart sursele: nu e o dispută între surse care se contrazic — toate sursele independente (guvernamentale iraniene, semi-oficiale și din diaspora anti-regim) convergă în intervalul 80-90%. Diferența e doar între aceste surse, luate împreună, și cifra unică de 300% citată de Trump, care nu apare în nicio sursă statistică găsită.\n\nCe lipsește: o explicație din partea Casei Albe despre proveniența cifrei de 300% — dacă se bazează pe o metodă de calcul diferită (de exemplu, inflație cumulată pe mai mulți ani, nu anuală) sau pe o sursă nepublicată. Fără această explicație, cifra rămâne neconfirmată de nicio metodologie vizibilă.\n\nCe ar schimba concluzia: dacă administrația Trump ar publica sursa sau metodologia din spatele cifrei de 300%, sau dacă o revizuire ulterioară a datelor iraniene ar arăta o accelerare bruscă a inflației spre acel nivel — lucru pe care datele disponibile acum nu îl arată.",
+  "persoane": ["Donald Trump"]
+}
