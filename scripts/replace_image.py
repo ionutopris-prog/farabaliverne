@@ -46,12 +46,42 @@ def poza_veche(html):
     return m.group(1) if m else None
 
 
-def scoate(path, html):
+def curata_json(slug):
+    """
+    Scoate poza și din `data/<slug>.json`, nu doar din pagină.
+
+    Bug găsit pe 5 septembrie 2026: `scoate()` curăța HTML-ul, dar lăsa câmpul
+    `poza` în JSON, arătând spre un fișier tocmai șters. Câmpul ăla a fost
+    adăugat tocmai ca poza să SUPRAVIEȚUIASCĂ regenerării articolului — deci
+    prima regenerare de după o „scoatere" aducea poza înapoi, ruptă, cu un
+    `<img>` către un fișier inexistent. Exact ce s-a întâmplat la
+    `moldova-mae-convoaca-ozerov-16-sectii-vot-transnistria`.
+
+    Întoarce numele fișierului scos, ca apelantul să-l poată șterge.
+    """
+    j = os.path.join(ROOT, "data", slug + ".json")
+    if not os.path.exists(j):
+        return None
+    d = json.load(open(j, encoding="utf-8"))
+    pz = d.pop("poza", None)
+    if pz is None:
+        return None
+    json.dump(d, open(j, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    return (pz or {}).get("fisier")
+
+
+def scoate(path, html, slug=None):
     """Înapoi la cardul de brand: mai bine fără poză decât cu una greșită."""
     html = IMG.sub("", html)
     html = FIGCAP.sub("", html)
     html = META_IMG.sub(r"\1" + OG_IMPLICIT + r"\2", html)
     open(path, "w", encoding="utf-8").write(html)
+    if slug:
+        fis = curata_json(slug)
+        if fis:
+            f = os.path.join(ROOT, fis.lstrip("./"))
+            if os.path.exists(f):
+                os.remove(f)
 
 
 def main():
@@ -67,7 +97,7 @@ def main():
         sys.exit(f"{slug}: nu are poză proprie în hero — folosește article_image.py")
 
     if sys.argv[2] == "--scoate":
-        scoate(path, html)
+        scoate(path, html, slug)
         print(f"{slug}: poză scoasă, rămâne cardul de brand")
         _sterge(veche, slug)
         return
