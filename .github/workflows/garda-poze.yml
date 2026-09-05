@@ -1,0 +1,64 @@
+name: Garda pozelor (mătură zilnică)
+
+# A DOUA linie de apărare. Prima e pasul din `edition.yml`, care rulează după
+# fiecare ediție și acoperă articolele noi. Asta mătură TOT site-ul, o dată pe
+# zi, pentru cazurile în care prima nu apucă să ruleze:
+#   - ediția cade la jumătate și pașii de după se sar
+#   - un articol e publicat manual, în afara ediției
+#   - o poză e ștearsă mai târziu, din alt motiv
+#
+# Regula fondatorului, 5 septembrie 2026: „să nu mai văd așa ceva pe site" —
+# despre emoji pe gradient. O regulă care se aplică o dată nu e o regulă; asta
+# o aplică în fiecare zi.
+#
+# 04:40 UTC: după ce s-au așezat edițiile de noapte și după cele două treceri
+# ale Letopisețului, dar înainte de dimineața în România.
+
+on:
+  schedule:
+    - cron: "40 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: garda-poze
+  cancel-in-progress: false
+
+jobs:
+  garda:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unelte pentru poze
+        run: python3 -m pip install --quiet pillow
+
+      - name: Mătură tot site-ul
+        run: python3 scripts/garda_poze.py
+
+      - name: Regenerează dacă s-a schimbat ceva
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "niciun articol fără poză — nimic de făcut"
+            exit 0
+          fi
+          python3 scripts/make_thumbs.py | tail -1
+          python3 scripts/card_share.py --toate | tail -1
+          python3 scripts/build_site.py | tail -1
+          git config user.name  "Garda pozelor"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Garda pozelor: mătura zilnică"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && exit 0
+            sleep 20
+          done
+          echo "::warning::nu am putut urca; se reia mâine"

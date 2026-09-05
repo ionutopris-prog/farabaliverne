@@ -5811,6 +5811,65 @@
 })();
 </script>
 
+<script>
+(function(){
+  var a = document.querySelector('main aside');
+  if (!a) return;
+  var PRAG = 981;                       // sub el coloanele stau una sub alta
+  var banda, unit = 0, gap = 0, pornit = false;
+
+  function construieste(){
+    if (pornit) return;
+    var copii = [].slice.call(a.children);
+    if (copii.length < 2) return;       // cu un singur panou n-are ce se roti
+    banda = document.createElement('div');
+    banda.className = 'carusel-banda';
+    banda.style.cssText = 'display:flex;flex-direction:column;gap:26px';
+    copii.forEach(function(el){ banda.appendChild(el); });
+    a.appendChild(banda);
+    gap = parseFloat(getComputedStyle(a).rowGap) || 26;
+    // O clonă e OBLIGATORIE, nu opțională: fără conținut dincolo de capătul
+    // primei benzi, saltul înapoi n-ar avea unde să se ascundă și caruselul
+    // s-ar opri, exact ca o derulare obișnuită. Restul clonelor se adaugă doar
+    // dacă banda e mai scundă decât două ecrane.
+    var n = 0;
+    do {
+      var c = banda.cloneNode(true);
+      c.setAttribute('aria-hidden', 'true');
+      c.querySelectorAll('[id]').forEach(function(x){ x.removeAttribute('id'); });
+      a.appendChild(c); n++;
+    } while (a.scrollHeight < a.clientHeight * 2 + banda.offsetHeight && n < 6);
+    masoara();
+    a.scrollTop = 1;
+    pornit = true;
+  }
+
+  function masoara(){ unit = banda.offsetHeight + gap; }
+
+  function desfa(){
+    if (!pornit) return;
+    [].slice.call(a.querySelectorAll('.carusel-banda')).forEach(function(b, i){
+      if (i === 0) { while (b.firstChild) a.appendChild(b.firstChild); }
+      b.remove();
+    });
+    a.scrollTop = 0; pornit = false;
+  }
+
+  a.addEventListener('scroll', function(){
+    if (!pornit || !unit) return;
+    if (a.scrollTop >= unit) a.scrollTop -= unit;
+    else if (a.scrollTop <= 0) a.scrollTop += unit;
+  }, {passive: true});
+
+  function potriveste(){
+    if (window.innerWidth >= PRAG) { construieste(); if (pornit) masoara(); }
+    else desfa();
+  }
+  potriveste();
+  window.addEventListener('resize', potriveste);
+})();
+</script>
+
 <style>
   .fb-salt{position:fixed;left:18px;bottom:18px;z-index:9996;width:46px;height:46px;
     border-radius:50%;border:1px solid var(--line-2);background:var(--card);

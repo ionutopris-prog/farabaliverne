@@ -288,6 +288,32 @@ jobs:
             . "$RUNNER_TEMP/urca.sh"; urca
           fi
 
+      # 🔴 GARDA POZELOR. Se pune AICI, imediat după verificator, și nu
+      # întâmplător: `verifica_poza.py --repara` SCOATE pozele nepotrivite,
+      # corect, dar nu pune alta în loc — deci fiecare poză scoasă readucea
+      # emoji-ul pe gradient. Plus articolele pentru care redactorul n-a găsit
+      # nimic din prima. Două scurgeri prin care se întorcea, în fiecare zi,
+      # exact lucrul pe care fondatorul l-a interzis pe 5 septembrie 2026:
+      # „să nu mai văd așa ceva pe site".
+      #
+      # Garda ia fiecare articol rămas fără poză și îi caută una, cu numele
+      # proprii din titlu, apoi cu categoria ca plasă de siguranță. Ce nu
+      # găsește, raportează — nu inventează.
+      - name: Garda pozelor (niciun articol cu emoji pe gradient)
+        if: steps.redactor.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          DE_LA: ${{ steps.redactor.outputs.before }}
+        run: |
+          python3 scripts/garda_poze.py --noi
+          if ! git diff --quiet; then
+            git config user.name "Fără Baliverne (bot)"
+            git config user.email "bot@farabaliverne.ro"
+            git add -A
+            git commit -m "Garda pozelor: poze puse pe articolele rămase fără"
+            . "$RUNNER_TEMP/urca.sh"; urca
+          fi
+
       # Repară singur ce se poate repara, ÎNAINTE de verificarea care oprește
       # publicarea. Pe 23 august, trei ediții la rând au fost marcate ROȘU deși
       # publicaseră 9 articole: verificarea pica pe trei poze hotlinkate din
