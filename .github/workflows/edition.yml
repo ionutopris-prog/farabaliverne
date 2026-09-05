@@ -306,6 +306,7 @@ jobs:
           DE_LA: ${{ steps.redactor.outputs.before }}
         run: |
           python3 scripts/garda_poze.py --noi
+          python3 scripts/sincronizeaza_poze.py
           if ! git diff --quiet; then
             git config user.name "Fără Baliverne (bot)"
             git config user.email "bot@farabaliverne.ro"

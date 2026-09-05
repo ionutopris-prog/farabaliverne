@@ -44,6 +44,14 @@ jobs:
       - name: Mătură tot site-ul
         run: python3 scripts/garda_poze.py
 
+      # Poza înlocuită scrie fișierul nou și JSON-ul, dar NU pagina — care
+      # rămâne cu creditul vechi. Pe 5 septembrie 2026 erau 144 de pagini care
+      # afișau alt autor și altă licență decât ai pozei care se vedea. E o
+      # problemă de licență: un credit greșit e mai rău decât niciun credit,
+      # fiindcă arată ca o atribuire făcută.
+      - name: Aliniază creditele din pagini la JSON
+        run: python3 scripts/sincronizeaza_poze.py
+
       - name: Regenerează dacă s-a schimbat ceva
         run: |
           if [ -z "$(git status --porcelain)" ]; then
