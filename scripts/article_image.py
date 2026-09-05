@@ -30,6 +30,43 @@ CAM = ('<svg width="15" height="15" viewBox="0 0 24 24" fill="none" '
        '<circle cx="12" cy="13" r="4"/></svg>')
 
 
+# 🔴 Cuvinte care, luate singure, caută cu totul altceva decât articolul.
+#
+# Găsite pe 5 septembrie 2026, când fondatorul a trimis o captură de pe site:
+# „PNL și USR boicotează CAMERA Deputaților" avea în locul pozei un aparat foto
+# Konica. Căutarea fusese literalmente `alt="Camera"`. O măturare a găsit încă
+# 18 la fel: „CASA Albă" -> o casă în ruină, „CURTEA Constituțională" -> o casă
+# țărănească, „GUVERNUL anunță" -> un drum din Țara Galilor, iar „MAREA
+# Britanie" -> o coastă italiană, pe patru articole diferite.
+#
+# Toate sunt substantive comune care în română fac parte dintr-un nume propriu
+# format din două cuvinte. Rupte de al doilea cuvânt, nu mai înseamnă nimic —
+# sau, mai rău, înseamnă altceva foarte fotogenic.
+#
+# Regula: dacă întrebarea e UN SINGUR cuvânt din lista asta, o refuzăm. Cine
+# cheamă scriptul (redactorul sau garda pozelor) încearcă oricum mai multe
+# întrebări la rând, deci refuzul îl împinge spre următoarea, nu îl blochează.
+CUVINTE_TRUNCHIATE = {
+    "camera", "curtea", "casa", "guvernul", "senatul", "banca", "parchetul",
+    "garda", "consiliul", "ministerul", "primaria", "primăria", "instanta",
+    "instanța", "comisia", "biroul", "partidul", "presedintele", "președintele",
+    "premierul", "ministrul", "judecatorul", "judecătorul", "procurorul",
+    "politia", "poliția", "armata", "scoala", "școala", "spitalul",
+    "universitatea", "academia", "fabrica", "uzina", "gara", "portul",
+    "aeroportul", "piata", "piața", "strada", "podul", "turnul", "muntele",
+    "raul", "râul", "lacul", "marea", "insula", "satul", "orasul", "orașul",
+    "judetul", "județul", "tara", "țara", "legea", "proiectul", "raportul",
+    "acordul", "tratatul", "planul", "programul", "bugetul", "fondul",
+}
+
+
+def intrebare_trunchiata(q):
+    """Un singur cuvânt dintr-un nume propriu rupt în două. Vezi nota de sus."""
+    cuv = q.strip().strip(".,;:").split()
+    return len(cuv) == 1 and cuv[0].lower() in CUVINTE_TRUNCHIATE
+
+
+
 def main():
     if len(sys.argv) < 3:
         print(__doc__)
@@ -39,6 +76,12 @@ def main():
     query = sys.argv[2]
     context = sys.argv[3] if len(sys.argv) > 3 else ""
     este_persoana = len(sys.argv) > 4 and sys.argv[4].startswith("pers")
+
+    if intrebare_trunchiata(query):
+        print("NIMIC")
+        print(f'(refuzat: "{query}" e un cuvant rupt dintr-un nume propriu; '
+              f'cauta numele intreg)', file=sys.stderr)
+        return
 
     candidati = pick_image.search(query, context,
                                   nume_persoana=query if este_persoana else None)

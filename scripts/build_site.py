@@ -1241,6 +1241,39 @@ def pune_letopiset_panou(s):
 # Cum: panourile se mută într-o bandă, banda se clonează, iar la derulare se
 # sare înapoi cu o lungime de bandă. Saltul e invizibil fiindcă în punctul
 # unde se face, ecranul arată exact același conținut.
+CARUSEL_CSS = """
+<style>
+  /* Coloana din dreapta derulează singură. Fără blocul ăsta, scriptul
+     caruselului rulează degeaba: `aside` n-are înălțime fixă și n-are
+     overflow, deci nu există nimic de derulat.
+     Se injectează AICI, nu direct în HTML: pe 5 septembrie 2026 l-am pus în
+     fișiere cu mâna, iar prima aliniere la origin l-a șters — caruselul a
+     ajuns pe site fără el, adică prezent și inert. Ce nu e în generator nu
+     supraviețuiește. */
+  @media(min-width:981px){
+    main aside{
+      height:calc(100vh - 96px);
+      overflow-y:auto;
+      /* Piesa care face să se SIMTĂ intenționat: la capătul coloanei
+         derularea nu „scapă" în pagină și nu sare nimic sub cititor. */
+      overscroll-behavior:contain;
+      padding-right:8px;
+      scrollbar-width:thin;
+      scrollbar-color:var(--line-2) transparent;
+    }
+    /* `aside` e `display:flex`, iar fără asta panourile se COMPRIMĂ ca să
+       încapă în înălțimea fixă în loc să iasă în afară — scrollHeight egal cu
+       clientHeight, deci browserul n-are ce derula. */
+    main aside > *{flex-shrink:0}
+    main aside::-webkit-scrollbar{width:8px}
+    main aside::-webkit-scrollbar-track{background:transparent}
+    main aside::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:99px}
+    main aside::-webkit-scrollbar-thumb:hover{background:var(--ink-faint)}
+  }
+</style>
+"""
+
+
 CARUSEL = """
 <script>
 (function(){
@@ -1304,10 +1337,10 @@ CARUSEL = """
 
 
 def pune_carusel(s):
-    """Scriptul caruselului, o singură dată, înainte de </body>."""
+    """CSS-ul și scriptul caruselului, o singură dată, înainte de </body>."""
     if "carusel-banda" in s or "</body>" not in s:
         return s
-    return s.replace("</body>", CARUSEL + "</body>", 1)
+    return s.replace("</body>", CARUSEL_CSS + CARUSEL + "</body>", 1)
 
 
 

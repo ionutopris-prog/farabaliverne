@@ -90,10 +90,10 @@
     "Ștefan Ovidiu Popa"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/pnl-usr-boicot-camera-deputatilor-2-septembrie.jpg\" alt=\"Camera\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Camera. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2016_Konica_Auto_S3_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2016 Konica Auto S3 1</a>\" de Jacek Halicki, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/pnl-usr-boicot-camera-deputatilor-2-septembrie.jpg\" alt=\"Palace of Parliament Bucharest chamber\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Palace of Parliament Bucharest chamber. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bucharest_-_Palace_of_the_Parliament_-_Senate_Chamber.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bucharest - Palace of the Parliament - Senate Chamber</a>\" de Peterwchen, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/pnl-usr-boicot-camera-deputatilor-2-septembrie.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "Jacek Halicki"
+    "licenta": "CC BY 4.0",
+    "autor": "Peterwchen"
   }
 }

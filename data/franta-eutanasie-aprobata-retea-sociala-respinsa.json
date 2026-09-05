@@ -70,10 +70,10 @@
     "Emmanuel Macron"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/franta-eutanasie-aprobata-retea-sociala-respinsa.jpg\" alt=\"Consiliul\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Consiliul. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Consiliul_Judetean_Calarasi.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Consiliul Judetean Calarasi</a>\" de Original uploader was Infinitty at ro.wikipedia, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/franta-eutanasie-aprobata-retea-sociala-respinsa.jpg\" alt=\"Conseil constitutionnel Paris Palais Royal\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Conseil constitutionnel Paris Palais Royal. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Conseil_constitutionnel,_Palais_Royal,_Paris_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Conseil constitutionnel, Palais Royal, Paris 1</a>\" de Wikimedia Commons / Mu, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/franta-eutanasie-aprobata-retea-sociala-respinsa.jpg",
-    "licenta": "Public domain",
-    "autor": "Original uploader was Infinitty at ro.wikipedia"
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Wikimedia Commons / Mu"
   }
 }
