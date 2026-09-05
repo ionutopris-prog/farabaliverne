@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 22:15:16 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 22:17:30 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Coreea de Sud: remanierea guvernului nu oprește căderea popularității lui Lee Jae-myung, la minim istoric</title>
+      <link>https://farabaliverne.ro/a/coreea-sud-lee-jae-myung-aprobare-minim-istoric.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/coreea-sud-lee-jae-myung-aprobare-minim-istoric.html</guid>
+      <pubDate>Sat, 05 Sep 2026 19:15:55 +0000</pubDate>
+      <category>Politică</category>
+      <description>Președintele sud-coreean Lee Jae-myung a remaniat șase miniștri pe 31 august 2026, printre care responsabilii cu politica imobiliară, subiectul cel mai criticat public. Sondajul Gallup Korea publicat pe 4 septembrie arată aprobarea la 40% — minim de la preluarea mandatului, în iunie 2025 — iar un sondaj anterior Realmeter dăduse deja 38,9%. Cifrele diferă între institute, dar tendința e aceeași: în scădere de șapte săptămâni la rând.
+
+Unde bat probele: Probat — cifrele vin din două sondaje distincte, cu metodologii diferite, dar ambele confirmă independent aceeași tendință de scădere. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>SUA: raportul de angajări din august arată nevoie de dobândă mai mare, chiar când Trump cere una mai mică</title>
       <link>https://farabaliverne.ro/a/sua-raport-angajari-august-trump-fed-dobanda.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că MAE chinez a făcut declarația și că bugetul cer
       <description>Novak Djokovic a pierdut, pe 30 august 2026, meciul din turul 1 al US Open cu argentinianul Mariano Navone (locul 49 ATP), scor 6-7(5-7), 7-5, 6-4, 2-6, 1-6, după 4 ore și 36 de minute — cel mai lung meci de turul 1 din cariera lui la Grand Slam-uri. Înfrângerea rupe un streak de 78 de victorii consecutive în primul tur la turneele de Grand Slam, cel mai lung din era Open, și marchează prima dată din 2003 când niciunul dintre Djokovic, Federer sau Nadal nu ajunge în turul 2 al unui major.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Deficitul bugetar a scăzut cu 37% în șapte luni — dar costul datoriei publice a urcat cu 26,5%, iar estimarea pentru tot anul rămâne 6,2% din PIB</title>
-      <link>https://farabaliverne.ro/a/deficit-bugetar-scazut-37-la-suta-dobanzi-26-5-la-suta.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/deficit-bugetar-scazut-37-la-suta-dobanzi-26-5-la-suta.html</guid>
-      <pubDate>Thu, 03 Sep 2026 18:05:42 +0000</pubDate>
-      <category>Economie</category>
-      <description>Ministerul Finanțelor a anunțat, pe 31 august 2026, că deficitul bugetar consolidat pe primele șapte luni din 2026 a scăzut cu 37% față de aceeași perioadă din 2025, coborând la 2,34% din PIB. Cifra e reală, dar comunicatul ministerului nu pune alături costul datoriei publice, care a crescut cu 26,5% în aceeași perioadă, și nici faptul că estimarea pentru tot anul rămâne 6,2% din PIB — de peste două ori pragul UE de 3%.
-
-Unde bat probele: Probat, cu context. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
