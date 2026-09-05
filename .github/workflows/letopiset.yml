@@ -1,0 +1,60 @@
+name: Letopisețul Planetei Pământ
+
+# La 23:59 UTC, în fiecare zi, pentru ziua care se încheie. Ora e cerută de
+# fondator: „în fiecare zi la 23:59 UTC se completează evenimentele din ziua
+# respectivă". Rulează SEPARAT de ediția automată, ca o zi în care redactorul
+# dă greș să nu fie și o zi ruptă din letopiseț.
+#
+# Repo-ul e public, deci minutele de Actions sunt gratuite. O rulare durează
+# câteva secunde: două cereri HTTP și un build.
+
+on:
+  schedule:
+    - cron: "59 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: letopiset
+  cancel-in-progress: false
+
+jobs:
+  letopiset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Adună evenimentele zilei
+        run: python3 scripts/letopiset.py
+
+      - name: Regenerează site-ul
+        run: |
+          python3 -m pip install --quiet pillow
+          python3 scripts/build_site.py
+
+      - name: Comite dacă s-a schimbat ceva
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "nimic nou în letopiseț azi"
+            exit 0
+          fi
+          git config user.name  "Letopiseț"
+          git config user.email "actions@github.com"
+          git add -A
+          ZI=$(date -u +%Y-%m-%d)
+          N=$(python3 -c "import json;d=json.load(open('data/_letopiset.json'));print(len(d.get('$ZI',[])))")
+          git commit -m "Letopisețul Planetei Pământ — $ZI ($N evenimente)"
+          # Edițiile automate pot fi comis între timp. Rebazăm, nu forțăm.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && exit 0
+            sleep 20
+          done
+          echo "::warning::nu am putut urca letopisețul; se reia mâine"
