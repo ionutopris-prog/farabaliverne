@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 09:28:34 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 09:30:32 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fizicieni de la Carnegie Mellon găsesc o formă a efectului Hall care nu ar trebui să existe, potrivit teoriei clasice</title>
+      <link>https://farabaliverne.ro/a/carnegie-mellon-efect-hall-in-plan.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/carnegie-mellon-efect-hall-in-plan.html</guid>
+      <pubDate>Sat, 05 Sep 2026 06:29:02 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă de fizicieni de la Carnegie Mellon University, coordonată de Simranjeet Singh și Jyoti Katoch, a publicat în Nature Materials un rezultat care extinde o teorie veche de peste 140 de ani: efectul Hall anomal, se credea, apare doar când magnetizarea materialului e perpendiculară pe stratul lui — echipa a arătat că apare și când magnetizarea e orientată în planul materialului. Descoperirea, obținută pe o heterostructură specială (TaIrTe4 combinat cu Cr2Ge2Te6), ar putea duce la senzori magnetici mai simpli, capabili să detecteze câmpuri pe mai multe axe deodată.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Cercetători australieni: rocile de fier din Pilbara pot genera hidrogen natural, iar procesul poate fi stimulat artificial</title>
       <link>https://farabaliverne.ro/a/australia-magnetit-hidrogen-natural-ecu.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu o legătură cauzală neconfirmată. Verificate: 4 
       <description>Riigikogu, parlamentul unicameral al Estoniei, a ales-o miercuri, 2 septembrie 2026, pe Ülle Madise — până acum Cancelar al Justiției (avocatul poporului) — ca președintă a țării, cu 71 de voturi din 101, peste pragul de două treimi. A fost singura candidată pe buletin și devine a doua femeie președinte a Estoniei, după Kersti Kaljulaid (2016-2021).
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>PNL și USR boicotează Camera Deputaților; PSD acuză 28 de liberali că au semnat condica deși nu au venit la lucru</title>
-      <link>https://farabaliverne.ro/a/pnl-usr-boicot-camera-deputatilor-2-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/pnl-usr-boicot-camera-deputatilor-2-septembrie.html</guid>
-      <pubDate>Wed, 02 Sep 2026 18:03:03 +0000</pubDate>
-      <category>Politică</category>
-      <description>O zi după ce Camera Deputaților le-a luat două posturi de secretar în Biroul Permanent (dat AUR și SOS), PNL și USR au boicotat miercuri, 2 septembrie 2026, plenul, votul final, comisiile și ședința Biroului Permanent. Liderul deputaților PSD, Ștefan Ovidiu Popa, a acuzat în plen 28 de parlamentari PNL că s-au semnat totuși în condică pentru diurna zilnică — acuzație pe care liberalii nu au respins-o public, potrivit relatărilor citate.
-
-Unde bat probele: Probat, cu o acuzație neconfirmată independent. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
