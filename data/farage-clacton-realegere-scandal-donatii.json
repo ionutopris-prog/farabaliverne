@@ -92,5 +92,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am tratat acuzațiile legate de cadoul de 5 milioane de lire ca fiind în stadiu de anchetă/raportare, nu ca fapt stabilit — sursele confirmă doar depunerea unui raport de activitate suspectă la NCA, nu o concluzie oficială de vinovăție. Rezultatul alegerii parțiale nu era cunoscut la ora publicării.",
   "persoane": [
     "Nigel Farage"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/farage-clacton-realegere-scandal-donatii.jpg\" alt=\"Clacton\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Clacton. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Clacton-on-Sea,_Essex_-_geograph.org.uk_-_2037197.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Clacton-on-Sea, Essex - geograph.org.uk - 2037197</a>\" de Christine Matthews, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/farage-clacton-realegere-scandal-donatii.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Christine Matthews"
+  }
 }

@@ -11,21 +11,36 @@
     {
       "text": "Jessica Meir (NASA) și Sophie Adenot (ESA) au efectuat pe 1 septembrie 2026 o ieșire în spațiu (spacewalk) de 6 ore și 49 de minute în afara Stației Spațiale Internaționale. Au instalat un reflector nou (retroflector) pe modulul Harmony, folosit pentru navigația navelor care andochează la stație, și au înlocuit o cameră video HD de pe structura exterioară a stației (Camera Port 3). Au mai prelevat probe de microorganisme de pe exteriorul stației și au început pregătirile pentru înlocuirea, într-o ieșire viitoare, a unui radiator al detectorului de particule Alpha Magnetic Spectrometer.",
       "sources": [
-        {"name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station", "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"},
-        {"name": "Space.com — Two astronauts replace ISS camera and docking aid on 6th-ever all-female spacewalk", "url": "https://www.space.com/space-exploration/international-space-station/two-astronauts-replace-iss-camera-and-docking-aid-on-6th-ever-all-female-spacewalk-video"}
+        {
+          "name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"
+        },
+        {
+          "name": "Space.com — Two astronauts replace ISS camera and docking aid on 6th-ever all-female spacewalk",
+          "url": "https://www.space.com/space-exploration/international-space-station/two-astronauts-replace-iss-camera-and-docking-aid-on-6th-ever-all-female-spacewalk-video"
+        }
       ]
     },
     {
       "text": "A fost a șasea ieșire în spațiu din istorie realizată exclusiv de femei — de la începutul programului spațial. Pentru Jessica Meir a fost a șaptea ieșire în spațiu din carieră, iar pentru Sophie Adenot, a treia. Per total, a fost a 284-a ieșire în spațiu în sprijinul Stației Spațiale Internaționale de la lansarea acesteia.",
       "sources": [
-        {"name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station", "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"},
-        {"name": "Hoodline — Meir, Adenot Complete Sixth All-Female ISS Spacewalk", "url": "https://hoodline.com/2026/09/meir-and-adenot-s-all-female-spacewalk-marks-only-the-sixth-ever/"}
+        {
+          "name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"
+        },
+        {
+          "name": "Hoodline — Meir, Adenot Complete Sixth All-Female ISS Spacewalk",
+          "url": "https://hoodline.com/2026/09/meir-and-adenot-s-all-female-spacewalk-marks-only-the-sixth-ever/"
+        }
       ]
     },
     {
       "text": "În timpul ieșirii, Sophie Adenot a semnalat probleme de mobilitate la brațul stâng, cauzate de hamul încălzitorului de mănușă, care îi restrângea mișcarea din umăr — motiv pentru care echipa de la sol a reorganizat parțial sarcinile între cei doi astronauți, fără a întrerupe misiunea.",
       "sources": [
-        {"name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station", "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"}
+        {
+          "name": "NASA — ESA, NASA Astronauts Complete Navigation and Science Spacewalk Outside Station",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/01/esa-nasa-astronauts-complete-navigation-and-science-spacewalk-outside-station/"
+        }
       ]
     }
   ],
@@ -36,5 +51,12 @@
     "title": "De ce contează un reflector de navigație",
     "explanation": "Retroflectorul instalat pe modulul Harmony nu e un simplu accesoriu: navele care se apropie de stație pentru andocare folosesc lasere care „citesc” lumina reflectată de aceste ținte pentru a-și calcula distanța și unghiul de apropiere cu precizie milimetrică, fără GPS (care nu funcționează la fel de fin în spațiu). Un reflector uzat sau prost aliniat poate introduce erori mici, dar cumulate, în ultimii metri ai andocării — exact segmentul cel mai riscant al oricărei misiuni către ISS."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iss-spacewalk-meir-adenot-6-doar-femei.jpg\" alt=\"International Space Station\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — International Space Station. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_(42828603210).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Dramatic Views of Hurricane Florence from the International Space Station From 9 12 (42828603210)</a>\" de NASA/Goddard Space Flight Center, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iss-spacewalk-meir-adenot-6-doar-femei.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "NASA/Goddard Space Flight Center"
+  }
 }

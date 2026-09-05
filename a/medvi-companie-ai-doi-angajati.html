@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat — Fără Baliverne</title>
-<meta name="description" content="Un portret viral din New York Times prezintă Medvi, firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare FDA, acuzații de „doctori” deepfake și un proces RICO.">
+<title>Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times — Fără Baliverne</title>
+<meta name="description" content="Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoar">
 <style>
 
   :root{
@@ -144,6 +144,7 @@
   .chip.soft.bad{color:var(--bad);background:var(--bad-bg);border-color:var(--bad-line);box-shadow:none}
   .chip.soft.check{color:var(--check);background:var(--check-bg);border-color:var(--check-line);box-shadow:none}
 
+  /* --- Badge de raport (probat / contestat / opinie) — inlocuieste verdictul-oracol --- */
   .report-badge{
     display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;color:var(--ink-soft);
     background:var(--paper-2);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px;white-space:nowrap;
@@ -187,6 +188,28 @@
 
   .section-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:9px;margin:0 0 22px}
   .section-head h2{font-family:var(--serif);font-size:21px;margin:0;letter-spacing:.01em}
+  .section-head .more{font-size:12.5px;color:var(--accent);font-weight:700}
+  .section-head .more:hover{text-decoration:underline}
+  .cat-section{margin-bottom:40px}
+
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
+  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
+  }
+  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-4px);border-color:var(--line-2)}
+  .card .photo{aspect-ratio:16/9}
+  .card:hover .photo .art{transform:scale(1.06)}
+  .card .cbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:11px;flex:1}
+  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .card h3{
+    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.22;margin:0;
+    letter-spacing:-.005em;color:var(--ink);transition:.15s ease;
+  }
+  .card:hover h3{color:var(--accent-deep)}
+  .card .dek{font-size:13.5px;color:var(--ink-soft);margin:0}
+  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-faint)}
 
   .photo{position:relative;overflow:hidden;background:#e4ede1}
   .photo .art{position:absolute;inset:0;transition:transform .5s ease}
@@ -199,6 +222,7 @@
     background:rgba(20,16,14,.55);backdrop-filter:blur(3px);padding:6px 11px;border-radius:999px;
     display:inline-flex;align-items:center;gap:6px;transition:.15s ease;
   }
+  .photo .srcbadge:hover{background:rgba(20,16,14,.78)}
   .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
   .photo .grad{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.42) 100%)}
   .photo .cat-pill{
@@ -210,6 +234,12 @@
     color:rgba(255,255,255,.88);background:rgba(20,16,14,.35);padding:4px 9px;border-radius:6px;
   }
   .pattern{position:absolute;inset:0;z-index:1;opacity:.5;mix-blend-mode:soft-light}
+
+  .g-pol{background:linear-gradient(135deg,#6a7ba0,#37426a)}
+  .g-eco{background:linear-gradient(135deg,#4a9179,#245a49)}
+  .g-ext{background:linear-gradient(135deg,#8c6a9c,#4a3563)}
+  .g-soc{background:linear-gradient(135deg,#c07f52,#7d4a2b)}
+  .g-san{background:linear-gradient(135deg,#5f9ab5,#2f5f79)}
 
   .foto-credit{
     display:flex;gap:9px;align-items:flex-start;
@@ -224,6 +254,56 @@
   .foto-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
   .foto-credit a:hover{color:var(--accent,#a5372a)}
   .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
+
+  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .panel .ph{
+    padding:13px 17px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px;font-weight:700;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .panel .ph .tag{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
+
+  .rank{list-style:none;margin:0;padding:6px 0}
+  .rank li{display:flex;gap:12px;padding:12px 17px;border-bottom:1px solid var(--line);transition:.15s}
+  .rank li:last-child{border-bottom:0}
+  .rank li:hover{background:var(--paper-2)}
+  .rank a{display:flex;gap:12px}
+  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
+  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
+  .rank .rmeta{margin-top:6px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--ink-faint)}
+
+  .ad{border:1px dashed var(--line-2);border-radius:var(--radius);background:var(--paper-2);overflow:hidden}
+  .ad .adlabel{
+    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center;
+    padding:7px;border-bottom:1px dashed var(--line-2);background:rgba(34,31,27,.02);
+  }
+  .ad .adbox{padding:26px 18px;text-align:center}
+  .ad .adart{
+    width:56px;height:56px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(135deg,#d8b25a,#a5822f);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 8px 18px rgba(165,130,47,.3);
+  }
+  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
+  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
+  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:8px 17px;border-radius:999px;transition:.15s}
+  .ad:hover .adbtn{background:var(--gold);color:#fff}
+
+  .method{padding:17px}
+  .method p{margin:0 0 13px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
+  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:11px}
+  .method .row:last-child{margin-bottom:0}
+  .method .row .k{font-size:15px;line-height:1.3}
+
+  .support-panel{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fbe9e2;text-align:center;
+    padding:24px 20px;border-radius:var(--radius);box-shadow:var(--shadow);
+  }
+  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
+  .support-panel p{font-size:13px;margin:0 0 16px;color:#f4ddd6;line-height:1.5}
+  .support-panel .sbtn{display:inline-block;background:#faf6ec;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:10px 21px;border-radius:999px;transition:.15s}
+  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.18)}
+  .support-panel small{display:block;margin-top:12px;font-size:11px;color:#f0d4cd;opacity:.9}
+
+  .strip{margin-top:8px}
 
   footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
   footer .wrap{padding:42px 22px 30px}
@@ -245,6 +325,7 @@
   .foot-bottom a:hover{color:#fff}
   .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
 
+  /* ---------- Article page specific ---------- */
   .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
     border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
   .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
@@ -303,9 +384,12 @@
 
   @media(max-width:980px){
     .grid-main{grid-template-columns:1fr}
+    aside{position:static;flex-direction:column}
+    .cards-3{grid-template-columns:repeat(2,1fr)}
   }
   @media(max-width:720px){
     body{font-size:16px}
+    .cards,.cards-3{grid-template-columns:1fr}
     .support{position:static;margin-top:14px}
     .masthead .wrap{padding-bottom:18px}
     .legend .wrap{font-size:12px}
@@ -483,22 +567,24 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Fără Baliverne">
 <meta property="og:locale" content="ro_RO">
-<meta property="og:title" content="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat — Fără Baliverne">
-<meta property="og:description" content="Un portret viral din New York Times prezintă Medvi, firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare FDA, acuzații de „doctori” deepfake și un proces RICO.">
+<meta property="og:title" content="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times — Fără Baliverne">
+<meta property="og:description" content="Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoar">
 <meta property="og:url" content="https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html">
 <meta property="og:image" content="https://farabaliverne.ro/img/share/medvi-companie-ai-doi-angajati.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat — Fără Baliverne">
-<meta name="twitter:description" content="Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare FDA, acuzații de „doctori” deepfake și un proces RICO.">
+<meta name="twitter:title" content="Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times — Fără Baliverne">
+<meta name="twitter:description" content="Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoar">
 <meta name="twitter:image" content="https://farabaliverne.ro/img/share/medvi-companie-ai-doi-angajati.jpg">
-  <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times", "image": ["https://farabaliverne.ro/img/articole/medvi-companie-ai-doi-angajati.jpg"], "datePublished": "2026-08-11", "dateModified": "2026-08-11", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "publisher": {"@type": "Organization", "name": "Fără Baliverne", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png"}}, "mainEntityOfPage": "https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html", "description": "Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare de avertisment FDA, acuzații de „doctori” deepfake și un proces RICO."}, {"@context": "https://schema.org", "@type": "ClaimReview", "url": "https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html", "claimReviewed": "Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times", "datePublished": "2026-08-11", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "reviewRating": {"@type": "Rating", "alternateName": "Contestat"}, "itemReviewed": {"@type": "Claim", "appearance": {"@type": "CreativeWork", "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"}}}]</script>
   <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
+  <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times", "image": ["https://farabaliverne.ro/og-cover.png"], "datePublished": "2026-08-11", "dateModified": "2026-08-11", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "publisher": {"@type": "Organization", "name": "Fără Baliverne", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png"}}, "mainEntityOfPage": "https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html", "description": "Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare de avertisment FDA, acuzații de „doctori” deepfake și un proces RICO."}, {"@context": "https://schema.org", "@type": "ClaimReview", "url": "https://farabaliverne.ro/a/medvi-companie-ai-doi-angajati.html", "claimReviewed": "Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times", "datePublished": "2026-08-11", "author": {"@type": "Organization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro"}, "reviewRating": {"@type": "Rating", "alternateName": "Contestat"}, "itemReviewed": {"@type": "Claim", "appearance": {"@type": "CreativeWork", "url": "https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html"}}}]</script>
 </head>
 <body>
 
   <div class="topbar">
     <div class="wrap">
-      <div class="date">Marți, 11 august 2026 · Ediția de după-amiază</div>
+      <div class="date">Vineri, 7 august 2026 · Ediția de dimineață</div>
       <div class="live"><span class="dot"></span> 747 verificări publicate</div>
     </div>
   </div>
@@ -552,27 +638,25 @@
         <div class="article-head">
             <div class="photo g-hero">
               <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-medvi" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-medvi)"/></svg></div>
-                <div class="glyph">🤖</div>
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-medvi-companie-ai-doi-angajati" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-medvi-companie-ai-doi-angajati)"/></svg></div>
+                <div class="glyph">🔬</div>
               </div>
-              <img src="../img/articole/medvi-companie-ai-doi-angajati.jpg" alt="artificial intelligence computer screen" loading="eager" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
               <div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">Știință</div>
             </div>
-<figcaption class="foto-credit"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><span class="txt"><span class="lead"><b>Foto ilustrativă</b> — inteligență artificială. Nu este o imagine de la evenimentul relatat.</span><span class="attrib">„<a href="https://commons.wikimedia.org/wiki/File:Ceci_n%27est_pas_une_banane_by_Max_Gruber.jpg" rel="nofollow noopener" target="_blank">Ceci n'est pas une banane by Max Gruber</a>" de Max Gruber, via Wikimedia Commons · <a href="https://creativecommons.org/licenses/by/4.0" rel="license nofollow noopener" target="_blank">CC BY 4.0</a> · decupată</span></span></figcaption>
           <div class="abody">
             <div class="eyebrow">
-              <span class="cat-tag">Știință · Tehnologie</span>
+              <span class="cat-tag">Știință</span>
             </div>
-            <h1>Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat</h1>
+            <h1>Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times</h1>
             <p class="dek">Un portret viral din New York Times (2 aprilie 2026) prezintă Medvi, o firmă de telemedicină cu doi oameni, drept dovada că AI-ul poate construi o companie de miliarde. Faptele de bază se confirmă din mai multe surse — dar cifrele-record sunt autoraportate, iar în urma companiei au apărut o scrisoare de avertisment FDA, acuzații de „doctori” deepfake și un proces RICO.</p>
             <div class="verdict-row">
-              <div class="report-badge lg"><span class="seg ok">✔ 3 probate</span> <span style="color:var(--line-2)">·</span> <span class="seg warn">⚠ 4 contestate</span> <span style="color:var(--line-2)">·</span> <span class="seg op">✎ 2 opinii</span></div>
-              <span class="chip soft warn sm">unde bat probele: Contestat</span>
+              <div class="report-badge lg"><span class="seg ok">✔ 3 probate</span> <span style="color:var(--line-2)">·</span> <span class="seg warn">⚠ 4 contestate</span> <span style="color:var(--line-2)">·</span> <span class="seg op">✎ 2 opinie</span></div>
+              <span class="chip soft ok sm">unde bat probele: Contestat</span>
             </div>
             <div class="meta">
-              <span class="src"><span class="fav" style="background:#000"></span> New York Times</span>
+              <span class="src"><span class="fav" style="background:#1c3f66"></span> New York Times</span>
               <span>·</span>
               <span>2026-08-11</span>
               <span>·</span>
@@ -581,7 +665,7 @@
           </div>
         </div>
 
-      <a class="src-cite" href="https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html" target="_blank" rel="noopener noreferrer" style="display:flex;gap:0;align-items:stretch;text-decoration:none;border:1px solid var(--line-2);background:var(--card);border-radius:14px;overflow:hidden;margin:2px 0 26px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s" onmouseover="this.style.boxShadow='var(--shadow-hi)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='var(--shadow)';this.style.transform='none'"><span style="flex:0 0 8px;background:var(--accent)"></span><span style="display:flex;flex-direction:column;justify-content:center;gap:4px;padding:14px 18px;min-width:0"><span style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);font-weight:800">Sursă originală · New York Times (cu plată)</span><span style="font-size:15.5px;color:var(--ink);line-height:1.32;font-weight:600">„The A.I. Billion-Dollar Company With Almost No Employees” — Medvi</span><span style="font-size:13px;color:var(--accent);font-weight:800;margin-top:2px">Citește știrea originală →</span></span></a>
+      <a class="src-cite" href="https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html" target="_blank" rel="noopener noreferrer" style="display:flex;gap:0;align-items:stretch;text-decoration:none;border:1px solid var(--line-2);background:var(--card);border-radius:14px;overflow:hidden;margin:2px 0 26px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .2s" onmouseover="this.style.boxShadow='var(--shadow-hi)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='var(--shadow)';this.style.transform='none'"><span style="flex:0 0 8px;background:var(--accent)"></span><span style="display:flex;flex-direction:column;justify-content:center;gap:4px;padding:14px 18px;min-width:0"><span style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);font-weight:800">Sursă originală · New York Times</span><span style="font-size:15.5px;color:var(--ink);line-height:1.32;font-weight:600">„Medvi, „compania de un miliard cu doi oameni”: ce se probează și ce rămâne contestat în portretul din New York Times”</span><span style="font-size:13px;color:var(--accent);font-weight:800;margin-top:2px">Citește știrea originală →</span></span></a>
 
 <!-- AUTO:titluri:start -->
       <section class="ev-block neverificabil" style="border-left-color:#2265a3">
@@ -604,63 +688,58 @@
         <div class="ev-item">
           <p>Medvi este o firmă reală de telemedicină, fondată de Matthew Gallagher (41 de ani) în Los Angeles, în septembrie 2024. Singurul angajat cu normă întreagă este fratele său, Elliot — de aici eticheta „companie de doi oameni”. Firma vinde servicii la domiciliu legate de medicamentele de slăbit din clasa GLP-1, folosind peste o duzină de instrumente AI.</p>
           <div class="ev-sources">
-            <a href="https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#111"></span><span class="lbl">Forbes — AI and $20,000 helped one man build a $1.8B telehealth startup</span></a>
-            <a href="https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#0a7d3b"></span><span class="lbl">PYMNTS — The One-Person Billion-Dollar Company Is Here</span></a>
-            <a href="https://www.newsnationnow.com/health/ai-telehealth-startup-billions-matthew-gallagher/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#c8102e"></span><span class="lbl">NewsNation — How one man used AI to build a fast-growing company</span></a>
+            <a href="https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Forbes — AI and $20,000 helped one man build a $1.8 billion telehealth startup</span></a>
+            <a href="https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">PYMNTS — The One-Person Billion-Dollar Company Is Here</span></a>
+            <a href="https://www.newsnationnow.com/health/ai-telehealth-startup-billions-matthew-gallagher/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">NewsNation — How one man used AI to build a fast-growing company selling GLP-1</span></a>
           </div>
         </div>
         <div class="ev-item">
           <p>Portretul din New York Times, publicat pe 2 aprilie 2026, vehiculează cifre spectaculoase: 401 de milioane de dolari vânzări în primul an complet (2025), o proiecție de circa 1,8 miliarde de dolari venituri pentru 2026, aproximativ 250.000 de clienți și o marjă netă de 16,2%. Aceste cifre sunt reluate de mai multe publicații care citează articolul NYT și compania.</p>
           <div class="ev-sources">
-            <a href="https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#111"></span><span class="lbl">Forbes — cifrele Medvi (401 mil. $, 1,8 mld. $ proiectat)</span></a>
-            <a href="https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#0a7d3b"></span><span class="lbl">PYMNTS — 250.000 clienți, marjă 16,2%</span></a>
+            <a href="https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Forbes — cifrele Medvi (401 mil. $, 1,8 mld. $ proiectat)</span></a>
+            <a href="https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">PYMNTS — 250.000 clienți, marjă 16,2%</span></a>
           </div>
         </div>
         <div class="ev-item">
           <p>Pentru comparație, Hims &amp; Hers — un concurent consacrat din telemedicină — a raportat 2,4 miliarde de dolari venituri anul trecut, cu 2.442 de angajați și o marjă netă de 5,5%. Contrastul dintre o firmă de doi oameni și una cu mii de angajați este exact ce a făcut povestea virală.</p>
           <div class="ev-sources">
-            <a href="https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#0a7d3b"></span><span class="lbl">PYMNTS — comparația cu Hims &amp; Hers</span></a>
-            <a href="https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#111"></span><span class="lbl">Forbes — context concurență</span></a>
+            <a href="https://www.pymnts.com/artificial-intelligence-2/2026/the-one-person-billion-dollar-company-is-here/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">PYMNTS — comparația cu Hims &amp; Hers</span></a>
+            <a href="https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Forbes — context concurență</span></a>
           </div>
         </div>
       </section>
 
-      <section class="ev-block contestat">
-        <h2>⚠️ Se contestă</h2>
-        <p class="ev-sub">Afirmații unde sursele nu sunt de acord sau lipsește verificarea independentă.</p>
+      <section class="ev-block neverificabil">
+        <h2>⚠️ Contestat / neclar</h2>
+        <p class="ev-sub">Puncte unde sursele diferă sau unde formularea inițială era imprecisă.</p>
         <div class="ev-item">
-          <p>Cifrele-record (401 milioane $ vânzări, 1,8 miliarde $ proiectat) sunt <b>autoraportate</b> de companie și reluate de presă — nu există, în sursele consultate, o auditare independentă sau o verificare de terță parte a lor. „1,8 miliarde” este, de altfel, o proiecție pentru 2026, nu un rezultat încasat. Analiștii avertizează să tratăm aceste numere cu prudență.</p>
+          <p>Cifrele-record (401 milioane $ vânzări, 1,8 miliarde $ proiectat) sunt AUTORAPORTATE de companie și reluate de presă — nu există, în sursele consultate, o auditare independentă sau o verificare de terță parte a lor. „1,8 miliarde” este, de altfel, o proiecție pentru 2026, nu un rezultat încasat. Analiștii avertizează să tratăm aceste numere cu prudență.</p>
           <div class="ev-sources">
-            <a href="https://www.forrester.com/blogs/beware-the-magical-two-person-1-billion-ai-driven-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#00539b"></span><span class="lbl">Forrester — Beware The Magical Two-Person, $1 Billion AI-Driven Startup</span></a>
-            <a href="https://telecareaware.com/ny-times-highly-questionable-but-glowing-and-viral-portrait-of-ai-created-glp-1-e-prescriber-and-marketer-medvi/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#2a6f97"></span><span class="lbl">Telecare Aware — portret „glowing, dar foarte discutabil”</span></a>
+            <a href="https://www.forrester.com/blogs/beware-the-magical-two-person-1-billion-ai-driven-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Forrester — Beware The Magical Two-Person, $1 Billion AI-Driven Startup</span></a>
+            <a href="https://telecareaware.com/ny-times-highly-questionable-but-glowing-and-viral-portrait-of-ai-created-glp-1-e-prescriber-and-marketer-medvi/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Telehealth &amp; Telecare Aware — portret „glowing, dar foarte discutabil”</span></a>
           </div>
         </div>
         <div class="ev-item">
           <p>Agenția americană FDA a emis o scrisoare de avertisment legată de activitatea Medvi, invocând etichetare înșelătoare, afirmații neautorizate de echivalență între medicamentele „compuse” (compounded) și cele GLP-1 de marcă, și distribuție interstatală necorespunzătoare; FDA a avertizat că neremedierea încălcărilor poate duce la confiscare sau injuncție. Matthew Gallagher a răspuns că scrisoarea a vizat un afiliat și că problema a fost între timp rezolvată.</p>
           <div class="ev-sources">
-            <a href="https://www.emarketer.com/content/fake-doctor-ads-fuel-scrutiny-of-glp-1-marketer" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#1466ff"></span><span class="lbl">eMarketer — Fake doctor ads fuel scrutiny of GLP-1 marketer</span></a>
-            <a href="https://www.forrester.com/blogs/beware-the-magical-two-person-1-billion-ai-driven-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#00539b"></span><span class="lbl">Forrester — scrisoarea de avertisment FDA</span></a>
-            <a href="https://finance.yahoo.com/sectors/healthcare/articles/1-8-billion-startup-just-190000841.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#6001d2"></span><span class="lbl">Yahoo Finance — alegațiile care se acumulează</span></a>
+            <a href="https://www.emarketer.com/content/fake-doctor-ads-fuel-scrutiny-of-glp-1-marketer" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">eMarketer — Fake doctor ads fuel scrutiny of GLP-1 marketer</span></a>
+            <a href="https://www.forrester.com/blogs/beware-the-magical-two-person-1-billion-ai-driven-startup/" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Forrester — scrisoarea de avertisment FDA</span></a>
+            <a href="https://finance.yahoo.com/sectors/healthcare/articles/1-8-billion-startup-just-190000841.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Yahoo Finance — alegațiile care se acumulează</span></a>
           </div>
         </div>
         <div class="ev-item">
           <p>Mai multe publicații documentează că marketingul Medvi a folosit „doctori” fabricați: profiluri de medici generate AI, testimoniale video care ar fi deepfake-uri, poze „înainte/după” fabricate, iar unii medici citați fie nu existau, fie trimiteau către magazine din Angola. Gallagher apără portretizările drept practică publicitară veche, însoțită de disclaimere. Cititorul are aici două versiuni opuse — le punem alături.</p>
           <div class="ev-sources">
-            <a href="https://futurism.com/artificial-intelligence/new-york-times-medvi-ai-glp1s" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#6b2fbf"></span><span class="lbl">Futurism — investigația despre „doctorii” falși</span></a>
-            <a href="https://www.emarketer.com/content/fake-doctor-ads-fuel-scrutiny-of-glp-1-marketer" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#1466ff"></span><span class="lbl">eMarketer — reclame cu doctori falși</span></a>
+            <a href="https://futurism.com/artificial-intelligence/new-york-times-medvi-ai-glp1s" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Futurism — investigația despre „doctorii” falși</span></a>
+            <a href="https://www.emarketer.com/content/fake-doctor-ads-fuel-scrutiny-of-glp-1-marketer" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">eMarketer — reclame cu doctori falși</span></a>
           </div>
         </div>
         <div class="ev-item">
           <p>Medvi a fost prinsă și într-un proces pe legea RICO, care acuză partenerul său OpenLoop și o farmacie de „compounding” că ar fi vândut o pastilă de slăbit compusă „fără un mecanism demonstrat de absorbție sau eficacitate”; reclamantul susține că a cumpărat medicamentele prin platforma Medvi. Este o acuzație aflată în instanță, nu o hotărâre — o semnalăm ca atare.</p>
           <div class="ev-sources">
-            <a href="https://finance.yahoo.com/sectors/healthcare/articles/1-8-billion-startup-just-190000841.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#6001d2"></span><span class="lbl">Yahoo Finance — procesul RICO și alegațiile</span></a>
+            <a href="https://finance.yahoo.com/sectors/healthcare/articles/1-8-billion-startup-just-190000841.html" target="_blank" rel="noopener noreferrer"><span class="fav" style="background:#556050"></span><span class="lbl">Yahoo Finance — procesul RICO și alegațiile</span></a>
           </div>
         </div>
-      </section>
-
-      <section class="math-block">
-        <h2>🧮 Aritmetica din spatele poveștii</h2>
-        <p>Calculul pe cifrele autoraportate arată de ce povestea a devenit virală: 401 milioane $ împărțiți la 2 oameni înseamnă circa <b>200 de milioane $ venit pe angajat</b>; la Hims &amp; Hers, 2,4 miliarde $ / 2.442 angajați ≈ <b>1 milion $ pe angajat</b> — un raport de aproape <b>200 la 1</b>. Dar acesta este un calcul pe numere neauditate: dacă cifra de venit nu e confirmată independent, atunci și „productivitatea pe angajat” rămâne o afirmație, nu o măsurătoare.</p>
       </section>
 
       <section class="ev-block opinie">
@@ -675,6 +754,10 @@
         <p>Am rezumat și pus în context, în română, o știre din presa internațională (New York Times, 2 aprilie 2026); articolul original e linkat mai sus — îl poți citi oricând, inclusiv cu Google Translate. Fiindcă textul NYT e cu plată, NU l-am reprodus; am agregat faptele din surse independente accesibile: Forbes, PYMNTS, NewsNation, Forrester, Futurism, eMarketer și Yahoo Finance. Cifrele aparțin companiei/NYT și nu au fost verificate independent de noi. Nu spunem că fondatorul „a mințit” — arătăm care afirmații sunt documentate din mai multe părți și care sunt contestate, și includem și replica lui. Concluzia rămâne a ta. Traducere și interpretare realizate cu ajutorul AI.</p>
       </section>
 
+      <section class="math-block">
+        <h2>🧮 Cifrele, verificate</h2>
+        <p>Aritmetica pe cifrele autoraportate arată de ce povestea a devenit virală: 401 milioane $ împărțiți la 2 oameni înseamnă circa 200 de milioane $ venit pe angajat; la Hims &amp; Hers, 2,4 miliarde $ / 2.442 angajați ≈ 1 milion $ pe angajat — un raport de aproape 200 la 1. Dar acesta este un calcul pe numere neauditate: dacă cifra de venit nu e confirmată independent, și „productivitatea pe angajat” rămâne o afirmație, nu o măsurătoare.</p>
+      </section>
 
         <div class="conclusion-box">
           <div class="glyph">💧</div>
@@ -693,7 +776,7 @@
         <div class="foot-brand">
           <div class="fb">Fără <span class="amp">Baliverne</span></div>
           <div class="dev">Apă, paie… Adevăr</div>
-          <p class="creed">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b> Fapt ≠ opinie. Agregăm știri din presa românească și internațională, le punem lângă probe și îți lăsăm ție ultima judecată.</p>
+          <p class="creed">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b> Fapt ≠ opinie. Agregăm știri din presa românească, le punem lângă probe și îți lăsăm ție ultima judecată.</p>
         </div>
         <div class="foot-cols">
           <div>
@@ -702,7 +785,6 @@
               <li><a href="../index.html#politica">Politică</a></li>
               <li><a href="../index.html#economie">Economie</a></li>
               <li><a href="../index.html#extern">Extern</a></li>
-              <li><a href="../index.html#stiinta">Știință</a></li>
               <li><a href="../index.html#social">Social</a></li>
               <li><a href="../index.html#sport">Sport</a></li>
             </ul>

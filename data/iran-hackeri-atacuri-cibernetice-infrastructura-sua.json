@@ -11,19 +11,28 @@
     {
       "text": "NBC News, într-un articol semnat de Dan De Luce și Kevin Collier, publicat pe 2 septembrie 2026, relatează — pe baza a patru surse anonime cu acces la informații despre amenințări cibernetice, guvernamentale și din industrie — că hackeri legați de Iran au încercat, în ultimele săptămâni, atacuri asupra unor sisteme automate conectate la internet din sectoarele apă, telecomunicații și energie din SUA. Potrivit acelorași surse, încercările „au fost, până acum, nereușite”.",
       "sources": [
-        {"name": "NBC News — relatarea integrală, patru surse anonime", "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"}
+        {
+          "name": "NBC News — relatarea integrală, patru surse anonime",
+          "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"
+        }
       ]
     },
     {
       "text": "Un grup care se autointitulează „APT IRAN”, activ pe un canal de Telegram, a transmis un avertisment citat de NBC News: „În curând, Statele Unite vor fi martore la evenimente neașteptate și critice” în industriile energiei, apei și telecomunicațiilor. NBC News notează că FBI anchetează dacă acest grup și atacurile descrise sunt efectiv legate de statul iranian.",
       "sources": [
-        {"name": "NBC News — citatul grupului „APT IRAN” de pe Telegram și ancheta FBI", "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"}
+        {
+          "name": "NBC News — citatul grupului „APT IRAN” de pe Telegram și ancheta FBI",
+          "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"
+        }
       ]
     },
     {
       "text": "Relatarea vine în contextul în care cel puțin o duzină de state americane au raportat, în ultima lună, atacuri cibernetice asupra sistemelor de apă locale — context pe care NBC News îl leagă de aceeași creștere a activității cibernetice ostile, fără să afirme că toate aceste atacuri sunt confirmate ca fiind de origine iraniană.",
       "sources": [
-        {"name": "NBC News — contextul atacurilor raportate în ultima lună la sistemele de apă din SUA", "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"}
+        {
+          "name": "NBC News — contextul atacurilor raportate în ultima lună la sistemele de apă din SUA",
+          "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"
+        }
       ]
     }
   ],
@@ -31,7 +40,10 @@
     {
       "text": "Atribuirea atacurilor către Iran se bazează exclusiv pe patru surse anonime citate de NBC News și pe revendicarea unui grup de pe Telegram care își asumă singur numele „APT IRAN” — o autodeclarare, nu o identificare tehnică independentă. Articolul precizează explicit că FBI ANCHETEAZĂ dacă atacurile sunt legate de Iran, ceea ce înseamnă că, la data publicării, nu exista o confirmare oficială publică a atribuirii. Guvernul iranian nu a comentat public acuzația, potrivit surselor verificate.",
       "sources": [
-        {"name": "NBC News — statutul de anchetă (necofirmat) al FBI privind legătura cu Iranul", "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"}
+        {
+          "name": "NBC News — statutul de anchetă (necofirmat) al FBI privind legătura cu Iranul",
+          "url": "https://www.nbcnews.com/politics/national-security/iran-attempted-cyberattacks-range-us-infrastructure-sources-say-rcna595424"
+        }
       ]
     }
   ],
@@ -41,5 +53,12 @@
     "explanation": "Chiar sursele citate de NBC News precizează că încercările de atac „au fost, până acum, nereușite” — miza relatării nu e o pagubă produsă, ci un tipar de activitate cibernetică ostilă și o anchetă în desfășurare despre cine se află în spatele ei."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: NBC News a publicat, pe 2 septembrie 2026, o relatare bazată pe patru surse anonime din domeniul securității cibernetice guvernamentale și industriale, plus un citat direct al unui grup de pe Telegram care își spune „APT IRAN”. Relatarea în sine — că aceste surse au făcut aceste afirmații — e verificabilă din articol.\n\nUnde se despart sursele: atribuirea atacurilor către statul iranian nu vine dintr-o confirmare oficială (FBI, Departamentul pentru Securitate Internă), ci din surse anonime și dintr-o autodeclarare a unui grup de hackeri pe Telegram — care ar putea la fel de bine să fie legat de Iran, să acționeze independent invocând numele Iranului, sau să fie o mistificare menită să escaladeze tensiunile. Chiar NBC News notează că FBI ANCHETEAZĂ legătura, nu a confirmat-o.\n\nCe lipsește: o atribuire tehnică publică (adrese IP, semnături malware, analiză forensică) care să lege concret aceste încercări de atac de un actor statal iranian. Fără ea, tot ce putem confirma e că cineva — posibil legat de Iran, posibil nu — a încercat atacuri nereușite și că un grup de pe Telegram amenință cu atacuri viitoare.\n\nCe ar schimba concluzia: o confirmare oficială din partea FBI sau CISA, sau o analiză tehnică independentă (de exemplu de la o firmă de securitate cibernetică) care să identifice clar semnătura atacului ca fiind asociată unor grupuri cunoscute legate de statul iranian.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iran-hackeri-atacuri-cibernetice-infrastructura-sua.jpg\" alt=\"News\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — News. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Deutschlands_Perspektiven_jetzt_auf_alle_Worte_Rabbat_Bottrop_(18.09.2023).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Deutschlands Perspektiven jetzt auf alle Worte Rabbat Bottrop (18.09.2023)</a>\" de XBisCotti, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iran-hackeri-atacuri-cibernetice-infrastructura-sua.jpg",
+    "licenta": "CC0",
+    "autor": "XBisCotti"
+  }
 }

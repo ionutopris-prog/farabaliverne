@@ -11,19 +11,28 @@
     {
       "text": "Purtătorul de cuvânt militar Houthi, Yahya Saree, a declarat joi, 20 august 2026, că gruparea „a reușit să ducă la îndeplinire două operațiuni militare cu drone: prima a vizat un obiectiv sensibil al inamicului saudit la aeroportul Najran, iar a doua a vizat instalația Aramco din Najran”. Agenția Reuters, care a relatat revendicarea, notează explicit: „nu a existat o confirmare imediată din partea Arabiei Saudite”.",
       "sources": [
-        { "name": "Reuters (via WTAQ) — Yemen's Houthis say they attacked Najran airport, Aramco facilities in Saudi Arabia", "url": "https://wtaq.com/2026/08/20/yemens-houthis-say-they-attacked-najran-airport-aramco-facilities-in-saudi-arabia/" }
+        {
+          "name": "Reuters (via WTAQ) — Yemen's Houthis say they attacked Najran airport, Aramco facilities in Saudi Arabia",
+          "url": "https://wtaq.com/2026/08/20/yemens-houthis-say-they-attacked-najran-airport-aramco-facilities-in-saudi-arabia/"
+        }
       ]
     },
     {
       "text": "Gruparea a motivat atacul ca represalii pentru presupuse încălcări saudite ale spațiului aerian de deasupra provinciei Saada, aflată sub control Houthi — aceeași justificare pe care Houthii au invocat-o și pentru al doilea atac revendicat asupra rafinăriei Aramco din Jazan, pe 13 august 2026.",
       "sources": [
-        { "name": "Business Today — West Asia conflict: Yemen's Houthis carry out drone attacks on Saudi airport, Aramco facility", "url": "https://www.businesstoday.in/world/story/west-asia-conflict-yemens-houthis-carry-out-drone-attacks-on-saudi-airport-aramco-facility-550489-2026-08-21" }
+        {
+          "name": "Business Today — West Asia conflict: Yemen's Houthis carry out drone attacks on Saudi airport, Aramco facility",
+          "url": "https://www.businesstoday.in/world/story/west-asia-conflict-yemens-houthis-carry-out-drone-attacks-on-saudi-airport-aramco-facility-550489-2026-08-21"
+        }
       ]
     },
     {
       "text": "Separat, Corpul Gărzilor Revoluționare Iraniene a avertizat, în aceeași perioadă, că Arabia Saudită va fi „incapabilă să îi conțină” pe Houthi, pe măsură ce gruparea își intensifică operațiunile împotriva regatului — o declarație de sprijin politic din partea Iranului, aliatul regional al Houthi, nu o confirmare a atacului în sine.",
       "sources": [
-        { "name": "Business Today — avertismentul Gărzilor Revoluționare Iraniene", "url": "https://www.businesstoday.in/world/story/west-asia-conflict-yemens-houthis-carry-out-drone-attacks-on-saudi-airport-aramco-facility-550489-2026-08-21" }
+        {
+          "name": "Business Today — avertismentul Gărzilor Revoluționare Iraniene",
+          "url": "https://www.businesstoday.in/world/story/west-asia-conflict-yemens-houthis-carry-out-drone-attacks-on-saudi-airport-aramco-facility-550489-2026-08-21"
+        }
       ]
     }
   ],
@@ -31,11 +40,21 @@
     {
       "text": "La data verificării, nici Arabia Saudită, nici Aramco nu au confirmat public atacul revendicat de Houthi asupra Najran — exact tiparul observat și la al doilea atac de la Jazan (13 august), unde autoritățile saudite nu au comentat deloc, spre deosebire de primul atac de la Jazan (9 august), când Ministerul Energiei saudit confirmase cel puțin un incendiu. Rămâne, deocamdată, doar afirmația unei părți aflate în conflict.",
       "sources": [
-        { "name": "Reuters (via WTAQ) — absența confirmării saudite", "url": "https://wtaq.com/2026/08/20/yemens-houthis-say-they-attacked-najran-airport-aramco-facilities-in-saudi-arabia/" }
+        {
+          "name": "Reuters (via WTAQ) — absența confirmării saudite",
+          "url": "https://wtaq.com/2026/08/20/yemens-houthis-say-they-attacked-najran-airport-aramco-facilities-in-saudi-arabia/"
+        }
       ]
     }
   ],
   "opinie": [],
   "aiNote": "Ce s-a verificat: revendicarea Houthi despre atacul de la Najran e relatată de Reuters, agenție independentă — dar conținutul relatării e, la rândul lui, doar preluarea declarației purtătorului de cuvânt Houthi, nu o constatare proprie a jurnaliștilor la fața locului. Unde se despart sursele: Arabia Saudită și Aramco nu au comentat public — nici pentru a confirma, nici pentru a nega — ceea ce lasă un gol de informație, nu o contrazicere directă. Ce lipsește: imagini independente, date despre eventuale pagube sau victime, sau o reacție oficială saudită. Context util: acesta e al treilea atac revendicat de Houthi asupra unor instalații Aramco în mai puțin de două săptămâni (9, 13 și 20 august) — un tipar de escaladare declarativă pe care îl semnalăm, fără să tragem concluzia că fiecare revendicare corespunde unui impact real. Ce ar schimba concluzia: o confirmare sau infirmare oficială saudită, sau imagini/date verificabile independent despre daune. Nu spunem că Houthi „minte” — arătăm ce a fost relatat de o sursă independentă (Reuters) despre o declarație a unei părți combatante, și ce rămâne, la această oră, neconfirmat.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/houthi-najran-aramco-atac-drona-neconfirmat.jpg\" alt=\"Aramco\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Aramco. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Abu_Hadriyah_Street,_Saudi_Aramco_Residential_Camp,_Dhahran_Hills_(2004).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Abu Hadriyah Street, Saudi Aramco Residential Camp, Dhahran Hills (2004)</a>\" de Eagleamn (talk) (Uploads), via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/houthi-najran-aramco-atac-drona-neconfirmat.jpg",
+    "licenta": "Public domain",
+    "autor": "Eagleamn (talk) (Uploads)"
+  }
 }

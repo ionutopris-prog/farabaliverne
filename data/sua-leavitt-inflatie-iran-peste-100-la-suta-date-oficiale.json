@@ -11,27 +11,45 @@
     {
       "text": "Purtătoarea de cuvânt a Casei Albe, Karoline Leavitt, a declarat: „Sunt într-o poziție devastatoare. Inflația e peste 100%. Nu își pot plăti poliția”, referindu-se la Iran, în contextul războiului SUA-Iran aflat, la 27 august 2026, în a șasea lună.",
       "sources": [
-        {"name": "ABC News — citatul Karolinei Leavitt despre inflația din Iran", "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=135895428"}
+        {
+          "name": "ABC News — citatul Karolinei Leavitt despre inflația din Iran",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=135895428"
+        }
       ]
     },
     {
       "text": "Institutul de Statistică al Iranului a raportat, pentru luna iulie 2026, o inflație „punct-la-punct” (an la an) de 87,9% la nivel național, cu o inflație anuală medie de 66% și o creștere lunară de 3,1%. Indicele prețurilor de consum a ajuns la 676,9 puncte.",
       "sources": [
-        {"name": "Iran Focus — Statistical Center: inflația punct-la-punct de aproape 88% în iulie", "url": "https://iranfocus.com/economy/58503-irans-statistical-center-point-to-point-inflation-in-july-reached-nearly-88/"}
+        {
+          "name": "Iran Focus — Statistical Center: inflația punct-la-punct de aproape 88% în iulie",
+          "url": "https://iranfocus.com/economy/58503-irans-statistical-center-point-to-point-inflation-in-july-reached-nearly-88/"
+        }
       ]
     },
     {
       "text": "Fondul Monetar Internațional a estimat, în raportul „World Economic Outlook” din aprilie 2026, o inflație de 68,9% pentru Iran pe tot anul 2026 și o contracție a economiei de 6,1% — cea mai mare revizuire negativă la nivel de țară din acel raport, coborâtă cu 7,2 puncte procentuale față de estimarea anterioară de creștere.",
       "sources": [
-        {"name": "Al Jazeera — FMI reduce estimarea de creștere globală în timpul blocadei Hormuz", "url": "https://www.aljazeera.com/economy/2026/4/14/imf-cuts-global-growth-forecast-during-hormuz-blockade"},
-        {"name": "economyheights.com — cifrele exacte ale FMI pentru Iran (68,9% inflație, -6,1% PIB)", "url": "https://economyheights.com/blog/iran-economic-outlook-imf-2026-forecast/"}
+        {
+          "name": "Al Jazeera — FMI reduce estimarea de creștere globală în timpul blocadei Hormuz",
+          "url": "https://www.aljazeera.com/economy/2026/4/14/imf-cuts-global-growth-forecast-during-hormuz-blockade"
+        },
+        {
+          "name": "economyheights.com — cifrele exacte ale FMI pentru Iran (68,9% inflație, -6,1% PIB)",
+          "url": "https://economyheights.com/blog/iran-economic-outlook-imf-2026-forecast/"
+        }
       ]
     },
     {
       "text": "Aceleași date ale Institutului de Statistică al Iranului arată însă că inflația a depășit efectiv 100% în opt provincii iraniene în iulie 2026 — cea mai ridicată fiind 112,4% în provincia Ilam — și a ajuns la 106,9% în mediul rural, față de doar 87,9% media națională. Inflația la alimente a depășit 100% în toate cele 31 de provincii, cu un vârf de 149,9% în Azerbaidjanul de Vest.",
       "sources": [
-        {"name": "Voice of Emirates — inflația a depășit 100% în opt provincii iraniene", "url": "https://www.voiceofemirates.com/en/business/2026/08/01/official-statistical-report-instantaneous-inflation-exceeds-triple-digits-in-8-iranian-provinces-during-july/"},
-        {"name": "Iran Focus — inflația rurală de 106,9%, față de media națională de 87,9%", "url": "https://iranfocus.com/economy/58503-irans-statistical-center-point-to-point-inflation-in-july-reached-nearly-88/"}
+        {
+          "name": "Voice of Emirates — inflația a depășit 100% în opt provincii iraniene",
+          "url": "https://www.voiceofemirates.com/en/business/2026/08/01/official-statistical-report-instantaneous-inflation-exceeds-triple-digits-in-8-iranian-provinces-during-july/"
+        },
+        {
+          "name": "Iran Focus — inflația rurală de 106,9%, față de media națională de 87,9%",
+          "url": "https://iranfocus.com/economy/58503-irans-statistical-center-point-to-point-inflation-in-july-reached-nearly-88/"
+        }
       ]
     }
   ],
@@ -39,8 +57,14 @@
     {
       "text": "Cifra folosită de Casa Albă („peste 100%”) depășește atât estimarea FMI (68,9% pentru tot anul 2026), cât și cifra națională oficială iraniană (87,9% punct-la-punct în iulie, 66% anual) — cele mai citate măsurători ale inflației iraniene. Ca afirmație generală despre economia Iranului, valabilă pentru toată țara, cifra e exagerată față de sursele disponibile. Rămâne însă adevărată dacă se referă la anumite provincii sau la mediul rural, unde inflația a trecut real de 100% — Casa Albă nu a precizat, în declarația citată, la ce cifră exactă se referă.",
       "sources": [
-        {"name": "Iran Focus — cifra națională oficială (87,9%)", "url": "https://iranfocus.com/economy/58503-irans-statistical-center-point-to-point-inflation-in-july-reached-nearly-88/"},
-        {"name": "economyheights.com — estimarea FMI (68,9%)", "url": "https://economyheights.com/blog/iran-economic-outlook-imf-2026-forecast/"}
+        {
+          "name": "Iran Focus — cifra națională oficială (87,9%)",
+          "url": "https://iranfocus.com/economy/58503-irans-statistical-center-point-to-point-inflation-in-july-reached-nearly-88/"
+        },
+        {
+          "name": "economyheights.com — estimarea FMI (68,9%)",
+          "url": "https://economyheights.com/blog/iran-economic-outlook-imf-2026-forecast/"
+        }
       ]
     }
   ],
@@ -54,5 +78,12 @@
     "explanation": "Media națională a inflației „punct-la-punct” în Iran era de 87,9% în iulie 2026 — sub pragul de 100% citat de Casa Albă. Dar în cel puțin opt din cele 31 de provincii inflația a trecut de 100% (112,4% în Ilam), iar în mediul rural a ajuns la 106,9%. Diferența dintre 87,9% (media) și 112,4% (Ilam) e de 24,5 puncte procentuale — arată cât de mult contează ce anume alegi să citezi când vorbești despre „inflația din Iran”."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o afirmație din presa internațională despre războiul SUA-Iran; sursele originale sunt linkate mai sus.\n\nCe s-a verificat exact: afirmația purtătoarei de cuvânt a Casei Albe, Karoline Leavitt, că inflația din Iran e „peste 100%”, comparată cu trei seturi de date oficiale — Institutul de Statistică al Iranului (87,9% național, punct-la-punct, iulie 2026), Fondul Monetar Internațional (68,9%, estimare pentru tot 2026) și aceleași date statistice iraniene defalcate pe provincii și mediu rural/urban.\n\nUnde se despart sursele: cifra națională (87,9-88,9%, în funcție de sursă și metodologie — punct-la-punct vs. anuală) e sub pragul de 100% invocat de Casa Albă. Dar granularitatea contează: opt provincii și mediul rural au trecut deja de 100%, deci afirmația nu e o invenție, ci pare o generalizare a unei cifre regionale/sectoriale la nivel de țară întreagă.\n\nCe lipsește: o precizare oficială din partea Casei Albe despre ce cifră exactă a folosit Karoline Leavitt și de unde provine — nu am găsit, în sursele consultate, o sursă citată explicit de oficialii americani pentru cifra „peste 100%”.\n\nCe ar schimba concluzia: dacă inflația națională (nu doar cea regională) trece efectiv de 100% în rapoartele viitoare ale Institutului de Statistică iranian, afirmația Casei Albe ar deveni pur și simplu corectă, nu doar parțial susținută.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-leavitt-inflatie-iran-peste-100-la-suta-date-oficiale.jpg\" alt=\"Albă\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Albă. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ardea alba modesta composite - Gould's Lagoon</a>\" de JJ Harrison (https://www.jjharrison.com.au/), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-leavitt-inflatie-iran-peste-100-la-suta-date-oficiale.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "JJ Harrison (https://www.jjharrison.com.au/)"
+  }
 }

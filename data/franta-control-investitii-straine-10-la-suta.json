@@ -11,22 +11,40 @@
     {
       "text": "Guvernul francez a înăsprit controlul asupra investițiilor străine printr-un decret (nr. 2026-718 din 30 iulie 2026) publicat în Jurnalul Oficial (JORF) pe 2 august 2026. Actul este semnat de premierul Sébastien Lecornu și se întemeiază pe articolul L. 151-3 din Codul monetar și financiar.",
       "sources": [
-        { "name": "Légifrance — Décret n° 2026-718 du 30 juillet 2026 (text oficial)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054596119" },
-        { "name": "CNews — despre ce decret e vorba și cine l-a semnat", "url": "https://www.cnews.fr/france/2026-08-03/investissements-etrangers-quel-est-ce-decret-signe-par-sebastien-lecornu-pour" }
+        {
+          "name": "Légifrance — Décret n° 2026-718 du 30 juillet 2026 (text oficial)",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054596119"
+        },
+        {
+          "name": "CNews — despre ce decret e vorba și cine l-a semnat",
+          "url": "https://www.cnews.fr/france/2026-08-03/investissements-etrangers-quel-est-ce-decret-signe-par-sebastien-lecornu-pour"
+        }
       ]
     },
     {
       "text": "Schimbarea de fond: pragul de la care un investitor din afara UE trebuie să notifice statul scade de la 25% la 10% din capital, când e vorba de o firmă franceză „sensibilă” ale cărei acțiuni sunt tranzacționate pe o piață din afara Uniunii Europene. Notificarea se face către Direcția Generală a Trezoreriei, iar Ministerul Economiei are 10 zile să decidă dacă e nevoie de o examinare aprofundată.",
       "sources": [
-        { "name": "Euronews — Franța înăsprește verificările la achizițiile străine de firme sensibile", "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms" },
-        { "name": "CNews — pragul coborât la 10% și procedura de notificare", "url": "https://www.cnews.fr/france/2026-08-03/investissements-etrangers-quel-est-ce-decret-signe-par-sebastien-lecornu-pour" }
+        {
+          "name": "Euronews — Franța înăsprește verificările la achizițiile străine de firme sensibile",
+          "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms"
+        },
+        {
+          "name": "CNews — pragul coborât la 10% și procedura de notificare",
+          "url": "https://www.cnews.fr/france/2026-08-03/investissements-etrangers-quel-est-ce-decret-signe-par-sebastien-lecornu-pour"
+        }
       ]
     },
     {
       "text": "Sectoarele vizate ca „strategice / sensibile” includ, potrivit relatărilor, apărarea și aerospațialul, securitatea cibernetică, inteligența artificială, robotica, semiconductorii și găzduirea de date sensibile. Decretul vizează doar investitorii non-europeni; actorii din UE rămân sub regimul anterior, mai permisiv.",
       "sources": [
-        { "name": "Euronews — sectoarele acoperite și logica măsurii", "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms" },
-        { "name": "CNews — lista sectoarelor considerate strategice", "url": "https://www.cnews.fr/france/2026-08-03/investissements-etrangers-quel-est-ce-decret-signe-par-sebastien-lecornu-pour" }
+        {
+          "name": "Euronews — sectoarele acoperite și logica măsurii",
+          "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms"
+        },
+        {
+          "name": "CNews — lista sectoarelor considerate strategice",
+          "url": "https://www.cnews.fr/france/2026-08-03/investissements-etrangers-quel-est-ce-decret-signe-par-sebastien-lecornu-pour"
+        }
       ]
     }
   ],
@@ -34,22 +52,42 @@
     {
       "text": "Cât de larg „prinde” de fapt decretul e o chestiune de nuanță, nu de titlu: el se aplică prizelor de participare ale investitorilor non-europeni în firme franceze cotate PE O PIAȚĂ DIN AFARA UE. Nu este un control general asupra oricărei achiziții străine; regimul preexistent pentru alte situații rămâne în vigoare. Efectul concret asupra numărului de tranzacții afectate nu e cuantificat în comunicările inițiale.",
       "sources": [
-        { "name": "Légifrance — obiectul exact al decretului (firme cotate pe piață străină)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054596119" },
-        { "name": "Euronews — domeniul de aplicare și procedura accelerată", "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms" }
+        {
+          "name": "Légifrance — obiectul exact al decretului (firme cotate pe piață străină)",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054596119"
+        },
+        {
+          "name": "Euronews — domeniul de aplicare și procedura accelerată",
+          "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms"
+        }
       ]
     }
   ],
   "opinie": [
-    { "text": "Dacă măsura este „protejarea suveranității” sau, dimpotrivă, „protecționism” care poate descuraja investițiile ține de interpretare economică și politică. Formularea guvernului — „a proteja companiile strategice înseamnă a proteja suveranitatea” — este o poziție, nu o cifră; o consemnăm ca atare și nu o notăm cu adevărat/fals." },
-    { "text": "Dacă pragul de 10% este „prea mic” și riscă să frâneze finanțarea firmelor, sau „exact cât trebuie” în contextul tensiunilor geopolitice, este o dezbatere de politici publice. Guvernul spune că termenul strâns de 10 zile evită penalizarea finanțărilor legitime; criticii pot considera altfel — rămâne opinie, nu fapt verificabil azi." }
+    {
+      "text": "Dacă măsura este „protejarea suveranității” sau, dimpotrivă, „protecționism” care poate descuraja investițiile ține de interpretare economică și politică. Formularea guvernului — „a proteja companiile strategice înseamnă a proteja suveranitatea” — este o poziție, nu o cifră; o consemnăm ca atare și nu o notăm cu adevărat/fals."
+    },
+    {
+      "text": "Dacă pragul de 10% este „prea mic” și riscă să frâneze finanțarea firmelor, sau „exact cât trebuie” în contextul tensiunilor geopolitice, este o dezbatere de politici publice. Guvernul spune că termenul strâns de 10 zile evită penalizarea finanțărilor legitime; criticii pot considera altfel — rămâne opinie, nu fapt verificabil azi."
+    }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; interpretarea aparține Fără Baliverne. Sursa originală (în franceză) e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Nucleul se probează dublu: presa franceză (CNews) și cea europeană (Euronews) descriu aceeași măsură, iar textul oficial există pe Légifrance (Décret nr. 2026-718 din 30 iulie 2026, publicat în JORF pe 2 august). Faptul-cheie — coborârea pragului de notificare de la 25% la 10% pentru investitorii non-europeni în firme franceze sensibile cotate în afara UE — este documentat. Ce ține de opinie (protecție a suveranității vs. protecționism, dacă 10% e prag corect) am pus separat, la „Opinie”. Am semnalat și nuanța de domeniu: decretul nu controlează orice achiziție străină, ci o categorie precisă. Recomandarea onestă: citește obiectul exact al decretului în textul de pe Légifrance înainte de a trage concluzii despre cât de „dur” e în practică.",
   "math": {
     "title": "De la 25% la 10%: ce înseamnă, concret, pragul mai mic",
     "explanation": "Un prag de notificare arată de la ce cotă de capital statul „trebuie anunțat”. La 25%, un investitor non-european putea urca până sub un sfert din capitalul unei firme strategice fără notificare obligatorie pe acest regim; la 10%, aceeași obligație se declanșează de peste două ori mai devreme (25 / 10 = 2,5 — de aici formularea „prag redus de două ori și jumătate”). Practic, plasa de control prinde participații mult mai mici, tocmai cele „oportuniste” pe care guvernul spune că vrea să le poată vedea din timp. Atenție la ce NU spune cifra: un prag mai mic înseamnă mai multe notificări de procesat, nu automat mai multe blocaje — statul are 10 zile să decidă dacă merge mai departe cu o examinare aprofundată. Numărul real de tranzacții afectate rămâne necuantificat în comunicările inițiale.",
     "sources": [
-      { "name": "Euronews — pragul 25% → 10% și termenul de 10 zile", "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms" }
+      {
+        "name": "Euronews — pragul 25% → 10% și termenul de 10 zile",
+        "url": "https://www.euronews.com/business/2026/08/03/france-tightens-checks-on-foreign-purchases-of-sensitive-firms"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/franta-control-investitii-straine-10-la-suta.jpg\" alt=\"La Defense Paris business district\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — La Defense Paris business district. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Guillaume_Bottazzi_-_La_D%C3%A9fense_xc.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Guillaume Bottazzi - La Défense xc</a>\" de Guillaumb, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/franta-control-investitii-straine-10-la-suta.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Guillaumb"
+  }
 }

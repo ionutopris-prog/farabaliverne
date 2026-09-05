@@ -1,61 +1,92 @@
 {
- "slug": "moldova-35-ani-independenta-parada-restrictii-chisinau",
- "title": "35 de ani de independență: Chișinăul se închide cinci zile pentru parada de 27 august. Ce se probează din anunțul primăriei",
- "category": "Politică",
- "tara": "Moldova",
- "date": "2026-08-26",
- "source": "Realitatea.md / Primăria Chișinău",
- "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/",
- "dek": "Republica Moldova împlinește pe 27 august 2026 treizeci și cinci de ani de la declararea independenței, marcați printr-o paradă militară în centrul Chișinăului. Accesul în perimetrul central este limitat din 26 august, ora 20:00, până pe 31 august, ora 23:00, iar dronele sunt interzise deasupra orașului în tot acest interval.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Republica Moldova și-a declarat independența pe 27 august 1991, printr-o hotărâre a Parlamentului. Aniversarea din 2026 marchează, așadar, 35 de ani — cifra din comunicatele oficiale se verifică prin simplă aritmetică pe o dată necontestată.",
-   "sources": [
-    {"name": "Realitatea.md — anunțul privind măsurile pentru parada de 35 de ani", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"}
-   ]
-  },
-  {
-   "text": "Restricțiile de acces încep pe 26 august 2026, la ora 20:00, și se ridică pe 31 august 2026, la ora 23:00. Decizia aparține Primăriei municipiului Chișinău și se întemeiază pe măsurile de securitate cerute de Serviciul de Protecție și Pază de Stat.",
-   "sources": [
-    {"name": "Realitatea.md — perioada exactă și autoritatea emitentă", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"}
-   ]
-  },
-  {
-   "text": "Perimetrul închis cuprinde bulevardele Ismail, București, Ciuflea și Dacia, împreună cu străzile interioare și spațiile publice din interiorul lor, plus Piața Gării și Complexul Memorial „Eternitate”. Accesul în terminalul aeroportului este de asemenea limitat, între 27 și 31 august.",
-   "sources": [
-    {"name": "Realitatea.md — lista arterelor și a obiectivelor vizate", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"}
-   ]
-  },
-  {
-   "text": "Zborul dronelor deasupra Chișinăului este interzis pe toată durata măsurilor. Interdicția vine într-un an în care spațiul aerian al Republicii Moldova a fost traversat repetat de drone, iar la Crocmaz o dronă a explodat pe 12 august.",
-   "sources": [
-    {"name": "Realitatea.md — interdicția privind dronele", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"},
-    {"name": "Fără Baliverne — verificarea privind drona căzută la Crocmaz", "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"}
-   ]
-  },
-  {
-   "text": "Manifestările socio-culturale autorizate pentru sărbătoarea celor 35 de ani rămân permise în interiorul zonelor restricționate — deci restricția vizează circulația și accesul neautorizat, nu evenimentele festive în sine.",
-   "sources": [
-    {"name": "Realitatea.md — excepția pentru manifestările autorizate", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"}
-   ]
+  "slug": "moldova-35-ani-independenta-parada-restrictii-chisinau",
+  "title": "35 de ani de independență: Chișinăul se închide cinci zile pentru parada de 27 august. Ce se probează din anunțul primăriei",
+  "category": "Politică",
+  "tara": "Moldova",
+  "date": "2026-08-26",
+  "source": "Realitatea.md / Primăria Chișinău",
+  "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/",
+  "dek": "Republica Moldova împlinește pe 27 august 2026 treizeci și cinci de ani de la declararea independenței, marcați printr-o paradă militară în centrul Chișinăului. Accesul în perimetrul central este limitat din 26 august, ora 20:00, până pe 31 august, ora 23:00, iar dronele sunt interzise deasupra orașului în tot acest interval.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Republica Moldova și-a declarat independența pe 27 august 1991, printr-o hotărâre a Parlamentului. Aniversarea din 2026 marchează, așadar, 35 de ani — cifra din comunicatele oficiale se verifică prin simplă aritmetică pe o dată necontestată.",
+      "sources": [
+        {
+          "name": "Realitatea.md — anunțul privind măsurile pentru parada de 35 de ani",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        }
+      ]
+    },
+    {
+      "text": "Restricțiile de acces încep pe 26 august 2026, la ora 20:00, și se ridică pe 31 august 2026, la ora 23:00. Decizia aparține Primăriei municipiului Chișinău și se întemeiază pe măsurile de securitate cerute de Serviciul de Protecție și Pază de Stat.",
+      "sources": [
+        {
+          "name": "Realitatea.md — perioada exactă și autoritatea emitentă",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        }
+      ]
+    },
+    {
+      "text": "Perimetrul închis cuprinde bulevardele Ismail, București, Ciuflea și Dacia, împreună cu străzile interioare și spațiile publice din interiorul lor, plus Piața Gării și Complexul Memorial „Eternitate”. Accesul în terminalul aeroportului este de asemenea limitat, între 27 și 31 august.",
+      "sources": [
+        {
+          "name": "Realitatea.md — lista arterelor și a obiectivelor vizate",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        }
+      ]
+    },
+    {
+      "text": "Zborul dronelor deasupra Chișinăului este interzis pe toată durata măsurilor. Interdicția vine într-un an în care spațiul aerian al Republicii Moldova a fost traversat repetat de drone, iar la Crocmaz o dronă a explodat pe 12 august.",
+      "sources": [
+        {
+          "name": "Realitatea.md — interdicția privind dronele",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        },
+        {
+          "name": "Fără Baliverne — verificarea privind drona căzută la Crocmaz",
+          "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"
+        }
+      ]
+    },
+    {
+      "text": "Manifestările socio-culturale autorizate pentru sărbătoarea celor 35 de ani rămân permise în interiorul zonelor restricționate — deci restricția vizează circulația și accesul neautorizat, nu evenimentele festive în sine.",
+      "sources": [
+        {
+          "name": "Realitatea.md — excepția pentru manifestările autorizate",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu se probează din comunicatele publice existența unei amenințări concrete care să fi determinat aceste măsuri. Autoritățile invocă „măsuri de securitate” generice, fără să indice vreun incident, vreo informare de risc sau vreo evaluare publică. Absența unui motiv declarat nu înseamnă că motivul nu există — înseamnă doar că nu poate fi verificat de nimeni din afară.",
+      "sources": [
+        {
+          "name": "Realitatea.md — formularea oficială a motivului",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        }
+      ]
+    },
+    {
+      "text": "Nu se poate proba, la data publicării, lista completă a „oaspeților străini de rang înalt” anunțați. Comunicatul îi menționează generic, fără nume și fără delegații confirmate, iar o listă oficială nu era publicată.",
+      "sources": [
+        {
+          "name": "Realitatea.md — mențiunea despre oaspeții străini",
+          "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Cinci zile de restricții pentru o paradă de câteva ore pare mult, și probabil va fi criticat ca atare. Merită însă pus lângă context: e primul 27 august după un an în care drone au căzut pe teritoriul țării, iar interdicția pentru drone deasupra capitalei spune mai limpede decât orice comunicat la ce se gândesc autoritățile. Ce lipsește, și ce ar fi trebuit spus, e motivul concret. O măsură de securitate explicată nu-și pierde eficiența; una neexplicată își pierde încrederea. Iar într-o țară unde jumătate din populație se informează din surse care oricum îi spun că statul ascunde ceva, tăcerea aia costă mai mult decât ar economisi.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-35-ani-independenta-parada-restrictii-chisinau.jpg\" alt=\"Chisinau government building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chisinau government building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chisinau_GouvernamentalBuilding.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chisinau GouvernamentalBuilding</a>\" de autor necunoscut, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-35-ani-independenta-parada-restrictii-chisinau.jpg",
+    "licenta": "Public domain",
+    "autor": "autor necunoscut"
   }
- ],
- "contestat": [
-  {
-   "text": "Nu se probează din comunicatele publice existența unei amenințări concrete care să fi determinat aceste măsuri. Autoritățile invocă „măsuri de securitate” generice, fără să indice vreun incident, vreo informare de risc sau vreo evaluare publică. Absența unui motiv declarat nu înseamnă că motivul nu există — înseamnă doar că nu poate fi verificat de nimeni din afară.",
-   "sources": [
-    {"name": "Realitatea.md — formularea oficială a motivului", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"}
-   ]
-  },
-  {
-   "text": "Nu se poate proba, la data publicării, lista completă a „oaspeților străini de rang înalt” anunțați. Comunicatul îi menționează generic, fără nume și fără delegații confirmate, iar o listă oficială nu era publicată.",
-   "sources": [
-    {"name": "Realitatea.md — mențiunea despre oaspeții străini", "url": "https://realitatea.md/accesul-persoanelor-in-anumite-locuri-publice-din-municipiul-chisinau-limitat/"}
-   ]
-  }
- ],
- "opinie": [],
- "aiNote": "Cinci zile de restricții pentru o paradă de câteva ore pare mult, și probabil va fi criticat ca atare. Merită însă pus lângă context: e primul 27 august după un an în care drone au căzut pe teritoriul țării, iar interdicția pentru drone deasupra capitalei spune mai limpede decât orice comunicat la ce se gândesc autoritățile. Ce lipsește, și ce ar fi trebuit spus, e motivul concret. O măsură de securitate explicată nu-și pierde eficiența; una neexplicată își pierde încrederea. Iar într-o țară unde jumătate din populație se informează din surse care oricum îi spun că statul ascunde ceva, tăcerea aia costă mai mult decât ar economisi.",
- "persoane": []
 }

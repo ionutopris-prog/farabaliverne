@@ -87,5 +87,12 @@
     }
   ],
   "aiNote": "📡 Atenție: sursa de pornire este presă de stat. Am rezumat ce SUSȚINE TASS (media de stat din Federația Rusă), citând declarațiile lui Vladimir Putin, și am pus alături surse independente — agenția occidentală AP, presa ucraineană (parte adversă în conflict) și presa de apărare care a analizat noul Raport Alb al Apărării al Japoniei. NU prezentăm afirmațiile lui Putin ca fapt stabilit — dar nici nu decretăm noi contrariul. Ce se probează independent: întâlnirea și discursul au avut loc, la data și locul indicate. Ce rămâne afirmația unei singure părți, needocumentată independent în aceiași termeni: amploarea „infiltrării” NATO și „desfășurarea de noi arme” în Asia-Pacific. Poți citi și sursa de stat (linkată mai sus), și relatările independente, și tragi singur linia.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/putin-flota-pacificului-nato-asia-pacific-amenintare.jpg\" alt=\"Putin\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Putin. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Putin_at_Russian_Chapel,_Vr%C5%A1i%C4%8D.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Putin at Russian Chapel, Vršič</a>\" de Russian President’s official website, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/putin-flota-pacificului-nato-asia-pacific-amenintare.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Russian President’s official website"
+  }
 }

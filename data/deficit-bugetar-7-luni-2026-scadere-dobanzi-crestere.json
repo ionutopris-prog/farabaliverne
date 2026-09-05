@@ -1,59 +1,66 @@
 {
-    "slug": "deficit-bugetar-7-luni-2026-scadere-dobanzi-crestere",
-    "title": "Deficitul bugetar a scăzut la 2,34% din PIB în 7 luni, dar costul dobânzilor la datoria publică a crescut cu 26,5% — și înghite aproape tot deficitul",
-    "category": "Economie",
-    "date": "2026-08-31",
-    "source": "HotNews / Antena 3 CNN / Economica.net",
-    "url": "https://hotnews.ro/deficitul-bugetar-coboara-la-234-din-pib-in-primele-sapte-luni-dar-costul-datoriei-publice-urca-cu-265-2337234",
-    "dek": "Ministerul Finanțelor a anunțat că deficitul bugetar a scăzut de la 3,99% din PIB (ianuarie–iulie 2025) la 2,34% din PIB (ianuarie–iulie 2026), pe fondul unei creșteri a veniturilor de 11,2%. Ministrul Alexandru Nazare a vorbit despre „management echilibrat” între responsabilitate fiscală și sprijin economic. Cifrele complete arată însă că, în aceeași perioadă, costul dobânzilor la datoria publică a urcat cu 26,5%, la peste 40 de miliarde de lei — aproape 84% din întregul deficit pe 7 luni și, singur, echivalentul a 2% din PIB.",
-    "mainVerdict": "Probat, cu context omis din anunțul ministerial",
-    "probat": [
+  "slug": "deficit-bugetar-7-luni-2026-scadere-dobanzi-crestere",
+  "title": "Deficitul bugetar a scăzut la 2,34% din PIB în 7 luni, dar costul dobânzilor la datoria publică a crescut cu 26,5% — și înghite aproape tot deficitul",
+  "category": "Economie",
+  "date": "2026-08-31",
+  "source": "HotNews / Antena 3 CNN / Economica.net",
+  "url": "https://hotnews.ro/deficitul-bugetar-coboara-la-234-din-pib-in-primele-sapte-luni-dar-costul-datoriei-publice-urca-cu-265-2337234",
+  "dek": "Ministerul Finanțelor a anunțat că deficitul bugetar a scăzut de la 3,99% din PIB (ianuarie–iulie 2025) la 2,34% din PIB (ianuarie–iulie 2026), pe fondul unei creșteri a veniturilor de 11,2%. Ministrul Alexandru Nazare a vorbit despre „management echilibrat” între responsabilitate fiscală și sprijin economic. Cifrele complete arată însă că, în aceeași perioadă, costul dobânzilor la datoria publică a urcat cu 26,5%, la peste 40 de miliarde de lei — aproape 84% din întregul deficit pe 7 luni și, singur, echivalentul a 2% din PIB.",
+  "mainVerdict": "Probat, cu context omis din anunțul ministerial",
+  "probat": [
+    {
+      "text": "Deficitul bugetar cash pe primele șapte luni din 2026 a fost de 48,08 miliarde de lei (2,34% din PIB), față de 76,44 miliarde de lei (3,99% din PIB) în aceeași perioadă din 2025 — o reducere de 1,65 puncte procentuale. Veniturile bugetare au crescut cu 11,2%, la 412,31 miliarde de lei, susținute în principal de încasările din TVA, în urcare cu 26,5%, la 88,55 miliarde de lei. Cheltuielile totale au crescut cu doar 2,9%, la 460,39 miliarde de lei.",
+      "sources": [
         {
-            "text": "Deficitul bugetar cash pe primele șapte luni din 2026 a fost de 48,08 miliarde de lei (2,34% din PIB), față de 76,44 miliarde de lei (3,99% din PIB) în aceeași perioadă din 2025 — o reducere de 1,65 puncte procentuale. Veniturile bugetare au crescut cu 11,2%, la 412,31 miliarde de lei, susținute în principal de încasările din TVA, în urcare cu 26,5%, la 88,55 miliarde de lei. Cheltuielile totale au crescut cu doar 2,9%, la 460,39 miliarde de lei.",
-            "sources": [
-                {
-                    "name": "HotNews — Deficitul bugetar coboară la 2,34% din PIB în primele șapte luni, dar costul datoriei publice urcă cu 26,5%",
-                    "url": "https://hotnews.ro/deficitul-bugetar-coboara-la-234-din-pib-in-primele-sapte-luni-dar-costul-datoriei-publice-urca-cu-265-2337234"
-                },
-                {
-                    "name": "Antena 3 CNN — Deficitul bugetar al României a scăzut cu 37% în primele șapte luni din 2026",
-                    "url": "https://www.antena3.ro/economic/deficitul-bugetar-al-romaniei-a-scazut-cu-37-in-primele-sapte-luni-din-2026-anuntul-ministerului-finantelor-801410.html"
-                }
-            ]
+          "name": "HotNews — Deficitul bugetar coboară la 2,34% din PIB în primele șapte luni, dar costul datoriei publice urcă cu 26,5%",
+          "url": "https://hotnews.ro/deficitul-bugetar-coboara-la-234-din-pib-in-primele-sapte-luni-dar-costul-datoriei-publice-urca-cu-265-2337234"
         },
         {
-            "text": "Costul dobânzilor la datoria publică a urcat la 40,12 miliarde de lei în primele șapte luni din 2026, cu 26,5% mai mult față de aceeași perioadă din 2025 — echivalentul a 2% din PIB, adică aproape 84% din întregul deficit bugetar cash raportat pe cele șapte luni (48,08 miliarde de lei).",
-            "sources": [
-                {
-                    "name": "HotNews — Deficitul bugetar coboară la 2,34% din PIB în primele șapte luni, dar costul datoriei publice urcă cu 26,5%",
-                    "url": "https://hotnews.ro/deficitul-bugetar-coboara-la-234-din-pib-in-primele-sapte-luni-dar-costul-datoriei-publice-urca-cu-265-2337234"
-                },
-                {
-                    "name": "Stiripesurse — Execuția bugetară la șapte luni: deficit de 48,08 miliarde de lei, dobânzi de peste 40 de miliarde",
-                    "url": "https://www.stiripesurse.ro/xecutia-bugetara-la-sapte-luni-deficit-de-4808-miliarde-de-lei-dobanzi-de-peste-40-de-miliarde_3916220"
-                }
-            ]
+          "name": "Antena 3 CNN — Deficitul bugetar al României a scăzut cu 37% în primele șapte luni din 2026",
+          "url": "https://www.antena3.ro/economic/deficitul-bugetar-al-romaniei-a-scazut-cu-37-in-primele-sapte-luni-din-2026-anuntul-ministerului-finantelor-801410.html"
         }
-    ],
-    "contestat": [],
-    "opinie": [
-        {
-            "text": "Fostul premier liberal Florin Cîțu a pus sub semnul întrebării sustenabilitatea situației fiscale, întrebând retoric: „În ce condiții mai este sustenabilă această situație?”, în contextul în care dobânzile absorb aproape 84% din deficit. E o evaluare politică asupra unei tendințe reale (costul crescând al dobânzilor), nu o cifră suplimentară — sustenabilitatea pe termen lung a datoriei publice nu se poate stabili dintr-un singur indicator pe 7 luni.",
-            "sources": [
-                {
-                    "name": "Economica.net — GRAFICE Ce stă în spatele scăderii deficitului",
-                    "url": "https://www.economica.net/grafice-ce-sta-in-spatele-scaderii-deficitului-date-complete-posibile-noi-cresteri-de-taxe-ministrul-finantelor-nazare-cheltuielile-continua-sa-creasca-fost-premier-liberal-mai-este-sustenabila_972507.html"
-                }
-            ]
-        }
-    ],
-    "math": {
-        "title": "40,12 din 48,08 miliarde lei deficit = 83,5% doar dobânzi",
-        "explanation": "Din cele 48,08 miliarde de lei deficit bugetar cash raportat pe primele șapte luni din 2026, 40,12 miliarde reprezintă doar costul dobânzilor la datoria publică — adică 83,5% din întregul deficit. Cu alte cuvinte, dacă am scădea din calcul strict costul dobânzilor, restul cheltuielilor statului ar fi aproape acoperite de venituri; problema fiscală reală, pe acest indicator, e concentrată în costul crescând al împrumuturilor, nu în cheltuielile curente ale statului."
+      ]
     },
-    "aiNote": "Ce s-a verificat exact: anunțul Ministerului Finanțelor despre execuția bugetară pe primele șapte luni din 2026, pe baza a trei relatări convergente — HotNews, Antena 3 CNN și Economica.net — care citează aceleași cifre oficiale (deficit, venituri, cheltuieli, dobânzi).\n\nUnde se despart sursele: pe cifre, sursele nu se contrazic — toate confirmă scăderea deficitului la 2,34% din PIB și creșterea cu 26,5% a costului dobânzilor. Diferența e de accent: comunicarea ministerială (preluată de Antena 3) pune în prim-plan reducerea procentuală a deficitului și creșterea veniturilor; HotNews și Economica.net aduc în prim-plan cifra dobânzilor, care nu apare explicit în titlul anunțului oficial, deși reprezintă majoritatea covârșitoare a deficitului rămas.\n\nCe lipsește: o proiecție oficială clară despre traiectoria costului dobânzilor pentru restul anului 2026 și despre planul Guvernului de a gestiona această tendință — pe surse publice, nu am găsit o astfel de proiecție la data verificării. Economica.net menționează posibile „noi creșteri de taxe” ca variantă discutată, dar fără o decizie oficială confirmată.\n\nCe ar schimba concluzia: execuția bugetară pe 8 și 9 luni, care ar arăta dacă tendința de creștere a costului dobânzilor continuă sau se stabilizează, și o eventuală decizie oficială privind noi măsuri fiscale.",
-    "persoane": [
-        "Alexandru Nazare",
-        "Florin Cîțu"
-    ]
+    {
+      "text": "Costul dobânzilor la datoria publică a urcat la 40,12 miliarde de lei în primele șapte luni din 2026, cu 26,5% mai mult față de aceeași perioadă din 2025 — echivalentul a 2% din PIB, adică aproape 84% din întregul deficit bugetar cash raportat pe cele șapte luni (48,08 miliarde de lei).",
+      "sources": [
+        {
+          "name": "HotNews — Deficitul bugetar coboară la 2,34% din PIB în primele șapte luni, dar costul datoriei publice urcă cu 26,5%",
+          "url": "https://hotnews.ro/deficitul-bugetar-coboara-la-234-din-pib-in-primele-sapte-luni-dar-costul-datoriei-publice-urca-cu-265-2337234"
+        },
+        {
+          "name": "Stiripesurse — Execuția bugetară la șapte luni: deficit de 48,08 miliarde de lei, dobânzi de peste 40 de miliarde",
+          "url": "https://www.stiripesurse.ro/xecutia-bugetara-la-sapte-luni-deficit-de-4808-miliarde-de-lei-dobanzi-de-peste-40-de-miliarde_3916220"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Fostul premier liberal Florin Cîțu a pus sub semnul întrebării sustenabilitatea situației fiscale, întrebând retoric: „În ce condiții mai este sustenabilă această situație?”, în contextul în care dobânzile absorb aproape 84% din deficit. E o evaluare politică asupra unei tendințe reale (costul crescând al dobânzilor), nu o cifră suplimentară — sustenabilitatea pe termen lung a datoriei publice nu se poate stabili dintr-un singur indicator pe 7 luni.",
+      "sources": [
+        {
+          "name": "Economica.net — GRAFICE Ce stă în spatele scăderii deficitului",
+          "url": "https://www.economica.net/grafice-ce-sta-in-spatele-scaderii-deficitului-date-complete-posibile-noi-cresteri-de-taxe-ministrul-finantelor-nazare-cheltuielile-continua-sa-creasca-fost-premier-liberal-mai-este-sustenabila_972507.html"
+        }
+      ]
+    }
+  ],
+  "math": {
+    "title": "40,12 din 48,08 miliarde lei deficit = 83,5% doar dobânzi",
+    "explanation": "Din cele 48,08 miliarde de lei deficit bugetar cash raportat pe primele șapte luni din 2026, 40,12 miliarde reprezintă doar costul dobânzilor la datoria publică — adică 83,5% din întregul deficit. Cu alte cuvinte, dacă am scădea din calcul strict costul dobânzilor, restul cheltuielilor statului ar fi aproape acoperite de venituri; problema fiscală reală, pe acest indicator, e concentrată în costul crescând al împrumuturilor, nu în cheltuielile curente ale statului."
+  },
+  "aiNote": "Ce s-a verificat exact: anunțul Ministerului Finanțelor despre execuția bugetară pe primele șapte luni din 2026, pe baza a trei relatări convergente — HotNews, Antena 3 CNN și Economica.net — care citează aceleași cifre oficiale (deficit, venituri, cheltuieli, dobânzi).\n\nUnde se despart sursele: pe cifre, sursele nu se contrazic — toate confirmă scăderea deficitului la 2,34% din PIB și creșterea cu 26,5% a costului dobânzilor. Diferența e de accent: comunicarea ministerială (preluată de Antena 3) pune în prim-plan reducerea procentuală a deficitului și creșterea veniturilor; HotNews și Economica.net aduc în prim-plan cifra dobânzilor, care nu apare explicit în titlul anunțului oficial, deși reprezintă majoritatea covârșitoare a deficitului rămas.\n\nCe lipsește: o proiecție oficială clară despre traiectoria costului dobânzilor pentru restul anului 2026 și despre planul Guvernului de a gestiona această tendință — pe surse publice, nu am găsit o astfel de proiecție la data verificării. Economica.net menționează posibile „noi creșteri de taxe” ca variantă discutată, dar fără o decizie oficială confirmată.\n\nCe ar schimba concluzia: execuția bugetară pe 8 și 9 luni, care ar arăta dacă tendința de creștere a costului dobânzilor continuă sau se stabilizează, și o eventuală decizie oficială privind noi măsuri fiscale.",
+  "persoane": [
+    "Alexandru Nazare",
+    "Florin Cîțu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/deficit-bugetar-7-luni-2026-scadere-dobanzi-crestere.jpg\" alt=\"Romanian leu banknotes\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Romanian leu banknotes. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_leu._Romania,_2005_a.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 leu. Romania, 2005 a</a>\" de en:User:ES Vic, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/deficit-bugetar-7-luni-2026-scadere-dobanzi-crestere.jpg",
+    "licenta": "Public domain",
+    "autor": "en:User:ES Vic"
+  }
 }

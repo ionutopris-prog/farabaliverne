@@ -73,5 +73,12 @@
     "text": "2.700 de hectare arse reprezintă circa 193% din recordul anterior de 1.400 de hectare (2011) — adică aproape dublu. Raportat la suprafața totală a rezervației Hautes Fagnes (aproximativ 4.500 de hectare, cea mai mare rezervație naturală a Belgiei), incendiul a afectat circa 60% din suprafața protejată."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (belgiană și internațională); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Faptele centrale despre suprafața arsă, sprijinul UE și evacuările sunt confirmate concordant de mai multe redacții independente (RTBF — presa publică belgiană, L'Avenir, agenții internaționale). Singura rezervă este caracterul evolutiv al cifrei de hectare arse, firesc pentru un incendiu activ.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/belgia-incendiu-record-hautes-fagnes-16-august.jpg\" alt=\"Belgiei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Belgiei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Durbuy_-_L%27Ourthe_et_le_ch%C3%A2teau.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Durbuy - L'Ourthe et le château</a>\" de JackyM59, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/belgia-incendiu-record-hautes-fagnes-16-august.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "JackyM59"
+  }
 }

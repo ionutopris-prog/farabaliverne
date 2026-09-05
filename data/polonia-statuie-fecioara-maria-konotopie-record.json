@@ -11,21 +11,36 @@
     {
       "text": "Statuia din Konotopie, un sat de aproximativ 130 de locuitori din voievodatul Cuiavia-Pomerania (dieceza de Włocławek), are 55,6 metri înălțime și a fost sfințită sâmbătă, 15 august 2026, de ziua Adormirii Maicii Domnului, printr-o slujbă oficiată de episcopul Krzysztof Wętkowski. La ceremonie au participat „mii” de oameni, printre care fostul președinte polonez și laureat Nobel pentru Pace, Lech Wałęsa.",
       "sources": [
-        {"name": "Notes from Poland — Europe's biggest Virgin Mary statue unveiled in Polish village", "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/"},
-        {"name": "Euronews — Europe's tallest Virgin Mary statue rises in Polish village", "url": "https://www.euronews.com/my-europe/2026/08/15/europes-tallest-virgin-mary-statue-rises-in-polish-village"}
+        {
+          "name": "Notes from Poland — Europe's biggest Virgin Mary statue unveiled in Polish village",
+          "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/"
+        },
+        {
+          "name": "Euronews — Europe's tallest Virgin Mary statue rises in Polish village",
+          "url": "https://www.euronews.com/my-europe/2026/08/15/europes-tallest-virgin-mary-statue-rises-in-polish-village"
+        }
       ]
     },
     {
       "text": "Proiectul a fost finanțat integral de omul de afaceri Roman Karkosik, unul dintre cei mai bogați oameni din Polonia, împreună cu soția sa, Grażyna. Costul total este estimat la aproximativ 100 de milioane de zloți (~23 milioane de euro). Construcția a durat 18 luni; materialul special de turnare a trebuit adus din Italia, pentru că niciun furnizor polonez nu putea să-l producă.",
       "sources": [
-        {"name": "Notes from Poland — finanțarea și construcția statuii", "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/"},
-        {"name": "RTÉ — Polish village puts faith in Europe's tallest Virgin Mary statue", "url": "https://www.rte.ie/news/2026/0727/1585319-virgin-mary-statue-poland/"}
+        {
+          "name": "Notes from Poland — finanțarea și construcția statuii",
+          "url": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/"
+        },
+        {
+          "name": "RTÉ — Polish village puts faith in Europe's tallest Virgin Mary statue",
+          "url": "https://www.rte.ie/news/2026/0727/1585319-virgin-mary-statue-poland/"
+        }
       ]
     },
     {
       "text": "Cu 55,6 metri, statuia depășește Cristos Mântuitorul din Rio de Janeiro (38 metri) și statuia din Miribel, Franța, devenind cea mai înaltă statuie religioasă din Europa. Rămâne însă mai mică decât cea mai înaltă statuie a Fecioarei Maria din lume — Mother of All Asia – Tower of Peace din Batangas, Filipine, de 98,15 metri.",
       "sources": [
-        {"name": "NBC News — Giant 180-foot statue of the Virgin Mary is inaugurated in a small Polish village", "url": "https://www.nbcnews.com/world/europe/giant-180-ft-statue-virgin-mary-inaugurated-small-polish-village-rcna592669"}
+        {
+          "name": "NBC News — Giant 180-foot statue of the Virgin Mary is inaugurated in a small Polish village",
+          "url": "https://www.nbcnews.com/world/europe/giant-180-ft-statue-virgin-mary-inaugurated-small-polish-village-rcna592669"
+        }
       ]
     }
   ],
@@ -33,7 +48,10 @@
     {
       "text": "Costul de 100 de milioane de zloți a stârnit critici locale. Un cuplu din Sierpce (la aproximativ 30 km de statuie) a declarat pentru presă că banii „ar fi trebuit investiți într-un spital sau un orfelinat”. O pelerină din Płock, Wanda, și-a exprimat scepticismul: „acum, în 90% din cazuri, toată lumea se gândește la ce poate obține din asta”. Alți vizitatori, precum Marek Gizinski, au susținut proiectul, numindu-l „ceva monumental”, iar primărița localității, Renata Golebiewska, speră ca investiția să aducă dezvoltare economică și locuri de muncă într-o regiune săracă.",
       "sources": [
-        {"name": "RTÉ — reacții pro și contra din partea localnicilor", "url": "https://www.rte.ie/news/2026/0727/1585319-virgin-mary-statue-poland/"}
+        {
+          "name": "RTÉ — reacții pro și contra din partea localnicilor",
+          "url": "https://www.rte.ie/news/2026/0727/1585319-virgin-mary-statue-poland/"
+        }
       ]
     }
   ],
@@ -49,5 +67,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptele centrale (înălțime, finanțare, dată) sunt confirmate concordant de mai multe redacții (Notes from Poland, RTÉ, Euronews, NBC News). Reacțiile critice citate în secțiunea Contestat provin dintr-un singur reportaj (RTÉ) — nu am găsit alte redacții care să fi cules aceleași declarații, așa că le tratăm ca voci individuale, nu ca un curent de opinie majoritar confirmat.",
   "persoane": [
     "Roman Karkosik"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/polonia-statuie-fecioara-maria-konotopie-record.jpg\" alt=\"Fecioarei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Fecioarei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cluster_of_galaxies_in_Virgo_(noao-virgo).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cluster of galaxies in Virgo (noao-virgo)</a>\" de NOIRLab/NSF/AURA, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/polonia-statuie-fecioara-maria-konotopie-record.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "NOIRLab/NSF/AURA"
+  }
 }

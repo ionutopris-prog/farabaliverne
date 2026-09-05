@@ -1,64 +1,98 @@
 {
- "slug": "sandu-zelenski-dan-trilaterala-chisinau-independenta-safe",
- "title": "Sandu, Zelenski și Nicușor Dan, întâlnire trilaterală la Chișinău: autostradă prin SAFE spre R. Moldova, în ziua în care Ucraina anunța 11 alerte de dronă și rachetă",
- "category": "Politică",
- "tara": "Moldova",
- "date": "2026-08-27",
- "source": "HotNews / G4Media / Adevărul",
- "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036",
- "dek": "De Ziua Independenței R. Moldova (35 de ani), președinții Maia Sandu, Volodimir Zelenski și Nicușor Dan s-au întâlnit la Chișinău. Nicușor Dan a anunțat că România va construi, prin programul european SAFE, o autostradă care intră circa 5 km pe teritoriul moldovenesc, până la Zagarancea. Zelenski a vorbit despre 11 alerte de dronă și rachetă doar în ziua respectivă. Punem declarațiile lângă datele publice disponibile.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Pe 27 august 2026, la 35 de ani de la proclamarea independenței R. Moldova, președinta Maia Sandu i-a primit la Chișinău pe președintele Ucrainei, Volodimir Zelenski, și pe președintele României, Nicușor Dan, într-o întâlnire trilaterală urmată de declarații comune de presă.",
-   "sources": [
-    {"name": "HotNews — declarațiile comune de la Chișinău", "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036"},
-    {"name": "Adevărul — mesajul comun al celor trei lideri", "url": "https://adevarul.ro/politica/maia-sandu-zelenski-si-nicusor-dan-mesaj-de-2552530.html"}
-   ]
+  "slug": "sandu-zelenski-dan-trilaterala-chisinau-independenta-safe",
+  "title": "Sandu, Zelenski și Nicușor Dan, întâlnire trilaterală la Chișinău: autostradă prin SAFE spre R. Moldova, în ziua în care Ucraina anunța 11 alerte de dronă și rachetă",
+  "category": "Politică",
+  "tara": "Moldova",
+  "date": "2026-08-27",
+  "source": "HotNews / G4Media / Adevărul",
+  "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036",
+  "dek": "De Ziua Independenței R. Moldova (35 de ani), președinții Maia Sandu, Volodimir Zelenski și Nicușor Dan s-au întâlnit la Chișinău. Nicușor Dan a anunțat că România va construi, prin programul european SAFE, o autostradă care intră circa 5 km pe teritoriul moldovenesc, până la Zagarancea. Zelenski a vorbit despre 11 alerte de dronă și rachetă doar în ziua respectivă. Punem declarațiile lângă datele publice disponibile.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Pe 27 august 2026, la 35 de ani de la proclamarea independenței R. Moldova, președinta Maia Sandu i-a primit la Chișinău pe președintele Ucrainei, Volodimir Zelenski, și pe președintele României, Nicușor Dan, într-o întâlnire trilaterală urmată de declarații comune de presă.",
+      "sources": [
+        {
+          "name": "HotNews — declarațiile comune de la Chișinău",
+          "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036"
+        },
+        {
+          "name": "Adevărul — mesajul comun al celor trei lideri",
+          "url": "https://adevarul.ro/politica/maia-sandu-zelenski-si-nicusor-dan-mesaj-de-2552530.html"
+        }
+      ]
+    },
+    {
+      "text": "Nicușor Dan a declarat: „Prin programul SAFE, România va construi autostradă până la granițele cu Republica Moldova și Ucraina.” Potrivit relatărilor de presă despre acest proiect, autostrada va intra circa 5 km pe teritoriul moldovenesc, până la localitatea Zagarancea (raionul Ungheni), unde e prevăzut și un hub logistic de 18 hectare la stația Berești, gândit ca punct de conexiune rutier-feroviar la granița estică a UE.",
+      "sources": [
+        {
+          "name": "HotNews — declarația lui Nicușor Dan despre autostradă",
+          "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036"
+        },
+        {
+          "name": "Europa Liberă România — traseul de 5 km spre Zagarancea și hubul logistic de la Berești",
+          "url": "https://romania.europalibera.org/a/autostrazi-drum-expres-romania-ucraina-republica-moldova-safe-2030/33669613.html"
+        }
+      ]
+    },
+    {
+      "text": "Nicușor Dan a precizat că România primește prin instrumentul european SAFE aproximativ 16,7 miliarde de euro — a doua cea mai mare alocare din UE, după Polonia —, sub formă de împrumuturi cu dobândă redusă, folosite atât pentru echipament militar, cât și pentru infrastructură strategică (tronsoanele autostrăzilor A7 și A8 spre Ucraina și R. Moldova, modernizarea Portului Constanța), cu termen de finalizare 2030.",
+      "sources": [
+        {
+          "name": "Capital.ro — cifrele SAFE prezentate de Nicușor Dan",
+          "url": "https://www.capital.ro/nicusor-dan-romania-primeste-167-miliarde-e-prin-safe-pentru-aparare-si-infrastructura-portul-constanta-si-autostrazile-modernizate.html"
+        }
+      ]
+    },
+    {
+      "text": "Volodimir Zelenski a declarat, la aceeași conferință: „Doar astăzi, 11 alerte de drone și rachete Shahed. Atacurile cu rachete balistice au devenit ceva constant.” Declarația a venit în ziua în care Rusia a lansat un atac amplu asupra Kievului și altor orașe ucrainene; potrivit Forțelor Aeriene ucrainene, au fost doborâte șapte rachete balistice de tip Iskander-M sau KN-23 (construite în Coreea de Nord) și aproximativ 90% dintre dronele lansate.",
+      "sources": [
+        {
+          "name": "HotNews — declarația lui Zelenski despre alertele din ziua respectivă",
+          "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036"
+        },
+        {
+          "name": "Kyiv Independent — bilanțul Forțelor Aeriene ucrainene din 27 august",
+          "url": "https://kyivindependent.com/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra exactă de „11 alerte” invocată de Zelenski este declarația proprie a președintelui ucrainean, reluată identic de presa română care a relatat conferința; nu am găsit o sursă independentă (Forțele Aeriene ucrainene, agenții de presă) care să confirme separat acest număr exact. Amploarea generală a atacului din 27 august — bilanțul de rachete și drone doborâte — este însă confirmată independent.",
+      "sources": [
+        {
+          "name": "Kyiv Independent — relatarea independentă a atacului din 27 august, fără cifra „11 alerte”",
+          "url": "https://kyivindependent.com/"
+        }
+      ]
+    },
+    {
+      "text": "Proiectul de autostradă spre Zagarancea și hubul de la Berești sunt anunțuri și proiecte finanțate prin SAFE, nu lucrări începute. R. Moldova nu este stat membru UE, iar implementarea pe teritoriul ei depinde de acorduri bilaterale separate; termenul 2030 este o țintă declarată, nu o garanție contractuală, iar sursele disponibile nu arată dacă lucrările pe partea moldovenească au fost deja contractate.",
+      "sources": [
+        {
+          "name": "Europa Liberă România — stadiul proiectelor de autostradă finanțate prin SAFE",
+          "url": "https://romania.europalibera.org/a/autostrazi-drum-expres-romania-ucraina-republica-moldova-safe-2030/33669613.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "16,7 miliarde de euro, a doua alocare din UE — dar câți kilometri ajung efectiv în R. Moldova?",
+    "explanation": "Din cele 16,7 miliarde de euro pe care România le primește prin SAFE, doar o mică porțiune e destinată explicit segmentului care intră pe teritoriul moldovenesc: aproximativ 5 km de autostradă până la Zagarancea și un hub logistic de 18 hectare la Berești. Marea majoritate a sumei rămâne alocată apărării și infrastructurii de pe teritoriul românesc (Portul Constanța, tronsoanele A7/A8 până la graniță). Cifra de 16,7 miliarde e reală și verificabilă, dar folosită izolat, fără menționarea acestei împărțiri, poate lăsa impresia unei investiții mult mai mari direct în R. Moldova decât arată proiectele descrise public până acum."
   },
-  {
-   "text": "Nicușor Dan a declarat: „Prin programul SAFE, România va construi autostradă până la granițele cu Republica Moldova și Ucraina.” Potrivit relatărilor de presă despre acest proiect, autostrada va intra circa 5 km pe teritoriul moldovenesc, până la localitatea Zagarancea (raionul Ungheni), unde e prevăzut și un hub logistic de 18 hectare la stația Berești, gândit ca punct de conexiune rutier-feroviar la granița estică a UE.",
-   "sources": [
-    {"name": "HotNews — declarația lui Nicușor Dan despre autostradă", "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036"},
-    {"name": "Europa Liberă România — traseul de 5 km spre Zagarancea și hubul logistic de la Berești", "url": "https://romania.europalibera.org/a/autostrazi-drum-expres-romania-ucraina-republica-moldova-safe-2030/33669613.html"}
-   ]
-  },
-  {
-   "text": "Nicușor Dan a precizat că România primește prin instrumentul european SAFE aproximativ 16,7 miliarde de euro — a doua cea mai mare alocare din UE, după Polonia —, sub formă de împrumuturi cu dobândă redusă, folosite atât pentru echipament militar, cât și pentru infrastructură strategică (tronsoanele autostrăzilor A7 și A8 spre Ucraina și R. Moldova, modernizarea Portului Constanța), cu termen de finalizare 2030.",
-   "sources": [
-    {"name": "Capital.ro — cifrele SAFE prezentate de Nicușor Dan", "url": "https://www.capital.ro/nicusor-dan-romania-primeste-167-miliarde-e-prin-safe-pentru-aparare-si-infrastructura-portul-constanta-si-autostrazile-modernizate.html"}
-   ]
-  },
-  {
-   "text": "Volodimir Zelenski a declarat, la aceeași conferință: „Doar astăzi, 11 alerte de drone și rachete Shahed. Atacurile cu rachete balistice au devenit ceva constant.” Declarația a venit în ziua în care Rusia a lansat un atac amplu asupra Kievului și altor orașe ucrainene; potrivit Forțelor Aeriene ucrainene, au fost doborâte șapte rachete balistice de tip Iskander-M sau KN-23 (construite în Coreea de Nord) și aproximativ 90% dintre dronele lansate.",
-   "sources": [
-    {"name": "HotNews — declarația lui Zelenski despre alertele din ziua respectivă", "url": "https://hotnews.ro/nicusor-dan-declaratii-de-presa-comune-volodimir-zelenski-maia-sandu-republica-moldova-2335036"},
-    {"name": "Kyiv Independent — bilanțul Forțelor Aeriene ucrainene din 27 august", "url": "https://kyivindependent.com/"}
-   ]
+  "aiNote": "Două afirmații din aceeași conferință merită tratate diferit. Autostrada prin SAFE e un proiect real, cu trasee, localități și suprafețe publicate — dar rămâne un anunț cu termen 2030, nu o lucrare începută, iar segmentul care intră efectiv în R. Moldova (5 km, plus hubul de la Berești) e mic în raport cu suma totală de 16,7 miliarde vehiculată. Cifra lui Zelenski despre „11 alerte” azi e altceva: o declarație a unui șef de stat despre propria țară, într-un moment în care un atac amplu asupra Ucrainei era deja confirmat independent prin bilanțul Forțelor Aeriene — dar numărul exact „11” nu apare, la data verificării, decât în relatarea declarației sale, nu într-o sursă separată care să-l confirme.\n\nCe ar schimba concluzia: un comunicat oficial al Forțelor Aeriene ucrainene cu numărul exact de alerte din 27 august, sau un calendar public al lucrărilor pe segmentul moldovenesc al autostrăzii, cu date de contractare.",
+  "persoane": [
+    "Maia Sandu",
+    "Nicușor Dan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sandu-zelenski-dan-trilaterala-chisinau-independenta-safe.jpg\" alt=\"Maia Sandu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto de arhivă</b> — Maia Sandu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Maia_Sandu_Bartolomeu.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Maia Sandu Bartolomeu</a>\" de Presedintia Republicii Moldova, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sandu-zelenski-dan-trilaterala-chisinau-independenta-safe.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Presedintia Republicii Moldova"
   }
- ],
- "contestat": [
-  {
-   "text": "Cifra exactă de „11 alerte” invocată de Zelenski este declarația proprie a președintelui ucrainean, reluată identic de presa română care a relatat conferința; nu am găsit o sursă independentă (Forțele Aeriene ucrainene, agenții de presă) care să confirme separat acest număr exact. Amploarea generală a atacului din 27 august — bilanțul de rachete și drone doborâte — este însă confirmată independent.",
-   "sources": [
-    {"name": "Kyiv Independent — relatarea independentă a atacului din 27 august, fără cifra „11 alerte”", "url": "https://kyivindependent.com/"}
-   ]
-  },
-  {
-   "text": "Proiectul de autostradă spre Zagarancea și hubul de la Berești sunt anunțuri și proiecte finanțate prin SAFE, nu lucrări începute. R. Moldova nu este stat membru UE, iar implementarea pe teritoriul ei depinde de acorduri bilaterale separate; termenul 2030 este o țintă declarată, nu o garanție contractuală, iar sursele disponibile nu arată dacă lucrările pe partea moldovenească au fost deja contractate.",
-   "sources": [
-    {"name": "Europa Liberă România — stadiul proiectelor de autostradă finanțate prin SAFE", "url": "https://romania.europalibera.org/a/autostrazi-drum-expres-romania-ucraina-republica-moldova-safe-2030/33669613.html"}
-   ]
-  }
- ],
- "opinie": [],
- "math": {
-  "title": "16,7 miliarde de euro, a doua alocare din UE — dar câți kilometri ajung efectiv în R. Moldova?",
-  "explanation": "Din cele 16,7 miliarde de euro pe care România le primește prin SAFE, doar o mică porțiune e destinată explicit segmentului care intră pe teritoriul moldovenesc: aproximativ 5 km de autostradă până la Zagarancea și un hub logistic de 18 hectare la Berești. Marea majoritate a sumei rămâne alocată apărării și infrastructurii de pe teritoriul românesc (Portul Constanța, tronsoanele A7/A8 până la graniță). Cifra de 16,7 miliarde e reală și verificabilă, dar folosită izolat, fără menționarea acestei împărțiri, poate lăsa impresia unei investiții mult mai mari direct în R. Moldova decât arată proiectele descrise public până acum."
- },
- "aiNote": "Două afirmații din aceeași conferință merită tratate diferit. Autostrada prin SAFE e un proiect real, cu trasee, localități și suprafețe publicate — dar rămâne un anunț cu termen 2030, nu o lucrare începută, iar segmentul care intră efectiv în R. Moldova (5 km, plus hubul de la Berești) e mic în raport cu suma totală de 16,7 miliarde vehiculată. Cifra lui Zelenski despre „11 alerte” azi e altceva: o declarație a unui șef de stat despre propria țară, într-un moment în care un atac amplu asupra Ucrainei era deja confirmat independent prin bilanțul Forțelor Aeriene — dar numărul exact „11” nu apare, la data verificării, decât în relatarea declarației sale, nu într-o sursă separată care să-l confirme.\n\nCe ar schimba concluzia: un comunicat oficial al Forțelor Aeriene ucrainene cu numărul exact de alerte din 27 august, sau un calendar public al lucrărilor pe segmentul moldovenesc al autostrăzii, cu date de contractare.",
- "persoane": [
-  "Maia Sandu",
-  "Nicușor Dan"
- ]
 }

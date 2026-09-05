@@ -71,5 +71,12 @@
     ]
   },
   "aiNote": "🤖 Am verificat cifrele de rambursare din două surse economice independente (Fortune, PYMNTS), care coincid pe sumele raportate de companii. Miza nu e dacă rambursările au avut loc — sunt confirmate și publice — ci ce se întâmplă cu banii mai departe. Aici sursele arată o divergență reală între companii, nu o contrazicere între ele: FedEx a ales să întoarcă bani către clienți, Target redirecționează suma spre reduceri de preț viitoare, iar Amazon, Nike și Apple nu au clarificat public un mecanism pentru cumpărători. Ce lipsește din dosarul public: niciuna dintre companii nu a publicat o metodologie prin care să demonstreze cât din costul tarifului a fost efectiv transferat cumpărătorilor, așa că nu se poate calcula exact cât ar trebui rambursat fiecărui client. Dacă vreuna dintre companiile tăcute ar anunța un plan concret de rambursare, ar schimba semnificativ tabloul.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-rambursari-tarife-100-miliarde-consumatori.jpg\" alt=\"stock exchange trading floor\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — stock exchange trading floor. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Frankfurt Stock Exchange (Ank Kumar) 01</a>\" de Ank Kumar, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-rambursari-tarife-100-miliarde-consumatori.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Ank Kumar"
+  }
 }

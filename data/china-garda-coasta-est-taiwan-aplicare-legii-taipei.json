@@ -63,8 +63,15 @@
   "opinie": [
     {
       "text": "Etichetarea patrulelor drept „aplicare a legii” sau drept „extindere a puterii” depinde de a recunoaște sau nu jurisdicția revendicată de China asupra acelor ape — o chestiune de poziție politică și de drept internațional disputat, nu un fapt pe care sursele consultate să-l poată tranșa. Ce e verificabil e frecvența și traiectoria patrulelor, nu caracterul lor „legal” sau „ilegal”."
-      }
+    }
   ],
   "aiNote": "📡 Agenția de stat chineză Xinhua a prezentat patrulele repetate ale Gărzii de Coastă Chineze în apele de la est de Taiwan drept „aplicare normală a legii”, menită să protejeze inclusiv „drepturile compatrioților din Taiwan”. NU prezentăm această formulare ca fapt stabilit — o punem alături de reacția directă a Taiwanului, care numește aceleași patrule „aplicare falsă a legii, extindere reală a puterii”, și de analiza unui institut independent (Lowy, Australia), care le descrie drept tactică „gray-zone”: presiune administrativă graduală, greu de contracarat pentru că nu implică o confruntare militară directă.\n\nUnde se despart sursele: nu e o dispută despre dacă patrulele au loc — ambele părți confirmă că au loc, cu frecvență crescută din iunie-iulie 2026. Disputa e despre cadrul: China vorbește despre „apele aflate sub jurisdicția Chinei”, Taiwan nu recunoaște acea jurisdicție. Cifrele pe care le dă China despre nave „inspectate” sau „în încălcare” vin exclusiv din partea chineză.\n\nCe lipsește: o evaluare independentă (de exemplu, de la o instanță de arbitraj internațional sau de la o coaliție de state terțe) care să tranșeze statutul juridic al apelor respective. Fără ea, cititorul rămâne cu doi termeni — „aplicare a legii” versus „extindere a puterii” — care descriu aceeași acțiune fizică din unghiuri politice opuse.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-garda-coasta-est-taiwan-aplicare-legii-taipei.jpg\" alt=\"Taiwanului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Taiwanului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_taipei_sunrise_panorama_dxr_edit_pangen_141215_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 taipei sunrise panorama dxr edit pangen 141215 1</a>\" de Chensiyuan, edit by DXR, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-garda-coasta-est-taiwan-aplicare-legii-taipei.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Chensiyuan, edit by DXR"
+  }
 }

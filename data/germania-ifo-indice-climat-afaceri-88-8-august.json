@@ -65,5 +65,12 @@
     "explanation": "Indicele Ifo nu are un prag oficial peste care economia e considerată „sănătoasă” — e un indicator relativ, calculat cu anul 2015 ca bază 100. Valoarea de 88,8 rămâne sub acel nivel de referință, dar traiectoria contează mai mult decât nivelul absolut: patru creșteri lunare consecutive (de la un minim de sub 87 în perioada anterioară) arată o îmbunătățire graduală a sentimentului, nu o revenire completă."
   },
   "aiNote": "🇩🇪 Verificare de rutină pe o cifră oficială: indicele Ifo e publicat lunar de Institutul Ifo din München pe baza unui sondaj la aproximativ 9.000 de firme germane și e urmărit ca semnal timpuriu pentru economia Germaniei, cea mai mare din zona euro — cu efecte indirecte și asupra cererii externe pentru exporturile românești. Cifrele din surse independente (FX.co, Trading Economics) coincid pe indicele general (88,8) și pe componente; singura mică diferență, pe cifra de referință din iulie (86,6 vs. 86,7), e nesemnificativă și nu schimbă concluzia.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/germania-ifo-indice-climat-afaceri-88-8-august.jpg\" alt=\"Germania\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Germania. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1908_SY_Germania.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1908 SY Germania</a>\" de Sir James, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/germania-ifo-indice-climat-afaceri-88-8-august.jpg",
+    "licenta": "Public domain",
+    "autor": "Sir James"
+  }
 }

@@ -62,5 +62,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus.\nCe s-a verificat exact: pagina ABC News din 23 august 2026 (răspuns 200, pe subiect), care conține declarația lui David Farley la Insiders, reacția Paulinei Hanson, cifrele de context și precizarea despre muncitorii sezonieri. ABC este radiodifuzorul public australian.\nUnde se despart lucrurile — și de ce contează: nu avem aici o minciună și o corectare, ci două numărători diferite ale aceleiași politici. Farley a adunat migrația netă cu muncitorii calificați sezonieri; Hanson îi ține separat, pe motiv că statistica oficială nu-i contabilizează. Amândoi spun adevărul despre propria numărătoare.\nCe lipsește: câți dintre cei 100.000 de muncitori calificați ar depăși pragul de ședere de la care intră în migrația netă. Fără acel număr, întrebarea „care e cifra reală” n-are răspuns verificabil — și de-aia n-am pus verdict pe niciunul dintre ei.\nCe ar schimba concluzia: publicarea de către One Nation a compunerii detaliate a țintei, sau o analiză independentă a Departamentului de Interne australian.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/one-nation-migratie-hanson-farley-cifre.jpg\" alt=\"Victoria Palace Bucharest\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Victoria Palace Bucharest. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania,_Piata_Victoriei,_Palatul_Guvernului_Romaniei_(8);_B-II-m-A-19877.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Bucuresti, Romania, Piata Victoriei, Palatul Guvernului Romaniei (8); B-II-m-A-19877</a>\" de Britchi Mirela, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 ro</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/one-nation-migratie-hanson-farley-cifre.jpg",
+    "licenta": "CC BY-SA 3.0 ro",
+    "autor": "Britchi Mirela"
+  }
 }

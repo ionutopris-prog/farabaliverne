@@ -83,5 +83,12 @@
   ],
   "math": null,
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Al Jazeera) și din presa locală din Kashmir; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Ce s-a verificat exact: vizita ambasadorului Gor la Srinagar și Ladakh, întâlnirile sale oficiale și convocarea diplomatului american de către Pakistan sunt confirmate de ambele surse citate. Unde se despart lucrurile: nu între surse de presă, ci între cele două guverne — declarația lui Gor că Kashmirul e „o parte importantă a Indiei” contravine poziției pakistaneze, susținută de rezoluții ONU vechi de peste 70 de ani, că regiunea rămâne disputată. Am marcat asta explicit la „Contestat”, în loc să prezentăm formularea ambasadorului ca pe un fapt geopolitic stabilit — e o poziție diplomatică americană, nu o realitate juridică unanim recunoscută. Ce lipsește: o declarație oficială, scrisă, a Departamentului de Stat american care să confirme dacă remarca lui Gor reflectă o schimbare de politică sau a fost doar o formulare personală într-un context informal.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-ambasador-gor-vizita-kashmir-pakistan-protest.jpg\" alt=\"India\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — India. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Darjeeling,_India,_Tea_plantations_on_hills.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Darjeeling, India, Tea plantations on hills</a>\" de Vyacheslav Argenberg, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-ambasador-gor-vizita-kashmir-pakistan-protest.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Vyacheslav Argenberg"
+  }
 }

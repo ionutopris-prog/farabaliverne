@@ -89,5 +89,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Vizita ministrului japonez al Apărării, Shinjiro Koizumi, în Australia și India este confirmată concordant de SCMP și Nippon.com, cu aceleași motive de fond (temeri legate de stocurile americane de muniție) și aceleași teme de discuție (fregata Mogami, sistemul Unicorn). Rămâne o rezervă: la data verificării, cooperarea discutată nu se tradusese încă în contracte semnate.",
   "persoane": [
     "Shinjiro Koizumi"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/japonia-koizumi-vizita-australia-india-cooperare-aparare.jpg\" alt=\"Apărării\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Apărării. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:01.08.2024_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului,_Igor_Grosu,_cu_Laurynas_Kas%C4%8Di%C5%ABnas,_Ministrul_Ap%C4%83r%C4%83rii_Na%C8%9Bionale_al_Republici_Lituania_-_53894079802.jpg\" rel=\"nofollow noopener\" target=\"_blank\">01.08.2024 Întrevederea Președintelui Parlamentului, Igor Grosu, cu Laurynas Kasčiūnas, Ministrul Apărării Naționale al Republici Lituania - 53894079802</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/japonia-koizumi-vizita-australia-india-cooperare-aparare.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+  }
 }

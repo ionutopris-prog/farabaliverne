@@ -11,21 +11,36 @@
     {
       "text": "Luigi Mangione a pledat vinovat, vineri, 14 august 2026, la Tribunalul Federal din Manhattan, la două capete de acuzare federală: stalking (urmărire) care a dus la decesul lui Brian Thompson și folosirea comunicațiilor electronice pentru a-l urmări pe acesta. A fost o „pledoarie deschisă” (open plea) — fără un acord de recunoaștere a vinovăției negociat cu procuratura, adică fără concesii sau reduceri de pedeapsă din partea procurorilor.",
       "sources": [
-        {"name": "Fox10 — Luigi Mangione pleads guilty to federal stalking charges", "url": "https://www.fox10tv.com/2026/08/14/luigi-mangione-pleads-guilty-federal-stalking-charges/"},
-        {"name": "NY1 — Luigi Mangione federal court appearance", "url": "https://ny1.com/nyc/all-boroughs/news/2026/08/14/luigi-mangione-federal-court-appearance-august-2026"}
+        {
+          "name": "Fox10 — Luigi Mangione pleads guilty to federal stalking charges",
+          "url": "https://www.fox10tv.com/2026/08/14/luigi-mangione-pleads-guilty-federal-stalking-charges/"
+        },
+        {
+          "name": "NY1 — Luigi Mangione federal court appearance",
+          "url": "https://ny1.com/nyc/all-boroughs/news/2026/08/14/luigi-mangione-federal-court-appearance-august-2026"
+        }
       ]
     },
     {
       "text": "În instanță, Mangione a recunoscut faptele direct: „Pe 4 decembrie 2024, l-am împușcat pe dl. Thompson în Manhattan, și el a murit.” A explicat că a urmărit executivul până la o conferință a investitorilor din New York, s-a folosit de un pretext — a contactat compania de asigurări pretinzând că e investitor — ca să obțină informații despre eveniment, și a folosit o armă fabricată cu o imprimantă 3D. A mai spus: „Am știut că ceea ce fac este ilegal.”",
       "sources": [
-        {"name": "NY1 — Luigi Mangione federal court appearance", "url": "https://ny1.com/nyc/all-boroughs/news/2026/08/14/luigi-mangione-federal-court-appearance-august-2026"},
-        {"name": "Fox10 — Luigi Mangione pleads guilty to federal stalking charges", "url": "https://www.fox10tv.com/2026/08/14/luigi-mangione-pleads-guilty-federal-stalking-charges/"}
+        {
+          "name": "NY1 — Luigi Mangione federal court appearance",
+          "url": "https://ny1.com/nyc/all-boroughs/news/2026/08/14/luigi-mangione-federal-court-appearance-august-2026"
+        },
+        {
+          "name": "Fox10 — Luigi Mangione pleads guilty to federal stalking charges",
+          "url": "https://www.fox10tv.com/2026/08/14/luigi-mangione-pleads-guilty-federal-stalking-charges/"
+        }
       ]
     },
     {
       "text": "Riscă pedeapsa maximă — închisoarea pe viață — deși ghidurile federale de sentințe recomandă, pentru aceste capete de acuzare, între 24 și 30 de ani. Procurorul federal Jamie McDonald a declarat că va cere sentința maximă și a spus: „Violența nu este un instrument legitim pentru promovarea niciunui mesaj politic sau social.” Pronunțarea sentinței e programată pentru 18 decembrie 2026.",
       "sources": [
-        {"name": "Fox10 — Luigi Mangione pleads guilty to federal stalking charges", "url": "https://www.fox10tv.com/2026/08/14/luigi-mangione-pleads-guilty-federal-stalking-charges/"}
+        {
+          "name": "Fox10 — Luigi Mangione pleads guilty to federal stalking charges",
+          "url": "https://www.fox10tv.com/2026/08/14/luigi-mangione-pleads-guilty-federal-stalking-charges/"
+        }
       ]
     }
   ],
@@ -33,8 +48,14 @@
     {
       "text": "Rămâne incert dacă va mai avea loc și procesul separat, de la nivel de stat (New York), unde Mangione e acuzat inclusiv de omor. Potrivit NY1, procesul de stat continuă deocamdată — cu selecția juriului programată pentru 8 septembrie 2026 — dar avocata apărării, Karen Friedman Agnifilo, a cerut anularea lui, invocând protecția împotriva dublei incriminări pentru „un eveniment tragic unic”, iar procuratura din Manhattan a spus că rămâne dedicată cazului și va contesta cererea. Cititorul poate urmări dosarul, care nu era tranșat la data verificării.",
       "sources": [
-        {"name": "NY1 — Luigi Mangione federal court appearance", "url": "https://ny1.com/nyc/all-boroughs/news/2026/08/14/luigi-mangione-federal-court-appearance-august-2026"},
-        {"name": "NBC News — Luigi Mangione guilty plea federal court case CEO shooting", "url": "https://www.nbcnews.com/news/us-news/luigi-mangione-guilty-plea-federal-court-case-ceo-shooting-rcna592421"}
+        {
+          "name": "NY1 — Luigi Mangione federal court appearance",
+          "url": "https://ny1.com/nyc/all-boroughs/news/2026/08/14/luigi-mangione-federal-court-appearance-august-2026"
+        },
+        {
+          "name": "NBC News — Luigi Mangione guilty plea federal court case CEO shooting",
+          "url": "https://www.nbcnews.com/news/us-news/luigi-mangione-guilty-plea-federal-court-case-ceo-shooting-rcna592421"
+        }
       ]
     }
   ],
@@ -42,5 +63,14 @@
     "Mangione a devenit, pentru unii critici ai industriei americane de asigurări de sănătate, un fel de simbol politic — presa americană folosește expresia „cauză celebră”. Autoritățile americane, la rândul lor, resping explicit această încadrare: procurorul federal a subliniat public că violența nu e un instrument legitim pentru niciun mesaj politic sau social. Ambele sunt poziții/interpretări, nu fapte de verificat — faptul stabilit rămâne recunoașterea, în instanță, a uciderii lui Brian Thompson."
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană (Fox10/AP, NY1, CNBC, NBC News); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
-  "persoane": ["Luigi Mangione"]
+  "persoane": [
+    "Luigi Mangione"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/mangione-pledoarie-vinovatie-stalking-federal.jpg\" alt=\"Mangione\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mangione. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chuck_Mangione_DSC0042_2.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chuck Mangione DSC0042 2</a>\" de Marek Lazarski, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/mangione-pledoarie-vinovatie-stalking-federal.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Marek Lazarski"
+  }
 }

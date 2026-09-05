@@ -11,20 +11,32 @@
     {
       "text": "Meciul Rapid – Dinamo, din etapa a V-a a Superligii, s-a disputat pe 15 august 2026 pe Giulești, în fața a 13.154 de spectatori, și s-a încheiat 0-1 pentru Dinamo, cu golul marcat de Karamoko în repriza a doua.",
       "sources": [
-        {"name": "DCNews — Rapid-Dinamo, rezultat final. Daniel Pancu, eliminat după o criză de nervi", "url": "https://www.dcnews.ro/rapid-dinamo-rezultat-final-daniel-pancu-eliminat-dupa-o-criza-de-nervi_1076163.html"},
-        {"name": "iAmSport — Rapid - Dinamo 0-1! Golul lui Karamoko a decis derby-ul din Giulești", "url": "https://iamsport.ro/fotbal/superliga/rapid-dinamo-0-0-acum-pe-iamsport-ro-atmosfera-electrizanta-in-giulesti-daniel-pancu-eliminat-id52902.html"}
+        {
+          "name": "DCNews — Rapid-Dinamo, rezultat final. Daniel Pancu, eliminat după o criză de nervi",
+          "url": "https://www.dcnews.ro/rapid-dinamo-rezultat-final-daniel-pancu-eliminat-dupa-o-criza-de-nervi_1076163.html"
+        },
+        {
+          "name": "iAmSport — Rapid - Dinamo 0-1! Golul lui Karamoko a decis derby-ul din Giulești",
+          "url": "https://iamsport.ro/fotbal/superliga/rapid-dinamo-0-0-acum-pe-iamsport-ro-atmosfera-electrizanta-in-giulesti-daniel-pancu-eliminat-id52902.html"
+        }
       ]
     },
     {
       "text": "Antrenorul Rapidului, Daniel Pancu, a fost eliminat în minutul 54 după ce a contestat vehement o decizie a arbitrului Horațiu Feșnic și a intrat pe teren; membrii staff-ului, printre care Ionuț Voicu, nu au reușit să îl oprească. A fost prima înfrângere a lui Pancu pe banca Rapidului în acest sezon.",
       "sources": [
-        {"name": "DCNews — detaliile eliminării lui Daniel Pancu", "url": "https://www.dcnews.ro/rapid-dinamo-rezultat-final-daniel-pancu-eliminat-dupa-o-criza-de-nervi_1076163.html"}
+        {
+          "name": "DCNews — detaliile eliminării lui Daniel Pancu",
+          "url": "https://www.dcnews.ro/rapid-dinamo-rezultat-final-daniel-pancu-eliminat-dupa-o-criza-de-nervi_1076163.html"
+        }
       ]
     },
     {
       "text": "Fostul internațional Basarab Panduru a comentat, la un post de televiziune sportivă, că scorul nu reflectă desfășurarea jocului: Dinamo a avut, spune el, „un singur șut pe poartă”, din care a și marcat, în timp ce Rapid a avut mai multe situații de gol. Panduru a mai spus că eliminarea lui Pancu, în minutul 53–54, a influențat mersul jocului.",
       "sources": [
-        {"name": "Sport.ro — Rapid - Dinamo, derby cu rezultat nedrept? „Nu știu dacă e corect, au avut un singur șut pe poartă”", "url": "https://www.sport.ro/liga-1/rapid-dinamo-derby-cu-rezultat-nedrept-nu-stiu-daca-e-corect-au-avut-un-singur-sut-pe-poarta.html"}
+        {
+          "name": "Sport.ro — Rapid - Dinamo, derby cu rezultat nedrept? „Nu știu dacă e corect, au avut un singur șut pe poartă”",
+          "url": "https://www.sport.ro/liga-1/rapid-dinamo-derby-cu-rezultat-nedrept-nu-stiu-daca-e-corect-au-avut-un-singur-sut-pe-poarta.html"
+        }
       ]
     }
   ],
@@ -32,7 +44,10 @@
     {
       "text": "Sursele disponibile nu conțin un răspuns public din partea oficialilor sau a jucătorilor lui Dinamo la comentariul lui Panduru, și nici statistici oficiale (posesie, șuturi totale, ocazii mari) publicate de Superligă pentru acest meci, care ar permite verificarea independentă a afirmației „un singur șut pe poartă”.",
       "sources": [
-        {"name": "Sport.ro — articolul nu include o reacție din tabăra Dinamo", "url": "https://www.sport.ro/liga-1/rapid-dinamo-derby-cu-rezultat-nedrept-nu-stiu-daca-e-corect-au-avut-un-singur-sut-pe-poarta.html"}
+        {
+          "name": "Sport.ro — articolul nu include o reacție din tabăra Dinamo",
+          "url": "https://www.sport.ro/liga-1/rapid-dinamo-derby-cu-rezultat-nedrept-nu-stiu-daca-e-corect-au-avut-un-singur-sut-pe-poarta.html"
+        }
       ]
     }
   ],
@@ -42,5 +57,15 @@
     }
   ],
   "aiNote": "Rezultatul, golul și eliminarea sunt fapte confirmate de mai multe redacții sportive. Afirmația despre „un singur șut pe poartă” al Dinamei aparține unui singur comentator, citat de o singură sursă găsită — nu am găsit statistici oficiale de meci care s-o confirme sau infirme, așa că am marcat-o ca neverificabilă independent, nu ca fapt stabilit.",
-  "persoane": ["Daniel Pancu", "Basarab Panduru"]
+  "persoane": [
+    "Daniel Pancu",
+    "Basarab Panduru"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/rapid-dinamo-pancu-eliminat-panduru-critica.jpg\" alt=\"stadium\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — stadium. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Allianz_arena_daylight_Richard_Bartz.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Allianz arena daylight Richard Bartz</a>\" de Richard Bartz, Munich aka Makro Freak, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.5\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.5</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/rapid-dinamo-pancu-eliminat-panduru-critica.jpg",
+    "licenta": "CC BY-SA 2.5",
+    "autor": "Richard Bartz, Munich aka Makro Freak"
+  }
 }

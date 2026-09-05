@@ -68,5 +68,12 @@
   "contestat": [],
   "opinie": [],
   "aiNote": "Sursele — Digi24, HotNews, Observator News, Adevărul și Mediafax — converg pe aceleași cifre și măsuri: dragaj continuu, un dig temporar (epiu) pe Dunărea Veche, pompe de mare capacitate și 50 mc/s suplimentar din Olt timp de 5 zile începând cu 22 august. Nu există contradicții relevante între surse pe faptele centrale, motiv pentru care nu apar afirmații la „contestat”.\n\nCe lipsește: niciuna dintre sursele consultate nu publică o cifră oficială pentru cât de mult a scăzut exact debitul Dunării față de mediile istorice la Cernavodă, nici o estimare oficială privind data la care reactoarele ar putea fi repornite — presa vorbește despre „cel mai scăzut debit din istoria recentă”, o formulare calitativă, nu o statistică verificabilă independent. La fel, nu e clar cât de mult va crește efectiv debitul Dunării în zona centralei ca urmare a celor 50 mc/s din Olt, pentru că apa parcurge o distanță lungă și se poate pierde parțial pe traseu. Ce ar schimba concluzia: publicarea de către Apele Române sau Ministerul Energiei a datelor de debit înainte și după aceste intervenții, sau un anunț oficial despre repornirea reactoarelor.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/cernavoda-cnsu-masuri-urgenta-dig-olt-22-august.jpg\" alt=\"Dunărea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Dunărea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2018-10-22_(876)_Danube_at_Krems_an_der_Donau,_Austria.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2018-10-22 (876) Danube at Krems an der Donau, Austria</a>\" de GT1976, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/cernavoda-cnsu-masuri-urgenta-dig-olt-22-august.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "GT1976"
+  }
 }

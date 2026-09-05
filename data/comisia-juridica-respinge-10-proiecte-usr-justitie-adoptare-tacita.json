@@ -74,5 +74,15 @@
     "explanation": "Pentru ca un proiect să treacă de comisie, e nevoie de majoritatea celor prezenți. Cu 29 de deputați prezenți (8 fizic, 21 online) și doar USR+PNL votând pentru (8-9 voturi, adică sub o treime din prezenți), în timp ce PSD — partidul care conduce comisia — a votat împotrivă și AUR s-a abținut, rezultatul negativ era matematic dat dinainte de a intra pe ordinea de zi. Diferența dintre a „respinge” și a „lăsa să pice la vot” nu schimbă soarta proiectelor: ambele împiedică adoptarea tacită de care se temeau inițiatorii."
   },
   "aiNote": "Verificarea se bazează pe relatări concordante AGERPRES, B1TV, Europa FM, Radio România Actualități și Capital.ro despre aceeași ședință de comisie din 28 august 2026. Singurul punct unde sursele s-au bătut cap în cap a fost cine a votat cu cine: o variantă timpurie (StiriPeSurse) descria „PNL și USR au boicotat ședința”, în timp ce sursele mai detaliate (B1TV, Capital.ro) — care dau și numărul exact de deputați prezenți, 29, din care 8 fizic — arată clar opusul: PNL și USR au fost cele care au votat FAVORABIL proiectelor, doar că nu au avut destule voturi. Am păstrat versiunea susținută de sursele cu detalii verificabile (numărul deputaților, modul de participare) și am lăsat deoparte relatarea mai vagă.\n\nCe rămâne neclar: dacă acest vot a fost coordonat cu negocierile pentru un nou Guvern, condus fie de un independent, fie eventual de PSD — sursele îl leagă în timp de anunțul lui Nicușor Dan despre desemnarea premierului „în zilele următoare”, dar niciun oficial nu a confirmat public o legătură cauzală între cele două. Asta rămâne o interpretare jurnalistică, marcată ca atare mai jos, nu un fapt stabilit.",
-  "persoane": ["Bogdan Ciucă", "Stelian Ion"]
+  "persoane": [
+    "Bogdan Ciucă",
+    "Stelian Ion"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/comisia-juridica-respinge-10-proiecte-usr-justitie-adoptare-tacita.jpg\" alt=\"Palace of the Parliament Bucharest\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Palace of the Parliament Bucharest. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bucharest-palace-of-parliament-may-2016-001.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bucharest-palace-of-parliament-may-2016-001</a>\" de anisoboy, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/comisia-juridica-respinge-10-proiecte-usr-justitie-adoptare-tacita.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "anisoboy"
+  }
 }

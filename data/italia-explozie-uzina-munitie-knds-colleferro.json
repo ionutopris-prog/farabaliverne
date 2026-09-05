@@ -11,34 +11,58 @@
     {
       "text": "Explozia s-a produs joi, 13 august 2026, după-amiaza, la uzina KNDS Ammo Italy (fosta Simmel Difesa) din Colleferro. Pompierii și poliția erau deja la fața locului, răspunzând la un incendiu, când s-a produs explozia; personalul companiei a fost evacuat.",
       "sources": [
-        { "name": "Euronews — Explosion rocks ammunition factory near Rome, Italian police say", "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-rocks-ammunition-factory-near-rome-italian-police-say" },
-        { "name": "Militarnyi — Massive Explosion Reported at KNDS Ammunition Plant Near Rome", "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/" }
+        {
+          "name": "Euronews — Explosion rocks ammunition factory near Rome, Italian police say",
+          "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-rocks-ammunition-factory-near-rome-italian-police-say"
+        },
+        {
+          "name": "Militarnyi — Massive Explosion Reported at KNDS Ammunition Plant Near Rome",
+          "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/"
+        }
       ]
     },
     {
       "text": "Nu au fost raportate victime. Fabrica era închisă pentru vacanța de vară, iar primarul localității Colleferro, Giulio Calamita, a declarat că „ar fi fost o tragedie” dacă explozia s-ar fi produs în timpul programului normal de lucru.",
       "sources": [
-        { "name": "Global Banking & Finance — Large explosion rips through Italian munitions factory", "url": "https://www.globalbankingandfinance.com/large-explosion-rips-through-italian-munitions-factory/" },
-        { "name": "Militarnyi — nu sunt victime sau persoane dispărute", "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/" }
+        {
+          "name": "Global Banking & Finance — Large explosion rips through Italian munitions factory",
+          "url": "https://www.globalbankingandfinance.com/large-explosion-rips-through-italian-munitions-factory/"
+        },
+        {
+          "name": "Militarnyi — nu sunt victime sau persoane dispărute",
+          "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/"
+        }
       ]
     },
     {
       "text": "Cauza inițială indicată de autorități: un incendiu în departamentul de compresie a prafului de pușcă, posibil pornit într-un compactor — mașină folosită la comprimarea prafului de pușcă; vântul puternic și temperaturile ridicate ar fi grăbit răspândirea flăcărilor. Circumstanțele exacte rămân în anchetă.",
       "sources": [
-        { "name": "Militarnyi — incendiul a pornit posibil într-un compactor", "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/" }
+        {
+          "name": "Militarnyi — incendiul a pornit posibil într-un compactor",
+          "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/"
+        }
       ]
     },
     {
       "text": "Uzina, deținută de grupul european de apărare KNDS, produce muniție de calibru mediu și mare pentru forțe terestre și navale, plus propelanți solizi pentru sisteme aerospațiale; compania figurează printre contractorii acordurilor-cadru ale Agenției Europene de Apărare pentru muniție de 155 mm.",
       "sources": [
-        { "name": "Militarnyi — funcția fabricii", "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/" },
-        { "name": "Kyiv Post — legătura cu Agenția Europeană de Apărare", "url": "https://www.kyivpost.com/post/82208" }
+        {
+          "name": "Militarnyi — funcția fabricii",
+          "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/"
+        },
+        {
+          "name": "Kyiv Post — legătura cu Agenția Europeană de Apărare",
+          "url": "https://www.kyivpost.com/post/82208"
+        }
       ]
     },
     {
       "text": "Nu e un precedent izolat: aceeași fabrică a mai avut o explozie majoră în octombrie 2007, care a ucis un muncitor și a rănit alți 13.",
       "sources": [
-        { "name": "Euronews — precedentul din 2007", "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-rocks-ammunition-factory-near-rome-italian-police-say" }
+        {
+          "name": "Euronews — precedentul din 2007",
+          "url": "https://www.euronews.com/my-europe/2026/08/13/explosion-rocks-ammunition-factory-near-rome-italian-police-say"
+        }
       ]
     }
   ],
@@ -46,13 +70,19 @@
     {
       "text": "Legătura directă, imediată, cu aprovizionarea Ucrainei nu este documentată explicit în sursele de bază (Euronews, Militarnyi), care descriu fabrica drept furnizor pentru forțele terestre/navale și pentru cadrul NATO/UE de muniție de 155 mm — fără să confirme un contract specific cu Ucraina. Câteva titluri din presă („explosion hits plant supplying weapons to Ukraine”) merg mai departe decât conținutul verificat al articolelor de bază.",
       "sources": [
-        { "name": "Militarnyi — descrierea producției, fără mențiune directă de contract cu Ucraina", "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/" }
+        {
+          "name": "Militarnyi — descrierea producției, fără mențiune directă de contract cu Ucraina",
+          "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/"
+        }
       ]
     },
     {
       "text": "Cauza exactă a exploziei nu a fost confirmată oficial de poliția italiană la ora verificării — varianta „compactor de praf de pușcă” este relatarea inițială din presă, nu o concluzie de anchetă.",
       "sources": [
-        { "name": "Militarnyi — cauza rămâne sub anchetă", "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/" }
+        {
+          "name": "Militarnyi — cauza rămâne sub anchetă",
+          "url": "https://militarnyi.com/en/news/massive-explosion-knds-ammo-plant-near-rome/"
+        }
       ]
     }
   ],
@@ -62,5 +92,12 @@
     }
   ],
   "aiNote": "Faptele centrale se probează din mai multe surse independente: explozia de la uzina KNDS din Colleferro, joi 13 august 2026, fără victime, cu cauză inițială legată de un compactor de praf de pușcă. Rămân două rezerve: (1) legătura directă cu aprovizionarea Ucrainei nu apare explicit în sursele de bază, deși fabrica produce muniție pentru cadrul NATO/UE; (2) cauza exactă a exploziei nu a fost confirmată oficial de o anchetă încheiată. Cititorul poate urmări comunicatele autorităților italiene pentru concluziile finale ale anchetei.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/italia-explozie-uzina-munitie-knds-colleferro.jpg\" alt=\"Colleferro\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Colleferro. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Colleferro_(RM)_-_piazza_Italia_e_municipio.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Colleferro (RM) - piazza Italia e municipio</a>\" de Robertodimo, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/italia-explozie-uzina-munitie-knds-colleferro.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Robertodimo"
+  }
 }

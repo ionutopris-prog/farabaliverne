@@ -1,62 +1,96 @@
 {
- "slug": "moldova-cat-din-salariu-inseamna-factura-la-gaz",
- "title": "Cât din salariul unui moldovean înseamnă factura la gaz, după scumpirea de 41%. Calculul, pas cu pas",
- "category": "Social",
- "tara": "Moldova",
- "date": "2026-08-26",
- "source": "Biroul Național de Statistică / Guvernul Republicii Moldova / ANRE",
- "url": "https://gov.md/ro/comunicate-de-presa/guvernul-aprobat-cuantumul-salariului-minim-si-mediu-pentru-anul-2026",
- "dek": "Salariul mediu prognozat pe economie pentru 2026 este de 17.400 de lei brut. Tariful la gaz urcă de la 1 septembrie la 20,30 lei/m³. Am făcut socoteala pe care comunicatele n-o fac: cât din venitul unei gospodării se duce pe gaz într-o lună de iarnă.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Guvernul a aprobat pentru 2026 un salariu mediu lunar prognozat pe economie de 17.400 de lei, în creștere față de 16.100 de lei cât fusese stabilit pentru 2025.",
-   "sources": [
-    {"name": "Guvernul Republicii Moldova — cuantumul salariului minim și mediu pentru 2026 (comunicat oficial)", "url": "https://gov.md/ro/comunicate-de-presa/guvernul-aprobat-cuantumul-salariului-minim-si-mediu-pentru-anul-2026"}
-   ]
-  },
-  {
-   "text": "Salariul mediu lunar brut efectiv realizat în 2025 a fost de 15.594,5 lei — cu 11,5% mai mare nominal decât în 2024 (plus 1.604,5 lei), dar cu doar 3,4% în termeni reali, adică după scăderea inflației.",
-   "sources": [
-    {"name": "Biroul Național de Statistică — statistica salariilor", "url": "https://statistica.gov.md/ro?lang=ro"}
-   ]
-  },
-  {
-   "text": "Tariful aprobat de ANRE pe 21 august 2026 este de 20,30 lei/m³ cu TVA, de la 1 septembrie. O gospodărie care consumă 150 m³ într-o lună de iarnă plătea 2.163 lei la vechiul tarif de 14,42 lei; la noul tarif plătește 3.045 de lei. Diferența: 882 de lei pe lună.",
-   "sources": [
-    {"name": "Moldova 1 — tariful aprobat de ANRE", "url": "https://moldova1.md/p/83649"},
-    {"name": "Fără Baliverne — verificarea deciziei ANRE", "url": "https://farabaliverne.ro/a/moldova-anre-a-aprobat-gaz-41-la-suta-1-septembrie.html"}
-   ]
-  },
-  {
-   "text": "Raportat la salariul mediu brut prognozat pentru 2026 (17.400 lei), o factură de 3.045 de lei înseamnă 17,5% din venitul brut al unei singure persoane cu salariu mediu. Raportat la salariul realizat în 2025 (15.594,5 lei), înseamnă 19,5%.",
-   "sources": [
-    {"name": "Guvernul Republicii Moldova — salariul mediu prognozat", "url": "https://gov.md/ro/comunicate-de-presa/guvernul-aprobat-cuantumul-salariului-minim-si-mediu-pentru-anul-2026"},
-    {"name": "Biroul Național de Statistică — salariul mediu realizat", "url": "https://statistica.gov.md/ro?lang=ro"}
-   ]
+  "slug": "moldova-cat-din-salariu-inseamna-factura-la-gaz",
+  "title": "Cât din salariul unui moldovean înseamnă factura la gaz, după scumpirea de 41%. Calculul, pas cu pas",
+  "category": "Social",
+  "tara": "Moldova",
+  "date": "2026-08-26",
+  "source": "Biroul Național de Statistică / Guvernul Republicii Moldova / ANRE",
+  "url": "https://gov.md/ro/comunicate-de-presa/guvernul-aprobat-cuantumul-salariului-minim-si-mediu-pentru-anul-2026",
+  "dek": "Salariul mediu prognozat pe economie pentru 2026 este de 17.400 de lei brut. Tariful la gaz urcă de la 1 septembrie la 20,30 lei/m³. Am făcut socoteala pe care comunicatele n-o fac: cât din venitul unei gospodării se duce pe gaz într-o lună de iarnă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Guvernul a aprobat pentru 2026 un salariu mediu lunar prognozat pe economie de 17.400 de lei, în creștere față de 16.100 de lei cât fusese stabilit pentru 2025.",
+      "sources": [
+        {
+          "name": "Guvernul Republicii Moldova — cuantumul salariului minim și mediu pentru 2026 (comunicat oficial)",
+          "url": "https://gov.md/ro/comunicate-de-presa/guvernul-aprobat-cuantumul-salariului-minim-si-mediu-pentru-anul-2026"
+        }
+      ]
+    },
+    {
+      "text": "Salariul mediu lunar brut efectiv realizat în 2025 a fost de 15.594,5 lei — cu 11,5% mai mare nominal decât în 2024 (plus 1.604,5 lei), dar cu doar 3,4% în termeni reali, adică după scăderea inflației.",
+      "sources": [
+        {
+          "name": "Biroul Național de Statistică — statistica salariilor",
+          "url": "https://statistica.gov.md/ro?lang=ro"
+        }
+      ]
+    },
+    {
+      "text": "Tariful aprobat de ANRE pe 21 august 2026 este de 20,30 lei/m³ cu TVA, de la 1 septembrie. O gospodărie care consumă 150 m³ într-o lună de iarnă plătea 2.163 lei la vechiul tarif de 14,42 lei; la noul tarif plătește 3.045 de lei. Diferența: 882 de lei pe lună.",
+      "sources": [
+        {
+          "name": "Moldova 1 — tariful aprobat de ANRE",
+          "url": "https://moldova1.md/p/83649"
+        },
+        {
+          "name": "Fără Baliverne — verificarea deciziei ANRE",
+          "url": "https://farabaliverne.ro/a/moldova-anre-a-aprobat-gaz-41-la-suta-1-septembrie.html"
+        }
+      ]
+    },
+    {
+      "text": "Raportat la salariul mediu brut prognozat pentru 2026 (17.400 lei), o factură de 3.045 de lei înseamnă 17,5% din venitul brut al unei singure persoane cu salariu mediu. Raportat la salariul realizat în 2025 (15.594,5 lei), înseamnă 19,5%.",
+      "sources": [
+        {
+          "name": "Guvernul Republicii Moldova — salariul mediu prognozat",
+          "url": "https://gov.md/ro/comunicate-de-presa/guvernul-aprobat-cuantumul-salariului-minim-si-mediu-pentru-anul-2026"
+        },
+        {
+          "name": "Biroul Național de Statistică — salariul mediu realizat",
+          "url": "https://statistica.gov.md/ro?lang=ro"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Calculul de mai sus este o ilustrare, nu o măsurătoare. Consumul de 150 m³ pe lună este o ipoteză de lucru pentru o gospodărie care se încălzește cu gaz; cel real variază enorm după izolarea locuinței, suprafață, sursa de încălzire și lună. O locuință la bloc, cu încălzire centralizată, are altă factură.",
+      "sources": [
+        {
+          "name": "ANRE — informații privind tarifele și consumul",
+          "url": "https://anre.md/"
+        }
+      ]
+    },
+    {
+      "text": "Salariul mediu este o cifră care ascunde mai mult decât arată. Nu spune nimic despre mediană — adică despre salariul de la mijlocul distribuției, sub care se află jumătate dintre angajați — și nu acoperă pensionarii, care nu au salariu deloc. Pentru o gospodărie de pensionari, procentul din venit e mult mai mare.",
+      "sources": [
+        {
+          "name": "Biroul Național de Statistică — metodologia statisticii salariilor",
+          "url": "https://statistica.gov.md/ro?lang=ro"
+        }
+      ]
+    },
+    {
+      "text": "Nu se probează afirmația, întâlnită în comentarii, că statul ar fi „lăsat oamenii fără sprijin”. Există mecanisme de compensare a facturilor la energie, iar dimensiunea lor pentru sezonul 2026-2027 nu era stabilită la data acestui articol. Nici afirmația inversă — că sprijinul va acoperi scumpirea — nu se poate proba încă.",
+      "sources": [
+        {
+          "name": "Guvernul Republicii Moldova — comunicate privind măsurile de protecție socială",
+          "url": "https://gov.md/ro/comunicate-de-presa"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Am făcut calculul fiindcă nimeni nu-l face în comunicate, iar fără el procentul de 41% rămâne o abstracție. 882 de lei în plus pe lună, într-o gospodărie unde intră un salariu mediu, înseamnă că gazul mănâncă aproape o cincime din venitul brut al lunii. Cifra nu spune cine e vinovat și nici nu susține vreo tabără — costul de procurare chiar a crescut, asta e probat. Spune doar unde ajunge factura: la masa unde se decide dacă se dă drumul la căldură. Iar când ajunge acolo, discuția despre tarife nu mai e despre economie, e despre iarnă.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-cat-din-salariu-inseamna-factura-la-gaz.jpg\" alt=\"euro banknotes coins\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — euro banknotes coins. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Croatian_euro_coins_(2).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Croatian euro coins (2)</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-cat-din-salariu-inseamna-factura-la-gaz.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
   }
- ],
- "contestat": [
-  {
-   "text": "Calculul de mai sus este o ilustrare, nu o măsurătoare. Consumul de 150 m³ pe lună este o ipoteză de lucru pentru o gospodărie care se încălzește cu gaz; cel real variază enorm după izolarea locuinței, suprafață, sursa de încălzire și lună. O locuință la bloc, cu încălzire centralizată, are altă factură.",
-   "sources": [
-    {"name": "ANRE — informații privind tarifele și consumul", "url": "https://anre.md/"}
-   ]
-  },
-  {
-   "text": "Salariul mediu este o cifră care ascunde mai mult decât arată. Nu spune nimic despre mediană — adică despre salariul de la mijlocul distribuției, sub care se află jumătate dintre angajați — și nu acoperă pensionarii, care nu au salariu deloc. Pentru o gospodărie de pensionari, procentul din venit e mult mai mare.",
-   "sources": [
-    {"name": "Biroul Național de Statistică — metodologia statisticii salariilor", "url": "https://statistica.gov.md/ro?lang=ro"}
-   ]
-  },
-  {
-   "text": "Nu se probează afirmația, întâlnită în comentarii, că statul ar fi „lăsat oamenii fără sprijin”. Există mecanisme de compensare a facturilor la energie, iar dimensiunea lor pentru sezonul 2026-2027 nu era stabilită la data acestui articol. Nici afirmația inversă — că sprijinul va acoperi scumpirea — nu se poate proba încă.",
-   "sources": [
-    {"name": "Guvernul Republicii Moldova — comunicate privind măsurile de protecție socială", "url": "https://gov.md/ro/comunicate-de-presa"}
-   ]
-  }
- ],
- "opinie": [],
- "aiNote": "Am făcut calculul fiindcă nimeni nu-l face în comunicate, iar fără el procentul de 41% rămâne o abstracție. 882 de lei în plus pe lună, într-o gospodărie unde intră un salariu mediu, înseamnă că gazul mănâncă aproape o cincime din venitul brut al lunii. Cifra nu spune cine e vinovat și nici nu susține vreo tabără — costul de procurare chiar a crescut, asta e probat. Spune doar unde ajunge factura: la masa unde se decide dacă se dă drumul la căldură. Iar când ajunge acolo, discuția despre tarife nu mai e despre economie, e despre iarnă.",
- "persoane": []
 }

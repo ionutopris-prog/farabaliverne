@@ -1,65 +1,99 @@
 {
- "slug": "moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie",
- "title": "Concertul de Ziua Independenței a costat aproape 10 milioane de lei, fără licitație publică. Guvernul spune că a „redus costurile cu 21%”",
- "category": "Economie",
- "tara": "Moldova",
- "date": "2026-08-31",
- "source": "RISE Moldova / NewsMaker.md",
- "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/",
- "dek": "O investigație RISE Moldova, publicată pe 29 august 2026, a arătat că bugetul concertului de 35 de ani de independență a crescut de la 500.000 la 10 milioane de lei, iar contractul a fost atribuit direct instituției „Moldova-Concert”, fără licitație publică. Guvernul răspunde că a renegociat și a redus suma cu 2,75 milioane de lei față de varianta inițială — dar nu răspunde la întrebarea de ce nu a organizat o licitație pentru o sărbătoare care are, în fiecare an, aceeași dată fixă.",
- "mainVerdict": "Probat, cu rezerve",
- "probat": [
-  {
-   "text": "Ministerul Culturii și-a modificat planul anual de achiziții pe 30 iulie 2026 — cu mai puțin de o lună înainte de eveniment — majorând bugetul alocat concertului de Ziua Independenței de la 500.000 de lei la 10 milioane de lei.",
-   "sources": [
-    {"name": "NewsMaker.md — Ziua Independenței, organizată cu circa 10 mln de lei și fără licitație publică: investigație RISE Moldova", "url": "https://newsmaker.md/ro/ziua-independen%C8%9Bei-organizat%C4%83-cu-circa-10-mln-de-lei-%C8%99i-f%C4%83r%C4%83-licita%C8%9Bie-public%C4%83-investiga%C8%9Bie-rise-moldova"},
-    {"name": "RISE Moldova — Cum statul (nu) a strâns cureaua de Ziua Independenței", "url": "https://www.rise.md/cum-statul-nu-a-strans-cureaua-de-ziua-independentei/"}
-   ]
+  "slug": "moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie",
+  "title": "Concertul de Ziua Independenței a costat aproape 10 milioane de lei, fără licitație publică. Guvernul spune că a „redus costurile cu 21%”",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-08-31",
+  "source": "RISE Moldova / NewsMaker.md",
+  "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/",
+  "dek": "O investigație RISE Moldova, publicată pe 29 august 2026, a arătat că bugetul concertului de 35 de ani de independență a crescut de la 500.000 la 10 milioane de lei, iar contractul a fost atribuit direct instituției „Moldova-Concert”, fără licitație publică. Guvernul răspunde că a renegociat și a redus suma cu 2,75 milioane de lei față de varianta inițială — dar nu răspunde la întrebarea de ce nu a organizat o licitație pentru o sărbătoare care are, în fiecare an, aceeași dată fixă.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Ministerul Culturii și-a modificat planul anual de achiziții pe 30 iulie 2026 — cu mai puțin de o lună înainte de eveniment — majorând bugetul alocat concertului de Ziua Independenței de la 500.000 de lei la 10 milioane de lei.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — Ziua Independenței, organizată cu circa 10 mln de lei și fără licitație publică: investigație RISE Moldova",
+          "url": "https://newsmaker.md/ro/ziua-independen%C8%9Bei-organizat%C4%83-cu-circa-10-mln-de-lei-%C8%99i-f%C4%83r%C4%83-licita%C8%9Bie-public%C4%83-investiga%C8%9Bie-rise-moldova"
+        },
+        {
+          "name": "RISE Moldova — Cum statul (nu) a strâns cureaua de Ziua Independenței",
+          "url": "https://www.rise.md/cum-statul-nu-a-strans-cureaua-de-ziua-independentei/"
+        }
+      ]
+    },
+    {
+      "text": "Contractul pentru organizarea evenimentului a fost atribuit direct instituției publice „Moldova-Concert”, printr-o procedură de negociere fără publicarea prealabilă a unui anunț de participare — adică fără licitație publică. Ordinul de atribuire a fost semnat pe 25 august, cu două zile înainte de eveniment, deși lucrările începuseră deja.",
+      "sources": [
+        {
+          "name": "RISE Moldova — investigația inițială despre atribuirea contractului",
+          "url": "https://www.rise.md/cum-statul-nu-a-strans-cureaua-de-ziua-independentei/"
+        }
+      ]
+    },
+    {
+      "text": "Purtătorul de cuvânt al Guvernului, Dumitru Ciorici, a răspuns că premierul Vasile Tofan a cerut revizuirea conceptului și a costurilor, iar suma finală a fost redusă cu 2.751.697 lei față de o variantă care ajunsese la peste 12,6 milioane de lei — o reducere de peste 21%, la 9.858.843 de lei. Conceptul inițial includea amenajarea a 35 de coloane luminoase (una pentru fiecare an de independență) și instalarea mai multor ecrane video; suma finală a acoperit scena, sistemele de iluminat, panourile LED, onorariile artiștilor, două repetiții generale, logistica și transmisiunea televizată.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — Cum explică Guvernul cheltuielile pentru concertul de Ziua Independenței",
+          "url": "https://newsmaker.md/ro/cum-justific%C4%83-guvernul-cheltuielile-pentru-concertul-de-ziua-independen%C8%9Bei-ciorici-costurile-au-fost-reduse-cu-peste-27-mln-lei"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul, învestit pe 22 iulie 2026 sub premierul Vasile Tofan, a avut sub o lună la dispoziție pentru a organiza sărbătorile de Ziua Independenței, motiv pentru care a invocat urgența drept justificare pentru absența licitației publice: „intervalul rămas până la 27 august nu ar fi permis desfășurarea procedurii de achiziție”.",
+      "sources": [
+        {
+          "name": "RISE Moldova — justificarea urgenței, citată în răspunsul Guvernului",
+          "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Justificarea prin urgență e contestată de experți în achiziții publice — printre care Diana Enachi, citată de RISE Moldova — pentru care argumentul nu se susține: Ziua Independenței cade pe 27 august în fiecare an, la o dată fixă, cunoscută cu un an înainte, deci absența unei licitații nu poate fi pusă pe seama unui termen imprevizibil.",
+      "sources": [
+        {
+          "name": "RISE Moldova — critica experților în achiziții publice",
+          "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/"
+        }
+      ]
+    },
+    {
+      "text": "Nu se poate verifica independent, din documentele publicate până acum, cum anume s-a ajuns la reducerea declarată de 2,75 milioane de lei — Guvernul nu a publicat oferta inițială, negocierile sau un deviz detaliat, iar RISE Moldova a scris că Ministerul Culturii nu a transmis, la cerere, contractul și bugetul detaliat, trimițând jurnaliștii către Registrul Buletinelor de Achiziții Publice, unde documentele nu au fost identificate.",
+      "sources": [
+        {
+          "name": "RISE Moldova — cererea de acces la informație rămasă fără răspuns complet",
+          "url": "https://www.rise.md/cum-statul-nu-a-strans-cureaua-de-ziua-independentei/"
+        }
+      ]
+    },
+    {
+      "text": "Nu e un precedent izolat: în perioada 2023-2025, concertele de Ziua Independenței au costat între 4,6 și 10 milioane de lei, iar niciunul dintre contracte nu a trecut printr-o licitație publică — deci practica achiziției directe la acest eveniment nu a apărut abia anul acesta, cu acest guvern.",
+      "sources": [
+        {
+          "name": "RISE Moldova — istoricul costurilor din anii anteriori",
+          "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "12.610.540 − 2.751.697 = 9.858.843 lei — aritmetica bate, procentul de „21%” e corect",
+    "text": "Guvernul spune că a redus costurile cu 2.751.697 de lei față de o variantă de peste 12,6 milioane de lei, ajungând la 9.858.843 de lei. Scăderea aritmetică e corectă: 12.610.540 − 2.751.697 = 9.858.843. Iar 2.751.697 ÷ 12.610.540 ≈ 0,218, adică circa 21,8% — deci procentul de „peste 21%” invocat de Ciorici se verifică matematic pe cifrele pe care chiar Guvernul le-a pus pe masă. Ce nu se verifică independent e dacă varianta de 12,6 milioane a fost vreodată o ofertă reală, negociată cu un furnizor, sau doar un punct de plecare intern, ales tocmai ca să facă reducerea să pară mai mare."
   },
-  {
-   "text": "Contractul pentru organizarea evenimentului a fost atribuit direct instituției publice „Moldova-Concert”, printr-o procedură de negociere fără publicarea prealabilă a unui anunț de participare — adică fără licitație publică. Ordinul de atribuire a fost semnat pe 25 august, cu două zile înainte de eveniment, deși lucrările începuseră deja.",
-   "sources": [
-    {"name": "RISE Moldova — investigația inițială despre atribuirea contractului", "url": "https://www.rise.md/cum-statul-nu-a-strans-cureaua-de-ziua-independentei/"}
-   ]
-  },
-  {
-   "text": "Purtătorul de cuvânt al Guvernului, Dumitru Ciorici, a răspuns că premierul Vasile Tofan a cerut revizuirea conceptului și a costurilor, iar suma finală a fost redusă cu 2.751.697 lei față de o variantă care ajunsese la peste 12,6 milioane de lei — o reducere de peste 21%, la 9.858.843 de lei. Conceptul inițial includea amenajarea a 35 de coloane luminoase (una pentru fiecare an de independență) și instalarea mai multor ecrane video; suma finală a acoperit scena, sistemele de iluminat, panourile LED, onorariile artiștilor, două repetiții generale, logistica și transmisiunea televizată.",
-   "sources": [
-    {"name": "NewsMaker.md — Cum explică Guvernul cheltuielile pentru concertul de Ziua Independenței", "url": "https://newsmaker.md/ro/cum-justific%C4%83-guvernul-cheltuielile-pentru-concertul-de-ziua-independen%C8%9Bei-ciorici-costurile-au-fost-reduse-cu-peste-27-mln-lei"}
-   ]
-  },
-  {
-   "text": "Guvernul, învestit pe 22 iulie 2026 sub premierul Vasile Tofan, a avut sub o lună la dispoziție pentru a organiza sărbătorile de Ziua Independenței, motiv pentru care a invocat urgența drept justificare pentru absența licitației publice: „intervalul rămas până la 27 august nu ar fi permis desfășurarea procedurii de achiziție”.",
-   "sources": [
-    {"name": "RISE Moldova — justificarea urgenței, citată în răspunsul Guvernului", "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/"}
-   ]
+  "aiNote": "Aici nu e o poveste despre o cifră inventată — 9,86 milioane de lei pentru un concert e o cifră reală, pe care chiar Guvernul o confirmă. Miza e alta: banii ăștia au fost cheltuiți fără ca vreo firmă concurentă să poată depune o ofertă mai mică, pentru un eveniment a cărui dată se știe de 35 de ani. „Nu am avut timp” e o explicație plauzibilă pentru un guvern instalat cu o lună înainte de eveniment — dar devine mult mai greu de crezut când afli că, în fiecare an din 2023 încoace, exact aceeași scurtătură a fost folosită, indiferent cine era la guvernare.\n\nCe s-a verificat: bugetul inițial din planul de achiziții (500.000 lei), bugetul majorat (10 milioane), atribuirea directă fără licitație, cifrele exacte ale „reducerii” anunțate de Ciorici — toate confirmate fie din documente publice, fie din declarațiile oficiale ale Guvernului însuși.\n\nUnde se despart sursele: RISE Moldova pune accentul pe absența licitației și pe refuzul Ministerului Culturii de a furniza documentele cerute; Guvernul pune accentul pe reducerea de 21% negociată la solicitarea premierului. Ambele afirmații pot fi adevărate simultan — nu se contrazic, doar privesc povestea din unghiuri diferite.\n\nCe lipsește: oferta sau devizul care ar arăta cum s-a ajuns exact la cifra de 12,6 milioane de lei înainte de reducere, și dacă „Moldova-Concert” a primit vreo ofertă concurentă informală, chiar dacă nu printr-o licitație formală.\n\nCe ar schimba concluzia: publicarea integrală a contractului și a devizului de cheltuieli, cerută de RISE Moldova și, până la data acestui articol, netransmisă.",
+  "persoane": [
+    "Dumitru Ciorici",
+    "Vasile Tofan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.jpg\" alt=\"Victoria Palace Bucharest\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Victoria Palace Bucharest. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania,_Piata_Victoriei,_Palatul_Guvernului_Romaniei_(8);_B-II-m-A-19877.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Bucuresti, Romania, Piata Victoriei, Palatul Guvernului Romaniei (8); B-II-m-A-19877</a>\" de Britchi Mirela, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 ro</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-concert-ziua-independentei-10-milioane-lei-fara-licitatie.jpg",
+    "licenta": "CC BY-SA 3.0 ro",
+    "autor": "Britchi Mirela"
   }
- ],
- "contestat": [
-  {
-   "text": "Justificarea prin urgență e contestată de experți în achiziții publice — printre care Diana Enachi, citată de RISE Moldova — pentru care argumentul nu se susține: Ziua Independenței cade pe 27 august în fiecare an, la o dată fixă, cunoscută cu un an înainte, deci absența unei licitații nu poate fi pusă pe seama unui termen imprevizibil.",
-   "sources": [
-    {"name": "RISE Moldova — critica experților în achiziții publice", "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/"}
-   ]
-  },
-  {
-   "text": "Nu se poate verifica independent, din documentele publicate până acum, cum anume s-a ajuns la reducerea declarată de 2,75 milioane de lei — Guvernul nu a publicat oferta inițială, negocierile sau un deviz detaliat, iar RISE Moldova a scris că Ministerul Culturii nu a transmis, la cerere, contractul și bugetul detaliat, trimițând jurnaliștii către Registrul Buletinelor de Achiziții Publice, unde documentele nu au fost identificate.",
-   "sources": [
-    {"name": "RISE Moldova — cererea de acces la informație rămasă fără răspuns complet", "url": "https://www.rise.md/cum-statul-nu-a-strans-cureaua-de-ziua-independentei/"}
-   ]
-  },
-  {
-   "text": "Nu e un precedent izolat: în perioada 2023-2025, concertele de Ziua Independenței au costat între 4,6 și 10 milioane de lei, iar niciunul dintre contracte nu a trecut printr-o licitație publică — deci practica achiziției directe la acest eveniment nu a apărut abia anul acesta, cu acest guvern.",
-   "sources": [
-    {"name": "RISE Moldova — istoricul costurilor din anii anteriori", "url": "https://www.rise.md/guvernul-explica-cum-a-strans-cureaua-de-ziua-independentei-am-redus-costurile-cu-peste-21/"}
-   ]
-  }
- ],
- "opinie": [],
- "math": {
-  "title": "12.610.540 − 2.751.697 = 9.858.843 lei — aritmetica bate, procentul de „21%” e corect",
-  "text": "Guvernul spune că a redus costurile cu 2.751.697 de lei față de o variantă de peste 12,6 milioane de lei, ajungând la 9.858.843 de lei. Scăderea aritmetică e corectă: 12.610.540 − 2.751.697 = 9.858.843. Iar 2.751.697 ÷ 12.610.540 ≈ 0,218, adică circa 21,8% — deci procentul de „peste 21%” invocat de Ciorici se verifică matematic pe cifrele pe care chiar Guvernul le-a pus pe masă. Ce nu se verifică independent e dacă varianta de 12,6 milioane a fost vreodată o ofertă reală, negociată cu un furnizor, sau doar un punct de plecare intern, ales tocmai ca să facă reducerea să pară mai mare."
- },
- "aiNote": "Aici nu e o poveste despre o cifră inventată — 9,86 milioane de lei pentru un concert e o cifră reală, pe care chiar Guvernul o confirmă. Miza e alta: banii ăștia au fost cheltuiți fără ca vreo firmă concurentă să poată depune o ofertă mai mică, pentru un eveniment a cărui dată se știe de 35 de ani. „Nu am avut timp” e o explicație plauzibilă pentru un guvern instalat cu o lună înainte de eveniment — dar devine mult mai greu de crezut când afli că, în fiecare an din 2023 încoace, exact aceeași scurtătură a fost folosită, indiferent cine era la guvernare.\n\nCe s-a verificat: bugetul inițial din planul de achiziții (500.000 lei), bugetul majorat (10 milioane), atribuirea directă fără licitație, cifrele exacte ale „reducerii” anunțate de Ciorici — toate confirmate fie din documente publice, fie din declarațiile oficiale ale Guvernului însuși.\n\nUnde se despart sursele: RISE Moldova pune accentul pe absența licitației și pe refuzul Ministerului Culturii de a furniza documentele cerute; Guvernul pune accentul pe reducerea de 21% negociată la solicitarea premierului. Ambele afirmații pot fi adevărate simultan — nu se contrazic, doar privesc povestea din unghiuri diferite.\n\nCe lipsește: oferta sau devizul care ar arăta cum s-a ajuns exact la cifra de 12,6 milioane de lei înainte de reducere, și dacă „Moldova-Concert” a primit vreo ofertă concurentă informală, chiar dacă nu printr-o licitație formală.\n\nCe ar schimba concluzia: publicarea integrală a contractului și a devizului de cheltuieli, cerută de RISE Moldova și, până la data acestui articol, netransmisă.",
- "persoane": ["Dumitru Ciorici", "Vasile Tofan"]
 }

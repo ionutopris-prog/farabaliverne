@@ -11,27 +11,45 @@
     {
       "text": "Comitetul Federal pentru Piața Deschisă (FOMC) a votat, la întâlnirea din 28-29 iulie 2026, cu 9 voturi pentru 3, să mențină dobânda de referință în intervalul 3,5%-3,75% — a cincea întâlnire consecutivă fără nicio schimbare. Minuta acestei întâlniri a fost publicată miercuri, 19 august 2026, la ora 14:00 (ora Washingtonului), conform calendarului oficial al Fed.",
       "sources": [
-        {"name": "Rezerva Federală — calendarul oficial de publicare a minutei din august 2026", "url": "https://www.federalreserve.gov/newsevents/2026-august.htm"},
-        {"name": "Yahoo Finance — Fed July 2026 FOMC minutes: rate hike debate details", "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"}
+        {
+          "name": "Rezerva Federală — calendarul oficial de publicare a minutei din august 2026",
+          "url": "https://www.federalreserve.gov/newsevents/2026-august.htm"
+        },
+        {
+          "name": "Yahoo Finance — Fed July 2026 FOMC minutes: rate hike debate details",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"
+        }
       ]
     },
     {
       "text": "Trei președinți de bănci regionale — Beth M. Hammack (Cleveland), Neel Kashkari (Minneapolis) și Lorie K. Logan (Dallas) — au votat împotriva menținerii, preferând fiecare o majorare de un sfert de punct procentual. Niciun membru al Consiliului de Guvernatori al Fed nu s-a alăturat disidenței — cei trei sunt exclusiv președinți de bănci regionale, nu guvernatori numiți de președintele SUA.",
       "sources": [
-        {"name": "Yahoo Finance — cei trei disidenți și motivele lor", "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"},
-        {"name": "Tech Times — Three Fed Dissenters Signal September Hike Is Live After Most Hawkish FOMC Vote in Nearly Ten Years", "url": "https://www.techtimes.com/articles/322145/20260729/three-fed-dissenters-signal-september-hike-live-after-most-hawkish-fomc-vote-nearly-ten-years.htm"}
+        {
+          "name": "Yahoo Finance — cei trei disidenți și motivele lor",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"
+        },
+        {
+          "name": "Tech Times — Three Fed Dissenters Signal September Hike Is Live After Most Hawkish FOMC Vote in Nearly Ten Years",
+          "url": "https://www.techtimes.com/articles/322145/20260729/three-fed-dissenters-signal-september-hike-live-after-most-hawkish-fomc-vote-nearly-ten-years.htm"
+        }
       ]
     },
     {
       "text": "Minuta arată că poziția favorabilă unei majorări depășea cei trei disidenți: potrivit citatelor din document, participanții au discutat că „o înăsprire a politicii monetare ar fi probabil necesară dacă inflația nu scade”, iar unii oficiali au considerat că actualele condiții financiare ar putea să nu fie suficient de restrictive pentru a readuce inflația la ținta de 2%. Unii dintre cei care au votat pentru menținere au argumentat că o majorare în iulie „ar fi ajutat probabil la evitarea unei secvențe ulterioare de înăspriri mai abrupte și potențial mai costisitoare”.",
       "sources": [
-        {"name": "Yahoo Finance — citate din minuta FOMC", "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"}
+        {
+          "name": "Yahoo Finance — citate din minuta FOMC",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"
+        }
       ]
     },
     {
       "text": "Contextul economic de la data întâlnirii (finalul lui iulie): inflația PCE totală era de 4,1% și cea „core” (fără alimente și energie) de 3,4%, ambele în ușoară scădere față de mai 2026; rata șomajului era de 4,2% în iunie, iar creșterea salariilor depășea ritmul anului anterior — condiții descrise în minută drept „stabile”.",
       "sources": [
-        {"name": "Yahoo Finance — datele de inflație și piața muncii citate în minută", "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"}
+        {
+          "name": "Yahoo Finance — datele de inflație și piața muncii citate în minută",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"
+        }
       ]
     }
   ],
@@ -39,12 +57,24 @@
     {
       "text": "De la întâlnirea din iulie, datele apărute între timp au complicat imaginea: numărul de locuri de muncă din sectorul non-agricol a scăzut în iulie, iar inflația „core” a venit mai temperată decât se aștepta. Ca urmare, piețele financiare și-au redus estimările privind o eventuală majorare de dobândă în septembrie — exact opusul direcției sugerate de tonul minutei din iulie. Minuta reflectă starea de spirit din iulie, nu neapărat poziția actuală a Comitetului.",
       "sources": [
-        {"name": "Yahoo Finance — datele ulterioare și reevaluarea așteptărilor pentru septembrie", "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"}
+        {
+          "name": "Yahoo Finance — datele ulterioare și reevaluarea așteptărilor pentru septembrie",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-july-2026-fomc-minutes-181529233.html"
+        }
       ]
     }
   ],
   "opinie": [
-    {"text": "Descrierea acestui vot drept „cel mai divizat” sau „cel mai hawkish din ultimii zece ani” (formulare folosită de unele publicații) este o interpretare jurnalistică asupra semnificației istorice a disidenței — corectă ca observație asupra numărului de disidenți, dar o judecată de valoare, nu o cifră oficială a Fed."}
+    {
+      "text": "Descrierea acestui vot drept „cel mai divizat” sau „cel mai hawkish din ultimii zece ani” (formulare folosită de unele publicații) este o interpretare jurnalistică asupra semnificației istorice a disidenței — corectă ca observație asupra numărului de disidenți, dar o judecată de valoare, nu o cifră oficială a Fed."
+    }
   ],
-  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: votul oficial 9-3, identitatea celor trei disidenți și citatele din minuta publicată de Fed, confirmate concordant de mai multe publicații financiare (Yahoo Finance, Tech Times, CNBC).\n\nUnde sursele adaugă nuanță: minuta reflectă poziția Comitetului din 28-29 iulie, nu poziția actuală — datele economice apărute ulterior (scăderea locurilor de muncă, inflație core mai mică) au împins așteptările pieței în direcția opusă disidenței, către o pauză sau chiar o relaxare, nu o majorare.\n\nCe ar schimba concluzia: următoarea întâlnire a FOMC și datele de inflație/ocupare publicate până atunci — acestea vor arăta dacă tabăra „hawkish” din iulie a rămas minoritară sau a câștigat teren."
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: votul oficial 9-3, identitatea celor trei disidenți și citatele din minuta publicată de Fed, confirmate concordant de mai multe publicații financiare (Yahoo Finance, Tech Times, CNBC).\n\nUnde sursele adaugă nuanță: minuta reflectă poziția Comitetului din 28-29 iulie, nu poziția actuală — datele economice apărute ulterior (scăderea locurilor de muncă, inflație core mai mică) au împins așteptările pieței în direcția opusă disidenței, către o pauză sau chiar o relaxare, nu o majorare.\n\nCe ar schimba concluzia: următoarea întâlnire a FOMC și datele de inflație/ocupare publicate până atunci — acestea vor arăta dacă tabăra „hawkish” din iulie a rămas minoritară sau a câștigat teren.",
+  "poza": {
+    "img_html": "<img src=\"../img/articole/fed-minuta-iulie-trei-disidenti-majorare-dobanda.jpg\" alt=\"Federal Reserve building Washington\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Federal Reserve building Washington. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2025 construction Eccles Federal Reserve Building Washington DC 2025-02-10 12-05-42</a>\" de G. Edward Johnson, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/fed-minuta-iulie-trei-disidenti-majorare-dobanda.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "G. Edward Johnson"
+  }
 }

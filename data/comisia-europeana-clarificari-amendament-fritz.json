@@ -78,5 +78,15 @@
     "explanation": "10 primari + 17 consilieri locali/județeni + 9 viceprimari/administratori/secretari generali + 13 funcționari publici + 6 persoane cu alte funcții = 55. Defalcarea publicată de ANI e coerentă aritmetic cu cifra totală vehiculată în presă."
   },
   "aiNote": "Ce s-a verificat exact: că directoarea DG JUST, Ana Gallego, a trimis o scrisoare oficială către România pe 1 septembrie 2026, cu termen de două săptămâni, și că amendamentul „Fritz” (Legea 180/2026, în vigoare din 31 august) scoate din funcție 55 de persoane, potrivit numărătorii publicate de ANI. Ambele fapte sunt confirmate concordant de mai multe redacții.\n\nUnde se despart sursele: nu pe fapte, ci pe cadrul în care le pun. HotNews leagă direct cererea de clarificări de riscul pentru „ultimele plăți din PNRR”, sugerând că neclaritatea juridică ar putea bloca banii. Alte redacții relatează cererea ca pe un pas administrativ normal — Comisia cere explicații ori de câte ori o reformă are impact asupra unor persoane cu mandat electiv, fără ca asta să însemne automat suspendarea plății.\n\nCe lipsește: textul integral al scrisorii Comisiei nu a fost făcut public, așa că nu se poate confirma din sursă primară dacă cele șapte puncte de clarificare includ sau nu o amenințare explicită legată de jalonul de 770 de milioane de euro. Nu se știe nici cum va răspunde România în cele două săptămâni, nici dacă răspunsul va fi considerat satisfăcător de Comisie.\n\nCe ar schimba concluzia: publicarea scrisorii Comisiei sau o declarație oficială de la Bruxelles care să spună explicit dacă plata e sau nu condiționată de acest răspuns.",
-  "persoane": ["Dominic Fritz", "Nicușor Dan"]
+  "persoane": [
+    "Dominic Fritz",
+    "Nicușor Dan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/comisia-europeana-clarificari-amendament-fritz.jpg\" alt=\"European Commission Berlaymont Brussels\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — European Commission Berlaymont Brussels. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Belgique - Bruxelles - Schuman - Berlaymont - 01</a>\" de EmDee, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/comisia-europeana-clarificari-amendament-fritz.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "EmDee"
+  }
 }

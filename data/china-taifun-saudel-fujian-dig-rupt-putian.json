@@ -11,20 +11,32 @@
     {
       "text": "Taifunul Saudel a făcut al treilea impact cu uscatul chinez în dimineața zilei de 3 septembrie 2026, pe coasta provinciei Fujian, după ce s-a reintensificat deasupra Mării Chinei de Sud. Este al șaptelea taifun care lovește China în 2026 și al treilea care atinge orașul Yuhuan, din Zhejiang, în mai puțin de două luni — o secvență meteorologică pe care meteorologii citați o descriu drept „extrem de rară”.",
       "sources": [
-        {"name": "US News (AP) — Typhoon Saudel brings torrential rain, flooding to China's coastal areas", "url": "https://www.usnews.com/news/world/articles/2026-09-03/typhoon-saudel-brings-torrential-rain-flooding-to-chinas-coastal-areas"},
-        {"name": "Dawn — Typhoon Saudel brings torrential rain, flooding to China's coastal areas", "url": "https://www.dawn.com/news/2027430/typhoon-saudel-brings-torrential-rain-flooding-to-chinas-coastal-areas"}
+        {
+          "name": "US News (AP) — Typhoon Saudel brings torrential rain, flooding to China's coastal areas",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-03/typhoon-saudel-brings-torrential-rain-flooding-to-chinas-coastal-areas"
+        },
+        {
+          "name": "Dawn — Typhoon Saudel brings torrential rain, flooding to China's coastal areas",
+          "url": "https://www.dawn.com/news/2027430/typhoon-saudel-brings-torrential-rain-flooding-to-chinas-coastal-areas"
+        }
       ]
     },
     {
       "text": "Lângă orașul Putian (Fujian), un dig s-a rupt în jurul orei 15:00 joi, inundând mai multe sate din orașul Huating; autoritățile locale, citate de agenția de stat Xinhua, au declarat că peste 100 de case s-au prăbușit și că „mai mulți locuitori rămân de negăsit”, fără să precizeze un număr exact. Din districtul Chengxiang au fost evacuate 1.261 de persoane, iar 30 de adăposturi pentru dezastre au fost activate.",
       "sources": [
-        {"name": "The Star (Bernama/Xinhua) — Multiple people missing after rainstorms in east China", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/04/multiple-people-missing-after-rainstorms-in-east-china"}
+        {
+          "name": "The Star (Bernama/Xinhua) — Multiple people missing after rainstorms in east China",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/04/multiple-people-missing-after-rainstorms-in-east-china"
+        }
       ]
     },
     {
       "text": "Peste 83.700 de oameni au fost evacuați doar în Fujian, iar „sute de mii” au fost strămutați în Zhejiang și provinciile învecinate începând de la sfârșitul lunii august, pe măsură ce taifunul a lovit repetat regiunea. O clădire cu trei etaje s-a prăbușit în satul Jinxi, iar poduri au fost avariate în Putian.",
       "sources": [
-        {"name": "Asharq Al-Awsat (Reuters) — Typhoon Saudel brings torrential rain, flooding to China's coastal areas", "url": "https://english.aawsat.com/world/5314544-typhoon-saudel-brings-torrential-rain-flooding-china%E2%80%99s-coastal-areas"}
+        {
+          "name": "Asharq Al-Awsat (Reuters) — Typhoon Saudel brings torrential rain, flooding to China's coastal areas",
+          "url": "https://english.aawsat.com/world/5314544-typhoon-saudel-brings-torrential-rain-flooding-china%E2%80%99s-coastal-areas"
+        }
       ]
     }
   ],
@@ -38,7 +50,14 @@
   "math": {
     "title": "3 impacturi în 2 luni, pe aceeași bucată de coastă",
     "explanation": "Yuhuan, în Zhejiang, a fost lovit de trei ori de taifunuri diferite în mai puțin de două luni, iar Saudel e al șaptelea taifun al anului pentru toată China — un ritm neobișnuit de dens pentru un singur sezon, pe care meteorologii îl citează explicit ca fiind ieșit din tipar."
-    },
+  },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: că taifunul Saudel a atins uscatul a treia oară pe 3 septembrie 2026, în Fujian, și că a provocat ruperea unui dig lângă Putian, cu peste 100 de case prăbușite în orașul Huating. Faptele de bază — traseul taifunului, evacuările, prăbușirea digului — sunt confirmate independent de o depeșă a agenției Reuters (preluată de US News, Dawn și Asharq Al-Awsat) și de o relatare separată, cu detalii locale suplimentare, a agenției de stat chineze Xinhua (preluată de The Star/Bernama).\n\nUnde se despart sursele: nu se contrazic, dar au granularitate diferită. Reuters oferă tabloul general (traseul, istoricul repetat al taifunurilor, evacuările la scară largă), în timp ce Xinhua oferă detaliile hiperlocale despre Putian și Huating — cifre de evacuare exacte, ora ruperii digului. Am folosit Xinhua doar pentru fapte administrative necontestate (ore, cifre de evacuare, adăposturi activate), nu pentru vreo evaluare politică; pentru genul acesta de date brute despre dezastre naturale, presa de stat chineză e de regulă sursa cea mai rapidă și nu are, în acest caz, un interes evident să denatureze cifrele.\n\nCe lipsește: un bilanț oficial al morților sau al dispăruților din Huating. La ora publicării, autoritățile chineze foloseau doar formularea „mai mulți rămân de negăsit”, fără cifră — ceea ce e normal la câteva ore de la un dezastru, dar înseamnă că amploarea reală a tragediei nu se cunoaște încă.\n\nCe ar schimba concluzia: publicarea unui bilanț oficial al victimelor de către autoritățile din Fujian sau confirmarea/infirmarea numărului de dispăruți de o sursă independentă de presa chineză.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-taifun-saudel-fujian-dig-rupt-putian.jpg\" alt=\"Saudel\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Saudel. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1379Effects_of_Tropical_Storm_Saudel_08.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1379Effects of Tropical Storm Saudel 08</a>\" de Judgefloro, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-taifun-saudel-fujian-dig-rupt-putian.jpg",
+    "licenta": "CC0",
+    "autor": "Judgefloro"
+  }
 }

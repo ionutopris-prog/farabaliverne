@@ -1,50 +1,80 @@
 {
- "slug": "moldova-bnm-rata-baza-75-la-suta-credite-record",
- "title": "BNM a urcat rata de bază la 7,5%, cea mai mare din ultimii trei ani — dar moldovenii se împrumută în continuare, la niveluri record",
- "category": "Economie",
- "tara": "Moldova",
- "date": "2026-08-28",
- "source": "Banca Națională a Moldovei / Veridica.md / Realitatea.md / Unimedia",
- "url": "https://www.veridica.md/stiri/banca-nationala-majoreaza-rata-de-baza-la-75",
- "dek": "Comitetul executiv al Băncii Naționale a Moldovei a majorat, pe 6 august 2026, rata de bază de la 7% la 7,5% pe an — cel mai ridicat nivel din ultimii trei ani. Decizia vine în contextul unei „presiuni inflaționiste persistente”, spune BNM, deși inflația a scăzut ușor în trimestrul trei. În aceeași perioadă, creditele de consum și cele ipotecare au atins niveluri record, iar un economist spune că fenomenul e „greu de înțeles”.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Comitetul executiv al BNM a decis, la ședința din 6 august 2026, majorarea ratei de bază aplicate la principalele operațiuni de politică monetară pe termen scurt de la 7% la 7,5% anual. Rata rămâne sub maximul din perioada 2022-2023 (21,5% în august 2022, respectiv 10% în mai 2023), dar e cea mai mare din ultimii trei ani.",
-   "sources": [
-    {"name": "Veridica.md — Banca Națională majorează rata de bază la 7,5%", "url": "https://www.veridica.md/stiri/banca-nationala-majoreaza-rata-de-baza-la-75"},
-    {"name": "Bancamea.md — BNM majorează rata de bază la 7,5% pe fondul presiunilor inflaționiste", "url": "https://bancamea.md/news/bnm-majoreaza-rata-de-baza-la-75-pe-fondul-presiunilor-inflationiste"}
-   ]
-  },
-  {
-   "text": "BNM a motivat decizia prin „presiuni inflaționiste persistente”, printr-o cerere de consum ridicată pe fondul unor „șocuri persistente de pe partea ofertei” și prin nevoia de a readuce inflația anuală la ținta de 5%, cu o marjă de ±1,5 puncte procentuale. Banca a anunțat că va continua să ajusteze instrumentele de politică monetară în funcție de evoluțiile economice; următoarea ședință e programată pe 17 septembrie 2026.",
-   "sources": [
-    {"name": "Veridica.md — motivele oficiale ale BNM", "url": "https://www.veridica.md/stiri/banca-nationala-majoreaza-rata-de-baza-la-75"}
-   ]
-  },
-  {
-   "text": "Economistul Veaceslav Ioniță, de la IDIS „Viitorul”, a atras atenția asupra unei situații pe care o numește „mai puțin tradițională”: inflația scade, dar rata de bază crește. Potrivit lui, creditele de consum au atins 1,8 miliarde lei în luna iunie — cel mai ridicat nivel din istoria băncii centrale — iar creditele ipotecare au ajuns la 1,1 miliarde lei într-o singură lună, tot un record.",
-   "sources": [
-    {"name": "Realitatea.md — rata de bază, la cel mai înalt nivel din ultimii trei ani, dar moldovenii continuă să se împrumute", "url": "https://realitatea.md/rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-trei-ani-dar-moldovenii-continua-sa-se-imprumute-ce-spun-economistii/"},
-    {"name": "Unimedia — BNM a urcat rata de bază, dar moldovenii continuă să se împrumute", "url": "https://unimedia.info/ro/news/102e662f0612b882/bnm-a-urcat-rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-3-ani-dar-moldovenii-continua-sa-se-imprumute-ionita-vom-avea-o-posibila-crestere-a-preturilor.html"}
-   ]
-  },
-  {
-   "text": "Deși rata de bază a crescut, dobânzile medii percepute efectiv la creditele de consum au scăzut ușor de la an la an, de la circa 10% la 9,7%, iar dobânzile la depozite au urcat doar modest, de la 5,2% la 5,7%. Ioniță a remarcat, referitor la comportamentul populației: „în cazul creditelor, asta nu se întâmplă. Sunt insensibile la tot ce face BNM”.",
-   "sources": [
-    {"name": "Realitatea.md — datele despre dobânzile efective și declarația lui Ioniță", "url": "https://realitatea.md/rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-trei-ani-dar-moldovenii-continua-sa-se-imprumute-ce-spun-economistii/"}
-   ]
+  "slug": "moldova-bnm-rata-baza-75-la-suta-credite-record",
+  "title": "BNM a urcat rata de bază la 7,5%, cea mai mare din ultimii trei ani — dar moldovenii se împrumută în continuare, la niveluri record",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-08-28",
+  "source": "Banca Națională a Moldovei / Veridica.md / Realitatea.md / Unimedia",
+  "url": "https://www.veridica.md/stiri/banca-nationala-majoreaza-rata-de-baza-la-75",
+  "dek": "Comitetul executiv al Băncii Naționale a Moldovei a majorat, pe 6 august 2026, rata de bază de la 7% la 7,5% pe an — cel mai ridicat nivel din ultimii trei ani. Decizia vine în contextul unei „presiuni inflaționiste persistente”, spune BNM, deși inflația a scăzut ușor în trimestrul trei. În aceeași perioadă, creditele de consum și cele ipotecare au atins niveluri record, iar un economist spune că fenomenul e „greu de înțeles”.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Comitetul executiv al BNM a decis, la ședința din 6 august 2026, majorarea ratei de bază aplicate la principalele operațiuni de politică monetară pe termen scurt de la 7% la 7,5% anual. Rata rămâne sub maximul din perioada 2022-2023 (21,5% în august 2022, respectiv 10% în mai 2023), dar e cea mai mare din ultimii trei ani.",
+      "sources": [
+        {
+          "name": "Veridica.md — Banca Națională majorează rata de bază la 7,5%",
+          "url": "https://www.veridica.md/stiri/banca-nationala-majoreaza-rata-de-baza-la-75"
+        },
+        {
+          "name": "Bancamea.md — BNM majorează rata de bază la 7,5% pe fondul presiunilor inflaționiste",
+          "url": "https://bancamea.md/news/bnm-majoreaza-rata-de-baza-la-75-pe-fondul-presiunilor-inflationiste"
+        }
+      ]
+    },
+    {
+      "text": "BNM a motivat decizia prin „presiuni inflaționiste persistente”, printr-o cerere de consum ridicată pe fondul unor „șocuri persistente de pe partea ofertei” și prin nevoia de a readuce inflația anuală la ținta de 5%, cu o marjă de ±1,5 puncte procentuale. Banca a anunțat că va continua să ajusteze instrumentele de politică monetară în funcție de evoluțiile economice; următoarea ședință e programată pe 17 septembrie 2026.",
+      "sources": [
+        {
+          "name": "Veridica.md — motivele oficiale ale BNM",
+          "url": "https://www.veridica.md/stiri/banca-nationala-majoreaza-rata-de-baza-la-75"
+        }
+      ]
+    },
+    {
+      "text": "Economistul Veaceslav Ioniță, de la IDIS „Viitorul”, a atras atenția asupra unei situații pe care o numește „mai puțin tradițională”: inflația scade, dar rata de bază crește. Potrivit lui, creditele de consum au atins 1,8 miliarde lei în luna iunie — cel mai ridicat nivel din istoria băncii centrale — iar creditele ipotecare au ajuns la 1,1 miliarde lei într-o singură lună, tot un record.",
+      "sources": [
+        {
+          "name": "Realitatea.md — rata de bază, la cel mai înalt nivel din ultimii trei ani, dar moldovenii continuă să se împrumute",
+          "url": "https://realitatea.md/rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-trei-ani-dar-moldovenii-continua-sa-se-imprumute-ce-spun-economistii/"
+        },
+        {
+          "name": "Unimedia — BNM a urcat rata de bază, dar moldovenii continuă să se împrumute",
+          "url": "https://unimedia.info/ro/news/102e662f0612b882/bnm-a-urcat-rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-3-ani-dar-moldovenii-continua-sa-se-imprumute-ionita-vom-avea-o-posibila-crestere-a-preturilor.html"
+        }
+      ]
+    },
+    {
+      "text": "Deși rata de bază a crescut, dobânzile medii percepute efectiv la creditele de consum au scăzut ușor de la an la an, de la circa 10% la 9,7%, iar dobânzile la depozite au urcat doar modest, de la 5,2% la 5,7%. Ioniță a remarcat, referitor la comportamentul populației: „în cazul creditelor, asta nu se întâmplă. Sunt insensibile la tot ce face BNM”.",
+      "sources": [
+        {
+          "name": "Realitatea.md — datele despre dobânzile efective și declarația lui Ioniță",
+          "url": "https://realitatea.md/rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-trei-ani-dar-moldovenii-continua-sa-se-imprumute-ce-spun-economistii/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu se poate proba, din sursele publice, o singură explicație pentru decuplarea dintre rata de bază și volumul creditării. Ioniță a avertizat asupra unei posibile creșteri viitoare a prețurilor, dar a recunoscut că, deocamdată, „e greu de înțeles” de ce majorarea ratei nu descurajează împrumuturile — o admitere de incertitudine, nu o concluzie fermă.",
+      "sources": [
+        {
+          "name": "Realitatea.md — declarația lui Ioniță despre dificultatea explicării fenomenului",
+          "url": "https://realitatea.md/rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-trei-ani-dar-moldovenii-continua-sa-se-imprumute-ce-spun-economistii/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Ce s-a verificat: decizia oficială a BNM din 6 august 2026 (Veridica.md, Bancamea.md) și reacția economiștilor la datele de creditare publicate ulterior (Realitatea.md, Unimedia, citând IDIS „Viitorul”). Pe cifra brută a ratei de bază — de la 7% la 7,5% — sursele coincid.\n\nUnde e miza: manualul de politică monetară spune că o rată de bază mai mare ar trebui să scumpească împrumuturile și să încurajeze economisirea, ceea ce ar tempera cererea de consum și, prin ea, inflația. Datele arată exact opusul comportamentului așteptat — creditele de consum și cele ipotecare au atins recorduri istorice chiar în lunile de dinaintea și de după majorare, iar dobânzile efective practicate de bănci au rămas aproape neschimbate sau chiar au scăzut ușor. BNM însăși nu explică public această decuplare; economistul citat de presă recunoaște că nu are un răspuns clar.\n\nCe lipsește: o defalcare oficială a BNM despre cine se împrumută mai mult — gospodării cu venituri mici, care nu au altă opțiune decât creditul de consum, sau segmente cu venituri mai mari, care cumpără locuințe indiferent de costul creditului. Fără acea defalcare, nu se poate spune dacă majorarea ratei își atinge scopul declarat (temperarea cererii) sau doar scumpește creditul pentru cei care oricum trebuie să se împrumute.\n\nCe ar schimba concluzia: o analiză BNM pe segmente de venit ale debitorilor, sau datele din septembrie, după următoarea ședință a comitetului executiv, care ar arăta dacă tendința de creditare record continuă și la o rată eventual și mai mare.",
+  "persoane": [
+    "Veaceslav Ioniță"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-bnm-rata-baza-75-la-suta-credite-record.jpg\" alt=\"Chisinau government building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chisinau government building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chisinau_GouvernamentalBuilding.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chisinau GouvernamentalBuilding</a>\" de autor necunoscut, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-bnm-rata-baza-75-la-suta-credite-record.jpg",
+    "licenta": "Public domain",
+    "autor": "autor necunoscut"
   }
- ],
- "contestat": [
-  {
-   "text": "Nu se poate proba, din sursele publice, o singură explicație pentru decuplarea dintre rata de bază și volumul creditării. Ioniță a avertizat asupra unei posibile creșteri viitoare a prețurilor, dar a recunoscut că, deocamdată, „e greu de înțeles” de ce majorarea ratei nu descurajează împrumuturile — o admitere de incertitudine, nu o concluzie fermă.",
-   "sources": [
-    {"name": "Realitatea.md — declarația lui Ioniță despre dificultatea explicării fenomenului", "url": "https://realitatea.md/rata-de-baza-la-cel-mai-inalt-nivel-din-ultimii-trei-ani-dar-moldovenii-continua-sa-se-imprumute-ce-spun-economistii/"}
-   ]
-  }
- ],
- "opinie": [],
- "aiNote": "Ce s-a verificat: decizia oficială a BNM din 6 august 2026 (Veridica.md, Bancamea.md) și reacția economiștilor la datele de creditare publicate ulterior (Realitatea.md, Unimedia, citând IDIS „Viitorul”). Pe cifra brută a ratei de bază — de la 7% la 7,5% — sursele coincid.\n\nUnde e miza: manualul de politică monetară spune că o rată de bază mai mare ar trebui să scumpească împrumuturile și să încurajeze economisirea, ceea ce ar tempera cererea de consum și, prin ea, inflația. Datele arată exact opusul comportamentului așteptat — creditele de consum și cele ipotecare au atins recorduri istorice chiar în lunile de dinaintea și de după majorare, iar dobânzile efective practicate de bănci au rămas aproape neschimbate sau chiar au scăzut ușor. BNM însăși nu explică public această decuplare; economistul citat de presă recunoaște că nu are un răspuns clar.\n\nCe lipsește: o defalcare oficială a BNM despre cine se împrumută mai mult — gospodării cu venituri mici, care nu au altă opțiune decât creditul de consum, sau segmente cu venituri mai mari, care cumpără locuințe indiferent de costul creditului. Fără acea defalcare, nu se poate spune dacă majorarea ratei își atinge scopul declarat (temperarea cererii) sau doar scumpește creditul pentru cei care oricum trebuie să se împrumute.\n\nCe ar schimba concluzia: o analiză BNM pe segmente de venit ale debitorilor, sau datele din septembrie, după următoarea ședință a comitetului executiv, care ar arăta dacă tendința de creditare record continuă și la o rată eventual și mai mare.",
- "persoane": ["Veaceslav Ioniță"]
 }

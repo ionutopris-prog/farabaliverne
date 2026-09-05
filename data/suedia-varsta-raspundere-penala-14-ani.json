@@ -80,5 +80,12 @@
   "aiNote": "Sursele independente (Euronews, AFP, The Local Sweden, CTV News) converg pe faptele centrale: votul de 281 la 66 din 13 august 2026, coborârea vârstei răspunderii penale de la 15 la 14 ani, și intrarea în vigoare pe 10 septembrie 2026, cu trei zile înaintea alegerilor din 13 septembrie. Ce rămâne interpretare, nu fapt stabilit: dacă alegerea calendarului e o coincidență administrativă sau o manevră electorală — asta ține de poziționare politică, nu de un fapt verificabil independent. 🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
   "persoane": [
     "Ulf Kristersson"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/suedia-varsta-raspundere-penala-14-ani.jpg\" alt=\"ballot box voting\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — ballot box voting. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Afghan_man_at_the_ballot_box_during_Loya_jirga.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Afghan man at the ballot box during Loya jirga</a>\" de autor necunoscut, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/suedia-varsta-raspundere-penala-14-ani.jpg",
+    "licenta": "Public domain",
+    "autor": "autor necunoscut"
+  }
 }

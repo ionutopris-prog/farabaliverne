@@ -11,19 +11,28 @@
     {
       "text": "CXMT (ChangXin Memory Technologies) a debutat pe Bursa din Shanghai pe 27 iulie 2026, devenind „prima întreprindere de tehnologie hard-tech din semiconductoare care ocupă primul loc pe piața A-share după capitalizare” în cei 35 de ani de istorie a bursei. Compania e descrisă drept „a patra întreprindere la nivel global” capabilă de cercetare și producție independentă de memorie DRAM, alături de Samsung, SK Hynix și Micron.",
       "sources": [
-        { "name": "Global Times — Hard tech takes center stage in China's capital markets as tech companies dominate market cap rankings", "url": "https://www.globaltimes.cn/page/202607/1366935.shtml" }
+        {
+          "name": "Global Times — Hard tech takes center stage in China's capital markets as tech companies dominate market cap rankings",
+          "url": "https://www.globaltimes.cn/page/202607/1366935.shtml"
+        }
       ]
     },
     {
       "text": "Chiar articolul de la Global Times recunoaște explicit: „CXMT rămâne în urma competitorilor americani și sud-coreeni cu aproximativ 2-3 generații tehnologice” în procesele de fabricație cele mai avansate, iar „restricțiile la accesul echipamentelor EUV continuă să reprezinte provocări semnificative”.",
       "sources": [
-        { "name": "Global Times — Hard tech takes center stage in China's capital markets as tech companies dominate market cap rankings", "url": "https://www.globaltimes.cn/page/202607/1366935.shtml" }
+        {
+          "name": "Global Times — Hard tech takes center stage in China's capital markets as tech companies dominate market cap rankings",
+          "url": "https://www.globaltimes.cn/page/202607/1366935.shtml"
+        }
       ]
     },
     {
       "text": "Decalajul e confirmat independent: analistul Rolf Bulk de la firma de cercetare Futurum a declarat că SK Hynix, Micron și Samsung au un avans de două-trei generații față de CXMT în performanța cipurilor, iar pentru fiecare cip produs, CXMT cheltuiește cu 20-30% mai mult pe unitatea de cost (cost per bit) decât concurenții. La categoria memorie de mare bandă (HBM), primele produse CXMT vor fi probabil HBM3E sau HBM3, în timp ce concurenții avansează deja spre HBM4 și HBM4E — un decalaj suplimentar de una-două generații.",
       "sources": [
-        { "name": "Stocktwits — SK Hynix, Micron, Samsung's Memory Technology Hold A Two-To Three-Generation Advantage Over China's CXMT, Says Futurum Analyst", "url": "https://stocktwits.com/news-articles/markets/equity/skhy-mu-samsung-memory-tech-two-three-generation-advantage-cxmt-analyst/cZNRAAMRJRk" }
+        {
+          "name": "Stocktwits — SK Hynix, Micron, Samsung's Memory Technology Hold A Two-To Three-Generation Advantage Over China's CXMT, Says Futurum Analyst",
+          "url": "https://stocktwits.com/news-articles/markets/equity/skhy-mu-samsung-memory-tech-two-three-generation-advantage-cxmt-analyst/cZNRAAMRJRk"
+        }
       ]
     }
   ],
@@ -31,14 +40,23 @@
     {
       "text": "Titlul articolului de stat („Hard tech takes center stage”) și tonul general prezintă debutul CXMT ca semn de autonomie tehnologică chineză reușită, dar decalajul de 2-3 generații — recunoscut chiar în corpul aceluiași articol — înseamnă că firma nu a atins paritatea cu liderii globali, ci a intrat pe piață la un nivel tehnologic mai vechi, cu costuri de producție mai mari pe unitate. Nu e o contrazicere factuală (ambele afirmații sunt adevărate: capitalizarea bursieră e reală, iar decalajul tehnologic e real), ci un caz de context omis prin framing — cifra de capitalizare e pusă în titlu, iar limitarea tehnologică apare abia mai jos, în corpul textului.",
       "sources": [
-        { "name": "Global Times — Hard tech takes center stage in China's capital markets as tech companies dominate market cap rankings", "url": "https://www.globaltimes.cn/page/202607/1366935.shtml" },
-        { "name": "Stocktwits — SK Hynix, Micron, Samsung's Memory Technology Hold A Two-To Three-Generation Advantage Over China's CXMT, Says Futurum Analyst", "url": "https://stocktwits.com/news-articles/markets/equity/skhy-mu-samsung-memory-tech-two-three-generation-advantage-cxmt-analyst/cZNRAAMRJRk" }
+        {
+          "name": "Global Times — Hard tech takes center stage in China's capital markets as tech companies dominate market cap rankings",
+          "url": "https://www.globaltimes.cn/page/202607/1366935.shtml"
+        },
+        {
+          "name": "Stocktwits — SK Hynix, Micron, Samsung's Memory Technology Hold A Two-To Three-Generation Advantage Over China's CXMT, Says Futurum Analyst",
+          "url": "https://stocktwits.com/news-articles/markets/equity/skhy-mu-samsung-memory-tech-two-three-generation-advantage-cxmt-analyst/cZNRAAMRJRk"
+        }
       ]
     },
     {
       "text": "Cât de repede se poate închide decalajul rămâne o dispută deschisă între analiști. Presa de stat chineză și unii comentatori locali prezintă traiectoria CXMT drept ascendentă și inevitabilă; analiști occidentali citați separat consideră că firma „nu va ajunge din urmă concurenții SK Hynix, Samsung și Micron prea curând”, din cauza constrângerilor de extindere a capacității de producție și a accesului limitat la echipamentele ASML. Ambele tabere pornesc de la aceleași cifre de bază — diferă în privința ritmului anticipat de recuperare a decalajului, care e o proiecție, nu un fapt verificabil azi.",
       "sources": [
-        { "name": "Stocktwits — SK Hynix, Micron, Samsung's Memory Technology Hold A Two-To Three-Generation Advantage Over China's CXMT, Says Futurum Analyst", "url": "https://stocktwits.com/news-articles/markets/equity/skhy-mu-samsung-memory-tech-two-three-generation-advantage-cxmt-analyst/cZNRAAMRJRk" }
+        {
+          "name": "Stocktwits — SK Hynix, Micron, Samsung's Memory Technology Hold A Two-To Three-Generation Advantage Over China's CXMT, Says Futurum Analyst",
+          "url": "https://stocktwits.com/news-articles/markets/equity/skhy-mu-samsung-memory-tech-two-three-generation-advantage-cxmt-analyst/cZNRAAMRJRk"
+        }
       ]
     }
   ],
@@ -46,5 +64,12 @@
     "Nu spunem că Global Times „a mințit” — informația despre decalaj e chiar în articolul lor, deci nu a fost ascunsă, ci pusă mai jos în text, sub un titlu și un cadru optimist. E un exemplu bun de adevăr trunchiat prin ordine și accent, nu prin omisiune totală: tot ce scrie articolul e verificabil, dar cititorul care se oprește la titlu și la primele paragrafe rămâne cu impresia unei parități tehnologice care, potrivit acelorași surse, încă nu există."
   ],
   "aiNote": "📡 Atenție: sursa de pornire e presă de stat. Am pus alături ce SUSȚINE Global Times (media de stat din R.P. Chineză) despre debutul bursier al CXMT și am verificat independent (Stocktwits, citând analistul Rolf Bulk de la Futurum) decalajul tehnologic pe care chiar sursa de stat îl recunoaște în propriul text. NU prezentăm cadrul de „autonomie tehnologică” ca fapt stabilit, dar nici nu contestăm cifrele reale despre capitalizarea bursieră sau statutul CXMT ca a patra companie DRAM din lume. Ce se probează: debutul bursier a avut loc pe 27 iulie 2026 și CXMT e într-adevăr a patra companie capabilă de producție independentă de DRAM; decalajul de 2-3 generații tehnologice față de Samsung, SK Hynix și Micron e confirmat atât de sursa de stat, cât și de un analist independent. Ce rămâne proiecție, nu fapt — cât de repede se va închide decalajul.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-cxmt-dram-decalaj-generatii-global-times.jpg\" alt=\"Times\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Times. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2017_Smog_nad_Now%C4%85_Rud%C4%85.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2017 Smog nad Nową Rudą</a>\" de Jacek Halicki, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-cxmt-dram-decalaj-generatii-global-times.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Jacek Halicki"
+  }
 }

@@ -11,29 +11,53 @@
     {
       "text": "AIEA a confirmat că infrastructura de răcire descoperită la situl din Deir ez-Zor, estul Siriei, este „compatibilă cu cea a unui reactor nuclear” — un reactor de tip răcit cu gaz și moderat cu grafit, aflat în construcție. Inspectorii agenției au vizitat situl în august 2026. Situl este cel bombardat de aviația israeliană în 2007, distrus la acea vreme; el a rămas nefolosit și needificat timp de 18 ani.",
       "sources": [
-        {"name": "Al Jazeera — IAEA says Syria built a nuclear reactor in Deir Az Zor under al-Assad", "url": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad"},
-        {"name": "Al-Monitor — Syria site infrastructure consistent with nuclear reactor, IAEA says", "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"}
+        {
+          "name": "Al Jazeera — IAEA says Syria built a nuclear reactor in Deir Az Zor under al-Assad",
+          "url": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad"
+        },
+        {
+          "name": "Al-Monitor — Syria site infrastructure consistent with nuclear reactor, IAEA says",
+          "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
+        }
       ]
     },
     {
       "text": "La un al doilea sit, deschis chiar de noile autorități siriene printr-o notificare către AIEA din 17 iulie 2026, agenția a verificat prezența a aproximativ 73 de tone de uraniu natural metalic — din care circa 55 de tone sub formă de bare de combustibil, restul deșeuri și resturi de prelucrare.",
       "sources": [
-        {"name": "Al-Monitor — 73 de tone de uraniu natural metalic", "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"},
-        {"name": "Al Jazeera — around 73 tonnes of natural uranium metal", "url": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad"}
+        {
+          "name": "Al-Monitor — 73 de tone de uraniu natural metalic",
+          "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
+        },
+        {
+          "name": "Al Jazeera — around 73 tonnes of natural uranium metal",
+          "url": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad"
+        }
       ]
     },
     {
       "text": "AIEA a constatat oficial că „autoritățile siriene anterioare” (regimul Assad, căzut în decembrie 2024) „nu au raportat material nuclear, facilități și activități” așa cum le cerea Acordul de garanții al Tratatului de Neproliferare Nucleară (NPT), la care Siria este parte.",
       "sources": [
-        {"name": "Washington Post/AP — UN report finds Syria was building a nuclear reactor under Assad", "url": "https://www.washingtonpost.com/world/2026/09/01/iaea-report-syria-nuclear-bashar-assad/d9416fcc-a628-11f1-9e38-f705d048bd5a_story.html"},
-        {"name": "Al-Monitor — autoritățile anterioare nu au raportat material nuclear", "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"}
+        {
+          "name": "Washington Post/AP — UN report finds Syria was building a nuclear reactor under Assad",
+          "url": "https://www.washingtonpost.com/world/2026/09/01/iaea-report-syria-nuclear-bashar-assad/d9416fcc-a628-11f1-9e38-f705d048bd5a_story.html"
+        },
+        {
+          "name": "Al-Monitor — autoritățile anterioare nu au raportat material nuclear",
+          "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
+        }
       ]
     },
     {
       "text": "Noul guvern sirian (instalat după căderea lui Assad, în decembrie 2024) este cel care a raportat situl cu uraniu nedeclarat, a cooperat cu inspectorii AIEA și a furnizat documente de contabilitate a materialului nuclear și informații de proiectare. Autoritățile actuale au declarat că vor un program nuclear civil și că orice material nuclear găsit va rămâne sub custodia siriană, sub garanții internaționale.",
       "sources": [
-        {"name": "Al Jazeera — new authorities' cooperation and stated interest in civil nuclear program", "url": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad"},
-        {"name": "Al-Monitor — autoritatea nucleară siriană a cooperat", "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"}
+        {
+          "name": "Al Jazeera — new authorities' cooperation and stated interest in civil nuclear program",
+          "url": "https://www.aljazeera.com/news/2026/9/2/iaea-says-syria-built-a-nuclear-reactor-in-deir-az-zor-under-al-assad"
+        },
+        {
+          "name": "Al-Monitor — autoritatea nucleară siriană a cooperat",
+          "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
+        }
       ]
     }
   ],
@@ -41,7 +65,10 @@
     {
       "text": "Israelul nu a confirmat oficial, în legătură cu acest raport, motivele loviturii aeriene din 2007 asupra sitului — recunoașterea publică a operațiunii a venit abia în 2018, la 11 ani distanță. Sursele citate nu redau o declarație israeliană nouă legată de raportul AIEA din 2026, așa că legătura directă dintre bombardamentul din 2007 și concluziile actuale ale agenției rămâne una descrisă de AIEA și de presă, nu confirmată separat de partea israeliană.",
       "sources": [
-        {"name": "Al-Monitor — Israel a recunoscut în 2018 raidul din 2007", "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"}
+        {
+          "name": "Al-Monitor — Israel a recunoscut în 2018 raidul din 2007",
+          "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
+        }
       ]
     }
   ],
@@ -51,5 +78,12 @@
     }
   ],
   "aiNote": "Raportul AIEA e un document tehnic, iar concluzia lui centrală — infrastructură compatibilă cu un reactor nuclear la Deir ez-Zor, plus uraniu nedeclarat la un alt sit — e confirmată concordant de mai multe redacții independente (Al Jazeera, Al-Monitor, presa americană). Ce nu se poate stabili din sursele disponibile e intenția exactă a programului nuclear sirian de dinainte de 2011 (dacă viza doar cercetare sau și înarmare) și nici ce va face noul guvern de la Damasc cu materialul găsit, dincolo de declarația sa că va rămâne sub custodie sirie și garanții internaționale. Absența unei reacții oficiale israeliene recente, în ciuda faptului că Israel a bombardat exact acest sit în 2007, e o piesă lipsă notabilă — ar clarifica dacă serviciile israeliene aveau deja aceste cifre despre uraniu sau dacă raportul AIEA aduce informație nouă și pentru ele.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/siria-reactor-nuclear-deir-ez-zor-aiea.jpg\" alt=\"Siria\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Siria. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Castle_in_Hungary.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Castle in Hungary</a>\" de AnonymousUnknown author, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/siria-reactor-nuclear-deir-ez-zor-aiea.jpg",
+    "licenta": "Public domain",
+    "autor": "AnonymousUnknown author"
+  }
 }

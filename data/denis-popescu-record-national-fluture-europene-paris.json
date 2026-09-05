@@ -11,28 +11,49 @@
     {
       "text": "Denis-Laurean Popescu (legitimat la Dinamo) a înotat 51.44 secunde în seriile de 100 m fluture de miercuri, 12 august 2026, la Campionatele Europene de natație de la Paris — al șaptelea timp din serii, suficient pentru calificarea în semifinale.",
       "sources": [
-        {"name": "AGERPRES — Denis Popescu și Vlad Mihalache, calificați în semifinalele probei de 100 m fluture", "url": "https://agerpres.ro/sport-extern/2026/08/12/inot-denis-popescu-si-vlad-mihalache-calificati-in-semifinalele-probei-de-100-m-fluture-la-europene--1584288"},
-        {"name": "Digi Sport — Denis Popescu stabilește un nou record național la 100 m fluture", "url": "https://www.digisport.ro/natatie/denis-popescu-stabileste-un-nou-record-national-la-100-m-fluture-calificare-spectaculoasa-in-semifinalele-europenelor-4427125"},
-        {"name": "Adevărul — Denis-Laurean Popescu a bătut recordul național la 100 m fluture", "url": "https://adevarul.ro/sport/denis-laurean-popescu-a-batut-recordul-national-la-2549432.html"}
+        {
+          "name": "AGERPRES — Denis Popescu și Vlad Mihalache, calificați în semifinalele probei de 100 m fluture",
+          "url": "https://agerpres.ro/sport-extern/2026/08/12/inot-denis-popescu-si-vlad-mihalache-calificati-in-semifinalele-probei-de-100-m-fluture-la-europene--1584288"
+        },
+        {
+          "name": "Digi Sport — Denis Popescu stabilește un nou record național la 100 m fluture",
+          "url": "https://www.digisport.ro/natatie/denis-popescu-stabileste-un-nou-record-national-la-100-m-fluture-calificare-spectaculoasa-in-semifinalele-europenelor-4427125"
+        },
+        {
+          "name": "Adevărul — Denis-Laurean Popescu a bătut recordul național la 100 m fluture",
+          "url": "https://adevarul.ro/sport/denis-laurean-popescu-a-batut-recordul-national-la-2549432.html"
+        }
       ]
     },
     {
       "text": "Timpul de 51.44 secunde este un nou record național de seniori la 100 m fluture, care îl depășește pe cel anterior — 52.35 secunde, deținut de Daniel Cristian Martin din 16 iunie 2019.",
       "sources": [
-        {"name": "Adevărul — recordul anterior, 52.35 (Daniel Cristian Martin, 2019)", "url": "https://adevarul.ro/sport/denis-laurean-popescu-a-batut-recordul-national-la-2549432.html"}
+        {
+          "name": "Adevărul — recordul anterior, 52.35 (Daniel Cristian Martin, 2019)",
+          "url": "https://adevarul.ro/sport/denis-laurean-popescu-a-batut-recordul-national-la-2549432.html"
+        }
       ]
     },
     {
       "text": "Vlad-Ștefan Mihalache s-a calificat și el în semifinale, cu al 18-lea timp din serii (52.07 secunde) — ultimul loc de calificare.",
       "sources": [
-        {"name": "AGERPRES — Vlad Mihalache, al 18-lea timp din serii", "url": "https://agerpres.ro/sport-extern/2026/08/12/inot-denis-popescu-si-vlad-mihalache-calificati-in-semifinalele-probei-de-100-m-fluture-la-europene--1584288"},
-        {"name": "Adevărul — 52.07 secunde pentru Mihalache", "url": "https://adevarul.ro/sport/denis-laurean-popescu-a-batut-recordul-national-la-2549432.html"}
+        {
+          "name": "AGERPRES — Vlad Mihalache, al 18-lea timp din serii",
+          "url": "https://agerpres.ro/sport-extern/2026/08/12/inot-denis-popescu-si-vlad-mihalache-calificati-in-semifinalele-probei-de-100-m-fluture-la-europene--1584288"
+        },
+        {
+          "name": "Adevărul — 52.07 secunde pentru Mihalache",
+          "url": "https://adevarul.ro/sport/denis-laurean-popescu-a-batut-recordul-national-la-2549432.html"
+        }
       ]
     },
     {
       "text": "În semifinalele de miercuri seară, niciunul dintre cei doi români nu a prins finala de joi: Popescu a terminat pe locul 6 în semifinala a doua, cu 51.67 secunde (locul 12 overall), iar Mihalache a terminat pe locul 8 în prima semifinală, cu 52.40 secunde.",
       "sources": [
-        {"name": "Mediaflux — niciunul dintre ei nu a prins finala de joi", "url": "https://mediaflux.ro/denis-popescu-record-national-la-100-m-fluture-la-campionatul-european-de-natatie-david-popovici-intra-in-competitie-de-la-ora-19-52/"}
+        {
+          "name": "Mediaflux — niciunul dintre ei nu a prins finala de joi",
+          "url": "https://mediaflux.ro/denis-popescu-record-national-la-100-m-fluture-la-campionatul-european-de-natatie-david-popovici-intra-in-competitie-de-la-ora-19-52/"
+        }
       ]
     }
   ],
@@ -49,5 +70,12 @@
   "aiNote": "Sursele (AGERPRES, Digi Sport, Adevărul, Mediaflux, Stiripesurse) sunt concordante pe timpii și clasările lui Denis Popescu și Vlad Mihalache. Recordul național din serii (51.44) e confirmat de mai multe redacții; rezultatul din semifinală, unde niciunul dintre cei doi nu s-a calificat în finală, e de asemenea confirmat independent. Nu am inclus citate atribuite sportivilor găsite doar într-o singură sursă, pentru că nu au putut fi verificate încrucișat.",
   "persoane": [
     "Denis Popescu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/denis-popescu-record-national-fluture-europene-paris.jpg\" alt=\"Popescu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Popescu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Rodica_Popescu_Bit%C4%83nescu_06.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Rodica Popescu Bitănescu 06</a>\" de Razvan Socol, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/denis-popescu-record-national-fluture-europene-paris.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Razvan Socol"
+  }
 }

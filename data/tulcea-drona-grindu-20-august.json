@@ -91,5 +91,12 @@
   ],
   "opinie": [],
   "aiNote": "Ce s-a verificat: cronologia oficială MApN (radar la 02:23, RO-Alert la 03:20, intrare în spațiul aerian la 03:21 lângă Galați, cădere la 03:24 lângă Grindu, Tulcea, alertă încheiată la 03:52), confirmată concordant de Digi24, Radio România Actualități și Agerpres. Toate sursele coincid: nu au fost victime sau pagube materiale, iar incendiul produs la impact s-a stins singur.\n\nUnde diferă de incidentele precedente din aceeași zonă: la Luncavița, pe 14 august, autoritățile (SRI) confirmaseră public că fragmentele găsite conțineau o încărcătură explozivă de fabricație rusească. La Grindu, comunicatul MApN de azi vorbește doar despre „fără risc pirotehnic”, fără să identifice originea sau naționalitatea dronei — o diferență de formulare care contează, pentru că nu orice incident e automat identic cu precedentele, chiar dacă se petrece în aceeași zonă geografică și în același context al războiului din Ucraina.\n\nCe lipsește: rezultatul anchetei Parchetului de pe lângă Curtea de Apel Constanța, care ar urma să stabilească originea exactă a dronei și circumstanțele intrării ei în spațiul aerian românesc.\n\nCe ar schimba concluzia: un comunicat oficial (MApN, MAE sau Parchet) care să confirme sau să infirme originea rusească a dronei de la Grindu.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/tulcea-drona-grindu-20-august.jpg\" alt=\"Grindu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Grindu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Barbecue_area_Grinda.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Barbecue area Grinda</a>\" de Salgo60, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/tulcea-drona-grindu-20-august.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Salgo60"
+  }
 }

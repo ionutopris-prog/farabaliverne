@@ -105,5 +105,12 @@
   "aiNote": "📡 Atenție: o parte din afirmațiile din acest articol vin de la surse de stat. Am pus poziția Rusiei — viceministrul de externe Mihail Galuzin, într-un interviu pentru agenția de stat TASS, și ambasada rusă la Chișinău, citată de agenția de stat RIA Novosti — lângă surse independente (Meduza, The Moscow Times, Militarnyi) și lângă declarația oficială a președintei Maia Sandu, transmisă de agenția de presă oficială a R. Moldova (Moldpres). Ce se probează cu surse independente: explozia de la Crocmaz pe 9 august 2026, rechemarea ambasadorului moldovean și declarația publică a Rusiei prin care neagă responsabilitatea. Ce rămâne dispută: proveniența exactă a dronei-rachetă — nu tranșăm noi cine are dreptate, dar notăm că nicio parte nu a produs, la data verificării, o anchetă tehnică independentă publică. Poți citi și sursele de stat (linkate mai sus), și relatările independente, și tragi singur linia.",
   "persoane": [
     "Maia Sandu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-drona-crocmaz-rusia-tass-galuzin.jpg\" alt=\"Crocmaz\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Crocmaz. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Crocmaz_-_Biserica_%E2%80%9ESf._Nicolae%E2%80%9D_-_2025-09-21_22-28-22_001.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Crocmaz - Biserica „Sf. Nicolae” - 2025-09-21 22-28-22 001</a>\" de Nicolai_Chirnev, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-drona-crocmaz-rusia-tass-galuzin.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Nicolai_Chirnev"
+  }
 }

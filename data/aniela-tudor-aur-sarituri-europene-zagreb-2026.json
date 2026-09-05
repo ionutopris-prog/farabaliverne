@@ -11,27 +11,51 @@
     {
       "text": "Aniela Tudor (România, legitimată la Dinamo București) a câștigat medalia de aur în finala pe aparate la sărituri, categoria junioare, la Campionatele Europene de gimnastică artistică de la Zagreb, desfășurate pe 16 august 2026. A obținut o medie de 13,383 puncte, din două execuții: 13,200 (dificultate 4,4, execuție 8,800) și 13,566 (dificultate 4,8, execuție 8,766).",
       "sources": [
-        { "name": "Digisport — Aniela Tudor a câștigat aurul la Campionatele Europene de la Zagreb", "url": "https://www.digisport.ro/gimnastica/aniela-tudor-a-castigat-aurul-la-campionatele-europene-de-la-zagreb-4433885" },
-        { "name": "Mediafax — România are o nouă campioană europeană la gimnastică", "url": "https://www.mediafax.ro/sport/romania-are-o-noua-campioana-europeana-la-gimnastica-aniela-tudor-a-cucerit-aurul-la-zagreb-23791323" }
+        {
+          "name": "Digisport — Aniela Tudor a câștigat aurul la Campionatele Europene de la Zagreb",
+          "url": "https://www.digisport.ro/gimnastica/aniela-tudor-a-castigat-aurul-la-campionatele-europene-de-la-zagreb-4433885"
+        },
+        {
+          "name": "Mediafax — România are o nouă campioană europeană la gimnastică",
+          "url": "https://www.mediafax.ro/sport/romania-are-o-noua-campioana-europeana-la-gimnastica-aniela-tudor-a-cucerit-aurul-la-zagreb-23791323"
+        }
       ]
     },
     {
       "text": "Podiumul complet: aur — Aniela Tudor (România), 13,383 puncte; argint — Daria Mironova (concurentă sub steag neutru), 13,166 puncte; bronz — Lilou Marliac (Franța), 13,133 puncte.",
       "sources": [
-        { "name": "Digisport — clasamentul final al probei de sărituri", "url": "https://www.digisport.ro/gimnastica/aniela-tudor-a-castigat-aurul-la-campionatele-europene-de-la-zagreb-4433885" },
-        { "name": "Mediafax — podiumul probei de sărituri", "url": "https://www.mediafax.ro/sport/romania-are-o-noua-campioana-europeana-la-gimnastica-aniela-tudor-a-cucerit-aurul-la-zagreb-23791323" }
+        {
+          "name": "Digisport — clasamentul final al probei de sărituri",
+          "url": "https://www.digisport.ro/gimnastica/aniela-tudor-a-castigat-aurul-la-campionatele-europene-de-la-zagreb-4433885"
+        },
+        {
+          "name": "Mediafax — podiumul probei de sărituri",
+          "url": "https://www.mediafax.ro/sport/romania-are-o-noua-campioana-europeana-la-gimnastica-aniela-tudor-a-cucerit-aurul-la-zagreb-23791323"
+        }
       ]
     },
     {
       "text": "Aniela Tudor are 15 ani (născută pe 8 august 2011) și este legitimată la CS Dinamo București. Anterior acestui succes, câștigase în iunie 2026 concursul individual compus la Campionatele Naționale de juniori (46,900 puncte) și o reprezentase pe România la Festivalul Olimpic al Tineretului European 2025 de la Skopje, unde a fost a 4-a la sărituri.",
       "sources": [
-        { "name": "Golazo — profilul biografic al Anielei Tudor", "url": "https://golazo.ro/aniela-tudor-dinamo-campionatele-europene-gimnastica-zagreb-sarituri-183411" }
+        {
+          "name": "Golazo — profilul biografic al Anielei Tudor",
+          "url": "https://golazo.ro/aniela-tudor-dinamo-campionatele-europene-gimnastica-zagreb-sarituri-183411"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [],
   "aiNote": "Am agregat rezultatul oficial de concurs din trei surse sportive independente (Digisport, Mediafax, Golazo), care converg pe aceleași cifre (13,383 medie, 13,200 și 13,566 pe execuții) și pe aceeași ordine a podiumului. Nu am găsit contradicții între surse, așa că nu există secțiune de contestat.",
-  "persoane": ["Aniela Tudor"],
-  "math": null
+  "persoane": [
+    "Aniela Tudor"
+  ],
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/aniela-tudor-aur-sarituri-europene-zagreb-2026.jpg\" alt=\"stadium\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — stadium. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Allianz_arena_daylight_Richard_Bartz.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Allianz arena daylight Richard Bartz</a>\" de Richard Bartz, Munich aka Makro Freak, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.5\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.5</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/aniela-tudor-aur-sarituri-europene-zagreb-2026.jpg",
+    "licenta": "CC BY-SA 2.5",
+    "autor": "Richard Bartz, Munich aka Makro Freak"
+  }
 }

@@ -48,5 +48,14 @@
   "opinie": [],
   "math": null,
   "aiNote": "🔎 Rezultatul, scorul și cele două recorduri (78 de victorii consecutive în turul 1, respectiv 23 de ani fără o eliminare timpurie pentru „Big Three”) sunt confirmate identic de CBS Sports și Sky Sports, pe baza datelor oficiale ale US Open. Nu există dezacord între surse pe cifrele-cheie ale meciului.",
-  "persoane": ["Novak Djokovic"]
+  "persoane": [
+    "Novak Djokovic"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/djokovic-eliminat-us-open-navone-streak-78.jpg\" alt=\"Novak Djokovic\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto de arhivă</b> — Novak Djokovic. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Novak_Djokovic_-_Roland-Garros_-_28.05.2024.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Novak Djokovic - Roland-Garros - 28.05.2024</a>\" de Kuberzog, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/djokovic-eliminat-us-open-navone-streak-78.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Kuberzog"
+  }
 }

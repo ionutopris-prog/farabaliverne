@@ -70,5 +70,14 @@
     "explanation": "Cu două zile înainte, pe 11 august 2026, consumul de energie al României a atins un record de peste 8.000 MW. Cei circa 700 MW pierduți odată cu oprirea Unității 2 de la Cernavodă (sau ~680 MW, după cifra mai precisă citată de Mediafax) reprezintă deci aproximativ 700/8.000 ≈ 8,75% din acel vârf de consum — o pondere semnificativă, dar pe care importurile și rezervele (Rovinari 4, Hidroelectrica) ar trebui, potrivit oficialilor, să o acopere fără a afecta gospodăriile."
   },
   "aiNote": "Sursele independente confirmă tabloul central: ce Nuclearelectrica anunțase pe 11 august doar ca „posibilitate” s-a confirmat azi, 13 august 2026 — Unitatea 2 de la Cernavodă a fost oprită controlat din cauza nivelului critic al Dunării. Rămân două rezerve: durata exactă a opririi s-a precizat de la „cel puțin două săptămâni” (11 august) la „cel puțin 10 zile” (13 august), fără să fie clar dacă e o reevaluare sau doar o formulare diferită; iar afirmația ministrului Miruță despre o creștere de 8 cm a nivelului apei în urma lucrărilor de dragare a fost verificată de presă și redusă la 4 cm, fără o explicație oficială a diferenței. Niciuna dintre aceste rezerve nu schimbă faptul central — centrala funcționează, la data verificării, cu un singur reactor din doi, din cauza secetei.",
-  "persoane": ["Radu Miruță"]
+  "persoane": [
+    "Radu Miruță"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/cernavoda-reactor-2-oprire-confirmata-13-august.jpg\" alt=\"Cernavodă\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cernavodă. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Flora_Cernavod%C4%83_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Flora Cernavodă 1</a>\" de Smiley.toerist, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/cernavoda-reactor-2-oprire-confirmata-13-august.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Smiley.toerist"
+  }
 }

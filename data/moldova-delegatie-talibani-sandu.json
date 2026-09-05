@@ -139,5 +139,12 @@
   "aiNote": "Nucleul afirmației este susținut de surse independente și de comunicarea oficială a MAE R. Moldova: o delegație a Ministerului Agriculturii din Afganistanul controlat de talibani a fost la Chișinău în jurul datei de 3 august 2026; Maia Sandu a numit episodul „rușinos”; autoritățile au anunțat anchetă și măsuri disciplinare. Vasile Tofan este într-adevăr premier al R. Moldova din 22 iulie 2026. Am verificat live URL-urile-cheie (Digi24, Adevărul, ProTV, NewsMaker, Moldpres/MAE, Wikipedia) — sunt reale și accesibile. Două precizări importante pe care le arată dovezile: (1) sintagma „eroare de evaluare și coordonare instituțională” este folosită chiar de premierul Tofan, nu doar de MAE — deci nu există misatribuirea semnalată într-un draft anterior; (2) MAE precizează explicit că membrii delegației NU sunt vizați de sancțiuni internaționale, iar problema invocată ține de nerecunoașterea regimului taliban, nu de sancțiuni nominale. Nu decretăm „adevărat/fals”: arătăm ce se probează cu surse și ce rămâne apreciere politică sau chestiune de anchetă, iar cititorul verifică singur și trage concluzia.",
   "persoane": [
     "Maia Sandu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-delegatie-talibani-sandu.jpg\" alt=\"Chișinău\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chișinău. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Arch of Triumph, Chisinau, Republic of Moldova (51160304626 cropped)</a>\" de Photobank MD from Chisinau, Moldova, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-delegatie-talibani-sandu.jpg",
+    "licenta": "CC0",
+    "autor": "Photobank MD from Chisinau, Moldova"
+  }
 }

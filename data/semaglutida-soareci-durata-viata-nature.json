@@ -1,44 +1,66 @@
 {
-    "slug": "semaglutida-soareci-durata-viata-nature",
-    "title": "Un studiu pe șoareci: semaglutida administrată la bătrânețe le-a prelungit viața și le-a încetinit îmbătrânirea",
-    "category": "Știință",
-    "date": "2026-09-05",
-    "source": "Nature (Feng, Chen et al., 2026) / UC Berkeley",
-    "url": "https://www.nature.com/articles/s41586-026-10940-7",
-    "dek": "Un studiu condus de laboratorul Danica Chen de la UC Berkeley, publicat pe 2 septembrie 2026 în Nature, arată că șoarecii femele bătrâne tratate 3 luni cu semaglutidă (substanța activă din Ozempic și Wegovy) au trăit cu o durată mediană de viață de 834 de zile, față de 742 de zile la lotul netratat — cu circa 100 de zile mai mult, în medie, la cele tratate până la finalul vieții. Studiul e pe șoareci, nu pe oameni, și doar pe femele.",
-    "mainVerdict": "Probat",
-    "probat": [
+  "slug": "semaglutida-soareci-durata-viata-nature",
+  "title": "Un studiu pe șoareci: semaglutida administrată la bătrânețe le-a prelungit viața și le-a încetinit îmbătrânirea",
+  "category": "Știință",
+  "date": "2026-09-05",
+  "source": "Nature (Feng, Chen et al., 2026) / UC Berkeley",
+  "url": "https://www.nature.com/articles/s41586-026-10940-7",
+  "dek": "Un studiu condus de laboratorul Danica Chen de la UC Berkeley, publicat pe 2 septembrie 2026 în Nature, arată că șoarecii femele bătrâne tratate 3 luni cu semaglutidă (substanța activă din Ozempic și Wegovy) au trăit cu o durată mediană de viață de 834 de zile, față de 742 de zile la lotul netratat — cu circa 100 de zile mai mult, în medie, la cele tratate până la finalul vieții. Studiul e pe șoareci, nu pe oameni, și doar pe femele.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Studiul, semnat de Yufan Feng (autor principal) și Danica Chen (autor corespondent, profesoară de biologie metabolică și nutriție la UC Berkeley), a fost publicat pe 2 septembrie 2026 în revista Nature. Cercetătorii au administrat semaglutidă — agonist al receptorului GLP-1, substanța activă din medicamentele Ozempic și Wegovy — timp de 3 luni unor șoareci femele C57BL/6 în vârstă de 20 de luni (echivalentul unei vârste înaintate la om). Finanțarea a venit de la National Institute on Aging și National Institute of Food and Agriculture, ambele instituții federale americane.",
+      "sources": [
         {
-            "text": "Studiul, semnat de Yufan Feng (autor principal) și Danica Chen (autor corespondent, profesoară de biologie metabolică și nutriție la UC Berkeley), a fost publicat pe 2 septembrie 2026 în revista Nature. Cercetătorii au administrat semaglutidă — agonist al receptorului GLP-1, substanța activă din medicamentele Ozempic și Wegovy — timp de 3 luni unor șoareci femele C57BL/6 în vârstă de 20 de luni (echivalentul unei vârste înaintate la om). Finanțarea a venit de la National Institute on Aging și National Institute of Food and Agriculture, ambele instituții federale americane.",
-            "sources": [
-                {"name": "Nature — Late-life semaglutide treatment slows ageing and extends lifespan in female mice", "url": "https://www.nature.com/articles/s41586-026-10940-7"},
-                {"name": "UC Berkeley, Metabolic Biology & Nutrition — Late-life GLP-1 treatment extends lifespan of older, healthy mice", "url": "https://mbn.berkeley.edu/news/late-life-glp-1-treatment-extends-lifespan-older-healthy-mice"}
-            ]
+          "name": "Nature — Late-life semaglutide treatment slows ageing and extends lifespan in female mice",
+          "url": "https://www.nature.com/articles/s41586-026-10940-7"
         },
         {
-            "text": "Șoarecii tratați cu semaglutidă au avut o durată mediană de viață de 834 de zile, față de 742 de zile la lotul de control — o diferență de circa 12%. Cei cărora li s-a administrat medicamentul până la finalul vieții au trăit, în medie, cu aproximativ 100 de zile mai mult decât cei netratați. Pe lângă longevitate, animalele tratate au avut funcție musculară și cognitivă mai bună, control mai bun al glicemiei și niveluri mai scăzute de inflamație — markeri asociați cu îmbătrânirea biologică.",
-            "sources": [
-                {"name": "UC Berkeley, Metabolic Biology & Nutrition — Late-life GLP-1 treatment extends lifespan of older, healthy mice", "url": "https://mbn.berkeley.edu/news/late-life-glp-1-treatment-extends-lifespan-older-healthy-mice"},
-                {"name": "Scientific American — GLP-1 weight-loss medication could slow aging and extend lifespan", "url": "https://www.scientificamerican.com/article/glp-1-weight-loss-medication-could-slow-aging-and-extend-lifespan/"}
-            ]
-        },
-        {
-            "text": "Cercetătorii au comparat efectele semaglutidei cu cele ale restricției calorice — până acum cea mai studiată intervenție care prelungește viața la rozătoare. Medicamentul a reprodus multe dintre beneficiile restricției calorice și, la câțiva parametri — cognitiv și control al glicemiei — le-a depășit, potrivit analizei genetice a țesuturilor tratate.",
-            "sources": [
-                {"name": "Nature — Late-life semaglutide treatment slows ageing and extends lifespan in female mice", "url": "https://www.nature.com/articles/s41586-026-10940-7"}
-            ]
+          "name": "UC Berkeley, Metabolic Biology & Nutrition — Late-life GLP-1 treatment extends lifespan of older, healthy mice",
+          "url": "https://mbn.berkeley.edu/news/late-life-glp-1-treatment-extends-lifespan-older-healthy-mice"
         }
-    ],
-    "contestat": [],
-    "opinie": [
-        {
-            "text": "Studiul a fost făcut exclusiv pe șoareci femele — nu se știe dacă efectul se manifestă la fel la masculi sau la alte specii. Autorii nu afirmă că rezultatele sunt direct transferabile la oameni: durata de viață, dozele echivalente și efectele secundare pe termen lung ale tratamentului cronic cu GLP-1 la vârstnici sănătoși rămân de studiat separat, prin trialuri clinice pe oameni, care nu există încă pentru acest scop specific (prelungirea vieții, nu tratarea obezității sau diabetului)."
-        }
-    ],
-    "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Nature pe 2 septembrie 2026, plus comunicatul oficial al UC Berkeley (unde a fost condusă cercetarea) și un articol de analiză din Scientific American — surse primare și de specialitate, nu presă secundară nesigură.\n\nCe s-a verificat exact: cifrele de longevitate (834 vs. 742 de zile mediană, ~100 de zile în plus la tratament continuu) vin direct din datele studiului, confirmate atât de comunicatul universității, cât și de analiza Scientific American.\n\nCe lipsește: nu există încă un studiu clinic la oameni cu acest obiectiv (longevitate, nu tratarea obezității/diabetului), iar rezultatul e limitat la un singur sex și la o singură specie — extrapolarea la oameni ar fi prematură pe baza a ceea ce se știe azi.\n\nCe ar schimba concluzia: replicarea efectului la șoareci masculi și, pe termen lung, date din trialuri clinice pe oameni tratați cronic cu GLP-1 la vârste înaintate — date care, la acest moment, pur și simplu nu există.",
-    "math": {
-        "title": "Ce înseamnă „12% mai multă viață” la un șoarece",
-        "explanation": "O diferență de 92 de zile (834 minus 742) pare mică în calendarul unui om, dar pentru un șoarece de laborator, care trăiește în mod normal circa 2-2,5 ani, asta înseamnă cu aproape 3 luni mai mult — proporțional, ca și cum un om ar câștiga 8-9 ani în plus la o speranță de viață de 80 de ani. De aceea cercetătorii tratează rezultatul ca fiind relevant: nu e o fluctuație statistică minoră, ci un efect de mărimea celor mai puternice intervenții anti-îmbătrânire cunoscute la rozătoare, cum e restricția calorică. Important de reținut: procentul de 12% se calculează pe durata mediană de viață a întregului lot, nu pe fiecare individ — unii șoareci tratați au trăit mult mai mult, alții aproape la fel ca lotul de control, ceea ce e normal într-un studiu biologic cu variație individuală."
+      ]
     },
-    "persoane": []
+    {
+      "text": "Șoarecii tratați cu semaglutidă au avut o durată mediană de viață de 834 de zile, față de 742 de zile la lotul de control — o diferență de circa 12%. Cei cărora li s-a administrat medicamentul până la finalul vieții au trăit, în medie, cu aproximativ 100 de zile mai mult decât cei netratați. Pe lângă longevitate, animalele tratate au avut funcție musculară și cognitivă mai bună, control mai bun al glicemiei și niveluri mai scăzute de inflamație — markeri asociați cu îmbătrânirea biologică.",
+      "sources": [
+        {
+          "name": "UC Berkeley, Metabolic Biology & Nutrition — Late-life GLP-1 treatment extends lifespan of older, healthy mice",
+          "url": "https://mbn.berkeley.edu/news/late-life-glp-1-treatment-extends-lifespan-older-healthy-mice"
+        },
+        {
+          "name": "Scientific American — GLP-1 weight-loss medication could slow aging and extend lifespan",
+          "url": "https://www.scientificamerican.com/article/glp-1-weight-loss-medication-could-slow-aging-and-extend-lifespan/"
+        }
+      ]
+    },
+    {
+      "text": "Cercetătorii au comparat efectele semaglutidei cu cele ale restricției calorice — până acum cea mai studiată intervenție care prelungește viața la rozătoare. Medicamentul a reprodus multe dintre beneficiile restricției calorice și, la câțiva parametri — cognitiv și control al glicemiei — le-a depășit, potrivit analizei genetice a țesuturilor tratate.",
+      "sources": [
+        {
+          "name": "Nature — Late-life semaglutide treatment slows ageing and extends lifespan in female mice",
+          "url": "https://www.nature.com/articles/s41586-026-10940-7"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Studiul a fost făcut exclusiv pe șoareci femele — nu se știe dacă efectul se manifestă la fel la masculi sau la alte specii. Autorii nu afirmă că rezultatele sunt direct transferabile la oameni: durata de viață, dozele echivalente și efectele secundare pe termen lung ale tratamentului cronic cu GLP-1 la vârstnici sănătoși rămân de studiat separat, prin trialuri clinice pe oameni, care nu există încă pentru acest scop specific (prelungirea vieții, nu tratarea obezității sau diabetului)."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Nature pe 2 septembrie 2026, plus comunicatul oficial al UC Berkeley (unde a fost condusă cercetarea) și un articol de analiză din Scientific American — surse primare și de specialitate, nu presă secundară nesigură.\n\nCe s-a verificat exact: cifrele de longevitate (834 vs. 742 de zile mediană, ~100 de zile în plus la tratament continuu) vin direct din datele studiului, confirmate atât de comunicatul universității, cât și de analiza Scientific American.\n\nCe lipsește: nu există încă un studiu clinic la oameni cu acest obiectiv (longevitate, nu tratarea obezității/diabetului), iar rezultatul e limitat la un singur sex și la o singură specie — extrapolarea la oameni ar fi prematură pe baza a ceea ce se știe azi.\n\nCe ar schimba concluzia: replicarea efectului la șoareci masculi și, pe termen lung, date din trialuri clinice pe oameni tratați cronic cu GLP-1 la vârste înaintate — date care, la acest moment, pur și simplu nu există.",
+  "math": {
+    "title": "Ce înseamnă „12% mai multă viață” la un șoarece",
+    "explanation": "O diferență de 92 de zile (834 minus 742) pare mică în calendarul unui om, dar pentru un șoarece de laborator, care trăiește în mod normal circa 2-2,5 ani, asta înseamnă cu aproape 3 luni mai mult — proporțional, ca și cum un om ar câștiga 8-9 ani în plus la o speranță de viață de 80 de ani. De aceea cercetătorii tratează rezultatul ca fiind relevant: nu e o fluctuație statistică minoră, ci un efect de mărimea celor mai puternice intervenții anti-îmbătrânire cunoscute la rozătoare, cum e restricția calorică. Important de reținut: procentul de 12% se calculează pe durata mediană de viață a întregului lot, nu pe fiecare individ — unii șoareci tratați au trăit mult mai mult, alții aproape la fel ca lotul de control, ceea ce e normal într-un studiu biologic cu variație individuală."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/semaglutida-soareci-durata-viata-nature.jpg\" alt=\"laboratory microscope\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — laboratory microscope. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nikon_Optiphot_Phase_Contrast_Trinocular_Laboratory_Microscope_3_(15957731926).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nikon Optiphot Phase Contrast Trinocular Laboratory Microscope 3 (15957731926)</a>\" de Kitmondo Marketplace, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/semaglutida-soareci-durata-viata-nature.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Kitmondo Marketplace"
+  }
 }

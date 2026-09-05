@@ -11,14 +11,23 @@
     {
       "text": "O echipă de cercetători de la National Science Foundation National Solar Observatory (NSF NSO, SUA), Institutul Max Planck pentru Cercetarea Sistemului Solar (MPS, Germania) și High Altitude Observatory (HAO, SUA) a publicat în Nature, pe 5 august 2026, prima observație directă a unor vârtejuri de plasmă la suprafața Soarelui (fotosferă), folosind telescopul solar Daniel K. Inouye din Hawaii — cel mai mare telescop solar din lume. Vârtejurile au între 500 și 2.000 de kilometri în diametru, iar cele mai fine structuri observate au aproximativ 20 de kilometri — o rezoluție comparată de cercetători cu „a distinge o monedă de un euro de la 180 de kilometri distanță”.",
       "sources": [
-        {"name": "Max Planck Society — Tiny Vortices Discovered on the Sun's Surface", "url": "https://www.mpg.de/26900660/tiny-vortices-discovered-on-the-sun-s-surface"},
-        {"name": "ScienceDaily — The sun is covered in tiny whirlpools we've never seen before", "url": "https://www.sciencedaily.com/releases/2026/08/260807035142.htm"}
+        {
+          "name": "Max Planck Society — Tiny Vortices Discovered on the Sun's Surface",
+          "url": "https://www.mpg.de/26900660/tiny-vortices-discovered-on-the-sun-s-surface"
+        },
+        {
+          "name": "ScienceDaily — The sun is covered in tiny whirlpools we've never seen before",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260807035142.htm"
+        }
       ]
     },
     {
       "text": "Structurile sunt identificate ca instabilități Kelvin-Helmholtz — vârtejuri care apar la marginile granulelor solare, acolo unde straturi de plasmă care se mișcă cu viteze diferite alunecă unul peste altul, similar valurilor care se rup la suprafața oceanului. Cercetătorii consideră că aceste vârtejuri ar putea răsuci liniile câmpului magnetic solar, acumulând energie care se eliberează apoi brusc sub formă de „nanoflăcări” (nanoflares), și ar putea explica de ce câmpurile magnetice se răspândesc prin atmosfera Soarelui mult mai repede decât prezic modelele actuale.",
       "sources": [
-        {"name": "Sci.News — Inouye Solar Telescope Discovers Hidden Plasma Vortices on Sun", "url": "https://www.sci.news/astronomy/inouye-solar-telescope-plasma-vortices-sun-14974.html"}
+        {
+          "name": "Sci.News — Inouye Solar Telescope Discovers Hidden Plasma Vortices on Sun",
+          "url": "https://www.sci.news/astronomy/inouye-solar-telescope-plasma-vortices-sun-14974.html"
+        }
       ]
     }
   ],
@@ -33,5 +42,12 @@
     "title": "De ce e un mister „coroana mai fierbinte decât suprafața”",
     "explanation": "Normal, cu cât te îndepărtezi de o sursă de căldură, cu atât temperatura scade — așa funcționează un foc de tabără sau un calorifer. Suprafața Soarelui (fotosfera) are circa 5.500°C, dar coroana, stratul de atmosferă solară aflat deasupra ei, la mii de kilometri distanță de „sursă”, ajunge la câteva milioane de grade — de sute de ori mai fierbinte. E ca și cum aerul de deasupra unui foc ar fi mult mai fierbinte decât flăcările înseși. Explicația general acceptată e că energia nu vine din simpla radiație termică, ci e transportată sub formă de energie magnetică, „împachetată” prin mișcări turbulente ale plasmei de la suprafață și eliberată brusc mai sus, în coroană, prin procese precum micro-erupțiile (nanoflăcările). Vârtejurile descoperite acum ar fi tocmai mecanismul care „împachetează” energia magnetică la suprafață, înainte ca ea să fie transportată și eliberată deasupra — o piesă căutată de multă vreme în acest puzzle."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/soare-vartejuri-plasma-inouye-nature.jpg\" alt=\"Inouye\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Inouye. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Daniel_Inouye_at_Max%27s_of_Manila_in_Waipahu.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Daniel Inouye at Max's of Manila in Waipahu</a>\" de Office of U.S. Senator Daniel Inouye, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/soare-vartejuri-plasma-inouye-nature.jpg",
+    "licenta": "Public domain",
+    "autor": "Office of U.S. Senator Daniel Inouye"
+  }
 }

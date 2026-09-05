@@ -62,5 +62,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\nCe s-a verificat exact: pagina The Jakarta Post din 23 august 2026 (răspuns 200, pe subiect), care conține declarațiile a doi miniștri indonezieni — Airlangga Hartarto (Economie) și Purbaya Yudhi Sadewa (Finanțe) — despre intenția de a folosi tipul vehiculului drept criteriu pentru benzina subvenționată Pertalite.\nCe e adevărat și ce lipsește: e adevărat că guvernul lucrează la o astfel de restricție și că ținta declarată sunt cele mai bogate 20% dintre gospodării. Lipsește tot restul: ce mașini, de când, cât costă subvenția azi, câți oameni ar fi afectați. Un titlu care spune „Indonezia limitează” ar fi adevărul trunchiat — partea care lipsește, că nimic nu e decis, schimbă complet sensul.\nCe ar schimba concluzia: publicarea mecanismului final, un act normativ, sau o listă concretă de categorii de vehicule. Până atunci, ce se probează e că se discută.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/indonezia-carburant-subventionat-restrictie-vehicul.jpg\" alt=\"United Nations headquarters\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — United Nations headquarters. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:United_Nations_HQ_-_New_York_City.jpg\" rel=\"nofollow noopener\" target=\"_blank\">United Nations HQ - New York City</a>\" de autor necunoscut, via Wikimedia Commons · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/indonezia-carburant-subventionat-restrictie-vehicul.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "autor necunoscut"
+  }
 }

@@ -11,27 +11,54 @@
     {
       "text": "Jessica Bang, în vârstă de 18 ani, jucătoare pe WPGA Tour of Australasia, s-a prăbușit pe 1 august 2026 în timp ce se pregătea pentru un turneu de golf în Thailanda. A fost transportată de urgență la un spital din Bangkok, unde a suferit o intervenție chirurgicală pentru o hemoragie cerebrală, și a murit joi, 13 august 2026.",
       "sources": [
-        {"name": "CBS News — Pro golfer Jessica Bang dies at 18 while preparing for tournament in Thailand", "url": "https://www.cbsnews.com/news/jessica-bang-dies-golfer-age-18-brain-hemorrhage/"},
-        {"name": "ESPN — Golfer Jessica Bang dies at 18; had collapsed ahead of event", "url": "https://www.espn.com/golf/story/_/id/49606113/golfer-jessica-bang-dies-18-had-collapsed-ahead-event"},
-        {"name": "Al Jazeera — Rising Australian golfer Bang dies of brain haemorrhage in Thailand aged 18", "url": "https://www.aljazeera.com/sports/2026/8/14/rising-australian-golfer-bang-dies-of-brain-haemorrhage-in-thailand-aged-18"}
+        {
+          "name": "CBS News — Pro golfer Jessica Bang dies at 18 while preparing for tournament in Thailand",
+          "url": "https://www.cbsnews.com/news/jessica-bang-dies-golfer-age-18-brain-hemorrhage/"
+        },
+        {
+          "name": "ESPN — Golfer Jessica Bang dies at 18; had collapsed ahead of event",
+          "url": "https://www.espn.com/golf/story/_/id/49606113/golfer-jessica-bang-dies-18-had-collapsed-ahead-event"
+        },
+        {
+          "name": "Al Jazeera — Rising Australian golfer Bang dies of brain haemorrhage in Thailand aged 18",
+          "url": "https://www.aljazeera.com/sports/2026/8/14/rising-australian-golfer-bang-dies-of-brain-haemorrhage-in-thailand-aged-18"
+        }
       ]
     },
     {
       "text": "Bang obținuse calificarea pe circuitul profesionist prin școala de calificare la finalul anului precedent și câștigase primul ei turneu profesionist în februarie 2026 — Women's New South Wales Open Regional Qualifying Event. Ajunsese și la un turneu al Ladies European Tour, unde a ratat însă calificarea pentru weekend.",
       "sources": [
-        {"name": "CBS News — Pro golfer Jessica Bang dies at 18 while preparing for tournament in Thailand", "url": "https://www.cbsnews.com/news/jessica-bang-dies-golfer-age-18-brain-hemorrhage/"}
+        {
+          "name": "CBS News — Pro golfer Jessica Bang dies at 18 while preparing for tournament in Thailand",
+          "url": "https://www.cbsnews.com/news/jessica-bang-dies-golfer-age-18-brain-hemorrhage/"
+        }
       ]
     },
     {
       "text": "WPGA Tour of Australasia a transmis condoleanțe, descriind-o drept „un talent tânăr excepțional”, iar familia a inițiat o campanie de strângere de fonduri (GoFundMe) care a depășit 50.000 de dolari australieni. Verii ei au scris că îi vor păstra mereu amintirea „personalității vesele și vibrante”.",
       "sources": [
-        {"name": "Fox News — Pro golfer Jessica Bang dies at 18 after brain hemorrhage in Thailand", "url": "https://www.foxnews.com/sports/rising-golf-star-dead-18-brain-hemorrhage-playing-tournament-thailand"},
-        {"name": "ESPN — Golfer Jessica Bang dies at 18; had collapsed ahead of event", "url": "https://www.espn.com/golf/story/_/id/49606113/golfer-jessica-bang-dies-18-had-collapsed-ahead-event"}
+        {
+          "name": "Fox News — Pro golfer Jessica Bang dies at 18 after brain hemorrhage in Thailand",
+          "url": "https://www.foxnews.com/sports/rising-golf-star-dead-18-brain-hemorrhage-playing-tournament-thailand"
+        },
+        {
+          "name": "ESPN — Golfer Jessica Bang dies at 18; had collapsed ahead of event",
+          "url": "https://www.espn.com/golf/story/_/id/49606113/golfer-jessica-bang-dies-18-had-collapsed-ahead-event"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (CBS News, ESPN, Al Jazeera); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
-  "persoane": ["Jessica Bang"]
+  "persoane": [
+    "Jessica Bang"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/jessica-bang-golferista-australiana-moarte.jpg\" alt=\"stadium\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — stadium. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Allianz_arena_daylight_Richard_Bartz.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Allianz arena daylight Richard Bartz</a>\" de Richard Bartz, Munich aka Makro Freak, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.5\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.5</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/jessica-bang-golferista-australiana-moarte.jpg",
+    "licenta": "CC BY-SA 2.5",
+    "autor": "Richard Bartz, Munich aka Makro Freak"
+  }
 }

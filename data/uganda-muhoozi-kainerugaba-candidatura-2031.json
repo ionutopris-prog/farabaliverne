@@ -80,5 +80,12 @@
   ],
   "math": "",
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce s-a verificat exact: anunțul de candidatură al lui Muhoozi Kainerugaba, pe baza a trei publicații independente (Bloomberg, Africanews, CAJ News Africa), toate citând postarea sa directă de pe X din 25 august 2026. Ce nu se poate verifica din surse publice: dacă tatăl său, Museveni, intenționează să candideze din nou în 2031, sau dacă Muhoozi va renunța la funcția militară înainte de a candida — ambele întrebări rămân deschise, iar oficialii ugandezi nu s-au pronunțat public. Ce ar schimba tabloul: o declarație oficială din partea lui Museveni despre planurile sale pentru 2031, sau o reformă a legii electorale ugandeze care ar limita cumulul de funcții militare și politice.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/uganda-muhoozi-kainerugaba-candidatura-2031.jpg\" alt=\"Cotroceni Palace Bucharest\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cotroceni Palace Bucharest. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cotroceni_Palace_Garden_-_Bucharest_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cotroceni Palace Garden - Bucharest 01</a>\" de Bekuletz, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.5\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.5</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/uganda-muhoozi-kainerugaba-candidatura-2031.jpg",
+    "licenta": "CC BY-SA 2.5",
+    "autor": "Bekuletz"
+  }
 }

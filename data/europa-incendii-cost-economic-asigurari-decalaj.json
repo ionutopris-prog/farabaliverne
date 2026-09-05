@@ -11,25 +11,37 @@
     {
       "text": "Un incendiu de vegetație pe insula grecească Salamina a provocat 2 morți și mai multe răniți; peste 500 de persoane au fost evacuate, iar la intervenție au participat aproximativ 200 de pompieri, sprijiniți de avioane și elicoptere.",
       "sources": [
-        {"name": "BURSA (preluare Reuters) — Europa arde, iar incendiile devin o problemă economică", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+        {
+          "name": "BURSA (preluare Reuters) — Europa arde, iar incendiile devin o problemă economică",
+          "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"
+        }
       ]
     },
     {
       "text": "Pierderile economice provocate de incendiile din Europa în vara precedentă (2025) sunt estimate la aproximativ 43 de miliarde de euro, din care doar circa 500 de milioane de euro au fost acoperite de despăgubiri de asigurare — un decalaj („protection gap”) de aproximativ 42,5 miliarde de euro între pagubele reale și ce a fost efectiv asigurat.",
       "sources": [
-        {"name": "BURSA (preluare Reuters) — cifrele pierderilor economice și ale despăgubirilor de asigurare", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+        {
+          "name": "BURSA (preluare Reuters) — cifrele pierderilor economice și ale despăgubirilor de asigurare",
+          "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"
+        }
       ]
     },
     {
       "text": "Fenomenul afectează mai multe sectoare economice simultan: agricultura (inclusiv reducerea producției de porumb în Franța), turismul (evacuări din destinații mediteraneene în plin sezon), energia (prețuri crescute cu peste 20% într-o singură zi în anumite piețe) și infrastructura (drumuri, căi ferate, rețele electrice afectate direct de flăcări sau de măsurile de precauție).",
       "sources": [
-        {"name": "BURSA (preluare Reuters) — impactul pe agricultură, turism, energie și infrastructură", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+        {
+          "name": "BURSA (preluare Reuters) — impactul pe agricultură, turism, energie și infrastructură",
+          "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"
+        }
       ]
     },
     {
       "text": "Incendii de amploare au fost raportate în aceeași perioadă și în Croația (orașul Omiš, un mort, zeci de răniți, circa 1.200 de evacuați) și în Belgia (rezervația Hautes Fagnes/High Fens, cel mai mare incendiu de vegetație înregistrat vreodată în această țară) — evenimente verificate separat de redacția noastră.",
       "sources": [
-        {"name": "BURSA (preluare Reuters) — incendiile din Croația și Belgia", "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"}
+        {
+          "name": "BURSA (preluare Reuters) — incendiile din Croația și Belgia",
+          "url": "https://www.bursa.ro/europa-arde-iar-incendiile-devin-o-problema-economica-69109953"
+        }
       ]
     }
   ],
@@ -37,5 +49,12 @@
   "opinie": [],
   "aiNote": "Cifrele economice (43 de miliarde de euro pierderi, ~500 de milioane despăgubiri) provin dintr-o analiză Reuters reluată de BURSA; nu am găsit încă publicarea originală Reuters pentru a verifica metodologia exactă din spatele estimărilor — le redăm ca atare, atribuite sursei. Evenimentele din Croația și Belgia au verificări separate, mai detaliate, pe site — aici le menționăm doar ca parte a tabloului economic european, fără să repetăm toate detaliile.",
   "math": "Diferența dintre pierderile totale (43 mld. €) și despăgubirile de asigurare (0,5 mld. €) este de 42,5 mld. €, adică asigurările au acoperit doar aproximativ 1,2% din pagubele estimate ale incendiilor din Europa.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/europa-incendii-cost-economic-asigurari-decalaj.jpg\" alt=\"Europa\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Europa. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:PIA19048_realistic_color_Europa_mosaic_edited.jpg\" rel=\"nofollow noopener\" target=\"_blank\">PIA19048 realistic color Europa mosaic edited</a>\" de NASA / Jet Propulsion Lab-Caltech / SETI Institute, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/europa-incendii-cost-economic-asigurari-decalaj.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA / Jet Propulsion Lab-Caltech / SETI Institute"
+  }
 }

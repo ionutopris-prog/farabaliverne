@@ -1,70 +1,113 @@
 {
- "slug": "moldova-rusia-acuzatii-mid-ambasador-rechemat",
- "title": "Moscova acuză Chișinăul că „inventează amenințarea rusă”. Ce s-a întâmplat de fapt pe 9 august și ce spun documentele",
- "category": "Media de stat",
- "tara": "Moldova",
- "date": "2026-08-26",
- "source": "TASS / Lenta.ru / Vedomosti / Point.md",
- "url": "https://point.md/ru/novosti/politika/moskva-obviniaet-kishinev-v-vydumyvanii-rossiiskoi-ugrozy-dlia-otvlecheniia-vnimaniia/",
- "dek": "După ce o dronă a căzut și a explodat pe teritoriul Republicii Moldova pe 9 august, Chișinăul și-a rechemat ambasadorul de la Moscova pentru consultări. Ministerul rus de Externe a răspuns acuzând autoritățile moldovenești că „inventează amenințarea rusă” ca să distragă atenția. Am citit ambele versiuni în original și le-am pus lângă ce se poate proba.",
- "mainVerdict": "Probat parțial",
- "probat": [
-  {
-   "text": "Ministerul de Externe al Republicii Moldova și-a rechemat ambasadorul din Federația Rusă pentru consultări, după căderea și explozia unei drone pe teritoriul republicii, pe 9 august 2026. Rechemarea pentru consultări este un pas diplomatic formal, distinct de expulzare sau de ruperea relațiilor.",
-   "sources": [
-    {"name": "Rambler (agregator rus) — MAE moldovean își recheamă ambasadorul după căderea dronei", "url": "https://news.rambler.ru/world/56885223-mid-moldavii-otzyvaet-posla-iz-rossii-dlya-konsultatsiy-posle-padeniya-bpla/"},
-    {"name": "Fără Baliverne — verificarea privind drona explodată la Crocmaz", "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"}
-   ]
-  },
-  {
-   "text": "Adjunctul ministrului rus de Externe, Mihail Galuzin, a declarat prin agenția de stat TASS că Chișinăul „se eschivează de la dialogul diplomatic civilizat” și că autoritățile moldovenești execută „fără să privească înapoi” indicațiile Bruxellesului, îndreptate în special împotriva Rusiei.",
-   "sources": [
-    {"name": "Lenta.ru (presă rusă, aliniată statului — etichetată ca atare) — declarația lui Mihail Galuzin", "url": "https://lenta.ru/news/2026/08/10/mid-rossii-zayavil-ob-uklonenii-odnoy-iz-stran-ot-tsivilizatsionnogo-diplomaticheskogo-dialoga/"}
-   ]
-  },
-  {
-   "text": "Ambasada Federației Ruse la Chișinău a afirmat că acțiunile președintei Maia Sandu și ale guvernului arată un curs deliberat de restrângere a relațiilor bilaterale. Ministerul rus de Externe a anunțat că Moscova va răspunde „adecvat” inițiativelor considerate neprietenoase, pe principiul reciprocității.",
-   "sources": [
-    {"name": "Vedomosti (Rusia) — poziția ambasadei ruse la Chișinău", "url": "https://www.vedomosti.ru/politics/news/2026/08/11/1220378-povod-dlya-razriva"},
-    {"name": "Rossiyskaya Gazeta (ziar oficial al guvernului rus — etichetat ca atare) — răspunsul anunțat de MAE rus", "url": "https://rg.ru/2026/07/27/mid-rossiia-dast-adekvatnyj-otvet-na-vse-nedruzhestvennye-iniciativy-moldavii.html"}
-   ]
-  },
-  {
-   "text": "Relațiile ruso-moldovenești se află, potrivit relatărilor din presa rusă însăși, la cel mai scăzut nivel de la stabilirea legăturilor diplomatice, în 1992.",
-   "sources": [
-    {"name": "Lenta.ru — evaluarea nivelului relațiilor bilaterale", "url": "https://lenta.ru/news/2026/08/10/mid-rossii-zayavil-ob-uklonenii-odnoy-iz-stran-ot-tsivilizatsionnogo-diplomaticheskogo-dialoga/"}
-   ]
+  "slug": "moldova-rusia-acuzatii-mid-ambasador-rechemat",
+  "title": "Moscova acuză Chișinăul că „inventează amenințarea rusă”. Ce s-a întâmplat de fapt pe 9 august și ce spun documentele",
+  "category": "Media de stat",
+  "tara": "Moldova",
+  "date": "2026-08-26",
+  "source": "TASS / Lenta.ru / Vedomosti / Point.md",
+  "url": "https://point.md/ru/novosti/politika/moskva-obviniaet-kishinev-v-vydumyvanii-rossiiskoi-ugrozy-dlia-otvlecheniia-vnimaniia/",
+  "dek": "După ce o dronă a căzut și a explodat pe teritoriul Republicii Moldova pe 9 august, Chișinăul și-a rechemat ambasadorul de la Moscova pentru consultări. Ministerul rus de Externe a răspuns acuzând autoritățile moldovenești că „inventează amenințarea rusă” ca să distragă atenția. Am citit ambele versiuni în original și le-am pus lângă ce se poate proba.",
+  "mainVerdict": "Probat parțial",
+  "probat": [
+    {
+      "text": "Ministerul de Externe al Republicii Moldova și-a rechemat ambasadorul din Federația Rusă pentru consultări, după căderea și explozia unei drone pe teritoriul republicii, pe 9 august 2026. Rechemarea pentru consultări este un pas diplomatic formal, distinct de expulzare sau de ruperea relațiilor.",
+      "sources": [
+        {
+          "name": "Rambler (agregator rus) — MAE moldovean își recheamă ambasadorul după căderea dronei",
+          "url": "https://news.rambler.ru/world/56885223-mid-moldavii-otzyvaet-posla-iz-rossii-dlya-konsultatsiy-posle-padeniya-bpla/"
+        },
+        {
+          "name": "Fără Baliverne — verificarea privind drona explodată la Crocmaz",
+          "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"
+        }
+      ]
+    },
+    {
+      "text": "Adjunctul ministrului rus de Externe, Mihail Galuzin, a declarat prin agenția de stat TASS că Chișinăul „se eschivează de la dialogul diplomatic civilizat” și că autoritățile moldovenești execută „fără să privească înapoi” indicațiile Bruxellesului, îndreptate în special împotriva Rusiei.",
+      "sources": [
+        {
+          "name": "Lenta.ru (presă rusă, aliniată statului — etichetată ca atare) — declarația lui Mihail Galuzin",
+          "url": "https://lenta.ru/news/2026/08/10/mid-rossii-zayavil-ob-uklonenii-odnoy-iz-stran-ot-tsivilizatsionnogo-diplomaticheskogo-dialoga/"
+        }
+      ]
+    },
+    {
+      "text": "Ambasada Federației Ruse la Chișinău a afirmat că acțiunile președintei Maia Sandu și ale guvernului arată un curs deliberat de restrângere a relațiilor bilaterale. Ministerul rus de Externe a anunțat că Moscova va răspunde „adecvat” inițiativelor considerate neprietenoase, pe principiul reciprocității.",
+      "sources": [
+        {
+          "name": "Vedomosti (Rusia) — poziția ambasadei ruse la Chișinău",
+          "url": "https://www.vedomosti.ru/politics/news/2026/08/11/1220378-povod-dlya-razriva"
+        },
+        {
+          "name": "Rossiyskaya Gazeta (ziar oficial al guvernului rus — etichetat ca atare) — răspunsul anunțat de MAE rus",
+          "url": "https://rg.ru/2026/07/27/mid-rossiia-dast-adekvatnyj-otvet-na-vse-nedruzhestvennye-iniciativy-moldavii.html"
+        }
+      ]
+    },
+    {
+      "text": "Relațiile ruso-moldovenești se află, potrivit relatărilor din presa rusă însăși, la cel mai scăzut nivel de la stabilirea legăturilor diplomatice, în 1992.",
+      "sources": [
+        {
+          "name": "Lenta.ru — evaluarea nivelului relațiilor bilaterale",
+          "url": "https://lenta.ru/news/2026/08/10/mid-rossii-zayavil-ob-uklonenii-odnoy-iz-stran-ot-tsivilizatsionnogo-diplomaticheskogo-dialoga/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Afirmația Moscovei că amenințarea ar fi „inventată” de Chișinău nu se susține în fața unui fapt fizic: pe teritoriul Republicii Moldova au căzut drone, iar una a explodat la Crocmaz pe 12 august. Existența obiectelor este documentată de autorități și de presă independentă. Cine le-a lansat este o chestiune separată, care se probează cu expertiză tehnică, nu cu declarații — dar faptul că ele au căzut nu poate fi negat prin comunicat.",
+      "sources": [
+        {
+          "name": "Fără Baliverne — verificarea privind drona de la Crocmaz, cu sursele autorităților moldovenești",
+          "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"
+        },
+        {
+          "name": "Point.md (Chișinău, ediția în limba rusă) — Moscova acuză Chișinăul de „inventarea amenințării ruse”",
+          "url": "https://point.md/ru/novosti/politika/moskva-obviniaet-kishinev-v-vydumyvanii-rossiiskoi-ugrozy-dlia-otvlecheniia-vnimaniia/"
+        }
+      ]
+    },
+    {
+      "text": "Nu se probează nici afirmația MAE rus că „îndepărtarea Moldovei de statutul neutru” ar fi sursa amenințărilor pentru propriul ei popor. Este o teză politică despre cauzalitate, formulată de una dintre părțile în dispută, fără documente în sprijin.",
+      "sources": [
+        {
+          "name": "Rambler — MAE rus despre statutul de neutralitate al Moldovei",
+          "url": "https://news.rambler.ru/politics/56869151-mid-rf-nazval-othod-moldavii-ot-neytralnogo-statusa-istochnikom-ugroz-dlya-ee-naroda/"
+        }
+      ]
+    },
+    {
+      "text": "În sens invers, nu se probează nici că fiecare dronă căzută ar fi fost lansată intenționat către Republica Moldova. Autoritățile moldovenești nu au prezentat, până la data acestui articol, o expertiză publică privind traiectoria și originea fiecărui aparat. Rămâne, deci, un fapt: obiecte au căzut. Restul se investighează.",
+      "sources": [
+        {
+          "name": "Fără Baliverne — ce s-a probat și ce nu în cazul dronei de la Crocmaz",
+          "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Formulările „dialog civilizat”, „provocări ostile” și „curs deliberat de restrângere” sunt limbaj diplomatic de conflict, folosit de ambele părți. Le reținem ca poziții politice, nu ca descrieri verificabile ale realității.",
+      "sources": [
+        {
+          "name": "Rossiyskaya Gazeta — formulările oficiale ale părții ruse",
+          "url": "https://rg.ru/2026/07/27/mid-rossiia-dast-adekvatnyj-otvet-na-vse-nedruzhestvennye-iniciativy-moldavii.html"
+        }
+      ]
+    }
+  ],
+  "aiNote": "Am citit declarațiile în original, în rusă, pe surse rusești, și le-am pus lângă relatările din presa independentă de la Chișinău care scrie tot în rusă. Merită observat un lucru despre metodă, nu despre tabere: acuzația „inventați amenințarea” e o afirmație despre intenția altcuiva, deci imposibil de probat sau de infirmat. Faptul „a căzut o dronă și a explodat” e o afirmație despre lume, deci verificabilă. Când o parte răspunde la a doua cu prima, discuția nu mai are unde să aterizeze. Noi rămânem la ce se poate cântări.",
+  "persoane": [
+    "Mihail Galuzin",
+    "Maia Sandu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-rusia-acuzatii-mid-ambasador-rechemat.jpg\" alt=\"Chisinau government building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chisinau government building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chisinau_GouvernamentalBuilding.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chisinau GouvernamentalBuilding</a>\" de autor necunoscut, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-rusia-acuzatii-mid-ambasador-rechemat.jpg",
+    "licenta": "Public domain",
+    "autor": "autor necunoscut"
   }
- ],
- "contestat": [
-  {
-   "text": "Afirmația Moscovei că amenințarea ar fi „inventată” de Chișinău nu se susține în fața unui fapt fizic: pe teritoriul Republicii Moldova au căzut drone, iar una a explodat la Crocmaz pe 12 august. Existența obiectelor este documentată de autorități și de presă independentă. Cine le-a lansat este o chestiune separată, care se probează cu expertiză tehnică, nu cu declarații — dar faptul că ele au căzut nu poate fi negat prin comunicat.",
-   "sources": [
-    {"name": "Fără Baliverne — verificarea privind drona de la Crocmaz, cu sursele autorităților moldovenești", "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"},
-    {"name": "Point.md (Chișinău, ediția în limba rusă) — Moscova acuză Chișinăul de „inventarea amenințării ruse”", "url": "https://point.md/ru/novosti/politika/moskva-obviniaet-kishinev-v-vydumyvanii-rossiiskoi-ugrozy-dlia-otvlecheniia-vnimaniia/"}
-   ]
-  },
-  {
-   "text": "Nu se probează nici afirmația MAE rus că „îndepărtarea Moldovei de statutul neutru” ar fi sursa amenințărilor pentru propriul ei popor. Este o teză politică despre cauzalitate, formulată de una dintre părțile în dispută, fără documente în sprijin.",
-   "sources": [
-    {"name": "Rambler — MAE rus despre statutul de neutralitate al Moldovei", "url": "https://news.rambler.ru/politics/56869151-mid-rf-nazval-othod-moldavii-ot-neytralnogo-statusa-istochnikom-ugroz-dlya-ee-naroda/"}
-   ]
-  },
-  {
-   "text": "În sens invers, nu se probează nici că fiecare dronă căzută ar fi fost lansată intenționat către Republica Moldova. Autoritățile moldovenești nu au prezentat, până la data acestui articol, o expertiză publică privind traiectoria și originea fiecărui aparat. Rămâne, deci, un fapt: obiecte au căzut. Restul se investighează.",
-   "sources": [
-    {"name": "Fără Baliverne — ce s-a probat și ce nu în cazul dronei de la Crocmaz", "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Formulările „dialog civilizat”, „provocări ostile” și „curs deliberat de restrângere” sunt limbaj diplomatic de conflict, folosit de ambele părți. Le reținem ca poziții politice, nu ca descrieri verificabile ale realității.",
-   "sources": [
-    {"name": "Rossiyskaya Gazeta — formulările oficiale ale părții ruse", "url": "https://rg.ru/2026/07/27/mid-rossiia-dast-adekvatnyj-otvet-na-vse-nedruzhestvennye-iniciativy-moldavii.html"}
-   ]
-  }
- ],
- "aiNote": "Am citit declarațiile în original, în rusă, pe surse rusești, și le-am pus lângă relatările din presa independentă de la Chișinău care scrie tot în rusă. Merită observat un lucru despre metodă, nu despre tabere: acuzația „inventați amenințarea” e o afirmație despre intenția altcuiva, deci imposibil de probat sau de infirmat. Faptul „a căzut o dronă și a explodat” e o afirmație despre lume, deci verificabilă. Când o parte răspunde la a doua cu prima, discuția nu mai are unde să aterizeze. Noi rămânem la ce se poate cântări.",
- "persoane": ["Mihail Galuzin", "Maia Sandu"]
 }

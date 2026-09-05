@@ -98,5 +98,15 @@
   ],
   "math": null,
   "aiNote": "Ce s-a verificat: că Nicușor Dan a declarat, pe 3 septembrie 2026, că va desemna un premier „în zilele următoare”, motivând întârzierea prin vacanța parlamentarilor și nevoia unui vot fizic — confirmat identic de Digi24 și Mediafax, cu citate care se suprapun cuvânt cu cuvânt. La fel, predicția lui George Simion din 31 august, că „până cel puțin pe 21 septembrie nu va fi desemnat niciun premier”, e confirmată de două relatări independente (Gandul, Observator News).\n\nUnde se despart lucrurile: cele două declarații nu se contrazic factual — sunt două afirmații ale unor politicieni cu interese opuse în acest deznodământ, făcute la trei zile distanță. Simion, din opoziție, mizează pe eșecul procesului ca argument pentru alegeri anticipate; Dan, care conduce procesul, promite o rezolvare rapidă. Niciuna nu poate fi verificată complet încă: „în zilele următoare” e prea vag pentru a fi testat imediat, iar predicția lui Simion se verifică abia peste câteva săptămâni.\n\nCe lipsește: un nume concret de candidat la premier — președinția n-a confirmat oficial niciuna dintre variantele vehiculate în presă (independent, Grindeanu, Nazare) — și orice explicație procedurală pentru data de „21 septembrie” aleasă de Simion, care pare o estimare politică, nu un termen legal.\n\nCe ar schimba concluzia: o desemnare oficială de la Cotroceni, cu nume și dată, ar rezolva ambele afirmații dintr-o singură mișcare — fie confirmă graba promisă de Dan, fie, dacă nu vine până pe 21 septembrie, confirmă predicția lui Simion. Contextul mai larg contează: aceasta nu e prima promisiune de „zile următoare” din vara asta — termenele tot s-au mutat de la moțiunea de cenzură din 5 mai încoace.",
-  "persoane": ["Nicușor Dan", "George Simion"]
+  "persoane": [
+    "Nicușor Dan",
+    "George Simion"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nicusor-dan-premier-zilele-urmatoare-simion-21-septembrie.jpg\" alt=\"Nicușor Dan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto de arhivă</b> — Nicușor Dan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nicu%C8%99or_Dan.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nicușor Dan</a>\" de Razvan Socol, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nicusor-dan-premier-zilele-urmatoare-simion-21-septembrie.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Razvan Socol"
+  }
 }

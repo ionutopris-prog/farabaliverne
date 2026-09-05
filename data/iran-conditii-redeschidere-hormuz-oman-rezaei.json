@@ -70,5 +70,12 @@
     "explanation": "Strâmtoarea Hormuz este ruta prin care trece, în mod normal, aproximativ o cincime din consumul mondial de petrol și o mare parte din exporturile globale de gaz natural lichefiat (LNG) din Qatar. Miza economică a unei blocade sau a unei redeschideri condiționate este de aceea globală, nu doar regională — ceea ce explică presiunea mediatorilor internaționali (Qatar, Oman) pentru revenirea la transportul maritim liber."
   },
   "aiNote": "Declarația lui Mohsen Rezaei despre condițiile Iranului pentru redeschiderea Hormuz este relatată consecvent de Reuters și preluată de mai multe redacții independente (Al Jazeera, Al-Monitor) — deci FAPTUL că Iranul a formulat public aceste condiții se probează. Ce NU se probează independent este partea cea mai categorică a declarației: că Iranul „a convenit” deja cu Omanul un coridor naval prin strâmtoare. Chiar sursa care relatează declarația notează, în același material, că cele două țări „încă lucrează la detaliile” unui asemenea acord — o nuanță care contrazice tonul de fapt împlinit din declarația oficialului iranian. Ce lipsește: o confirmare directă din partea guvernului omanez sau a SUA. Ce ar schimba concluzia: o declarație oficială de la Muscat care să confirme (sau să dezmintă) coridorul descris de Rezaei, sau un răspuns american la condițiile enumerate de Teheran.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iran-conditii-redeschidere-hormuz-oman-rezaei.jpg\" alt=\"Strâmtorii\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Strâmtorii. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:BeringBridge.jpg\" rel=\"nofollow noopener\" target=\"_blank\">BeringBridge</a>\" de Cleaned up and annotated by contributor., via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iran-conditii-redeschidere-hormuz-oman-rezaei.jpg",
+    "licenta": "Public domain",
+    "autor": "Cleaned up and annotated by contributor."
+  }
 }

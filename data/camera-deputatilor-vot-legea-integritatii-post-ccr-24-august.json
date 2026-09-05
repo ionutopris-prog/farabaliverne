@@ -73,5 +73,15 @@
     "explanation": "Legea integrității este jalonul 431 din PNRR, cu o componentă financiară de aproximativ 770,8 milioane de euro, condiționată de intrarea în vigoare până la 31 august 2026. Camera a votat pe 24 august, iar legea mai are de trecut de votul decizional al Senatului și de promulgare — adică mai puțin de o săptămână pentru ca procesul să se încheie înainte de termen."
   },
   "aiNote": "Am verificat votul de azi din Camera Deputaților (183 pentru, 84 împotrivă, 3 abțineri) pe trei surse independente — AGERPRES, Digi24 și Știrile ProTV — care coincid pe cifre. Ce diferă între surse e nivelul de detaliu despre conținutul exact al noului text: Digi24 descrie o fișă publică restrânsă generată de ANI în 60 de zile, alte relatări insistă mai mult pe amendamentele respinse (cel al AUR, care voia să mențină obligația partenerilor „recunoscuți public”) decât pe forma finală adoptată. Am păstrat în „probat” doar ce e confirmat clar ca text adoptat, nu ca propunere discutată.\n\nCea mai utilă parte de aici e declarația lui Grindeanu despre o „alianță” USR-AUR: e adevărat că ambele partide au votat împotrivă, dar asta nu spune nimic despre motiv — iar motivele lor, din câte arată sursele, sunt opuse (AUR vrea mai multă transparență pentru parteneri, USR vrea mai multă transparență pentru demnitari, iar textul adoptat e mai restrictiv decât cerea oricare dintre ele). O coincidență de vot prezentată ca alianță de conținut e genul de scurtătură care sună bine la microfon, dar nu rezistă la comparat amendamentele.\n\nCe lipsește: stenograma exactă a dezbaterii și textul final publicat de Camera Deputaților, care ar clarifica definitiv ce a rămas din propunerile PSD de restrângere a publicării. Ce ar schimba concluzia: dacă Senatul modifică din nou textul înainte de votul decizional, sau dacă o nouă sesizare CCR întârzie intrarea în vigoare peste 31 august.",
-  "persoane": ["Dominic Fritz", "Sorin Grindeanu"]
+  "persoane": [
+    "Dominic Fritz",
+    "Sorin Grindeanu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/camera-deputatilor-vot-legea-integritatii-post-ccr-24-august.jpg\" alt=\"Legii\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Legii. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Biserica_reformata_din_Legii_(7).JPG\" rel=\"nofollow noopener\" target=\"_blank\">Biserica reformata din Legii (7)</a>\" de Țetcu Mircea Rareș, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 ro</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/camera-deputatilor-vot-legea-integritatii-post-ccr-24-august.jpg",
+    "licenta": "CC BY-SA 3.0 ro",
+    "autor": "Țetcu Mircea Rareș"
+  }
 }

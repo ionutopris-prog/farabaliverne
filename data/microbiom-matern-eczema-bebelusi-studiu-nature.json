@@ -11,38 +11,65 @@
     {
       "text": "Echipa, coordonată de cercetători de la Universitatea din Groningen (Lifelines NEXT) cu sprijinul platformei de microbiom a Universității din Kiel, a analizat 4.526 de probe fecale longitudinale de la 714 perechi mamă-copil — de la mamă în timpul sarcinii, la naștere și la 3 luni postpartum, iar de la copil la 2 săptămâni, 1, 2, 3, 6 și 12 luni — plus probe din microbiomul vaginal și din laptele matern, secvențiate la rezoluție de tulpină bacteriană.",
       "sources": [
-        {"name": "IKMB Kiel — Kiel Microbiome Platform supports landmark study of maternal influence on the infant gut microbiome", "url": "https://www.ikmb.uni-kiel.de/2026/08/kiel-microbiome-platform-supports-landmark-study-of-maternal-influence-on-the-infant-gut-microbiome/"},
-        {"name": "EMJ Reviews — Maternal Gut Microbiome Could Shape Infant Health", "url": "https://www.emjreviews.com/reproductive-health/news/maternal-gut-microbiome-could-shape-infant-health/"}
+        {
+          "name": "IKMB Kiel — Kiel Microbiome Platform supports landmark study of maternal influence on the infant gut microbiome",
+          "url": "https://www.ikmb.uni-kiel.de/2026/08/kiel-microbiome-platform-supports-landmark-study-of-maternal-influence-on-the-infant-gut-microbiome/"
+        },
+        {
+          "name": "EMJ Reviews — Maternal Gut Microbiome Could Shape Infant Health",
+          "url": "https://www.emjreviews.com/reproductive-health/news/maternal-gut-microbiome-could-shape-infant-health/"
+        }
       ]
     },
     {
       "text": "Rezultatul central: o proporție substanțială din tulpinile bacteriene găsite în intestinul bebelușilor erau identice cu tulpini din intestinul mamei, ceea ce stabilește microbiomul intestinal matern — nu cel vaginal sau laptele matern — drept sursa principală de colonizare bacteriană a nou-născutului. Transmiterea a fost mai frecventă atunci când bacteriile erau abundente la mamă și s-a produs mai ales devreme, în primele săptămâni de viață ale copilului.",
       "sources": [
-        {"name": "EMJ Reviews — Maternal Gut Microbiome Could Shape Infant Health", "url": "https://www.emjreviews.com/reproductive-health/news/maternal-gut-microbiome-could-shape-infant-health/"}
+        {
+          "name": "EMJ Reviews — Maternal Gut Microbiome Could Shape Infant Health",
+          "url": "https://www.emjreviews.com/reproductive-health/news/maternal-gut-microbiome-could-shape-infant-health/"
+        }
       ]
     },
     {
       "text": "Modul de naștere și tipul de alimentație au fost cei mai puternici factori care au influențat dezvoltarea microbiomului infantil: bebelușii născuți vaginal au avut o reprezentare mai mare a bacteriilor din genul Bacteroides față de cei născuți prin cezariană, iar alăptatul a produs profiluri microbiene distincte față de alimentația cu formulă — diferențe care s-au diminuat după introducerea alimentelor solide. Locul nașterii a avut un efect doar modest.",
       "sources": [
-        {"name": "EMJ Reviews — Maternal Gut Microbiome Could Shape Infant Health", "url": "https://www.emjreviews.com/reproductive-health/news/maternal-gut-microbiome-could-shape-infant-health/"}
+        {
+          "name": "EMJ Reviews — Maternal Gut Microbiome Could Shape Infant Health",
+          "url": "https://www.emjreviews.com/reproductive-health/news/maternal-gut-microbiome-could-shape-infant-health/"
+        }
       ]
     },
     {
       "text": "Compoziția și nivelurile anumitor bacterii din microbiomul intestinal al mamei au putut anticipa care dintre copii vor dezvolta eczemă în primul an de viață — o asociere statistică, potrivit cercetătorilor, ale cărei mecanisme biologice exacte rămân neclare deocamdată. Studiul a fost publicat pe 12 august 2026 în revista cu recenzie inter pares Nature, sub coordonarea Andre Franke și Corinna Bang de la Institutul de Biologie Moleculară Clinică (Universitatea din Kiel), împreună cu Universitatea Medicală din Groningen.",
       "sources": [
-        {"name": "IKMB Kiel — comunicat oficial cu detalii despre publicare și autori", "url": "https://www.ikmb.uni-kiel.de/2026/08/kiel-microbiome-platform-supports-landmark-study-of-maternal-influence-on-the-infant-gut-microbiome/"},
-        {"name": "Nature — Maternal influences on infant gut microbiome and health", "url": "https://www.nature.com/articles/s41586-026-10922-9"}
+        {
+          "name": "IKMB Kiel — comunicat oficial cu detalii despre publicare și autori",
+          "url": "https://www.ikmb.uni-kiel.de/2026/08/kiel-microbiome-platform-supports-landmark-study-of-maternal-influence-on-the-infant-gut-microbiome/"
+        },
+        {
+          "name": "Nature — Maternal influences on infant gut microbiome and health",
+          "url": "https://www.nature.com/articles/s41586-026-10922-9"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    {"text": "Legătura dintre microbiomul matern și eczema infantilă este descrisă de cercetători ca o asociere/predicție statistică, nu ca o relație cauzală demonstrată — studiul nu arată că anumite bacterii materne PRODUC eczema, doar că prezența lor se corelează cu apariția ei. De asemenea, compoziția microbiomului infantil la 2 săptămâni nu a prezis fiabil traiectoria lui ulterioară, semn că povestea colonizării bacteriene e mai complicată decât „ce vine de la mamă rămâne fix așa”."}
+    {
+      "text": "Legătura dintre microbiomul matern și eczema infantilă este descrisă de cercetători ca o asociere/predicție statistică, nu ca o relație cauzală demonstrată — studiul nu arată că anumite bacterii materne PRODUC eczema, doar că prezența lor se corelează cu apariția ei. De asemenea, compoziția microbiomului infantil la 2 săptămâni nu a prezis fiabil traiectoria lui ulterioară, semn că povestea colonizării bacteriene e mai complicată decât „ce vine de la mamă rămâne fix așa”."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat cu recenzie inter pares în Nature pe 12 august 2026, confirmat prin comunicatul oficial al Universității din Kiel (una dintre instituțiile coautoare) și printr-un rezumat independent din EMJ Reviews. Nucleul faptic — dimensiunea eșantionului, metoda de secvențiere la nivel de tulpină, rolul principal al microbiomului matern în colonizarea bebelușului, și influența modului de naștere și a alăptării — se regăsește concordant în ambele surse consultate. Am marcat explicit la „opinie” limita cea mai importantă a studiului: asocierea cu eczema e statistică, nu o dovadă de cauzalitate, iar autorii înșiși spun că mecanismul biologic rămâne neclar. Nu am avut nevoie de traducere din presă internațională de tip tabloid — sursele sunt fie comunicatul instituției coautoare, fie un rezumat de specialitate al studiului științific original.",
   "math": {
     "title": "Ce înseamnă „aceeași tulpină bacteriană” la mamă și copil",
     "explanation": "Nu e suficient să găsești aceeași SPECIE de bacterie și la mamă și la bebeluș — aceeași specie poate exista în mii de variante ușor diferite genetic (tulpini) în populații diferite de oameni, la fel cum aceeași specie de câine include rase foarte diferite. Când cercetătorii secvențiază la „rezoluție de tulpină”, ei citesc suficient de fin codul genetic al bacteriilor încât să distingă practic o „amprentă” unică pentru fiecare tulpină. Găsirea acelei amprente identice și în scaunul mamei, și în cel al copilului — nu doar aceeași specie, ci aceeași variantă exactă — e dovada că bacteria chiar a „călătorit” de la mamă la copil, nu că ambii au preluat-o independent din mediu. Asta a permis echipei să separe transmiterea directă mamă-copil de coincidența statistică."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/microbiom-matern-eczema-bebelusi-studiu-nature.jpg\" alt=\"laboratory microscope\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — laboratory microscope. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nikon_Optiphot_Phase_Contrast_Trinocular_Laboratory_Microscope_3_(15957731926).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nikon Optiphot Phase Contrast Trinocular Laboratory Microscope 3 (15957731926)</a>\" de Kitmondo Marketplace, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/microbiom-matern-eczema-bebelusi-studiu-nature.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Kitmondo Marketplace"
+  }
 }

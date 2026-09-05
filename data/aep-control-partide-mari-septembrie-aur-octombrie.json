@@ -1,48 +1,55 @@
 {
-    "slug": "aep-control-partide-mari-septembrie-aur-octombrie",
-    "title": "AEP începe controlul la marile partide de la 1 septembrie; AUR intră la verificare abia din octombrie, la cererea proprie",
-    "category": "Politică",
-    "date": "2026-09-01",
-    "source": "Adevărul / Economica.net / Monitorul de Botoșani",
-    "url": "https://adevarul.ro/politica/autoritatea-electorala-permanenta-incepe-de-azi-1-2553322.html",
-    "dek": "Autoritatea Electorală Permanentă (AEP) a început marți, 1 septembrie 2026, misiuni de control la activitatea financiară din 2025 a PSD, PNL, USR, SOS România și UDMR, cu termen de finalizare în noiembrie. AUR nu e printre ele: controlul la acest partid începe abia pe 1 octombrie. Președintele AEP, Adrian Țuțuianu, spune că amânarea a fost cerută chiar de AUR, ca să nu se suprapună cu un control paralel al Curții de Conturi, tot de la 1 septembrie.",
-    "mainVerdict": "Probat",
-    "probat": [
+  "slug": "aep-control-partide-mari-septembrie-aur-octombrie",
+  "title": "AEP începe controlul la marile partide de la 1 septembrie; AUR intră la verificare abia din octombrie, la cererea proprie",
+  "category": "Politică",
+  "date": "2026-09-01",
+  "source": "Adevărul / Economica.net / Monitorul de Botoșani",
+  "url": "https://adevarul.ro/politica/autoritatea-electorala-permanenta-incepe-de-azi-1-2553322.html",
+  "dek": "Autoritatea Electorală Permanentă (AEP) a început marți, 1 septembrie 2026, misiuni de control la activitatea financiară din 2025 a PSD, PNL, USR, SOS România și UDMR, cu termen de finalizare în noiembrie. AUR nu e printre ele: controlul la acest partid începe abia pe 1 octombrie. Președintele AEP, Adrian Țuțuianu, spune că amânarea a fost cerută chiar de AUR, ca să nu se suprapună cu un control paralel al Curții de Conturi, tot de la 1 septembrie.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "AEP a demarat, de la 1 septembrie 2026, misiuni de control la activitatea financiară din anul fiscal 2025 a cinci partide: PSD, PNL, USR, SOS România și UDMR. Controalele pentru 2023 și 2024 fuseseră deja finalizate la toate partidele; instituția vizează finalizarea verificărilor pentru 2025 până la sfârșitul lunii noiembrie 2026.",
+      "sources": [
         {
-            "text": "AEP a demarat, de la 1 septembrie 2026, misiuni de control la activitatea financiară din anul fiscal 2025 a cinci partide: PSD, PNL, USR, SOS România și UDMR. Controalele pentru 2023 și 2024 fuseseră deja finalizate la toate partidele; instituția vizează finalizarea verificărilor pentru 2025 până la sfârșitul lunii noiembrie 2026.",
-            "sources": [
-                {
-                    "name": "Adevărul — Autoritatea Electorală Permanentă începe de azi, 1 septembrie, controlul la partidele mari. AUR face excepție",
-                    "url": "https://adevarul.ro/politica/autoritatea-electorala-permanenta-incepe-de-azi-1-2553322.html"
-                },
-                {
-                    "name": "Economica.net — Încep misiunile de control AEP la partidele politice",
-                    "url": "https://www.economica.net/incep-misiunile-de-control-aep-la-partidele-politice_972580.html"
-                }
-            ]
+          "name": "Adevărul — Autoritatea Electorală Permanentă începe de azi, 1 septembrie, controlul la partidele mari. AUR face excepție",
+          "url": "https://adevarul.ro/politica/autoritatea-electorala-permanenta-incepe-de-azi-1-2553322.html"
         },
         {
-            "text": "AUR nu se numără printre partidele controlate începând cu 1 septembrie — verificarea sa e programată pentru 1 octombrie 2026. Președintele AEP, Adrian Țuțuianu, a explicat decalajul: „Este o cerere făcută de AUR, pentru că la 1 septembrie au și control de la Curtea de Conturi” — iar suprapunerea celor două controale ar fi creat dificultăți de coordonare pentru partid.",
-            "sources": [
-                {
-                    "name": "Monitorul de Botoșani — Marile partide intră sub lupa AEP. De ce AUR este verificată separat",
-                    "url": "https://www.monitorulbt.ro/national/2026/09/01/marile-partide-intra-sub-lupa-aep-de-ce-aur-este-verificata-separat/"
-                },
-                {
-                    "name": "Economica.net — Încep misiunile de control AEP la partidele politice",
-                    "url": "https://www.economica.net/incep-misiunile-de-control-aep-la-partidele-politice_972580.html"
-                }
-            ]
+          "name": "Economica.net — Încep misiunile de control AEP la partidele politice",
+          "url": "https://www.economica.net/incep-misiunile-de-control-aep-la-partidele-politice_972580.html"
         }
-    ],
-    "contestat": [],
-    "opinie": [],
-    "math": {
-        "title": "5 partide controlate acum, 1 amânat cu o lună",
-        "explanation": "Dintre cele opt partide care primesc subvenții de la bugetul de stat și intră în planul de control al AEP pentru 2025, cinci (PSD, PNL, USR, SOS România, UDMR) sunt verificate începând cu 1 septembrie, iar AUR — al șaselea partid mare — intră la control o lună mai târziu, pe 1 octombrie, ca să nu se suprapună cu verificarea separată a Curții de Conturi."
+      ]
     },
-    "aiNote": "Controlul financiar anual al AEP la partidele care primesc subvenții de la buget e o procedură administrativă de rutină, nu o știre cu miză politică ascunsă — de aceea nota e scurtă. Ce s-a verificat: anunțul oficial al AEP, confirmat concordant de Adevărul, Economica.net și Monitorul de Botoșani, toate citând aceeași declarație a președintelui AEP, Adrian Țuțuianu, dată pe 21 august 2026. Singurul element care ar putea părea disputabil — amânarea controlului la AUR — are o explicație instituțională verificabilă (suprapunerea cu un control paralel al Curții de Conturi, cerută chiar de partid) și nu am găsit, la data verificării, nicio reacție publică din partea celorlalte partide care să conteste această amânare ca favoritism.",
-    "persoane": [
-        "Adrian Țuțuianu"
-    ]
+    {
+      "text": "AUR nu se numără printre partidele controlate începând cu 1 septembrie — verificarea sa e programată pentru 1 octombrie 2026. Președintele AEP, Adrian Țuțuianu, a explicat decalajul: „Este o cerere făcută de AUR, pentru că la 1 septembrie au și control de la Curtea de Conturi” — iar suprapunerea celor două controale ar fi creat dificultăți de coordonare pentru partid.",
+      "sources": [
+        {
+          "name": "Monitorul de Botoșani — Marile partide intră sub lupa AEP. De ce AUR este verificată separat",
+          "url": "https://www.monitorulbt.ro/national/2026/09/01/marile-partide-intra-sub-lupa-aep-de-ce-aur-este-verificata-separat/"
+        },
+        {
+          "name": "Economica.net — Încep misiunile de control AEP la partidele politice",
+          "url": "https://www.economica.net/incep-misiunile-de-control-aep-la-partidele-politice_972580.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": {
+    "title": "5 partide controlate acum, 1 amânat cu o lună",
+    "explanation": "Dintre cele opt partide care primesc subvenții de la bugetul de stat și intră în planul de control al AEP pentru 2025, cinci (PSD, PNL, USR, SOS România, UDMR) sunt verificate începând cu 1 septembrie, iar AUR — al șaselea partid mare — intră la control o lună mai târziu, pe 1 octombrie, ca să nu se suprapună cu verificarea separată a Curții de Conturi."
+  },
+  "aiNote": "Controlul financiar anual al AEP la partidele care primesc subvenții de la buget e o procedură administrativă de rutină, nu o știre cu miză politică ascunsă — de aceea nota e scurtă. Ce s-a verificat: anunțul oficial al AEP, confirmat concordant de Adevărul, Economica.net și Monitorul de Botoșani, toate citând aceeași declarație a președintelui AEP, Adrian Țuțuianu, dată pe 21 august 2026. Singurul element care ar putea părea disputabil — amânarea controlului la AUR — are o explicație instituțională verificabilă (suprapunerea cu un control paralel al Curții de Conturi, cerută chiar de partid) și nu am găsit, la data verificării, nicio reacție publică din partea celorlalte partide care să conteste această amânare ca favoritism.",
+  "persoane": [
+    "Adrian Țuțuianu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/aep-control-partide-mari-septembrie-aur-octombrie.jpg\" alt=\"Bucharest Romania government building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bucharest Romania government building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bucharest_-_33_Strada_Popa_Petre.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bucharest - 33 Strada Popa Petre</a>\" de Joe Mabel, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/aep-control-partide-mari-septembrie-aur-octombrie.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Joe Mabel"
+  }
 }

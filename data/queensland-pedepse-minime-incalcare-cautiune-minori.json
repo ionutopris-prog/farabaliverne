@@ -80,5 +80,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\nCe s-a verificat exact: pagina ABC News din 23 august 2026 (răspuns 200, pe subiect). ABC este radiodifuzorul public australian. Relatarea conține anunțul nominal al premierului Crisafulli, cifrele prezentate de guvern și obiecția sindicatului, atribuită nominal.\nUnde se despart sursele: guvernul prezintă o scădere de 29% a recidiviștilor gravi ca dovadă că abordarea funcționează; sindicatul avertizează că extinderea va supraaglomera un sistem deja la 168% capacitate. Amândouă părțile folosesc cifre reale, dar pentru lucruri diferite — una măsoară infracționalitatea, cealaltă capacitatea penitenciară. Nu se contrazic; răspund la întrebări diferite.\nCe lipsește pentru o judecată reală: o evaluare independentă care să lege scăderea de 29% de lege, și nu de alți factori. Fără ea, cifra rămâne o corelație prezentată ca rezultat. Lipsesc și datele despre ce s-a întâmplat cu minorii încarcerați sub ACAT — recidivă după eliberare, durata medie a pedepselor.\nCe ar schimba concluzia: un studiu independent asupra efectului ACAT, sau date privind recidiva post-detenție. Până atunci, ce se probează e că măsura a fost anunțată și cu ce cifre a fost justificată — nu că funcționează.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/queensland-pedepse-minime-incalcare-cautiune-minori.jpg\" alt=\"United Nations headquarters\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — United Nations headquarters. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:United_Nations_HQ_-_New_York_City.jpg\" rel=\"nofollow noopener\" target=\"_blank\">United Nations HQ - New York City</a>\" de autor necunoscut, via Wikimedia Commons · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/queensland-pedepse-minime-incalcare-cautiune-minori.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "autor necunoscut"
+  }
 }

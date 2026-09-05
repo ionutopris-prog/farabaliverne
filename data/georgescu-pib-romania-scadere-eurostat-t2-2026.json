@@ -11,22 +11,40 @@
     {
       "text": "PIB-ul României a scăzut cu 2% în trimestrul 2 din 2026 față de trimestrul 2 din 2025 (serie ajustată sezonier; -0,4% pe seria neajustată), potrivit datelor provizorii publicate de Institutul Național de Statistică pe 14 august 2026 și confirmate de Eurostat. Este al treilea trimestru consecutiv de declin pe seria ajustată sezonier — economia a stagnat (0%) atât trimestrial, cât și pe seria neajustată.",
       "sources": [
-        {"name": "Adevărul — România, în al treilea trimestru consecutiv de declin economic. PIB-ul a scăzut cu 2% în trimestrul II", "url": "https://adevarul.ro/economie/romania-in-al-treilea-trimestru-consecutiv-de-2549829.html"},
-        {"name": "Euronews România — INS: PIB-ul României a stagnat în trimestrul doi, economia a scăzut cu 0,4% față de anul trecut", "url": "https://www.euronews.ro/articole/ins-pib-ul-romaniei-a-stagnat-in-trimestrul-doi-economia-a-scazut-cu-0-4-fata-de-anul-trecut"}
+        {
+          "name": "Adevărul — România, în al treilea trimestru consecutiv de declin economic. PIB-ul a scăzut cu 2% în trimestrul II",
+          "url": "https://adevarul.ro/economie/romania-in-al-treilea-trimestru-consecutiv-de-2549829.html"
+        },
+        {
+          "name": "Euronews România — INS: PIB-ul României a stagnat în trimestrul doi, economia a scăzut cu 0,4% față de anul trecut",
+          "url": "https://www.euronews.ro/articole/ins-pib-ul-romaniei-a-stagnat-in-trimestrul-doi-economia-a-scazut-cu-0-4-fata-de-anul-trecut"
+        }
       ]
     },
     {
       "text": "În comparația Eurostat pe toate statele UE pentru trimestrul 2 din 2026 (variație anuală), doar două state membre au înregistrat scădere: Irlanda, cu -5,6%, și România, cu -2%. Toate celelalte state membre au raportat creștere, între care cele mai puternice au fost Slovenia (+4,8%), Lituania (+3,8%) și Polonia (+3,7%); media UE-27 a fost de +1,2%.",
       "sources": [
-        {"name": "Wall-Street.ro — UE crește economic cu 0,5% în T2 2026 (singurele scăderi: Irlanda -5,6% și România -2%)", "url": "https://www.wall-street.ro/articol/economie/ue-creste-economic-cu-05-in-t2-2026.html"},
-        {"name": "CursDeGuvernare — Creșterea trimestrială a PIB în zona euro în T2/2026 a fost confirmată la 0,4%, iar în UE-27 a fost de 0,5%", "url": "https://cursdeguvernare.ro/cresterea-trimestriala-a-pib-in-zona-euro-in-t2-2026-a-fost-confirmata-la-04-iar-in-ue-27-a-fost-de-05.html"}
+        {
+          "name": "Wall-Street.ro — UE crește economic cu 0,5% în T2 2026 (singurele scăderi: Irlanda -5,6% și România -2%)",
+          "url": "https://www.wall-street.ro/articol/economie/ue-creste-economic-cu-05-in-t2-2026.html"
+        },
+        {
+          "name": "CursDeGuvernare — Creșterea trimestrială a PIB în zona euro în T2/2026 a fost confirmată la 0,4%, iar în UE-27 a fost de 0,5%",
+          "url": "https://cursdeguvernare.ro/cresterea-trimestriala-a-pib-in-zona-euro-in-t2-2026-a-fost-confirmata-la-04-iar-in-ue-27-a-fost-de-05.html"
+        }
       ]
     },
     {
       "text": "Pe una dintre celelalte afirmații din lista lui Radu Georgescu — „cea mai mare inflație din Europa” — datele Eurostat îi confirmă spusele: în iulie 2026 România a avut cea mai mare rată anuală a inflației din UE (în iunie, 9,2%, față de o medie UE de 2,9% — de peste trei ori mai mare), depășind Lituania (5,4%) și Bulgaria (5,2%), în timp ce cele mai mici rate au fost în Suedia (1,0%) și Cehia (1,1%).",
       "sources": [
-        {"name": "Gândul — Inflația a scăzut cu 2,9% în Uniunea Europeană. România rămâne cu cea mai mare inflație din UE", "url": "https://www.gandul.ro/financiar/inflatia-a-scazut-cu-29-in-uniunea-europeana-romania-ramane-cu-cea-mai-mare-inflatie-din-ue-20958562"},
-        {"name": "AGERPRES — Rata anuală a inflației în România, de peste trei ori mai mare decât media UE în iunie (Eurostat)", "url": "https://agerpres.ro/economic/2026/07/17/rata-anuala-a-inflatiei-in-romania-de-peste-trei-ori-mai-mare-decat-media-ue-in-iunie-eurostat--1577015"}
+        {
+          "name": "Gândul — Inflația a scăzut cu 2,9% în Uniunea Europeană. România rămâne cu cea mai mare inflație din UE",
+          "url": "https://www.gandul.ro/financiar/inflatia-a-scazut-cu-29-in-uniunea-europeana-romania-ramane-cu-cea-mai-mare-inflatie-din-ue-20958562"
+        },
+        {
+          "name": "AGERPRES — Rata anuală a inflației în România, de peste trei ori mai mare decât media UE în iunie (Eurostat)",
+          "url": "https://agerpres.ro/economic/2026/07/17/rata-anuala-a-inflatiei-in-romania-de-peste-trei-ori-mai-mare-decat-media-ue-in-iunie-eurostat--1577015"
+        }
       ]
     }
   ],
@@ -34,14 +52,23 @@
     {
       "text": "Afirmația centrală a economistului Radu Georgescu — că România are „cea mai mare scădere economică din UE în 2026” — nu se susține atunci când e verificată direct pe cifrele Eurostat: scăderea anuală a PIB-ului Irlandei (-5,6%) este de aproape trei ori mai mare decât cea a României (-2%), ceea ce face din Irlanda, nu din România, statul cu cea mai slabă performanță anuală. Trimestrial, România a doar stagnat (0%), alături de Belgia și Austria — o stagnare nu e „cea mai mare scădere”, iar Irlanda a fost de fapt cea mai bună performanță trimestrială din UE (+3,9%), o revenire posibilă din cauza volatilității tipice a PIB-ului irlandez, legată de contabilitatea multinaționalelor cu sediu fiscal acolo.",
       "sources": [
-        {"name": "Wall-Street.ro — cifrele complete pe state membre, T2 2026", "url": "https://www.wall-street.ro/articol/economie/ue-creste-economic-cu-05-in-t2-2026.html"},
-        {"name": "CursDeGuvernare — Irlanda, cea mai bună performanță trimestrială (+3,9%)", "url": "https://cursdeguvernare.ro/cresterea-trimestriala-a-pib-in-zona-euro-in-t2-2026-a-fost-confirmata-la-04-iar-in-ue-27-a-fost-de-05.html"}
+        {
+          "name": "Wall-Street.ro — cifrele complete pe state membre, T2 2026",
+          "url": "https://www.wall-street.ro/articol/economie/ue-creste-economic-cu-05-in-t2-2026.html"
+        },
+        {
+          "name": "CursDeGuvernare — Irlanda, cea mai bună performanță trimestrială (+3,9%)",
+          "url": "https://cursdeguvernare.ro/cresterea-trimestriala-a-pib-in-zona-euro-in-t2-2026-a-fost-confirmata-la-04-iar-in-ue-27-a-fost-de-05.html"
+        }
       ]
     },
     {
       "text": "Restul afirmațiilor din lista economistului — cea mai mare scădere a consumului, a producției și a serviciilor, cel mai mare deficit de cont curent și comercial (în creștere), cele mai mari dobânzi la credite și cel mai mare declin al investițiilor străine — nu au putut fi verificate independent cu o sursă Eurostat directă în cadrul acestei verificări; singura sursă găsită pentru întreaga listă este declarația economistului, preluată de o singură publicație locală. Pe producția industrială, singura cifră Eurostat disponibilă separat arată România pe locul doi ca declin în UE în iunie 2026 (-5,6%), după Luxemburg (-7,9%) — tot nu „cea mai mare”.",
       "sources": [
-        {"name": "Ziarul Unirea — Date îngrijorătoare! Economistul Radu Georgescu: Eurostat spune că România are cea mai mare scădere economică din UE în 2026", "url": "https://ziarulunirea.ro/date-ingrijoratoare-economistul-radu-georgescu-eurostat-spune-ca-romania-are-cea-mai-mare-scadere-economica-din-ue-in-2026-1007296/"}
+        {
+          "name": "Ziarul Unirea — Date îngrijorătoare! Economistul Radu Georgescu: Eurostat spune că România are cea mai mare scădere economică din UE în 2026",
+          "url": "https://ziarulunirea.ro/date-ingrijoratoare-economistul-radu-georgescu-eurostat-spune-ca-romania-are-cea-mai-mare-scadere-economica-din-ue-in-2026-1007296/"
+        }
       ]
     }
   ],
@@ -55,5 +82,12 @@
     "explanation": "Pentru ca România să fi avut „cea mai mare scădere economică din UE”, ar fi trebuit ca -2% (cifra ei) să fie mai negativ decât toate celelalte cifre din UE. Nu este: Irlanda a raportat -5,6%, un declin de aproape trei ori mai amplu. Pe scara „cine a scăzut mai mult”, România este pe locul doi din 27 de state membre, nu pe primul — o distincție care contează, pentru că schimbă concluzia „cea mai gravă situație din UE” într-una mai nuanțată: „printre cele mai slabe două, cu un vecin din vârf mult mai afectat”."
   },
   "aiNote": "Am verificat direct pe cifrele Eurostat/INS două dintre afirmațiile economistului Radu Georgescu, citat de Ziarul Unirea pe 16 august 2026: cea despre „cea mai mare scădere economică” (PIB) — care NU se confirmă, Irlanda scăzând mai mult — și cea despre „cea mai mare inflație din Europa” — care SE confirmă, cu date Eurostat concordante din iunie-iulie 2026. Celelalte șase afirmații din lista sa (consum, producție, servicii, deficit de cont curent, deficit comercial, dobânzi, investiții străine) nu au o sursă Eurostat directă găsită separat în cadrul acestei verificări — asta nu înseamnă că sunt false, ci că rămân neverificate aici. Recomandăm cititorului să verifice fiecare cifră individual pe ec.europa.eu/eurostat, așa cum sugerează chiar economistul.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/georgescu-pib-romania-scadere-eurostat-t2-2026.jpg\" alt=\"Bucharest financial district\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bucharest financial district. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Almaty_Financial_District_(AP4M2342_1PS)_(29689498316).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Almaty Financial District (AP4M2342 1PS) (29689498316)</a>\" de Alexandru Panoiu from Bucharest, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/georgescu-pib-romania-scadere-eurostat-t2-2026.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Alexandru Panoiu from Bucharest, Romania"
+  }
 }

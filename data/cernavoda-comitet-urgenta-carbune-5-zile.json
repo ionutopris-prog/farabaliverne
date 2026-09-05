@@ -89,5 +89,12 @@
   "aiNote": "Sursele confirmă un fapt central: Guvernul a convocat pe 18 august 2026 un comitet de urgență pentru energie, în timp ce ambele reactoare de la Cernavodă rămân oprite din cauza secetei, iar grupul pe cărbune de la Rovinari a fost repornit pentru a compensa parțial deficitul. Cifra de „4-5 zile” de rezervă de cărbune vine însă din declarațiile sindicaliștilor prezenți la ședință, nu dintr-o statistică oficială publicată — merită tratată ca un avertisment, nu ca fapt confirmat independent. De asemenea, în aceeași perioadă funcționează mai multe structuri de criză (comitetul de urgență și comitetul interministerial pentru proiectul Bala 2), ceea ce poate crea confuzie despre cine ia deciziile. Afirmația lui Bolojan despre cauzele istorice ale crizei este poziția sa politică, redată ca atare, nu un verdict al redacției.",
   "persoane": [
     "Ilie Bolojan"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/cernavoda-comitet-urgenta-carbune-5-zile.jpg\" alt=\"Cernavoda nuclear power plant\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cernavoda nuclear power plant. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cernavoda_Nuclear_Power_Plant_of_Romania_in_December_2024_on_an_IAEA_IPPAS_mission_to_advise_on_facility_security_-_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cernavoda Nuclear Power Plant of Romania in December 2024 on an IAEA IPPAS mission to advise on facility security - 1</a>\" de IAEA Imagebank, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/cernavoda-comitet-urgenta-carbune-5-zile.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "IAEA Imagebank"
+  }
 }

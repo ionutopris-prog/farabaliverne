@@ -11,19 +11,28 @@
     {
       "text": "Studiul, condus de profesoara emerită Abby Smith (Departamentul de Științe Marine, Universitatea Otago, Noua Zeelandă), împreună cu Dr. Helen Jenkins, Dr. Paul Taylor și Dr. Andrea Waeschenbach (Muzeul de Istorie Naturală din Londra), a fost publicat în Zoological Journal of the Linnean Society. Cercetătorii au analizat probe din apele sudice ale Noii Zeelande, între Strâmtoarea Cook și insulele subantarctice, și au identificat 11 specii de briozoare din familia Horneridae (ordinul Cyclostomatida) — dintre care 7 sunt noi pentru știință — grupate în trei genuri, dintre care unul nou descris și altul reinstituit.",
       "sources": [
-        {"name": "Phys.org — Seven new species show 250-million-year-old marine group is still evolving", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+        {
+          "name": "Phys.org — Seven new species show 250-million-year-old marine group is still evolving",
+          "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"
+        }
       ]
     },
     {
       "text": "Briozoarele (bryozoa) sunt organisme marine coloniale, cu schelete calcaroase fine, asemănătoare unei dantele, care formează structuri ce oferă habitat altor viețuitoare din apele adânci. Familia Horneridae are o istorie fosilă de circa 250 de milioane de ani. Până la acest studiu, se credea că doar 2 specii din această familie trăiesc în apele Noii Zeelande; noua cercetare ridică numărul total cunoscut la 11.",
       "sources": [
-        {"name": "Phys.org — detalii despre taxonomia și distribuția familiei Horneridae", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+        {
+          "name": "Phys.org — detalii despre taxonomia și distribuția familiei Horneridae",
+          "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"
+        }
       ]
     },
     {
       "text": "Trei dintre speciile noi au primit nume comemorative: una după nava de cercetare RV Polaris II, iar celelalte două după cercetătoarele Elizabeth Girvan și Kim Currie. Profesoara Smith a rezumat miza practică a lucrării astfel: „Nu poți conserva, gestiona, studia sau înțelege o specie dacă nu știi că există” — un argument pentru continuarea cercetării taxonomice de bază chiar și în grupuri considerate deja bine cunoscute.",
       "sources": [
-        {"name": "Phys.org — citatul profesoarei Abby Smith și numele noilor specii", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+        {
+          "name": "Phys.org — citatul profesoarei Abby Smith și numele noilor specii",
+          "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"
+        }
       ]
     }
   ],
@@ -34,8 +43,18 @@
     "title": "Cum se stabilește azi că o specie e „nouă” pentru știință",
     "explanation": "Identificarea unei specii noi nu înseamnă doar găsirea unui animal necunoscut — de multe ori, ca aici, exemplarele existau deja în colecțiile muzeelor, uneori de zeci sau chiar de peste 100 de ani, dar erau clasificate greșit sau grupate laolaltă cu specii asemănătoare. Cercetătorii moderni compară atent forma și structura fină a scheletului (morfologie), iar tot mai des adaugă și analiza ADN-ului (secvențiere genetică), pentru a vedea dacă două populații care arată asemănător sunt totuși suficient de diferite genetic încât să fie considerate specii separate, nu doar variații ale aceleiași specii. Așa se explică de ce un grup „vechi” — cu fosile de 250 de milioane de ani — poate încă produce specii „noi” pentru catalogul științific: distincția e între vechimea liniei evolutive și momentul în care oamenii de știință au reușit, cu instrumentele de azi, să separe corect speciile din interiorul ei.",
     "sources": [
-      {"name": "Phys.org — metodologia studiului privind familia Horneridae", "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"}
+      {
+        "name": "Phys.org — metodologia studiului privind familia Horneridae",
+        "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/briozoare-horneridae-specii-noi-noua-zeelanda.jpg\" alt=\"laboratory microscope\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — laboratory microscope. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nikon_Optiphot_Phase_Contrast_Trinocular_Laboratory_Microscope_3_(15957731926).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nikon Optiphot Phase Contrast Trinocular Laboratory Microscope 3 (15957731926)</a>\" de Kitmondo Marketplace, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/briozoare-horneridae-specii-noi-noua-zeelanda.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Kitmondo Marketplace"
+  }
 }

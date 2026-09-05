@@ -11,20 +11,32 @@
     {
       "text": "Compania de Apă Buzău a anunțat oficial, pe site-ul propriu, introducerea unui program de furnizare a apei pe Valea Slănicului începând cu luni, 17 august 2026, pentru două grupe de localități: Grupa 1 (rezervoarele Jieni și Arbănași) — Podul Muncii, Dogari, Gura Dimienii, Mărgăriți, Beceni, Valea Părului, Cărpiniștea, Izvoru Dulce și Fulga; Grupa 2 (rezervoarele Sârbești, Podul Muncii, Sărulești) — Sârbești, Bodinești, Vintilă Vodă, Niculești, Petrăchești, Sărulești, Goicelu și Valea Stânei.",
       "sources": [
-        {"name": "Compania de Apă Buzău — În atenția utilizatorilor de pe Valea Slănicului", "url": "https://www.cabuzau.ro/in-atentia-utilizatorilor-de-pe-valea-slanicului/"}
+        {
+          "name": "Compania de Apă Buzău — În atenția utilizatorilor de pe Valea Slănicului",
+          "url": "https://www.cabuzau.ro/in-atentia-utilizatorilor-de-pe-valea-slanicului/"
+        }
       ]
     },
     {
       "text": "Motivul oficial al restricției: temperaturile foarte ridicate și consumul excesiv de apă, în ciuda apelurilor repetate ale autorităților de reducere, au dus debitul râului Slănic la niveluri critice, afectând capacitatea de umplere a rezervoarelor care alimentează zona.",
       "sources": [
-        {"name": "Compania de Apă Buzău — În atenția utilizatorilor de pe Valea Slănicului", "url": "https://www.cabuzau.ro/in-atentia-utilizatorilor-de-pe-valea-slanicului/"},
-        {"name": "Bugetul.ro — Apă cu porția și program pentru românii din această zonă", "url": "https://www.bugetul.ro/apa-cu-portia-si-program-pentru-romanii-din-aceasta-zona-de-pe-17-august-a-intra/"}
+        {
+          "name": "Compania de Apă Buzău — În atenția utilizatorilor de pe Valea Slănicului",
+          "url": "https://www.cabuzau.ro/in-atentia-utilizatorilor-de-pe-valea-slanicului/"
+        },
+        {
+          "name": "Bugetul.ro — Apă cu porția și program pentru românii din această zonă",
+          "url": "https://www.bugetul.ro/apa-cu-portia-si-program-pentru-romanii-din-aceasta-zona-de-pe-17-august-a-intra/"
+        }
       ]
     },
     {
       "text": "Compania de Apă a cerut locuitorilor din zonă să facă rezerve de apă în intervalele în care alimentarea e activă și să limiteze consumul pentru activități care pot fi amânate (udatul grădinilor, spălatul mașinilor), subliniind că măsura e temporară și va fi ridicată pe măsură ce condițiile hidrologice se îmbunătățesc.",
       "sources": [
-        {"name": "Bugetul.ro — Apă cu porția și program pentru românii din această zonă", "url": "https://www.bugetul.ro/apa-cu-portia-si-program-pentru-romanii-din-aceasta-zona-de-pe-17-august-a-intra/"}
+        {
+          "name": "Bugetul.ro — Apă cu porția și program pentru românii din această zonă",
+          "url": "https://www.bugetul.ro/apa-cu-portia-si-program-pentru-romanii-din-aceasta-zona-de-pe-17-august-a-intra/"
+        }
       ]
     }
   ],
@@ -32,5 +44,12 @@
   "opinie": [],
   "math": "",
   "aiNote": "Am folosit ca sursă principală anunțul oficial publicat pe site-ul Companiei de Apă Buzău (cabuzau.ro), coroborat cu relatarea Bugetul.ro. Programul orar exact diferă ușor între variantele publicate în diverse zile (compania actualizează programul săptămânal, în funcție de nivelul rezervoarelor), motiv pentru care am redat doar structura generală — două grupe de localități, alimentare alternativă — fără să fixăm ore exacte care s-ar putea schimba de la o săptămână la alta.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/buzau-apa-program-valea-slanicului-seceta.jpg\" alt=\"Valea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Valea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chisinau_lac_Valea_Morilor.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chisinau lac Valea Morilor</a>\" de Myrabella, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/buzau-apa-program-valea-slanicului-seceta.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Myrabella"
+  }
 }

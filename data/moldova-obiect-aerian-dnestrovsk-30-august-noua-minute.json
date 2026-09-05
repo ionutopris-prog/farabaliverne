@@ -1,51 +1,82 @@
 {
- "slug": "moldova-obiect-aerian-dnestrovsk-30-august-noua-minute",
- "title": "Un nou obiect aerian a intrat în spațiul Moldovei dinspre Ucraina și a revenit după nouă minute. Al patrulea incident de acest fel în august",
- "category": "Extern",
- "tara": "Moldova",
- "date": "2026-08-31",
- "source": "NewsMaker / TVR Moldova / Digi24 / Ministerul Apărării al R. Moldova",
- "url": "https://newsmaker.md/ro/un-obiect-aerian-a-intrat-%C3%AEn-spa%C8%9Biul-aerian-al-moldovei-%C8%99i-a-revenit-%C3%AEn-ucraina-dup%C4%83-nou%C4%83-minute",
- "dek": "Duminică, 30 august 2026, un obiect aerian a intrat în spațiul aerian al Republicii Moldova dinspre Ucraina, lângă satul Dnestrovsk din regiunea transnistreană, și a revenit pe aceeași rută nouă minute mai târziu. Serviciul Operații Aeriene al Armatei Naționale spune că survolarea a avut loc în contextul atacurilor aeriene rusești asupra Ucrainei din aceeași zi. E al patrulea incident de acest tip raportat oficial în august.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Serviciul Operații Aeriene al Armatei Naționale a Republicii Moldova a comunicat că, duminică, 30 august 2026, la ora 15:50, un obiect aerian a fost detectat traversând frontiera de stat prin apropierea localității Dnestrovsk (regiunea transnistreană), venind dinspre localitatea Limanske din regiunea Odesa, Ucraina. La ora 15:59, obiectul a traversat din nou frontiera, în sens invers, pe aceeași rută, ieșind din spațiul aerian moldovenesc după nouă minute.",
-   "sources": [
-    {"name": "NewsMaker — un obiect aerian a intrat în spațiul aerian al Moldovei și a revenit în Ucraina după nouă minute", "url": "https://newsmaker.md/ro/un-obiect-aerian-a-intrat-%C3%AEn-spa%C8%9Biul-aerian-al-moldovei-%C8%99i-a-revenit-%C3%AEn-ucraina-dup%C4%83-nou%C4%83-minute"},
-    {"name": "TVR Moldova — un obiect aerian a survolat neautorizat R. Moldova după atacurile rusești asupra Ucrainei", "url": "https://tvrmoldova.md/article/8a62634969504898/un-obiect-aerian-a-survolat-neautorizat-r-moldova-dupa-atacurile-rusesti-asupra-ucrainei.html"}
-   ]
-  },
-  {
-   "text": "Autoritățile moldovenești au precizat că survolarea neautorizată a spațiului aerian a avut loc „în urma atacurilor aeriene desfășurate astăzi de Federația Rusă asupra Ucrainei” — adică leagă incidentul de operațiuni militare ruse aflate în desfășurare în acea zi, nu de un atac direct asupra R. Moldova.",
-   "sources": [
-    {"name": "TVR Moldova — un obiect aerian a survolat neautorizat R. Moldova după atacurile rusești asupra Ucrainei", "url": "https://tvrmoldova.md/article/8a62634969504898/un-obiect-aerian-a-survolat-neautorizat-r-moldova-dupa-atacurile-rusesti-asupra-ucrainei.html"}
-   ]
-  },
-  {
-   "text": "Este al patrulea incident de acest tip raportat oficial de autoritățile de la Chișinău în luna august 2026: pe 12 august, o dronă a căzut și a explodat la Crocmaz; pe 26 august, un punct de trecere din zona Vulcănești–Vinogradovka a fost suspendat temporar din cauza unei drone; iar de Ziua Independenței, pe 27 august, cinci drone au survolat teritoriul țării, dintre care una — o momeală fără focos — a căzut la sol. Toate au fost verificate anterior de Fără Baliverne.",
-   "sources": [
-    {"name": "Fără Baliverne — verificarea privind drona explodată la Crocmaz", "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"},
-    {"name": "Fără Baliverne — verificarea privind cele cinci drone de Ziua Independenței", "url": "https://farabaliverne.ro/a/moldova-cinci-drone-ziua-independentei-momeala-basarabeasca.html"},
-    {"name": "Fără Baliverne — verificarea privind suspendarea punctului de trecere Vulcănești–Vinogradovka", "url": "https://farabaliverne.ro/a/moldova-vulcanesti-vinogradovka-drone-punct-trecere-suspendat.html"}
-   ]
+  "slug": "moldova-obiect-aerian-dnestrovsk-30-august-noua-minute",
+  "title": "Un nou obiect aerian a intrat în spațiul Moldovei dinspre Ucraina și a revenit după nouă minute. Al patrulea incident de acest fel în august",
+  "category": "Extern",
+  "tara": "Moldova",
+  "date": "2026-08-31",
+  "source": "NewsMaker / TVR Moldova / Digi24 / Ministerul Apărării al R. Moldova",
+  "url": "https://newsmaker.md/ro/un-obiect-aerian-a-intrat-%C3%AEn-spa%C8%9Biul-aerian-al-moldovei-%C8%99i-a-revenit-%C3%AEn-ucraina-dup%C4%83-nou%C4%83-minute",
+  "dek": "Duminică, 30 august 2026, un obiect aerian a intrat în spațiul aerian al Republicii Moldova dinspre Ucraina, lângă satul Dnestrovsk din regiunea transnistreană, și a revenit pe aceeași rută nouă minute mai târziu. Serviciul Operații Aeriene al Armatei Naționale spune că survolarea a avut loc în contextul atacurilor aeriene rusești asupra Ucrainei din aceeași zi. E al patrulea incident de acest tip raportat oficial în august.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Serviciul Operații Aeriene al Armatei Naționale a Republicii Moldova a comunicat că, duminică, 30 august 2026, la ora 15:50, un obiect aerian a fost detectat traversând frontiera de stat prin apropierea localității Dnestrovsk (regiunea transnistreană), venind dinspre localitatea Limanske din regiunea Odesa, Ucraina. La ora 15:59, obiectul a traversat din nou frontiera, în sens invers, pe aceeași rută, ieșind din spațiul aerian moldovenesc după nouă minute.",
+      "sources": [
+        {
+          "name": "NewsMaker — un obiect aerian a intrat în spațiul aerian al Moldovei și a revenit în Ucraina după nouă minute",
+          "url": "https://newsmaker.md/ro/un-obiect-aerian-a-intrat-%C3%AEn-spa%C8%9Biul-aerian-al-moldovei-%C8%99i-a-revenit-%C3%AEn-ucraina-dup%C4%83-nou%C4%83-minute"
+        },
+        {
+          "name": "TVR Moldova — un obiect aerian a survolat neautorizat R. Moldova după atacurile rusești asupra Ucrainei",
+          "url": "https://tvrmoldova.md/article/8a62634969504898/un-obiect-aerian-a-survolat-neautorizat-r-moldova-dupa-atacurile-rusesti-asupra-ucrainei.html"
+        }
+      ]
+    },
+    {
+      "text": "Autoritățile moldovenești au precizat că survolarea neautorizată a spațiului aerian a avut loc „în urma atacurilor aeriene desfășurate astăzi de Federația Rusă asupra Ucrainei” — adică leagă incidentul de operațiuni militare ruse aflate în desfășurare în acea zi, nu de un atac direct asupra R. Moldova.",
+      "sources": [
+        {
+          "name": "TVR Moldova — un obiect aerian a survolat neautorizat R. Moldova după atacurile rusești asupra Ucrainei",
+          "url": "https://tvrmoldova.md/article/8a62634969504898/un-obiect-aerian-a-survolat-neautorizat-r-moldova-dupa-atacurile-rusesti-asupra-ucrainei.html"
+        }
+      ]
+    },
+    {
+      "text": "Este al patrulea incident de acest tip raportat oficial de autoritățile de la Chișinău în luna august 2026: pe 12 august, o dronă a căzut și a explodat la Crocmaz; pe 26 august, un punct de trecere din zona Vulcănești–Vinogradovka a fost suspendat temporar din cauza unei drone; iar de Ziua Independenței, pe 27 august, cinci drone au survolat teritoriul țării, dintre care una — o momeală fără focos — a căzut la sol. Toate au fost verificate anterior de Fără Baliverne.",
+      "sources": [
+        {
+          "name": "Fără Baliverne — verificarea privind drona explodată la Crocmaz",
+          "url": "https://farabaliverne.ro/a/moldova-drona-crocmaz-rusia-tass-galuzin.html"
+        },
+        {
+          "name": "Fără Baliverne — verificarea privind cele cinci drone de Ziua Independenței",
+          "url": "https://farabaliverne.ro/a/moldova-cinci-drone-ziua-independentei-momeala-basarabeasca.html"
+        },
+        {
+          "name": "Fără Baliverne — verificarea privind suspendarea punctului de trecere Vulcănești–Vinogradovka",
+          "url": "https://farabaliverne.ro/a/moldova-vulcanesti-vinogradovka-drone-punct-trecere-suspendat.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Niciuna dintre sursele disponibile nu confirmă explicit tipul exact al obiectului aerian — dacă a fost o dronă, o rachetă rătăcită sau alt tip de aparat. Presa citează comunicatul Armatei Naționale, care vorbește despre „obiect aerian”, nu despre o identificare tehnică publică a aparatului.",
+      "sources": [
+        {
+          "name": "NewsMaker — un obiect aerian a intrat în spațiul aerian al Moldovei și a revenit în Ucraina după nouă minute",
+          "url": "https://newsmaker.md/ro/un-obiect-aerian-a-intrat-%C3%AEn-spa%C8%9Biul-aerian-al-moldovei-%C8%99i-a-revenit-%C3%AEn-ucraina-dup%C4%83-nou%C4%83-minute"
+        }
+      ]
+    },
+    {
+      "text": "Nu se probează, din sursele publice de până acum, cine a operat obiectul sau dacă survolarea a fost intenționată ori un efect colateral al haosului electronic din timpul atacurilor rusești asupra sudului Ucrainei — autoritățile moldovenești leagă evenimentul de context, nu afirmă o cauzalitate tehnică exactă.",
+      "sources": [
+        {
+          "name": "TVR Moldova — un obiect aerian a survolat neautorizat R. Moldova după atacurile rusești asupra Ucrainei",
+          "url": "https://tvrmoldova.md/article/8a62634969504898/un-obiect-aerian-a-survolat-neautorizat-r-moldova-dupa-atacurile-rusesti-asupra-ucrainei.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Distincția care contează, ca și la incidentele anterioare din august, e între „a survolat” și „a lovit”: obiectul a intrat și a ieșit din spațiul aerian moldovenesc în nouă minute, fără să cadă sau să explodeze pe teritoriul țării. Ce se probează solid: ora, ruta și faptul că informația vine dintr-un comunicat oficial al Armatei Naționale, reluat identic de mai multe redacții independente. Ce nu se probează: identitatea tehnică exactă a obiectului și dacă survolarea Moldovei a fost o țintă sau doar o consecință geografică a luptei electronice/antiaeriene din apropierea graniței ucrainene. Am adăugat contextul celorlalte trei incidente din august pentru că, luate separat, fiecare pare un fapt izolat — dar frecvența lor (patru episoade într-o singură lună) e ea însăși o informație, chiar dacă niciunul, până acum, n-a provocat victime sau pagube pe teritoriul R. Moldova.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-obiect-aerian-dnestrovsk-30-august-noua-minute.jpg\" alt=\"Moldovei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Moldovei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Academia_de_%C5%9Etiin%C5%A3e_a_Moldovei,_Chisinau,_Modova_Academy_of_Sciences_of_Moldova,_Chisinau,_Moldova_(49669791751).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Academia de Ştiinţe a Moldovei, Chisinau, Modova Academy of Sciences of Moldova, Chisinau, Moldova (49669791751)</a>\" de Photobank MD from Chisinau, Moldova, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-obiect-aerian-dnestrovsk-30-august-noua-minute.jpg",
+    "licenta": "CC0",
+    "autor": "Photobank MD from Chisinau, Moldova"
   }
- ],
- "contestat": [
-  {
-   "text": "Niciuna dintre sursele disponibile nu confirmă explicit tipul exact al obiectului aerian — dacă a fost o dronă, o rachetă rătăcită sau alt tip de aparat. Presa citează comunicatul Armatei Naționale, care vorbește despre „obiect aerian”, nu despre o identificare tehnică publică a aparatului.",
-   "sources": [
-    {"name": "NewsMaker — un obiect aerian a intrat în spațiul aerian al Moldovei și a revenit în Ucraina după nouă minute", "url": "https://newsmaker.md/ro/un-obiect-aerian-a-intrat-%C3%AEn-spa%C8%9Biul-aerian-al-moldovei-%C8%99i-a-revenit-%C3%AEn-ucraina-dup%C4%83-nou%C4%83-minute"}
-   ]
-  },
-  {
-   "text": "Nu se probează, din sursele publice de până acum, cine a operat obiectul sau dacă survolarea a fost intenționată ori un efect colateral al haosului electronic din timpul atacurilor rusești asupra sudului Ucrainei — autoritățile moldovenești leagă evenimentul de context, nu afirmă o cauzalitate tehnică exactă.",
-   "sources": [
-    {"name": "TVR Moldova — un obiect aerian a survolat neautorizat R. Moldova după atacurile rusești asupra Ucrainei", "url": "https://tvrmoldova.md/article/8a62634969504898/un-obiect-aerian-a-survolat-neautorizat-r-moldova-dupa-atacurile-rusesti-asupra-ucrainei.html"}
-   ]
-  }
- ],
- "opinie": [],
- "aiNote": "Distincția care contează, ca și la incidentele anterioare din august, e între „a survolat” și „a lovit”: obiectul a intrat și a ieșit din spațiul aerian moldovenesc în nouă minute, fără să cadă sau să explodeze pe teritoriul țării. Ce se probează solid: ora, ruta și faptul că informația vine dintr-un comunicat oficial al Armatei Naționale, reluat identic de mai multe redacții independente. Ce nu se probează: identitatea tehnică exactă a obiectului și dacă survolarea Moldovei a fost o țintă sau doar o consecință geografică a luptei electronice/antiaeriene din apropierea graniței ucrainene. Am adăugat contextul celorlalte trei incidente din august pentru că, luate separat, fiecare pare un fapt izolat — dar frecvența lor (patru episoade într-o singură lună) e ea însăși o informație, chiar dacă niciunul, până acum, n-a provocat victime sau pagube pe teritoriul R. Moldova.",
- "persoane": []
 }

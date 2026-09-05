@@ -87,5 +87,12 @@
   "aiNote": "Acesta este exact genul de caz în care principiul nostru contează. NU etichetăm admirația lui Georgescu drept „falsă”: a considera pe cineva „erou” sau „martir” este o opinie, iar dreptul la convingeri îl păstrăm intact (prezumția de bună-credință). Ce marcăm drept contrazis de dovezi sunt afirmațiile lui FACTUALE despre istorie: că despre asasinarea lui Nicolae Iorga „istoria este mistificată” (asasinatul e un fapt documentat) și sugestia că cei doi ar fi personaje fără vină — când documentele și o hotărâre judecătorească arată că Ion Antonescu a fost condamnat pentru crime de război și executat în 1946, iar mișcarea legionară a fost antisemită și violentă. Pe latura juridică suntem preciși: dosarul din 2022 pentru promovarea cultului legionar a fost ulterior clasat, deci nu vorbim de o condamnare. Nu decretăm ca un oracol: arătăm unde bat probele pe faptele verificabile, lăsăm opinia ca opinie și cităm sursele, ca cititorul să tragă singur concluzia.",
   "persoane": [
     "Călin Georgescu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/georgescu-legionari-elogiu.jpg\" alt=\"Codreanu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Codreanu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Corneliu-zelea-codreanu-si-vacarestenii.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Corneliu-zelea-codreanu-si-vacarestenii</a>\" de Unknown authorUnknown author, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/georgescu-legionari-elogiu.jpg",
+    "licenta": "Public domain",
+    "autor": "Unknown authorUnknown author"
+  }
 }

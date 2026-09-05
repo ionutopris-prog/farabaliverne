@@ -11,20 +11,32 @@
     {
       "text": "Trialul „SynAIRgy”, de fază 3, a inclus 646 de adulți cu apnee obstructivă de somn (OSA) ușoară până la severă, care nu tolerau sau refuzau tratamentul standard cu aparat CPAP (presiune pozitivă continuă în căile respiratorii). Studiul, randomizat și controlat cu placebo, s-a desfășurat timp de 6 luni în 69 de centre din SUA și Canada. Rezultatele au fost publicate în American Journal of Respiratory and Critical Care Medicine, cu o analiză mecanistică însoțitoare în American Journal of Respiratory Cell and Molecular Biology, și prezentate oficial de American Thoracic Society (ATS).",
       "sources": [
-        {"name": "American Thoracic Society — Once-Nightly Pill Treats Causes of Airway Collapse to Control OSA (comunicat oficial)", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"},
-        {"name": "ScienceDaily — Goodbye CPAP? New sleep apnea pill cuts breathing events by 44%", "url": "https://www.sciencedaily.com/releases/2026/08/260831015203.htm"}
+        {
+          "name": "American Thoracic Society — Once-Nightly Pill Treats Causes of Airway Collapse to Control OSA (comunicat oficial)",
+          "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"
+        },
+        {
+          "name": "ScienceDaily — Goodbye CPAP? New sleep apnea pill cuts breathing events by 44%",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260831015203.htm"
+        }
       ]
     },
     {
       "text": "Medicamentul, numit AD109, combină două substanțe active — aroxybutynin și atomoxetină — și țintește cauzele neuromusculare ale colapsului căilor respiratorii în timpul somnului, spre deosebire de CPAP, care tratează mecanic simptomul. La pacienții tratați cu AD109, indicele de apnee-hipopnee (AHI, numărul de întreruperi ale respirației pe oră de somn) a scăzut cu circa 44% față de momentul inițial, comparativ cu 18% la grupul placebo. 41% dintre participanții care au dus trialul până la capăt au ajuns la un AHI sub 10 (considerat aproape de normal), iar 18% au atins „control complet” al bolii; peste 40% dintre pacienți au trecut într-o categorie mai puțin severă de OSA.",
       "sources": [
-        {"name": "American Thoracic Society — cifrele complete ale trialului SynAIRgy", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+        {
+          "name": "American Thoracic Society — cifrele complete ale trialului SynAIRgy",
+          "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"
+        }
       ]
     },
     {
       "text": "Compania Apnimed, care dezvoltă medicamentul, a primit din partea FDA (agenția americană pentru medicamente) desemnarea „Fast Track” și a depus deja o cerere de aprobare (New Drug Application), cu o dată-țintă pentru decizia FDA fixată în trimestrul I din 2027. Dr. Patrick Strollo, de la University of Pittsburgh Medical Center, unul dintre cercetătorii implicați, a spus că rezultatele „oferă dovezi încurajatoare că țintirea disfuncției neuromusculare se poate traduce în beneficii clinice reale”.",
       "sources": [
-        {"name": "American Thoracic Society — statutul cererii la FDA și citatul Dr. Strollo", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+        {
+          "name": "American Thoracic Society — statutul cererii la FDA și citatul Dr. Strollo",
+          "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"
+        }
       ]
     }
   ],
@@ -32,7 +44,10 @@
     {
       "text": "Medicamentul NU e încă aprobat de FDA — decizia oficială e așteptată abia în primul trimestru al lui 2027, deci pastila nu e disponibilă pentru pacienți în acest moment. În plus, circa 21% dintre participanții din brațul cu AD109 au întrerupt tratamentul din cauza efectelor secundare (gură uscată, greață, insomnie, dificultăți la urinare) — o rată de abandon care arată că medicamentul nu e potrivit pentru toată lumea, iar rezultatele de „44% reducere” se referă la cei care au continuat tratamentul, nu la toți pacienții înrolați inițial.",
       "sources": [
-        {"name": "American Thoracic Society — profilul de siguranță și rata de întrerupere a tratamentului", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+        {
+          "name": "American Thoracic Society — profilul de siguranță și rata de întrerupere a tratamentului",
+          "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"
+        }
       ]
     }
   ],
@@ -42,8 +57,18 @@
     "title": "Ce înseamnă „indice de apnee-hipopnee” și de ce contează pragul de 44%",
     "explanation": "Indicele de apnee-hipopnee (AHI) numără de câte ori pe oră de somn respirația unei persoane se oprește aproape complet (apnee) sau scade semnificativ (hipopnee). Un AHI sub 5 e considerat normal, între 5 și 15 — apnee ușoară, între 15 și 30 — moderată, peste 30 — severă. O reducere de 44% a AHI-ului mediu în grupul tratat cu AD109 înseamnă, practic, că persoanele respective au trecut, în medie, cu o treaptă sau două mai jos pe această scală de severitate — de exemplu, de la apnee moderată la ușoară. Compararea cu grupul placebo (care a scăzut doar cu 18%, un „efect placebo” obișnuit în trialurile pe somn, parțial din cauza atenției sporite acordate obiceiurilor de somn în timpul studiului) e ceea ce arată că efectul observat se datorează probabil medicamentului, nu doar participării la trial.",
     "sources": [
-      {"name": "American Thoracic Society — definirea AHI și compararea cu placebo", "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"}
+      {
+        "name": "American Thoracic Society — definirea AHI și compararea cu placebo",
+        "url": "https://site.thoracic.org/press-releases/once-nightly-pill-treats-causes-of-airway-collapse-to-control-osa"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ad109-pastila-apnee-somn-faza-3-synairgy.jpg\" alt=\"hospital corridor\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — hospital corridor. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Corridor,_Amersham_Hospital_-_geograph.org.uk_-_7628891.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Corridor, Amersham Hospital - geograph.org.uk - 7628891</a>\" de Bryn Holmes, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ad109-pastila-apnee-somn-faza-3-synairgy.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Bryn Holmes"
+  }
 }

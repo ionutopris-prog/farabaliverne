@@ -15,8 +15,13 @@ ROOT = Path(__file__).parent.parent
 SABLON = ROOT / "a" / "legea-integritatii-vot-final.html"
 BAZA = "https://farabaliverne.ro"
 
+# 🔴 Trebuie sa contina TOATE categoriile din build_site.CAT_ORDER. Cand am
+# adaugat „Minți luminate" pe 5 septembrie 2026, am pus pictograma doar in
+# build_site.py si am uitat aici — articolele au iesit cu globul de la „Extern",
+# adica valoarea implicita. Se vede doar cand articolul n-are poza, deci e usor
+# de ratat. Daca se mai adauga o categorie, se adauga in AMANDOUA locurile.
 GLYPH = {"Politică": "🏛️", "Economie": "📊", "Extern": "🌍", "Știință": "🔬",
-         "Media de stat": "📡", "Social": "👥", "Sport": "⚽"}
+         "Minți luminate": "💡", "Media de stat": "📡", "Social": "👥", "Sport": "⚽"}
 
 def e(s):
     return html.escape(str(s or ""), quote=True)

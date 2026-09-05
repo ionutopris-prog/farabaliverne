@@ -94,5 +94,15 @@
   ],
   "aiNote": "Ce s-a verificat exact: că întâlnirea de pe 14 august a avut loc (confirmată de Tănăsescu însăși), că nu a fost anunțată public, și că ÎCCJ a cerut oficial clarificări pe 17 august, invocând explicit un al doilea dosar — conflictul constituțional Guvern-ÎCCJ pe cei 4,8 miliarde de lei restanțe salariale ale magistraților, pornit chiar de Bolojan, în care CCR (cu Tănăsescu în complet) urmează să decidă în toamnă. Aceste fapte sunt confirmate concordant de HotNews, Digi24, Mediafax și Jurnalul, care au citat aceleași declarații și comunicate.\n\nUnde se despart sursele: nu pe fapte, ci pe interpretare. Tănăsescu și Bolojan spun că discuția a fost strict administrativă (spații pentru CCR) și resping orice legătură cu dosarele pendinte. ÎCCJ, CSM și președinții instanțelor nu acuză direct o înțelegere, dar susțin că simpla apariție a proximității — o întâlnire neanunțată, în privat, cu două dosare sensibile pe rol care îl privesc pe unul dintre participanți — subminează încrederea în imparțialitatea Curții, indiferent de ce s-a discutat efectiv.\n\nCe lipsește: nu există o înregistrare, o stenogramă sau un martor terț independent care să confirme sau să infirme relatarea Tănăsescu despre conținutul discuției. Nu știm nici dacă vreo instituție (CSM, ÎCCJ) va lua o măsură instituțională concretă sau dacă cererea de comisie de anchetă din Senat va fi reluată.\n\nCe ar schimba concluzia: apariția unei probe directe despre conținutul discuției (stenogramă, mesaje, alt martor prezent în încăpere) sau o decizie instituțională formală (de exemplu, o eventuală recuzare a Tănăsescu din dosarul restanțelor salariale) ar muta acest subiect din zona „contestat” în zona „probat” — într-un sens sau altul.",
   "math": null,
-  "persoane": ["Ilie Bolojan", "Simina Tănăsescu"]
+  "persoane": [
+    "Ilie Bolojan",
+    "Simina Tănăsescu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ccr-tanasescu-explica-intalnirea-bolojan-conflict-magistrati.jpg\" alt=\"Bolojan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bolojan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ilie_Bolojan_-_22_September_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ilie Bolojan - 22 September 2025</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ccr-tanasescu-explica-intalnirea-bolojan-conflict-magistrati.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
+  }
 }

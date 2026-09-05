@@ -12,22 +12,40 @@
     {
       "text": "SUA au raportat 2.318 cazuri confirmate de rujeolă la nivel național până pe 24 iulie 2026, cifră care depășește totalul întregului an 2025 (2.289 de cazuri) și reprezintă cel mai ridicat număr anual din 1991 încoace — adică din ultimii 35 de ani. Cazurile au fost confirmate în 43 de state plus Districtul Columbia, la care se adaugă 16 cazuri la vizitatori internaționali.",
       "sources": [
-        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"},
-        {"name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases", "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"}
+        {
+          "name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        },
+        {
+          "name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases",
+          "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"
+        }
       ]
     },
     {
       "text": "Aproximativ 93% dintre cei infectați sunt persoane nevaccinate sau cu statutul de vaccinare necunoscut. Rata de vaccinare ROR (rujeolă-oreion-rubeolă) la intrarea în grădiniță a scăzut la 92,5% în anul școlar 2024-2025, față de 95,2% în 2019-2020 — sub pragul de 95% considerat necesar pentru imunitatea de grup.",
       "sources": [
-        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"},
-        {"name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases", "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"}
+        {
+          "name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        },
+        {
+          "name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases",
+          "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"
+        }
       ]
     },
     {
       "text": "Focarele repetate pun SUA în pericol de a pierde statutul oficial de „eliminare a rujeolei”, deținut din anul 2000 — statut care înseamnă că boala nu mai circulă continuu în populație timp de peste 12 luni. Cel mai mare focar recent, în vestul statului Texas în 2025, a însumat peste 750 de cazuri și a dus la moartea a doi copii.",
       "sources": [
-        {"name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases", "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"},
-        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"}
+        {
+          "name": "CBS News — As measles outbreaks grow in the U.S., maps and charts show a record number of cases",
+          "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"
+        },
+        {
+          "name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        }
       ]
     }
   ],
@@ -35,7 +53,10 @@
     {
       "text": "Cifra exactă de cazuri variază ușor în funcție de data raportării — presa citează 2.318 cazuri la 24 iulie, dar surse ulterioare (necesitat verificare directă suplimentară, de aceea nu le includem ca fapt confirmat aici) vehiculează cifre mai mari, spre 2.500+, pentru date de la mijlocul lunii august. Tendința e clar crescătoare, dar cifra „la zi” depinde de momentul exact al raportării CDC.",
       "sources": [
-        {"name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC", "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"}
+        {
+          "name": "ABC News — US measles cases hit 2,318 in 2026, surpassing last year's total: CDC",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        }
       ]
     }
   ],
@@ -49,5 +70,12 @@
     "title": "2.318 cazuri în 2026 față de 1.274 în 2019 — aproape dublu",
     "text": "Înainte de valul actual, cel mai mare număr anual recent de cazuri de rujeolă în SUA fusese 1.274, în 2019. Cele 2.318 cazuri raportate până pe 24 iulie 2026 reprezintă deja o creștere de peste 80% față de acel prag, deși anul nu s-a încheiat — ceea ce explică de ce specialiștii vorbesc despre cel mai grav an din ultimii 35."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-rujeola-record-35-ani-2026.jpg\" alt=\"hospital corridor\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — hospital corridor. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Corridor,_Amersham_Hospital_-_geograph.org.uk_-_7628891.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Corridor, Amersham Hospital - geograph.org.uk - 7628891</a>\" de Bryn Holmes, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-rujeola-record-35-ani-2026.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Bryn Holmes"
+  }
 }

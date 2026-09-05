@@ -1,76 +1,122 @@
 {
- "slug": "transnistria-stare-de-urgenta-economica-prelungita-12-septembrie",
- "title": "Tiraspolul prelungește din nou starea de urgență în economie, până pe 12 septembrie. Ce se probează din anunțul agenției oficiale",
- "category": "Media de stat",
- "tara": "Moldova",
- "date": "2026-08-26",
- "source": "Novosti Pridnestrovya (agenție oficială, Tiraspol) / NewsMaker / Infotag",
- "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya",
- "dek": "Pe 18 august 2026, forul legislativ al regiunii transnistrene a prelungit încă o lună regimul de urgență în economie, până pe 12 septembrie. Anunțul vine de la agenția oficială de la Tiraspol, care invocă „reducerea livrărilor de gaze naturale”. Am comparat versiunea oficială cu ce spun sursele independente de la Chișinău și cu documentele guvernamentale moldovenești.",
- "mainVerdict": "Probat parțial",
- "probat": [
-  {
-   "text": "Prelungirea regimului de urgență în economie până pe 12 septembrie 2026 este confirmată de agenția oficială de la Tiraspol și, independent, de presa de la Chișinău. Decizia a fost luată pe 18 august, într-o ședință extraordinară a forului legislativ al regiunii, pe baza unui decret al liderului de la Tiraspol, Vadim Krasnoselski.",
-   "sources": [
-    {"name": "Novosti Pridnestrovya — agenția oficială a administrației de la Tiraspol (etichetată ca atare)", "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya"},
-    {"name": "NewsMaker (Chișinău, independent, ediția în limba rusă) — regimul de urgență prelungit din nou", "url": "https://newsmaker.md/ru/v-pridnestrove-v-ocherednoi-raz-prodlili-rejim-chp-v-ekonomike"},
-    {"name": "Infotag (agenție de presă, Chișinău) — regimul se prelungește până pe 12 septembrie", "url": "http://www.infotag.md/rebellion/333499/"}
-   ]
-  },
-  {
-   "text": "Motivul oficial invocat de Tiraspol, în formularea agenției proprii: regimul juridic special „permite reacția rapidă la schimbările situației cu resursele energetice” și prioritizarea cheltuielilor bugetare pentru plata pensiilor, salariilor și indemnizațiilor.",
-   "sources": [
-    {"name": "Novosti Pridnestrovya — comunicatul serviciului de presă (traducere AI din rusă, textul original la link)", "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya"}
-   ]
-  },
-  {
-   "text": "Criza care a generat regimul de urgență are o dată de început verificabilă: începutul anului 2025, când Ucraina a oprit tranzitul gazelor rusești, iar Gazprom a încetat livrările către Republica Moldova. Regiunea transnistreană a rămas fără gaz peste o lună.",
-   "sources": [
-    {"name": "NewsMaker — contextul crizei energetice din regiune", "url": "https://newsmaker.md/ru/esli-v-pridnestrove-vnov-prekratyat-postavlyat-gaz-zimoi-pravitelstvo-gotovit-plan-mer"}
-   ]
-  },
-  {
-   "text": "Gazul ajunge acum în regiune printr-un lanț documentat public: se cumpără de pe piețele din Uniunea Europeană, e adus la frontiera Republicii Moldova de compania ungară MET Gas and Energy Marketing AG, iar Moldovagaz îl livrează mai departe în regiune. Plata trece printr-o companie înregistrată la Dubai, finanțată prin credit rusesc. ANRE a aprobat continuarea livrărilor prin Moldovagaz până la finalul lui 2026.",
-   "sources": [
-    {"name": "NewsMaker — mecanismul de livrare și de plată", "url": "https://newsmaker.md/ru/esli-v-pridnestrove-vnov-prekratyat-postavlyat-gaz-zimoi-pravitelstvo-gotovit-plan-mer"},
-    {"name": "Interfax — Moldovagaz continuă livrările până la finalul anului", "url": "https://www.interfax.ru/world/1094928"}
-   ]
-  },
-  {
-   "text": "Guvernul de la Chișinău pregătește un plan pentru cazul în care livrările s-ar opri din nou în sezonul rece 2026-2027. Proiectul Planului de pregătire a sezonului de încălzire, aflat în consultare publică, prevede ca Biroul de reintegrare, Ministerul Energiei, ANRE, Energocom și Moldovagaz să stabilească ordinea acțiunilor în caz de întrerupere. Ministerul Energiei invocă un „grad ridicat de incertitudine” al livrărilor actuale.",
-   "sources": [
-    {"name": "NewsMaker — planul guvernamental aflat în consultare publică", "url": "https://newsmaker.md/ru/esli-v-pridnestrove-vnov-prekratyat-postavlyat-gaz-zimoi-pravitelstvo-gotovit-plan-mer"}
-   ]
+  "slug": "transnistria-stare-de-urgenta-economica-prelungita-12-septembrie",
+  "title": "Tiraspolul prelungește din nou starea de urgență în economie, până pe 12 septembrie. Ce se probează din anunțul agenției oficiale",
+  "category": "Media de stat",
+  "tara": "Moldova",
+  "date": "2026-08-26",
+  "source": "Novosti Pridnestrovya (agenție oficială, Tiraspol) / NewsMaker / Infotag",
+  "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya",
+  "dek": "Pe 18 august 2026, forul legislativ al regiunii transnistrene a prelungit încă o lună regimul de urgență în economie, până pe 12 septembrie. Anunțul vine de la agenția oficială de la Tiraspol, care invocă „reducerea livrărilor de gaze naturale”. Am comparat versiunea oficială cu ce spun sursele independente de la Chișinău și cu documentele guvernamentale moldovenești.",
+  "mainVerdict": "Probat parțial",
+  "probat": [
+    {
+      "text": "Prelungirea regimului de urgență în economie până pe 12 septembrie 2026 este confirmată de agenția oficială de la Tiraspol și, independent, de presa de la Chișinău. Decizia a fost luată pe 18 august, într-o ședință extraordinară a forului legislativ al regiunii, pe baza unui decret al liderului de la Tiraspol, Vadim Krasnoselski.",
+      "sources": [
+        {
+          "name": "Novosti Pridnestrovya — agenția oficială a administrației de la Tiraspol (etichetată ca atare)",
+          "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya"
+        },
+        {
+          "name": "NewsMaker (Chișinău, independent, ediția în limba rusă) — regimul de urgență prelungit din nou",
+          "url": "https://newsmaker.md/ru/v-pridnestrove-v-ocherednoi-raz-prodlili-rejim-chp-v-ekonomike"
+        },
+        {
+          "name": "Infotag (agenție de presă, Chișinău) — regimul se prelungește până pe 12 septembrie",
+          "url": "http://www.infotag.md/rebellion/333499/"
+        }
+      ]
+    },
+    {
+      "text": "Motivul oficial invocat de Tiraspol, în formularea agenției proprii: regimul juridic special „permite reacția rapidă la schimbările situației cu resursele energetice” și prioritizarea cheltuielilor bugetare pentru plata pensiilor, salariilor și indemnizațiilor.",
+      "sources": [
+        {
+          "name": "Novosti Pridnestrovya — comunicatul serviciului de presă (traducere AI din rusă, textul original la link)",
+          "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya"
+        }
+      ]
+    },
+    {
+      "text": "Criza care a generat regimul de urgență are o dată de început verificabilă: începutul anului 2025, când Ucraina a oprit tranzitul gazelor rusești, iar Gazprom a încetat livrările către Republica Moldova. Regiunea transnistreană a rămas fără gaz peste o lună.",
+      "sources": [
+        {
+          "name": "NewsMaker — contextul crizei energetice din regiune",
+          "url": "https://newsmaker.md/ru/esli-v-pridnestrove-vnov-prekratyat-postavlyat-gaz-zimoi-pravitelstvo-gotovit-plan-mer"
+        }
+      ]
+    },
+    {
+      "text": "Gazul ajunge acum în regiune printr-un lanț documentat public: se cumpără de pe piețele din Uniunea Europeană, e adus la frontiera Republicii Moldova de compania ungară MET Gas and Energy Marketing AG, iar Moldovagaz îl livrează mai departe în regiune. Plata trece printr-o companie înregistrată la Dubai, finanțată prin credit rusesc. ANRE a aprobat continuarea livrărilor prin Moldovagaz până la finalul lui 2026.",
+      "sources": [
+        {
+          "name": "NewsMaker — mecanismul de livrare și de plată",
+          "url": "https://newsmaker.md/ru/esli-v-pridnestrove-vnov-prekratyat-postavlyat-gaz-zimoi-pravitelstvo-gotovit-plan-mer"
+        },
+        {
+          "name": "Interfax — Moldovagaz continuă livrările până la finalul anului",
+          "url": "https://www.interfax.ru/world/1094928"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul de la Chișinău pregătește un plan pentru cazul în care livrările s-ar opri din nou în sezonul rece 2026-2027. Proiectul Planului de pregătire a sezonului de încălzire, aflat în consultare publică, prevede ca Biroul de reintegrare, Ministerul Energiei, ANRE, Energocom și Moldovagaz să stabilească ordinea acțiunilor în caz de întrerupere. Ministerul Energiei invocă un „grad ridicat de incertitudine” al livrărilor actuale.",
+      "sources": [
+        {
+          "name": "NewsMaker — planul guvernamental aflat în consultare publică",
+          "url": "https://newsmaker.md/ru/esli-v-pridnestrove-vnov-prekratyat-postavlyat-gaz-zimoi-pravitelstvo-gotovit-plan-mer"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Comunicatul oficial de la Tiraspol NU conține nicio cifră: nici volumul gazelor primite, nici mărimea deficitului bugetar, nici suma pensiilor sau a salariilor pe care regimul special le-ar proteja. Afirmația că regimul „permite plata pensiilor și salariilor” nu poate fi verificată din documentul public, fiindcă documentul nu publică nicio sumă.",
+      "sources": [
+        {
+          "name": "Novosti Pridnestrovya — comunicatul integral, fără date cifrice",
+          "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya"
+        }
+      ]
+    },
+    {
+      "text": "Nu se probează din surse publice că regimul de urgență ar fi, așa cum susțin unii comentatori, doar un instrument de control politic fără temei economic. La fel de puțin se probează afirmația inversă, a administrației de la Tiraspol, că el ar fi strict necesar: bugetul regiunii nu este publicat în formă auditabilă, iar cifrele nu pot fi verificate de nimeni din afară. Ambele susțineri rămân neprobate din același motiv — lipsa datelor.",
+      "sources": [
+        {
+          "name": "Infotag — prelungirile succesive ale regimului, din 2025 până acum",
+          "url": "http://www.infotag.md/rebellion/333499/"
+        }
+      ]
+    },
+    {
+      "text": "Prezentarea prelungirii ca măsură excepțională se lovește de un fapt simplu: regimul se prelungește din lună în lună, de peste un an și jumătate. Un regim de urgență permanent nu mai este, prin definiție, o urgență — dar asta e o observație despre cuvinte, nu o probă despre intenții.",
+      "sources": [
+        {
+          "name": "Novosti Pridnestrovya — arhiva anunțurilor pe tema regimului de urgență în economie",
+          "url": "https://novostipmr.com/ru/hash/chp-v-ekonomike"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Vicepreședintele forului legislativ de la Tiraspol, Aleksandr Korșunov, a afirmat în iulie că regimul de urgență în economie „permite consolidarea finanțelor”. Este o apreciere politică a unei măsuri proprii, nu o constatare verificabilă.",
+      "sources": [
+        {
+          "name": "Novosti Pridnestrovya — declarația vicepreședintelui (traducere AI din rusă)",
+          "url": "https://novostipmr.com/ru/news/26-07-20/rezhim-chp-v-ekonomike-pozvolyaet-konsolidirovat-finansy-vice"
+        }
+      ]
+    }
+  ],
+  "aiNote": "Am citit anunțul original în rusă, pe agenția administrației de la Tiraspol, și l-am pus lângă presa independentă de la Chișinău. Faptele de bază coincid — data, termenul, motivul declarat. Diferența nu e în ce se spune, ci în ce se tace: comunicatul oficial n-are nicio cifră, iar fără cifre nimeni nu poate verifica dacă măsura chiar apără pensiile sau doar amână o socoteală. Am ales să public totuși sursa de la Tiraspol, etichetată, fiindcă e singura care spune ce a decis administrația care conduce acolo. A o ignora nu e obiectivitate, e orbire pe jumătate de hartă. Iar lanțul prin care ajunge gazul — cumpărat în UE, adus de o firmă ungară, plătit printr-o companie din Dubai cu bani rusești — spune mai mult despre cine ține regiunea în viață decât orice comunicat.",
+  "persoane": [
+    "Vadim Krasnoselski",
+    "Aleksandr Korșunov"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/transnistria-stare-de-urgenta-economica-prelungita-12-septembrie.jpg\" alt=\"Chisinau government building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chisinau government building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chisinau_GouvernamentalBuilding.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chisinau GouvernamentalBuilding</a>\" de autor necunoscut, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/transnistria-stare-de-urgenta-economica-prelungita-12-septembrie.jpg",
+    "licenta": "Public domain",
+    "autor": "autor necunoscut"
   }
- ],
- "contestat": [
-  {
-   "text": "Comunicatul oficial de la Tiraspol NU conține nicio cifră: nici volumul gazelor primite, nici mărimea deficitului bugetar, nici suma pensiilor sau a salariilor pe care regimul special le-ar proteja. Afirmația că regimul „permite plata pensiilor și salariilor” nu poate fi verificată din documentul public, fiindcă documentul nu publică nicio sumă.",
-   "sources": [
-    {"name": "Novosti Pridnestrovya — comunicatul integral, fără date cifrice", "url": "https://novostipmr.com/ru/news/26-08-18/chrezvychaynoe-polozhenie-v-ekonomike-prodleno-do-12-sentyabrya"}
-   ]
-  },
-  {
-   "text": "Nu se probează din surse publice că regimul de urgență ar fi, așa cum susțin unii comentatori, doar un instrument de control politic fără temei economic. La fel de puțin se probează afirmația inversă, a administrației de la Tiraspol, că el ar fi strict necesar: bugetul regiunii nu este publicat în formă auditabilă, iar cifrele nu pot fi verificate de nimeni din afară. Ambele susțineri rămân neprobate din același motiv — lipsa datelor.",
-   "sources": [
-    {"name": "Infotag — prelungirile succesive ale regimului, din 2025 până acum", "url": "http://www.infotag.md/rebellion/333499/"}
-   ]
-  },
-  {
-   "text": "Prezentarea prelungirii ca măsură excepțională se lovește de un fapt simplu: regimul se prelungește din lună în lună, de peste un an și jumătate. Un regim de urgență permanent nu mai este, prin definiție, o urgență — dar asta e o observație despre cuvinte, nu o probă despre intenții.",
-   "sources": [
-    {"name": "Novosti Pridnestrovya — arhiva anunțurilor pe tema regimului de urgență în economie", "url": "https://novostipmr.com/ru/hash/chp-v-ekonomike"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Vicepreședintele forului legislativ de la Tiraspol, Aleksandr Korșunov, a afirmat în iulie că regimul de urgență în economie „permite consolidarea finanțelor”. Este o apreciere politică a unei măsuri proprii, nu o constatare verificabilă.",
-   "sources": [
-    {"name": "Novosti Pridnestrovya — declarația vicepreședintelui (traducere AI din rusă)", "url": "https://novostipmr.com/ru/news/26-07-20/rezhim-chp-v-ekonomike-pozvolyaet-konsolidirovat-finansy-vice"}
-   ]
-  }
- ],
- "aiNote": "Am citit anunțul original în rusă, pe agenția administrației de la Tiraspol, și l-am pus lângă presa independentă de la Chișinău. Faptele de bază coincid — data, termenul, motivul declarat. Diferența nu e în ce se spune, ci în ce se tace: comunicatul oficial n-are nicio cifră, iar fără cifre nimeni nu poate verifica dacă măsura chiar apără pensiile sau doar amână o socoteală. Am ales să public totuși sursa de la Tiraspol, etichetată, fiindcă e singura care spune ce a decis administrația care conduce acolo. A o ignora nu e obiectivitate, e orbire pe jumătate de hartă. Iar lanțul prin care ajunge gazul — cumpărat în UE, adus de o firmă ungară, plătit printr-o companie din Dubai cu bani rusești — spune mai mult despre cine ține regiunea în viață decât orice comunicat.",
- "persoane": ["Vadim Krasnoselski", "Aleksandr Korșunov"]
 }

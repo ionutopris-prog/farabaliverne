@@ -48,5 +48,16 @@
     "explanation": "Suma totală alocată pentru plățile unice acoperă circa 2,4% din creșterea de 2,77 miliarde de lei a cheltuielilor bugetare din această rectificare — restul banilor merge către asigurări sociale, compensații la energie, dezvoltare regională și fondul rutier. Plata unică de 4.000 de lei pentru un profesor e echivalentul a mai puțin de o lună de salariu mediu brut din educație, nu o majorare permanentă."
   },
   "aiNote": "Ce s-a verificat exact: votul din 4 septembrie e continuarea directă a rectificării bugetare aprobate de guvern pe 31 august și intrate în dezbaterea Parlamentului pe 2-3 septembrie (subiect acoperit separat, cu reacția lui Igor Grosu — „gestionabil” — și a opoziției). Elementul nou de azi e conținutul concret al proiectului votat în primă lectură: plățile unice de până la 4.000 de lei pentru bugetari, confirmate din două surse independente — Realitatea.md și Logos Press — cu aceleași cifre.\n\nUnde se despart sursele: nu există dispută pe cifre — toate sursele redau aceleași sume (560 milioane lei total, 2,77 miliarde creștere a cheltuielilor). Diferența e de încadrare: guvernarea prezintă plățile unice drept sprijin imediat pentru bugetari, în timp ce contextul mai larg (amânarea majorării salariale integrale până în ianuarie 2027, spusă anterior de premierul Tofan) arată că e o soluție temporară, nu structurală.\n\nCe lipsește: nu există, deocamdată, o defalcare publică a câți bugetari intră concret în fiecare categorie de plată (4.000/3.000/2.000 lei) și nici o estimare a câți angajați cu venituri peste 20.000 de lei rămân excluși din măsură.\n\nCe ar schimba concluzia: rezultatul celei de-a doua lecturi în Parlament și eventualele amendamente, plus dacă majorarea salarială promisă pentru 1 ianuarie 2027 se confirmă la termen sau e amânată din nou, așa cum s-a întâmplat deja o dată cu acest proiect.",
-  "persoane": ["Igor Grosu", "Vasile Tofan", "Victoria Belous"]
+  "persoane": [
+    "Igor Grosu",
+    "Vasile Tofan",
+    "Victoria Belous"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-buget-prima-lectura-4000-lei-bugetari.jpg\" alt=\"Palace of the Parliament Bucharest\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Palace of the Parliament Bucharest. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bucharest-palace-of-parliament-may-2016-001.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bucharest-palace-of-parliament-may-2016-001</a>\" de anisoboy, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-buget-prima-lectura-4000-lei-bugetari.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "anisoboy"
+  }
 }

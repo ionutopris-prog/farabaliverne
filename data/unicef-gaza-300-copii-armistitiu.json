@@ -11,34 +11,58 @@
     {
       "text": "UNICEF a declarat, pe 6 august 2026, că cel puțin 300 de copii au fost uciși în Gaza în cele aproximativ 300 de zile scurse de la armistițiul anunțat pe 10 octombrie 2025 — o medie de aproape un copil ucis pe zi. Directorul regional UNICEF pentru Orientul Mijlociu și Africa de Nord, Edouard Beigbeder, a declarat: „Un armistițiu care lasă în medie un copil mort în fiecare zi eșuează copiii.”",
       "sources": [
-        {"name": "UN News — Gaza: 300 children killed in 300 days of Israeli-Hamas 'ceasefire'", "url": "https://news.un.org/en/story/2026/08/1168088"},
-        {"name": "Al Jazeera — UNICEF says one child killed per day in Gaza since ceasefire", "url": "https://www.aljazeera.com/news/2026/8/6/unicef-says-one-child-killed-per-day-in-gaza-since-ceasefire-2"}
+        {
+          "name": "UN News — Gaza: 300 children killed in 300 days of Israeli-Hamas 'ceasefire'",
+          "url": "https://news.un.org/en/story/2026/08/1168088"
+        },
+        {
+          "name": "Al Jazeera — UNICEF says one child killed per day in Gaza since ceasefire",
+          "url": "https://www.aljazeera.com/news/2026/8/6/unicef-says-one-child-killed-per-day-in-gaza-since-ceasefire-2"
+        }
       ]
     },
     {
       "text": "Purtătoarea de cuvânt UNICEF Louise Wateridge a adăugat: „Lumea îl numește armistițiu, dar familiile din Gaza încă își îngroapă copiii.”",
       "sources": [
-        {"name": "UN News — Gaza: 300 children killed in 300 days of Israeli-Hamas 'ceasefire'", "url": "https://news.un.org/en/story/2026/08/1168088"}
+        {
+          "name": "UN News — Gaza: 300 children killed in 300 days of Israeli-Hamas 'ceasefire'",
+          "url": "https://news.un.org/en/story/2026/08/1168088"
+        }
       ]
     },
     {
       "text": "Separat, biroul ONU pentru coordonare umanitară (OCHA) raportează un bilanț total de 1.209 morți și 3.943 răniți în Gaza de la anunțarea armistițiului (10 octombrie 2025) până la 31 iulie 2026 — cifră care creștea progresiv față de un raport OCHA anterior (11 iulie 2026), care indica 1.084 morți și 3.491 răniți. OCHA atribuie explicit aceste cifre Ministerului Sănătății din Gaza, „care operează sub autoritățile de facto” (formulare OCHA pentru administrația Hamas).",
       "sources": [
-        {"name": "OCHA — oPt Humanitarian Situation Report, 31 iulie 2026", "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026"},
-        {"name": "OCHA — Humanitarian Situation Report, 10 iulie 2026", "url": "https://www.ochaopt.org/content/humanitarian-situation-report-10-july-2026"}
+        {
+          "name": "OCHA — oPt Humanitarian Situation Report, 31 iulie 2026",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026"
+        },
+        {
+          "name": "OCHA — Humanitarian Situation Report, 10 iulie 2026",
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-report-10-july-2026"
+        }
       ]
     },
     {
       "text": "Cifra „300 de copii” (UNICEF) și bilanțul total de 1.209 morți/3.943 răniți (OCHA) sunt două rapoarte distincte, citate împreună în presă — nu trebuie confundate ca fiind aceeași sursă sau aceeași metodologie de numărare.",
       "sources": [
-        {"name": "UN News — Gaza: 300 children killed in 300 days of Israeli-Hamas 'ceasefire'", "url": "https://news.un.org/en/story/2026/08/1168088"},
-        {"name": "OCHA — oPt Humanitarian Situation Report, 31 iulie 2026", "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026"}
+        {
+          "name": "UN News — Gaza: 300 children killed in 300 days of Israeli-Hamas 'ceasefire'",
+          "url": "https://news.un.org/en/story/2026/08/1168088"
+        },
+        {
+          "name": "OCHA — oPt Humanitarian Situation Report, 31 iulie 2026",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026"
+        }
       ]
     },
     {
       "text": "Etapa a doua a armistițiului — dezarmarea Hamas, retragerea israeliană și o forță internațională de stabilizare — este blocată: pe 5 august 2026, premierul Benjamin Netanyahu a anunțat că Israelul nu a fost de acord cu planul de dezarmare a Hamas propus de „Board of Peace” pe 30 iulie, insistând că forțele israeliene nu se vor retrage din pozițiile actuale din Gaza „până când Hamas nu va fi complet dezarmat” — deși planul prevedea retragerea israeliană până la linia galbenă inițială.",
       "sources": [
-        {"name": "Times of Israel — Netanyahu announces Israel didn't agree to Board of Peace's plan to disarm Hamas", "url": "https://www.timesofisrael.com/netanyahu-announces-israel-didnt-agree-to-board-of-peaces-plan-to-disarm-hamas/"}
+        {
+          "name": "Times of Israel — Netanyahu announces Israel didn't agree to Board of Peace's plan to disarm Hamas",
+          "url": "https://www.timesofisrael.com/netanyahu-announces-israel-didnt-agree-to-board-of-peaces-plan-to-disarm-hamas/"
+        }
       ]
     }
   ],
@@ -46,20 +70,32 @@
     {
       "text": "Sursa primară a tuturor cifrelor de victime citate (cei 300 de copii, cei 1.209 morți/3.943 răniți) este, în ultimă instanță, Ministerul Sănătății din Gaza, aflat sub administrația de facto Hamas. UNICEF și OCHA agregă și republică aceste cifre, fără o numărătoare independentă proprie pe teren — o limită pe care organizațiile ONU o recunosc implicit prin formularea „autoritățile de facto”, dar nu o discută explicit ca rezervă metodologică în acest raport.",
       "sources": [
-        {"name": "OCHA — oPt Humanitarian Situation Report, 31 iulie 2026", "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026"}
+        {
+          "name": "OCHA — oPt Humanitarian Situation Report, 31 iulie 2026",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026"
+        }
       ]
     },
     {
       "text": "Nu am găsit, la data verificării, niciun răspuns oficial israelian (guvern, IDF sau Ministerul de Externe) direct la acest raport UNICEF din 6 august 2026 — nici confirmare, nici contestare. Poziția generală a IDF privind operațiunile din apropierea „liniei galbene” (linia de retragere parțială israeliană) este formulată în termeni de „amenințări” eliminate; rezerviști israelieni citați de presă descriu regulile de angajare ca fiind „permisive”. Aceasta e informație de context, nu o replică la cifrele UNICEF.",
       "sources": [
-        {"name": "Times of Israel — 'A jungle': Reservists speak of permissive open-fire rules along Gaza's yellow line", "url": "https://www.timesofisrael.com/a-jungle-reservists-speak-of-permissive-open-fire-rules-along-gazas-yellow-line/"}
+        {
+          "name": "Times of Israel — 'A jungle': Reservists speak of permissive open-fire rules along Gaza's yellow line",
+          "url": "https://www.timesofisrael.com/a-jungle-reservists-speak-of-permissive-open-fire-rules-along-gazas-yellow-line/"
+        }
       ]
     },
     {
       "text": "Israelul nu respinge sistematic toate cifrele Ministerului Sănătății din Gaza — în ianuarie 2026, IDF a acceptat public bilanțul total de peste 70.000 de morți în Gaza dat de aceeași sursă. În alte episoade (cifrele privind foametea), un oficial israelian a numit public acuzațiile ONU „blood libel”, susținând că se bazau pe date Hamas. Poziția Israelului față de sursele ONU pare deci să difere de la un subiect la altul, nu e uniformă.",
       "sources": [
-        {"name": "Times of Israel — IDF believes 70,000 Gazans killed in war, as claimed by Hamas", "url": "https://www.timesofisrael.com/idf-believes-70000-gazans-killed-in-war-as-claimed-by-hamas/"},
-        {"name": "Fox News — Israel 'vindicated' on Gaza nutrition data after 'blood libel' starvation claims, UN envoy says", "url": "https://www.foxnews.com/world/israel-vindicated-gaza-nutrition-data-after-blood-libel-starvation-claims-un-envoy-says"}
+        {
+          "name": "Times of Israel — IDF believes 70,000 Gazans killed in war, as claimed by Hamas",
+          "url": "https://www.timesofisrael.com/idf-believes-70000-gazans-killed-in-war-as-claimed-by-hamas/"
+        },
+        {
+          "name": "Fox News — Israel 'vindicated' on Gaza nutrition data after 'blood libel' starvation claims, UN envoy says",
+          "url": "https://www.foxnews.com/world/israel-vindicated-gaza-nutrition-data-after-blood-libel-starvation-claims-un-envoy-says"
+        }
       ]
     }
   ],
@@ -69,5 +105,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (UN News, Al Jazeera, OCHA, Times of Israel); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Acesta e un subiect sensibil: NU decretăm cine are „dreptate” în conflictul Israel-Hamas. Arătăm ce a raportat UNICEF, cu sursa lui (Ministerul Sănătății din Gaza, via OCHA), și constatăm explicit că nu am găsit, la data verificării, un răspuns oficial israelian direct la acest raport — asta nu înseamnă că poziția israeliană nu există, doar că nu am găsit-o documentată public pentru acest anunț concret. Am pus alături și context relevant din ambele direcții: încălcările armistițiului raportate de IDF, dar și acceptarea anterioară de către IDF a altor cifre din aceeași sursă. Cititorul trage concluzia.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/unicef-gaza-300-copii-armistitiu.jpg\" alt=\"gas pipeline industrial\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — gas pipeline industrial. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Aderklaa_-_Gasstation.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Aderklaa - Gasstation</a>\" de C.Stadler/Bwag, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/unicef-gaza-300-copii-armistitiu.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "C.Stadler/Bwag"
+  }
 }

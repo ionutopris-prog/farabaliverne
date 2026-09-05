@@ -95,5 +95,12 @@
   "aiNote": "Dovezile din mai multe redacții independente arată că afirmația centrală se susține: pe 6 august 2026, Secția penală a ÎCCJ a respins contestațiile și a menținut decizia Curții de Apel București din camera preliminară, astfel încât dosarul în care sunt inculpați Călin Georgescu, Horațiu Potra și alte circa 20 de persoane poate trece la judecata pe fond. Două precizări de rigoare: (1) „tentativă de lovitură de stat” este o etichetă de presă — încadrarea juridică este „acțiuni împotriva ordinii constituționale”; (2) decizia este strict procedurală: confirmă legalitatea trimiterii în judecată, NU vinovăția. Inculpații beneficiază de prezumția de nevinovăție până la o hotărâre definitivă. Nu decretăm nimic despre fondul acuzațiilor — arătăm ce a decis instanța și în ce fază procesuală ne aflăm, iar concluzia asupra fondului rămâne a instanței și a cititorului. Notă de transparență: portalul instanței (scj.ro) nu a fost accesibil la data verificării, așa că ne-am bazat pe relatările redacțiilor care citează decizia.",
   "persoane": [
     "Călin Georgescu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/georgescu-iccj-proces-fond.jpg\" alt=\"Georgescu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Georgescu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Georgescu,_Simion_%26_Bruynseels_(decupat).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Georgescu, Simion & Bruynseels (decupat)</a>\" de AUR Alianța pentru Unirea Românilor, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/georgescu-iccj-proces-fond.jpg",
+    "licenta": "CC0",
+    "autor": "AUR Alianța pentru Unirea Românilor"
+  }
 }

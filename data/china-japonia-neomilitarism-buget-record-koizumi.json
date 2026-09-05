@@ -1,54 +1,84 @@
 {
- "slug": "china-japonia-neomilitarism-buget-record-koizumi",
- "title": "China promite să „țină în frâu” neomilitarismul japonez, după cererea de buget record a Tokyo — Japonia respinge eticheta drept ipocrită",
- "category": "Media de stat",
- "date": "2026-09-03",
- "source": "Xinhua / Japan Today / PBS NewsHour / Al Jazeera",
- "url": "https://english.news.cn/20260903/edb40a3829324a42b1208b557c246cfb/c.html",
- "dek": "Purtătorul de cuvânt al Ministerului de Externe chinez, Guo Jiakun, a declarat pe 3 septembrie 2026, citat de agenția de stat Xinhua, că Beijingul va sta „alături de țările iubitoare de pace” pentru a opri ceea ce a numit „emergența malefică a neomilitarismului japonez”, ca reacție la cartea albă a apărării Japoniei și la cererea de buget record — 8,89 trilioane de yeni — a Ministerului japonez al Apărării pentru anul fiscal 2027. Cifra bugetară e reală și confirmată independent, dar eticheta de „neomilitarism” rămâne disputată: Tokyo a respins-o încă din mai 2026 drept ipocrită, venind din partea unei țări cu arsenal nuclear propriu.",
- "mainVerdict": "Probat că MAE chinez a făcut declarația și că bugetul cerut de Japonia e într-adevăr un record istoric; contestată rămâne eticheta politică de „neomilitarism”, pe care Tokyo o respinge explicit",
- "probat": [
-  {
-   "text": "Purtătorul de cuvânt al MAE chinez, Guo Jiakun, a declarat pe 3 septembrie 2026, într-un briefing preluat de agenția de stat Xinhua, că China va „ține în frâu, ferm, emergența malefică a neomilitarismului japonez”, alături de „țările iubitoare de pace”, și a cerut Tokyo să „își îndeplinească obligațiile internaționale” și să elimine „influența nocivă a militarismului”. Declarația a venit ca reacție la cartea albă a apărării Japoniei pe 2026, care afirmă că țara va continua să dezvolte „capacitatea de lovire a bazelor inamice”.",
-   "sources": [
-    {"name": "Xinhua — China pledges to halt rise of Japanese neo-militarism: spokesperson", "url": "https://english.news.cn/20260903/edb40a3829324a42b1208b557c246cfb/c.html"}
-   ]
-  },
-  {
-   "text": "Ministerul japonez al Apărării a cerut pentru anul fiscal 2027 un buget record de 8,89 trilioane de yeni — cea mai mare cerere din istoria ministerului —, axat pe inteligență artificială, drone și armament cu bătaie lungă. Cifra e confirmată independent de presa japoneză, care notează că bugetul final ar putea ajunge la circa 10 trilioane de yeni, ceea ce ar face din Japonia al treilea mare cheltuitor militar din lume.",
-   "sources": [
-    {"name": "Japan Today — Defense Ministry eyes record ¥8.9 tril in FY2027 budget request", "url": "https://japantoday.com/category/politics/japan's-defense-ministry-eyes-record-8.9-tril.-yen-in-fy-2027-budget-request"},
-    {"name": "PBS NewsHour — Japan's cabinet approves record defense budget aiming to deter China as tensions grow", "url": "https://www.pbs.org/newshour/world/japans-cabinet-approves-record-defense-budget-aiming-to-deter-china-as-tensions-grow"}
-   ]
-  },
-  {
-   "text": "Bugetul anterior (anul fiscal 2026) a marcat deja, potrivit PBS NewsHour, „o ruptură majoră față de principiul postbelic” al Japoniei, care limita folosirea forței la autoapărare: pentru prima dată, Tokyo a alocat fonduri pentru capacitate ofensivă cu rachete de rază lungă, capabile să lovească ținte aflate la distanță, nu doar să respingă un atac pe teritoriul propriu. Ministrul apărării, Shinjiro Koizumi, a susținut că această cheltuială e „minimul necesar” într-un „mediu de securitate postbelic fără precedent ca severitate” și că „nu schimbă calea Japoniei ca națiune iubitoare de pace”.",
-   "sources": [
-    {"name": "PBS NewsHour — Japan's cabinet approves record defense budget aiming to deter China as tensions grow", "url": "https://www.pbs.org/newshour/world/japans-cabinet-approves-record-defense-budget-aiming-to-deter-china-as-tensions-grow"}
-   ]
-  },
-  {
-   "text": "Japonia a respins deja public eticheta de „neomilitarism”, cu câteva luni înainte de declarația de pe 3 septembrie. Pe 31 mai 2026, la Dialogul Shangri-La din Singapore, Koizumi a răspuns direct acuzației MAE chinez: „Gândiți-vă: există o țară cu un arsenal uriaș de arme nucleare și bombardiere strategice. Japonia nu are niciuna dintre aceste arme, și totuși Japonia e etichetată drept «neomilitarism»?”",
-   "sources": [
-    {"name": "Al Jazeera — Japan rejects 'new militarism', says China is rapidly arming", "url": "https://www.aljazeera.com/news/2026/5/31/japan-rejects-new-militarism-says-china-is-rapidly-arming"}
-   ]
+  "slug": "china-japonia-neomilitarism-buget-record-koizumi",
+  "title": "China promite să „țină în frâu” neomilitarismul japonez, după cererea de buget record a Tokyo — Japonia respinge eticheta drept ipocrită",
+  "category": "Media de stat",
+  "date": "2026-09-03",
+  "source": "Xinhua / Japan Today / PBS NewsHour / Al Jazeera",
+  "url": "https://english.news.cn/20260903/edb40a3829324a42b1208b557c246cfb/c.html",
+  "dek": "Purtătorul de cuvânt al Ministerului de Externe chinez, Guo Jiakun, a declarat pe 3 septembrie 2026, citat de agenția de stat Xinhua, că Beijingul va sta „alături de țările iubitoare de pace” pentru a opri ceea ce a numit „emergența malefică a neomilitarismului japonez”, ca reacție la cartea albă a apărării Japoniei și la cererea de buget record — 8,89 trilioane de yeni — a Ministerului japonez al Apărării pentru anul fiscal 2027. Cifra bugetară e reală și confirmată independent, dar eticheta de „neomilitarism” rămâne disputată: Tokyo a respins-o încă din mai 2026 drept ipocrită, venind din partea unei țări cu arsenal nuclear propriu.",
+  "mainVerdict": "Probat că MAE chinez a făcut declarația și că bugetul cerut de Japonia e într-adevăr un record istoric; contestată rămâne eticheta politică de „neomilitarism”, pe care Tokyo o respinge explicit",
+  "probat": [
+    {
+      "text": "Purtătorul de cuvânt al MAE chinez, Guo Jiakun, a declarat pe 3 septembrie 2026, într-un briefing preluat de agenția de stat Xinhua, că China va „ține în frâu, ferm, emergența malefică a neomilitarismului japonez”, alături de „țările iubitoare de pace”, și a cerut Tokyo să „își îndeplinească obligațiile internaționale” și să elimine „influența nocivă a militarismului”. Declarația a venit ca reacție la cartea albă a apărării Japoniei pe 2026, care afirmă că țara va continua să dezvolte „capacitatea de lovire a bazelor inamice”.",
+      "sources": [
+        {
+          "name": "Xinhua — China pledges to halt rise of Japanese neo-militarism: spokesperson",
+          "url": "https://english.news.cn/20260903/edb40a3829324a42b1208b557c246cfb/c.html"
+        }
+      ]
+    },
+    {
+      "text": "Ministerul japonez al Apărării a cerut pentru anul fiscal 2027 un buget record de 8,89 trilioane de yeni — cea mai mare cerere din istoria ministerului —, axat pe inteligență artificială, drone și armament cu bătaie lungă. Cifra e confirmată independent de presa japoneză, care notează că bugetul final ar putea ajunge la circa 10 trilioane de yeni, ceea ce ar face din Japonia al treilea mare cheltuitor militar din lume.",
+      "sources": [
+        {
+          "name": "Japan Today — Defense Ministry eyes record ¥8.9 tril in FY2027 budget request",
+          "url": "https://japantoday.com/category/politics/japan's-defense-ministry-eyes-record-8.9-tril.-yen-in-fy-2027-budget-request"
+        },
+        {
+          "name": "PBS NewsHour — Japan's cabinet approves record defense budget aiming to deter China as tensions grow",
+          "url": "https://www.pbs.org/newshour/world/japans-cabinet-approves-record-defense-budget-aiming-to-deter-china-as-tensions-grow"
+        }
+      ]
+    },
+    {
+      "text": "Bugetul anterior (anul fiscal 2026) a marcat deja, potrivit PBS NewsHour, „o ruptură majoră față de principiul postbelic” al Japoniei, care limita folosirea forței la autoapărare: pentru prima dată, Tokyo a alocat fonduri pentru capacitate ofensivă cu rachete de rază lungă, capabile să lovească ținte aflate la distanță, nu doar să respingă un atac pe teritoriul propriu. Ministrul apărării, Shinjiro Koizumi, a susținut că această cheltuială e „minimul necesar” într-un „mediu de securitate postbelic fără precedent ca severitate” și că „nu schimbă calea Japoniei ca națiune iubitoare de pace”.",
+      "sources": [
+        {
+          "name": "PBS NewsHour — Japan's cabinet approves record defense budget aiming to deter China as tensions grow",
+          "url": "https://www.pbs.org/newshour/world/japans-cabinet-approves-record-defense-budget-aiming-to-deter-china-as-tensions-grow"
+        }
+      ]
+    },
+    {
+      "text": "Japonia a respins deja public eticheta de „neomilitarism”, cu câteva luni înainte de declarația de pe 3 septembrie. Pe 31 mai 2026, la Dialogul Shangri-La din Singapore, Koizumi a răspuns direct acuzației MAE chinez: „Gândiți-vă: există o țară cu un arsenal uriaș de arme nucleare și bombardiere strategice. Japonia nu are niciuna dintre aceste arme, și totuși Japonia e etichetată drept «neomilitarism»?”",
+      "sources": [
+        {
+          "name": "Al Jazeera — Japan rejects 'new militarism', says China is rapidly arming",
+          "url": "https://www.aljazeera.com/news/2026/5/31/japan-rejects-new-militarism-says-china-is-rapidly-arming"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Eticheta de „neomilitarism” pusă de Beijing pe politica de apărare a Japoniei e o interpretare politică, nu un fapt verificabil independent — și Beijingul nu aplică același standard propriei sale expansiuni militare, care include un arsenal nuclear în creștere și bombardiere strategice pe care Japonia nu le are. China însăși a fost descrisă, în cartea albă japoneză, drept „cea mai mare provocare strategică” pentru Tokyo — o etichetă la fel de politică, din direcția opusă.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Japan rejects 'new militarism', says China is rapidly arming",
+          "url": "https://www.aljazeera.com/news/2026/5/31/japan-rejects-new-militarism-says-china-is-rapidly-arming"
+        },
+        {
+          "name": "Xinhua — China pledges to halt rise of Japanese neo-militarism: spokesperson",
+          "url": "https://english.news.cn/20260903/edb40a3829324a42b1208b557c246cfb/c.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Ambele părți se descriu reciproc drept amenințarea principală, iar niciuna nu recunoaște propria expansiune militară drept problematică. Faptele brute — bugetul record al Japoniei, arsenalul nuclear al Chinei, dezvoltarea de rachete de ambele părți în regiune — sunt verificabile; concluzia despre cine „militarizează” regiunea rămâne, la acest stadiu, o judecată politică pe care cititorul o trage singur.",
+      "sources": []
+    }
+  ],
+  "aiNote": "📡 Acest articol conține o afirmație provenită direct de la Ministerul de Externe chinez, transmisă prin agenția de stat Xinhua, cross-verificată cu surse independente (Japan Today, PBS NewsHour, Al Jazeera).\n\nCe s-a verificat exact: că purtătorul de cuvânt Guo Jiakun a făcut, pe 3 septembrie 2026, declarația citată de Xinhua; și că bugetul de apărare cerut de Japonia pentru 2027 (8,89 trilioane de yeni) e real și confirmat de presă japoneză independentă, la fel ca faptul că bugetul anterior a marcat o ruptură reală față de doctrina postbelică de autoapărare strictă.\n\nUnde se despart sursele: pe interpretare, nu pe fapte brute. China numește creșterea bugetară și noile capacități ofensive „neomilitarism” și cere Japoniei să respecte „obligațiile” postbelice; Japonia, prin vocea ministrului Koizumi, respinge eticheta ca ipocrită, subliniind că vine din partea unei țări cu arsenal nuclear și bombardiere strategice — arme pe care Japonia nu le deține. Ambele argumente se bazează pe fapte reale (bugetul japonez de o parte, arsenalul chinez de cealaltă), dar concluzia — cine reprezintă amenințarea și cine se apără — e o judecată politică, nu un fapt stabilit.\n\nCe lipsește: o evaluare independentă (non-chineză, non-japoneză), de exemplu dintr-un institut de securitate terț, care să compare ritmul real de creștere militară al celor două țări pe ultimii ani, nu doar cifrele unui singur an bugetar.\n\nCe ar schimba concluzia: un raport independent de acest fel, sau o revizuire clară a doctrinei militare japoneze care să depășească explicit cadrul strict de autoapărare — lucru pe care Tokyo încă îl neagă public.",
+  "persoane": [
+    "Shinjiro Koizumi"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-japonia-neomilitarism-buget-record-koizumi.jpg\" alt=\"Tokyo\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Tokyo. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_illuminated_facade_of_Maison_Herm%C3%A8s,_Ginza,_Tokyo,_Japan.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Exterior view of the illuminated facade of Maison Hermès, Ginza, Tokyo, Japan</a>\" de Basile Morin, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-japonia-neomilitarism-buget-record-koizumi.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Basile Morin"
   }
- ],
- "contestat": [
-  {
-   "text": "Eticheta de „neomilitarism” pusă de Beijing pe politica de apărare a Japoniei e o interpretare politică, nu un fapt verificabil independent — și Beijingul nu aplică același standard propriei sale expansiuni militare, care include un arsenal nuclear în creștere și bombardiere strategice pe care Japonia nu le are. China însăși a fost descrisă, în cartea albă japoneză, drept „cea mai mare provocare strategică” pentru Tokyo — o etichetă la fel de politică, din direcția opusă.",
-   "sources": [
-    {"name": "Al Jazeera — Japan rejects 'new militarism', says China is rapidly arming", "url": "https://www.aljazeera.com/news/2026/5/31/japan-rejects-new-militarism-says-china-is-rapidly-arming"},
-    {"name": "Xinhua — China pledges to halt rise of Japanese neo-militarism: spokesperson", "url": "https://english.news.cn/20260903/edb40a3829324a42b1208b557c246cfb/c.html"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Ambele părți se descriu reciproc drept amenințarea principală, iar niciuna nu recunoaște propria expansiune militară drept problematică. Faptele brute — bugetul record al Japoniei, arsenalul nuclear al Chinei, dezvoltarea de rachete de ambele părți în regiune — sunt verificabile; concluzia despre cine „militarizează” regiunea rămâne, la acest stadiu, o judecată politică pe care cititorul o trage singur.",
-   "sources": []
-  }
- ],
- "aiNote": "📡 Acest articol conține o afirmație provenită direct de la Ministerul de Externe chinez, transmisă prin agenția de stat Xinhua, cross-verificată cu surse independente (Japan Today, PBS NewsHour, Al Jazeera).\n\nCe s-a verificat exact: că purtătorul de cuvânt Guo Jiakun a făcut, pe 3 septembrie 2026, declarația citată de Xinhua; și că bugetul de apărare cerut de Japonia pentru 2027 (8,89 trilioane de yeni) e real și confirmat de presă japoneză independentă, la fel ca faptul că bugetul anterior a marcat o ruptură reală față de doctrina postbelică de autoapărare strictă.\n\nUnde se despart sursele: pe interpretare, nu pe fapte brute. China numește creșterea bugetară și noile capacități ofensive „neomilitarism” și cere Japoniei să respecte „obligațiile” postbelice; Japonia, prin vocea ministrului Koizumi, respinge eticheta ca ipocrită, subliniind că vine din partea unei țări cu arsenal nuclear și bombardiere strategice — arme pe care Japonia nu le deține. Ambele argumente se bazează pe fapte reale (bugetul japonez de o parte, arsenalul chinez de cealaltă), dar concluzia — cine reprezintă amenințarea și cine se apără — e o judecată politică, nu un fapt stabilit.\n\nCe lipsește: o evaluare independentă (non-chineză, non-japoneză), de exemplu dintr-un institut de securitate terț, care să compare ritmul real de creștere militară al celor două țări pe ultimii ani, nu doar cifrele unui singur an bugetar.\n\nCe ar schimba concluzia: un raport independent de acest fel, sau o revizuire clară a doctrinei militare japoneze care să depășească explicit cadrul strict de autoapărare — lucru pe care Tokyo încă îl neagă public.",
- "persoane": ["Shinjiro Koizumi"]
 }

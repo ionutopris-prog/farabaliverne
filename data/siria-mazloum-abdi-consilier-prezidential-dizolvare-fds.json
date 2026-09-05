@@ -80,5 +80,12 @@
   "opinie": [],
   "math": "",
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus, inclusiv cu Google Translate. Ce s-a verificat exact: decretul de numire a lui Mazloum Abdi și anunțul dizolvării FDS, pe baza a trei publicații independente din trei zone editoriale diferite (Al Jazeera — Qatar, France 24 — Franța, Times of Israel — Israel), toate concordante pe faptele de bază.\n\nUnde se despart sursele: caracterul integrării — unele relatări o prezintă predominant ca pas politic pozitiv (recunoașterea limbii kurde, rol pentru Abdi), altele subliniază contextul militar (FDS a pierdut teritoriu în ianuarie 2026 înainte de a semna acordul). Ambele fapte sunt adevărate simultan; ceea ce diferă e accentul pus de fiecare sursă.\n\nCe lipsește: o poziție oficială turcă (Ankara a privit FDS ca extensie a PKK) și reacții directe ale conducerii administrației autonome kurde din nord-est nu apar în sursele consultate la data scrierii. Nu se știe nici cum se va rezolva disputa privind integrarea unităților feminine YPJ.\n\nCe ar schimba concluzia: o defecțiune vizibilă a procesului de integrare (ciocniri, refuzul predării armamentului) ar arăta că acordul e mai fragil decât pare acum; o implementare fără incidente ar confirma caracterul durabil al integrării.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/siria-mazloum-abdi-consilier-prezidential-dizolvare-fds.jpg\" alt=\"soldiers military parade\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — soldiers military parade. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ethiopian_soldiers_marching_in_a_military_parade_2019_(cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ethiopian soldiers marching in a military parade 2019 (cropped)</a>\" de Office of the Prime Minister - Ethiopia, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/siria-mazloum-abdi-consilier-prezidential-dizolvare-fds.jpg",
+    "licenta": "Public domain",
+    "autor": "Office of the Prime Minister - Ethiopia"
+  }
 }

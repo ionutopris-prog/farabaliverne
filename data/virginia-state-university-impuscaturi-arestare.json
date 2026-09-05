@@ -11,22 +11,40 @@
     {
       "text": "Împușcăturile au avut loc în jurul orei 1:30, sâmbătă, 15 august 2026, lângă căminele-anexă „Quad Annexes” ale campusului Virginia State University, din Ettrick, Virginia — la circa 24 de mile (39 km) sud de Richmond. Cinci persoane, cu vârste între 17 și 23 de ani, au fost rănite prin împușcare. Una dintre victime a rămas în stare critică; celelalte patru au suferit răni care nu le puneau viața în pericol. O singură victimă, în vârstă de 20 de ani, era studentă la universitate și a fost externată; ceilalți patru răniți nu erau studenți.",
       "sources": [
-        {"name": "CBS News — 5 people injured in shooting with multiple shooters at Virginia State University", "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"},
-        {"name": "WTOP — Police have arrested a 19-year-old in connection with Virginia State University shooting", "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"}
+        {
+          "name": "CBS News — 5 people injured in shooting with multiple shooters at Virginia State University",
+          "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"
+        },
+        {
+          "name": "WTOP — Police have arrested a 19-year-old in connection with Virginia State University shooting",
+          "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"
+        }
       ]
     },
     {
       "text": "Poliția l-a arestat, tot sâmbătă, pe Camron Harris, în vârstă de 19 ani, din Henrico, Virginia — găsit ascuns într-un dulap dintr-un cămin al universității. Harris nu era student la Virginia State University. Împotriva lui au fost emise opt mandate pentru infracțiuni grave (felonii), inclusiv vătămare corporală cu intenție („malicious wounding”) și folosirea unei arme de foc în comiterea unei infracțiuni. Familia lui nu a putut fi contactată de jurnaliști pentru reacție.",
       "sources": [
-        {"name": "WTOP — detaliile arestării lui Camron Harris și acuzațiile", "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"},
-        {"name": "CBS News — cele opt mandate și confirmarea că suspectul nu era student", "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"}
+        {
+          "name": "WTOP — detaliile arestării lui Camron Harris și acuzațiile",
+          "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"
+        },
+        {
+          "name": "CBS News — cele opt mandate și confirmarea că suspectul nu era student",
+          "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"
+        }
       ]
     },
     {
       "text": "Autoritățile au căutat inițial mai mulți suspecți posibili, iar universitatea a impus un blocaj temporar al campusului („lockdown”), ridicat ulterior după ce s-a stabilit că nu mai există un pericol imediat. Un ofițer de poliție, locotenentul James R. Lamb, a precizat că incidentul „nu a fost un atac din mașină în mers” („drive-by shooting”). Poliția locală a fost asistată de Biroul federal pentru Alcool, Tutun, Arme de Foc și Explozivi (ATF) și de Biroul Șerifului din comitatul Hanover. Cursurile la universitate erau programate să înceapă luni, iar căminele se deschiseseră cu o săptămână înainte de incident.",
       "sources": [
-        {"name": "CBS News — declarația locotenentului Lamb și sprijinul ATF", "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"},
-        {"name": "WTOP — reluarea cursurilor luni și declarația universității", "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"}
+        {
+          "name": "CBS News — declarația locotenentului Lamb și sprijinul ATF",
+          "url": "https://www.cbsnews.com/news/shooting-virginia-state-university/"
+        },
+        {
+          "name": "WTOP — reluarea cursurilor luni și declarația universității",
+          "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"
+        }
       ]
     }
   ],
@@ -34,12 +52,22 @@
     {
       "text": "Nu e clar, din relatările disponibile la ora publicării, dacă poliția mai caută și alți suspecți în afară de Camron Harris — sursele confirmă doar că autoritățile „au căutat inițial” mai mulți posibili trăgători, fără actualizări ulterioare despre eventuale alte arestări sau despre închiderea completă a căutării.",
       "sources": [
-        {"name": "WTOP — fără informații suplimentare despre căutarea altor suspecți", "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"}
+        {
+          "name": "WTOP — fără informații suplimentare despre căutarea altor suspecți",
+          "url": "https://wtop.com/virginia/2026/08/virginia-state-university-on-lockdown-following-shooting/"
+        }
       ]
     }
   ],
   "opinie": [],
   "math": null,
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană (CBS News, WTOP); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Redăm doar ce au confirmat poliția și universitatea; identitatea suspectului arestat e cea comunicată oficial de autorități, cu mandatele de arestare emise împotriva lui — nu facem afirmații suplimentare despre vinovăție dincolo de ce a confirmat poliția.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/virginia-state-university-impuscaturi-arestare.jpg\" alt=\"school classroom\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — school classroom. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:A_Hayesville_High_School_classroom_in_Clay_County,_N.C.,_in_2004.jpg\" rel=\"nofollow noopener\" target=\"_blank\">A Hayesville High School classroom in Clay County, N.C., in 2004</a>\" de Harrison Keely, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/virginia-state-university-impuscaturi-arestare.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Harrison Keely"
+  }
 }
