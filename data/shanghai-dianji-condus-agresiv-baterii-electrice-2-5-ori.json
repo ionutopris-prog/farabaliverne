@@ -1,0 +1,146 @@
+{
+  "slug": "shanghai-dianji-condus-agresiv-baterii-electrice-2-5-ori",
+  "title": "Un studiu chinezesc spune că șofatul agresiv ar putea uza bateria de peste 2,5 ori mai repede — dar cifra e o prognoză a unui model, nu o măsurătoare",
+  "category": "Minți luminate",
+  "tara": "China",
+  "date": "2026-09-05",
+  "source": "Shanghai Dianji University · revista Scientific Reports",
+  "url": "https://doi.org/10.1038/s41598-026-66428-x",
+  "dek": "Trei cercetători de la Universitatea Shanghai Dianji au construit un model care încearcă să separe efectul stilului de condus de restul cauzelor care îmbătrânesc o baterie. Concluzia lor: condusul agresiv se asociază cu o pierdere de capacitate de peste 2,5 ori mai mare decât condusul economic. Titlurile din presă au scăpat trei cuvinte care schimbă tot: „prezisă de model”. Nimeni n-a condus 1.000 de cicluri.",
+  "mainVerdict": "Probat că studiul există, cine l-a scris și ce spune — dar cifra de 2,5 ori e o predicție a unui model, nu o măsurătoare, iar textul integral al lucrării nu e încă publicat, deci metoda și eșantionul nu se pot verifica la sursă",
+  "persoane": [],
+  "traducere": {
+    "titlu": "Physics-aligned causal inference of driving styles on electric vehicles battery aging",
+    "publicatie": "Scientific Reports",
+    "autor": "Hao Cheng, Zhongwei Gu, Wangqiang Gao",
+    "data": "14 august 2026",
+    "url": "https://doi.org/10.1038/s41598-026-66428-x",
+    "nota_sus": "Lucrarea e publicată sub licența Creative Commons Atribuire 4.0 Internațional (CC BY 4.0), care permite reproducerea în orice mediu, cu atribuire. Traducem aici REZUMATUL în întregime, fiindcă atât e public deocamdată: revista a publicat versiunea acceptată devreme, iar textul complet — metodă, rezultate, discuție — nu e încă accesibil.",
+    "paragrafe": [
+      "Bateriile litiu-ion rămân principalul obstacol în durata de viață a vehiculelor electrice, iar stilul de condus e un factor uman esențial care domină degradarea bateriei, evaluată prin indicatori indirecți de îmbătrânire și prin predicții ale unor modele semi-empirice.",
+      "Studiile existente se concentrează în cea mai mare parte pe analiza de corelație dintre comportamentul de condus și îmbătrânire, suferind de modele de tip „cutie neagră” lipsite de fundament fizic și de identificare cauzală nesigură, din cauza factorilor de confuzie necontrolați.",
+      "Lucrarea de față propune un cadru de inferență cauzală aliniat la fizică, pentru a cuantifica impactul stilurilor de condus asupra îmbătrânirii bateriei unui vehicul electric. Cadrul încorporează circuitul echivalent Thevenin de ordinul doi într-un model generativ, pentru o reprezentare constrânsă de fizică; realizează separarea factorilor de confuzie printr-un strat de inversare a gradientului; și cuantifică efectul cauzal estimat prin inferență contrafactuală.",
+      "Punând o punte între modelarea bateriei bazată pe fizică și inferența cauzală bazată pe date, acest cadru oferă o abordare principială pentru cuantificarea impactului cauzal al comportamentului de condus asupra îmbătrânirii bateriei, cu aplicații posibile în strategiile de prelungire a vieții bateriei și în îndrumarea personalizată a șoferului.",
+      "Validată pe date reale de funcționare a unor vehicule electrice, metoda atinge o eroare procentuală absolută medie de 0,55% în reconstrucția tensiunii la borne și arată că șofatul agresiv se asociază cu o pierdere de capacitate prezisă de model de peste 2,5 ori mai mare decât condusul economic, în cadrul asocierii cauzale estimate."
+    ],
+    "nota_jos": "Traducere în română a rezumatului. Lucrarea originală: Cheng, H., Gu, Z. & Gao, W., „Physics-aligned causal inference of driving styles on electric vehicles battery aging”, Scientific Reports (2026). Licență CC BY 4.0 — creativecommons.org/licenses/by/4.0/. Nu am modificat sensul; formulările prudente ale autorilor („prezisă de model”, „se asociază”, „cadrul asocierii cauzale estimate”) sunt păstrate exact, fiindcă tocmai ele s-au pierdut în presă."
+  },
+  "probat": [
+    {
+      "text": "Lucrarea există și e publicată în acces liber. Autorii sunt Hao Cheng, Zhongwei Gu și Wangqiang Gao, toți trei de la Universitatea Shanghai Dianji, din districtul Pudong, Shanghai. Titlul: „Physics-aligned causal inference of driving styles on electric vehicles battery aging”. Revista: Scientific Reports, din grupul Nature. Primită pe 28 mai 2026, acceptată pe 7 august, publicată pe 14 august 2026. DOI: 10.1038/s41598-026-66428-x. Licență: Creative Commons Atribuire 4.0.",
+      "sources": [
+        {
+          "name": "„Physics-aligned causal inference of driving styles on electric vehicles battery aging”",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        }
+      ]
+    },
+    {
+      "text": "Ce spune rezumatul, în cuvintele autorilor: metoda „atinge 0,55% MAPE în reconstrucția tensiunii la borne și arată că șofatul agresiv se asociază cu o pierdere de capacitate prezisă de model de peste 2,5 ori mai mare decât condusul economic, în cadrul asocierii cauzale estimate”. Cele două jumătăți ale propoziției au statut diferit: 0,55% e o eroare măsurată a modelului față de date reale; 2,5 ori e ce prezice modelul.",
+      "sources": [
+        {
+          "name": "„…aggressive driving is associated with over 2.5 times higher model-predicted capacity fade…”",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        }
+      ]
+    },
+    {
+      "text": "Metoda, pe scurt: autorii încastrează un circuit electric echivalent Thevenin de ordinul doi — adică un model fizic al bateriei, nu o rețea neuronală oarbă — într-un model generativ. Peste el pun un „strat de inversare a gradientului”, o tehnică prin care modelul e forțat să NU învețe factorii de confuzie (temperatură, staționare, nivelul de încărcare la pornire), ci doar efectul stilului de condus. Efectul îl estimează apoi prin inferență contrafactuală: ce s-ar fi întâmplat cu aceeași baterie dacă ar fi fost condusă altfel.",
+      "sources": [
+        {
+          "name": "„…aggressive driving is associated with over 2.5 times higher model-predicted capacity fade…”",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        }
+      ]
+    },
+    {
+      "text": "Detaliile despre date, așa cum le-a relatat presa științifică: un an de date reale de la 15 vehicule electrice din Guangzhou, culese în 2022, cu măsurători la fiecare 10 secunde — viteză, curent, tensiune, temperatură și nivel de încărcare. Comportamentul de condus a fost împărțit în cinci categorii, iar diferența de 2,5 ori se referă la 1.000 de cicluri de încărcare-descărcare. Aceste cifre NU se pot verifica în lucrare, fiindcă textul integral nu e încă public.",
+      "sources": [
+        {
+          "name": "„There's One Type of Driving to Avoid if You Want Your EV Battery to Last 2.5x Longer”",
+          "url": "https://www.sciencealert.com/driving-your-ev-like-a-jerk-could-wear-out-the-battery-2-5-times-faster"
+        },
+        {
+          "name": "„Aggressive driving degrades EV battery capacity 2.5 times faster, study suggests”",
+          "url": "https://interestingengineering.com/transportation/ev-battery-aging-reason-study"
+        }
+      ]
+    },
+    {
+      "text": "Cel puțin o publicație a spus limpede ce e cifra. ScienceAlert scrie: „această rată finală de degradare e doar o predicție. Echipa nu avea date despre viața bateriei pe 1.000 de cicluri de încărcare pentru niciun grup de condus.” Deci nu toată presa a exagerat — dar titlurile care au circulat cel mai mult au făcut-o.",
+      "sources": [
+        {
+          "name": "„There's One Type of Driving to Avoid if You Want Your EV Battery to Last 2.5x Longer”",
+          "url": "https://www.sciencealert.com/driving-your-ev-like-a-jerk-could-wear-out-the-battery-2-5-times-faster"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Textul integral al lucrării NU e publicat. Revista avertizează pe pagină: „Publicăm acest articol devreme, ca să oferim acces mai rapid la cercetare evaluată și acceptată. Versiunea e supusă unor editări ulterioare și va fi înlocuită automat de versiunea finală.” Public e doar rezumatul. Metoda detaliată, eșantionul, rezultatele și — cel mai important — secțiunea de limite ale autorilor nu se pot citi de nimeni deocamdată. Tot ce știm despre cele 15 mașini vine din presă, nu dintr-o lucrare pe care cineva o poate deschide.",
+      "sources": [
+        {
+          "name": "„This version is subject to further edits and will be replaced by the final Version of Record”",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        }
+      ]
+    },
+    {
+      "text": "🔴 Cifra de 2,5 ori nu s-a măsurat pe nicio baterie. Autorii scriu „pierdere de capacitate PREZISĂ DE MODEL” și „în cadrul asocierii cauzale ESTIMATE”. Cele 1.000 de cicluri sunt o extrapolare: nicio mașină din studiu nu a fost condusă atât. Diferența dintre „modelul nostru prezice 2,5 ori” și „bateriile s-au uzat de 2,5 ori mai repede” e diferența dintre o ipoteză și un rezultat.",
+      "sources": [
+        {
+          "name": "„…aggressive driving is associated with over 2.5 times higher model-predicted capacity fade…”",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        }
+      ]
+    },
+    {
+      "text": "🔴 Cincisprezece mașini, un oraș, un an. Dacă numărul relatat de presă e corect, eșantionul e mic pentru o afirmație despre bateriile mașinilor electrice în general. Guangzhou are climă subtropicală — cald și umed tot anul. Temperatura e unul dintre cei mai puternici factori de îmbătrânire a bateriilor, iar un an de Guangzhou nu seamănă cu un an de Cluj. Studiul nu spune nimic despre iarnă europeană.",
+      "sources": [
+        {
+          "name": "„There's One Type of Driving to Avoid if You Want Your EV Battery to Last 2.5x Longer”",
+          "url": "https://www.sciencealert.com/driving-your-ev-like-a-jerk-could-wear-out-the-battery-2-5-times-faster"
+        }
+      ]
+    },
+    {
+      "text": "🔴 Titlurile au pierdut prudența autorilor. Presa a scris „un studiu din China arată că șofatul agresiv uzează bateriile de 2,5 ori mai repede”. Autorii au scris „se ASOCIAZĂ cu o pierdere de capacitate PREZISĂ DE MODEL de peste 2,5 ori mai mare”. Trei cuvinte scoase — „se asociază”, „prezisă de model” — transformă o estimare a unui model într-un fapt măsurat. Asta nu e vina cercetătorilor.",
+      "sources": [
+        {
+          "name": "„…aggressive driving is associated with over 2.5 times higher model-predicted capacity fade…”",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        },
+        {
+          "name": "„China study finds aggressive EV driving can wear batteries 2.5 times faster”",
+          "url": "https://www.thecooldown.com/green-tech/ev-battery-health-driving-style-study/"
+        }
+      ]
+    },
+    {
+      "text": "⚠️ Nicio replicare independentă. Lucrarea are o lună de la publicare. Nimeni n-a repetat metoda pe alt set de date, în alt oraș, cu alte mașini. Până atunci, rezultatul e o propunere serioasă, nu o cunoștință așezată.",
+      "sources": [
+        {
+          "name": "„Physics-aligned causal inference…” — publicată 14 august 2026",
+          "url": "https://doi.org/10.1038/s41598-026-66428-x"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Partea cu adevărat interesantă din lucrare nu e cifra, ci ce încearcă să rezolve. Până acum, aproape toate studiile despre stilul de condus și uzura bateriei erau corelații: șoferii agresivi au baterii mai uzate. Dar șoferii agresivi conduc și mai mult, și în trafic mai aglomerat, și cu bateria mai încinsă. Care dintre ele strică bateria? Autorii spun exact asta despre predecesorii lor: „identificare cauzală nesigură, din cauza factorilor de confuzie necontrolați”. Încercarea de a separa cauza de context, cu un model de fizică în interior în loc de o cutie neagră, e ce merită reținut."
+    },
+    {
+      "text": "Sfatul practic care rezultă e, de altfel, banal și neschimbat: accelerează și frânează lin. E bine și pentru baterie, și pentru consum, și îl știa oricine a condus vreodată o mașină. Un studiu nu trebuie să răstoarne lumea ca să fie folositor — poate doar să pună o cifră pe ceva ce bănuiam."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la CERCETAREA unei universități, nu de la comunicatul ei, cu link către original.\n\n✅ De ce aici rezumatul e tradus INTEGRAL: lucrarea e publicată sub licența Creative Commons Atribuire 4.0 Internațional, care permite explicit reproducerea în orice mediu, cu atribuire. Am tradus rezumatul în întregime fiindcă atât e public deocamdată — revista a publicat versiunea acceptată devreme, iar textul complet nu e încă accesibil nimănui.\n\n🔴 Ce nu s-a putut verifica: metoda detaliată, eșantionul exact, rezultatele pe categorii și secțiunea de limite recunoscute de autori. Toate lipsesc din ce e public. Cifrele despre 15 mașini din Guangzhou, cele cinci categorii și cele 1.000 de cicluri provin din relatările presei științifice, nu dintr-o lucrare pe care cititorul o poate deschide — și sunt marcate ca atare în articol.\n\n🔴 Miezul verificării: distanța dintre ce au scris autorii și ce a ajuns în titluri. Autorii au scris „se asociază cu o pierdere de capacitate prezisă de model”. Presa a scris „uzează bateriile de 2,5 ori mai repede”. Am păstrat formulările lor exacte în traducere tocmai fiindcă acolo stă toată diferența.\n\nImaginile din lucrare nu se preiau.",
+  "poza": {
+    "img_html": "<img src=\"../img/articole/shanghai-dianji-condus-agresiv-baterii-electrice-2-5-ori.jpg\" alt=\"electric car battery pack lithium ion\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — electric car battery pack lithium ion. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2017_Skoda_Vision_E._Spielvogel_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2017 Skoda Vision E. Spielvogel 1</a>\" de Spielvogel For a gallery of some more of my uploaded pictures see: here., via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/shanghai-dianji-condus-agresiv-baterii-electrice-2-5-ori.jpg",
+    "licenta": "CC0",
+    "autor": "Spielvogel For a gallery of some more of my uploaded pictures see: here."
+  }
+}
