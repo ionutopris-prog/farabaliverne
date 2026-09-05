@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 12:14:25 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 12:17:09 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sub gheața Arcticii e o orchestră: balene, gheață care crapă și motoare de cargobot. Un laborator MIT a ascultat-o și a trimis date prin gheață cu magneți</title>
@@ -26,6 +26,16 @@ Unde bat probele: Probat ce s-a măsurat și în ce condiții — dar e o relata
       <description>Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice de la Boston, o prognoză pentru alegerile americane de la jumătatea mandatului: democrații au 8 șanse din 10 să obțină majoritatea în Camera Reprezentanților, cu aproximativ 226 de locuri față de 209. Modelul a nimerit câștigătorii ultimelor 14 alegeri legislative. Lucrarea în sine nu e publică, iar datele pe care se sprijină vin de la o firmă al cărei cofondator este chiar autorul principal.
 
 Unde bat probele: Probat ce au prezentat cercetătorii și care le e istoricul — dar e o prognoză, nu un rezultat, lucrarea nu e publică, iar comunicatul universității omite că datele vin de la firma cofondată de autorul principal. Verificate: 6 probate, 4 contestate.</description>
+    </item>
+    <item>
+      <title>Curtea Supremă din Missouri blochează harta electorală cerută de Trump și trimite decizia la referendum pe 3 noiembrie</title>
+      <link>https://farabaliverne.ro/a/missouri-curtea-suprema-blocheaza-harta-trump-referendum.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/missouri-curtea-suprema-blocheaza-harta-trump-referendum.html</guid>
+      <pubDate>Sat, 05 Sep 2026 09:14:55 +0000</pubDate>
+      <category>Extern</category>
+      <description>Curtea Supremă a statului Missouri a decis, pe 3 septembrie 2026, că noua hartă a circumscripțiilor congresuale — redesenată în 2025 de legislativul republican, la cererea președintelui Trump — nu poate fi folosită la alegerile din 3 noiembrie 2026. Harta veche, din 2022, rămâne în vigoare, iar harta nouă va fi supusă separat unui referendum, tot pe 3 noiembrie. Decizia a stârnit reacții dure din partea lui Trump și a procurorului general al statului, care vorbesc despre o „criză constituțională”.
+
+Unde bat probele: Probat ce a decis instanța și ce urmează — reacțiile politice despre „criză constituțională” sunt opinie, nu constatări ale instanței. Verificate: 4 probate, 0 contestate.</description>
     </item>
     <item>
       <title>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</title>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis de cifrele oficiale publicate de propriul guvern la 
       <description>Președintele chinez Xi Jinping a făcut, pe 2 septembrie 2026, prima vizită de stat în Egipt din ultimii zece ani și a propus, potrivit presei de stat chineze, un „proiect în patru puncte” pentru o nouă arhitectură de securitate în Orientul Mijlociu, bazată pe „securitate comună, cuprinzătoare, cooperantă și sustenabilă”. Xi a spus că țările din regiune trebuie să fie „stăpânele propriului destin” și s-a opus „ingerinței externe” — formulare pe care presa independentă o citește drept o mișcare a Beijingului de a-și extinde influența cât timp războiul SUA–Israel cu Iranul a perturbat rutele comerciale prin Strâmtoarea Hormuz și Bab al-Mandeb.
 
 Unde bat probele: Probat, cu context — vizita și declarațiile lui Xi sunt confirmate independent; „noua arhitectură de securitate” e obiectivul declarat al Beijingului, nu un fapt împlinit. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>O mașină intră într-o adunare pro-guvernamentală din Mashhad și ucide patru oameni; iustiția iraniană vorbește de accident, conturi de pe rețele sociale de „atac”</title>
-      <link>https://farabaliverne.ro/a/iran-mashhad-masina-adunare-pro-guvernamentala-patru-morti.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/iran-mashhad-masina-adunare-pro-guvernamentala-patru-morti.html</guid>
-      <pubDate>Wed, 02 Sep 2026 22:54:47 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>📡 O mașină a intrat, în noaptea de 1 spre 2 septembrie 2026, într-o adunare de susținători ai guvernului și forțelor armate iraniene din Mashhad, ucigând patru oameni și rănind peste zece. Poliția rutieră și agenția judiciară de stat Mizan susțin că a fost un accident, provocat de un șofer cu deficiențe de vedere; conturi de pe rețelele sociale (printre care Visegrád 24 și un cont OSINT) l-au numit „atac cu mașina” („car-ramming attack”), fără dovezi publice care să susțină varianta intenționată. Punem alături ce s-a confirmat independent și ce rămâne doar afirmație, de-o parte și de alta.
-
-Unde bat probele: Probat că mașina a lovit o adunare pro-guvernamentală, ucigând patru oameni; contestată rămâne doar caracterizarea „atac intenționat” de pe rețelele sociale, neconfirmată de nicio sursă independentă consultată — dar și varianta oficială „accident” vine exclusiv de la o autoritate de stat, fără o anchetă independentă publică. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
