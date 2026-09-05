@@ -81,10 +81,33 @@ NEPHOTO = re.compile(
 # Respingem doar când chiar știm anul — multe poze bune n-au dată deloc.
 AN_MINIM = 2000
 
+# Cuvinte care fac o poză nepotrivită dacă articolul NU e chiar despre asta.
+# Filtrul respinge poza doar când cuvântul apare în titlul ei și NU apare în
+# textul articolului — deci lista poate fi generoasă fără să blocheze pozele
+# corecte (un articol despre un incendiu conține cuvântul „incendiu").
+#
+# 🔴 Adăugat pe 5 septembrie 2026, după o scăpare reală: pentru un articol
+# despre un MODEL STATISTIC de prognoză electorală de la Cornell, căutarea
+# „United States Capitol building Washington" a întors, și a trecut de filtru,
+# fotografia „2021 storming of the United States Capitol". O poză de la asaltul
+# din 6 ianuarie pe un text despre matematică electorală ar fi sugerat violență
+# și insurecție acolo unde nu era nimic de felul ăsta. Lista acoperea accidente,
+# incendii și înmormântări — dar nu VIOLENȚA POLITICĂ. Acum o acoperă.
 RISKY = [
+    # accidente și dezastre
     "crash", "wreck", "accident", "disaster", "burning", "fire", "explosion",
     "funeral", "memorial", "victim", "casualt", "debris", "collision",
-    "prăbuș", "accident", "incendi", "explozie", "funerar",
+    "flood", "earthquake", "wildfire", "destroy", "destruct", "ruins", "rubble",
+    "prăbuș", "accident", "incendi", "explozie", "funerar", "inundaț",
+    "cutremur", "distrus", "ruine", "victim",
+    # violență politică și conflict — lipseau cu totul
+    "storming", "riot", "insurrection", "unrest", "uprising", "clash",
+    "protest", "demonstration", "siege", "attack", "assault", "war",
+    "battle", "shooting", "gunman", "bomb", "terror", "arrest", "police",
+    "refugee", "massacre", "killed", "corpse", "wounded", "injured",
+    "asalt", "revolt", "răscoal", "atac", "război", "razboi", "protest",
+    "arestare", "împușc", "impusc", "bombă", "bomba", "atentat", "refugiat",
+    "mort", "rănit", "ranit",
 ]
 
 

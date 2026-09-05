@@ -51,6 +51,15 @@ def main_block(d):
         segs.append(f'<span class="seg op">✎ {no} opinie</span>')
     badge = ' <span style="color:var(--line-2)">·</span> '.join(segs)
 
+    # 🔴 Poza articolului sta in JSON, nu direct in HTML.
+    # Motivul: pagina se REGENEREAZA din JSON la fiecare build. O poza lipita
+    # in HTML ar disparea la prima reconstructie, tacut. Uneltele de cautare
+    # (article_image.py / pick_image.py) tiparesc `img_html` si
+    # `figcaption_html`; alea se salveaza aici, in campul `poza`, si supravietuiesc.
+    _pz = d.get("poza") or {}
+    poza_img = (_pz.get("img_html", "") + "\n              ") if _pz.get("img_html") else ""
+    poza_credit = ("\n" + _pz["figcaption_html"]) if _pz.get("figcaption_html") else ""
+
     h = [f'''  <main>
     <div class="wrap" style="max-width:860px">
 
@@ -63,10 +72,10 @@ def main_block(d):
                 <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-{slug}" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-{slug})"/></svg></div>
                 <div class="glyph">{GLYPH.get(cat, "🌍")}</div>
               </div>
-              <div class="grad"></div>
+              {poza_img}<div class="grad"></div>
               <div class="imgtag">Verificare Fără Baliverne</div>
               <div class="cat-pill">{e(cat)}</div>
-            </div>
+            </div>{poza_credit}
           <div class="abody">
             <div class="eyebrow">
               <span class="cat-tag">{e(cat)}</span>
