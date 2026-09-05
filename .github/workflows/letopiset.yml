@@ -1,17 +1,33 @@
 name: Letopisețul Planetei Pământ
 
-# La 23:59 UTC, în fiecare zi, pentru ziua care se încheie. Ora e cerută de
-# fondator: „în fiecare zi la 23:59 UTC se completează evenimentele din ziua
-# respectivă". Rulează SEPARAT de ediția automată, ca o zi în care redactorul
-# dă greș să nu fie și o zi ruptă din letopiseț.
+# DOUĂ rulări pe zi, si amandoua cu DATA SCRISA EXPLICIT. Motivul e o hiba
+# gasita in prima varianta: GitHub intarzie deseori cron-urile cu 10-60 de
+# minute. O rulare programata la 23:59 care porneste la 00:15 ar fi cerut
+# „ziua curenta" — adica deja ziua urmatoare — iar ziua tocmai incheiata ar fi
+# ramas goala pentru totdeauna. Un letopiset cu gauri nu e letopiset.
 #
-# Repo-ul e public, deci minutele de Actions sunt gratuite. O rulare durează
-# câteva secunde: două cereri HTTP și un build.
+#   23:50 UTC — inchide ziua care se termina
+#   01:20 UTC — a doua trecere peste ACEEASI zi, cu data scrisa explicit
+#
+# A doua trecere nu e redundanta: USGS adauga si revizuieste cutremure cu
+# intarziere de ore, iar GDACS ridica nivelul unei alerte dupa ce sosesc
+# primele bilanturi. Scriptul nu rescrie niciodata ce exista — adauga doar ce
+# lipseste — deci a doua trecere poate doar sa completeze.
+#
+# Ora e a fondatorului: „in fiecare zi la 23:59 UTC se completeaza evenimentele
+# din ziua respectiva". Am mutat-o cu noua minute mai devreme ca sa incapa
+# inaintea miezului noptii chiar si cu intarziere mica.
 
 on:
   schedule:
-    - cron: "59 23 * * *"
-  workflow_dispatch: {}
+    - cron: "50 23 * * *"
+    - cron: "20 1 * * *"
+  workflow_dispatch:
+    inputs:
+      zi:
+        description: "Ziua de adunat (2026-09-05). Gol = ziua curentă UTC."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -32,8 +48,22 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Stabilește ziua
+        id: zi
+        run: |
+          if [ -n "${{ github.event.inputs.zi }}" ]; then
+            ZI="${{ github.event.inputs.zi }}"
+          elif [ "${{ github.event.schedule }}" = "20 1 * * *" ]; then
+            # A doua trecere rulează după miezul nopții, deci ziua de închis e IERI.
+            ZI=$(date -u -d "yesterday" +%Y-%m-%d)
+          else
+            ZI=$(date -u +%Y-%m-%d)
+          fi
+          echo "zi=$ZI" >> "$GITHUB_OUTPUT"
+          echo "Adun evenimentele pentru $ZI"
+
       - name: Adună evenimentele zilei
-        run: python3 scripts/letopiset.py
+        run: python3 scripts/letopiset.py "${{ steps.zi.outputs.zi }}"
 
       - name: Regenerează site-ul
         run: |
@@ -43,18 +73,18 @@ jobs:
       - name: Comite dacă s-a schimbat ceva
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo "nimic nou în letopiseț azi"
+            echo "nimic nou în letopiseț pentru ${{ steps.zi.outputs.zi }}"
             exit 0
           fi
           git config user.name  "Letopiseț"
           git config user.email "actions@github.com"
           git add -A
-          ZI=$(date -u +%Y-%m-%d)
-          N=$(python3 -c "import json;d=json.load(open('data/_letopiset.json'));print(len(d.get('$ZI',[])))")
+          ZI="${{ steps.zi.outputs.zi }}"
+          N=$(python3 -c "import json;print(len(json.load(open('data/_letopiset.json')).get('$ZI',[])))")
           git commit -m "Letopisețul Planetei Pământ — $ZI ($N evenimente)"
           # Edițiile automate pot fi comis între timp. Rebazăm, nu forțăm.
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin main && exit 0
             sleep 20
           done
-          echo "::warning::nu am putut urca letopisețul; se reia mâine"
+          echo "::warning::nu am putut urca letopisețul; se reia la trecerea următoare"
