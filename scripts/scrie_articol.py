@@ -112,13 +112,24 @@ def main_block(d):
         cap = e(t.get("titlu", d["title"]))
         semnatura = " · ".join(x for x in (t.get("publicatie"), t.get("autor"), t.get("data")) if x)
         pars = "\n".join(f"        <p>{e(x)}</p>" for x in t.get("paragrafe", []) if str(x).strip())
+        # 🔴 Fiecare publicatie are ALTE conditii de republicare, iar ele
+        # se respecta la litera, nu aproximativ. Cornell cere doar sa fii
+        # „news or information media". MIT News cere anume: sus titlul,
+        # subtitlul, SEMNATURA AUTORULUI si mentiunea „MIT News" cu link la
+        # original; jos, exact cuvintele „Reprinted with permission of MIT
+        # News" plus link catre news.mit.edu. De aceea notele sunt campuri,
+        # nu text fix in cod.
+        url_o = e(t.get("url", d.get("url", "")))
+        sus = t.get("nota_sus") or ("Text tradus în română și reprodus cu permisiunea "
+                                    "din nota de copyright a publicației.")
+        jos = t.get("nota_jos")
+        subsol = (f'\n        <p class="nota-republicare">{e(jos)}</p>' if jos else "")
         h.append(
             '      <section class="ev-block traducere">\n'
             f'        <h2>📄 Articolul original, tradus integral</h2>\n'
-            f'        <p class="ev-sub">„{cap}” — {e(semnatura)}. '
-            f'Text tradus în română și reprodus cu permisiunea din nota de copyright a publicației. '
-            f'<a href="{e(t.get("url", d.get("url","")))}" target="_blank" rel="noopener noreferrer">Originalul, în engleză →</a></p>\n'
-            f'{pars}\n      </section>\n\n')
+            f'        <p class="ev-sub">„{cap}” — {e(semnatura)}. {e(sus)} '
+            f'<a href="{url_o}" target="_blank" rel="noopener noreferrer">Originalul, în engleză →</a></p>\n'
+            f'{pars}{subsol}\n      </section>\n\n')
 
     h.append(sectiune("probat", "✅ Se probează",
                       "Afirmații susținute de surse verificabile.", itemi(d.get("probat"))))

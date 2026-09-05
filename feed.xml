@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 10:27:43 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 11:33:19 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un model de la Cornell dă democraților 8 șanse din 10 să ia Camera Reprezentanților. A nimerit ultimele 14 alegeri</title>
+      <link>https://farabaliverne.ro/a/cornell-prognoza-midterms-2026-democrati-camera.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/cornell-prognoza-midterms-2026-democrati-camera.html</guid>
+      <pubDate>Sat, 05 Sep 2026 10:27:45 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice de la Boston, o prognoză pentru alegerile americane de la jumătatea mandatului: democrații au 8 șanse din 10 să obțină majoritatea în Camera Reprezentanților, cu aproximativ 226 de locuri față de 209. Modelul a nimerit câștigătorii ultimelor 14 alegeri legislative. Lucrarea în sine nu e publică, iar datele pe care se sprijină vin de la o firmă al cărei cofondator este chiar autorul principal.
+
+Unde bat probele: Probat ce au prezentat cercetătorii și care le e istoricul — dar e o prognoză, nu un rezultat, lucrarea nu e publică, iar comunicatul universității omite că datele vin de la firma cofondată de autorul principal. Verificate: 6 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</title>
       <link>https://farabaliverne.ro/a/simulare-cornell-rusia-moldova-romania-articolul-5.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că mașina a lovit o adunare pro-guvernamentală, ucig
       <description>🌍 Activistul pro-democrație din Hong Kong Joshua Wong a pledat vinovat, miercuri, 2 septembrie 2026, la Înalta Curte din Hong Kong, la acuzația de „coluziune cu forțe străine” — a doua sa condamnare în baza legii securității naționale impuse de Beijing în 2020. Riscă o pedeapsă suplimentară de la 3 ani la închisoare pe viață, peste sentința de aproape 5 ani pe care o execută deja. Guvernul de la Hong Kong apără procesul ca aplicare legitimă a legii; Amnesty International îl citează ca dovadă că legea securității naționale rămâne „la fel de puternică și de prezentă” în reprimarea disidenței.
 
 Unde bat probele: Probat — pledoaria de vinovăție, acuzația și intervalul de pedeapsă sunt confirmate concordant de mai multe agenții; interpretarea procesului (aplicare legitimă a legii vs. persecuție politică) rămâne un dezacord de fond, nu un fapt de stabilit. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>O săptămână mai târziu: bilanțul chinez la Gyirong urcă la 21 de morți — de șapte ori mai mult decât anunțase inițial — iar Nepal trece de 1.000 de morți</title>
-      <link>https://farabaliverne.ro/a/gyirong-china-bilant-21-morti-nepal-peste-1000.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/gyirong-china-bilant-21-morti-nepal-peste-1000.html</guid>
-      <pubDate>Wed, 02 Sep 2026 22:46:43 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>📡 O săptămână după colapsul glaciar de la granița Nepal-Tibet, presa de stat chineză Xinhua a ridicat ea însăși bilanțul oficial pe partea chineză a dezastrului de la 3 morți (anunțat pe 27 august) la 21 de morți și 541 de dispăruți (anunțat pe 2-3 septembrie) — o creștere de șapte ori a morților confirmați. Pe partea nepaleză, autoritatea națională de gestionare a dezastrelor (NDRRMA) a confirmat, între timp, peste 1.000 de morți și aproape 3.900 de dispăruți. Punem alături cele două serii de cifre și explicăm ce arată — și ce nu arată — creșterea bilanțului chinez.
-
-Unde bat probele: Probat că bilanțul oficial chinez a crescut substanțial față de cifra inițială de 3 morți; rămâne contestat/neclar dacă noua cifră de 21 reflectă bilanțul real sau doar ritmul de identificare a corpurilor, având în vedere că 541 de oameni sunt încă dați dispăruți pe partea chineză. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
