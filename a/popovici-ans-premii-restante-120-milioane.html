@@ -979,5 +979,64 @@
   });
 })();
 </script>
+
+<style>
+  .fb-salt{position:fixed;left:18px;bottom:18px;z-index:9996;width:46px;height:46px;
+    border-radius:50%;border:1px solid var(--line-2);background:var(--card);
+    color:var(--ink-soft);cursor:pointer;display:none;align-items:center;justify-content:center;
+    box-shadow:0 6px 20px rgba(0,0,0,.12);
+    transition:background .25s cubic-bezier(.4,0,.6,1),color .25s cubic-bezier(.4,0,.6,1),
+      border-color .25s cubic-bezier(.4,0,.6,1),transform .2s ease,box-shadow .25s ease}
+  .fb-salt.vizibil{display:flex}
+  .fb-salt:hover{background:var(--accent);border-color:var(--accent);color:#fff;
+    transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
+  .fb-salt svg{transition:transform .3s cubic-bezier(.4,0,.6,1)}
+  .fb-salt.sus svg{transform:rotate(180deg)}
+  .fb-salt .et{position:absolute;left:56px;white-space:nowrap;font:600 12.5px system-ui;
+    background:#1d1d1f;color:#fff;padding:6px 10px;border-radius:8px;opacity:0;
+    pointer-events:none;transition:opacity .2s ease}
+  .fb-salt:hover .et{opacity:1}
+  @media(max-width:980px){.fb-salt{left:12px;bottom:12px;width:42px;height:42px}
+    .fb-salt .et{display:none}}
+</style>
+<script>
+(function(){
+  var b = document.createElement('button');
+  b.className = 'fb-salt';
+  b.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" '
+    + 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
+    + 'stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>'
+    + '<span class="et">La subsol</span>';
+  document.body.appendChild(b);
+  var et = b.querySelector('.et');
+
+  function inalt(){
+    return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+  }
+  function jos(){ return window.scrollY > (inalt() - window.innerHeight) * 0.6; }
+
+  function pune(){
+    // Pe paginile scurte n-are ce salt să facă — nu apare deloc.
+    b.classList.toggle('vizibil', inalt() > window.innerHeight * 1.8);
+    var s = jos();
+    b.classList.toggle('sus', s);
+    et.textContent = s ? 'Sus de tot' : 'La subsol';
+    b.setAttribute('aria-label', s ? 'Sus de tot' : 'Sari la subsol');
+  }
+
+  b.addEventListener('click', function(){
+    var tinta = jos() ? 0 : inalt();
+    // Derularea lină nu funcționează pe distanțe uriașe: prima pagină are
+    // ~168.000 de pixeli, adică 168 de ecrane, iar `behavior:"smooth"` peste
+    // atât fie nu pornește deloc, fie ar dura zeci de secunde. Deci: lin doar
+    // când e aproape, salt instant când e departe.
+    var departe = Math.abs(tinta - window.scrollY) > 15000;
+    window.scrollTo({ top: tinta, behavior: departe ? 'auto' : 'smooth' });
+  });
+  window.addEventListener('scroll', pune, {passive:true});
+  window.addEventListener('resize', pune);
+  pune();
+})();
+</script>
 </body>
 </html>

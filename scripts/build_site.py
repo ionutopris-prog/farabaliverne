@@ -1176,6 +1176,295 @@ def pune_letopiset(s, pref=""):
     return s[:i] + corp + "      " + s[i:]
 
 
+
+def letopiset_panou():
+    """
+    Panoul din coloana din dreapta, ULTIMUL, jos de tot.
+
+    Decizia fondatorului, 5 septembrie 2026, și raționamentul lui contează:
+    Letopisețul e „pentru oameni care stau pe site și văd ceva interesant".
+    Nu e o secțiune promovată, e o răsplată pentru cine sapă. De-aia nu stă
+    sus, unde ar fi prima privire — stă la capătul coloanei. Iar coloana
+    derulează singură (varianta A, aleasă tot de el), deci la el chiar se
+    ajunge, nu e îngropat.
+    """
+    d = letopiset_incarca()
+    if not d:
+        return ""
+    zi = sorted(d)[-1]
+    ev = d[zi][:5]
+    if not ev:
+        return ""
+    randuri = []
+    for e in ev:
+        link = (f' <a href="{e["link"]}" target="_blank" rel="noopener" '
+                f'style="color:var(--ink-faint);font-size:11px;text-decoration:none;'
+                f'border-bottom:1px dotted var(--line-2)">{e.get("sursa","")}</a>'
+                ) if e.get("link") else ""
+        randuri.append(f'            <li style="margin:0 0 9px;line-height:1.45">'
+                       f'{e["text"]}{link}</li>')
+    return ('      <div class="panel">\n'
+            '        <div class="ph">Letopisețul Planetei Pământ</div>\n'
+            '        <div style="padding:14px 16px 16px">\n'
+            '          <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;'
+            f'color:var(--ink-faint);margin-bottom:9px">{_data_ro(zi)}</div>\n'
+            '          <ul style="list-style:none;margin:0;padding:0;font-size:13px;'
+            'color:var(--ink-soft)">\n' + "\n".join(randuri) + '\n          </ul>\n'
+            '          <a href="letopiset.html" style="display:inline-block;margin-top:10px;'
+            'font-size:12.5px;color:var(--accent);text-decoration:none;'
+            'border-bottom:1px solid var(--accent-soft)">Tot letopisețul →</a>\n'
+            '        </div>\n      </div>\n')
+
+
+def pune_letopiset_panou(s):
+    """Injectează panoul între marcaje, ultimul lucru din coloana din dreapta."""
+    START, END = "<!-- AUTO:letopanou:start -->", "<!-- AUTO:letopanou:end -->"
+    corp = f"{START}\n{letopiset_panou()}      {END}\n"
+    if START in s and END in s:
+        return re.sub(re.escape(START) + r".*?" + re.escape(END) + r"\n?",
+                      lambda m: corp, s, count=1, flags=re.S)
+    i = s.find("</aside>")
+    if i < 0:
+        return s
+    return s[:i] + corp + "    " + s[i:]
+
+
+
+# Caruselul coloanei din dreapta. Cerut de fondator, 5 septembrie 2026:
+# „vreau fiecare meniu să fie scrolabil separat, meniul cu articole rămâne ca
+# și până acum, iar meniul din dreapta carusel".
+#
+# Diferența față de o simplă derulare separată: la carusel NU EXISTĂ CAPĂT.
+# Ajungi la ultimul panou și începe iar de la primul. Fără el, coloana se
+# oprea în Letopiseț și dedesubt rămânea gol — exact senzația de „s-a blocat".
+#
+# Cum: panourile se mută într-o bandă, banda se clonează, iar la derulare se
+# sare înapoi cu o lungime de bandă. Saltul e invizibil fiindcă în punctul
+# unde se face, ecranul arată exact același conținut.
+CARUSEL = """
+<script>
+(function(){
+  var a = document.querySelector('main aside');
+  if (!a) return;
+  var PRAG = 981;                       // sub el coloanele stau una sub alta
+  var banda, unit = 0, gap = 0, pornit = false;
+
+  function construieste(){
+    if (pornit) return;
+    var copii = [].slice.call(a.children);
+    if (copii.length < 2) return;       // cu un singur panou n-are ce se roti
+    banda = document.createElement('div');
+    banda.className = 'carusel-banda';
+    banda.style.cssText = 'display:flex;flex-direction:column;gap:26px';
+    copii.forEach(function(el){ banda.appendChild(el); });
+    a.appendChild(banda);
+    gap = parseFloat(getComputedStyle(a).rowGap) || 26;
+    // O clonă e OBLIGATORIE, nu opțională: fără conținut dincolo de capătul
+    // primei benzi, saltul înapoi n-ar avea unde să se ascundă și caruselul
+    // s-ar opri, exact ca o derulare obișnuită. Restul clonelor se adaugă doar
+    // dacă banda e mai scundă decât două ecrane.
+    var n = 0;
+    do {
+      var c = banda.cloneNode(true);
+      c.setAttribute('aria-hidden', 'true');
+      c.querySelectorAll('[id]').forEach(function(x){ x.removeAttribute('id'); });
+      a.appendChild(c); n++;
+    } while (a.scrollHeight < a.clientHeight * 2 + banda.offsetHeight && n < 6);
+    masoara();
+    a.scrollTop = 1;
+    pornit = true;
+  }
+
+  function masoara(){ unit = banda.offsetHeight + gap; }
+
+  function desfa(){
+    if (!pornit) return;
+    [].slice.call(a.querySelectorAll('.carusel-banda')).forEach(function(b, i){
+      if (i === 0) { while (b.firstChild) a.appendChild(b.firstChild); }
+      b.remove();
+    });
+    a.scrollTop = 0; pornit = false;
+  }
+
+  a.addEventListener('scroll', function(){
+    if (!pornit || !unit) return;
+    if (a.scrollTop >= unit) a.scrollTop -= unit;
+    else if (a.scrollTop <= 0) a.scrollTop += unit;
+  }, {passive: true});
+
+  function potriveste(){
+    if (window.innerWidth >= PRAG) { construieste(); if (pornit) masoara(); }
+    else desfa();
+  }
+  potriveste();
+  window.addEventListener('resize', potriveste);
+})();
+</script>
+"""
+
+
+def pune_carusel(s):
+    """Scriptul caruselului, o singură dată, înainte de </body>."""
+    if "carusel-banda" in s or "</body>" not in s:
+        return s
+    return s.replace("</body>", CARUSEL + "</body>", 1)
+
+
+
+# Butonul de salt la subsol. Ales de fondator împreună cu caruselul
+# (varianta „2 · carusel + buton", 5 septembrie 2026).
+#
+# De ce ăsta și nu derularea rapidă peste coloană, care era mai elegantă:
+# butonul e SINGURUL care se vede. O săgeată în colț spune ce face. Derularea
+# rapidă e o însușire ascunsă a unei zone din ecran — aceeași mișcare a rotiței
+# face două lucruri diferite după poziția cursorului, fără niciun semn. Cine
+# ține mouse-ul în dreapta din obișnuință ar vedea pagina zburând și ar crede
+# că s-a stricat ceva.
+#
+# Stânga-jos, fiindcă dreapta e ocupată de butoanele de partajare. Se ascunde
+# singur pe paginile scurte, unde n-ar avea ce salt să facă.
+BUTON_SALT = """
+<style>
+  .fb-salt{position:fixed;left:18px;bottom:18px;z-index:9996;width:46px;height:46px;
+    border-radius:50%;border:1px solid var(--line-2);background:var(--card);
+    color:var(--ink-soft);cursor:pointer;display:none;align-items:center;justify-content:center;
+    box-shadow:0 6px 20px rgba(0,0,0,.12);
+    transition:background .25s cubic-bezier(.4,0,.6,1),color .25s cubic-bezier(.4,0,.6,1),
+      border-color .25s cubic-bezier(.4,0,.6,1),transform .2s ease,box-shadow .25s ease}
+  .fb-salt.vizibil{display:flex}
+  .fb-salt:hover{background:var(--accent);border-color:var(--accent);color:#fff;
+    transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
+  .fb-salt svg{transition:transform .3s cubic-bezier(.4,0,.6,1)}
+  .fb-salt.sus svg{transform:rotate(180deg)}
+  .fb-salt .et{position:absolute;left:56px;white-space:nowrap;font:600 12.5px system-ui;
+    background:#1d1d1f;color:#fff;padding:6px 10px;border-radius:8px;opacity:0;
+    pointer-events:none;transition:opacity .2s ease}
+  .fb-salt:hover .et{opacity:1}
+  @media(max-width:980px){.fb-salt{left:12px;bottom:12px;width:42px;height:42px}
+    .fb-salt .et{display:none}}
+</style>
+<script>
+(function(){
+  var b = document.createElement('button');
+  b.className = 'fb-salt';
+  b.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" '
+    + 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
+    + 'stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>'
+    + '<span class="et">La subsol</span>';
+  document.body.appendChild(b);
+  var et = b.querySelector('.et');
+
+  function inalt(){
+    return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+  }
+  function jos(){ return window.scrollY > (inalt() - window.innerHeight) * 0.6; }
+
+  function pune(){
+    // Pe paginile scurte n-are ce salt să facă — nu apare deloc.
+    b.classList.toggle('vizibil', inalt() > window.innerHeight * 1.8);
+    var s = jos();
+    b.classList.toggle('sus', s);
+    et.textContent = s ? 'Sus de tot' : 'La subsol';
+    b.setAttribute('aria-label', s ? 'Sus de tot' : 'Sari la subsol');
+  }
+
+  b.addEventListener('click', function(){
+    var tinta = jos() ? 0 : inalt();
+    // Derularea lină nu funcționează pe distanțe uriașe: prima pagină are
+    // ~168.000 de pixeli, adică 168 de ecrane, iar `behavior:"smooth"` peste
+    // atât fie nu pornește deloc, fie ar dura zeci de secunde. Deci: lin doar
+    // când e aproape, salt instant când e departe.
+    var departe = Math.abs(tinta - window.scrollY) > 15000;
+    window.scrollTo({ top: tinta, behavior: departe ? 'auto' : 'smooth' });
+  });
+  window.addEventListener('scroll', pune, {passive:true});
+  window.addEventListener('resize', pune);
+  pune();
+})();
+</script>
+"""
+
+
+def pune_buton_salt(s):
+    """Butonul, o singură dată, înainte de </body>."""
+    if "fb-salt" in s or "</body>" not in s:
+        return s
+    return s.replace("</body>", BUTON_SALT + "</body>", 1)
+
+
+
+def build_cele_mai_verificate(arts, n=5, zile=30):
+    """
+    Panoul din coloana din dreapta: „Cele mai verificate".
+
+    ÎNLOCUIEȘTE „Cele mai citite verificări", care era o minciună mică dar
+    reală: scris de mână direct în index.html, neatins de niciun script,
+    înghețat pe 7 august 2026 — și, mai grav, prezentat ca un clasament de
+    popularitate fără nicio măsurătoare în spate. Site-ul ăsta există ca să
+    prindă exact genul ăsta de afirmație la alții.
+
+    Ce punem în loc se calculează din datele NOASTRE: câte afirmații a cântărit
+    fiecare articol (probate + contestate + opinii). Nu spune nimic despre
+    trafic — și nici nu pretinde. Spune cât s-a lucrat la el, ceea ce putem
+    dovedi rând cu rând.
+
+    Fereastră de 30 de zile, ca panoul să nu înghețe iar: altfel aceleași
+    articole ar sta acolo la nesfârșit, fiindcă ele rămân „cele mai verificate"
+    pentru totdeauna.
+    """
+    from datetime import datetime, timedelta
+    prag = (datetime.now() - timedelta(days=zile)).strftime("%Y-%m-%d")
+    scor = []
+    for d in arts.values():
+        if (d.get("date") or "")[:10] < prag:
+            continue
+        pb, ct, op = (len(d.get("probat") or []), len(d.get("contestat") or []),
+                      len(d.get("opinie") or []))
+        total = pb + ct + op
+        if total < 3:
+            continue
+        scor.append((total, d.get("date", ""), d, pb, ct, op))
+    scor.sort(key=lambda x: (-x[0], x[1]), reverse=False)
+    scor.sort(key=lambda x: (-x[0], x[1]))
+    if not scor:
+        return ""
+    randuri = []
+    for i, (total, _, d, pb, ct, op) in enumerate(scor[:n], 1):
+        seg = (f'<span class="seg ok">✔ {pb}</span>'
+               f'<span class="seg warn">⚠ {ct}</span>'
+               f'<span class="seg op">✎ {op}</span>')
+        randuri.append(
+            f'<li><a href="a/{d["slug"]}.html"><span class="n">{i}</span><div>'
+            f'<div class="t">{d["title"]}</div>'
+            f'<div class="rmeta"><div class="report-badge sm">{seg}</div> · '
+            f'{d["category"]}</div></div></a></li>')
+    return ('      <div class="panel">\n'
+            '        <div class="ph">Cele mai verificate <span class="tag">30 zile</span></div>\n'
+            '        <div style="padding:10px 16px 0;font-size:11.5px;color:var(--ink-faint);'
+            'line-height:1.45">Articolele la care s-au cântărit cele mai multe afirmații. '
+            'Nu e un clasament de trafic.</div>\n'
+            '        <ol class="rank">' + "".join(randuri) + '</ol>\n'
+            '      </div>\n')
+
+
+def pune_cele_mai_verificate(s, arts):
+    """Înlocuiește panoul între marcaje; la prima rulare îl pune peste cel vechi."""
+    START, END = "<!-- AUTO:verificate:start -->", "<!-- AUTO:verificate:end -->"
+    bloc = build_cele_mai_verificate(arts)
+    if not bloc:
+        return s
+    corp = f"{START}\n{bloc}      {END}\n"
+    if START in s and END in s:
+        return re.sub(re.escape(START) + r".*?" + re.escape(END) + r"\n?",
+                      lambda m: corp, s, count=1, flags=re.S)
+    # bootstrap: scoatem panoul vechi, scris de mână, și punem marcajele
+    m = re.search(r'\s*<div class="panel">\s*<div class="ph">Cele mai citite verificări.*?</ol>\s*</div>\s*',
+                  s, re.S)
+    if m:
+        return s[:m.start()] + "\n" + corp + "      " + s[m.end():]
+    return s
+
+
 def build_letopiset(shell):
     """Pagina întreagă: toate zilele, cea mai nouă sus."""
     d = letopiset_incarca()
@@ -1537,6 +1826,11 @@ def main():
         # Letopisețul, în subsolul fiecărei pagini. Articolele stau în `a/`,
         # deci au nevoie de prefix `../` pentru link.
         s = pune_letopiset(s, "../" if os.sep + "a" + os.sep in f else "")
+        if "</aside>" in s:
+            s = pune_cele_mai_verificate(s, arts)
+            s = pune_letopiset_panou(s)
+            s = pune_carusel(s)
+        s = pune_buton_salt(s)
         # Cloșcu a fost scoasă definitiv. Curățarea rămâne pentru totdeauna,
         # necondiționat: linkul se propagă prin șablonul articolelor, deci fără
         # ea ar reapărea la primul articol scris după un fișier vechi.
