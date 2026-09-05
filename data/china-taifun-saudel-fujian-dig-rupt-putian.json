@@ -1,12 +1,12 @@
 {
   "slug": "china-taifun-saudel-fujian-dig-rupt-putian",
-  "title": "Taifunul Saudel a rupt un dig lângă Putian, în China: peste 100 de case surpate, mai mulți oameni dați dispăruți",
+  "title": "Taifunul Saudel: dig rupt lângă Putian și alunecare de teren în Jiangxi — bilanț de un mort și 11 dispăruți, plus sute de case surpate în Fujian",
   "category": "Extern",
   "date": "2026-09-05",
-  "source": "Reuters / Xinhua (Bernama) / US News / Dawn",
+  "source": "Reuters / Xinhua (Bernama) / Associated Press / South China Morning Post / US News / Dawn",
   "url": "https://www.usnews.com/news/world/articles/2026-09-03/typhoon-saudel-brings-torrential-rain-flooding-to-chinas-coastal-areas",
-  "dek": "Taifunul Saudel a atins uscatul a treia oară în China, în dimineața de 3 septembrie 2026, pe coasta provinciei Fujian, după ce lovise deja de trei ori orașul Yuhuan din Zhejiang în mai puțin de două luni. Lângă orașul Putian, un dig s-a rupt în jurul orei 15:00, inundând mai multe sate din orașul Huating, unde peste 100 de case s-au prăbușit; autoritățile chineze spun că mai mulți oameni rămân de negăsit, fără să dea un bilanț exact. Peste 83.000 de oameni au fost evacuați doar în Fujian, iar sute de mii au fost strămutați în Zhejiang și provinciile vecine de la sfârșitul lunii august.",
-  "mainVerdict": "Probat — al treilea impact al taifunului, ruperea digului și prăbușirea a peste 100 de case sunt confirmate de agenții multiple; numărul exact al dispăruților și un eventual bilanț al morților rămân, la ora publicării, necunoscute",
+  "dek": "Taifunul Saudel a atins uscatul a treia oară în China, în dimineața de 3 septembrie 2026, pe coasta provinciei Fujian, după ce lovise deja de trei ori orașul Yuhuan din Zhejiang în mai puțin de două luni. Lângă orașul Putian, un dig s-a rupt, inundând sate din orașul Huating, unde peste 100 de case s-au prăbușit; autoritățile chineze spuseseră inițial doar că mai mulți oameni rămân de negăsit, fără bilanț exact. Două zile mai târziu, ploile aduse de aceeași furtună au provocat o alunecare de teren în Suichuan, provincia Jiangxi, cu un bilanț oficial de un mort și 11 dispăruți. Aproape 600.000 de oameni au fost evacuați până acum doar în Fujian.",
+  "mainVerdict": "Probat — al treilea impact al taifunului, ruperea digului, prăbușirea a peste 100 de case și alunecarea de teren din Jiangxi sunt confirmate de agenții multiple; un eventual bilanț final al morților și dispăruților din Huating rămâne, la ora publicării, necunoscut",
   "probat": [
     {
       "text": "Taifunul Saudel a făcut al treilea impact cu uscatul chinez în dimineața zilei de 3 septembrie 2026, pe coasta provinciei Fujian, după ce s-a reintensificat deasupra Mării Chinei de Sud. Este al șaptelea taifun care lovește China în 2026 și al treilea care atinge orașul Yuhuan, din Zhejiang, în mai puțin de două luni — o secvență meteorologică pe care meteorologii citați o descriu drept „extrem de rară”.",
@@ -38,6 +38,19 @@
           "url": "https://english.aawsat.com/world/5314544-typhoon-saudel-brings-torrential-rain-flooding-china%E2%80%99s-coastal-areas"
         }
       ]
+    },
+    {
+      "text": "Ploile aduse de Saudel, combinate cu un front rece, au continuat să cadă în interiorul țării, iar în jurul orei 4:00, sâmbătă, 5 septembrie 2026, au provocat o alunecare de teren în localitatea Gaoping, comitatul Suichuan, provincia Jiangxi. Potrivit postului public CCTV, citat atât de agenția Associated Press, cât și de South China Morning Post, bilanțul e de o persoană moartă, 11 dispărute și două salvate în viață; aproximativ o duzină de case au fost avariate. Până vineri seară, aproape 600.000 de oameni fuseseră evacuați doar din Fujian — o cifră mult peste cea de peste 83.000 raportată joi dimineață de Xinhua, pe măsură ce evacuările s-au extins odată cu înaintarea furtunii.",
+      "sources": [
+        {
+          "name": "AP via WTOP — Mudslide kills 1 and leaves 11 missing in China after heavy rain brought by tropical storm Saudel",
+          "url": "https://wtop.com/national/2026/09/mudslide-kills-1-and-leaves-11-missing-in-china-after-heavy-rain-brought-by-tropical-storm-saudel"
+        },
+        {
+          "name": "South China Morning Post — Typhoon Saudel: days of flooding trigger fatal landslide in central China",
+          "url": "https://www.scmp.com/news/china/politics/article/3366459/typhoon-saudel-days-flooding-trigger-fatal-landslide-central-china"
+        }
+      ]
     }
   ],
   "contestat": [],
@@ -51,7 +64,7 @@
     "title": "3 impacturi în 2 luni, pe aceeași bucată de coastă",
     "explanation": "Yuhuan, în Zhejiang, a fost lovit de trei ori de taifunuri diferite în mai puțin de două luni, iar Saudel e al șaptelea taifun al anului pentru toată China — un ritm neobișnuit de dens pentru un singur sezon, pe care meteorologii îl citează explicit ca fiind ieșit din tipar."
   },
-  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: că taifunul Saudel a atins uscatul a treia oară pe 3 septembrie 2026, în Fujian, și că a provocat ruperea unui dig lângă Putian, cu peste 100 de case prăbușite în orașul Huating. Faptele de bază — traseul taifunului, evacuările, prăbușirea digului — sunt confirmate independent de o depeșă a agenției Reuters (preluată de US News, Dawn și Asharq Al-Awsat) și de o relatare separată, cu detalii locale suplimentare, a agenției de stat chineze Xinhua (preluată de The Star/Bernama).\n\nUnde se despart sursele: nu se contrazic, dar au granularitate diferită. Reuters oferă tabloul general (traseul, istoricul repetat al taifunurilor, evacuările la scară largă), în timp ce Xinhua oferă detaliile hiperlocale despre Putian și Huating — cifre de evacuare exacte, ora ruperii digului. Am folosit Xinhua doar pentru fapte administrative necontestate (ore, cifre de evacuare, adăposturi activate), nu pentru vreo evaluare politică; pentru genul acesta de date brute despre dezastre naturale, presa de stat chineză e de regulă sursa cea mai rapidă și nu are, în acest caz, un interes evident să denatureze cifrele.\n\nCe lipsește: un bilanț oficial al morților sau al dispăruților din Huating. La ora publicării, autoritățile chineze foloseau doar formularea „mai mulți rămân de negăsit”, fără cifră — ceea ce e normal la câteva ore de la un dezastru, dar înseamnă că amploarea reală a tragediei nu se cunoaște încă.\n\nCe ar schimba concluzia: publicarea unui bilanț oficial al victimelor de către autoritățile din Fujian sau confirmarea/infirmarea numărului de dispăruți de o sursă independentă de presa chineză.",
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am actualizat acest articol pe 5 septembrie cu un al doilea dezastru provocat de aceeași furtună.\n\nCe s-a verificat exact: că taifunul Saudel a atins uscatul a treia oară pe 3 septembrie 2026, în Fujian, provocând ruperea unui dig lângă Putian și prăbușirea a peste 100 de case în orașul Huating; și că, două zile mai târziu, ploile aceleiași furtuni au provocat o alunecare de teren în Suichuan, provincia Jiangxi, cu un mort și 11 dispăruți. Faptele de bază sunt confirmate independent de o depeșă Reuters (preluată de US News, Dawn, Asharq Al-Awsat), de o depeșă separată a Associated Press despre alunecarea din Jiangxi, de South China Morning Post și de agenția de stat chineză Xinhua (preluată de The Star/Bernama pentru detaliile din Putian).\n\nUnde se despart sursele: nu se contrazic, dar au granularitate diferită și vin din momente diferite. Reuters/AP oferă tabloul general și bilanțul din Jiangxi; Xinhua/CCTV oferă detaliile hiperlocale (ore exacte, cifre de evacuare, adăposturi activate) — iar AP le preia și le atribuie explicit sursei chineze. Cifra de evacuați din Fujian a crescut de la peste 83.000 (joi dimineață, Xinhua) la aproape 600.000 (vineri seară, AP) pe măsură ce furtuna a înaintat — o evoluție firească, nu o contradicție.\n\nCe lipsește: un bilanț oficial final al morților sau dispăruților din Huating (Fujian) — la ora publicării, autoritățile foloseau doar formularea vagă „mai mulți rămân de negăsit”. Pentru Jiangxi există cifre exacte (1 mort, 11 dispăruți), dar echipele de salvare încă operau la ora publicării.\n\nCe ar schimba concluzia: publicarea unui bilanț oficial complet al victimelor din Huating de către autoritățile din Fujian, sau o actualizare a numărului de dispăruți din Jiangxi pe măsură ce căutările continuă.",
   "persoane": [],
   "poza": {
     "img_html": "<img src=\"../img/articole/china-taifun-saudel-fujian-dig-rupt-putian.jpg\" alt=\"Saudel\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
