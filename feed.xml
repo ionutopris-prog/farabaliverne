@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 20:18:59 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 20:22:27 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Un studiu chinezesc spune că șofatul agresiv ar putea uza bateria de peste 2,5 ori mai repede — dar cifra e o prognoză a unui model, nu o măsurătoare</title>
@@ -16,6 +16,16 @@
       <description>Trei cercetători de la Universitatea Shanghai Dianji au construit un model care încearcă să separe efectul stilului de condus de restul cauzelor care îmbătrânesc o baterie. Concluzia lor: condusul agresiv se asociază cu o pierdere de capacitate de peste 2,5 ori mai mare decât condusul economic. Titlurile din presă au scăpat trei cuvinte care schimbă tot: „prezisă de model”. Nimeni n-a condus 1.000 de cicluri.
 
 Unde bat probele: Probat că studiul există, cine l-a scris și ce spune — dar cifra de 2,5 ori e o predicție a unui model, nu o măsurătoare, iar textul integral al lucrării nu e încă publicat, deci metoda și eșantionul nu se pot verifica la sursă. Verificate: 5 probate, 5 contestate.</description>
+    </item>
+    <item>
+      <title>Sheinbaum spune că omuciderile au scăzut cu 51% în Mexic — cifra compară cu luna cea mai violentă a predecesorului ei, nu cu media anuală</title>
+      <link>https://farabaliverne.ro/a/mexic-sheinbaum-51-omucideri-comparatie-septembrie-2024.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mexic-sheinbaum-51-omucideri-comparatie-septembrie-2024.html</guid>
+      <pubDate>Sat, 05 Sep 2026 17:19:51 +0000</pubDate>
+      <category>Extern</category>
+      <description>În al doilea raport anual de guvernare, prezentat pe 1 septembrie 2026, președinta Mexicului Claudia Sheinbaum a declarat că media zilnică a omuciderilor a scăzut cu 51% — de la 87 de cazuri pe zi în septembrie 2024 (ultima lună a predecesorului ei, Andrés Manuel López Obrador) la 44 pe zi în iulie 2026. Luna septembrie 2024 a fost însă una dintre cele mai violente din ultimii ani, marcată de izbucnirea unui război intern în Cartelul Sinaloa. O comparație pe perioade echivalente — primele șapte luni din 2026 față de aceeași perioadă din 2025 — arată o scădere anuală reală, dar mult mai modestă: 30,8%, potrivit Mexico News Daily.
+
+Unde bat probele: Adevăr trunchiat — scăderea omuciderilor e reală și documentată de SESNSP, dar procentul de 51% folosește drept punct de plecare luna cea mai violentă a mandatului precedent, nu o perioadă comparabilă. Verificate: 4 probate, 1 contestate.</description>
     </item>
     <item>
       <title>AIEA cere „cu maximă urgență” acces la siturile nucleare iraniene bombardate în 2025 — Teheranul spune că nu a decis nimic în acest sens</title>
@@ -78,16 +88,6 @@ Unde bat probele: Probat: MAE a convocat oficial ambasadorul rus și a transmis 
 Unde bat probele: Probat ce s-a întâmplat la Tiraspol pe 2 septembrie; „independența” rămâne o revendicare nerecunoscută de niciun stat membru ONU. Verificate: 4 probate, 0 contestate.</description>
     </item>
     <item>
-      <title>Un studiu de la Cambridge: parlamentarii britanici cred că publicul se opune politicilor de mediu de trei ori mai mult decât o face. Și tac din cauza asta</title>
-      <link>https://farabaliverne.ro/a/cambridge-parlamentari-supraestimeaza-opozitia-publicului-clima.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/cambridge-parlamentari-supraestimeaza-opozitia-publicului-clima.html</guid>
-      <pubDate>Sat, 05 Sep 2026 11:36:21 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>O sută de parlamentari britanici în funcție au fost întrebați cât de mult cred că se opune publicul unor măsuri de mediu. Au greșit constant, în aceeași direcție: la subvențiile pentru izolarea locuințelor au estimat 18% opoziție, când sondajele arătau 6%. La o taxă pe produse în funcție de cât poluează, au estimat 38% față de 20% real. Și cei care SUSȚIN măsurile au greșit la fel. Efectul măsurat de cercetători nu e doar de percepție: cine credea că publicul e mai ostil se declara mai puțin dispus să susțină public măsura — chiar dacă el o credea bună.
-
-Unde bat probele: Probat ce a măsurat studiul și cu ce metodă — dar eșantionul de parlamentari e dezechilibrat (80 laburiști din 100), iar sondajul publicului e cu opt luni mai vechi decât întrebările puse politicienilor. Verificate: 7 probate, 5 contestate.</description>
-    </item>
-    <item>
       <title>România are, pentru prima dată, o hartă națională a locurilor unde cad pietrele. 1.500 km² cu risc ridicat, aproape toți în Carpați</title>
       <link>https://farabaliverne.ro/a/prima-harta-nationala-caderi-de-pietre-romania-carpati.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/prima-harta-nationala-caderi-de-pietre-romania-carpati.html</guid>
@@ -96,6 +96,16 @@ Unde bat probele: Probat ce a măsurat studiul și cu ce metodă — dar eșanti
       <description>Cercetători de la Universitatea din București, de la Universitatea „Alexandru Ioan Cuza” din Iași și de la Institutul de Geografie al Academiei Române au construit primul instrument la scară națională care arată unde se pot desprinde blocuri de piatră din versanți. Au pornit de la 1.743 de locuri unde s-au produs deja căderi și au adăugat 19 factori de mediu. Rezultatul: peste 18.000 km² de teritoriu analizabil, din care aproximativ 1.500 km² cu potențial ridicat, cei mai mulți în Carpați, iar cei mai expuși în Carpații Meridionali. Studiul e publicat în „Scientific Reports”, în acces liber, și e finanțat din PNRR.
 
 Unde bat probele: Probat ce au măsurat și cu ce metodă, din lucrarea publicată în acces liber — dar harta arată UNDE se pot desprinde pietre, nu unde ajung și nici când; autorii o spun ei înșiși. Verificate: 7 probate, 5 contestate.</description>
+    </item>
+    <item>
+      <title>Un studiu de la Cambridge: parlamentarii britanici cred că publicul se opune politicilor de mediu de trei ori mai mult decât o face. Și tac din cauza asta</title>
+      <link>https://farabaliverne.ro/a/cambridge-parlamentari-supraestimeaza-opozitia-publicului-clima.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/cambridge-parlamentari-supraestimeaza-opozitia-publicului-clima.html</guid>
+      <pubDate>Sat, 05 Sep 2026 11:36:21 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>O sută de parlamentari britanici în funcție au fost întrebați cât de mult cred că se opune publicul unor măsuri de mediu. Au greșit constant, în aceeași direcție: la subvențiile pentru izolarea locuințelor au estimat 18% opoziție, când sondajele arătau 6%. La o taxă pe produse în funcție de cât poluează, au estimat 38% față de 20% real. Și cei care SUSȚIN măsurile au greșit la fel. Efectul măsurat de cercetători nu e doar de percepție: cine credea că publicul e mai ostil se declara mai puțin dispus să susțină public măsura — chiar dacă el o credea bună.
+
+Unde bat probele: Probat ce a măsurat studiul și cu ce metodă — dar eșantionul de parlamentari e dezechilibrat (80 laburiști din 100), iar sondajul publicului e cu opt luni mai vechi decât întrebările puse politicienilor. Verificate: 7 probate, 5 contestate.</description>
     </item>
     <item>
       <title>Gazul pentru Transnistria e asigurat până la finalul lui 2026 — pentru 2027, vicepremierul Chiveri spune că „ne vine greu să anticipăm”</title>
@@ -308,22 +318,22 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
 Unde bat probele: Contrazis de documente, cu rezerve. Verificate: 5 probate, 3 contestate.</description>
     </item>
     <item>
-      <title>Parlamentul de la Chișinău a votat în primă lectură rectificarea bugetului: plăți unice de până la 4.000 de lei pentru bugetari</title>
-      <link>https://farabaliverne.ro/a/moldova-buget-prima-lectura-4000-lei-bugetari.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-buget-prima-lectura-4000-lei-bugetari.html</guid>
-      <pubDate>Fri, 04 Sep 2026 16:38:05 +0000</pubDate>
-      <category>Economie</category>
-      <description>Pe 4 septembrie, Parlamentul a aprobat în primă lectură rectificarea bugetului de stat pe 2026 — aceeași rectificare despre care președintele Legislativului, Igor Grosu, spusese cu o zi înainte că duce deficitul la 23,07 miliarde de lei (5,95% din PIB). Noul element: proiectul prevede plăți unice de până la 4.000 de lei pentru bugetari, în valoare totală de 560 de milioane de lei, ca măsură-punte până la majorarea de salarii promisă pentru ianuarie 2027.
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
       <title>R. Moldova recunoaște, în premieră la CEDO, eșecul unei anchete de viol: femeia a așteptat 15 luni să înceapă ancheta</title>
       <link>https://farabaliverne.ro/a/moldova-cedo-esec-ancheta-viol-premiera.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-cedo-esec-ancheta-viol-premiera.html</guid>
       <pubDate>Fri, 04 Sep 2026 16:38:05 +0000</pubDate>
       <category>Social</category>
       <description>O femeie a depus plângere de viol, dar procuratura a refuzat de două ori pornirea urmăririi penale; judecătorul de instrucție a anulat ambele refuzuri, iar ancheta a fost pornită abia după peste 15 luni de la fapta reclamată. Odată pornită, urmărirea a fost încetată de șapte ori, fiecare încetare fiind anulată de judecător. Pe 27 august 2026, dosarul E.B. împotriva Republicii Moldova a fost radiat de pe rolul Curții Europene a Drepturilor Omului, în urma unei înțelegeri amiabile — statul a recunoscut eșecul și va plăti 8.100 de euro despăgubiri.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
+    <item>
+      <title>Parlamentul de la Chișinău a votat în primă lectură rectificarea bugetului: plăți unice de până la 4.000 de lei pentru bugetari</title>
+      <link>https://farabaliverne.ro/a/moldova-buget-prima-lectura-4000-lei-bugetari.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-buget-prima-lectura-4000-lei-bugetari.html</guid>
+      <pubDate>Fri, 04 Sep 2026 16:38:05 +0000</pubDate>
+      <category>Economie</category>
+      <description>Pe 4 septembrie, Parlamentul a aprobat în primă lectură rectificarea bugetului de stat pe 2026 — aceeași rectificare despre care președintele Legislativului, Igor Grosu, spusese cu o zi înainte că duce deficitul la 23,07 miliarde de lei (5,95% din PIB). Noul element: proiectul prevede plăți unice de până la 4.000 de lei pentru bugetari, în valoare totală de 560 de milioane de lei, ca măsură-punte până la majorarea de salarii promisă pentru ianuarie 2027.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
     </item>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu context. Verificate: 4 probate, 3 contestate.</desc
       <description>Președintele Nicușor Dan a declarat, pe 3 septembrie 2026, că va desemna un premier „în zilele următoare”, după aproape patru luni de guvern interimar. Declarația vine la trei zile după ce liderul AUR, George Simion, prezisese pe Facebook că „până cel puțin pe 21 septembrie nu va fi desemnat niciun premier”. Ambele sunt afirmații ale unor politicieni cu interes direct în deznodământ — una speră să se confirme, cealaltă mizează pe eșecul rivalului.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Statul nu știe câte întreprinderi are: comisia parlamentară de anchetă găsește o persoană cu 13 posturi în consilii de administrație și își prelungește mandatul cu 30 de zile</title>
-      <link>https://farabaliverne.ro/a/moldova-comisie-ancheta-intreprinderi-stat-cumul-functii-30-zile.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-comisie-ancheta-intreprinderi-stat-cumul-functii-30-zile.html</guid>
-      <pubDate>Thu, 03 Sep 2026 16:45:02 +0000</pubDate>
-      <category>Politică</category>
-      <description>Parlamentul de la Chișinău a votat pe 3 septembrie 2026, cu 53 de voturi, prelungirea cu 30 de zile a mandatului comisiei de anchetă privind întreprinderile de stat, înființată în iulie după scandalul de la MoldATSA. Comisia a găsit trei registre oficiale cu cifre diferite ale numărului de întreprinderi de stat (515, 163 și 609) și șase persoane care cumulează peste trei posturi în consilii de administrație — una dintre ele, simultan, 13.
-
-Unde bat probele: Probat. Verificate: 5 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
