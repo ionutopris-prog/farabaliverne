@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 09:26:30 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 09:28:34 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cercetători australieni: rocile de fier din Pilbara pot genera hidrogen natural, iar procesul poate fi stimulat artificial</title>
+      <link>https://farabaliverne.ro/a/australia-magnetit-hidrogen-natural-ecu.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/australia-magnetit-hidrogen-natural-ecu.html</guid>
+      <pubDate>Sat, 05 Sep 2026 06:26:55 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu al Edith Cowan University (ECU), publicat pe 12 august 2026 în International Journal of Hydrogen Energy, arată în laborator că magnetita — mineralul dominant în zăcămintele de fier din regiunea Pilbara, Australia de Vest — reacționează cu apă fierbinte sub presiune și produce hidrogen, iar cantitatea produsă poate crește semnificativ în funcție de forma și suprafața rocii expuse. Rezultatul e experimental, la scară de laborator; trecerea la exploatare geologică reală e etapa următoare, încă neparcursă.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Un studiu pe șoareci: semaglutida administrată la bătrânețe le-a prelungit viața și le-a încetinit îmbătrânirea</title>
       <link>https://farabaliverne.ro/a/semaglutida-soareci-durata-viata-nature.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>O zi după ce Camera Deputaților le-a luat două posturi de secretar în Biroul Permanent (dat AUR și SOS), PNL și USR au boicotat miercuri, 2 septembrie 2026, plenul, votul final, comisiile și ședința Biroului Permanent. Liderul deputaților PSD, Ștefan Ovidiu Popa, a acuzat în plen 28 de parlamentari PNL că s-au semnat totuși în condică pentru diurna zilnică — acuzație pe care liberalii nu au respins-o public, potrivit relatărilor citate.
 
 Unde bat probele: Probat, cu o acuzație neconfirmată independent. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Industria din zona euro a crescut în august 2026 în cel mai rapid ritm din ultimii patru ani, arată PMI S&amp;P Global</title>
-      <link>https://farabaliverne.ro/a/zona-euro-pmi-industrie-august-2026-patru-ani.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/zona-euro-pmi-industrie-august-2026-patru-ani.html</guid>
-      <pubDate>Wed, 02 Sep 2026 09:53:14 +0000</pubDate>
-      <category>Economie</category>
-      <description>Indicele PMI manufacturier al zonei euro, publicat de S&amp;P Global pe 1 septembrie 2026, a urcat la 52,7 în august, de la 51,9 în iulie — cel mai bun nivel din mai 2022, dar ușor sub estimarea preliminară de 52,8. Comenzile noi au crescut în cel mai rapid ritm de la începutul lui 2022, iar Germania și Irlanda au condus creșterea. Imaginea nu e uniformă: Italia a intrat în contracție pentru prima dată din ianuarie, iar Spania a rămas tot în teritoriu negativ.
-
-Unde bat probele: Probat. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
