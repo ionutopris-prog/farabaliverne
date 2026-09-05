@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 06 Sep 2026 01:13:25 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 01:17:35 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sistemul de apă din Gaza s-a prăbușit aproape complet — OMS avertizează asupra unui dezastru sanitar înaintea sezonului ploios</title>
+      <link>https://farabaliverne.ro/a/gaza-apa-criza-sanatate-oms-unicef-msf.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/gaza-apa-criza-sanatate-oms-unicef-msf.html</guid>
+      <pubDate>Sat, 05 Sep 2026 22:14:17 +0000</pubDate>
+      <category>Extern</category>
+      <description>Rapoarte publicate pe 1 și 4-5 septembrie 2026 de OMS, UNICEF și Medici Fără Frontiere (MSF) arată o prăbușire aproape totală a sistemului de apă și canalizare din Fâșia Gaza: contaminare microbiologică triplată din ianuarie, cazuri de diaree acută aproape dublate din martie și un consum mediu de apă mult sub minimul umanitar. OMS avertizează că sezonul ploios care începe ar putea agrava dramatic situația. Nu am găsit, în sursele consultate, un răspuns oficial al autorităților israeliene la aceste rapoarte.
+
+Unde bat probele: Probat — cifrele vin de la OMS, UNICEF și MSF, cu metodologii publicate; comparațiile intre cifre trebuie citite cu atenție la perioada de referință. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>SUA scufundă sau imobilizează trei petroliere iraniene, după ce Garda Revoluționară a tras rachete spre un portavion american</title>
       <link>https://farabaliverne.ro/a/iran-sua-atac-petroliere-portavion-5-septembrie.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contestat. Verificate: 4 probate, 2 contestate.</description>
       <description>La un toast de Roș Hașana cu conducerea militară israeliană, pe 3 septembrie 2026, premierul Benjamin Netanyahu a spus că „misiunea centrală” a Israelului este să „doboare” regimul de la Teheran, pe care îl descrie „mai slab ca niciodată” — obiectiv pe care îl numește „la îndemână”. Declarația e confirmată de mai multe agenții, inclusiv presa de stat rusă TASS; SUA, prin vicepreședintele Vance, păstrează în același timp o poziție mai rezervată privind reluarea negocierilor cu Iranul.
 
 Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>AIEA confirmă: Siria construia un reactor nuclear nedeclarat la Deir ez-Zor, sub regimul Assad</title>
-      <link>https://farabaliverne.ro/a/siria-reactor-nuclear-deir-ez-zor-aiea.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/siria-reactor-nuclear-deir-ez-zor-aiea.html</guid>
-      <pubDate>Fri, 04 Sep 2026 00:42:02 +0000</pubDate>
-      <category>Extern</category>
-      <description>Agenția Internațională pentru Energie Atomică a confirmat, într-un raport publicat la începutul lunii septembrie 2026, că infrastructura de răcire descoperită la situl bombardat de Israel în 2007 este „compatibilă cu cea a unui reactor nuclear”, iar la un alt sit a găsit aproape 73 de tone de uraniu natural nedeclarat. Noul guvern sirian, care a raportat el însuși situl, spune că vrea un program nuclear civil sub control internațional.
-
-Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
