@@ -98,5 +98,12 @@
     "explanation": "De la atacul cibernetic identificat pe 14 iulie 2026 până la 10 august 2026 au trecut 27 de zile calendaristice (17 zile rămase din iulie + 10 zile din august) în care cadastrul și cartea funciară au funcționat cu servicii indisponibile sau parțiale. Chiar dacă sistemul repornește „săptămâna aceasta” așa cum promite ANCPI, iar documentele PDF ajung să fie disponibile abia 1-3 zile după redeschidere, blocajul total ar putea depăși o lună întreagă — de la un incident pe care instituția însăși l-a numit „cel mai grav... din istorie”."
   },
   "aiNote": "Sursele oficiale (ANCPI, Guvern) și presa de specialitate confirmă concordant cronologia: atac ransomware pe 14 iulie, infrastructură reinstalată, teste tehnice finalizate cu succes pe 5 august, repornire anunțată „săptămâna aceasta” pe 7 august. Rămân două rezerve: (1) termenul exact de revenire completă a fost amânat de mai multe ori și nu are încă o dată fermă; (2) afirmația că baza de date centrală n-a fost compromisă provine exclusiv din comunicatele ANCPI, fără un audit independent citat public de sursele consultate. Cititorul poate urmări actualizările oficiale pe ancpi.ro.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ancpi-eterra-cadastru-blocaj.jpg\" alt=\"Terra\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Terra. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Caverna_Terra_Ronca,_Parque_Estadual_Terra_Ronca,_S%C3%A3o_Domingos,_GO_2.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Caverna Terra Ronca, Parque Estadual Terra Ronca, São Domingos, GO 2</a>\" de Caio Ribeiro, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ancpi-eterra-cadastru-blocaj.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Caio Ribeiro"
+  }
 }

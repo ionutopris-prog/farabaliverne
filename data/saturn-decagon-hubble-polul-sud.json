@@ -11,21 +11,36 @@
     {
       "text": "Studiul „A new polygonal wave at Saturn's south pole”, cu autor principal Agustín Sánchez-Lavega (Universitatea Țării Bascilor, Spania) și coautori printre care Amy Simon (NASA Goddard Space Flight Center, coordonatoarea programului Hubble „Outer Planet Atmospheres Legacy” — OPAL) și Michael Wong (UC Berkeley), a fost publicat pe 2 septembrie 2026 în revista Science Advances (vol. 12, nr. 36). Echipa a folosit imagini Hubble strânse începând din 2023, completate cu observații de la sol, inclusiv de la astronomi amatori (Trevor Barry, Jean-Paul Oger), coordonate prin Planetary Virtual Observatory Laboratory al aceleiași universități spaniole.",
       "sources": [
-        {"name": "NASA Science — NASA's Hubble Tracks New Decagon Encircling Saturn's South Pole", "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"},
-        {"name": "Sci.News — Astronomers Discover Decagonal Wave circling Saturn's South Pole (DOI 10.1126/sciadv.aee4251)", "url": "https://www.sci.news/astronomy/saturn-decagon-15039.html"}
+        {
+          "name": "NASA Science — NASA's Hubble Tracks New Decagon Encircling Saturn's South Pole",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
+        },
+        {
+          "name": "Sci.News — Astronomers Discover Decagonal Wave circling Saturn's South Pole (DOI 10.1126/sciadv.aee4251)",
+          "url": "https://www.sci.news/astronomy/saturn-decagon-15039.html"
+        }
       ]
     },
     {
       "text": "Structura are zece laturi și înconjoară polul sud al lui Saturn, extinzându-se pe mai multe straturi ale atmosferei planetei. O primă urmă slabă a fost surprinsă de Hubble în octombrie 2023, la o latitudine de circa 63° sud, dar forma s-a consolidat clar abia în perioada august-septembrie 2025. Din 2023 încoace, tiparul a devenit tot mai distinct, ceea ce sugerează că oamenii de știință asistă la formarea, în timp real, a unui fenomen atmosferic nou pe planetă.",
       "sources": [
-        {"name": "NASA Science — imagine + descriere „Decagon on Saturn's South Pole”", "url": "https://science.nasa.gov/asset/hubble/decagon-on-saturns-south-pole-color/"},
-        {"name": "Phys.org — Hubble tracks new decagon encircling Saturn's south pole", "url": "https://phys.org/news/2026-09-hubble-tracks-decagon-encircling-saturn.html"}
+        {
+          "name": "NASA Science — imagine + descriere „Decagon on Saturn's South Pole”",
+          "url": "https://science.nasa.gov/asset/hubble/decagon-on-saturns-south-pole-color/"
+        },
+        {
+          "name": "Phys.org — Hubble tracks new decagon encircling Saturn's south pole",
+          "url": "https://phys.org/news/2026-09-hubble-tracks-decagon-encircling-saturn.html"
+        }
       ]
     },
     {
       "text": "La polul nord al lui Saturn există, de peste 40 de ani (observat constant de când sondele Voyager l-au văzut prima dată), un hexagon — un curent de jet cu șase laturi regulate, extrem de stabil. Noul decagon de la polul sud „seamănă izbitor” cu hexagonul, dar e „distinct diferit”: spre deosebire de hexagon, care a rămas neschimbat de zeci de ani, decagonul pare să se întărească activ de la o observație la alta — ceea ce, spun autorii, oferă o ocazie rară de a urmări cum se formează un asemenea tipar atmosferic gigant, în loc să-l găsească deja stabilizat.",
       "sources": [
-        {"name": "NASA Science — citat Amy Simon, OPAL principal investigator", "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"}
+        {
+          "name": "NASA Science — citat Amy Simon, OPAL principal investigator",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
+        }
       ]
     }
   ],
@@ -33,7 +48,10 @@
     {
       "text": "Cercetătorii nu au încă o explicație pentru DE CE acest tipar a apărut acum, după ce polul sud al lui Saturn a fost observat pe alte lungimi de timp fără să arate o structură similară. O posibilitate menționată e că fenomenul s-ar fi putut forma între 2017 și 2023, o perioadă în care polul sud al planetei era înclinat departe de Linia de observație a Pământului și, deci, nu putea fi văzut — dar asta rămâne o ipoteză, nu o dovadă. Nu se știe nici dacă decagonul se va stabiliza, asemenea hexagonului, sau dacă va continua să evolueze ori chiar să dispară.",
       "sources": [
-        {"name": "Sci.News — incertitudinile privind formarea și evoluția decagonului", "url": "https://www.sci.news/astronomy/saturn-decagon-15039.html"}
+        {
+          "name": "Sci.News — incertitudinile privind formarea și evoluția decagonului",
+          "url": "https://www.sci.news/astronomy/saturn-decagon-15039.html"
+        }
       ]
     }
   ],
@@ -43,8 +61,18 @@
     "title": "De ce Saturn face poligoane la poli, dar nu și la ecuator",
     "explanation": "Hexagonul de la polul nord al lui Saturn e un curent de jet — un flux de aer foarte rapid și îngust — care înconjoară polul la o anumită latitudine. În mod normal, un asemenea curent circular ar trebui să fie... circular. Dar experimentele de laborator și modelele arată că, atunci când un curent circular de aer se rotește suficient de repede în jurul unui pol, mici unde din interiorul curentului pot interfera între ele și „îngheța” fluxul într-o formă cu colțuri — un poligon — la fel cum apa care se scurge rapid printr-o cratiță rotativă poate forma valuri regulate în loc de un cerc perfect. Numărul de laturi (șase la nord, zece la sud) depinde de viteza curentului, de lățimea lui și de alți parametri atmosferici locali, care diferă între cei doi poli ai planetei. De aceea faptul că polul sud a produs un decagon, și nu tot un hexagon, nu contrazice teoria — dimpotrivă, arată că fenomenul depinde de condiții locale care pot varia de la un pol la altul și de la un deceniu la altul.",
     "sources": [
-      {"name": "NASA Science — explicația fenomenului de val poligonal la poli", "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"}
+      {
+        "name": "NASA Science — explicația fenomenului de val poligonal la poli",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/saturn-decagon-hubble-polul-sud.jpg\" alt=\"Saturn\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Saturn. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:PIA17218_%E2%80%93_A_Farewell_to_Saturn,_Brightened_Version.jpg\" rel=\"nofollow noopener\" target=\"_blank\">PIA17218 – A Farewell to Saturn, Brightened Version</a>\" de NASA / JPL-Caltech / Space Science Institute, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/saturn-decagon-hubble-polul-sud.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA / JPL-Caltech / Space Science Institute"
+  }
 }

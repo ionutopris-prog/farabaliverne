@@ -72,5 +72,14 @@
     ]
   },
   "aiNote": "🤖 Ce s-a verificat exact: afirmația publică a lui Javier Milei de pe X, care citează 0,8% inflație pentru iulie 2026, comparată cu promisiunea sa din martie 2026 (inflația de consum „va începe cu 0” în august) și cu datele oficiale de inflație pentru iulie, relatate de Chequeado.com (organizație argentiniană de fact-checking) și Infobae.\n\nUnde se desparte afirmația de fapte: Milei a citat indicele de prețuri EN-GROS (IPIM), care măsoară ce plătesc producătorii și importatorii, nu indicele de prețuri de CONSUM (IPC), pe care îl promisese explicit în martie. Sunt doi indicatori distincți, cu metodologii și coșuri de bunuri diferite — IPC include servicii, chirii și utilități pe care IPIM nu le cuprinde. Cifra IPC reală pentru iulie a fost 2,1%, nu 0,8%.\n\nCe lipsește: nu există, deocamdată, o proiecție oficială clară despre cât și cât de repede scăderea prețurilor en-gros s-ar putea transmite la consumatori — economiștii spun că nu există o relație mecanică între cei doi indici.\n\nCe ar schimba concluzia: dacă IPC ar coborî efectiv aproape de zero în lunile următoare, promisiunea inițială a lui Milei s-ar putea confirma cu întârziere — dar, pe datele disponibile acum, afirmația sărbătorită în iulie se bazează pe un indicator diferit de cel promis, iar cifra reală a indicatorului promis a fost de peste 2,5 ori mai mare.",
-  "persoane": ["Javier Milei"]
+  "persoane": [
+    "Javier Milei"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/milei-inflatie-zero-indice-mayorista-vs-ipc.jpg\" alt=\"Javier Milei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Javier Milei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Javier_Milei_VIVA_24.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Javier Milei VIVA 24</a>\" de Vox España, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/milei-inflatie-zero-indice-mayorista-vs-ipc.jpg",
+    "licenta": "CC0",
+    "autor": "Vox España"
+  }
 }

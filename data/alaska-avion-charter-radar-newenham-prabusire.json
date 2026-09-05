@@ -11,28 +11,49 @@
     {
       "text": "Un avion bimotor Cessna 441 Conquest, operat de compania Security Aviation din Anchorage, a decolat de pe aeroportul internațional Ted Stevens din Anchorage cu destinația situl radar de rază lungă Cape Newenham, aflat la aproximativ 450 de mile (~720 km) vest de Anchorage. Zborul fusese închiriat de Corpul Ingineresc al Armatei SUA (US Army Corps of Engineers).",
       "sources": [
-        {"name": "CBS News — Charter plane crash near Cape Newenham, Alaska", "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"},
-        {"name": "NBC News — Charter plane carrying 8 crashes in western Alaska, including 2 U.S. Army Corps of Engineers employees", "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687"}
+        {
+          "name": "CBS News — Charter plane crash near Cape Newenham, Alaska",
+          "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"
+        },
+        {
+          "name": "NBC News — Charter plane carrying 8 crashes in western Alaska, including 2 U.S. Army Corps of Engineers employees",
+          "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687"
+        }
       ]
     },
     {
       "text": "Avionul avea la bord opt persoane: doi piloți și șase pasageri — doi dintre pasageri erau angajați ai Corpului Ingineresc al Armatei, iar ceilalți patru, contractori. Toți cei opt au murit; nu au existat supraviețuitori.",
       "sources": [
-        {"name": "NBC News — Charter plane carrying 8 crashes in western Alaska", "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687"},
-        {"name": "Al Jazeera — Charter plane crash near Alaskan military site kills 8", "url": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8"}
+        {
+          "name": "NBC News — Charter plane carrying 8 crashes in western Alaska",
+          "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687"
+        },
+        {
+          "name": "Al Jazeera — Charter plane crash near Alaskan military site kills 8",
+          "url": "https://www.aljazeera.com/news/2026/8/21/charter-plane-crash-near-alaskan-military-site-kills-8"
+        }
       ]
     },
     {
       "text": "Potrivit lui Clint Johnson, reprezentant al NTSB, avionul zbura în condiții de ceață și efectuase deja o primă tentativă de aterizare eșuată („missed approach”); ancheta preliminară arată că echipajul se putea afla într-o a doua tentativă de aterizare în momentul în care contactul cu aeronava s-a pierdut. Avionul s-a prăbușit într-o zonă cu relief muntos abrupt.",
       "sources": [
-        {"name": "CBS News — Charter plane crash near Cape Newenham, Alaska", "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"},
-        {"name": "NPR — Charter plane crash kills 8 near remote radar site in western Alaska, military says", "url": "https://www.npr.org/2026/08/21/nx-s1-5940552/charter-plane-crash-kills-8-alaska-military"}
+        {
+          "name": "CBS News — Charter plane crash near Cape Newenham, Alaska",
+          "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"
+        },
+        {
+          "name": "NPR — Charter plane crash kills 8 near remote radar site in western Alaska, military says",
+          "url": "https://www.npr.org/2026/08/21/nx-s1-5940552/charter-plane-crash-kills-8-alaska-military"
+        }
       ]
     },
     {
       "text": "Ancheta accidentului a fost preluată de National Transportation Safety Board (NTSB) și de Federal Aviation Administration (FAA); NTSB a trimis o echipă de cinci inspectori la fața locului. La ora verificării, cauza exactă a prăbușirii nu era stabilită oficial.",
       "sources": [
-        {"name": "CBS News — Charter plane crash near Cape Newenham, Alaska", "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"}
+        {
+          "name": "CBS News — Charter plane crash near Cape Newenham, Alaska",
+          "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"
+        }
       ]
     }
   ],
@@ -40,5 +61,12 @@
   "opinie": [],
   "aiNote": "Cronologia și numărul victimelor (8 morți, fără supraviețuitori) sunt confirmate concordant de CBS News, NBC News, NPR și Al Jazeera, toate citând declarații ale militarilor americani și ale NTSB. Singurul element care rămâne, la data verificării, în stadiu de ipoteză oficială — nu de concluzie stabilită — este cauza exactă a prăbușirii: reprezentantul NTSB a descris doar o „missed approach” anterioară și condițiile de ceață, fără să confirme public o cauză finală. Am păstrat formularea condițională a anchetei, fiindcă un raport preliminar sau final NTSB poate schimba sau nuanța acest tablou.",
   "math": null,
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/alaska-avion-charter-radar-newenham-prabusire.jpg\" alt=\"Alaskăi\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Alaskăi. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:150132main_image_feature_589_alaska.jpg\" rel=\"nofollow noopener\" target=\"_blank\">150132main image feature 589 alaska</a>\" de National Aeronautics and Space Administration (NASA), via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/alaska-avion-charter-radar-newenham-prabusire.jpg",
+    "licenta": "Public domain",
+    "autor": "National Aeronautics and Space Administration (NASA)"
+  }
 }

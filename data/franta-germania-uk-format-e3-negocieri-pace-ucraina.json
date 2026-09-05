@@ -11,19 +11,28 @@
     {
       "text": "The New York Times a relatat, pe 15 august 2026, că Franța, Germania și Marea Britanie lucrează la un format comun — denumit informal E3 — menit să le asigure o poziție la eventualele negocieri de pace Rusia-Ucraina conduse de administrația Trump, de teamă că un acord SUA-Rusia ar putea fi încheiat fără consultarea europenilor.",
       "sources": [
-        { "name": "Euromaidan Press — NYT: France, Germany and UK build joint format to secure Europe a place in Ukraine peace talks", "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/" }
+        {
+          "name": "Euromaidan Press — NYT: France, Germany and UK build joint format to secure Europe a place in Ukraine peace talks",
+          "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/"
+        }
       ]
     },
     {
       "text": "Obiectivele citate ale celor trei state includ obținerea unui cuvânt de spus în deciziile privind sancțiunile impuse Rusiei și utilizarea activelor rusești înghețate, precum și un rol în arhitectura de securitate a Ucrainei după un eventual armistițiu. Franța și Germania sunt descrise ca principalii promotori politici ai inițiativei E3, în timp ce Marea Britanie a numit deocamdată discuțiile „speculative”.",
       "sources": [
-        { "name": "Euromaidan Press — obiectivele și pozițiile diferite ale celor trei state", "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/" }
+        {
+          "name": "Euromaidan Press — obiectivele și pozițiile diferite ale celor trei state",
+          "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/"
+        }
       ]
     },
     {
       "text": "Contextul mai larg: presa română (Capital.ro, citând surse europene apropiate dosarului) a relatat aceeași temă pe 16 august 2026, notând că eforturile vin după o rundă trilaterală de negocieri care s-a încheiat fără rezultate în februarie 2026, și că Europa vrea să evite să fie „ținută pe dinafară” de o eventuală înțelegere directă SUA-Rusia.",
       "sources": [
-        { "name": "Capital.ro — Franța, Germania și Marea Britanie pregătesc un plan pentru negocierile de pace", "url": "https://www.capital.ro/franta-germania-si-marea-britanie-pregatesc-un-plan-pentru-negocierile-de-pace-europa-vrea-sa-isi-asigure-locul-la-masa-discutiilor-rusia-ucraina.html" }
+        {
+          "name": "Capital.ro — Franța, Germania și Marea Britanie pregătesc un plan pentru negocierile de pace",
+          "url": "https://www.capital.ro/franta-germania-si-marea-britanie-pregatesc-un-plan-pentru-negocierile-de-pace-europa-vrea-sa-isi-asigure-locul-la-masa-discutiilor-rusia-ucraina.html"
+        }
       ]
     }
   ],
@@ -31,7 +40,10 @@
     {
       "text": "Nu există, la data verificării, un anunț oficial formal din partea unui guvern sau lider E3 despre un „plan” concret și finalizat — atât NYT, cât și presa română vorbesc despre un format/o inițiativă „în lucru”, bazată pe surse neidentificate public, nu pe un document sau o declarație oficială publicată. Marea Britanie a evitat să confirme conținutul, numind discuțiile „speculative”. Tratăm așadar afirmația ca fiind despre o inițiativă diplomatică în desfășurare, nu despre un plan deja adoptat.",
       "sources": [
-        { "name": "Euromaidan Press — poziția rezervată a Marii Britanii", "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/" }
+        {
+          "name": "Euromaidan Press — poziția rezervată a Marii Britanii",
+          "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/"
+        }
       ]
     }
   ],
@@ -42,5 +54,12 @@
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (NYT, preluată de Euromaidan Press) și presa română care a relatat aceeași temă independent; sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Nu am putut accesa direct articolul NYT (acces limitat/abonament), de aceea ne bazăm pe relatarea Euromaidan Press, care citează pe larg articolul, cross-verificată cu relatarea separată din presa română (Capital.ro).",
   "persoane": [],
-  "math": null
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/franta-germania-uk-format-e3-negocieri-pace-ucraina.jpg\" alt=\"Germania\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Germania. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1908_SY_Germania.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1908 SY Germania</a>\" de Sir James, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/franta-germania-uk-format-e3-negocieri-pace-ucraina.jpg",
+    "licenta": "Public domain",
+    "autor": "Sir James"
+  }
 }

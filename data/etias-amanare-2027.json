@@ -11,27 +11,45 @@
     {
       "text": "Site-ul oficial al ETIAS (Sistemul European de Informații și Autorizare privind Călătoriile) a fost actualizat între iulie și 10 august 2026: referirea anterioară la „ultimul trimestru din 2026” ca dată de lansare a fost eliminată, iar pagina indică acum doar că sistemul „nu este în prezent în funcțiune” și nu acceptă cereri.",
       "sources": [
-        {"name": "iVisa — EU removes ETIAS 2026 launch date from website", "url": "https://www.ivisa.com/news/2026-07-20-eu-etias-launch-date-removed-website-delay"},
-        {"name": "ETIAS.com — ETIAS drops 2026 date as launch slips out of view", "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view"}
+        {
+          "name": "iVisa — EU removes ETIAS 2026 launch date from website",
+          "url": "https://www.ivisa.com/news/2026-07-20-eu-etias-launch-date-removed-website-delay"
+        },
+        {
+          "name": "ETIAS.com — ETIAS drops 2026 date as launch slips out of view",
+          "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view"
+        }
       ]
     },
     {
       "text": "ETIAS depinde tehnic de Sistemul de Intrare/Ieșire (EES) al UE, care înregistrează date biometrice ale călătorilor din afara UE — ETIAS a fost mereu conceput să pornească după ce EES devine pe deplin funcțional, pentru că se bazează pe datele EES pentru a semnala riscuri. EES însuși a avut un parcurs dificil: amânat de mai multe ori din 2022, a intrat parțial în funcțiune abia la începutul lui 2026, cu probleme software și lipsă de personal la unele puncte de frontieră, care au provocat cozi mari în timpul verii.",
       "sources": [
-        {"name": "AFAR — Europe Delays ETIAS Travel Authorization Until 2027", "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"},
-        {"name": "ETIAS.com — legătura tehnică dintre EES și ETIAS", "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view"}
+        {
+          "name": "AFAR — Europe Delays ETIAS Travel Authorization Until 2027",
+          "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"
+        },
+        {
+          "name": "ETIAS.com — legătura tehnică dintre EES și ETIAS",
+          "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view"
+        }
       ]
     },
     {
       "text": "Agenția eu-LISA, responsabilă tehnic cu construirea ETIAS, a recunoscut intern că o lansare în 2026 nu mai e realizabilă. Financial Times a relatat că implementarea până la finalul lui 2026 „nu mai era fezabilă”, citând probleme informatice ca motiv principal.",
       "sources": [
-        {"name": "AFAR — citarea Financial Times despre nefezabilitatea termenului 2026", "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"}
+        {
+          "name": "AFAR — citarea Financial Times despre nefezabilitatea termenului 2026",
+          "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"
+        }
       ]
     },
     {
       "text": "Unele țări europene au oprit temporar aplicarea integrală a EES la graniță în perioada de vârf a verii, din cauza cozilor mari provocate de sistemul biometric — un context care se leagă de motivele amânării, deși sursele nu stabilesc o cauzalitate directă și exclusivă între problemele EES din vară și decizia de amânare a ETIAS.",
       "sources": [
-        {"name": "OpenJaw — EU Delays Launch of ETIAS Indefinitely", "url": "https://openjaw.com/newsroom/travel-alerts/2026/08/10/eu-delays-launch-of-etias-indefinitely/"}
+        {
+          "name": "OpenJaw — EU Delays Launch of ETIAS Indefinitely",
+          "url": "https://openjaw.com/newsroom/travel-alerts/2026/08/10/eu-delays-launch-of-etias-indefinitely/"
+        }
       ]
     }
   ],
@@ -39,14 +57,23 @@
     {
       "text": "Comisia Europeană — instituția care stabilește oficial data de lansare, și abia după ce eu-LISA finalizează testele — nu a emis o declarație formală care să confirme sau să infirme o amânare până în 2027. Comunicarea oficială a UE rămâne vagă: instituția spune doar că va anunța noua dată „cu câteva luni” înainte de lansare, iar oficialii ar fi urmat să se întâlnească în septembrie 2026 pentru a stabili un calendar nou.",
       "sources": [
-        {"name": "OpenJaw — lipsa unei confirmări oficiale din partea Comisiei Europene", "url": "https://openjaw.com/newsroom/travel-alerts/2026/08/10/eu-delays-launch-of-etias-indefinitely/"}
+        {
+          "name": "OpenJaw — lipsa unei confirmări oficiale din partea Comisiei Europene",
+          "url": "https://openjaw.com/newsroom/travel-alerts/2026/08/10/eu-delays-launch-of-etias-indefinitely/"
+        }
       ]
     },
     {
       "text": "Anul 2027, vehiculat de mai multe publicații de turism ca fereastră probabilă de lansare, nu are, la data verificării, o confirmare oficială din partea Comisiei sau a eu-LISA — rămâne o estimare bazată pe surse neoficiale și pe ritmul anterior al amânărilor, nu o dată anunțată public.",
       "sources": [
-        {"name": "AFAR — 2027 ca an posibil, fără confirmare oficială", "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"},
-        {"name": "ETIAS.com — lipsa unei date noi confirmate", "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view"}
+        {
+          "name": "AFAR — 2027 ca an posibil, fără confirmare oficială",
+          "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"
+        },
+        {
+          "name": "ETIAS.com — lipsa unei date noi confirmate",
+          "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view"
+        }
       ]
     }
   ],
@@ -56,8 +83,18 @@
     "title": "De la 2022 la (cel puțin) 2027: cinci ani de amânări în lanț",
     "explanation": "EES, sistemul de care depinde tehnic ETIAS, trebuia lansat inițial în 2022, dar a fost amânat repetat, ajungând parțial funcțional abia la începutul lui 2026 — o întârziere de cel puțin 4 ani. ETIAS, programat inițial să urmeze la scurt timp după EES, a fost la rândul lui împins dincolo de 2026, ceea ce înseamnă că, între anunțul inițial al proiectului și o eventuală lansare în 2027, ar trece cel puțin 5 ani de amânări succesive pe cele două sisteme conexe.",
     "sources": [
-      {"name": "AFAR — istoricul amânărilor EES și ETIAS", "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"}
+      {
+        "name": "AFAR — istoricul amânărilor EES și ETIAS",
+        "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/etias-amanare-2027.jpg\" alt=\"Schengen\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Schengen. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Luxembourg_Schengen_from_Markusberg_a.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Luxembourg Schengen from Markusberg a</a>\" de Cayambe, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/etias-amanare-2027.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Cayambe"
+  }
 }

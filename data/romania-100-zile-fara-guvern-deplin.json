@@ -133,5 +133,17 @@
     "Estimările despre motivele UDMR (teamă de AUR) sau despre calculul electoral al lui Bolojan (interes pentru alegeri anticipate) provin dintr-o analiză editorială (Spotmedia), nu din declarații directe ale celor vizați — le tratăm drept interpretare jurnalistică, nu fapt confirmat."
   ],
   "aiNote": "🤖 Am pus alături cronologia confirmată de surse multiple și independente (AGERPRES, Digi24, TVR, Mediafax, JURIDICE.ro, BURSA.RO, Recorder) — demiterea Guvernului Bolojan pe 5 mai 2026 cu 281 de voturi, declanșată de disputa privind listarea la bursă a unor companii de stat, urmată de două nominalizări eșuate de premier și de un blocaj care afectează deja fonduri PNRR și legea salarizării. Nu am decretat „cine are vina” — am separat clar faptele confirmate de interpretările fiecărei tabere politice (PSD, PNL, USR, UDMR, președinție), pe care le-am marcat explicit la secțiunea Opinie. Unde sursele au dat cifre ușor diferite (voturile „împotrivă” de la moțiune, poziția exactă a USR), am semnalat explicit divergența, în loc să alegem noi o singură variantă.",
-  "persoane": ["Ilie Bolojan", "Nicușor Dan", "Sorin Grindeanu", "Dominic Fritz"]
+  "persoane": [
+    "Ilie Bolojan",
+    "Nicușor Dan",
+    "Sorin Grindeanu",
+    "Dominic Fritz"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/romania-100-zile-fara-guvern-deplin.jpg\" alt=\"Bolojan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bolojan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ilie_Bolojan_-_22_September_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ilie Bolojan - 22 September 2025</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/romania-100-zile-fara-guvern-deplin.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
+  }
 }

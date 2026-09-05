@@ -11,20 +11,32 @@
     {
       "text": "Vineri, 14 august 2026, liderul PSD Sorin Grindeanu a declarat că „doar România și Irlanda au scădere economică din toată Uniunea Europeană” și că guvernul Bolojan a dus țara „de pe locul doi la creștere economică în UE, pe penultimul loc”. A citat o contracție a PIB-ului real de -1,6% (serie ajustată sezonier) pe primul semestru din 2026, respectiv -0,8% pe serie brută, și un deficit bugetar de 40 de miliarde de lei față de o țintă inițială de creștere de +1%.",
       "sources": [
-        {"name": "HotNews — Grindeanu îl acuză pe Bolojan de tulburare obsesiv-compulsivă față de PSD, social-democratul invocă și „pesta hastagistă”", "url": "https://hotnews.ro/grindeanu-il-acuza-pe-bolojan-de-tulburare-obsesiv-compulsiva-fata-de-psd-social-democratul-invoca-si-pesta-hastagista-2324856"},
-        {"name": "Capital.ro — Sorin Grindeanu, mesaj tranșant pentru Bolojan pe cifrele economiei", "url": "https://www.capital.ro/sorin-grindeanu-mesaj-transant-pentru-bolojan.html"}
+        {
+          "name": "HotNews — Grindeanu îl acuză pe Bolojan de tulburare obsesiv-compulsivă față de PSD, social-democratul invocă și „pesta hastagistă”",
+          "url": "https://hotnews.ro/grindeanu-il-acuza-pe-bolojan-de-tulburare-obsesiv-compulsiva-fata-de-psd-social-democratul-invoca-si-pesta-hastagista-2324856"
+        },
+        {
+          "name": "Capital.ro — Sorin Grindeanu, mesaj tranșant pentru Bolojan pe cifrele economiei",
+          "url": "https://www.capital.ro/sorin-grindeanu-mesaj-transant-pentru-bolojan.html"
+        }
       ]
     },
     {
       "text": "Datele oficiale Eurostat pentru trimestrul al doilea din 2026 confirmă: comparativ cu același trimestru din 2025 (serie ajustată sezonier), doar România (-2,0%) și Irlanda (-5,6%) înregistrează scădere a PIB-ului între toate statele UE. Toate celelalte state membre au creștere sau stagnare an-la-an în acest indicator.",
       "sources": [
-        {"name": "Eurostat — GDP up by 0.4% and employment up by 0.1% in the euro area", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"}
+        {
+          "name": "Eurostat — GDP up by 0.4% and employment up by 0.1% in the euro area",
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        }
       ]
     },
     {
       "text": "Aceleași date Eurostat arată însă că, trimestrial (T2 față de T1 2026), Irlanda are cea mai mare creștere din toată Uniunea Europeană: +3,9%, urmată de Slovenia (+1,8%) și Suedia (+1,4%). România stagnează trimestrial, cu 0,0%. Eurostat marchează explicit seria irlandeză drept „CSO Frontier Series Output” — o metodologie separată, dezvoltată pentru economia irlandeză tocmai din cauza volatilității extreme cauzate de operațiunile marilor companii multinaționale cu sediul fiscal acolo.",
       "sources": [
-        {"name": "Eurostat — GDP up by 0.4% and employment up by 0.1% in the euro area", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"}
+        {
+          "name": "Eurostat — GDP up by 0.4% and employment up by 0.1% in the euro area",
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        }
       ]
     }
   ],
@@ -32,7 +44,10 @@
     {
       "text": "Nici HotNews, nici Capital.ro nu raportează o reacție oficială a lui Ilie Bolojan sau a Ministerului Finanțelor la formularea exactă „de pe locul doi la creștere, pe penultimul loc” — la data verificării nu există o sursă oficială care să confirme sau să infirme punct cu punct clasamentul de „locul doi” invocat de Grindeanu pentru perioada anterioară.",
       "sources": [
-        {"name": "HotNews — Grindeanu îl acuză pe Bolojan de tulburare obsesiv-compulsivă față de PSD, social-democratul invocă și „pesta hastagistă”", "url": "https://hotnews.ro/grindeanu-il-acuza-pe-bolojan-de-tulburare-obsesiv-compulsiva-fata-de-psd-social-democratul-invoca-si-pesta-hastagista-2324856"}
+        {
+          "name": "HotNews — Grindeanu îl acuză pe Bolojan de tulburare obsesiv-compulsivă față de PSD, social-democratul invocă și „pesta hastagistă”",
+          "url": "https://hotnews.ro/grindeanu-il-acuza-pe-bolojan-de-tulburare-obsesiv-compulsiva-fata-de-psd-social-democratul-invoca-si-pesta-hastagista-2324856"
+        }
       ]
     }
   ],
@@ -46,9 +61,22 @@
     "title": "-2,0% și -5,6%, aceeași categorie „scădere” — dar direcții opuse",
     "explanation": "An-la-an, România și Irlanda sunt singurele două economii UE cu cifră negativă (-2,0%, respectiv -5,6%). Dar privite trimestrial — indicatorul care arată încotro se îndreaptă economia chiar acum — Irlanda e pe primul loc din UE cu +3,9%, în timp ce România stagnează la 0,0%. Diferența se explică prin natura celor două cifre negative: scăderea Irlandei e un efect de bază statistic (comparație cu un trimestru din 2025 anormal de ridicat, din cauza operațiunilor marilor multinaționale), pe o serie pe care Eurostat însuși o etichetează „frontier” — experimentală. Scăderea românească nu are o asemenea explicație metodologică; reflectă o contracție reală, susținută de alți indicatori (producție industrială, insolvențe, șomaj).",
     "sources": [
-      {"name": "Eurostat — GDP up by 0.4% and employment up by 0.1% in the euro area", "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"}
+      {
+        "name": "Eurostat — GDP up by 0.4% and employment up by 0.1% in the euro area",
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+      }
     ]
   },
   "aiNote": "Ce s-a verificat: declarația lui Sorin Grindeanu din 14 august 2026, că „doar România și Irlanda au scădere economică din toată Uniunea Europeană”, comparată cu datele oficiale Eurostat pentru trimestrul al doilea din 2026. Cifra e corectă în litera ei: an-la-an, pe seria ajustată sezonier, România (-2,0%) și Irlanda (-5,6%) sunt singurele două state membre cu variație negativă a PIB-ului.\n\nUnde se desparte declarația de context: comparația lasă impresia că cele două economii traversează un fenomen similar — o criză. Nu e cazul. Trimestrial, adică pe direcția curentă, Irlanda are cea mai mare creștere din toată UE (+3,9%), în timp ce România stagnează (0,0%). Scăderea anuală irlandeză e recunoscută chiar de Eurostat drept un artefact statistic („frontier series”), cauzat de volatilitatea extremă a operațiunilor marilor companii multinaționale cu sediul fiscal în Irlanda — un fenomen numit informal „leprechaun economics”, fără legătură cu sănătatea economiei reale irlandeze. Scăderea românească, în schimb, nu beneficiază de o asemenea explicație metodologică și e însoțită de alți indicatori negativi (producție industrială în scădere, insolvențe în creștere).\n\nCe lipsește: o comparație oficială, dintr-o sursă independentă de partid, care să separe explicit „scădere structurală” de „artefact statistic” atunci când se compară țări — un asemenea document nu a fost identificat la data verificării. Lipsește și verificarea afirmației separate a lui Grindeanu, „de pe locul doi la penultimul loc”, pentru care nu am găsit un clasament oficial Eurostat citat de sursele consultate.\n\nCe ar schimba concluzia: o analiză Eurostat sau a Comisiei Europene care ar retrata seria irlandeză ca fiind comparabilă direct cu cea românească, sau date viitoare care ar arăta o revenire trimestrială a României similară celei irlandeze.",
-  "persoane": ["Sorin Grindeanu", "Ilie Bolojan"]
+  "persoane": [
+    "Sorin Grindeanu",
+    "Ilie Bolojan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/grindeanu-irlanda-romania-pib-scadere-ue.jpg\" alt=\"România\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — România. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Apuseni._(41412826664).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Apuseni. (41412826664)</a>\" de Mihai Lucîț from Baia Mare, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/grindeanu-irlanda-romania-pib-scadere-ue.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Mihai Lucîț from Baia Mare, Romania"
+  }
 }

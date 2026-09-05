@@ -65,5 +65,12 @@
   "persoane": [
     "Igor Grosu",
     "Ion Chicu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-rectificare-buget-parlament-grosu-gestionabil.jpg\" alt=\"Igor Grosu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Igor Grosu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:13.06.2025_-_Pre%C8%99edintele_Parlamentului,_Igor_Grosu,_a_participat_la_evenimentul_organizat_%C3%AEn_contextul_Zilei_Mondiale_a_donatorului_de_s%C3%A2nge_-_54586441613.jpg\" rel=\"nofollow noopener\" target=\"_blank\">13.06.2025 - Președintele Parlamentului, Igor Grosu, a participat la evenimentul organizat în contextul Zilei Mondiale a donatorului de sânge - 54586441613</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-rectificare-buget-parlament-grosu-gestionabil.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+  }
 }

@@ -1,61 +1,109 @@
 {
-    "slug": "sua-judecatoare-talwani-vot-corespondenta-national",
-    "title": "O judecătoare federală extinde la nivel național blocarea ordinului lui Trump privind votul prin corespondență",
-    "category": "Extern",
-    "date": "2026-08-12",
-    "source": "Democracy Docket",
-    "url": "https://www.democracydocket.com/news-alerts/federal-judge-blocks-trumps-anti-mail-voting-executive-order-again-this-time-nationwide/",
-    "dek": "🌍 Judecătoarea federală Indira Talwani (Massachusetts) a extins, pe 11 august 2026, la nivel național injoncțiunea care blochează Secțiunea 3 din Ordinul Executiv 14399 al lui Donald Trump — care cerea USPS să refuze livrarea buletinelor de vot prin corespondență pentru alegătorii neînscriși pe liste aprobate de stat. UPDATE 31 august: Curtea Supremă a ridicat pe 24 august, cu 6 voturi la 3, acea injoncțiune națională — dar pe motive procedurale (cauza nu era încă „coaptă” pentru judecată), nu pentru că ar fi validat ordinul lui Trump. Patru zile mai târziu, Talwani a impus un nou blocaj temporar de 14 zile asupra regulilor finale ale USPS.",
-    "mainVerdict": "Probat",
-    "probat": [
+  "slug": "sua-judecatoare-talwani-vot-corespondenta-national",
+  "title": "O judecătoare federală extinde la nivel național blocarea ordinului lui Trump privind votul prin corespondență",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "Democracy Docket",
+  "url": "https://www.democracydocket.com/news-alerts/federal-judge-blocks-trumps-anti-mail-voting-executive-order-again-this-time-nationwide/",
+  "dek": "🌍 Judecătoarea federală Indira Talwani (Massachusetts) a extins, pe 11 august 2026, la nivel național injoncțiunea care blochează Secțiunea 3 din Ordinul Executiv 14399 al lui Donald Trump — care cerea USPS să refuze livrarea buletinelor de vot prin corespondență pentru alegătorii neînscriși pe liste aprobate de stat. UPDATE 31 august: Curtea Supremă a ridicat pe 24 august, cu 6 voturi la 3, acea injoncțiune națională — dar pe motive procedurale (cauza nu era încă „coaptă” pentru judecată), nu pentru că ar fi validat ordinul lui Trump. Patru zile mai târziu, Talwani a impus un nou blocaj temporar de 14 zile asupra regulilor finale ale USPS.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Ordinul Executiv 14399, semnat de Donald Trump pe 31 martie 2026, prevede la Secțiunea 3 ca Serviciul Poștal American (USPS) să refuze livrarea buletinelor de vot prin corespondență pentru alegătorii care nu apar pe o listă nouă, aprobată de fiecare stat, și impune plicuri standardizate cu coduri de bare legate de identitatea alegătorului.",
+      "sources": [
         {
-            "text": "Ordinul Executiv 14399, semnat de Donald Trump pe 31 martie 2026, prevede la Secțiunea 3 ca Serviciul Poștal American (USPS) să refuze livrarea buletinelor de vot prin corespondență pentru alegătorii care nu apar pe o listă nouă, aprobată de fiecare stat, și impune plicuri standardizate cu coduri de bare legate de identitatea alegătorului.",
-            "sources": [
-                {"name": "The American Presidency Project (UC Santa Barbara) — textul Ordinului Executiv 14399", "url": "https://www.presidency.ucsb.edu/documents/executive-order-14399-ensuring-citizenship-verification-and-integrity-federal-elections"},
-                {"name": "Brennan Center for Justice — League of Women Voters of Massachusetts v. Trump", "url": "https://www.brennancenter.org/our-work/court-cases/league-women-voters-massachusetts-v-trump-march-2026-mail-voting-executive"}
-            ]
+          "name": "The American Presidency Project (UC Santa Barbara) — textul Ordinului Executiv 14399",
+          "url": "https://www.presidency.ucsb.edu/documents/executive-order-14399-ensuring-citizenship-verification-and-integrity-federal-elections"
         },
         {
-            "text": "Ordinul a fost contestat în instanță pe 2 aprilie 2026, în procesul League of Women Voters of Massachusetts v. Trump, depus de organizații civice (League of Women Voters, Association of Americans Resident Overseas, U.S. Vote Foundation și altele), reprezentate de Brennan Center, ACLU și alte organizații juridice. La finalul lunii iunie 2026, judecătoarea Talwani a acordat o blocare preliminară, limitată inițial la 23 de state plus Washington DC.",
-            "sources": [
-                {"name": "ACLU — League of Women Voters of Massachusetts v. Trump", "url": "https://www.aclu.org/cases/league-of-women-voters-of-massachusetts-v-trump"},
-                {"name": "Brennan Center for Justice — cronologia procesului", "url": "https://www.brennancenter.org/our-work/court-cases/league-women-voters-massachusetts-v-trump-march-2026-mail-voting-executive"}
-            ]
-        },
-        {
-            "text": "Pe 11 august 2026, judecătoarea federală Indira Talwani (Curtea Federală de District, Massachusetts) a extins blocarea la nivel național, interzicând guvernului federal, inclusiv USPS, să implementeze sau să aplice Secțiunea 3 din Ordinul Executiv 14399 pentru alegerile de la 3 noiembrie 2026 sau orice alegere federală anterioară. În motivare, judecătoarea a scris că „registrul e lipsit de orice dovadă privind votul prin corespondență ilegal sau fraudulos” și că guvernul federal „a refuzat să apere constituționalitatea directivelor ordinului” în fața mai multor instanțe.",
-            "sources": [
-                {"name": "Democracy Docket — judecătoarea federală blochează din nou, de această dată la nivel național, ordinul anti-vot prin corespondență al lui Trump", "url": "https://www.democracydocket.com/news-alerts/federal-judge-blocks-trumps-anti-mail-voting-executive-order-again-this-time-nationwide/"},
-                {"name": "CBS News — Trump, Curtea Supremă și ordinul privind votul prin corespondență", "url": "https://www.cbsnews.com/news/trump-supreme-court-mail-in-voting-executive-order/"}
-            ]
-        },
-        {
-            "text": "Înainte de decizia națională, administrația Trump, prin Solicitor General D. John Sauer, ceruse deja Curții Supreme, pe 27 iulie 2026, o intervenție de urgență pentru a suspenda blocarea inițială (limitată la 23 de state), argumentând că injoncțiunea e „extraordinară” și că cererea reclamanților era prematură, pentru că USPS nu finalizase încă regulile de implementare. La data verificării (12 august 2026), Curtea Supremă nu se pronunțase asupra cererii.",
-            "sources": [
-                {"name": "SCOTUSblog — administrația Trump cere Curții Supreme să deschidă calea noilor restricții la votul prin corespondență", "url": "https://www.scotusblog.com/2026/07/trump-administration-asks-supreme-court-to-clear-the-way-for-new-mail-in-voting-restrictions/"},
-                {"name": "The Boston Globe — Trump, Curtea Supremă și ordinul privind votul prin corespondență", "url": "https://www.bostonglobe.com/2026/07/27/nation/trump-supreme-court-mail-voting-order/"}
-            ]
-        },
-        {
-            "text": "Pe 24 august 2026, Curtea Supremă a ridicat, cu 6 voturi la 3 (cei trei judecători numiți de președinți democrați, în minoritate), injoncțiunea națională a Talwani — dar pe temei procedural: majoritatea a considerat că litigiul nu era încă „copt” pentru judecată, pentru că directivele (către DHS, procurori și USPS) nu produseseră încă un prejudiciu concret, iar regula finală a USPS era doar în curs de elaborare. Judecătoarea Sonia Sotomayor, în opinia separată alături de Elena Kagan, a scris că decizia „doar amână judecata” fără să tranșeze legalitatea ordinului, iar judecătoarea Ketanji Brown Jackson a subliniat explicit că hotărârea „nu se pronunță asupra legalității” tentativelor președintelui de a interveni în alegeri. Patru zile mai târziu, joi 28 august, Talwani a impus un nou blocaj temporar de 14 zile asupra unor părți din regula finală a USPS (care cerea statelor să pună identificatori unici pe plicurile de vot), motivând că statele reclamante riscă un prejudiciu ireparabil — unele fiind obligate prin lege să trimită deja buletinele către alegători. O nouă audiere e programată pe 3 septembrie 2026.",
-            "sources": [
-                {"name": "SCOTUSblog — Curtea Supremă permite administrației Trump să avanseze cu ordinul privind votul prin corespondență", "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/"},
-                {"name": "Votebeat — Curtea Supremă ridică una din cele două injoncțiuni asupra ordinului lui Trump", "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"},
-                {"name": "Axios — Judecătoarea ridică blocajul național asupra ordinului lui Trump", "url": "https://www.axios.com/2026/08/26/trump-mail-voting-rules-nationwide-injunction"}
-            ]
+          "name": "Brennan Center for Justice — League of Women Voters of Massachusetts v. Trump",
+          "url": "https://www.brennancenter.org/our-work/court-cases/league-women-voters-massachusetts-v-trump-march-2026-mail-voting-executive"
         }
-    ],
-    "contestat": [
+      ]
+    },
+    {
+      "text": "Ordinul a fost contestat în instanță pe 2 aprilie 2026, în procesul League of Women Voters of Massachusetts v. Trump, depus de organizații civice (League of Women Voters, Association of Americans Resident Overseas, U.S. Vote Foundation și altele), reprezentate de Brennan Center, ACLU și alte organizații juridice. La finalul lunii iunie 2026, judecătoarea Talwani a acordat o blocare preliminară, limitată inițial la 23 de state plus Washington DC.",
+      "sources": [
         {
-            "text": "Poziția reclamanților (organizații civice) este că ordinul depășește autoritatea constituțională a președintelui asupra alegerilor — gestionate, potrivit Constituției, în principal de state —, încalcă separarea puterilor și Voting Rights Act. Poziția administrației Trump este că ordinul „funcționează doar pentru a direcționa subordonații președintelui”, deci nu ar reglementa direct alegerile de stat, iar decizia instanței ar constitui o „intruziune improprie” într-o ramură coordonată a guvernului. Acestea sunt poziții juridice aflate în dispută, nu fapte stabilite — urmează să fie tranșate de instanțele superioare, inclusiv, posibil, de Curtea Supremă.",
-            "sources": [
-                {"name": "Brennan Center for Justice — argumentele reclamanților", "url": "https://www.brennancenter.org/our-work/court-cases/league-women-voters-massachusetts-v-trump-march-2026-mail-voting-executive"},
-                {"name": "SCOTUSblog — argumentele administrației Trump în cererea către Curtea Supremă", "url": "https://www.scotusblog.com/2026/07/trump-administration-asks-supreme-court-to-clear-the-way-for-new-mail-in-voting-restrictions/"}
-            ]
+          "name": "ACLU — League of Women Voters of Massachusetts v. Trump",
+          "url": "https://www.aclu.org/cases/league-of-women-voters-of-massachusetts-v-trump"
+        },
+        {
+          "name": "Brennan Center for Justice — cronologia procesului",
+          "url": "https://www.brennancenter.org/our-work/court-cases/league-women-voters-massachusetts-v-trump-march-2026-mail-voting-executive"
         }
-    ],
-    "opinie": [],
-    "math": null,
-    "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am separat strict faptul juridic (ce a decis judecătoarea Talwani pe 11 august, apoi Curtea Supremă pe 24 august și din nou Talwani pe 28 august 2026) de pozițiile aflate în dispută ale părților (reclamanții civici vs. administrația Trump), care rămân contestate și urmează să fie soluționate de instanțele superioare. Important de reținut: decizia Curții Supreme din 24 august NU a validat ordinul lui Trump pe fond — a fost o decizie procedurală, pe motiv că litigiul nu era încă „copt”, iar chiar judecătorii din majoritate au scris explicit că nu se pronunță asupra legalității. Cine ar citi doar titlul „Curtea Supremă permite lui Trump să meargă mai departe” ar putea crede că bătălia juridică s-a încheiat — nu e cazul; ea continuă la Talwani, cu o nouă audiere pe 3 septembrie 2026. Nu prezentăm nicio parte drept „mincinoasă” — doar ce a decis instanța și ce susține fiecare tabără.",
-    "persoane": ["Donald Trump"]
+      ]
+    },
+    {
+      "text": "Pe 11 august 2026, judecătoarea federală Indira Talwani (Curtea Federală de District, Massachusetts) a extins blocarea la nivel național, interzicând guvernului federal, inclusiv USPS, să implementeze sau să aplice Secțiunea 3 din Ordinul Executiv 14399 pentru alegerile de la 3 noiembrie 2026 sau orice alegere federală anterioară. În motivare, judecătoarea a scris că „registrul e lipsit de orice dovadă privind votul prin corespondență ilegal sau fraudulos” și că guvernul federal „a refuzat să apere constituționalitatea directivelor ordinului” în fața mai multor instanțe.",
+      "sources": [
+        {
+          "name": "Democracy Docket — judecătoarea federală blochează din nou, de această dată la nivel național, ordinul anti-vot prin corespondență al lui Trump",
+          "url": "https://www.democracydocket.com/news-alerts/federal-judge-blocks-trumps-anti-mail-voting-executive-order-again-this-time-nationwide/"
+        },
+        {
+          "name": "CBS News — Trump, Curtea Supremă și ordinul privind votul prin corespondență",
+          "url": "https://www.cbsnews.com/news/trump-supreme-court-mail-in-voting-executive-order/"
+        }
+      ]
+    },
+    {
+      "text": "Înainte de decizia națională, administrația Trump, prin Solicitor General D. John Sauer, ceruse deja Curții Supreme, pe 27 iulie 2026, o intervenție de urgență pentru a suspenda blocarea inițială (limitată la 23 de state), argumentând că injoncțiunea e „extraordinară” și că cererea reclamanților era prematură, pentru că USPS nu finalizase încă regulile de implementare. La data verificării (12 august 2026), Curtea Supremă nu se pronunțase asupra cererii.",
+      "sources": [
+        {
+          "name": "SCOTUSblog — administrația Trump cere Curții Supreme să deschidă calea noilor restricții la votul prin corespondență",
+          "url": "https://www.scotusblog.com/2026/07/trump-administration-asks-supreme-court-to-clear-the-way-for-new-mail-in-voting-restrictions/"
+        },
+        {
+          "name": "The Boston Globe — Trump, Curtea Supremă și ordinul privind votul prin corespondență",
+          "url": "https://www.bostonglobe.com/2026/07/27/nation/trump-supreme-court-mail-voting-order/"
+        }
+      ]
+    },
+    {
+      "text": "Pe 24 august 2026, Curtea Supremă a ridicat, cu 6 voturi la 3 (cei trei judecători numiți de președinți democrați, în minoritate), injoncțiunea națională a Talwani — dar pe temei procedural: majoritatea a considerat că litigiul nu era încă „copt” pentru judecată, pentru că directivele (către DHS, procurori și USPS) nu produseseră încă un prejudiciu concret, iar regula finală a USPS era doar în curs de elaborare. Judecătoarea Sonia Sotomayor, în opinia separată alături de Elena Kagan, a scris că decizia „doar amână judecata” fără să tranșeze legalitatea ordinului, iar judecătoarea Ketanji Brown Jackson a subliniat explicit că hotărârea „nu se pronunță asupra legalității” tentativelor președintelui de a interveni în alegeri. Patru zile mai târziu, joi 28 august, Talwani a impus un nou blocaj temporar de 14 zile asupra unor părți din regula finală a USPS (care cerea statelor să pună identificatori unici pe plicurile de vot), motivând că statele reclamante riscă un prejudiciu ireparabil — unele fiind obligate prin lege să trimită deja buletinele către alegători. O nouă audiere e programată pe 3 septembrie 2026.",
+      "sources": [
+        {
+          "name": "SCOTUSblog — Curtea Supremă permite administrației Trump să avanseze cu ordinul privind votul prin corespondență",
+          "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/"
+        },
+        {
+          "name": "Votebeat — Curtea Supremă ridică una din cele două injoncțiuni asupra ordinului lui Trump",
+          "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+        },
+        {
+          "name": "Axios — Judecătoarea ridică blocajul național asupra ordinului lui Trump",
+          "url": "https://www.axios.com/2026/08/26/trump-mail-voting-rules-nationwide-injunction"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Poziția reclamanților (organizații civice) este că ordinul depășește autoritatea constituțională a președintelui asupra alegerilor — gestionate, potrivit Constituției, în principal de state —, încalcă separarea puterilor și Voting Rights Act. Poziția administrației Trump este că ordinul „funcționează doar pentru a direcționa subordonații președintelui”, deci nu ar reglementa direct alegerile de stat, iar decizia instanței ar constitui o „intruziune improprie” într-o ramură coordonată a guvernului. Acestea sunt poziții juridice aflate în dispută, nu fapte stabilite — urmează să fie tranșate de instanțele superioare, inclusiv, posibil, de Curtea Supremă.",
+      "sources": [
+        {
+          "name": "Brennan Center for Justice — argumentele reclamanților",
+          "url": "https://www.brennancenter.org/our-work/court-cases/league-women-voters-massachusetts-v-trump-march-2026-mail-voting-executive"
+        },
+        {
+          "name": "SCOTUSblog — argumentele administrației Trump în cererea către Curtea Supremă",
+          "url": "https://www.scotusblog.com/2026/07/trump-administration-asks-supreme-court-to-clear-the-way-for-new-mail-in-voting-restrictions/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": null,
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am separat strict faptul juridic (ce a decis judecătoarea Talwani pe 11 august, apoi Curtea Supremă pe 24 august și din nou Talwani pe 28 august 2026) de pozițiile aflate în dispută ale părților (reclamanții civici vs. administrația Trump), care rămân contestate și urmează să fie soluționate de instanțele superioare. Important de reținut: decizia Curții Supreme din 24 august NU a validat ordinul lui Trump pe fond — a fost o decizie procedurală, pe motiv că litigiul nu era încă „copt”, iar chiar judecătorii din majoritate au scris explicit că nu se pronunță asupra legalității. Cine ar citi doar titlul „Curtea Supremă permite lui Trump să meargă mai departe” ar putea crede că bătălia juridică s-a încheiat — nu e cazul; ea continuă la Talwani, cu o nouă audiere pe 3 septembrie 2026. Nu prezentăm nicio parte drept „mincinoasă” — doar ce a decis instanța și ce susține fiecare tabără.",
+  "persoane": [
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-judecatoare-talwani-vot-corespondenta-national.jpg\" alt=\"Donald Trump\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Donald Trump. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Donald_Trump_RNC_July_2016.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Donald Trump RNC July 2016</a>\" de Ali Shaker/VOA, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-judecatoare-talwani-vot-corespondenta-national.jpg",
+    "licenta": "Public domain",
+    "autor": "Ali Shaker/VOA"
+  }
 }

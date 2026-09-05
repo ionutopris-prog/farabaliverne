@@ -11,27 +11,45 @@
     {
       "text": "Alabama organizează marți, 11 august 2026, primare speciale în patru districte congresionale (1, 2, 6 și 7), separat de calendarul electoral obișnuit, după ce harta electorală a statului a fost redesenată. Secțiile de votare sunt deschise între orele 7:00 și 19:00, iar cei aflați deja la coadă la ora închiderii pot vota.",
       "sources": [
-        { "name": "WAMC/NPR — Alabama heads into a second primary election after redistricting", "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting" },
-        { "name": "Fox10 — Alabama special election: voters head to polls in redistricted congressional districts", "url": "https://www.fox10tv.com/2026/08/11/alabama-special-election-voters-head-polls-redistricted-congressional-districts/" }
+        {
+          "name": "WAMC/NPR — Alabama heads into a second primary election after redistricting",
+          "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting"
+        },
+        {
+          "name": "Fox10 — Alabama special election: voters head to polls in redistricted congressional districts",
+          "url": "https://www.fox10tv.com/2026/08/11/alabama-special-election-voters-head-polls-redistricted-congressional-districts/"
+        }
       ]
     },
     {
       "text": "Redesenarea a fost declanșată de o decizie a Curții Supreme a SUA din aprilie 2026, într-un caz din Louisiana, prin care instanța a considerat neconstituțională trasarea granițelor electorale pe criterii rasiale — desființând, în fapt, o prevedere-cheie a Legii drepturilor de vot din 1965. Mai multe state din sudul SUA, printre care Alabama, și-au refăcut hărțile electorale înaintea alegerilor de mijloc de mandat (midterms).",
       "sources": [
-        { "name": "WAMC/NPR — decizia Curții Supreme și contextul redistrictării", "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting" }
+        {
+          "name": "WAMC/NPR — decizia Curții Supreme și contextul redistrictării",
+          "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting"
+        }
       ]
     },
     {
       "text": "În Districtul 2, unde inițial candida un singur republican, noua hartă a atras șase candidați republicani (Hampton Harris, Christian Horn, Rhett Marques, David Matthews, Joshua McKee și James Richardson); niciun democrat nu s-a înscris în cursa pentru nominalizare, iar democratul Shomari Figures — actualul deținător al mandatului — rămâne necontestat în propriul partid. Statul reprezentant Rhett Marques, susținut public de președintele Trump, este considerat favorit în sondaje.",
       "sources": [
-        { "name": "WAMC/NPR — candidați și dinamica cursei din Districtul 2", "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting" },
-        { "name": "WSFA — Alabama's special primary is Aug. 11: Here's who is running in District 2", "url": "https://www.wsfa.com/2026/08/07/alabamas-special-primary-is-aug-11-heres-who-is-running-district-2/" }
+        {
+          "name": "WAMC/NPR — candidați și dinamica cursei din Districtul 2",
+          "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting"
+        },
+        {
+          "name": "WSFA — Alabama's special primary is Aug. 11: Here's who is running in District 2",
+          "url": "https://www.wsfa.com/2026/08/07/alabamas-special-primary-is-aug-11-heres-who-is-running-district-2/"
+        }
       ]
     },
     {
       "text": "Redesenarea hărții a mutat alegători dintr-un district în altul — de exemplu, locuitori din comitatul Lowndes au trecut din Districtul 7 în Districtul 2 — ceea ce a generat confuzie declarată chiar de candidați. Candidatul republican Hampton Harris a povestit: „La un moment dat, candidam în practic jumătate din stat. Așa că am fost confuz chiar eu, ca și candidat.”",
       "sources": [
-        { "name": "WAMC/NPR — confuzia privind granițele noilor districte", "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting" }
+        {
+          "name": "WAMC/NPR — confuzia privind granițele noilor districte",
+          "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting"
+        }
       ]
     }
   ],
@@ -39,7 +57,10 @@
     {
       "text": "Noua hartă reduce ponderea populației afro-americane cu drept de vot din Districtul 2 de la aproximativ 47% la circa 40%, o schimbare descrisă de sursele consultate drept favorabilă candidaților republicani. Nu există însă, la data verificării, o decizie judecătorească definitivă care să stabilească dacă redesenarea încalcă legea — ea a fost făcută tocmai ca urmare a deciziei Curții Supreme care a restrâns aplicarea criteriilor rasiale în trasarea granițelor electorale, deci există un conflict de interpretare între cei care o consideră o corectare legală și cei care o consideră o diluare intenționată a votului afro-american.",
       "sources": [
-        { "name": "WAMC/NPR — efectul redistrictării asupra ponderii electoratului afro-american", "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting" }
+        {
+          "name": "WAMC/NPR — efectul redistrictării asupra ponderii electoratului afro-american",
+          "url": "https://www.wamc.org/2026-08-10/alabama-heads-into-a-second-primary-election-after-redistricting"
+        }
       ]
     }
   ],
@@ -53,5 +74,12 @@
     "explanation": "Înainte de redesenare, Districtul 2 avea un singur candidat republican înscris în cursă; după redesenarea care a redus ponderea electoratului afro-american de la ~47% la ~40%, numărul candidaților republicani a urcat la șase — o creștere de 6 ori, semn al percepției că locul a devenit „câștigabil” pentru partid. În același timp, democratul Shomari Figures rămâne fără contracandidat în propriul partid, ceea ce arată că partea democrată nu a reușit (sau nu a considerat necesar) să mobilizeze o cursă competitivă în noile condiții."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus. Rezultatele exacte ale voturilor de marți nu erau încă publicate la data verificării — articolul descrie procesul, contextul juridic și cursa din Districtul 2, nu un câștigător.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/alabama-primare-redistricting-2026.jpg\" alt=\"Alabama State Capitol Montgomery\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Alabama State Capitol Montgomery. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Alabama_State_Capitol,_Late_Afternoon,_Wide_View.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Alabama State Capitol, Late Afternoon, Wide View</a>\" de Inester726, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/alabama-primare-redistricting-2026.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Inester726"
+  }
 }

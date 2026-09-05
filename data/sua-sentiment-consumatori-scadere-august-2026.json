@@ -11,21 +11,36 @@
     {
       "text": "Indicele de încredere a consumatorilor (University of Michigan Consumer Sentiment Index), în varianta preliminară pentru august 2026, a coborât la 51,0 puncte, față de 55,2 în lectura finală din iulie și sub estimarea de consens a analiștilor (54,5, conform Reuters). E o scădere de 7,6% de la lună la lună și una de aproximativ 12% față de august 2025 (58,2 puncte). Subindicii au scăzut ambii: Indicele Așteptărilor Consumatorilor a coborât la 50,6 (de la 55,4), iar Indicele Condițiilor Economice Curente la 51,8 (de la 54,8).",
       "sources": [
-        {"name": "Yahoo Finance — U.S. consumer sentiment falls in August 2026, ending recovery", "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html"},
-        {"name": "CryptoBriefing — Michigan consumer sentiment falls to 51 in August, below estimates", "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"}
+        {
+          "name": "Yahoo Finance — U.S. consumer sentiment falls in August 2026, ending recovery",
+          "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html"
+        },
+        {
+          "name": "CryptoBriefing — Michigan consumer sentiment falls to 51 in August, below estimates",
+          "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"
+        }
       ]
     },
     {
       "text": "Așteptările de inflație pe un an au urcat la 4,3%, de la 4,2% în iulie, în timp ce așteptările pe termen lung (5-10 ani) au rămas stabile la 3,3%. Doar 8% dintre consumatorii chestionați se așteaptă ca veniturile lor să crească mai repede decât inflația în următorul an. Directoarea sondajului, Joanne Hsu, a declarat că declinul e răspândit pe tot spectrul politic și demografic, cu cea mai abruptă scădere în rândul alegătorilor republicani — al căror sentiment e cu 19% sub nivelul dinaintea conflictului din Iran — precum și în rândul consumatorilor mai în vârstă, cu venituri mici și fără studii superioare.",
       "sources": [
-        {"name": "CryptoBriefing — declarațiile lui Joanne Hsu și defalcarea pe categorii", "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"},
-        {"name": "Yahoo Finance — așteptări de inflație și context politic", "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html"}
+        {
+          "name": "CryptoBriefing — declarațiile lui Joanne Hsu și defalcarea pe categorii",
+          "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"
+        },
+        {
+          "name": "Yahoo Finance — așteptări de inflație și context politic",
+          "url": "https://finance.yahoo.com/economy/articles/u-consumer-sentiment-falls-august-171815784.html"
+        }
       ]
     },
     {
       "text": "Scăderea din august întrerupe o revenire de două luni, după minimul istoric de 44,8 puncte înregistrat în mai 2026. Printre cauzele citate de University of Michigan: tensiunile din Orientul Mijlociu, care au perturbat piețele petroliere și au menținut prețul benzinei peste 4 dolari/galon în perioada sondajului.",
       "sources": [
-        {"name": "CryptoBriefing — contextul minimului din mai 2026 și al prețului benzinei", "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"}
+        {
+          "name": "CryptoBriefing — contextul minimului din mai 2026 și al prețului benzinei",
+          "url": "https://cryptobriefing.com/michigan-consumer-sentiment-august-decline/"
+        }
       ]
     }
   ],
@@ -33,5 +48,12 @@
   "opinie": [],
   "math": "51,0 vs. 55,2 = o scădere de (55,2-51,0)/55,2 ≈ 7,6% de la iulie la august 2026 — cifra „-7,6%” citată de sondaj corespunde calculului aritmetic direct.",
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională (Yahoo Finance, CryptoBriefing, pe baza datelor University of Michigan Surveys of Consumers); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-sentiment-consumatori-scadere-august-2026.jpg\" alt=\"Universității\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Universității. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Gala_Absolven%C8%9Bilor_Universit%C4%83%C8%9Bii_Pedagogice_de_Stat_%E2%80%9EIon_Creang%C4%83%E2%80%9D_-_08.07.2025_-_54642182802.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Gala Absolvenților Universității Pedagogice de Stat „Ion Creangă” - 08.07.2025 - 54642182802</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-sentiment-consumatori-scadere-august-2026.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+  }
 }

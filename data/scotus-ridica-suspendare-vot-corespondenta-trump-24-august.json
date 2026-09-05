@@ -11,32 +11,50 @@
     {
       "text": "Curtea Supremă a SUA a decis, pe 24 august 2026, printr-o opinie nesemnată dată pe procedura de urgență („shadow docket”), să ridice una dintre cele două suspendări (injoncțiuni) care blocau punerea în aplicare a Ordinului Executiv 14399, semnat de Donald Trump în martie 2026. Votul a fost pe linii ideologice, 6 judecători pentru ridicarea suspendării și 3 împotrivă.",
       "sources": [
-        {"name": "CBS News — Supreme Court allows Trump to implement key parts of order restricting mail voting", "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"},
-        {"name": "Votebeat — Supreme Court lifts 1 of 2 injunctions on Trump's mail-voting executive order", "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"}
+        {
+          "name": "CBS News — Supreme Court allows Trump to implement key parts of order restricting mail voting",
+          "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"
+        },
+        {
+          "name": "Votebeat — Supreme Court lifts 1 of 2 injunctions on Trump's mail-voting executive order",
+          "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+        }
       ]
     },
     {
       "text": "Ordinul executiv cere Departamentului Securității Interne (DHS) să alcătuiască liste ale cetățenilor considerați eligibili să voteze, folosind baze de date federale; Poșta SUA (USPS) ar urma să livreze buletine de vot prin corespondență doar persoanelor aflate pe aceste liste; se impun și cerințe de design (coduri de bare) pentru plicurile de vot, iar procurorul general e instruit să prioritizeze urmărirea penală a funcționarilor care emit buletine unor alegători considerați neeligibili. 23 de state conduse de democrați plus Washington D.C. au contestat ordinul, iar 12 state conduse de republicani au intervenit în sprijinul lui.",
       "sources": [
-        {"name": "CBS News — detalii despre ordin", "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"}
+        {
+          "name": "CBS News — detalii despre ordin",
+          "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"
+        }
       ]
     },
     {
       "text": "Judecătoarea Ketanji Brown Jackson a scris o opinie disidentă în care avertizează că decizia va crea un „coșmar kafkian” și „injectează inutil haos și incertitudine în alegerile de la jumătatea mandatului”. Judecătoarea Sonia Sotomayor a depus o disidență separată, la care s-a alăturat judecătoarea Elena Kagan.",
       "sources": [
-        {"name": "Votebeat — disidențele Jackson și Sotomayor", "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"}
+        {
+          "name": "Votebeat — disidențele Jackson și Sotomayor",
+          "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+        }
       ]
     },
     {
       "text": "Curtea însăși a precizat, în opinia majoritară, că decizia de a permite implementarea nu înseamnă că măsurile luate de guvern pentru a pune în aplicare ordinul vor fi neapărat legale — adică nu s-a pronunțat pe fondul constituționalității ordinului, ci doar pe cererea de urgență de suspendare a acestuia.",
       "sources": [
-        {"name": "Votebeat — precizarea explicită a Curții", "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"}
+        {
+          "name": "Votebeat — precizarea explicită a Curții",
+          "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+        }
       ]
     },
     {
       "text": "A doua suspendare, emisă pe 11 august 2026 de judecătoarea federală Indira Talwani (Massachusetts) într-un proces separat inițiat de organizații precum League of Women Voters, rămâne în vigoare — deci nu tot ordinul poate fi aplicat imediat. Profesorul de drept electoral Rick Hasen a estimat că și această a doua suspendare va fi probabil modificată și din nou atacată în instanță, în termen de o săptămână.",
       "sources": [
-        {"name": "Votebeat — a doua suspendare rămâne în vigoare", "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"}
+        {
+          "name": "Votebeat — a doua suspendare rămâne în vigoare",
+          "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+        }
       ]
     }
   ],
@@ -44,7 +62,10 @@
     {
       "text": "Purtătoarea de cuvânt a Casei Albe, Lauren Bis, a numit măsurile „comune și de bun-simț, care protejează securitatea buletinelor de vot prin corespondență și garantează că doar americanii aleg lideri americani” — o caracterizare politică a ordinului, nu o constatare de fapt confirmată de instanță (care nu s-a pronunțat pe fond). Procurori generali democrați din mai multe state au numit, la rândul lor, ordinul un „program de verificare a alegătorilor și interceptare a buletinelor fără precedent și indefensabil legal” — la fel, o interpretare politică opusă, nu o concluzie a Curții.",
       "sources": [
-        {"name": "CBS News — reacțiile Casei Albe și ale procurorilor generali democrați", "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"}
+        {
+          "name": "CBS News — reacțiile Casei Albe și ale procurorilor generali democrați",
+          "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"
+        }
       ]
     }
   ],
@@ -54,5 +75,16 @@
     "explanation": "Ordinul executiv are mai multe componente aflate sub două suspendări judecătorești separate. Curtea Supremă a ridicat doar una dintre ele, pe procedura de urgență — nu a decis dacă ordinul, ca atare, respectă legea sau Constituția. A doua suspendare (a judecătoarei Talwani) rămâne activă, ceea ce înseamnă că, deocamdată, nu toate prevederile ordinului pot fi puse în aplicare. Disputa de fond — dacă DHS și USPS pot condiționa legal votul prin corespondență de liste federale de cetățenie — urmează să fie judecată separat, posibil până aproape de alegerile de la jumătatea mandatului din noiembrie 2026."
   },
   "aiNote": "Ce s-a verificat exact: decizia Curții Supreme din 24 august 2026 de a ridica una dintre cele două suspendări ale Ordinului Executiv 14399 e confirmată concordant de CBS News, NPR și Votebeat — inclusiv votul pe linii ideologice, disidențele judecătoarelor Jackson (opinie separată, cu formularea „coșmar kafkian”) și Sotomayor (alături de Kagan), și mențiunea explicită a Curții că nu s-a pronunțat pe legalitatea de fond a măsurilor.\n\nUnde contează nuanța: titlurile de presă („Curtea permite lui Trump să pună în aplicare ordinul”) pot lăsa impresia unei validări legale complete. Nu e cazul — Curtea a decis doar cererea de urgență de suspendare, pe un dosar aflat încă în litigiu, iar ea însăși a scris că implementarea „nu înseamnă neapărat” legalitate. În plus, a doua suspendare (a judecătoarei Talwani, din 11 august) rămâne activă, deci nu tot ordinul devine aplicabil de mâine.\n\nCe lipsește: nu există încă o decizie pe fond a vreunei instanțe federale privind constituționalitatea ordinului; nici un calendar oficial pentru când ar putea veni acea decizie, în afara estimării profesorului Rick Hasen că a doua suspendare va fi modificată și reatacată „în următoarea săptămână”.\n\nCe ar schimba concluzia: o decizie pe fond a unei instanțe federale (sau a Curții Supreme însăși) care să declare ordinul constituțional sau neconstituțional, ori o eventuală modificare/ridicare a celei de-a doua suspendări.",
-  "persoane": ["Donald Trump", "Ketanji Brown Jackson", "Sonia Sotomayor"]
+  "persoane": [
+    "Donald Trump",
+    "Ketanji Brown Jackson",
+    "Sonia Sotomayor"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/scotus-ridica-suspendare-vot-corespondenta-trump-24-august.jpg\" alt=\"Supremă\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Supremă. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Panorama of United States Supreme Court Building at Dusk</a>\" de Joe Ravi, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/scotus-ridica-suspendare-vot-corespondenta-trump-24-august.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Joe Ravi"
+  }
 }

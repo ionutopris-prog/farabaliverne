@@ -11,20 +11,32 @@
     {
       "text": "Sepsi OSK Sfântu Gheorghe și FCSB au terminat la egalitate, scor 0-0, luni, 10 august 2026, pe Sepsi Arena, în meciul care a închis etapa a 4-a din SuperLiga. Meciul a fost arbitrat de Florin Andrei (Târgu Mureș).",
       "sources": [
-        { "name": "AGERPRES — Sepsi OSK Sfântu Gheorghe - FCSB 0-0, în SuperLiga", "url": "https://agerpres.ro/sport/2026/08/10/fotbal-sepsi-osk-sfantu-gheorghe---fcsb-0-0-in-superliga--1583814" },
-        { "name": "Flashscore — Sepsi Sf. Gheorghe v FCSB", "url": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/sepsi-IDsPIcMA/" }
+        {
+          "name": "AGERPRES — Sepsi OSK Sfântu Gheorghe - FCSB 0-0, în SuperLiga",
+          "url": "https://agerpres.ro/sport/2026/08/10/fotbal-sepsi-osk-sfantu-gheorghe---fcsb-0-0-in-superliga--1583814"
+        },
+        {
+          "name": "Flashscore — Sepsi Sf. Gheorghe v FCSB",
+          "url": "https://www.flashscore.ro/meci/fotbal/fcsb-Gv2kjDpN/sepsi-IDsPIcMA/"
+        }
       ]
     },
     {
       "text": "Gazdele au avut cele mai clare ocazii: Moses Mawa a ratat un unu-la-unu cu portarul în minutul 16, iar Funsho Bamgboye a irosit o poziție ideală în minutul 40 și a mai avut o ocazie mare în minutul 65, după erori ale apărării oaspete. Pentru FCSB, cea mai bună ocazie i-a aparținut lui Juri Cisotti, în minutul 27, care nu a reușit să fructifice un unu-la-unu.",
       "sources": [
-        { "name": "AGERPRES — fazele importante ale meciului", "url": "https://agerpres.ro/sport/2026/08/10/fotbal-sepsi-osk-sfantu-gheorghe---fcsb-0-0-in-superliga--1583814" }
+        {
+          "name": "AGERPRES — fazele importante ale meciului",
+          "url": "https://agerpres.ro/sport/2026/08/10/fotbal-sepsi-osk-sfantu-gheorghe---fcsb-0-0-in-superliga--1583814"
+        }
       ]
     },
     {
       "text": "Rezultatul menține FCSB neînvinsă în acest sezon de SuperLiga, alături de Rapid — ambele echipe rămân fără înfrângere după 4 etape.",
       "sources": [
-        { "name": "AGERPRES — FCSB rămâne neînvinsă alături de Rapid", "url": "https://agerpres.ro/sport/2026/08/10/fotbal-sepsi-osk-sfantu-gheorghe---fcsb-0-0-in-superliga--1583814" }
+        {
+          "name": "AGERPRES — FCSB rămâne neînvinsă alături de Rapid",
+          "url": "https://agerpres.ro/sport/2026/08/10/fotbal-sepsi-osk-sfantu-gheorghe---fcsb-0-0-in-superliga--1583814"
+        }
       ]
     }
   ],
@@ -35,5 +47,12 @@
     }
   ],
   "aiNote": "Singura sursă disponibilă cu detalii complete despre meci a fost AGERPRES; am confirmat scorul, data și competiția și prin pagina Flashscore a meciului. Nu am găsit contestații de fapt legate de rezultat — secțiunea „Contestat” rămâne goală intenționat.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sepsi-fcsb-0-0-superliga.jpg\" alt=\"Super\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Super. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:47_SUPER_NINTENDO.jpg\" rel=\"nofollow noopener\" target=\"_blank\">47 SUPER NINTENDO</a>\" de Museuvalenciaetnologia, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sepsi-fcsb-0-0-superliga.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Museuvalenciaetnologia"
+  }
 }

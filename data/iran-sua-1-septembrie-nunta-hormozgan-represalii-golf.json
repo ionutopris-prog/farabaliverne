@@ -1,95 +1,159 @@
 {
- "slug": "iran-sua-1-septembrie-nunta-hormozgan-represalii-golf",
- "title": "Războiul SUA–Iran, a treia zi: Semiluna Roșie cere anchetă CPI pentru lovitura de la nuntă, iar Teheranul lovește Kuweitul și Bahrainul a doua noapte la rând",
- "category": "Media de stat",
- "date": "2026-09-03",
- "source": "Reuters (JPost) / Al Jazeera / ABC News / Gulf News / RTÉ / CBS News / PressTV / Sunday Guardian Live / Middle East Eye",
- "url": "https://www.aljazeera.com/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party",
- "dek": "Marți, 1 septembrie 2026, CENTCOM a lovit noi ținte ale Gărzii Revoluționare Iraniene (IRGC), iar o lovitură a distrus o casă din Kuhestak (Hormozgan) unde avea loc o nuntă. Bilanțul s-a stabilizat miercuri la patru morți — două femei și doi copii, de 4 și 16 ani — și 67 de răniți, iar Semiluna Roșie iraniană a depus miercuri, 2 septembrie, o sesizare formală la Curtea Penală Internațională, cerând o anchetă independentă. În aceleași 24-48 de ore, IRGC a lovit din nou baze americane și aliate din Iordania, apoi, în noaptea de 2 spre 3 septembrie, a trimis rachete și drone spre Kuweit și Bahrain — a doua rundă consecutivă de represalii, condamnată de ambele guverne și de Consiliul de Cooperare al Golfului.",
- "mainVerdict": "Probat că schimbul de lovituri a avut loc pe 1 septembrie și a continuat cu atacuri asupra Kuweitului și Bahrainului în noaptea de 2-3 septembrie; probat că Semiluna Roșie iraniană a sesizat CPI. Contestate rămân bilanțul american la lovitura de la nuntă (SUA n-au confirmat ținta) și pretențiile IRGC despre victime americane grele în Iordania, neconfirmate independent",
- "probat": [
-  {
-   "text": "CENTCOM a confirmat că a lovit marți, 1 septembrie 2026, ținte ale Gărzii Revoluționare Iraniene (IRGC) — situri de apărare antiaeriană, sisteme radar, active navale, capacități de minare navală și situri de comunicații — ca reacție la „atacurile recente ale IRGC asupra transportului comercial din Strâmtoarea Hormuz și asupra militarilor americani desfășurați în regiune”. Președintele Trump a spus că lovitura a vizat un radar iranian aflat în reconstrucție: „am așteptat până a fost aproape gata și apoi l-am lovit”.",
-   "sources": [
-    {"name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets", "url": "https://www.jpost.com/middle-east/article-907279"},
-    {"name": "RTÉ — US strikes kill five people, wound 50 at wedding in Iran", "url": "https://www.rte.ie/news/middle-east/2026/0901/1589938-iran-us/"}
-   ]
+  "slug": "iran-sua-1-septembrie-nunta-hormozgan-represalii-golf",
+  "title": "Războiul SUA–Iran, a treia zi: Semiluna Roșie cere anchetă CPI pentru lovitura de la nuntă, iar Teheranul lovește Kuweitul și Bahrainul a doua noapte la rând",
+  "category": "Media de stat",
+  "date": "2026-09-03",
+  "source": "Reuters (JPost) / Al Jazeera / ABC News / Gulf News / RTÉ / CBS News / PressTV / Sunday Guardian Live / Middle East Eye",
+  "url": "https://www.aljazeera.com/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party",
+  "dek": "Marți, 1 septembrie 2026, CENTCOM a lovit noi ținte ale Gărzii Revoluționare Iraniene (IRGC), iar o lovitură a distrus o casă din Kuhestak (Hormozgan) unde avea loc o nuntă. Bilanțul s-a stabilizat miercuri la patru morți — două femei și doi copii, de 4 și 16 ani — și 67 de răniți, iar Semiluna Roșie iraniană a depus miercuri, 2 septembrie, o sesizare formală la Curtea Penală Internațională, cerând o anchetă independentă. În aceleași 24-48 de ore, IRGC a lovit din nou baze americane și aliate din Iordania, apoi, în noaptea de 2 spre 3 septembrie, a trimis rachete și drone spre Kuweit și Bahrain — a doua rundă consecutivă de represalii, condamnată de ambele guverne și de Consiliul de Cooperare al Golfului.",
+  "mainVerdict": "Probat că schimbul de lovituri a avut loc pe 1 septembrie și a continuat cu atacuri asupra Kuweitului și Bahrainului în noaptea de 2-3 septembrie; probat că Semiluna Roșie iraniană a sesizat CPI. Contestate rămân bilanțul american la lovitura de la nuntă (SUA n-au confirmat ținta) și pretențiile IRGC despre victime americane grele în Iordania, neconfirmate independent",
+  "probat": [
+    {
+      "text": "CENTCOM a confirmat că a lovit marți, 1 septembrie 2026, ținte ale Gărzii Revoluționare Iraniene (IRGC) — situri de apărare antiaeriană, sisteme radar, active navale, capacități de minare navală și situri de comunicații — ca reacție la „atacurile recente ale IRGC asupra transportului comercial din Strâmtoarea Hormuz și asupra militarilor americani desfășurați în regiune”. Președintele Trump a spus că lovitura a vizat un radar iranian aflat în reconstrucție: „am așteptat până a fost aproape gata și apoi l-am lovit”.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        },
+        {
+          "name": "RTÉ — US strikes kill five people, wound 50 at wedding in Iran",
+          "url": "https://www.rte.ie/news/middle-east/2026/0901/1589938-iran-us/"
+        }
+      ]
+    },
+    {
+      "text": "O lovitură a distrus o casă din localitatea Kuhestak, județul Sirik, provincia Hormozgan, pe malul Strâmtorii Hormuz, unde avea loc o nuntă. Evenimentul e confirmat de mai multe surse — inclusiv agenții de presă occidentale care preiau relatările oficiale iraniene și imagini video cu „dărâmături și distrugeri extinse” la fața locului — dar SUA nu au confirmat sau infirmat explicit că nunta ar fi fost ținta lovită; comunicatul CENTCOM vorbește doar despre ținte legate de IRGC.",
+      "sources": [
+        {
+          "name": "RTÉ — US strikes kill five people, wound 50 at wedding in Iran",
+          "url": "https://www.rte.ie/news/middle-east/2026/0901/1589938-iran-us/"
+        },
+        {
+          "name": "CBS News — U.S.-Iran War Live Updates: Jordan intercepts Iranian missiles as Trump vows more strikes on Iran",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/"
+        }
+      ]
+    },
+    {
+      "text": "Iran a lansat 13 rachete balistice spre Iordania; armata iordaniană a anunțat că sistemele de apărare antiaeriană au interceptat 10 dintre ele, iar celelalte trei au căzut în zone izolate, fără victime. IRGC a revendicat, printr-o operațiune proprie, atacuri asupra bazei americane Camp Titin (pe malul Golfului Aqaba) și asupra bazei Prince Hassan, unde sunt staționate drone RQ-4 și MQ-9.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        },
+        {
+          "name": "Sunday Guardian Live — IRGC Claims Ballistic Missile Strike on US Military Camp in Jordan, Says Installations Destroyed",
+          "url": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-irgc-claims-ballistic-missile-strike-on-us-military-camp-in-jordan-says-installations-destroyed-275136/"
+        }
+      ]
+    },
+    {
+      "text": "Armata iraniană a revendicat separat un atac cu drone asupra bazei Sheikh Isa din Bahrain, numindu-l „faza a 29-a” a operațiunii proprii „Tunet”. Purtătorul de cuvânt al armatei iraniene, Ebrahim Zolfaghari, a avertizat că Iranul „nu va mai exercita reținere” față de Bahrain și Kuweit, spunând că „mai vin cadouri”.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        },
+        {
+          "name": "Middle East Eye — Iran says it launched drone attacks on US base in Bahrain",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain"
+        }
+      ]
+    },
+    {
+      "text": "Semiluna Roșie iraniană a trimis miercuri, 2 septembrie, o scrisoare Curții Penale Internaționale, cerând o anchetă „independentă, imparțială, temeinică și eficientă” asupra lovirii nunții din Kuhestak, invocând „caracterul civil al locului”. E prima sesizare de acest fel împotriva conduitei militare americane de la începutul războiului, pe 28 februarie 2026. Bilanțul oficial s-a stabilizat, potrivit Al Jazeera, la patru morți — două femei și doi copii, de 4 și, respectiv, 16 ani — și 67 de răniți.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Iran Red Crescent urges ICC probe into deadly US strike on wedding party",
+          "url": "https://www.aljazeera.com/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party"
+        },
+        {
+          "name": "ABC News Australia — Iran accuses US of a 'war crime' after strikes kill people at wedding party",
+          "url": "https://www.abc.net.au/news/2026-09-03/iran-us-wedding-war-crime-allegation/107109332"
+        }
+      ]
+    },
+    {
+      "text": "În noaptea de 2 spre 3 septembrie, Garda Revoluționară a lovit din nou aliați americani din Golf: un complex rezidențial din Kuweit City (drone, incendiu stins fără victime, potrivit pompierilor kuweitieni) și mai multe ținte din Bahrain, unde apărarea antiaeriană a interceptat „mai multe atacuri aeriene iraniene”, potrivit comandamentului general al forțelor bahreineze. Ambele guverne au declanșat sirene de alarmă și au emis condamnări oficiale, la fel ca Secretarul General al Consiliului de Cooperare al Golfului, care a numit atacurile „o încălcare flagrantă a autonomiei statelor”.",
+      "sources": [
+        {
+          "name": "Gulf News — US strikes kill 11 in Iran as Tehran retaliates with missile and drone attacks on Kuwait, Bahrain and Jordan",
+          "url": "https://gulfnews.com/world/mena/us-strikes-iran-tehran-retaliates-with-missile-and-drone-attacks-in-kuwait-bahrain-and-jordan-1.500660148"
+        },
+        {
+          "name": "Al Jazeera — Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11",
+          "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Purtătorul de cuvânt al IRGC a susținut, prin agenția de stat iraniană IRIB, că la Camp Titin „un număr mare de militari americani au fost uciși” și că „mai mulți piloți și tehnicieni de zbor” și-au pierdut viața, iar mai multe elicoptere de atac ar fi fost distruse. Doi oficiali americani, citați de Reuters, au declarat însă că nu a existat nicio victimă americană în urma atacurilor iraniene asupra bazelor din Iordania — o contrazicere directă, pe care nicio sursă independentă (occidentală sau iordaniană) nu o confirmă în favoarea versiunii IRGC.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        },
+        {
+          "name": "Sunday Guardian Live — IRGC Claims Ballistic Missile Strike on US Military Camp in Jordan, Says Installations Destroyed",
+          "url": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-irgc-claims-ballistic-missile-strike-on-us-military-camp-in-jordan-says-installations-destroyed-275136/"
+        }
+      ]
+    },
+    {
+      "text": "Atacul revendicat asupra bazei Sheikh Isa din Bahrain rămâne nesusținut independent: nici Departamentul american al Apărării, nici guvernul bahreinez nu au confirmat că un asemenea atac ar fi avut loc, nici nu au raportat vreo victimă sau pagubă materială la baza respectivă.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        },
+        {
+          "name": "Middle East Eye — Iran says it launched drone attacks on US base in Bahrain",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain"
+        }
+      ]
+    },
+    {
+      "text": "Bilanțul victimelor de la nunta din Kuhestak a variat chiar în interiorul surselor iraniene, pe parcursul primei zile: guvernatorul adjunct pentru securitate al provinciei Hormozgan a declarat inițial, la televiziunea de stat, că sunt doi morți; ore mai târziu, Semiluna Roșie iraniană a anunțat cinci morți, inclusiv un copil, și 50-68 de răniți. O zi mai târziu, cifra s-a stabilizat la patru morți (două femei, doi copii) și 67 de răniți, potrivit Al Jazeera și ABC News — dar rămâne o cifră de sursă iraniană; nicio anchetă independentă (non-iraniană) n-a verificat la fața locului numărul exact de victime, iar SUA nu au confirmat sau infirmat că nunta ar fi fost ținta lovită.",
+      "sources": [
+        {
+          "name": "RTÉ — US strikes kill five people, wound 50 at wedding in Iran",
+          "url": "https://www.rte.ie/news/middle-east/2026/0901/1589938-iran-us/"
+        },
+        {
+          "name": "Al Jazeera — Iran Red Crescent urges ICC probe into deadly US strike on wedding party",
+          "url": "https://www.aljazeera.com/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Șeful comisiei de securitate a parlamentului iranian și oficiali din Hormozgan au calificat lovitura de la nuntă drept „crimă de război” — o încadrare juridică și morală, nu un fapt stabilit independent, pe care nicio instanță sau organizație independentă nu a confirmat-o până la data verificării.",
+      "sources": []
+    },
+    {
+      "text": "Președintele Trump a amenințat că, dacă Iranul continuă represaliile, va răspunde „la un nivel mult mai dur și mai înalt”, adăugând că, în cele din urmă, „va mai rămâne foarte puțin din Republica Islamică Iran” — o declarație de intenție politică, nu o descriere a unui fapt petrecut.",
+      "sources": [
+        {
+          "name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets",
+          "url": "https://www.jpost.com/middle-east/article-907279"
+        }
+      ]
+    }
+  ],
+  "aiNote": "📡 Acest articol conține mai multe afirmații provenite din presa și instituțiile de stat iraniene (IRIB, PressTV, Semiluna Roșie, armata iraniană, IRGC), cross-verificate cu surse independente (Reuters, Al Jazeera, ABC News, RTÉ, CBS News, Gulf News, comandamentele de apărare din Iordania, Kuweit și Bahrain).\n\nCe s-a verificat exact: că SUA au lovit pe 1 septembrie ținte legate de IRGC (confirmat de CENTCOM și de Trump însuși); că a existat o lovitură care a distrus o casă în Kuhestak în timpul unei nunți, cu un bilanț ajuns la patru morți și 67 de răniți (relatat concordant, o zi mai târziu, de Al Jazeera și ABC News, pe baza cifrelor Semilunii Roșii); că Semiluna Roșie a sesizat formal CPI pe 2 septembrie; și că Iranul a lovit din nou, în noaptea de 2 spre 3 septembrie, ținte din Kuweit și Bahrain, fapt confirmat de comandamentele de apărare ale ambelor țări.\n\nUnde se despart sursele: bilanțul de la nuntă a variat inițial chiar între surse iraniene (de la „doi morți”, TV de stat, la „cinci morți”, Semiluna Roșie, în aceeași zi) și s-a stabilizat abia a doua zi la patru morți — dar rămâne, la origine, o cifră furnizată exclusiv de partea iraniană, fără o anchetă non-iraniană la fața locului. Pe front opus, IRGC susține că a ucis „un număr mare” de militari americani la Camp Titin, în Iordania — afirmație contrazisă explicit de doi oficiali americani citați de Reuters, care vorbesc despre zero victime. Un atac revendicat asupra bazei Sheikh Isa din Bahrain rămâne fără confirmare independentă din partea SUA sau a Bahrainului.\n\nCe lipsește: o anchetă independentă (jurnaliști sau observatori non-iranieni) la fața locului în Kuhestak; o confirmare sau infirmare oficială a SUA sau a Bahrainului privind atacul revendicat asupra bazei Sheikh Isa; și un răspuns public al SUA la sesizarea CPI a Semilunii Roșii.\n\nCe ar schimba concluzia: o decizie sau un anunț al Curții Penale Internaționale privind sesizarea, imagini satelitare sau relatări ale unor observatori independenți de la locurile revendicate ca lovite, sau un bilanț oficial unic, necontrazis, al victimelor de la nunta din Hormozgan.",
+  "math": {
+    "title": "De la „doi” la „cinci”, apoi „patru” — trei cifre în 24 de ore",
+    "text": "Bilanțul oficial de la nunta din Kuhestak s-a schimbat de trei ori în mai puțin de o zi: „doi morți” (TV de stat, ora inițială), „cinci morți” (Semiluna Roșie, câteva ore mai târziu), apoi „patru morți” (a doua zi, cifra reținută de presa internațională) — fără ca vreo sursă iraniană să explice public revizuirile. În paralel, din cele 13 rachete trase spre Iordania, 10 au fost interceptate (77%); represaliile s-au extins apoi, în noaptea de 2-3 septembrie, la Kuweit și Bahrain — a doua rundă de atacuri IRGC în Golf în mai puțin de 48 de ore de la prima."
   },
-  {
-   "text": "O lovitură a distrus o casă din localitatea Kuhestak, județul Sirik, provincia Hormozgan, pe malul Strâmtorii Hormuz, unde avea loc o nuntă. Evenimentul e confirmat de mai multe surse — inclusiv agenții de presă occidentale care preiau relatările oficiale iraniene și imagini video cu „dărâmături și distrugeri extinse” la fața locului — dar SUA nu au confirmat sau infirmat explicit că nunta ar fi fost ținta lovită; comunicatul CENTCOM vorbește doar despre ținte legate de IRGC.",
-   "sources": [
-    {"name": "RTÉ — US strikes kill five people, wound 50 at wedding in Iran", "url": "https://www.rte.ie/news/middle-east/2026/0901/1589938-iran-us/"},
-    {"name": "CBS News — U.S.-Iran War Live Updates: Jordan intercepts Iranian missiles as Trump vows more strikes on Iran", "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/"}
-   ]
-  },
-  {
-   "text": "Iran a lansat 13 rachete balistice spre Iordania; armata iordaniană a anunțat că sistemele de apărare antiaeriană au interceptat 10 dintre ele, iar celelalte trei au căzut în zone izolate, fără victime. IRGC a revendicat, printr-o operațiune proprie, atacuri asupra bazei americane Camp Titin (pe malul Golfului Aqaba) și asupra bazei Prince Hassan, unde sunt staționate drone RQ-4 și MQ-9.",
-   "sources": [
-    {"name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets", "url": "https://www.jpost.com/middle-east/article-907279"},
-    {"name": "Sunday Guardian Live — IRGC Claims Ballistic Missile Strike on US Military Camp in Jordan, Says Installations Destroyed", "url": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-irgc-claims-ballistic-missile-strike-on-us-military-camp-in-jordan-says-installations-destroyed-275136/"}
-   ]
-  },
-  {
-   "text": "Armata iraniană a revendicat separat un atac cu drone asupra bazei Sheikh Isa din Bahrain, numindu-l „faza a 29-a” a operațiunii proprii „Tunet”. Purtătorul de cuvânt al armatei iraniene, Ebrahim Zolfaghari, a avertizat că Iranul „nu va mai exercita reținere” față de Bahrain și Kuweit, spunând că „mai vin cadouri”.",
-   "sources": [
-    {"name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets", "url": "https://www.jpost.com/middle-east/article-907279"},
-    {"name": "Middle East Eye — Iran says it launched drone attacks on US base in Bahrain", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain"}
-   ]
-  },
-  {
-   "text": "Semiluna Roșie iraniană a trimis miercuri, 2 septembrie, o scrisoare Curții Penale Internaționale, cerând o anchetă „independentă, imparțială, temeinică și eficientă” asupra lovirii nunții din Kuhestak, invocând „caracterul civil al locului”. E prima sesizare de acest fel împotriva conduitei militare americane de la începutul războiului, pe 28 februarie 2026. Bilanțul oficial s-a stabilizat, potrivit Al Jazeera, la patru morți — două femei și doi copii, de 4 și, respectiv, 16 ani — și 67 de răniți.",
-   "sources": [
-    {"name": "Al Jazeera — Iran Red Crescent urges ICC probe into deadly US strike on wedding party", "url": "https://www.aljazeera.com/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party"},
-    {"name": "ABC News Australia — Iran accuses US of a 'war crime' after strikes kill people at wedding party", "url": "https://www.abc.net.au/news/2026-09-03/iran-us-wedding-war-crime-allegation/107109332"}
-   ]
-  },
-  {
-   "text": "În noaptea de 2 spre 3 septembrie, Garda Revoluționară a lovit din nou aliați americani din Golf: un complex rezidențial din Kuweit City (drone, incendiu stins fără victime, potrivit pompierilor kuweitieni) și mai multe ținte din Bahrain, unde apărarea antiaeriană a interceptat „mai multe atacuri aeriene iraniene”, potrivit comandamentului general al forțelor bahreineze. Ambele guverne au declanșat sirene de alarmă și au emis condamnări oficiale, la fel ca Secretarul General al Consiliului de Cooperare al Golfului, care a numit atacurile „o încălcare flagrantă a autonomiei statelor”.",
-   "sources": [
-    {"name": "Gulf News — US strikes kill 11 in Iran as Tehran retaliates with missile and drone attacks on Kuwait, Bahrain and Jordan", "url": "https://gulfnews.com/world/mena/us-strikes-iran-tehran-retaliates-with-missile-and-drone-attacks-in-kuwait-bahrain-and-jordan-1.500660148"},
-    {"name": "Al Jazeera — Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11", "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"}
-   ]
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iran-sua-1-septembrie-nunta-hormozgan-represalii-golf.jpg\" alt=\"Bandar Abbas Hormozgan Iran\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bandar Abbas Hormozgan Iran. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:BandarAbbas-Landscape.jpg\" rel=\"nofollow noopener\" target=\"_blank\">BandarAbbas-Landscape</a>\" de Hasanbardal, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iran-sua-1-septembrie-nunta-hormozgan-represalii-golf.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Hasanbardal"
   }
- ],
- "contestat": [
-  {
-   "text": "Purtătorul de cuvânt al IRGC a susținut, prin agenția de stat iraniană IRIB, că la Camp Titin „un număr mare de militari americani au fost uciși” și că „mai mulți piloți și tehnicieni de zbor” și-au pierdut viața, iar mai multe elicoptere de atac ar fi fost distruse. Doi oficiali americani, citați de Reuters, au declarat însă că nu a existat nicio victimă americană în urma atacurilor iraniene asupra bazelor din Iordania — o contrazicere directă, pe care nicio sursă independentă (occidentală sau iordaniană) nu o confirmă în favoarea versiunii IRGC.",
-   "sources": [
-    {"name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets", "url": "https://www.jpost.com/middle-east/article-907279"},
-    {"name": "Sunday Guardian Live — IRGC Claims Ballistic Missile Strike on US Military Camp in Jordan, Says Installations Destroyed", "url": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-irgc-claims-ballistic-missile-strike-on-us-military-camp-in-jordan-says-installations-destroyed-275136/"}
-   ]
-  },
-  {
-   "text": "Atacul revendicat asupra bazei Sheikh Isa din Bahrain rămâne nesusținut independent: nici Departamentul american al Apărării, nici guvernul bahreinez nu au confirmat că un asemenea atac ar fi avut loc, nici nu au raportat vreo victimă sau pagubă materială la baza respectivă.",
-   "sources": [
-    {"name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets", "url": "https://www.jpost.com/middle-east/article-907279"},
-    {"name": "Middle East Eye — Iran says it launched drone attacks on US base in Bahrain", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain"}
-   ]
-  },
-  {
-   "text": "Bilanțul victimelor de la nunta din Kuhestak a variat chiar în interiorul surselor iraniene, pe parcursul primei zile: guvernatorul adjunct pentru securitate al provinciei Hormozgan a declarat inițial, la televiziunea de stat, că sunt doi morți; ore mai târziu, Semiluna Roșie iraniană a anunțat cinci morți, inclusiv un copil, și 50-68 de răniți. O zi mai târziu, cifra s-a stabilizat la patru morți (două femei, doi copii) și 67 de răniți, potrivit Al Jazeera și ABC News — dar rămâne o cifră de sursă iraniană; nicio anchetă independentă (non-iraniană) n-a verificat la fața locului numărul exact de victime, iar SUA nu au confirmat sau infirmat că nunta ar fi fost ținta lovită.",
-   "sources": [
-    {"name": "RTÉ — US strikes kill five people, wound 50 at wedding in Iran", "url": "https://www.rte.ie/news/middle-east/2026/0901/1589938-iran-us/"},
-    {"name": "Al Jazeera — Iran Red Crescent urges ICC probe into deadly US strike on wedding party", "url": "https://www.aljazeera.com/news/2026/9/3/iran-red-crescent-urges-icc-probe-into-deadly-us-strike-on-wedding-party"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Șeful comisiei de securitate a parlamentului iranian și oficiali din Hormozgan au calificat lovitura de la nuntă drept „crimă de război” — o încadrare juridică și morală, nu un fapt stabilit independent, pe care nicio instanță sau organizație independentă nu a confirmat-o până la data verificării.",
-   "sources": []
-  },
-  {
-   "text": "Președintele Trump a amenințat că, dacă Iranul continuă represaliile, va răspunde „la un nivel mult mai dur și mai înalt”, adăugând că, în cele din urmă, „va mai rămâne foarte puțin din Republica Islamică Iran” — o declarație de intenție politică, nu o descriere a unui fapt petrecut.",
-   "sources": [
-    {"name": "The Jerusalem Post (Reuters) — Attacks on Jordan, Bahrain as Iran launches retaliatory strikes against US targets", "url": "https://www.jpost.com/middle-east/article-907279"}
-   ]
-  }
- ],
- "aiNote": "📡 Acest articol conține mai multe afirmații provenite din presa și instituțiile de stat iraniene (IRIB, PressTV, Semiluna Roșie, armata iraniană, IRGC), cross-verificate cu surse independente (Reuters, Al Jazeera, ABC News, RTÉ, CBS News, Gulf News, comandamentele de apărare din Iordania, Kuweit și Bahrain).\n\nCe s-a verificat exact: că SUA au lovit pe 1 septembrie ținte legate de IRGC (confirmat de CENTCOM și de Trump însuși); că a existat o lovitură care a distrus o casă în Kuhestak în timpul unei nunți, cu un bilanț ajuns la patru morți și 67 de răniți (relatat concordant, o zi mai târziu, de Al Jazeera și ABC News, pe baza cifrelor Semilunii Roșii); că Semiluna Roșie a sesizat formal CPI pe 2 septembrie; și că Iranul a lovit din nou, în noaptea de 2 spre 3 septembrie, ținte din Kuweit și Bahrain, fapt confirmat de comandamentele de apărare ale ambelor țări.\n\nUnde se despart sursele: bilanțul de la nuntă a variat inițial chiar între surse iraniene (de la „doi morți”, TV de stat, la „cinci morți”, Semiluna Roșie, în aceeași zi) și s-a stabilizat abia a doua zi la patru morți — dar rămâne, la origine, o cifră furnizată exclusiv de partea iraniană, fără o anchetă non-iraniană la fața locului. Pe front opus, IRGC susține că a ucis „un număr mare” de militari americani la Camp Titin, în Iordania — afirmație contrazisă explicit de doi oficiali americani citați de Reuters, care vorbesc despre zero victime. Un atac revendicat asupra bazei Sheikh Isa din Bahrain rămâne fără confirmare independentă din partea SUA sau a Bahrainului.\n\nCe lipsește: o anchetă independentă (jurnaliști sau observatori non-iranieni) la fața locului în Kuhestak; o confirmare sau infirmare oficială a SUA sau a Bahrainului privind atacul revendicat asupra bazei Sheikh Isa; și un răspuns public al SUA la sesizarea CPI a Semilunii Roșii.\n\nCe ar schimba concluzia: o decizie sau un anunț al Curții Penale Internaționale privind sesizarea, imagini satelitare sau relatări ale unor observatori independenți de la locurile revendicate ca lovite, sau un bilanț oficial unic, necontrazis, al victimelor de la nunta din Hormozgan.",
- "math": {
-  "title": "De la „doi” la „cinci”, apoi „patru” — trei cifre în 24 de ore",
-  "text": "Bilanțul oficial de la nunta din Kuhestak s-a schimbat de trei ori în mai puțin de o zi: „doi morți” (TV de stat, ora inițială), „cinci morți” (Semiluna Roșie, câteva ore mai târziu), apoi „patru morți” (a doua zi, cifra reținută de presa internațională) — fără ca vreo sursă iraniană să explice public revizuirile. În paralel, din cele 13 rachete trase spre Iordania, 10 au fost interceptate (77%); represaliile s-au extins apoi, în noaptea de 2-3 septembrie, la Kuweit și Bahrain — a doua rundă de atacuri IRGC în Golf în mai puțin de 48 de ore de la prima."
- },
- "persoane": []
 }

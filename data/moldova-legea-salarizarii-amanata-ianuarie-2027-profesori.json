@@ -1,63 +1,100 @@
 {
- "slug": "moldova-legea-salarizarii-amanata-ianuarie-2027-profesori",
- "title": "Guvernul de la Chișinău recunoaște: majorările de salarii promise bugetarilor de la 1 septembrie vin abia din 2027",
- "category": "Economie",
- "tara": "Moldova",
- "date": "2026-08-28",
- "source": "Moldova 1 / Realitatea.md / Ziar.md / Bani.md",
- "url": "https://moldova1.md/p/83514/bugetarii-din-r-moldova-vor-primi-plati-unice-intre-2-000-si-4-000-de-lei-pana-la-finele-anului--vom-compensa-intarzierea-legii-salarizarii-",
- "dek": "Noua Lege a salarizării în sectorul bugetar trebuia să aducă majorări de la 1 septembrie 2026. Președinta Maia Sandu a anunțat încă din 7 august că termenul nu se va respecta; premierul Vasile Tofan a confirmat pe 19 august, în fața profesorilor care protestau, că legea intră în vigoare abia la 1 ianuarie 2027 — patru luni mai târziu — din lipsă de bani în buget. Sindicatele din educație și-au suspendat protestul programat pentru 1 septembrie după ce guvernul a promis plăți compensatorii.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Președinta Maia Sandu a declarat pe 7 august 2026: „Nu cred că se reușește de la 1 septembrie, pentru că suntem deja în august. Abia acum s-au clarificat lucrurile” — legând amânarea de nevoia de a sincroniza noua Lege a salarizării cu reforma fiscală prezentată de guvern cu o zi înainte.",
-   "sources": [
-    {"name": "Moldova 1 (televiziunea publică) — Majorarea salariilor din 1 septembrie se amână", "url": "https://moldova1.md/p/82584/majorarea-salariilor-din-1-septembrie-se-amana--nu-se-reuseste-cifrele-trebuie-aduse-in-concordanta-cu-reforma-fiscala-"}
-   ]
-  },
-  {
-   "text": "Pe 19 august 2026, premierul Vasile Tofan a confirmat, în fața profesorilor adunați la protest în Piața Marii Adunări Naționale, că Legea salarizării va intra în vigoare la 1 ianuarie 2027, nu la 1 septembrie 2026 cum se anunțase — motivul invocat fiind lipsa celor peste 5 miliarde de lei necesari reformei în bugetul septembrie–decembrie 2026.",
-   "sources": [
-    {"name": "Bani.md — Salariile bugetarilor nu vor crește din septembrie: Tofan anunță amânarea până în 2027", "url": "https://bani.md/salariile-bugetarilor-nu-vor-creste-din-septembrie-tofan-anunta-amanarea-pana-in-2027/"},
-    {"name": "Unimedia — Profesorii au cerut majorări de salarii; Tofan: „lucrurile stau prost la capitolul bugetar”", "url": "https://unimedia.info/ro/news/69e3cd0e0c90282b/video-profesorii-au-cerut-majorari-de-salarii-cu-scandari-si-sunete-de-clopotei-in-fata-guvernului-tofan-inteleg-furia-voastra-dar-lucrurile-stau-prost-la-capitolul-bugetar.html"}
-   ]
-  },
-  {
-   "text": "Federația Sindicală a Educației și Științei (FSEȘ) a organizat protestul din 19 august, cerând respectarea angajamentului de majorare salarială de la 1 septembrie. Pe 28 august, FSEȘ și-a suspendat acțiunile de protest programate pentru 1 septembrie, declarând: „Suspendarea protestelor nu înseamnă renunțarea la revendicări” — negocierile cu Ministerul Educației și premierul Tofan au început chiar pe 1 septembrie.",
-   "sources": [
-    {"name": "Realitatea.md — Protestul profesorilor din 1 septembrie, suspendat. Din ce motiv?", "url": "https://realitatea.md/protestul-profesorilor-din-1-septembrie-suspendat-din-ce-motiv/"},
-    {"name": "Ziar.md — Sindicatele din educație pun protestele pe pauză, negocierile încep pe 1 septembrie", "url": "https://ziar.md/sindicatele-din-educatie-pun-protestele-pe-pauza-revendicarile-raman-iar-negocierile-incep-pe-1-septembrie/"}
-   ]
-  },
-  {
-   "text": "Ca măsură compensatorie pentru cele patru luni de întârziere, angajații bugetari cu salariul brut sub 20.000 de lei vor primi, în octombrie 2026, plăți unice: 4.000 de lei net pentru cadre didactice, 3.000 de lei pentru sănătate, apărare, ordine publică, justiție, cultură, sport și domeniul social, respectiv 2.000 de lei pentru personalul auxiliar (paznici, bucătari, personal tehnic).",
-   "sources": [
-    {"name": "Moldova 1 — Bugetarii vor primi plăți unice între 2.000 și 4.000 de lei până la finele anului", "url": "https://moldova1.md/p/83514/bugetarii-din-r-moldova-vor-primi-plati-unice-intre-2-000-si-4-000-de-lei-pana-la-finele-anului--vom-compensa-intarzierea-legii-salarizarii-"}
-   ]
-  },
-  {
-   "text": "Legea salarizării, când va intra în vigoare la 1 ianuarie 2027, prevede majorări diferențiate pe sectoare: educație 5-15%, ordine publică 15%, sănătate și domeniu social 17%, apărare 19%, justiție 9%, administrație publică și cultură/tineret/sport circa 15%. Reforma va costa peste 5 miliarde de lei.",
-   "sources": [
-    {"name": "Moldova 1 — procentele de majorare pe sectoare, valabile din 1 ianuarie 2027", "url": "https://moldova1.md/p/83514/bugetarii-din-r-moldova-vor-primi-plati-unice-intre-2-000-si-4-000-de-lei-pana-la-finele-anului--vom-compensa-intarzierea-legii-salarizarii-"}
-   ]
+  "slug": "moldova-legea-salarizarii-amanata-ianuarie-2027-profesori",
+  "title": "Guvernul de la Chișinău recunoaște: majorările de salarii promise bugetarilor de la 1 septembrie vin abia din 2027",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-08-28",
+  "source": "Moldova 1 / Realitatea.md / Ziar.md / Bani.md",
+  "url": "https://moldova1.md/p/83514/bugetarii-din-r-moldova-vor-primi-plati-unice-intre-2-000-si-4-000-de-lei-pana-la-finele-anului--vom-compensa-intarzierea-legii-salarizarii-",
+  "dek": "Noua Lege a salarizării în sectorul bugetar trebuia să aducă majorări de la 1 septembrie 2026. Președinta Maia Sandu a anunțat încă din 7 august că termenul nu se va respecta; premierul Vasile Tofan a confirmat pe 19 august, în fața profesorilor care protestau, că legea intră în vigoare abia la 1 ianuarie 2027 — patru luni mai târziu — din lipsă de bani în buget. Sindicatele din educație și-au suspendat protestul programat pentru 1 septembrie după ce guvernul a promis plăți compensatorii.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Președinta Maia Sandu a declarat pe 7 august 2026: „Nu cred că se reușește de la 1 septembrie, pentru că suntem deja în august. Abia acum s-au clarificat lucrurile” — legând amânarea de nevoia de a sincroniza noua Lege a salarizării cu reforma fiscală prezentată de guvern cu o zi înainte.",
+      "sources": [
+        {
+          "name": "Moldova 1 (televiziunea publică) — Majorarea salariilor din 1 septembrie se amână",
+          "url": "https://moldova1.md/p/82584/majorarea-salariilor-din-1-septembrie-se-amana--nu-se-reuseste-cifrele-trebuie-aduse-in-concordanta-cu-reforma-fiscala-"
+        }
+      ]
+    },
+    {
+      "text": "Pe 19 august 2026, premierul Vasile Tofan a confirmat, în fața profesorilor adunați la protest în Piața Marii Adunări Naționale, că Legea salarizării va intra în vigoare la 1 ianuarie 2027, nu la 1 septembrie 2026 cum se anunțase — motivul invocat fiind lipsa celor peste 5 miliarde de lei necesari reformei în bugetul septembrie–decembrie 2026.",
+      "sources": [
+        {
+          "name": "Bani.md — Salariile bugetarilor nu vor crește din septembrie: Tofan anunță amânarea până în 2027",
+          "url": "https://bani.md/salariile-bugetarilor-nu-vor-creste-din-septembrie-tofan-anunta-amanarea-pana-in-2027/"
+        },
+        {
+          "name": "Unimedia — Profesorii au cerut majorări de salarii; Tofan: „lucrurile stau prost la capitolul bugetar”",
+          "url": "https://unimedia.info/ro/news/69e3cd0e0c90282b/video-profesorii-au-cerut-majorari-de-salarii-cu-scandari-si-sunete-de-clopotei-in-fata-guvernului-tofan-inteleg-furia-voastra-dar-lucrurile-stau-prost-la-capitolul-bugetar.html"
+        }
+      ]
+    },
+    {
+      "text": "Federația Sindicală a Educației și Științei (FSEȘ) a organizat protestul din 19 august, cerând respectarea angajamentului de majorare salarială de la 1 septembrie. Pe 28 august, FSEȘ și-a suspendat acțiunile de protest programate pentru 1 septembrie, declarând: „Suspendarea protestelor nu înseamnă renunțarea la revendicări” — negocierile cu Ministerul Educației și premierul Tofan au început chiar pe 1 septembrie.",
+      "sources": [
+        {
+          "name": "Realitatea.md — Protestul profesorilor din 1 septembrie, suspendat. Din ce motiv?",
+          "url": "https://realitatea.md/protestul-profesorilor-din-1-septembrie-suspendat-din-ce-motiv/"
+        },
+        {
+          "name": "Ziar.md — Sindicatele din educație pun protestele pe pauză, negocierile încep pe 1 septembrie",
+          "url": "https://ziar.md/sindicatele-din-educatie-pun-protestele-pe-pauza-revendicarile-raman-iar-negocierile-incep-pe-1-septembrie/"
+        }
+      ]
+    },
+    {
+      "text": "Ca măsură compensatorie pentru cele patru luni de întârziere, angajații bugetari cu salariul brut sub 20.000 de lei vor primi, în octombrie 2026, plăți unice: 4.000 de lei net pentru cadre didactice, 3.000 de lei pentru sănătate, apărare, ordine publică, justiție, cultură, sport și domeniul social, respectiv 2.000 de lei pentru personalul auxiliar (paznici, bucătari, personal tehnic).",
+      "sources": [
+        {
+          "name": "Moldova 1 — Bugetarii vor primi plăți unice între 2.000 și 4.000 de lei până la finele anului",
+          "url": "https://moldova1.md/p/83514/bugetarii-din-r-moldova-vor-primi-plati-unice-intre-2-000-si-4-000-de-lei-pana-la-finele-anului--vom-compensa-intarzierea-legii-salarizarii-"
+        }
+      ]
+    },
+    {
+      "text": "Legea salarizării, când va intra în vigoare la 1 ianuarie 2027, prevede majorări diferențiate pe sectoare: educație 5-15%, ordine publică 15%, sănătate și domeniu social 17%, apărare 19%, justiție 9%, administrație publică și cultură/tineret/sport circa 15%. Reforma va costa peste 5 miliarde de lei.",
+      "sources": [
+        {
+          "name": "Moldova 1 — procentele de majorare pe sectoare, valabile din 1 ianuarie 2027",
+          "url": "https://moldova1.md/p/83514/bugetarii-din-r-moldova-vor-primi-plati-unice-intre-2-000-si-4-000-de-lei-pana-la-finele-anului--vom-compensa-intarzierea-legii-salarizarii-"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu se probează din sursele publice ce anume s-a schimbat între momentul în care legea a fost promisă pentru 1 septembrie și 7 august, când Maia Sandu a spus pentru prima dată că termenul nu se va respecta — relatările citate nu redau o dată exactă la care angajamentul inițial de „1 septembrie” a fost asumat oficial, nici cine l-a făcut.",
+      "sources": [
+        {
+          "name": "Moldova 1 — declarația Maiei Sandu din 7 august, fără precizarea originii angajamentului inițial",
+          "url": "https://moldova1.md/p/82584/majorarea-salariilor-din-1-septembrie-se-amana--nu-se-reuseste-cifrele-trebuie-aduse-in-concordanta-cu-reforma-fiscala-"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "FSEȘ a avertizat că, dacă angajamentele privind majorările din 1 ianuarie 2027 nu se transformă în „decizii și măsuri concrete”, sindicatul își rezervă dreptul să reia acțiuni de protest „mai puternice”. E o poziție de negociere, nu un fapt verificabil — arată doar că sindicatul nu consideră chestiunea încheiată.",
+      "sources": [
+        {
+          "name": "Ziar.md — avertismentul FSEȘ privind acțiuni sindicale ulterioare",
+          "url": "https://ziar.md/sindicatele-din-educatie-pun-protestele-pe-pauza-revendicarile-raman-iar-negocierile-incep-pe-1-septembrie/"
+        }
+      ]
+    }
+  ],
+  "aiNote": "Aici nu e o minciună de prins, ci o promisiune care s-a lovit de calendar. Legea salarizării trebuia să aducă bani în plic de la 1 septembrie; guvernul recunoaște, prin doi oficiali diferiți — mai întâi Maia Sandu pe 7 august, apoi Vasile Tofan pe 19 august, în fața profesorilor — că termenul nu se respectă și mută data la 1 ianuarie 2027. Ce merită reținut e mecanismul, nu eticheta: reforma costă peste 5 miliarde de lei, iar bugetul rectificat pe 31 august (vezi verificarea despre deficitul care depășește 5% din PIB) arată de unde ar fi trebuit să vină banii și de ce nu au fost acolo la timp. Plățile compensatorii de 2.000-4.000 de lei nu sunt majorarea promisă, ci o despăgubire pentru întârziere — cifrele nu se adună la fel: un profesor care ar fi primit un spor lunar de 5-15% din septembrie primește în schimb, o singură dată, 4.000 de lei în octombrie. Ce lipsește din relatări e un calcul public, făcut de guvern, care să arate cât pierde efectiv un bugetar din cele patru luni de întârziere, comparat cu ce ar fi câștigat conform legii inițiale — fără el, cititorul nu poate verifica singur dacă despăgubirea acoperă paguba sau doar calmează protestul.",
+  "persoane": [
+    "Maia Sandu",
+    "Vasile Tofan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-legea-salarizarii-amanata-ianuarie-2027-profesori.jpg\" alt=\"Chișinău\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chișinău. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Arch of Triumph, Chisinau, Republic of Moldova (51160304626 cropped)</a>\" de Photobank MD from Chisinau, Moldova, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-legea-salarizarii-amanata-ianuarie-2027-profesori.jpg",
+    "licenta": "CC0",
+    "autor": "Photobank MD from Chisinau, Moldova"
   }
- ],
- "contestat": [
-  {
-   "text": "Nu se probează din sursele publice ce anume s-a schimbat între momentul în care legea a fost promisă pentru 1 septembrie și 7 august, când Maia Sandu a spus pentru prima dată că termenul nu se va respecta — relatările citate nu redau o dată exactă la care angajamentul inițial de „1 septembrie” a fost asumat oficial, nici cine l-a făcut.",
-   "sources": [
-    {"name": "Moldova 1 — declarația Maiei Sandu din 7 august, fără precizarea originii angajamentului inițial", "url": "https://moldova1.md/p/82584/majorarea-salariilor-din-1-septembrie-se-amana--nu-se-reuseste-cifrele-trebuie-aduse-in-concordanta-cu-reforma-fiscala-"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "FSEȘ a avertizat că, dacă angajamentele privind majorările din 1 ianuarie 2027 nu se transformă în „decizii și măsuri concrete”, sindicatul își rezervă dreptul să reia acțiuni de protest „mai puternice”. E o poziție de negociere, nu un fapt verificabil — arată doar că sindicatul nu consideră chestiunea încheiată.",
-   "sources": [
-    {"name": "Ziar.md — avertismentul FSEȘ privind acțiuni sindicale ulterioare", "url": "https://ziar.md/sindicatele-din-educatie-pun-protestele-pe-pauza-revendicarile-raman-iar-negocierile-incep-pe-1-septembrie/"}
-   ]
-  }
- ],
- "aiNote": "Aici nu e o minciună de prins, ci o promisiune care s-a lovit de calendar. Legea salarizării trebuia să aducă bani în plic de la 1 septembrie; guvernul recunoaște, prin doi oficiali diferiți — mai întâi Maia Sandu pe 7 august, apoi Vasile Tofan pe 19 august, în fața profesorilor — că termenul nu se respectă și mută data la 1 ianuarie 2027. Ce merită reținut e mecanismul, nu eticheta: reforma costă peste 5 miliarde de lei, iar bugetul rectificat pe 31 august (vezi verificarea despre deficitul care depășește 5% din PIB) arată de unde ar fi trebuit să vină banii și de ce nu au fost acolo la timp. Plățile compensatorii de 2.000-4.000 de lei nu sunt majorarea promisă, ci o despăgubire pentru întârziere — cifrele nu se adună la fel: un profesor care ar fi primit un spor lunar de 5-15% din septembrie primește în schimb, o singură dată, 4.000 de lei în octombrie. Ce lipsește din relatări e un calcul public, făcut de guvern, care să arate cât pierde efectiv un bugetar din cele patru luni de întârziere, comparat cu ce ar fi câștigat conform legii inițiale — fără el, cititorul nu poate verifica singur dacă despăgubirea acoperă paguba sau doar calmează protestul.",
- "persoane": ["Maia Sandu", "Vasile Tofan"]
 }

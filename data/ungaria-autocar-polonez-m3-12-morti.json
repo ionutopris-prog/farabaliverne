@@ -76,10 +76,10 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa britanică și maghiară; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Bilanțul (12 morți, 47 răniți) și circumstanțele accidentului sunt confirmate concordant de LBC (presă britanică) și index.hu (presă locală maghiară, care citează direct poliția). Cauza exactă rămâne în anchetă — ipoteza „a adormit la volan” e doar preliminară, nu o concluzie oficială.",
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/ungaria-autocar-polonez-m3-12-morti.jpg\" alt=\"highway construction Romania\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — highway construction Romania. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Highways_in_Romania_(detailed).png\" rel=\"nofollow noopener\" target=\"_blank\">Highways in Romania (detailed)</a>\" de LeinadWalter, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/ungaria-autocar-polonez-m3-12-morti.jpg\" alt=\"highway motorway accident\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — highway motorway accident. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Dead_lynx_lynx.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Dead lynx lynx</a>\" de Stanislav Němec / Hnutí Duha, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/ungaria-autocar-polonez-m3-12-morti.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "LeinadWalter"
+    "licenta": "Public domain",
+    "autor": "Stanislav Němec / Hnutí Duha"
   }
 }

@@ -11,27 +11,45 @@
     {
       "text": "Peter Jenniskens (SETI Institute, afiliat și cu NASA Ames Research Center) a condus un studiu care a analizat date video și fotografice de la 75 de căderi de meteoriți documentate, urmărind unghiul de intrare, viteza de rotație și rata de pierdere de masă a fiecărei roci. Rezultatele au fost publicate în revista științifică Meteoritics & Planetary Science.",
       "sources": [
-        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"},
-        {"name": "SETI Institute — New study reveals how space rocks become meteorites", "url": "https://www.seti.org/news/how-space-rocks-become-meteorites/"}
+        {
+          "name": "Universe Today — 7-stage journey reveals how falling space rocks survive air",
+          "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"
+        },
+        {
+          "name": "SETI Institute — New study reveals how space rocks become meteorites",
+          "url": "https://www.seti.org/news/how-space-rocks-become-meteorites/"
+        }
       ]
     },
     {
       "text": "Echipa a identificat șapte etape distincte în viața unei roci care cade prin atmosferă: intrarea în atmosferă fără efecte vizibile; începutul luminozității (ablația incipientă); creșterea luminozității odată cu formarea bolidului („fireball”); luminozitate maximă însoțită de topire; începutul fragmentării frontale a rocii; fragmentarea în partea din spate; și, în final, continuarea topirii și fragmentării până la stingerea luminozității, urmată de cădere liberă și formarea crustei de fuziune pe fragmentele rămase.",
       "sources": [
-        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"}
+        {
+          "name": "Universe Today — 7-stage journey reveals how falling space rocks survive air",
+          "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"
+        }
       ]
     },
     {
       "text": "Concluzia centrală a studiului contrazice ideea intuitivă că meteoriții „ard” pierzând masă prin evaporare la căldură. Datele arată că topirea materialului de la suprafață, urmată de fragmentare pe măsură ce presiunea aerodinamică crește, sunt mecanismele care determină cât de repede o rocă își pierde masa, încetinește și — dacă supraviețuiește — ajunge pe sol. Fragmentarea începe la presiuni mult mai mici decât rezistența mecanică măsurată a meteoriților, ceea ce explică de ce multe roci se sparg în bucăți mult înainte să atingă solul.",
       "sources": [
-        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"}
+        {
+          "name": "Universe Today — 7-stage journey reveals how falling space rocks survive air",
+          "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"
+        }
       ]
     },
     {
       "text": "Echipa a verificat modelul și pe cazul asteroidului de circa 20 de metri diametru care a explodat deasupra orașului Celeabinsk, Rusia, la 15 februarie 2013, la aproximativ 30 km altitudine — un eveniment care a rănit circa 1.500 de persoane, majoritatea de la unde de șoc și cioburi de geam. Conform cercetătorilor, obiectul a trecut prin aceleași șapte etape identificate în studiu.",
       "sources": [
-        {"name": "Universe Today — 7-stage journey reveals how falling space rocks survive air", "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"},
-        {"name": "Space.com — Scientists trace 7 stages of a meteorite's life from hurtling space rock to Earth's surface", "url": "https://www.space.com/stargazing/meteor-showers/scientists-trace-7-stages-of-a-meteorites-life-from-hurtling-space-rock-to-earths-surface"}
+        {
+          "name": "Universe Today — 7-stage journey reveals how falling space rocks survive air",
+          "url": "https://www.universetoday.com/articles/7-stage-journey-reveals-how-falling-space-rocks-survive-air"
+        },
+        {
+          "name": "Space.com — Scientists trace 7 stages of a meteorite's life from hurtling space rock to Earth's surface",
+          "url": "https://www.space.com/stargazing/meteor-showers/scientists-trace-7-stages-of-a-meteorites-life-from-hurtling-space-rock-to-earths-surface"
+        }
       ]
     }
   ],
@@ -42,5 +60,12 @@
     "title": "De ce contează ordinea: topire, apoi fragmentare",
     "explanation": "Ideea populară e că meteoriții „ard” ca un băț de chibrit — se consumă treptat prin căldură. Studiul arată altceva: presiunea aerului din fața rocii care cade cu zeci de kilometri pe secundă creează atât căldură, cât și o forță mecanică uriașă. Mai întâi, suprafața se topește și materialul topit e smuls de curentul de aer (nu evaporat). Abia apoi, când presiunea acumulată depășește un prag mult sub rezistența brută a rocii, aceasta începe să se fragmenteze — mai întâi în față, apoi în spate. Practic, roca nu „arde până dispare”, ci se sparge în bucăți din ce în ce mai mici, iar bucățile care supraviețuiesc până la sol sunt cele care au trecut prin toate cele șapte etape fără să se dezintegreze complet."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/meteoriti-sapte-etape-studiu-jenniskens.jpg\" alt=\"meteorite fragment specimen\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — meteorite fragment specimen. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2_Cheljabinsk_meteorite_fragment.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2 Cheljabinsk meteorite fragment</a>\" de Didier Descouens, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/meteoriti-sapte-etape-studiu-jenniskens.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Didier Descouens"
+  }
 }

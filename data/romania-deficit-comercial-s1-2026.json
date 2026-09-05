@@ -69,5 +69,12 @@
     "explanation": "Deficitul a scăzut de la 16,791 miliarde euro (S1 2025) la 16,459 miliarde euro (S1 2026), o diferență de 332,1 milioane euro. Raportat la deficitul din 2025, asta înseamnă exact 332,1 / 16.791 ≈ 1,98%, rotunjit la 2% — cifra publicată de INS este deci corectă aritmetic. În același timp, exporturile au crescut cu 3,0% (mai repede) față de importuri, +1,7% — diferența dintre cele două ritmuri de creștere este motorul reducerii deficitului, nu o scădere a volumului de importuri (importurile au crescut în valoare absolută, doar mai încet decât exporturile)."
   },
   "aiNote": "Datele oficiale INS, relatate concordant de AGERPRES și Digi24, susțin afirmația centrală: deficitul comercial al României a scăzut cu 2% în primul semestru din 2026 față de aceeași perioadă din 2025, pentru că exporturile au crescut mai repede decât importurile. Am marcat ca rezervă faptul că, la nivel lunar (iunie 2026), tendința s-a inversat — importurile au crescut mai repede decât exporturile — ceea ce arată că îmbunătățirea de pe 6 luni nu garantează o traiectorie liniară. Cititorul poate consulta datele brute pe site-ul INS (insse.ro).",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/romania-deficit-comercial-s1-2026.jpg\" alt=\"României\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — României. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:100_Lei_Banca_Na%C5%A3ional%C4%83_a_Rom%C3%A2niei_ROMW0127r.jpg\" rel=\"nofollow noopener\" target=\"_blank\">100 Lei Banca Naţională a României ROMW0127r</a>\" de Banca Naţională a României, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/romania-deficit-comercial-s1-2026.jpg",
+    "licenta": "Public domain",
+    "autor": "Banca Naţională a României"
+  }
 }

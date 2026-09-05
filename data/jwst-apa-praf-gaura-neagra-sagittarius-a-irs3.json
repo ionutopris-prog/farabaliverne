@@ -11,37 +11,70 @@
     {
       "text": "Cu instrumentul MIRI (Mid-Infrared Instrument) al telescopului James Webb, echipa a obținut cel mai detaliat spectru infraroșu-mediu de până acum pentru steaua IRS 3, o stea evoluată de aproximativ șase ori masa Soarelui, veche de circa 72 de milioane de ani și aflată în plin proces de pierdere de masă. Anvelopa ei de praf se întinde pe aproximativ 10.000 de unități astronomice, cu temperaturi de la ~1.200 K lângă stea până la ~100 K în regiunile exterioare.",
       "sources": [
-        { "name": "ESA/Webb — Webb reveals dust and water surviving in the extreme environment around the Milky Way's central black hole", "url": "https://esawebb.org/news/weic2617/" },
-        { "name": "ESA — Dust and water spotted close to giant black hole", "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole" }
+        {
+          "name": "ESA/Webb — Webb reveals dust and water surviving in the extreme environment around the Milky Way's central black hole",
+          "url": "https://esawebb.org/news/weic2617/"
+        },
+        {
+          "name": "ESA — Dust and water spotted close to giant black hole",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
+        }
       ]
     },
     {
       "text": "Spectrul arată semnături clare de praf bogat în oxigen și, pentru prima dată la această stea, semnătura apei în anvelopa din jurul ei — deși IRS 3 se află la doar 0,55 ani-lumină de Sagittarius A*, într-o regiune bombardată de radiație intensă unde formarea și supraviețuirea prafului și a moleculelor complexe erau considerate improbabile. Studiul, condus de Florian Peißker (Universitatea din Köln), a fost publicat cu recenzie inter pares în revista Astronomy & Astrophysics pe 11 august 2026.",
       "sources": [
-        { "name": "ESA/Webb — comunicat oficial cu detalii despre spectru și echipă", "url": "https://esawebb.org/news/weic2617/" },
-        { "name": "Sci.News — Water and Dust Found Surviving near Milky Way's Central Black Hole", "url": "https://www.sci.news/astronomy/water-dust-star-milky-ways-central-black-hole-14993.html" }
+        {
+          "name": "ESA/Webb — comunicat oficial cu detalii despre spectru și echipă",
+          "url": "https://esawebb.org/news/weic2617/"
+        },
+        {
+          "name": "Sci.News — Water and Dust Found Surviving near Milky Way's Central Black Hole",
+          "url": "https://www.sci.news/astronomy/water-dust-star-milky-ways-central-black-hole-14993.html"
+        }
       ]
     },
     {
       "text": "Co-autoarea Macarena Garcia Marin (ESA) a subliniat noutatea metodei: „Aceasta este prima dată când a fost colectat un spectru infraroșu-mediu continuu pentru această stea.” Descoperirea sugerează că stele evoluate ca IRS 3 pot continua să „îmbogățească” mediul din jurul unei găuri negre supermasive cu material nou-format — praf și apă care, în principiu, ar putea contribui la generații viitoare de stele și planete, chiar și în cea mai ostilă regiune a unei galaxii.",
       "sources": [
-        { "name": "Space.com — Water can survive surprisingly close to the Milky Way's supermassive black hole", "url": "https://www.space.com/astronomy/james-webb-space-telescope/water-can-survive-surprisingly-close-to-the-milky-ways-supermassive-black-hole-james-webb-space-telescope-finds" },
-        { "name": "ESA/Webb — comunicat oficial", "url": "https://esawebb.org/news/weic2617/" }
+        {
+          "name": "Space.com — Water can survive surprisingly close to the Milky Way's supermassive black hole",
+          "url": "https://www.space.com/astronomy/james-webb-space-telescope/water-can-survive-surprisingly-close-to-the-milky-ways-supermassive-black-hole-james-webb-space-telescope-finds"
+        },
+        {
+          "name": "ESA/Webb — comunicat oficial",
+          "url": "https://esawebb.org/news/weic2617/"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    { "text": "„Apă lângă o gaură neagră” sună senzațional, dar nu înseamnă apă lichidă sau condiții favorabile vieții — e vapor de apă detectat spectroscopic, la temperaturi de sute de grade Kelvin, într-un înveliș de gaz din jurul unei stele muribunde. Miza reală a descoperirii e chimică și astrofizică (chimia complexă poate rezista lângă o gaură neagră supermasivă), nu una despre condiții de locuit." }
+    {
+      "text": "„Apă lângă o gaură neagră” sună senzațional, dar nu înseamnă apă lichidă sau condiții favorabile vieții — e vapor de apă detectat spectroscopic, la temperaturi de sute de grade Kelvin, într-un înveliș de gaz din jurul unei stele muribunde. Miza reală a descoperirii e chimică și astrofizică (chimia complexă poate rezista lângă o gaură neagră supermasivă), nu una despre condiții de locuit."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română o descoperire anunțată oficial de ESA/Webb, publicată cu recenzie inter pares în Astronomy & Astrophysics pe 11 august 2026. Nucleul faptic — detectarea prafului bogat în oxigen și a apei în anvelopa stelei IRS 3, la 0,55 ani-lumină de Sagittarius A* — se probează direct din comunicatul oficial, din articolul științific și din declarațiile echipei. Nu am găsit voci care contestă metoda sau datele; e o observație instrumentală (spectroscopie MIRI), nu o afirmație disputată. Am marcat la „opinie” o notă de proporție, pentru că titlurile de tip „apă lângă o gaură neagră” pot sugera greșit condiții propice vieții — de fapt e vorba despre vapori de apă la temperaturi ridicate, într-un mediu extrem, iar miza științifică e alta: chimia complexă poate supraviețui acolo unde se credea imposibil.",
   "math": {
     "title": "0,55 ani-lumină: cât de aproape e, de fapt, IRS 3 de gaura neagră",
     "explanation": "Un an-lumină e distanța pe care o parcurge lumina într-un an — circa 9.460 de miliarde de kilometri. Soarele nostru e la puțin peste 4 ani-lumină de cea mai apropiată stea vecină, Proxima Centauri. IRS 3 e la 0,55 ani-lumină de Sagittarius A* — adică de peste 7 ori mai aproape de gaura neagră decât suntem noi de vecinul stelar cel mai apropiat. La distanța asta, radiația și forțele gravitaționale din jurul unei găuri negre supermasive (cu o masă de milioane de ori mai mare decât a Soarelui) sunt uriașe, motiv pentru care astronomii nu se așteptau ca praf fin și molecule ca apa să reziste acolo, în loc să fie distruse de radiație. Faptul că Webb a văzut totuși semnătura lor clară în spectru arată că steaua IRS 3 produce material nou suficient de repede și de dens încât o parte din el să supraviețuiască, măcar temporar, bombardamentului.",
     "sources": [
-      { "name": "ESA/Webb — explicația distanței și a mediului din jurul Sagittarius A*", "url": "https://esawebb.org/news/weic2617/" },
-      { "name": "ESA — Dust and water spotted close to giant black hole", "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole" }
+      {
+        "name": "ESA/Webb — explicația distanței și a mediului din jurul Sagittarius A*",
+        "url": "https://esawebb.org/news/weic2617/"
+      },
+      {
+        "name": "ESA — Dust and water spotted close to giant black hole",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/jwst-apa-praf-gaura-neagra-sagittarius-a-irs3.jpg\" alt=\"Webb\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Webb. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror37.jpg\" rel=\"nofollow noopener\" target=\"_blank\">James Webb Space Telescope Mirror37</a>\" de NASA/MSFC/David Higginbotham/Emmett Given, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/jwst-apa-praf-gaura-neagra-sagittarius-a-irs3.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA/MSFC/David Higginbotham/Emmett Given"
+  }
 }

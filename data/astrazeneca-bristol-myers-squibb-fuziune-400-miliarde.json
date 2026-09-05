@@ -11,21 +11,36 @@
     {
       "text": "Financial Times a relatat duminică, 2 august 2026, că AstraZeneca și Bristol Myers Squibb discută de câteva luni o posibilă fuziune, care ar valora compania combinată la aproximativ 400 de miliarde de dolari — una dintre cele mai mari tranzacții din istoria industriei farmaceutice. Rămâne neclar dacă negocierile vor duce vreodată la un acord.",
       "sources": [
-        {"name": "CNBC — AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports", "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html"},
-        {"name": "PharmExec — AstraZeneca and Bristol Myers Squibb Held Merger Talks: Report", "url": "https://www.pharmexec.com/view/astrazeneca-bristol-myers-squibb-held-merger-talks-report"}
+        {
+          "name": "CNBC — AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
+          "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html"
+        },
+        {
+          "name": "PharmExec — AstraZeneca and Bristol Myers Squibb Held Merger Talks: Report",
+          "url": "https://www.pharmexec.com/view/astrazeneca-bristol-myers-squibb-held-merger-talks-report"
+        }
       ]
     },
     {
       "text": "În ziua următoare relatării (luni, 3 august), acțiunile AstraZeneca listate la Londra au scăzut până la 7%, închizând ziua cu 4,7% mai jos și trăgând în jos indicele FTSE 100. În piața americană, acțiunile Bristol Myers Squibb au urcat aproximativ 6% în tranzacționarea pre-bursă. Analiștii au numit mișcarea „surprinzătoare” pentru AstraZeneca, una dintre companiile cu cea mai puternică creștere din sector.",
       "sources": [
-        {"name": "CNBC — AstraZeneca slides after reports of Bristol Myers merger talks leave analysts 'perplexed'", "url": "https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html"}
+        {
+          "name": "CNBC — AstraZeneca slides after reports of Bristol Myers merger talks leave analysts 'perplexed'",
+          "url": "https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html"
+        }
       ]
     },
     {
       "text": "Niciuna dintre companii nu a confirmat public informația: AstraZeneca a refuzat să comenteze, iar Bristol Myers Squibb nu a răspuns solicitărilor de comentariu ale CNBC, în ambele runde de relatări (2 și 6 august).",
       "sources": [
-        {"name": "CNBC — AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports", "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html"},
-        {"name": "CNBC — AstraZeneca-Bristol Myers merger talks explained", "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"}
+        {
+          "name": "CNBC — AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
+          "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html"
+        },
+        {
+          "name": "CNBC — AstraZeneca-Bristol Myers merger talks explained",
+          "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"
+        }
       ]
     }
   ],
@@ -33,14 +48,23 @@
     {
       "text": "Miercuri, 5 august, Reuters a citat o „sursă apropiată dosarului” care a negat că ar fi existat vreo discuție de fuziune între cele două companii — după această dezmințire, acțiunile AstraZeneca și-au recuperat parțial din pierderi. Practic, cele două agenții de presă majore (FT și Reuters) au ajuns la concluzii opuse, iar companiile n-au tranșat public disputa.",
       "sources": [
-        {"name": "CNBC — AstraZeneca-Bristol Myers merger talks explained", "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"}
+        {
+          "name": "CNBC — AstraZeneca-Bristol Myers merger talks explained",
+          "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"
+        }
       ]
     },
     {
       "text": "Analiști de la mai multe bănci de investiții (Jefferies, RBC Capital Markets) s-au declarat „nedumeriți” de o eventuală fuziune: AstraZeneca crește solid pe cont propriu, iar Bristol Myers urmează să piardă exclusivitatea de brevet la medicamente-cheie (anticoagulantul Eliquis, oncologicul Opdivo), ceea ce face sinergiile de portofoliu incerte. Un acord ar întâmpina probabil și o examinare antitrust dură, din cauza suprapunerii pe oncologie.",
       "sources": [
-        {"name": "CNBC — AstraZeneca slides after reports of Bristol Myers merger talks leave analysts 'perplexed'", "url": "https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html"},
-        {"name": "CNBC — AstraZeneca-Bristol Myers merger talks explained", "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"}
+        {
+          "name": "CNBC — AstraZeneca slides after reports of Bristol Myers merger talks leave analysts 'perplexed'",
+          "url": "https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html"
+        },
+        {
+          "name": "CNBC — AstraZeneca-Bristol Myers merger talks explained",
+          "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"
+        }
       ]
     }
   ],
@@ -54,5 +78,12 @@
     "text": "Înainte de relatările despre fuziune, AstraZeneca avea o capitalizare bursieră de aproximativ 264 de miliarde de dolari, iar Bristol Myers Squibb de aproximativ 133 de miliarde de dolari. Suma celor două (264 + 133 ≈ 397 miliarde) se apropie de cifra de „aproximativ 400 de miliarde de dolari” vehiculată de FT pentru compania combinată — deci estimarea pare să pornească, în linii mari, de la simpla adunare a valorilor bursiere actuale ale celor două firme, fără o primă de preluare semnificativă inclusă în calcul."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională de afaceri; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am marcat explicit că informația de bază (existența discuțiilor de fuziune) este contrazisă de o sursă anonimă citată de Reuters, iar niciuna dintre companii nu a confirmat sau infirmat oficial. De aceea verdictul general este „Neverificabil”, nu „Probat” — deși reacția reală a piețelor bursiere (scăderea/creșterea acțiunilor) este un fapt documentat, indiferent dacă fuziunea se va concretiza sau nu.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/astrazeneca-bristol-myers-squibb-fuziune-400-miliarde.jpg\" alt=\"Bristol\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bristol. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bristol.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bristol</a>\" de autor necunoscut, via Wikimedia Commons · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/astrazeneca-bristol-myers-squibb-fuziune-400-miliarde.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "autor necunoscut"
+  }
 }

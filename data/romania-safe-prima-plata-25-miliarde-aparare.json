@@ -63,5 +63,12 @@
     "explanation": "Suma primită acum reprezintă 15% din alocarea totală de 16,7 miliarde de euro pe care România o poate accesa prin SAFE (2,5 / 16,7 ≈ 14,97%, rotunjit la 15% de sursele citate). Important de reținut: SAFE oferă împrumuturi, nu granturi nerambursabile — banii intră acum la buget, dar vor trebui rambursați, beneficiind însă de condiții avantajoase datorită ratingului de credit al UE."
   },
   "aiNote": "Am verificat anunțul pe patru surse economice și de presă generalistă (Economedia, Economica.net, Ziare.com, Antena 3 CNN), care coincid pe sumă, dată și procent din alocarea totală. Este o știre administrativă, fără puncte de dezacord între surse — plata s-a produs, iar cifrele se potrivesc peste tot. Singura nuanță demnă de reținut, care lipsește adesea din titluri: SAFE este un instrument de împrumut, nu un grant, ceea ce înseamnă că suma va trebui rambursată de România în timp, chiar dacă în condiții mai bune decât pe piața liberă.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/romania-safe-prima-plata-25-miliarde-aparare.jpg\" alt=\"Romanian Army armoured vehicle\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Romanian Army armoured vehicle. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:3rd_ABCT_participates_in_Immediate_Response_2024_(8425533).jpg\" rel=\"nofollow noopener\" target=\"_blank\">3rd ABCT participates in Immediate Response 2024 (8425533)</a>\" de U.S. Army photo by 1st Lt. Kimberly Blair, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/romania-safe-prima-plata-25-miliarde-aparare.jpg",
+    "licenta": "Public domain",
+    "autor": "U.S. Army photo by 1st Lt. Kimberly Blair"
+  }
 }

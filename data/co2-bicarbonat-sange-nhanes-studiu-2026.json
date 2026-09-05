@@ -11,21 +11,36 @@
     {
       "text": "Studiul, publicat în revista Air Quality, Atmosphere & Health, a analizat datele de sănătate ale aproximativ 7.000 de americani, testați o dată la doi ani între 1999 și 2020, din sondajul federal NHANES (National Health and Nutrition Examination Survey). Autorii sunt conf. dr. Alexander Larcombe (The Kids Research Institute Australia / Curtin University) și dr. Phil Bierwirth, geoscientist pensionat afiliat Australian National University (ANU).",
       "sources": [
-        {"name": "Springer Nature — Carbon dioxide overload, detected in human blood, suggests a potentially toxic atmosphere within 50 years (studiul integral)", "url": "https://link.springer.com/article/10.1007/s11869-026-01918-5"},
-        {"name": "The Kids Research Institute Australia — comunicat oficial", "url": "https://www.thekids.org.au/news--events/news-and-events-nav/2026/march/rising-C02-levels-detected-in-human-blood/"}
+        {
+          "name": "Springer Nature — Carbon dioxide overload, detected in human blood, suggests a potentially toxic atmosphere within 50 years (studiul integral)",
+          "url": "https://link.springer.com/article/10.1007/s11869-026-01918-5"
+        },
+        {
+          "name": "The Kids Research Institute Australia — comunicat oficial",
+          "url": "https://www.thekids.org.au/news--events/news-and-events-nav/2026/march/rising-C02-levels-detected-in-human-blood/"
+        }
       ]
     },
     {
       "text": "Concentrația medie de bicarbonat din sânge a crescut de la 23,8 la 25,3 miliechivalenți pe litru între 1999 și 2020 — o creștere de circa 7% (aproximativ 0,34% pe an). În aceeași perioadă, nivelurile medii de calciu (~2%) și fosfor (~7%) din sânge au scăzut. Aceste modificări au avut loc pe fondul creșterii CO2 atmosferic de la aproximativ 369 ppm (părți per milion) în anul 2000 la peste 420 ppm în prezent — față de nivelul de 200-300 ppm din perioada în care s-a format fiziologia umană.",
       "sources": [
-        {"name": "ScienceAlert — Rising CO2 Could Be Altering Our Blood Chemistry, Study Suggests", "url": "https://www.sciencealert.com/rising-co2-could-be-altering-our-blood-chemistry-study-suggests"},
-        {"name": "ScienceDaily — Scientists detect a surprising shift in human blood as atmospheric CO2 rises", "url": "https://www.sciencedaily.com/releases/2026/08/260814235845.htm"}
+        {
+          "name": "ScienceAlert — Rising CO2 Could Be Altering Our Blood Chemistry, Study Suggests",
+          "url": "https://www.sciencealert.com/rising-co2-could-be-altering-our-blood-chemistry-study-suggests"
+        },
+        {
+          "name": "ScienceDaily — Scientists detect a surprising shift in human blood as atmospheric CO2 rises",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814235845.htm"
+        }
       ]
     },
     {
       "text": "Dacă trendul actual ar continua neschimbat, modelarea autorilor arată că nivelul mediu de bicarbonat s-ar apropia de limita superioară a intervalului considerat sănătos în circa 50 de ani, iar calciul și fosforul ar putea coborî spre limita inferioară a intervalului normal mai târziu în acest secol. Acestea sunt proiecții bazate pe extrapolarea trendului observat, nu rezultate deja constatate — depind de cât de mult va continua să crească CO2 atmosferic și de dacă relația rămâne liniară.",
       "sources": [
-        {"name": "The Kids Research Institute Australia — comunicat oficial (proiecțiile pe 50 de ani)", "url": "https://www.thekids.org.au/news--events/news-and-events-nav/2026/march/rising-C02-levels-detected-in-human-blood/"}
+        {
+          "name": "The Kids Research Institute Australia — comunicat oficial (proiecțiile pe 50 de ani)",
+          "url": "https://www.thekids.org.au/news--events/news-and-events-nav/2026/march/rising-C02-levels-detected-in-human-blood/"
+        }
       ]
     }
   ],
@@ -33,26 +48,44 @@
     {
       "text": "Chiar autorii studiului subliniază, într-un text scris chiar de ei: „corelația nu înseamnă cauzalitate”. Analiza NU a ajustat pentru factori cunoscuți că influențează bicarbonatul, calciul și fosforul din sânge — dieta, funcția renală, folosirea diureticelor sau obezitatea — și nici pentru schimbări în activitatea fizică a populației sau în modul de procesare a probelor de-a lungul celor două decenii. Fără aceste ajustări, o parte din trendul observat ar putea avea alte cauze decât CO2 atmosferic.",
       "sources": [
-        {"name": "The Conversation — Rising CO2 levels are reflected in human blood. Scientists don't know what it means (text semnat de autorii studiului)", "url": "https://theconversation.com/rising-co-levels-are-reflected-in-human-blood-scientists-dont-know-what-it-means-277833"}
+        {
+          "name": "The Conversation — Rising CO2 levels are reflected in human blood. Scientists don't know what it means (text semnat de autorii studiului)",
+          "url": "https://theconversation.com/rising-co-levels-are-reflected-in-human-blood-scientists-dont-know-what-it-means-277833"
+        }
       ]
     },
     {
       "text": "Participanții la NHANES, ca majoritatea americanilor, își petrec cea mai mare parte a timpului în interior, unde concentrația de CO2 depășește adesea 1.000 ppm în spații slab ventilate — de peste două ori nivelul atmosferic exterior actual (~420 ppm). Autorii recunosc că nu pot stabili din aceste date dacă trendul observat în sânge e cauzat de creșterea CO2 din aerul exterior, de expunerea la CO2 din interior (care a crescut probabil și ea, pe fondul clădirilor mai bine izolate), sau de o combinație a celor două — o întrebare pe care studiul nu o poate tranșa.",
       "sources": [
-        {"name": "The Conversation — nuanța indoor vs. atmosferic exterior (autorii studiului)", "url": "https://theconversation.com/rising-co-levels-are-reflected-in-human-blood-scientists-dont-know-what-it-means-277833"}
+        {
+          "name": "The Conversation — nuanța indoor vs. atmosferic exterior (autorii studiului)",
+          "url": "https://theconversation.com/rising-co-levels-are-reflected-in-human-blood-scientists-dont-know-what-it-means-277833"
+        }
       ]
     }
   ],
   "opinie": [
-    {"text": "Titlul studiului însuși — „...sugerează o atmosferă potențial toxică în 50 de ani” — și o parte din presa care l-a preluat merg mai departe decât permit datele. Ce s-a arătat e o corelație statistică pe date populaționale, cu o proiecție condiționată de continuarea trendului; nu s-a arătat că CO2 la nivelurile actuale produce vreun efect nociv asupra sănătății oamenilor de azi. Fără Baliverne nu dă sfaturi medicale."}
+    {
+      "text": "Titlul studiului însuși — „...sugerează o atmosferă potențial toxică în 50 de ani” — și o parte din presa care l-a preluat merg mai departe decât permit datele. Ce s-a arătat e o corelație statistică pe date populaționale, cu o proiecție condiționată de continuarea trendului; nu s-a arătat că CO2 la nivelurile actuale produce vreun efect nociv asupra sănătății oamenilor de azi. Fără Baliverne nu dă sfaturi medicale."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română un studiu științific publicat în Air Quality, Atmosphere & Health, plus comunicatul instituției autorilor (The Kids Research Institute Australia) și un text scris chiar de cei doi autori pentru The Conversation, în care ei înșiși explică limitele propriei cercetări — o transparență neobișnuit de utilă pentru verificare.\n\nCe s-a verificat exact: pe date NHANES din SUA (~7.000 de persoane, testate din doi în doi ani, 1999-2020), bicarbonatul din sânge a crescut cu ~7%, iar calciul și fosforul au scăzut, în paralel cu creșterea CO2 atmosferic de la ~369 la peste 420 ppm. Aceasta e o observație statistică solidă, publicată într-o revistă cu recenzie de la egal la egal (peer-review).\n\nUnde se desparte însă interpretarea de dovadă: autorii spun explicit că nu au ajustat analiza pentru dietă, funcția renală, diuretice sau obezitate — factori cunoscuți că mișcă exact acești markeri sanguini. Mai mult, oamenii din studiu trăiesc mai ales în interior, unde CO2 poate depăși 1.000 ppm, de peste două ori nivelul atmosferic exterior — deci nu se poate spune din aceste date dacă „vinovat” e aerul de afară, aerul din case și birouri, sau ambele.\n\nCe lipsește: un studiu care să controleze pentru acești factori confondanți și care să separe expunerea la CO2 de interior de cea de exterior. Până atunci, proiecția pe 50 de ani rămâne un scenariu bazat pe extrapolarea liniară a unui trend, nu o predicție confirmată. Titlul „atmosferă toxică” aparține autorilor și presei care l-a preluat, nu unei concluzii demonstrate de date.",
   "math": {
     "title": "De ce CO2 din aer ajunge să se vadă în bicarbonatul din sânge",
     "explanation": "Corpul ține pH-ul sângelui într-un interval foarte îngust (în jur de 7,4) printr-un sistem-tampon bazat pe CO2 și bicarbonat (HCO3-). Când respiri, CO2 din plămâni trece în sânge și o parte se transformă chimic în bicarbonat; rinichii ajustează apoi cât bicarbonat rețin sau elimină, tocmai ca să compenseze variațiile de CO2 și să mențină pH-ul stabil. Ipoteza celor doi cercetători e că, dacă CO2 din aerul pe care-l respirăm crește constant, an de an, corpul ar putea reține treptat ceva mai mult bicarbonat, ca reacție de adaptare cronică — un fel de „ajustare lentă a termostatului” intern. E o ipoteză plauzibilă din punct de vedere biochimic și compatibilă cu ce arată datele NHANES, dar plauzibil nu înseamnă demonstrat: aceiași markeri (bicarbonat, calciu, fosfor) mai sunt influențați de dietă, rinichi, medicamente și greutate corporală — factori pe care acest studiu nu i-a separat de efectul CO2.",
     "sources": [
-      {"name": "The Conversation — explicația mecanismului, de la autorii studiului", "url": "https://theconversation.com/rising-co-levels-are-reflected-in-human-blood-scientists-dont-know-what-it-means-277833"}
+      {
+        "name": "The Conversation — explicația mecanismului, de la autorii studiului",
+        "url": "https://theconversation.com/rising-co-levels-are-reflected-in-human-blood-scientists-dont-know-what-it-means-277833"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/co2-bicarbonat-sange-nhanes-studiu-2026.jpg\" alt=\"blood sample test tube laboratory\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — blood sample test tube laboratory. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Checking_Blood_Sample_(9955279835).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Checking Blood Sample (9955279835)</a>\" de National Eye Institute, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/co2-bicarbonat-sange-nhanes-studiu-2026.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "National Eye Institute"
+  }
 }

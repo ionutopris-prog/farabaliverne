@@ -11,14 +11,23 @@
     {
       "text": "Studiul a comparat, în baza de date TriNetX (registru global de evidențe medicale electronice, cu date din 143 de organizații de sănătate), pacienți adulți cu diabet de tip 2 aflați la primul tratament cu agoniști ai receptorului GLP-1 față de pacienți similari tratați cu sulfoniluree, metformină, inhibitori DPP-4 sau inhibitori SGLT2. În toate cele patru comparații, la nivel global, utilizarea de GLP-1 a fost asociată cu o incidență semnificativ mai mică a tuberculozei, inclusiv a formei pulmonare.",
       "sources": [
-        { "name": "Nature Communications — studiul original (Liao, Wu, Lai)", "url": "https://www.nature.com/articles/s41467-026-77068-0" },
-        { "name": "News-Medical.net — sinteza studiului", "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx" }
+        {
+          "name": "Nature Communications — studiul original (Liao, Wu, Lai)",
+          "url": "https://www.nature.com/articles/s41467-026-77068-0"
+        },
+        {
+          "name": "News-Medical.net — sinteza studiului",
+          "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx"
+        }
       ]
     },
     {
       "text": "Autorii propun mecanisme biologic plauzibile: GLP-1 poate influența metabolismul glicemic (diabetul dezechilibrat crește riscul de tuberculoză activă) și, potențial, are efecte directe asupra sistemului imunitar. Studiul face parte dintr-un val mai larg de cercetări din 2026 despre efectele „secundare” ale medicamentelor GLP-1 dincolo de scădere în greutate și control glicemic — aceeași clasă de medicamente a fost studiată recent și pentru efecte cardiovasculare (la pacienți cu fibrilație atrială) și pentru riscul de cancer.",
       "sources": [
-        { "name": "Nature Communications — studiul original", "url": "https://www.nature.com/articles/s41467-026-77068-0" }
+        {
+          "name": "Nature Communications — studiul original",
+          "url": "https://www.nature.com/articles/s41467-026-77068-0"
+        }
       ]
     }
   ],
@@ -26,27 +35,48 @@
     {
       "text": "Chiar autorii spun explicit: „Fiind un studiu observațional pe evidențe medicale electronice, rezultatele nu pot stabili că agoniștii GLP-1 PREVIN tuberculoza” — doar o asociere statistică, nu o relație cauză-efect dovedită. Baza de date NU a inclus informații esențiale pentru a exclude alte explicații: istoricul de contact cu tuberculoza, infecția latentă, severitatea bolii, dozajul și aderența la tratament, sau indicatori socio-economici direcți — toți factori care pot influența independent atât alegerea tratamentului antidiabetic, cât și riscul de tuberculoză.",
       "sources": [
-        { "name": "News-Medical.net — limitările recunoscute de autori", "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx" }
+        {
+          "name": "News-Medical.net — limitările recunoscute de autori",
+          "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx"
+        }
       ]
     },
     {
       "text": "Cel mai important semnal de prudență: când analiza a fost restrânsă doar la pacienții din SUA (unde datele sunt considerate mai complete), asocierea dintre GLP-1 și riscul mai mic de tuberculoză s-a redus (a fost „atenuată”) și NU a mai fost semnificativă statistic în comparație cu inhibitorii SGLT2. Cu alte cuvinte, rezultatul global „dispare” parțial exact atunci când datele sunt mai curate — un semn clasic că factori de confuzie geografică sau legați de calitatea datelor (nu medicamentul în sine) ar putea explica măcar o parte din asocierea observată inițial. Autorii recunosc și posibilitatea unor erori de metodă („immortal time bias”) într-una dintre analizele de sensibilitate.",
       "sources": [
-        { "name": "News-Medical.net — rezultatul analizei restrânse la SUA", "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx" }
+        {
+          "name": "News-Medical.net — rezultatul analizei restrânse la SUA",
+          "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx"
+        }
       ]
     }
   ],
   "opinie": [
-    { "text": "Titlurile de tip „GLP-1 previne tuberculoza” sau „diabeticii ar trebui să treacă pe GLP-1 ca să evite TBC” depășesc cu mult ce arată studiul. Fără Baliverne nu dă sfaturi medicale: alegerea unui tratament antidiabetic rămâne o decizie clinică, individuală, între pacient și medic, iar acest studiu e un semnal pentru cercetare viitoare, nu o recomandare terapeutică." }
+    {
+      "text": "Titlurile de tip „GLP-1 previne tuberculoza” sau „diabeticii ar trebui să treacă pe GLP-1 ca să evite TBC” depășesc cu mult ce arată studiul. Fără Baliverne nu dă sfaturi medicale: alegerea unui tratament antidiabetic rămâne o decizie clinică, individuală, între pacient și medic, iar acest studiu e un semnal pentru cercetare viitoare, nu o recomandare terapeutică."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română un studiu științific din presa medicală internațională (Nature Communications, 24 august 2026); interpretarea aparține Fără Baliverne și NU este sfat medical. Ce s-a verificat exact: pe baza de date globală TriNetX, utilizarea agoniștilor GLP-1 la diabetici de tip 2 a fost asociată, în toate cele patru comparații cu alte clase de antidiabetice, cu un risc mai mic de tuberculoză — o asociere statistică documentată, nu o afirmație inventată. Unde se desparte însă concluzia „simplă” de ce arată de fapt datele: chiar autorii spun clar că un studiu observațional pe evidențe medicale NU poate dovedi cauzalitate, iar baza de date nu are informații esențiale (contact cu TBC, infecție latentă, severitate, aderență la tratament, statut socio-economic) care ar putea explica altfel diferența dintre grupuri. Cel mai revelator semnal: când analiza s-a restrâns la SUA — unde datele sunt de obicei mai complete — legătura cu inhibitorii SGLT2 nu a mai fost semnificativă statistic. Asta arată exact mecanismul unei posibile confuzii: pacienții cărora li se prescrie GLP-1 (adesea mai scump, mai nou) pot fi sistematic diferiți — mai bine monitorizați, cu acces mai bun la sănătate, poate mai puțin expuși la TBC din alte motive — decât cei tratați cu medicamente mai vechi, iar o parte din „efectul” observat ar putea veni de-acolo, nu din medicament. Ce lipsește: date individuale despre expunerea la tuberculoză și despre statutul socio-economic al pacienților, singurele care ar putea confirma sau infirma definitiv o legătură cauzală directă.",
   "math": {
     "title": "De ce un rezultat care „dispare” într-un subgrup e un semnal, nu un detaliu",
     "explanation": "Într-un studiu observațional (spre deosebire de un studiu clinic randomizat, unde tratamentul e atribuit la întâmplare), pacienții nu ajung la un tratament sau altul prin noroc — medicii aleg GLP-1 pentru anumiți pacienți din motive care țin de starea lor de sănătate, de acces la asigurare, de țara sau clinica unde sunt tratați. Dacă acei factori de alegere sunt legați și de riscul de tuberculoză (de exemplu, pacienții cu acces mai bun la GLP-1 au, în medie, și acces mai bun la depistarea și tratarea precoce a TBC), atunci o parte din „efectul protector” observat nu vine de la medicament, ci de la diferențele dintre pacienți — asta se numește factor de confuzie. Testul standard pentru a verifica dacă un rezultat e robust e să repeți analiza pe un subgrup mai omogen, cu date mai complete — aici, doar SUA. Când rezultatul se menține la fel de puternic, crește încrederea că e vorba de un efect real. Când rezultatul slăbește sau dispare, ca în cazul comparației cu SGLT2 în subgrupul american, asta e un motiv serios să suspectezi că cel puțin o parte din rezultatul global venea din diferențele dintre țări sau din calitatea diferită a datelor, nu din medicamentul în sine. Nu înseamnă că legătura e falsă — înseamnă că nu e încă suficient de solidă pentru concluzii ferme.",
     "sources": [
-      { "name": "News-Medical.net — descrierea analizei restrânse la SUA și a limitărilor", "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx" },
-      { "name": "Nature Communications — studiul original", "url": "https://www.nature.com/articles/s41467-026-77068-0" }
+      {
+        "name": "News-Medical.net — descrierea analizei restrânse la SUA și a limitărilor",
+        "url": "https://www.news-medical.net/news/20260824/Researchers-link-GLP-1-drugs-to-lower-tuberculosis-risk-in-type-2-diabetes.aspx"
+      },
+      {
+        "name": "Nature Communications — studiul original",
+        "url": "https://www.nature.com/articles/s41467-026-77068-0"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/glp1-tuberculoza-risc-studiu-nature-communications.jpg\" alt=\"tuberculosis chest radiograph lungs\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — tuberculosis chest radiograph lungs. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:X-ray_of_healthy_lungs_taken_at_the_Institute_of_Tropical_Medicine_in_Antwerp,_on_9_December_2016_(1).tif\" rel=\"nofollow noopener\" target=\"_blank\">X-ray of healthy lungs taken at the Institute of Tropical Medicine in Antwerp, on 9 December 2016 (1)</a>\" de N.a. Radiology by Dr. Johan Verbeken. Scan and image editing by Vincent Mia Edie, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/glp1-tuberculoza-risc-studiu-nature-communications.jpg",
+    "licenta": "Public domain",
+    "autor": "N.a. Radiology by Dr. Johan Verbeken. Scan and image editing by Vincent Mia Edie"
+  }
 }

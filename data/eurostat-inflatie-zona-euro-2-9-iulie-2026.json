@@ -11,26 +11,41 @@
     {
       "text": "Rata anuală a inflației în zona euro a fost 2,9% în iulie 2026, față de 2,8% în iunie — o creștere de 0,1 puncte procentuale. În ansamblul Uniunii Europene, rata a urcat la 3,0%, de la 2,9% în iunie. Cifrele sunt publicate oficial de Eurostat.",
       "sources": [
-        {"name": "Eurostat — Annual inflation up to 2.9% in the euro area", "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-19082026-ap"}
+        {
+          "name": "Eurostat — Annual inflation up to 2.9% in the euro area",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-19082026-ap"
+        }
       ]
     },
     {
       "text": "Cea mai mare contribuție la inflația din zona euro a venit de la servicii (+1,55 puncte procentuale), urmate de energie (+0,94 puncte procentuale) și de alimente, alcool și tutun (+0,23 puncte procentuale) — energia e a doua cauză ca mărime, nu prima.",
       "sources": [
-        {"name": "Eurostat — Annual inflation up to 2.9% in the euro area", "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-19082026-ap"}
+        {
+          "name": "Eurostat — Annual inflation up to 2.9% in the euro area",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-19082026-ap"
+        }
       ]
     },
     {
       "text": "România a înregistrat cea mai mare rată anuală a inflației din toată Uniunea Europeană în iulie 2026: 8,2%, în scădere totuși față de 9,2% în iunie. Cea mai mică rată a fost în Suedia, 0,3%. Următoarele cele mai ridicate rate din UE au fost în Lituania (5,4%), apoi Cipru și Bulgaria (4,4% fiecare).",
       "sources": [
-        {"name": "Eurostat — Annual inflation up to 2.9% in the euro area", "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-19082026-ap"},
-        {"name": "Digi24 — România rămâne țara cu cea mai mare rată a inflației din Uniunea Europeană", "url": "https://www.digi24.ro/stiri/economie/romania-ramane-tara-cu-cea-mai-mare-rata-a-inflatiei-din-uniunea-europeana-preturile-au-crescut-cu-82-intr-un-an-3912385"}
+        {
+          "name": "Eurostat — Annual inflation up to 2.9% in the euro area",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-19082026-ap"
+        },
+        {
+          "name": "Digi24 — România rămâne țara cu cea mai mare rată a inflației din Uniunea Europeană",
+          "url": "https://www.digi24.ro/stiri/economie/romania-ramane-tara-cu-cea-mai-mare-rata-a-inflatiei-din-uniunea-europeana-preturile-au-crescut-cu-82-intr-un-an-3912385"
+        }
       ]
     },
     {
       "text": "Detaliat pe componente pentru România, potrivit Digi24 (care citează datele naționale): serviciile s-au scumpit cu 13,67% într-un an, alimentele cu 5,03%, iar produsele nealimentare cu 7,93%.",
       "sources": [
-        {"name": "Digi24 — România rămâne țara cu cea mai mare rată a inflației din Uniunea Europeană", "url": "https://www.digi24.ro/stiri/economie/romania-ramane-tara-cu-cea-mai-mare-rata-a-inflatiei-din-uniunea-europeana-preturile-au-crescut-cu-82-intr-un-an-3912385"}
+        {
+          "name": "Digi24 — România rămâne țara cu cea mai mare rată a inflației din Uniunea Europeană",
+          "url": "https://www.digi24.ro/stiri/economie/romania-ramane-tara-cu-cea-mai-mare-rata-a-inflatiei-din-uniunea-europeana-preturile-au-crescut-cu-82-intr-un-an-3912385"
+        }
       ]
     }
   ],
@@ -38,5 +53,12 @@
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre bazată pe date oficiale Eurostat, distribuite și de Digi24. Cifrele centrale (2,9% zona euro, 3,0% UE, 8,2% România) sunt confirmate identic în ambele surse — nu există contradicții factuale de semnalat. O singură precizare merită făcută: unele titluri din presă asociază creșterea inflației aproape exclusiv de energie, dar datele Eurostat arată că serviciile au contribuit mai mult (+1,55 puncte procentuale) decât energia (+0,94 puncte procentuale) la cifra din zona euro — nuanța contează pentru cine caută cauza reală a scumpirilor. Pentru România, poziția de lider UE la inflație nu e nouă (era și în iunie, la 9,2%), dar scăderea de la 9,2% la 8,2% e un semnal de temperare, nu de rezolvare a problemei.",
   "math": null,
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/eurostat-inflatie-zona-euro-2-9-iulie-2026.jpg\" alt=\"România\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — România. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Apuseni._(41412826664).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Apuseni. (41412826664)</a>\" de Mihai Lucîț from Baia Mare, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/eurostat-inflatie-zona-euro-2-9-iulie-2026.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Mihai Lucîț from Baia Mare, Romania"
+  }
 }

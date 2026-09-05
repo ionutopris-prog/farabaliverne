@@ -11,15 +11,27 @@
     {
       "text": "Într-un interviu telefonic acordat fostului său avocat Michael Cohen — devenit unul dintre cei mai vizibili critici ai săi, după ce a mărturisit împotriva lui în procesul „bani de tăcere” — Trump a declarat: „The economy has never been stronger. We're doing numbers that nobody's ever seen before” („Economia n-a fost niciodată mai puternică. Facem cifre pe care nimeni nu le-a mai văzut vreodată”). Convorbirea a fost înregistrată joi, 20 august 2026, și difuzată parțial joi seara, apoi integral duminică, 23 august, la emisiunea „When You Know, You Know” de pe 77 WABC-AM.",
       "sources": [
-        { "name": "CBS News — Trump appears on Michael Cohen's radio show", "url": "https://www.cbsnews.com/news/trump-michael-cohen-radio-show-pardon-request/" },
-        { "name": "TradingView (Benzinga) — Trump Tells Michael Cohen He'd Win By 25 Points", "url": "https://www.tradingview.com/news/benzinga:4648ece7a094b:0-trump-tells-michael-cohen-he-d-win-by-25-points-if-election-were-held-today-says-economy-has-never-been-stronger-despite-33-approval/" }
+        {
+          "name": "CBS News — Trump appears on Michael Cohen's radio show",
+          "url": "https://www.cbsnews.com/news/trump-michael-cohen-radio-show-pardon-request/"
+        },
+        {
+          "name": "TradingView (Benzinga) — Trump Tells Michael Cohen He'd Win By 25 Points",
+          "url": "https://www.tradingview.com/news/benzinga:4648ece7a094b:0-trump-tells-michael-cohen-he-d-win-by-25-points-if-election-were-held-today-says-economy-has-never-been-stronger-despite-33-approval/"
+        }
       ]
     },
     {
       "text": "Tot în interviu, întrebat despre sondajele care îi arată aprobarea în scădere, Trump a răspuns: „If I were running today, I think I'd win by 25 points. I think we'd win by a lot” („Dacă aș candida azi, cred că aș câștiga cu 25 de puncte. Cred că am câștiga la mare distanță”). Al 22-lea amendament interzice un al treilea mandat prezidențial; Trump nu a susținut în acest interviu că ar candida efectiv.",
       "sources": [
-        { "name": "AOL/Benzinga — Trump claims he'd win by 25 points", "url": "https://www.aol.com/articles/trump-claims-win-25-points-224514000.html" },
-        { "name": "TradingView (Benzinga) — citatul complet", "url": "https://www.tradingview.com/news/benzinga:4648ece7a094b:0-trump-tells-michael-cohen-he-d-win-by-25-points-if-election-were-held-today-says-economy-has-never-been-stronger-despite-33-approval/" }
+        {
+          "name": "AOL/Benzinga — Trump claims he'd win by 25 points",
+          "url": "https://www.aol.com/articles/trump-claims-win-25-points-224514000.html"
+        },
+        {
+          "name": "TradingView (Benzinga) — citatul complet",
+          "url": "https://www.tradingview.com/news/benzinga:4648ece7a094b:0-trump-tells-michael-cohen-he-d-win-by-25-points-if-election-were-held-today-says-economy-has-never-been-stronger-despite-33-approval/"
+        }
       ]
     }
   ],
@@ -27,20 +39,32 @@
     {
       "text": "Afirmația „economia n-a fost niciodată mai puternică” nu se confirmă în datele oficiale cele mai recente. Potrivit estimării avansate a Biroului de Analiză Economică (BEA), PIB-ul SUA a crescut cu doar 1,5% (rată anualizată) în trimestrul 2 din 2026, sub cei 2,1% așteptați de economiști și sub cei 2,1% înregistrați în trimestrul 1. Încetinirea a fost pusă pe seama cheltuielilor guvernamentale mai mici, a investițiilor mai reduse și a exporturilor slăbite.",
       "sources": [
-        { "name": "U.S. Bureau of Economic Analysis — GDP (Advance Estimate), 2nd Quarter 2026", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026" },
-        { "name": "Fox Business — US economy Q2 2026 advance estimate", "url": "https://www.foxbusiness.com/economy/us-economy-q2-2026-advance" }
+        {
+          "name": "U.S. Bureau of Economic Analysis — GDP (Advance Estimate), 2nd Quarter 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+        },
+        {
+          "name": "Fox Business — US economy Q2 2026 advance estimate",
+          "url": "https://www.foxbusiness.com/economy/us-economy-q2-2026-advance"
+        }
       ]
     },
     {
       "text": "Piața muncii arată, la rândul ei, semne de slăbire, nu de forță record: în iulie 2026, salariile din afara agriculturii (nonfarm payrolls) au scăzut cu 23.000, iar forța de muncă activă s-a redus cu 264.000 de persoane pe măsură ce oamenii au ieșit din câmpul muncii. Rata șomajului a coborât la 4,1%, dar rata de participare la forța de muncă a ajuns la 61,4% — cel mai scăzut nivel din 2021 — semn că scăderea șomajului reflectă retragerea din piața muncii, nu crearea de locuri de muncă.",
       "sources": [
-        { "name": "Trading Economics — United States Unemployment Rate (date agregate din raportul BLS)", "url": "https://tradingeconomics.com/united-states/unemployment-rate" }
+        {
+          "name": "Trading Economics — United States Unemployment Rate (date agregate din raportul BLS)",
+          "url": "https://tradingeconomics.com/united-states/unemployment-rate"
+        }
       ]
     },
     {
       "text": "Afirmația despre o victorie „cu 25 de puncte” vine la câteva zile după ce un sondaj Reuters/Ipsos, încheiat luni, 17 august 2026, a arătat aprobarea lui Trump la 33% — cel mai slab scor din al doilea mandat, egal cu minimul din decembrie 2017, din primul mandat, cu 64% dintre respondenți dezaprobând.",
       "sources": [
-        { "name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll", "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/" }
+        {
+          "name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll",
+          "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"
+        }
       ]
     }
   ],
@@ -50,5 +74,14 @@
     }
   ],
   "aiNote": "Ce am verificat: citatele exacte ale lui Trump vin din relatări concordante ale mai multor publicații (CBS News, TradingView/Benzinga, AOL) despre același interviu telefonic cu Michael Cohen, difuzat integral duminică, 23 august 2026. Am verificat separat, la sursă, cele două afirmații economice pe care le conține: creșterea PIB (Biroul de Analiză Economică, estimarea avansată pentru T2 2026) și situația pieței muncii (datele agregate din raportul lunar al Biroului de Statistică a Muncii, pentru iulie 2026).\n\nUnde se despart lucrurile: Trump vorbește despre economie la superlativ („niciodată mai puternică”), în timp ce cifrele oficiale arată o încetinire clară față de trimestrul anterior (1,5% față de 2,1%) și o piață a muncii care pierde locuri de muncă nete, chiar dacă rata șomajului a scăzut — o scădere explicată de oameni care ies din câmpul muncii, nu de angajări. Nu e o contradicție de opinie, ci de cifre publicate de instituții federale nepartizane.\n\nCe lipseste: estimarea PIB pentru trimestrul 2 e una „avansată” (advance estimate) și poate fi revizuită de BEA în lunile următoare, în sus sau în jos. De asemenea, nu există un sondaj electoral real care să testeze scenariul unei candidaturi Trump în 2026 sau 2028 — cifra „25 de puncte” e o estimare proprie, nu rezultatul vreunui studiu.\n\nCe ar schimba concluzia: o revizuire semnificativă în sus a PIB-ului pe T2, sau date viitoare care arată o piață a muncii în expansiune reală, ar apropia declarația lui Trump de realitatea cifrelor oficiale.",
-  "persoane": ["Donald Trump"]
+  "persoane": [
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/trump-cohen-interviu-economie-25-puncte.jpg\" alt=\"Donald Trump\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Donald Trump. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Donald_Trump_RNC_July_2016.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Donald Trump RNC July 2016</a>\" de Ali Shaker/VOA, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/trump-cohen-interviu-economie-25-puncte.jpg",
+    "licenta": "Public domain",
+    "autor": "Ali Shaker/VOA"
+  }
 }

@@ -1,70 +1,112 @@
 {
- "slug": "transnistria-17-sectii-votare-duma-rusia-mae-sfidare",
- "title": "Krasnoselski anunță 17 secții de votare în Transnistria pentru alegerile din Duma rusă; MAE de la Chișinău spune că a fost coordonată doar una",
- "category": "Media de stat",
- "tara": "Moldova",
- "date": "2026-08-31",
- "source": "NewsMaker / KP.RU (presă rusă) / MAE Republica Moldova / TVR Moldova",
- "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului",
- "dek": "Liderul de facto al regiunii transnistrene, Vadim Krasnoselski, a anunțat pe 28 august că pe malul stâng al Nistrului vor fi deschise 17 secții de votare pentru alegerile din Duma de Stat a Rusiei, din 18-20 septembrie. Ministerul de Externe de la Chișinău spune că a coordonat cu Ambasada Rusiei o singură secție, la Chișinău, și că restul e „inacceptabil” și încalcă suveranitatea R. Moldova. Am pus declarația lui Krasnoselski — care vine dintr-o administrație necontrolată de Chișinău — lângă poziția oficială a MAE.",
- "mainVerdict": "Probat parțial",
- "probat": [
-  {
-   "text": "Vadim Krasnoselski, liderul de facto al administrației de la Tiraspol — instituție necontrolată de autoritățile constituționale de la Chișinău, etichetată explicit ca atare — a declarat în cadrul unei conferințe de presă, pe 28 august 2026, că serviciile responsabile din regiune pregătesc deschiderea a 17 secții de votare pentru alegerile în Duma de Stat a Federației Ruse, programate pentru 18-20 septembrie 2026. Potrivit lui, aproximativ 220.000 de cetățeni ruși locuiesc în regiunea transnistreană.",
-   "sources": [
-    {"name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei", "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"},
-    {"name": "KP.RU (presă rusă) — În Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat", "url": "https://www.kp.ru/online/news/7145126/"}
-   ]
-  },
-  {
-   "text": "Ministerul Afacerilor Externe și Integrării Europene al Republicii Moldova a reacționat pe 30 august, precizând că a fost coordonată cu Ambasada Rusiei la Chișinău deschiderea unei singure secții de votare, în capitală. MAE a transmis: „Republica Moldova recunoaște dreptul cetățenilor străini aflați pe teritoriul său de a participa la alegerile organizate de statele lor de cetățenie”, dar a adăugat că orice proces electoral desfășurat pe teritoriul țării trebuie coordonat în prealabil cu autoritățile constituționale.",
-   "sources": [
-    {"name": "NewsMaker — MAE: doar deschiderea unei secții de votare la Chișinău a fost coordonată pentru alegerile din Rusia", "url": "https://newsmaker.md/ro/mae-doar-deschiderea-unei-sectii-de-votare-la-chisinau-a-fost-coordonata-pentru-alegerile-din-rusia-reactie-la-anuntul-lui-krasnoselski"}
-   ]
-  },
-  {
-   "text": "Biroul politici de reintegrare, de la Chișinău, a calificat intenția deschiderii celor 16-17 secții suplimentare în regiunea transnistreană, fără acordul autorităților constituționale, drept o încălcare a principiului suveranității și integrității teritoriale a Republicii Moldova. Instituția a argumentat, printre altele, că nu poate garanta măsurile de securitate și că mass-media nu poate reflecta obiectiv procesul, în condițiile a ceea ce a numit cenzură informațională în regiune.",
-   "sources": [
-    {"name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei", "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"}
-   ]
-  },
-  {
-   "text": "Actualizare 3 septembrie 2026: Ministerul Afacerilor Externe și Integrării Europene l-a convocat pe ambasadorul Rusiei la Chișinău, Oleg Ozerov, și i-a înmânat o notă oficială de protest pe acest subiect — un pas mai formal decât reacția verbală din 30 august. MAE a precizat că „organizarea oricărui proces electoral pe teritoriul Republicii Moldova necesită acordul prealabil și expres al autorităților moldovenești” și a cerut părții ruse „să se abțină de la deschiderea secțiilor de votare în raioanele din stânga Nistrului”.",
-   "sources": [
-    {"name": "TVR Moldova — Ministerul Afacerilor Externe l-a convocat pe Ozerov și i-a înmânat o notă de protest", "url": "https://tvrmoldova.md/article/36bd5a494de909ab/ministerul-afacerilor-externe-l-a-convocat-pe-ozerov-si-i-a-inmanat-o-nota-de-protest.html"},
-    {"name": "NewsMaker (ru) — Молдова направляет России ноту протеста из-за открытия избирательных участков в Приднестровье", "url": "https://newsmaker.md/ru/moldova-napravila-rossii-notu-protesta-iz-za-otkrytiya-izbiratelnyh-uchastkov-v-pridnestrove"}
-   ]
+  "slug": "transnistria-17-sectii-votare-duma-rusia-mae-sfidare",
+  "title": "Krasnoselski anunță 17 secții de votare în Transnistria pentru alegerile din Duma rusă; MAE de la Chișinău spune că a fost coordonată doar una",
+  "category": "Media de stat",
+  "tara": "Moldova",
+  "date": "2026-08-31",
+  "source": "NewsMaker / KP.RU (presă rusă) / MAE Republica Moldova / TVR Moldova",
+  "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului",
+  "dek": "Liderul de facto al regiunii transnistrene, Vadim Krasnoselski, a anunțat pe 28 august că pe malul stâng al Nistrului vor fi deschise 17 secții de votare pentru alegerile din Duma de Stat a Rusiei, din 18-20 septembrie. Ministerul de Externe de la Chișinău spune că a coordonat cu Ambasada Rusiei o singură secție, la Chișinău, și că restul e „inacceptabil” și încalcă suveranitatea R. Moldova. Am pus declarația lui Krasnoselski — care vine dintr-o administrație necontrolată de Chișinău — lângă poziția oficială a MAE.",
+  "mainVerdict": "Probat parțial",
+  "probat": [
+    {
+      "text": "Vadim Krasnoselski, liderul de facto al administrației de la Tiraspol — instituție necontrolată de autoritățile constituționale de la Chișinău, etichetată explicit ca atare — a declarat în cadrul unei conferințe de presă, pe 28 august 2026, că serviciile responsabile din regiune pregătesc deschiderea a 17 secții de votare pentru alegerile în Duma de Stat a Federației Ruse, programate pentru 18-20 septembrie 2026. Potrivit lui, aproximativ 220.000 de cetățeni ruși locuiesc în regiunea transnistreană.",
+      "sources": [
+        {
+          "name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei",
+          "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"
+        },
+        {
+          "name": "KP.RU (presă rusă) — În Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat",
+          "url": "https://www.kp.ru/online/news/7145126/"
+        }
+      ]
+    },
+    {
+      "text": "Ministerul Afacerilor Externe și Integrării Europene al Republicii Moldova a reacționat pe 30 august, precizând că a fost coordonată cu Ambasada Rusiei la Chișinău deschiderea unei singure secții de votare, în capitală. MAE a transmis: „Republica Moldova recunoaște dreptul cetățenilor străini aflați pe teritoriul său de a participa la alegerile organizate de statele lor de cetățenie”, dar a adăugat că orice proces electoral desfășurat pe teritoriul țării trebuie coordonat în prealabil cu autoritățile constituționale.",
+      "sources": [
+        {
+          "name": "NewsMaker — MAE: doar deschiderea unei secții de votare la Chișinău a fost coordonată pentru alegerile din Rusia",
+          "url": "https://newsmaker.md/ro/mae-doar-deschiderea-unei-sectii-de-votare-la-chisinau-a-fost-coordonata-pentru-alegerile-din-rusia-reactie-la-anuntul-lui-krasnoselski"
+        }
+      ]
+    },
+    {
+      "text": "Biroul politici de reintegrare, de la Chișinău, a calificat intenția deschiderii celor 16-17 secții suplimentare în regiunea transnistreană, fără acordul autorităților constituționale, drept o încălcare a principiului suveranității și integrității teritoriale a Republicii Moldova. Instituția a argumentat, printre altele, că nu poate garanta măsurile de securitate și că mass-media nu poate reflecta obiectiv procesul, în condițiile a ceea ce a numit cenzură informațională în regiune.",
+      "sources": [
+        {
+          "name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei",
+          "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"
+        }
+      ]
+    },
+    {
+      "text": "Actualizare 3 septembrie 2026: Ministerul Afacerilor Externe și Integrării Europene l-a convocat pe ambasadorul Rusiei la Chișinău, Oleg Ozerov, și i-a înmânat o notă oficială de protest pe acest subiect — un pas mai formal decât reacția verbală din 30 august. MAE a precizat că „organizarea oricărui proces electoral pe teritoriul Republicii Moldova necesită acordul prealabil și expres al autorităților moldovenești” și a cerut părții ruse „să se abțină de la deschiderea secțiilor de votare în raioanele din stânga Nistrului”.",
+      "sources": [
+        {
+          "name": "TVR Moldova — Ministerul Afacerilor Externe l-a convocat pe Ozerov și i-a înmânat o notă de protest",
+          "url": "https://tvrmoldova.md/article/36bd5a494de909ab/ministerul-afacerilor-externe-l-a-convocat-pe-ozerov-si-i-a-inmanat-o-nota-de-protest.html"
+        },
+        {
+          "name": "NewsMaker (ru) — Молдова направляет России ноту протеста из-за открытия избирательных участков в Приднестровье",
+          "url": "https://newsmaker.md/ru/moldova-napravila-rossii-notu-protesta-iz-za-otkrytiya-izbiratelnyh-uchastkov-v-pridnestrove"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de 17 secții de votare vine exclusiv din declarația lui Krasnoselski, reluată de presa rusă și de presa independentă de la Chișinău care l-a citat — nu dintr-o listă oficială, publică, de adrese, așa cum a existat, de exemplu, în 2021. La data verificării nu găsim un document public al autorităților electorale ruse care să confirme numărul exact și locațiile.",
+      "sources": [
+        {
+          "name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei",
+          "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"
+        },
+        {
+          "name": "KP.RU (presă rusă) — În Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat",
+          "url": "https://www.kp.ru/online/news/7145126/"
+        }
+      ]
+    },
+    {
+      "text": "Nu se poate stabili, din sursele disponibile, dacă cele 16 secții necoordonate chiar se vor deschide așa cum a spus Krasnoselski sau dacă anunțul rămâne doar o intenție politică — asta se va vedea abia în perioada 18-20 septembrie. Diferența dintre „a anunțat” și „a deschis efectiv” contează: prima e o afirmație verificată aici, a doua rămâne de urmărit.",
+      "sources": [
+        {
+          "name": "NewsMaker — MAE: doar deschiderea unei secții de votare la Chișinău a fost coordonată pentru alegerile din Rusia",
+          "url": "https://newsmaker.md/ro/mae-doar-deschiderea-unei-sectii-de-votare-la-chisinau-a-fost-coordonata-pentru-alegerile-din-rusia-reactie-la-anuntul-lui-krasnoselski"
+        }
+      ]
+    },
+    {
+      "text": "Disputa nu e nouă: la alegerile pentru Duma din 2021, în Transnistria au fost deschise 27 de secții de votare — 12 la Tiraspol, 6 la Bender, câte 2 în raioanele Slobozia, Dubăsari și Râbnița, câte 1 în raioanele Grigoriopol și Camenca, plus una la Dnestrovsk —, tot fără acordul autorităților constituționale de la Chișinău, potrivit presei de stat ruse.",
+      "sources": [
+        {
+          "name": "RIA Novosti (presă de stat rusă, etichetată ca atare) — În Transnistria s-au deschis 27 de secții de votare",
+          "url": "https://ria.ru/20210919/uchastki-1750743579.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Etichetarea reciprocă — „sfidare” în presa care citează Chișinăul, „exercităm un drept normal” în declarația lui Krasnoselski — sunt poziții politice despre același fapt, nu descrieri care se pot verifica independent una de cealaltă.",
+      "sources": [
+        {
+          "name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei",
+          "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"
+        }
+      ]
+    }
+  ],
+  "aiNote": "📡 Atenție: declarația centrală a acestui articol — cele 17 secții de votare — vine de la Vadim Krasnoselski, liderul unei administrații de facto necontrolate de Chișinău, reluată inclusiv de presă rusă (KP.RU). Am etichetat sursa explicit și am pus-o lângă poziția oficială, verificabilă, a MAE de la Chișinău: doar o secție, la Chișinău, a fost coordonată cu Ambasada Rusiei. Ce se probează cu certitudine: că Krasnoselski a făcut această declarație public, pe 28 august, și că MAE a răspuns oficial pe 30 august calificând restul secțiilor drept necoordonate. Ce nu se probează: dacă cele 16 secții suplimentare chiar se vor deschide și vor funcționa fizic în regiune — asta ține de un anunț politic, nu de un document electoral rus publicat. Contextul contează: în 2021, Rusia a deschis 27 de secții similare în regiune, tot fără acordul autorităților constituționale — deci disputa nu e una nouă, ci se repetă la fiecare scrutin rusesc.",
+  "persoane": [
+    "Vadim Krasnoselski"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/transnistria-17-sectii-votare-duma-rusia-mae-sfidare.jpg\" alt=\"polling station ballot box voting\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — polling station ballot box voting. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:14-05-23_---_a_Bangkok_polling_station_for_2023_Thailand_General_Election_-_IMG_03.jpg\" rel=\"nofollow noopener\" target=\"_blank\">14-05-23 --- a Bangkok polling station for 2023 Thailand General Election - IMG 03</a>\" de Chainwit., via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/transnistria-17-sectii-votare-duma-rusia-mae-sfidare.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Chainwit."
   }
- ],
- "contestat": [
-  {
-   "text": "Cifra de 17 secții de votare vine exclusiv din declarația lui Krasnoselski, reluată de presa rusă și de presa independentă de la Chișinău care l-a citat — nu dintr-o listă oficială, publică, de adrese, așa cum a existat, de exemplu, în 2021. La data verificării nu găsim un document public al autorităților electorale ruse care să confirme numărul exact și locațiile.",
-   "sources": [
-    {"name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei", "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"},
-    {"name": "KP.RU (presă rusă) — În Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat", "url": "https://www.kp.ru/online/news/7145126/"}
-   ]
-  },
-  {
-   "text": "Nu se poate stabili, din sursele disponibile, dacă cele 16 secții necoordonate chiar se vor deschide așa cum a spus Krasnoselski sau dacă anunțul rămâne doar o intenție politică — asta se va vedea abia în perioada 18-20 septembrie. Diferența dintre „a anunțat” și „a deschis efectiv” contează: prima e o afirmație verificată aici, a doua rămâne de urmărit.",
-   "sources": [
-    {"name": "NewsMaker — MAE: doar deschiderea unei secții de votare la Chișinău a fost coordonată pentru alegerile din Rusia", "url": "https://newsmaker.md/ro/mae-doar-deschiderea-unei-sectii-de-votare-la-chisinau-a-fost-coordonata-pentru-alegerile-din-rusia-reactie-la-anuntul-lui-krasnoselski"}
-   ]
-  },
-  {
-   "text": "Disputa nu e nouă: la alegerile pentru Duma din 2021, în Transnistria au fost deschise 27 de secții de votare — 12 la Tiraspol, 6 la Bender, câte 2 în raioanele Slobozia, Dubăsari și Râbnița, câte 1 în raioanele Grigoriopol și Camenca, plus una la Dnestrovsk —, tot fără acordul autorităților constituționale de la Chișinău, potrivit presei de stat ruse.",
-   "sources": [
-    {"name": "RIA Novosti (presă de stat rusă, etichetată ca atare) — În Transnistria s-au deschis 27 de secții de votare", "url": "https://ria.ru/20210919/uchastki-1750743579.html"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Etichetarea reciprocă — „sfidare” în presa care citează Chișinăul, „exercităm un drept normal” în declarația lui Krasnoselski — sunt poziții politice despre același fapt, nu descrieri care se pot verifica independent una de cealaltă.",
-   "sources": [
-    {"name": "NewsMaker — Krasnoselski: în Transnistria vor fi deschise 17 secții de votare pentru alegerile în Duma de Stat a Rusiei", "url": "https://newsmaker.md/ro/krasnoselski-%C3%AEn-transnistria-vor-fi-deschise-17-sec%C8%9Bii-de-votare-pentru-alegerile-%C3%AEn-duma-de-stat-a-rusiei-reac%C8%9Bia-chi%C8%99in%C4%83ului"}
-   ]
-  }
- ],
- "aiNote": "📡 Atenție: declarația centrală a acestui articol — cele 17 secții de votare — vine de la Vadim Krasnoselski, liderul unei administrații de facto necontrolate de Chișinău, reluată inclusiv de presă rusă (KP.RU). Am etichetat sursa explicit și am pus-o lângă poziția oficială, verificabilă, a MAE de la Chișinău: doar o secție, la Chișinău, a fost coordonată cu Ambasada Rusiei. Ce se probează cu certitudine: că Krasnoselski a făcut această declarație public, pe 28 august, și că MAE a răspuns oficial pe 30 august calificând restul secțiilor drept necoordonate. Ce nu se probează: dacă cele 16 secții suplimentare chiar se vor deschide și vor funcționa fizic în regiune — asta ține de un anunț politic, nu de un document electoral rus publicat. Contextul contează: în 2021, Rusia a deschis 27 de secții similare în regiune, tot fără acordul autorităților constituționale — deci disputa nu e una nouă, ci se repetă la fiecare scrutin rusesc.",
- "persoane": ["Vadim Krasnoselski"]
 }

@@ -34,5 +34,12 @@
     }
   ],
   "aiNote": "Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele despre amenzi și despre proporția francezilor deranjați de apeluri nedorite provin direct din articolul Euronews, care citează autoritățile franceze. Nu am găsit surse care să conteste conținutul legii — riscul principal semnalat de mai multe redacții internaționale (nu inclus aici ca „probat”, fiindcă ține de aplicare viitoare) este eficiența reală a controlului, având în vedere că sistemul anterior de opt-out nu a fost respectat de toate call-centerele.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/franta-interzice-apeluri-nedorite.jpg\" alt=\"call centre telephone headset operator\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — call centre telephone headset operator. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Aspect_Tel-set_telephone_call_centre.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Aspect Tel-set telephone call centre</a>\" de Petiatil, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/franta-interzice-apeluri-nedorite.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Petiatil"
+  }
 }

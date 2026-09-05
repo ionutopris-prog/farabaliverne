@@ -11,25 +11,49 @@
     {
       "text": "Patru jucătoare din România au fost acceptate direct pe tabloul principal de simplu feminin al US Open 2026, pe baza clasamentului WTA din 20 iulie 2026: Sorana Cîrstea (locul 17), Jaqueline Cristian (locul 41, revenită după o operație la genunchiul drept), Gabriela Ruse (locul 73) și Irina Begu (locul 82, admisă cu ranking protejat, rezervat jucătoarelor absente mult timp din circuit din cauza accidentărilor).",
       "sources": [
-        {"name": "Romania Insider — Four Romanian female tennis players included in 2026 US Open Grand Slam tournament main draw", "url": "https://www.romania-insider.com/romanian-female-tennis-players-2026-us-open"},
-        {"name": "Sport.ro — Patru jucătoare din România vor juca în competiția propriu-zisă de la US Open 2026", "url": "https://www.sport.ro/tenis/patru-jucatoare-din-romania-vor-juca-in-competitia-propriu-zisa-de-la-us-open-2026.html"}
+        {
+          "name": "Romania Insider — Four Romanian female tennis players included in 2026 US Open Grand Slam tournament main draw",
+          "url": "https://www.romania-insider.com/romanian-female-tennis-players-2026-us-open"
+        },
+        {
+          "name": "Sport.ro — Patru jucătoare din România vor juca în competiția propriu-zisă de la US Open 2026",
+          "url": "https://www.sport.ro/tenis/patru-jucatoare-din-romania-vor-juca-in-competitia-propriu-zisa-de-la-us-open-2026.html"
+        }
       ]
     },
     {
       "text": "Locul 17 WTA reprezintă un nou maxim al carierei pentru Sorana Cîrstea (36 de ani), care își depășește precedentul record personal, locul 18, atins pe 18 mai 2026 — devenind astfel cea mai în vârstă jucătoare din istoria clasamentului WTA care debutează în top 20.",
       "sources": [
-        {"name": "Tennis.com — Sorana Cirstea makes historic Top 20 debut on WTA rankings after semifinal run in Rome", "url": "https://www.tennis.com/news/articles/sorana-cirstea-makes-historic-top-20-debut-on-wta-rankings-after-semifinal-run-in-rome"}
+        {
+          "name": "Tennis.com — Sorana Cirstea makes historic Top 20 debut on WTA rankings after semifinal run in Rome",
+          "url": "https://www.tennis.com/news/articles/sorana-cirstea-makes-historic-top-20-debut-on-wta-rankings-after-semifinal-run-in-rome"
+        }
       ]
     },
     {
       "text": "US Open 2026 se desfășoară la Flushing Meadows, New York, între 23 august și 13 septembrie 2026, iar tabloul principal la simplu începe pe 30 august. Tabloul feminin are 128 de locuri, completate și prin wild-card-uri și prin turneul de calificări; ultima jucătoare acceptată direct a fost Anastasia Zakharova, locul 102 WTA.",
       "sources": [
-        {"name": "Romania Insider — Four Romanian female tennis players included in 2026 US Open Grand Slam tournament main draw", "url": "https://www.romania-insider.com/romanian-female-tennis-players-2026-us-open"}
+        {
+          "name": "Romania Insider — Four Romanian female tennis players included in 2026 US Open Grand Slam tournament main draw",
+          "url": "https://www.romania-insider.com/romanian-female-tennis-players-2026-us-open"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [],
   "aiNote": "Anunț oficial de rutină — patru jucătoare românce calificate direct pe tabloul principal, pe baza clasamentului WTA din 20 iulie 2026, confirmat concordant de Romania Insider și Sport.ro. Nu există nimic de disputat aici.",
-  "persoane": ["Sorana Cîrstea", "Jaqueline Cristian", "Gabriela Ruse", "Irina Begu"]
+  "persoane": [
+    "Sorana Cîrstea",
+    "Jaqueline Cristian",
+    "Gabriela Ruse",
+    "Irina Begu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/us-open-2026-patru-romance-tablou-principal.jpg\" alt=\"Open\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Open. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Vier_Atjehse_hoofden_te_Medan_TMnr_10001850.jpg\" rel=\"nofollow noopener\" target=\"_blank\">COLLECTIE TROPENMUSEUM Vier Atjehse hoofden te Medan TMnr 10001850</a>\" de Unknown authorUnknown author, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/us-open-2026-patru-romance-tablou-principal.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Unknown authorUnknown author"
+  }
 }

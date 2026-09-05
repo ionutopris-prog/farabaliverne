@@ -72,5 +72,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională relatată și de presa românească; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Ce se probează: anunțul oficial al premierului polonez Donald Tusk, relatat concordant de mai multe redacții, despre reținerea pe 7 august 2026 a unui cetățean rus acuzat de plănuirea unui asasinat la Varșovia. Ce rămâne neverificabil public, la data verificării: identitatea victimei vizate, probele concrete ale acuzației și poziția oficială a Rusiei, care nu a răspuns solicitărilor de presă. Cititorul poate urmări evoluția procesului penal, dacă și când va deveni public.",
   "persoane": [
     "Donald Tusk"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/polonia-varsovia-asasinat-dejucat-rus.jpg\" alt=\"Poland Warsaw old town\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Poland Warsaw old town. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Castle_Square_(22346p).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Castle Square (22346p)</a>\" de Rhododendrites, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/polonia-varsovia-asasinat-dejucat-rus.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Rhododendrites"
+  }
 }

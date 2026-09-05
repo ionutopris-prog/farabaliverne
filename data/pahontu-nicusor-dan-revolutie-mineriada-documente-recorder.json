@@ -138,5 +138,15 @@
   ],
   "math": null,
   "aiNote": "Ce s-a verificat exact: afirmația publică a lui Pahonțu că nici el, nici oamenii din subordinea sa nu s-au aflat la baricada Intercontinental pe 21 decembrie 1989 și că unitatea sa a rămas în cazarmă în zilele Mineriadei (13-14 iunie 1990) — verificată pe baza a două seturi de documente publicate de Recorder: un raport contemporan al maiorului Gheorghe Rădulescu, care îl plasează cu nume și grad în dispozitivul trimis la Intercontinental, și declarații scrise, depuse ulterior la procurorii militari, ale trei foști subordonați care spun că au fost prezenți la Televiziune și în Piața Universității sub comanda lui.\n\nUnde se despart sursele: raportul lui Rădulescu e un document din epocă, dar nu descrie ce a făcut Pahonțu efectiv la fața locului — doar că unitatea lui a fost trimisă acolo. Declarațiile celor trei subordonați sunt mărturii directe, dar depuse ani mai târziu, într-un dosar penal, ceea ce le dă altă greutate probatorie decât un ordin militar scris în decembrie 1989. Pahonțu neagă ambele episoade in integrum; Nicușor Dan a citit același material și spune că „nu a găsit nimic” — o evaluare greu de reconciliat cu faptul că documentele îl numesc explicit pe Pahonțu.\n\nCe lipsește: nu există, în sursele consultate, un document sau o mărturie care să descrie o acțiune concretă a lui Pahonțu la baricadă (armă folosită, ordin dat, persoană arestată de el personal) — doar prezența unității sale în zonă. Fără acest element, „a fost acolo” și „a reprimat” rămân două afirmații diferite, iar sursele actuale susțin doar prima.\n\nCe ar schimba concluzia: o anchetă penală sau o expertiză independentă a documentelor din Dosarul Revoluției, care să stabilească rolul individual al lui Pahonțu (nu doar prezența unității), ori un răspuns punctual al său la conținutul exact al raportului Rădulescu — pe care, deocamdată, l-a respins global, fără să discute documentul în sine.",
-  "persoane": ["Nicușor Dan", "Lucian Pahonțu"]
+  "persoane": [
+    "Nicușor Dan",
+    "Lucian Pahonțu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/pahontu-nicusor-dan-revolutie-mineriada-documente-recorder.jpg\" alt=\"Lucian\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Lucian. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ausgew%C3%A4hlte_Schriften_des_Lucian_(microform)_(IA_ausgewhlteschrif00luci).pdf\" rel=\"nofollow noopener\" target=\"_blank\">Ausgewählte Schriften des Lucian (microform) (IA ausgewhlteschrif00luci)</a>\" de Lucian, of Samosata, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/pahontu-nicusor-dan-revolutie-mineriada-documente-recorder.jpg",
+    "licenta": "Public domain",
+    "autor": "Lucian, of Samosata"
+  }
 }

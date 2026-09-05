@@ -65,5 +65,12 @@
   "opinie": [],
   "math": null,
   "aiNote": "Dovezile din surse independente (Mediafax, ESPN, Sky Sports, agenția The News/AP) confirmă concordant faptul central: un bărbat a fost arestat pentru fraudă după ce a purtat o acreditare care nu îi aparținea la Alexander Stadium, iar operațiunea de securitate a blocat temporar mii de spectatori și a dus la anularea a șase ceremonii de premiere. Nu am găsit surse care să contrazică vreo afirmație factuală, motiv pentru care nu există secțiune „Contestat”. Sursele precizează explicit că nu a existat niciun indiciu de pericol pentru public — o precizare importantă, pentru a nu lăsa impresia unei amenințări mai grave decât cea confirmată oficial.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/birmingham-alerta-securitate-atletism-16-august.jpg\" alt=\"Birmingham\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Birmingham. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Birmingham,_Alabama_skyline.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Birmingham, Alabama skyline</a>\" de Quintin Soloviev, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/birmingham-alerta-securitate-atletism-16-august.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Quintin Soloviev"
+  }
 }

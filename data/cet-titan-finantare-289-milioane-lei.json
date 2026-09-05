@@ -11,36 +11,66 @@
     {
       "text": "CEC Bank și Exim Banca Românească au semnat, potrivit comunicatelor publicate pe 13 august 2026, un contract de finanțare de aproximativ 289 de milioane de lei pentru dezvoltarea proiectului CET Titan, derulat de compania de proiect Titan Power S.A.",
       "sources": [
-        {"name": "CEC Bank — CEC Bank și Exim Banca Românească finanțează dezvoltarea proiectului strategic CET Titan", "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"},
-        {"name": "BURSA — CEC Bank și Exim Banca Românească finanțează dezvoltarea proiectului strategic CET Titan", "url": "https://www.bursa.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan-85168954"},
-        {"name": "Exim Banca Românească — Finanțăm prima centrală de termoficare construită în București după 46 de ani", "url": "https://www.eximbank.ro/2026/08/13/finantam-prima-centrala-de-termoficare-construita-in-bucuresti-dupa-46-de-ani/"}
+        {
+          "name": "CEC Bank — CEC Bank și Exim Banca Românească finanțează dezvoltarea proiectului strategic CET Titan",
+          "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"
+        },
+        {
+          "name": "BURSA — CEC Bank și Exim Banca Românească finanțează dezvoltarea proiectului strategic CET Titan",
+          "url": "https://www.bursa.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan-85168954"
+        },
+        {
+          "name": "Exim Banca Românească — Finanțăm prima centrală de termoficare construită în București după 46 de ani",
+          "url": "https://www.eximbank.ro/2026/08/13/finantam-prima-centrala-de-termoficare-construita-in-bucuresti-dupa-46-de-ani/"
+        }
       ]
     },
     {
       "text": "Titan Power S.A., compania de proiect, este deținută majoritar de Societatea de Administrare a Participațiilor în Energie (SAPE S.A.) și minoritar de Electrocentrale Grup S.A. (ELG S.A.) — companii cu capital de stat active în sectorul energetic.",
       "sources": [
-        {"name": "Forbes România — CEC Bank și Exim Banca Românească finanțează prima centrală de termoficare construită de la zero în București după aproape 50 de ani", "url": "https://www.forbes.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-prima-centrala-de-termoficare-construita-de-la-zero-in-bucuresti-dupa-aproape-50-de-ani-516376"},
-        {"name": "Economedia — CEC Bank și Exim Banca Românească finanțează CET Titan, prima centrală de termoficare construită în București după 46 de ani", "url": "https://economedia.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-cet-titan-prima-centrala-de-termoficare-construita-in-bucuresti-dupa-46-de-ani.html"}
+        {
+          "name": "Forbes România — CEC Bank și Exim Banca Românească finanțează prima centrală de termoficare construită de la zero în București după aproape 50 de ani",
+          "url": "https://www.forbes.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-prima-centrala-de-termoficare-construita-de-la-zero-in-bucuresti-dupa-aproape-50-de-ani-516376"
+        },
+        {
+          "name": "Economedia — CEC Bank și Exim Banca Românească finanțează CET Titan, prima centrală de termoficare construită în București după 46 de ani",
+          "url": "https://economedia.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-cet-titan-prima-centrala-de-termoficare-construita-in-bucuresti-dupa-46-de-ani.html"
+        }
       ]
     },
     {
       "text": "Autoritățile prezintă CET Titan ca fiind prima centrală de termoficare construită de la zero în București după 1979 — un interval de circa 46-47 de ani fără o astfel de investiție. Redacțiile rotunjesc diferit: comunicatele CEC Bank și Exim vorbesc de „46 de ani”, Forbes de „aproape 50 de ani”, iar corpul textelor calculează pornind de la anul 1979.",
       "sources": [
-        {"name": "CEC Bank — comunicat", "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"},
-        {"name": "Forbes România — comunicat", "url": "https://www.forbes.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-prima-centrala-de-termoficare-construita-de-la-zero-in-bucuresti-dupa-aproape-50-de-ani-516376"}
+        {
+          "name": "CEC Bank — comunicat",
+          "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"
+        },
+        {
+          "name": "Forbes România — comunicat",
+          "url": "https://www.forbes.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-prima-centrala-de-termoficare-construita-de-la-zero-in-bucuresti-dupa-aproape-50-de-ani-516376"
+        }
       ]
     },
     {
       "text": "Noua centrală va produce anual aproximativ 400 GWh energie electrică (livrată în Sistemul Energetic Național) și 200 GWh energie termică (pentru sistemul centralizat din București), folosind tehnologie modernă de cogenerare pe gaz natural, cu o eficiență energetică totală de circa 90% și proiectată pentru compatibilitate viitoare cu amestecuri de hidrogen.",
       "sources": [
-        {"name": "Forbes România — comunicat", "url": "https://www.forbes.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-prima-centrala-de-termoficare-construita-de-la-zero-in-bucuresti-dupa-aproape-50-de-ani-516376"},
-        {"name": "BURSA — comunicat", "url": "https://www.bursa.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan-85168954"}
+        {
+          "name": "Forbes România — comunicat",
+          "url": "https://www.forbes.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-prima-centrala-de-termoficare-construita-de-la-zero-in-bucuresti-dupa-aproape-50-de-ani-516376"
+        },
+        {
+          "name": "BURSA — comunicat",
+          "url": "https://www.bursa.ro/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan-85168954"
+        }
       ]
     },
     {
       "text": "Testele de acceptanță în fabrică (Factory Acceptance Tests, FAT) pentru echipamentele tehnologice principale au fost demarate în luna august 2026, ceea ce autoritățile citează drept dovadă a trecerii proiectului într-un stadiu avansat de implementare tehnică.",
       "sources": [
-        {"name": "CEC Bank — comunicat", "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"}
+        {
+          "name": "CEC Bank — comunicat",
+          "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"
+        }
       ]
     }
   ],
@@ -48,15 +78,27 @@
     {
       "text": "Cifra „de câți ani nu s-a mai construit o centrală nouă în București” variază în funcție de ce anume se compară. Comunicatele din august 2026 (CEC Bank, Exim) vorbesc despre „46 de ani” / „aproape 50 de ani” de la ultima centrală construită de la zero (1979). Un anunț separat al Ministerului Energiei, din 3 iunie 2024, descria însă tot proiectul CET Titan drept „primul CET nou din București din ultimii 15 ani” — o cifră mult mai mică, dar despre altă categorie de comparație (orice centrală nouă de termoficare în cogenerare de înaltă eficiență, nu neapărat „de la zero”). Cele două cifre nu se contrazic tehnic — măsoară lucruri diferite — dar pot induce confuzie la o citire rapidă a titlurilor.",
       "sources": [
-        {"name": "Economica.net — A fost demarat proiectul CET Titan, primul CET nou din București din ultimii 15 ani (3 iunie 2024)", "url": "https://www.economica.net/a-fost-demarat-proiectul-cet-titan-primul-cet-nou-din-bucuresti-din-ultimii-15-ani-ministrul-energiei_751440.html"},
-        {"name": "CEC Bank — comunicat (13 august 2026)", "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"}
+        {
+          "name": "Economica.net — A fost demarat proiectul CET Titan, primul CET nou din București din ultimii 15 ani (3 iunie 2024)",
+          "url": "https://www.economica.net/a-fost-demarat-proiectul-cet-titan-primul-cet-nou-din-bucuresti-din-ultimii-15-ani-ministrul-energiei_751440.html"
+        },
+        {
+          "name": "CEC Bank — comunicat (13 august 2026)",
+          "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"
+        }
       ]
     },
     {
       "text": "Anunțul din 2024 menționa o finanțare distinctă: 40 de milioane de euro nerambursabili din Fondul pentru Modernizare, dintr-un cost total estimat de 70 de milioane de euro, cu finalizare estimată „până la finele lui 2026”. Finanțarea de 289 de milioane de lei anunțată acum (aproximativ 57-58 de milioane de euro la cursul curent) vine de la bănci comerciale de stat (CEC, Exim) — nu am găsit o explicație publică oficială care să reconcilieze explicit cele două cifre într-un buget total unitar al proiectului.",
       "sources": [
-        {"name": "Economica.net — comunicat 2024", "url": "https://www.economica.net/a-fost-demarat-proiectul-cet-titan-primul-cet-nou-din-bucuresti-din-ultimii-15-ani-ministrul-energiei_751440.html"},
-        {"name": "CEC Bank — comunicat 2026", "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"}
+        {
+          "name": "Economica.net — comunicat 2024",
+          "url": "https://www.economica.net/a-fost-demarat-proiectul-cet-titan-primul-cet-nou-din-bucuresti-din-ultimii-15-ani-ministrul-energiei_751440.html"
+        },
+        {
+          "name": "CEC Bank — comunicat 2026",
+          "url": "https://www.cec.ro/presa/cec-bank-si-exim-banca-romaneasca-finanteaza-dezvoltarea-proiectului-strategic-cet-titan"
+        }
       ]
     }
   ],
@@ -66,5 +108,12 @@
     "explanation": "289 de milioane de lei înseamnă circa 57-58 de milioane de euro, la un curs orientativ de 5 lei/euro. Anunțul din iunie 2024 estima costul total al proiectului CET Titan la 70 de milioane de euro, din care 40 de milioane veneau ca grant nerambursabil din Fondul pentru Modernizare. Finanțarea bancară de acum (CEC + Exim) pare deci să acopere doar o parte din costul total inițial estimat, nu întreaga investiție — dar sursele găsite nu explică public cum se leagă exact cele două cifre între ele."
   },
   "aiNote": "Am agregat informația din comunicate oficiale (CEC Bank, Exim Banca Românească) și presă economică (Forbes România, BURSA, Economedia, Economica.net). Am marcat la „Contestat” faptul că titluri diferite ale acelorași instituții — sau ale aceluiași proiect, la doi ani distanță — dau cifre diferite despre „de câți ani” de la ultima centrală nouă în București, ca să nu lăsăm impresia unei singure cifre „oficiale” acolo unde presa folosește formulări diferite.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/cet-titan-finantare-289-milioane-lei.jpg\" alt=\"Titan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Titan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:A_Titan_Sample_Return_Using_In-Situ_Propellants.jpg\" rel=\"nofollow noopener\" target=\"_blank\">A Titan Sample Return Using In-Situ Propellants</a>\" de Katherine Miller, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/cet-titan-finantare-289-milioane-lei.jpg",
+    "licenta": "Public domain",
+    "autor": "Katherine Miller"
+  }
 }

@@ -85,5 +85,12 @@
   "aiNote": "Mai multe redacții independente — Bloomberg (sursa inițială), preluat de presa română (Mediafax, Digi24) și de presă internațională (The Daily Beast, Meduza) — descriu, pe baza aceluiași document „văzut” de jurnaliști, un chestionar trimis de Pentagon aliaților NATO, cu întrebări despre sprijinul public pentru politica lui Trump, folosirea bazelor americane și achizițiile de la firme de apărare din SUA. Faptele de bază (existența, conținutul, distribuția documentului, contextul reevaluării militare) se probează prin convergența surselor. Rămâne o rezervă importantă: nici Pentagonul, nici NATO nu au confirmat oficial documentul — relatările se bazează pe surse anonime și pe un document scurs în presă, iar declarația publică a lui Rutte se referă la procesul general de reevaluare, nu explicit la acest chestionar.",
   "persoane": [
     "Pete Hegseth"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-nato-chestionar-loialitate-trump.jpg\" alt=\"Pentagon Washington building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Pentagon Washington building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Aerial_Closeup_of_the_Pentagon,_May_11,_2021.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Aerial Closeup of the Pentagon, May 11, 2021</a>\" de Air Force Staff Sgt. Brittany A. Chase, DOD, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-nato-chestionar-loialitate-trump.jpg",
+    "licenta": "Public domain",
+    "autor": "Air Force Staff Sgt. Brittany A. Chase, DOD"
+  }
 }

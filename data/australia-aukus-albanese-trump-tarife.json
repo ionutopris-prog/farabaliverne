@@ -11,19 +11,28 @@
     {
       "text": "Premierul Anthony Albanese a declarat vineri, 14 august 2026, că „am trecut în revistă progresul semnificativ realizat în cadrul AUKUS, care rămâne în plină viteză”, după un apel telefonic cu președintele Donald Trump descris ca „foarte productiv, constructiv, lung și substanțial”.",
       "sources": [
-        {"name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call", "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"}
+        {
+          "name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call",
+          "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"
+        }
       ]
     },
     {
       "text": "Australia s-a angajat să investească 368 de miliarde de dolari australieni (aproximativ 260 de miliarde de dolari americani) pe parcursul a trei decenii în AUKUS. Submarine de clasă Virginia, operate de SUA, urmează să fie staționate în Australia începând de anul viitor, iar submarine suplimentare urmează să fie vândute Australiei începând din jurul anului 2030.",
       "sources": [
-        {"name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call", "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"}
+        {
+          "name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call",
+          "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"
+        }
       ]
     },
     {
       "text": "Albanese a spus că Trump a fost de acord să ia în calcul o scutire totală a Australiei de tariful american general de 12,5% — Australia are un deficit comercial cu SUA, importând utilaje, tehnologie și avioane, argumente invocate pentru scutire.",
       "sources": [
-        {"name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call", "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"}
+        {
+          "name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call",
+          "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"
+        }
       ]
     }
   ],
@@ -31,12 +40,23 @@
     {
       "text": "Șeful politicii Pentagonului, Elbridge Colby, care a condus anul trecut o reevaluare a acordului AUKUS, și-a exprimat acum încrederea în progresul acestuia. Aceeași sursă notează însă că, în 2024, Colby avertizase că submarinele sunt un bun rar și că este posibil ca ritmul de producție al SUA să nu acopere nici măcar nevoile proprii ale marinei americane — o rezervă structurală ce nu a fost tranșată public, doar re-etichetată drept „progres”.",
       "sources": [
-        {"name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call", "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"}
+        {
+          "name": "The Jakarta Post — Australia's Albanese says AUKUS remains 'full steam ahead' after Trump call",
+          "url": "https://www.thejakartapost.com/world/2026/08/14/australias-albanese-says-aukus-remains-full-steam-ahead-after-trump-call"
+        }
       ]
     }
   ],
   "opinie": [],
-  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am marcat la „Contestat” rezerva ridicată chiar de un oficial american (Colby) despre capacitatea de producție, pentru ca declarația optimistă a lui Albanese să nu rămână necontrabalansată."
-  ,
-  "persoane": ["Anthony Albanese"]
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am marcat la „Contestat” rezerva ridicată chiar de un oficial american (Colby) despre capacitatea de producție, pentru ca declarația optimistă a lui Albanese să nu rămână necontrabalansată.",
+  "persoane": [
+    "Anthony Albanese"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/australia-aukus-albanese-trump-tarife.jpg\" alt=\"Trump\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Trump. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Donald_Trump_Pope_Francis_Melania_Trump_in_2017.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Donald Trump Pope Francis Melania Trump in 2017</a>\" de Shealeah Craighead, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0/us/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0 us</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/australia-aukus-albanese-trump-tarife.jpg",
+    "licenta": "CC BY 3.0 us",
+    "autor": "Shealeah Craighead"
+  }
 }

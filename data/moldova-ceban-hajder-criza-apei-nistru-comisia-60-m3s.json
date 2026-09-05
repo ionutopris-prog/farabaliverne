@@ -1,62 +1,102 @@
 {
- "slug": "moldova-ceban-hajder-criza-apei-nistru-comisia-60-m3s",
- "title": "Ceban spune că apa de pe Nistru e „sperietură” a autorităților. În aceeași zi, Comisia moldo-ucraineană reducea deversările de urgență la 60 m³/s",
- "category": "Politică",
- "tara": "Moldova",
- "date": "2026-08-28",
- "source": "NewsMaker.md / Realitatea.md / Veridica.md",
- "url": "https://newsmaker.md/ro/ceban-acuz%C4%83-guvernul-c%C4%83-sperie-oamenii-pe-tema-apei-reac%C8%9Bia-ministrului-mediului",
- "dek": "Primarul Chișinăului, Ion Ceban, a acuzat pe 28 august autoritățile centrale că „sperie oamenii” cu o criză a apei pe Nistru care, spune el, nu există — la Nord, la Dubăsari, nivelurile ar fi cele mai ridicate din vară. În aceeași zi, ministrul Mediului, Gheorghe Hajder, îi răspundea cu alte cifre, iar Comisia Nistreană moldo-ucraineană decidea, tot pe 28 august, să reducă temporar deversările din lacul Novodnestrovsk, aflat aproape de un nivel considerat critic.",
- "mainVerdict": "Contestat",
- "probat": [
-  {
-   "text": "Pe 28 august 2026, primarul Chișinăului, Ion Ceban, a declarat: „Sper că, între toate ceremoniile frumoase, a fost discutat și subiectul apei și multe altele (...) Asta ca să nu iasă trepădușii în fiecare zi să tot sperie oamenii că acuș apa se termină.” Ceban a susținut că, la Nord, la Dubăsari și la stația de captare, nivelurile Nistrului sunt cele mai ridicate din vara aceasta, iar aceste date nu ar fi comunicate public.",
-   "sources": [
-    {"name": "NewsMaker.md — Ceban acuză Guvernul că „sperie oamenii” pe tema apei", "url": "https://newsmaker.md/ro/ceban-acuz%C4%83-guvernul-c%C4%83-sperie-oamenii-pe-tema-apei-reac%C8%9Bia-ministrului-mediului"}
-   ]
+  "slug": "moldova-ceban-hajder-criza-apei-nistru-comisia-60-m3s",
+  "title": "Ceban spune că apa de pe Nistru e „sperietură” a autorităților. În aceeași zi, Comisia moldo-ucraineană reducea deversările de urgență la 60 m³/s",
+  "category": "Politică",
+  "tara": "Moldova",
+  "date": "2026-08-28",
+  "source": "NewsMaker.md / Realitatea.md / Veridica.md",
+  "url": "https://newsmaker.md/ro/ceban-acuz%C4%83-guvernul-c%C4%83-sperie-oamenii-pe-tema-apei-reac%C8%9Bia-ministrului-mediului",
+  "dek": "Primarul Chișinăului, Ion Ceban, a acuzat pe 28 august autoritățile centrale că „sperie oamenii” cu o criză a apei pe Nistru care, spune el, nu există — la Nord, la Dubăsari, nivelurile ar fi cele mai ridicate din vară. În aceeași zi, ministrul Mediului, Gheorghe Hajder, îi răspundea cu alte cifre, iar Comisia Nistreană moldo-ucraineană decidea, tot pe 28 august, să reducă temporar deversările din lacul Novodnestrovsk, aflat aproape de un nivel considerat critic.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Pe 28 august 2026, primarul Chișinăului, Ion Ceban, a declarat: „Sper că, între toate ceremoniile frumoase, a fost discutat și subiectul apei și multe altele (...) Asta ca să nu iasă trepădușii în fiecare zi să tot sperie oamenii că acuș apa se termină.” Ceban a susținut că, la Nord, la Dubăsari și la stația de captare, nivelurile Nistrului sunt cele mai ridicate din vara aceasta, iar aceste date nu ar fi comunicate public.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — Ceban acuză Guvernul că „sperie oamenii” pe tema apei",
+          "url": "https://newsmaker.md/ro/ceban-acuz%C4%83-guvernul-c%C4%83-sperie-oamenii-pe-tema-apei-reac%C8%9Bia-ministrului-mediului"
+        }
+      ]
+    },
+    {
+      "text": "Ministrul Mediului, Gheorghe Hajder, i-a răspuns tot pe 28 august: „Despre limbajul suburban folosit nu voi comenta.” El a precizat că lacul de la Dubăsari e colmatat în proporție de peste 50%, iar problema reală e la Novodnestrovsk, în Ucraina: deversările s-au menținut la 75 m³/s, cu o scădere temporară la 63 m³/s pe 23-24 august și o revenire la 93-96 m³/s pe 27-28 august, pe fondul precipitațiilor — dar aportul mediu de apă în lac a fost de doar circa 23 m³/s față de cei 75 m³/s deversați.",
+      "sources": [
+        {
+          "name": "Realitatea.md — Hajder reacționează la declarațiile lui Ceban privind nivelul Nistrului",
+          "url": "https://realitatea.md/hajder-reactioneaza-la-declaratiile-lui-ceban-privind-nivelul-nistrului-despre-limbajul-suburban-folosit-nu-voi-comenta/"
+        }
+      ]
+    },
+    {
+      "text": "Tot pe 28 august, Comisia Nistreană — organismul comun moldo-ucrainean pentru gestionarea Nistrului — s-a întrunit în ședință extraordinară și a decis menținerea unui volum de deversări de 60 m³/s din lacul Novodnestrovsk pentru următoarele două săptămâni, un compromis între cei 50 m³/s propuși inițial de partea ucraineană și cererea Moldovei de un volum mai mare, necesar pentru alimentarea Chișinăului, Bălțiului și Sorocii.",
+      "sources": [
+        {
+          "name": "Veridica.md — Comisia Nistreană a decis menținerea unui volum de 60 m³/s al deversărilor în râul Nistru",
+          "url": "https://www.veridica.md/stiri/comisia-nistreana-a-decis-mentinerea-unui-volum-de-60-m3s-al-deversarilor-in-raul-nistru"
+        },
+        {
+          "name": "NewsMaker.md — Compromis între Chișinău și Kiev privind debitul Nistrului",
+          "url": "https://newsmaker.md/ro/compromis-intre-chisinau-si-kiev-privind-debitul-nistrului-deversarile-se-vor-reduce-pana-la-60-m%C2%B3-s-timp-de-doua-saptamani"
+        },
+        {
+          "name": "RadioChișinău.md — Comisia Nistreană a decis ca debitul Nistrului să fie menținut la 60 m³/s",
+          "url": "https://radiochisinau.md/comisia-nistreana-a-decis-ca-debitul-nistrului-sa-fie-mentinut-la-60-m-s-in-urmatoarele-doua-saptamani---228226.html"
+        }
+      ]
+    },
+    {
+      "text": "Potrivit purtătorului de cuvânt al Guvernului, citat de Veridica.md, nivelul apei din lacul de acumulare Novodnestrovsk, care în mod obișnuit se situează la cota de 123 de metri, se apropia la data deciziei de un nivel considerat critic, de 112 metri. Hajder avertizase încă din iulie, într-un interviu pentru ProTV Chișinău, că municipiul Chișinău „ar putea rămâne fără apă” dacă situația se agravează, și a acuzat atunci Primăria că nu a comunicat dacă dispune de o sursă alternativă de apă.",
+      "sources": [
+        {
+          "name": "Veridica.md — nivelul lacului Novodnestrovsk",
+          "url": "https://www.veridica.md/stiri/comisia-nistreana-a-decis-mentinerea-unui-volum-de-60-m3s-al-deversarilor-in-raul-nistru"
+        },
+        {
+          "name": "ProTV.md — Chișinăul ar putea rămâne fără apă, avertizează Hajder",
+          "url": "https://protv.md/actualitate/chisinaul-ar-putea-ramane-fara-apa-gheorghe-hajder-avertizeaza-asupra-scaderii-nivelului-nistrului-si-il-acuza-pe-ion-ceban-ca-nu-ar-fi-luat-masuri-suficiente---2763105.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Afirmația lui Ceban — că nu există nicio problemă și că totul e „sperietură” a autorităților centrale — nu se susține integral: chiar în ziua declarației, Comisia Nistreană moldo-ucraineană negocia și decidea o reducere a deversărilor tocmai pentru a proteja alimentarea cu apă a trei orașe, inclusiv Chișinăul, iar lacul-sursă era aproape de un nivel considerat critic de autoritățile din ambele țări. Un organism internațional nu negociază de urgență o problemă inventată.",
+      "sources": [
+        {
+          "name": "Veridica.md — decizia Comisiei Nistrene",
+          "url": "https://www.veridica.md/stiri/comisia-nistreana-a-decis-mentinerea-unui-volum-de-60-m3s-al-deversarilor-in-raul-nistru"
+        },
+        {
+          "name": "Realitatea.md — cifrele lui Hajder despre debitul Nistrului",
+          "url": "https://realitatea.md/hajder-reactioneaza-la-declaratiile-lui-ceban-privind-nivelul-nistrului-despre-limbajul-suburban-folosit-nu-voi-comenta/"
+        }
+      ]
+    },
+    {
+      "text": "În același timp, punctul concret al lui Ceban — că, local, la Nord și la Dubăsari, nivelurile erau cele mai ridicate din vară — nu e contrazis de datele lui Hajder: cifrele arată chiar o creștere a deversărilor la 93-96 m³/s în zilele de 27-28 august, pe fondul ploilor. Ceban descrie o ameliorare punctuală și temporară; Hajder descrie un deficit structural al lacului-sursă, aflat în Ucraina, unde aportul mediu (23 m³/s) rămâne mult sub deversările necesare (75 m³/s). Cele două afirmații privesc segmente diferite ale aceluiași sistem hidrologic, nu se exclud automat.",
+      "sources": [
+        {
+          "name": "Realitatea.md — cifrele complete ale lui Hajder",
+          "url": "https://realitatea.md/hajder-reactioneaza-la-declaratiile-lui-ceban-privind-nivelul-nistrului-despre-limbajul-suburban-folosit-nu-voi-comenta/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Cât de aproape e lacul de pragul critic?",
+    "explanation": "Nivelul normal al lacului Novodnestrovsk e de 123 de metri; pragul considerat critic e 112 metri — o marjă de doar 11 metri. La rata de deficit descrisă de Hajder (aport mediu 23 m³/s față de deversări de 75 m³/s, adică 52 m³/s ieșiți în plus din lac în fiecare secundă), rezerva se poate epuiza rapid dacă nu vin precipitații — motivul pentru care Comisia Nistreană a redus deversările la 60 m³/s, nu la cei 75 m³/s ceruți inițial de Moldova, ca să încetinească scăderea."
   },
-  {
-   "text": "Ministrul Mediului, Gheorghe Hajder, i-a răspuns tot pe 28 august: „Despre limbajul suburban folosit nu voi comenta.” El a precizat că lacul de la Dubăsari e colmatat în proporție de peste 50%, iar problema reală e la Novodnestrovsk, în Ucraina: deversările s-au menținut la 75 m³/s, cu o scădere temporară la 63 m³/s pe 23-24 august și o revenire la 93-96 m³/s pe 27-28 august, pe fondul precipitațiilor — dar aportul mediu de apă în lac a fost de doar circa 23 m³/s față de cei 75 m³/s deversați.",
-   "sources": [
-    {"name": "Realitatea.md — Hajder reacționează la declarațiile lui Ceban privind nivelul Nistrului", "url": "https://realitatea.md/hajder-reactioneaza-la-declaratiile-lui-ceban-privind-nivelul-nistrului-despre-limbajul-suburban-folosit-nu-voi-comenta/"}
-   ]
-  },
-  {
-   "text": "Tot pe 28 august, Comisia Nistreană — organismul comun moldo-ucrainean pentru gestionarea Nistrului — s-a întrunit în ședință extraordinară și a decis menținerea unui volum de deversări de 60 m³/s din lacul Novodnestrovsk pentru următoarele două săptămâni, un compromis între cei 50 m³/s propuși inițial de partea ucraineană și cererea Moldovei de un volum mai mare, necesar pentru alimentarea Chișinăului, Bălțiului și Sorocii.",
-   "sources": [
-    {"name": "Veridica.md — Comisia Nistreană a decis menținerea unui volum de 60 m³/s al deversărilor în râul Nistru", "url": "https://www.veridica.md/stiri/comisia-nistreana-a-decis-mentinerea-unui-volum-de-60-m3s-al-deversarilor-in-raul-nistru"},
-    {"name": "NewsMaker.md — Compromis între Chișinău și Kiev privind debitul Nistrului", "url": "https://newsmaker.md/ro/compromis-intre-chisinau-si-kiev-privind-debitul-nistrului-deversarile-se-vor-reduce-pana-la-60-m%C2%B3-s-timp-de-doua-saptamani"},
-    {"name": "RadioChișinău.md — Comisia Nistreană a decis ca debitul Nistrului să fie menținut la 60 m³/s", "url": "https://radiochisinau.md/comisia-nistreana-a-decis-ca-debitul-nistrului-sa-fie-mentinut-la-60-m-s-in-urmatoarele-doua-saptamani---228226.html"}
-   ]
-  },
-  {
-   "text": "Potrivit purtătorului de cuvânt al Guvernului, citat de Veridica.md, nivelul apei din lacul de acumulare Novodnestrovsk, care în mod obișnuit se situează la cota de 123 de metri, se apropia la data deciziei de un nivel considerat critic, de 112 metri. Hajder avertizase încă din iulie, într-un interviu pentru ProTV Chișinău, că municipiul Chișinău „ar putea rămâne fără apă” dacă situația se agravează, și a acuzat atunci Primăria că nu a comunicat dacă dispune de o sursă alternativă de apă.",
-   "sources": [
-    {"name": "Veridica.md — nivelul lacului Novodnestrovsk", "url": "https://www.veridica.md/stiri/comisia-nistreana-a-decis-mentinerea-unui-volum-de-60-m3s-al-deversarilor-in-raul-nistru"},
-    {"name": "ProTV.md — Chișinăul ar putea rămâne fără apă, avertizează Hajder", "url": "https://protv.md/actualitate/chisinaul-ar-putea-ramane-fara-apa-gheorghe-hajder-avertizeaza-asupra-scaderii-nivelului-nistrului-si-il-acuza-pe-ion-ceban-ca-nu-ar-fi-luat-masuri-suficiente---2763105.html"}
-   ]
+  "aiNote": "Ce s-a verificat: declarația lui Ion Ceban din 28 august 2026 (NewsMaker.md), răspunsul ministrului Mediului Gheorghe Hajder din aceeași zi (Realitatea.md) și decizia Comisiei Nistrene moldo-ucrainene, tot din 28 august, de reducere a deversărilor la 60 m³/s (Veridica.md, NewsMaker.md, RadioChișinău.md — trei surse independente confirmă aceeași cifră).\n\nUnde se despart sursele: Ceban vorbește despre nivelurile locale ale Nistrului, la Nord și la Dubăsari, unde spune că apa e la cel mai ridicat nivel din vară — o afirmație pe care cifrele lui Hajder nu o contrazic direct (deversările au urcat la 93-96 m³/s pe 27-28 august, din precipitații). Dar Ceban extinde acest punct local la o concluzie generală — „nu există criză, e sperietură” — care nu mai corespunde cu ce arată datele despre lacul-sursă din Ucraina: acesta primește în medie doar 23 m³/s, mult sub cei 75 m³/s deversați, iar nivelul se apropia de pragul critic de 112 metri (față de cel normal, de 123 metri). Diferența e clasică pentru genul acesta de dispută: o cifră locală, momentană și favorabilă versus o tendință structurală, pe termen mai lung, nefavorabilă.\n\nCe lipsește: nu există, în sursele publice, o proiecție oficială comună Moldova-Ucraina despre cât timp mai poate rezista lacul Novodnestrovsk la deficitul actual dacă nu vin precipitații semnificative, și nici o listă clară a surselor alternative de apă pentru Chișinău, despre care Hajder susține, încă din iulie, că Primăria nu a oferit informații.\n\nCe ar schimba concluzia: date oficiale, publicate de ambele părți, despre evoluția nivelului lacului în următoarele două săptămâni — perioada pentru care Comisia Nistreană a fixat deversările la 60 m³/s — și un răspuns public al Primăriei Chișinău despre sursele alternative de apă cerute de minister.",
+  "persoane": [
+    "Ion Ceban",
+    "Gheorghe Hajder"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-ceban-hajder-criza-apei-nistru-comisia-60-m3s.jpg\" alt=\"Nistru\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nistru. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bender_Dniester_Bridge.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Bender Dniester Bridge</a>\" de Julian Nyča, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-ceban-hajder-criza-apei-nistru-comisia-60-m3s.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Julian Nyča"
   }
- ],
- "contestat": [
-  {
-   "text": "Afirmația lui Ceban — că nu există nicio problemă și că totul e „sperietură” a autorităților centrale — nu se susține integral: chiar în ziua declarației, Comisia Nistreană moldo-ucraineană negocia și decidea o reducere a deversărilor tocmai pentru a proteja alimentarea cu apă a trei orașe, inclusiv Chișinăul, iar lacul-sursă era aproape de un nivel considerat critic de autoritățile din ambele țări. Un organism internațional nu negociază de urgență o problemă inventată.",
-   "sources": [
-    {"name": "Veridica.md — decizia Comisiei Nistrene", "url": "https://www.veridica.md/stiri/comisia-nistreana-a-decis-mentinerea-unui-volum-de-60-m3s-al-deversarilor-in-raul-nistru"},
-    {"name": "Realitatea.md — cifrele lui Hajder despre debitul Nistrului", "url": "https://realitatea.md/hajder-reactioneaza-la-declaratiile-lui-ceban-privind-nivelul-nistrului-despre-limbajul-suburban-folosit-nu-voi-comenta/"}
-   ]
-  },
-  {
-   "text": "În același timp, punctul concret al lui Ceban — că, local, la Nord și la Dubăsari, nivelurile erau cele mai ridicate din vară — nu e contrazis de datele lui Hajder: cifrele arată chiar o creștere a deversărilor la 93-96 m³/s în zilele de 27-28 august, pe fondul ploilor. Ceban descrie o ameliorare punctuală și temporară; Hajder descrie un deficit structural al lacului-sursă, aflat în Ucraina, unde aportul mediu (23 m³/s) rămâne mult sub deversările necesare (75 m³/s). Cele două afirmații privesc segmente diferite ale aceluiași sistem hidrologic, nu se exclud automat.",
-   "sources": [
-    {"name": "Realitatea.md — cifrele complete ale lui Hajder", "url": "https://realitatea.md/hajder-reactioneaza-la-declaratiile-lui-ceban-privind-nivelul-nistrului-despre-limbajul-suburban-folosit-nu-voi-comenta/"}
-   ]
-  }
- ],
- "opinie": [],
- "math": {
-  "title": "Cât de aproape e lacul de pragul critic?",
-  "explanation": "Nivelul normal al lacului Novodnestrovsk e de 123 de metri; pragul considerat critic e 112 metri — o marjă de doar 11 metri. La rata de deficit descrisă de Hajder (aport mediu 23 m³/s față de deversări de 75 m³/s, adică 52 m³/s ieșiți în plus din lac în fiecare secundă), rezerva se poate epuiza rapid dacă nu vin precipitații — motivul pentru care Comisia Nistreană a redus deversările la 60 m³/s, nu la cei 75 m³/s ceruți inițial de Moldova, ca să încetinească scăderea."
- },
- "aiNote": "Ce s-a verificat: declarația lui Ion Ceban din 28 august 2026 (NewsMaker.md), răspunsul ministrului Mediului Gheorghe Hajder din aceeași zi (Realitatea.md) și decizia Comisiei Nistrene moldo-ucrainene, tot din 28 august, de reducere a deversărilor la 60 m³/s (Veridica.md, NewsMaker.md, RadioChișinău.md — trei surse independente confirmă aceeași cifră).\n\nUnde se despart sursele: Ceban vorbește despre nivelurile locale ale Nistrului, la Nord și la Dubăsari, unde spune că apa e la cel mai ridicat nivel din vară — o afirmație pe care cifrele lui Hajder nu o contrazic direct (deversările au urcat la 93-96 m³/s pe 27-28 august, din precipitații). Dar Ceban extinde acest punct local la o concluzie generală — „nu există criză, e sperietură” — care nu mai corespunde cu ce arată datele despre lacul-sursă din Ucraina: acesta primește în medie doar 23 m³/s, mult sub cei 75 m³/s deversați, iar nivelul se apropia de pragul critic de 112 metri (față de cel normal, de 123 metri). Diferența e clasică pentru genul acesta de dispută: o cifră locală, momentană și favorabilă versus o tendință structurală, pe termen mai lung, nefavorabilă.\n\nCe lipsește: nu există, în sursele publice, o proiecție oficială comună Moldova-Ucraina despre cât timp mai poate rezista lacul Novodnestrovsk la deficitul actual dacă nu vin precipitații semnificative, și nici o listă clară a surselor alternative de apă pentru Chișinău, despre care Hajder susține, încă din iulie, că Primăria nu a oferit informații.\n\nCe ar schimba concluzia: date oficiale, publicate de ambele părți, despre evoluția nivelului lacului în următoarele două săptămâni — perioada pentru care Comisia Nistreană a fixat deversările la 60 m³/s — și un răspuns public al Primăriei Chișinău despre sursele alternative de apă cerute de minister.",
- "persoane": ["Ion Ceban", "Gheorghe Hajder"]
 }

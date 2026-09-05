@@ -150,5 +150,12 @@
   "aiNote": "Dovezile din mai multe redacții independente arată că afirmația centrală se susține: Senatul, for decizional, a adoptat Legea Integrității pe 5 august 2026, cu amendamentele PSD-AUR privind incompatibilitățile și declarațiile de avere ale partenerilor, iar legea ar urma să meargă spre promulgare. Rămân două rezerve: (1) numărul de voturi — majoritatea surselor indică 104 „pentru”, o minoritate (ProTV, Critic Media) 105; divergență de un vot care nu schimbă rezultatul; (2) promulgarea nu este un fapt împlinit — USR și PNL au depus o sesizare la CCR, iar până la pronunțarea Curții promulgarea este suspendată. Cititorul poate verifica singur cifra oficială a voturilor pe site-ul Senatului, iar stadiul sesizării pe site-ul CCR.",
   "persoane": [
     "Dominic Fritz"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/legea-integritatii-vot-final.jpg\" alt=\"Integrității\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Integrității. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:MD.CM.CM_-_monument_Transnistria_-_jun_2023_-_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">MD.CM.CM - monument Transnistria - jun 2023 - 01</a>\" de Gikü (talk), via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/legea-integritatii-vot-final.jpg",
+    "licenta": "CC0",
+    "autor": "Gikü (talk)"
+  }
 }

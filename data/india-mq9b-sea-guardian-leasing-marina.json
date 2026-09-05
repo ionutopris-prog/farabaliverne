@@ -11,39 +11,63 @@
     {
       "text": "Departamentul de Achiziții din Ministerul indian al Apărării a semnat, pe 17 august 2026, la Kartavya Bhawan-2 din New Delhi, un contract de leasing în valoare de aproximativ 1.943 de crore rupii cu General Atomics Aeronautical Systems, Inc. (GA-ASI), pentru două drone MQ-9B Sea Guardian de tip HALE (High-Altitude Long-Endurance). Semnatarul din partea statului indian a fost A. Anbarasu, secretar adjunct și director general (Achiziții) în Departamentul de Apărare.",
       "sources": [
-        { "name": "The Tribune — India inks Rs 1,943 crore deal to lease two MQ-9B Sea Guardian drones for Navy", "url": "https://www.tribuneindia.com/news/advanced-sensors/india-inks-rs-1943-crore-deal-to-lease-two-mq-9b-sea-guardian-drones-for-navy" }
+        {
+          "name": "The Tribune — India inks Rs 1,943 crore deal to lease two MQ-9B Sea Guardian drones for Navy",
+          "url": "https://www.tribuneindia.com/news/advanced-sensors/india-inks-rs-1943-crore-deal-to-lease-two-mq-9b-sea-guardian-drones-for-navy"
+        }
       ]
     },
     {
       "text": "Contractul de leasing este pe o durată de 30 de luni. Ministerul Apărării a declarat că sistemele, „echipate cu senzori de ultimă generație și încărcături utile sofisticate, vor îmbunătăți semnificativ capacitatea de conștientizare a domeniului maritim a Marinei indiene” și vor oferi „acoperire persistentă de informații, supraveghere și recunoaștere pe suprafețe vaste ale domeniului maritim”, în zona Oceanului Indian.",
       "sources": [
-        { "name": "The Tribune — durata contractului și declarația oficială a Ministerului Apărării", "url": "https://www.tribuneindia.com/news/advanced-sensors/india-inks-rs-1943-crore-deal-to-lease-two-mq-9b-sea-guardian-drones-for-navy" }
+        {
+          "name": "The Tribune — durata contractului și declarația oficială a Ministerului Apărării",
+          "url": "https://www.tribuneindia.com/news/advanced-sensors/india-inks-rs-1943-crore-deal-to-lease-two-mq-9b-sea-guardian-drones-for-navy"
+        }
       ]
     },
     {
       "text": "Cele două drone închiriate se vor suprapune câteva luni cu cele două drone MQ-9A Sea Guardian pe care Marina indiană le operează deja printr-un contract de leasing anterior — suprapunere intenționată, ca să acopere perioada dintre expirarea leasingului vechi (la începutul lui 2027) și livrarea primelor din cele 31 de drone MQ-9B cumpărate definitiv de India, așteptată spre finalul lui 2027.",
       "sources": [
-        { "name": "ThePrint — India signs Rs 1,943 cr pact to lease two MQ-9B Sea Guardians, creating overlap with existing fleet", "url": "https://theprint.in/defence/india-signs-rs-1943-cr-pact-to-lease-two-mq-9b-sea-guardians-creating-overlap-with-existing-fleet/3017438/" }
+        {
+          "name": "ThePrint — India signs Rs 1,943 cr pact to lease two MQ-9B Sea Guardians, creating overlap with existing fleet",
+          "url": "https://theprint.in/defence/india-signs-rs-1943-cr-pact-to-lease-two-mq-9b-sea-guardians-creating-overlap-with-existing-fleet/3017438/"
+        }
       ]
     },
     {
       "text": "Dronele închiriate nu vor veni echipate cu armament, spre deosebire de cele 31 cumpărate definitiv, care vor include capacitate de rachete — o distincție tehnică explicită între cele două loturi de MQ-9B pe care India le va opera.",
       "sources": [
-        { "name": "ThePrint — diferența de configurare (arme) între dronele închiriate și cele cumpărate", "url": "https://theprint.in/defence/india-signs-rs-1943-cr-pact-to-lease-two-mq-9b-sea-guardians-creating-overlap-with-existing-fleet/3017438/" }
+        {
+          "name": "ThePrint — diferența de configurare (arme) între dronele închiriate și cele cumpărate",
+          "url": "https://theprint.in/defence/india-signs-rs-1943-cr-pact-to-lease-two-mq-9b-sea-guardians-creating-overlap-with-existing-fleet/3017438/"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    { "text": "Titlul folosit de ThePrint — care subliniază „suprapunerea” cu flota existentă — poate fi citit fie ca o observație critică (redundanță de costuri), fie ca o descriere neutră a unei tranziții planificate. Niciuna dintre sursele consultate nu citează un oficial sau analist care să conteste explicit necesitatea acestei suprapuneri; tratăm afirmația de „redundanță” ca un unghi editorial, nu ca un fapt contestat de vreo sursă." }
+    {
+      "text": "Titlul folosit de ThePrint — care subliniază „suprapunerea” cu flota existentă — poate fi citit fie ca o observație critică (redundanță de costuri), fie ca o descriere neutră a unei tranziții planificate. Niciuna dintre sursele consultate nu citează un oficial sau analist care să conteste explicit necesitatea acestei suprapuneri; tratăm afirmația de „redundanță” ca un unghi editorial, nu ca un fapt contestat de vreo sursă."
+    }
   ],
   "aiNote": "Cifrele contractului (1.943 de crore rupii, 30 de luni, semnat pe 17 august 2026) provin dintr-un comunicat oficial al Ministerului indian al Apărării, confirmat concordant de două publicații specializate în apărare (The Tribune, ThePrint). Nu au fost identificate discrepanțe între surse privind sumele sau termenii contractului. Este o achiziție administrativă de rutină, fără puncte de dispută publică — de aceea nota rămâne scurtă.",
   "math": {
     "title": "203 milioane de dolari ca punte, nu ca achiziție definitivă",
     "explanation": "1.943 de crore rupii înseamnă, la cursul aproximativ din august 2026, circa 203 milioane de dolari — pentru DOUĂ drone, închiriate pe 30 de luni, nu cumpărate. Cifra separată, a achiziției definitive, este de 31 de drone MQ-9B, comandate printr-un contract distinct și mult mai mare, cu livrări așteptate să înceapă abia spre finalul lui 2027. Diferența dintre cele două cifre — 2 drone închiriate vs. 31 cumpărate — arată de ce leasingul e descris ca soluție-punte: acoperă un gol de supraveghere de câteva luni, nu înlocuiește planul de achiziție pe termen lung.",
     "sources": [
-      { "name": "ThePrint — contextul celor 31 de drone cumpărate și calendarul livrărilor", "url": "https://theprint.in/defence/india-signs-rs-1943-cr-pact-to-lease-two-mq-9b-sea-guardians-creating-overlap-with-existing-fleet/3017438/" }
+      {
+        "name": "ThePrint — contextul celor 31 de drone cumpărate și calendarul livrărilor",
+        "url": "https://theprint.in/defence/india-signs-rs-1943-cr-pact-to-lease-two-mq-9b-sea-guardians-creating-overlap-with-existing-fleet/3017438/"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/india-mq9b-sea-guardian-leasing-marina.jpg\" alt=\"Guardian\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Guardian. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:GUARDIAN_EN_CONCIERTO.JPG\" rel=\"nofollow noopener\" target=\"_blank\">GUARDIAN EN CONCIERTO</a>\" de Ronald Escobar, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/india-mq9b-sea-guardian-leasing-marina.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Ronald Escobar"
+  }
 }

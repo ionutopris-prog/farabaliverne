@@ -90,5 +90,12 @@
     "explanation": "După 4 etape din 30 programate în sezonul regular, FC Argeș are 9 puncte și Universitatea Craiova are 6 — o diferență de 3 puncte, echivalentul unei singure victorii. La un total posibil de 90 de puncte pe sezon, decalajul actual reprezintă puțin peste 3% din puncte — real, dar departe de a fi decisiv la acest moment al competiției."
   },
   "aiNote": "Sursele sportive verificate confirmă concordant rezultatul: FC Argeș a câștigat 0-1 pe terenul Universității Craiova, cu golul lui Yanis Pîrvu din minutul 7, și a urcat pe primul loc în SuperLiga. Am marcat separat o diferență de notare a scorului între redacții (0-1 vs. 1-0) — aceeași realitate, formulare diferită — și am separat faptele de aprecierile jurnalistice despre joc.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/craiova-arges-0-1-superliga.jpg\" alt=\"Argeș\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Argeș. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Arges.Mihailesti-Cornetu.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Arges.Mihailesti-Cornetu</a>\" de autor necunoscut, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.5/pl/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.5 pl</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/craiova-arges-0-1-superliga.jpg",
+    "licenta": "CC BY-SA 2.5 pl",
+    "autor": "autor necunoscut"
+  }
 }

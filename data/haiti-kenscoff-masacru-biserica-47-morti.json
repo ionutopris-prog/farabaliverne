@@ -70,5 +70,12 @@
   ],
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională și din presa hispanofonă din regiune; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat exact: bilanțul de 47 de morți, dintre care 22 executați într-o biserică folosită drept adăpost, și peste 50 de răpiri sunt confirmate concordant de NPR, ONU (prin raportul prezentat Consiliului de Securitate pe 25 august) și de presa hispanofonă (Infobae, La Crónica de Hoy, Diario Libre).\n\nUnde s-au despărțit inițial sursele: primele relatări, din 24-25 august, vorbeau de 30-40 de morți — nu pentru că existau versiuni concurente ale atacului, ci pentru că zona e greu accesibilă și comunicațiile au fost întrerupte, ceea ce a împiedicat o numărătoare rapidă. Cifra s-a stabilizat la 47 abia odată cu raportul oficial prezentat ONU.\n\nCe lipsește: nu există încă un bilanț public al anchetei poliției haitiene anunțate pe 27 august, nici informații despre soarta celor peste 50 de persoane răpite — un gang leader a amenințat public că îi va ucide dacă autoritățile atacă bande. Nu se știe nici dacă „reacția fermă” promisă de premierul Fils-Aimé s-a tradus în acțiuni concrete.\n\nCe ar schimba concluzia: rezultatele anchetei poliției, eliberarea sau confirmarea sorții ostaticilor, sau un nou raport ONU privind evoluția violenței în Kenscoff, unde au avut loc peste o duzină de atacuri similare în ultimul an.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/haiti-kenscoff-masacru-biserica-47-morti.jpg\" alt=\"Kenscoff\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Kenscoff. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Amid_rows_of_cabbage,_Haiti.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Amid rows of cabbage, Haiti</a>\" de Kendra Helmer, USAID, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/haiti-kenscoff-masacru-biserica-47-morti.jpg",
+    "licenta": "Public domain",
+    "autor": "Kendra Helmer, USAID"
+  }
 }

@@ -78,5 +78,12 @@
   "aiNote": "Separăm două lucruri. Convingerea spirituală a lui Georgescu despre apă (metaforă, „suflet”, „energie subtilă”) este o opinie personală și NU o etichetăm drept falsă — ar fi și abuziv, și în afara competenței noastre. Dar afirmația lui factuală și testabilă — că apa stochează fizic o „memorie” și că „H2O nu înseamnă nimic” — este contrazisă de chimie și de fizică: apa este H2O, iar structura ei moleculară se reface în fracțiuni de miliardime de secundă, deci nu poate „reține” un mesaj. Sursa ideilor (Emoto, Benveniste) a fost respinsă de comunitatea științifică fiindcă nu se replică în teste riguroase. Nu decretăm „e fals” ca oracol: arătăm unde bat probele (împotriva pretenției fizice), păstrăm buna-credință pe partea de credință și lăsăm cititorul să tragă linia dintre poezie și chimie.",
   "persoane": [
     "Călin Georgescu"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/georgescu-apa-structurata.jpg\" alt=\"water molecule glass of water\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — water molecule glass of water. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Il_richiamo.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Il richiamo</a>\" de Maurizio Carlini, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/georgescu-apa-structurata.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Maurizio Carlini"
+  }
 }

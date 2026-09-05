@@ -100,5 +100,14 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Sursele independente confirmă tabloul central: pe 9 august 2026, Netanyahu a respins public planul de 15 puncte al Board of Peace pentru Gaza, cerând dezarmarea completă a Hamas înainte de retragerea israeliană, în timp ce Hamas spune că rămâne angajat planului. Rămân două rezerve: sursele diferă asupra conținutului exact al planului inițial (pași reciproci vs. dezarmare completă cerută de la început), iar reacția oficială a administrației americane e neclară — o sursă anonimă vorbește de o atitudine relaxată, dar nu există o declarație publică directă a Casei Albe la data verificării.",
-  "persoane": ["Benjamin Netanyahu"]
+  "persoane": [
+    "Benjamin Netanyahu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/israel-netanyahu-respinge-plan-gaza-15-puncte.jpg\" alt=\"Board\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Board. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Aurora_2ch_mixer_board_arrived_(2009-07-28_11.20.55_by_c-g.).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Aurora 2ch mixer board arrived (2009-07-28 11.20.55 by c-g.)</a>\" de c-g., via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/israel-netanyahu-respinge-plan-gaza-15-puncte.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "c-g."
+  }
 }

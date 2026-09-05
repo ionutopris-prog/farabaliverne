@@ -52,5 +52,12 @@
   ],
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am marcat explicit la „Contestat” că rezultatul votului din 11 august nu era încă disponibil la momentul redactării — și am semnalat o sursă (eciks.org) care amesteca primara din iunie cu cea specială din august, tocmai ca exemplu de ce verificăm fiecare sursă înainte s-o folosim.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/carolina-de-sud-alegeri-speciale-graham.jpg\" alt=\"Senatul\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Senatul. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Meeting_of_the_Federation_Council_(2018-12-11).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Meeting of the Federation Council (2018-12-11)</a>\" de council.gov.ru, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/carolina-de-sud-alegeri-speciale-graham.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "council.gov.ru"
+  }
 }

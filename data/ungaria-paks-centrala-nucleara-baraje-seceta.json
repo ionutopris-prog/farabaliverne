@@ -86,5 +86,12 @@
     "explanation": "Paks are o capacitate instalată de aproximativ 2.000 MW și asigură în mod normal aproape jumătate din electricitatea Ungariei. În timpul crizei, producția a fost redusă la circa 10% din capacitate — adică aproximativ 200 MW, o scădere de peste 90% față de funcționarea normală. Această cifră arată cât de aproape a ajuns centrala de o oprire completă înainte de intervenția cu baraje și stăvilă, chiar dacă pragurile exacte de oprire raportate de surse diferă ca precizie."
   },
   "aiNote": "Sursele independente consultate (Euronews, NBC News, CGTN — media de stat chineză, dar aici doar cu rol de relatare factuală confirmată și de alte redacții, Hungarian Conservative) confirmă în mod concordant faptul central: seceta a redus critic nivelul Dunării la Paks, iar Ungaria a răspuns prin deschiderea unei stăvile, scufundarea a două barje și construcția unui prag permanent din piatră, pentru a proteja răcirea centralei nucleare care asigură aproape jumătate din electricitatea țării. Rămân două rezerve tehnice: pragurile exacte de nivel al apei la care s-ar opri turbinele/centrala variază ușor între surse, la fel ca volumul de piatră folosit la pragul permanent — diferențe posibil explicate de etapele succesive ale unei intervenții de urgență aflate încă în desfășurare la data verificării.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ungaria-paks-centrala-nucleara-baraje-seceta.jpg\" alt=\"Dunăre\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Dunăre. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bratislava_Danube_R01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bratislava Danube R01</a>\" de Marc Ryckaert (MJJR), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ungaria-paks-centrala-nucleara-baraje-seceta.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Marc Ryckaert (MJJR)"
+  }
 }

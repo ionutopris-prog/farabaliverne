@@ -11,33 +11,69 @@
     {
       "text": "Nuclearelectrica a raportat, în situațiile financiare publicate la Bursa de Valores București, un profit net de 1,184 miliarde lei în primul semestru din 2026 — în creștere cu 36,6% față de cele 866,66 milioane lei obținute în S1 2025. EBITDA a fost de 1,564 miliarde lei, în creștere cu 33,7%. Cifrele sunt raportate concordant de mai multe redacții economice, pe baza aceluiași raport oficial.",
       "sources": [
-        {"name": "AGERPRES — Nuclearelectrica a obținut un profit net de aproape 1,2 miliarde lei în primul semestru, în creștere", "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"},
-        {"name": "Capital — Nuclearelectrica și-a majorat profitul net cu 36,6% în S1 2026, deși producția de energie a scăzut", "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"},
-        {"name": "DailyBusiness — Nuclearelectrica își majorează profitul cu 36,6%, la 1,18 miliarde de lei, în ciuda scăderii producției de energie", "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"},
-        {"name": "Wall-Street.ro — Profitul Nuclearelectrica crește cu 36,6% în S1", "url": "https://www.wall-street.ro/articol/energie/profitul-nuclearelectrica-creste-cu-366-in-s1.html"}
+        {
+          "name": "AGERPRES — Nuclearelectrica a obținut un profit net de aproape 1,2 miliarde lei în primul semestru, în creștere",
+          "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"
+        },
+        {
+          "name": "Capital — Nuclearelectrica și-a majorat profitul net cu 36,6% în S1 2026, deși producția de energie a scăzut",
+          "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"
+        },
+        {
+          "name": "DailyBusiness — Nuclearelectrica își majorează profitul cu 36,6%, la 1,18 miliarde de lei, în ciuda scăderii producției de energie",
+          "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"
+        },
+        {
+          "name": "Wall-Street.ro — Profitul Nuclearelectrica crește cu 36,6% în S1",
+          "url": "https://www.wall-street.ro/articol/energie/profitul-nuclearelectrica-creste-cu-366-in-s1.html"
+        }
       ]
     },
     {
       "text": "În aceeași perioadă, cantitatea de energie electrică livrată în Sistemul Energetic Național a scăzut cu 11,74%, de la 4,706 milioane MWh (S1 2025) la 4,154 milioane MWh (S1 2026). Scăderea a fost mai accentuată în trimestrul al doilea (-23,4%), iar gradul de realizare a programului de producție a fost de 93,4%.",
       "sources": [
-        {"name": "AGERPRES — cifrele de producție din raportul BVB", "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"},
-        {"name": "Capital — producție 4,154 milioane MWh, -11,74%", "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"},
-        {"name": "DailyBusiness — realizare de 93,4% din program", "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"}
+        {
+          "name": "AGERPRES — cifrele de producție din raportul BVB",
+          "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"
+        },
+        {
+          "name": "Capital — producție 4,154 milioane MWh, -11,74%",
+          "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"
+        },
+        {
+          "name": "DailyBusiness — realizare de 93,4% din program",
+          "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"
+        }
       ]
     },
     {
       "text": "Scăderea producției este explicată, potrivit raportului companiei, prin trei factori tehnici la Cernavodă: limitarea Unității 1 la 90% din capacitate, impusă de furnizorul de tehnologie CANDU Energy Inc.; oprirea programată a Unității 1 (1.237 de ore, începută pe 10 mai 2026); și oprirea neplanificată a Unității 2 (624 de ore, începută pe 4 mai 2026).",
       "sources": [
-        {"name": "AGERPRES — cauzele scăderii producției", "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"},
-        {"name": "Wall-Street.ro — limitarea Unității 1 la 90%, opriri programate și neplanificate", "url": "https://www.wall-street.ro/articol/energie/profitul-nuclearelectrica-creste-cu-366-in-s1.html"}
+        {
+          "name": "AGERPRES — cauzele scăderii producției",
+          "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"
+        },
+        {
+          "name": "Wall-Street.ro — limitarea Unității 1 la 90%, opriri programate și neplanificate",
+          "url": "https://www.wall-street.ro/articol/energie/profitul-nuclearelectrica-creste-cu-366-in-s1.html"
+        }
       ]
     },
     {
       "text": "Veniturile din vânzarea energiei au crescut cu 2,7% (la aproximativ 2,7 miliarde lei), deși volumul de energie comercializată a scăzut — pentru că prețul mediu ponderat de vânzare a urcat cu 12,7% (la 587,49 lei/MWh). Al doilea factor invocat pentru creșterea profitului este eliminarea contribuției la Fondul de Tranziție Energetică (CFTE) — o contribuție obligatorie de 504,9 milioane lei plătită în S1 2025, care a dispărut din costuri după 30 iunie 2025.",
       "sources": [
-        {"name": "Capital — prețul mediu ponderat +12,7%, dispariția CFTE", "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"},
-        {"name": "Wall-Street.ro — creștere venituri prin preț, nu prin volum", "url": "https://www.wall-street.ro/articol/energie/profitul-nuclearelectrica-creste-cu-366-in-s1.html"},
-        {"name": "DailyBusiness — eliminarea contribuției la Fondul de Tranziție Energetică", "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"}
+        {
+          "name": "Capital — prețul mediu ponderat +12,7%, dispariția CFTE",
+          "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"
+        },
+        {
+          "name": "Wall-Street.ro — creștere venituri prin preț, nu prin volum",
+          "url": "https://www.wall-street.ro/articol/energie/profitul-nuclearelectrica-creste-cu-366-in-s1.html"
+        },
+        {
+          "name": "DailyBusiness — eliminarea contribuției la Fondul de Tranziție Energetică",
+          "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"
+        }
       ]
     }
   ],
@@ -45,20 +81,32 @@
     {
       "text": "„Profit în creștere” alături de „producție în scădere” poate părea contradictoriu — dar nu e un paradox contabil, ci mecanismul explicat mai sus: profitul nu depinde doar de câtă energie s-a produs, ci de la ce preț s-a vândut și de ce costuri obligatorii au dispărut. Aici, prețul mediu de vânzare a urcat 12,7%, ceea ce a compensat cei aproape 12% producție în minus, iar dispariția contribuției CFTE a redus costurile independent de volumul produs. Cititorul nu ar trebui să tragă concluzia greșită că „mai multă producție ar fi însemnat automat un profit și mai mare” — la fel de plauzibil ar fi ca prețul de vânzare să fi scăzut dacă piața ar fi fost supra-ofertată.",
       "sources": [
-        {"name": "Capital — creștere profit prin preț, nu prin volum, deși producția a scăzut", "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"},
-        {"name": "DailyBusiness — profit mai mare în ciuda scăderii producției", "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"}
+        {
+          "name": "Capital — creștere profit prin preț, nu prin volum, deși producția a scăzut",
+          "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"
+        },
+        {
+          "name": "DailyBusiness — profit mai mare în ciuda scăderii producției",
+          "url": "https://www.dailybusiness.ro/actualitate/nuclearelectrica-isi-majoreaza-profitul-cu-366-la-118-miliarde-de-lei-in-ciuda-scaderii-productiei-de-energie-548866/"
+        }
       ]
     },
     {
       "text": "Creșterea profitului nu a fost „gratuită”: cheltuielile de exploatare au urcat cu 15,3%, inclusiv o creștere de 61% a cheltuielilor cu achiziția de energie electrică (compania a trebuit să cumpere mai multă energie de pe piață, pentru a-și acoperi obligațiile contractuale, în perioadele cu producție redusă). Aceste costuri suplimentare au „mâncat” o parte din câștigul obținut din preț și din eliminarea CFTE, dar nu suficient cât să anuleze creșterea profitului net.",
       "sources": [
-        {"name": "AGERPRES — cheltuieli de exploatare +15,3%, achiziție energie +61%", "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"}
+        {
+          "name": "AGERPRES — cheltuieli de exploatare +15,3%, achiziție energie +61%",
+          "url": "https://agerpres.ro/economic/2026/08/14/nuclearelectrica-a-obtinut-un-profit-net-de-aproape-1-2-miliarde-lei-in-primul-semestru-in-crestere---1584916"
+        }
       ]
     },
     {
       "text": "Cifra de profit net variază ușor în funcție de nivelul raportării: 1,184 miliarde lei este profitul net individual (Nuclearelectrica S.A.), în timp ce profitul net consolidat (la nivel de grup, incluzând filialele) a fost de circa 1,079 miliarde lei (+30,6%). Titlurile din presă folosesc de regulă cifra individuală, mai mare — util de reținut pentru cine compară cifre din surse diferite.",
       "sources": [
-        {"name": "Capital — profit individual 1,183 mld. lei vs. consolidat 1,079 mld. lei", "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"}
+        {
+          "name": "Capital — profit individual 1,183 mld. lei vs. consolidat 1,079 mld. lei",
+          "url": "https://www.capital.ro/nuclearelectrica-si-a-majorat-profitul-net-cu-366-in-s1-2026-desi-productia-de-energie-a-scazut.html"
+        }
       ]
     }
   ],
@@ -73,5 +121,12 @@
     "explanation": "Profitul net a urcat de la 866,66 milioane lei (S1 2025) la 1,184 miliarde lei (S1 2026) — o diferență de aproximativ 317 milioane lei, adică +36,6% (317/866,66 ≈ 0,366). În același timp, producția livrată în SEN a scăzut de la 4,706 la 4,154 milioane MWh, o pierdere de aproximativ 552.000 MWh (-11,74%). Cele două cifre nu se contrazic pentru că profitul nu e „preț fix × volum”: prețul mediu de vânzare a crescut cu 12,7% (compensând o mare parte din volumul pierdut, în termeni de venit), iar dispariția contribuției obligatorii la Fondul de Tranziție Energetică (504,9 milioane lei în S1 2025, zero în S1 2026) a redus direct costurile, indiferent de câtă energie s-a produs. Practic: mai puțină energie vândută, dar la preț mai mare și cu o cheltuială obligatorie mai puțin — de aici profitul mai mare, contrabalansat parțial de o creștere de 15,3% a cheltuielilor de exploatare (inclusiv +61% la achiziția de energie de pe piață, pentru acoperirea contractelor)."
   },
   "aiNote": "Cifrele centrale sunt raportate concordant de mai multe redacții economice (AGERPRES, Capital, DailyBusiness, Wall-Street.ro), pe baza situațiilor financiare publicate de Nuclearelectrica la Bursa de Valori București: profit net de 1,184 miliarde lei în S1 2026 (+36,6%), EBITDA de 1,564 miliarde lei (+33,7%), și o scădere de 11,74% a producției livrate în Sistemul Energetic Național, cauzată de limitarea Unității 1 la 90% capacitate (impusă de CANDU Energy Inc.) și de opriri programate/neplanificate la ambele unități de la Cernavodă. Contrar aparenței, profitul mai mare nu vine dintr-o producție mai mare — sursele explică mecanismul: preț de vânzare mediu cu 12,7% mai mare și dispariția unei contribuții obligatorii (Fondul de Tranziție Energetică) după 30 iunie 2025, parțial contrabalansate de o creștere de 15,3% a cheltuielilor de exploatare. O sursă suplimentară (ziare.com) apărea în lista inițială de verificare, dar site-ul a blocat accesul automat (eroare 403, verificare Cloudflare) la momentul redactării, așa că nu a fost inclusă printre sursele citate.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nuclearelectrica-profit-1-2-miliarde-lei-s1-2026.jpg\" alt=\"Cernavoda nuclear power plant\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cernavoda nuclear power plant. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cernavoda_Nuclear_Power_Plant_of_Romania_in_December_2024_on_an_IAEA_IPPAS_mission_to_advise_on_facility_security_-_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cernavoda Nuclear Power Plant of Romania in December 2024 on an IAEA IPPAS mission to advise on facility security - 1</a>\" de IAEA Imagebank, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nuclearelectrica-profit-1-2-miliarde-lei-s1-2026.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "IAEA Imagebank"
+  }
 }

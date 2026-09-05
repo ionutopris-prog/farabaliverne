@@ -12,21 +12,36 @@
     {
       "text": "Uber a anunțat pe 2 septembrie 2026 încetarea operațiunilor din Nigeria (activă din 2014, la Lagos) și Uganda (activă din 2016, la Kampala), cu efect imediat. Compania a declarat: „După o analiză amănunțită, am luat decizia dificilă de a înceta operațiunile din Nigeria și Uganda, cu efect de la 2 septembrie 2026”, precizând că decizia „se limitează strict la aceste două piețe și nu afectează operațiunile noastre pe restul continentului”.",
       "sources": [
-        {"name": "allAfrica — Uber Exits Nigeria, Uganda After Review of African Operations", "url": "https://allafrica.com/stories/202609030122.html"},
-        {"name": "Yahoo Finance UK — Uber shuts operations in Nigeria and Uganda with immediate effect", "url": "https://uk.finance.yahoo.com/news/uber-shuts-operations-nigeria-uganda-084000874.html"}
+        {
+          "name": "allAfrica — Uber Exits Nigeria, Uganda After Review of African Operations",
+          "url": "https://allafrica.com/stories/202609030122.html"
+        },
+        {
+          "name": "Yahoo Finance UK — Uber shuts operations in Nigeria and Uganda with immediate effect",
+          "url": "https://uk.finance.yahoo.com/news/uber-shuts-operations-nigeria-uganda-084000874.html"
+        }
       ]
     },
     {
       "text": "Retragerea face parte dintr-o restructurare globală anunțată în aceeași perioadă, prin care Uber taie aproximativ 3.300 de posturi — circa 10% din personalul corporativ. Potrivit unui memo intern al directorului executiv Dara Khosrowshahi, pozițiile aflate la șapte niveluri ierarhice sub CEO vor fi reduse cu 20%, iar unele echipe mici cu aproape 50%. Compania spune că vrea să redirecționeze resursele spre „piețele unde poate oferi oportunități de câștig la scară pentru șoferi” și spre dezvoltarea vehiculelor autonome.",
       "sources": [
-        {"name": "Rio Times — Uber Exits Nigeria and Uganda in Global Cutback", "url": "https://www.riotimesonline.com/uber-exits-nigeria-and-uganda-in-a-global-cutback/"}
+        {
+          "name": "Rio Times — Uber Exits Nigeria and Uganda in Global Cutback",
+          "url": "https://www.riotimesonline.com/uber-exits-nigeria-and-uganda-in-a-global-cutback/"
+        }
       ]
     },
     {
       "text": "După retragerea din Nigeria și Uganda, Uber mai are operațiuni în doar patru țări africane: Egipt, Ghana, Kenya și Africa de Sud. Compania s-a retras anterior și din Tanzania (ianuarie 2026) și Coasta de Fildeș (2025). Pentru pasagerii din Nigeria și Uganda, Uber a promis o perioadă de 21 de zile de suport pentru rambursări și solduri neutilizate; pentru șoferi nu a fost anunțat un pachet de compensații concret.",
       "sources": [
-        {"name": "Rio Times — piețele rămase și măsurile de sprijin", "url": "https://www.riotimesonline.com/uber-exits-nigeria-and-uganda-in-a-global-cutback/"},
-        {"name": "allAfrica — context regional și retragerile anterioare", "url": "https://allafrica.com/stories/202609030122.html"}
+        {
+          "name": "Rio Times — piețele rămase și măsurile de sprijin",
+          "url": "https://www.riotimesonline.com/uber-exits-nigeria-and-uganda-in-a-global-cutback/"
+        },
+        {
+          "name": "allAfrica — context regional și retragerile anterioare",
+          "url": "https://allafrica.com/stories/202609030122.html"
+        }
       ]
     }
   ],
@@ -34,8 +49,14 @@
     {
       "text": "Comunicatul oficial al Uber nu menționează nicăieri inflația, volatilitatea monedei naționale sau profitabilitatea drept motive ale retragerii — vorbește doar despre „priorități de afaceri în evoluție”. Presa economică nigeriană descrie însă un context concret și documentat separat: costuri de combustibil în creștere, inflație ridicată, o monedă (naira) volatilă și o concurență intensă din partea unor platforme locale și regionale (Bolt, inDrive, SafeBoda în Uganda, plus aplicații nigeriene precum Rida și LagRide), care au redus marjele operatorilor de ride-hailing. Cele două versiuni — „revizuire de priorități” versus „presiune economică” — nu se exclud automat, dar compania a ales să nu confirme public a doua explicație.",
       "sources": [
-        {"name": "Rio Times — factorii economici citați de presă (combustibil, inflație, monedă, concurență)", "url": "https://www.riotimesonline.com/uber-exits-nigeria-and-uganda-in-a-global-cutback/"},
-        {"name": "allAfrica — presiunea competitivă menționată separat pentru Uganda", "url": "https://allafrica.com/stories/202609030122.html"}
+        {
+          "name": "Rio Times — factorii economici citați de presă (combustibil, inflație, monedă, concurență)",
+          "url": "https://www.riotimesonline.com/uber-exits-nigeria-and-uganda-in-a-global-cutback/"
+        },
+        {
+          "name": "allAfrica — presiunea competitivă menționată separat pentru Uganda",
+          "url": "https://allafrica.com/stories/202609030122.html"
+        }
       ]
     }
   ],
@@ -45,5 +66,12 @@
     "explanation": "Restructurarea anunțată de Uber în aceeași perioadă cu retragerea din Nigeria și Uganda elimină aproximativ 3.300 de poziții, adică circa 10% din personalul corporativ al companiei. Potrivit memo-ului intern citat de presă, reducerile nu sunt uniforme: pozițiile aflate la șapte niveluri ierarhice sub CEO scad cu 20%, iar unele echipe mici — până la aproape 50%. Retragerea din Nigeria și Uganda e o parte vizibilă a acestei restructurări mai mari, nu un eveniment separat de ea."
   },
   "aiNote": "Ce s-a verificat exact: anunțul oficial Uber din 2 septembrie 2026 privind încetarea operațiunilor din Nigeria și Uganda, relatat de allAfrica, Rio Times și Yahoo Finance (preluare a agențiilor internaționale). Toate trei confirmă aceleași fapte de bază — data, cei 3.300 de posturi tăiate global, piețele africane rămase (Egipt, Ghana, Kenya, Africa de Sud) — și niciuna nu contrazice vreo cifră a celeilalte.\n\nUnde se despart sursele: nu pe fapte, ci pe explicație. Comunicatul oficial al Uber, citat identic de toate sursele, vorbește strict despre o „revizuire a priorităților de afaceri” și despre redirecționarea investițiilor spre piețe „unde poate oferi oportunități de câștig la scară” — o formulare deliberat generică, fără nicio cifră economică. Presa care acoperă piața nigeriană de zi cu zi (citată aici prin Rio Times) leagă retragerea de un context concret: inflație, monedă volatilă, cost tot mai mare al combustibilului și concurență acerbă din partea unor platforme locale mai ieftine. Sunt explicații complementare, nu contradictorii — dar Uber a ales public doar prima variantă.\n\nCe lipsește: nicio sursă verificată nu publică cifre financiare exacte pentru operațiunile Uber din Nigeria sau Uganda (venituri, marjă, cotă de piață pierdută în fața Bolt sau inDrive), care ar arăta cât de mult a cântărit fiecare factor economic în decizie. De asemenea, nu există o compensație anunțată public pentru șoferii afectați, spre deosebire de perioada clară de 21 de zile promisă pasagerilor.\n\nCe ar schimba concluzia: publicarea unor date financiare interne (chiar parțiale) despre profitabilitatea operațiunilor din cele două țări ar confirma sau ar infirma direct dacă „prioritățile de afaceri” invocate de Uber au fost, de fapt, o presiune economică pe care compania a preferat să n-o recunoască public.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/uber-inchide-nigeria-uganda-restructurare-globala.jpg\" alt=\"Nigeria\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nigeria. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:ECDM_20211001_Nigeria_Cholera.pdf\" rel=\"nofollow noopener\" target=\"_blank\">ECDM 20211001 Nigeria Cholera</a>\" de ERCC - Emergency Response Coordination Centre, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/uber-inchide-nigeria-uganda-restructurare-globala.jpg",
+    "licenta": "Public domain",
+    "autor": "ERCC - Emergency Response Coordination Centre"
+  }
 }

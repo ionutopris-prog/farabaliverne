@@ -11,21 +11,36 @@
     {
       "text": "Pe 14 august 2026, judecătorul federal Richard Leon (Curtea Districtuală a SUA pentru Districtul Columbia) a respins cererea de ordonanță președințială (preliminary injunction) prin care Națiunea Tohono O'odham cerea oprirea construcției a 62 de mile de zid de frontieră pe rezervația sa de 2,8 milioane de acri din sudul Arizonei, la granița cu Mexicul.",
       "sources": [
-        { "name": "Arizona Capitol Times — Judge denies Arizona Tohono O'odham request to halt border wall construction", "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/" },
-        { "name": "AZFamily — Judge refuses to block border wall build along reservation in Arizona", "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/" }
+        {
+          "name": "Arizona Capitol Times — Judge denies Arizona Tohono O'odham request to halt border wall construction",
+          "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/"
+        },
+        {
+          "name": "AZFamily — Judge refuses to block border wall build along reservation in Arizona",
+          "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/"
+        }
       ]
     },
     {
       "text": "Motivarea judecătorului: tribul nu a demonstrat că zidul i-ar modifica granițele rezervației fără autorizarea Congresului, iar acuzația de „trespass” (intruziune ilegală) a fost respinsă — Leon a invocat proclamația din 1907 a președintelui Theodore Roosevelt, care a rezervat pentru controlul federal primii 60 de picioare de la linia de frontieră, și a notat că granițele oficiale ale rezervației au fost stabilite de Congres abia în 1917. Judecătorul a mai spus că „interesele guvernului în asigurarea frontierei […] depășesc orice prejudiciu iremediabil rămas”.",
       "sources": [
-        { "name": "Arizona Capitol Times — motivarea judecătorului Leon", "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/" }
+        {
+          "name": "Arizona Capitol Times — motivarea judecătorului Leon",
+          "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/"
+        }
       ]
     },
     {
       "text": "Președintele Națiunii Tohono O'odham, Verlon M. Jose, a declarat că decizia nu a abordat „impacturile inevitabile pe care le va avea construcția asupra pământurilor Națiunii și distrugerea permanentă a siturilor sacre”, adăugând că „prea multe probleme critice nu au fost abordate corespunzător” și că tribul analizează opțiunile legale rămase.",
       "sources": [
-        { "name": "AZFamily — reacția președintelui tribului Verlon Jose", "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/" },
-        { "name": "Arizona Capitol Times — citate din reacția tribului", "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/" }
+        {
+          "name": "AZFamily — reacția președintelui tribului Verlon Jose",
+          "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/"
+        },
+        {
+          "name": "Arizona Capitol Times — citate din reacția tribului",
+          "url": "https://azcapitoltimes.com/news/2026/08/16/judge-denies-arizona-tohono-oodham-request-to-halt-border-wall-construction/"
+        }
       ]
     }
   ],
@@ -33,7 +48,10 @@
     {
       "text": "Tribul a argumentat în instanță că sistemul propriu de securitate pe mai multe niveluri (patrule proprii, senzori, cooperare cu autoritățile federale) a redus deja traversările ilegale pe teritoriul rezervației cu „peste 95%”, ceea ce ar face inutil zidul fizic. Această cifră vine din argumentația tribului în proces, redată de presă — nu am găsit o sursă independentă (guvernamentală sau statistică terță) care să o confirme separat, așa că o tratăm ca afirmație a unei părți din litigiu, nu ca fapt verificat.",
       "sources": [
-        { "name": "AZFamily — argumentul tribului despre reducerea traversărilor", "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/" }
+        {
+          "name": "AZFamily — argumentul tribului despre reducerea traversărilor",
+          "url": "https://www.azfamily.com/2026/08/15/judge-refuses-block-border-wall-build-along-reservation-arizona/"
+        }
       ]
     }
   ],
@@ -44,5 +62,12 @@
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Decizia judecătorului Richard Leon (14 august 2026) și motivarea ei sunt confirmate concordant de Arizona Capitol Times și AZFamily. Cifra „peste 95%” invocată de trib despre eficiența propriului sistem de securitate am marcat-o explicit la Contestat, fiindcă vine din argumentația tribului în proces și nu am găsit o verificare independentă a ei.",
   "persoane": [],
-  "math": null
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-tohono-oodham-zid-frontiera-judecator-leon.jpg\" alt=\"Tohono\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Tohono. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Mastigoproctus_tohono_10069485.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Mastigoproctus tohono 10069485</a>\" de Scott Loarie, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-tohono-oodham-zid-frontiera-judecator-leon.jpg",
+    "licenta": "CC0",
+    "autor": "Scott Loarie"
+  }
 }

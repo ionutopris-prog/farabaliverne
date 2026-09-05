@@ -11,20 +11,32 @@
     {
       "text": "Sorin Grindeanu, președintele PSD și al Camerei Deputaților, a declarat în Parlament, miercuri, 13 august 2026, ca răspuns la întrebări despre criza energetică de după oprirea Unității 2 de la Cernavodă: „Nu vreau să rămân cu lumina stinsă în România, fiindcă vrea Pîslaru să avem Green Deal.” El a cerut ca România să notifice Comisia Europeană pentru repornirea unor capacități pe cărbune (estimate la 1.000-2.000 MW) și a criticat planificarea insuficientă privind Green Deal-ul în PNRR.",
       "sources": [
-        {"name": "AGERPRES — Grindeanu: Nu vreau lumina stinsă în România fiindcă vrea Pîslaru să avem Green Deal", "url": "https://agerpres.ro/politic/2026/08/13/grindeanu-nu-vreau-lumina-stinsa-in-romania-fiindca-vrea-pislaru-sa-avem-green-deal--1584609"}
+        {
+          "name": "AGERPRES — Grindeanu: Nu vreau lumina stinsă în România fiindcă vrea Pîslaru să avem Green Deal",
+          "url": "https://agerpres.ro/politic/2026/08/13/grindeanu-nu-vreau-lumina-stinsa-in-romania-fiindca-vrea-pislaru-sa-avem-green-deal--1584609"
+        }
       ]
     },
     {
       "text": "Dragoș Pîslaru, ministru interimar pentru Proiecte și Fonduri Europene, i-a răspuns lui Grindeanu, acuzându-l că „sabotează toate măsurile Guvernului, miliardele din PNRR” și programul SAFE de consolidare a apărării. Pîslaru a respins ideea că actualul Guvern (Bolojan) e responsabil pentru criza energetică: „această criză energetică nu e vina lui Bolojan” — a atribuit-o guvernelor precedente, care nu ar fi investit la timp în stocare de energie, centrale pe gaze și „măsuri de prevenire pentru alimentarea cu apă de la Cernavodă”.",
       "sources": [
-        {"name": "Digi24 — Pîslaru, atac dur la Grindeanu: „Sabotează toate măsurile Guvernului”", "url": "https://www.digi24.ro/stiri/actualitate/politica/pislaru-atac-dur-la-grindeanu-saboteaza-toate-masurile-guvernului-miliardele-din-pnrr-si-dezvoltarea-romaniei-3905851"}
+        {
+          "name": "Digi24 — Pîslaru, atac dur la Grindeanu: „Sabotează toate măsurile Guvernului”",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/pislaru-atac-dur-la-grindeanu-saboteaza-toate-masurile-guvernului-miliardele-din-pnrr-si-dezvoltarea-romaniei-3905851"
+        }
       ]
     },
     {
       "text": "Potrivit comunicatului oficial al Nuclearelectrica, transmis Bursei de Valori București pe 13 august 2026 (ora 09:41), motivul opririi controlate a Unității 2 de la Cernavodă a fost explicit: „Decizia de a opri controlat și Unitatea 2 este determinată de scăderea continuă semnificativă a nivelului fluviului Dunărea.” Unitatea 1 fusese oprită anterior din același motiv — seceta hidrologică ce a scăzut debitul Dunării sub pragurile necesare pentru răcirea reactoarelor în siguranță.",
       "sources": [
-        {"name": "ZF — Nuclearelectrica anunță oficial că a început oprirea controlată a Unității 2", "url": "https://www.zf.ro/burse-fonduri-mutuale/nuclearelectrica-anunta-oficial-ca-a-inceput-oprirea-controlata-a-unitatii-2-de-la-cernavoda-23215620"},
-        {"name": "Digi24 — Situație gravă la Cernavodă: Dunărea a atins pragul critic", "url": "https://www.digi24.ro/stiri/economie/energie/situatie-grava-la-cernavoda-dunarea-a-atins-pragul-critic-anar-reactorul-2-va-intra-in-procedura-de-oprire-anuntul-nuclearelectrica-3901411"}
+        {
+          "name": "ZF — Nuclearelectrica anunță oficial că a început oprirea controlată a Unității 2",
+          "url": "https://www.zf.ro/burse-fonduri-mutuale/nuclearelectrica-anunta-oficial-ca-a-inceput-oprirea-controlata-a-unitatii-2-de-la-cernavoda-23215620"
+        },
+        {
+          "name": "Digi24 — Situație gravă la Cernavodă: Dunărea a atins pragul critic",
+          "url": "https://www.digi24.ro/stiri/economie/energie/situatie-grava-la-cernavoda-dunarea-a-atins-pragul-critic-anar-reactorul-2-va-intra-in-procedura-de-oprire-anuntul-nuclearelectrica-3901411"
+        }
       ]
     }
   ],
@@ -32,24 +44,45 @@
     {
       "text": "Grindeanu leagă retoric oprirea de la Cernavodă de politica „Green Deal” promovată de Pîslaru, dar niciuna dintre sursele consultate — inclusiv comunicatele oficiale ale Nuclearelectrica — nu indică Green Deal-ul (politica UE de reducere a emisiilor) drept cauză a opririi celor două reactoare. Cauza documentată e hidrologică (nivelul Dunării), independentă de deciziile privind decarbonizarea. Legătura pe care o face Grindeanu ține de o critică mai amplă a planificării energetice pe termen lung (ex. lipsa investițiilor în surse alternative pentru a compensa o eventuală renunțare la cărbune), nu de o cauzalitate directă demonstrată între Green Deal și oprirea reactoarelor din această săptămână.",
       "sources": [
-        {"name": "AGERPRES — Grindeanu: Nu vreau lumina stinsă în România fiindcă vrea Pîslaru să avem Green Deal", "url": "https://agerpres.ro/politic/2026/08/13/grindeanu-nu-vreau-lumina-stinsa-in-romania-fiindca-vrea-pislaru-sa-avem-green-deal--1584609"},
-        {"name": "ZF — Nuclearelectrica anunță oficial că a început oprirea controlată a Unității 2", "url": "https://www.zf.ro/burse-fonduri-mutuale/nuclearelectrica-anunta-oficial-ca-a-inceput-oprirea-controlata-a-unitatii-2-de-la-cernavoda-23215620"}
+        {
+          "name": "AGERPRES — Grindeanu: Nu vreau lumina stinsă în România fiindcă vrea Pîslaru să avem Green Deal",
+          "url": "https://agerpres.ro/politic/2026/08/13/grindeanu-nu-vreau-lumina-stinsa-in-romania-fiindca-vrea-pislaru-sa-avem-green-deal--1584609"
+        },
+        {
+          "name": "ZF — Nuclearelectrica anunță oficial că a început oprirea controlată a Unității 2",
+          "url": "https://www.zf.ro/burse-fonduri-mutuale/nuclearelectrica-anunta-oficial-ca-a-inceput-oprirea-controlata-a-unitatii-2-de-la-cernavoda-23215620"
+        }
       ]
     },
     {
       "text": "Acuzația lui Pîslaru că Grindeanu „sabotează” măsurile Guvernului și afirmația lui Grindeanu că responsabilitatea pentru criza actuală aparține politicii Green Deal sunt ambele afirmații politice reciproce, fără o bază factuală detaliată în articolele consultate (nu sunt citate, de exemplu, acte concrete de „sabotaj” sau o analiză tehnică ce leagă direct Green Deal-ul de oprirea Cernavodă). Cititorul ar trebui să trateze aceste etichete ca parte a unui schimb politic, nu ca fapte stabilite.",
       "sources": [
-        {"name": "Digi24 — Pîslaru, atac dur la Grindeanu: „Sabotează toate măsurile Guvernului”", "url": "https://www.digi24.ro/stiri/actualitate/politica/pislaru-atac-dur-la-grindeanu-saboteaza-toate-masurile-guvernului-miliardele-din-pnrr-si-dezvoltarea-romaniei-3905851"}
+        {
+          "name": "Digi24 — Pîslaru, atac dur la Grindeanu: „Sabotează toate măsurile Guvernului”",
+          "url": "https://www.digi24.ro/stiri/actualitate/politica/pislaru-atac-dur-la-grindeanu-saboteaza-toate-masurile-guvernului-miliardele-din-pnrr-si-dezvoltarea-romaniei-3905851"
+        }
       ]
     }
   ],
   "opinie": [
-    {"text": "Dacă România ar trebui să repornească temporar capacități pe cărbune în timpul unei crize hidrologice este o decizie de politică energetică, cu argumente pro (siguranța alimentării) și contra (costuri, angajamente climatice, aprobare UE) — nu o chestiune de fapt pe care s-o „tranșăm” noi. Am marcat-o explicit ca dezbatere politică deschisă."}
+    {
+      "text": "Dacă România ar trebui să repornească temporar capacități pe cărbune în timpul unei crize hidrologice este o decizie de politică energetică, cu argumente pro (siguranța alimentării) și contra (costuri, angajamente climatice, aprobare UE) — nu o chestiune de fapt pe care s-o „tranșăm” noi. Am marcat-o explicit ca dezbatere politică deschisă."
+    }
   ],
   "math": {
     "title": "Ce leagă — și ce nu leagă — Green Deal de Cernavodă",
     "explanation": "Green Deal-ul UE vizează reducerea emisiilor de gaze cu efect de seră (inclusiv prin renunțarea treptată la cărbune) — o politică ce afectează, teoretic, capacitatea de rezervă pe cărbune a României. Oprirea reactoarelor de la Cernavodă e însă un fenomen distinct: cauzată de scăderea debitului Dunării sub pragul de siguranță pentru răcirea reactoarelor, indiferent de politica energetică a UE. Cele două probleme pot coexista — o Românie cu mai puțin cărbune de rezervă resimte mai acut o pană nucleară neplanificată — dar asta e un argument despre lipsa de capacitate de rezervă (infrastructură), nu o dovadă că Green Deal-ul a „provocat” oprirea de la Cernavodă."
   },
   "aiNote": "🤖 Am comparat declarațiile celor doi politicieni (AGERPRES, Digi24) cu comunicatul oficial al Nuclearelectrica către Bursa de Valori București (ZF, Digi24). Faptul documentat — cauza hidrologică a opririi — e separat clar de eticheta politică folosită de Grindeanu. Nu am scris că cineva „minte”: am arătat ce spune sursa tehnică oficială (Nuclearelectrica) versus ce spune formularea politică, iar cititorul poate compara singur cele două.",
-  "persoane": ["Sorin Grindeanu", "Dragoș Pîslaru"]
+  "persoane": [
+    "Sorin Grindeanu",
+    "Dragoș Pîslaru"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/grindeanu-pislaru-disputa-green-deal-cernavoda.jpg\" alt=\"Cernavodă\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cernavodă. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Flora_Cernavod%C4%83_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Flora Cernavodă 1</a>\" de Smiley.toerist, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/grindeanu-pislaru-disputa-green-deal-cernavoda.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Smiley.toerist"
+  }
 }

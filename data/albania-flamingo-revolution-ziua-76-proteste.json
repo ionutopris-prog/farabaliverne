@@ -11,20 +11,32 @@
     {
       "text": "Mișcarea de protest cunoscută drept „Flamingo Revolution” a ajuns, în weekendul 14–16 august 2026, la ziua 76 consecutivă de proteste la Tirana, pe Bulevardul Martirilor Națiunii. Zeci-sute de membri ai diasporei albaneze au sosit special din Germania, Marea Britanie, Franța, Austria și alte țări pentru a participa.",
       "sources": [
-        {"name": "Pressenza — Hundreds of the Albanian diaspora expected in Tirana for day 76 of Flamingo Revolution protests", "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"}
+        {
+          "name": "Pressenza — Hundreds of the Albanian diaspora expected in Tirana for day 76 of Flamingo Revolution protests",
+          "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"
+        }
       ]
     },
     {
       "text": "Mișcarea a fost declanșată de planurile de dezvoltare turistică ale lui Jared Kushner (ginerele lui Donald Trump) și ale Ivankăi Trump în zone naturale protejate din Albania, printre care insula Sazan și zona Zvërnec, permise legal prin Legea 21/2024, care deschide ariile protejate pentru investiții.",
       "sources": [
-        {"name": "Foreign Policy — Albania's Flamingo Revolution, Against Jared Kushner's Sazan Island Resort", "url": "https://foreignpolicy.com/2026/07/20/albania-flamingo-revolution-jared-kushner-sazan-island-resort/"},
-        {"name": "Pressenza — context privind originea mișcării", "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"}
+        {
+          "name": "Foreign Policy — Albania's Flamingo Revolution, Against Jared Kushner's Sazan Island Resort",
+          "url": "https://foreignpolicy.com/2026/07/20/albania-flamingo-revolution-jared-kushner-sazan-island-resort/"
+        },
+        {
+          "name": "Pressenza — context privind originea mișcării",
+          "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"
+        }
       ]
     },
     {
       "text": "Protestatarii cer demisia Guvernului condus de Edi Rama, formarea unui guvern tehnic pentru un an înaintea unor noi alegeri, abrogarea Legii 21/2024 și respingerea proiectelor Kushner–Trump, invocând protecția patrimoniului natural. Mișcarea se descrie drept descentralizată, la firul ierbii, cu adunări zilnice, inclusiv familiale, la Tirana.",
       "sources": [
-        {"name": "Pressenza — revendicările protestatarilor", "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"}
+        {
+          "name": "Pressenza — revendicările protestatarilor",
+          "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"
+        }
       ]
     }
   ],
@@ -32,7 +44,10 @@
     {
       "text": "Numărul de participanți la marile mitinguri este dat de organizatori, nu de o sursă independentă: la mitingul de vârf din 20 iunie 2026, organizatorii au revendicat peste 100.000 de participanți — cifră care nu a fost confirmată de autoritățile albaneze sau de o numărătoare independentă, așa cum se întâmplă frecvent la estimările de acest tip.",
       "sources": [
-        {"name": "Pressenza — cifra de peste 100.000 de participanți, citată de organizatori", "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"}
+        {
+          "name": "Pressenza — cifra de peste 100.000 de participanți, citată de organizatori",
+          "url": "https://www.pressenza.com/2026/08/hundreds-of-the-albanian-diaspora-expected-in-tirana-for-day-76-of-flamingo-revolution-protests/"
+        }
       ]
     }
   ],
@@ -44,5 +59,16 @@
     "text": "De la primele proteste (mai 2026) până la weekendul 14-16 august 2026 au trecut 76 de zile de adunări consecutive — aproximativ 11 săptămâni fără pauză, ceea ce arată o mișcare susținută, nu un protest punctual. Cifra de peste 100.000 de participanți la mitingul de vârf din 20 iunie ar reprezenta circa 3-4% din populația Tiranei (~500.000 de locuitori), dacă s-ar confirma — motiv suplimentar pentru care lipsa unei numărători independente contează."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am marcat explicit cifra de participanți ca fiind o estimare a organizatorilor, neconfirmată independent, și am separat faptele (legea, actorii, durata protestelor) de miza politică a conflictului.",
-  "persoane": ["Edi Rama", "Jared Kushner", "Ivanka Trump"]
+  "persoane": [
+    "Edi Rama",
+    "Jared Kushner",
+    "Ivanka Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/albania-flamingo-revolution-ziua-76-proteste.jpg\" alt=\"Flamingo\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Flamingo. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:001_Greater_flamingo_in_flight_in_the_Camargue_Photo_by_Giles_Laurent.jpg\" rel=\"nofollow noopener\" target=\"_blank\">001 Greater flamingo in flight in the Camargue Photo by Giles Laurent</a>\" de Giles Laurent, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/albania-flamingo-revolution-ziua-76-proteste.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Giles Laurent"
+  }
 }

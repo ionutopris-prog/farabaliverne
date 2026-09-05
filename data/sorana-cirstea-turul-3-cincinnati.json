@@ -11,15 +11,27 @@
     {
       "text": "Sorana Cîrstea a învins-o pe Nikola Bartunkova (Cehia) cu scorul 7-6(5), 6-3, într-un meci de 1 oră și 56 de minute, calificându-se în turul al treilea la Cincinnati Open (WTA 1000). Românca, locul 19 WTA și cap de serie 15 în turneu, a comis 8 duble greșeli și a reușit 3 ași, în timp ce adversara a valorificat doar 1 din 6 mingi de break.",
       "sources": [
-        {"name": "AGERPRES — Sorana Cîrstea, calificată în turul al treilea la Cincinnati (WTA)", "url": "https://agerpres.ro/sport-extern/2026/08/16/tenis-sorana-cirstea-calificata-in-turul-al-treilea-la-cincinnati-wta--1585252"},
-        {"name": "Fanatik — Sorana Cîrstea, în turul 3 la Cincinnati! Câți bani a câștigat", "url": "https://www.fanatik.ro/sorana-cirstea-in-turul-3-la-cincinnati-cati-bani-a-castigat-si-cu-cine-va-juca-in-turul-urmator-21524487"}
+        {
+          "name": "AGERPRES — Sorana Cîrstea, calificată în turul al treilea la Cincinnati (WTA)",
+          "url": "https://agerpres.ro/sport-extern/2026/08/16/tenis-sorana-cirstea-calificata-in-turul-al-treilea-la-cincinnati-wta--1585252"
+        },
+        {
+          "name": "Fanatik — Sorana Cîrstea, în turul 3 la Cincinnati! Câți bani a câștigat",
+          "url": "https://www.fanatik.ro/sorana-cirstea-in-turul-3-la-cincinnati-cati-bani-a-castigat-si-cu-cine-va-juca-in-turul-urmator-21524487"
+        }
       ]
     },
     {
       "text": "Pentru calificarea în turul al treilea, Cîrstea a încasat 47.375 de dolari și 65 de puncte WTA. În runda următoare o va înfrunta pe rusoaica Ana Kalinskaia (locul 21 WTA), care a trecut-o pe americanca Caty McNally, scor 6-3, 6-4. Cele două s-au mai întâlnit de trei ori pe circuitul WTA, Cîrstea conducând cu 2-1 (victorii la Indian Wells 2022 și US Open 2023, Kalinskaia câștigătoare în 2020).",
       "sources": [
-        {"name": "Fanatik — Câți bani a câștigat Sorana Cîrstea și cu cine va juca în turul următor", "url": "https://www.fanatik.ro/sorana-cirstea-in-turul-3-la-cincinnati-cati-bani-a-castigat-si-cu-cine-va-juca-in-turul-urmator-21524487"},
-        {"name": "AS.ro — Pe cine va întâlni românca în turul al treilea", "url": "https://as.ro/tenis/wta/sorana-cirstea-debut-cu-victorie-la-cincinnati-pe-cine-va-intalni-romanca-in-turul-al-treilea-677976.html"}
+        {
+          "name": "Fanatik — Câți bani a câștigat Sorana Cîrstea și cu cine va juca în turul următor",
+          "url": "https://www.fanatik.ro/sorana-cirstea-in-turul-3-la-cincinnati-cati-bani-a-castigat-si-cu-cine-va-juca-in-turul-urmator-21524487"
+        },
+        {
+          "name": "AS.ro — Pe cine va întâlni românca în turul al treilea",
+          "url": "https://as.ro/tenis/wta/sorana-cirstea-debut-cu-victorie-la-cincinnati-pe-cine-va-intalni-romanca-in-turul-al-treilea-677976.html"
+        }
       ]
     }
   ],
@@ -27,5 +39,14 @@
   "opinie": [],
   "math": null,
   "aiNote": "Am agregat informația din presa sportivă românească (AGERPRES, Fanatik, AS.ro), care coincide pe scor, statistici de meci și adversara următoare — nu am găsit discrepanțe între surse pe această știre.",
-  "persoane": ["Sorana Cîrstea"]
+  "persoane": [
+    "Sorana Cîrstea"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sorana-cirstea-turul-3-cincinnati.jpg\" alt=\"Cîrstea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cîrstea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Sorana_C%C3%AErstea_(14948554138).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Sorana Cîrstea (14948554138)</a>\" de Tatiana from Moscow, Russia, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sorana-cirstea-turul-3-cincinnati.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Tatiana from Moscow, Russia"
+  }
 }

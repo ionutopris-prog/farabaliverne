@@ -11,22 +11,40 @@
     {
       "text": "La ședința încheiată pe 29 iulie 2026, Comitetul de Politică Monetară (MPC) al Băncii Angliei a votat cu o majoritate de 6 la 3 pentru menținerea dobânzii-cheie (Bank Rate) la 3,75%. Este confirmat direct de comunicatul oficial al băncii și de presa financiară.",
       "sources": [
-        { "name": "Bank of England — comunicat oficial: Bank Rate menținut la 3,75% (iulie 2026)", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026" },
-        { "name": "CNBC — BoE menține dobânda la 3,75%", "url": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html" }
+        {
+          "name": "Bank of England — comunicat oficial: Bank Rate menținut la 3,75% (iulie 2026)",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026"
+        },
+        {
+          "name": "CNBC — BoE menține dobânda la 3,75%",
+          "url": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html"
+        }
       ]
     },
     {
       "text": "Cei trei membri care au votat împotrivă au cerut o majorare cu 0,25 puncte procentuale, până la 4%. Potrivit relatărilor, dizidenții au fost Megan Greene, Huw Pill și Catherine Mann. Restul de șase membri au votat pentru menținere.",
       "sources": [
-        { "name": "Bank of England — repartizarea voturilor din minute", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026" },
-        { "name": "Central Banking — BoE ține dobânda la 3,75% (detalii vot)", "url": "https://www.centralbanking.com/central-banks/monetary-policy/7976501/bank-of-england-keeps-rates-at-375" }
+        {
+          "name": "Bank of England — repartizarea voturilor din minute",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026"
+        },
+        {
+          "name": "Central Banking — BoE ține dobânda la 3,75% (detalii vot)",
+          "url": "https://www.centralbanking.com/central-banks/monetary-policy/7976501/bank-of-england-keeps-rates-at-375"
+        }
       ]
     },
     {
       "text": "Este a cincea oară anul acesta când banca menține dobânda neschimbată. Decizia a venit după o scădere a inflației mai mare decât se aștepta luna anterioară, care a dat băncii spațiu de manevră; toți membrii au fost de acord că riscurile la adresa prețurilor energiei rămân orientate în sus.",
       "sources": [
-        { "name": "CNBC — a cincea menținere; risc inflaționist orientat în sus", "url": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html" },
-        { "name": "US News (AP) — BoE ține dobânda la 3,75% a cincea oară anul acesta", "url": "https://www.usnews.com/news/business/articles/2026-07-30/bank-of-england-keeps-key-rate-at-3-75-for-the-fifth-time-this-year" }
+        {
+          "name": "CNBC — a cincea menținere; risc inflaționist orientat în sus",
+          "url": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html"
+        },
+        {
+          "name": "US News (AP) — BoE ține dobânda la 3,75% a cincea oară anul acesta",
+          "url": "https://www.usnews.com/news/business/articles/2026-07-30/bank-of-england-keeps-key-rate-at-3-75-for-the-fifth-time-this-year"
+        }
       ]
     }
   ],
@@ -34,22 +52,42 @@
     {
       "text": "Direcția următoare a dobânzii NU este stabilită: comunicatul semnalează riscuri de inflație orientate în sus (legate, între altele, de prețurile energiei și de tensiunile din Orientul Mijlociu), dar și o inflație în scădere care ar putea justifica prudență. Cu trei membri deja votând pentru majorare, presa a interpretat semnalul în ambele sensuri. Ce se întâmplă la ședința următoare rămâne o predicție, nu un fapt.",
       "sources": [
-        { "name": "Bank of England — riscuri asupra prețurilor energiei orientate în sus", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026" },
-        { "name": "CNBC — decidenții văd un risc inflaționist în sus", "url": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html" }
+        {
+          "name": "Bank of England — riscuri asupra prețurilor energiei orientate în sus",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026"
+        },
+        {
+          "name": "CNBC — decidenții văd un risc inflaționist în sus",
+          "url": "https://www.cnbc.com/2026/07/30/interest-rates-inflation-bank-of-england.html"
+        }
       ]
     }
   ],
   "opinie": [
-    { "text": "Dacă menținerea dobânzii este „decizia corectă” sau banca „a rămas în urmă/e prea agresivă” ține de opinie de politică monetară. O consemnăm ca dezbatere, nu ca adevăr — inclusiv votul intern 6–3 arată că profesioniștii înșiși nu sunt de acord." },
-    { "text": "Interpretarea că dobânda mare „strânge cureaua” gospodăriilor sau, dimpotrivă, „apără economiile” de inflație este o judecată de valoare, dependentă de cine o face (debitor vs. deponent). Nu o etichetăm cu adevărat/fals; o separăm de faptul verificabil: nivelul de 3,75% și votul 6–3." }
+    {
+      "text": "Dacă menținerea dobânzii este „decizia corectă” sau banca „a rămas în urmă/e prea agresivă” ține de opinie de politică monetară. O consemnăm ca dezbatere, nu ca adevăr — inclusiv votul intern 6–3 arată că profesioniștii înșiși nu sunt de acord."
+    },
+    {
+      "text": "Interpretarea că dobânda mare „strânge cureaua” gospodăriilor sau, dimpotrivă, „apără economiile” de inflație este o judecată de valoare, dependentă de cine o face (debitor vs. deponent). Nu o etichetăm cu adevărat/fals; o separăm de faptul verificabil: nivelul de 3,75% și votul 6–3."
+    }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; interpretarea aparține Fără Baliverne. Sursa originală (în engleză) e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptul central e cât se poate de solid, pentru că avem sursa primară: comunicatul oficial al Băncii Angliei confirmă menținerea dobânzii la 3,75% cu vot 6–3, iar presa independentă (CNBC, AP via US News, Central Banking) relatează la fel, inclusiv numele celor trei dizidenți care au cerut 4%. Ce NU este fapt stabilit este ce urmează: comunicatul semnalează riscuri de inflație orientate în sus, dar direcția următoarei mișcări rămâne o predicție — de aceea am pus-o la „Contestat/neclar”. Judecățile despre cine „câștigă” sau „pierde” din dobânda mare (debitori vs. deponenți) sunt opinii, separate de cifră. Sfatul onest: pentru nivelul exact și motivarea votului, sursa de aur e comunicatul BoE, nu titlurile.",
   "math": {
     "title": "Ce spune un vot 6–3 și „a cincea menținere”",
     "explanation": "Comitetul are 9 membri; un vot 6–3 înseamnă că 6 au vrut menținere și 3 au vrut majorare cu 0,25 puncte (până la 4%). Nu e unanimitate — e o majoritate clară, dar cu o minoritate consistentă (o treime din comitet) care împinge spre scump-irea creditului. „A cincea oară anul acesta” arată că nivelul de 3,75% e ținut deja de mai multe ședințe: banca alege să aștepte date, nu să se miște la fiecare întâlnire. Ce NU putem citi din aceste cifre: unde va fi dobânda peste trei luni. Un raport 6–3 azi se poate transforma în 5–4 sau invers la ședința următoare, în funcție de datele de inflație — de aici prudența cu care tratăm orice „va crește/va scădea”.",
     "sources": [
-      { "name": "Bank of England — votul 6–3 și nivelul 3,75%", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026" }
+      {
+        "name": "Bank of England — votul 6–3 și nivelul 3,75%",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/boe-dobanda-mentinuta-3-75.jpg\" alt=\"Angliei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Angliei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:England-Ghana_World_Cup_2026_Boston_02.jpg\" rel=\"nofollow noopener\" target=\"_blank\">England-Ghana World Cup 2026 Boston 02</a>\" de Zakarie Faibis, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/boe-dobanda-mentinuta-3-75.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Zakarie Faibis"
+  }
 }

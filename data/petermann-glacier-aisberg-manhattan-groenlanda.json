@@ -11,40 +11,67 @@
     {
       "text": "Radarul de pe satelitul Copernicus Sentinel-1 (al Agenției Spațiale Europene), care poate observa suprafața zi și noapte și prin nori, a înregistrat pe 3 august 2026 o deteriorare accentuată de-a lungul liniei centrale a limbii de gheață plutitoare a ghețarului Petermann, iar a doua zi, 4 august, o insulă de gheață de 76 km² s-a desprins complet de partea estică a ghețarului.",
       "sources": [
-        {"name": "ESA — Sentinel-1 captures major ice loss from Greenland glacier", "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"}
+        {
+          "name": "ESA — Sentinel-1 captures major ice loss from Greenland glacier",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"
+        }
       ]
     },
     {
       "text": "Noua „insulă de gheață” are o suprafață comparabilă cu cea a insulei Manhattan din New York și o grosime estimată de până la 150 de metri. Este cea mai mare pierdere de gheață plutitoare suferită de Petermann din 2012 și cel mai semnificativ eveniment de desprindere din Arctica din 2020 până acum; evenimente comparabile la acest ghețar au mai avut loc în 2008, 2010 și 2012.",
       "sources": [
-        {"name": "ESA — dimensiunea noului aisberg desprins din Petermann", "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Size_of_new_iceberg_calved_from_Petermann_Glacier"},
-        {"name": "ScienceDaily — A Manhattan-sized ice island just broke free from Greenland", "url": "https://www.sciencedaily.com/releases/2026/08/260823094145.htm"}
+        {
+          "name": "ESA — dimensiunea noului aisberg desprins din Petermann",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Size_of_new_iceberg_calved_from_Petermann_Glacier"
+        },
+        {
+          "name": "ScienceDaily — A Manhattan-sized ice island just broke free from Greenland",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260823094145.htm"
+        }
       ]
     },
     {
       "text": "Cercetătorii citați de ESA spun că fractura era așteptată: Adam Garbo (Universitatea din Ottawa) a declarat că „ne-am anticipat această ruptură de ani de zile, iar acum, când în sfârșit se întâmplă, e ceva remarcabil”. Molly Hammond (Universitatea din Leeds) a explicat că datele radar cu reluare la fiecare zi au permis monitorizarea „aproape în timp real” a propagării fisurii, iar Anna Crawford (Universitatea din Stirling) a subliniat că astfel de „insule de gheață” arctice sunt mult mai rare decât aisbergurile tabulare din Antarctica, ceea ce le face valoroase pentru cercetare.",
       "sources": [
-        {"name": "ESA — comunicat cu citate din echipa de cercetare", "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"}
+        {
+          "name": "ESA — comunicat cu citate din echipa de cercetare",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"
+        }
       ]
     },
     {
       "text": "Potrivit ESA, ruptura din 4 august nu va fi probabil ultima: alte două zone ale limbii de gheață plutitoare, cu suprafețe estimate de circa 97 și, respectiv, 87 km², au fisuri deja active și pot ceda în continuare. Noul aisberg poate rămâne pe mare ani de zile înainte să se fragmenteze complet, ceea ce ridică riscuri practice pentru navigația și operațiunile din Arctica.",
       "sources": [
-        {"name": "ESA — perspectiva asupra viitoarelor desprinderi de la Petermann", "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"}
+        {
+          "name": "ESA — perspectiva asupra viitoarelor desprinderi de la Petermann",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    {"text": "Sursele consultate nu atribuie explicit acest eveniment izolat schimbărilor climatice — cercetătorii citați îl descriu ca parte a unui ciclu de rupturi observat la Petermann încă din 2008, iar stabilirea unei legături directe cu încălzirea globală ar necesita analiza unor serii lungi de date, nu a unui singur eveniment."}
+    {
+      "text": "Sursele consultate nu atribuie explicit acest eveniment izolat schimbărilor climatice — cercetătorii citați îl descriu ca parte a unui ciclu de rupturi observat la Petermann încă din 2008, iar stabilirea unei legături directe cu încălzirea globală ar necesita analiza unor serii lungi de date, nu a unui singur eveniment."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română un comunicat științific oficial al Agenției Spațiale Europene, bazat pe date radar Sentinel-1, confirmat și de relatări independente (ScienceDaily, Space.com, Universe Today). Nucleul faptic — data desprinderii, suprafața și grosimea aisbergului, comparația cu evenimentele anterioare de la Petermann — provine direct din comunicatul ESA și din imaginile satelitare publicate. Am marcat la „opinie” o precizare de proporție: ESA și cercetătorii citați prezintă acest eveniment ca parte a unui tipar recurent de fracturare a ghețarului, fără să afirme explicit o cauzalitate directă cu încălzirea climatică — o asemenea legătură ar cere analiza unor serii de date pe termen lung, nu a unui singur eveniment, oricât de spectaculos.",
   "math": {
     "title": "Cum „citește” radarul un satelit o fisură în gheață",
     "explanation": "Sentinel-1 nu face fotografii obișnuite, ci trimite unde radar spre suprafață și măsoară cât timp și cu ce intensitate se întorc — o tehnică ce funcționează la fel de bine ziua sau noaptea și prin nori groși, ceva imposibil pentru un satelit optic obișnuit într-o regiune polară unde e des înnorat sau întuneric jumătate din an. Pentru că satelitul trece peste aceeași zonă la intervale regulate (aici, la fiecare zi), cercetătorii pot compara imaginile succesive și vedea exact unde apar și cum se lărgesc fisurile, înainte ca o bucată de gheață să se desprindă complet — asta a permis echipei să urmărească „aproape în timp real” cum s-a lărgit crăpătura din Petermann între 3 și 4 august, în loc să constate desprinderea abia după ce s-a produs.",
     "sources": [
-      {"name": "ESA — Sentinel-1 captures major ice loss from Greenland glacier", "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"}
+      {
+        "name": "ESA — Sentinel-1 captures major ice loss from Greenland glacier",
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/petermann-glacier-aisberg-manhattan-groenlanda.jpg\" alt=\"Manhattan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Manhattan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chinatown-manhattan-2004.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chinatown-manhattan-2004</a>\" de Derek Jensen (Tysto), via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/petermann-glacier-aisberg-manhattan-groenlanda.jpg",
+    "licenta": "Public domain",
+    "autor": "Derek Jensen (Tysto)"
+  }
 }

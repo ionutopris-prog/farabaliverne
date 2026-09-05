@@ -91,5 +91,14 @@
     "explanation": "Sursele plasează incidentul la circa 80 de mile marine est de Constanța. O milă marină are 1,852 km, deci 80 × 1,852 ≈ 148,2 km de coastă — puțin mai aproape decât incidentul din 11 august (raportat atunci la circa 90 de mile marine, adică ~166,7 km)."
   },
   "aiNote": "Faptele centrale — descoperirea dronei la 06:28 pe 20 august 2026, încărcătura explozivă, distrugerea ei cu tunul de bord al unui F-16 și confirmarea ucraineană că nu era a lor — sunt relatate concordant de Digi24, Romania Insider și stiripesurse.ro, toate citând declarațiile ministrului interimar al apărării, Radu Miruță. Rămâne o distincție importantă între ce s-a confirmat oficial și ce a spus președintele: singura confirmare obținută de autorități, prin canalul cu Ucraina, e negativă — că drona NU era ucraineană. Afirmația lui Nicușor Dan că incidentul reprezintă o „intensificare a incidentelor iresponsabile din partea Federației Ruse” e o acuzație politică directă, nesusținută public de o expertiză tehnică sau de resturi ale dronei atribuite oficial Rusiei. E o inferență plauzibilă — dronele Shahed/Gerbera folosite de Rusia în regiune sunt binecunoscute, iar niciun alt stat nu are motiv să trimită drone explozive spre o platformă românească — dar rămâne o concluzie politică, nu un fapt stabilit tehnic, la data verificării. Cititorul poate urmări dacă MApN va publica ulterior rezultatul analizei resturilor recuperate.",
-  "persoane": ["Nicușor Dan"]
+  "persoane": [
+    "Nicușor Dan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/f16-drona-neptun-deep-nicusor-dan-rusia.jpg\" alt=\"Neptun\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Neptun. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Marktbreit_Neptun.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Marktbreit Neptun</a>\" de Xocolatl (talk) 11:23, 1 June 2013 (UTC), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/f16-drona-neptun-deep-nicusor-dan-rusia.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Xocolatl (talk) 11:23, 1 June 2013 (UTC)"
+  }
 }

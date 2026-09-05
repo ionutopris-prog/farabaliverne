@@ -11,14 +11,23 @@
     {
       "text": "O relatare distribuită de agenția Reuters pe 13 august 2026 afirmă că „Israel și Libanul au convenit asupra Marii Britanii, Italiei, Elveției și Indoneziei ca posibili contribuitori” la un mecanism propus de verificare a dezarmării Hezbollah, în urma unor negocieri mediate de SUA desfășurate la Roma săptămâna anterioară.",
       "sources": [
-        { "name": "Express Tribune (Reuters) — UK, Italy among states considered to verify Hezbollah disarmament", "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament" }
+        {
+          "name": "Express Tribune (Reuters) — UK, Italy among states considered to verify Hezbollah disarmament",
+          "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament"
+        }
       ]
     },
     {
       "text": "Negocierile se leagă de un acord din iunie 2026 care condiționează retragerea trupelor israeliene din sudul Libanului de dezarmarea Hezbollah — context confirmat în ambele relatări Reuters, indiferent de contradicția privind lista de țări.",
       "sources": [
-        { "name": "Express Tribune (Reuters) — context al negocierilor din iunie 2026", "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament" },
-        { "name": "Internazionale (Reuters) — Lebanon has not agreed to shortlist of countries", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says" }
+        {
+          "name": "Express Tribune (Reuters) — context al negocierilor din iunie 2026",
+          "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament"
+        },
+        {
+          "name": "Internazionale (Reuters) — Lebanon has not agreed to shortlist of countries",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says"
+        }
       ]
     }
   ],
@@ -26,18 +35,34 @@
     {
       "text": "Tot pe 13 august 2026, o altă relatare Reuters citează un oficial libanez care spune că „nu există niciun acord de acest fel” și că Beirutul este încă în discuții cu Statele Unite — o negare directă a variantei potrivit căreia lista celor patru țări ar fi fost deja convenită.",
       "sources": [
-        { "name": "Internazionale (Reuters) — oficial libanez neagă acordul", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says" }
+        {
+          "name": "Internazionale (Reuters) — oficial libanez neagă acordul",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says"
+        }
       ]
     },
     {
       "text": "O sursă cu cunoștințe directe despre negocieri, citată în relatarea care menționează cele patru țări, spune totuși că discuțiile despre listă erau „în fazele incipiente” — o formulare care lasă loc ca ambele variante să fie parțial corecte (o listă vehiculată informal, dar fără un acord formal semnat). Departamentul de Stat american, întrebat, a confirmat doar discuții despre un mecanism de „verificare de către o terță parte”, fără să confirme sau infirme lista de țări.",
       "sources": [
-        { "name": "Express Tribune (Reuters) — discuții „în fazele incipiente”", "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament" },
-        { "name": "Internazionale (Reuters) — poziția Departamentului de Stat american", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says" }
+        {
+          "name": "Express Tribune (Reuters) — discuții „în fazele incipiente”",
+          "url": "https://tribune.com.pk/story/2623624/uk-italy-among-states-considered-to-verify-hezbollah-disarmament"
+        },
+        {
+          "name": "Internazionale (Reuters) — poziția Departamentului de Stat american",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/13/lebanon-has-not-agreed-to-shortlist-of-countries-that-could-verify-hezbollah-s-disarmament-official-says"
+        }
       ]
     }
   ],
   "opinie": [],
   "aiNote": "Am pus alături două relatări ale aceleiași agenții de presă (Reuters), publicate în aceeași zi, care ajung la formulări opuse despre stadiul negocierilor — una vorbește despre un acord pe patru țări, cealaltă despre negarea lui de către un oficial libanez. Nu decretăm care variantă e „adevărată”: arătăm ambele citate, cu sursă, și explicăm de ce ar putea coexista (o listă discutată informal, dar neconfirmată oficial). Cititorul poate urmări dezvoltarea știrii pe măsură ce negocierile de la Roma avansează.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/liban-israel-hezbollah-lista-verificare-negata.jpg\" alt=\"Israel\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Israel. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Gaza_envelope_after_coordinated_surprise_offensive_on_Israel,_October_2023_(KBG_GPO05).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Gaza envelope after coordinated surprise offensive on Israel, October 2023 (KBG GPO05)</a>\" de Kobi Gideon, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/liban-israel-hezbollah-lista-verificare-negata.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Kobi Gideon"
+  }
 }

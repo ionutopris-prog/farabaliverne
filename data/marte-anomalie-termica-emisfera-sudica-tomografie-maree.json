@@ -11,14 +11,23 @@
     {
       "text": "Un studiu condus de Alexander Berne (doctorat la Caltech în 2026, acum cercetător postdoctoral la Universitatea Arizona), publicat în revista Nature pe 27 august 2026, arată că interiorul sudic al lui Marte e cu aproximativ 200-400 de grade Celsius mai cald decât cel nordic și parțial topit. Echipa a folosit „tomografia de maree” — o tehnică ce reconstituie structura internă a unei planete din modul în care câmpul ei gravitațional se deformează ciclic sub atracția Soarelui — aplicată pe date gravitaționale adunate de trei misiuni NASA (Mars Global Surveyor, Mars Odyssey și Mars Reconnaissance Orbiter) de-a lungul a peste 20 de ani de orbitare.",
       "sources": [
-        {"name": "Caltech — Thermal Anomaly Discovered Below Mars's South Pole", "url": "https://www.caltech.edu/about/news/thermal-anomaly-discovered-below-marss-south-pole"},
-        {"name": "ScienceDaily — Scientists discover a massive heat anomaly deep inside Mars", "url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"}
+        {
+          "name": "Caltech — Thermal Anomaly Discovered Below Mars's South Pole",
+          "url": "https://www.caltech.edu/about/news/thermal-anomaly-discovered-below-marss-south-pole"
+        },
+        {
+          "name": "ScienceDaily — Scientists discover a massive heat anomaly deep inside Mars",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+        }
       ]
     },
     {
       "text": "Asimetria termică ar putea explica mai multe fenomene deja observate, dar rămase fără o cauză clară: anomaliile magnetice puternice din mineralele feroase ale emisferei sudice, disiparea mai rapidă a undelor seismice înregistrate acolo de seismometrul misiunii InSight, precum și diferențe istorice legate de hidrologia și formarea bazinelor din sud. Potrivit lui Berne, descoperirea „ne dă un plan pentru a proiecta viitoare misiuni” de explorare a structurii interne a altor corpuri planetare.",
       "sources": [
-        {"name": "Smithsonian Magazine — Mars' Southern Half Is Weirdly Warm Underground", "url": "https://www.smithsonianmag.com/smart-news/mars-southern-half-is-weirdly-warm-underground-the-thermal-anomaly-might-explain-why-the-planets-hemispheres-look-so-different-180989424/"}
+        {
+          "name": "Smithsonian Magazine — Mars' Southern Half Is Weirdly Warm Underground",
+          "url": "https://www.smithsonianmag.com/smart-news/mars-southern-half-is-weirdly-warm-underground-the-thermal-anomaly-might-explain-why-the-planets-hemispheres-look-so-different-180989424/"
+        }
       ]
     }
   ],
@@ -26,7 +35,10 @@
     {
       "text": "Cauza exactă a asimetriei termice rămâne necunoscută și disputată. Cercetătorii avansează trei ipoteze concurente, fără să poată deocamdată alege între ele: un impact uriaș din trecutul planetei care ar fi eliberat căldură inegal între emisfere, procese de convecție a mantalei care ar fi concentrat căldura în sud, sau structuri geologice groase care ar fi capturat căldura acolo. Niciuna dintre explicații nu e încă susținută de dovezi decisive.",
       "sources": [
-        {"name": "Caltech — Thermal Anomaly Discovered Below Mars's South Pole", "url": "https://www.caltech.edu/about/news/thermal-anomaly-discovered-below-marss-south-pole"}
+        {
+          "name": "Caltech — Thermal Anomaly Discovered Below Mars's South Pole",
+          "url": "https://www.caltech.edu/about/news/thermal-anomaly-discovered-below-marss-south-pole"
+        }
       ]
     }
   ],
@@ -36,5 +48,12 @@
     "title": "Ce înseamnă „tomografie de maree” și de ce nu poți vedea direct interiorul lui Marte",
     "explanation": "Marte nu poate fi „spart” pentru a-i vedea interiorul, așa că cercetătorii folosesc un truc: la fel cum Luna deformează ușor oceanele Pământului producând maree, Soarele deformează ușor forma solidă a lui Marte de-a lungul anului marțian. Cât de mult și cât de repede se deformează planeta depinde de cum e distribuită materia în interior — o regiune mai fierbinte și parțial topită se comportă diferit sub această tracțiune gravitațională decât una rece și rigidă. Măsurând cu precizie, timp de peste două decenii, mici variații în orbitele sondelor NASA cauzate de aceste deformări, echipa a putut reconstitui o „hartă” a temperaturii interne a planetei — fără să fi coborât vreodată sub suprafață. E aceeași logică folosită și pentru a studia interiorul Pământului sau al Lunii, dar aplicată la o planetă unde n-avem foraje adânci sau rețele seismice extinse."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/marte-anomalie-termica-emisfera-sudica-tomografie-maree.jpg\" alt=\"Marte\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Marte. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_MARTE,_Coahuila_-_panoramio_(15).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Estación MARTE, Coahuila - panoramio (15)</a>\" de urbanomafia, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/marte-anomalie-termica-emisfera-sudica-tomografie-maree.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "urbanomafia"
+  }
 }

@@ -11,28 +11,49 @@
     {
       "text": "Environment Agency (agenția guvernamentală britanică pentru mediu) a declarat oficial secetă în șapte regiuni ale Angliei — East Anglia, Hertfordshire și Londra, Thames, Hampshire și Insula Wight, Devon și Cornwall, West Midlands și Wessex — potrivit raportului „Dry weather and drought in England”, actualizat pe 7 august 2026. Pe 10 august, cu adăugarea regiunilor Central Midlands și nord-estul Angliei, presa relatează că 71,3% din teritoriul Angliei se află acum sub declarație de secetă.",
       "sources": [
-        {"name": "GOV.UK — Environment Agency, raport oficial 31 iulie–6 august 2026", "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"},
-        {"name": "Euronews — secetă declarată pe aproape trei sferturi din Anglia", "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"}
+        {
+          "name": "GOV.UK — Environment Agency, raport oficial 31 iulie–6 august 2026",
+          "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"
+        },
+        {
+          "name": "Euronews — secetă declarată pe aproape trei sferturi din Anglia",
+          "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"
+        }
       ]
     },
     {
       "text": "Luna iulie 2026 a fost cea mai uscată din istoria observațiilor pentru Anglia, cu doar 10% din media multianuală de precipitații (variind regional între 1% în sud-est și 25% în nord-vest). Rezervele de apă acumulate (reservoir storage) au scăzut la 69%, cu 11,6 puncte procentuale sub media multianuală, iar cinci rezervoare (Blagdon, Clywedog, Dove Group, Hanningfield, Wimbleball) sunt clasificate drept „excepțional de scăzute”.",
       "sources": [
-        {"name": "GOV.UK — Environment Agency, date oficiale despre precipitații și rezerve de apă", "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"}
+        {
+          "name": "GOV.UK — Environment Agency, date oficiale despre precipitații și rezerve de apă",
+          "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"
+        }
       ]
     },
     {
       "text": "Opt companii de apă au impus restricții temporare de consum (interdicții de folosire a furtunului) pentru peste 25 de milioane de oameni, iar Environment Agency a emis restricții formale (S57) pentru 302 utilizatori care captează apă în East Anglia, obligându-i la o reducere de 50% a volumului extras. Este a treia secetă din Anglia din ultimii cinci ani, după cele din 2022 și 2025.",
       "sources": [
-        {"name": "GOV.UK — Environment Agency, restricțiile S57 și interdicțiile de furtun", "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"},
-        {"name": "Euronews — a treia secetă în cinci ani", "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"}
+        {
+          "name": "GOV.UK — Environment Agency, restricțiile S57 și interdicțiile de furtun",
+          "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"
+        },
+        {
+          "name": "Euronews — a treia secetă în cinci ani",
+          "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"
+        }
       ]
     },
     {
       "text": "Tony Grayling, șeful Environment Agency, a declarat: „We know the hot and dry weather is taking a real toll on farming and there will be long-lasting impacts on our environment” („Știm că vremea caldă și uscată afectează serios agricultura și vor exista efecte de durată asupra mediului”). Marea Britanie se pregătește pentru al cincilea val de caniculă al verii 2026.",
       "sources": [
-        {"name": "Euronews — declarația oficialului Environment Agency", "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"},
-        {"name": "Xinhua — aproape trei sferturi din Anglia în secetă, noul val de caniculă", "url": "https://english.news.cn/europe/20260811/bc9177a084db48618d68ad4c042adb55/c.html"}
+        {
+          "name": "Euronews — declarația oficialului Environment Agency",
+          "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"
+        },
+        {
+          "name": "Xinhua — aproape trei sferturi din Anglia în secetă, noul val de caniculă",
+          "url": "https://english.news.cn/europe/20260811/bc9177a084db48618d68ad4c042adb55/c.html"
+        }
       ]
     }
   ],
@@ -40,18 +61,33 @@
     {
       "text": "Cifrele exacte ale suprafeței aflate în secetă diferă ușor între surse și în timp: raportul oficial din 7 august vorbea despre șapte din regiunile Environment Agency aflate în secetă (aproximativ jumătate din Anglia), în timp ce relatările din 10 august indică 71,3%, respectiv titluri care rotunjesc la „aproape trei sferturi”. Diferența reflectă probabil actualizări succesive ale clasificării în doar câteva zile, nu o contradicție factuală — dar cititorul trebuie să rețină că e o situație în mișcare rapidă, nu o cifră fixă.",
       "sources": [
-        {"name": "GOV.UK — raport 7 august: șapte regiuni în secetă", "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"},
-        {"name": "Euronews — 71,3% pe 10 august", "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"}
+        {
+          "name": "GOV.UK — raport 7 august: șapte regiuni în secetă",
+          "url": "https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-31-july-to-6-august-2026"
+        },
+        {
+          "name": "Euronews — 71,3% pe 10 august",
+          "url": "https://www.euronews.com/my-europe/2026/08/10/drought-declared-in-almost-three-quarters-of-england-uk-government-says"
+        }
       ]
     }
   ],
   "opinie": [
-    {"text": "Termenul „flash drought” (secetă-fulger) folosit în unele titluri e o descriere jurnalistică a vitezei cu care s-a instalat seceta, nu o categorie oficială separată de clasificarea Environment Agency — clasificarea „în secetă” e o decizie administrativă bazată pe indicatori hidrologici, nu un prag universal fix."}
+    {
+      "text": "Termenul „flash drought” (secetă-fulger) folosit în unele titluri e o descriere jurnalistică a vitezei cu care s-a instalat seceta, nu o categorie oficială separată de clasificarea Environment Agency — clasificarea „în secetă” e o decizie administrativă bazată pe indicatori hidrologici, nu un prag universal fix."
+    }
   ],
   "math": {
     "title": "25 de milioane de oameni sub restricții, aproape jumătate din populația Angliei",
     "explanation": "Anglia are aproximativ 57 de milioane de locuitori. Restricțiile de consum impuse de cele opt companii de apă afectează peste 25 de milioane de oameni — adică aproape jumătate din populație — deși seceta oficială acoperă 71,3% din suprafața teritoriului. Diferența arată că zonele cele mai populate (bazinul Thames, Londra) sunt printre cele afectate de restricții."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Datele centrale — procentul de teritoriu în secetă, precipitațiile record de scăzute din iulie și restricțiile de consum — provin din raportul oficial al Environment Agency (GOV.UK) și sunt confirmate de relatări independente (Euronews, Xinhua, Bloomberg). Am semnalat explicit variația cifrelor procentuale în timp, ca să nu pară o singură statistică fixă.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/anglia-seceta-71-procente-record.jpg\" alt=\"reservoir low water level drought England\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — reservoir low water level drought England. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Lockwood_Resevoir.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Lockwood Resevoir</a>\" de ChickenCop, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/anglia-seceta-71-procente-record.jpg",
+    "licenta": "CC0",
+    "autor": "ChickenCop"
+  }
 }

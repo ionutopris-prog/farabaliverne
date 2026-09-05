@@ -11,28 +11,49 @@
     {
       "text": "Banca Coreei a majorat, pe 27 august 2026, dobânda de referință (rata reverse repo pe 7 zile) cu 0,25 puncte procentuale, de la 2,75% la 3% — cel mai ridicat nivel din ianuarie 2025. Este a doua majorare consecutivă, după cea din iulie 2026, care fusese prima creștere a BOK din ianuarie 2023.",
       "sources": [
-        {"name": "Korea Herald — BOK raises key rate for 2nd consecutive session to 3%, revises up 2026 forecast to 3.3%", "url": "https://www.koreaherald.com/article/10854054"},
-        {"name": "Korea JoongAng Daily — BOK delivers back-to-back rate hike as growth outlook strengthens to 3.3%", "url": "https://www.koreajoongangdaily.com/business/bok-delivers-backtoback-rate-hike-as-growth-outlook-strengthens-to-33/12848313"}
+        {
+          "name": "Korea Herald — BOK raises key rate for 2nd consecutive session to 3%, revises up 2026 forecast to 3.3%",
+          "url": "https://www.koreaherald.com/article/10854054"
+        },
+        {
+          "name": "Korea JoongAng Daily — BOK delivers back-to-back rate hike as growth outlook strengthens to 3.3%",
+          "url": "https://www.koreajoongangdaily.com/business/bok-delivers-backtoback-rate-hike-as-growth-outlook-strengthens-to-33/12848313"
+        }
       ]
     },
     {
       "text": "Decizia consiliului de politică monetară a fost luată cu 6 voturi pentru și un vot împotrivă — membrul Hwang Kun-il a propus menținerea dobânzii la 2,75%.",
       "sources": [
-        {"name": "Korea Herald — detalii despre votul 6-1 al consiliului BOK", "url": "https://www.koreaherald.com/article/10854054"}
+        {
+          "name": "Korea Herald — detalii despre votul 6-1 al consiliului BOK",
+          "url": "https://www.koreaherald.com/article/10854054"
+        }
       ]
     },
     {
       "text": "Inflația de bază (core) a atins în iulie 2026 nivelul de 2,6% an/an, cel mai ridicat din decembrie 2023, în timp ce inflația generală a fost de 2,7-2,8%. Guvernatorul BOK, Shin Hyun-song, a spus că este necesară o acțiune „preemptivă” pentru a preveni extinderea presiunilor inflaționiste, folosind o expresie coreeană: „dacă poți opri ceva cu sapa, nu ar trebui să aștepți până trebuie să folosești lopata”.",
       "sources": [
-        {"name": "CNBC — Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated", "url": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html"},
-        {"name": "Korea JoongAng Daily — citatul guvernatorului Shin Hyun-song despre acțiunea preemptivă", "url": "https://www.koreajoongangdaily.com/business/bok-delivers-backtoback-rate-hike-as-growth-outlook-strengthens-to-33/12848313"}
+        {
+          "name": "CNBC — Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
+          "url": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html"
+        },
+        {
+          "name": "Korea JoongAng Daily — citatul guvernatorului Shin Hyun-song despre acțiunea preemptivă",
+          "url": "https://www.koreajoongangdaily.com/business/bok-delivers-backtoback-rate-hike-as-growth-outlook-strengthens-to-33/12848313"
+        }
       ]
     },
     {
       "text": "Odată cu majorarea dobânzii, BOK și-a revizuit în sus prognoza de creștere economică pentru 2026, de la 2,6% (estimarea din mai) la 3,3%, și pentru 2027, de la 2,1% la 2,9% — pe fondul unui boom al exporturilor de cipuri semiconductoare și al revenirii consumului intern, alături de o nouă creștere a prețurilor locuințelor din Seul.",
       "sources": [
-        {"name": "Korea Herald — revizuirea în sus a prognozei de creștere pentru 2026 și 2027", "url": "https://www.koreaherald.com/article/10854054"},
-        {"name": "Bloomberg — BOK Delivers Rare Back-to-Back Rate Hike to Curb Inflation Risks", "url": "https://www.bloomberg.com/news/articles/2026-08-27/bok-delivers-back-to-back-rate-hike-to-curb-inflation-risks"}
+        {
+          "name": "Korea Herald — revizuirea în sus a prognozei de creștere pentru 2026 și 2027",
+          "url": "https://www.koreaherald.com/article/10854054"
+        },
+        {
+          "name": "Bloomberg — BOK Delivers Rare Back-to-Back Rate Hike to Curb Inflation Risks",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/bok-delivers-back-to-back-rate-hike-to-curb-inflation-risks"
+        }
       ]
     }
   ],
@@ -43,5 +64,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională (Korea Herald, Korea JoongAng Daily, CNBC, Bloomberg); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele despre dobândă, vot și inflație sunt concordante în toate sursele verificate, așa că nu există un conflict de fapte de semnalat aici — doar o decizie de politică monetară ale cărei efecte rămân de văzut.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/coreea-sud-bok-dobanda-3-la-suta-a-doua-crestere.jpg\" alt=\"euro banknotes coins\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — euro banknotes coins. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Croatian_euro_coins_(2).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Croatian euro coins (2)</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/coreea-sud-bok-dobanda-3-la-suta-a-doua-crestere.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
+  }
 }

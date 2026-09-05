@@ -1,57 +1,85 @@
 {
-    "slug": "china-nave-kinmen-han-kuang-taiwan",
-    "title": "Nave chineze au intrat în apele restricționate din jurul Kinmen chiar în timpul exercițiilor taiwaneze Han Kuang — SUA cere Beijingului să oprească presiunea militară",
-    "category": "Extern",
-    "date": "2026-08-15",
-    "source": "TaiwanPlus / Taipei Times",
-    "url": "https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260814004/chinese-ships-near-taiwans-kinmen-islands-aug-14-2026",
-    "dek": "Pe 14 august 2026, nave chineze au intrat în apele restricționate din jurul insulelor Kinmen (Taiwan), chiar în ultima zi a exercițiilor militare taiwaneze Han Kuang. În aceeași săptămână, China a desfășurat manevre navale cu o fregată indoneziană la est de Taiwan. Departamentul de Stat american a cerut Beijingului să oprească „presiunea militară continuă” asupra Taiwanului; Indonezia spune că nava sa doar tranzita zona.",
-    "mainVerdict": "Probat",
-    "probat": [
+  "slug": "china-nave-kinmen-han-kuang-taiwan",
+  "title": "Nave chineze au intrat în apele restricționate din jurul Kinmen chiar în timpul exercițiilor taiwaneze Han Kuang — SUA cere Beijingului să oprească presiunea militară",
+  "category": "Extern",
+  "date": "2026-08-15",
+  "source": "TaiwanPlus / Taipei Times",
+  "url": "https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260814004/chinese-ships-near-taiwans-kinmen-islands-aug-14-2026",
+  "dek": "Pe 14 august 2026, nave chineze au intrat în apele restricționate din jurul insulelor Kinmen (Taiwan), chiar în ultima zi a exercițiilor militare taiwaneze Han Kuang. În aceeași săptămână, China a desfășurat manevre navale cu o fregată indoneziană la est de Taiwan. Departamentul de Stat american a cerut Beijingului să oprească „presiunea militară continuă” asupra Taiwanului; Indonezia spune că nava sa doar tranzita zona.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Pe 14 august 2026, nave chineze au intrat în apele restricționate din jurul insulelor Kinmen, aflate sub controlul Taiwanului la câțiva kilometri de coasta continentală chineză — chiar în ziua în care se încheiau cele zece zile ale exercițiului militar anual taiwanez Han Kuang. Nu este un incident izolat: pe 6 august 2026, Garda de Coastă a Taiwanului a respins patru nave oficiale chineze care intraseră în aceleași ape restricționate, tot în prima zi a exercițiilor Han Kuang.",
+      "sources": [
         {
-            "text": "Pe 14 august 2026, nave chineze au intrat în apele restricționate din jurul insulelor Kinmen, aflate sub controlul Taiwanului la câțiva kilometri de coasta continentală chineză — chiar în ziua în care se încheiau cele zece zile ale exercițiului militar anual taiwanez Han Kuang. Nu este un incident izolat: pe 6 august 2026, Garda de Coastă a Taiwanului a respins patru nave oficiale chineze care intraseră în aceleași ape restricționate, tot în prima zi a exercițiilor Han Kuang.",
-            "sources": [
-                {"name": "TaiwanPlus — Chinese Ships Near Taiwan's Kinmen Islands (14.08.2026)", "url": "https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260814004/chinese-ships-near-taiwans-kinmen-islands-aug-14-2026"},
-                {"name": "TaiwanPlus — Taiwan Coast Guard Repels Four Chinese Vessels Near Kinmen Island (06.08.2026)", "url": "https://www.taiwanplus.com/news/taiwan-news/taiwan-china-relations/260806005/taiwan-coast-guard-repels-four-chinese-vessels-near-kinmen-island"}
-            ]
+          "name": "TaiwanPlus — Chinese Ships Near Taiwan's Kinmen Islands (14.08.2026)",
+          "url": "https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260814004/chinese-ships-near-taiwans-kinmen-islands-aug-14-2026"
         },
         {
-            "text": "În aceeași perioadă, China a anunțat exerciții navale cu o fregată a marinei indoneziene, în apele de la est de Taiwan, incluzând comunicații maritime, manevre în formație și o ceremonie de despărțire. Marina indoneziană a precizat că nava se întorcea dintr-o vizită la Vladivostok (Rusia) și că a efectuat doar „exerciții de trecere” (passing exercises) necombative cu țările aflate pe traseu.",
-            "sources": [
-                {"name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"}
-            ]
-        },
-        {
-            "text": "Ministerul de Externe taiwanez a acuzat Beijingul de „nesocotirea normelor internaționale” și de escaladarea deliberată a tensiunilor regionale, descriind acțiunile Chinei drept provocări „malițioase” și „iresponsabile”.",
-            "sources": [
-                {"name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"}
-            ]
-        },
-        {
-            "text": "Departamentul de Stat al SUA a cerut Beijingului „să oprească presiunea militară continuă asupra Taiwanului” și să se angajeze în dialog.",
-            "sources": [
-                {"name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"}
-            ]
+          "name": "TaiwanPlus — Taiwan Coast Guard Repels Four Chinese Vessels Near Kinmen Island (06.08.2026)",
+          "url": "https://www.taiwanplus.com/news/taiwan-news/taiwan-china-relations/260806005/taiwan-coast-guard-repels-four-chinese-vessels-near-kinmen-island"
         }
-    ],
-    "contestat": [
+      ]
+    },
+    {
+      "text": "În aceeași perioadă, China a anunțat exerciții navale cu o fregată a marinei indoneziene, în apele de la est de Taiwan, incluzând comunicații maritime, manevre în formație și o ceremonie de despărțire. Marina indoneziană a precizat că nava se întorcea dintr-o vizită la Vladivostok (Rusia) și că a efectuat doar „exerciții de trecere” (passing exercises) necombative cu țările aflate pe traseu.",
+      "sources": [
         {
-            "text": "Nu există, la data verificării, o declarație oficială chineză publicată de sursele consultate care să explice direct motivul prezenței navelor în apele restricționate de lângă Kinmen pe 14 august 2026. China a susținut anterior, în incidente similare, că patrulările gărzii sale de coastă în zonă reprezintă „aplicare normalizată a legii” — o poziție care rămâne contestată de Taiwan, care consideră zona apă teritorială proprie restricționată.",
-            "sources": [
-                {"name": "TaiwanPlus — Chinese Ships Near Taiwan's Kinmen Islands (14.08.2026)", "url": "https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260814004/chinese-ships-near-taiwans-kinmen-islands-aug-14-2026"}
-            ]
-        },
-        {
-            "text": "Explicația indoneziană — că nava se afla doar în tranzit necombativ dinspre Vladivostok — este versiunea oficială a Jakartei, necoroborată public de o parte terță independentă privind natura exactă a manevrelor descrise de China (comunicații maritime, manevre în formație). Diferența dintre „exercițiu comun” (cum a fost prezentat inițial de China) și „tranzit cu opriri de curtoazie” (versiunea Indoneziei) rămâne neclarificată.",
-            "sources": [
-                {"name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"}
-            ]
+          "name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"
         }
-    ],
-    "opinie": [
-        "Interpretarea potrivit căreia Beijingul „își consolidează parteneriatele regionale ca răspuns la alianța crescândă dintre Japonia și Filipine” aparține unor analiști citați în presă și este o evaluare strategică, nu un fapt confirmabil independent."
-    ],
-    "math": "",
-    "aiNote": "Faptele centrale — intrarea navelor chineze în apele restricționate de lângă Kinmen pe 14 august 2026, coincizând cu finalul exercițiilor Han Kuang, plus manevrele navale chino-indoneziene din aceeași săptămână — sunt relatate concordant de TaiwanPlus și Taipei Times, publicații taiwaneze; nu am găsit o declarație oficială chineză publicată care să confirme sau să conteste direct incidentul specific din 14 august. Am marcat explicit acest gol de informație, ca să nu se creadă că absența unei reacții chineze înseamnă acceptare sau negare.",
-    "persoane": []
+      ]
+    },
+    {
+      "text": "Ministerul de Externe taiwanez a acuzat Beijingul de „nesocotirea normelor internaționale” și de escaladarea deliberată a tensiunilor regionale, descriind acțiunile Chinei drept provocări „malițioase” și „iresponsabile”.",
+      "sources": [
+        {
+          "name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"
+        }
+      ]
+    },
+    {
+      "text": "Departamentul de Stat al SUA a cerut Beijingului „să oprească presiunea militară continuă asupra Taiwanului” și să se angajeze în dialog.",
+      "sources": [
+        {
+          "name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu există, la data verificării, o declarație oficială chineză publicată de sursele consultate care să explice direct motivul prezenței navelor în apele restricționate de lângă Kinmen pe 14 august 2026. China a susținut anterior, în incidente similare, că patrulările gărzii sale de coastă în zonă reprezintă „aplicare normalizată a legii” — o poziție care rămâne contestată de Taiwan, care consideră zona apă teritorială proprie restricționată.",
+      "sources": [
+        {
+          "name": "TaiwanPlus — Chinese Ships Near Taiwan's Kinmen Islands (14.08.2026)",
+          "url": "https://www.taiwanplus.com/news/newscasts/whats-up-taiwan/260814004/chinese-ships-near-taiwans-kinmen-islands-aug-14-2026"
+        }
+      ]
+    },
+    {
+      "text": "Explicația indoneziană — că nava se afla doar în tranzit necombativ dinspre Vladivostok — este versiunea oficială a Jakartei, necoroborată public de o parte terță independentă privind natura exactă a manevrelor descrise de China (comunicații maritime, manevre în formație). Diferența dintre „exercițiu comun” (cum a fost prezentat inițial de China) și „tranzit cu opriri de curtoazie” (versiunea Indoneziei) rămâne neclarificată.",
+      "sources": [
+        {
+          "name": "Taipei Times — U.S. urges China to halt military pressure on Taiwan after naval drill",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/14/2003862476"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    "Interpretarea potrivit căreia Beijingul „își consolidează parteneriatele regionale ca răspuns la alianța crescândă dintre Japonia și Filipine” aparține unor analiști citați în presă și este o evaluare strategică, nu un fapt confirmabil independent."
+  ],
+  "math": "",
+  "aiNote": "Faptele centrale — intrarea navelor chineze în apele restricționate de lângă Kinmen pe 14 august 2026, coincizând cu finalul exercițiilor Han Kuang, plus manevrele navale chino-indoneziene din aceeași săptămână — sunt relatate concordant de TaiwanPlus și Taipei Times, publicații taiwaneze; nu am găsit o declarație oficială chineză publicată care să confirme sau să conteste direct incidentul specific din 14 august. Am marcat explicit acest gol de informație, ca să nu se creadă că absența unei reacții chineze înseamnă acceptare sau negare.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-nave-kinmen-han-kuang-taiwan.jpg\" alt=\"Kinmen\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Kinmen. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:KMT_Kinmen_County_20110823.jpg\" rel=\"nofollow noopener\" target=\"_blank\">KMT Kinmen County 20110823</a>\" de pedist, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-nave-kinmen-han-kuang-taiwan.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "pedist"
+  }
 }

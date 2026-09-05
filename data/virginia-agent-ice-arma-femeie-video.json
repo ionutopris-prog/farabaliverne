@@ -92,5 +92,12 @@
   "aiNote": "Faptele necontestate — data (10 august 2026), locul (Falls Church, Virginia), existența filmării cu agentul ICE ținând arma îndreptată spre Molina timp de circa 50 de secunde — sunt confirmate de mai multe redacții americane independente (Newsweek, NBC Washington, printre altele care au relatat aceleași elemente). Ce rămâne strict contestat, fără o a treia parte independentă care să confirme una din versiuni la data verificării: dacă Molina a pus sau nu în pericol agenții cu mașina ei, așa cum susține DHS, sau dacă a fost doar o reacție disproporționată la un gest de protest verbal, așa cum susține ea. Nu etichetăm nicio parte drept mincinoasă — arătăm ambele variante, cu sursă, și explicăm de ce filmarea disponibilă public nu tranșează disputa. 🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.",
   "persoane": [
     "Carolina Molina"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/virginia-agent-ice-arma-femeie-video.jpg\" alt=\"Virginia\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Virginia. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Low-end_EF3_damage_to_a_home_in_Virginia_Beach,_Virginia.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Low-end EF3 damage to a home in Virginia Beach, Virginia</a>\" de National Weather Service, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/virginia-agent-ice-arma-femeie-video.jpg",
+    "licenta": "Public domain",
+    "autor": "National Weather Service"
+  }
 }

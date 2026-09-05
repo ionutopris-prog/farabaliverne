@@ -70,5 +70,12 @@
     "text": "Cele trei componente principale ale pachetului conțin, potrivit HRW: 70 de rachete ATACMS × 950 submuniții ≈ 66.500; 2.524 de rachete M26 × cca 644 submuniții ≈ 1,6 milioane; 47.000 de proiectile de 203 mm × cca 180 submuniții ≈ 8,46 milioane. Suma trece de 10 milioane de submuniții individuale — chiar și cu o rată de rateu redusă (producătorii declară adesea sub 5%, dar testele independente pe muniții vechi de peste 30 de ani arată frecvent rate de peste 10%), ar rezulta sute de mii până la peste un milion de proiectile nedetonate rămase pe teren."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională de securitate și apărare; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Faptele centrale despre pachetul de arme și procesul de notificare a Congresului sunt confirmate de mai multe publicații specializate independente (The Defense Post, Militarnyi). Reacția Rusiei este redată după Moscow Times, sursă independentă (nu media de stat rusă); declarația inițială a purtătoarei de cuvânt Maria Zakharova provine de la Ministerul rus de Externe și e etichetată ca atare — nu o prezentăm drept fapt stabilit, ci ca poziție oficială a unui stat parte la conflict.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-turcia-arme-atacms-ucraina-congres-moscova.jpg\" alt=\"Congresul\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Congresul. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Centenary_of_the_Indian_National_Congress_-_commemorative_post_card.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Centenary of the Indian National Congress - commemorative post card</a>\" de Bharata-indstar, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-turcia-arme-atacms-ucraina-congres-moscova.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Bharata-indstar"
+  }
 }

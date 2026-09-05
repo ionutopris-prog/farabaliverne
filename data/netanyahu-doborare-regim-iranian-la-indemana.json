@@ -11,20 +11,32 @@
     {
       "text": "La un eveniment cu Statul Major al armatei israeliene (IDF), cu ocazia apropiatei sărbători Roș Hașana, Netanyahu a declarat: „Acest regim se clatină acum. Este mai slab ca niciodată” și „Sunt convins că putem elimina această amenințare o dată pentru totdeauna — adică să doborâm acest regim. Aceasta este misiunea centrală care ne stă încă în față, dar e aproape. Nu e imposibil. E la îndemână.” Citatele sunt preluate de AFP.",
       "sources": [
-        {"name": "CP24 (AFP) — Netanyahu says toppling Iran's Islamic republic 'within reach'", "url": "https://www.cp24.com/news/world/2026/09/03/netanyahu-says-toppling-irans-islamic-republic-within-reach/"},
-        {"name": "TASS — Netanyahu says Israel's top priority is to topple Iranian regime", "url": "https://tass.com/world/2182351"}
+        {
+          "name": "CP24 (AFP) — Netanyahu says toppling Iran's Islamic republic 'within reach'",
+          "url": "https://www.cp24.com/news/world/2026/09/03/netanyahu-says-toppling-irans-islamic-republic-within-reach/"
+        },
+        {
+          "name": "TASS — Netanyahu says Israel's top priority is to topple Iranian regime",
+          "url": "https://tass.com/world/2182351"
+        }
       ]
     },
     {
       "text": "Netanyahu a adăugat un mesaj direct către adversari: „Nu vă puneți cu noi... Avem puterea, determinarea și unitatea internă să vă învingem.” Potrivit AFP, la eveniment au fost prezenți ministrul Apărării Israel Katz și membri ai conducerii militare israeliene.",
       "sources": [
-        {"name": "CP24 (AFP)", "url": "https://www.cp24.com/news/world/2026/09/03/netanyahu-says-toppling-irans-islamic-republic-within-reach/"}
+        {
+          "name": "CP24 (AFP)",
+          "url": "https://www.cp24.com/news/world/2026/09/03/netanyahu-says-toppling-irans-islamic-republic-within-reach/"
+        }
       ]
     },
     {
       "text": "În aceeași zi, vicepreședintele american JD Vance a declarat de la Washington că SUA „nu vorbesc cu iranienii” și nu vor relua negocierile diplomatice cât timp Iranul continuă atacurile asupra navelor comerciale în Strâmtoarea Hormuz — o poziție centrată pe oprirea atacurilor navale, nu pe schimbarea de regim formulată de Netanyahu.",
       "sources": [
-        {"name": "The Times of Israel — Liveblog 3 septembrie 2026 (Vance despre Hormuz)", "url": "https://www.timesofisrael.com/liveblog-september-03-2026/"}
+        {
+          "name": "The Times of Israel — Liveblog 3 septembrie 2026 (Vance despre Hormuz)",
+          "url": "https://www.timesofisrael.com/liveblog-september-03-2026/"
+        }
       ]
     }
   ],
@@ -32,7 +44,10 @@
     {
       "text": "Nu există, în sursele disponibile, o declarație oficială a SUA care să susțină explicit obiectivul de doborâre a regimului iranian formulat de Netanyahu. AFP notează că SUA au participat alături de Israel la atacuri asupra Iranului în februarie 2026, iar președintele Trump a ordonat o încetare a focului în aprilie; atacurile au fost reluate ulterior, iar presiunea economică a crescut — dar formularea explicită de „schimbare de regim” ca obiectiv aparține lui Netanyahu, nu unei poziții americane confirmate independent în sursele citate.",
       "sources": [
-        {"name": "CP24 (AFP) — context privind implicarea SUA", "url": "https://www.cp24.com/news/world/2026/09/03/netanyahu-says-toppling-irans-islamic-republic-within-reach/"}
+        {
+          "name": "CP24 (AFP) — context privind implicarea SUA",
+          "url": "https://www.cp24.com/news/world/2026/09/03/netanyahu-says-toppling-irans-islamic-republic-within-reach/"
+        }
       ]
     }
   ],
@@ -42,5 +57,16 @@
     }
   ],
   "aiNote": "Declarația lui Netanyahu este confirmată identic de mai multe surse independente — AFP (prin CP24) și presa de stat rusă TASS, care a preluat-o cu aceleași citate. Pe faptul brut (ce a spus, unde, cine era de față) sursele coincid, deci clasificăm afirmația drept probată. Ce rămâne interpretare: dacă acest discurs constituie o schimbare oficială de politică — un „obiectiv de război” formal, cum a titrat presa israeliană — sau doar o formulare retorică într-un context festiv, de Roș Hașana, cu conducerea militară. Sursele nu conțin o declarație separată, oficială, a guvernului israelian care să confirme o asemenea schimbare de doctrină, și nici o poziție americană explicită de susținere a obiectivului de schimbare de regim; poziția SUA exprimată în aceeași zi (prin Vance) se limitează la condiționarea negocierilor de oprirea atacurilor din Hormuz. Ce ar lămuri lucrurile: o declarație oficială separată a Cabinetului israelian sau a Casei Albe care să confirme sau să infirme explicit dacă schimbarea de regim în Iran e acum un obiectiv de politică oficială, nu doar o formulare de discurs.",
-  "persoane": ["Benjamin Netanyahu", "Israel Katz", "JD Vance"]
+  "persoane": [
+    "Benjamin Netanyahu",
+    "Israel Katz",
+    "JD Vance"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/netanyahu-doborare-regim-iranian-la-indemana.jpg\" alt=\"Israelului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Israelului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_188th_Brigade_Training_Day,_March_2008-cropped.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Flickr - Israel Defense Forces - 188th Brigade Training Day, March 2008-cropped</a>\" de Flickr_-_Israel_Defense_Forces_-_188th_Brigade_Training_Day,_March_2008.jpg: Isr, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/netanyahu-doborare-regim-iranian-la-indemana.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Flickr_-_Israel_Defense_Forces_-_188th_Brigade_Training_Day,_March_2008.jpg: Isr"
+  }
 }

@@ -11,22 +11,40 @@
     {
       "text": "Studiul este o meta-analiză pe date individuale ale pacienților din 19 studii clinice dublu-orb, controlate cu placebo, însumând 123.940 de participanți, cu o urmărire mediană de 4,5 ani. Din 66 de posibile reacții adverse listate în prospectele („package leaflet”) statinelor, 62 au apărut la fel de frecvent la cei care luau statină și la cei care luau placebo — inclusiv problemele de memorie, oboseala, tulburările de somn, schimbările de dispoziție și disfuncția sexuală/erectilă.",
       "sources": [
-        { "name": "PubMed — Assessment of adverse effects attributed to statin therapy in product labels (The Lancet)", "url": "https://pubmed.ncbi.nlm.nih.gov/41655587/" },
-        { "name": "EurekAlert / University of Oxford — statinele nu cauzează majoritatea efectelor din prospect", "url": "https://www.eurekalert.org/news-releases/1115099" }
+        {
+          "name": "PubMed — Assessment of adverse effects attributed to statin therapy in product labels (The Lancet)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41655587/"
+        },
+        {
+          "name": "EurekAlert / University of Oxford — statinele nu cauzează majoritatea efectelor din prospect",
+          "url": "https://www.eurekalert.org/news-releases/1115099"
+        }
       ]
     },
     {
       "text": "Studiul NU spune că statinele nu au niciun efect advers. Confirmă efecte legate cauzal de medicament: durerile/afectarea musculară (miopatie), la aproximativ 1% dintre pacienți, și o creștere mică a riscului de diabet zaharat de tip 2. În plus, au apărut ceva mai des modificări minore ale testelor hepatice, modificări la nivelul urinei și edeme (umflarea gleznelor). Beneficiul dovedit al statinelor — reducerea riscului de infarct și accident vascular cerebral — rămâne neschimbat.",
       "sources": [
-        { "name": "STAT News — statinele nu cauzează majoritatea efectelor din avertismente", "url": "https://www.statnews.com/2026/02/05/statin-side-effects-evidence-lacking-lancet-study-says/" },
-        { "name": "Science Media Centre — reacția experților la meta-analiză", "url": "https://www.sciencemediacentre.org/expert-reaction-to-a-meta-analysis-on-statin-side-effects-listed-in-package-leaflets/" }
+        {
+          "name": "STAT News — statinele nu cauzează majoritatea efectelor din avertismente",
+          "url": "https://www.statnews.com/2026/02/05/statin-side-effects-evidence-lacking-lancet-study-says/"
+        },
+        {
+          "name": "Science Media Centre — reacția experților la meta-analiză",
+          "url": "https://www.sciencemediacentre.org/expert-reaction-to-a-meta-analysis-on-statin-side-effects-listed-in-package-leaflets/"
+        }
       ]
     },
     {
       "text": "Finanțarea și autorii: analiza a fost realizată de colaborarea Cholesterol Treatment Trialists (CTT), coordonată de Universitatea Oxford, și finanțată de British Heart Foundation, de Medical Research Council (UKRI) din Marea Britanie și de National Health and Medical Research Council din Australia. Prof. Bryan Williams, director științific și medical al British Heart Foundation, a descris rezultatele drept o „reasigurare bazată pe dovezi” pentru pacienți.",
       "sources": [
-        { "name": "EurekAlert / Oxford — finanțatori și declarația BHF", "url": "https://www.eurekalert.org/news-releases/1115099" },
-        { "name": "Science Media Centre — context și declarații de experți", "url": "https://www.sciencemediacentre.org/expert-reaction-to-a-meta-analysis-on-statin-side-effects-listed-in-package-leaflets/" }
+        {
+          "name": "EurekAlert / Oxford — finanțatori și declarația BHF",
+          "url": "https://www.eurekalert.org/news-releases/1115099"
+        },
+        {
+          "name": "Science Media Centre — context și declarații de experți",
+          "url": "https://www.sciencemediacentre.org/expert-reaction-to-a-meta-analysis-on-statin-side-effects-listed-in-package-leaflets/"
+        }
       ]
     }
   ],
@@ -34,29 +52,55 @@
     {
       "text": "„Nu apar mai des decât la placebo” NU este același lucru cu „nimeni nu simte nimic”. Multe simptome (dureri musculare ușoare, oboseală) sunt reale ca trăire, dar apar în aceeași proporție și la cei care iau pastila-placebo — un semn al efectului nocebo (te aștepți la un rău și îl percepi). Concluzia studiului este despre CAUZALITATE (statina nu e cauza pentru 62 din 66 de simptome), nu despre inexistența simptomelor. Miopatia și diabetul rămân efecte reale, legate de medicament.",
       "sources": [
-        { "name": "Science Media Centre — nuanța nocebo și interpretarea corectă", "url": "https://www.sciencemediacentre.org/expert-reaction-to-a-meta-analysis-on-statin-side-effects-listed-in-package-leaflets/" },
-        { "name": "STAT News — ce înseamnă „la fel ca placebo”", "url": "https://www.statnews.com/2026/02/05/statin-side-effects-evidence-lacking-lancet-study-says/" }
+        {
+          "name": "Science Media Centre — nuanța nocebo și interpretarea corectă",
+          "url": "https://www.sciencemediacentre.org/expert-reaction-to-a-meta-analysis-on-statin-side-effects-listed-in-package-leaflets/"
+        },
+        {
+          "name": "STAT News — ce înseamnă „la fel ca placebo”",
+          "url": "https://www.statnews.com/2026/02/05/statin-side-effects-evidence-lacking-lancet-study-says/"
+        }
       ]
     },
     {
       "text": "Unele voci au ridicat întrebări de transparență. O parte dintre studiile clinice incluse au fost inițial finanțate de industria farmaceutică, iar unii comentatori au cerut acces mai larg la datele individuale ale pacienților pentru verificare independentă. Consemnăm rezerva ca atare: colaborarea CTT declară că nu a primit finanțare din industrie pentru această analiză, dar dezbaterea despre accesul la date brute rămâne deschisă.",
       "sources": [
-        { "name": "MedShadow Foundation — întrebări despre transparență și accesul la date", "url": "https://medshadow.org/conditions-treatments/cardiovascular-disease/2026-lancet-statin-meta-analysis-side-effects-data-access/" }
+        {
+          "name": "MedShadow Foundation — întrebări despre transparență și accesul la date",
+          "url": "https://medshadow.org/conditions-treatments/cardiovascular-disease/2026-lancet-statin-meta-analysis-side-effects-data-access/"
+        }
       ]
     }
   ],
   "opinie": [
-    { "text": "Concluziile de tip „toată lumea ar trebui să ia statine” sau, invers, „statinele sunt periculoase și trebuie evitate” sunt poziții, nu fapte care decurg din acest studiu. Fără Baliverne nu dă sfaturi medicale: decizia privind un tratament rămâne între pacient și medicul curant, în funcție de riscul cardiovascular individual." },
-    { "text": "Titlurile de tip „statinele, mult mai sigure decât se credea” reflectă corect direcția studiului, dar tonul de „totul e în regulă” este interpretare. Efectele reale (musculare, diabet, modificări hepatice minore) există și trebuie monitorizate — studiul le confirmă, nu le anulează." }
+    {
+      "text": "Concluziile de tip „toată lumea ar trebui să ia statine” sau, invers, „statinele sunt periculoase și trebuie evitate” sunt poziții, nu fapte care decurg din acest studiu. Fără Baliverne nu dă sfaturi medicale: decizia privind un tratament rămâne între pacient și medicul curant, în funcție de riscul cardiovascular individual."
+    },
+    {
+      "text": "Titlurile de tip „statinele, mult mai sigure decât se credea” reflectă corect direcția studiului, dar tonul de „totul e în regulă” este interpretare. Efectele reale (musculare, diabet, modificări hepatice minore) există și trebuie monitorizate — studiul le confirmă, nu le anulează."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română un studiu din presa științifică internațională (The Lancet); interpretarea aparține Fără Baliverne, iar acesta NU este sfat medical. Nucleul faptic se probează cu sursă primară (înregistrarea studiului pe PubMed) plus comunicatul universitar (Oxford/EurekAlert) și reacțiile de experți (Science Media Centre): pe 19 studii randomizate dublu-orb și 123.940 de pacienți, 62 din 66 de reacții adverse din prospectele statinelor au apărut la fel de des și la placebo. Ce marcăm drept „de nuanțat” este exact ce se înțelege greșit din titluri: studiul spune că statina nu e CAUZA pentru majoritatea simptomelor (efect nocebo probabil), nu că simptomele nu există; iar efectele reale — miopatie la ~1%, o creștere mică a riscului de diabet, plus modificări hepatice/urinare minore și edeme — rămân. Recomandarea onestă: pentru decizii de tratament, mergi la medic și la sursa științifică, nu la titluri.",
   "math": {
     "title": "62 din 66: de ce „la fel ca placebo” schimbă totul",
     "explanation": "Cheia studiului e comparația cu placebo. Într-un studiu dublu-orb, jumătate dintre oameni primesc statina, jumătate o pastilă inertă (placebo), și nici pacienții, nici medicii nu știu cine ce primește. Dacă un simptom — să zicem oboseala sau problemele de memorie — apare la fel de des în ambele grupuri, atunci medicamentul nu este cauza lui: e fie o coincidență legată de vârstă și de alte boli, fie efectul nocebo (te aștepți la reacții adverse pentru că le-ai citit pe prospect și le percepi mai intens). Din 66 de reacții listate, 62 s-au comportat exact așa — la fel la statină și la placebo. Rămân 4 categorii care apar cu adevărat mai des pe statină: afectarea musculară (~1 din 100), o creștere mică a riscului de diabet, modificări hepatice minore și modificări urinare/edeme. Cu alte cuvinte: din tot ce e scris cu litere de-o șchioapă pe prospect, doar o mică parte e susținută de cea mai bună dovadă — restul e, cel mai probabil, frica noastră proiectată asupra pastilei.",
     "sources": [
-      { "name": "PubMed — studiul The Lancet (CTT Collaboration)", "url": "https://pubmed.ncbi.nlm.nih.gov/41655587/" },
-      { "name": "EurekAlert / Oxford — sinteza rezultatelor", "url": "https://www.eurekalert.org/news-releases/1115099" }
+      {
+        "name": "PubMed — studiul The Lancet (CTT Collaboration)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41655587/"
+      },
+      {
+        "name": "EurekAlert / Oxford — sinteza rezultatelor",
+        "url": "https://www.eurekalert.org/news-releases/1115099"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/statine-efecte-secundare-studiu-lancet-2026.jpg\" alt=\"Lancet\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Lancet. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Blumdells%27s_Gravitator;_the_Lancet,_1829_Wellcome_L0025877.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Blumdells's Gravitator; the Lancet, 1829 Wellcome L0025877</a>\" de autor necunoscut, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/statine-efecte-secundare-studiu-lancet-2026.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "autor necunoscut"
+  }
 }

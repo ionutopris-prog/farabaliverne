@@ -101,5 +101,15 @@
   ],
   "math": null,
   "aiNote": "Ce s-a verificat: că grupul de monitorizare din comisia LIBE a Parlamentului European s-a întrunit pe 1 septembrie 2026 și a discutat despre România, că Renew Europe (grupul din care face parte USR) a propus o rezoluție pentru viitoarea sesiune plenară, că PPE nu a mai susținut demersul și că Comisia Europeană a cerut separat clarificări Bucureștiului — toate confirmate de Antena 3 CNN și caleaeuropeana.ro. Declarațiile dure ale lui Sorin Grindeanu din 3 septembrie sunt confirmate cuvânt cu cuvânt de Digi24.\n\nUnde se despart lucrurile: rezultatul final al rezoluției — că „nu a fost adoptată în comisie” — vine până acum aproape exclusiv din gura lui Grindeanu, care are un interes politic evident să prezinte demersul ca eșuat. Nu există, la ora verificării, un comunicat propriu al comisiei LIBE sau al grupului Renew Europe care să confirme sau să infirme independent acest deznodământ.\n\nCea mai importantă imprecizie e alta: Grindeanu îl numește pe Dominic Fritz „un condamnat” de mai multe ori. Fritz a pierdut definitiv la ÎCCJ un proces cu ANI, dar acolo unde legea vorbește despre „constatarea conflictului de interese” — o procedură administrativă, cu sancțiune administrativă (pierderea mandatului) —, cuvântul „condamnat” împrumută greutatea unui dosar penal, cu proces penal și cazier, pe care Fritz nu îl are din acest caz. E genul de eroare care nu schimbă miza politică a poveștii, dar schimbă felul în care publicul înțelege gravitatea faptei.\n\nCe ar lămuri complet lucrurile: publicarea textului rezoluției propuse de Renew Europe, un comunicat oficial al comisiei LIBE despre soarta ei, și o reacție directă a USR sau a Renew Europe la acuzațiile de „trădare”. Până atunci, cititorul are de-a face cu un conflict politic intern românesc mutat la Bruxelles, relatat deocamdată mai ales prin vocea uneia dintre părți.",
-  "persoane": ["Sorin Grindeanu", "Dominic Fritz"]
+  "persoane": [
+    "Sorin Grindeanu",
+    "Dominic Fritz"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/grindeanu-usr-tradare-rezolutie-parlament-european-fritz.jpg\" alt=\"Renew\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Renew. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:MEP_J%C3%A9r%C3%A9my_Decerle_-_Renew_Europe_meeting.jpg\" rel=\"nofollow noopener\" target=\"_blank\">MEP Jérémy Decerle - Renew Europe meeting</a>\" de Renew Europe, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/grindeanu-usr-tradare-rezolutie-parlament-european-fritz.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Renew Europe"
+  }
 }

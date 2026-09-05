@@ -11,32 +11,50 @@
     {
       "text": "Potrivit Centrului de Cercetare al Parlamentului iranian, citat de ziarul de stat Siasat Rooz pe 27 iulie 2026, rata sărăciei din Iran ar putea crește de la 41% în 1405 (2026 calendaristic) la 45,5% în 1407 (2028) dacă tendințele economice actuale continuă — ceea ce ar însemna că aproape jumătate din populație ar trăi sub pragul sărăciei.",
       "sources": [
-        { "name": "Iran Focus — Parliamentary Research Center Warns About Expansion of Poverty in Iran", "url": "https://iranfocus.com/economy/58548-parliamentary-research-center-warns-about-expansion-of-poverty-in-iran/" },
-        { "name": "NCRI — Iran News in Brief, 5 august 2026", "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-august-5-2026/" }
+        {
+          "name": "Iran Focus — Parliamentary Research Center Warns About Expansion of Poverty in Iran",
+          "url": "https://iranfocus.com/economy/58548-parliamentary-research-center-warns-about-expansion-of-poverty-in-iran/"
+        },
+        {
+          "name": "NCRI — Iran News in Brief, 5 august 2026",
+          "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-august-5-2026/"
+        }
       ]
     },
     {
       "text": "Raportul citat atribuie creșterea sărăciei mai degrabă eșecurilor de politică internă decât unor factori externi, afirmând că „procesul de elaborare a politicilor nu a prioritizat traiul oamenilor” și că lipsesc „programe sustenabile” de combatere a sărăciei — o critică neobișnuită venită dintr-un organism oficial al statului.",
       "sources": [
-        { "name": "Iran Focus — citate din raportul Centrului de Cercetare al Parlamentului", "url": "https://iranfocus.com/economy/58548-parliamentary-research-center-warns-about-expansion-of-poverty-in-iran/" }
+        {
+          "name": "Iran Focus — citate din raportul Centrului de Cercetare al Parlamentului",
+          "url": "https://iranfocus.com/economy/58548-parliamentary-research-center-warns-about-expansion-of-poverty-in-iran/"
+        }
       ]
     },
     {
       "text": "Independent de cifra exactă, traiectoria economică e confirmată de surse externe: FMI, citat de Fortune, estimează o contracție a economiei iraniene de 6,1% pentru acest an, iar ONU a avertizat că încă 4,1 milioane de iranieni ar putea cădea sub pragul internațional al sărăciei, în contextul războiului din martie 2026 și al sancțiunilor.",
       "sources": [
-        { "name": "Fortune — Iran emerges from war with its economy in free fall and inflation on some necessities above 400%", "url": "https://fortune.com/2026/06/15/iran-economy-collapse-inflation-food-prices-gdp-unemployment-unrest/" }
+        {
+          "name": "Fortune — Iran emerges from war with its economy in free fall and inflation on some necessities above 400%",
+          "url": "https://fortune.com/2026/06/15/iran-economy-collapse-inflation-food-prices-gdp-unemployment-unrest/"
+        }
       ]
     },
     {
       "text": "Prețurile la alimente de bază au crescut abrupt: uleiul de gătit +430% față de anul anterior, ouăle +345%, orezul +287%, laptele +139% — cifre citate din surse economice independente, care confirmă contextul de inflație severă în care apare avertismentul Centrului de Cercetare al Parlamentului.",
       "sources": [
-        { "name": "Fortune — cifre de inflație pe alimente de bază", "url": "https://fortune.com/2026/06/15/iran-economy-collapse-inflation-food-prices-gdp-unemployment-unrest/" }
+        {
+          "name": "Fortune — cifre de inflație pe alimente de bază",
+          "url": "https://fortune.com/2026/06/15/iran-economy-collapse-inflation-food-prices-gdp-unemployment-unrest/"
+        }
       ]
     },
     {
       "text": "O relatare separată, a postului independent Iran International, citează economiști (printre care Hojattollah Mirzaei, Universitatea Allameh Tabataba'i, și Masoud Nili) care estimează că încă 3,5-4,5 milioane de iranieni vor cădea în sărăcie doar în acest an, pe fondul unei inflații anuale de peste 50,6% (aprilie 2026).",
       "sources": [
-        { "name": "Iran International — Millions face poverty as Iran's economy reels from war and sanctions", "url": "https://www.iranintl.com/en/202605293105" }
+        {
+          "name": "Iran International — Millions face poverty as Iran's economy reels from war and sanctions",
+          "url": "https://www.iranintl.com/en/202605293105"
+        }
       ]
     }
   ],
@@ -44,8 +62,14 @@
     {
       "text": "Cifrele exacte (41% acum, 45,5% în 2028) provin dintr-un raport intern al unui organism de stat iranian, relatat inițial de presa de stat (Siasat Rooz) și redat în limba engleză de publicații ale diasporei/opoziției iraniene (Iran Focus, NCRI — ambele afiliate curentului de opoziție MEK/NCRI). Nu am găsit sursa primară în persană și nici o confirmare independentă (FMI, Banca Mondială) a acestor procente exacte — organizațiile internaționale confirmă direcția (sărăcie și inflație în creștere accelerată), dar nu cifra precisă de 45,5%.",
       "sources": [
-        { "name": "Iran Focus — sursă de opoziție care redă raportul de stat", "url": "https://iranfocus.com/economy/58548-parliamentary-research-center-warns-about-expansion-of-poverty-in-iran/" },
-        { "name": "Fortune — estimări FMI/ONU, fără procentul de 45,5%", "url": "https://fortune.com/2026/06/15/iran-economy-collapse-inflation-food-prices-gdp-unemployment-unrest/" }
+        {
+          "name": "Iran Focus — sursă de opoziție care redă raportul de stat",
+          "url": "https://iranfocus.com/economy/58548-parliamentary-research-center-warns-about-expansion-of-poverty-in-iran/"
+        },
+        {
+          "name": "Fortune — estimări FMI/ONU, fără procentul de 45,5%",
+          "url": "https://fortune.com/2026/06/15/iran-economy-collapse-inflation-food-prices-gdp-unemployment-unrest/"
+        }
       ]
     }
   ],
@@ -59,5 +83,12 @@
     "explanation": "Diferența dintre 45,5% și 41% este de 4,5 puncte procentuale — dar, ca variație relativă, înseamnă o creștere de aproximativ 11% a ratei sărăciei (4,5 ÷ 41 ≈ 0,11), într-un interval de doar doi ani calendaristici iranieni (1405-1407)."
   },
   "aiNote": "Sursa primară a acestei cifre este un organism de stat iranian (Centrul de Cercetare al Parlamentului), relatat de presa de stat — de aceea îl etichetăm „media de stat”, deși conținutul e neobișnuit de autocritic. Pentru că nu am găsit raportul original în persană, iar publicațiile care l-au tradus în engleză (Iran Focus, NCRI) sunt afiliate opoziției iraniene, am marcat cifra exactă drept neverificabilă independent la sursa primară. Am pus alături date independente (FMI via Fortune, ONU, Iran International) care confirmă traiectoria generală — inflație și sărăcie în creștere accelerată — fără să confirme procentul de 45,5%. Nu spunem că cifra e falsă; spunem doar ce se poate și ce nu se poate verifica independent.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iran-saracie-parlament-cercetare-2028.jpg\" alt=\"Centru\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Centru. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Centru_BL_A1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Centru BL A1</a>\" de Sandhu, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iran-saracie-parlament-cercetare-2028.jpg",
+    "licenta": "CC0",
+    "autor": "Sandhu"
+  }
 }

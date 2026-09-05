@@ -95,5 +95,12 @@
   ],
   "opinie": [],
   "aiNote": "Faptele de bază ale acțiunii din 13 august 2026 sunt confirmate concordant de AGERPRES și de mai multe redacții locale independente: 60 de percheziții domiciliare în Neamț, Iași și Suceava, într-un dosar DIICOT vizând două grupări acuzate de contrabandă cu țigări, cu acuzații de constituire a unui grup infracțional organizat. Important de reținut: este o anchetă în desfășurare, iar cele relatate sunt acuzații ale anchetatorilor — nu condamnări. Nicio sursă consultată nu publică nume de persoane reținute sau inculpate, așa că acest articol nu numește pe nimeni; persoanele vizate au prezumția de nevinovăție până la o hotărâre judecătorească definitivă.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/diicot-60-perchezitii-contrabanda-tigari-neamt.jpg\" alt=\"Neamț\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Neamț. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Curtea_Domneasc%C4%83_din_Piatra_Neam%C8%9B_03.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Curtea Domnească din Piatra Neamț 03</a>\" de Radueduard, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 ro</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/diicot-60-perchezitii-contrabanda-tigari-neamt.jpg",
+    "licenta": "CC BY-SA 3.0 ro",
+    "autor": "Radueduard"
+  }
 }

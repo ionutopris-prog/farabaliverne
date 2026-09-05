@@ -11,27 +11,45 @@
     {
       "text": "Pe 10 iulie 2026, Donald Trump a scris pe Truth Social: „Washington D.C. went from High Crime to NO CRIME — Thank you President Trump!” („Washington DC a trecut de la criminalitate mare la ZERO criminalitate — Mulțumesc, președinte Trump!”).",
       "sources": [
-        { "name": "Trump's Truth — arhiva postării originale de pe Truth Social", "url": "https://trumpstruth.org/statuses/39929" },
-        { "name": "Reason — Trump Is Taking Credit for D.C.'s Crime Drop. Here's What the Data Say.", "url": "https://reason.com/2026/08/20/trump-is-taking-credit-for-d-c-s-crime-drop-heres-what-the-data-say/" }
+        {
+          "name": "Trump's Truth — arhiva postării originale de pe Truth Social",
+          "url": "https://trumpstruth.org/statuses/39929"
+        },
+        {
+          "name": "Reason — Trump Is Taking Credit for D.C.'s Crime Drop. Here's What the Data Say.",
+          "url": "https://reason.com/2026/08/20/trump-is-taking-credit-for-d-c-s-crime-drop-heres-what-the-data-say/"
+        }
       ]
     },
     {
       "text": "Potrivit datelor Poliției Metropolitane din DC (MPD) pentru 2026, raportate de presa americană pe 10-14 august 2026: criminalitatea generală a scăzut cu 20% față de aceeași perioadă a anului trecut, omuciderile au scăzut cu 33%, iar jafurile cu 14%. În același timp, agresiunile cu armă periculoasă (assault with a dangerous weapon) au crescut cu 40% — 768 de cazuri, față de 548 în perioada echivalentă a anului trecut — ceea ce a împins criminalitatea violentă generală în creștere cu 4% de la începutul anului.",
       "sources": [
-        { "name": "Daily Caller — Stats Show Crime Overall In DC Is Falling Despite Violent Assaults Being Up", "url": "https://dailycaller.com/2026/08/10/mpd-crime-stats-washington-dc-falling-assualts-up-jeanine-pirro-us-attorney/" }
+        {
+          "name": "Daily Caller — Stats Show Crime Overall In DC Is Falling Despite Violent Assaults Being Up",
+          "url": "https://dailycaller.com/2026/08/10/mpd-crime-stats-washington-dc-falling-assualts-up-jeanine-pirro-us-attorney/"
+        }
       ]
     },
     {
       "text": "O analiză independentă publicată de Reason pe 20 august 2026 arată că scăderea criminalității violente din DC era deja de 29% înainte de sosirea Gărzii Naționale (desfășurată în august 2025), că 82% dintre omucideri s-au petrecut în cartiere unde prezența Gărzii era minimă, și că Garda Națională a fost implicată în doar 1,3% din urmăririle penale înregistrate în această perioadă. Autoarea atribuie scăderea mai degrabă activității Poliției Metropolitane — descrisă drept „polițire proactivă și orientată pe probleme” în coridoarele cu criminalitate ridicată — decât desfășurării Gărzii.",
       "sources": [
-        { "name": "Reason — Trump Is Taking Credit for D.C.'s Crime Drop. Here's What the Data Say.", "url": "https://reason.com/2026/08/20/trump-is-taking-credit-for-d-c-s-crime-drop-heres-what-the-data-say/" }
+        {
+          "name": "Reason — Trump Is Taking Credit for D.C.'s Crime Drop. Here's What the Data Say.",
+          "url": "https://reason.com/2026/08/20/trump-is-taking-credit-for-d-c-s-crime-drop-heres-what-the-data-say/"
+        }
       ]
     },
     {
       "text": "O anchetă internă a Departamentului de Justiție, încheiată în primăvara lui 2026, a confirmat că personal de conducere din MPD a presat comandanții de patrulă să reclasifice fapte penale grave — inclusiv agresiuni cu armă periculoasă, jafuri, spargeri și furturi de vehicule — drept infracțiuni minore, pentru a crea impresia unei scăderi mai mari a criminalității decât era reală. În urma anchetei, 13 membri ai MPD au fost puși în concediu administrativ, în așteptarea unor proceduri de concediere.",
       "sources": [
-        { "name": "WFMD — DC police officials face termination after federal probe found department manipulated crime data", "url": "https://www.wfmd.com/2026/05/05/dc-police-officials-face-termination-after-federal-probe-found-department-manipulated-crime-data-report/" },
-        { "name": "Comisia de supraveghere a Camerei Reprezentanților SUA — anunțul anchetei", "url": "https://oversight.house.gov/release/oversight-committee-launches-investigation-into-allegations-of-manipulated-and-inaccurate-crime-data-by-d-c-mpd-leadership" }
+        {
+          "name": "WFMD — DC police officials face termination after federal probe found department manipulated crime data",
+          "url": "https://www.wfmd.com/2026/05/05/dc-police-officials-face-termination-after-federal-probe-found-department-manipulated-crime-data-report/"
+        },
+        {
+          "name": "Comisia de supraveghere a Camerei Reprezentanților SUA — anunțul anchetei",
+          "url": "https://oversight.house.gov/release/oversight-committee-launches-investigation-into-allegations-of-manipulated-and-inaccurate-crime-data-by-d-c-mpd-leadership"
+        }
       ]
     }
   ],
@@ -39,7 +57,10 @@
     {
       "text": "Afirmația „ZERO criminalitate” nu se confirmă în nicio sursă de date citată mai sus — toate arată criminalitate reală, în scădere pe unele categorii (omucideri, jafuri) și în creștere pe altele (agresiuni cu armă periculoasă, criminalitate violentă generală). Nicio sursă independentă sau oficială nu susține că infracționalitatea din DC ar fi ajuns la zero.",
       "sources": [
-        { "name": "Daily Caller — Stats Show Crime Overall In DC Is Falling Despite Violent Assaults Being Up", "url": "https://dailycaller.com/2026/08/10/mpd-crime-stats-washington-dc-falling-assualts-up-jeanine-pirro-us-attorney/" }
+        {
+          "name": "Daily Caller — Stats Show Crime Overall In DC Is Falling Despite Violent Assaults Being Up",
+          "url": "https://dailycaller.com/2026/08/10/mpd-crime-stats-washington-dc-falling-assualts-up-jeanine-pirro-us-attorney/"
+        }
       ]
     }
   ],
@@ -54,5 +75,14 @@
     }
   ],
   "aiNote": "Ce s-a verificat exact: citatul lui Trump vine direct din arhiva postării sale de pe Truth Social; cifrele de criminalitate ale MPD pentru 2026 (scădere generală 20%, omucideri -33%, jafuri -14%, agresiuni cu armă +40%/768 vs. 548 cazuri, violență generală +4%) sunt raportate concordant de presa americană pe 10-14 august 2026; analiza cauzală despre rolul Gărzii Naționale vine dintr-un text de opinie/analiză publicat de Reason pe 20 august 2026, care citează date proprii (29% declin pre-Gardă, 82% omucideri în zone cu prezență minimă a Gărzii, 1,3% implicare în urmăriri penale).\n\nUnde se despart sursele: Trump vorbește la superlativ absolut („ZERO criminalitate”), atribuindu-și integral meritul; datele MPD arată o scădere reală, dar parțială și neuniformă pe categorii; iar analiza independentă separă efectul desfășurării Gărzii Naționale de tendința mai amplă de scădere, care pare să fi început înainte și să țină mai mult de activitatea poliției locale.\n\nCe lipsește: nu există, în sursele verificate, o legătură explicită între ancheta DOJ despre manipularea claselor de infracțiuni (finalizată în primăvara lui 2026) și cifra de 40% raportată acum pentru agresiunile cu armă — ar putea fi parțial o corectare a unei subraportări anterioare, parțial o creștere reală, sau ambele; nu avem date care să separe cele două explicații.\n\nCe ar schimba concluzia: o defalcare oficială MPD care să arate cât din creșterea agresiunilor cu armă provine din reclasificare versus fapte noi ar clarifica exact cât de „reală” e creșterea; până atunci, tratăm cifra ca fiind corectă ca raportare curentă, dar cu cauza incertă.",
-  "persoane": ["Donald Trump"]
+  "persoane": [
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-dc-criminalitate-no-crime-agresiuni-arma-garda-nationala.jpg\" alt=\"Washington\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Washington. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Greetings_from_Washington,_%22The_Evergreen_State%22_-_Large_Letter_Postcard_(5171598140).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Greetings from Washington, \"The Evergreen State\" - Large Letter Postcard (5171598140)</a>\" de Steve Shook from Moscow, Idaho, USA, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-dc-criminalitate-no-crime-agresiuni-arma-garda-nationala.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Steve Shook from Moscow, Idaho, USA"
+  }
 }

@@ -11,22 +11,40 @@
     {
       "text": "Producția internă de energie a României a însumat 7,929 milioane tep (tone echivalent petrol) în primele șase luni din 2026, în scădere cu 215.200 tep, adică -2,6% față de aceeași perioadă din 2025, potrivit datelor provizorii ale Institutului Național de Statistică (INS).",
       "sources": [
-        { "name": "Observator News — Producția de energie a României a scăzut cu 2,6% în primele șase luni din 2026", "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html" },
-        { "name": "Financial Intelligence — INS: Producția de energie a României a scăzut cu 2,6%, în primele șase luni", "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" }
+        {
+          "name": "Observator News — Producția de energie a României a scăzut cu 2,6% în primele șase luni din 2026",
+          "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html"
+        },
+        {
+          "name": "Financial Intelligence — INS: Producția de energie a României a scăzut cu 2,6%, în primele șase luni",
+          "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/"
+        }
       ]
     },
     {
       "text": "În același interval, resursele de energie primară au scăzut cu 4,1%, iar consumul final de energie electrică s-a redus cu 3,3%. INS explică scăderea resurselor primare prin reducerea atât a producției interne (-2,6%), cât și a importurilor (-5,5%).",
       "sources": [
-        { "name": "Financial Intelligence — resursele de energie primară și consumul final", "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" },
-        { "name": "Ecopolitic — INS: Producția de energie a României a scăzut cu 2,6%, în primele șase luni", "url": "https://ecopolitic.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" }
+        {
+          "name": "Financial Intelligence — resursele de energie primară și consumul final",
+          "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/"
+        },
+        {
+          "name": "Ecopolitic — INS: Producția de energie a României a scăzut cu 2,6%, în primele șase luni",
+          "url": "https://ecopolitic.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/"
+        }
       ]
     },
     {
       "text": "Pe surse de producție a energiei electrice, tabloul e mixt: termocentralele au produs 7,680 miliarde kWh (-5,9%), iar centralele nucleare 4,530 miliarde kWh (-11,7%); în schimb, hidrocentralele au urcat la 7,489 miliarde kWh (+17,9%), eolienele la 3,273 miliarde kWh (+9%), iar solarul la 3,259 miliarde kWh (+42,1%). Per total, resursele de energie electrică au crescut cu 1,1%, la 34,691 miliarde kWh.",
       "sources": [
-        { "name": "Observator News — defalcarea pe surse de producție electrică", "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html" },
-        { "name": "Financial Intelligence — cifrele pe termocentrale, hidro, nuclear, eolian, solar", "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/" }
+        {
+          "name": "Observator News — defalcarea pe surse de producție electrică",
+          "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html"
+        },
+        {
+          "name": "Financial Intelligence — cifrele pe termocentrale, hidro, nuclear, eolian, solar",
+          "url": "https://financialintelligence.ro/ins-productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni/"
+        }
       ]
     }
   ],
@@ -34,7 +52,10 @@
     {
       "text": "Titlul „producția de energie a scăzut” se referă strict la producția internă de resurse primare (tep), nu la energia electrică disponibilă în ansamblu — aceasta din urmă a crescut de fapt cu 1,1%, pe fondul avansului solar și eolian. Cititorul care reține doar cifra de -2,6% riscă să înțeleagă greșit că țara are mai puțină electricitate la dispoziție, când datele arată o schimbare de mix energetic (mai puțin termo/nuclear, mai mult regenerabil), nu neapărat un deficit.",
       "sources": [
-        { "name": "Observator News — cifrele complete, inclusiv creșterea resurselor electrice totale", "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html" }
+        {
+          "name": "Observator News — cifrele complete, inclusiv creșterea resurselor electrice totale",
+          "url": "https://observatornews.ro/economic/productia-de-energie-a-romaniei-a-scazut-cu-26-in-primele-sase-luni-din-2026-663371.html"
+        }
       ]
     }
   ],
@@ -45,5 +66,12 @@
   ],
   "aiNote": "Am agregat date oficiale publicate de Institutul Național de Statistică (INS) și confirmate concordant de Observator News, Financial Intelligence și Ecopolitic. Nu am folosit varianta unui articol (Gândul) care menționa „primele cinci luni” în titlu, fiindcă celelalte trei surse converg pe „primele șase luni” — am preferat consistența dintre surse independente unei formulări posibil eronate dintr-un titlu.",
   "persoane": [],
-  "math": null
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/romania-productie-energie-ins-scade-h1-2026.jpg\" alt=\"României\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — României. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:100_Lei_Banca_Na%C5%A3ional%C4%83_a_Rom%C3%A2niei_ROMW0127r.jpg\" rel=\"nofollow noopener\" target=\"_blank\">100 Lei Banca Naţională a României ROMW0127r</a>\" de Banca Naţională a României, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/romania-productie-energie-ins-scade-h1-2026.jpg",
+    "licenta": "Public domain",
+    "autor": "Banca Naţională a României"
+  }
 }

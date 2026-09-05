@@ -83,5 +83,17 @@
     "title": "180 de voturi proprii, prag de 233 — de unde ar veni diferența",
     "text": "Potrivit surselor citate, PSD pornește de la aproximativ 180 de voturi proprii în Parlament, sub pragul de 233 necesar pentru învestirea unui guvern. Diferența de circa 53-60 de voturi ar trebui completată din acordul cu Uniți pentru România (UPR), negocierile cu UDMR și eventuali parlamentari nemulțumiți din AUR sau PNL — niciuna dintre aceste susțineri nu era confirmată public, individual, de partidele respective la data acestei verificări."
   },
-  "persoane": ["Nicușor Dan", "Sorin Grindeanu", "Alexandru Nazare", "Eugen Tomac"]
+  "persoane": [
+    "Nicușor Dan",
+    "Sorin Grindeanu",
+    "Alexandru Nazare",
+    "Eugen Tomac"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nicusor-dan-premier-1-septembrie-psd-guvern-minoritar.jpg\" alt=\"Nicusor Dan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nicusor Dan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nicu%C8%99or_Dan.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nicușor Dan</a>\" de Razvan Socol, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nicusor-dan-premier-1-septembrie-psd-guvern-minoritar.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Razvan Socol"
+  }
 }

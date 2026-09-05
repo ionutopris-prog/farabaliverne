@@ -75,5 +75,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptul publicării raportului „The Great Transshipment Scam” și cifra oficială de 19-26 miliarde de dolari sunt confirmate de mai multe agenții (Reuters, Al Jazeera) și corespondente ale creșterii exporturilor chinezești către Asia de Sud-Est semnalate independent de economistul Robin Brooks (Brookings) și de firma Exiger. Am marcat la „contestat” variația uriașă a estimărilor totale ale fenomenului (de la 10 la peste 100 de miliarde de dolari) și absența unui răspuns oficial din partea țărilor acuzate sau a Chinei, iar la „opinie” interpretarea unui expert (Amitendu Palit) că raportul ar fi mai degrabă o pârghie de negociere comercială decât o cuantificare exactă — o distincție importantă între fapt (raportul există, cifra oficială e X) și interpretare (de ce a fost publicat acum, cât de exactă e cifra).",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-raport-transshipment-scam-40-tari-tarife.jpg\" alt=\"Albă\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Albă. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ardea alba modesta composite - Gould's Lagoon</a>\" de JJ Harrison (https://www.jjharrison.com.au/), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-raport-transshipment-scam-40-tari-tarife.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "JJ Harrison (https://www.jjharrison.com.au/)"
+  }
 }

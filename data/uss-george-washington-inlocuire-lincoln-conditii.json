@@ -110,5 +110,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Dovezile din mai multe redacții americane independente (NBC News, The Hill, Newsweek, CNN, Stars and Stripes) converg pe faptele centrale: USS George Washington este trimis să-l înlocuiască pe USS Abraham Lincoln, aflat de peste 250 de zile în misiune neîntreruptă, iar familiile marinarilor și publicația Military Times au relatat penurii de alimente, probleme cu apa și cu sănătatea mintală, plus cel puțin un incident confirmat de marinar căzut/sărit peste bord (recuperat din apă). Secretarul Apărării Pete Hegseth a respins relatările ca „complet denaturate”, dar Marina a negat explicit doar o CREȘTERE a tentativelor de suicid — nu incidentul confirmat în sine — iar Hegseth nu a contestat punct cu punct acuzațiile despre aprovizionare sau apă. Am tratat la „contestat” exact acolo unde relatările presei și declarațiile oficiale ale Pentagonului diverg sau unde numărul exact de incidente rămâne neclar; nu folosim cuvântul „minciună” pentru nicio parte — arătăm doar unde bat probele.",
   "persoane": [
     "Pete Hegseth"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/uss-george-washington-inlocuire-lincoln-conditii.jpg\" alt=\"George\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — George. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:George_-_Western_Cape_10_-_Downtown.jpg\" rel=\"nofollow noopener\" target=\"_blank\">George - Western Cape 10 - Downtown</a>\" de Discott, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/uss-george-washington-inlocuire-lincoln-conditii.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Discott"
+  }
 }

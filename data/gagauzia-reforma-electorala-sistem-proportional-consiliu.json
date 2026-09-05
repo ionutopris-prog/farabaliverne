@@ -1,63 +1,102 @@
 {
- "slug": "gagauzia-reforma-electorala-sistem-proportional-consiliu",
- "title": "Parlamentul de la Chișinău schimbă regulile alegerilor din Găgăuzia. Comratul spune că autonomia „își pierde competențele”",
- "category": "Politică",
- "tara": "Moldova",
- "date": "2026-08-28",
- "source": "NewsMaker / Ziar.md / Moldpres / Realitatea.md",
- "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/",
- "dek": "Pe 24-25 august 2026, Parlamentul Republicii Moldova a votat în lectură finală modificări la Codul electoral care schimbă, începând cu următorul ciclu, sistemul de alegere a Adunării Populare a Găgăuziei dintr-unul uninominal într-unul proporțional și restructurează Consiliul Electoral Central al autonomiei. Majoritatea parlamentară invocă o decizie a Curții Constituționale și recomandări OSCE/ODIHR; Adunarea Populară a Găgăuziei a cerut, fără succes, retragerea proiectului, iar un fost bașcan spune că autonomia „își pierde competențele”.",
- "mainVerdict": "Contestat",
- "probat": [
-  {
-   "text": "Parlamentul a votat, pe 24-25 august 2026, un pachet de modificări la Codul electoral inițiat de grupul de deputați PAS. Alegerile din 15 noiembrie 2026 pentru Adunarea Populară a Găgăuziei (APG) se vor desfășura ultima oară pe sistemul majoritar uninominal actual; din ciclul următor, sistemul devine proporțional, similar celui folosit la alegerile consiliilor locale din restul țării.",
-   "sources": [
-    {"name": "Ziar.md — Găgăuzia trece la un nou sistem electoral", "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/"},
-    {"name": "Moldpres (agenție de stat) — Codul electoral, completat cu prevederi pentru UTA Găgăuzia", "url": "https://www.moldpres.md/rom/politica/votat-de-parlament-codul-electoral-completat-cu-prevederi-referitoare-la-votul-prin-corespondenta-si-organizarea-alegerilor-in-uta-gagauzia"}
-   ]
-  },
-  {
-   "text": "Legea restructurează și Consiliul Electoral Central al Găgăuziei, care va avea între 7 și 11 membri, cu aceleași condiții de eligibilitate și verificare (inclusiv de către Serviciul de Informații și Securitate) impuse funcțiilor publice. Potrivit relatărilor din Comrat, din cei 11 membri ai noului consiliu, Adunarea Populară a Găgăuziei ar putea desemna doar doi, iar președintele consiliului ar urma să fie numit de Comisia Electorală Centrală de la Chișinău.",
-   "sources": [
-    {"name": "NewsMaker — proiectul privind alegerile din Găgăuzia, adoptat de Parlament în prima lectură", "url": "https://newsmaker.md/ro/proiectul-privind-alegerile-din-gagauzia-adoptat-de-parlament-in-prima-lectura"},
-    {"name": "Moldpres (agenție de stat) — detaliile componenței consiliului electoral", "url": "https://www.moldpres.md/rom/politica/votat-de-parlament-codul-electoral-completat-cu-prevederi-referitoare-la-votul-prin-corespondenta-si-organizarea-alegerilor-in-uta-gagauzia"}
-   ]
-  },
-  {
-   "text": "Majoritatea parlamentară justifică reforma printr-o decizie a Curții Constituționale din 9 iulie 2026, prin recomandări ale Comisiei Electorale Centrale formulate după alegerile din 2024-2025 din Găgăuzia și prin observațiile misiunii OSCE/ODIHR de la alegerile parlamentare din septembrie 2025. Proiectul a trecut prin consultări publice la Chișinău și la Comrat.",
-   "sources": [
-    {"name": "Ziar.md — motivele invocate pentru reformă", "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/"}
-   ]
-  },
-  {
-   "text": "Comisia Electorală Centrală a Moldovei a aprobat, pe 27 august 2026, calendarul alegerilor pentru Adunarea Populară a Găgăuziei din 15 noiembrie: Consiliul Electoral al Găgăuziei se formează până pe 28 august, consiliile electorale de circumscripție până pe 16 septembrie, înregistrarea candidaților se încheie pe 6 octombrie, iar campania electorală începe pe 16 octombrie.",
-   "sources": [
-    {"name": "Sputnik Moldova (presă de stat rusă — etichetată ca atare) — CEC a aprobat calendarul alegerilor pentru Adunarea Populară a Găgăuziei", "url": "https://md.sputniknews.ru/20260827/tsik-moldovy-utverdili-kalendarnyy-plan-provedeniya-vyborov-parlamenta-gagauzii-79285814.html"},
-    {"name": "Ziar.md — datele calendarului electoral", "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/"}
-   ]
+  "slug": "gagauzia-reforma-electorala-sistem-proportional-consiliu",
+  "title": "Parlamentul de la Chișinău schimbă regulile alegerilor din Găgăuzia. Comratul spune că autonomia „își pierde competențele”",
+  "category": "Politică",
+  "tara": "Moldova",
+  "date": "2026-08-28",
+  "source": "NewsMaker / Ziar.md / Moldpres / Realitatea.md",
+  "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/",
+  "dek": "Pe 24-25 august 2026, Parlamentul Republicii Moldova a votat în lectură finală modificări la Codul electoral care schimbă, începând cu următorul ciclu, sistemul de alegere a Adunării Populare a Găgăuziei dintr-unul uninominal într-unul proporțional și restructurează Consiliul Electoral Central al autonomiei. Majoritatea parlamentară invocă o decizie a Curții Constituționale și recomandări OSCE/ODIHR; Adunarea Populară a Găgăuziei a cerut, fără succes, retragerea proiectului, iar un fost bașcan spune că autonomia „își pierde competențele”.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Parlamentul a votat, pe 24-25 august 2026, un pachet de modificări la Codul electoral inițiat de grupul de deputați PAS. Alegerile din 15 noiembrie 2026 pentru Adunarea Populară a Găgăuziei (APG) se vor desfășura ultima oară pe sistemul majoritar uninominal actual; din ciclul următor, sistemul devine proporțional, similar celui folosit la alegerile consiliilor locale din restul țării.",
+      "sources": [
+        {
+          "name": "Ziar.md — Găgăuzia trece la un nou sistem electoral",
+          "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/"
+        },
+        {
+          "name": "Moldpres (agenție de stat) — Codul electoral, completat cu prevederi pentru UTA Găgăuzia",
+          "url": "https://www.moldpres.md/rom/politica/votat-de-parlament-codul-electoral-completat-cu-prevederi-referitoare-la-votul-prin-corespondenta-si-organizarea-alegerilor-in-uta-gagauzia"
+        }
+      ]
+    },
+    {
+      "text": "Legea restructurează și Consiliul Electoral Central al Găgăuziei, care va avea între 7 și 11 membri, cu aceleași condiții de eligibilitate și verificare (inclusiv de către Serviciul de Informații și Securitate) impuse funcțiilor publice. Potrivit relatărilor din Comrat, din cei 11 membri ai noului consiliu, Adunarea Populară a Găgăuziei ar putea desemna doar doi, iar președintele consiliului ar urma să fie numit de Comisia Electorală Centrală de la Chișinău.",
+      "sources": [
+        {
+          "name": "NewsMaker — proiectul privind alegerile din Găgăuzia, adoptat de Parlament în prima lectură",
+          "url": "https://newsmaker.md/ro/proiectul-privind-alegerile-din-gagauzia-adoptat-de-parlament-in-prima-lectura"
+        },
+        {
+          "name": "Moldpres (agenție de stat) — detaliile componenței consiliului electoral",
+          "url": "https://www.moldpres.md/rom/politica/votat-de-parlament-codul-electoral-completat-cu-prevederi-referitoare-la-votul-prin-corespondenta-si-organizarea-alegerilor-in-uta-gagauzia"
+        }
+      ]
+    },
+    {
+      "text": "Majoritatea parlamentară justifică reforma printr-o decizie a Curții Constituționale din 9 iulie 2026, prin recomandări ale Comisiei Electorale Centrale formulate după alegerile din 2024-2025 din Găgăuzia și prin observațiile misiunii OSCE/ODIHR de la alegerile parlamentare din septembrie 2025. Proiectul a trecut prin consultări publice la Chișinău și la Comrat.",
+      "sources": [
+        {
+          "name": "Ziar.md — motivele invocate pentru reformă",
+          "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/"
+        }
+      ]
+    },
+    {
+      "text": "Comisia Electorală Centrală a Moldovei a aprobat, pe 27 august 2026, calendarul alegerilor pentru Adunarea Populară a Găgăuziei din 15 noiembrie: Consiliul Electoral al Găgăuziei se formează până pe 28 august, consiliile electorale de circumscripție până pe 16 septembrie, înregistrarea candidaților se încheie pe 6 octombrie, iar campania electorală începe pe 16 octombrie.",
+      "sources": [
+        {
+          "name": "Sputnik Moldova (presă de stat rusă — etichetată ca atare) — CEC a aprobat calendarul alegerilor pentru Adunarea Populară a Găgăuziei",
+          "url": "https://md.sputniknews.ru/20260827/tsik-moldovy-utverdili-kalendarnyy-plan-provedeniya-vyborov-parlamenta-gagauzii-79285814.html"
+        },
+        {
+          "name": "Ziar.md — datele calendarului electoral",
+          "url": "https://ziar.md/gagauzia-trece-la-un-nou-sistem-electoral-alegerile-din-15-noiembrie-ultimele-dupa-vechile-reguli/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Adunarea Populară a Găgăuziei a cerut Parlamentului, pe 29 iulie 2026, să suspende examinarea proiectului și să-l retragă de pe ordinea de zi, susținând că modificările au fost promovate fără a respecta procedurile legale de consultare a autonomiei. Cererea nu a fost admisă — proiectul a trecut oricum în lectură finală pe 24-25 august.",
+      "sources": [
+        {
+          "name": "Europa Liberă Moldova — Chișinăul propune noi reguli pentru alegerile din Găgăuzia, Comratul cere retragerea proiectului",
+          "url": "https://moldova.europalibera.org/a/chisinaul-propune-noi-reguli-pentru-alegerile-din-gagauzia-comratul-cere-retragerea-proiectului/33817765.html"
+        }
+      ]
+    },
+    {
+      "text": "Fiodor Gagauz, fost oficial găgăuz, susține public că modificările fac ca „autonomia să-și piardă competențele”, în special prin felul în care e compus noul Consiliu Electoral — cu majoritatea membrilor numiți în afara Adunării Populare. Chestiunea cine numește efectiv fiecare din cei 7-11 membri nu e clarificată identic în toate sursele: textul de lege citat de Moldpres nu detaliază mecanismul de numire, în timp ce relatările din Comrat vorbesc explicit de doar doi reprezentanți aleși de APG.",
+      "sources": [
+        {
+          "name": "Realitatea.md — Fiodor Gagauz critică modificările privind alegerile din Găgăuzia",
+          "url": "https://realitatea.md/fiodor-gagauz-critica-modificarile-privind-alegerile-din-gagauzia-autonomia-isi-pierde-competentele/"
+        }
+      ]
+    },
+    {
+      "text": "TVR Moldova a relatat, separat, că decizia Curții Constituționale privind Găgăuzia a fost folosită și într-o campanie de manipulare în spațiul public — semn că exact acest dosar e disputat activ între narative, nu doar între instituții.",
+      "sources": [
+        {
+          "name": "TVR Moldova — decizia CCR despre Găgăuzia, transformată într-o campanie de manipulare",
+          "url": "https://tvrmoldova.md/article/a89d83351d3b09a1/decizia-curtii-constitutionale-despre-gagauzia-a-fost-transformata-intr-o-campanie-de-manipulare.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Ce s-a verificat exact: că Parlamentul a votat o reformă electorală pentru Găgăuzia, pe ce sursă oficială (Moldpres, agenția de stat a R. Moldova) și pe ce relatări independente (NewsMaker, Ziar.md, Realitatea.md, Europa Liberă). Pe faptul brut — sistemul devine proporțional, alegerile din noiembrie sunt ultimele pe regulile vechi — sursele coincid.\n\nUnde se despart: pe componența noului Consiliul Electoral Central al Găgăuziei. Textul de lege, așa cum e citat de agenția de stat Moldpres, spune doar „7-11 membri, cu verificare ca la funcțiile publice”, fără să detalieze cine îi numește. Relatările din Comrat — preluate de Realitatea.md și NewsMaker — sunt mult mai specifice: din 11 membri, Adunarea Populară ar putea desemna doar doi, restul venind din alte instituții, iar președintele consiliului ar fi numit de la Chișinău. Diferența nu e întâmplătoare: partea care descrie mecanismul în detaliu e chiar partea care se simte dezavantajată de el.\n\nCe lipsește: textul integral, articol cu articol, al legii adoptate, cu mecanismul exact de numire a celor 7-11 membri. Fără el, nu putem confirma sau infirma cifra „doi din unsprezece” — o punem drept ceea ce este, o afirmație din Comrat, contestată, nu un fapt stabilit.\n\nCe ar schimba concluzia: publicarea textului legii promulgate, cu articolele privind numirea membrilor consiliului electoral, sau o explicație oficială de la Chișinău despre exact acest mecanism.",
+  "persoane": [
+    "Fiodor Gagauz"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/gagauzia-reforma-electorala-sistem-proportional-consiliu.jpg\" alt=\"Chișinău\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chișinău. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Arch_of_Triumph,_Chisinau,_Republic_of_Moldova_(51160304626_cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Arch of Triumph, Chisinau, Republic of Moldova (51160304626 cropped)</a>\" de Photobank MD from Chisinau, Moldova, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/gagauzia-reforma-electorala-sistem-proportional-consiliu.jpg",
+    "licenta": "CC0",
+    "autor": "Photobank MD from Chisinau, Moldova"
   }
- ],
- "contestat": [
-  {
-   "text": "Adunarea Populară a Găgăuziei a cerut Parlamentului, pe 29 iulie 2026, să suspende examinarea proiectului și să-l retragă de pe ordinea de zi, susținând că modificările au fost promovate fără a respecta procedurile legale de consultare a autonomiei. Cererea nu a fost admisă — proiectul a trecut oricum în lectură finală pe 24-25 august.",
-   "sources": [
-    {"name": "Europa Liberă Moldova — Chișinăul propune noi reguli pentru alegerile din Găgăuzia, Comratul cere retragerea proiectului", "url": "https://moldova.europalibera.org/a/chisinaul-propune-noi-reguli-pentru-alegerile-din-gagauzia-comratul-cere-retragerea-proiectului/33817765.html"}
-   ]
-  },
-  {
-   "text": "Fiodor Gagauz, fost oficial găgăuz, susține public că modificările fac ca „autonomia să-și piardă competențele”, în special prin felul în care e compus noul Consiliu Electoral — cu majoritatea membrilor numiți în afara Adunării Populare. Chestiunea cine numește efectiv fiecare din cei 7-11 membri nu e clarificată identic în toate sursele: textul de lege citat de Moldpres nu detaliază mecanismul de numire, în timp ce relatările din Comrat vorbesc explicit de doar doi reprezentanți aleși de APG.",
-   "sources": [
-    {"name": "Realitatea.md — Fiodor Gagauz critică modificările privind alegerile din Găgăuzia", "url": "https://realitatea.md/fiodor-gagauz-critica-modificarile-privind-alegerile-din-gagauzia-autonomia-isi-pierde-competentele/"}
-   ]
-  },
-  {
-   "text": "TVR Moldova a relatat, separat, că decizia Curții Constituționale privind Găgăuzia a fost folosită și într-o campanie de manipulare în spațiul public — semn că exact acest dosar e disputat activ între narative, nu doar între instituții.",
-   "sources": [
-    {"name": "TVR Moldova — decizia CCR despre Găgăuzia, transformată într-o campanie de manipulare", "url": "https://tvrmoldova.md/article/a89d83351d3b09a1/decizia-curtii-constitutionale-despre-gagauzia-a-fost-transformata-intr-o-campanie-de-manipulare.html"}
-   ]
-  }
- ],
- "opinie": [],
- "aiNote": "Ce s-a verificat exact: că Parlamentul a votat o reformă electorală pentru Găgăuzia, pe ce sursă oficială (Moldpres, agenția de stat a R. Moldova) și pe ce relatări independente (NewsMaker, Ziar.md, Realitatea.md, Europa Liberă). Pe faptul brut — sistemul devine proporțional, alegerile din noiembrie sunt ultimele pe regulile vechi — sursele coincid.\n\nUnde se despart: pe componența noului Consiliul Electoral Central al Găgăuziei. Textul de lege, așa cum e citat de agenția de stat Moldpres, spune doar „7-11 membri, cu verificare ca la funcțiile publice”, fără să detalieze cine îi numește. Relatările din Comrat — preluate de Realitatea.md și NewsMaker — sunt mult mai specifice: din 11 membri, Adunarea Populară ar putea desemna doar doi, restul venind din alte instituții, iar președintele consiliului ar fi numit de la Chișinău. Diferența nu e întâmplătoare: partea care descrie mecanismul în detaliu e chiar partea care se simte dezavantajată de el.\n\nCe lipsește: textul integral, articol cu articol, al legii adoptate, cu mecanismul exact de numire a celor 7-11 membri. Fără el, nu putem confirma sau infirma cifra „doi din unsprezece” — o punem drept ceea ce este, o afirmație din Comrat, contestată, nu un fapt stabilit.\n\nCe ar schimba concluzia: publicarea textului legii promulgate, cu articolele privind numirea membrilor consiliului electoral, sau o explicație oficială de la Chișinău despre exact acest mecanism.",
- "persoane": ["Fiodor Gagauz"]
 }

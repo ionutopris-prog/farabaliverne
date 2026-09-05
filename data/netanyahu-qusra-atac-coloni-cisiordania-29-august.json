@@ -66,5 +66,14 @@
     "explanation": "Qusra a mai fost ținta unor asedii ale coloniștilor și pe 13-15 august 2026, când armata a confiscat tot trei vehicule într-un incident similar — semn că măsurile luate atunci nu au oprit o nouă escaladare două săptămâni mai târziu."
   },
   "aiNote": "Ce s-a verificat exact: atacul din 29 august 2026 asupra satelor Qusra și Jalud, condamnarea publică a lui Netanyahu și textul ei exact sunt confirmate de mai multe redacții independente (Al-Monitor, NZ Herald, i24NEWS). Discrepanța despre vehiculele confiscate vine dintr-o singură relatare verificată (Times of Israel, citând Haaretz) — nu am găsit-o reluată identic de celelalte redacții consultate, ceea ce nu o invalidează, dar înseamnă că e susținută de o singură sursă directă, nu de mai multe independente.\n\nUnde se despart sursele: guvernul israelian a prezentat confiscarea celor trei vehicule ca dovadă a unei intervenții rapide și eficiente a armatei; Haaretz scrie că acele mașini nu erau cele folosite de atacatori, ceea ce ar însemna că „dovada” invocată de Netanyahu nu leagă de fapt pe nimeni de atac. Diferența nu e despre dacă a existat un atac — asta e confirmată de toată lumea — ci despre cât de solidă e reacția oficială pe care premierul o citează ca succes al forțelor de ordine.\n\nCe lipsește: o confirmare sau infirmare oficială, din partea armatei sau a poliției israeliene, despre proveniența reală a vehiculelor confiscate, precum și informații despre eventuale arestări sau acuzații penale aduse coloniștilor identificați — niciuna dintre sursele consultate nu menționează vreun nume de suspect reținut.\n\nCe ar schimba concluzia: o anchetă publicată de armată sau poliție care să confirme dacă vehiculele confiscate au legătură cu atacul, sau o retractare/confirmare din partea Haaretz.",
-  "persoane": ["Benjamin Netanyahu"]
+  "persoane": [
+    "Benjamin Netanyahu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/netanyahu-qusra-atac-coloni-cisiordania-29-august.jpg\" alt=\"Qusra\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Qusra. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Peace_Now_Price_Tag_310114_003.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Peace Now Price Tag 310114 003</a>\" de Oren Rozen, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/netanyahu-qusra-atac-coloni-cisiordania-29-august.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Oren Rozen"
+  }
 }

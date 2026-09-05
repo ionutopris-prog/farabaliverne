@@ -11,15 +11,27 @@
     {
       "text": "Institutul Național de Statistică (INS) a confirmat oficial, pe 14 august 2026, că PIB-ul României a scăzut cu 0,8% în primul semestru din 2026 față de aceeași perioadă din 2025 (pe seria brută) și cu 1,6% pe seria ajustată sezonier. Pe trimestrul II izolat, PIB-ul s-a menținut nemodificat față de trimestrul I, dar a scăzut cu 0,4% (serie brută) respectiv 2% (serie ajustată sezonier) față de trimestrul II din 2025.",
       "sources": [
-        {"name": "AGERPRES — PIB-ul României s-a menținut nemodificat în trimestrul II din 2026 și a scăzut cu 0,4% față de T2 2025", "url": "https://agerpres.ro/economic/2026/08/14/pib-ul-romaniei-s-a-mentinut-nemodificat-in-trimestrul-ii-din-2026-si-a-scazut-cu-0-4-fata-de-t2-202--1584822"},
-        {"name": "Revista Biz — Economia a stagnat în trimestrul 2. PIB în scădere cu 0,8% în primele șase luni din 2026", "url": "https://www.revistabiz.ro/economia-a-stagnat-in-trimestrul-2-pib-in-scadere-cu-08-in-primul-semestru-din-2026/"}
+        {
+          "name": "AGERPRES — PIB-ul României s-a menținut nemodificat în trimestrul II din 2026 și a scăzut cu 0,4% față de T2 2025",
+          "url": "https://agerpres.ro/economic/2026/08/14/pib-ul-romaniei-s-a-mentinut-nemodificat-in-trimestrul-ii-din-2026-si-a-scazut-cu-0-4-fata-de-t2-202--1584822"
+        },
+        {
+          "name": "Revista Biz — Economia a stagnat în trimestrul 2. PIB în scădere cu 0,8% în primele șase luni din 2026",
+          "url": "https://www.revistabiz.ro/economia-a-stagnat-in-trimestrul-2-pib-in-scadere-cu-08-in-primul-semestru-din-2026/"
+        }
       ]
     },
     {
       "text": "Sorin Grindeanu a scris, pe 14 august seara, pe rețelele sociale, că bugetul de stat pe 2026 a fost construit pe o ipoteză de creștere economică de +1%, în timp ce, după șase luni, economia a scăzut cu 0,8%. Pe baza acestei diferențe, el a afirmat că premierului „îi lipsesc aproape 40 de miliarde” de lei și l-a întrebat retoric dacă intenționează să mai crească taxe sau să vândă acțiuni la companii strategice.",
       "sources": [
-        {"name": "Mediafax — „Îți lipsesc aproape 40 DE MILIARDE, Ilie!”. Grindeanu lansează un atac dur la adresa lui Bolojan", "url": "https://www.mediafax.ro/politic/iti-lipsesc-aproape-40-de-miliarde-ilie-grindeanu-lanseaza-un-atac-dur-la-adresa-lui-bolojan-23790666"},
-        {"name": "BURSA — Grindeanu: Ilie Bolojan a prăbușit economia în primul semestru", "url": "https://www.bursa.ro/grindeanu-ilie-bolojan-a-prabusit-economia-in-primul-semestru-89088959"}
+        {
+          "name": "Mediafax — „Îți lipsesc aproape 40 DE MILIARDE, Ilie!”. Grindeanu lansează un atac dur la adresa lui Bolojan",
+          "url": "https://www.mediafax.ro/politic/iti-lipsesc-aproape-40-de-miliarde-ilie-grindeanu-lanseaza-un-atac-dur-la-adresa-lui-bolojan-23790666"
+        },
+        {
+          "name": "BURSA — Grindeanu: Ilie Bolojan a prăbușit economia în primul semestru",
+          "url": "https://www.bursa.ro/grindeanu-ilie-bolojan-a-prabusit-economia-in-primul-semestru-89088959"
+        }
       ]
     }
   ],
@@ -27,14 +39,23 @@
     {
       "text": "Cifra „40 de miliarde de lei” nu apare în comunicatul INS și nu e o statistică oficială — e un calcul politic al lui Grindeanu, obținut aplicând diferența dintre ipoteza de creștere din buget (+1%) și rezultatul efectiv (-0,8%) la nivelul întregii economii pe un semestru. Metodologia exactă a calculului nu a fost publicată de PSD, iar la ora verificării (15 august 2026) nu exista un răspuns oficial din partea Guvernului sau a Ministerului Finanțelor la această cifră.",
       "sources": [
-        {"name": "Mediafax — „Îți lipsesc aproape 40 DE MILIARDE, Ilie!”", "url": "https://www.mediafax.ro/politic/iti-lipsesc-aproape-40-de-miliarde-ilie-grindeanu-lanseaza-un-atac-dur-la-adresa-lui-bolojan-23790666"}
+        {
+          "name": "Mediafax — „Îți lipsesc aproape 40 DE MILIARDE, Ilie!”",
+          "url": "https://www.mediafax.ro/politic/iti-lipsesc-aproape-40-de-miliarde-ilie-grindeanu-lanseaza-un-atac-dur-la-adresa-lui-bolojan-23790666"
+        }
       ]
     },
     {
       "text": "Presa a relatat scăderea PIB cu cifre diferite în funcție de perioada și metoda de calcul aleasă — semestrul I 2026 (-0,8% serie brută / -1,6% serie ajustată sezonier) versus trimestrul II izolat față de trimestrul II 2025 (-0,4% serie brută / -2% serie ajustată sezonier). Unele titluri de presă („PIB-ul scade cu 2%”) au preluat doar cifra ajustată sezonier a trimestrului II, ceea ce a alimentat confuzia publică asupra amplorii reale a scăderii.",
       "sources": [
-        {"name": "B1TV — titlu: „PIB-ul scade cu 2%” (cifra ajustată sezonier, T2/T2); text: 0,8%/1,6% pe semestru", "url": "https://www.b1tv.ro/economic/economia-romaniei-a-scazut-cu-0-8-in-s1-2026-1719244.html"},
-        {"name": "Revista Biz — Economia a stagnat în trimestrul 2. PIB în scădere cu 0,8% în primele șase luni din 2026", "url": "https://www.revistabiz.ro/economia-a-stagnat-in-trimestrul-2-pib-in-scadere-cu-08-in-primul-semestru-din-2026/"}
+        {
+          "name": "B1TV — titlu: „PIB-ul scade cu 2%” (cifra ajustată sezonier, T2/T2); text: 0,8%/1,6% pe semestru",
+          "url": "https://www.b1tv.ro/economic/economia-romaniei-a-scazut-cu-0-8-in-s1-2026-1719244.html"
+        },
+        {
+          "name": "Revista Biz — Economia a stagnat în trimestrul 2. PIB în scădere cu 0,8% în primele șase luni din 2026",
+          "url": "https://www.revistabiz.ro/economia-a-stagnat-in-trimestrul-2-pib-in-scadere-cu-08-in-primul-semestru-din-2026/"
+        }
       ]
     }
   ],
@@ -43,5 +64,15 @@
     "Întrebarea retorică despre „creșterea taxelor” sau „vânzarea de acțiuni la companii strategice” este un atac politic anticipativ, nu o relatare a unei decizii guvernamentale reale — niciuna dintre aceste măsuri nu a fost anunțată oficial la data verificării."
   ],
   "aiNote": "🤖 Am pus alături cifrele oficiale ale INS și afirmația politică a lui Grindeanu, ca să se vadă limpede unde se termină statistica oficială și unde începe calculul și interpretarea proprie a liderului PSD. Nu am găsit, la ora verificării, un răspuns oficial al Guvernului sau al Ministerului Finanțelor la cifra de „40 de miliarde” — dacă apare, îl vom adăuga.",
-  "persoane": ["Sorin Grindeanu", "Ilie Bolojan"]
+  "persoane": [
+    "Sorin Grindeanu",
+    "Ilie Bolojan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/grindeanu-bolojan-pib-atac-40-miliarde.jpg\" alt=\"Bolojan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bolojan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ilie_Bolojan_-_22_September_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ilie Bolojan - 22 September 2025</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/grindeanu-bolojan-pib-atac-40-miliarde.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
+  }
 }

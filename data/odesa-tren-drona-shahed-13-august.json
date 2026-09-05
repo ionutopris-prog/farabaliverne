@@ -11,21 +11,36 @@
     {
       "text": "În dimineața de 13 august 2026, o dronă Shahed cu motor cu reacție (jet-powered) a lovit locomotiva unui tren de pasageri aflat pe o rută feroviară din regiunea Odesa, în drum spre o stație unde urma să fie evacuat. Mecanicul trenului și asistentul acestuia au murit. Un prag de amenințare cu dronă fusese deja detectat, iar echipajul primise ordin să oprească trenul pentru evacuarea pasagerilor.",
       "sources": [
-        {"name": "Ukrainska Pravda — Russia struck a train in Odesa region with a jet-powered Shahed: the driver and assistant were killed", "url": "https://www.pravda.com.ua/eng/news/2026/08/13/8048493/"},
-        {"name": "UNN — Russia struck a train in Odesa region with a jet-powered Shahed", "url": "https://unn.ua/en/news/russia-struck-a-train-in-odesa-region-with-a-jet-powered-shahed-the-driver-and-assistant-were-killed"}
+        {
+          "name": "Ukrainska Pravda — Russia struck a train in Odesa region with a jet-powered Shahed: the driver and assistant were killed",
+          "url": "https://www.pravda.com.ua/eng/news/2026/08/13/8048493/"
+        },
+        {
+          "name": "UNN — Russia struck a train in Odesa region with a jet-powered Shahed",
+          "url": "https://unn.ua/en/news/russia-struck-a-train-in-odesa-region-with-a-jet-powered-shahed-the-driver-and-assistant-were-killed"
+        }
       ]
     },
     {
       "text": "Cei 340 de pasageri aflați la bordul trenului, dintre care 67 de copii, plus restul echipajului, au fost evacuați fără răniri — au fost transportați cu 12 autobuze în siguranță la Odesa. Potrivit CEO-ului căilor ferate ucrainene (Ukrzaliznytsia), Oleksandr Pertsovskyi, echipajul locomotivei „nu a avut timp suficient pentru a se opri și evacua complet” — drona a manevrat rapid, în doar câteva minute, spre locomotivă.",
       "sources": [
-        {"name": "Kyiv Independent — Train crew killed as Russian attacks kill at least 8, injure 50 across Ukraine over past day", "url": "https://kyivindependent.com/train-crew-killed-as-russian-attacks-kill-at-least-8-injure-50-across-ukraine-over-past-day/"},
-        {"name": "Ukrainska Pravda — detalii despre evacuarea pasagerilor", "url": "https://www.pravda.com.ua/eng/news/2026/08/13/8048493/"}
+        {
+          "name": "Kyiv Independent — Train crew killed as Russian attacks kill at least 8, injure 50 across Ukraine over past day",
+          "url": "https://kyivindependent.com/train-crew-killed-as-russian-attacks-kill-at-least-8-injure-50-across-ukraine-over-past-day/"
+        },
+        {
+          "name": "Ukrainska Pravda — detalii despre evacuarea pasagerilor",
+          "url": "https://www.pravda.com.ua/eng/news/2026/08/13/8048493/"
+        }
       ]
     },
     {
       "text": "Atacul asupra trenului face parte dintr-un val mai amplu: în noaptea premergătoare, Rusia a lansat 133 de drone Shahed asupra Ucrainei, din care apărarea antiaeriană ucraineană a interceptat 111. În ansamblu, atacurile din ultimele 24 de ore au provocat cel puțin 8 morți și 50 de răniți în mai multe regiuni ale țării, inclusiv Dnipropetrovsk și Zaporijjea — cifre care includ, dar nu se limitează la, cele două victime din atacul asupra trenului.",
       "sources": [
-        {"name": "Kyiv Independent — bilanțul atacurilor rusești din ultimele 24 de ore", "url": "https://kyivindependent.com/train-crew-killed-as-russian-attacks-kill-at-least-8-injure-50-across-ukraine-over-past-day/"}
+        {
+          "name": "Kyiv Independent — bilanțul atacurilor rusești din ultimele 24 de ore",
+          "url": "https://kyivindependent.com/train-crew-killed-as-russian-attacks-kill-at-least-8-injure-50-across-ukraine-over-past-day/"
+        }
       ]
     }
   ],
@@ -33,17 +48,29 @@
     {
       "text": "Nu am găsit, la data verificării, o reacție sau revendicare oficială din partea Rusiei privind acest atac specific asupra trenului — relatările despre tipul dronei (Shahed cu reacție) și despre caracterul ei deliberat provin din surse ucrainene (Ukrzaliznytsia, presa ucraineană). Cititorul poate urmări o eventuală poziție rusă pe canalele oficiale ale Ministerului rus al Apărării.",
       "sources": [
-        {"name": "Ukrainska Pravda — Russia struck a train in Odesa region with a jet-powered Shahed", "url": "https://www.pravda.com.ua/eng/news/2026/08/13/8048493/"}
+        {
+          "name": "Ukrainska Pravda — Russia struck a train in Odesa region with a jet-powered Shahed",
+          "url": "https://www.pravda.com.ua/eng/news/2026/08/13/8048493/"
+        }
       ]
     }
   ],
   "opinie": [
-    {"text": "Caracterizarea făcută de CEO-ul Ukrzaliznytsia, Oleksandr Pertsovskyi — „teroare zilnică groaznică și atac țintit asupra civililor” — este o interpretare oficială ucraineană a intenției din spatele atacului, nu un fapt verificat independent privind țintirea deliberată a infrastructurii civile. Faptele confirmate sunt traseul dronei, ora impactului și victimele; intenția exactă a atacatorilor rămâne, ca în general în asemenea cazuri, greu de stabilit cu certitudine din exterior."}
+    {
+      "text": "Caracterizarea făcută de CEO-ul Ukrzaliznytsia, Oleksandr Pertsovskyi — „teroare zilnică groaznică și atac țintit asupra civililor” — este o interpretare oficială ucraineană a intenției din spatele atacului, nu un fapt verificat independent privind țintirea deliberată a infrastructurii civile. Faptele confirmate sunt traseul dronei, ora impactului și victimele; intenția exactă a atacatorilor rămâne, ca în general în asemenea cazuri, greu de stabilit cu certitudine din exterior."
+    }
   ],
   "math": {
     "title": "Aproape 1 din 6 drone a trecut de apărarea antiaeriană",
     "explanation": "Din cele 133 de drone Shahed lansate de Rusia într-o singură noapte, 111 au fost interceptate — o rată de interceptare de aproximativ 83% (111/133). Rămân însă 22 de drone (17%) care au ajuns la țintă sau au provocat pagube, printre care cea care a lovit locomotiva din regiunea Odesa — suficient pentru a provoca cele 8 morți și 50 de răniți raportați în 24 de ore."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Kyiv Independent, Ukrainska Pravda, UNN); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Detaliile centrale (numărul de pasageri, cei doi morți, tipul de dronă, contextul celor 133 de drone) sunt confirmate concordant de mai multe redacții ucrainene independente.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/odesa-tren-drona-shahed-13-august.jpg\" alt=\"Shahed\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Shahed. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Geran-2_(Russian_Shahed_136)_Board.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Geran-2 (Russian Shahed 136) Board</a>\" de Ennolenze, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/odesa-tren-drona-shahed-13-august.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Ennolenze"
+  }
 }

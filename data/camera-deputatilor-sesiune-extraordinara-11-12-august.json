@@ -11,15 +11,27 @@
     {
       "text": "Biroul permanent al Camerei Deputaților a aprobat, joi, 6 august 2026, convocarea unei sesiuni extraordinare pentru zilele de 11 și 12 august 2026, în care deputații urmau să dezbată patru inițiative legislative — trei proiecte de lege și o propunere legislativă.",
       "sources": [
-        { "name": "AGERPRES — Camera Deputaților se reunește în sesiune extraordinară în zilele de 11 și 12 august", "url": "https://agerpres.ro/viata-parlamentara/2026/08/06/camera-deputatilor-se-reuneste-in-sesiune-extraordinara-in-zilele-de-11-si-12-august--1582877" },
-        { "name": "BURSA — Biroul permanent al Camerei Deputaților a convocat sesiune extraordinară pe 11 și 12 august", "url": "https://www.bursa.ro/biroul-permanent-al-camerei-deputatilor-a-convocat-sesiune-extraordinara-pe-11-si-12-august-23608951" }
+        {
+          "name": "AGERPRES — Camera Deputaților se reunește în sesiune extraordinară în zilele de 11 și 12 august",
+          "url": "https://agerpres.ro/viata-parlamentara/2026/08/06/camera-deputatilor-se-reuneste-in-sesiune-extraordinara-in-zilele-de-11-si-12-august--1582877"
+        },
+        {
+          "name": "BURSA — Biroul permanent al Camerei Deputaților a convocat sesiune extraordinară pe 11 și 12 august",
+          "url": "https://www.bursa.ro/biroul-permanent-al-camerei-deputatilor-a-convocat-sesiune-extraordinara-pe-11-si-12-august-23608951"
+        }
       ]
     },
     {
       "text": "Pe ordinea de zi se află: (1) modificarea Legii 7/2023 privind sprijinirea procesului de dezinstituționalizare a adulților cu dizabilități, adoptată de Senat pe 5 august, cu Camera Deputaților for decizional; (2) modificarea și completarea Ordonanței de urgență 6/2025 privind piețele de electricitate și gaze naturale, tot cu Camera drept for decizional; (3) o propunere legislativă pentru abrogarea articolului LIX din Legea 141/2025 (legea fiscal-bugetară) și modificarea articolului 208 din Legea învățământului preuniversitar nr. 198/2023, cu Camera Deputaților primă cameră sesizată; (4) modificarea Ordonanței de urgență 57/2019 — Codul administrativ, adoptată de Senat pe 30 iulie, cu Camera Deputaților for decizional.",
       "sources": [
-        { "name": "DailyBusiness — Camera Deputaților se va reuni într-o sesiune extraordinară pentru patru proiecte legislative", "url": "https://www.dailybusiness.ro/actualitate/camera-deputatilor-se-va-reuni-intr-o-sesiune-extraordinara-in-11-si-12-august-pentru-patru-proiecte-legislative-548305/" },
-        { "name": "Adevărul — Deputații, convocați în sesiune extraordinară pe 11 și 12 august", "url": "https://adevarul.ro/politica/deputatii-convocati-in-sesiune-extraordinara-pe-2548206.html" }
+        {
+          "name": "DailyBusiness — Camera Deputaților se va reuni într-o sesiune extraordinară pentru patru proiecte legislative",
+          "url": "https://www.dailybusiness.ro/actualitate/camera-deputatilor-se-va-reuni-intr-o-sesiune-extraordinara-in-11-si-12-august-pentru-patru-proiecte-legislative-548305/"
+        },
+        {
+          "name": "Adevărul — Deputații, convocați în sesiune extraordinară pe 11 și 12 august",
+          "url": "https://adevarul.ro/politica/deputatii-convocati-in-sesiune-extraordinara-pe-2548206.html"
+        }
       ]
     }
   ],
@@ -27,11 +39,21 @@
     {
       "text": "Sursele consultate (AGERPRES, DailyBusiness, Adevărul, BURSA) nu detaliază conținutul exact al modificării aduse articolului 208 din Legea învățământului preuniversitar prin abrogarea articolului LIX din Legea 141/2025 — nu am găsit, în articolele disponibile la momentul verificării, o explicație clară a efectului concret al acestei abrogări asupra unităților de învățământ. Rămâne un punct de urmărit până la publicarea textului final adoptat.",
       "sources": [
-        { "name": "DailyBusiness — cele patru proiecte, fără detalii pe efectul abrogării", "url": "https://www.dailybusiness.ro/actualitate/camera-deputatilor-se-va-reuni-intr-o-sesiune-extraordinara-in-11-si-12-august-pentru-patru-proiecte-legislative-548305/" }
+        {
+          "name": "DailyBusiness — cele patru proiecte, fără detalii pe efectul abrogării",
+          "url": "https://www.dailybusiness.ro/actualitate/camera-deputatilor-se-va-reuni-intr-o-sesiune-extraordinara-in-11-si-12-august-pentru-patru-proiecte-legislative-548305/"
+        }
       ]
     }
   ],
   "opinie": [],
   "aiNote": "Am agregat convocarea și ordinea de zi din patru surse concordante (AGERPRES, DailyBusiness, Adevărul, BURSA). Am marcat explicit la „Contestat” faptul că niciuna dintre sursele găsite nu explică efectul concret al abrogării articolului LIX din legea fiscal-bugetară asupra articolului 208 din legea educației — cititorul nu trebuie să presupună un impact anume până nu apare textul adoptat.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/camera-deputatilor-sesiune-extraordinara-11-12-august.png\" alt=\"Deputaților\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Deputaților. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chamber_Romania_after_2012_election.png\" rel=\"nofollow noopener\" target=\"_blank\">Chamber Romania after 2012 election</a>\" de ES Vic, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/camera-deputatilor-sesiune-extraordinara-11-12-august.png",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "ES Vic"
+  }
 }

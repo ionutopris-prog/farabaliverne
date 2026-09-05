@@ -11,15 +11,27 @@
     {
       "text": "Potrivit raportului Major Cities Chiefs Association (66 de agenții de aplicare a legii, ianuarie–iunie, comparație 2025 vs. 2026), omuciderile în marile orașe americane au scăzut de la 2.611 la 2.162 de cazuri — o scădere de aproximativ 17%. Au scăzut și violurile (13.277 → 12.449), jafurile (37.938 → 31.629) și agresiunile agravate (117.416 → 110.768), însumând aproape 14.200 de infracțiuni violente raportate în minus în șase luni.",
       "sources": [
-        {"name": "Deseret News — Violent crime rates across the country are down; White House credits Trump policy", "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"},
-        {"name": "The White House — ICYMI: Violent crime keeps falling in biggest U.S. cities", "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/"}
+        {
+          "name": "Deseret News — Violent crime rates across the country are down; White House credits Trump policy",
+          "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"
+        },
+        {
+          "name": "The White House — ICYMI: Violent crime keeps falling in biggest U.S. cities",
+          "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/"
+        }
       ]
     },
     {
       "text": "Casa Albă a atribuit scăderea „agendei de lege și ordine” a președintelui Donald Trump, citând în comunicat scăderi punctuale de omucideri de 43,9% în Washington DC, 43,7% în Memphis și aproape 25% în New Orleans, și a legat rezultatele de „surse federale și sprijinul Gărzii Naționale” trimise în orașe conduse de democrați.",
       "sources": [
-        {"name": "The White House — comunicatul oficial care citează cifrele pe orașe", "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/"},
-        {"name": "Deseret News — citează atribuirea oficială Casei Albe", "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"}
+        {
+          "name": "The White House — comunicatul oficial care citează cifrele pe orașe",
+          "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/"
+        },
+        {
+          "name": "Deseret News — citează atribuirea oficială Casei Albe",
+          "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"
+        }
       ]
     }
   ],
@@ -27,19 +39,28 @@
     {
       "text": "Cercetătorii de la Council on Criminal Justice (CCJ) avertizează că „niciun succes sau eșec al vreunei politici” nu poate fi izolat drept factor unic, iar analiștii subliniază că tendința de scădere a criminalității a început încă din 2022, sub administrația Biden, ca urmare a revenirii de după vârful din pandemie — cu mult înainte de revenirea lui Trump la Casa Albă în 2025.",
       "sources": [
-        {"name": "Deseret News — cercetătorii Criminal Justice Policy despre cauzele multiple ale declinului", "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"}
+        {
+          "name": "Deseret News — cercetătorii Criminal Justice Policy despre cauzele multiple ale declinului",
+          "url": "https://www.deseret.com/u-s-world/2026/08/12/violent-crime-rates-across-the-country-are-down-white-house-credits-trump-policy/"
+        }
       ]
     },
     {
       "text": "Investigația NOTUS a arătat că, într-un comunicat separat, Casa Albă a susținut că „cele mai abrupte scăderi de omucideri au venit din orașele în care Administrația Trump a intervenit”, citând Memphis, New Orleans, Los Angeles și Washington DC — dar raportul CCJ la care făcea referire nu susține asta: cea mai mare scădere a fost în Lincoln, Nebraska (nemenționat de Casa Albă), Washington DC a ieșit pe locul 6, Los Angeles pe locul 17, iar Memphis și New Orleans nici măcar nu erau incluse în raportul CCJ (Memphis a fost exclus pentru anomalii statistice, New Orleans nu a făcut parte din analiza celor 36 de orașe).",
       "sources": [
-        {"name": "NOTUS — Trump's Claims About Combating Crime Are Based on Skewed Data", "url": "https://www.notus.org/trump-white-house/trump-claims-crime-skewed-data"}
+        {
+          "name": "NOTUS — Trump's Claims About Combating Crime Are Based on Skewed Data",
+          "url": "https://www.notus.org/trump-white-house/trump-claims-crime-skewed-data"
+        }
       ]
     },
     {
       "text": "Analistul independent de criminalitate Jeff Asher, ale cărui cifre separate au fost folosite tot de Casa Albă (Memphis -43,3%, New Orleans -32,1% în 2026), a criticat el însuși interpretarea Casei Albe, numind-o o „afirmație incorectă” — chiar autorul datelor citate contestă modul în care acestea au fost folosite pentru a susține narativul „efectul Trump”.",
       "sources": [
-        {"name": "NOTUS — reacția analistului Jeff Asher", "url": "https://www.notus.org/trump-white-house/trump-claims-crime-skewed-data"}
+        {
+          "name": "NOTUS — reacția analistului Jeff Asher",
+          "url": "https://www.notus.org/trump-white-house/trump-claims-crime-skewed-data"
+        }
       ]
     }
   ],
@@ -49,5 +70,15 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană de investigație și analiză a datelor. Scăderea criminalității violente e un fapt susținut de mai multe rapoarte independente (Major Cities Chiefs Association, CCJ, Jeff Asher) — nu contestăm asta. Ce am marcat drept contestat e atribuirea acestei scăderi „efectului Trump” și felul selectiv în care Casa Albă a citat orașe și rapoarte: NOTUS a arătat, cu date verificabile, că cifrele pe orașe individuale au fost prezentate denaturat. Nu spunem că Trump „a mințit” — arătăm exact unde comunicatul Casei Albe nu se potrivește cu raportul pe care îl citează.",
-  "persoane": ["Donald Trump", "Mike Johnson"]
+  "persoane": [
+    "Donald Trump",
+    "Mike Johnson"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-criminalitate-trump-effect-cifre-contestate.jpg\" alt=\"Albă\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Albă. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ardea alba modesta composite - Gould's Lagoon</a>\" de JJ Harrison (https://www.jjharrison.com.au/), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-criminalitate-trump-effect-cifre-contestate.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "JJ Harrison (https://www.jjharrison.com.au/)"
+  }
 }

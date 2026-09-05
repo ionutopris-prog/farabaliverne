@@ -11,25 +11,37 @@
     {
       "text": "Potrivit estimării avansate a Biroului de Analiză Economică al SUA (BEA), publicată pe 30 iulie 2026, PIB-ul real al Statelor Unite a crescut cu o rată anualizată de 1,5% în trimestrul al doilea din 2026 (aprilie–iunie), față de 2,1% în trimestrul întâi — o încetinire clară a ritmului de creștere.",
       "sources": [
-        {"name": "BEA — GDP (Advance Estimate), 2nd Quarter 2026: 1.5% vs 2.1% în T1", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"}
+        {
+          "name": "BEA — GDP (Advance Estimate), 2nd Quarter 2026: 1.5% vs 2.1% în T1",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+        }
       ]
     },
     {
       "text": "Potrivit comunicatului BEA, creșterea PIB-ului în trimestrul 2 a fost susținută de accelerarea cheltuielilor de consum, dar acest efect a fost parțial compensat de o scădere a cheltuielilor guvernamentale și de o încetinire atât a investițiilor, cât și a exporturilor. Importurile, care se scad din calculul PIB, au crescut.",
       "sources": [
-        {"name": "BEA — contribuțiile la creșterea PIB în T2 2026", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"}
+        {
+          "name": "BEA — contribuțiile la creșterea PIB în T2 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+        }
       ]
     },
     {
       "text": "Cifra de 1,5% a fost sub cifra de consens a economiștilor sondați de LSEG, care anticipau o creștere de 2,1% pentru trimestrul al doilea — deci ratarea nu e doar față de trimestrul anterior, ci și față de așteptările pieței.",
       "sources": [
-        {"name": "Fox Business — economiștii sondați de LSEG anticipau 2,1%, față de 1,5% real", "url": "https://www.foxbusiness.com/economy/us-economy-q2-2026-advance"}
+        {
+          "name": "Fox Business — economiștii sondați de LSEG anticipau 2,1%, față de 1,5% real",
+          "url": "https://www.foxbusiness.com/economy/us-economy-q2-2026-advance"
+        }
       ]
     },
     {
       "text": "Datele publicate la 30 iulie 2026 sunt o „estimare avansată” (advance estimate) — prima dintre cele trei versiuni pe care BEA le publică pentru fiecare trimestru. Următoarea revizuire, cu date suplimentare despre profiturile corporative, este programată pentru 26 august 2026 și poate modifica ușor cifra de 1,5%.",
       "sources": [
-        {"name": "BEA — programul revizuirilor GDP, următoarea pe 26 august 2026", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"}
+        {
+          "name": "BEA — programul revizuirilor GDP, următoarea pe 26 august 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+        }
       ]
     }
   ],
@@ -37,8 +49,14 @@
     {
       "text": "Nu există un consens unic despre cât de mare a fost „ratarea” față de așteptări — sondajul LSEG citat de Fox Business indică o așteptare de 2,1%, dar alte sondaje de piață au circulat cu cifre ușor diferite (unele sub 2%), pentru că estimările de consens vin din chestionare private, diferite ca eșantion și metodologie, nu dintr-o cifră oficială publicată de guvern.",
       "sources": [
-        {"name": "Fox Business — sondaj LSEG: 2,1% așteptat", "url": "https://www.foxbusiness.com/economy/us-economy-q2-2026-advance"},
-        {"name": "BEA — comunicatul oficial nu conține o cifră de „așteptări de piață”", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"}
+        {
+          "name": "Fox Business — sondaj LSEG: 2,1% așteptat",
+          "url": "https://www.foxbusiness.com/economy/us-economy-q2-2026-advance"
+        },
+        {
+          "name": "BEA — comunicatul oficial nu conține o cifră de „așteptări de piață”",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+        }
       ]
     }
   ],
@@ -48,5 +66,12 @@
     "text": "Cu 2,1% în trimestrul 1 și 1,5% în trimestrul 2, media aproximativă a creșterii pentru prima jumătate a lui 2026 este de aproximativ 1,8% anualizat — sub ritmul de peste 2% considerat de mulți economiști drept „potențialul” de creștere pe termen lung al economiei americane. Diferența dintre cifra așteptată (2,1%) și cea reală (1,5%) este de 0,6 puncte procentuale, adică o ratare de aproximativ 29% față de așteptări."
   },
   "aiNote": "🤖 Cifrele centrale (1,5% în T2, față de 2,1% în T1) vin direct din comunicatul oficial al Biroului de Analiză Economică al SUA (BEA), sursa primară pentru datele PIB american. Cifra de consens a analiștilor (2,1% așteptat) e confirmată de Fox Business, care citează un sondaj LSEG separat de datele guvernamentale. Am marcat explicit că datele sunt o estimare avansată, supusă revizuirii pe 26 august 2026 — cititorul poate verifica atunci cifra finală direct pe bea.gov.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-pib-t2-2026-incetinire-1-5-procente.jpg\" alt=\"New York Stock Exchange Wall Street\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — New York Stock Exchange Wall Street. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Wall_Street_--_2012_--_6614.jpg\" rel=\"nofollow noopener\" target=\"_blank\">New York City (New York, USA), Wall Street -- 2012 -- 6614</a>\" de Dietmar Rabich, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-pib-t2-2026-incetinire-1-5-procente.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Dietmar Rabich"
+  }
 }

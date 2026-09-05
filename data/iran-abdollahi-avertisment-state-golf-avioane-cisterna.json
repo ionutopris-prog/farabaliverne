@@ -72,5 +72,12 @@
   "opinie": [],
   "math": "",
   "aiNote": "📡 Sursa inițială a acestei relatări e Press TV, media de stat iraniană — o etichetăm ca atare. Ce se probează independent, dincolo de ecosistemul de stat: declarația a fost emisă chiar de generalul-maior Ali Abdollahi pe contul său de X, iar conținutul exact al mesajului e confirmat de agenții de presă din afara Iranului — ANI (India), The Tribune (India) și Aaj English TV (Pakistan) — deci FAPTUL că această amenințare a fost formulată, în acești termeni, de acest oficial, la această dată, e solid stabilit. Ce rămâne doar afirmația lui Abdollahi, nu un fapt verificat independent: că statele din Golf „știu” despre prezența avioanelor-cisternă americane și ar tolera-o tacit — el însuși prezintă asta ca deducție logică, nu ca dovadă documentată (nu a arătat, de exemplu, imagini satelitare sau date de zbor). De asemenea, nu a numit nicio țară anume, iar niciun stat din Golf nu a răspuns public. Cititorul ar trebui să separe cele două niveluri: (1) e un fapt că Iranul a emis acest avertisment; (2) rămâne o afirmație neconfirmată dacă vreun stat din Golf oferă efectiv sprijinul descris. Ce ar schimba concluzia: o confirmare sau negare oficială din partea unui stat din Golf, sau dovezi publice (radar, imagini) despre activitatea aeronavelor americane citate de Abdollahi.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iran-abdollahi-avertisment-state-golf-avioane-cisterna.jpg\" alt=\"Statului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Statului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Arhivele_statului_roman.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Arhivele statului roman</a>\" de Korinna, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 ro</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iran-abdollahi-avertisment-state-golf-avioane-cisterna.jpg",
+    "licenta": "CC BY-SA 3.0 ro",
+    "autor": "Korinna"
+  }
 }

@@ -94,5 +94,12 @@
     "explanation": "Cu 50 de voturi „pentru” și 49 „împotrivă” într-un Senat cu 100 de locuri, confirmarea lui Blanche a trecut cu o majoritate de doar un vot peste pragul de egalitate 49-49. Dacă un singur senator republican ar fi votat diferit, scorul ar fi fost 49-50 și nominalizarea ar fi picat — ceea ce arată cât de strânsă a fost decizia, deși Senatul e controlat de partidul care l-a susținut pe Blanche."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. PBS NewsHour și Al Jazeera confirmă concordant scorul votului (50-49), cine e Blanche și pe cine înlocuiește. Rămân neclare, din sursele consultate: detaliile exacte ale concesiilor făcute de Blanche pentru a obține confirmarea și impactul practic pe care independența anunțată a Departamentului de Justiție îl va avea în deciziile viitoare.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/todd-blanche-procuror-general-sua.jpg\" alt=\"United States Department of Justice building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — United States Department of Justice building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2014-04-04-Robert-F-Kennedy-Department-of-Justice-Building-Washington-DC.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2014-04-04-Robert-F-Kennedy-Department-of-Justice-Building-Washington-DC</a>\" de Gunnar Klack, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/todd-blanche-procuror-general-sua.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Gunnar Klack"
+  }
 }

@@ -86,5 +86,12 @@
     "explanation": "9.623 candidați promovați din 28.481 prezenți la examen dau 33,79% ≈ 33,8% — cifra vehiculată în presă. Dar raportat la totalul celor 33.455 înscriși inițial la sesiunea de toamnă, procentul scade la 28,76% — aproape identic cu rata de promovare din 2025 (28,4%). Diferența arată că o parte importantă din creșterea „recordului” vine din rata mai mică de absenteism/eliminări (85,1% prezență), nu doar din note mai bune per candidat prezent."
   },
   "aiNote": "Sursele independente (Digi24, HotNews, Antena3 CNN, PSNews) confirmă în mod concordant faptul central: rata de promovare la BAC 2026, sesiunea de toamnă, calculată din candidații prezenți, a fost 33,8% — mai mare decât în 2025 (28,4%). Rămân două rezerve: (1) formularea „record” variază ca interval de timp între redacții (12, 15 sau doar 2 sesiuni, în funcție de sursă), fără o serie statistică oficială citată integral; (2) cifra absolută a candidaților promovați (9.623) apare doar într-o singură sursă. Cititorul poate verifica seria istorică oficială pe edu.ro sau bacalaureat.edu.ro.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bacalaureat-toamna-2026-rata-promovare-record.jpg\" alt=\"school exam classroom students writing\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — school exam classroom students writing. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Students_writing_in_class.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Students writing in class</a>\" de Gumah1, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bacalaureat-toamna-2026-rata-promovare-record.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Gumah1"
+  }
 }

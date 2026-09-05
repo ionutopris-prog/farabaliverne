@@ -11,22 +11,40 @@
     {
       "text": "Comandamentul de Teatru Sudic al PLA a confirmat, printr-un purtător de cuvânt (Zhai Shichen), că forțele sale navale și aeriene au desfășurat o „patrulă de rutină” în Marea Chinei de Sud între vineri și marți (22-26 august 2026). Declarația a fost relatată concordant de trei publicații de stat chineze separate — Global Times, Xinhua și China Daily — ceea ce confirmă că poziția a fost efectiv exprimată public de armata chineză.",
       "sources": [
-        { "name": "Global Times (media de stat) — PLA Southern Theater Command spokesperson slams Philippines", "url": "https://www.globaltimes.cn/page/202608/1369041.shtml" },
-        { "name": "Xinhua (media de stat) — PLA conducts routine naval-air patrol in South China Sea", "url": "https://english.news.cn/20260826/05815167cd3940dfb5a166c0bc7c582d/c.html" },
-        { "name": "China Daily (media de stat) — PLA responds to Philippines' provocations in South China Sea", "url": "https://www.chinadaily.com.cn/a/202608/26/WS6a8e5f42e4b06d4aa055a8af.html" }
+        {
+          "name": "Global Times (media de stat) — PLA Southern Theater Command spokesperson slams Philippines",
+          "url": "https://www.globaltimes.cn/page/202608/1369041.shtml"
+        },
+        {
+          "name": "Xinhua (media de stat) — PLA conducts routine naval-air patrol in South China Sea",
+          "url": "https://english.news.cn/20260826/05815167cd3940dfb5a166c0bc7c582d/c.html"
+        },
+        {
+          "name": "China Daily (media de stat) — PLA responds to Philippines' provocations in South China Sea",
+          "url": "https://www.chinadaily.com.cn/a/202608/26/WS6a8e5f42e4b06d4aa055a8af.html"
+        }
       ]
     },
     {
       "text": "Separat, pe 21 august 2026, PLA a susținut că a urmărit și avertizat trei avioane mici filipineze (un Islander, un C-208 și un PA-31T) pentru „intrare ilegală” în spațiul aerian de deasupra Scarborough Shoal (Huangyan Dao), fără aprobarea Beijingului. Agenția Reuters a relatat afirmația chineză, dar a precizat că ambasada Filipinelor la Beijing nu a răspuns imediat solicitării de comentariu — deci varianta filipineză a evenimentului nu a fost, la momentul relatării, confirmată independent.",
       "sources": [
-        { "name": "Reuters (via Internazionale) — China says Philippine aircraft 'intrude into' airspace over Scarborough Shoal", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/21/china-says-philippine-aircraft-intrude-into-airspace-over-scarborough-shoal" },
-        { "name": "Xinhua (media de stat) — China warns Philippines over aircraft trespassing Huangyan Dao", "url": "https://english.news.cn/20260821/5a6af3fb2fce4a55ac853efef3e22b85/c.html" }
+        {
+          "name": "Reuters (via Internazionale) — China says Philippine aircraft 'intrude into' airspace over Scarborough Shoal",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/21/china-says-philippine-aircraft-intrude-into-airspace-over-scarborough-shoal"
+        },
+        {
+          "name": "Xinhua (media de stat) — China warns Philippines over aircraft trespassing Huangyan Dao",
+          "url": "https://english.news.cn/20260821/5a6af3fb2fce4a55ac853efef3e22b85/c.html"
+        }
       ]
     },
     {
       "text": "Activitățile pe care Beijingul le numește „așa-zise patrule comune” corespund unor exerciții multilaterale reale, anunțate public din timp de părțile occidentale — de exemplu exercițiul Japonia-Filipine-SUA din 21-25 iulie 2026 în Marea Chinei de Sud, documentat oficial de marina americană, sau exercițiul cvadrilateral cu Australia din aceeași perioadă. Nu sunt „patrule secrete” — sunt cooperări militare declarate, cu nave și avioane identificate public.",
       "sources": [
-        { "name": "The Japan Times — Japan, Philippines and the U.S. complete exercises in South China Sea", "url": "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/" }
+        {
+          "name": "The Japan Times — Japan, Philippines and the U.S. complete exercises in South China Sea",
+          "url": "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/"
+        }
       ]
     }
   ],
@@ -34,29 +52,56 @@
     {
       "text": "Etichetele „provocare” și „intrare ilegală” presupun că Beijingul are suveranitate necontestată asupra Scarborough Shoal (Huangyan Dao) — premisă disputată, nu fapt stabilit. Un tribunal constituit sub UNCLOS a decis în 2016, într-un caz introdus de Filipine, că revendicările chineze bazate pe „linia în nouă puncte” nu au temei legal în zonă; China a respins hotărârea de atunci și nu o aplică. Așadar, a numi survolul unor avioane filipineze deasupra unei zone pe care Filipine o consideră a ei drept „intrare ilegală” în „spațiul aerian chinezesc” e formularea unei părți aflate în dispută, nu un fapt verificat independent.",
       "sources": [
-        { "name": "Al Jazeera (2016) — „Niciun temei legal” pentru revendicările Chinei", "url": "https://www.aljazeera.com/news/2016/7/13/no-legal-basis-for-chinas-south-china-sea-claims" },
-        { "name": "Reuters (via Internazionale) — relatare fără confirmare independentă a versiunii chineze", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/21/china-says-philippine-aircraft-intrude-into-airspace-over-scarborough-shoal" }
+        {
+          "name": "Al Jazeera (2016) — „Niciun temei legal” pentru revendicările Chinei",
+          "url": "https://www.aljazeera.com/news/2016/7/13/no-legal-basis-for-chinas-south-china-sea-claims"
+        },
+        {
+          "name": "Reuters (via Internazionale) — relatare fără confirmare independentă a versiunii chineze",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/21/china-says-philippine-aircraft-intrude-into-airspace-over-scarborough-shoal"
+        }
       ]
     },
     {
       "text": "Nu e prima dată în 2026 când PLA folosește exact acest tipar — „patrulă de rutină” + acuzație că Filipinele „cooptă state din afara regiunii” pentru „așa-zise patrule comune”. Global Times a publicat declarații aproape identice în aprilie și în iulie 2026, de fiecare dată cu ocazia unor exerciții militare comune anunțate public de Filipine, SUA, Japonia sau Australia. Repetarea nu dovedește că afirmația e falsă, dar arată un tipar retoric constant, nu un răspuns punctual la un incident nou.",
       "sources": [
-        { "name": "Global Times (media de stat) — declarație similară, iulie 2026", "url": "https://www.globaltimes.cn/page/202607/1366848.shtml" },
-        { "name": "Global Times (media de stat) — declarație similară, aprilie 2026", "url": "https://www.globaltimes.cn/page/202604/1360005.shtml" }
+        {
+          "name": "Global Times (media de stat) — declarație similară, iulie 2026",
+          "url": "https://www.globaltimes.cn/page/202607/1366848.shtml"
+        },
+        {
+          "name": "Global Times (media de stat) — declarație similară, aprilie 2026",
+          "url": "https://www.globaltimes.cn/page/202604/1360005.shtml"
+        }
       ]
     }
   ],
   "opinie": [
-    { "text": "Dacă exercițiile militare americano-filipineze-japoneze sunt „cooperare defensivă legitimă” sau „interferență străină care destabilizează regiunea” este o apreciere strategică și politică, nu un fapt verificabil — depinde de unde stă fiecare parte în disputa mai largă de suveranitate din Marea Chinei de Sud." }
+    {
+      "text": "Dacă exercițiile militare americano-filipineze-japoneze sunt „cooperare defensivă legitimă” sau „interferență străină care destabilizează regiunea” este o apreciere strategică și politică, nu un fapt verificabil — depinde de unde stă fiecare parte în disputa mai largă de suveranitate din Marea Chinei de Sud."
+    }
   ],
   "math": {
     "title": "A treia declarație identică în 2026, nu un răspuns la un incident izolat",
     "explanation": "Numărând doar aparițiile publice găsite în presa de stat chineză: aprilie 2026, iulie 2026 și acum august 2026 — de trei ori într-un singur an, Comandamentul de Teatru Sudic al PLA a anunțat o „patrulă de rutină” însoțită de aceeași acuzație, că Filipinele „cooptă state din afara regiunii” pentru „așa-zise patrule comune”. De fiecare dată, declarația a coincis cu un exercițiu militar multilateral anunțat public în avans de partea americano-filipineză (nu descoperit ulterior de Beijing). Tiparul repetat sugerează o poziție de comunicare pregătită dinainte pentru orice exercițiu comun din regiune, nu o reacție la un eveniment specific și neașteptat.",
     "sources": [
-      { "name": "Global Times (media de stat) — declarație similară, iulie 2026", "url": "https://www.globaltimes.cn/page/202607/1366848.shtml" },
-      { "name": "Global Times (media de stat) — declarație similară, aprilie 2026", "url": "https://www.globaltimes.cn/page/202604/1360005.shtml" }
+      {
+        "name": "Global Times (media de stat) — declarație similară, iulie 2026",
+        "url": "https://www.globaltimes.cn/page/202607/1366848.shtml"
+      },
+      {
+        "name": "Global Times (media de stat) — declarație similară, aprilie 2026",
+        "url": "https://www.globaltimes.cn/page/202604/1360005.shtml"
+      }
     ]
   },
   "aiNote": "📡 Atenție: sursa de pornire este presă/armată de stat. Am rezumat ce SUSȚIN Global Times, Xinhua și China Daily (media de stat din R.P. Chineză) — că patrulele PLA din 22-26 august sunt un răspuns „de rutină” la „așa-zise patrule comune” filipineze, și că trei avioane filipineze au „intrat ilegal” pe 21 august în spațiul aerian de la Scarborough Shoal. Am pus alături relatarea Reuters (care redă afirmația chineză fără confirmare independentă din partea filipineză) și contextul juridic al zonei.\n\nUnde se despart sursele: nu presa internațională contestă faptul că declarațiile chineze au fost făcute — asta e confirmat. Se contestă premisa din spatele cuvintelor „ilegal” și „provocare”: ele presupun suveranitate chineză necontestată asupra Scarborough Shoal, pe care hotărârea UNCLOS din 2016 (respinsă de Beijing, dar niciodată anulată) nu o susține. În plus, exercițiile numite „așa-zise patrule comune” sunt, de fapt, cooperări militare anunțate public din timp de SUA, Japonia, Filipine și Australia — nu acțiuni ascunse descoperite de China.\n\nCe lipsește: o reacție oficială a guvernului filipinez la declarația din 26 august (ambasada de la Beijing nu răspunsese, la ora relatării Reuters, nici la solicitarea legată de incidentul din 21 august) și date de la o autoritate de trafic aerian independentă privind traiectoria exactă a celor trei aeronave filipineze.\n\nCe ar schimba concluzia: o reacție documentată a Manilei, sau înregistrări radar/AIS independente ale zborurilor din 21 august, ar permite verificarea directă a variantei chineze — în lipsa lor, rămâne afirmația unei părți aflate în dispută teritorială activă.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-pla-filipine-patrule-scarborough-provocari.jpg\" alt=\"Filipine\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Filipine. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Banaue_Philippines_Batad-Rice-Terraces-03.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Banaue Philippines Batad-Rice-Terraces-03</a>\" de CEphoto, Uwe Aranas, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-pla-filipine-patrule-scarborough-provocari.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "CEphoto, Uwe Aranas"
+  }
 }

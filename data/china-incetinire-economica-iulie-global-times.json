@@ -83,5 +83,12 @@
     }
   ],
   "aiNote": "🤖 Global Times (media de stat, China) a promovat pe larg cifra de creștere a PIB-ului pe S1 2026 (+4,7%) ca dovadă de reziliență economică, la începutul lunii iulie. NU prezentăm această poziție ca fapt stabilit — o punem alături de datele oficiale mai recente ale NBS (publicate pe 17 august și relatate de presă independentă din Singapore și Malaysia), care arată că, în iulie, producția industrială, vânzările cu amănuntul și investițiile au încetinit sub estimările analiștilor. Cifrele de bază coincid acolo unde se suprapun (trimestrul 2: 4,3%, cel mai slab ritm din ultimii ~3,5 ani) — diferența e de accent și de moment al publicării, nu o contrazicere directă a datelor. Cititorul trage concluzia asupra cât de „rezilientă” arată, de fapt, imaginea de ansamblu.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-incetinire-economica-iulie-global-times.jpg\" alt=\"Times\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Times. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2017_Smog_nad_Now%C4%85_Rud%C4%85.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2017 Smog nad Nową Rudą</a>\" de Jacek Halicki, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-incetinire-economica-iulie-global-times.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Jacek Halicki"
+  }
 }

@@ -1,59 +1,90 @@
 {
- "slug": "moldova-tofan-compensatii-iarna-80-la-suta-gospodarii",
- "title": "Premierul Tofan: „Nu cred că vom putea ajuta 80% dintre gospodării” cu compensații la energie, în iarna care vine",
- "category": "Economie",
- "tara": "Moldova",
- "date": "2026-08-31",
- "source": "NewsMaker.md / Realitatea.md / Bani.md",
- "url": "https://newsmaker.md/ro/tofan-nu-cred-c%C4%83-vom-putea-ajuta-80-dintre-gospod%C4%83rii-cu-compensa%C8%9Bii-%C3%AEn-aceast%C4%83-iarn%C4%83",
- "dek": "Pe 25 august 2026, premierul Vasile Tofan a spus că statul ar avea nevoie de 3,8 miliarde de lei pentru a compensa integral scumpirile la energie din iarna 2026-2027 — bani pe care nu îi are — și că nu crede că guvernul va putea sprijini, ca anul trecut, circa 80% dintre gospodării. O zi mai târziu, ministra Finanțelor a spus că nu poate încă da cifre. Punem alături ce s-a promis anul trecut, ce s-a dat efectiv și ce se anunță acum.",
- "mainVerdict": "Probat, cu rezerve",
- "probat": [
-  {
-   "text": "Premierul Vasile Tofan a declarat, pe 25 august 2026: „Evident, noi banii aceștia nu îi avem. Provocarea pentru guvernul nostru este cum îi ajutăm pe acei care au cel mai mult nevoie” și, despre acoperirea din anii trecuți: „nu cred că o să putem ajuta 80 la sută din gospodării, dar eu cred că cel puțin oamenii care au necesitate cel mai mult”.",
-   "sources": [
-    {"name": "NewsMaker.md — Premierul Vasile Tofan: „Nu cred că vom putea ajuta 80% dintre gospodării”", "url": "https://newsmaker.md/ro/tofan-nu-cred-c%C4%83-vom-putea-ajuta-80-dintre-gospod%C4%83rii-cu-compensa%C8%9Bii-%C3%AEn-aceast%C4%83-iarn%C4%83"},
-    {"name": "Realitatea.md — Tofan: „Nu avem 3,8 mlrd de lei și nu vom putea ajuta 80% dintre gospodării”", "url": "https://realitatea.md/premierul-vasile-tofan-despre-compensatii-nu-avem-38-mlrd-de-lei-si-nu-vom-putea-ajuta-80-dintre-gospodarii/"}
-   ]
+  "slug": "moldova-tofan-compensatii-iarna-80-la-suta-gospodarii",
+  "title": "Premierul Tofan: „Nu cred că vom putea ajuta 80% dintre gospodării” cu compensații la energie, în iarna care vine",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-08-31",
+  "source": "NewsMaker.md / Realitatea.md / Bani.md",
+  "url": "https://newsmaker.md/ro/tofan-nu-cred-c%C4%83-vom-putea-ajuta-80-dintre-gospod%C4%83rii-cu-compensa%C8%9Bii-%C3%AEn-aceast%C4%83-iarn%C4%83",
+  "dek": "Pe 25 august 2026, premierul Vasile Tofan a spus că statul ar avea nevoie de 3,8 miliarde de lei pentru a compensa integral scumpirile la energie din iarna 2026-2027 — bani pe care nu îi are — și că nu crede că guvernul va putea sprijini, ca anul trecut, circa 80% dintre gospodării. O zi mai târziu, ministra Finanțelor a spus că nu poate încă da cifre. Punem alături ce s-a promis anul trecut, ce s-a dat efectiv și ce se anunță acum.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Premierul Vasile Tofan a declarat, pe 25 august 2026: „Evident, noi banii aceștia nu îi avem. Provocarea pentru guvernul nostru este cum îi ajutăm pe acei care au cel mai mult nevoie” și, despre acoperirea din anii trecuți: „nu cred că o să putem ajuta 80 la sută din gospodării, dar eu cred că cel puțin oamenii care au necesitate cel mai mult”.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — Premierul Vasile Tofan: „Nu cred că vom putea ajuta 80% dintre gospodării”",
+          "url": "https://newsmaker.md/ro/tofan-nu-cred-c%C4%83-vom-putea-ajuta-80-dintre-gospod%C4%83rii-cu-compensa%C8%9Bii-%C3%AEn-aceast%C4%83-iarn%C4%83"
+        },
+        {
+          "name": "Realitatea.md — Tofan: „Nu avem 3,8 mlrd de lei și nu vom putea ajuta 80% dintre gospodării”",
+          "url": "https://realitatea.md/premierul-vasile-tofan-despre-compensatii-nu-avem-38-mlrd-de-lei-si-nu-vom-putea-ajuta-80-dintre-gospodarii/"
+        }
+      ]
+    },
+    {
+      "text": "Tofan a explicat cifra de 3,8 miliarde de lei ca fiind costul estimat pentru a compensa integral, la nivelul întregii populații, creșterile de preț la energie din acest sezon rece — sumă pe care a spus explicit că statul nu o are.",
+      "sources": [
+        {
+          "name": "Bani.md — „Nu ne mai permitem.” Tofan spune că majoritatea moldovenilor ar putea rămâne fără compensații la energie",
+          "url": "https://bani.md/nu-ne-mai-permitem-tofan-spune-ca-majoritatea-moldovenilor-ar-putea-ramane-fara-compensatii-la-energie/"
+        }
+      ]
+    },
+    {
+      "text": "În sezonul rece 2025-2026, din circa 800.000 de gospodării eligibile, aproximativ 621.000 au primit efectiv compensații — circa 78%, cifra la care s-a referit premierul ca reper („80%”) pentru comparație cu acest an. Cu un an înainte, în 2023, din aproape 900.000 de cereri, 895.000 de gospodării primiseră ajutor.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — datele despre compensațiile din anii anteriori",
+          "url": "https://newsmaker.md/ro/tofan-nu-cred-c%C4%83-vom-putea-ajuta-80-dintre-gospod%C4%83rii-cu-compensa%C8%9Bii-%C3%AEn-aceast%C4%83-iarn%C4%83"
+        }
+      ]
+    },
+    {
+      "text": "O zi mai târziu, pe 26 august 2026, ministra Finanțelor, Victoria Belous, a declarat că autoritățile nu au stabilit încă nici valoarea compensațiilor pentru acest sezon rece, nici numărul de beneficiari: „Bugetul variază în funcție de pe ce criterii vom aloca aceste compensații” și „Acum nu putem să dăm cifre”. Guvernul a spus că analizează mai multe scenarii de acoperire (concentrate pe 30%, 40% sau 50% dintre gospodăriile cele mai vulnerabile) și negociază granturi cu partenerii europeni.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — Compensații pentru iarna 2026-2027. Ministra Finanțelor: „Acum nu putem să dăm cifre”",
+          "url": "https://newsmaker.md/ro/compensatii-pentru-iarna-2026-2027-ministra-finantelor-acum-nu-putem-sa-dam-cifre-video"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu se probează încă niciun criteriu final de eligibilitate. Guvernul vorbește despre variante — 30%, 40% sau 50% din gospodării — dar nici premierul, nici ministra Finanțelor nu au anunțat, la data acestui articol, care variantă a fost aleasă sau ce prag de venit ar defini „cei mai vulnerabili”. Orice cifră concretă vehiculată în spațiul public despre câți oameni vor primi ajutor rămâne, deocamdată, un scenariu, nu o decizie.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — scenariile aflate în discuție",
+          "url": "https://newsmaker.md/ro/compensatii-pentru-iarna-2026-2027-ministra-finantelor-acum-nu-putem-sa-dam-cifre-video"
+        }
+      ]
+    },
+    {
+      "text": "Nu se poate stabili din declarațiile publice câtă parte din cei 3,8 miliarde de lei ar putea fi acoperită din granturile europene aflate în negociere, pentru că nicio sumă sau condiție a acestor granturi nu a fost făcută publică până la data articolului.",
+      "sources": [
+        {
+          "name": "Bani.md — negocierile pentru granturi europene, fără cifre publice",
+          "url": "https://bani.md/nu-ne-mai-permitem-tofan-spune-ca-majoritatea-moldovenilor-ar-putea-ramane-fara-compensatii-la-energie/"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "621.000 din ~800.000 = circa 78%, rotunjit de premier la „80%”",
+    "text": "Anul trecut au primit efectiv compensații 621.000 de gospodării dintr-un total de circa 800.000 eligibile — adică 621.000 ÷ 800.000 ≈ 0,776, deci aproximativ 78%. E procentul pe care premierul Tofan îl rotunjește la „80%” când spune că nu crede că îl va putea repeta anul acesta. Diferența dintre 78% și „80%” e neglijabilă; ce contează e că, la acest nivel de acoperire, tot rămâneau descoperite circa 179.000 de gospodării — iar anul acesta pragul anunțat e sub acest nivel deja incomplet."
   },
-  {
-   "text": "Tofan a explicat cifra de 3,8 miliarde de lei ca fiind costul estimat pentru a compensa integral, la nivelul întregii populații, creșterile de preț la energie din acest sezon rece — sumă pe care a spus explicit că statul nu o are.",
-   "sources": [
-    {"name": "Bani.md — „Nu ne mai permitem.” Tofan spune că majoritatea moldovenilor ar putea rămâne fără compensații la energie", "url": "https://bani.md/nu-ne-mai-permitem-tofan-spune-ca-majoritatea-moldovenilor-ar-putea-ramane-fara-compensatii-la-energie/"}
-   ]
-  },
-  {
-   "text": "În sezonul rece 2025-2026, din circa 800.000 de gospodării eligibile, aproximativ 621.000 au primit efectiv compensații — circa 78%, cifra la care s-a referit premierul ca reper („80%”) pentru comparație cu acest an. Cu un an înainte, în 2023, din aproape 900.000 de cereri, 895.000 de gospodării primiseră ajutor.",
-   "sources": [
-    {"name": "NewsMaker.md — datele despre compensațiile din anii anteriori", "url": "https://newsmaker.md/ro/tofan-nu-cred-c%C4%83-vom-putea-ajuta-80-dintre-gospod%C4%83rii-cu-compensa%C8%9Bii-%C3%AEn-aceast%C4%83-iarn%C4%83"}
-   ]
-  },
-  {
-   "text": "O zi mai târziu, pe 26 august 2026, ministra Finanțelor, Victoria Belous, a declarat că autoritățile nu au stabilit încă nici valoarea compensațiilor pentru acest sezon rece, nici numărul de beneficiari: „Bugetul variază în funcție de pe ce criterii vom aloca aceste compensații” și „Acum nu putem să dăm cifre”. Guvernul a spus că analizează mai multe scenarii de acoperire (concentrate pe 30%, 40% sau 50% dintre gospodăriile cele mai vulnerabile) și negociază granturi cu partenerii europeni.",
-   "sources": [
-    {"name": "NewsMaker.md — Compensații pentru iarna 2026-2027. Ministra Finanțelor: „Acum nu putem să dăm cifre”", "url": "https://newsmaker.md/ro/compensatii-pentru-iarna-2026-2027-ministra-finantelor-acum-nu-putem-sa-dam-cifre-video"}
-   ]
+  "aiNote": "Cifra de 3,8 miliarde de lei sună ca un anunț tehnic, dar pusă lângă cealaltă declarație a premierului — că anul trecut aproape opt gospodării din zece au primit compensații și anul acesta „nu cred” că se va repeta — devine anunțul unei reduceri de plasă socială, exact în sezonul în care factura la gaz crește cu 41% (vezi verificarea noastră despre decizia ANRE). Tofan nu a spus „tăiem ajutorul”; a spus că banii nu există și că prioritatea merge către „cei care au cel mai mult nevoie” — o formulare corectă din punct de vedere bugetar, dar care lasă complet deschisă întrebarea esențială: unde se trage linia?\n\nAici e diferența dintre ce s-a probat și ce rămâne promisiune. S-a probat: suma de care ar fi nevoie pentru acoperire integrală, procentul de anul trecut, faptul că ministra Finanțelor recunoaște că nu există încă o formulă. Nu s-a probat: câți oameni vor rămâne, concret, fără ajutor această iarnă — pentru că nimeni, nici la Finanțe, nici la Guvern, nu a spus-o încă în cifre.\n\nCe lipsește: pragul de venit sau alt criteriu care va defini „cei mai vulnerabili”, și suma sau condițiile granturilor europene aflate în negociere — fără ele, nu se poate calcula câte gospodării vor rămâne descoperite.\n\nCe ar schimba concluzia: anunțul oficial al criteriilor de eligibilitate pentru acest sezon, așteptat înainte de startul sezonului rece.",
+  "persoane": [
+    "Vasile Tofan",
+    "Victoria Belous"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-tofan-compensatii-iarna-80-la-suta-gospodarii.jpg\" alt=\"Tofan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Tofan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cabinetul_de_mini%C8%99tri_Tofan,_depunerea_jur%C4%83m%C3%A2ntului_-_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cabinetul de miniștri Tofan, depunerea jurământului - 01</a>\" de President's Office of Moldova, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-tofan-compensatii-iarna-80-la-suta-gospodarii.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "President's Office of Moldova"
   }
- ],
- "contestat": [
-  {
-   "text": "Nu se probează încă niciun criteriu final de eligibilitate. Guvernul vorbește despre variante — 30%, 40% sau 50% din gospodării — dar nici premierul, nici ministra Finanțelor nu au anunțat, la data acestui articol, care variantă a fost aleasă sau ce prag de venit ar defini „cei mai vulnerabili”. Orice cifră concretă vehiculată în spațiul public despre câți oameni vor primi ajutor rămâne, deocamdată, un scenariu, nu o decizie.",
-   "sources": [
-    {"name": "NewsMaker.md — scenariile aflate în discuție", "url": "https://newsmaker.md/ro/compensatii-pentru-iarna-2026-2027-ministra-finantelor-acum-nu-putem-sa-dam-cifre-video"}
-   ]
-  },
-  {
-   "text": "Nu se poate stabili din declarațiile publice câtă parte din cei 3,8 miliarde de lei ar putea fi acoperită din granturile europene aflate în negociere, pentru că nicio sumă sau condiție a acestor granturi nu a fost făcută publică până la data articolului.",
-   "sources": [
-    {"name": "Bani.md — negocierile pentru granturi europene, fără cifre publice", "url": "https://bani.md/nu-ne-mai-permitem-tofan-spune-ca-majoritatea-moldovenilor-ar-putea-ramane-fara-compensatii-la-energie/"}
-   ]
-  }
- ],
- "opinie": [],
- "math": {
-  "title": "621.000 din ~800.000 = circa 78%, rotunjit de premier la „80%”",
-  "text": "Anul trecut au primit efectiv compensații 621.000 de gospodării dintr-un total de circa 800.000 eligibile — adică 621.000 ÷ 800.000 ≈ 0,776, deci aproximativ 78%. E procentul pe care premierul Tofan îl rotunjește la „80%” când spune că nu crede că îl va putea repeta anul acesta. Diferența dintre 78% și „80%” e neglijabilă; ce contează e că, la acest nivel de acoperire, tot rămâneau descoperite circa 179.000 de gospodării — iar anul acesta pragul anunțat e sub acest nivel deja incomplet."
- },
- "aiNote": "Cifra de 3,8 miliarde de lei sună ca un anunț tehnic, dar pusă lângă cealaltă declarație a premierului — că anul trecut aproape opt gospodării din zece au primit compensații și anul acesta „nu cred” că se va repeta — devine anunțul unei reduceri de plasă socială, exact în sezonul în care factura la gaz crește cu 41% (vezi verificarea noastră despre decizia ANRE). Tofan nu a spus „tăiem ajutorul”; a spus că banii nu există și că prioritatea merge către „cei care au cel mai mult nevoie” — o formulare corectă din punct de vedere bugetar, dar care lasă complet deschisă întrebarea esențială: unde se trage linia?\n\nAici e diferența dintre ce s-a probat și ce rămâne promisiune. S-a probat: suma de care ar fi nevoie pentru acoperire integrală, procentul de anul trecut, faptul că ministra Finanțelor recunoaște că nu există încă o formulă. Nu s-a probat: câți oameni vor rămâne, concret, fără ajutor această iarnă — pentru că nimeni, nici la Finanțe, nici la Guvern, nu a spus-o încă în cifre.\n\nCe lipsește: pragul de venit sau alt criteriu care va defini „cei mai vulnerabili”, și suma sau condițiile granturilor europene aflate în negociere — fără ele, nu se poate calcula câte gospodării vor rămâne descoperite.\n\nCe ar schimba concluzia: anunțul oficial al criteriilor de eligibilitate pentru acest sezon, așteptat înainte de startul sezonului rece.",
- "persoane": ["Vasile Tofan", "Victoria Belous"]
 }

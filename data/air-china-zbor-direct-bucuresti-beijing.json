@@ -11,15 +11,27 @@
     {
       "text": "Air China va inaugura, vineri, 4 septembrie 2026, ruta regulată de pasageri Beijing–București (Aeroportul Henri Coandă/Otopeni), operată de trei ori pe săptămână (luni, miercuri, vineri), cu aeronave Airbus A330-200 (219–283 de locuri, în funcție de configurație). Durata de zbor estimată este de circa 10 ore și 30 de minute. Compania va opera și un segment de continuare București–Zagreb (circa 1 oră 10 minute).",
       "sources": [
-        {"name": "Antena3 CNN — Air China va zbura de la Beijing la București din septembrie 2026", "url": "https://www.antena3.ro/economic/air-china-va-zbura-de-la-beijing-la-bucuresti-din-septembrie-2026-794330.html"},
-        {"name": "Forbes România — Air China lansează zborul direct Beijing–București", "url": "https://www.forbes.ro/air-china-lanseaza-primul-zbor-direct-intre-beijing-si-bucuresti-din-istorie-509958"}
+        {
+          "name": "Antena3 CNN — Air China va zbura de la Beijing la București din septembrie 2026",
+          "url": "https://www.antena3.ro/economic/air-china-va-zbura-de-la-beijing-la-bucuresti-din-septembrie-2026-794330.html"
+        },
+        {
+          "name": "Forbes România — Air China lansează zborul direct Beijing–București",
+          "url": "https://www.forbes.ro/air-china-lanseaza-primul-zbor-direct-intre-beijing-si-bucuresti-din-istorie-509958"
+        }
       ]
     },
     {
       "text": "Este a doua rută regulată intercontinentală de lung-curier operată din/spre România, după cea dintre București și New York (JFK). În prezent, singurele zboruri fără escală între România și China erau curse cargo, operate de compania românească Romcargo Airlines pe relația București–Ürümqi.",
       "sources": [
-        {"name": "Economedia (via BoardingPass) — Air China introduce zboruri directe din toamnă", "url": "https://economedia.ro/air-china-va-introduce-zboruri-directe-intre-beijing-si-bucuresti-din-toamna-boardingpass.html"},
-        {"name": "Forbes România — context privind conexiunile aeriene România–China", "url": "https://www.forbes.ro/air-china-lanseaza-primul-zbor-direct-intre-beijing-si-bucuresti-din-istorie-509958"}
+        {
+          "name": "Economedia (via BoardingPass) — Air China introduce zboruri directe din toamnă",
+          "url": "https://economedia.ro/air-china-va-introduce-zboruri-directe-intre-beijing-si-bucuresti-din-toamna-boardingpass.html"
+        },
+        {
+          "name": "Forbes România — context privind conexiunile aeriene România–China",
+          "url": "https://www.forbes.ro/air-china-lanseaza-primul-zbor-direct-intre-beijing-si-bucuresti-din-istorie-509958"
+        }
       ]
     }
   ],
@@ -27,18 +39,33 @@
     {
       "text": "Forbes România titrează ruta drept „primul zbor direct din istorie” între Beijing și București, susținând că „nu au existat zboruri regulate directe de pasageri între România și China” până acum. Realitatea.net contrazice exact acest punct: potrivit acelei surse, TAROM a operat curse spre Beijing între 1974 și începutul anilor 2000, deci zborurile directe de pasageri au existat, dar au fost întrerupte pentru peste două decenii — ruta lui Air China e o reluare, nu o premieră absolută.",
       "sources": [
-        {"name": "Realitatea.net — se redeschide o rută așteptată de peste 20 de ani (TAROM a zburat spre Beijing 1974–2000)", "url": "https://www.realitatea.net/stiri/social/se-redeschide-o-ruta-asteptata-de-peste-20-de-ani-romanii-vor-putea-zbura-direct-spre-beijing-fara-viza-kzah9n"},
-        {"name": "Forbes România — „primul zbor direct din istorie”", "url": "https://www.forbes.ro/air-china-lanseaza-primul-zbor-direct-intre-beijing-si-bucuresti-din-istorie-509958"}
+        {
+          "name": "Realitatea.net — se redeschide o rută așteptată de peste 20 de ani (TAROM a zburat spre Beijing 1974–2000)",
+          "url": "https://www.realitatea.net/stiri/social/se-redeschide-o-ruta-asteptata-de-peste-20-de-ani-romanii-vor-putea-zbura-direct-spre-beijing-fara-viza-kzah9n"
+        },
+        {
+          "name": "Forbes România — „primul zbor direct din istorie”",
+          "url": "https://www.forbes.ro/air-china-lanseaza-primul-zbor-direct-intre-beijing-si-bucuresti-din-istorie-509958"
+        }
       ]
     }
   ],
   "opinie": [
-    {"text": "Etichetarea drept „premieră istorică” face titlul mai atrăgător, dar minimalizează un fapt relevant pentru cititor — că România a mai avut, timp de aproape trei decenii, o legătură aeriană directă cu China, pierdută ulterior. Cadrul corect e „reluare după peste 20 de ani”, nu „prima dată”."}
+    {
+      "text": "Etichetarea drept „premieră istorică” face titlul mai atrăgător, dar minimalizează un fapt relevant pentru cititor — că România a mai avut, timp de aproape trei decenii, o legătură aeriană directă cu China, pierdută ulterior. Cadrul corect e „reluare după peste 20 de ani”, nu „prima dată”."
+    }
   ],
   "math": {
     "title": "3 curse/săptămână, ~10h30 de zbor, peste 20 de ani de pauză",
     "explanation": "TAROM a operat spre Beijing între 1974 și începutul anilor 2000 — o legătură directă de aproximativ 25-30 de ani. Ruta a fost întreruptă apoi timp de peste două decenii, perioadă în care singura conexiune directă rămasă a fost cea cargo (Romcargo, spre Ürümqi). Reluarea din 4 septembrie 2026 înseamnă, practic, un gol de circa 20-25 de ani fără zbor direct de pasageri între cele două capitale."
   },
   "aiNote": "Detaliile operaționale ale noii rute (dată, frecvență, tip de avion, durată) sunt confirmate concordant de Antena3, Forbes România și Economedia/BoardingPass. Am semnalat explicit contradicția dintre titlul Forbes („primul zbor din istorie”) și informația din Realitatea.net despre cursele TAROM 1974–2000 — cititorul poate vedea ambele variante și trage singur concluzia despre formularea corectă. Nu am găsit o sursă oficială CNAB/TAROM care să confirme independent anii exacți ai vechii rute; informația despre 1974–2000 vine dintr-o singură sursă secundară.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/air-china-zbor-direct-bucuresti-beijing.jpg\" alt=\"China\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — China. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 zhangjiajie huangshizhai wulingyuan panorama 2012</a>\" de chensiyuan, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/air-china-zbor-direct-bucuresti-beijing.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "chensiyuan"
+  }
 }

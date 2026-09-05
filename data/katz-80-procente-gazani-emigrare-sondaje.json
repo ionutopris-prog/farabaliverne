@@ -11,26 +11,41 @@
     {
       "text": "Israel Katz a declarat, la o conferință găzduită de Ynet și Yedioth Ahronoth pe 2 septembrie 2026, că planul israelian de relocare a populației din Gaza „nu a fost anulat; se discută tot timpul, chiar și acum” și că Israelul este „organizat și pregătit să îi scoată — pe mare, pe aer, prin orice mijloc posibil”, condiționat de aprobarea SUA.",
       "sources": [
-        {"name": "The Times of Israel — Katz: Israel will facilitate emigration from Gaza 'by any means' as soon as Trump allows", "url": "https://www.timesofisrael.com/katz-israel-will-facilitate-emigration-from-gaza-by-any-means-as-soon-as-trump-allows/"},
-        {"name": "France24 (AFP) — Israel organised and prepared to remove Gaza population if US gives green light: Katz", "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"}
+        {
+          "name": "The Times of Israel — Katz: Israel will facilitate emigration from Gaza 'by any means' as soon as Trump allows",
+          "url": "https://www.timesofisrael.com/katz-israel-will-facilitate-emigration-from-gaza-by-any-means-as-soon-as-trump-allows/"
+        },
+        {
+          "name": "France24 (AFP) — Israel organised and prepared to remove Gaza population if US gives green light: Katz",
+          "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"
+        }
       ]
     },
     {
       "text": "La aceeași conferință, Katz a afirmat că „80% dintre oamenii din Gaza vor să plece, dar Hamas îi împiedică”. France24 (AFP) notează explicit, în relatare, că ministrul a spus acest lucru „fără să-și citeze sursa” („without citing his source”).",
       "sources": [
-        {"name": "France24 (AFP) — Katz, without citing his source, said 80 percent...", "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"}
+        {
+          "name": "France24 (AFP) — Katz, without citing his source, said 80 percent...",
+          "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"
+        }
       ]
     },
     {
       "text": "Cel mai recent sondaj independent publicat, realizat de Palestinian Center for Policy and Survey Research (PCPSR) în Cisiordania și Fâșia Gaza, între 1-4 mai 2025, arată că 43% dintre respondenții din Gaza s-au declarat pregătiți să emigreze la finalul războiului, dintre care 49% ar face-o prin porturile și aeroporturile israeliene, dacă ar fi posibil.",
       "sources": [
-        {"name": "PCPSR — Public Opinion Poll No. 95, comunicat oficial (PDF)", "url": "https://www.pcpsr.org/sites/default/files/Poll%2095%20press%20release%206May2025%20ENGLISH.pdf"}
+        {
+          "name": "PCPSR — Public Opinion Poll No. 95, comunicat oficial (PDF)",
+          "url": "https://www.pcpsr.org/sites/default/files/Poll%2095%20press%20release%206May2025%20ENGLISH.pdf"
+        }
       ]
     },
     {
       "text": "Un sondaj separat, realizat de Gallup International și publicat de The Telegraph, pe un eșantion de 532 de locuitori ai Gazei chestionați între 2-13 martie 2025, arată că 52% ar pleca temporar sau permanent (38% temporar, cu intenția de a se întoarce, 14% permanent), în timp ce 39% ar rămâne în Gaza.",
       "sources": [
-        {"name": "JNS — Half of Gazans would leave if given opportunity (Gallup International)", "url": "https://www.jns.org/israel-news/half-of-gazans-would-leave-if-given-opportunity"}
+        {
+          "name": "JNS — Half of Gazans would leave if given opportunity (Gallup International)",
+          "url": "https://www.jns.org/israel-news/half-of-gazans-would-leave-if-given-opportunity"
+        }
       ]
     }
   ],
@@ -38,9 +53,18 @@
     {
       "text": "Cifra de „80%” invocată de Katz nu se regăsește în niciunul dintre sondajele publicate independent găsite despre acest subiect; cele mai apropiate cifre disponibile — 43% (PCPSR, mai 2025) și 52% (Gallup International, martie 2025) — sunt cu 28-37 de puncte procentuale mai mici. Nu se poate exclude existența unui sondaj intern, necitat, la care se referă Katz, dar niciuna dintre sursele citate nu confirmă existența sau metodologia unui asemenea sondaj cu rezultat de 80%.",
       "sources": [
-        {"name": "France24 (AFP) — fără sursă citată pentru cifra de 80%", "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"},
-        {"name": "PCPSR — Poll 95: 43%", "url": "https://www.pcpsr.org/sites/default/files/Poll%2095%20press%20release%206May2025%20ENGLISH.pdf"},
-        {"name": "JNS — Gallup International: 52%", "url": "https://www.jns.org/israel-news/half-of-gazans-would-leave-if-given-opportunity"}
+        {
+          "name": "France24 (AFP) — fără sursă citată pentru cifra de 80%",
+          "url": "https://www.france24.com/en/middle-east/20260902-israel-organised-and-prepared-to-remove-gaza-population-if-us-gives-green-light-katz"
+        },
+        {
+          "name": "PCPSR — Poll 95: 43%",
+          "url": "https://www.pcpsr.org/sites/default/files/Poll%2095%20press%20release%206May2025%20ENGLISH.pdf"
+        },
+        {
+          "name": "JNS — Gallup International: 52%",
+          "url": "https://www.jns.org/israel-news/half-of-gazans-would-leave-if-given-opportunity"
+        }
       ]
     },
     {
@@ -54,5 +78,14 @@
     }
   ],
   "aiNote": "Aici nu ni se contestă un fapt petrecut, ci o cifră invocată pentru a justifica o politică: Israel Katz a spus, la o conferință publică, că „80% dintre gazani vor să emigreze”, dar — potrivit chiar relatării France24/AFP — fără să numească vreo sursă. Am căutat sondaje publicate independent pe exact acest subiect (dorința locuitorilor din Gaza de a emigra) și am găsit două, ambele din 2025: PCPSR (43%, mai 2025) și Gallup International, via JNS/Telegraph (52%, martie 2025). Niciunul nu se apropie de 80%.\n\nUnde se despart sursele: nu e vorba de dezacord între surse independente, ci de o afirmație a unui oficial care nu se regăsește în datele publice disponibile. Diferența e prea mare (28-37 puncte procentuale) ca să fie pusă pe seama metodologiei sau a rotunjirii.\n\nCe lipsește: un sondaj recent (2026) care să susțină cifra lui Katz, dacă există unul intern, necitat public. Fără el, afirmația rămâne o cifră nesusținută, folosită într-un context politic sensibil — justificarea unui plan de relocare a populației din Gaza.\n\nCe ar schimba concluzia: publicarea unui sondaj cu metodologie verificabilă, din 2026, care să arate o cifră apropiată de 80%; asta ar arăta fie o schimbare reală și rapidă de opinie, fie ar confirma sursa la care s-a referit ministrul.",
-  "persoane": ["Israel Katz"]
+  "persoane": [
+    "Israel Katz"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/katz-80-procente-gazani-emigrare-sondaje.jpg\" alt=\"Apărării\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Apărării. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:01.08.2024_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului,_Igor_Grosu,_cu_Laurynas_Kas%C4%8Di%C5%ABnas,_Ministrul_Ap%C4%83r%C4%83rii_Na%C8%9Bionale_al_Republici_Lituania_-_53894079802.jpg\" rel=\"nofollow noopener\" target=\"_blank\">01.08.2024 Întrevederea Președintelui Parlamentului, Igor Grosu, cu Laurynas Kasčiūnas, Ministrul Apărării Naționale al Republici Lituania - 53894079802</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/katz-80-procente-gazani-emigrare-sondaje.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+  }
 }

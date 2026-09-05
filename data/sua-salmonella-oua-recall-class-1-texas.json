@@ -11,22 +11,40 @@
     {
       "text": "FDA a reclasificat pe 12 august 2026 recall-ul de ouă inițiat pe 22 iulie de compania Midwest Poultry Services, L.P. la nivelul Class I — cea mai gravă categorie, definită de agenție drept „o situație în care există o probabilitate rezonabilă ca utilizarea sau expunerea la produsul respectiv să cauzeze consecințe grave asupra sănătății sau deces”.",
       "sources": [
-        { "name": "TIME — Salmonella Egg Recall Is Now Class I, the FDA's Highest Risk Level", "url": "https://time.com/article/2026/08/15/eggs-recalled-for-salmonella-upgraded-to-highest-fda-risk-level/" },
-        { "name": "ABC7 New York — Nearly 100 people sickened in salmonella outbreak linked in part to recalled eggs produced in Texas: FDA", "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/" }
+        {
+          "name": "TIME — Salmonella Egg Recall Is Now Class I, the FDA's Highest Risk Level",
+          "url": "https://time.com/article/2026/08/15/eggs-recalled-for-salmonella-upgraded-to-highest-fda-risk-level/"
+        },
+        {
+          "name": "ABC7 New York — Nearly 100 people sickened in salmonella outbreak linked in part to recalled eggs produced in Texas: FDA",
+          "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/"
+        }
       ]
     },
     {
       "text": "Focarul, cauzat de tulpina Salmonella Enteritidis, a îmbolnăvit cel puțin 98 de persoane în 17 state americane (Arkansas, Louisiana, Mississippi, New Mexico, Oklahoma, Texas și altele), dintre care 26 au fost spitalizate. Niciun deces nu a fost raportat până la data verificării.",
       "sources": [
-        { "name": "ABC7 New York — cifrele oficiale ale focarului", "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/" },
-        { "name": "TIME — cifrele focarului (98 de cazuri, 17 state, 26 de spitalizări)", "url": "https://time.com/article/2026/08/15/eggs-recalled-for-salmonella-upgraded-to-highest-fda-risk-level/" }
+        {
+          "name": "ABC7 New York — cifrele oficiale ale focarului",
+          "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/"
+        },
+        {
+          "name": "TIME — cifrele focarului (98 de cazuri, 17 state, 26 de spitalizări)",
+          "url": "https://time.com/article/2026/08/15/eggs-recalled-for-salmonella-upgraded-to-highest-fda-risk-level/"
+        }
       ]
     },
     {
       "text": "Ouăle provin de la ferme din Texas, produse între 6 iunie și 3 iulie 2026, și au fost distribuite sub mărcile Country Morning, Cal-Maine Sunups, Brookshire's, Simple Truth și Kroger, prin lanțurile Kroger și Brookshire Grocery. Sunt vizate cutiile cu codul P-1950 sau 0840962 și dată Iuliană între 157 și 184, cu termen „sell by”/„best by” între 20 iulie și 17 august 2026. Recall-ul acoperă aproximativ 1,6 milioane de duzini (circa 19 milioane de ouă).",
       "sources": [
-        { "name": "ABC7 New York — detaliile produselor și codurile de identificare", "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/" },
-        { "name": "TIME — amploarea recall-ului", "url": "https://time.com/article/2026/08/15/eggs-recalled-for-salmonella-upgraded-to-highest-fda-risk-level/" }
+        {
+          "name": "ABC7 New York — detaliile produselor și codurile de identificare",
+          "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/"
+        },
+        {
+          "name": "TIME — amploarea recall-ului",
+          "url": "https://time.com/article/2026/08/15/eggs-recalled-for-salmonella-upgraded-to-highest-fda-risk-level/"
+        }
       ]
     }
   ],
@@ -34,12 +52,22 @@
     {
       "text": "FDA precizează, într-o formulare de precauție, că ouăle Midwest Poultry Services sunt „o sursă probabilă” a focarului pe baza datelor de laborator, epidemiologice și de trasabilitate — dar nu exclude alte surse posibile de contaminare, iar investigația rămâne deschisă la data verificării. Numărul de îmbolnăviri (98) este cifra oficială la momentul ultimei actualizări citate de presă; fiind un focar activ, cifra poate crește în zilele următoare, pe măsură ce se raportează cazuri noi.",
       "sources": [
-        { "name": "ABC7 New York — precizarea FDA despre sursa probabilă și investigația în curs", "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/" }
+        {
+          "name": "ABC7 New York — precizarea FDA despre sursa probabilă și investigația în curs",
+          "url": "https://abc7ny.com/story/100-people-sickened-salmonella-outbreak-linked-part-recalled-eggs-produced-texas-fda/19574562/"
+        }
       ]
     }
   ],
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus, verificabile inclusiv cu Google Translate. Cifrele (98 de îmbolnăviri, 17 state, 26 de spitalizări, clasificarea Class I) sunt confirmate concordant de TIME și ABC7 New York, ambele citând date FDA/CDC. Nu am putut accesa direct paginile CDC și FDA (blocate pentru acces automatizat), de aceea ne bazăm pe relatările presei americane care le citează.",
   "persoane": [],
-  "math": null
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-salmonella-oua-recall-class-1-texas.jpg\" alt=\"Texas\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Texas. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Greetings_from_Texas,_The_Lone_Star_State_-_Large_Letter_Postcard_(12084494683).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Greetings from Texas, The Lone Star State - Large Letter Postcard (12084494683)</a>\" de Steve Shook from Moscow, Idaho, USA, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-salmonella-oua-recall-class-1-texas.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Steve Shook from Moscow, Idaho, USA"
+  }
 }

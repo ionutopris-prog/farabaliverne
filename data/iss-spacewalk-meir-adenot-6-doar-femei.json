@@ -53,10 +53,10 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/iss-spacewalk-meir-adenot-6-doar-femei.jpg\" alt=\"International Space Station\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — International Space Station. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_(42828603210).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Dramatic Views of Hurricane Florence from the International Space Station From 9 12 (42828603210)</a>\" de NASA/Goddard Space Flight Center, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/iss-spacewalk-meir-adenot-6-doar-femei.jpg\" alt=\"astronaut spacewalk extravehicular activity\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — astronaut spacewalk extravehicular activity. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:ISS-32_American_EVA_b3_Aki_Hoshide.jpg\" rel=\"nofollow noopener\" target=\"_blank\">ISS-32 American EVA b3 Aki Hoshide</a>\" de NASA, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/iss-spacewalk-meir-adenot-6-doar-femei.jpg",
-    "licenta": "CC BY 2.0",
-    "autor": "NASA/Goddard Space Flight Center"
+    "licenta": "Public domain",
+    "autor": "NASA"
   }
 }

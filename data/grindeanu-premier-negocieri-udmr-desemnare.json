@@ -104,5 +104,17 @@
     }
   ],
   "aiNote": "Sursele confirmă tabloul de ansamblu: după plecarea lui Ilie Bolojan, PSD susține varianta Sorin Grindeanu pentru șefia Guvernului, iar consultările oficiale la Cotroceni sunt așteptate după 15 august 2026, cu vot în Parlament în prima săptămână a lunii septembrie. Rămâne însă contestat dacă UDMR s-a angajat deja să-l susțină pe Grindeanu — o relatare din 31 iulie sugera că da, dar declarațiile publice ale lui Kelemen Hunor din 11 august arată un partid care nu s-a angajat oficial și așteaptă nominalizarea președintelui, deși varianta alternativă pe care a amintit-o (Siegfried Mureșan) picase deja pe 9 august, potrivit chiar lui Bolojan. Cititorul poate urmări evoluția pe surse oficiale — anunțurile de la Cotroceni și declarațiile liderilor de partide.",
-  "persoane": ["Sorin Grindeanu", "Nicușor Dan", "Kelemen Hunor", "Ilie Bolojan"]
+  "persoane": [
+    "Sorin Grindeanu",
+    "Nicușor Dan",
+    "Kelemen Hunor",
+    "Ilie Bolojan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/grindeanu-premier-negocieri-udmr-desemnare.jpg\" alt=\"Grindeanu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Grindeanu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Sorin_Grindeanu,_interview_Feb_2015.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Sorin Grindeanu, interview Feb 2015</a>\" de AGERPRES, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/grindeanu-premier-negocieri-udmr-desemnare.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "AGERPRES"
+  }
 }

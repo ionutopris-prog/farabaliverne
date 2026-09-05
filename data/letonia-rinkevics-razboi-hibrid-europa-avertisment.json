@@ -11,25 +11,37 @@
     {
       "text": "Președintele Letoniei, Edgars Rinkevics, a declarat luni, 17 august 2026, la o conferință de presă organizată lângă granița Letoniei cu Belarus: „It's not something that will start sometime in the future. It's happening now” („Nu e ceva ce va începe cândva în viitor. Se întâmplă acum”), referindu-se la operațiunile de război hibrid ale Rusiei împotriva Europei.",
       "sources": [
-        {"name": "Insurance Journal (preluare Bloomberg) — Russia Is Already Waging Hybrid War in Europe, Latvia Says", "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"}
+        {
+          "name": "Insurance Journal (preluare Bloomberg) — Russia Is Already Waging Hybrid War in Europe, Latvia Says",
+          "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"
+        }
       ]
     },
     {
       "text": "Potrivit unui oficial european din domeniul informațiilor citat de Bloomberg, serviciile ruse de informații evaluează operațiuni de război hibrid care ar putea include sabotaj de infrastructură sau atacuri sub steag fals îndreptate împotriva statelor baltice și a Poloniei.",
       "sources": [
-        {"name": "Insurance Journal (preluare Bloomberg) — evaluarea unui oficial european de informații", "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"}
+        {
+          "name": "Insurance Journal (preluare Bloomberg) — evaluarea unui oficial european de informații",
+          "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"
+        }
       ]
     },
     {
       "text": "Letonia anchetează, printre altele, un incendiu izbucnit luna trecută (iulie 2026) la depozitul unei organizații caritabile care oferea ajutor Ucrainei. Rinkevics a menționat că mai sunt „a whole series of other cases” aflate în anchetă activă — sabotaj, provocări de mai multe tipuri și spionaj — fără să ofere detalii suplimentare despre acestea.",
       "sources": [
-        {"name": "Insurance Journal (preluare Bloomberg) — incendiul de la depozitul de ajutor pentru Ucraina, cazurile în anchetă", "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"}
+        {
+          "name": "Insurance Journal (preluare Bloomberg) — incendiul de la depozitul de ajutor pentru Ucraina, cazurile în anchetă",
+          "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"
+        }
       ]
     },
     {
       "text": "Letonia, stat membru UE și NATO, a suplimentat resursele la granița cu Belarus — drone, elicoptere, senzori și personal — și acționează, potrivit lui Rinkevics, pe premisa că „trebuie să fim pregătiți pentru orice scenariu”, în coordonare cu aliații din NATO.",
       "sources": [
-        {"name": "Insurance Journal (preluare Bloomberg) — măsurile Letoniei la graniță, coordonarea cu NATO", "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"}
+        {
+          "name": "Insurance Journal (preluare Bloomberg) — măsurile Letoniei la graniță, coordonarea cu NATO",
+          "url": "https://www.insurancejournal.com/news/international/2026/08/18/881958.htm"
+        }
       ]
     }
   ],
@@ -37,5 +49,12 @@
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Declarațiile aparțin președintelui leton Edgars Rinkevics și unui oficial european de informații citat anonim de Bloomberg — le-am redat ca atare, ca poziții oficiale ale statului leton, fără să le putem verifica independent conținutul serviciilor de informații (natura confidențială a subiectului face imposibilă o a doua sursă publică pentru aceleași detalii operaționale).",
   "math": null,
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/letonia-rinkevics-razboi-hibrid-europa-avertisment.jpg\" alt=\"Letoniei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Letoniei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:16-08-31-Saeima-RR2_4027.jpg\" rel=\"nofollow noopener\" target=\"_blank\">16-08-31-Saeima-RR2 4027</a>\" de Ralf Roletschek, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 at</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/letonia-rinkevics-razboi-hibrid-europa-avertisment.jpg",
+    "licenta": "CC BY-SA 3.0 at",
+    "autor": "Ralf Roletschek"
+  }
 }

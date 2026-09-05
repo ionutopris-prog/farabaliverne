@@ -11,27 +11,45 @@
     {
       "text": "Ministerul Apărării al EAU a declarat că sistemele sale de apărare antiaeriană au detectat două rachete balistice lansate din Iran către țară marți, 18 august 2026: prima a căzut în afara apelor teritoriale, a doua în interiorul lor. Ministerul a precizat că evaluările arată că rachetele „vizau traficul maritim” și au căzut, ambele, în mare — nu au lovit nicio țintă de pe uscat.",
       "sources": [
-        { "name": "The National — „UAE air defence systems respond to missile threat”", "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/" },
-        { "name": "Arab News — „UAE defense ministry says Iran fired 2 ballistic missiles at territory”", "url": "https://www.arabnews.com/node/2655107/middle-east" }
+        {
+          "name": "The National — „UAE air defence systems respond to missile threat”",
+          "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/"
+        },
+        {
+          "name": "Arab News — „UAE defense ministry says Iran fired 2 ballistic missiles at territory”",
+          "url": "https://www.arabnews.com/node/2655107/middle-east"
+        }
       ]
     },
     {
       "text": "Autoritățile din Dubai și Sharjah au trimis alerte telefonice locuitorilor privind o posibilă amenințare cu rachete, urmate la scurt timp de un al doilea mesaj care anunța că situația e sub control. Ministerul EAU a spus că rămâne „în stare de alertă maximă și pregătit să facă față oricărei amenințări”.",
       "sources": [
-        { "name": "Arab News — alertele către locuitorii din Dubai și Sharjah", "url": "https://www.arabnews.com/node/2655107/middle-east" },
-        { "name": "The National — starea de alertă a Ministerului Apărării", "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/" }
+        {
+          "name": "Arab News — alertele către locuitorii din Dubai și Sharjah",
+          "url": "https://www.arabnews.com/node/2655107/middle-east"
+        },
+        {
+          "name": "The National — starea de alertă a Ministerului Apărării",
+          "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/"
+        }
       ]
     },
     {
       "text": "Separat, în noaptea de luni spre marți, 18 august 2026, vrachierul Minoan Dignity (76.800 tdw, sub pavilion liberian, administrat grecesc) a fost lovit de un proiectil neidentificat în borduri, la 0,5 mile marine de Oman, pe latura vestică a Strâmtorii Hormuz. Impactul a avariat sala mașinilor, iar inginerul-șef al navei a murit; două tentative de evacuare a echipajului au eșuat înainte ca Garda de Coastă a Omanului să intervină. UKMTO a raportat că nu a putut contacta nava, iar organizația de armatori INTERCARGO a confirmat decesul marinarului.",
       "sources": [
-        { "name": "Maritime Executive — „Chief Engineer Killed as Bulker is Attacked Exiting Strait of Hormuz”", "url": "https://maritime-executive.com/article/chief-engineer-killed-as-bulker-is-attacked-exiting-strait-of-hormuz" }
+        {
+          "name": "Maritime Executive — „Chief Engineer Killed as Bulker is Attacked Exiting Strait of Hormuz”",
+          "url": "https://maritime-executive.com/article/chief-engineer-killed-as-bulker-is-attacked-exiting-strait-of-hormuz"
+        }
       ]
     },
     {
       "text": "Actualizare: Emiratele Arabe Unite au ordonat, în noaptea de 18 spre 19 august 2026, oprirea „tuturor activităților, schimburilor comerciale și tranzacțiilor financiare” cu Iranul, „până la un nou ordin” — potrivit directorului de comunicare strategică al Ministerului de Externe al EAU. Directiva acoperă atât schimburile comerciale, cât și tranzacțiile financiare; autoritățile au anunțat că vor urma detalii suplimentare.",
       "sources": [
-        { "name": "Gulf News — „UAE halts all trade and financial transactions” cu Iranul", "url": "https://gulfnews.com/world/mena/middle-east-war-iran-threatens-escalation-as-hormuz-crisis-deepens-1.500644222" }
+        {
+          "name": "Gulf News — „UAE halts all trade and financial transactions” cu Iranul",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-threatens-escalation-as-hormuz-crisis-deepens-1.500644222"
+        }
       ]
     }
   ],
@@ -39,30 +57,60 @@
     {
       "text": "Cine a tras rachetele către EAU rămâne contestat între cele două părți. Ministerul iranian de Externe a respins ulterior, în mod oficial, acuzația Emiratelor — Al Jazeera titrează explicit „Teheranul neagă că a vizat EAU cu rachete” — în timp ce postul de stat iranian Press TV susținuse, imediat după incident, că atacul „poartă semnătura unei operațiuni sub steag fals” a Israelului. Nu există, la ora verificării, o confirmare independentă a niciuneia dintre variante; ministerul EAU atribuie rachetele Iranului, fără a arăta public dovezi tehnice (traiectorie, resturi recuperate).",
       "sources": [
-        { "name": "Al Jazeera — „Iran war updates: Tehran denies Iran targeted UAE with missiles”", "url": "https://www.aljazeera.com/news/liveblog/2026/8/18/iran-war-live-trump-rejects-mou-extension-as-us-claims-control-of-hormuz" },
-        { "name": "RT (media de stat, Rusia) — „UAE claims Iran fired two ballistic missiles at it”, cu reacția Press TV", "url": "https://www.rt.com/news/644382-iran-fires-ballistic-missiles/" },
-        { "name": "The National — poziția Ministerului Apărării al EAU, care atribuie lansarea Iranului", "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/" }
+        {
+          "name": "Al Jazeera — „Iran war updates: Tehran denies Iran targeted UAE with missiles”",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/18/iran-war-live-trump-rejects-mou-extension-as-us-claims-control-of-hormuz"
+        },
+        {
+          "name": "RT (media de stat, Rusia) — „UAE claims Iran fired two ballistic missiles at it”, cu reacția Press TV",
+          "url": "https://www.rt.com/news/644382-iran-fires-ballistic-missiles/"
+        },
+        {
+          "name": "The National — poziția Ministerului Apărării al EAU, care atribuie lansarea Iranului",
+          "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/"
+        }
       ]
     },
     {
       "text": "Legătura dintre cele două evenimente ale zilei — rachetele către EAU și atacul asupra vrachierului Minoan Dignity — nu este stabilită direct de nicio sursă citată: sunt raportate separat, de publicații diferite, fără ca vreuna dintre ele să confirme că e vorba de aceeași operațiune sau de același lansator. Le prezentăm alături fiindcă s-au petrecut în aceeași noapte, în aceeași zonă (Strâmtoarea Hormuz), pe fondul aceleiași escaladări — nu pentru că am stabilit noi o cauzalitate comună.",
       "sources": [
-        { "name": "Maritime Executive — atacul asupra vrachierului, raportat independent de cel asupra EAU", "url": "https://maritime-executive.com/article/chief-engineer-killed-as-bulker-is-attacked-exiting-strait-of-hormuz" },
-        { "name": "Arab News — atacul cu rachete asupra EAU, fără mențiune despre vrachier", "url": "https://www.arabnews.com/node/2655107/middle-east" }
+        {
+          "name": "Maritime Executive — atacul asupra vrachierului, raportat independent de cel asupra EAU",
+          "url": "https://maritime-executive.com/article/chief-engineer-killed-as-bulker-is-attacked-exiting-strait-of-hormuz"
+        },
+        {
+          "name": "Arab News — atacul cu rachete asupra EAU, fără mențiune despre vrachier",
+          "url": "https://www.arabnews.com/node/2655107/middle-east"
+        }
       ]
     }
   ],
   "opinie": [
-    { "text": "Descrierea acestei nopți ca un moment în care Iranul „a lovit efectiv” este o interpretare a redacției, bazată pe coroborarea a două evenimente distincte, dar simultane, într-o zonă în care Iranul a mai fost acuzat repetat de atacuri asupra navelor comerciale. Nu este o concluzie oficială a niciunei instituții — cititorul poate cântări singur dacă cele două incidente sunt, de fapt, legate." }
+    {
+      "text": "Descrierea acestei nopți ca un moment în care Iranul „a lovit efectiv” este o interpretare a redacției, bazată pe coroborarea a două evenimente distincte, dar simultane, într-o zonă în care Iranul a mai fost acuzat repetat de atacuri asupra navelor comerciale. Nu este o concluzie oficială a niciunei instituții — cititorul poate cântări singur dacă cele două incidente sunt, de fapt, legate."
+    }
   ],
   "aiNote": "📡 Atenție: una dintre sursele privind reacția iraniană inițială este presă de stat (RT, Rusia, care citează la rândul ei postul de stat iranian Press TV). Ce se probează independent, din surse cu interese divergente (Ministerul Apărării al EAU, agenții occidentale precum Arab News, The National, Al Jazeera și Gulf News, plus firma maritimă specializată Maritime Executive, citând UKMTO și INTERCARGO): (1) EAU a raportat două rachete balistice căzute în mare marți, 18 august 2026, prima atribuire a Iranului asupra teritoriului emiratez din mai 2026; (2) în aceeași noapte, vrachierul Minoan Dignity a fost lovit lângă Oman, iar inginerul-șef a murit; (3) în noaptea următoare, EAU a ordonat oprirea completă a schimburilor comerciale și financiare cu Iranul. Ce rămâne contestat: cine a lansat exact rachetele — Teheranul a respins ulterior, oficial, acuzația EAU, după ce inițial presa sa de stat vorbise despre o „operațiune sub steag fals” a Israelului; niciuna dintre cele două variante nu are, până acum, dovezi tehnice publice (resturi, traiectorie radar) care să identifice lansatorul dincolo de orice îndoială. Ce ar schimba concluzia: o revendicare oficială (a IRGC sau a unei grupări proxy) sau o anchetă independentă (ONU, UKMTO) asupra originii rachetelor și a proiectilului care a lovit vrachierul.",
   "math": {
     "title": "A doua zi la rând de escaladare, după expirarea termenului de 60 de zile",
     "explanation": "Termenul de 60 de zile stabilit prin memorandumul SUA-Iran de la Islamabad a expirat luni, 17 august 2026, fără un acord permanent pe Hormuz. La mai puțin de 24 de ore, EAU raportează primul atac cu rachete asupra teritoriului său din mai 2026 — un interval de peste trei luni fără incident direct, rupt chiar în ziua următoare expirării termenului. Simultan, INTERCARGO și UKMTO confirmă un al doilea eveniment cu victime: un marinar mort pe un vrachier civil, aflat la doar 0,5 mile marine de coasta Omanului, deci practic în afara oricărei zone de conflict declarat. Cele două cifre — „0 atacuri directe din mai” devenit „1” în 24 de ore de la expirarea armistițiului, plus un vas civil lovit la sub un kilometru de coasta unui stat terț — arată o schimbare de scară a riscului pentru navigația comercială, indiferent cine a apăsat pe trăgaci.",
     "sources": [
-      { "name": "The National — cronologia atacului asupra EAU", "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/" },
-      { "name": "Maritime Executive — cronologia atacului asupra vrachierului", "url": "https://maritime-executive.com/article/chief-engineer-killed-as-bulker-is-attacked-exiting-strait-of-hormuz" }
+      {
+        "name": "The National — cronologia atacului asupra EAU",
+        "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat/"
+      },
+      {
+        "name": "Maritime Executive — cronologia atacului asupra vrachierului",
+        "url": "https://maritime-executive.com/article/chief-engineer-killed-as-bulker-is-attacked-exiting-strait-of-hormuz"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/iran-atac-hormuz-eau-rachete-vrachier-mort.jpg\" alt=\"Hormuz\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Hormuz. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:City_of_Hormuz.jpg\" rel=\"nofollow noopener\" target=\"_blank\">City of Hormuz</a>\" de ImanFakhri, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/iran-atac-hormuz-eau-rachete-vrachier-mort.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "ImanFakhri"
+  }
 }

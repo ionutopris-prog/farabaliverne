@@ -11,20 +11,32 @@
     {
       "text": "Dinamo București a învins FC Voluntari cu scorul de 4-0, sâmbătă, 8 august 2026, în etapa a 4-a din SuperLiga. Au marcat Daniel Armstrong (din penalty), Alexandru Musi, Oliver Hintsa și Adrian Mazilu.",
       "sources": [
-        { "name": "news.ro — Superliga: Dinamo – FC Voluntari 4-0 și alb-roșii sunt pe locul secund", "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821" },
-        { "name": "ziarulprofit.ro — Rezultatele și clasamentul SuperLigii, etapa 4", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+        {
+          "name": "news.ro — Superliga: Dinamo – FC Voluntari 4-0 și alb-roșii sunt pe locul secund",
+          "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821"
+        },
+        {
+          "name": "ziarulprofit.ro — Rezultatele și clasamentul SuperLigii, etapa 4",
+          "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/"
+        }
       ]
     },
     {
       "text": "În același tur de etapă, FC Argeș a preluat locul 1 în clasament după ce a învins Universitatea Craiova cu 1-0, gol marcat de Yanis Pîrvu în minutul 7.",
       "sources": [
-        { "name": "ziarulprofit.ro — FC Argeș, noul lider al SuperLigii", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+        {
+          "name": "ziarulprofit.ro — FC Argeș, noul lider al SuperLigii",
+          "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/"
+        }
       ]
     },
     {
       "text": "Clasamentul complet după încheierea etapei a 4-a (potrivit ziarulprofit.ro): 1. FC Argeș — 9 puncte; 2. FCSB — 8 puncte; 3. Rapid București — 8 puncte; 4. Dinamo — 7 puncte; 5. Farul Constanța — 7 puncte; 6. Universitatea Craiova — 6 puncte.",
       "sources": [
-        { "name": "ziarulprofit.ro — clasamentul complet, etapa 4", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+        {
+          "name": "ziarulprofit.ro — clasamentul complet, etapa 4",
+          "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/"
+        }
       ]
     }
   ],
@@ -32,14 +44,23 @@
     {
       "text": "Poziția lui Dinamo în clasament diferă între surse: news.ro (articol publicat imediat după meciul cu Voluntari) scrie că Dinamo a urcat pe „locul secund”, cu 7 puncte, egal cu FCSB și Farul; ziarulprofit.ro, care agregă toate meciurile etapei a 4-a (inclusiv FC Argeș - Craiova, jucat separat), arată Dinamo pe locul 4, cu FCSB și Rapid ambele la 8 puncte. Diferența vine probabil din momentul publicării — clasamentul se schimbă pe măsură ce se joacă restul etapei, nu dintr-o eroare de fapt.",
       "sources": [
-        { "name": "news.ro — Dinamo pe locul secund, la momentul publicării", "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821" },
-        { "name": "ziarulprofit.ro — clasament complet, după toate meciurile etapei", "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/" }
+        {
+          "name": "news.ro — Dinamo pe locul secund, la momentul publicării",
+          "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821"
+        },
+        {
+          "name": "ziarulprofit.ro — clasament complet, după toate meciurile etapei",
+          "url": "https://www.ziarulprofit.ro/rezultatele-si-clasamentul-superligii-etapa-4-fc-arges-este-noul-lider-dinamo-o-zdrobeste-pe-fc-voluntari/"
+        }
       ]
     },
     {
       "text": "Minutul exact al golului din penalty al lui Armstrong variază ușor între surse: minutul 38 într-o relatare, minutul 39 în alta. Diferența e nesemnificativă și nu schimbă rezultatul.",
       "sources": [
-        { "name": "news.ro — penalty în minutul 39", "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821" }
+        {
+          "name": "news.ro — penalty în minutul 39",
+          "url": "https://www.news.ro/sport/superliga-dinamo-fc-voluntari-4-0-si-alb-rosii-sunt-pe-locul-secund-1922403408442026082322605821"
+        }
       ]
     }
   ],
@@ -49,5 +70,12 @@
     }
   ],
   "aiNote": "Rezultatul meciului (Dinamo 4-0 Voluntari, cu marcatorii și datele confirmate de două surse independente) e solid confirmat. Poziția exactă a lui Dinamo în clasamentul general variază între relatări, în funcție de câte meciuri ale etapei a 4-a fuseseră deja jucate la momentul publicării fiecărui articol — nu e o eroare de fapt, ci un instantaneu al unui clasament în mișcare. Am pus alături ambele variante și clasamentul complet, ca să poți vedea singur de unde vine diferența.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/dinamo-voluntari-4-0-superliga.jpg\" alt=\"Voluntari\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Voluntari. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Anghel_Iordanescu_Stadium_in_Voluntari,_April_2023.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Anghel Iordanescu Stadium in Voluntari, April 2023</a>\" de @8Dodo8, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/dinamo-voluntari-4-0-superliga.jpg",
+    "licenta": "Public domain",
+    "autor": "@8Dodo8"
+  }
 }

@@ -11,19 +11,28 @@
     {
       "text": "Sistemul DETER al INPE (Institutul Național de Cercetări Spațiale al Braziliei) a înregistrat 2.874 km² de alerte de defrișare în Amazonul brazilian în perioada august 2025 – iulie 2026, cu 36% mai puțin decât în perioada anterioară și cu 55,6% sub media ultimului deceniu. Este cel mai scăzut nivel de alerte din 2013 (când s-au înregistrat 2.766 km²).",
       "sources": [
-        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+        {
+          "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show",
+          "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/"
+        }
       ]
     },
     {
       "text": "Scăderea a coincis cu intensificarea aplicării legii de mediu sub administrația președintelui Luiz Inácio Lula da Silva — inclusiv operațiuni suplimentare de control, monitorizare consolidată și reactivarea protecției teritoriilor indigene. Brazilia s-a angajat public să elimine defrișarea ilegală până în 2030.",
       "sources": [
-        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+        {
+          "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show",
+          "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/"
+        }
       ]
     },
     {
       "text": "Dacă tendința e confirmată și de sistemul PRODES (cu rezoluție mai mare, folosit pentru statisticile oficiale anuale), Brazilia ar putea înregistra cea mai scăzută rată oficială de defrișare a Amazonului de la începutul monitorizării, în 1988.",
       "sources": [
-        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+        {
+          "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show",
+          "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/"
+        }
       ]
     }
   ],
@@ -31,13 +40,19 @@
     {
       "text": "Cifra scăderii apare cu ușoare variații de rotunjire în presă — unele surse indică 36%, altele 37% — probabil din calcule ușor diferite pe același set de date DETER; diferența e de un punct procentual, nu o discrepanță de fond.",
       "sources": [
-        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+        {
+          "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show",
+          "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/"
+        }
       ]
     },
     {
       "text": "Organizațiile de mediu citate atrag atenția că „defrișarea la ras” (clear-cutting), singura măsurată direct de aceste alerte, este doar o formă a pagubelor asupra pădurii — tăierile selective de lemn, seceta, degradarea pădurii și incendiile pot produce pierderi ecologice semnificative fără să apară imediat în statisticile de defrișare. Seceta din 2023-2024 este dată ca exemplu al acestui efect.",
       "sources": [
-        { "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show", "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/" }
+        {
+          "name": "Mongabay — Amazon deforestation alerts fall to lowest level since 2013, Brazilian data show",
+          "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/"
+        }
       ]
     }
   ],
@@ -47,5 +62,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifra centrală (2.874 km², -36%, minim din 2013) vine direct din datele oficiale DETER/INPE, citate concordant. Rezerva principală: alertele DETER măsoară doar defrișarea la ras, nu toate formele de degradare a pădurii — un aspect semnalat chiar de organizațiile de mediu citate în relatare.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/amazon-defrisare-minim-istoric-2013.jpg\" alt=\"Amazonului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Amazonului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Amazon_Rainforest,_Brazil_Timelapse_1984-2018.gif\" rel=\"nofollow noopener\" target=\"_blank\">Amazon Rainforest, Brazil Timelapse 1984-2018</a>\" de Google Earth Timelapse (Google, Landsat, Copernicus), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.5\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.5</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/amazon-defrisare-minim-istoric-2013.jpg",
+    "licenta": "CC BY 2.5",
+    "autor": "Google Earth Timelapse (Google, Landsat, Copernicus)"
+  }
 }

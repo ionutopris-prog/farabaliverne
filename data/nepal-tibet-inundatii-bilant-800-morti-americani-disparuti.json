@@ -67,5 +67,12 @@
   "opinie": [],
   "math": "",
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce s-a verificat exact: bilanțul actualizat al morților și dispăruților, pe baza a două agenții americane independente (CBS News, ABC News), ambele citând autoritățile nepaleze și chineze și Departamentul de Stat al SUA.\n\nUnde se despart sursele: numărul americanilor dispăruți diferă de la o sursă la alta (65, apoi 85, apoi „circa 90”) — explicația plauzibilă e că bilanțurile sunt actualizate la momente diferite și cu definiții diferite ale „dispărut” (turiști înregistrați local, față de cetățeni „posibil afectați” urmăriți de ambasadă), nu o contradicție reală despre ce s-a întâmplat.\n\nCe lipseste: nu se știe încă traseul exact al grupului de 22 de pelerini ai fundației Isha, nici dacă toți cei 3.000+ de dispăruți sunt încă în viață undeva izolați de drumurile distruse sau au murit — cifra de morți e probabil să mai crească pe măsură ce echipele ajung în zonele greu accesibile.\n\nCe ar schimba concluzia: o listă oficială, publică, cu identitatea completă a dispăruților pe cele două părți ale graniței ar elimina discrepanțele dintre surse.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nepal-tibet-inundatii-bilant-800-morti-americani-disparuti.jpg\" alt=\"Nepal\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nepal. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:120408_Pheriche_Pano_4k.jpg\" rel=\"nofollow noopener\" target=\"_blank\">120408 Pheriche Pano 4k</a>\" de Faj2323, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nepal-tibet-inundatii-bilant-800-morti-americani-disparuti.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Faj2323"
+  }
 }

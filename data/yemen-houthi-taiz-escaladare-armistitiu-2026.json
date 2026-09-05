@@ -66,5 +66,12 @@
     "title": "De la aprilie 2022 la iulie 2026: peste patru ani de acalmie relativă, întrerupți",
     "text": "Armistițiul din aprilie 2022 a ținut, cu fluctuații, aproximativ patru ani și trei luni, până la reluarea ciocnirilor de la începutul lunii iulie 2026 — adică circa 51 de luni de relativă acalmie. ONU estimează 6 milioane de yemeniți în insecuritate alimentară de nivel „urgență”, cel mai mare număr de acest fel raportat la nivel global în acest moment."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/yemen-houthi-taiz-escaladare-armistitiu-2026.jpg\" alt=\"Houthi\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Houthi. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Houthi_billboard,_Sanaa.webp\" rel=\"nofollow noopener\" target=\"_blank\">Houthi billboard, Sanaa</a>\" de Haitham Mohammed, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/yemen-houthi-taiz-escaladare-armistitiu-2026.jpg",
+    "licenta": "Public domain",
+    "autor": "Haitham Mohammed"
+  }
 }

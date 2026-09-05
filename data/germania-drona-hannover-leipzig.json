@@ -11,28 +11,49 @@
     {
       "text": "Operațiunile de zbor la aeroportul din Hannover au fost suspendate în noaptea de 10 spre 11 august 2026, după ce un pilot aflat în apropiere a semnalat o dronă. Potrivit unei purtătoare de cuvânt a aeroportului, citată de agenția germană DPA, pistele au fost închise între aproximativ ora 4:00 dimineața și ora 5:20, iar traficul aerian a revenit la normal în cursul dimineții.",
       "sources": [
-        { "name": "Yahoo News (DPA/AFP) — Germany's Hanover Airport suspends flights after drone sighted", "url": "https://www.yahoo.com/news/world/articles/germanys-hanover-airport-suspends-flights-151832577.html" },
-        { "name": "Rio Times — Europe Intelligence Brief, 11 august 2026", "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-august-11-2026/" }
+        {
+          "name": "Yahoo News (DPA/AFP) — Germany's Hanover Airport suspends flights after drone sighted",
+          "url": "https://www.yahoo.com/news/world/articles/germanys-hanover-airport-suspends-flights-151832577.html"
+        },
+        {
+          "name": "Rio Times — Europe Intelligence Brief, 11 august 2026",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-august-11-2026/"
+        }
       ]
     },
     {
       "text": "Șase zboruri de pasageri au fost întârziate, iar un avion cargo venit din Paris a fost deviat spre alt aeroport. Poliția criminalistică din Hannover anchetează incidentul, dar nu a oferit alte detalii, invocând ancheta în desfășurare.",
       "sources": [
-        { "name": "Yahoo News (DPA/AFP) — zboruri afectate", "url": "https://www.yahoo.com/news/world/articles/germanys-hanover-airport-suspends-flights-151832577.html" },
-        { "name": "Rio Times — anchetă preluată de brigada de securitate a statului", "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-august-11-2026/" }
+        {
+          "name": "Yahoo News (DPA/AFP) — zboruri afectate",
+          "url": "https://www.yahoo.com/news/world/articles/germanys-hanover-airport-suspends-flights-151832577.html"
+        },
+        {
+          "name": "Rio Times — anchetă preluată de brigada de securitate a statului",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-august-11-2026/"
+        }
       ]
     },
     {
       "text": "Incidentul de la Hannover a venit la șase zile după un episod mai grav: în noaptea de 4 spre 5 august 2026, o dronă înarmată cu un dispozitiv exploziv artizanal a fost găsită lângă un avion-cargo ucrainean Antonov An-124, pe platforma aeroportului Leipzig/Halle. O echipă de deminori a înlăturat detonatorul cu ajutorul unui robot. Ministrul german de interne, Alexander Dobrindt, a numit episodul „o nouă calitate a pericolului”.",
       "sources": [
-        { "name": "NPR — Drone with explosives found at German airport, official sees 'new quality' of threat", "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport" },
-        { "name": "Fox News — Explosive drone forces shutdown at major German airport serving NATO, Ukraine flights", "url": "https://www.foxnews.com/world/explosive-drone-forces-shutdown-major-german-airport-serving-nato-ukraine-flights" }
+        {
+          "name": "NPR — Drone with explosives found at German airport, official sees 'new quality' of threat",
+          "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport"
+        },
+        {
+          "name": "Fox News — Explosive drone forces shutdown at major German airport serving NATO, Ukraine flights",
+          "url": "https://www.foxnews.com/world/explosive-drone-forces-shutdown-major-german-airport-serving-nato-ukraine-flights"
+        }
       ]
     },
     {
       "text": "Cazul se înscrie într-un tipar mai larg: poliția germană a documentat peste 1.000 de zboruri suspecte de drone în 2025, majoritatea lângă aeroporturi și obiective militare. Germania a înființat un centru comun de apărare anti-dronă la Berlin și a desfășurat circa 130 de polițiști federali echipați cu sisteme de bruiaj și drone interceptoare.",
       "sources": [
-        { "name": "Rio Times — context, peste 1.000 de survoluri suspecte în 2025", "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-august-11-2026/" }
+        {
+          "name": "Rio Times — context, peste 1.000 de survoluri suspecte în 2025",
+          "url": "https://www.riotimesonline.com/europe-intelligence-brief-tuesday-august-11-2026/"
+        }
       ]
     }
   ],
@@ -40,9 +61,18 @@
     {
       "text": "Nu este stabilit dacă incidentul de la Hannover este legat de cel de la Leipzig/Halle din 5 august — agenția DPA a precizat explicit că, la momentul relatării, „nu era clar dacă cele două incidente sunt conectate”. Separat, responsabilitatea pentru drona cu exploziv de la Leipzig rămâne neclarificată oficial: ambasadorul Ucrainei în Germania a sugerat public implicarea Rusiei („cine altcineva ar putea fi, dacă nu Rusia?”), în timp ce oficialii germani spun că ancheta — inclusiv analiza urmelor ADN — este încă în desfășurare și nu au atribuit oficial vina.",
       "sources": [
-        { "name": "Yahoo News (DPA/AFP) — legătura dintre cele două incidente, neclară", "url": "https://www.yahoo.com/news/world/articles/germanys-hanover-airport-suspends-flights-151832577.html" },
-        { "name": "Fox News — ambasadorul Ucrainei suspectează Rusia", "url": "https://www.foxnews.com/world/explosive-drone-forces-shutdown-major-german-airport-serving-nato-ukraine-flights" },
-        { "name": "NPR — ministrul Dobrindt: ancheta e în desfășurare", "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport" }
+        {
+          "name": "Yahoo News (DPA/AFP) — legătura dintre cele două incidente, neclară",
+          "url": "https://www.yahoo.com/news/world/articles/germanys-hanover-airport-suspends-flights-151832577.html"
+        },
+        {
+          "name": "Fox News — ambasadorul Ucrainei suspectează Rusia",
+          "url": "https://www.foxnews.com/world/explosive-drone-forces-shutdown-major-german-airport-serving-nato-ukraine-flights"
+        },
+        {
+          "name": "NPR — ministrul Dobrindt: ancheta e în desfășurare",
+          "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport"
+        }
       ]
     }
   ],
@@ -56,5 +86,12 @@
     "explanation": "Potrivit poliției germane, în 2025 au fost înregistrate peste 1.000 de zboruri suspecte de drone, majoritatea lângă aeroporturi sau obiective militare — adică, în medie, mai mult de 2-3 semnalări pe zi la nivel național. În ultimele luni, cel puțin patru aeroporturi germane (Bremen, Berlin Brandenburg, Leipzig/Halle și acum Hannover) și-au întrerupt temporar operațiunile din acest motiv. Un singur incident izolat ar putea fi tratat drept banal; frecvența ridicată e motivul pentru care autoritățile germane au creat un centru dedicat de apărare anti-dronă, nu neapărat o dovadă că fiecare caz în parte are aceeași cauză sau același autor."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am separat explicit ce e confirmat de autorități (închiderea aeroportului, durata, zborurile afectate) de ce rămâne speculație — mai ales legătura cu Leipzig și suspiciunea privind Rusia, ridicată public doar de partea ucraineană, nu de anchetatorii germani.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/germania-drona-hannover-leipzig.jpg\" alt=\"Germania\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Germania. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1908_SY_Germania.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1908 SY Germania</a>\" de Sir James, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/germania-drona-hannover-leipzig.jpg",
+    "licenta": "Public domain",
+    "autor": "Sir James"
+  }
 }

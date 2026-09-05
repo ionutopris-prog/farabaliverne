@@ -11,22 +11,40 @@
     {
       "text": "Vineri seară, 14 august 2026, președintele Volodimir Zelenski a declarat, după o informare de front prezentată de comandantul-șef al armatei ucrainene Mihailo Drapatîi: „Mă aștept ca acum, în august, să avem cel puțin 30.000 de ocupanți eliminați”. Declarația a fost relatată concordant de mai multe redacții.",
       "sources": [
-        { "name": "Digi24 — Zelenski: Rusia ar putea pierde 30.000 de militari în august", "url": "https://www.digi24.ro/stiri/externe/zelenski-rusia-ar-putea-pierde-30-000-de-militari-in-august-ucraina-isi-intareste-pozitiile-in-donetk-3907419" },
-        { "name": "Rador — Zelenski se așteaptă ca cel puțin 30.000 de militari ruși să fie eliminați în luna august", "url": "https://www.rador.ro/2026/08/15/zelenski-se-asteapta-ca-cel-putin-30-000-de-militari-rusi-sa-fie-eliminati-in-luna-august/" },
-        { "name": "Adevărul — Zelenski anunță o nouă țintă pentru armata ucraineană", "url": "https://adevarul.ro/stiri-externe/europa/zelenski-anunta-o-noua-tinta-pentru-armata-2550058.html" }
+        {
+          "name": "Digi24 — Zelenski: Rusia ar putea pierde 30.000 de militari în august",
+          "url": "https://www.digi24.ro/stiri/externe/zelenski-rusia-ar-putea-pierde-30-000-de-militari-in-august-ucraina-isi-intareste-pozitiile-in-donetk-3907419"
+        },
+        {
+          "name": "Rador — Zelenski se așteaptă ca cel puțin 30.000 de militari ruși să fie eliminați în luna august",
+          "url": "https://www.rador.ro/2026/08/15/zelenski-se-asteapta-ca-cel-putin-30-000-de-militari-rusi-sa-fie-eliminati-in-luna-august/"
+        },
+        {
+          "name": "Adevărul — Zelenski anunță o nouă țintă pentru armata ucraineană",
+          "url": "https://adevarul.ro/stiri-externe/europa/zelenski-anunta-o-noua-tinta-pentru-armata-2550058.html"
+        }
       ]
     },
     {
       "text": "Zelenski a legat anunțul de consolidarea apărării pe direcțiile Sloviansk și Kostiantînivka, din regiunea Donețk, spunând că „am stabilit măsurile și resursele necesare” pentru întărirea acestor sectoare, considerate esențiale pentru centura de apărare ucraineană din Donbas. A discutat subiectul și cu ministrul apărării, Ievhen Hmara.",
       "sources": [
-        { "name": "Digi24 — Ucraina își întărește pozițiile în Donețk", "url": "https://www.digi24.ro/stiri/externe/zelenski-rusia-ar-putea-pierde-30-000-de-militari-in-august-ucraina-isi-intareste-pozitiile-in-donetk-3907419" },
-        { "name": "Rador — context Sloviansk și Kostiantînivka", "url": "https://www.rador.ro/2026/08/15/zelenski-se-asteapta-ca-cel-putin-30-000-de-militari-rusi-sa-fie-eliminati-in-luna-august/" }
+        {
+          "name": "Digi24 — Ucraina își întărește pozițiile în Donețk",
+          "url": "https://www.digi24.ro/stiri/externe/zelenski-rusia-ar-putea-pierde-30-000-de-militari-in-august-ucraina-isi-intareste-pozitiile-in-donetk-3907419"
+        },
+        {
+          "name": "Rador — context Sloviansk și Kostiantînivka",
+          "url": "https://www.rador.ro/2026/08/15/zelenski-se-asteapta-ca-cel-putin-30-000-de-militari-rusi-sa-fie-eliminati-in-luna-august/"
+        }
       ]
     },
     {
       "text": "Ținta anunțată se înscrie într-un tipar: partea ucraineană a comunicat lunar cifre similare de pierderi ruse — aproximativ 30.000 în mai și 28.000 în iunie, potrivit declarațiilor prezentate la o ședință a Consiliului de Securitate al ONU pe 9 iulie 2026, iar Statul-Major General ucrainean a raportat 42.800 de pierderi ruse în iulie, cel mai ridicat ritm din acest an, potrivit estimărilor de la Kiev.",
       "sources": [
-        { "name": "Al Jazeera — Russia hits record 43,000 casualties in July as its armies retreat", "url": "https://www.aljazeera.com/news/2026/8/7/russia-hits-record-43000-casualties-in-july-as-its-armies-retreat-ukraine" }
+        {
+          "name": "Al Jazeera — Russia hits record 43,000 casualties in July as its armies retreat",
+          "url": "https://www.aljazeera.com/news/2026/8/7/russia-hits-record-43000-casualties-in-july-as-its-armies-retreat-ukraine"
+        }
       ]
     }
   ],
@@ -34,14 +52,23 @@
     {
       "text": "Cifra de 30.000 este o estimare/țintă comunicată de partea ucraineană — una dintre cele două părți implicate direct în conflict — nu un bilanț confirmat de o sursă independentă. Al Jazeera precizează explicit, în relatările sale despre pierderile raportate de ambele tabere: „Al Jazeera nu poate verifica independent afirmațiile niciuneia dintre părți privind pierderile din acest război, aflat acum în al cincilea an”. Nici Rusia nu publică bilanțuri oficiale verificabile ale propriilor pierderi.",
       "sources": [
-        { "name": "Al Jazeera — Russia hits record 43,000 casualties in July as its armies retreat", "url": "https://www.aljazeera.com/news/2026/8/7/russia-hits-record-43000-casualties-in-july-as-its-armies-retreat-ukraine" },
-        { "name": "Al Jazeera — Russian rate of losses in Ukraine almost triples in one year", "url": "https://www.aljazeera.com/news/2026/5/29/russian-rate-of-losses-in-ukraine-almost-triples-in-one-year" }
+        {
+          "name": "Al Jazeera — Russia hits record 43,000 casualties in July as its armies retreat",
+          "url": "https://www.aljazeera.com/news/2026/8/7/russia-hits-record-43000-casualties-in-july-as-its-armies-retreat-ukraine"
+        },
+        {
+          "name": "Al Jazeera — Russian rate of losses in Ukraine almost triples in one year",
+          "url": "https://www.aljazeera.com/news/2026/5/29/russian-rate-of-losses-in-ukraine-almost-triples-in-one-year"
+        }
       ]
     },
     {
       "text": "Definițiile contează: nu este clar din declarația lui Zelenski dacă „eliminați” înseamnă exclusiv morți, sau include și răniți, capturați ori scoși temporar din luptă — o distincție pe care sursele occidentale o semnalează frecvent ca sursă de confuzie când se compară cifrele anunțate de Kiev cu estimările unor institute independente de analiză militară, care de regulă indică intervale mult mai largi și mai incerte pentru pierderile totale ruse de la începutul războiului.",
       "sources": [
-        { "name": "Al Jazeera — Russian rate of losses in Ukraine almost triples in one year", "url": "https://www.aljazeera.com/news/2026/5/29/russian-rate-of-losses-in-ukraine-almost-triples-in-one-year" }
+        {
+          "name": "Al Jazeera — Russian rate of losses in Ukraine almost triples in one year",
+          "url": "https://www.aljazeera.com/news/2026/5/29/russian-rate-of-losses-in-ukraine-almost-triples-in-one-year"
+        }
       ]
     }
   ],
@@ -51,5 +78,14 @@
     "explanation": "Dacă ținta de 30.000 pentru august s-ar confirma (lucru neverificabil independent la data acestei verificări), ea ar fi apropiată de recordul lunar anunțat de Statul-Major ucrainean pentru iulie (42.800, cea mai mare cifră lunară din acest an, potrivit Kievului) — deci în aceeași ordine de mărime, nu o depășire spectaculoasă. Important: toate aceste cifre lunare provin din surse ucrainene; presa internațională care le preia (Al Jazeera) spune explicit că nu le poate confirma independent, iar Rusia nu publică o contra-cifră oficială verificabilă."
   },
   "aiNote": "Ce se probează: Zelenski a făcut această declarație vineri seară, 14 august 2026, în contextul unei informări de front despre Sloviansk și Kostiantînivka, iar anunțul se înscrie într-un tipar de cifre lunare comunicate de Kiev de-a lungul acestui an (mai, iunie, iulie). Ce NU se probează independent: dacă și în ce măsură se va confirma efectiv cifra de 30.000 — presa internațională citată (Al Jazeera) spune clar că nu poate verifica bilanțurile de pierderi anunțate de nicio parte a conflictului. Nu tratăm afirmația ca „minciună”, ci arătăm limita ei: e o țintă/estimare militară anunțată de o parte implicată în război, nu o cifră confirmată de o sursă independentă (ONU, Crucea Roșie sau un institut independent de monitorizare).",
-  "persoane": ["Volodimir Zelenski"]
+  "persoane": [
+    "Volodimir Zelenski"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/zelenski-tinta-30000-militari-rusi-eliminati-august.jpg\" alt=\"Volodymyr Zelensky\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Volodymyr Zelensky. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Volodymyr_Zelensky_2019_presidential_inauguration_21.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Volodymyr Zelensky 2019 presidential inauguration 21</a>\" de Mykhaylo Markiv / The Presidential Administration of Ukraine, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/zelenski-tinta-30000-militari-rusi-eliminati-august.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Mykhaylo Markiv / The Presidential Administration of Ukraine"
+  }
 }

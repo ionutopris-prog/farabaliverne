@@ -11,28 +11,49 @@
     {
       "text": "Consiliul de administrație al BNR a decis, luni, 10 august 2026, menținerea ratei dobânzii de politică monetară la 6,50% pe an. Decizia este relatată concordant de mai multe redacții economice.",
       "sources": [
-        { "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an", "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953" },
-        { "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%", "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html" },
-        { "name": "ZF — Analiștii: BNR va menține dobânda-cheie la 6,5%", "url": "https://www.zf.ro/banci-si-asigurari/analistii-bnr-va-mentine-dobanda-cheie-la-6-5-in-sedinta-de-politica-monetara-de-luni-10-august-iar-reduceri-vom-vedea-anul-viitor-prognoza-de-inflatie-va-fi-revizuita-usor-in-sus-23211510" }
+        {
+          "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an",
+          "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953"
+        },
+        {
+          "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%",
+          "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html"
+        },
+        {
+          "name": "ZF — Analiștii: BNR va menține dobânda-cheie la 6,5%",
+          "url": "https://www.zf.ro/banci-si-asigurari/analistii-bnr-va-mentine-dobanda-cheie-la-6-5-in-sedinta-de-politica-monetara-de-luni-10-august-iar-reduceri-vom-vedea-anul-viitor-prognoza-de-inflatie-va-fi-revizuita-usor-in-sus-23211510"
+        }
       ]
     },
     {
       "text": "Odată cu dobânda-cheie, BNR a păstrat neschimbate și rata dobânzii la facilitatea de creditare (Lombard), de 7,50% pe an, rata dobânzii la facilitatea de depozit, de 5,50% pe an, precum și nivelurile actuale ale ratelor rezervelor minime obligatorii pentru pasivele în lei și în valută ale băncilor.",
       "sources": [
-        { "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an", "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953" },
-        { "name": "ZF — Analiștii: BNR va menține dobânda-cheie la 6,5%", "url": "https://www.zf.ro/banci-si-asigurari/analistii-bnr-va-mentine-dobanda-cheie-la-6-5-in-sedinta-de-politica-monetara-de-luni-10-august-iar-reduceri-vom-vedea-anul-viitor-prognoza-de-inflatie-va-fi-revizuita-usor-in-sus-23211510" }
+        {
+          "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an",
+          "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953"
+        },
+        {
+          "name": "ZF — Analiștii: BNR va menține dobânda-cheie la 6,5%",
+          "url": "https://www.zf.ro/banci-si-asigurari/analistii-bnr-va-mentine-dobanda-cheie-la-6-5-in-sedinta-de-politica-monetara-de-luni-10-august-iar-reduceri-vom-vedea-anul-viitor-prognoza-de-inflatie-va-fi-revizuita-usor-in-sus-23211510"
+        }
       ]
     },
     {
       "text": "Inflația anuală a scăzut la 10,42% în iunie 2026, de la 10,85% în mai, coborâre explicată de BNR prin prețuri mai mici la alimente și carburanți, parțial compensate de scumpirea gazelor naturale și a energiei electrice.",
       "sources": [
-        { "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an", "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953" }
+        {
+          "name": "BURSA — BNR a menținut rata dobânzii-cheie la 6,50% pe an",
+          "url": "https://www.bursa.ro/bnr-a-mentinut-rata-dobanzii-cheie-la-6-50-procente-pe-an-66238953"
+        }
       ]
     },
     {
       "text": "Este a noua ședință consecutivă de politică monetară în care BNR lasă dobânda-cheie neschimbată — ultima modificare a avut loc în august 2024, când banca centrală a redus rata de la 6,75% la 6,50%, nivel menținut de atunci la toate ședințele următoare.",
       "sources": [
-        { "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%", "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html" }
+        {
+          "name": "Adevărul — BNR menține dobânda-cheie de politică monetară la 6,5%",
+          "url": "https://adevarul.ro/economie/bnr-mentine-dobanda-cheie-de-politica-monetara-la-2548793.html"
+        }
       ]
     }
   ],
@@ -50,5 +71,12 @@
     "explanation": "Dobânda-cheie de 6,50% pe an pare ridicată, dar inflația anuală era de 10,42% în iunie 2026. Scăzând inflația din dobânda nominală (6,50% − 10,42%), rezultă o rată reală de aproximativ −3,92 puncte procentuale. Cu alte cuvinte, chiar și la acest nivel al dobânzii, banii ținuți în depozite sau împrumutați cu dobândă apropiată de cea cheie pierd putere de cumpărare în termeni reali — inflația rămâne peste dobândă, nu invers."
   },
   "aiNote": "Sursele economice verificate confirmă concordant decizia: BNR a menținut dobânda-cheie la 6,50% pe an, a noua ședință la rând fără schimbare, cu Lombard la 7,50% și dobânda de depozit la 5,50%. Inflația a scăzut ușor, la 10,42% în iunie, dar rămâne mult peste ținta BNR. Am separat clar faptele (decizia, cifrele, ratele) de prognozele analiștilor și ale băncii centrale despre evoluția viitoare, care sunt estimări, nu certitudini.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bnr-dobanda-cheie-650-august-2026.jpg\" alt=\"National Bank of Romania building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — National Bank of Romania building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Banco_Nacional_de_Ruman%C3%ADa,_Bucarest,_Ruman%C3%ADa,_2016-05-29,_DD_51.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Banco Nacional de Rumanía, Bucarest, Rumanía, 2016-05-29, DD 51</a>\" de Diego Delso, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bnr-dobanda-cheie-650-august-2026.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Diego Delso"
+  }
 }

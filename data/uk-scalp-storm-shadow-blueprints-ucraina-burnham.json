@@ -70,5 +70,12 @@
   "aiNote": "Ce s-a verificat: anunțul lui Andy Burnham la Kiev, descrierea tehnică a rachetei Storm Shadow/SCALP (greutate, lungime, rază de acțiune), declarația ministrului Luke Pollard și reacția lui Dmitri Peskov sunt confirmate concordant de Kyiv Independent și Euronews, două redacții independente care acoperă direct evenimentul. Unde e nevoie de prudență: estimarea privind durata până la o producție locală efectivă vine de la un singur analist citat (Douglas Barrie, IISS) și e explicit incertă chiar în sursă — „ani, nu luni”, dar cu posibile accelerări. Nu am găsit, în sursele consultate, un răspuns oficial explicit al guvernului rus (dincolo de declarația lui Peskov) sau o reacție americană directă la acest anunț specific. Ce ar schimba concluzia: confirmarea sau infirmarea, în lunile următoare, a unei linii de producție ucrainene reale pentru această rachetă, sau declarații suplimentare din partea altor oficiali ruși ori occidentali.\n\n🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
   "persoane": [
     "Andy Burnham"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/uk-scalp-storm-shadow-blueprints-ucraina-burnham.jpg\" alt=\"Royal Air Force Typhoon aircraft\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Royal Air Force Typhoon aircraft. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:German_Air_Force_Eurofighter_Typhoon_EF2000_30%2B69_Royal_International_Air_Tattoo_2024_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">German Air Force Eurofighter Typhoon EF2000 30+69 Royal International Air Tattoo 2024 01</a>\" de Julian Herzog (Website), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/uk-scalp-storm-shadow-blueprints-ucraina-burnham.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Julian Herzog (Website)"
+  }
 }

@@ -11,14 +11,23 @@
     {
       "text": "Pe 3 septembrie 2026, la ora 14:52 (ora Marii Britanii), Modulul de Transfer Mercur (MTM) — componenta care a propulsat BepiColombo de-a lungul călătoriei sale de aproape opt ani prin Sistemul Solar interior — s-a separat de cei doi orbitatori științifici ai misiunii, la peste 200 de milioane de kilometri de Pământ. ESA a confirmat că „toate sistemele sunt nominale”, iar panourile solare ale orbitatorului european (MPO) au început să încarce bateriile navei. Separarea marchează începutul fazei de sosire la Mercur.",
       "sources": [
-        {"name": "ESA — Latest updates: BepiColombo's arrival at Mercury", "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"}
+        {
+          "name": "ESA — Latest updates: BepiColombo's arrival at Mercury",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+        }
       ]
     },
     {
       "text": "BepiColombo e o misiune comună a Agenției Spațiale Europene (ESA) și a Agenției Japoneze de Explorare Aerospațială (JAXA) și va fi prima care pune simultan doi orbitatori în jurul lui Mercur: Mercury Planetary Orbiter (MPO), construit de ESA, și Mercury Magnetospheric Orbiter (Mio), construit de JAXA. Urmează o secvență de manevre pe care ESA o descrie drept una dintre cele mai solicitante operațional din istoria agenției: intrarea efectivă pe orbita lui Mercur e programată pentru 21 noiembrie 2026, separarea dintre MPO și Mio pentru 9-10 decembrie 2026, iar faza științifică a misiunii urmează să înceapă în aprilie 2027.",
       "sources": [
-        {"name": "ESA — Watch live: BepiColombo begins its arrival at Mercury", "url": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"},
-        {"name": "Wikipedia — BepiColombo (pentru cronologia misiunii)", "url": "https://en.wikipedia.org/wiki/BepiColombo"}
+        {
+          "name": "ESA — Watch live: BepiColombo begins its arrival at Mercury",
+          "url": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"
+        },
+        {
+          "name": "Wikipedia — BepiColombo (pentru cronologia misiunii)",
+          "url": "https://en.wikipedia.org/wiki/BepiColombo"
+        }
       ]
     }
   ],
@@ -29,5 +38,12 @@
     "title": "De ce durează opt ani să ajungi la planeta cea mai apropiată de noi",
     "explanation": "Pare contraintuitiv: Mercur e cea mai apropiată planetă de Soare, deci ar trebui să fie „aproape” de accesat. Problema e exact Soarele — atracția lui gravitațională uriașă face ca o navă lansată direct spre Mercur să accelereze constant și să treacă pe lângă planetă prea repede ca să se poată așeza pe orbită, la fel cum o minge aruncată pe o pantă abruptă nu poate fi oprită ușor la jumătatea drumului. Ca să „frâneze” suficient, BepiColombo folosește nouă survolări planetare (o dată pe lângă Pământ, de două ori pe lângă Venus, de șase ori pe lângă Mercur însuși) plus propulsie electrică solară continuă, fiecare folosind gravitația planetei respective pentru a pierde din viteză treptat. De-aici și durata de aproape opt ani pentru un drum pe care, în linie dreaptă, l-ar putea parcurge mult mai repede."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bepicolombo-mercur-faza-sosire-3-septembrie.jpg\" alt=\"Mercury planet surface\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mercury planet surface. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:MESSENGER_-_spacecraft_at_mercury_-_atmercury_lg.jpg\" rel=\"nofollow noopener\" target=\"_blank\">MESSENGER - spacecraft at mercury - atmercury lg</a>\" de NASA / JHU/APL, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bepicolombo-mercur-faza-sosire-3-septembrie.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA / JHU/APL"
+  }
 }

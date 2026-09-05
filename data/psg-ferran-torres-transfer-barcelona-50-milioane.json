@@ -70,5 +70,12 @@
   ],
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifra de ~50 de milioane de euro și pasul următor (vizita medicală la Paris) sunt relatate concordant de ESPN, Goal.com și Yahoo Sports, toate citând surse din interiorul negocierilor, inclusiv jurnalistul specializat Fabrizio Romano. Am marcat la „contestat” exact ce nu e încă bătut în cuie: niciun club nu a confirmat oficial tranzacția, iar suma variază ușor (50 vs. ~55 milioane cu bonusuri) între relatări — tratăm transferul ca fiind foarte probabil, dar formal neîncheiat până la anunțul oficial al cluburilor.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/psg-ferran-torres-transfer-barcelona-50-milioane.jpg\" alt=\"Torres\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Torres. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_in_Torres_del_Paine_National_Park.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cuernos del Paine in Torres del Paine National Park</a>\" de Pedro Szekely from Los Angeles, USA, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/psg-ferran-torres-transfer-barcelona-50-milioane.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Pedro Szekely from Los Angeles, USA"
+  }
 }

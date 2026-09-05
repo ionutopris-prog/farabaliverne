@@ -1,64 +1,121 @@
 {
-    "slug": "novorossiysk-atac-flota-neagra-4-nave",
-    "title": "Ucraina afirmă că a avariat 4 nave de război rusești în atacul asupra bazei navale Novorossiysk",
-    "category": "Extern",
-    "date": "2026-08-12",
-    "source": "Kyiv Independent",
-    "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/",
-    "dek": "🌍 În noaptea de 11 spre 12 august 2026, Ucraina a lovit baza navală rusă din Novorossiysk cu drone și rachete Neptune. Statul Major ucrainean susține că a avariat 4 nave de război; un grup OSINT independent dă o listă diferită, iar Rusia nu a confirmat și nu a negat explicit pagubele militare. Autoritățile ruse au raportat separat victime civile.",
-    "mainVerdict": "Probat, cu rezerve",
-    "probat": [
+  "slug": "novorossiysk-atac-flota-neagra-4-nave",
+  "title": "Ucraina afirmă că a avariat 4 nave de război rusești în atacul asupra bazei navale Novorossiysk",
+  "category": "Extern",
+  "date": "2026-08-12",
+  "source": "Kyiv Independent",
+  "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/",
+  "dek": "🌍 În noaptea de 11 spre 12 august 2026, Ucraina a lovit baza navală rusă din Novorossiysk cu drone și rachete Neptune. Statul Major ucrainean susține că a avariat 4 nave de război; un grup OSINT independent dă o listă diferită, iar Rusia nu a confirmat și nu a negat explicit pagubele militare. Autoritățile ruse au raportat separat victime civile.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "În noaptea de 11 spre 12 august 2026, forțele ucrainene au lovit baza navală rusă din Novorossiysk (regiunea Krasnodar), folosind drone cu reacție de tip Palianytsia, rachete de croazieră anti-navă Neptune și drone navale de suprafață, potrivit declarației președintelui Volodimir Zelenski și presei ucrainene.",
+      "sources": [
         {
-            "text": "În noaptea de 11 spre 12 august 2026, forțele ucrainene au lovit baza navală rusă din Novorossiysk (regiunea Krasnodar), folosind drone cu reacție de tip Palianytsia, rachete de croazieră anti-navă Neptune și drone navale de suprafață, potrivit declarației președintelui Volodimir Zelenski și presei ucrainene.",
-            "sources": [
-                {"name": "Interfax-Ukraine — declarația lui Zelenski despre atac", "url": "https://en.interfax.com.ua/news/general/1192548.html"},
-                {"name": "Kyiv Independent — 4 nave de război rusești avariate în atacul asupra Novorossiysk", "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"},
-                {"name": "Euronews — Ucraina lovește Novorossiysk, ultimul refugiu al flotei ruse din Marea Neagră", "url": "https://www.euronews.com/my-europe/2026/08/12/ukraine-strikes-novorossiysk-putting-russias-last-black-sea-sanctuary-within-reach"}
-            ]
+          "name": "Interfax-Ukraine — declarația lui Zelenski despre atac",
+          "url": "https://en.interfax.com.ua/news/general/1192548.html"
         },
         {
-            "text": "Novorossiysk se află la peste 300 km de linia frontului și a devenit principalul refugiu al Flotei Ruse din Marea Neagră, după ce operațiunile ucrainene au făcut Sevastopolul (Crimeea ocupată) prea vulnerabil. Este totodată cel mai mare port comercial al Rusiei, folosit intens pentru exportul de cereale.",
-            "sources": [
-                {"name": "Euronews — semnificația strategică a Novorossiysk pentru flota rusă", "url": "https://www.euronews.com/my-europe/2026/08/12/ukraine-strikes-novorossiysk-putting-russias-last-black-sea-sanctuary-within-reach"},
-                {"name": "Kyiv Independent — context Novorossiysk, ultimul port militar major al Rusiei la Marea Neagră", "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"}
-            ]
+          "name": "Kyiv Independent — 4 nave de război rusești avariate în atacul asupra Novorossiysk",
+          "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"
         },
         {
-            "text": "Guvernatorul regiunii Krasnodar, Veniamin Kondratyev, și primarul Novorossiyskului, Andrei Kravcenko — oficiali ruși — au confirmat, prin canale oficiale (Telegram, preluate de TASS, media de stat rusă), moartea unui copil de 8 ani și pagube la 21 de clădiri rezidențiale, 4 întreprinderi, o școală și un colegiu, plus întreruperea alimentării cu apă. A fost declarată stare de urgență locală.",
-            "sources": [
-                {"name": "The Moscow Times — drone ucid o persoană, opresc lucrul la terminalul de cereale din Novorossiysk", "url": "https://www.themoscowtimes.com/2026/08/12/drones-kill-one-reportedly-halt-work-at-novorossiysk-grain-terminal-a93465"},
-                {"name": "Al Jazeera — trei morți în atacurile de peste noapte asupra portului rusesc/ucrainean", "url": "https://www.aljazeera.com/news/2026/8/12/three-killed-in-overnight-attacks-on-russian-ukrainian-port"},
-                {"name": "TASS (media de stat rusă) — starea de urgență declarată la Novorossiysk", "url": "https://tass.com/politics/2171877"}
-            ]
-        },
-        {
-            "text": "Două terminale mari de cereale din portul Novorossiysk și-au suspendat temporar operațiunile, iar terminalul petrolier Sheskharis a fost avariat/incendiat, potrivit relatărilor martorilor oculari și analizei satelitare (semnături termice) citate de presa ucraineană. Nu a existat un comunicat oficial al companiei ruse Transneft specific acestui atac.",
-            "sources": [
-                {"name": "Kyiv Independent — infrastructură portuară lovită la Novorossiysk", "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"},
-                {"name": "Militarnyi — drone lovesc terminalul petrolier și baza navală din Novorossiysk", "url": "https://militarnyi.com/en/news/drones-attack-oil-terminal-and-naval-base-in-novorossiysk/"}
-            ]
+          "name": "Euronews — Ucraina lovește Novorossiysk, ultimul refugiu al flotei ruse din Marea Neagră",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/ukraine-strikes-novorossiysk-putting-russias-last-black-sea-sanctuary-within-reach"
         }
-    ],
-    "contestat": [
+      ]
+    },
+    {
+      "text": "Novorossiysk se află la peste 300 km de linia frontului și a devenit principalul refugiu al Flotei Ruse din Marea Neagră, după ce operațiunile ucrainene au făcut Sevastopolul (Crimeea ocupată) prea vulnerabil. Este totodată cel mai mare port comercial al Rusiei, folosit intens pentru exportul de cereale.",
+      "sources": [
         {
-            "text": "Cifra de „4 nave de război avariate” (fregatele Admiral Makarov și Admiral Essen, o navă purtătoare de rachete clasa Buyan-M și nava de patrulare Vasili Bîkov) provine exclusiv de la Statul Major ucrainean, care a precizat el însuși că „amploarea deteriorărilor este în curs de clarificare”. Un grup independent de analiză open-source (Exilenova+) oferă o listă diferită — 6 nave militare plus 2 nave comerciale, cu suprapunere parțială față de lista ucraineană. Nicio sursă occidentală (Reuters, AP) și nicio sursă rusă nu au confirmat sau infirmat independent numărul exact. Rusia nu a comentat explicit pagubele la nave.",
-            "sources": [
-                {"name": "Militarnyi — analiză OSINT: două fregate, un dragor de mine, nave de recunoaștere și patrulare avariate", "url": "https://militarnyi.com/en/news/two-frigates-minesweeper-reconnaissance-and-patrol-ships-damaged-at-russian-naval-base-in-novorossiysk-exilenova/"},
-                {"name": "Kyiv Independent — cifra ucraineană de 4 nave", "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"},
-                {"name": "Euronews — Rusia nu a oferit o relatare completă a pagubelor militare", "url": "https://www.euronews.com/my-europe/2026/08/12/ukraine-strikes-novorossiysk-putting-russias-last-black-sea-sanctuary-within-reach"}
-            ]
+          "name": "Euronews — semnificația strategică a Novorossiysk pentru flota rusă",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/ukraine-strikes-novorossiysk-putting-russias-last-black-sea-sanctuary-within-reach"
         },
         {
-            "text": "Numărul victimelor civile diferă între surse: Al Jazeera și The Moscow Times raportează un total de 3 morți la nivel regional, în timp ce Meduza și Kyiv Independent detaliază 2 morți (copilul de 8 ani din Novorossiysk și un bărbat din satul Volna). Ministerul rus al Apărării a declarat separat că a doborât 502 drone peste noapte în mai multe regiuni (Belgorod, Krasnodar, Crimeea, Marea Neagră) — cifră neverificată independent și fără nicio mențiune despre nave sau baza navală.",
-            "sources": [
-                {"name": "Al Jazeera — trei morți în atacurile de peste noapte", "url": "https://www.aljazeera.com/news/2026/8/12/three-killed-in-overnight-attacks-on-russian-ukrainian-port"},
-                {"name": "Euronews — patru morți, inclusiv un copil de 8 ani, în atacurile Rusia-Ucraina", "url": "https://www.euronews.com/my-europe/2026/08/12/russia-ukraine-strikes-kill-four-people-including-8-year-old-in-russia"},
-                {"name": "TASS (media de stat rusă) — cifra oficială rusă a dronelor doborâte", "url": "https://tass.com/politics/2171877"}
-            ]
+          "name": "Kyiv Independent — context Novorossiysk, ultimul port militar major al Rusiei la Marea Neagră",
+          "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"
         }
-    ],
-    "opinie": [],
-    "math": null,
-    "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Partea confirmată solid de mai multe redacții independente (occidentale și ucrainene) este că a avut loc un atac ucrainean masiv asupra bazei navale și portuare din Novorossiysk, cu victime civile și pagube la infrastructură. Cifra exactă a navelor militare avariate rămâne neconfirmată independent — vine dintr-o singură sursă (Statul Major ucrainean), iar o analiză OSINT separată oferă o listă diferită. Rusia, prin canale oficiale și media de stat (TASS), a confirmat victimele civile și starea de urgență locală, dar a evitat să comenteze pagubele militare — o tăcere care nu echivalează nici cu confirmare, nici cu infirmare a afirmațiilor ucrainene.",
-    "persoane": ["Volodimir Zelenski"]
+      ]
+    },
+    {
+      "text": "Guvernatorul regiunii Krasnodar, Veniamin Kondratyev, și primarul Novorossiyskului, Andrei Kravcenko — oficiali ruși — au confirmat, prin canale oficiale (Telegram, preluate de TASS, media de stat rusă), moartea unui copil de 8 ani și pagube la 21 de clădiri rezidențiale, 4 întreprinderi, o școală și un colegiu, plus întreruperea alimentării cu apă. A fost declarată stare de urgență locală.",
+      "sources": [
+        {
+          "name": "The Moscow Times — drone ucid o persoană, opresc lucrul la terminalul de cereale din Novorossiysk",
+          "url": "https://www.themoscowtimes.com/2026/08/12/drones-kill-one-reportedly-halt-work-at-novorossiysk-grain-terminal-a93465"
+        },
+        {
+          "name": "Al Jazeera — trei morți în atacurile de peste noapte asupra portului rusesc/ucrainean",
+          "url": "https://www.aljazeera.com/news/2026/8/12/three-killed-in-overnight-attacks-on-russian-ukrainian-port"
+        },
+        {
+          "name": "TASS (media de stat rusă) — starea de urgență declarată la Novorossiysk",
+          "url": "https://tass.com/politics/2171877"
+        }
+      ]
+    },
+    {
+      "text": "Două terminale mari de cereale din portul Novorossiysk și-au suspendat temporar operațiunile, iar terminalul petrolier Sheskharis a fost avariat/incendiat, potrivit relatărilor martorilor oculari și analizei satelitare (semnături termice) citate de presa ucraineană. Nu a existat un comunicat oficial al companiei ruse Transneft specific acestui atac.",
+      "sources": [
+        {
+          "name": "Kyiv Independent — infrastructură portuară lovită la Novorossiysk",
+          "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"
+        },
+        {
+          "name": "Militarnyi — drone lovesc terminalul petrolier și baza navală din Novorossiysk",
+          "url": "https://militarnyi.com/en/news/drones-attack-oil-terminal-and-naval-base-in-novorossiysk/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de „4 nave de război avariate” (fregatele Admiral Makarov și Admiral Essen, o navă purtătoare de rachete clasa Buyan-M și nava de patrulare Vasili Bîkov) provine exclusiv de la Statul Major ucrainean, care a precizat el însuși că „amploarea deteriorărilor este în curs de clarificare”. Un grup independent de analiză open-source (Exilenova+) oferă o listă diferită — 6 nave militare plus 2 nave comerciale, cu suprapunere parțială față de lista ucraineană. Nicio sursă occidentală (Reuters, AP) și nicio sursă rusă nu au confirmat sau infirmat independent numărul exact. Rusia nu a comentat explicit pagubele la nave.",
+      "sources": [
+        {
+          "name": "Militarnyi — analiză OSINT: două fregate, un dragor de mine, nave de recunoaștere și patrulare avariate",
+          "url": "https://militarnyi.com/en/news/two-frigates-minesweeper-reconnaissance-and-patrol-ships-damaged-at-russian-naval-base-in-novorossiysk-exilenova/"
+        },
+        {
+          "name": "Kyiv Independent — cifra ucraineană de 4 nave",
+          "url": "https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/"
+        },
+        {
+          "name": "Euronews — Rusia nu a oferit o relatare completă a pagubelor militare",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/ukraine-strikes-novorossiysk-putting-russias-last-black-sea-sanctuary-within-reach"
+        }
+      ]
+    },
+    {
+      "text": "Numărul victimelor civile diferă între surse: Al Jazeera și The Moscow Times raportează un total de 3 morți la nivel regional, în timp ce Meduza și Kyiv Independent detaliază 2 morți (copilul de 8 ani din Novorossiysk și un bărbat din satul Volna). Ministerul rus al Apărării a declarat separat că a doborât 502 drone peste noapte în mai multe regiuni (Belgorod, Krasnodar, Crimeea, Marea Neagră) — cifră neverificată independent și fără nicio mențiune despre nave sau baza navală.",
+      "sources": [
+        {
+          "name": "Al Jazeera — trei morți în atacurile de peste noapte",
+          "url": "https://www.aljazeera.com/news/2026/8/12/three-killed-in-overnight-attacks-on-russian-ukrainian-port"
+        },
+        {
+          "name": "Euronews — patru morți, inclusiv un copil de 8 ani, în atacurile Rusia-Ucraina",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/russia-ukraine-strikes-kill-four-people-including-8-year-old-in-russia"
+        },
+        {
+          "name": "TASS (media de stat rusă) — cifra oficială rusă a dronelor doborâte",
+          "url": "https://tass.com/politics/2171877"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": null,
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Partea confirmată solid de mai multe redacții independente (occidentale și ucrainene) este că a avut loc un atac ucrainean masiv asupra bazei navale și portuare din Novorossiysk, cu victime civile și pagube la infrastructură. Cifra exactă a navelor militare avariate rămâne neconfirmată independent — vine dintr-o singură sursă (Statul Major ucrainean), iar o analiză OSINT separată oferă o listă diferită. Rusia, prin canale oficiale și media de stat (TASS), a confirmat victimele civile și starea de urgență locală, dar a evitat să comenteze pagubele militare — o tăcere care nu echivalează nici cu confirmare, nici cu infirmare a afirmațiilor ucrainene.",
+  "persoane": [
+    "Volodimir Zelenski"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/novorossiysk-atac-flota-neagra-4-nave.jpg\" alt=\"Novorossiysk\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Novorossiysk. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Novorossiysk_nord-ost.png\" rel=\"nofollow noopener\" target=\"_blank\">Novorossiysk nord-ost</a>\" de Thezixs, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/novorossiysk-atac-flota-neagra-4-nave.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Thezixs"
+  }
 }

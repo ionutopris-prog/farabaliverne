@@ -11,26 +11,41 @@
     {
       "text": "Volker Türk, Înaltul Comisar al ONU pentru Drepturile Omului, a declarat pe 17 august 2026: „Îndemn toate părțile să oprească imediat orice acțiune care riscă să întoarcă Yemenul la conflict total”, avertizând asupra escaladării violențelor din ultimele săptămâni.",
       "sources": [
-        {"name": "Euronews — Yemen risks return to full-scale conflict if Houthi strikes continue, UN rights chief warns", "url": "https://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns"}
+        {
+          "name": "Euronews — Yemen risks return to full-scale conflict if Houthi strikes continue, UN rights chief warns",
+          "url": "https://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns"
+        }
       ]
     },
     {
       "text": "Potrivit bilanțului citat de ONU pentru perioada de la 6 august 2026: cel puțin 7 civili uciși și 10 răniți în atacuri Houthi asupra zonelor controlate de guvern; 3 muncitori portuari uciși și 4 răniți în urma unor lovituri cu rachete/drone asupra portului Mokha (9 august); 4 membri de echipaj (3 pakistanezi, 1 indonezian) uciși într-un atac asupra unei nave comerciale în strâmtoarea Bab al-Mandeb (11 august); 58 de militari guvernamentali uciși în zona Marib, plus 2 civili morți în urma unui bombardament Houthi.",
       "sources": [
-        {"name": "Euronews — Yemen risks return to full-scale conflict if Houthi strikes continue, UN rights chief warns", "url": "https://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns"}
+        {
+          "name": "Euronews — Yemen risks return to full-scale conflict if Houthi strikes continue, UN rights chief warns",
+          "url": "https://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns"
+        }
       ]
     },
     {
       "text": "În noaptea de 15 spre 16 august 2026, Houthii au lansat un nou val de rachete și drone asupra orașelor Al-Makha (Mokha), pe coasta Mării Roșii, și Marib, în interiorul țării. La Al-Makha au fost ucise patru persoane și rănite alte opt; la Marib au fost rănite patru persoane, în urma unui atac cu șase rachete balistice și patru drone. Operațiunile portuare din Al-Makha erau deja suspendate din cauza atacurilor anterioare.",
       "sources": [
-        {"name": "Al Jazeera — Houthis launch new attacks on Al-Makha and Marib as Yemen conflict escalates", "url": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates"}
+        {
+          "name": "Al Jazeera — Houthis launch new attacks on Al-Makha and Marib as Yemen conflict escalates",
+          "url": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates"
+        }
       ]
     },
     {
       "text": "Gruparea Houthi, susținută de Iran, a reluat în august 2026 atacurile asupra zonelor controlate de guvernul yemenit recunoscut internațional și susținut de o coaliție condusă de Arabia Saudită, după o relativă acalmie a luptelor terestre care dura din 2022 — an în care fusese negociat un armistițiu parțial.",
       "sources": [
-        {"name": "Al Jazeera — Houthis launch new attacks on Al-Makha and Marib as Yemen conflict escalates", "url": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates"},
-        {"name": "Euronews — Yemen risks return to full-scale conflict if Houthi strikes continue, UN rights chief warns", "url": "https://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns"}
+        {
+          "name": "Al Jazeera — Houthis launch new attacks on Al-Makha and Marib as Yemen conflict escalates",
+          "url": "https://www.aljazeera.com/news/2026/8/16/houthis-launch-new-attacks-on-al-makha-and-marib-as-yemen-conflict-escalates"
+        },
+        {
+          "name": "Euronews — Yemen risks return to full-scale conflict if Houthi strikes continue, UN rights chief warns",
+          "url": "https://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns"
+        }
       ]
     }
   ],
@@ -38,5 +53,14 @@
   "opinie": [],
   "math": "",
   "aiNote": "Cifrele privind victimele provin din declarația oficială a Înaltului Comisariat ONU pentru Drepturile Omului și din relatări de teren ale Al Jazeera, independente una de cealaltă, iar bilanțurile lor pentru aceleași zile (Al-Makha, Marib) se suprapun consistent. Nu am găsit surse care contestă faptul central — reluarea atacurilor Houthi și avertismentul ONU — dar notăm că gruparea Houthi nu a oferit, în sursele consultate, o versiune proprie publică asupra bilanțului victimelor.",
-  "persoane": ["Volker Türk"]
+  "persoane": [
+    "Volker Türk"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/yemen-onu-avertisment-conflict-total-houthi.jpg\" alt=\"Houthi\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Houthi. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Houthi_billboard,_Sanaa.webp\" rel=\"nofollow noopener\" target=\"_blank\">Houthi billboard, Sanaa</a>\" de Haitham Mohammed, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/yemen-onu-avertisment-conflict-total-houthi.jpg",
+    "licenta": "Public domain",
+    "autor": "Haitham Mohammed"
+  }
 }

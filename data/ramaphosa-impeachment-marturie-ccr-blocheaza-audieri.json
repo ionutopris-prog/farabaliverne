@@ -59,5 +59,14 @@
   ],
   "math": null,
   "aiNote": "🤖 Ce s-a verificat: doi pași procedurali distincți din procesul de destituire a președintelui sud-african, ambii relatați de Daily Maverick, publicație sud-africană cu acces direct la documentele parlamentare și judiciare — decizia comitetului de destituire din 5 august de a-l chema pe Ramaphosa să depună mărturie, și decizia Curții Constituționale din 12 august de a refuza reluarea directă a audierilor publice.\n\nDe ce contează distincția: o comisie parlamentară a decis un pas procedural (cerere de mărturie), nu o vinovăție. Curtea Constituțională, la rândul ei, nu s-a pronunțat pe fond — a respins doar o cerere de proceduri accelerate, lăsând decizia de fond în sarcina instanței inferioare, programată pentru septembrie 2026. Nu prezentăm nicio acuzație din dosarul Phala Phala ca fapt stabilit: Ramaphosa neagă, nu a fost condamnat, iar procedura de destituire e una constituțională, separată de urmărirea penală.\n\nCe lipsește: nu există încă o decizie de fond, nici din partea comisiei de destituire, nici din partea instanțelor, asupra acuzațiilor propriu-zise. Rezultatul contestației lui Ramaphosa la Curtea Superioară din Western Cape, așteptat în septembrie 2026, ar putea schimba semnificativ calendarul și forma procedurii.",
-  "persoane": ["Cyril Ramaphosa"]
+  "persoane": [
+    "Cyril Ramaphosa"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ramaphosa-impeachment-marturie-ccr-blocheaza-audieri.jpg\" alt=\"Ramaphosa\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ramaphosa. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cyril_Ramaphosa_(30723014148).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cyril Ramaphosa (30723014148)</a>\" de ITU Pictures from Geneva, Switzerland, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ramaphosa-impeachment-marturie-ccr-blocheaza-audieri.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "ITU Pictures from Geneva, Switzerland"
+  }
 }

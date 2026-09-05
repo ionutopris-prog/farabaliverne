@@ -64,5 +64,14 @@
   ],
   "math": "",
   "aiNote": "Relatarea se sprijină pe surse concordante — ABC News Australia (două articole separate) și agenția de presă australiană AAP, preluată de o rețea de ziare regionale. Toate redau aceleași fapte de bază: concluzia IDF, măsurile disciplinare și reacția lui Penny Wong. Nu am găsit surse care să contrazică vreunul dintre aceste elemente; diferența dintre poziții e una de evaluare (dacă răspunderea disciplinară e suficientă), nu de fapte disputate — de aceea am pus-o la secțiunea Opinie, nu la Contestat. Ce lipsește: raportul integral al anchetei militare israeliene nu pare să fi fost făcut public în relatările consultate, doar concluziile sale; o publicare a raportului complet ar permite verificarea independentă a lanțului de decizii care a dus la atac.",
-  "persoane": ["Penny Wong"]
+  "persoane": [
+    "Penny Wong"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/australia-cheama-ambasador-israel-frankcom.jpg\" alt=\"Zomi\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Zomi. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:ChinWoman.jpg\" rel=\"nofollow noopener\" target=\"_blank\">ChinWoman</a>\" de Jmhullot - Jean-Marie Hullot, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/australia-cheama-ambasador-israel-frankcom.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Jmhullot - Jean-Marie Hullot"
+  }
 }

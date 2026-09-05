@@ -11,26 +11,41 @@
     {
       "text": "Guvernul condus de Marcel Ciolacu (coaliție PSD-PNL) s-a împrumutat, în 2024, cu 252 de miliarde de lei în total — un record anual, într-un an electoral în care deficitul bugetar a ajuns la circa 152 de miliarde de lei (8,6% din PIB), față de 89,9 miliarde de lei în 2023. Cifra de „252 de miliarde” citată de Grindeanu pentru 2024 se confirmă exact pe datele oficiale.",
       "sources": [
-        {"name": "cursdeguvernare.ro — Cifre oficiale: împrumuturile din 2024 ale Guvernului au atins un record anual, de 252 mld. lei", "url": "https://cursdeguvernare.ro/cifre-oficiale-imprumuturile-din-2024-ale-guvernului-au-atins-un-record-anual-de-252-mld-lei.html"}
+        {
+          "name": "cursdeguvernare.ro — Cifre oficiale: împrumuturile din 2024 ale Guvernului au atins un record anual, de 252 mld. lei",
+          "url": "https://cursdeguvernare.ro/cifre-oficiale-imprumuturile-din-2024-ale-guvernului-au-atins-un-record-anual-de-252-mld-lei.html"
+        }
       ]
     },
     {
       "text": "Pentru 2026, Ministerul Finanțelor estimează un necesar brut de finanțare de 278,5 miliarde de lei — format din deficitul bugetar (circa 127,8 miliarde de lei, aproximativ 6,2% din PIB) plus refinanțarea datoriei vechi ajunse la scadență (circa 150,7 miliarde de lei). Cifra de „275 de miliarde” citată de Grindeanu pentru 2026 e apropiată de estimarea oficială (278,5 miliarde).",
       "sources": [
-        {"name": "cursdeguvernare.ro — Necesar de finanțare de 278,5 mld. lei în 2026", "url": "https://cursdeguvernare.ro/necesar-de-finantare-de-2785-mld-lei-in-2026-statul-planuieste-sa-reduca-bufferul-valutar-cu-2-mld-euro-pentru-a-imprumuta-mai-putin.html"}
+        {
+          "name": "cursdeguvernare.ro — Necesar de finanțare de 278,5 mld. lei în 2026",
+          "url": "https://cursdeguvernare.ro/necesar-de-finantare-de-2785-mld-lei-in-2026-statul-planuieste-sa-reduca-bufferul-valutar-cu-2-mld-euro-pentru-a-imprumuta-mai-putin.html"
+        }
       ]
     },
     {
       "text": "Datoria publică a României a depășit pragul de 60% din PIB în martie 2026 (60,2%), în urcare de la 59,3% în decembrie 2025, și este estimată să ajungă la circa 61,5% din PIB la finalul anului 2026. Afirmația lui Grindeanu că „datoria publică a crescut peste 60% din PIB” se confirmă.",
       "sources": [
-        {"name": "financiarul.ro — Datoria publică a României: 60,2% din PIB și costuri în creștere", "url": "https://financiarul.ro/economie/60-2-din-pib-a-ajuns-datoria-publica-in-martie-cum-urca-nota-de-plata-pentr/"}
+        {
+          "name": "financiarul.ro — Datoria publică a României: 60,2% din PIB și costuri în creștere",
+          "url": "https://financiarul.ro/economie/60-2-din-pib-a-ajuns-datoria-publica-in-martie-cum-urca-nota-de-plata-pentr/"
+        }
       ]
     },
     {
       "text": "Declarația a fost făcută joi, 13 august 2026, într-o conferință de presă la Parlament, în care Grindeanu a prezentat „factura economică și socială” la 100 de zile de la demiterea Guvernului Bolojan (5 mai 2026). Citatul exact: „premierul demis Bolojan se împrumută cu 1.000 de euro pe secundă – adică 434 de milioane de lei în plus la datoria României pe zi”.",
       "sources": [
-        {"name": "Gândul — Grindeanu: România se împrumută cu 1.000 de euro pe secundă", "url": "https://gandul.ro/actualitate/grindeanu-bilant-guvern-bolojan-datorie-20978965"},
-        {"name": "Wall-Street.ro — Grindeanu acuză Guvernul Bolojan de „contracție economică” și trai pe datorie: ne împrumutăm cu 1.000 de euro pe secundă", "url": "https://www.wall-street.ro/articol/politica/grindeanu-acuza-guvernul-bolojan-de-contractie-economica-si-trai-pe-datorie.html"}
+        {
+          "name": "Gândul — Grindeanu: România se împrumută cu 1.000 de euro pe secundă",
+          "url": "https://gandul.ro/actualitate/grindeanu-bilant-guvern-bolojan-datorie-20978965"
+        },
+        {
+          "name": "Wall-Street.ro — Grindeanu acuză Guvernul Bolojan de „contracție economică” și trai pe datorie: ne împrumutăm cu 1.000 de euro pe secundă",
+          "url": "https://www.wall-street.ro/articol/politica/grindeanu-acuza-guvernul-bolojan-de-contractie-economica-si-trai-pe-datorie.html"
+        }
       ]
     }
   ],
@@ -38,14 +53,23 @@
     {
       "text": "„1.000 de euro pe secundă” convertit direct în lei la cursul BNR din perioada declarației (circa 5,24 lei/euro pe 19 august 2026) ar da aproximativ 452,7 milioane lei pe zi, nu 434 de milioane cât a spus Grindeanu — diferența arată că declarația nu a folosit cursul zilei. Calculul se apropie de cifra citată doar dacă se folosește cursul mediu anual prognozat de Comisia Națională de Strategie și Prognoză pentru 2026 (5,11 lei/euro), caz în care rezultă circa 441,5 milioane lei/zi — apropiat, dar tot nu identic cu 434 de milioane. Sursa citată de presă nu a explicat metoda exactă de calcul.",
       "sources": [
-        {"name": "money.ro — Curs BNR valabil 19 august 2026: 1 euro = 5,2442 lei", "url": "https://www.money.ro/stiri/curs-bnr-2026-08-18"},
-        {"name": "Mediafax — Cum este așteptată să evolueze economia României în 2026: cifre și scenarii privind cursul leu-euro", "url": "https://www.mediafax.ro/economic/cum-este-asteptata-sa-evolueze-economia-romaniei-in-2026-cifre-si-scenarii-privind-inflatia-dobanda-cheie-deficitul-si-cursul-leu-euro-23652969"}
+        {
+          "name": "money.ro — Curs BNR valabil 19 august 2026: 1 euro = 5,2442 lei",
+          "url": "https://www.money.ro/stiri/curs-bnr-2026-08-18"
+        },
+        {
+          "name": "Mediafax — Cum este așteptată să evolueze economia României în 2026: cifre și scenarii privind cursul leu-euro",
+          "url": "https://www.mediafax.ro/economic/cum-este-asteptata-sa-evolueze-economia-romaniei-in-2026-cifre-si-scenarii-privind-inflatia-dobanda-cheie-deficitul-si-cursul-leu-euro-23652969"
+        }
       ]
     },
     {
       "text": "Extrapolată la un an, rata de 434 de milioane de lei/zi ar însemna circa 158,4 miliarde de lei în plus la datorie în 2026 — o cifră care nu se potrivește exact niciunui indicator oficial publicat: e mai mare decât deficitul bugetar anual estimat (circa 127,8 miliarde de lei, adică ~350 de milioane de lei/zi, dacă vorbim strict de datorie nouă netă) și mult mai mică decât necesarul brut total de finanțare (278,5 miliarde de lei/an, adică ~763 de milioane de lei/zi, care include însă și refinanțarea datoriei vechi, nu doar datorie nouă). Cifra lui Grindeanu cade undeva între aceste două repere oficiale, fără ca declarația publică să precizeze ce anume a fost calculat.",
       "sources": [
-        {"name": "cursdeguvernare.ro — Necesar de finanțare de 278,5 mld. lei în 2026", "url": "https://cursdeguvernare.ro/necesar-de-finantare-de-2785-mld-lei-in-2026-statul-planuieste-sa-reduca-bufferul-valutar-cu-2-mld-euro-pentru-a-imprumuta-mai-putin.html"}
+        {
+          "name": "cursdeguvernare.ro — Necesar de finanțare de 278,5 mld. lei în 2026",
+          "url": "https://cursdeguvernare.ro/necesar-de-finantare-de-2785-mld-lei-in-2026-statul-planuieste-sa-reduca-bufferul-valutar-cu-2-mld-euro-pentru-a-imprumuta-mai-putin.html"
+        }
       ]
     }
   ],
@@ -54,5 +78,15 @@
   ],
   "aiNote": "Ce s-a verificat: cifrele de context ale lui Grindeanu (252 de miliarde de lei împrumutate în 2024, ~275-278,5 miliarde estimate pentru 2026, datorie publică peste 60% din PIB) se confirmă pe sursele oficiale — Ministerul Finanțelor și analize precum cursdeguvernare.ro/financiarul.ro. Aici declarația stă pe teren solid.\n\nUnde se desparte calculul: cifra-titlu, „1.000 de euro pe secundă = 434 milioane lei/zi”, nu corespunde exact niciunui indicator publicat de Ministerul Finanțelor. Convertită la cursul BNR din zilele din jurul declarației (~5,24 lei/euro), suma ar fi ~452,7 milioane lei/zi; la cursul mediu anual prognozat de CNSP pentru 2026 (5,11 lei/euro), ar fi ~441,5 milioane lei/zi — apropiat, dar nu identic. Iar extrapolată pe an (~158,4 miliarde lei), rata nu se potrivește nici cu deficitul bugetar anual (~127,8 miliarde lei), nici cu necesarul brut total de finanțare (278,5 miliarde lei, care include și rostogolirea datoriei vechi).\n\nCe lipsește: sursa declarației (conferința de presă) nu a precizat formula de calcul — dacă „1.000 euro/secundă” se referă la deficitul net, la necesarul brut, la o medie pe ultimele luni sau la o proiecție proprie a PSD. Fără această precizare, cifra rămâne o aproximare plauzibilă ca ordin de mărime, dar imposibil de verificat exact.\n\nCe ar schimba concluzia: dacă Grindeanu sau PSD ar publica sursa și formula exactă a calculului „1.000 euro/secundă”, am putea verifica precis dacă rezultatul se potrivește cu datele Ministerului Finanțelor sau dacă rotunjirile ori ipotezele de calcul au fost alese astfel încât să dea un efect retoric mai puternic.",
   "math": "1.000 euro/secundă × 86.400 secunde/zi = 86,4 milioane euro/zi. La cursul BNR din 19 august 2026 (5,2442 lei/euro): 86,4 milioane × 5,2442 ≈ 453,1 milioane lei/zi — peste cifra de 434 milioane lei citată. La cursul mediu anual prognozat de CNSP pentru 2026 (5,11 lei/euro): 86,4 milioane × 5,11 ≈ 441,5 milioane lei/zi — mai aproape, dar tot nu identic. Extrapolat la un an, 434 milioane lei/zi × 365 ≈ 158,4 miliarde lei — sumă care nu coincide nici cu deficitul bugetar anual estimat (~127,8 miliarde lei), nici cu necesarul brut de finanțare (278,5 miliarde lei).",
-  "persoane": ["Sorin Grindeanu", "Ilie Bolojan"]
+  "persoane": [
+    "Sorin Grindeanu",
+    "Ilie Bolojan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/grindeanu-datorie-1000-euro-secunda-verificare.jpg\" alt=\"România\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — România. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Apuseni._(41412826664).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Apuseni. (41412826664)</a>\" de Mihai Lucîț from Baia Mare, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/grindeanu-datorie-1000-euro-secunda-verificare.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Mihai Lucîț from Baia Mare, Romania"
+  }
 }

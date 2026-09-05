@@ -74,5 +74,14 @@
     "explanation": "Pentru a trece în Camera Deputaților, un proiect obișnuit are nevoie de majoritatea simplă a celor prezenți la vot (cvorum de jumătate plus unu din cei 257 de deputați, apoi majoritate din cei prezenți). La Libertad Avanza și aliații controlează aproximativ 93 de locuri — sub pragul de 129 necesar pentru o majoritate absolută din totalul Camerei. De aici depinde negocierea cu blocurile mici: fără voturi suplimentare, reforma poate pica sau poate fi amânată, ca și în prima tentativă de vot din 19 august."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nMiza reală a acestei reforme nu e doar dacă trece votul de miercuri, ci ce înseamnă tehnic textul: interzicerea explicită a finanțării guvernului de către banca centrală e clară, dar clauza semnalată de PxQ despre împrumuturi externe garantate cu rezervele nu a fost, până acum, respinsă public de guvern punct cu punct. Diferența contează pentru că explică de ce opoziția — care nu se opune neapărat principiului „bancă centrală independentă” — a părăsit totuși comisia: nu contestă obiectivul declarat, ci mecanismul prin care ar putea fi ocolit.\n\nCe lipsește pentru a lămuri disputa: formularea finală a articolului privind operațiunile pe piețele internaționale (variantele circulate diferă) și o poziție oficială punct cu punct a Ministerului Economiei argentinian față de raportul PxQ. Rezultatul votului de miercuri, 26 august, și textul adoptat efectiv vor arăta dacă portița descrisă de critici a rămas în lege sau a fost eliminată în ultimul moment.",
-  "persoane": ["Javier Milei"]
+  "persoane": [
+    "Javier Milei"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/argentina-reforma-banca-centrala-vot-milei.jpg\" alt=\"Milei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Milei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Javier_Milei_VIVA22.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Javier Milei VIVA22</a>\" de Vox España, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/argentina-reforma-banca-centrala-vot-milei.jpg",
+    "licenta": "CC0",
+    "autor": "Vox España"
+  }
 }

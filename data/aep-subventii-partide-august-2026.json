@@ -11,33 +11,60 @@
     {
       "text": "Autoritatea Electorală Permanentă (AEP) a anunțat printr-un comunicat oficial că a virat, pe 7 august 2026, subvenții de la bugetul de stat în valoare totală de 15.470.004 lei către opt formațiuni politice.",
       "sources": [
-        {"name": "AGERPRES — Comunicat de presă: Autoritatea Electorală Permanentă", "url": "https://agerpres.ro/comunicate/2026/08/11/comunicat-de-presa---autoritatea-electorala-permanenta--1583851"},
-        {"name": "Radio România — AEP: Subvenții de peste 15,4 milioane de lei, în august, pentru partidele politice", "url": "https://www.radioromania.ro/Actualitate/aep-subventii-de-peste-15-4-milioane-de-lei-in-august-pentru-partidele-politice-id207516.html"}
+        {
+          "name": "AGERPRES — Comunicat de presă: Autoritatea Electorală Permanentă",
+          "url": "https://agerpres.ro/comunicate/2026/08/11/comunicat-de-presa---autoritatea-electorala-permanenta--1583851"
+        },
+        {
+          "name": "Radio România — AEP: Subvenții de peste 15,4 milioane de lei, în august, pentru partidele politice",
+          "url": "https://www.radioromania.ro/Actualitate/aep-subventii-de-peste-15-4-milioane-de-lei-in-august-pentru-partidele-politice-id207516.html"
+        }
       ]
     },
     {
       "text": "Defalcarea pe partide: PSD — 5.132.818 lei; AUR — 3.035.116 lei; PNL — 2.794.483 lei; USR — 1.983.502 lei; Partidul S.O.S. România — 1.319.399 lei; Partidul Oamenilor Tineri (POT) — 1.063.111 lei; Partidul Mișcarea Populară (PMP) — 72.619 lei; Forța Dreptei — 68.956 lei.",
       "sources": [
-        {"name": "Jurnalul — Subvenții de peste 15,4 milioane de lei pentru partide în august 2026. Câți bani a primit fiecare formațiune", "url": "https://jurnalul.ro/stiri/politica/subventii-partide-politice-luna-august-2026-1041274.html"},
-        {"name": "Gândul — Subvențiile acordate partidelor politice în luna august 2026", "url": "https://www.gandul.ro/actualitate/subventii-partide-august-2026-20976802"},
-        {"name": "Stiripesurse — Peste 15 milioane de lei de la stat pentru partidele politice într-o singură lună", "url": "https://www.stiripesurse.ro/peste-15-milioane-de-lei-de-la-stat-pentru-partidele-politice-intr-o-singura-luna_3911173"}
+        {
+          "name": "Jurnalul — Subvenții de peste 15,4 milioane de lei pentru partide în august 2026. Câți bani a primit fiecare formațiune",
+          "url": "https://jurnalul.ro/stiri/politica/subventii-partide-politice-luna-august-2026-1041274.html"
+        },
+        {
+          "name": "Gândul — Subvențiile acordate partidelor politice în luna august 2026",
+          "url": "https://www.gandul.ro/actualitate/subventii-partide-august-2026-20976802"
+        },
+        {
+          "name": "Stiripesurse — Peste 15 milioane de lei de la stat pentru partidele politice într-o singură lună",
+          "url": "https://www.stiripesurse.ro/peste-15-milioane-de-lei-de-la-stat-pentru-partidele-politice-intr-o-singura-luna_3911173"
+        }
       ]
     },
     {
       "text": "Subvenția lunară de la bugetul de stat se acordă partidelor pe baza rezultatelor electorale și a reprezentării parlamentare, conform legislației privind finanțarea partidelor politice — de aceea PSD, AUR și PNL, cele mai mari formațiuni parlamentare, primesc sumele cele mai mari.",
       "sources": [
-        {"name": "AGERPRES — Comunicat de presă: Autoritatea Electorală Permanentă", "url": "https://agerpres.ro/comunicate/2026/08/11/comunicat-de-presa---autoritatea-electorala-permanenta--1583851"}
+        {
+          "name": "AGERPRES — Comunicat de presă: Autoritatea Electorală Permanentă",
+          "url": "https://agerpres.ro/comunicate/2026/08/11/comunicat-de-presa---autoritatea-electorala-permanenta--1583851"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    {"text": "Compararea sumelor primite de partide lună de lună (ex. cu subvențiile din ianuarie 2026) poate sugera tendințe de creștere sau scădere a popularității electorale, dar formula de calcul a subvenției depinde de mai mulți factori legali (rezultate electorale, număr de mandate, cotizații) — o singură lună nu e suficientă pentru a trage o concluzie despre evoluția sprijinului politic."}
+    {
+      "text": "Compararea sumelor primite de partide lună de lună (ex. cu subvențiile din ianuarie 2026) poate sugera tendințe de creștere sau scădere a popularității electorale, dar formula de calcul a subvenției depinde de mai mulți factori legali (rezultate electorale, număr de mandate, cotizații) — o singură lună nu e suficientă pentru a trage o concluzie despre evoluția sprijinului politic."
+    }
   ],
   "math": {
     "title": "PSD ia o treime din toți banii, cele două partide mici sub 1% din total",
     "explanation": "Din cei 15.470.004 lei distribuiți, PSD a primit 5.132.818 lei — adică aproximativ 33,2% din total, cea mai mare pondere. La polul opus, PMP (72.619 lei) și Forța Dreptei (68.956 lei) au primit împreună 141.575 lei, sub 1% din suma totală (~0,9%). Primele trei partide (PSD, AUR, PNL) concentrează împreună 10.962.417 lei, adică aproape 71% din toată subvenția lunară."
   },
   "aiNote": "Cifrele provin direct dintr-un comunicat oficial al Autorității Electorale Permanente, confirmat concordant de AGERPRES, Radio România și mai multe redacții (Jurnalul, Gândul, Stiripesurse). Nu au fost identificate contestații sau discrepanțe între surse privind sumele. Cititorul poate verifica subvențiile lunare direct pe site-ul AEP (roaep.ro), unde se publică periodic aceste comunicate.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/aep-subventii-partide-august-2026.jpg\" alt=\"Romanian leu banknotes\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Romanian leu banknotes. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_leu._Romania,_2005_a.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 leu. Romania, 2005 a</a>\" de en:User:ES Vic, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/aep-subventii-partide-august-2026.jpg",
+    "licenta": "Public domain",
+    "autor": "en:User:ES Vic"
+  }
 }

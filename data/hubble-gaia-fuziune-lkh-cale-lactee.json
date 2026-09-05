@@ -11,37 +11,70 @@
     {
       "text": "Cercetătorii au analizat cu Hubble 39 de roiuri globulare din regiunea interioară a Căii Lactee (primii 20.000 de ani-lumină din jurul centrului galactic), măsurând cu precizie vârsta și metalicitatea (proporția de elemente mai grele decât heliul) fiecărui roi. Rezultatul: un al treilea grup distinct de roiuri, diferit atât de cele născute chiar în Calea Lactee, cât și de cele aduse de fuziunea Gaia-Sausage-Enceladus (acum ~10 miliarde de ani) — semnul unei fuziuni separate, mai vechi, cu o galaxie pitică ce conținea aproximativ 500 de milioane de mase solare în stele.",
       "sources": [
-        { "name": "ESA/Hubble — Hubble solves merger mystery from Milky Way's early years", "url": "https://esahubble.org/news/heic2611/" },
-        { "name": "NASA Science — Hubble Solves Merger Mystery From Milky Way's Early Years", "url": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/" }
+        {
+          "name": "ESA/Hubble — Hubble solves merger mystery from Milky Way's early years",
+          "url": "https://esahubble.org/news/heic2611/"
+        },
+        {
+          "name": "NASA Science — Hubble Solves Merger Mystery From Milky Way's Early Years",
+          "url": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/"
+        }
       ]
     },
     {
       "text": "Galaxia pitică a fost numită Low-energy-Kraken-Heracles (LKH), un nume care combină trei ipoteze anterioare din literatura științifică despre o fuziune timpurie a Căii Lactee („Kraken” și „Heracles” fiind nume propuse separat în studii precedente pentru structuri similare). Autorul principal, Davide Massari, a explicat: „În această lucrare descoperim de unde a venit primul lot semnificativ de cărămizi: o galaxie pitică pe care o numim LKH.” Rezultatele au fost publicate în revista cu recenzie inter pares Nature Astronomy pe 17 august 2026.",
       "sources": [
-        { "name": "ESA/Hubble — comunicat oficial cu citate din echipă", "url": "https://esahubble.org/news/heic2611/" },
-        { "name": "ESA — Hubble & Gaia solve our galaxy's merger mystery", "url": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery" }
+        {
+          "name": "ESA/Hubble — comunicat oficial cu citate din echipă",
+          "url": "https://esahubble.org/news/heic2611/"
+        },
+        {
+          "name": "ESA — Hubble & Gaia solve our galaxy's merger mystery",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery"
+        }
       ]
     },
     {
       "text": "Datele Gaia (satelitul care măsoară poziții și mișcări precise pentru peste un miliard de stele) au confirmat că mișcările roiurilor din acest al treilea grup sunt diferite de restul galaxiei, susținând originea lor „străină”. Combinarea Hubble (vârstă și compoziție chimică precisă) cu Gaia (dinamică orbitală) e metoda care a permis separarea celor trei populații de roiuri globulare, potrivit echipei condusă de Institutul Național de Astrofizică din Italia (INAF) și Universitatea din Bologna.",
       "sources": [
-        { "name": "IAC — contribuția la descoperirea Hubble despre una dintre cele mai vechi fuziuni ale Căii Lactee", "url": "https://www.iac.es/en/outreach/news/iac-and-ull-have-contributed-hubble-discovery-reveals-one-earliest-mergers-milky-way" },
-        { "name": "Universe Today — Hubble Solves a Mystery About the Milky Way's Early Years", "url": "https://www.universetoday.com/articles/hubble-solves-a-mystery-about-the-milky-ways-early-years" }
+        {
+          "name": "IAC — contribuția la descoperirea Hubble despre una dintre cele mai vechi fuziuni ale Căii Lactee",
+          "url": "https://www.iac.es/en/outreach/news/iac-and-ull-have-contributed-hubble-discovery-reveals-one-earliest-mergers-milky-way"
+        },
+        {
+          "name": "Universe Today — Hubble Solves a Mystery About the Milky Way's Early Years",
+          "url": "https://www.universetoday.com/articles/hubble-solves-a-mystery-about-the-milky-ways-early-years"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    { "text": "Titlurile de tip „Hubble a rescris istoria galaxiei noastre” exagerează puțin: descoperirea adaugă o piesă la o poveste deja cunoscută (Calea Lactee s-a format din mai multe fuziuni succesive), nu o schimbă radical. Echipa însăși spune că vor continua să caute alte fuziuni, ceea ce arată că harta e încă incompletă." }
+    {
+      "text": "Titlurile de tip „Hubble a rescris istoria galaxiei noastre” exagerează puțin: descoperirea adaugă o piesă la o poveste deja cunoscută (Calea Lactee s-a format din mai multe fuziuni succesive), nu o schimbă radical. Echipa însăși spune că vor continua să caute alte fuziuni, ceea ce arată că harta e încă incompletă."
+    }
   ],
   "aiNote": "🔬 Am rezumat și pus în context în română o descoperire anunțată oficial de ESA/Hubble și NASA, publicată cu recenzie inter pares în Nature Astronomy pe 17 august 2026. Nucleul faptic — identificarea unui al treilea grup de roiuri globulare, distinct ca vârstă și metalicitate, atribuit unei fuziuni cu o galaxie pitică (LKH) acum 11,8 miliarde de ani — se probează direct din comunicatul oficial și din declarațiile autorilor. Nu există, deocamdată, voci care contestă metoda sau rezultatul în sursele consultate; e o descoperire observațională, nu o afirmație disputată. Am marcat totuși la „opinie” o notă de proporție: e o completare a hărții fuziunilor galactice cunoscute (Gaia-Sausage-Enceladus, Sagittarius), nu o revoluție care schimbă tot ce știam despre Calea Lactee, iar echipa însăși spune că mai are de căutat.",
   "math": {
     "title": "11,8 miliarde de ani: cum „datează” astronomii o fuziune galactică veche",
     "explanation": "Un roi globular e o grămadă strânsă de sute de mii de stele, toate formate cam în același timp, din același material — practic o „capsulă a timpului” chimică. Vârsta unui roi se citește din cât de „îmbătrânite” sunt stelele lui (cele mai fierbinți și masive stele mor primele, deci cu cât rămân mai puține stele mari, cu atât roiul e mai vechi), iar metalicitatea arată din ce fel de nor de gaz s-a născut roiul — norii din galaxia noastră, la un moment dat, au alt „amestec chimic” decât norii dintr-o galaxie pitică separată, mai mică și mai săracă în elemente grele. Când 39 de roiuri se împart clar în trei grupuri, cu vârste și metalicități diferite, înseamnă că nu s-au format toate în același loc: unul dintre grupuri a „venit din altă parte”, adus de o galaxie care s-a contopit cu a noastră cu foarte mult timp în urmă. Faptul că acest al treilea grup e și mai vechi decât grupul adus de fuziunea Gaia-Sausage-Enceladus (cunoscută deja) arată că fuziunea cu LKH s-a întâmplat înainte — la doar 2 miliarde de ani după Big Bang, când Calea Lactee însăși abia se forma.",
     "sources": [
-      { "name": "ESA/Hubble — explicația metodei (roiuri globulare, vârstă, metalicitate)", "url": "https://esahubble.org/news/heic2611/" },
-      { "name": "NASA Science — comunicatul oficial", "url": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/" }
+      {
+        "name": "ESA/Hubble — explicația metodei (roiuri globulare, vârstă, metalicitate)",
+        "url": "https://esahubble.org/news/heic2611/"
+      },
+      {
+        "name": "NASA Science — comunicatul oficial",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/hubble-gaia-fuziune-lkh-cale-lactee.jpg\" alt=\"Gaia\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Gaia. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Fonte_Gaia_-_she_wolf_detail.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Fonte Gaia - she wolf detail</a>\" de Petar Milošević, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/hubble-gaia-fuziune-lkh-cale-lactee.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Petar Milošević"
+  }
 }

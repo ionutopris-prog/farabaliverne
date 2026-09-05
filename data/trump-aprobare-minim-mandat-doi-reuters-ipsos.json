@@ -11,27 +11,45 @@
     {
       "text": "Sondajul Reuters/Ipsos, realizat online pe parcursul a patru zile și încheiat luni, 17 august 2026, a chestionat 1.166 de adulți din SUA, cu o marjă de eroare de 3 puncte procentuale. Rezultatul: 33% dintre respondenți aprobă modul în care Trump își exercită mandatul, 64% dezaprobă — cel mai slab scor din al doilea său mandat, în scădere de la 35% într-un sondaj anterior, încheiat la începutul lunii august, și egal cu minimul din decembrie 2017, din primul mandat.",
       "sources": [
-        {"name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll", "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"},
-        {"name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds", "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"}
+        {
+          "name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll",
+          "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"
+        },
+        {
+          "name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds",
+          "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"
+        }
       ]
     },
     {
       "text": "Potrivit aceluiași sondaj, 80% dintre americani — inclusiv 87% dintre democrați și 71% dintre republicani — cred că implicarea SUA în conflictul cu Iranul „va continua o perioadă lungă de timp”, față de doar 16% care se așteaptă ca acesta să se încheie în câteva săptămâni. Doar unul din cinci americani, și aproximativ jumătate dintre republicani, consideră că războiul a meritat efortul.",
       "sources": [
-        {"name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll", "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"},
-        {"name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds", "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"}
+        {
+          "name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll",
+          "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"
+        },
+        {
+          "name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds",
+          "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"
+        }
       ]
     },
     {
       "text": "Reuters leagă scăderea de continuarea loviturilor militare americane alături de Israel împotriva Iranului, care au perturbat aproximativ o cincime din comerțul global cu petrol și au împins în sus prețul benzinei — o povară resimțită de gospodăriile americane și de candidații republicani înaintea alegerilor de mid-terms din noiembrie 2026. Pentru prima dată în aproximativ un deceniu de sondaje Reuters/Ipsos, mai mulți americani au declarat că au încredere în democrați (38%) decât în republicani (35%) pentru gestionarea economiei.",
       "sources": [
-        {"name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds", "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"}
+        {
+          "name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds",
+          "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"
+        }
       ]
     },
     {
       "text": "Pe imigrație, un subiect pe care republicanii aveau tradițional un avantaj mare, avansul s-a redus la doar 2 puncte procentuale (40% la 38%), de la un avans de 26 de puncte în ianuarie 2025 — o schimbare semnificativă în percepția publică pe una dintre temele centrale ale administrației Trump.",
       "sources": [
-        {"name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds", "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"}
+        {
+          "name": "Hawaii Tribune-Herald (Reuters) — Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds",
+          "url": "https://www.hawaiitribune-herald.com/2026/08/18/nation-world-news/trump-approval-falls-to-33-lowest-of-his-presidency-reuters-ipsos-poll-finds/"
+        }
       ]
     }
   ],
@@ -39,7 +57,10 @@
     {
       "text": "Un singur sondaj, chiar cu o marjă de eroare de 3 puncte, nu stabilește definitiv o tendință — Reuters/Ipsos compară scăderea cu propriul sondaj anterior „de la începutul lunii august” (35%), dar alte case de sondaje pot arăta cifre diferite în aceeași perioadă, iar diferența de 2 puncte între cele două sondaje Reuters/Ipsos se află în interiorul marjei de eroare combinate.",
       "sources": [
-        {"name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll", "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"}
+        {
+          "name": "Forbes — Trump Approval Rating Reaches Second-Term Low In Latest Poll",
+          "url": "https://www.forbes.com/sites/saradorn/2026/08/18/trump-approval-rating-reaches-second-term-low-in-latest-poll-as-80-think-iran-war-will-drag-on/"
+        }
       ]
     }
   ],
@@ -48,5 +69,14 @@
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: cifrele sondajului Reuters/Ipsos din 14-17 august 2026 (33% aprobare, 64% dezaprobare, 1.166 de respondenți, marjă de eroare 3 puncte) sunt raportate identic de Forbes și de fluxul Reuters preluat de Hawaii Tribune-Herald — nu am găsit divergențe între surse pe cifrele centrale.\n\nCe rămâne interpretare, nu fapt: legătura cauzală pe care Reuters o face între războiul cu Iranul și scăderea aprobării se bazează pe corelație (prețul benzinei, procentul care crede că războiul va continua), nu pe o descompunere statistică a motivelor fiecărui respondent. De asemenea, „egal cu minimul din primul mandat” compară două sondaje Reuters/Ipsos separate în timp de aproape un deceniu — metodologia poate fi aceeași, dar contextul politic e complet diferit.\n\nCe ar schimba concluzia: un sondaj Reuters/Ipsos ulterior care arată revenire a aprobării, sau un sondaj independent (Gallup, AP-NORC) din aceeași perioadă cu cifre semnificativ diferite, ar nuanța ideea unei tendințe clare de declin.",
   "math": null,
-  "persoane": ["Donald Trump"]
+  "persoane": [
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/trump-aprobare-minim-mandat-doi-reuters-ipsos.jpg\" alt=\"Trump\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Trump. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Donald_Trump_Pope_Francis_Melania_Trump_in_2017.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Donald Trump Pope Francis Melania Trump in 2017</a>\" de Shealeah Craighead, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0/us/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0 us</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/trump-aprobare-minim-mandat-doi-reuters-ipsos.jpg",
+    "licenta": "CC BY 3.0 us",
+    "autor": "Shealeah Craighead"
+  }
 }

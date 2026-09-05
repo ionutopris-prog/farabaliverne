@@ -11,31 +11,55 @@
     {
       "text": "Comisia Europeană a aprobat, pe 24 august 2026, un pachet de 6,1 miliarde de euro pentru achiziții de apărare a Ucrainei — sisteme de apărare aeriană și antirachetă, rachete, muniție și radare. Președinta Comisiei, Ursula von der Leyen, a declarat: „am aprobat 6,1 miliarde de euro pentru sistemele de apărare aeriană și antirachetă, rachetele, munițiile și radarele de care Ucraina are nevoie urgentă.”",
       "sources": [
-        {"name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences", "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"},
-        {"name": "Ukrainska Pravda — European Commission approves €6.1bn in defence procurement for Ukraine", "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050020/"}
+        {
+          "name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences",
+          "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"
+        },
+        {
+          "name": "Ukrainska Pravda — European Commission approves €6.1bn in defence procurement for Ukraine",
+          "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050020/"
+        }
       ]
     },
     {
       "text": "Pachetul face parte din împrumutul de 90 de miliarde de euro pentru Ucraina, adoptat de Parlamentul European și Consiliu prin Regulamentul (UE) 2026/467 în februarie 2026 — din care 30 de miliarde susțin funcționarea statului și serviciile publice esențiale, iar 60 de miliarde sunt alocate consolidării capacității militare pentru 2026-2027. Suma de 6,1 miliarde se adaugă unei tranșe anterioare de apărare de 16 miliarde de euro, din care 8,35 miliarde fuseseră deja transferate Kievului, inclusiv o tranșă de 3,47 miliarde pe 30 iulie 2026.",
       "sources": [
-        {"name": "Ukrainska Pravda — European Commission approves €6.1bn in defence procurement for Ukraine", "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050020/"}
+        {
+          "name": "Ukrainska Pravda — European Commission approves €6.1bn in defence procurement for Ukraine",
+          "url": "https://www.pravda.com.ua/eng/news/2026/08/24/8050020/"
+        }
       ]
     },
     {
       "text": "Cea mai mare parte a achizițiilor va fi făcută de la companii de apărare din UE. Comisia a motivat urgența prin intensificarea atacurilor rusești cu rachete balistice și drone — potrivit Euronews, doar în iunie 2026 au fost înregistrate 376 de atacuri cu rachete asupra Ucrainei — și a subliniat nevoia de a reduce stocurile existente, a reprioritiza comenzile și a accelera producția.",
       "sources": [
-        {"name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences", "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"}
+        {
+          "name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences",
+          "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"
+        }
       ]
     },
     {
       "text": "Anunțul a fost făcut chiar de Ziua Independenței Ucrainei (24 august), în timp ce lideri europeni s-au reunit la Kiev într-o întâlnire a „Coaliției celor dispuși” pentru a coordona sprijinul aerian suplimentar și aprovizionarea cu energie pentru iarnă. Președintele Consiliului European, António Costa, a declarat că sprijinul aliat a fost „neclintit” din 2022 încoace, cu angajamente pentru garanții de securitate post-conflict.",
       "sources": [
-        {"name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences", "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"}
+        {
+          "name": "Euronews — 'We are stepping up': EU approves €6.1 billion for Ukraine's defences",
+          "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Euronews, Ukrainska Pravda); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele (6,1 miliarde de euro, cadrul de 90 de miliarde, tranșele anterioare) coincid între cele două surse independente și se bazează pe declarația oficială a președintei Comisiei Europene, nu pe surse anonime — de aceea verdictul este „Probat” fără rezerve.",
-  "persoane": ["Ursula von der Leyen"]
+  "persoane": [
+    "Ursula von der Leyen"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ue-aparare-ucraina-6-1-miliarde-ziua-independentei.jpg\" alt=\"Ucrainei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ucrainei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:24.08.2024_Iluminarea_cl%C4%83dirii_Parlamentului_%C3%AEn_culorile_drapelului_Ucrainei_(1).jpg\" rel=\"nofollow noopener\" target=\"_blank\">24.08.2024 Iluminarea clădirii Parlamentului în culorile drapelului Ucrainei (1)</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ue-aparare-ucraina-6-1-miliarde-ziua-independentei.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+  }
 }

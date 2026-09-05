@@ -11,27 +11,48 @@
     {
       "text": "Pe 25 august 2026, la Beijing, ministrul chinez de externe Wang Yi și consilierul pentru securitate națională al Indiei, Ajit Doval, au avut discuții descrise de partea chineză drept „cuprinzătoare, aprofundate, prietenoase și sincere”, în cadrul celei de-a 25-a runde a mecanismului Reprezentanților Speciali pentru chestiunea de frontieră China-India.",
       "sources": [
-        {"name": "The Kathmandu Post — China, India hold border talks, agree to continue search for boundary settlement", "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"},
-        {"name": "The Express Tribune — China, India hold border talks", "url": "https://tribune.com.pk/story/2625913/china-india-hold-border-talks"}
+        {
+          "name": "The Kathmandu Post — China, India hold border talks, agree to continue search for boundary settlement",
+          "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"
+        },
+        {
+          "name": "The Express Tribune — China, India hold border talks",
+          "url": "https://tribune.com.pk/story/2625913/china-india-hold-border-talks"
+        }
       ]
     },
     {
       "text": "Cele două părți au convenit să continue dialogul și să caute o „soluție corectă, rezonabilă și reciproc acceptabilă” a disputei de frontieră, precum și să mențină stabilitatea în zonele de graniță. Wang Yi a declarat că relațiile China-India nu mai au doar importanță bilaterală, ci „semnificație globală și strategică”, îndemnând la mai multă comunicare și reducerea diferendelor.",
       "sources": [
-        {"name": "The Kathmandu Post — China, India hold border talks, agree to continue search for boundary settlement", "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"}
+        {
+          "name": "The Kathmandu Post — China, India hold border talks, agree to continue search for boundary settlement",
+          "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"
+        }
       ]
     },
     {
       "text": "Cele două state au convenit ca următoarea rundă a mecanismului Reprezentanților Speciali să aibă loc în India, în 2027 — un angajament procedural, nu o soluție de fond pentru disputa teritorială.",
       "sources": [
-        {"name": "The Kathmandu Post — China, India hold border talks, agree to continue search for boundary settlement", "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"}
+        {
+          "name": "The Kathmandu Post — China, India hold border talks, agree to continue search for boundary settlement",
+          "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"
+        }
       ]
     }
   ],
   "contestat": [],
   "opinie": [
-    {"text": "Discuția vine la câțiva ani de la ciocnirea mortală din 2020 și acordul de dezangajare militară din octombrie 2024, dar și pe fondul unor tensiuni recente legate de Arunachal Pradesh, verificate separat de redacție — dacă apropierea diplomatică de la Beijing schimbă ceva pe teren, la graniță, sau rămâne doar un exercițiu procedural repetat anual, e o interpretare, nu un fapt confirmat de sursele de până acum."}
+    {
+      "text": "Discuția vine la câțiva ani de la ciocnirea mortală din 2020 și acordul de dezangajare militară din octombrie 2024, dar și pe fondul unor tensiuni recente legate de Arunachal Pradesh, verificate separat de redacție — dacă apropierea diplomatică de la Beijing schimbă ceva pe teren, la graniță, sau rămâne doar un exercițiu procedural repetat anual, e o interpretare, nu un fapt confirmat de sursele de până acum."
+    }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Este o știre de rutină diplomatică, confirmată identic de două agenții independente (The Kathmandu Post și The Express Tribune, ambele citând declarația Ministerului chinez de Externe), fără afirmații contradictorii de verificat. Tensiunile recente de la Arunachal Pradesh, menționate în context, au verificare proprie pe site.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-india-runda-discutii-frontiera-wang-yi-doval-beijing.jpg\" alt=\"India\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — India. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Darjeeling,_India,_Tea_plantations_on_hills.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Darjeeling, India, Tea plantations on hills</a>\" de Vyacheslav Argenberg, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-india-runda-discutii-frontiera-wang-yi-doval-beijing.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Vyacheslav Argenberg"
+  }
 }

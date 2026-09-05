@@ -11,42 +11,75 @@
     {
       "text": "Grupul energetic nr. 5 al Sucursalei Electrocentrale Turceni (Complexul Energetic Oltenia) a fost oprit din exploatare în noaptea de miercuri spre joi, 20 august 2026, în jurul orei 01:00, din cauza unei defecțiuni tehnice la cazan.",
       "sources": [
-        {"name": "Digi24 — Termocentrala Turceni a fost oprită din cauza unor probleme tehnice", "url": "https://www.digi24.ro/stiri/economie/energie/termocentrala-turceni-a-fost-oprita-din-cauza-unor-probleme-tehnice-3913731"},
-        {"name": "DailyBusiness — Termocentrala Turceni, oprită în plină criză energetică", "url": "https://www.dailybusiness.ro/actualitate/termocentrala-turceni-oprita-in-plina-criza-energetica-romania-pierde-220-mw-pana-luni-549276/"}
+        {
+          "name": "Digi24 — Termocentrala Turceni a fost oprită din cauza unor probleme tehnice",
+          "url": "https://www.digi24.ro/stiri/economie/energie/termocentrala-turceni-a-fost-oprita-din-cauza-unor-probleme-tehnice-3913731"
+        },
+        {
+          "name": "DailyBusiness — Termocentrala Turceni, oprită în plină criză energetică",
+          "url": "https://www.dailybusiness.ro/actualitate/termocentrala-turceni-oprita-in-plina-criza-energetica-romania-pierde-220-mw-pana-luni-549276/"
+        }
       ]
     },
     {
       "text": "Cauza tehnică precisă, potrivit surselor citate, este o neetanșeitate (fisură) în circuitul apă-abur al cazanului grupului nr. 5. HotNews leagă informația explicit de date primite de la Transelectrica.",
       "sources": [
-        {"name": "HotNews — Încă o lovitură pentru sistemul energetic: centrala de la Turceni se oprește în plină criză", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"},
-        {"name": "Digi24 — apariția unei neetanșeități în circuitul apă-abur al cazanului", "url": "https://www.digi24.ro/stiri/economie/energie/termocentrala-turceni-a-fost-oprita-din-cauza-unor-probleme-tehnice-3913731"}
+        {
+          "name": "HotNews — Încă o lovitură pentru sistemul energetic: centrala de la Turceni se oprește în plină criză",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        },
+        {
+          "name": "Digi24 — apariția unei neetanșeități în circuitul apă-abur al cazanului",
+          "url": "https://www.digi24.ro/stiri/economie/energie/termocentrala-turceni-a-fost-oprita-din-cauza-unor-probleme-tehnice-3913731"
+        }
       ]
     },
     {
       "text": "Oprirea vine în plin val de caniculă, cu coduri ANM valabile pe aproape tot teritoriul țării (cu excepția Constanței și Tulcei) și temperaturi de până la 40°C, iar consumul de energie electrică este estimat să urce la peste 7.200 MW în zilele următoare, cu un vârf estimat vineri, 21 august.",
       "sources": [
-        {"name": "DailyBusiness — Criză în sistemul energetic, pe fondul caniculei", "url": "https://www.dailybusiness.ro/actualitate/criza-in-sistemul-energetic-pe-fondul-caniculei-romania-ar-putea-importa-peste-2-000-de-mw-la-orele-de-varf-549303/"},
-        {"name": "HotNews — context caniculă și consum record", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"}
+        {
+          "name": "DailyBusiness — Criză în sistemul energetic, pe fondul caniculei",
+          "url": "https://www.dailybusiness.ro/actualitate/criza-in-sistemul-energetic-pe-fondul-caniculei-romania-ar-putea-importa-peste-2-000-de-mw-la-orele-de-varf-549303/"
+        },
+        {
+          "name": "HotNews — context caniculă și consum record",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        }
       ]
     },
     {
       "text": "După oprirea grupului de la Turceni, producția de energie pe bază de cărbune a sistemului energetic național a scăzut de la peste 1.000 MW la circa 800-900 MW, iar prognozele arată că, la orele de vârf ale serii, România ar putea importa peste 2.000 MW.",
       "sources": [
-        {"name": "HotNews — producția pe cărbune scade la circa 800 MW", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"},
-        {"name": "DailyBusiness — import estimat peste 2.000 MW la orele de vârf", "url": "https://www.dailybusiness.ro/actualitate/criza-in-sistemul-energetic-pe-fondul-caniculei-romania-ar-putea-importa-peste-2-000-de-mw-la-orele-de-varf-549303/"}
+        {
+          "name": "HotNews — producția pe cărbune scade la circa 800 MW",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        },
+        {
+          "name": "DailyBusiness — import estimat peste 2.000 MW la orele de vârf",
+          "url": "https://www.dailybusiness.ro/actualitate/criza-in-sistemul-energetic-pe-fondul-caniculei-romania-ar-putea-importa-peste-2-000-de-mw-la-orele-de-varf-549303/"
+        }
       ]
     },
     {
       "text": "Secretarul de stat în Ministerul Energiei, Cristian Bușoi, a declarat că deficitul creat de oprirea Turceni („sub 300 MW”) poate fi compensat din eolian și din import, iar nivelul de import necesar „nu pune în pericol, în sine, securitatea aprovizionării cu energie”, dat fiind că România are o capacitate de interconectare de aproximativ 4.000 MW.",
       "sources": [
-        {"name": "HotNews — declarația lui Cristian Bușoi", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"},
-        {"name": "DailyBusiness — capacitatea de interconectare de ~4.000 MW", "url": "https://www.dailybusiness.ro/actualitate/criza-in-sistemul-energetic-pe-fondul-caniculei-romania-ar-putea-importa-peste-2-000-de-mw-la-orele-de-varf-549303/"}
+        {
+          "name": "HotNews — declarația lui Cristian Bușoi",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        },
+        {
+          "name": "DailyBusiness — capacitatea de interconectare de ~4.000 MW",
+          "url": "https://www.dailybusiness.ro/actualitate/criza-in-sistemul-energetic-pe-fondul-caniculei-romania-ar-putea-importa-peste-2-000-de-mw-la-orele-de-varf-549303/"
+        }
       ]
     },
     {
       "text": "Turceni nu e singurul reper energetic afectat în această perioadă: unitatea 2 de la centrala nucleară Cernavodă e oprită integral încă din 13 august, din cauza debitului redus al Dunării — un episod separat, distinct de avaria de la Turceni.",
       "sources": [
-        {"name": "HotNews — mențiune despre situația de la Cernavodă", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"}
+        {
+          "name": "HotNews — mențiune despre situația de la Cernavodă",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        }
       ]
     }
   ],
@@ -54,26 +87,51 @@
     {
       "text": "Puterea pierdută prin oprirea grupului diferă între surse: HotNews și Știrile ProTV vorbesc despre aproximativ 200 MW, în timp ce DailyBusiness (în ambele articole, inclusiv titlu) dă cifra de 220 MW. Nu am găsit o sursă oficială (Transelectrica sau Ministerul Energiei) care să tranșeze public cifra exactă — diferența poate reflecta rotunjiri diferite ale acelorași date operative.",
       "sources": [
-        {"name": "HotNews — „aproximativ 200 MW”", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"},
-        {"name": "DailyBusiness — „România pierde 220 MW”", "url": "https://www.dailybusiness.ro/actualitate/termocentrala-turceni-oprita-in-plina-criza-energetica-romania-pierde-220-mw-pana-luni-549276/"}
+        {
+          "name": "HotNews — „aproximativ 200 MW”",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        },
+        {
+          "name": "DailyBusiness — „România pierde 220 MW”",
+          "url": "https://www.dailybusiness.ro/actualitate/termocentrala-turceni-oprita-in-plina-criza-energetica-romania-pierde-220-mw-pana-luni-549276/"
+        }
       ]
     },
     {
       "text": "Data repornirii apare diferit în surse, ceea ce pare o actualizare cronologică, nu o simplă reformulare: HotNews a scris inițial că oprirea va dura „până duminică la ora 23:59” (23 august), în timp ce Digi24 și DailyBusiness citează o estimare ulterioară a Complexului Energetic Oltenia — repunere în funcțiune luni, 24 august 2026, în jurul orei 15:00.",
       "sources": [
-        {"name": "HotNews — „până duminică la ora 23:59”", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"},
-        {"name": "Digi24 — repunere în funcțiune estimată luni, 24 august, ora 15:00", "url": "https://www.digi24.ro/stiri/economie/energie/termocentrala-turceni-a-fost-oprita-din-cauza-unor-probleme-tehnice-3913731"},
-        {"name": "DailyBusiness — repornire „la începutul săptămânii viitoare”", "url": "https://www.dailybusiness.ro/actualitate/termocentrala-turceni-oprita-in-plina-criza-energetica-romania-pierde-220-mw-pana-luni-549276/"}
+        {
+          "name": "HotNews — „până duminică la ora 23:59”",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        },
+        {
+          "name": "Digi24 — repunere în funcțiune estimată luni, 24 august, ora 15:00",
+          "url": "https://www.digi24.ro/stiri/economie/energie/termocentrala-turceni-a-fost-oprita-din-cauza-unor-probleme-tehnice-3913731"
+        },
+        {
+          "name": "DailyBusiness — repornire „la începutul săptămânii viitoare”",
+          "url": "https://www.dailybusiness.ro/actualitate/termocentrala-turceni-oprita-in-plina-criza-energetica-romania-pierde-220-mw-pana-luni-549276/"
+        }
       ]
     },
     {
       "text": "Comandamentul Energetic Național s-a reunit marți, 18 august, și a concluzionat că România poate traversa perioada caniculară chiar și fără aportul Turceni — dar concluzia a fost formulată înainte de defecțiune, când centrala era încă disponibilă. Nu este clar dacă evaluarea rămâne valabilă și după oprirea neplanificată de joi.",
       "sources": [
-        {"name": "HotNews — concluziile Comandamentului Energetic Național din 18 august", "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"}
+        {
+          "name": "HotNews — concluziile Comandamentului Energetic Național din 18 august",
+          "url": "https://hotnews.ro/inca-o-lovitura-pentru-sistemul-energetic-centrala-de-la-turceni-se-opreste-in-plina-criza-2328973"
+        }
       ]
     }
   ],
   "opinie": [],
   "aiNote": "Am verificat oprirea grupului de la Turceni pe surse independente (HotNews, Digi24, Știrile ProTV, DailyBusiness), care coincid pe elementele esențiale: data (noaptea de 20 august), cauza (defecțiune la cazan) și contextul (val de caniculă, consum record).\n\nUnde se despart sursele: (1) puterea pierdută — 200 MW în unele surse, 220 MW în altele, fără o sursă oficială care să tranșeze cifra exactă; (2) data repornirii — o primă estimare (duminică seara) a fost înlocuită, în surse ulterioare, cu una nouă (luni, 24 august), ceea ce pare o actualizare cronologică a Complexului Energetic Oltenia, nu o contradicție reală.\n\nCe lipsește: o declarație oficială Transelectrica sau CE Oltenia, atribuită nominal, care să confirme cifra exactă a MW pierduți; de asemenea, nu există o reevaluare publică a Comandamentului Energetic Național după oprirea de joi, care să spună dacă concluzia sa din 18 august (că sistemul rezistă și fără Turceni) mai e valabilă acum, cu centrala efectiv oprită.\n\nCe ar schimba concluzia: o eventuală pană sau limitare de consum în zilele următoare ar arăta că marja despre care vorbește Ministerul Energiei era mai mică decât s-a comunicat; invers, o traversare fără incidente a valului de caniculă ar confirma evaluarea oficială.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/termocentrala-turceni-oprire-avarie-criza-energetica.jpg\" alt=\"Turceni\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Turceni. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:14.04.24_Turceni_450379_(53666951435).jpg\" rel=\"nofollow noopener\" target=\"_blank\">14.04.24 Turceni 450379 (53666951435)</a>\" de Phil Richards from London, UK, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/termocentrala-turceni-oprire-avarie-criza-energetica.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Phil Richards from London, UK"
+  }
 }

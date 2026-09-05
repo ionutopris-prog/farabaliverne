@@ -11,22 +11,40 @@
     {
       "text": "Vladimir Putin a declarat, miercuri, 12 august 2026, la bordul crucișătorului Varyag, în timpul etapei finale a exercițiilor Flotei Pacificului lângă Iujno-Sahalinsk: „Vom fi forțați să răspundem în aceeași monedă”, adăugând că Moscova va acționa „oriunde considerăm noi înșine necesar și potrivit — oriunde”. A numit acțiunile occidentale de reținere a navelor „piraterie și banditism”.",
       "sources": [
-        {"name": "Euronews — Putin amenință cu confiscări de represalii ale navelor europene", "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"},
-        {"name": "CP24 (AP) — Putin threatens retaliation for Western seizures of Russian commercial vessels", "url": "https://www.cp24.com/news/world/2026/08/12/putin-threatens-retaliation-for-western-seizures-of-russian-commercial-vessels/"},
-        {"name": "News4Jax (AP) — Putin threatens retaliation for Western seizures of Russian commercial vessels", "url": "https://www.news4jax.com/news/world/2026/08/12/putin-threatens-retaliation-for-western-seizures-of-russian-commercial-vessels/"}
+        {
+          "name": "Euronews — Putin amenință cu confiscări de represalii ale navelor europene",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"
+        },
+        {
+          "name": "CP24 (AP) — Putin threatens retaliation for Western seizures of Russian commercial vessels",
+          "url": "https://www.cp24.com/news/world/2026/08/12/putin-threatens-retaliation-for-western-seizures-of-russian-commercial-vessels/"
+        },
+        {
+          "name": "News4Jax (AP) — Putin threatens retaliation for Western seizures of Russian commercial vessels",
+          "url": "https://www.news4jax.com/news/world/2026/08/12/putin-threatens-retaliation-for-western-seizures-of-russian-commercial-vessels/"
+        }
       ]
     },
     {
       "text": "Contextul: sancțiuni noi ale UE, adoptate luna trecută, permit statelor membre să vândă petrolul sau alte mărfuri confiscate de pe navele reținute din „flota fantomă” — un termen care descrie o rețea de tancuri vechi și slab asigurate, folosite de Moscova pentru a ocoli sancțiunile petroliere occidentale. Mai multe țări europene au reținut sau confiscat nave legate de Rusia începând de la finalul lui 2024, inclusiv un caz în care Suedia a transferat Ucrainei o navă rusească de cereale reținută, pe baza unei hotărâri judecătorești.",
       "sources": [
-        {"name": "Bloomberg — Putin Threatens Retaliation Over EU Moves to Seize Russia's Ships", "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"},
-        {"name": "Euronews — sancțiunile UE care permit vânzarea mărfii confiscate", "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"}
+        {
+          "name": "Bloomberg — Putin Threatens Retaliation Over EU Moves to Seize Russia's Ships",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"
+        },
+        {
+          "name": "Euronews — sancțiunile UE care permit vânzarea mărfii confiscate",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"
+        }
       ]
     },
     {
       "text": "Comandamentul Flotei Pacificului a raportat lui Putin, cu ocazia aceleiași vizite, că marina rusă e pregătită să înceapă inspecții ale navelor comerciale care deservesc „state neprietenoase” și dispune de suficiente resurse pentru inspectarea și reținerea unor astfel de nave.",
       "sources": [
-        {"name": "Bloomberg — declarația comandamentului Flotei Pacificului către Putin", "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"}
+        {
+          "name": "Bloomberg — declarația comandamentului Flotei Pacificului către Putin",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"
+        }
       ]
     }
   ],
@@ -34,14 +52,23 @@
     {
       "text": "Deocamdată amenințarea rămâne declarativă — nu există, la data verificării, un incident confirmat în care Rusia să fi reținut efectiv o navă occidentală ca represalii. Diferența dintre retorică și acțiune concretă nu poate fi verificată încă.",
       "sources": [
-        {"name": "Euronews — declarația de amenințare, fără un incident concret raportat", "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"}
+        {
+          "name": "Euronews — declarația de amenințare, fără un incident concret raportat",
+          "url": "https://www.euronews.com/my-europe/2026/08/12/putin-threatens-retaliatory-seizures-of-european-ships"
+        }
       ]
     },
     {
       "text": "Presa de stat rusă (RT, Pravda) a preluat și amplificat declarația lui Putin, prezentând-o drept un răspuns legitim la „piraterie” occidentală, fără a menționa că sancțiunile UE vizează tocmai eludarea de către Rusia a embargoului petrolier internațional. Această relatare din surse de stat trebuie citită alături de versiunile occidentale independente (Euronews, Bloomberg, AP), care oferă contextul complet al sancțiunilor.",
       "sources": [
-        {"name": "RT — Putin warns West over ship seizures", "url": "https://www.rt.com/russia/644154-putin-western-cargo-ships/"},
-        {"name": "Bloomberg — contextul sancțiunilor UE privind flota fantomă", "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"}
+        {
+          "name": "RT — Putin warns West over ship seizures",
+          "url": "https://www.rt.com/russia/644154-putin-western-cargo-ships/"
+        },
+        {
+          "name": "Bloomberg — contextul sancțiunilor UE privind flota fantomă",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-12/putin-threatens-retaliation-over-eu-moves-to-seize-russian-ships"
+        }
       ]
     }
   ],
@@ -53,5 +80,12 @@
   ],
   "aiNote": "Declarația lui Putin este confirmată direct de mai multe agenții și redacții occidentale independente (Euronews, Bloomberg, AP), nu doar de presa de stat rusă — așa că o tratăm ca fapt (Putin a spus asta), separat de conținutul afirmației sale (că reținerile ar fi „piraterie”), care rămâne poziție politică. Presa de stat rusă (RT, Pravda) a preluat și amplificat mesajul, motiv pentru care am marcat explicit acest unghi în secțiunea contestat. Nu există, la ora verificării, dovezi despre represalii concrete.",
   "math": null,
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/putin-flota-fantoma-nave-raspuns-simetric.jpg\" alt=\"crude oil tanker ship at sea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — crude oil tanker ship at sea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Hound_Point_tanker_terminal_-_geograph.org.uk_-_1346228.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Hound Point tanker terminal - geograph.org.uk - 1346228</a>\" de Simon Johnston, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/putin-flota-fantoma-nave-raspuns-simetric.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Simon Johnston"
+  }
 }

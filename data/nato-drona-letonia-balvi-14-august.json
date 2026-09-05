@@ -11,34 +11,58 @@
     {
       "text": "Vineri, 14 august 2026, cu puțin înainte de ora 04:00, autoritățile letone au declarat o alertă aeriană „portocalie” în regiunile Augšdaugava, Preiļi, Rēzekne, Balvi și Alūksne, din nord-estul țării, și au îndemnat populația să evite ieșitul afară și să caute adăpost. O dronă a intrat în spațiul aerian leton și a fost doborâtă de avioane NATO; alerta a fost ridicată aproximativ o oră mai târziu, după interceptare.",
       "sources": [
-        { "name": "LSM.lv (radiodifuzorul public leton) — NATO fighters shoot down drone in north-east Latvia", "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/" },
-        { "name": "Yahoo News / DPA — NATO jets shoot down foreign drone after it enters Latvian airspace", "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html" }
+        {
+          "name": "LSM.lv (radiodifuzorul public leton) — NATO fighters shoot down drone in north-east Latvia",
+          "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/"
+        },
+        {
+          "name": "Yahoo News / DPA — NATO jets shoot down foreign drone after it enters Latvian airspace",
+          "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html"
+        }
       ]
     },
     {
       "text": "Potrivit agenției germane de presă DPA, avioanele care au doborât drona au fost aparate Eurofighter italiene, aflate în misiunea NATO de poliție aeriană a statelor baltice (Baltic Air Policing) — un sistem prin care state membre NATO se rotesc la patrularea spațiului aerian al Estoniei, Letoniei și Lituaniei.",
       "sources": [
-        { "name": "Yahoo News / DPA — avioane Eurofighter italiene au doborât drona", "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html" }
+        {
+          "name": "Yahoo News / DPA — avioane Eurofighter italiene au doborât drona",
+          "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html"
+        }
       ]
     },
     {
       "text": "Armata letonă nu a identificat inițial originea dronei, dar a declarat că aceasta a intrat în spațiul aerian ca urmare a activității de război electronic rusesc — o formulare care sugerează că ar putea fi vorba despre o dronă ucraineană deviată de pe traseu de interferențele rusești, nu despre un atac rusesc deliberat asupra Letoniei.",
       "sources": [
-        { "name": "LSM.lv — militarii nu au identificat inițial originea dronei", "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/" },
-        { "name": "Yahoo News / DPA — dronă intrată ca rezultat al războiului electronic rusesc", "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html" }
+        {
+          "name": "LSM.lv — militarii nu au identificat inițial originea dronei",
+          "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/"
+        },
+        {
+          "name": "Yahoo News / DPA — dronă intrată ca rezultat al războiului electronic rusesc",
+          "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html"
+        }
       ]
     },
     {
       "text": "Nu este un caz izolat. Pe 8 iunie 2026, avioane franceze Rafale, tot din misiunea NATO de poliție aeriană a Balticii, doborâseră o altă dronă deasupra Letoniei, lângă satul Berzgale, la aproximativ 30 km de granița cu Rusia — prima interceptare de acest fel a NATO în spațiul aerian leton, fără victime sau pagube. Incidentul de vineri este cel puțin a doua doborâre confirmată de NATO deasupra Letoniei din 2026.",
       "sources": [
-        { "name": "Al Jazeera — NATO jets shoot down drone over Latvia, extending Ukraine spillover fears", "url": "https://www.aljazeera.com/news/2026/6/8/nato-jets-shoot-down-drone-over-latvia-extending-ukraine-spillover-fears" },
-        { "name": "The Globe and Mail / Reuters — NATO jet shoots down Russian drone in Latvian airspace", "url": "https://www.theglobeandmail.com/world/article-nato-jet-shoots-down-russian-drone-in-latvian-airspace/" }
+        {
+          "name": "Al Jazeera — NATO jets shoot down drone over Latvia, extending Ukraine spillover fears",
+          "url": "https://www.aljazeera.com/news/2026/6/8/nato-jets-shoot-down-drone-over-latvia-extending-ukraine-spillover-fears"
+        },
+        {
+          "name": "The Globe and Mail / Reuters — NATO jet shoots down Russian drone in Latvian airspace",
+          "url": "https://www.theglobeandmail.com/world/article-nato-jet-shoots-down-russian-drone-in-latvian-airspace/"
+        }
       ]
     },
     {
       "text": "Noul guvern leton, instalat în mai 2026, a semnat recent un acord de cooperare cu Ucraina pentru consolidarea coordonării apărării anti-dronă — context care explică reacția rapidă la incidentul de vineri.",
       "sources": [
-        { "name": "Yahoo News / DPA — acord Letonia-Ucraina pe apărare anti-dronă", "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html" }
+        {
+          "name": "Yahoo News / DPA — acord Letonia-Ucraina pe apărare anti-dronă",
+          "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html"
+        }
       ]
     }
   ],
@@ -46,14 +70,23 @@
     {
       "text": "Naționalitatea avioanelor care au doborât drona nu e la fel de clară în toate sursele. Agenția DPA (preluată de Yahoo) indică avioane Eurofighter italiene; relatarea inițială a radiodifuzorului public leton LSM nu preciza explicit naționalitatea, menționând doar că statele NATO se rotesc la patrularea spațiului aerian baltic, cele mai mari oferind avioanele de vânătoare.",
       "sources": [
-        { "name": "Yahoo News / DPA — avioane Eurofighter italiene", "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html" },
-        { "name": "LSM.lv — nu era clar imediat ce avioane au tras", "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/" }
+        {
+          "name": "Yahoo News / DPA — avioane Eurofighter italiene",
+          "url": "https://www.yahoo.com/news/world/articles/nato-jets-shoot-down-foreign-034829730.html"
+        },
+        {
+          "name": "LSM.lv — nu era clar imediat ce avioane au tras",
+          "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/"
+        }
       ]
     },
     {
       "text": "La ora verificării nu există o confirmare independentă, din partea Rusiei sau a Ucrainei, despre cine a lansat inițial drona sau ce țintă avea. Varianta „război electronic rusesc a deviat o dronă” rămâne versiunea oficială letonă/NATO, necontestată dar și neconfirmată de o a treia parte.",
       "sources": [
-        { "name": "LSM.lv — armata nu a identificat inițial originea dronei", "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/" }
+        {
+          "name": "LSM.lv — armata nu a identificat inițial originea dronei",
+          "url": "https://eng.lsm.lv/article/society/defence/14.08.2026-nato-fighters-shoot-down-drone-in-north-east-latvia.a658766/"
+        }
       ]
     }
   ],
@@ -63,5 +96,12 @@
     }
   ],
   "aiNote": "Faptul central se probează din mai multe surse independente: vineri, 14 august 2026, o dronă a intrat în spațiul aerian leton în regiunea Balvi, a fost doborâtă de avioane NATO, iar armata letonă leagă incidentul de războiul electronic rusesc, nu de un atac rusesc direct asupra Letoniei. Rămân două rezerve: (1) sursele nu coincid pe deplin despre naționalitatea avioanelor care au tras (DPA spune Eurofighter italiene, radiodifuzorul leton nu confirma inițial); (2) nu există, la ora verificării, o confirmare independentă a originii exacte a dronei. Cititorul poate urmări actualizările pe canalele oficiale ale armatei letone.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nato-drona-letonia-balvi-14-august.jpg\" alt=\"Letoniei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Letoniei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:16-08-31-Saeima-RR2_4027.jpg\" rel=\"nofollow noopener\" target=\"_blank\">16-08-31-Saeima-RR2 4027</a>\" de Ralf Roletschek, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 at</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nato-drona-letonia-balvi-14-august.jpg",
+    "licenta": "CC BY-SA 3.0 at",
+    "autor": "Ralf Roletschek"
+  }
 }

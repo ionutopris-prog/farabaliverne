@@ -75,5 +75,12 @@
   "aiNote": "Anunțul premierului interimar Ilie Bolojan despre cele două scheme de finanțare este confirmat concordant de Rador/Radio România, BURSA și Alba24. Rămâne o distincție importantă de nuanțat: schema prin Fondul pentru Modernizare (150 milioane euro) are deja ghid aprobat și calendar de depunere (1 septembrie – 30 octombrie 2026), în timp ce schema prin AFM (80 milioane euro) este încă la stadiul de act normativ „în lucru”, fără condiții publice pentru beneficiari la data verificării.",
   "persoane": [
     "Ilie Bolojan"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/romania-scheme-stocare-energie-baterii-afm-fond-modernizare.jpg\" alt=\"battery energy storage container\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — battery energy storage container. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_MW_4_MWh_Turner_Energy_Storage_Project_in_Pullman,_WA.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 MW 4 MWh Turner Energy Storage Project in Pullman, WA</a>\" de UniEnergy Technologies, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/romania-scheme-stocare-energie-baterii-afm-fond-modernizare.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "UniEnergy Technologies"
+  }
 }

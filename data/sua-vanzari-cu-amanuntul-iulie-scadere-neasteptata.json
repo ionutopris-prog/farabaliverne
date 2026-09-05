@@ -11,21 +11,36 @@
     {
       "text": "Vânzările cu amănuntul și în servicii alimentare din SUA au fost de 763,6 miliarde de dolari în iulie 2026, în scădere cu 0,6% față de iunie — prima scădere lunară din ultimele 9 luni și cea mai amplă din ultimele 14 luni. Economiștii intervievați de agențiile de presă anticipau o creștere de 0,1% (estimările variau între -0,5% și +0,7%), deci rezultatul e o surpriză negativă.",
       "sources": [
-        {"name": "Honolulu Star-Advertiser (AP) — U.S. retail sales fall 0.6% in July, first decline in 9 months", "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"},
-        {"name": "Transport Topics (AP) — Retail Sales Fall in July", "url": "https://www.ttnews.com/articles/retail-sales-fall-july"}
+        {
+          "name": "Honolulu Star-Advertiser (AP) — U.S. retail sales fall 0.6% in July, first decline in 9 months",
+          "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"
+        },
+        {
+          "name": "Transport Topics (AP) — Retail Sales Fall in July",
+          "url": "https://www.ttnews.com/articles/retail-sales-fall-july"
+        }
       ]
     },
     {
       "text": "Categoriile cu cele mai mari scăderi au fost comerțul online / comercianții fără magazin fizic (-2,2%), dealerii auto și piese (-1,8%), benzinăriile (-0,9%) și magazinele de electronice și electrocasnice (-0,5%). Economiștii citați leagă declinul de epuizarea rambursărilor fiscale generoase din acest an, care susținuseră cheltuielile consumatorilor în trimestrul doi.",
       "sources": [
-        {"name": "Transport Topics (AP) — categoriile cu cele mai mari scăderi", "url": "https://www.ttnews.com/articles/retail-sales-fall-july"},
-        {"name": "Honolulu Star-Advertiser (AP) — context și cauze ale scăderii", "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"}
+        {
+          "name": "Transport Topics (AP) — categoriile cu cele mai mari scăderi",
+          "url": "https://www.ttnews.com/articles/retail-sales-fall-july"
+        },
+        {
+          "name": "Honolulu Star-Advertiser (AP) — context și cauze ale scăderii",
+          "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"
+        }
       ]
     },
     {
       "text": "Economistul Christopher S. Rupkey a comentat: „It's not lights out for the economy, but new risks are emerging if the consumer pulls their support for economic growth” („Nu s-au stins luminile pentru economie, dar apar riscuri noi dacă consumatorul își retrage sprijinul pentru creșterea economică”). Pe an, vânzările rămân totuși cu 5,0% peste iulie 2025.",
       "sources": [
-        {"name": "Transport Topics (AP) — citatul economistului Christopher S. Rupkey", "url": "https://www.ttnews.com/articles/retail-sales-fall-july"}
+        {
+          "name": "Transport Topics (AP) — citatul economistului Christopher S. Rupkey",
+          "url": "https://www.ttnews.com/articles/retail-sales-fall-july"
+        }
       ]
     }
   ],
@@ -33,7 +48,10 @@
     {
       "text": "Reacția exactă a piețelor financiare la anunț diferă ca detaliu între sursele consultate — unele menționează doar o ajustare a randamentelor obligațiunilor și a dolarului, fără cifre precise pentru indicii bursieri (S&P 500, Dow, Nasdaq), deci mișcarea exactă a piețelor rămâne de verificat direct pe cotațiile zilei.",
       "sources": [
-        {"name": "Honolulu Star-Advertiser (AP) — reacția piețelor", "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"}
+        {
+          "name": "Honolulu Star-Advertiser (AP) — reacția piețelor",
+          "url": "https://www.staradvertiser.com/2026/08/14/breaking-news/u-s-retail-sales-fall-0-6-in-july-first-decline-in-9-months/"
+        }
       ]
     }
   ],
@@ -41,5 +59,12 @@
     "Dacă scăderea de 0,6% marchează începutul unei încetiniri susținute a consumului american sau doar un efect temporar de bază statistică (după ce Amazon și-a mutat Prime Day din iulie în iunie, umflând artificial cifra lunii anterioare), rămâne interpretare economică — sursele citează ambele explicații fără să tragă o concluzie fermă."
   ],
   "aiNote": "Am pus alături două relatări bazate pe firul Associated Press (Honolulu Star-Advertiser și Transport Topics), ambele citând direct datele Biroului de Recensământ al SUA (Census Bureau) și Departamentul Comerțului. Cifrele cheie — scăderea de 0,6%, totalul de 763,6 miliarde de dolari și defalcarea pe categorii — coincid între surse. Nu am reușit să accesez direct raportul CNN sau Marketplace (acces blocat la verificare), dar conținutul lor, văzut în rezultatele de căutare, confirmă aceleași cifre.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-vanzari-cu-amanuntul-iulie-scadere-neasteptata.jpg\" alt=\"retail shopping mall store\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — retail shopping mall store. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:A_J.Jill_retail_store_at_Hamilton_Corner_in_Chattanooga,_Tennessee.jpg\" rel=\"nofollow noopener\" target=\"_blank\">A J.Jill retail store at Hamilton Corner in Chattanooga, Tennessee</a>\" de Harrison Keely, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-vanzari-cu-amanuntul-iulie-scadere-neasteptata.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Harrison Keely"
+  }
 }

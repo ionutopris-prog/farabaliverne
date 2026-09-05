@@ -11,27 +11,45 @@
     {
       "text": "De pe 12 august 2026, Regulamentul UE privind ambalajele și deșeurile de ambalaje (Packaging and Packaging Waste Regulation, PPWR) intră în aplicare direct în toate statele membre — nu necesită o lege națională separată de transpunere, fiind un regulament, nu o directivă. Regulamentul stabilește cerințe pentru fabricarea, compoziția, reutilizarea și reciclabilitatea tuturor ambalajelor comercializate în UE.",
       "sources": [
-        {"name": "Comisia Europeană — New packaging rules for less waste and easier recycling", "url": "https://commission.europa.eu/news-and-media/news/new-packaging-rules-less-waste-and-easier-recycling-2026-08-12_en"},
-        {"name": "DG Environment — New EU rules on packaging enter into application", "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"}
+        {
+          "name": "Comisia Europeană — New packaging rules for less waste and easier recycling",
+          "url": "https://commission.europa.eu/news-and-media/news/new-packaging-rules-less-waste-and-easier-recycling-2026-08-12_en"
+        },
+        {
+          "name": "DG Environment — New EU rules on packaging enter into application",
+          "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"
+        }
       ]
     },
     {
       "text": "Prima restricție concretă, aplicabilă chiar din 12 august 2026: substanțele PFAS („forever chemicals”, folosite pentru a respinge apa și grăsimea) sunt interzise peste praguri stricte în ambalajele care intră în contact cu alimente — categorie care includea containere de tip takeaway, pungi de popcorn la microunde, hârtie de copt și cutii de pizza.",
       "sources": [
-        {"name": "DG Environment — restricția PFAS din ambalajele alimentare", "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"},
-        {"name": "Innovation News Network — New EU packaging rules come into force", "url": "https://www.innovationnewsnetwork.com/new-eu-packaging-rules-come-into-force/72585/"}
+        {
+          "name": "DG Environment — restricția PFAS din ambalajele alimentare",
+          "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"
+        },
+        {
+          "name": "Innovation News Network — New EU packaging rules come into force",
+          "url": "https://www.innovationnewsnetwork.com/new-eu-packaging-rules-come-into-force/72585/"
+        }
       ]
     },
     {
       "text": "Fără intervenție, Comisia Europeană estimează că deșeurile de ambalaje din UE ar fi crescut cu 19% până în 2030, iar cele din plastic cu până la 46%. Comisara pentru mediu, Jessika Roswall, a declarat că noile reguli „vor reduce deșeurile, vor spori reciclarea și vor face ambalajele mai sigure pentru consumatori”.",
       "sources": [
-        {"name": "DG Environment — cifrele proiectate și citatul comisarei Roswall", "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"}
+        {
+          "name": "DG Environment — cifrele proiectate și citatul comisarei Roswall",
+          "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"
+        }
       ]
     },
     {
       "text": "Restul obligațiilor vin eșalonat: din 2028, un sistem de etichetare armonizat la nivelul UE pentru sortarea deșeurilor; din 2030, obligativitatea folosirii unui procent de plastic reciclat în ambalajele noi, cerința ca toate ambalajele să fie reciclabile și interzicerea unor ambalaje de unică folosință acolo unde există alternative (exemplu dat de Comisie: plicurile mici de ketchup sau flacoanele mici de șampon din hoteluri).",
       "sources": [
-        {"name": "Comisia Europeană — calendarul următoarelor obligații (2028, 2030)", "url": "https://commission.europa.eu/news-and-media/news/new-packaging-rules-less-waste-and-easier-recycling-2026-08-12_en"}
+        {
+          "name": "Comisia Europeană — calendarul următoarelor obligații (2028, 2030)",
+          "url": "https://commission.europa.eu/news-and-media/news/new-packaging-rules-less-waste-and-easier-recycling-2026-08-12_en"
+        }
       ]
     }
   ],
@@ -47,8 +65,18 @@
     "title": "19% vs 46% — de ce cresc mai repede deșeurile de plastic decât cele de ambalaje în general?",
     "explanation": "Comisia proiectează o creștere de 19% a deșeurilor totale de ambalaje până în 2030, dar de până la 46% pentru cele din plastic — un ritm de peste două ori mai rapid. Diferența arată o schimbare de compoziție: tot mai multe ambalaje (mai ales din comerțul online și livrări) trec de la materiale tradiționale (sticlă, hârtie, carton, mai ușor reciclate deja) spre plastic ușor, ieftin de produs, dar cu rate de reciclare mai mici în practică. De aici și logica regulamentului: nu doar reduce cantitatea totală de deșeuri, ci împinge specific compoziția înapoi spre materiale reciclabile sau reutilizabile.",
     "sources": [
-      {"name": "DG Environment — proiecțiile 19%/46%", "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"}
+      {
+        "name": "DG Environment — proiecțiile 19%/46%",
+        "url": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ue-reguli-ambalaje-ppwr-12-august.jpg\" alt=\"România\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — România. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Apuseni._(41412826664).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Apuseni. (41412826664)</a>\" de Mihai Lucîț from Baia Mare, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ue-reguli-ambalaje-ppwr-12-august.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "Mihai Lucîț from Baia Mare, Romania"
+  }
 }

@@ -11,28 +11,49 @@
     {
       "text": "Președintele Donald Trump a semnat, potrivit textului oficial publicat pe site-ul Casei Albe, un memorandum prezidențial de securitate națională (NSPM) datat 12 august 2026, intitulat „Expanding Capabilities to Combat Transnational Cyber-Enabled Crime”. Documentul autorizează un program prin care companii private verificate („Participating Companies”) pot desfășura „Cyber Surveillance Operations” și „Cyber Effects Operations” împotriva unor organizații criminale transnaționale cu activitate cibernetică, sub controlul și direcția guvernului federal.",
       "sources": [
-        {"name": "Casa Albă — Expanding Capabilities to Combat Transnational Cyber-Enabled Crime (text oficial NSPM)", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
-        {"name": "TechCrunch — In a first, US will allow some private firms to carry out cyberattacks", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"}
+        {
+          "name": "Casa Albă — Expanding Capabilities to Combat Transnational Cyber-Enabled Crime (text oficial NSPM)",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+        },
+        {
+          "name": "TechCrunch — In a first, US will allow some private firms to carry out cyberattacks",
+          "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"
+        }
       ]
     },
     {
       "text": "Fiecare operațiune trebuie aprobată în scris de doi „co-directori executivi”, unul din partea Departamentului Justiției (DOJ) și unul din partea Departamentului Securității Interne (DHS), care păstrează controlul și supravegherea asupra performanței companiilor participante. Programul vizează explicit grupări criminale, nu guverne străine — o organizație nu poate fi vizată dacă este „parte instituțională a unui guvern străin sau operează integral sub direcția acestuia”, deși se prezumă că nu e cazul „decât dacă există informații clare” contrare.",
       "sources": [
-        {"name": "Casa Albă — structura de aprobare DOJ/DHS și excluderea guvernelor străine", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
-        {"name": "CyberSecurity Dive — US government will let private companies hack criminal gangs", "url": "https://www.cybersecuritydive.com/news/us-private-companies-gangs-cyberattacks-offensive-operations/827805/"}
+        {
+          "name": "Casa Albă — structura de aprobare DOJ/DHS și excluderea guvernelor străine",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+        },
+        {
+          "name": "CyberSecurity Dive — US government will let private companies hack criminal gangs",
+          "url": "https://www.cybersecuritydive.com/news/us-private-companies-gangs-cyberattacks-offensive-operations/827805/"
+        }
       ]
     },
     {
       "text": "Companiile participante trebuie să depună o garanție (escrow/bond) de cel puțin 1 milion de dolari, care poate fi confiscată dacă guvernul constată că firma nu respectă regulile programului. Operațiunile care ar putea produce „rezultate critice” — pierderi de vieți omenești, vătămări grave, sau ceva ce s-ar ridica la nivelul unei „folosiri a forței” sau „atac armat” conform dreptului internațional — nu pot fi aprobate doar de cei doi directori executivi și sunt supuse unor restricții suplimentare; companiile trebuie să oprească imediat orice operațiune care depășește parametrii aprobați și să anunțe guvernul.",
       "sources": [
-        {"name": "Casa Albă — garanția de 1 milion de dolari și restricțiile privind „rezultatele critice”", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
-        {"name": "CyberSecurity Dive — restricții privind pierderea de vieți omenești și folosirea forței", "url": "https://www.cybersecuritydive.com/news/us-private-companies-gangs-cyberattacks-offensive-operations/827805/"}
+        {
+          "name": "Casa Albă — garanția de 1 milion de dolari și restricțiile privind „rezultatele critice”",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+        },
+        {
+          "name": "CyberSecurity Dive — restricții privind pierderea de vieți omenești și folosirea forței",
+          "url": "https://www.cybersecuritydive.com/news/us-private-companies-gangs-cyberattacks-offensive-operations/827805/"
+        }
       ]
     },
     {
       "text": "Este prima dată, în istoria SUA, când companii private primesc o autorizare federală formală pentru operațiuni cibernetice ofensive împotriva unor grupări criminale — administrațiile anterioare interziseseră companiilor „hack-back”-ul contra atacatorilor cibernetici străini, din cauza riscului de escaladare geopolitică.",
       "sources": [
-        {"name": "TechCrunch — „In a first, US will allow some private firms to carry out cyberattacks”", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"}
+        {
+          "name": "TechCrunch — „In a first, US will allow some private firms to carry out cyberattacks”",
+          "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"
+        }
       ]
     }
   ],
@@ -40,15 +61,27 @@
     {
       "text": "Data exactă a semnării diferă ușor: documentul oficial de pe whitehouse.gov e datat 12 august 2026 (o zi de miercuri), dar mai multe redacții (CNN, TechCrunch) au relatat evenimentul menționând „miercuri” cu date de publicare pe 13 august — posibil o mică diferență de fus orar sau de moment al publicării articolului față de semnare. Am folosit data oficială din documentul Casei Albe.",
       "sources": [
-        {"name": "Casa Albă — data oficială: 12 august 2026", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"},
-        {"name": "TechCrunch — relatare publicată 13 august, referindu-se la „miercuri”", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"}
+        {
+          "name": "Casa Albă — data oficială: 12 august 2026",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+        },
+        {
+          "name": "TechCrunch — relatare publicată 13 august, referindu-se la „miercuri”",
+          "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"
+        }
       ]
     },
     {
       "text": "Presa a descris programul cu termeni diferiți în privința amplorii: unele titluri vorbesc de „hack-back” (companii care contraatacă atacatorii proprii), altele — precum TechCrunch — notează explicit că memorandumul „nu autorizează operațiuni directe de hack-back de către companii private” din proprie inițiativă, ci un program cu aprobare guvernamentală prealabilă, caz cu caz, pentru ținte specifice. Textul oficial confirmă a doua variantă: fiecare operațiune necesită aprobare scrisă prealabilă de la cei doi directori executivi, nu e un drept general de contraatac.",
       "sources": [
-        {"name": "TechCrunch — memorandumul „nu autorizează hack-back direct”", "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"},
-        {"name": "Casa Albă — cerința de aprobare scrisă prealabilă pentru fiecare operațiune", "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"}
+        {
+          "name": "TechCrunch — memorandumul „nu autorizează hack-back direct”",
+          "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/"
+        },
+        {
+          "name": "Casa Albă — cerința de aprobare scrisă prealabilă pentru fiecare operațiune",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+        }
       ]
     }
   ],
@@ -58,5 +91,12 @@
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am comparat textul oficial al memorandumului (whitehouse.gov) cu relatările TechCrunch și CyberSecurity Dive. Nucleul faptic se susține din toate sursele: e primul program federal formal prin care companii private verificate pot desfășura operațiuni cyber ofensive contra unor grupări criminale transnaționale, cu aprobare scrisă prealabilă de la DOJ și DHS, garanție de minimum 1 milion de dolari și interdicție asupra operațiunilor care ar produce pierderi de vieți omenești. Am semnalat două puncte de neclaritate: o mică diferență de dată între documentul oficial (12 august) și relatările de presă (13 august), și o diferență de încadrare — unele titluri vorbesc de „hack-back”, dar textul oficial descrie un proces de aprobare caz cu caz, nu un drept general de contraatac. Criticile experților (risc de escaladare, clasificare drept combatanți) sunt opinii citate, nu fapte confirmate despre cum va funcționa programul în practică.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-trump-memorandum-hack-back-companii-private.jpg\" alt=\"data center server racks\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — data center server racks. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Duga-1_radar_data_center_inside_empty_server_racks_2018.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Duga-1 radar data center inside empty server racks 2018</a>\" de Joël van der Loo, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-trump-memorandum-hack-back-companii-private.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Joël van der Loo"
+  }
 }

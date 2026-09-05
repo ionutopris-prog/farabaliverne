@@ -94,5 +94,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am separat ce confirmă direct comunicatul CENTCOM (lovitura, nava, bilanțul blocadei) de ce rămâne bazat exclusiv pe versiunea americană (destinația navei, ignorarea avertismentelor) și de afirmația politică a președintelui Trump despre „control total”, pusă lângă poziția iraniană și negocierile încă deschise prin Oman și Qatar.",
   "persoane": [
     "Donald Trump"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-nava-vela-nova-hormuz-blocada-iran.jpg\" alt=\"Hellfire\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Hellfire. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:AGM-114_Hellfire_hung_on_a_Predator_drone.JPEG\" rel=\"nofollow noopener\" target=\"_blank\">AGM-114 Hellfire hung on a Predator drone</a>\" de TSGT Scott Reed, U.S. Air Force, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-nava-vela-nova-hormuz-blocada-iran.jpg",
+    "licenta": "Public domain",
+    "autor": "TSGT Scott Reed, U.S. Air Force"
+  }
 }

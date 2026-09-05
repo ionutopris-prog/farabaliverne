@@ -11,22 +11,40 @@
     {
       "text": "Câștigul net cumulat al fondurilor de pensii private obligatorii (Pilonul II) a depășit, la 31 iulie 2026, pragul de 100 de miliarde de lei, ajungând la 108,6 miliarde lei (~20,7 miliarde euro) — un prag istoric pentru sistem, potrivit Asociației pentru Pensiile Administrate Privat din România (APAPR).",
       "sources": [
-        { "name": "BURSA — APAPR: Pilonul II depăşeşte pentru prima dată 100 de miliarde de lei câştig net", "url": "https://www.bursa.ro/apapr-pilonul-ii-depaseste-pentru-prima-data-100-de-miliarde-de-lei-castig-net-84038959" },
-        { "name": "AGERPRES — APAPR: câștigul generat de Pilonul 2 a depășit 100 de miliarde de lei", "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550" }
+        {
+          "name": "BURSA — APAPR: Pilonul II depăşeşte pentru prima dată 100 de miliarde de lei câştig net",
+          "url": "https://www.bursa.ro/apapr-pilonul-ii-depaseste-pentru-prima-data-100-de-miliarde-de-lei-castig-net-84038959"
+        },
+        {
+          "name": "AGERPRES — APAPR: câștigul generat de Pilonul 2 a depășit 100 de miliarde de lei",
+          "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550"
+        }
       ]
     },
     {
       "text": "Activele nete administrate de fondurile de Pilon II au ajuns la 246,7 miliarde de lei (~47 miliarde euro), pentru 8,5 milioane de participanți înscriși, dintre care aproximativ 4,6 milioane contribuie activ lunar, la o cotă obligatorie de 4,75% din venitul brut.",
       "sources": [
-        { "name": "AGERPRES — active nete de 246,7 miliarde lei, 8,5 milioane de participanți", "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550" },
-        { "name": "Adevărul — Pilonul II, un nou prag istoric", "url": "https://adevarul.ro/economie/pilonul-ii-un-nou-prag-istoric-romanii-au-2548947.html" }
+        {
+          "name": "AGERPRES — active nete de 246,7 miliarde lei, 8,5 milioane de participanți",
+          "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550"
+        },
+        {
+          "name": "Adevărul — Pilonul II, un nou prag istoric",
+          "url": "https://adevarul.ro/economie/pilonul-ii-un-nou-prag-istoric-romanii-au-2548947.html"
+        }
       ]
     },
     {
       "text": "Fondurile au plătit deja 7,9 miliarde de lei (~1,5 miliarde euro) către peste 350.000 de participanți sau beneficiari care au ieșit la pensie ori au încasat sume conform legii, potrivit APAPR.",
       "sources": [
-        { "name": "AGERPRES — 7,9 miliarde lei plătiți către peste 350.000 de persoane", "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550" },
-        { "name": "Știrile ProTV — Profit record pentru Pilonul 2", "url": "https://stirileprotv.ro/stiri/financiar/profit-record-pentru-pilonul-2-castigul-celor-8-5-milioane-de-romani-a-depasit-100-de-miliarde-de-lei.html" }
+        {
+          "name": "AGERPRES — 7,9 miliarde lei plătiți către peste 350.000 de persoane",
+          "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550"
+        },
+        {
+          "name": "Știrile ProTV — Profit record pentru Pilonul 2",
+          "url": "https://stirileprotv.ro/stiri/financiar/profit-record-pentru-pilonul-2-castigul-celor-8-5-milioane-de-romani-a-depasit-100-de-miliarde-de-lei.html"
+        }
       ]
     }
   ],
@@ -34,13 +52,19 @@
     {
       "text": "Cifra de „100 de miliarde de lei” reprezintă câștigul net cumulat de la înființarea sistemului (2008) până la 31 iulie 2026, nu un profit dintr-un singur an — iar comunicatul provine chiar de la APAPR, asociația administratorilor de fonduri (o parte interesată în promovarea sistemului), nu de la un auditor independent sau de la Autoritatea de Supraveghere Financiară (ASF). Cititorul poate verifica cifrele oficiale pe site-ul ASF.",
       "sources": [
-        { "name": "BURSA — comunicat APAPR", "url": "https://www.bursa.ro/apapr-pilonul-ii-depaseste-pentru-prima-data-100-de-miliarde-de-lei-castig-net-84038959" }
+        {
+          "name": "BURSA — comunicat APAPR",
+          "url": "https://www.bursa.ro/apapr-pilonul-ii-depaseste-pentru-prima-data-100-de-miliarde-de-lei-castig-net-84038959"
+        }
       ]
     },
     {
       "text": "Niciuna dintre sursele consultate nu precizează câștigul net ajustat cu inflația (randamentul real). În condițiile inflației ridicate din România în ultimii ani, câștigul nominal de 108,6 miliarde lei nu spune, de unul singur, cât valorează în putere de cumpărare actuală — o comparație cu inflația cumulată din perioadă ar fi necesară pentru o evaluare completă.",
       "sources": [
-        { "name": "AGERPRES — cifrele APAPR, fără ajustare la inflație menționată", "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550" }
+        {
+          "name": "AGERPRES — cifrele APAPR, fără ajustare la inflație menționată",
+          "url": "https://agerpres.ro/economic/2026/08/10/apapr-castigul-generat-de-pilonul-2-a-depasit-100-de-miliarde-de-lei-350-000-de-persoane-si-au-primi--1583550"
+        }
       ]
     }
   ],
@@ -57,5 +81,12 @@
     "explanation": "Împărțind câștigul net cumulat (108,6 miliarde lei) la numărul total de participanți înscriși (8,5 milioane) rezultă un câștig mediu de aproximativ 12.776 lei de persoană, acumulat de la înființarea sistemului în 2008 până la 31 iulie 2026 — adică pe parcursul a aproape 18 ani. Este o medie: sumele reale diferă în funcție de vechimea în sistem, de venitul fiecărui contribuabil și de fondul ales, iar contribuțiile efective plătite (nu doar câștigul) reprezintă restul din cele 246,7 miliarde lei de active nete (adică aproximativ 138,1 miliarde lei sunt bani vărsați direct de contribuabili, nu randament)."
   },
   "aiNote": "Datele APAPR despre pragul de 100 de miliarde de lei sunt confirmate concordant de mai multe redacții economice independente, iar cifrele de bază (câștig net, active, participanți, plăți) coincid între surse. Rezervele țin de faptul că raportarea vine de la asociația administratorilor (parte interesată, nu auditor independent) și de absența unei ajustări la inflație, care ar arăta randamentul real, nu doar cel nominal.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/pilon2-castig-100-miliarde-lei.jpg\" alt=\"euro coins savings\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — euro coins savings. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_Grijntje,_Hillegersberg,_Rotterdam_(2021)_02.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 Grijntje, Hillegersberg, Rotterdam (2021) 02</a>\" de Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 Intern, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/pilon2-castig-100-miliarde-lei.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 Intern"
+  }
 }

@@ -97,5 +97,14 @@
     "explanation": "Cifra totală se compune din două grupuri: judecători + procurori. Sursele cu date detaliate (Adevărul, JURIDICE.ro) indică aproximativ 163–172 de judecători și 96–103 de procurori, ceea ce dă un total de circa 267–268 de magistrați. De aici: „267” (JURIDICE), „268” (Adevărul) și rotunjirea „aproape 270” (Observator). Titlul Digi24 „aproape 300” rotunjește mai generos în sus (circa 180 + aproape 100). Practic, toate cifrele descriu același eveniment — o singură sesiune de numiri — iar diferența este de rotunjire și de ce se numără. Verificarea exactă se face în decretele publicate în Monitorul Oficial. Reținem intervalul realist: ~267–268 de magistrați, din care în jur de două treimi judecători și o treime procurori."
   },
   "aiNote": "Dovezile susțin afirmația centrală: pe 27 iulie 2026, președintele Nicușor Dan a semnat decretele de numire în funcție a judecătorilor și procurorilor care au promovat examenul de capacitate din perioada decembrie 2025 – iunie 2026, cu intrare în funcție de la 1 august 2026. Faptul apare concordant la News.ro, Digi24, Adevărul, Observator și JURIDICE.ro, pornind de la comunicarea Administrației Prezidențiale. Rezerva ține de cifra totală: sursele oscilează între ~267–268 (Adevărul, JURIDICE), „aproape 270” (Observator) și „aproape 300” (Digi24) — o divergență de rotunjire, nu de eveniment. Am marcat drept opinie încadrarea gestului ca „decizie în criză politică”, întrucât numirea după examenul de capacitate este o procedură de rutină. Nota de transparență: portalul prezidențial (presidency.ro) nu a răspuns la data verificării, așa că trimitem la relatările care citează comunicatul; cifra exactă se poate verifica în decretele din Monitorul Oficial. Cititorul trage singur concluzia, pe baza surselor de mai jos.",
-  "persoane": ["Nicușor Dan"]
+  "persoane": [
+    "Nicușor Dan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nicusor-dan-decrete-magistrati.jpg\" alt=\"Nicusor Dan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nicusor Dan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nicu%C8%99or_Dan.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nicușor Dan</a>\" de Razvan Socol, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nicusor-dan-decrete-magistrati.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Razvan Socol"
+  }
 }

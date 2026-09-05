@@ -1,54 +1,82 @@
 {
- "slug": "taiwan-raport-aparare-china-debarcare-blocaj-2026",
- "title": "Raportul anual al Apărării taiwaneze: China accelerează pregătirile pentru debarcare și blocaj naval, dar recunoaște că nu are încă toate capacitățile",
- "category": "Extern",
- "date": "2026-09-03",
- "source": "Taipei Times / Focus Taiwan",
- "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545",
- "dek": "Ministerul taiwanez al Apărării a depus la Parlament (Legislative Yuan), pe 1 septembrie 2026, raportul anual despre puterea militară a Chinei — document care, față de ediția de anul trecut, pune accent mai mare pe eforturile Armatei Populare de Eliberare (PLA) de a-și consolida capacitatea de debarcare pe insulă și de blocaj naval sau aerian. Raportul însuși recunoaște, potrivit analiștilor citați de presa taiwaneză, că PLA „nu are încă” o capacitate deplină de a lansa o invazie pe scară largă, cu programele de echipare estimate a se încheia abia între 2030 și 2035.",
- "mainVerdict": "Probat că raportul a fost depus și conține aceste evaluări; rămâne o evaluare de intenție militară pe termen mediu, nu o dovadă a unei acțiuni iminente — chiar Taipei recunoaște limitele actuale ale PLA",
- "probat": [
-  {
-   "text": "Ministerul taiwanez al Apărării a depus luni, 1 septembrie 2026, la Legislative Yuan, raportul anual despre puterea militară a Chinei, odată cu propunerea de buget al apărării pentru anul următor. Raportul pune accent, mai mult decât ediția anterioară, pe eforturile PLA de a-și îmbunătăți capacitățile de debarcare comună pe insulă („joint island-landing capabilities”).",
-   "sources": [
-    {"name": "Taipei Times — MND report flags PLA efforts to boost Taiwan landing capabilities", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"},
-    {"name": "Focus Taiwan — New report shows PLA prioritizing joint island-landing capabilities: Analyst", "url": "https://focustaiwan.tw/politics/202609010018"}
-   ]
-  },
-  {
-   "text": "Raportul enumeră echipamente aflate în dezvoltare sau modernizare la PLA: elicoptere utilitare Z-20 modernizate, elicoptere de transport fără pilot, vehicule blindate de infanterie aeropurtate, nave amfibii de debarcare autoridicătoare, nave „punte pe apă” („water-bridge”) gândite pentru condițiile maritime din jurul Taiwanului, precum și nava de asalt amfibiu de Tip 076, constelații de sateliți de comunicații pe orbită joasă (Guowang, Qianfan) și sateliți de navigație BeiDou de generația a patra.",
-   "sources": [
-    {"name": "Taipei Times — MND report flags PLA efforts to boost Taiwan landing capabilities", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"},
-    {"name": "Focus Taiwan — New report shows PLA prioritizing joint island-landing capabilities: Analyst", "url": "https://focustaiwan.tw/politics/202609010018"}
-   ]
-  },
-  {
-   "text": "Raportul separat privind pregătirea de blocaj, citat de Seoul Economic Daily, notează exerciții recente axate pe „lovituri de foc combinate” și pe asigurarea „superiorității depline pe câmpul de luptă”, menite să „blocheze o intervenție străină într-o eventuală criză”; în iulie, patru elicoptere militare chineze au trecut, pentru prima dată, linia mediană a Strâmtorii Taiwan, iar nave de război chineze s-au apropiat până la circa 24 de mile marine de linia de bază teritorială a Taiwanului.",
-   "sources": [
-    {"name": "Seoul Economic Daily — Taiwan Warns China Is Preparing Fully for Blockade", "url": "https://en.sedaily.com/international/2026/09/03/taiwan-warns-china-is-preparing-fully-for-blockade"}
-   ]
-  },
-  {
-   "text": "Analistul Chieh Chung, de la Institutul taiwanez pentru Cercetare în Apărare și Securitate Națională, citat de ambele publicații, a spus că îmbunătățirea capacităților de debarcare comună a devenit o prioritate de dezvoltare a forțelor PLA pentru anii următori, dar a precizat că „PLA încă nu are capacitatea de a desfășura un asalt de debarcare la scară largă” — programele de echipare urmând să se încheie, în etape, între 2030 și 2035.",
-   "sources": [
-    {"name": "Focus Taiwan — New report shows PLA prioritizing joint island-landing capabilities: Analyst", "url": "https://focustaiwan.tw/politics/202609010018"}
-   ]
+  "slug": "taiwan-raport-aparare-china-debarcare-blocaj-2026",
+  "title": "Raportul anual al Apărării taiwaneze: China accelerează pregătirile pentru debarcare și blocaj naval, dar recunoaște că nu are încă toate capacitățile",
+  "category": "Extern",
+  "date": "2026-09-03",
+  "source": "Taipei Times / Focus Taiwan",
+  "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545",
+  "dek": "Ministerul taiwanez al Apărării a depus la Parlament (Legislative Yuan), pe 1 septembrie 2026, raportul anual despre puterea militară a Chinei — document care, față de ediția de anul trecut, pune accent mai mare pe eforturile Armatei Populare de Eliberare (PLA) de a-și consolida capacitatea de debarcare pe insulă și de blocaj naval sau aerian. Raportul însuși recunoaște, potrivit analiștilor citați de presa taiwaneză, că PLA „nu are încă” o capacitate deplină de a lansa o invazie pe scară largă, cu programele de echipare estimate a se încheia abia între 2030 și 2035.",
+  "mainVerdict": "Probat că raportul a fost depus și conține aceste evaluări; rămâne o evaluare de intenție militară pe termen mediu, nu o dovadă a unei acțiuni iminente — chiar Taipei recunoaște limitele actuale ale PLA",
+  "probat": [
+    {
+      "text": "Ministerul taiwanez al Apărării a depus luni, 1 septembrie 2026, la Legislative Yuan, raportul anual despre puterea militară a Chinei, odată cu propunerea de buget al apărării pentru anul următor. Raportul pune accent, mai mult decât ediția anterioară, pe eforturile PLA de a-și îmbunătăți capacitățile de debarcare comună pe insulă („joint island-landing capabilities”).",
+      "sources": [
+        {
+          "name": "Taipei Times — MND report flags PLA efforts to boost Taiwan landing capabilities",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"
+        },
+        {
+          "name": "Focus Taiwan — New report shows PLA prioritizing joint island-landing capabilities: Analyst",
+          "url": "https://focustaiwan.tw/politics/202609010018"
+        }
+      ]
+    },
+    {
+      "text": "Raportul enumeră echipamente aflate în dezvoltare sau modernizare la PLA: elicoptere utilitare Z-20 modernizate, elicoptere de transport fără pilot, vehicule blindate de infanterie aeropurtate, nave amfibii de debarcare autoridicătoare, nave „punte pe apă” („water-bridge”) gândite pentru condițiile maritime din jurul Taiwanului, precum și nava de asalt amfibiu de Tip 076, constelații de sateliți de comunicații pe orbită joasă (Guowang, Qianfan) și sateliți de navigație BeiDou de generația a patra.",
+      "sources": [
+        {
+          "name": "Taipei Times — MND report flags PLA efforts to boost Taiwan landing capabilities",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"
+        },
+        {
+          "name": "Focus Taiwan — New report shows PLA prioritizing joint island-landing capabilities: Analyst",
+          "url": "https://focustaiwan.tw/politics/202609010018"
+        }
+      ]
+    },
+    {
+      "text": "Raportul separat privind pregătirea de blocaj, citat de Seoul Economic Daily, notează exerciții recente axate pe „lovituri de foc combinate” și pe asigurarea „superiorității depline pe câmpul de luptă”, menite să „blocheze o intervenție străină într-o eventuală criză”; în iulie, patru elicoptere militare chineze au trecut, pentru prima dată, linia mediană a Strâmtorii Taiwan, iar nave de război chineze s-au apropiat până la circa 24 de mile marine de linia de bază teritorială a Taiwanului.",
+      "sources": [
+        {
+          "name": "Seoul Economic Daily — Taiwan Warns China Is Preparing Fully for Blockade",
+          "url": "https://en.sedaily.com/international/2026/09/03/taiwan-warns-china-is-preparing-fully-for-blockade"
+        }
+      ]
+    },
+    {
+      "text": "Analistul Chieh Chung, de la Institutul taiwanez pentru Cercetare în Apărare și Securitate Națională, citat de ambele publicații, a spus că îmbunătățirea capacităților de debarcare comună a devenit o prioritate de dezvoltare a forțelor PLA pentru anii următori, dar a precizat că „PLA încă nu are capacitatea de a desfășura un asalt de debarcare la scară largă” — programele de echipare urmând să se încheie, în etape, între 2030 și 2035.",
+      "sources": [
+        {
+          "name": "Focus Taiwan — New report shows PLA prioritizing joint island-landing capabilities: Analyst",
+          "url": "https://focustaiwan.tw/politics/202609010018"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nu există, în sursele consultate, o reacție oficială chineză (Biroul pentru Afaceri Taiwaneze sau Ministerul Apărării de la Beijing) la acest raport specific din 1 septembrie 2026. China respinge de regulă evaluările taiwaneze de acest tip, susținând constant că Taiwanul e „o provincie chineză” și că problema e „internă” — poziție care nu confirmă și nu infirmă, punctual, cifrele sau echipamentele enumerate în raport.",
+      "sources": [
+        {
+          "name": "Taipei Times — MND report flags PLA efforts to boost Taiwan landing capabilities",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Raportul e o evaluare de intenție și capacitate pe termen mediu (până în 2035), redactată chiar de partea care se simte amenințată — Taiwan. Faptul că raportul însuși admite limitele actuale ale PLA arată o intenție de a fi credibil, nu alarmist, dar cititorul trebuie să rețină că sursa primară e un ministru al apărării cu interes direct în a obține un buget mai mare pentru propria armată.",
+      "sources": []
+    }
+  ],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Taipei Times, Focus Taiwan, Seoul Economic Daily); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nDe reținut: e o evaluare oficială taiwaneză despre planurile militare ale Chinei, nu o relatare despre un incident sau un atac concret — de aceea nu se pune problema atribuirii unui act fără dovadă. Raportul însuși e nuanțat: recunoaște că PLA nu poate încă lansa o invazie pe scară largă, cu un orizont de finalizare a programelor abia în 2030-2035. Lipsește, la acest moment, un răspuns oficial chinez la conținutul specific al raportului din 1 septembrie — dacă apare unul, va fi adăugat.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/taiwan-raport-aparare-china-debarcare-blocaj-2026.jpg\" alt=\"Apărării\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Apărării. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:01.08.2024_%C3%8Entrevederea_Pre%C8%99edintelui_Parlamentului,_Igor_Grosu,_cu_Laurynas_Kas%C4%8Di%C5%ABnas,_Ministrul_Ap%C4%83r%C4%83rii_Na%C8%9Bionale_al_Republici_Lituania_-_53894079872.jpg\" rel=\"nofollow noopener\" target=\"_blank\">01.08.2024 Întrevederea Președintelui Parlamentului, Igor Grosu, cu Laurynas Kasčiūnas, Ministrul Apărării Naționale al Republici Lituania - 53894079872</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/taiwan-raport-aparare-china-debarcare-blocaj-2026.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
   }
- ],
- "contestat": [
-  {
-   "text": "Nu există, în sursele consultate, o reacție oficială chineză (Biroul pentru Afaceri Taiwaneze sau Ministerul Apărării de la Beijing) la acest raport specific din 1 septembrie 2026. China respinge de regulă evaluările taiwaneze de acest tip, susținând constant că Taiwanul e „o provincie chineză” și că problema e „internă” — poziție care nu confirmă și nu infirmă, punctual, cifrele sau echipamentele enumerate în raport.",
-   "sources": [
-    {"name": "Taipei Times — MND report flags PLA efforts to boost Taiwan landing capabilities", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Raportul e o evaluare de intenție și capacitate pe termen mediu (până în 2035), redactată chiar de partea care se simte amenințată — Taiwan. Faptul că raportul însuși admite limitele actuale ale PLA arată o intenție de a fi credibil, nu alarmist, dar cititorul trebuie să rețină că sursa primară e un ministru al apărării cu interes direct în a obține un buget mai mare pentru propria armată.",
-   "sources": []
-  }
- ],
- "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (Taipei Times, Focus Taiwan, Seoul Economic Daily); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nDe reținut: e o evaluare oficială taiwaneză despre planurile militare ale Chinei, nu o relatare despre un incident sau un atac concret — de aceea nu se pune problema atribuirii unui act fără dovadă. Raportul însuși e nuanțat: recunoaște că PLA nu poate încă lansa o invazie pe scară largă, cu un orizont de finalizare a programelor abia în 2030-2035. Lipsește, la acest moment, un răspuns oficial chinez la conținutul specific al raportului din 1 septembrie — dacă apare unul, va fi adăugat.",
- "persoane": []
 }

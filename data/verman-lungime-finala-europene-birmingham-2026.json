@@ -11,20 +11,32 @@
     {
       "text": "Alina Ramona Verman s-a calificat sâmbătă, 15 august 2026, în finala săriturii în lungime la Campionatele Europene de atletism de la Birmingham, cu cea mai bună săritură a ei de 6,81 metri, reușită din a treia încercare — cu un centimetru peste baremul de calificare, stabilit la 6,80 metri. S-a clasat a patra în grupa B și a șasea în clasamentul general al calificărilor.",
       "sources": [
-        {"name": "Radio București FM — Alina Ramona Verman s-a calificat în finala probei de săritură în lungime la Europenele de la Birmingham", "url": "https://www.bucurestifm.ro/2026/08/15/alina-ramona-verman-s-a-calificat-in-finala-probei-de-saritura-in-lungime-la-europenele-de-la-birmingham/"}
+        {
+          "name": "Radio București FM — Alina Ramona Verman s-a calificat în finala probei de săritură în lungime la Europenele de la Birmingham",
+          "url": "https://www.bucurestifm.ro/2026/08/15/alina-ramona-verman-s-a-calificat-in-finala-probei-de-saritura-in-lungime-la-europenele-de-la-birmingham/"
+        }
       ]
     },
     {
       "text": "A doua reprezentantă română la lungime, Alina Rotaru-Kottmann, nu s-a calificat în finală — cea mai bună săritură a ei a fost de 6,57 metri, care a plasat-o pe locul șapte în grupa A și pe locul 14 în clasamentul general.",
       "sources": [
-        {"name": "Radio București FM — Alina Ramona Verman s-a calificat în finala probei de săritură în lungime la Europenele de la Birmingham", "url": "https://www.bucurestifm.ro/2026/08/15/alina-ramona-verman-s-a-calificat-in-finala-probei-de-saritura-in-lungime-la-europenele-de-la-birmingham/"}
+        {
+          "name": "Radio București FM — Alina Ramona Verman s-a calificat în finala probei de săritură în lungime la Europenele de la Birmingham",
+          "url": "https://www.bucurestifm.ro/2026/08/15/alina-ramona-verman-s-a-calificat-in-finala-probei-de-saritura-in-lungime-la-europenele-de-la-birmingham/"
+        }
       ]
     },
     {
       "text": "Verman face parte din lotul de 13 sportivi cu care România participă la Campionatele Europene de la Birmingham (10–16 august 2026), pentru care Federația Română de Atletism a anunțat bonusuri de până la 500.000 de euro pentru cele mai bune performanțe.",
       "sources": [
-        {"name": "Realitatea.NET — România, cu 13 atleți la Campionatele Europene de atletism de la Birmingham", "url": "https://www.realitatea.net/stiri/sport/romania-cu-13-atleti-la-campionatele-europene-de-atletism-de-la-birmingham-bonusuri-de-500000-de-euro-noaoxe"},
-        {"name": "Mediafax — România participă cu 13 sportivi la Europenele de atletism de la Birmingham", "url": "https://www.mediafax.ro/sport/romania-participa-cu-13-sportivi-la-europenele-de-atletism-de-la-birmingham-bonusuri-de-500-000-de-euro-pentru-cele-mai-bune-performante-23784125"}
+        {
+          "name": "Realitatea.NET — România, cu 13 atleți la Campionatele Europene de atletism de la Birmingham",
+          "url": "https://www.realitatea.net/stiri/sport/romania-cu-13-atleti-la-campionatele-europene-de-atletism-de-la-birmingham-bonusuri-de-500000-de-euro-noaoxe"
+        },
+        {
+          "name": "Mediafax — România participă cu 13 sportivi la Europenele de atletism de la Birmingham",
+          "url": "https://www.mediafax.ro/sport/romania-participa-cu-13-sportivi-la-europenele-de-atletism-de-la-birmingham-bonusuri-de-500-000-de-euro-pentru-cele-mai-bune-performante-23784125"
+        }
       ]
     }
   ],
@@ -41,5 +53,12 @@
   "aiNote": "Faptele centrale (distanța calificării, clasamentul, programul finalei) provin dintr-o sursă verificată direct (Radio București FM), cu context suplimentar din Realitatea.NET și Mediafax despre lotul român la Birmingham. Nu există la această oră niciun element contestat sau contrazis — este o relatare factuală a unui rezultat de calificare, nu o afirmație supusă unei dispute publice. Finala e programată duminică, 16 august 2026 seara — rezultatul final nu era cunoscut la data acestei verificări.",
   "persoane": [
     "Ramona Verman"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/verman-lungime-finala-europene-birmingham-2026.jpg\" alt=\"Verman\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Verman. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Verman_05_2009_-2136.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Verman 05 2009 -2136</a>\" de ВикиКорректор, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/verman-lungime-finala-europene-birmingham-2026.jpg",
+    "licenta": "Public domain",
+    "autor": "ВикиКорректор"
+  }
 }

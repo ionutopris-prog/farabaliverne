@@ -109,5 +109,12 @@
   "math": {
     "title": "Cât de aproape de „junk” este România? O singură treaptă",
     "explanation": "Pe scala Moody's, categoria investițională se termină la „Baa3”. Treapta imediat următoare în jos este „Ba1”, prima din categoria speculativă („junk”). Asta înseamnă o marjă de exact 1 treaptă (notch). Echivalent la celelalte agenții: Baa3 (Moody's) = BBB- (Fitch) = BBB- (S&P) — toate trei plasând România pe ultima treaptă investițională, cu perspectivă negativă. Confirmările verificabile în această fereastră sunt Fitch (31 iul. 2026) și Moody's (7 aug. 2026); S&P menține de asemenea România la BBB- cu perspectivă negativă. Concret: o retrogradare a unei singure agenții cu un pas ar muta datoria suverană din „investment grade” în „speculative grade”, ceea ce ar scumpi împrumuturile statului. Cifrele provin din scala standard a agențiilor și din relatările confirmării Fitch (31 iul.) și Moody's (7 aug.)."
+  },
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moody-rating-baa3-romania.jpg\" alt=\"National Bank of Romania building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — National Bank of Romania building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Banco_Nacional_de_Ruman%C3%ADa,_Bucarest,_Ruman%C3%ADa,_2016-05-29,_DD_51.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Banco Nacional de Rumanía, Bucarest, Rumanía, 2016-05-29, DD 51</a>\" de Diego Delso, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moody-rating-baa3-romania.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Diego Delso"
   }
 }

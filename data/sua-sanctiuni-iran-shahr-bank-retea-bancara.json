@@ -11,25 +11,37 @@
     {
       "text": "Pe 7 august 2026, OFAC a impus sancțiuni asupra a 11 entități și persoane fizice acuzate că fac parte din rețeaua financiară paralelă („rahbar”) a băncii iraniene Shahr Bank — inclusiv casele de schimb Titan Exchange și Alps International L.L.C-FZ (ambele cu sediul în Dubai), compania iraniană Farab Soroush Afagh Qeshm (FSAQ) și mai mulți angajați ai acestora. Măsura e a opta acțiune a OFAC din 2026 împotriva sistemului bancar paralel iranian.",
       "sources": [
-        {"name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks", "url": "https://home.treasury.gov/news/press-releases/sb0596"}
+        {
+          "name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0596"
+        }
       ]
     },
     {
       "text": "Potrivit Trezoreriei, Titan Exchange deținea, la începutul lui 2026, zeci de milioane de dolari în numele Shahr Bank, iar Alps International a derulat în 2026 tranzacții de sute de milioane de dolari în mai multe valute — bani proveniți în parte din vânzarea petrolului iranian, prin companii precum National Iranian Oil Company și Naftiran Intertrade Co (NICO). Rețeaua folosea companii-paravan din China și Emiratele Arabe Unite pentru a muta fondurile.",
       "sources": [
-        {"name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks", "url": "https://home.treasury.gov/news/press-releases/sb0596"}
+        {
+          "name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0596"
+        }
       ]
     },
     {
       "text": "Secretarul Trezoreriei, Scott Bessent, a declarat: „Sistemul bancar paralel al Iranului se prăbușește sub Economic Fury (numele campaniei americane de presiune economică — n.r.), iar regimul rămâne fără metode de a muta bani. Fiecare facilitator care ține regimul pe linia de plutire își pune singur o țintă în spate. Trezoreria va continua să expună aceste rețele și să le taie accesul la sistemul financiar american.”",
       "sources": [
-        {"name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks", "url": "https://home.treasury.gov/news/press-releases/sb0596"}
+        {
+          "name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0596"
+        }
       ]
     },
     {
       "text": "Măsura se bazează pe Ordinul Executiv 13902, care vizează persoane active în sectorul financiar și petrolier al Iranului, ca parte a politicii de „presiune maximă” asupra Teheranului anunțate prin memorandumul de securitate națională NSPM-2.",
       "sources": [
-        {"name": "GlobalSecurity.org — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks", "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260807-treasury02.htm"}
+        {
+          "name": "GlobalSecurity.org — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks",
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260807-treasury02.htm"
+        }
       ]
     }
   ],
@@ -37,13 +49,19 @@
     {
       "text": "Trezoreria nu publică, în comunicatul oficial, o sumă totală agregată a fondurilor mutate de întreaga rețea — doar cifre parțiale, pe companii individuale („zeci de milioane”, „sute de milioane”). Amploarea exactă a prejudiciului sau a fondurilor recuperabile rămâne, deci, neclară din sursele publice disponibile.",
       "sources": [
-        {"name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks", "url": "https://home.treasury.gov/news/press-releases/sb0596"}
+        {
+          "name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0596"
+        }
       ]
     },
     {
       "text": "Eficiența reală a sancțiunilor este contestabilă: aceasta este a opta rundă de acest tip doar în 2026, ceea ce arată că rețelele anterior sancționate au fost înlocuite constant cu altele noi — un tipar recunoscut chiar de Trezorerie, care vorbește despre o presiune continuă, nu despre o soluție definitivă.",
       "sources": [
-        {"name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks", "url": "https://home.treasury.gov/news/press-releases/sb0596"}
+        {
+          "name": "U.S. Department of the Treasury — Treasury Dismantles Iranian Regime's Global Clandestine Currency Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0596"
+        }
       ]
     }
   ],
@@ -57,5 +75,12 @@
     "text": "Dacă aceasta e a opta acțiune OFAC din 2026 împotriva sistemului bancar paralel iranian, iar anul are (la data acțiunii) circa 219 zile scurse, rezultă în medie o nouă rundă de sancțiuni la aproximativ 27 de zile — un ritm care arată o presiune americană susținută, dar și, implicit, o rețea care se reconstituie suficient de repede încât să justifice runde repetate de sancțiuni."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română un comunicat oficial al Departamentului Trezoreriei SUA (OFAC); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Faptele centrale (numărul de entități sancționate, motivele, citatul lui Bessent) provin direct din comunicatul oficial american, confirmat și de o preluare independentă (GlobalSecurity.org). Nu avem, în această verificare, o reacție directă a autorităților iraniene la acest set specific de sancțiuni — dacă apare, o vom adăuga.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-sanctiuni-iran-shahr-bank-retea-bancara.jpg\" alt=\"Shahr\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Shahr. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Meshgin_shahr_museum_10.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Meshgin shahr museum 10</a>\" de Tandisss, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-sanctiuni-iran-shahr-bank-retea-bancara.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Tandisss"
+  }
 }

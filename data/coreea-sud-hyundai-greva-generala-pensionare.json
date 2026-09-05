@@ -91,5 +91,12 @@
     "explanation": "Bonusul de performanță cerut de sindicat ar urca de la 750% la 800% din salariul lunar de bază — o creștere de 50 de puncte procentuale, echivalentul a jumătate dintr-un salariu lunar suplimentar pe an, pentru fiecare angajat vizat de acord."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Ce s-a verificat exact: Korea Times (preluând Reuters) și Reuters, via Lufkin Daily News, confirmă independent greva de o zi din 21 august 2026, cererile sindicatului (vârstă de pensionare, bonusuri, protecție față de AI) și cifrele pierderilor de producție acumulate din iulie. Unde se despart sursele: doar pe numărul exact de participanți (39.000 vs. 40.000), o diferență minoră care nu schimbă interpretarea evenimentului. Ce lipseste: cifra exactă a vârstei de pensionare cerute de sindicat și poziția oficială a managementului Hyundai pe fiecare punct de negociere nu sunt publice încă — negocierile continuă, cu alte opriri parțiale anunțate pentru săptămâna următoare la Hyundai și Kia.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/coreea-sud-hyundai-greva-generala-pensionare.jpg\" alt=\"Hyundai\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Hyundai. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1989_Hyundai_Excel_GL_Front_Left.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1989 Hyundai Excel GL Front Left</a>\" de SealyPhoto, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/coreea-sud-hyundai-greva-generala-pensionare.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "SealyPhoto"
+  }
 }

@@ -1,44 +1,66 @@
 {
-    "slug": "australia-magnetit-hidrogen-natural-ecu",
-    "title": "Cercetători australieni: rocile de fier din Pilbara pot genera hidrogen natural, iar procesul poate fi stimulat artificial",
-    "category": "Știință",
-    "date": "2026-09-05",
-    "source": "International Journal of Hydrogen Energy (Moghanirahimi et al., 2026) / Edith Cowan University",
-    "url": "https://www.ecu.edu.au/newsroom/articles/research/green-hydrogen-goldmine-ecu-researchers-discover-hidden-energy-source",
-    "dek": "Un studiu al Edith Cowan University (ECU), publicat pe 12 august 2026 în International Journal of Hydrogen Energy, arată în laborator că magnetita — mineralul dominant în zăcămintele de fier din regiunea Pilbara, Australia de Vest — reacționează cu apă fierbinte sub presiune și produce hidrogen, iar cantitatea produsă poate crește semnificativ în funcție de forma și suprafața rocii expuse. Rezultatul e experimental, la scară de laborator; trecerea la exploatare geologică reală e etapa următoare, încă neparcursă.",
-    "mainVerdict": "Probat",
-    "probat": [
+  "slug": "australia-magnetit-hidrogen-natural-ecu",
+  "title": "Cercetători australieni: rocile de fier din Pilbara pot genera hidrogen natural, iar procesul poate fi stimulat artificial",
+  "category": "Știință",
+  "date": "2026-09-05",
+  "source": "International Journal of Hydrogen Energy (Moghanirahimi et al., 2026) / Edith Cowan University",
+  "url": "https://www.ecu.edu.au/newsroom/articles/research/green-hydrogen-goldmine-ecu-researchers-discover-hidden-energy-source",
+  "dek": "Un studiu al Edith Cowan University (ECU), publicat pe 12 august 2026 în International Journal of Hydrogen Energy, arată în laborator că magnetita — mineralul dominant în zăcămintele de fier din regiunea Pilbara, Australia de Vest — reacționează cu apă fierbinte sub presiune și produce hidrogen, iar cantitatea produsă poate crește semnificativ în funcție de forma și suprafața rocii expuse. Rezultatul e experimental, la scară de laborator; trecerea la exploatare geologică reală e etapa următoare, încă neparcursă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Studiul „Geometry-driven controls on hydrothermal natural hydrogen generation from magnetite mineral”, semnat de Kaveh Moghanirahimi (autor principal, doctorand) alături de L. Esteban, V. Shulakova, M. Ali, Stefan Iglauer și Alireza Keshavarz (School of Engineering, Edith Cowan University), a fost publicat în International Journal of Hydrogen Energy, volumul 220, pagina 154187, pe 12 august 2026.",
+      "sources": [
         {
-            "text": "Studiul „Geometry-driven controls on hydrothermal natural hydrogen generation from magnetite mineral”, semnat de Kaveh Moghanirahimi (autor principal, doctorand) alături de L. Esteban, V. Shulakova, M. Ali, Stefan Iglauer și Alireza Keshavarz (School of Engineering, Edith Cowan University), a fost publicat în International Journal of Hydrogen Energy, volumul 220, pagina 154187, pe 12 august 2026.",
-            "sources": [
-                {"name": "Edith Cowan University — Green hydrogen goldmine: ECU researchers discover hidden energy source", "url": "https://www.ecu.edu.au/newsroom/articles/research/green-hydrogen-goldmine-ecu-researchers-discover-hidden-energy-source"},
-                {"name": "ECU Research Online — pagina studiului", "url": "https://ro.ecu.edu.au/ecuworks2022-2026/7954/"}
-            ]
+          "name": "Edith Cowan University — Green hydrogen goldmine: ECU researchers discover hidden energy source",
+          "url": "https://www.ecu.edu.au/newsroom/articles/research/green-hydrogen-goldmine-ecu-researchers-discover-hidden-energy-source"
         },
         {
-            "text": "În laborator, cercetătorii au expus probe de magnetită la apă, la 200°C și presiune de 103,4 bari, timp de 60 de zile — condiții menite să reproducă mediul geologic de adâncime. Compararea unei probe compacte (bloc) cu o probă sub formă de pulbere fină, în condiții identice, a arătat că pulberea a produs de aproximativ cinci ori mai mult hidrogen (0,052 mmol pe gram de rocă) decât blocul compact — semn că suprafața de contact expusă apei, nu doar compoziția chimică, dictează cât hidrogen se generează.",
-            "sources": [
-                {"name": "International Journal of Hydrogen Energy — Geometry-driven controls on hydrothermal natural hydrogen generation from magnetite mineral", "url": "https://www.sciencedirect.com/science/article/pii/S0360319926008244"},
-                {"name": "ScienceDaily — Australia's red soil may be hiding a massive clean energy source", "url": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm"}
-            ]
-        },
-        {
-            "text": "Analiza mineralogică a probelor după reacție a arătat conversia parțială a magnetitei în hematit — consistentă cu oxidarea fierului, procesul chimic care eliberează hidrogenul din apă — plus o restructurare vizibilă a texturii rocii (creșterea rugozității și a microporozității), semn că reacția continuă să „deschidă” suprafață nouă pe măsură ce avansează.",
-            "sources": [
-                {"name": "International Journal of Hydrogen Energy — Geometry-driven controls on hydrothermal natural hydrogen generation from magnetite mineral", "url": "https://www.sciencedirect.com/science/article/pii/S0360319926008244"}
-            ]
+          "name": "ECU Research Online — pagina studiului",
+          "url": "https://ro.ecu.edu.au/ecuworks2022-2026/7954/"
         }
-    ],
-    "contestat": [],
-    "opinie": [
-        {
-            "text": "Afirmația coordonatorului cercetării, Alireza Keshavarz, că „există suficient hidrogen pentru Australia să beneficieze generații întregi, și potențial suficient pentru a deveni un mare exportator de energie curată”, e o proiecție pe baza potențialului geologic al formațiunilor de fier din Pilbara — nu o cifră măsurată sau un volum extractibil confirmat. Cercetarea rămâne la stadiul de experiment de laborator pe probe mici; echipa spune explicit că etapa următoare e trecerea la explorare geologică în teren, care nu a avut loc încă."
-        }
-    ],
-    "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în International Journal of Hydrogen Energy pe 12 august 2026, plus comunicatul oficial al Edith Cowan University, universitatea care a condus cercetarea.\n\nCe s-a verificat exact: rezultatul de laborator (diferența de 5x în producția de hidrogen între pulbere și bloc compact, la 200°C și 60 de zile) vine direct din articolul științific, confirmat de comunicatul ECU.\n\nUnde se desparte cifra de laborator de anunțul „goldmine”: studiul măsoară o reacție chimică controlată, pe probe mici, în condiții de laborator — nu un volum de hidrogen extractibil din subteran. Declarația despre Australia ca „viitor exportator de energie curată” e o extrapolare a echipei de cercetare, motivată de potențialul geologic imens al zăcămintelor de fier din Pilbara (unele dintre cele mai mari din lume), nu o estimare cuantificată publicată în studiu.\n\nCe lipsește: nu există încă foraje-test sau măsurători de teren care să arate câtă hidrogen se acumulează efectiv în formațiunile geologice reale, la scara la care ar fi nevoie pentru exploatare comercială. Fără aceste date, vorbim despre un mecanism plauzibil și stimulabil în laborator, nu despre o resursă cuantificată.\n\nCe ar schimba concluzia: rezultate din foraje de explorare în Pilbara care să arate concentrații și volume reale de hidrogen acumulat geologic, plus un studiu de fezabilitate economică a extracției.",
-    "math": {
-        "title": "De ce contează suprafața rocii, nu doar cantitatea de fier",
-        "explanation": "Reacția care produce hidrogen se întâmplă doar acolo unde apa fierbinte atinge direct suprafața magnetitei — restul rocii, „ascuns” în interiorul blocului, nu participă la reacție decât foarte lent. De aceea, atunci când cercetătorii au măcinat roca în pulbere fină, au multiplicat de multe ori suprafața totală expusă apei (la aceeași masă de rocă, o pulbere are o suprafață de contact mult mai mare decât un bloc compact) și au obținut de cinci ori mai mult hidrogen, deși cantitatea de magnetită a rămas identică. Practic, asta le spune inginerilor cum ar putea „stimula” un zăcământ real: nu prin creșterea cantității de rocă, ci prin fisurarea și fragmentarea ei pe cale artificială (de exemplu prin injectare de soluții sub presiune), pentru a expune mai multă suprafață apei fierbinți din subteran."
+      ]
     },
-    "persoane": []
+    {
+      "text": "În laborator, cercetătorii au expus probe de magnetită la apă, la 200°C și presiune de 103,4 bari, timp de 60 de zile — condiții menite să reproducă mediul geologic de adâncime. Compararea unei probe compacte (bloc) cu o probă sub formă de pulbere fină, în condiții identice, a arătat că pulberea a produs de aproximativ cinci ori mai mult hidrogen (0,052 mmol pe gram de rocă) decât blocul compact — semn că suprafața de contact expusă apei, nu doar compoziția chimică, dictează cât hidrogen se generează.",
+      "sources": [
+        {
+          "name": "International Journal of Hydrogen Energy — Geometry-driven controls on hydrothermal natural hydrogen generation from magnetite mineral",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360319926008244"
+        },
+        {
+          "name": "ScienceDaily — Australia's red soil may be hiding a massive clean energy source",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm"
+        }
+      ]
+    },
+    {
+      "text": "Analiza mineralogică a probelor după reacție a arătat conversia parțială a magnetitei în hematit — consistentă cu oxidarea fierului, procesul chimic care eliberează hidrogenul din apă — plus o restructurare vizibilă a texturii rocii (creșterea rugozității și a microporozității), semn că reacția continuă să „deschidă” suprafață nouă pe măsură ce avansează.",
+      "sources": [
+        {
+          "name": "International Journal of Hydrogen Energy — Geometry-driven controls on hydrothermal natural hydrogen generation from magnetite mineral",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360319926008244"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Afirmația coordonatorului cercetării, Alireza Keshavarz, că „există suficient hidrogen pentru Australia să beneficieze generații întregi, și potențial suficient pentru a deveni un mare exportator de energie curată”, e o proiecție pe baza potențialului geologic al formațiunilor de fier din Pilbara — nu o cifră măsurată sau un volum extractibil confirmat. Cercetarea rămâne la stadiul de experiment de laborator pe probe mici; echipa spune explicit că etapa următoare e trecerea la explorare geologică în teren, care nu a avut loc încă."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în International Journal of Hydrogen Energy pe 12 august 2026, plus comunicatul oficial al Edith Cowan University, universitatea care a condus cercetarea.\n\nCe s-a verificat exact: rezultatul de laborator (diferența de 5x în producția de hidrogen între pulbere și bloc compact, la 200°C și 60 de zile) vine direct din articolul științific, confirmat de comunicatul ECU.\n\nUnde se desparte cifra de laborator de anunțul „goldmine”: studiul măsoară o reacție chimică controlată, pe probe mici, în condiții de laborator — nu un volum de hidrogen extractibil din subteran. Declarația despre Australia ca „viitor exportator de energie curată” e o extrapolare a echipei de cercetare, motivată de potențialul geologic imens al zăcămintelor de fier din Pilbara (unele dintre cele mai mari din lume), nu o estimare cuantificată publicată în studiu.\n\nCe lipsește: nu există încă foraje-test sau măsurători de teren care să arate câtă hidrogen se acumulează efectiv în formațiunile geologice reale, la scara la care ar fi nevoie pentru exploatare comercială. Fără aceste date, vorbim despre un mecanism plauzibil și stimulabil în laborator, nu despre o resursă cuantificată.\n\nCe ar schimba concluzia: rezultate din foraje de explorare în Pilbara care să arate concentrații și volume reale de hidrogen acumulat geologic, plus un studiu de fezabilitate economică a extracției.",
+  "math": {
+    "title": "De ce contează suprafața rocii, nu doar cantitatea de fier",
+    "explanation": "Reacția care produce hidrogen se întâmplă doar acolo unde apa fierbinte atinge direct suprafața magnetitei — restul rocii, „ascuns” în interiorul blocului, nu participă la reacție decât foarte lent. De aceea, atunci când cercetătorii au măcinat roca în pulbere fină, au multiplicat de multe ori suprafața totală expusă apei (la aceeași masă de rocă, o pulbere are o suprafață de contact mult mai mare decât un bloc compact) și au obținut de cinci ori mai mult hidrogen, deși cantitatea de magnetită a rămas identică. Practic, asta le spune inginerilor cum ar putea „stimula” un zăcământ real: nu prin creșterea cantității de rocă, ci prin fisurarea și fragmentarea ei pe cale artificială (de exemplu prin injectare de soluții sub presiune), pentru a expune mai multă suprafață apei fierbinți din subteran."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/australia-magnetit-hidrogen-natural-ecu.jpg\" alt=\"Pilbara\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Pilbara. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Western_bearded_dragon_in_the_Pilbara_region_of_Western_Australia,_November_2009_02.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Western bearded dragon in the Pilbara region of Western Australia, November 2009 02</a>\" de Calistemon, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/australia-magnetit-hidrogen-natural-ecu.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Calistemon"
+  }
 }

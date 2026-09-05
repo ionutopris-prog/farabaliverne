@@ -100,5 +100,12 @@
     "title": "32,7% nu înseamnă victorie automată — de ce Darline Graham merge totuși în turul doi",
     "text": "Cu 109.582 de voturi (32,7%) din totalul exprimat, Darline Graham a fost prima, dar departe de pragul de 50%+1 necesar pentru o victorie directă într-o primară cu prag majoritar. Norman (82.523 voturi, 24,6%) și Fry (65.732 voturi, 19,6%) arată cât de fragmentat a fost votul între zece candidați republicani — niciunul nu s-a apropiat de jumătate din voturi, ceea ce explică de ce urmează un tur doi pe 25 august, nu o confirmare directă."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-primare-11-august-flanagan-crowley-graham.jpg\" alt=\"Flanagan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Flanagan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Flanagan_old_high_school.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Flanagan old high school</a>\" de Nyttend, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-primare-11-august-flanagan-crowley-graham.jpg",
+    "licenta": "Public domain",
+    "autor": "Nyttend"
+  }
 }

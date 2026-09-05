@@ -11,27 +11,45 @@
     {
       "text": "Duminică, 16 august 2026, pe Arena „Francisc Neuman” din Arad, Corvinul Hunedoara a învins CFR Cluj cu scorul de 3-0 (1-0 la pauză), în etapa a cincea a Superligii. Au marcat Antoniu Manolache (min. 43), Mihajlo Ivancevic (min. 71) și Gideon Uche Goodlad (min. 89).",
       "sources": [
-        { "name": "AGERPRES — Nou-promovata Corvinul a învins-o pe CFR Cluj cu 3-0 în Superliga", "url": "https://agerpres.ro/sport/2026/08/16/video-fotbal-nou-promovata-corvinul-a-invins-o-pe-cfr-cluj-cu-3-0-in-superliga--1585363" },
-        { "name": "Adevărul — Debut dezastruos pentru Șumudică la CFR Cluj", "url": "https://adevarul.ro/sport/debut-dezastruos-pentru-sumudica-la-cfr-cluj-2550289.html" }
+        {
+          "name": "AGERPRES — Nou-promovata Corvinul a învins-o pe CFR Cluj cu 3-0 în Superliga",
+          "url": "https://agerpres.ro/sport/2026/08/16/video-fotbal-nou-promovata-corvinul-a-invins-o-pe-cfr-cluj-cu-3-0-in-superliga--1585363"
+        },
+        {
+          "name": "Adevărul — Debut dezastruos pentru Șumudică la CFR Cluj",
+          "url": "https://adevarul.ro/sport/debut-dezastruos-pentru-sumudica-la-cfr-cluj-2550289.html"
+        }
       ]
     },
     {
       "text": "Meciul a marcat debutul antrenorului Marius Șumudică pe banca tehnică a CFR Cluj, la al doilea său mandat la echipă.",
       "sources": [
-        { "name": "AGERPRES — Nou-promovata Corvinul a învins-o pe CFR Cluj cu 3-0 în Superliga", "url": "https://agerpres.ro/sport/2026/08/16/video-fotbal-nou-promovata-corvinul-a-invins-o-pe-cfr-cluj-cu-3-0-in-superliga--1585363" },
-        { "name": "Adevărul — Debut dezastruos pentru Șumudică la CFR Cluj", "url": "https://adevarul.ro/sport/debut-dezastruos-pentru-sumudica-la-cfr-cluj-2550289.html" }
+        {
+          "name": "AGERPRES — Nou-promovata Corvinul a învins-o pe CFR Cluj cu 3-0 în Superliga",
+          "url": "https://agerpres.ro/sport/2026/08/16/video-fotbal-nou-promovata-corvinul-a-invins-o-pe-cfr-cluj-cu-3-0-in-superliga--1585363"
+        },
+        {
+          "name": "Adevărul — Debut dezastruos pentru Șumudică la CFR Cluj",
+          "url": "https://adevarul.ro/sport/debut-dezastruos-pentru-sumudica-la-cfr-cluj-2550289.html"
+        }
       ]
     },
     {
       "text": "Fundașul Aly Abeid (CFR Cluj) a bifat meciul cu numărul 100 în prima scenă a fotbalului românesc, devenind al 135-lea jucător străin care atinge această bornă. CFR Cluj a mai avut o ocazie clară prin Ștefan Drazic, care a lovit bara în minutul 85, iar Corvinul a ratat prin Goodlad o ocazie de gol la minutul 90+3, singur cu portarul.",
       "sources": [
-        { "name": "AGERPRES — Nou-promovata Corvinul a învins-o pe CFR Cluj cu 3-0 în Superliga", "url": "https://agerpres.ro/sport/2026/08/16/video-fotbal-nou-promovata-corvinul-a-invins-o-pe-cfr-cluj-cu-3-0-in-superliga--1585363" }
+        {
+          "name": "AGERPRES — Nou-promovata Corvinul a învins-o pe CFR Cluj cu 3-0 în Superliga",
+          "url": "https://agerpres.ro/sport/2026/08/16/video-fotbal-nou-promovata-corvinul-a-invins-o-pe-cfr-cluj-cu-3-0-in-superliga--1585363"
+        }
       ]
     },
     {
       "text": "În urma rezultatului, Corvinul Hunedoara a urcat pe locul 5 în clasament, cu 8 puncte, în timp ce CFR Cluj a rămas pe locul 13, cu doar 3 puncte (având un meci mai puțin disputat decât alte echipe din partea de mijloc a clasamentului).",
       "sources": [
-        { "name": "Adevărul — Debut dezastruos pentru Șumudică la CFR Cluj", "url": "https://adevarul.ro/sport/debut-dezastruos-pentru-sumudica-la-cfr-cluj-2550289.html" }
+        {
+          "name": "Adevărul — Debut dezastruos pentru Șumudică la CFR Cluj",
+          "url": "https://adevarul.ro/sport/debut-dezastruos-pentru-sumudica-la-cfr-cluj-2550289.html"
+        }
       ]
     }
   ],
@@ -46,5 +64,14 @@
     "explanation": "CFR Cluj a acumulat doar 3 puncte din primele meciuri disputate ale sezonului (având un meci mai puțin jucat decât alte echipe aflate la puncte apropiate în clasament), în timp ce Corvinul Hunedoara, nou-promovată, a strâns deja 8 puncte — mai mult decât dublu. Diferența de 5 puncte, la începutul sezonului, nu e ireversibilă într-un campionat de peste 30 de etape, dar arată o pornire dificilă pentru o echipă cu obiective de play-off, contra unei nou-promovate cu un start peste așteptări."
   },
   "aiNote": "AGERPRES și Adevărul confirmă concordant scorul, marcatorii, minutele golurilor și clasamentul de după meci. Am marcat separat, ca opinie, doar eticheta „dezastruos” folosită de presă pentru a descrie debutul lui Șumudică — rezultatul (3-0) și poziția din clasament sunt fapte confirmate, caracterizarea e o interpretare jurnalistică a acestora.",
-  "persoane": ["Marius Șumudică"]
+  "persoane": [
+    "Marius Șumudică"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/corvinul-cfr-cluj-3-0-debut-sumudica.jpg\" alt=\"Șumudică\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Șumudică. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Marius_Sumudica.png\" rel=\"nofollow noopener\" target=\"_blank\">Marius Sumudica</a>\" de tv giurgiu, cropped by Ionutzmovie, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/corvinul-cfr-cluj-3-0-debut-sumudica.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "tv giurgiu, cropped by Ionutzmovie"
+  }
 }

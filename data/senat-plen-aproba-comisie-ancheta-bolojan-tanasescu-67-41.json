@@ -82,5 +82,14 @@
     "explanation": "Din cei 108 senatori care s-au exprimat, 67 (aproximativ 62%) au votat pentru anchetă. Senatul are 136 de locuri; chiar dacă nu toți senatorii au fost prezenți sau au votat, majoritatea covârșitoare a celor prezenți a susținut ancheta — inclusiv voturi de la AUR și PACE, alături de PSD, ceea ce arată că sprijinul a trecut de granițele coaliției de guvernare."
   },
   "aiNote": "Partea procedurală a acestei știri e solidă și necontroversată: patru surse independente (Digi24, Stiripesurse, Observator News, RomaniaTV.net) confirmă același rezultat al votului (67 la 41), aceeași compoziție a comisiei (13 membri, respectând configurația politică a Senatului) și același termen de 14 zile pentru raport.\n\nCe rămâne genuin contestat e conținutul întâlnirii din 14 august, nu procedura de azi. Tănăsescu spune ferm că discuția a fost strict administrativă („cerere de spații”); niciun oficial nu a susținut public contrariul cu probe — doar coincidența de calendar (întâlnirea a avut loc cu trei zile înaintea deciziei CCR pe Legea Integrității) alimentează suspiciunea. Am tratat separat aceste două planuri: votul de azi e probat, ce s-a discutat la întâlnire rămâne, la ora verificării, o chestiune nerezolvată public — nu am scris și nu am insinuat că declarația Siminei Tănăsescu ar fi „mincinoasă”, pentru că nu există dovezi publice care s-o infirme.\n\nCe lipsește: stenograma sau agenda oficială a întâlnirii din 14 august, care ar clarifica definitiv ce s-a discutat. Ce ar schimba concluzia: raportul comisiei de anchetă, așteptat în 14 zile de la votul de azi, sau orice document oficial care ar confirma ori infirma subiectul discuției.",
-  "persoane": ["Ilie Bolojan"]
+  "persoane": [
+    "Ilie Bolojan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/senat-plen-aproba-comisie-ancheta-bolojan-tanasescu-67-41.jpg\" alt=\"Bolojan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bolojan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ilie_Bolojan_-_22_September_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ilie Bolojan - 22 September 2025</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/senat-plen-aproba-comisie-ancheta-bolojan-tanasescu-67-41.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
+  }
 }

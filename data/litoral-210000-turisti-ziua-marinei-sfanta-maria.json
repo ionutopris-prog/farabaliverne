@@ -11,16 +11,31 @@
     {
       "text": "Peste 210.000 de turiști au ajuns pe litoralul Mării Negre în weekendul de 15-16 august 2026, coincident cu Ziua Marinei Române și sărbătoarea Sfintei Maria, iar stațiunile au atins un grad de ocupare de 100% — al doilea weekend consecutiv la capacitate maximă a sezonului estival 2026. Cifra a fost anunțată de președinta Patronatului RESTO Constanța, Corina Martin, pe baza datelor centralizate de la tur-operatori specializați în vânzarea de litoral românesc și de la companii hoteliere și operatori HoReCa.",
       "sources": [
-        {"name": "AGERPRES — 100% grad de ocupare și peste 210.000 de turiști pe litoral, în weekendul de Ziua Marinei și Sfânta Maria", "url": "https://agerpres.ro/economic/2026/08/16/100-grad-de-ocupare-si-peste-210-000-de-turisti-pe-litoral-in-weekendul-de-ziua-marinei-si-sfanta-ma--1585324"},
-        {"name": "Antena 3 CNN — 100% grad de ocupare și peste 210.000 de turiști pe litoral", "url": "https://www.antena3.ro/economic/100-grad-de-ocupare-si-peste-210-000-de-turisti-pe-litoral-in-weekendul-de-ziua-marinei-si-sfanta-maria-799638.html"},
-        {"name": "Capital.ro — Peste 210.000 de turiști au ajuns pe litoral de Ziua Marinei și Sfânta Maria", "url": "https://www.capital.ro/peste-210-000-de-turisti-au-ajuns-pe-litoral-de-ziua-marinei-si-sfanta-maria-statiunile-au-atins-din-nou-100-grad-de-ocupare.html"}
+        {
+          "name": "AGERPRES — 100% grad de ocupare și peste 210.000 de turiști pe litoral, în weekendul de Ziua Marinei și Sfânta Maria",
+          "url": "https://agerpres.ro/economic/2026/08/16/100-grad-de-ocupare-si-peste-210-000-de-turisti-pe-litoral-in-weekendul-de-ziua-marinei-si-sfanta-ma--1585324"
+        },
+        {
+          "name": "Antena 3 CNN — 100% grad de ocupare și peste 210.000 de turiști pe litoral",
+          "url": "https://www.antena3.ro/economic/100-grad-de-ocupare-si-peste-210-000-de-turisti-pe-litoral-in-weekendul-de-ziua-marinei-si-sfanta-maria-799638.html"
+        },
+        {
+          "name": "Capital.ro — Peste 210.000 de turiști au ajuns pe litoral de Ziua Marinei și Sfânta Maria",
+          "url": "https://www.capital.ro/peste-210-000-de-turisti-au-ajuns-pe-litoral-de-ziua-marinei-si-sfanta-maria-statiunile-au-atins-din-nou-100-grad-de-ocupare.html"
+        }
       ]
     },
     {
       "text": "Potrivit acelorași surse, hotelurile, apartamentele de vacanță și alte structuri de cazare au funcționat la capacitate maximă, iar restaurantele, terasele, beach-barurile, cluburile și operatorii de divertisment au înregistrat cel mai mare flux turistic din sezon. Ocuparea ridicată a fost susținută și de evenimentele organizate pe litoral — Ziua Marinei, festivaluri, evenimente private și instituționale — care au atras temporar vizitatori suplimentari.",
       "sources": [
-        {"name": "Digi24 — Weekendul de Ziua Marinei și Sfânta Maria, cel mai aglomerat din acest an pe litoral", "url": "https://www.digi24.ro/magazin/timp-liber/vacante/weekendul-de-ziua-marinei-si-sfanta-maria-cel-mai-aglomerat-din-acest-an-pe-litoral-100-grad-de-ocupare-3908299"},
-        {"name": "Business24 — 100% grad de ocupare pe litoralul românesc", "url": "https://business24.ro/litoralul-romanesc/100-la-suta-grad-ocupare-peste-210-000-oameni-1664063"}
+        {
+          "name": "Digi24 — Weekendul de Ziua Marinei și Sfânta Maria, cel mai aglomerat din acest an pe litoral",
+          "url": "https://www.digi24.ro/magazin/timp-liber/vacante/weekendul-de-ziua-marinei-si-sfanta-maria-cel-mai-aglomerat-din-acest-an-pe-litoral-100-grad-de-ocupare-3908299"
+        },
+        {
+          "name": "Business24 — 100% grad de ocupare pe litoralul românesc",
+          "url": "https://business24.ro/litoralul-romanesc/100-la-suta-grad-ocupare-peste-210-000-oameni-1664063"
+        }
       ]
     }
   ],
@@ -28,14 +43,23 @@
     {
       "text": "Sursa cifrelor este exclusiv mediul privat al ospitalității — un patronat hotelier și tur-operatori — nu o instituție publică precum Institutul Național de Statistică sau Ministerul Turismului. Nu există, în sursele consultate, o statistică oficială independentă care să confirme separat cifra de 210.000 de turiști sau gradul exact de ocupare de 100%; alte publicații (Telegraf) citează aceeași sursă privată cu formularea mai prudentă „industria ospitalității estimează peste 200.000 de turiști”.",
       "sources": [
-        {"name": "Telegraf Online — Industria ospitalității estimează peste 200.000 de turiști", "url": "https://www.telegrafonline.ro/grad-de-ocupare-de-100-pe-litoral-industria-ospitalitatii-estimeaza-peste-200000-de-turisti"},
-        {"name": "AGERPRES — sursa: Patronatul RESTO Constanța", "url": "https://agerpres.ro/economic/2026/08/16/100-grad-de-ocupare-si-peste-210-000-de-turisti-pe-litoral-in-weekendul-de-ziua-marinei-si-sfanta-ma--1585324"}
+        {
+          "name": "Telegraf Online — Industria ospitalității estimează peste 200.000 de turiști",
+          "url": "https://www.telegrafonline.ro/grad-de-ocupare-de-100-pe-litoral-industria-ospitalitatii-estimeaza-peste-200000-de-turisti"
+        },
+        {
+          "name": "AGERPRES — sursa: Patronatul RESTO Constanța",
+          "url": "https://agerpres.ro/economic/2026/08/16/100-grad-de-ocupare-si-peste-210-000-de-turisti-pe-litoral-in-weekendul-de-ziua-marinei-si-sfanta-ma--1585324"
+        }
       ]
     },
     {
       "text": "Niciuna dintre sursele consultate nu oferă o comparație cu gradul de ocupare sau numărul de turiști din weekendul echivalent al anului 2025, astfel încât afirmația că acesta a fost „cel mai aglomerat weekend al sezonului 2026” nu poate fi verificată independent față de anii anteriori.",
       "sources": [
-        {"name": "Digi24 — fără comparație cu anul precedent", "url": "https://www.digi24.ro/magazin/timp-liber/vacante/weekendul-de-ziua-marinei-si-sfanta-maria-cel-mai-aglomerat-din-acest-an-pe-litoral-100-grad-de-ocupare-3908299"}
+        {
+          "name": "Digi24 — fără comparație cu anul precedent",
+          "url": "https://www.digi24.ro/magazin/timp-liber/vacante/weekendul-de-ziua-marinei-si-sfanta-maria-cel-mai-aglomerat-din-acest-an-pe-litoral-100-grad-de-ocupare-3908299"
+        }
       ]
     }
   ],
@@ -46,5 +70,12 @@
   ],
   "math": null,
   "aiNote": "Cifrele centrale — peste 210.000 de turiști și grad de ocupare de 100% — sunt relatate concordant de mai multe redacții mari (AGERPRES, Antena 3, Digi24, Capital, Business24), toate citând aceeași sursă: Patronatul RESTO Constanța. Nu am găsit o statistică guvernamentală independentă (INS, Ministerul Turismului) care să confirme separat cifrele exacte, iar superlativul „cel mai aglomerat weekend al sezonului” nu are o comparație explicită cu anul trecut. Recomandăm cititorului să trateze cifrele ca estimare credibilă a industriei, nu ca statistică oficială certificată.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/litoral-210000-turisti-ziua-marinei-sfanta-maria.jpg\" alt=\"Ziua\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ziua. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Alfeniques_of_day_of_the_dead.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Alfeniques of day of the dead</a>\" de Tomascastelazo, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/litoral-210000-turisti-ziua-marinei-sfanta-maria.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Tomascastelazo"
+  }
 }

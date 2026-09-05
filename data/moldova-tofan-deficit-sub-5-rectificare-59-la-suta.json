@@ -1,65 +1,98 @@
 {
- "slug": "moldova-tofan-deficit-sub-5-rectificare-59-la-suta",
- "title": "Premierul Tofan spunea că deficitul bugetar rămâne „sub 5% din PIB” — rectificarea aprobată de guvernul său îl duce la 5,95-5,99%",
- "category": "Economie",
- "tara": "Moldova",
- "date": "2026-08-31",
- "source": "Realitatea.md / Logos Press / Bani.md",
- "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/",
- "dek": "Pe 19 august 2026, premierul Vasile Tofan a declarat că guvernul intenționează să mențină deficitul bugetar „sub 5% din PIB” în 2026, în timp ce anunța 560 de milioane de lei pentru plăți unice bugetarilor cu salariu sub 20.000 de lei. Rectificarea bugetară aprobată de același guvern pe 31 august arată însă un deficit al bugetului de stat de 23,07 miliarde lei (5,95% din PIB) și un deficit al bugetului public național de 23,26 miliarde lei (5,99% din PIB) — ambele peste pragul pe care premierul spunea că vrea să-l respecte.",
- "mainVerdict": "Contrazis de cifrele oficiale publicate de propriul guvern la 12 zile după declarație",
- "probat": [
-  {
-   "text": "Premierul Vasile Tofan a declarat, pe 19 august 2026: „avem acoperirea pentru aceste plăți unice din octombrie către întreg sectorul bugetar”, referindu-se la cele 560 de milioane de lei alocate ca plăți unice, în octombrie 2026, pentru toți angajații din sectorul bugetar cu salariu brut sub 20.000 de lei — 4.000 lei pentru cadre didactice și cercetători, 3.000 lei pentru personalul din administrație, justiție, apărare, cultură și sănătate, 2.000 lei pentru muncitori calificați și necalificați. Tofan a mai spus, cu aceeași ocazie, că intenția guvernului este „să mențină deficitul sub 5% din PIB”, precizând că amânarea unor proiecte de investiții capitale ajută la echilibrarea bugetului pe acest an.",
-   "sources": [
-    {"name": "Logos Press — Bugetul va fi rectificat pentru a acoperi plățile unice către sectorul bugetar (declarația din 19 august)", "url": "https://logos-pres.md/noutati/bugetul-va-fi-rectificat-pentru-a-acoperi-platile-unice-catre-sectorul-bugetar/"}
-   ]
+  "slug": "moldova-tofan-deficit-sub-5-rectificare-59-la-suta",
+  "title": "Premierul Tofan spunea că deficitul bugetar rămâne „sub 5% din PIB” — rectificarea aprobată de guvernul său îl duce la 5,95-5,99%",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-08-31",
+  "source": "Realitatea.md / Logos Press / Bani.md",
+  "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/",
+  "dek": "Pe 19 august 2026, premierul Vasile Tofan a declarat că guvernul intenționează să mențină deficitul bugetar „sub 5% din PIB” în 2026, în timp ce anunța 560 de milioane de lei pentru plăți unice bugetarilor cu salariu sub 20.000 de lei. Rectificarea bugetară aprobată de același guvern pe 31 august arată însă un deficit al bugetului de stat de 23,07 miliarde lei (5,95% din PIB) și un deficit al bugetului public național de 23,26 miliarde lei (5,99% din PIB) — ambele peste pragul pe care premierul spunea că vrea să-l respecte.",
+  "mainVerdict": "Contrazis de cifrele oficiale publicate de propriul guvern la 12 zile după declarație",
+  "probat": [
+    {
+      "text": "Premierul Vasile Tofan a declarat, pe 19 august 2026: „avem acoperirea pentru aceste plăți unice din octombrie către întreg sectorul bugetar”, referindu-se la cele 560 de milioane de lei alocate ca plăți unice, în octombrie 2026, pentru toți angajații din sectorul bugetar cu salariu brut sub 20.000 de lei — 4.000 lei pentru cadre didactice și cercetători, 3.000 lei pentru personalul din administrație, justiție, apărare, cultură și sănătate, 2.000 lei pentru muncitori calificați și necalificați. Tofan a mai spus, cu aceeași ocazie, că intenția guvernului este „să mențină deficitul sub 5% din PIB”, precizând că amânarea unor proiecte de investiții capitale ajută la echilibrarea bugetului pe acest an.",
+      "sources": [
+        {
+          "name": "Logos Press — Bugetul va fi rectificat pentru a acoperi plățile unice către sectorul bugetar (declarația din 19 august)",
+          "url": "https://logos-pres.md/noutati/bugetul-va-fi-rectificat-pentru-a-acoperi-platile-unice-catre-sectorul-bugetar/"
+        }
+      ]
+    },
+    {
+      "text": "Rectificarea bugetară aprobată de guvern pe 31 august 2026 majorează deficitul cu 2,17 miliarde lei, la 23,07 miliarde lei — 5,95% din PIB — pentru bugetul de stat. La nivelul bugetului public național, deficitul ajunge la 23,26 miliarde lei, adică 5,99% din PIB. Cheltuielile cresc cu 2,8 miliarde lei, iar veniturile doar cu 600,5 milioane lei; diferența e acoperită prin majorarea deficitului și prin împrumuturi suplimentare — datoria publică estimată la final de an urcă la 162,89 miliarde lei (42% din PIB).",
+      "sources": [
+        {
+          "name": "Realitatea.md — Guvernul pregătește rectificarea bugetului: deficitul crește cu 2,17 miliarde de lei",
+          "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/"
+        },
+        {
+          "name": "Bani.md — Guvernul taie banii de la CFM, penitenciar și energie și acoperă gaura la salarii și compensații (cifrele complete ale rectificării)",
+          "url": "https://bani.md/guvernul-taie-banii-de-la-cfm-penitenciar-si-energie-si-acopera-gaura-la-salarii-si-compensatii/"
+        }
+      ]
+    },
+    {
+      "text": "Aceeași rectificare finanțează cele 560 de milioane de lei pentru plățile unice promise de Tofan, plus 651,7 milioane lei pentru cheltuieli de personal, 550 milioane lei pentru compensații la energie și 1 miliard lei pentru Fondul Național de Dezvoltare Regională și Locală — pe fondul reducerii cu 837 milioane lei a veniturilor așteptate din granturi externe (Banca Mondială a anulat o tranșă planificată), și al tăierii cu 668,6 milioane lei (5,8%) a cheltuielilor de capital, inclusiv de la răspunsul de urgență CFM (257,8 milioane lei), noul penitenciar din Chișinău (250 milioane lei) și programul de dezvoltare forestieră (230,1 milioane lei).",
+      "sources": [
+        {
+          "name": "Bani.md — detalierea proiectelor care pierd finanțare și a celor care primesc bani suplimentari",
+          "url": "https://bani.md/guvernul-taie-banii-de-la-cfm-penitenciar-si-energie-si-acopera-gaura-la-salarii-si-compensatii/"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul a revizuit și prognozele economice odată cu rectificarea: creșterea economică estimată pentru 2026 scade de la 2,4% la 1,8%, inflația medie anuală urcă de la 4,3% la 7,3%, iar salariul mediu nominal estimat scade de la 17.400 la 17.000 de lei.",
+      "sources": [
+        {
+          "name": "Realitatea.md — prognozele economice revizuite odată cu rectificarea bugetară",
+          "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Declarația lui Tofan din 19 august — „intenția este să menținem deficitul sub 5% din PIB” — nu se confirmă în cifrele oficiale ale propriei rectificări, aprobate de guvernul pe care îl conduce doar 12 zile mai târziu: 5,95% pentru bugetul de stat și 5,99% pentru bugetul public național, ambele peste pragul de 5% pe care îl anunța ca țintă. Nu există, în sursele publice consultate, o explicație oficială a guvernului pentru această diferență între declarația de intenție și cifra aprobată.",
+      "sources": [
+        {
+          "name": "Logos Press — declarația „sub 5%” a lui Tofan din 19 august",
+          "url": "https://logos-pres.md/noutati/bugetul-va-fi-rectificat-pentru-a-acoperi-platile-unice-catre-sectorul-bugetar/"
+        },
+        {
+          "name": "Bani.md — cifra oficială de 5,95%/5,99% din rectificarea de pe 31 august",
+          "url": "https://bani.md/guvernul-taie-banii-de-la-cfm-penitenciar-si-energie-si-acopera-gaura-la-salarii-si-compensatii/"
+        }
+      ]
+    },
+    {
+      "text": "Rămâne neclar dacă Tofan se referea, pe 19 august, strict la bugetul de stat sau la bugetul public național (unde cifra finală e și mai mare, 5,99%) — sursele citate nu redau o precizare explicită a premierului pe acest punct, iar diferența dintre cele două praguri (5,95% față de 5,99%) nu schimbă concluzia că ambele depășesc „sub 5%”.",
+      "sources": [
+        {
+          "name": "Realitatea.md — distincția dintre deficitul bugetului de stat și cel al bugetului public național",
+          "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă amânarea proiectelor de investiții capitale (CFM, penitenciar, dezvoltare forestieră) e o alegere de politică bugetară rezonabilă în contextul scăderii veniturilor din granturi externe, sau un semn de gestiune fiscală mai fragilă decât se admite public, e o apreciere care depășește ce se poate stabili din cifrele publicate — depinde de priorități pe care cititorul le poate judeca singur.",
+      "sources": []
+    }
+  ],
+  "aiNote": "Ce s-a verificat exact: două seturi de cifre publicate de surse economice moldovenești — declarația premierului Vasile Tofan din 19 august 2026 (Logos Press), în care spunea că guvernul vrea să mențină deficitul „sub 5% din PIB”, și rectificarea bugetară aprobată de același guvern pe 31 august (Realitatea.md, confirmată independent de Bani.md), care fixează deficitul la 5,95% (bugetul de stat) și 5,99% (bugetul public național).\n\nUnde se desparte declarația de cifra oficială: nu e o dispută între surse care se contrazic — e o promisiune de intenție, făcută public, urmată la doar 12 zile de o decizie a aceluiași guvern care o depășește. Diferența de aproape un punct procentual nu vine dintr-o eroare de calcul, ci din reducerea veniturilor din granturi externe (Banca Mondială a anulat o tranșă) și din nevoia de a acoperi plățile unice promise chiar de Tofan, compensații la energie și fonduri de dezvoltare regională suplimentare — toate finanțate parțial prin creșterea deficitului, nu doar prin tăieri de cheltuieli.\n\nCe lipsește: o explicație oficială, publică, a guvernului pentru diferența dintre declarația din 19 august și cifra din 31 august — dacă „sub 5%” a fost o estimare depășită ulterior de evenimente (anularea tranșei Băncii Mondiale) sau o formulare optimistă făcută cunoscând deja presiunile asupra bugetului.\n\nCe ar schimba concluzia: o declarație ulterioară a premierului sau a Ministerului Finanțelor care să recunoască explicit depășirea pragului anunțat și motivele ei — până acum, sursele publice consultate nu conțin o asemenea reacție.",
+  "math": {
+    "title": "12 zile de la „sub 5%” la 5,95%",
+    "explanation": "Pe 19 august, Tofan anunța ținta de deficit „sub 5% din PIB”. Pe 31 august — 12 zile mai târziu — rectificarea aprobată de guvernul său fixează deficitul bugetului de stat la 5,95% și al bugetului public național la 5,99%. Diferența dintre promisiune și cifra oficială e de aproape un punct procentual din PIB, echivalent cu circa 2,17 miliarde de lei în plus față de deficitul planificat inițial — bani proveniți în principal din reducerea granturilor externe și din finanțarea plăților unice, compensațiilor la energie și fondului de dezvoltare regională."
   },
-  {
-   "text": "Rectificarea bugetară aprobată de guvern pe 31 august 2026 majorează deficitul cu 2,17 miliarde lei, la 23,07 miliarde lei — 5,95% din PIB — pentru bugetul de stat. La nivelul bugetului public național, deficitul ajunge la 23,26 miliarde lei, adică 5,99% din PIB. Cheltuielile cresc cu 2,8 miliarde lei, iar veniturile doar cu 600,5 milioane lei; diferența e acoperită prin majorarea deficitului și prin împrumuturi suplimentare — datoria publică estimată la final de an urcă la 162,89 miliarde lei (42% din PIB).",
-   "sources": [
-    {"name": "Realitatea.md — Guvernul pregătește rectificarea bugetului: deficitul crește cu 2,17 miliarde de lei", "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/"},
-    {"name": "Bani.md — Guvernul taie banii de la CFM, penitenciar și energie și acoperă gaura la salarii și compensații (cifrele complete ale rectificării)", "url": "https://bani.md/guvernul-taie-banii-de-la-cfm-penitenciar-si-energie-si-acopera-gaura-la-salarii-si-compensatii/"}
-   ]
-  },
-  {
-   "text": "Aceeași rectificare finanțează cele 560 de milioane de lei pentru plățile unice promise de Tofan, plus 651,7 milioane lei pentru cheltuieli de personal, 550 milioane lei pentru compensații la energie și 1 miliard lei pentru Fondul Național de Dezvoltare Regională și Locală — pe fondul reducerii cu 837 milioane lei a veniturilor așteptate din granturi externe (Banca Mondială a anulat o tranșă planificată), și al tăierii cu 668,6 milioane lei (5,8%) a cheltuielilor de capital, inclusiv de la răspunsul de urgență CFM (257,8 milioane lei), noul penitenciar din Chișinău (250 milioane lei) și programul de dezvoltare forestieră (230,1 milioane lei).",
-   "sources": [
-    {"name": "Bani.md — detalierea proiectelor care pierd finanțare și a celor care primesc bani suplimentari", "url": "https://bani.md/guvernul-taie-banii-de-la-cfm-penitenciar-si-energie-si-acopera-gaura-la-salarii-si-compensatii/"}
-   ]
-  },
-  {
-   "text": "Guvernul a revizuit și prognozele economice odată cu rectificarea: creșterea economică estimată pentru 2026 scade de la 2,4% la 1,8%, inflația medie anuală urcă de la 4,3% la 7,3%, iar salariul mediu nominal estimat scade de la 17.400 la 17.000 de lei.",
-   "sources": [
-    {"name": "Realitatea.md — prognozele economice revizuite odată cu rectificarea bugetară", "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/"}
-   ]
+  "persoane": [
+    "Vasile Tofan"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-tofan-deficit-sub-5-rectificare-59-la-suta.jpg\" alt=\"Tofan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Tofan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cabinetul_de_mini%C8%99tri_Tofan,_depunerea_jur%C4%83m%C3%A2ntului_-_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cabinetul de miniștri Tofan, depunerea jurământului - 01</a>\" de President's Office of Moldova, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-tofan-deficit-sub-5-rectificare-59-la-suta.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "President's Office of Moldova"
   }
- ],
- "contestat": [
-  {
-   "text": "Declarația lui Tofan din 19 august — „intenția este să menținem deficitul sub 5% din PIB” — nu se confirmă în cifrele oficiale ale propriei rectificări, aprobate de guvernul pe care îl conduce doar 12 zile mai târziu: 5,95% pentru bugetul de stat și 5,99% pentru bugetul public național, ambele peste pragul de 5% pe care îl anunța ca țintă. Nu există, în sursele publice consultate, o explicație oficială a guvernului pentru această diferență între declarația de intenție și cifra aprobată.",
-   "sources": [
-    {"name": "Logos Press — declarația „sub 5%” a lui Tofan din 19 august", "url": "https://logos-pres.md/noutati/bugetul-va-fi-rectificat-pentru-a-acoperi-platile-unice-catre-sectorul-bugetar/"},
-    {"name": "Bani.md — cifra oficială de 5,95%/5,99% din rectificarea de pe 31 august", "url": "https://bani.md/guvernul-taie-banii-de-la-cfm-penitenciar-si-energie-si-acopera-gaura-la-salarii-si-compensatii/"}
-   ]
-  },
-  {
-   "text": "Rămâne neclar dacă Tofan se referea, pe 19 august, strict la bugetul de stat sau la bugetul public național (unde cifra finală e și mai mare, 5,99%) — sursele citate nu redau o precizare explicită a premierului pe acest punct, iar diferența dintre cele două praguri (5,95% față de 5,99%) nu schimbă concluzia că ambele depășesc „sub 5%”.",
-   "sources": [
-    {"name": "Realitatea.md — distincția dintre deficitul bugetului de stat și cel al bugetului public național", "url": "https://realitatea.md/guvernul-pregateste-rectificarea-bugetului-deficitul-creste-cu-217-miliarde-de-lei-iar-mai-multe-proiecte-pierd-finantare/"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Dacă amânarea proiectelor de investiții capitale (CFM, penitenciar, dezvoltare forestieră) e o alegere de politică bugetară rezonabilă în contextul scăderii veniturilor din granturi externe, sau un semn de gestiune fiscală mai fragilă decât se admite public, e o apreciere care depășește ce se poate stabili din cifrele publicate — depinde de priorități pe care cititorul le poate judeca singur.",
-   "sources": []
-  }
- ],
- "aiNote": "Ce s-a verificat exact: două seturi de cifre publicate de surse economice moldovenești — declarația premierului Vasile Tofan din 19 august 2026 (Logos Press), în care spunea că guvernul vrea să mențină deficitul „sub 5% din PIB”, și rectificarea bugetară aprobată de același guvern pe 31 august (Realitatea.md, confirmată independent de Bani.md), care fixează deficitul la 5,95% (bugetul de stat) și 5,99% (bugetul public național).\n\nUnde se desparte declarația de cifra oficială: nu e o dispută între surse care se contrazic — e o promisiune de intenție, făcută public, urmată la doar 12 zile de o decizie a aceluiași guvern care o depășește. Diferența de aproape un punct procentual nu vine dintr-o eroare de calcul, ci din reducerea veniturilor din granturi externe (Banca Mondială a anulat o tranșă) și din nevoia de a acoperi plățile unice promise chiar de Tofan, compensații la energie și fonduri de dezvoltare regională suplimentare — toate finanțate parțial prin creșterea deficitului, nu doar prin tăieri de cheltuieli.\n\nCe lipsește: o explicație oficială, publică, a guvernului pentru diferența dintre declarația din 19 august și cifra din 31 august — dacă „sub 5%” a fost o estimare depășită ulterior de evenimente (anularea tranșei Băncii Mondiale) sau o formulare optimistă făcută cunoscând deja presiunile asupra bugetului.\n\nCe ar schimba concluzia: o declarație ulterioară a premierului sau a Ministerului Finanțelor care să recunoască explicit depășirea pragului anunțat și motivele ei — până acum, sursele publice consultate nu conțin o asemenea reacție.",
- "math": {
-  "title": "12 zile de la „sub 5%” la 5,95%",
-  "explanation": "Pe 19 august, Tofan anunța ținta de deficit „sub 5% din PIB”. Pe 31 august — 12 zile mai târziu — rectificarea aprobată de guvernul său fixează deficitul bugetului de stat la 5,95% și al bugetului public național la 5,99%. Diferența dintre promisiune și cifra oficială e de aproape un punct procentual din PIB, echivalent cu circa 2,17 miliarde de lei în plus față de deficitul planificat inițial — bani proveniți în principal din reducerea granturilor externe și din finanțarea plăților unice, compensațiilor la energie și fondului de dezvoltare regională."
- },
- "persoane": ["Vasile Tofan"]
 }

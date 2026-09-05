@@ -79,5 +79,12 @@
   "opinie": [],
   "math": null,
   "aiNote": "Cazul e relatat concordant de șapte redacții, toate citând comunicatul oficial al ANAF Antifraudă, iar cifrele (70 de angajați, 4,3 milioane de lei plăți informale, 1,88 milioane de lei obligații fiscale suplimentare) coincid între surse. Singura limită reală: ANAF nu a dezvăluit numele complexului sau al proprietarilor, așa că afirmațiile nu pot fi verificate față de o sursă primară (bilanț, contract de muncă) — ne bazăm pe comunicatul agenției, relatat de presă. Nu există, până acum, o reacție publică a firmei vizate.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/anaf-valcea-plati-negru-complex-turistic.jpg\" alt=\"Vâlcea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Vâlcea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Gospod%C4%83rie_viticol%C4%83_zona_Dr%C4%83g%C4%83%C8%99ani-V%C3%A2lcea.01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Gospodărie viticolă zona Drăgășani-Vâlcea.01</a>\" de Nenea hartia, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/anaf-valcea-plati-negru-complex-turistic.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Nenea hartia"
+  }
 }

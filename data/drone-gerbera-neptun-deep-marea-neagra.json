@@ -11,27 +11,45 @@
     {
       "text": "O navă civilă aflată la lucru în zona platformei Neptun Deep a semnalat, în jurul orei 08:00, pe 11 august 2026, două sisteme de tip UAV (dronă), model GERBERA, posibil cu încărcătură explozivă, plus o aripă de dronă, aflate în derivă în zona economică exclusivă a României, la circa 90 de mile marine de Constanța.",
       "sources": [
-        { "name": "AGERPRES — MApN: două drone aflate în derivă în Marea Neagră, detonate de scafandrii Forțelor Navale Române", "url": "https://agerpres.ro/social/2026/08/11/mapn-doua-drone-aflate-in-deriva-in-marea-neagra---detonate-de-scafandrii-fortelor-navale-romane--1584100" },
-        { "name": "Digi24 — Două drone distruse de scafandrii militari români în zona Neptun Deep", "url": "https://www.digi24.ro/stiri/actualitate/doua-drone-distruse-de-scafandrii-militari-romani-in-zona-neptun-deep-ucrainenii-spun-ca-nu-sunt-ale-lor-3902317" }
+        {
+          "name": "AGERPRES — MApN: două drone aflate în derivă în Marea Neagră, detonate de scafandrii Forțelor Navale Române",
+          "url": "https://agerpres.ro/social/2026/08/11/mapn-doua-drone-aflate-in-deriva-in-marea-neagra---detonate-de-scafandrii-fortelor-navale-romane--1584100"
+        },
+        {
+          "name": "Digi24 — Două drone distruse de scafandrii militari români în zona Neptun Deep",
+          "url": "https://www.digi24.ro/stiri/actualitate/doua-drone-distruse-de-scafandrii-militari-romani-in-zona-neptun-deep-ucrainenii-spun-ca-nu-sunt-ale-lor-3902317"
+        }
       ]
     },
     {
       "text": "O navă a Gărzii de Coastă, cu personal specializat EOD (deminare) al Forțelor Navale Române, a fost trimisă la fața locului, iar cele două drone au fost neutralizate printr-o detonare controlată. O bucată de aripă de dronă, care nu prezenta risc exploziv, a fost recuperată pentru analiză.",
       "sources": [
-        { "name": "Veridica — Două drone aflate în derivă în Marea Neagră, detonate de scafandrii Forțelor Navale Române", "url": "https://www.veridica.ro/stiri/doua-drone-aflate-in-deriva-in-marea-neagra-detonate-de-scafandrii-fortelor-navale-romane" },
-        { "name": "Aradon — Două drone aflate în derivă în Marea Neagră, detonate de scafandrii Forțelor Navale Române", "url": "https://www.aradon.ro/romania/doua-drone-aflate-in-deriva-in-marea-neagra-detonate-de-scafandrii-fortelor-navale-romane-2231916/" }
+        {
+          "name": "Veridica — Două drone aflate în derivă în Marea Neagră, detonate de scafandrii Forțelor Navale Române",
+          "url": "https://www.veridica.ro/stiri/doua-drone-aflate-in-deriva-in-marea-neagra-detonate-de-scafandrii-fortelor-navale-romane"
+        },
+        {
+          "name": "Aradon — Două drone aflate în derivă în Marea Neagră, detonate de scafandrii Forțelor Navale Române",
+          "url": "https://www.aradon.ro/romania/doua-drone-aflate-in-deriva-in-marea-neagra-detonate-de-scafandrii-fortelor-navale-romane-2231916/"
+        }
       ]
     },
     {
       "text": "Ministrul interimar al apărării, Radu Miruță, a declarat că MApN „a luat legătura cu partea ucraineană, care a confirmat că aparatele nu aparțin forțelor ucrainene”.",
       "sources": [
-        { "name": "Digi24 — declarația lui Radu Miruță despre confirmarea ucraineană", "url": "https://www.digi24.ro/stiri/actualitate/doua-drone-distruse-de-scafandrii-militari-romani-in-zona-neptun-deep-ucrainenii-spun-ca-nu-sunt-ale-lor-3902317" }
+        {
+          "name": "Digi24 — declarația lui Radu Miruță despre confirmarea ucraineană",
+          "url": "https://www.digi24.ro/stiri/actualitate/doua-drone-distruse-de-scafandrii-militari-romani-in-zona-neptun-deep-ucrainenii-spun-ca-nu-sunt-ale-lor-3902317"
+        }
       ]
     },
     {
       "text": "Dronele Gerbera sunt variante rusești simplificate, construite pe baza tehnologiei iraniene Shahed-136, folosite pentru bruiaj electronic, saturarea sistemelor de apărare antiaeriană, recunoaștere și, secundar, atac — cu o încărcătură explozivă de 6-8 kg.",
       "sources": [
-        { "name": "Digi24 — caracteristicile tehnice ale dronelor Gerbera", "url": "https://www.digi24.ro/stiri/actualitate/doua-drone-distruse-de-scafandrii-militari-romani-in-zona-neptun-deep-ucrainenii-spun-ca-nu-sunt-ale-lor-3902317" }
+        {
+          "name": "Digi24 — caracteristicile tehnice ale dronelor Gerbera",
+          "url": "https://www.digi24.ro/stiri/actualitate/doua-drone-distruse-de-scafandrii-militari-romani-in-zona-neptun-deep-ucrainenii-spun-ca-nu-sunt-ale-lor-3902317"
+        }
       ]
     }
   ],
@@ -39,13 +57,19 @@
     {
       "text": "Comunicatul MApN nu atribuie public originea (rusă) a dronelor — se limitează la a spune că partea ucraineană a confirmat că nu-i aparțin. Asocierea cu Rusia, făcută informal în unele titluri de presă, se bazează pe caracteristicile tehnice ale modelului Gerbera (derivat din Shahed-136, folosit de forțele ruse), nu pe o declarație oficială privind acest incident anume.",
       "sources": [
-        { "name": "AGERPRES — comunicatul MApN, fără atribuire de origine", "url": "https://agerpres.ro/social/2026/08/11/mapn-doua-drone-aflate-in-deriva-in-marea-neagra---detonate-de-scafandrii-fortelor-navale-romane--1584100" }
+        {
+          "name": "AGERPRES — comunicatul MApN, fără atribuire de origine",
+          "url": "https://agerpres.ro/social/2026/08/11/mapn-doua-drone-aflate-in-deriva-in-marea-neagra---detonate-de-scafandrii-fortelor-navale-romane--1584100"
+        }
       ]
     },
     {
       "text": "Incidentul se înscrie într-un tipar mai amplu: MApN a raportat 33 de pătrunderi ale dronelor rusești în spațiul aerian românesc de la începutul războiului din Ucraina, dintre care 18 doar în 2026, cu trei drone doborâte de F-16. Acest bilanț se referă însă la incursiuni aeriene confirmate ca fiind rusești, diferite ca natură de cazul dronelor găsite plutind pe mare la Neptun Deep — cele două situații nu pot fi contopite automat într-un singur total.",
       "sources": [
-        { "name": "Digi24 — bilanțul MApN: câte drone rusești au intrat în spațiul aerian al României", "url": "https://www.digi24.ro/stiri/actualitate/social/cate-drone-rusesti-au-intrat-in-spatiul-aerian-al-romaniei-de-la-inceputul-razboiului-bilantul-prezentat-de-mapn-3878809" }
+        {
+          "name": "Digi24 — bilanțul MApN: câte drone rusești au intrat în spațiul aerian al României",
+          "url": "https://www.digi24.ro/stiri/actualitate/social/cate-drone-rusesti-au-intrat-in-spatiul-aerian-al-romaniei-de-la-inceputul-razboiului-bilantul-prezentat-de-mapn-3878809"
+        }
       ]
     }
   ],
@@ -57,5 +81,12 @@
     "explanation": "MApN a raportat locația incidentului la circa 90 de mile marine de Constanța. O milă marină are 1,852 km, deci 90 × 1,852 ≈ 166,7 km — cifră apropiată de cea rotunjită („aproximativ 165 km”) folosită de unele redacții pentru a descrie aceeași distanță."
   },
   "aiNote": "Faptele centrale — descoperirea, ora, locația, tipul de dronă, detonarea controlată și confirmarea ucraineană de non-apartenență — sunt relatate concordant de AGERPRES, Digi24, Veridica și Aradon, toate pe baza aceluiași comunicat MApN. Ce nu se poate confirma din surse oficiale, la data verificării, e originea exactă a dronelor: MApN nu a făcut o atribuire publică, iar asocierea cu Rusia rămâne o inferență din caracteristicile tehnice ale modelului, nu un fapt stabilit pentru acest caz.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/drone-gerbera-neptun-deep-marea-neagra.jpg\" alt=\"offshore gas platform Black Sea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — offshore gas platform Black Sea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Drilling_Platform_In_The_Okhotsk_Sea_(172197429).jpeg\" rel=\"nofollow noopener\" target=\"_blank\">Drilling Platform In The Okhotsk Sea (172197429)</a>\" de Maksim Safiullin, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/drone-gerbera-neptun-deep-marea-neagra.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Maksim Safiullin"
+  }
 }

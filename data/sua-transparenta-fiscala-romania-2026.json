@@ -61,5 +61,14 @@
   ],
   "opinie": [],
   "aiNote": "Am rezumat în română informații din mai multe redacții economice (BURSA, Digi24, DailyBusiness.ro) care citesc aceeași sursă primară — raportul Departamentului de Stat al SUA. Am marcat explicit, la „Contestat”, că „îndeplinește cerințele minime” e un prag binar, nu un clasament al calității transparenței — ca cititorul să nu extrapoleze un rezultat „bun” dincolo de ce spune efectiv raportul.",
-  "persoane": ["Alexandru Nazare"]
+  "persoane": [
+    "Alexandru Nazare"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-transparenta-fiscala-romania-2026.jpg\" alt=\"Departamentului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Departamentului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:F54-nancy-saurupt-mal-gerard-7b.jpg\" rel=\"nofollow noopener\" target=\"_blank\">F54-nancy-saurupt-mal-gerard-7b</a>\" de Donel20, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-transparenta-fiscala-romania-2026.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Donel20"
+  }
 }

@@ -11,25 +11,37 @@
     {
       "text": "Trump a scris, în seara de 18 august 2026: „I have paused the 50% Tariffs against Canada, that were scheduled to kick in tomorrow morning for a three day period, based on the fact that Canada and the U.S.A., subject to the finalization of documents, have a DEAL!” (Am suspendat tarifele de 50% împotriva Canadei, care urmau să intre în vigoare mâine dimineață, pentru o perioadă de trei zile, având în vedere că, sub rezerva finalizării documentelor, Canada și SUA au un ACORD!). Noul termen este sfârșitul zilei de 21 august 2026.",
       "sources": [
-        {"name": "CP24 — Trump pauses new tariffs on Canada for 3 days, live updates here", "url": "https://www.cp24.com/news/canada/2026/08/19/trump-pauses-new-tariffs-on-canada-for-3-days-live-updates-here/"}
+        {
+          "name": "CP24 — Trump pauses new tariffs on Canada for 3 days, live updates here",
+          "url": "https://www.cp24.com/news/canada/2026/08/19/trump-pauses-new-tariffs-on-canada-for-3-days-live-updates-here/"
+        }
       ]
     },
     {
       "text": "Tarifele suspendate vizau bunuri canadiene în valoare de aproximativ 20 de miliarde de dolari americani, organizate în trei ordine executive: produse lactate (lapte, smântână, zer, cazeină, lactoză), băuturi alcoolice (bere, vin, lichior, cidru) și o categorie eterogenă ce include miere naturală, pene, motociclete de peste 800cc și crose de hochei.",
       "sources": [
-        {"name": "CP24 — Trump extends tariff deadline as Canada, U.S. attempt to hammer out deal", "url": "https://www.cp24.com/news/canada/2026/08/19/trump-extends-tariff-deadline-as-canada-us-attempt-to-hammer-out-deal-live-updates-here/"}
+        {
+          "name": "CP24 — Trump extends tariff deadline as Canada, U.S. attempt to hammer out deal",
+          "url": "https://www.cp24.com/news/canada/2026/08/19/trump-extends-tariff-deadline-as-canada-us-attempt-to-hammer-out-deal-live-updates-here/"
+        }
       ]
     },
     {
       "text": "Premierul canadian Mark Carney a confirmat negocierile, declarând: „Substantial progress has been made, although there is important work still to be done” (S-au făcut progrese substanțiale, deși mai este de lucru important). Declarația arată că, la momentul anunțului, acordul nu era încă finalizat.",
       "sources": [
-        {"name": "CP24 — Trump pauses new tariffs on Canada for 3 days, live updates here", "url": "https://www.cp24.com/news/canada/2026/08/19/trump-pauses-new-tariffs-on-canada-for-3-days-live-updates-here/"}
+        {
+          "name": "CP24 — Trump pauses new tariffs on Canada for 3 days, live updates here",
+          "url": "https://www.cp24.com/news/canada/2026/08/19/trump-pauses-new-tariffs-on-canada-for-3-days-live-updates-here/"
+        }
       ]
     },
     {
       "text": "Printre punctele încă disputate în negocieri: tariful la vehicule (Canada cere reducerea de la 25% la 15%, nivelul aplicat deja Japoniei, Coreei de Sud și UE), gestionarea ofertei pentru lactatele din Quebec, protecțiile culturale și lingvistice, și cherestea de rășinoase — unde tarifele și taxele combinate ajung la 45,16%, iar circa jumătate din capacitatea de producție a Columbiei Britanice e oprită.",
       "sources": [
-        {"name": "CP24 — Trump extends tariff deadline as Canada, U.S. attempt to hammer out deal", "url": "https://www.cp24.com/news/canada/2026/08/19/trump-extends-tariff-deadline-as-canada-us-attempt-to-hammer-out-deal-live-updates-here/"}
+        {
+          "name": "CP24 — Trump extends tariff deadline as Canada, U.S. attempt to hammer out deal",
+          "url": "https://www.cp24.com/news/canada/2026/08/19/trump-extends-tariff-deadline-as-canada-us-attempt-to-hammer-out-deal-live-updates-here/"
+        }
       ]
     }
   ],
@@ -42,5 +54,15 @@
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa canadiană (CP24/CTV News); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele centrale (tarif de 50%, amânare de trei zile, nou termen 21 august, valoare ~20 miliarde USD) sunt confirmate de sursa citată. Un punct de atenție: unele publicații internaționale au vehiculat o cifră mai mare pentru valoarea comercială afectată (peste 28 miliarde USD) — am ales să folosim cifra de 20 miliarde USD, cea confirmată direct în sursa CP24 verificată, dar diferența arată că estimările încă variază între redacții. De văzut: dacă negocierile chiar se încheie cu un acord semnat până pe 21 august, sau dacă tariful de 50% intră totuși în vigoare.",
   "math": null,
-  "persoane": ["Donald Trump", "Mark Carney"]
+  "persoane": [
+    "Donald Trump",
+    "Mark Carney"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/canada-sua-trump-amana-tarife-50-procente.jpg\" alt=\"Carney\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Carney. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:CarneyMichiganDowntownUS41.jpg\" rel=\"nofollow noopener\" target=\"_blank\">CarneyMichiganDowntownUS41</a>\" de Royalbroil, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/canada-sua-trump-amana-tarife-50-procente.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Royalbroil"
+  }
 }

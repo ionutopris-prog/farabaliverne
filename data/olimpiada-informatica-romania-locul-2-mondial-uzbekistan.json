@@ -11,22 +11,40 @@
     {
       "text": "Cei patru elevi ai lotului României la Olimpiada Internațională de Informatică (IOI) 2026, desfășurată în Uzbekistan, au câștigat: Rareș-Andrei Neculau (clasa a XII-a, Colegiul Național „Vasile Alecsandri” Galați) — medalie de aur; Mihai-Valeriu Voicu (clasa a XII-a, Liceul Teoretic Internațional de Informatică București) — medalie de argint; Andrei-Paul Iorgulescu (clasa a XI-a, Colegiul Național de Informatică „Tudor Vianu” București) — medalie de bronz; Alexandru Dima (clasa a XII-a, Liceul Teoretic Internațional de Informatică București) — medalie de bronz.",
       "sources": [
-        {"name": "Digi24 — Elevii români, performanță istorică la Olimpiada Internațională de Informatică: România s-a clasat pe locul 2 mondial", "url": "https://www.digi24.ro/stiri/actualitate/social/elevii-romani-performanta-istorica-la-olimpiada-internationala-de-informatica-romania-s-a-clasat-pe-locul-2-mondial-3908277"},
-        {"name": "Gândul — România, performanță remarcabilă la Olimpiada Internațională de Informatică: aur, argint și două medalii de bronz", "url": "https://www.gandul.ro/actualitate/romania-performanta-remarcabila-la-olimpiada-internationala-de-informatica-aur-argint-si-doua-medalii-de-bronz-20981439"}
+        {
+          "name": "Digi24 — Elevii români, performanță istorică la Olimpiada Internațională de Informatică: România s-a clasat pe locul 2 mondial",
+          "url": "https://www.digi24.ro/stiri/actualitate/social/elevii-romani-performanta-istorica-la-olimpiada-internationala-de-informatica-romania-s-a-clasat-pe-locul-2-mondial-3908277"
+        },
+        {
+          "name": "Gândul — România, performanță remarcabilă la Olimpiada Internațională de Informatică: aur, argint și două medalii de bronz",
+          "url": "https://www.gandul.ro/actualitate/romania-performanta-remarcabila-la-olimpiada-internationala-de-informatica-aur-argint-si-doua-medalii-de-bronz-20981439"
+        }
       ]
     },
     {
       "text": "Rezultatele de la ediția 2026 consolidează poziția României pe locul 2 în clasamentul mondial istoric pe total de medalii acumulate de-a lungul tuturor edițiilor IOI. Ministerul Educației a confirmat oficial performanța.",
       "sources": [
-        {"name": "Financial Intelligence — Ministerul Educației: Locul 2 la nivel mondial, în clasamentul istoric pe medalii, pentru România", "url": "https://financialintelligence.ro/ministerul-educatiei-locul-2-la-nivel-mondial-in-clasamentul-istoric-pe-medalii-pentru-romania-in-urma-rezultatelor-de-la-olimpiada-internationala-de-informatica/"},
-        {"name": "Mediafax — România scrie istorie la Olimpiada Internațională de Informatică. Patru elevi au adus medalii din Uzbekistan, iar țara noastră rămâne pe locul 2 mondial", "url": "https://www.mediafax.ro/social/romania-scrie-istorie-la-olimpiada-internationala-de-informatica-patru-elevi-au-adus-medalii-din-uzbekistan-iar-tara-noastra-ramane-pe-locul-2-mondial-23791328"}
+        {
+          "name": "Financial Intelligence — Ministerul Educației: Locul 2 la nivel mondial, în clasamentul istoric pe medalii, pentru România",
+          "url": "https://financialintelligence.ro/ministerul-educatiei-locul-2-la-nivel-mondial-in-clasamentul-istoric-pe-medalii-pentru-romania-in-urma-rezultatelor-de-la-olimpiada-internationala-de-informatica/"
+        },
+        {
+          "name": "Mediafax — România scrie istorie la Olimpiada Internațională de Informatică. Patru elevi au adus medalii din Uzbekistan, iar țara noastră rămâne pe locul 2 mondial",
+          "url": "https://www.mediafax.ro/social/romania-scrie-istorie-la-olimpiada-internationala-de-informatica-patru-elevi-au-adus-medalii-din-uzbekistan-iar-tara-noastra-ramane-pe-locul-2-mondial-23791328"
+        }
       ]
     },
     {
       "text": "Punctajele obținute de Rareș-Andrei Neculau și Mihai-Valeriu Voicu reprezintă a treia cea mai bună performanță individuală istorică a României la această competiție.",
       "sources": [
-        {"name": "Economica.net — România, pe locul doi la nivel mondial, în istoria Olimpiadelor internaționale de Informatică (IOI)", "url": "https://www.economica.net/romania-pe-locul-doi-la-nivel-mondial-in-istoria-olimpiadelor-internationale-de-informatica-ioi_968476.html"},
-        {"name": "Adevărul — Elevii români au câștigat o medalie de aur, una de argint și două de bronz la Olimpiada Internațională de Informatică din Uzbekistan", "url": "https://adevarul.ro/stiri-interne/educatie/elevii-romani-au-castigat-o-medalie-de-aur-una-de-2550204.html"}
+        {
+          "name": "Economica.net — România, pe locul doi la nivel mondial, în istoria Olimpiadelor internaționale de Informatică (IOI)",
+          "url": "https://www.economica.net/romania-pe-locul-doi-la-nivel-mondial-in-istoria-olimpiadelor-internationale-de-informatica-ioi_968476.html"
+        },
+        {
+          "name": "Adevărul — Elevii români au câștigat o medalie de aur, una de argint și două de bronz la Olimpiada Internațională de Informatică din Uzbekistan",
+          "url": "https://adevarul.ro/stiri-interne/educatie/elevii-romani-au-castigat-o-medalie-de-aur-una-de-2550204.html"
+        }
       ]
     }
   ],
@@ -34,7 +52,10 @@
     {
       "text": "Într-un clasament diferit — cel ponderat, calculat pe baza proporției de medalii de aur, argint și bronz (nu doar a numărului total) — România ocupă locul 7, nu locul 2. Cele două clasamente măsoară lucruri diferite, iar presa română a insistat mai mult pe locul 2 (total medalii) decât pe locul 7 (clasament ponderat).",
       "sources": [
-        {"name": "Antena 3 CNN — România a scris istorie: ocupă locul 2 mondial în clasamentul istoric pe medalii", "url": "https://www.antena3.ro/actualitate/educatie/romania-a-scris-istorie-olimpiada-internationala-de-informatica-ocupa-locul-2-mondial-in-clasamentul-istoric-pe-medalii-799630.html"}
+        {
+          "name": "Antena 3 CNN — România a scris istorie: ocupă locul 2 mondial în clasamentul istoric pe medalii",
+          "url": "https://www.antena3.ro/actualitate/educatie/romania-a-scris-istorie-olimpiada-internationala-de-informatica-ocupa-locul-2-mondial-in-clasamentul-istoric-pe-medalii-799630.html"
+        }
       ]
     }
   ],
@@ -49,5 +70,12 @@
     "Mihai-Valeriu Voicu",
     "Andrei-Paul Iorgulescu",
     "Alexandru Dima"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/olimpiada-informatica-romania-locul-2-mondial-uzbekistan.jpg\" alt=\"computer science students laptops\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — computer science students laptops. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:20151106_Bakterier_fr%C3%A5n_laptop.jpg\" rel=\"nofollow noopener\" target=\"_blank\">20151106 Bakterier från laptop</a>\" de Stellanlarsson75, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/olimpiada-informatica-romania-locul-2-mondial-uzbekistan.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Stellanlarsson75"
+  }
 }

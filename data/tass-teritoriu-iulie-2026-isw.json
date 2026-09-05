@@ -70,5 +70,12 @@
     "explanation": "Cifra TASS (~570 km²) împărțită la intervalul ISW (37,85-121,56 km²) dă un raport de 4,7 până la 15 ori mai mare: 570 ÷ 121,56 ≈ 4,7 și 570 ÷ 37,85 ≈ 15,06. De aceea articolul vorbește de o diferență „de aproape 5 până la 15 ori”, în funcție de care capăt al intervalului ISW este folosit ca referință."
   },
   "aiNote": "Această verificare pune alături o afirmație a presei de stat ruse (TASS, citând un expert militar, fără date verificabile public) și o analiză occidentală open-source cu metodologie transparentă (ISW/Critical Threats, bazată pe imagini satelitare și geolocalizare). Nu spunem că TASS „minte” — arătăm că cifra sa e de câteva ori mai mare decât ce poate fi confirmat independent, și explicăm de unde vine diferența. Ambele evaluări rămân, în esență, revendicări/estimări asupra unui front activ de conflict — cititorul poate urmări hărțile actualizate ale ISW pe understandingwar.org și comunicatele Ministerului rus al Apărării pe canalele lor oficiale.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/tass-teritoriu-iulie-2026-isw.jpg\" alt=\"Rusia\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Rusia. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Oczko_wodne,_okolice_osady_Rusia_-_panoramio_(1).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Oczko wodne, okolice osady Rusia - panoramio (1)</a>\" de Krzysztof Rakowski, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/tass-teritoriu-iulie-2026-isw.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Krzysztof Rakowski"
+  }
 }

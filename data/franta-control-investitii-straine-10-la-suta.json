@@ -84,10 +84,10 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/franta-control-investitii-straine-10-la-suta.jpg\" alt=\"La Defense Paris business district\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — La Defense Paris business district. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Guillaume_Bottazzi_-_La_D%C3%A9fense_xc.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Guillaume Bottazzi - La Défense xc</a>\" de Guillaumb, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/franta-control-investitii-straine-10-la-suta.jpg\" alt=\"Paris Bercy French finance ministry\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Paris Bercy French finance ministry. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bercy_-_Minist%C3%A8re_de_l%27Economie_et_des_Finances_4.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Bercy - Ministère de l'Economie et des Finances 4</a>\" de Dinkum, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/franta-control-investitii-straine-10-la-suta.jpg",
-    "licenta": "CC BY 4.0",
-    "autor": "Guillaumb"
+    "licenta": "CC0",
+    "autor": "Dinkum"
   }
 }

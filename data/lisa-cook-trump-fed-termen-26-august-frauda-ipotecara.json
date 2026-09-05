@@ -79,5 +79,14 @@
   ],
   "math": null,
   "aiNote": "Am verificat acest fir pe surse americane independente între ele — SCOTUSblog, CNBC, NBC News, Axios, HousingWire și Banking Dive — care coincid pe datele-cheie: scrisoarea de 5 august, termenul de 21 de zile (deci 26 august), decizia Curții Supreme din 29 iunie și cele două sesizări penale ale lui Bill Pulte. Nu am găsit nicio sursă independentă de Casa Albă sau de FHFA care să confirme faptele din spatele acuzațiilor de fraudă — ele rămân, până acum, afirmații ale unui oficial numit de Trump, contestate punct cu punct de avocații lui Cook.\n\nUnde se despart sursele: FHFA prezintă cronologia creditelor ipotecare drept dovadă de fraudă (declararea a două locuințe diferite drept „reședință principală” în intervale scurte), în timp ce avocații lui Cook spun că informația a fost selectată convenabil, fără contextul complet al declarațiilor ulterioare de venituri din chirie. Niciuna dintre versiuni nu a fost testată încă într-un proces sau într-o anchetă independentă finalizată — Cook nu a fost inculpată.\n\nCe lipsește: rezultatul anchetei Departamentului de Justiție pe cele două sesizări ale lui Pulte, precum și răspunsul scris pe care Cook trebuie să-l depună până pe 26 august. Ce ar schimba concluzia: dacă Trump o demite efectiv după acest termen, urmează aproape sigur un nou proces la Curtea Supremă — instanța a lăsat deschisă doar chestiunea procedurii (dreptul la apărare), nu a validat sau infirmat acuzațiile de fond.",
-  "persoane": ["Lisa Cook"]
+  "persoane": [
+    "Lisa Cook"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/lisa-cook-trump-fed-termen-26-august-frauda-ipotecara.jpg\" alt=\"Casa\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Casa. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Building_in_Casa,_Arkansas.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Building in Casa, Arkansas</a>\" de Brandonrush, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/lisa-cook-trump-fed-termen-26-august-frauda-ipotecara.jpg",
+    "licenta": "CC0",
+    "autor": "Brandonrush"
+  }
 }

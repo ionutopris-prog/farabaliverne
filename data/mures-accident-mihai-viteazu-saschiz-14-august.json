@@ -11,43 +11,73 @@
     {
       "text": "Accidentul a avut loc vineri, 14 august 2026, pe DN13 (E60), între localitățile Mihai Viteazu și Saschiz, județul Mureș. Au fost implicate trei autoturisme și un autocamion militar. Traficul a fost blocat complet, pe ambele sensuri, pe durata intervenției.",
       "sources": [
-        { "name": "AGERPRES — Mureș: Trei morți și patru răniți în urma unui accident cu trei autoturisme și un autocamion militar", "url": "https://agerpres.ro/social/2026/08/14/mures-trei-morti-si-patru-raniti-in-urma-unui-accident-cu-trei-autoturisme-si-un-autocamion-militar--1585052" },
-        { "name": "Adevărul — Carnagiu în Mureș. Trei morți și patru răniți", "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html" }
+        {
+          "name": "AGERPRES — Mureș: Trei morți și patru răniți în urma unui accident cu trei autoturisme și un autocamion militar",
+          "url": "https://agerpres.ro/social/2026/08/14/mures-trei-morti-si-patru-raniti-in-urma-unui-accident-cu-trei-autoturisme-si-un-autocamion-militar--1585052"
+        },
+        {
+          "name": "Adevărul — Carnagiu în Mureș. Trei morți și patru răniți",
+          "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html"
+        }
       ]
     },
     {
       "text": "Victimele decedate sunt o femeie de 27 de ani, un bărbat de 30 de ani și un copil de 3 ani, toți din Târgu Neamț (județul Neamț), clasificați cod negru (leziuni incompatibile cu viața). Alte patru persoane au fost rănite — una dintre ele, un bărbat de 72 de ani din Brașov, încarcerată și clasificată cod roșu, a fost transportată cu elicopterul SMURD; celelalte trei au fost clasificate cod verde.",
       "sources": [
-        { "name": "Adevărul — trei morți (27, 30 de ani și un copil de 3 ani) și patru răniți", "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html" },
-        { "name": "Realitatea.NET — victimă cod roșu transportată cu elicopterul SMURD", "url": "https://www.realitatea.net/stiri/social/accident-grav-in-mures-trei-morti-inclusiv-un-copil-si-patru-raniti-implicat-un-autocamion-militar-pg6hzd" }
+        {
+          "name": "Adevărul — trei morți (27, 30 de ani și un copil de 3 ani) și patru răniți",
+          "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html"
+        },
+        {
+          "name": "Realitatea.NET — victimă cod roșu transportată cu elicopterul SMURD",
+          "url": "https://www.realitatea.net/stiri/social/accident-grav-in-mures-trei-morti-inclusiv-un-copil-si-patru-raniti-implicat-un-autocamion-militar-pg6hzd"
+        }
       ]
     },
     {
       "text": "La intervenție au participat pompieri militari din Detașamentul Sighișoara (Inspectoratul pentru Situații de Urgență Mureș), echipaje SMURD — inclusiv o unitate mobilă de terapie intensivă —, ambulanțe ale Serviciului de Ambulanță Județean și elicopterul SMURD.",
       "sources": [
-        { "name": "AGERPRES — echipaje de intervenție mobilizate", "url": "https://agerpres.ro/social/2026/08/14/update-mures-trei-morti-si-patru-raniti-in-urma-unui-accident-cu-trei-autoturisme-si-un-autocamion-m--1585052" },
-        { "name": "Realitatea.NET — pompieri militari din Detașamentul Sighișoara, SMURD, SAJ", "url": "https://www.realitatea.net/stiri/social/accident-grav-in-mures-trei-morti-inclusiv-un-copil-si-patru-raniti-implicat-un-autocamion-militar-pg6hzd" }
+        {
+          "name": "AGERPRES — echipaje de intervenție mobilizate",
+          "url": "https://agerpres.ro/social/2026/08/14/update-mures-trei-morti-si-patru-raniti-in-urma-unui-accident-cu-trei-autoturisme-si-un-autocamion-m--1585052"
+        },
+        {
+          "name": "Realitatea.NET — pompieri militari din Detașamentul Sighișoara, SMURD, SAJ",
+          "url": "https://www.realitatea.net/stiri/social/accident-grav-in-mures-trei-morti-inclusiv-un-copil-si-patru-raniti-implicat-un-autocamion-militar-pg6hzd"
+        }
       ]
     },
     {
       "text": "Poliția a deschis dosar penal pentru ucidere din culpă și vătămare corporală din culpă; ancheta pentru stabilirea împrejurărilor exacte ale coliziunii este în desfășurare, fără să fi fost făcută publică, la momentul verificării, o concluzie oficială privind vinovăția.",
       "sources": [
-        { "name": "AGERPRES — dosar penal pentru ucidere din culpă și vătămare corporală din culpă", "url": "https://agerpres.ro/social/2026/08/14/update-mures-trei-morti-si-patru-raniti-in-urma-unui-accident-cu-trei-autoturisme-si-un-autocamion-m--1585052" }
+        {
+          "name": "AGERPRES — dosar penal pentru ucidere din culpă și vătămare corporală din culpă",
+          "url": "https://agerpres.ro/social/2026/08/14/update-mures-trei-morti-si-patru-raniti-in-urma-unui-accident-cu-trei-autoturisme-si-un-autocamion-m--1585052"
+        }
       ]
     }
   ],
   "contestat": [
     {
       "text": "Ora exactă a accidentului diferă ușor între surse: Adevărul indică ora 17:10, Realitatea.NET ora 18:40, iar AGERPRES a publicat prima relatare la ora 19:02. Diferența pare să vină din momentul redactării fiecărei știri (accidentul recent, informațiile veneau treptat de la ISU), nu dintr-o eroare de fapt — numărul victimelor și localitatea coincid în toate relatările.",
-        "sources": [
-        { "name": "Adevărul — ora 17:10", "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html" },
-        { "name": "Realitatea.NET — ora 18:40", "url": "https://www.realitatea.net/stiri/social/accident-grav-in-mures-trei-morti-inclusiv-un-copil-si-patru-raniti-implicat-un-autocamion-militar-pg6hzd" }
+      "sources": [
+        {
+          "name": "Adevărul — ora 17:10",
+          "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html"
+        },
+        {
+          "name": "Realitatea.NET — ora 18:40",
+          "url": "https://www.realitatea.net/stiri/social/accident-grav-in-mures-trei-morti-inclusiv-un-copil-si-patru-raniti-implicat-un-autocamion-militar-pg6hzd"
+        }
       ]
     },
     {
       "text": "Cauza exactă a coliziunii nu este stabilită public la momentul verificării. O singură sursă (Adevărul) menționează, fără să citeze o sursă oficială, ipoteza că unul dintre șoferi și-ar fi pierdut controlul volanului — o presupunere din presă, nu o concluzie a anchetei. Nu a fost identificată nicio declarație publică a Ministerului Apărării Naționale (căruia îi aparține autocamionul militar implicat) despre împrejurările accidentului.",
       "sources": [
-        { "name": "Adevărul — ipoteza pierderii controlului volanului", "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html" }
+        {
+          "name": "Adevărul — ipoteza pierderii controlului volanului",
+          "url": "https://adevarul.ro/stiri-interne/evenimente/carnagiu-in-mures-trei-morti-si-patru-raniti-2549998.html"
+        }
       ]
     }
   ],
@@ -57,5 +87,12 @@
     }
   ],
   "aiNote": "Faptele centrale — locul (DN13/E60, între Mihai Viteazu și Saschiz, județul Mureș), data (14 august 2026), numărul și vârstele victimelor, și vehiculele implicate (trei autoturisme și un autocamion militar) — sunt confirmate concordant de mai multe redacții independente (AGERPRES, Adevărul, Realitatea.NET). Rămân două puncte neclare: ora exactă a producerii accidentului variază ușor între surse, probabil din cauza momentului diferit al redactării fiecărei relatări, iar cauza exactă a coliziunii nu a fost stabilită public — ancheta poliției este în desfășurare, iar MApN nu a emis, la momentul verificării, o poziție publică. Nu am identificat nicio persoană numită drept vinovată în sursele consultate, așa că nu atribuim răspunderea nimănui până la finalizarea anchetei.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/mures-accident-mihai-viteazu-saschiz-14-august.jpg\" alt=\"Mureș\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mureș. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:County_Council_Building,_Targu_Mures,_Romania_(5681869206).jpg\" rel=\"nofollow noopener\" target=\"_blank\">County Council Building, Targu Mures, Romania (5681869206)</a>\" de yeowatzup, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/mures-accident-mihai-viteazu-saschiz-14-august.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "yeowatzup"
+  }
 }

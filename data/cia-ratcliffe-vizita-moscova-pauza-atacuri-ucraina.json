@@ -63,5 +63,12 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale (CBS News, United24 Media) sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: deplasarea directorului CIA la Moscova pe 25 august, confirmată independent de CBS News și United24 Media pe baza urmăririi unui avion militar american, plus relatarea (via Axios) despre cererea SUA ca Ucraina să-și suspende atacurile asupra Moscovei cât timp a durat vizita.\n\nUnde se despart sursele: Kremlinul neagă orice cunoștință despre vizită sau despre întâlniri programate, ceea ce arată limitele confirmării oficiale — presa se bazează pe mișcări de avioane și surse anonime, nu pe o recunoaștere directă a părților implicate. Scopul concret al discuțiilor (schimb de prizonieri, Iran, riscuri NATO) e speculație de presă necoroborată public de niciun guvern.\n\nCe lipsește: nicio declarație oficială americană, rusă sau ucraineană nu confirmă agenda reală a întâlnirilor. Dacă una dintre părți ar confirma public conținutul discuțiilor, concluzia s-ar putea schimba semnificativ.",
   "persoane": [
     "John Ratcliffe"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/cia-ratcliffe-vizita-moscova-pauza-atacuri-ucraina.jpg\" alt=\"Moscova\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Moscova. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Baptist_church_Golgotha_in_Moscow,_Russia_on_2021_March_20_(0076).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Baptist church Golgotha in Moscow, Russia on 2021 March 20 (0076)</a>\" de Alexey V. Kurochkin, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/cia-ratcliffe-vizita-moscova-pauza-atacuri-ucraina.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Alexey V. Kurochkin"
+  }
 }

@@ -11,15 +11,27 @@
     {
       "text": "Bayern München a învins-o pe VfL Wolfsburg cu scorul de 3-0, sâmbătă, 15 august 2026, în finala Supercupului feminin german (Google Pixel Supercup der Frauen 2026), disputată pe stadionul din Ingolstadt. A fost al treilea trofeu Supercup câștigat consecutiv de echipa feminină a lui Bayern.",
       "sources": [
-        {"name": "Sportschau — FC Bayerns Frauen holen Supercup, Wolfsburg ohne Chance", "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html"},
-        {"name": "Bulinews — Bühl brace as Bayern thump Wolfsburg to win Frauen-Supercup", "url": "https://bulinews.com/buhl-brace-bayern-thump-wolfsburg-win-frauen-supercup"}
+        {
+          "name": "Sportschau — FC Bayerns Frauen holen Supercup, Wolfsburg ohne Chance",
+          "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html"
+        },
+        {
+          "name": "Bulinews — Bühl brace as Bayern thump Wolfsburg to win Frauen-Supercup",
+          "url": "https://bulinews.com/buhl-brace-bayern-thump-wolfsburg-win-frauen-supercup"
+        }
       ]
     },
     {
       "text": "Golurile au fost marcate de Jovana Damnjanović (minutul 33) și de Klara Bühl, autoare a unui „dublu” în jurul pauzei (minutele 45+4 și 46). Portărița Wolfsburgului, Stina Johannes, a fost criticată în presa germană pentru evoluția la primele două goluri.",
       "sources": [
-        {"name": "Bulinews — marcatoarele și minutele golurilor", "url": "https://bulinews.com/buhl-brace-bayern-thump-wolfsburg-win-frauen-supercup"},
-        {"name": "T-Online — Supercup der Frauen: FC Bayern besiegt Wolfsburg", "url": "https://www.t-online.de/sport/fussball/id_101390580/supercup-der-frauen-fc-bayern-besiegt-wolfsburg-und-holt-ersten-titel.html"}
+        {
+          "name": "Bulinews — marcatoarele și minutele golurilor",
+          "url": "https://bulinews.com/buhl-brace-bayern-thump-wolfsburg-win-frauen-supercup"
+        },
+        {
+          "name": "T-Online — Supercup der Frauen: FC Bayern besiegt Wolfsburg",
+          "url": "https://www.t-online.de/sport/fussball/id_101390580/supercup-der-frauen-fc-bayern-besiegt-wolfsburg-und-holt-ersten-titel.html"
+        }
       ]
     }
   ],
@@ -27,8 +39,14 @@
     {
       "text": "Circumstanțele exacte ale primului gol rămân neclare: unele relatări îl descriu drept o reușită a Damnjanović după o centrare/lovitură liberă a lui Bühl, altele notează că mingea a ajuns în poartă după ce portărița Johannes a intrat cu mingea peste linie, în urma unei coliziuni cu bara — o fază pe care arbitrajul video a validat-o drept gol pentru Damnjanović, nu autogol.",
       "sources": [
-        {"name": "Sportschau — descrierea fazei primului gol", "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html"},
-        {"name": "T-Online — verdictul VAR pe faza primului gol", "url": "https://www.t-online.de/sport/fussball/id_101390580/supercup-der-frauen-fc-bayern-besiegt-wolfsburg-und-holt-ersten-titel.html"}
+        {
+          "name": "Sportschau — descrierea fazei primului gol",
+          "url": "https://www.sportschau.de/fussball/frauen-bundesliga/fc-bayerns-frauen-holen-supercup-wolfsburg-ohne-chance,spielbericht-supercup-frauen-100.html"
+        },
+        {
+          "name": "T-Online — verdictul VAR pe faza primului gol",
+          "url": "https://www.t-online.de/sport/fussball/id_101390580/supercup-der-frauen-fc-bayern-besiegt-wolfsburg-und-holt-ersten-titel.html"
+        }
       ]
     }
   ],
@@ -41,5 +59,12 @@
   "persoane": [
     "Jovana Damnjanović",
     "Klara Bühl"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bayern-frauen-supercup-wolfsburg-3-0.jpg\" alt=\"Supercup\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Supercup. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2022-07-30_Fu%C3%9Fball,_M%C3%A4nner,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3143_by_Stepro.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2022-07-30 Fußball, Männer, DFL-Supercup, RB Leipzig - FC Bayern München 1DX 3143 by Stepro</a>\" de Steffen Prößdorf, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bayern-frauen-supercup-wolfsburg-3-0.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Steffen Prößdorf"
+  }
 }

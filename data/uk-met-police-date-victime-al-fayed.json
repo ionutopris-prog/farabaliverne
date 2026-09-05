@@ -11,20 +11,32 @@
     {
       "text": "Poliția Metropolitană din Londra a confirmat oficial breșa: adresele de email a aproximativ 143 de persoane care au depus plângeri de abuz sexual împotriva lui Mohamed Al Fayed au fost vizibile de către ceilalți destinatari ai unui email lunar de informare, în loc să fie ascunse (destinatarii au fost puși în „CC” în loc de „CCO”/bcc). Met a numit incidentul „eroare umană” și a transmis scuze oficiale.",
       "sources": [
-        {"name": "Euronews — UK police apologise after Al Fayed sex abuse data breach", "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed"},
-        {"name": "CP24 — London police apologize after sex abuse complaints against late Harrods owner shared on comms list", "url": "https://www.cp24.com/news/world/2026/08/15/london-police-apologize-after-sex-abuse-complaints-against-late-harrods-owner-shared-on-comms-list/"}
+        {
+          "name": "Euronews — UK police apologise after Al Fayed sex abuse data breach",
+          "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed"
+        },
+        {
+          "name": "CP24 — London police apologize after sex abuse complaints against late Harrods owner shared on comms list",
+          "url": "https://www.cp24.com/news/world/2026/08/15/london-police-apologize-after-sex-abuse-complaints-against-late-harrods-owner-shared-on-comms-list/"
+        }
       ]
     },
     {
       "text": "Potrivit Met, toate persoanele afectate au fost contactate direct în ziua producerii incidentului. Poliția a declarat: „Înțelegem impactul pe care acest lucru îl poate avea asupra victimelor și ne cerem sincer scuze. Toți cei afectați au fost contactați direct în ziua incidentului. Incidentul este investigat ca prioritate și revizuim procesele pentru a preveni o breșă similară.” Cazul a fost autosesizat către Information Commissioner's Office (ICO), autoritatea britanică pentru protecția datelor.",
       "sources": [
-        {"name": "Euronews — reacția Met Police și autosesizarea la ICO", "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed"}
+        {
+          "name": "Euronews — reacția Met Police și autosesizarea la ICO",
+          "url": "https://www.euronews.com/my-europe/2026/08/16/uk-police-databreach-alfayed"
+        }
       ]
     },
     {
       "text": "Plângerile aparțin unui val de acuzații de viol și agresiune sexuală formulate de sute de femei împotriva lui Mohamed Al Fayed, fostul proprietar al magazinului Harrods, în special după moartea acestuia în 2023, la 94 de ani. Aceste acuzații fac obiectul unor anchete separate ale poliției și ale unui organism de supraveghere a poliției (IOPC), care investighează inclusiv modul în care Met a gestionat de-a lungul timpului plângerile depuse.",
       "sources": [
-        {"name": "CP24 — contextul valului de acuzații împotriva lui Al Fayed", "url": "https://www.cp24.com/news/world/2026/08/15/london-police-apologize-after-sex-abuse-complaints-against-late-harrods-owner-shared-on-comms-list/"}
+        {
+          "name": "CP24 — contextul valului de acuzații împotriva lui Al Fayed",
+          "url": "https://www.cp24.com/news/world/2026/08/15/london-police-apologize-after-sex-abuse-complaints-against-late-harrods-owner-shared-on-comms-list/"
+        }
       ]
     }
   ],
@@ -32,5 +44,12 @@
   "opinie": [],
   "math": null,
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa britanică și internațională (Euronews, CP24); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Nu ne pronunțăm aici asupra vinovăției lui Mohamed Al Fayed (subiect al altor anchete separate) — articolul de față privește strict breșa de date recunoscută de poliția britanică și scuzele oficiale transmise victimelor.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/uk-met-police-date-victime-al-fayed.jpg\" alt=\"Mohamed\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mohamed. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2015_Wojb%C3%B3rz.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2015 Wojbórz</a>\" de Jacek Halicki, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/uk-met-police-date-victime-al-fayed.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Jacek Halicki"
+  }
 }

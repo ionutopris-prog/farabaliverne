@@ -11,35 +11,62 @@
     {
       "text": "Harmeet Dhillon a declarat pentru Bloomberg News, pe 17 august 2026: „We are doing that now... approximately a thousand election monitors in the November election. This is something that DOJ does” („Facem asta acum... aproximativ o mie de monitori electorali la alegerile din noiembrie. E ceva ce face DOJ în mod obișnuit”). Ea a caracterizat cifra drept „probabil un număr istoric pentru o administrație republicană”.",
       "sources": [
-        {"name": "Washington Examiner — DOJ plans to send 1,000 poll monitors to watch midterm elections", "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"},
-        {"name": "Spokesman-Review (AP) — Justice Department plans to send about 1,000 monitors to the polls", "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"}
+        {
+          "name": "Washington Examiner — DOJ plans to send 1,000 poll monitors to watch midterm elections",
+          "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"
+        },
+        {
+          "name": "Spokesman-Review (AP) — Justice Department plans to send about 1,000 monitors to the polls",
+          "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"
+        }
       ]
     },
     {
       "text": "Comparativ istoric: administrația Biden a trimis monitori în 86 de jurisdicții la alegerile prezidențiale din 2024 și în 64 de jurisdicții la alegerile de mid-term din 2022; în primul mandat al lui Trump, DOJ a trimis monitori în 44 de jurisdicții la alegerile din 2020. Cifra de ~1.000 de monitori anunțată acum pentru noiembrie 2026 ar reprezenta o creștere semnificativă față de aceste precedente.",
       "sources": [
-        {"name": "Spokesman-Review (AP) — comparație istorică 86/64/44 jurisdicții", "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"},
-        {"name": "Washington Examiner — 2024: 86 jurisdicții, 2022: 64, 2020: 44", "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"}
+        {
+          "name": "Spokesman-Review (AP) — comparație istorică 86/64/44 jurisdicții",
+          "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"
+        },
+        {
+          "name": "Washington Examiner — 2024: 86 jurisdicții, 2022: 64, 2020: 44",
+          "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"
+        }
       ]
     },
     {
       "text": "Potrivit surselor citate, rolul declarat al monitorilor DOJ este să observe procesul electoral și să verifice respectarea legislației — nu să intervină direct. Dhillon a spus că zonele vizate vor fi cele cu probleme de acces pentru persoane cu dizabilități, probleme lingvistice sau suspiciuni de fraudă electorală, iar formarea monitorilor folosește materiale moștenite de la administrațiile anterioare.",
       "sources": [
-        {"name": "Washington Examiner — rolul monitorilor: observare, nu intervenție", "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"},
-        {"name": "Spokesman-Review (AP) — zone vizate: dizabilități, limbă, fraudă", "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"}
+        {
+          "name": "Washington Examiner — rolul monitorilor: observare, nu intervenție",
+          "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"
+        },
+        {
+          "name": "Spokesman-Review (AP) — zone vizate: dizabilități, limbă, fraudă",
+          "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"
+        }
       ]
     },
     {
       "text": "DOJ a trimis deja monitori în 15 jurisdicții din șase state în timpul alegerilor primare din acest an, inclusiv în patru orașe din Michigan (Detroit, Hamtramck, Lansing, East Lansing), unde oficialii statali au raportat că monitorii „s-au comportat profesionist și nu au creat probleme”.",
       "sources": [
-        {"name": "Spokesman-Review (AP) — Michigan: monitorii s-au comportat profesionist", "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"},
-        {"name": "Washington Examiner — 15 jurisdicții, șase state, la primare", "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"}
+        {
+          "name": "Spokesman-Review (AP) — Michigan: monitorii s-au comportat profesionist",
+          "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"
+        },
+        {
+          "name": "Washington Examiner — 15 jurisdicții, șase state, la primare",
+          "url": "https://www.washingtonexaminer.com/news/justice/4690825/doj-send-1000-poll-monitor-midterm/"
+        }
       ]
     },
     {
       "text": "Anunțul vine în paralel cu un efort separat al DOJ de a obține de la state date din registrele electorale (inclusiv, potrivit organizațiilor de monitorizare electorală, numere de securitate socială); Departamentul a pierdut, potrivit Democracy Docket, toate cele 23 de procese la curțile districtuale prin care încerca să forțeze accesul la aceste date, iar aproximativ două treimi dintre state refuză în continuare să coopereze cu aceste cereri.",
       "sources": [
-        {"name": "Democracy Docket — DOJ a pierdut toate cele 23 de procese, două treimi din state refuză cooperarea", "url": "https://www.democracydocket.com/news-alerts/trump-doj-readies-1000-election-monitors-for-midterm-elections/"}
+        {
+          "name": "Democracy Docket — DOJ a pierdut toate cele 23 de procese, două treimi din state refuză cooperarea",
+          "url": "https://www.democracydocket.com/news-alerts/trump-doj-readies-1000-election-monitors-for-midterm-elections/"
+        }
       ]
     }
   ],
@@ -48,17 +75,32 @@
     {
       "text": "Președintele Donald Trump a declarat că republicanii ar trebui să „nationalize the voting” și să „take over the voting” („naționalizeze votul” / „preia controlul votului”) în acest an electoral, avertizând repetat, fără a prezenta dovezi publice concrete pentru alegerile din 2026, că democrații vor „trișa” pentru a recâștiga Congresul. Aceasta este o poziție politică a președintelui, nu o constatare a unei fraude electorale efective — DOJ însuși descrie rolul monitorilor drept observare, nu intervenție.",
       "sources": [
-        {"name": "Spokesman-Review (AP) — Trump: republicanii ar trebui să „naționalizeze votul”", "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"}
+        {
+          "name": "Spokesman-Review (AP) — Trump: republicanii ar trebui să „naționalizeze votul”",
+          "url": "https://www.spokesman.com/stories/2026/aug/17/justice-department-plans-to-send-about-1000-monito/"
+        }
       ]
     },
     {
       "text": "Organizații de monitorizare electorală citate de Democracy Docket (printre care Human Rights Watch și Campaign Legal Center) și-au exprimat îngrijorarea că efortul paralel al DOJ de a obține date sensibile din registrele electorale ale statelor ar putea fi folosit pentru a intimida alegătorii sau a justifica radieri masive de pe liste — o interpretare critică a intențiilor DOJ, nu un fapt stabilit despre folosirea efectivă a datelor, care nu au fost încă obținute în majoritatea statelor.",
       "sources": [
-        {"name": "Democracy Docket — îngrijorări privind accesul la date sensibile din registrele electorale", "url": "https://www.democracydocket.com/news-alerts/trump-doj-readies-1000-election-monitors-for-midterm-elections/"}
+        {
+          "name": "Democracy Docket — îngrijorări privind accesul la date sensibile din registrele electorale",
+          "url": "https://www.democracydocket.com/news-alerts/trump-doj-readies-1000-election-monitors-for-midterm-elections/"
+        }
       ]
     }
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Cifrele-cheie (~1.000 de monitori, comparația istorică 86/64/44 jurisdicții, cele 15 jurisdicții din primare) sunt confirmate concordant de agenția Associated Press (via Spokesman-Review) și de Washington Examiner — două redacții cu unghiuri editoriale diferite care raportează aceleași fapte de bază. Am separat explicit anunțul oficial al DOJ (rol declarat: observare, nu intervenție) de retorica politică a președintelui Trump despre „naționalizarea votului” și presupusa trișare democrată, care sunt poziții politice, nu constatări despre o fraudă electorală documentată. Contextul despre cele 23 de procese pierdute de DOJ pe accesul la datele electorale vine dintr-o singură sursă (Democracy Docket, o publicație orientată spre drepturi electorale) — l-am inclus ca fapt verificabil judiciar (rezultatul proceselor e public), dar cititorul trebuie să știe că sursa are un unghi declarat.",
   "math": null,
-  "persoane": ["Donald Trump"]
+  "persoane": [
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-doj-1000-monitori-alegeri-noiembrie-2026.jpg\" alt=\"Justiție\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Justiție. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Oberster_Gerichtshof_von_Kanada.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ottawa - ON - Oberster Gerichtshof von Kanada</a>\" de Wladyslaw, via Wikimedia Commons · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-doj-1000-monitori-alegeri-noiembrie-2026.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Wladyslaw"
+  }
 }

@@ -65,5 +65,12 @@
     }
   ],
   "aiNote": "Sursele independente consultate (CBS News, Ground News, coroborate cu pagina Wikipedia dedicată succesiunii la tronul Liechtensteinului) confirmă în mod concordant faptul central: Casa Princiară de Liechtenstein a trecut de la primogenitura masculină la primogenitura absolută, permițând femeilor să moștenească tronul, printr-o decizie aprobată de două treimi din membrii familiei cu drept de vot. Schimbarea nu are efect imediat asupra ordinii de succesiune, deoarece actualul moștenitor (Prințul Joseph Wenzel) este deja bărbat și primul-născut. Singura rezervă găsită e o diferență de o zi între surse privind data exactă a anunțului public (15 vs. 17 august 2026).",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/liechtenstein-lege-succesiune-femei-tron.jpg\" alt=\"Vaduz Castle Liechtenstein\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Vaduz Castle Liechtenstein. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Vaduz_-_2022.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Château de Vaduz - 2022</a>\" de Christian David, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/liechtenstein-lege-succesiune-femei-tron.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Christian David"
+  }
 }
