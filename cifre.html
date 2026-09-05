@@ -106,7 +106,7 @@
   .nav .wrap{display:flex;align-items:center;gap:5px;height:54px;overflow-x:auto}
   .nav a{
     font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
-    padding:8px 11px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+    padding:8px 10px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
   }
   .nav a:hover{color:var(--ink);background:var(--accent-soft)}
   .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
@@ -535,6 +535,35 @@
     backdrop-filter:saturate(200%) blur(14px);
     box-shadow:inset 0 1px 0 rgba(255,255,255,1),
                0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
+
+  /* „Minți luminate" — culoarea secțiunii de cercetare universitară.
+     Chihlimbar spre bronz: singura familie caldă rămasă liberă. Verdele, roșul
+     și albastrul sunt ale verdictelor, petrolul e accentul, mov e Extern.
+     Numele e al fondatorului, 5 septembrie 2026 — „gen Beautiful Mind". */
+  .g-minti{background:linear-gradient(135deg,#c9a227,#7d5f10)}
+
+  /* Blocul „Articolul original, tradus integral" — sectiunea „Minți luminate".
+     🔴 Se vede DIFERIT de restul dinadins: nu e textul nostru, e al altcuiva,
+     tradus. Dunga din stanga il leaga de accent, iar corpul e mai mare si mai
+     aerisit fiindca e de citit pe indelete, nu de scanat ca o lista de dovezi.
+     Se foloseste doar cand sursa permite explicit reproducerea. */
+  .ev-block.traducere{border-left:5px solid var(--accent)}
+  .ev-block.traducere p{font-size:16.5px;line-height:1.68;margin:0 0 15px;color:var(--ink)}
+  .ev-block.traducere p:last-child{margin-bottom:0}
+  .ev-block.traducere .ev-sub{font-size:12.5px;line-height:1.5;
+    padding:11px 13px;border-radius:10px;background:var(--accent-soft);
+    color:var(--ink-soft);margin-bottom:20px}
+  .ev-block.traducere .ev-sub a{color:var(--accent);font-weight:700}
+
+  /* 🔴 Butonul de cautare e `position:sticky` lipit de marginea dreapta, deci
+     cand meniul depaseste latimea, el PLUTESTE peste ce ajunge sub el — a
+     acoperit „Moldova" cand am adaugat a 14-a intrare, pe 5 septembrie 2026.
+     Prima incercare a fost `min-width` pe separator: a inrautatit, fiindca a
+     mai adaugat 172px la un rand care oricum nu incapea.
+     Reparatia adevarata e sa NU depaseasca: eticheta din meniu e scurtata la
+     „Minți", titlul sectiunii ramane „Minți luminate". Daca se mai adauga
+     vreodata o categorie, asta e locul unde se rupe primul. */
+  .nav .md{flex-shrink:0}
 </style>
 <meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
 <link rel="canonical" href="https://farabaliverne.ro/cifre.html">
@@ -563,7 +592,7 @@
   <div class="topbar">
     <div class="wrap">
       <div class="date">Sâmbătă, 5 septembrie 2026 · Ediția de cafeluță</div>
-      <div class="live"><span class="dot"></span> 740 verificări publicate</div>
+      <div class="live"><span class="dot"></span> 741 verificări publicate</div>
     </div>
   </div>
 
@@ -585,6 +614,7 @@
       <a href="index.html#economie">Economie</a>
       <a href="index.html#extern">Extern</a>
       <a href="index.html#stiinta">Știință</a>
+      <a href="index.html#minti-luminate">Minți</a>
       <a href="index.html#social">Social</a>
       <a href="index.html#sport">Sport</a>
       <a href="index.html#media-de-stat">Media de stat</a>
@@ -614,9 +644,9 @@
       actualizare — nimic scris de mână. Dacă ceva scade, se vede.</p>
 
       <div style="display:flex;flex-wrap:wrap;gap:14px;margin:26px 0">
-        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">740</div><div style="font-weight:600;margin-top:4px">verificări publicate</div><div style="opacity:.65;font-size:14px;margin-top:2px">în 34 zile · ~22 pe zi</div></div>
-        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">4625</div><div style="font-weight:600;margin-top:4px">afirmații analizate</div><div style="opacity:.65;font-size:14px;margin-top:2px">fiecare cu sursele ei</div></div>
-        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">801</div><div style="font-weight:600;margin-top:4px">publicații citate</div><div style="opacity:.65;font-size:14px;margin-top:2px">6343 linkuri către surse</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">741</div><div style="font-weight:600;margin-top:4px">verificări publicate</div><div style="opacity:.65;font-size:14px;margin-top:2px">în 34 zile · ~22 pe zi</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">4637</div><div style="font-weight:600;margin-top:4px">afirmații analizate</div><div style="opacity:.65;font-size:14px;margin-top:2px">fiecare cu sursele ei</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">805</div><div style="font-weight:600;margin-top:4px">publicații citate</div><div style="opacity:.65;font-size:14px;margin-top:2px">6357 linkuri către surse</div></div>
       </div>
 
       <h2 style="margin-top:30px">Ce am găsit</h2>
@@ -624,16 +654,16 @@
       probează cu surse și ce nu, iar cititorul trage concluzia. Verdictele reale
       sunt nuanțate („probat, cu rezerve de cifră”); aici sunt strânse în trei
       coșuri, doar ca să poată fi numărate.</p>
-      <div style="margin:18px 0;max-width:560px"><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Se probează</span><b>609</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:100%;height:100%;background:#4a7c59"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Nu se susține / contestat</span><b>93</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:15%;height:100%;background:#b4553f"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Mixt — parte probată, parte nu</span><b>38</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:6%;height:100%;background:#b8912f"></div></div></div></div>
+      <div style="margin:18px 0;max-width:560px"><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Se probează</span><b>610</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:100%;height:100%;background:#4a7c59"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Nu se susține / contestat</span><b>93</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:15%;height:100%;background:#b4553f"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Mixt — parte probată, parte nu</span><b>38</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:6%;height:100%;background:#b8912f"></div></div></div></div>
 
       <div style="display:flex;flex-wrap:wrap;gap:14px;margin:22px 0">
-        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">2841</div><div style="font-weight:600;margin-top:4px">afirmații care se probează</div></div>
-        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">1134</div><div style="font-weight:600;margin-top:4px">afirmații contestate</div></div>
-        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">650</div><div style="font-weight:600;margin-top:4px">marcate ca opinie</div><div style="opacity:.65;font-size:14px;margin-top:2px">nu se verifică, se semnalează</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">2847</div><div style="font-weight:600;margin-top:4px">afirmații care se probează</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">1138</div><div style="font-weight:600;margin-top:4px">afirmații contestate</div></div>
+        <div style="flex:1 1 190px;background:var(--card);border:1px solid var(--line-2);border-radius:14px;padding:18px 20px"><div style="font-size:34px;font-weight:700;line-height:1.1">652</div><div style="font-weight:600;margin-top:4px">marcate ca opinie</div><div style="opacity:.65;font-size:14px;margin-top:2px">nu se verifică, se semnalează</div></div>
       </div>
 
       <h2 style="margin-top:30px">Despre ce scriem</h2>
-      <div style="margin:18px 0;max-width:560px"><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Extern</span><b>289</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:100%;height:100%;background:#4a7c59"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Politică</span><b>135</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:47%;height:100%;background:#6b8e5a"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Economie</span><b>131</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:45%;height:100%;background:#8a9a5b"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Media de stat</span><b>67</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:23%;height:100%;background:#a3a86b"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Social</span><b>48</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:17%;height:100%;background:#b8ae7c"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Sport</span><b>41</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:14%;height:100%;background:#c9bb8e"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Știință</span><b>29</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:10%;height:100%;background:#d8caa2"></div></div></div></div>
+      <div style="margin:18px 0;max-width:560px"><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Extern</span><b>289</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:100%;height:100%;background:#4a7c59"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Politică</span><b>135</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:47%;height:100%;background:#6b8e5a"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Economie</span><b>131</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:45%;height:100%;background:#8a9a5b"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Media de stat</span><b>67</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:23%;height:100%;background:#a3a86b"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Social</span><b>48</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:17%;height:100%;background:#b8ae7c"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Sport</span><b>41</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:14%;height:100%;background:#c9bb8e"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Știință</span><b>29</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:10%;height:100%;background:#d8caa2"></div></div></div><div style="margin:9px 0"><div style="display:flex;justify-content:space-between;font-size:15px"><span>Minți luminate</span><b>1</b></div><div style="height:9px;background:var(--line-2);border-radius:6px;overflow:hidden;margin-top:4px"><div style="width:2%;height:100%;background:#4a7c59"></div></div></div></div>
 
       <h2 style="margin-top:30px">Ce nu spun cifrele astea</h2>
       <p class="sum" style="max-width:70ch">Că avem dreptate. Numărul de verificări nu e o dovadă

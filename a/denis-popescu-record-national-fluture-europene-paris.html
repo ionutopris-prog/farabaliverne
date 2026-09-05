@@ -106,7 +106,7 @@
   .nav .wrap{display:flex;align-items:center;gap:5px;height:54px;overflow-x:auto}
   .nav a{
     font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
-    padding:8px 11px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+    padding:8px 10px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
   }
   .nav a:hover{color:var(--ink);background:var(--accent-soft)}
   .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
@@ -413,6 +413,35 @@
     backdrop-filter:saturate(200%) blur(14px);
     box-shadow:inset 0 1px 0 rgba(255,255,255,1),
                0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
+
+  /* „Minți luminate" — culoarea secțiunii de cercetare universitară.
+     Chihlimbar spre bronz: singura familie caldă rămasă liberă. Verdele, roșul
+     și albastrul sunt ale verdictelor, petrolul e accentul, mov e Extern.
+     Numele e al fondatorului, 5 septembrie 2026 — „gen Beautiful Mind". */
+  .g-minti{background:linear-gradient(135deg,#c9a227,#7d5f10)}
+
+  /* Blocul „Articolul original, tradus integral" — sectiunea „Minți luminate".
+     🔴 Se vede DIFERIT de restul dinadins: nu e textul nostru, e al altcuiva,
+     tradus. Dunga din stanga il leaga de accent, iar corpul e mai mare si mai
+     aerisit fiindca e de citit pe indelete, nu de scanat ca o lista de dovezi.
+     Se foloseste doar cand sursa permite explicit reproducerea. */
+  .ev-block.traducere{border-left:5px solid var(--accent)}
+  .ev-block.traducere p{font-size:16.5px;line-height:1.68;margin:0 0 15px;color:var(--ink)}
+  .ev-block.traducere p:last-child{margin-bottom:0}
+  .ev-block.traducere .ev-sub{font-size:12.5px;line-height:1.5;
+    padding:11px 13px;border-radius:10px;background:var(--accent-soft);
+    color:var(--ink-soft);margin-bottom:20px}
+  .ev-block.traducere .ev-sub a{color:var(--accent);font-weight:700}
+
+  /* 🔴 Butonul de cautare e `position:sticky` lipit de marginea dreapta, deci
+     cand meniul depaseste latimea, el PLUTESTE peste ce ajunge sub el — a
+     acoperit „Moldova" cand am adaugat a 14-a intrare, pe 5 septembrie 2026.
+     Prima incercare a fost `min-width` pe separator: a inrautatit, fiindca a
+     mai adaugat 172px la un rand care oricum nu incapea.
+     Reparatia adevarata e sa NU depaseasca: eticheta din meniu e scurtata la
+     „Minți", titlul sectiunii ramane „Minți luminate". Daca se mai adauga
+     vreodata o categorie, asta e locul unde se rupe primul. */
+  .nav .md{flex-shrink:0}
 </style>
 <link rel="canonical" href="https://farabaliverne.ro/a/denis-popescu-record-national-fluture-europene-paris.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -463,6 +492,7 @@
       <a href="../index.html#economie">Economie</a>
       <a href="../index.html#extern">Extern</a>
       <a href="../index.html#stiinta">Știință</a>
+      <a href="../index.html#minti-luminate">Minți</a>
       <a href="../index.html#social">Social</a>
       <a href="../index.html#sport" class="active">Sport</a>
       <a href="../index.html#media-de-stat">Media de stat</a>

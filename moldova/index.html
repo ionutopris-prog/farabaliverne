@@ -107,7 +107,7 @@
   .nav .wrap{display:flex;align-items:center;gap:5px;height:54px;overflow-x:auto}
   .nav a{
     font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
-    padding:8px 11px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+    padding:8px 10px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
   }
   .nav a:hover{color:var(--ink);background:var(--accent-soft)}
   .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
@@ -536,6 +536,35 @@
     backdrop-filter:saturate(200%) blur(14px);
     box-shadow:inset 0 1px 0 rgba(255,255,255,1),
                0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
+
+  /* „Minți luminate" — culoarea secțiunii de cercetare universitară.
+     Chihlimbar spre bronz: singura familie caldă rămasă liberă. Verdele, roșul
+     și albastrul sunt ale verdictelor, petrolul e accentul, mov e Extern.
+     Numele e al fondatorului, 5 septembrie 2026 — „gen Beautiful Mind". */
+  .g-minti{background:linear-gradient(135deg,#c9a227,#7d5f10)}
+
+  /* Blocul „Articolul original, tradus integral" — sectiunea „Minți luminate".
+     🔴 Se vede DIFERIT de restul dinadins: nu e textul nostru, e al altcuiva,
+     tradus. Dunga din stanga il leaga de accent, iar corpul e mai mare si mai
+     aerisit fiindca e de citit pe indelete, nu de scanat ca o lista de dovezi.
+     Se foloseste doar cand sursa permite explicit reproducerea. */
+  .ev-block.traducere{border-left:5px solid var(--accent)}
+  .ev-block.traducere p{font-size:16.5px;line-height:1.68;margin:0 0 15px;color:var(--ink)}
+  .ev-block.traducere p:last-child{margin-bottom:0}
+  .ev-block.traducere .ev-sub{font-size:12.5px;line-height:1.5;
+    padding:11px 13px;border-radius:10px;background:var(--accent-soft);
+    color:var(--ink-soft);margin-bottom:20px}
+  .ev-block.traducere .ev-sub a{color:var(--accent);font-weight:700}
+
+  /* 🔴 Butonul de cautare e `position:sticky` lipit de marginea dreapta, deci
+     cand meniul depaseste latimea, el PLUTESTE peste ce ajunge sub el — a
+     acoperit „Moldova" cand am adaugat a 14-a intrare, pe 5 septembrie 2026.
+     Prima incercare a fost `min-width` pe separator: a inrautatit, fiindca a
+     mai adaugat 172px la un rand care oricum nu incapea.
+     Reparatia adevarata e sa NU depaseasca: eticheta din meniu e scurtata la
+     „Minți", titlul sectiunii ramane „Minți luminate". Daca se mai adauga
+     vreodata o categorie, asta e locul unde se rupe primul. */
+  .nav .md{flex-shrink:0}
 </style>
 <meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
 <link rel="canonical" href="https://farabaliverne.ro/moldova/">
@@ -1777,6 +1806,30 @@
     <h2 class="sec-title">Din lume</h2>
     <p class="dek" style="margin:-6px 0 18px">Ce se verifică în afară — aceleași articole ca la Fără Baliverne. Lumea nu e nici a unui mal, nici a celuilalt.</p>
     <div class="grid">
+          <a href="a/simulare-cornell-rusia-moldova-romania-articolul-5.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-simulare-cornell-rusia-moldova-romania-articolul-5" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-simulare-cornell-rusia-moldova-romania-articolul-5)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Washington Post (David Ignatius) / TD International / Radio România Regional / Profit.ro</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 7</span><span class="seg warn">⚠ 5</span><span class="seg op">✎ 3</span></div></div>
+              <h3>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</h3>
+              <p class="dek">Luni, 31 august 2026, un exercițiu de tip „war game” organizat de Brooks Institute al Universității Cornell împreună cu Fundația Rockefeller a pus membri în…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> The Washington Post (David Ignatius) / TD International / Radio România Regional / Profit.ro</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/craniu-maduva-osoasa-hub-imunitar-creier.html" class="card">
 
             <div class="photo g-sci">
@@ -1993,30 +2046,6 @@
               </div>
             </div>
           </a>
-          <a href="a/simulare-cornell-rusia-moldova-romania-articolul-5.html" class="card">
-
-            <div class="photo g-ext">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-simulare-cornell-rusia-moldova-romania-articolul-5" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-simulare-cornell-rusia-moldova-romania-articolul-5)"/></svg></div>
-                <div class="glyph">🌍</div>
-              </div>
-              
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Extern</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Washington Post (David Ignatius) / TD International / Radio România Regional / Profit.ro</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 7</span><span class="seg warn">⚠ 5</span><span class="seg op">✎ 3</span></div></div>
-              <h3>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</h3>
-              <p class="dek">Luni, 31 august 2026, un exercițiu de tip „war game” organizat de Brooks Institute al Universității Cornell împreună cu Fundația Rockefeller a pus membri în…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> The Washington Post (David Ignatius) / TD International / Radio România Regional / Profit.ro</span>
-                <span>· 2026-09-05</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
           <a href="a/spania-ceuta-proteste-luna-migranti-sanchez.html" class="card">
 
             <div class="photo g-ext">
@@ -2074,6 +2103,30 @@
     <h2 class="sec-title">Din România</h2>
     <p class="dek" style="margin:-6px 0 18px">Ce se verifică dincolo de Prut, la Fără Baliverne.</p>
     <div class="grid">
+          <a href="a/cornell-prognoza-midterms-2026-democrati-camera.html" class="card">
+
+            <div class="photo g-minti">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-cornell-prognoza-midterms-2026-democrati-camera" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-cornell-prognoza-midterms-2026-democrati-camera)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Minți luminate</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Cornell Chronicle / Departamentul de Științe Politice, Cornell / Verasight</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Minți luminate</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 4</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Un model de la Cornell dă democraților 8 șanse din 10 să ia Camera Reprezentanților. A nimerit ultimele 14 alegeri</h3>
+              <p class="dek">Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice de la Boston, o…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Cornell Chronicle / Departamentul de Științe Politice, Cornell / Verasight</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
           <a href="a/reform-uk-sondaje-contradictorii-locul-trei-egalitate.html" class="card">
 
             <div class="photo g-pol">
@@ -2333,30 +2386,6 @@
               <p class="dek">Indicele PMI manufacturier al zonei euro, publicat de S&P Global pe 1 septembrie 2026, a urcat la 52,7 în august, de la 51,9 în iulie — cel mai bun nivel din…</p>
               <div class="cmeta">
                 <span class="src"><span class="fav" style="background:#888"></span> S&P Global / Reuters (RTE, Investing.com)</span>
-                <span>· 2026-09-02</span>
-                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
-              </div>
-            </div>
-          </a>
-          <a href="a/pislaru-indexare-pensii-salarii-2027-buget-bruxelles.html" class="card">
-
-            <div class="photo g-eco">
-              <div class="art">
-                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-pislaru-indexare-pensii-salarii-2027-buget-bruxelles" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-pislaru-indexare-pensii-salarii-2027-buget-bruxelles)"/></svg></div>
-                <div class="glyph">💧</div>
-              </div>
-              <img data-cardphoto="1" src="img/articole/pislaru-indexare-pensii-salarii-2027-buget-bruxelles.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
-              <div class="grad"></div>
-              <div class="imgtag">Verificare Fără Baliverne</div>
-              <div class="cat-pill">Economie</div>
-              <div class="srcbadge"><span class="fav" style="background:#888"></span> Antena 3 CNN / BZI.ro</div>
-            </div>
-            <div class="cbody">
-              <div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Pîslaru spune că indexarea pensiilor și salariilor „e posibilă” din 2027, dar condiționată de un buget cu surse de finanțare clare</h3>
-              <p class="dek">Ministrul interimar al Muncii, Dragoș Pîslaru, a declarat pe 1 septembrie 2026 că indexarea pensiilor și salariilor de anul viitor e posibilă „dacă avem un…</p>
-              <div class="cmeta">
-                <span class="src"><span class="fav" style="background:#888"></span> Antena 3 CNN / BZI.ro</span>
                 <span>· 2026-09-02</span>
                 <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
               </div>

@@ -106,7 +106,7 @@
   .nav .wrap{display:flex;align-items:center;gap:5px;height:54px;overflow-x:auto}
   .nav a{
     font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
-    padding:8px 11px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+    padding:8px 10px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
   }
   .nav a:hover{color:var(--ink);background:var(--accent-soft)}
   .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
@@ -535,6 +535,35 @@
     backdrop-filter:saturate(200%) blur(14px);
     box-shadow:inset 0 1px 0 rgba(255,255,255,1),
                0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
+
+  /* „Minți luminate" — culoarea secțiunii de cercetare universitară.
+     Chihlimbar spre bronz: singura familie caldă rămasă liberă. Verdele, roșul
+     și albastrul sunt ale verdictelor, petrolul e accentul, mov e Extern.
+     Numele e al fondatorului, 5 septembrie 2026 — „gen Beautiful Mind". */
+  .g-minti{background:linear-gradient(135deg,#c9a227,#7d5f10)}
+
+  /* Blocul „Articolul original, tradus integral" — sectiunea „Minți luminate".
+     🔴 Se vede DIFERIT de restul dinadins: nu e textul nostru, e al altcuiva,
+     tradus. Dunga din stanga il leaga de accent, iar corpul e mai mare si mai
+     aerisit fiindca e de citit pe indelete, nu de scanat ca o lista de dovezi.
+     Se foloseste doar cand sursa permite explicit reproducerea. */
+  .ev-block.traducere{border-left:5px solid var(--accent)}
+  .ev-block.traducere p{font-size:16.5px;line-height:1.68;margin:0 0 15px;color:var(--ink)}
+  .ev-block.traducere p:last-child{margin-bottom:0}
+  .ev-block.traducere .ev-sub{font-size:12.5px;line-height:1.5;
+    padding:11px 13px;border-radius:10px;background:var(--accent-soft);
+    color:var(--ink-soft);margin-bottom:20px}
+  .ev-block.traducere .ev-sub a{color:var(--accent);font-weight:700}
+
+  /* 🔴 Butonul de cautare e `position:sticky` lipit de marginea dreapta, deci
+     cand meniul depaseste latimea, el PLUTESTE peste ce ajunge sub el — a
+     acoperit „Moldova" cand am adaugat a 14-a intrare, pe 5 septembrie 2026.
+     Prima incercare a fost `min-width` pe separator: a inrautatit, fiindca a
+     mai adaugat 172px la un rand care oricum nu incapea.
+     Reparatia adevarata e sa NU depaseasca: eticheta din meniu e scurtata la
+     „Minți", titlul sectiunii ramane „Minți luminate". Daca se mai adauga
+     vreodata o categorie, asta e locul unde se rupe primul. */
+  .nav .md{flex-shrink:0}
 </style>
 <meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
 <link rel="canonical" href="https://farabaliverne.ro/politicieni.html">
@@ -563,7 +592,7 @@
   <div class="topbar">
     <div class="wrap">
       <div class="date">Sâmbătă, 5 septembrie 2026 · Ediția de cafeluță</div>
-      <div class="live"><span class="dot"></span> 740 verificări publicate</div>
+      <div class="live"><span class="dot"></span> 741 verificări publicate</div>
     </div>
   </div>
 
@@ -585,6 +614,7 @@
       <a href="index.html#economie">Economie</a>
       <a href="index.html#extern">Extern</a>
       <a href="index.html#stiinta">Știință</a>
+      <a href="index.html#minti-luminate">Minți</a>
       <a href="index.html#social">Social</a>
       <a href="index.html#sport">Sport</a>
       <a href="index.html#media-de-stat">Media de stat</a>
@@ -615,8 +645,8 @@
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px;margin:14px 0 34px">
       <a href="#ilie-bolojan" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#e6a817;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">IB</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Ilie Bolojan</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#e6a817">PNL</b> · 60 verificări</span></span></a>
       <a href="#nicusor-dan" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#444;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">ND</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Nicușor Dan</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#444">Președinte</b> · 50 verificări</span></span></a>
+      <a href="#donald-trump" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">DT</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Donald Trump</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 39 verificări</span></span></a>
       <a href="#sorin-grindeanu" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#d0021b;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">SG</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Sorin Grindeanu</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#d0021b">PSD</b> · 39 verificări</span></span></a>
-      <a href="#donald-trump" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">DT</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Donald Trump</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 38 verificări</span></span></a>
       <a href="#dominic-fritz" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#1f6fb2;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">DF</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Dominic Fritz</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#1f6fb2">USR</b> · 26 verificări</span></span></a>
       <a href="#alexandru-nazare" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#e6a817;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">AN</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Alexandru Nazare</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#e6a817">PNL</b> · 15 verificări</span></span></a>
       <a href="#volodimir-zelenski" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">VZ</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Volodimir Zelenski</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 11 verificări</span></span></a>
@@ -790,6 +820,7 @@
       <a href="#oana-toiu" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">OȚ</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Oana Țoiu</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
       <a href="#pedro-sanchez" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">PS</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Pedro Sánchez</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
       <a href="#penny-wong" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">PW</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Penny Wong</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
+      <a href="#peter-k-enns" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">PE</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Peter K. Enns</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
       <a href="#prabowo-subianto" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">PS</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Prabowo Subianto</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
       <a href="#radu-burnete" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">RB</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Radu Burnete</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
       <a href="#radu-georgescu" style="display:flex;gap:11px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 13px;"><span style="flex:0 0 40px;height:40px;border-radius:50%;background:#777;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px">RG</span><span style="min-width:0"><span style="display:block;font-weight:700;font-size:14.5px;line-height:1.2">Radu Georgescu</span><span style="display:block;font-size:11.5px;color:var(--ink-faint);margin-top:2px"><b style="color:#777">—</b> · 1 verificări</span></span></a>
@@ -1514,6 +1545,245 @@
             </div></a>
           </div>
         </section>
+        <section class="cat-section" id="donald-trump">
+          <div class="section-head"><h2>Donald Trump <span style="font-size:12.5px;font-weight:700;color:#fff;background:#777;padding:2px 9px;border-radius:20px;vertical-align:middle">—</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 39 verificări</span></h2></div>
+          <div class="cards-3">
+          <a href="a/trump-iran-inflatie-300-procente-date-oficiale.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump spune că inflația din Iran a ajuns la 300% — datele Statisticii oficiale iraniene și ale agențiilor independente arată sub 90%</h3><p class="dek">Președintele american Donald Trump a scris pe Truth Social, pe 31 august 2026, că Iranul e „oficial un stat eșuat”, fără marină, aviație…</p>
+              <div class="cmeta"><span>· 2026-09-05</span><span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span></div>
+            </div></a>
+          <a href="a/simulare-cornell-rusia-moldova-romania-articolul-5.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 7</span><span class="seg warn">⚠ 5</span><span class="seg op">✎ 3</span></div></div>
+              <h3>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</h3><p class="dek">Luni, 31 august 2026, un exercițiu de tip „war game” organizat de Brooks Institute al Universității Cornell împreună cu Fundația…</p>
+              <div class="cmeta"><span>· 2026-09-05</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/cornell-prognoza-midterms-2026-democrati-camera.html" class="card">
+            <div class="photo g-minti"><div class="art"><div class="glyph">💡</div></div><div class="grad"></div><div class="cat-pill">Minți luminate</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Minți luminate</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 4</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Un model de la Cornell dă democraților 8 șanse din 10 să ia Camera Reprezentanților. A nimerit ultimele 14 alegeri</h3><p class="dek">Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice…</p>
+              <div class="cmeta"><span>· 2026-09-05</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-venezuela-acord-petrolier-65-miliarde-barili.html" class="card">
+            <div class="photo g-eco"><div class="art"><div class="glyph">💶</div></div><div class="grad"></div><div class="cat-pill">Economie</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 4</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump anunță „cel mai mare acord petrolier din istorie” cu Venezuela — durata concesiunii, operatorul privat și legalitatea rămân disputate</h3><p class="dek">Donald Trump a anunțat pe 29 august 2026 un acord prin care o companie nouă, cu capital american, ar urma să controleze 55% din producția a…</p>
+              <div class="cmeta"><span>· 2026-08-31</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-tarife-revenire-dupa-pierdere-curtea-suprema.html" class="card">
+            <div class="photo g-eco"><div class="art"><div class="glyph">💶</div></div><div class="grad"></div><div class="cat-pill">Economie</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Tarifele lui Trump, „lovite” de Curtea Supremă în februarie, sunt acum mai mari decât imediat după decizie — dar tot sub nivelul dinainte</h3><p class="dek">Pe 20 februarie 2026, Curtea Supremă a SUA a decis, 6-3, că legea IEEPA nu îi dă președintelui puterea de a impune tarife generalizate — o…</p>
+              <div class="cmeta"><span>· 2026-08-30</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-arabia-saudita-acord-nuclear-congres-israel.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump trimite acordul nuclear cu Arabia Saudită în Congres, dar îl leagă de recunoașterea Israelului</h3><p class="dek">🌍 Administrația Trump a trimis luni, 25 august 2026, Congresului acordul de cooperare nucleară civilă cu Arabia Saudită (un „acord…</p>
+              <div class="cmeta"><span>· 2026-08-26</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/scotus-ridica-suspendare-vot-corespondenta-trump-24-august.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Curtea Supremă a SUA permite parțial ordinul lui Trump privind votul prin corespondență — dar spune explicit că nu s-a pronunțat pe legalitatea lui</h3><p class="dek">🌍 Curtea Supremă a SUA a ridicat, pe 24 august 2026, una din cele două suspendări care blocau ordinul executiv al lui Donald Trump privind…</p>
+              <div class="cmeta"><span>· 2026-08-25</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-sondaj-razboi-iran-sprijin-31-procente-24-august.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Sondaj Reuters/Ipsos: sprijinul american pentru războiul cu Iranul scade la 31%, aprobarea lui Trump rămâne la minimul mandatului</h3><p class="dek">Un sondaj Reuters/Ipsos încheiat luni, 24 august 2026, arată sprijinul american pentru acțiunea militară în Iran la 31% — al treilea declin…</p>
+              <div class="cmeta"><span>· 2026-08-24</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-cohen-interviu-economie-25-puncte.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump spune că economia americană „n-a fost niciodată mai puternică” și că ar câștiga „cu 25 de puncte” — datele oficiale arată o încetinire</h3><p class="dek">Într-un interviu de împăcare cu fostul său avocat Michael Cohen, difuzat integral duminică, 23 august 2026, pe 77 WABC, Donald Trump a spus…</p>
+              <div class="cmeta"><span>· 2026-08-23</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
+            </div></a>
+          <a href="a/trump-scutire-tarif-carne-vita-90-zile.html" class="card">
+            <div class="photo g-eco"><div class="art"><div class="glyph">💶</div></div><div class="grad"></div><div class="cat-pill">Economie</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump scutește temporar de tarif carnea de vită importată peste cotă — critici spun că măsura nu rezolvă lipsa de vite din SUA</h3><p class="dek">Donald Trump a anunțat pe 21 august 2026 că permite importul a 300.000 de tone de carne de vită tocată, fără tariful suplimentar impus…</p>
+              <div class="cmeta"><span>· 2026-08-23</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-dc-criminalitate-no-crime-agresiuni-arma-garda-nationala.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Trump spune că Washington DC a trecut „de la criminalitate mare la ZERO criminalitate” — dar agresiunile cu armă au crescut 40%, iar declinul a început înainte de Garda Națională</h3><p class="dek">Pe 10 iulie 2026, Donald Trump a scris pe Truth Social că Washington DC „a trecut de la criminalitate mare la ZERO criminalitate” datorită…</p>
+              <div class="cmeta"><span>· 2026-08-23</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
+            </div></a>
+          <a href="a/canada-sua-negocieri-esuate-tarife-50-procente-22-august.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Negocierile comerciale SUA-Canada se prăbușesc din nou: Trump impune tarife de 50%, Carney promite răspuns „dolar pentru dolar” din 8 septembrie</h3><p class="dek">Doar două zile după ce SUA și Canada anunțaseră un acord tentativ pe tarife (19-20 august), negocierile s-au prăbușit vineri seară, 21…</p>
+              <div class="cmeta"><span>· 2026-08-22</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-census-24000-non-cetateni-vot-2020.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump spune că un raport al Census Bureau arată 24.000 de non-cetățeni care au votat ilegal în 2020 — experții contestă metodologia</h3><p class="dek">Președintele Trump a susținut pe rețelele sociale că o analiză nepublicată a Census Bureau arată aproximativ 24.000 de voturi ale unor…</p>
+              <div class="cmeta"><span>· 2026-08-21</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
+            </div></a>
+          <a href="a/casa-alba-sala-bal-curtea-suprema-suspendare-roberts.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Curtea Supremă a SUA permite temporar continuarea construcției sălii de bal de la Casa Albă</h3><p class="dek">Președintele Curții Supreme, John Roberts, a semnat vineri, 21 august 2026, un ordin administrativ de o singură propoziție prin care…</p>
+              <div class="cmeta"><span>· 2026-08-21</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/wyoming-degenfelder-trump-barlow-primar-guvernator.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Candidata susținută de Trump pentru guvernator în Wyoming, Megan Degenfelder, pierde alegerile primare în fața lui Eric Barlow</h3><p class="dek">Senatorul de stat Eric Barlow a câștigat marți, 18 august 2026, primarele republicane pentru guvernator din Wyoming, cu 45% din voturi…</p>
+              <div class="cmeta"><span>· 2026-08-21</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-aprobare-minim-mandat-doi-reuters-ipsos.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Aprobarea lui Trump scade la 33% — minim al celui de-al doilea mandat, egal cu cel mai slab scor din primul mandat</h3><p class="dek">Sondajul Reuters/Ipsos încheiat luni, 17 august 2026, arată aprobarea președintelui Donald Trump la 33%, cel mai slab scor din al doilea…</p>
+              <div class="cmeta"><span>· 2026-08-19</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/canada-sua-trump-amana-tarife-50-procente.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump amână cu trei zile tariful de 50% pe bunurile canadiene, la câteva ore de intrarea în vigoare — invocă un „DEAL” cu Carney</h3><p class="dek">Președintele Donald Trump a anunțat în seara de 18 spre 19 august 2026, cu doar câteva ore înainte ca tariful de 50% pe bunuri canadiene de…</p>
+              <div class="cmeta"><span>· 2026-08-19</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-doj-1000-monitori-alegeri-noiembrie-2026.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Departamentul de Justiție al SUA trimite circa 1.000 de monitori electorali la alegerile de la jumătatea mandatului din noiembrie 2026 — cel mai mare număr sub o administrație republicană</h3><p class="dek">Harmeet Dhillon, procuroarea generală adjunctă care conduce Divizia de Drepturi Civile a Departamentului de Justiție, a anunțat luni, 17…</p>
+              <div class="cmeta"><span>· 2026-08-18</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-reduce-exercitii-coreea-sud-kim.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Trump ordonă reducerea substanțială a exercițiilor militare SUA-Coreea de Sud, invocând relația bună cu Kim Jong Un</h3><p class="dek">Președintele american a anunțat duminică, 17 august 2026, pe Truth Social, că i-a ordonat secretarului Apărării, Pete Hegseth, să reducă…</p>
+              <div class="cmeta"><span>· 2026-08-17</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-iran-termen-60-zile-hormuz-expirat.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Termenul de 60 de zile al memorandumului SUA-Iran a expirat luni, fără acord pe strâmtoarea Hormuz</h3><p class="dek">Memorandumul semnat de Donald Trump la Islamabad pe 17 iunie 2026, care oprea operațiunile militare și dădea 60 de zile pentru o pace…</p>
+              <div class="cmeta"><span>· 2026-08-17</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-curtea-suprema-carroll-reexaminare-respinsa.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Curtea Supremă a SUA respinge, a doua oară, cererea lui Trump de reexaminare a verdictului de 5 milioane de dolari în procesul cu E. Jean Carroll</h3><p class="dek">Curtea Supremă a SUA a decis luni, 17 august 2026, printr-un ordin nesemnat și fără opinii disidente consemnate, să nu reexamineze apelul…</p>
+              <div class="cmeta"><span>· 2026-08-17</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-criminalitate-trump-effect-cifre-contestate.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Casa Albă anunță „efectul Trump” după o scădere reală a criminalității violente în SUA — dar cercetătorii spun că declinul a început încă din 2022, sub Biden</h3><p class="dek">Un raport al Major Cities Chiefs Association arată omucideri în scădere cu 17% în primele șase luni din 2026 față de 2025, în marile orașe…</p>
+              <div class="cmeta"><span>· 2026-08-16</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/casa-alba-sala-bal-curtea-suprema-recurs.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Administrația Trump cere Curții Supreme să permită continuarea construcției sălii de bal de la Casa Albă</h3><p class="dek">Vineri, 14 august 2026, administrația Trump a depus o cerere de urgență la Curtea Supremă a SUA pentru a putea continua construcția sălii…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-carlson-mtg-ruptura-maga-iran.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Ruptură în mișcarea MAGA: Tucker Carlson și Marjorie Taylor Greene acuză Trump că a „trădat” promisiunea „fără războaie noi”, discută un al treilea partid</h3><p class="dek">Comentatorul Tucker Carlson și fosta congresmenă Marjorie Taylor Greene, ambii apropiați ai mișcării MAGA, acuză public că președintele…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
+            </div></a>
+          <a href="a/trump-pac-maga-inc-30-milioane-congres-2026.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump aprobă o primă tranșă de circa 30 de milioane de dolari din PAC-ul său pentru republicanii vulnerabili din Congres</h3><p class="dek">Președintele Donald Trump a aprobat direcționarea a zeci de milioane de dolari din super PAC-ul său personal, MAGA Inc., către candidați…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/alaska-doi-dan-sullivan-trump-avertisment.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Alaska: doi candidați numiți „Dan Sullivan” pe buletinul de vot pentru Senat — instanțele resping excluderea celui de-al doilea, Trump avertizează alegătorii</h3><p class="dek">La primara nepartizană din Alaska (18 august 2026), pe buletinul de vot pentru Senat apar doi candidați numiți „Dan Sullivan”: senatorul…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-hormuz-teritoriu-sua-declaratie.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump spune că va declara Strâmtoarea Hormuz „teritoriu al SUA” — un fost diplomat american spune că nimeni nu o controlează în întregime</h3><p class="dek">Vineri, 14 august 2026, la un eveniment la Nassau County Police Academy (New York), Donald Trump a spus că „în curând” va declara…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-garda-nationala-washington-2029-criminalitate.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Garda Națională rămâne la Washington DC până în 2029 — administrația Trump și presa se contrazic pe cifrele de criminalitate</h3><p class="dek">La un an de la declararea unei „urgențe de securitate” în Washington DC, Pentagonul extinde desfășurarea Gărzii Naționale până în ianuarie…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/rusia-spirit-anchorage-aniversare-fara-acord.html" class="card">
+            <div class="photo g-state"><div class="art"><div class="glyph">📡</div></div><div class="grad"></div><div class="cat-pill">Media de stat</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Media de stat</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Un an de la summitul Trump-Putin din Alaska: presa de stat rusă a vândut luni „spiritul Anchorage”, Putin a recunoscut că nu s-a semnat nimic</h3><p class="dek">Azi se împlinește un an de la întâlnirea Trump-Putin de la Anchorage (15 august 2025). Timp de luni, oficialii ruși au SUSȚINUT public că…</p>
+              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
+            </div></a>
+          <a href="a/trump-catapulte-abur-portavioane-doris-miller.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump ordonă Marinei SUA să renunțe la catapultele electromagnetice și să revină la abur pe viitoarele portavioane</h3><p class="dek">Printr-un memorandum de securitate națională semnat joi, 13 august 2026, președintele Donald Trump a ordonat Marinei SUA să renunțe la…</p>
+              <div class="cmeta"><span>· 2026-08-14</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/harvard-antisemitism-proces-respins-sua.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Un judecător federal respinge procesul administrației Trump împotriva Harvard privind antisemitismul</h3><p class="dek">Judecătorul federal Richard Stearns, din Boston, a respins pe 13 august 2026 procesul prin care administrația Trump acuza Harvard de…</p>
+              <div class="cmeta"><span>· 2026-08-13</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-carlson-ruptura-nuclear-iran.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Tucker Carlson îl acuză pe Trump că a „amenințat deschis” cu arma nucleară Iranul — dar chiar Trump a negat public, la trei luni distanță, orice intenție de folosire</h3><p class="dek">🌍 Fost aliat media al lui Donald Trump, Tucker Carlson l-a numit „homicid” și „incapabil de leadership” într-un monolog de 90 de minute pe…</p>
+              <div class="cmeta"><span>· 2026-08-13</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-casa-alba-900-milioane-ocolire-congres.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Administrația Trump plănuiește cel puțin 900 de milioane $ pe construcții la Casa Albă — o curte de apel spune că are nevoie de aprobarea Congresului</h3><p class="dek">Administrația Trump plănuiește să cheltuiască cel puțin 900 de milioane de dolari pe construcții la Casa Albă — sală de bal, heliport…</p>
+              <div class="cmeta"><span>· 2026-08-13</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-nava-vela-nova-hormuz-blocada-iran.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>SUA dezactivează cu rachete Hellfire o navă sub pavilion Panama care încerca să spargă blocada navală asupra Iranului — Trump vorbește de „control total” în Hormuz</h3><p class="dek">Pe 11 august 2026, un elicopter american a tras două rachete Hellfire asupra cargobotului „Vela Nova”, sub pavilion Panama, în Golful Oman…</p>
+              <div class="cmeta"><span>· 2026-08-12</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-medicaid-tratamente-tranzitie-gen-minori.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Administrația Trump oprește finanțarea Medicaid pentru tratamente de tranziție de gen la minori — asociațiile medicale mari anunță proces</h3><p class="dek">Administrația Trump, prin CMS (Centers for Medicare and Medicaid Services), condusă de Dr. Mehmet Oz, a anunțat pe 11 august 2026 o regulă…</p>
+              <div class="cmeta"><span>· 2026-08-12</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/sua-judecatoare-talwani-vot-corespondenta-national.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>O judecătoare federală extinde la nivel național blocarea ordinului lui Trump privind votul prin corespondență</h3><p class="dek">🌍 Judecătoarea federală Indira Talwani (Massachusetts) a extins, pe 11 august 2026, la nivel național injoncțiunea care blochează Secțiunea…</p>
+              <div class="cmeta"><span>· 2026-08-12</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-zbor-secret-turcia-amenintare-iran.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului</h3><p class="dek">Washington Post relatează, citând oficiali americani, că președintele Donald Trump a fost mutat secret pe un avion militar mai mic după…</p>
+              <div class="cmeta"><span>· 2026-08-11</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-ordin-vaccinuri-copii.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi</h3><p class="dek">Președintele Donald Trump a semnat luni, 10 august 2026, un ordin executiv care reduce de la 17-18 la 11 numărul de boli pentru care CDC…</p>
+              <div class="cmeta"><span>· 2026-08-10</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          <a href="a/trump-ordine-cetatenie-nastere.html" class="card">
+            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Trump semnează două noi ordine executive pentru a limita cetățenia prin naștere în SUA, sfidând decizia Curții Supreme</h3><p class="dek">Administrația confirmă două ordine semnate pe 6 august, la cinci săptămâni după ce Curtea Supremă a respins, cu 6 la 3, prima încercare a…</p>
+              <div class="cmeta"><span>· 2026-08-07</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          </div>
+        </section>
         <section class="cat-section" id="sorin-grindeanu">
           <div class="section-head"><h2>Sorin Grindeanu <span style="font-size:12.5px;font-weight:700;color:#fff;background:#d0021b;padding:2px 9px;border-radius:20px;vertical-align:middle">PSD</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 39 verificări</span></h2></div>
           <div class="cards-3">
@@ -1750,239 +2020,6 @@
             <div class="cbody"><div class="toprow"><span class="cat-tag">Politică</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
               <h3>Grindeanu: „PSD nu va vota niciodată o lege a salarizării care aduce austeritate”. Ce a spus și ce e în joc</h3><p class="dek">Pe 24 iulie 2026, liderul PSD Sorin Grindeanu a anunțat că partidul nu va vota legea salarizării unitare „în forma de austeritate” și că…</p>
               <div class="cmeta"><span>· 2026-08-08</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          </div>
-        </section>
-        <section class="cat-section" id="donald-trump">
-          <div class="section-head"><h2>Donald Trump <span style="font-size:12.5px;font-weight:700;color:#fff;background:#777;padding:2px 9px;border-radius:20px;vertical-align:middle">—</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 38 verificări</span></h2></div>
-          <div class="cards-3">
-          <a href="a/trump-iran-inflatie-300-procente-date-oficiale.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump spune că inflația din Iran a ajuns la 300% — datele Statisticii oficiale iraniene și ale agențiilor independente arată sub 90%</h3><p class="dek">Președintele american Donald Trump a scris pe Truth Social, pe 31 august 2026, că Iranul e „oficial un stat eșuat”, fără marină, aviație…</p>
-              <div class="cmeta"><span>· 2026-09-05</span><span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span></div>
-            </div></a>
-          <a href="a/simulare-cornell-rusia-moldova-romania-articolul-5.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 7</span><span class="seg warn">⚠ 5</span><span class="seg op">✎ 3</span></div></div>
-              <h3>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</h3><p class="dek">Luni, 31 august 2026, un exercițiu de tip „war game” organizat de Brooks Institute al Universității Cornell împreună cu Fundația…</p>
-              <div class="cmeta"><span>· 2026-09-05</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-venezuela-acord-petrolier-65-miliarde-barili.html" class="card">
-            <div class="photo g-eco"><div class="art"><div class="glyph">💶</div></div><div class="grad"></div><div class="cat-pill">Economie</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 4</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump anunță „cel mai mare acord petrolier din istorie” cu Venezuela — durata concesiunii, operatorul privat și legalitatea rămân disputate</h3><p class="dek">Donald Trump a anunțat pe 29 august 2026 un acord prin care o companie nouă, cu capital american, ar urma să controleze 55% din producția a…</p>
-              <div class="cmeta"><span>· 2026-08-31</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-tarife-revenire-dupa-pierdere-curtea-suprema.html" class="card">
-            <div class="photo g-eco"><div class="art"><div class="glyph">💶</div></div><div class="grad"></div><div class="cat-pill">Economie</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Tarifele lui Trump, „lovite” de Curtea Supremă în februarie, sunt acum mai mari decât imediat după decizie — dar tot sub nivelul dinainte</h3><p class="dek">Pe 20 februarie 2026, Curtea Supremă a SUA a decis, 6-3, că legea IEEPA nu îi dă președintelui puterea de a impune tarife generalizate — o…</p>
-              <div class="cmeta"><span>· 2026-08-30</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-arabia-saudita-acord-nuclear-congres-israel.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump trimite acordul nuclear cu Arabia Saudită în Congres, dar îl leagă de recunoașterea Israelului</h3><p class="dek">🌍 Administrația Trump a trimis luni, 25 august 2026, Congresului acordul de cooperare nucleară civilă cu Arabia Saudită (un „acord…</p>
-              <div class="cmeta"><span>· 2026-08-26</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/scotus-ridica-suspendare-vot-corespondenta-trump-24-august.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Curtea Supremă a SUA permite parțial ordinul lui Trump privind votul prin corespondență — dar spune explicit că nu s-a pronunțat pe legalitatea lui</h3><p class="dek">🌍 Curtea Supremă a SUA a ridicat, pe 24 august 2026, una din cele două suspendări care blocau ordinul executiv al lui Donald Trump privind…</p>
-              <div class="cmeta"><span>· 2026-08-25</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-sondaj-razboi-iran-sprijin-31-procente-24-august.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Sondaj Reuters/Ipsos: sprijinul american pentru războiul cu Iranul scade la 31%, aprobarea lui Trump rămâne la minimul mandatului</h3><p class="dek">Un sondaj Reuters/Ipsos încheiat luni, 24 august 2026, arată sprijinul american pentru acțiunea militară în Iran la 31% — al treilea declin…</p>
-              <div class="cmeta"><span>· 2026-08-24</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-cohen-interviu-economie-25-puncte.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump spune că economia americană „n-a fost niciodată mai puternică” și că ar câștiga „cu 25 de puncte” — datele oficiale arată o încetinire</h3><p class="dek">Într-un interviu de împăcare cu fostul său avocat Michael Cohen, difuzat integral duminică, 23 august 2026, pe 77 WABC, Donald Trump a spus…</p>
-              <div class="cmeta"><span>· 2026-08-23</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
-            </div></a>
-          <a href="a/trump-scutire-tarif-carne-vita-90-zile.html" class="card">
-            <div class="photo g-eco"><div class="art"><div class="glyph">💶</div></div><div class="grad"></div><div class="cat-pill">Economie</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Economie</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump scutește temporar de tarif carnea de vită importată peste cotă — critici spun că măsura nu rezolvă lipsa de vite din SUA</h3><p class="dek">Donald Trump a anunțat pe 21 august 2026 că permite importul a 300.000 de tone de carne de vită tocată, fără tariful suplimentar impus…</p>
-              <div class="cmeta"><span>· 2026-08-23</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-dc-criminalitate-no-crime-agresiuni-arma-garda-nationala.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Trump spune că Washington DC a trecut „de la criminalitate mare la ZERO criminalitate” — dar agresiunile cu armă au crescut 40%, iar declinul a început înainte de Garda Națională</h3><p class="dek">Pe 10 iulie 2026, Donald Trump a scris pe Truth Social că Washington DC „a trecut de la criminalitate mare la ZERO criminalitate” datorită…</p>
-              <div class="cmeta"><span>· 2026-08-23</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
-            </div></a>
-          <a href="a/canada-sua-negocieri-esuate-tarife-50-procente-22-august.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>Negocierile comerciale SUA-Canada se prăbușesc din nou: Trump impune tarife de 50%, Carney promite răspuns „dolar pentru dolar” din 8 septembrie</h3><p class="dek">Doar două zile după ce SUA și Canada anunțaseră un acord tentativ pe tarife (19-20 august), negocierile s-au prăbușit vineri seară, 21…</p>
-              <div class="cmeta"><span>· 2026-08-22</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-census-24000-non-cetateni-vot-2020.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump spune că un raport al Census Bureau arată 24.000 de non-cetățeni care au votat ilegal în 2020 — experții contestă metodologia</h3><p class="dek">Președintele Trump a susținut pe rețelele sociale că o analiză nepublicată a Census Bureau arată aproximativ 24.000 de voturi ale unor…</p>
-              <div class="cmeta"><span>· 2026-08-21</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
-            </div></a>
-          <a href="a/casa-alba-sala-bal-curtea-suprema-suspendare-roberts.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Curtea Supremă a SUA permite temporar continuarea construcției sălii de bal de la Casa Albă</h3><p class="dek">Președintele Curții Supreme, John Roberts, a semnat vineri, 21 august 2026, un ordin administrativ de o singură propoziție prin care…</p>
-              <div class="cmeta"><span>· 2026-08-21</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/wyoming-degenfelder-trump-barlow-primar-guvernator.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Candidata susținută de Trump pentru guvernator în Wyoming, Megan Degenfelder, pierde alegerile primare în fața lui Eric Barlow</h3><p class="dek">Senatorul de stat Eric Barlow a câștigat marți, 18 august 2026, primarele republicane pentru guvernator din Wyoming, cu 45% din voturi…</p>
-              <div class="cmeta"><span>· 2026-08-21</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-aprobare-minim-mandat-doi-reuters-ipsos.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Aprobarea lui Trump scade la 33% — minim al celui de-al doilea mandat, egal cu cel mai slab scor din primul mandat</h3><p class="dek">Sondajul Reuters/Ipsos încheiat luni, 17 august 2026, arată aprobarea președintelui Donald Trump la 33%, cel mai slab scor din al doilea…</p>
-              <div class="cmeta"><span>· 2026-08-19</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/canada-sua-trump-amana-tarife-50-procente.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump amână cu trei zile tariful de 50% pe bunurile canadiene, la câteva ore de intrarea în vigoare — invocă un „DEAL” cu Carney</h3><p class="dek">Președintele Donald Trump a anunțat în seara de 18 spre 19 august 2026, cu doar câteva ore înainte ca tariful de 50% pe bunuri canadiene de…</p>
-              <div class="cmeta"><span>· 2026-08-19</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-doj-1000-monitori-alegeri-noiembrie-2026.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Departamentul de Justiție al SUA trimite circa 1.000 de monitori electorali la alegerile de la jumătatea mandatului din noiembrie 2026 — cel mai mare număr sub o administrație republicană</h3><p class="dek">Harmeet Dhillon, procuroarea generală adjunctă care conduce Divizia de Drepturi Civile a Departamentului de Justiție, a anunțat luni, 17…</p>
-              <div class="cmeta"><span>· 2026-08-18</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-reduce-exercitii-coreea-sud-kim.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Trump ordonă reducerea substanțială a exercițiilor militare SUA-Coreea de Sud, invocând relația bună cu Kim Jong Un</h3><p class="dek">Președintele american a anunțat duminică, 17 august 2026, pe Truth Social, că i-a ordonat secretarului Apărării, Pete Hegseth, să reducă…</p>
-              <div class="cmeta"><span>· 2026-08-17</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-iran-termen-60-zile-hormuz-expirat.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Termenul de 60 de zile al memorandumului SUA-Iran a expirat luni, fără acord pe strâmtoarea Hormuz</h3><p class="dek">Memorandumul semnat de Donald Trump la Islamabad pe 17 iunie 2026, care oprea operațiunile militare și dădea 60 de zile pentru o pace…</p>
-              <div class="cmeta"><span>· 2026-08-17</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-curtea-suprema-carroll-reexaminare-respinsa.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Curtea Supremă a SUA respinge, a doua oară, cererea lui Trump de reexaminare a verdictului de 5 milioane de dolari în procesul cu E. Jean Carroll</h3><p class="dek">Curtea Supremă a SUA a decis luni, 17 august 2026, printr-un ordin nesemnat și fără opinii disidente consemnate, să nu reexamineze apelul…</p>
-              <div class="cmeta"><span>· 2026-08-17</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-criminalitate-trump-effect-cifre-contestate.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 2</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Casa Albă anunță „efectul Trump” după o scădere reală a criminalității violente în SUA — dar cercetătorii spun că declinul a început încă din 2022, sub Biden</h3><p class="dek">Un raport al Major Cities Chiefs Association arată omucideri în scădere cu 17% în primele șase luni din 2026 față de 2025, în marile orașe…</p>
-              <div class="cmeta"><span>· 2026-08-16</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/casa-alba-sala-bal-curtea-suprema-recurs.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Administrația Trump cere Curții Supreme să permită continuarea construcției sălii de bal de la Casa Albă</h3><p class="dek">Vineri, 14 august 2026, administrația Trump a depus o cerere de urgență la Curtea Supremă a SUA pentru a putea continua construcția sălii…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-carlson-mtg-ruptura-maga-iran.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Ruptură în mișcarea MAGA: Tucker Carlson și Marjorie Taylor Greene acuză Trump că a „trădat” promisiunea „fără războaie noi”, discută un al treilea partid</h3><p class="dek">Comentatorul Tucker Carlson și fosta congresmenă Marjorie Taylor Greene, ambii apropiați ai mișcării MAGA, acuză public că președintele…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
-            </div></a>
-          <a href="a/trump-pac-maga-inc-30-milioane-congres-2026.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump aprobă o primă tranșă de circa 30 de milioane de dolari din PAC-ul său pentru republicanii vulnerabili din Congres</h3><p class="dek">Președintele Donald Trump a aprobat direcționarea a zeci de milioane de dolari din super PAC-ul său personal, MAGA Inc., către candidați…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/alaska-doi-dan-sullivan-trump-avertisment.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Alaska: doi candidați numiți „Dan Sullivan” pe buletinul de vot pentru Senat — instanțele resping excluderea celui de-al doilea, Trump avertizează alegătorii</h3><p class="dek">La primara nepartizană din Alaska (18 august 2026), pe buletinul de vot pentru Senat apar doi candidați numiți „Dan Sullivan”: senatorul…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-hormuz-teritoriu-sua-declaratie.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump spune că va declara Strâmtoarea Hormuz „teritoriu al SUA” — un fost diplomat american spune că nimeni nu o controlează în întregime</h3><p class="dek">Vineri, 14 august 2026, la un eveniment la Nassau County Police Academy (New York), Donald Trump a spus că „în curând” va declara…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-garda-nationala-washington-2029-criminalitate.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Garda Națională rămâne la Washington DC până în 2029 — administrația Trump și presa se contrazic pe cifrele de criminalitate</h3><p class="dek">La un an de la declararea unei „urgențe de securitate” în Washington DC, Pentagonul extinde desfășurarea Gărzii Naționale până în ianuarie…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/rusia-spirit-anchorage-aniversare-fara-acord.html" class="card">
-            <div class="photo g-state"><div class="art"><div class="glyph">📡</div></div><div class="grad"></div><div class="cat-pill">Media de stat</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Media de stat</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Un an de la summitul Trump-Putin din Alaska: presa de stat rusă a vândut luni „spiritul Anchorage”, Putin a recunoscut că nu s-a semnat nimic</h3><p class="dek">Azi se împlinește un an de la întâlnirea Trump-Putin de la Anchorage (15 august 2025). Timp de luni, oficialii ruși au SUSȚINUT public că…</p>
-              <div class="cmeta"><span>· 2026-08-15</span><span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span></div>
-            </div></a>
-          <a href="a/trump-catapulte-abur-portavioane-doris-miller.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump ordonă Marinei SUA să renunțe la catapultele electromagnetice și să revină la abur pe viitoarele portavioane</h3><p class="dek">Printr-un memorandum de securitate națională semnat joi, 13 august 2026, președintele Donald Trump a ordonat Marinei SUA să renunțe la…</p>
-              <div class="cmeta"><span>· 2026-08-14</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/harvard-antisemitism-proces-respins-sua.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Un judecător federal respinge procesul administrației Trump împotriva Harvard privind antisemitismul</h3><p class="dek">Judecătorul federal Richard Stearns, din Boston, a respins pe 13 august 2026 procesul prin care administrația Trump acuza Harvard de…</p>
-              <div class="cmeta"><span>· 2026-08-13</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-carlson-ruptura-nuclear-iran.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Tucker Carlson îl acuză pe Trump că a „amenințat deschis” cu arma nucleară Iranul — dar chiar Trump a negat public, la trei luni distanță, orice intenție de folosire</h3><p class="dek">🌍 Fost aliat media al lui Donald Trump, Tucker Carlson l-a numit „homicid” și „incapabil de leadership” într-un monolog de 90 de minute pe…</p>
-              <div class="cmeta"><span>· 2026-08-13</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-casa-alba-900-milioane-ocolire-congres.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Administrația Trump plănuiește cel puțin 900 de milioane $ pe construcții la Casa Albă — o curte de apel spune că are nevoie de aprobarea Congresului</h3><p class="dek">Administrația Trump plănuiește să cheltuiască cel puțin 900 de milioane de dolari pe construcții la Casa Albă — sală de bal, heliport…</p>
-              <div class="cmeta"><span>· 2026-08-13</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-nava-vela-nova-hormuz-blocada-iran.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
-              <h3>SUA dezactivează cu rachete Hellfire o navă sub pavilion Panama care încerca să spargă blocada navală asupra Iranului — Trump vorbește de „control total” în Hormuz</h3><p class="dek">Pe 11 august 2026, un elicopter american a tras două rachete Hellfire asupra cargobotului „Vela Nova”, sub pavilion Panama, în Golful Oman…</p>
-              <div class="cmeta"><span>· 2026-08-12</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-medicaid-tratamente-tranzitie-gen-minori.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Administrația Trump oprește finanțarea Medicaid pentru tratamente de tranziție de gen la minori — asociațiile medicale mari anunță proces</h3><p class="dek">Administrația Trump, prin CMS (Centers for Medicare and Medicaid Services), condusă de Dr. Mehmet Oz, a anunțat pe 11 august 2026 o regulă…</p>
-              <div class="cmeta"><span>· 2026-08-12</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/sua-judecatoare-talwani-vot-corespondenta-national.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
-              <h3>O judecătoare federală extinde la nivel național blocarea ordinului lui Trump privind votul prin corespondență</h3><p class="dek">🌍 Judecătoarea federală Indira Talwani (Massachusetts) a extins, pe 11 august 2026, la nivel național injoncțiunea care blochează Secțiunea…</p>
-              <div class="cmeta"><span>· 2026-08-12</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-zbor-secret-turcia-amenintare-iran.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
-              <h3>Trump a zburat secret din Turcia pe un avion-momeală, după o amenințare de asasinat din partea Iranului</h3><p class="dek">Washington Post relatează, citând oficiali americani, că președintele Donald Trump a fost mutat secret pe un avion militar mai mic după…</p>
-              <div class="cmeta"><span>· 2026-08-11</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-ordin-vaccinuri-copii.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Trump semnează un ordin executiv care reduce numărul vaccinurilor recomandate copiilor; legătura cu autismul rămâne nesusținută de dovezi</h3><p class="dek">Președintele Donald Trump a semnat luni, 10 august 2026, un ordin executiv care reduce de la 17-18 la 11 numărul de boli pentru care CDC…</p>
-              <div class="cmeta"><span>· 2026-08-10</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
-            </div></a>
-          <a href="a/trump-ordine-cetatenie-nastere.html" class="card">
-            <div class="photo g-ext"><div class="art"><div class="glyph">🌍</div></div><div class="grad"></div><div class="cat-pill">Extern</div></div>
-            <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 2</span></div></div>
-              <h3>Trump semnează două noi ordine executive pentru a limita cetățenia prin naștere în SUA, sfidând decizia Curții Supreme</h3><p class="dek">Administrația confirmă două ordine semnate pe 6 august, la cinci săptămâni după ce Curtea Supremă a respins, cu 6 la 3, prima încercare a…</p>
-              <div class="cmeta"><span>· 2026-08-07</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
             </div></a>
           </div>
         </section>
@@ -4864,6 +4901,17 @@
             <div class="cbody"><div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
               <h3>Armata israeliană închide fără acuzații penale ancheta morții lui Zomi Frankcom — Australia cheamă ambasadorul Israel</h3><p class="dek">Armata israeliană (IDF) a anunțat pe 19 august 2026 că nu va înainta acuzații penale în cazul loviturii aeriene din aprilie 2024 asupra…</p>
               <div class="cmeta"><span>· 2026-08-19</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
+            </div></a>
+          </div>
+        </section>
+        <section class="cat-section" id="peter-k-enns">
+          <div class="section-head"><h2>Peter K. Enns <span style="font-size:12.5px;font-weight:700;color:#fff;background:#777;padding:2px 9px;border-radius:20px;vertical-align:middle">—</span> <span style="font-size:13px;font-weight:700;color:var(--ink-faint)">· 1 verificări</span></h2></div>
+          <div class="cards-3">
+          <a href="a/cornell-prognoza-midterms-2026-democrati-camera.html" class="card">
+            <div class="photo g-minti"><div class="art"><div class="glyph">💡</div></div><div class="grad"></div><div class="cat-pill">Minți luminate</div></div>
+            <div class="cbody"><div class="toprow"><span class="cat-tag">Minți luminate</span><div class="report-badge sm"><span class="seg ok">✔ 6</span><span class="seg warn">⚠ 4</span><span class="seg op">✎ 2</span></div></div>
+              <h3>Un model de la Cornell dă democraților 8 șanse din 10 să ia Camera Reprezentanților. A nimerit ultimele 14 alegeri</h3><p class="dek">Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice…</p>
+              <div class="cmeta"><span>· 2026-09-05</span><span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span></div>
             </div></a>
           </div>
         </section>

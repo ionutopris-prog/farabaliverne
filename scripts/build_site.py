@@ -64,7 +64,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDX  = os.path.join(ROOT, "index.html")
 
 FEATURED = "legea-integritatii-vot-final"   # articolul din hero (rămâne curatoriat manual)
-CAT_ORDER = ["Politică", "Economie", "Extern", "Știință", "Media de stat", "Social", "Sport"]
+# 🔴 „Minți luminate" (5 septembrie 2026, numele ales de fondator, „gen Beautiful Mind"):
+# articole care pleacă de la CERCETAREA unei universități, în orice domeniu — baterii,
+# istorie, ceramică, politică sau modă. Ideea lui, verbatim: „prea mulți proști se cred
+# importanți tocmai pentru că îi promovează cineva, iar pe deștepți nu-i promovează nimeni
+# pentru că sunt greu de citit". Secțiunea e stratul care lipsește între studiu și cititor.
+# Regula ei: se pleacă de la STUDIU, nu de la comunicatul universității. Comunicatul spune
+# ce vrea universitatea să crezi; studiul spune ce s-a măsurat.
+CAT_ORDER = ["Politică", "Economie", "Extern", "Știință", "Minți luminate", "Media de stat", "Social", "Sport"]
 
 
 # Verdictul, redus la un cuvant — DOAR pentru Google, nu pentru cititor.
@@ -102,9 +109,9 @@ def verdict_scurt(v):
         if tl.startswith(eticheta.lower()):
             return "Neverificabil" if eticheta == "Neconfirmat" else eticheta
     return "Mixt"
-CAT_ID = {"Politică":"politica","Economie":"economie","Extern":"extern","Știință":"stiinta","Media de stat":"media-de-stat","Social":"social","Sport":"sport"}
-GCLASS = {"Politică":"g-pol","Economie":"g-eco","Social":"g-soc","Sport":"g-sport","Extern":"g-ext","Știință":"g-sci","Media de stat":"g-state"}
-CATGLYPH = {"Politică":"⚖️","Economie":"💶","Social":"👥","Extern":"🌍","Sport":"⚽","Știință":"🔬","Media de stat":"📡"}
+CAT_ID = {"Politică":"politica","Economie":"economie","Extern":"extern","Știință":"stiinta","Minți luminate":"minti-luminate","Media de stat":"media-de-stat","Social":"social","Sport":"sport"}
+GCLASS = {"Politică":"g-pol","Economie":"g-eco","Social":"g-soc","Sport":"g-sport","Extern":"g-ext","Știință":"g-sci","Minți luminate":"g-minti","Media de stat":"g-state"}
+CATGLYPH = {"Politică":"⚖️","Economie":"💶","Social":"👥","Extern":"🌍","Sport":"⚽","Știință":"🔬","Minți luminate":"💡","Media de stat":"📡"}
 
 # roster politicieni (echilibrat pe partide) — se pot adăuga oricând
 ROSTER = [

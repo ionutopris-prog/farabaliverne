@@ -93,6 +93,33 @@ def main_block(d):
 <!-- AUTO:titluri:end -->
 
 ''']
+    # 🔴 Traducerea integrala a textului original — camp folosit de sectiunea
+    # „Minti luminate" (5 septembrie 2026, cererea fondatorului: „vreau sa
+    # publici tot articolul, nu doar rezumat").
+    #
+    # Se pune INAINTEA verificarii, dinadins: cititorul primeste intai textul
+    # intreg al celor care au facut cercetarea, si abia apoi ce am verificat noi
+    # peste el. Invers ar insemna sa-i spunem ce sa creada inainte sa citeasca.
+    #
+    # 🔴 SE FOLOSESTE DOAR cand sursa permite EXPLICIT reproducerea. Cornell
+    # Chronicle o permite, scris in nota lor de copyright: „Permission is granted
+    # to excerpt or reprint any of this material in news or information media".
+    # Fara o astfel de permisiune, campul ramane gol si se scrie rezumat —
+    # regula veche pentru „Extern" ramane in picioare.
+    # Imaginile NU se preiau niciodata: la Cornell, pozele sunt separat protejate.
+    if d.get("traducere"):
+        t = d["traducere"]
+        cap = e(t.get("titlu", d["title"]))
+        semnatura = " · ".join(x for x in (t.get("publicatie"), t.get("autor"), t.get("data")) if x)
+        pars = "\n".join(f"        <p>{e(x)}</p>" for x in t.get("paragrafe", []) if str(x).strip())
+        h.append(
+            '      <section class="ev-block traducere">\n'
+            f'        <h2>📄 Articolul original, tradus integral</h2>\n'
+            f'        <p class="ev-sub">„{cap}” — {e(semnatura)}. '
+            f'Text tradus în română și reprodus cu permisiunea din nota de copyright a publicației. '
+            f'<a href="{e(t.get("url", d.get("url","")))}" target="_blank" rel="noopener noreferrer">Originalul, în engleză →</a></p>\n'
+            f'{pars}\n      </section>\n\n')
+
     h.append(sectiune("probat", "✅ Se probează",
                       "Afirmații susținute de surse verificabile.", itemi(d.get("probat"))))
     if nc:

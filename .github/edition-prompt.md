@@ -26,7 +26,9 @@ PASUL 1 — Cercetează (WebSearch + WebFetch), în funcție de FEREASTRA CURENT
 - „Unde se întâmplă mai des" — alege cel mai RELEVANT, nu forțat egal; rotește țările ca să nu te blochezi pe una.
 
 PASUL 2 — Categorii & tratament:
-category ∈ {Politică, Economie, Extern, Știință, Media de stat, Social, Sport} (cu diacritice).
+category ∈ {Politică, Economie, Extern, Știință, Minți luminate, Media de stat, Social, Sport} (cu diacritice).
+- 🔴 **Minți luminate — NU PUBLICA în categoria asta. Niciodată.** E singura secțiune scrisă de MÂNĂ, de fondator împreună cu Claude, în weekend. Decizia lui, 5 septembrie 2026: „astea le vom face noi, nu face redactorul automat". Dacă găsești un studiu bun, poți să-l scrii în `Știință` dacă e știință — dar categoria `Minți luminate` rămâne goală pentru tine.
+  Ce e (ca să înțelegi de ce n-o atingi): cercetare universitară în ORICE domeniu — baterii, istorie, ceramică, arheologie, politică, modă, lingvistică. Se pleacă de la STUDIU, nu de la comunicat; `url` trimite la lucrarea originală; se traduce în română, cu limitele recunoscute de autori. E muncă de citit lucrări, nu de rezumat comunicate — de aceea nu e automatizată.
 - **Extern:** rezumat ORIGINAL în română (NU traducere integrală). În aiNote: „🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate."
 - **Media de stat (categoria `Media de stat`):** când o afirmație vine din presa de stat (Xinhua, Global Times, CGTN, RT, TASS, Sputnik, PressTV, IRNA, SPA etc.):
   1. Spune clar în dek „ce SUSȚINE outletul X (media de stat din …)".
