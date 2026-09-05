@@ -558,6 +558,24 @@
   .ev-block.traducere .nota-republicare{
     margin-top:20px;padding-top:14px;border-top:1px solid var(--line);
     font-size:12px;color:var(--ink-faint);line-height:1.5}
+
+  /* „Dă mai departe" — blocul de la finalul articolului. Fondatorul a cerut
+     doar like și share, fără bani (5 septembrie 2026). */
+  .da-mai-departe{margin:26px 0 6px;padding:22px 24px;border:1px solid var(--line);
+    border-radius:16px;background:var(--panou-bg,var(--paper-2))}
+  .da-mai-departe h3{margin:0 0 6px;font-size:1.06rem;color:var(--ink)}
+  .da-mai-departe p{margin:0 0 14px;color:var(--ink-soft);font-size:.94rem;line-height:1.55}
+  .dmd-butoane{display:flex;flex-wrap:wrap;gap:9px}
+  .dmd{appearance:none;border:1px solid var(--line-2);background:var(--card);color:var(--ink);
+    padding:9px 15px;border-radius:999px;cursor:pointer;font:600 .9rem system-ui,-apple-system,sans-serif;
+    transition:background var(--lin,.25s ease),color var(--lin,.25s ease),border-color var(--lin,.25s ease),
+      box-shadow var(--lin,.25s ease),transform .18s ease}
+  .dmd:hover{border-color:var(--accent);color:var(--accent);
+    box-shadow:0 5px 16px rgba(0,0,0,.09);transform:translateY(-1px)}
+  .dmd.fb:hover{background:#1877f2;border-color:#1877f2;color:#fff}
+  .dmd.x:hover{background:#000;border-color:#000;color:#fff}
+  .dmd.like:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+  @media(max-width:520px){.dmd{flex:1 1 auto;text-align:center}}
 </style>
 <link rel="canonical" href="https://farabaliverne.ro/a/zelenski-kosovo-controversa-belgrad.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -732,7 +750,18 @@
           <p>Am pus alături ce se probează cu surse și ce rămâne contestat, neclar sau opinie. Verifică sursele, cântărește dovezile — tragi tu linia între fapt și interpretare.</p>
           <a href="../index.html" class="backlink">← Înapoi la prima pagină</a>
         </div>
-      </article>
+      
+            <div class="da-mai-departe">
+              <h3>Ți-a folosit?</h3>
+              <p>Fără Baliverne n-are patron și n-are buget de reclamă. Crește doar dacă cineva dă mai departe ce i-a fost de folos.</p>
+              <div class="dmd-butoane">
+                <button type="button" class="dmd like" onclick="toggleLike(this)">♥ Îmi place</button>
+                <button type="button" class="dmd fb" onclick="shareFB()">Dă mai departe pe Facebook</button>
+                <button type="button" class="dmd x" onclick="shareX()">Dă mai departe pe 𝕏</button>
+                <button type="button" class="dmd link" onclick="copyLink()">Copiază linkul</button>
+              </div>
+            </div>
+          </article>
 
     </div>
   </main>
