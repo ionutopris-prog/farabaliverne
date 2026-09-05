@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 05 Sep 2026 03:30:59 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 03:32:04 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>India anunță 7,8% creștere a PIB — un fost secretar de Finanțe spune că, fără o revizuire contabilă, cifra reală ar fi sub 2,6%</title>
+      <link>https://farabaliverne.ro/a/india-pib-7-8-controversa-garg-mospi.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/india-pib-7-8-controversa-garg-mospi.html</guid>
+      <pubDate>Sat, 05 Sep 2026 00:31:35 +0000</pubDate>
+      <category>Extern</category>
+      <description>Ministerul indian de Statistică (MoSPI) a anunțat, pe 2 septembrie 2026, o creștere de 7,8% a PIB-ului pentru trimestrul aprilie-iunie 2026 — peste estimarea de 7% a băncii centrale (RBI). Subhash Chandra Garg, fost secretar de Finanțe al Indiei, susține că cifra e umflată artificial de o revizuire în jos a PIB-ului anului trecut (de la 86 la 80 de mii de miliarde de rupii) și că, fără acea revizuire, creșterea reală ar fi fost sub 2,6%. Afirmația lui a fost susținută public de economistul Kaushik Basu (Cornell, fost consilier economic șef al Indiei) și preluată politic de opoziția din Congress, dar respinsă ferm de guvern și de o parte a mediului economic, care spun că Garg compară două serii statistice incompatibile.
+
+Unde bat probele: Contestat — cifra oficială de 7,8% e susținută de metodologia MoSPI și de o parte a economiștilor; calculul alternativ al lui Garg (sub 2,6%) e respins de guvern ca fiind o comparație „mere cu pere” între două serii de date; disputa tehnică rămâne nerezolvată public. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Taifunul Saudel a rupt un dig lângă Putian, în China: peste 100 de case surpate, mai mulți oameni dați dispăruți</title>
       <link>https://farabaliverne.ro/a/china-taifun-saudel-fujian-dig-rupt-putian.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 5 probate, 2 contestate.</desc
       <description>După runda de consultări cu partidele reluată pe 1 septembrie 2026 la Cotroceni, președintele Nicușor Dan nu a desemnat un candidat la premier, potrivit unor surse citate de Antena 3 CNN și BZI.ro. Dragoș Burnete și Eugen Tomac au ieșit din calcul, iar pe masă rămân doar Sorin Grindeanu (susținut de PSD) și Alexandru Nazare, actualul ministru interimar de Finanțe. România e condusă de un guvern fără puteri depline de aproape patru luni, de la moțiunea de cenzură care a picat Cabinetul Bolojan pe 5 mai 2026.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 5 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Moderna și Merck anunță că vaccinul lor ARN personalizat a trecut primul test de fază 3 împotriva revenirii melanomului</title>
-      <link>https://farabaliverne.ro/a/moderna-merck-vaccin-arn-melanom-faza-3.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moderna-merck-vaccin-arn-melanom-faza-3.html</guid>
-      <pubDate>Wed, 02 Sep 2026 06:34:30 +0000</pubDate>
-      <category>Știință</category>
-      <description>Merck și Moderna au anunțat pe 19 august 2026 că, în studiul de fază 3 INTerpath-001, vaccinul lor personalizat pe bază de ARN mesager (intismeran autogene), administrat alături de imunoterapicul Keytruda (pembrolizumab), a întârziat semnificativ revenirea melanomului la 1.137 de pacienți cu boală operată, comparativ cu Keytruda administrat singur. Companiile nu au publicat încă cifrele exacte ale beneficiului — doar că obiectivele studiului au fost „îndeplinite”.
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
