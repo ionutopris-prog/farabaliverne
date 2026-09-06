@@ -1,98 +1,91 @@
 {
- "slug": "onu-harta-equal-earth-mercator-africa",
- "title": "ONU adoptă o rezoluție pentru harta „Equal Earth”, care arată Africa la mărimea ei reală — SUA, singurul vot împotrivă",
- "category": "Extern",
- "date": "2026-09-04",
- "source": "UN News / Al Jazeera / CNN",
- "url": "https://news.un.org/en/story/2026/09/1168284",
- "dek": "🌍 Adunarea Generală a ONU a votat vineri, 4 septembrie 2026, cu 164 la 1 (6 abțineri), o rezoluție nelegiferantă care încurajează statele, școlile și companiile de tehnologie să folosească proiecția „Equal Earth” în locul hărții Mercator, care arată Groenlanda la o mărime aproape egală cu a Africii, deși continentul african e de circa 14 ori mai mare. Rezoluția, susținută de Uniunea Africană și propusă de Togo, a fost respinsă doar de Statele Unite.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Adunarea Generală a ONU a adoptat vineri, 4 septembrie 2026, rezoluția „Correct the Map”, propusă de statele membre ale Uniunii Africane și de Bahamas, cu un vot de 164 pentru, 1 împotrivă și 6 abțineri (Estonia, Georgia, Lituania, Moldova, Serbia și Ucraina). Singurul vot împotrivă a fost al Statelor Unite.",
-   "sources": [
+  "slug": "onu-harta-equal-earth-mercator-africa",
+  "title": "ONU adoptă o rezoluție pentru harta „Equal Earth”, care arată Africa la mărimea ei reală — SUA, singurul vot împotrivă",
+  "category": "Extern",
+  "date": "2026-09-04",
+  "source": "UN News / Al Jazeera / CNN",
+  "url": "https://news.un.org/en/story/2026/09/1168284",
+  "dek": "🌍 Adunarea Generală a ONU a votat vineri, 4 septembrie 2026, cu 164 la 1 (6 abțineri), o rezoluție nelegiferantă care încurajează statele, școlile și companiile de tehnologie să folosească proiecția „Equal Earth” în locul hărții Mercator, care arată Groenlanda la o mărime aproape egală cu a Africii, deși continentul african e de circa 14 ori mai mare. Rezoluția, susținută de Uniunea Africană și propusă de Togo, a fost respinsă doar de Statele Unite.",
+  "mainVerdict": "Probat",
+  "probat": [
     {
-     "name": "UN News — Stop making Africa look small",
-     "url": "https://news.un.org/en/story/2026/09/1168284"
+      "text": "Adunarea Generală a ONU a adoptat vineri, 4 septembrie 2026, rezoluția „Correct the Map”, propusă de statele membre ale Uniunii Africane și de Bahamas, cu un vot de 164 pentru, 1 împotrivă și 6 abțineri (Estonia, Georgia, Lituania, Moldova, Serbia și Ucraina). Singurul vot împotrivă a fost al Statelor Unite.",
+      "sources": [
+        {
+          "name": "UN News — Stop making Africa look small",
+          "url": "https://news.un.org/en/story/2026/09/1168284"
+        },
+        {
+          "name": "Al Jazeera — UN votes to adopt new world map that reflects Africa's true size",
+          "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size"
+        }
+      ]
     },
     {
-     "name": "Al Jazeera — UN votes to adopt new world map that reflects Africa's true size",
-     "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size"
-    }
-   ]
-  },
-  {
-   "text": "Rezoluția este nelegiferantă (nonbinding) și nu interzice folosirea hărții Mercator — încurajează guvernele, școlile, organizațiile internaționale și companiile de tehnologie să adopte proiecția „Equal Earth”, care păstrează proporțiile reale ale suprafețelor, și să predea limitele oricărei proiecții cartografice.",
-   "sources": [
-    {
-     "name": "CNN — UN votes to adopt new map that makes our world look very different",
-     "url": "https://www.cnn.com/2026/09/04/world/un-vote-new-world-map-intl-scli"
+      "text": "Rezoluția este nelegiferantă (nonbinding) și nu interzice folosirea hărții Mercator — încurajează guvernele, școlile, organizațiile internaționale și companiile de tehnologie să adopte proiecția „Equal Earth”, care păstrează proporțiile reale ale suprafețelor, și să predea limitele oricărei proiecții cartografice.",
+      "sources": [
+        {
+          "name": "CNN — UN votes to adopt new map that makes our world look very different",
+          "url": "https://www.cnn.com/2026/09/04/world/un-vote-new-world-map-intl-scli"
+        },
+        {
+          "name": "NPR — The U.N. backs a new world map showing Africa in its true relative size",
+          "url": "https://www.npr.org/2026/09/04/nx-s1-5958611/africa-world-map-un-vote"
+        }
+      ]
     },
     {
-     "name": "NPR — The U.N. backs a new world map showing Africa in its true relative size",
-     "url": "https://www.npr.org/2026/09/04/nx-s1-5958611/africa-world-map-un-vote"
-    }
-   ]
-  },
-  {
-   "text": "Pe proiecția Mercator (folosită de peste 450 de ani, inclusiv în multe manuale școlare și pe Google Maps până acum câțiva ani), Groenlanda apare cu o mărime comparabilă cu a Africii, deși Africa are o suprafață de circa 14 ori mai mare — distorsiune care crește pe măsură ce te apropii de poli și micșorează vizual continentele apropiate de ecuator, inclusiv Africa și America de Sud.",
-   "sources": [
-    {
-     "name": "UN News — Stop making Africa look small",
-     "url": "https://news.un.org/en/story/2026/09/1168284"
+      "text": "Pe proiecția Mercator (folosită de peste 450 de ani, inclusiv în multe manuale școlare și pe Google Maps până acum câțiva ani), Groenlanda apare cu o mărime comparabilă cu a Africii, deși Africa are o suprafață de circa 14 ori mai mare — distorsiune care crește pe măsură ce te apropii de poli și micșorează vizual continentele apropiate de ecuator, inclusiv Africa și America de Sud.",
+      "sources": [
+        {
+          "name": "UN News — Stop making Africa look small",
+          "url": "https://news.un.org/en/story/2026/09/1168284"
+        },
+        {
+          "name": "Fortune — U.N. General Assembly endorses a new world map that represents Africa more accurately",
+          "url": "https://fortune.com/2026/09/05/u-n-general-assembly-new-world-map-africa-mercator-equal-earth/"
+        }
+      ]
     },
     {
-     "name": "Fortune — U.N. General Assembly endorses a new world map that represents Africa more accurately",
-     "url": "https://fortune.com/2026/09/05/u-n-general-assembly-new-world-map-africa-mercator-equal-earth/"
+      "text": "Ministrul de Externe al Togo, Robert Dussey, care a condus campania în numele Uniunii Africane, a declarat: „O hartă corectă nu schimbă geografia lumii, ci schimbă felul în care o vedem.”",
+      "sources": [
+        {
+          "name": "UN News — Stop making Africa look small",
+          "url": "https://news.un.org/en/story/2026/09/1168284"
+        }
+      ]
     }
-   ]
+  ],
+  "contestat": [
+    {
+      "text": "Reprezentantul Statelor Unite, singurul vot împotrivă, a numit rezoluția parte dintr-un „proiect ideologic mult mai amplu și mai radical”, obiectând în special la referirile din text la reparații istorice și la conceptul de „justiție cognitivă” — o critică politică, nu una cartografică.",
+      "sources": [
+        {
+          "name": "The National — UN votes to adopt new map showing Africa's true size despite US opposition",
+          "url": "https://www.thenationalnews.com/news/us/2026/09/04/mercator-map-un-equal-earth-us/"
+        }
+      ]
+    },
+    {
+      "text": "Cele șase state care s-au abținut (Estonia, Georgia, Lituania, Moldova, Serbia, Ucraina) nu și-au explicat public poziția în sursele citate; motivele abținerii rămân neclare.",
+      "sources": [
+        {
+          "name": "Al Jazeera — UN votes to adopt new world map that reflects Africa's true size",
+          "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă rezoluția va schimba în practică hărțile din manuale, aplicații și săli de clasă rămâne de văzut — fiind nelegiferantă, depinde de decizia fiecărui guvern, editor sau companie de tehnologie de a o urma; Franța a anunțat același zi că va adopta noua proiecție, dar majoritatea statelor nu s-au pronunțat încă."
+    }
+  ],
+  "math": {
+    "title": "Africa e de 14 ori mai mare decât Groenlanda — nu „la fel de mare”",
+    "explanation": "Suprafața Africii este de circa 30,37 milioane km², iar a Groenlandei de circa 2,17 milioane km² — un raport de aproape 14 la 1. Pe harta Mercator, cele două apar totuși la dimensiuni vizuale apropiate, pentru că proiecția întinde suprafețele cu cât te îndepărtezi de ecuator spre poli. Votul de la ONU (164-1-6) arată o susținere aproape unanimă pentru corectarea acestei distorsiuni, dar rezoluția fiind nelegiferantă, ea nu obligă pe nimeni să schimbe harta folosită azi."
   },
-  {
-   "text": "Ministrul de Externe al Togo, Robert Dussey, care a condus campania în numele Uniunii Africane, a declarat: „O hartă corectă nu schimbă geografia lumii, ci schimbă felul în care o vedem.”",
-   "sources": [
-    {
-     "name": "UN News — Stop making Africa look small",
-     "url": "https://news.un.org/en/story/2026/09/1168284"
-    }
-   ]
-  }
- ],
- "contestat": [
-  {
-   "text": "Reprezentantul Statelor Unite, singurul vot împotrivă, a numit rezoluția parte dintr-un „proiect ideologic mult mai amplu și mai radical”, obiectând în special la referirile din text la reparații istorice și la conceptul de „justiție cognitivă” — o critică politică, nu una cartografică.",
-   "sources": [
-    {
-     "name": "The National — UN votes to adopt new map showing Africa's true size despite US opposition",
-     "url": "https://www.thenationalnews.com/news/us/2026/09/04/mercator-map-un-equal-earth-us/"
-    }
-   ]
-  },
-  {
-   "text": "Cele șase state care s-au abținut (Estonia, Georgia, Lituania, Moldova, Serbia, Ucraina) nu și-au explicat public poziția în sursele citate; motivele abținerii rămân neclare.",
-   "sources": [
-    {
-     "name": "Al Jazeera — UN votes to adopt new world map that reflects Africa's true size",
-     "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size"
-    }
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Dacă rezoluția va schimba în practică hărțile din manuale, aplicații și săli de clasă rămâne de văzut — fiind nelegiferantă, depinde de decizia fiecărui guvern, editor sau companie de tehnologie de a o urma; Franța a anunțat același zi că va adopta noua proiecție, dar majoritatea statelor nu s-au pronunțat încă."
-  }
- ],
- "math": {
-  "title": "Africa e de 14 ori mai mare decât Groenlanda — nu „la fel de mare”",
-  "explanation": "Suprafața Africii este de circa 30,37 milioane km², iar a Groenlandei de circa 2,17 milioane km² — un raport de aproape 14 la 1. Pe harta Mercator, cele două apar totuși la dimensiuni vizuale apropiate, pentru că proiecția întinde suprafețele cu cât te îndepărtezi de ecuator spre poli. Votul de la ONU (164-1-6) arată o susținere aproape unanimă pentru corectarea acestei distorsiuni, dar rezoluția fiind nelegiferantă, ea nu obligă pe nimeni să schimbe harta folosită azi."
- },
- "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (UN News, Al Jazeera, CNN, NPR, Fortune); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am marcat la „Contestat” faptul că opoziția SUA a fost formulată ca o obiecție ideologică, nu una legată de exactitatea cartografică, și că motivele celor șase abțineri nu au fost explicate public în sursele disponibile.",
- "persoane": [],
- "poza": {
-  "img_html": "<img src=\"../img/articole/onu-harta-equal-earth-mercator-africa.png\" alt=\"Equal Earth map projection world\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-  "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Equal Earth map projection world. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:BlankMap-World-150E_Equal_Earth.png\" rel=\"nofollow noopener\" target=\"_blank\">BlankMap-World-150E Equal Earth</a>\" de Kingfiser, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
-  "fisier": "img/articole/onu-harta-equal-earth-mercator-africa.png",
-  "licenta": "CC0",
-  "autor": "Kingfiser"
- }
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (UN News, Al Jazeera, CNN, NPR, Fortune); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am marcat la „Contestat” faptul că opoziția SUA a fost formulată ca o obiecție ideologică, nu una legată de exactitatea cartografică, și că motivele celor șase abțineri nu au fost explicate public în sursele disponibile.",
+  "persoane": []
 }
