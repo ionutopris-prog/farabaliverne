@@ -1,0 +1,91 @@
+{
+  "slug": "peru-rupe-relatii-diplomatice-iran",
+  "title": "Peru rupe relațiile diplomatice cu Iranul, invocând Strâmtoarea Hormuz și reprimarea internă — Teheranul nu a răspuns public",
+  "category": "Extern",
+  "date": "2026-09-06",
+  "source": "Rio Times / Iran International",
+  "url": "https://www.riotimesonline.com/peru-and-iran-cut-ties-but-consular-links-remain/",
+  "dek": "Prin comunicatul oficial 014-26, guvernul peruan a anunțat pe 1 septembrie 2026 ruperea relațiilor diplomatice cu Iranul, acuzându-l de restricționarea navigației prin Strâmtoarea Hormuz din martie 2026, obstrucționarea inspecțiilor nucleare internaționale și reprimarea internă a protestelor. Legăturile consulare rămân active, iar la data publicării Teheranul nu răspunsese public deciziei.",
+  "mainVerdict": "Probat, cu context",
+  "probat": [
+    {
+      "text": "Ministerul de Externe al Peru a anunțat, prin comunicatul oficial 014-26, ruperea relațiilor diplomatice cu Iranul, cu efect imediat. Vestea a fost relatată concordant de Rio Times și Iran International, cu aceleași motive citate din comunicatul peruan.",
+      "sources": [
+        {
+          "name": "Rio Times — Peru Cuts Ties with Iran, but Consular Links Remain",
+          "url": "https://www.riotimesonline.com/peru-and-iran-cut-ties-but-consular-links-remain/"
+        },
+        {
+          "name": "Iran International — Peru cuts diplomatic ties, accuses Iran of escalating Middle East war",
+          "url": "https://www.iranintl.com/en/202609025154"
+        }
+      ]
+    },
+    {
+      "text": "Motivele invocate oficial de Peru sunt: restricții asupra navigației prin Strâmtoarea Hormuz „din martie 2026”, pe care Lima le consideră o încălcare a libertății de navigație; obstrucționarea inspecțiilor Agenției Internaționale pentru Energie Atomică (AIEA) la instalațiile nucleare iraniene; și, separat, reprimarea internă a protestelor pașnice, restrângerea libertății presei și discriminarea femeilor — motive de politică internă a Iranului, invocate ca parte a deciziei.",
+      "sources": [
+        {
+          "name": "Rio Times — lista motivelor din comunicatul 014-26",
+          "url": "https://www.riotimesonline.com/peru-and-iran-cut-ties-but-consular-links-remain/"
+        },
+        {
+          "name": "Iran International — aceleași motive, relatate independent",
+          "url": "https://www.iranintl.com/en/202609025154"
+        }
+      ]
+    },
+    {
+      "text": "Ruperea relațiilor diplomatice nu afectează serviciile consulare: cetățenii peruani păstrează acces la pașapoarte, documente de urgență și asistență consulară, în baza Convenției de la Viena din 1963. Peru nu avea o ambasadă iraniană rezidentă la Lima — nota diplomatică a fost transmisă prin ambasada Iranului din Ecuador, care acoperea și Peru.",
+      "sources": [
+        {
+          "name": "Rio Times — mecanismul practic al rupturii și canalul de comunicare via Ecuador",
+          "url": "https://www.riotimesonline.com/peru-and-iran-cut-ties-but-consular-links-remain/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Acuzațiile din comunicatul peruan — că Iranul „incită” la escaladarea conflictelor din Orientul Mijlociu și că restricțiile de la Hormuz afectează prețurile globale la energie — sunt poziția politică a guvernului peruan, nu constatări verificate independent de o instanță internațională. Ambele redacții citate relatează motivele ca declarații ale Limei, fără verificare proprie a acuzațiilor concrete împotriva Iranului.",
+      "sources": [
+        {
+          "name": "Iran International — motivele redate ca acuzații ale Peru, nu ca fapte stabilite independent",
+          "url": "https://www.iranintl.com/en/202609025154"
+        }
+      ]
+    },
+    {
+      "text": "La data publicării, autoritățile iraniene nu răspunseseră public deciziei Peru, potrivit ambelor surse citate. Nu există, deocamdată, o poziție oficială a Teheranului față de acuzațiile formulate.",
+      "sources": [
+        {
+          "name": "Rio Times — despre absența unui răspuns iranian",
+          "url": "https://www.riotimesonline.com/peru-and-iran-cut-ties-but-consular-links-remain/"
+        },
+        {
+          "name": "Iran International — „Iranian authorities did not immediately respond”",
+          "url": "https://www.iranintl.com/en/202609025154"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Ce s-a verificat: Peru a anunțat oficial, prin comunicatul 014-26 din 1 septembrie 2026, ruperea relațiilor diplomatice cu Iranul, cu motivele citate concordant de Rio Times și Iran International — restricții la Hormuz, obstrucționarea inspecțiilor AIEA și reprimare internă. Unde e nevoie de prudență: acestea sunt acuzațiile guvernului peruan, formulate unilateral într-un comunicat diplomatic — nu constatări confirmate de un organism internațional independent (de exemplu, AIEA însăși nu e citată direct în relatări cu o declarație proprie despre acces refuzat în Iran). Ce lipsește: reacția oficială a Iranului, care nu răspunsese public la data publicării, și orice verificare independentă a afirmațiilor despre restricțiile de navigație de la Hormuz. Context: decizia Peru vine pe fondul unui val mai larg de tensiuni Iran–Vest legate de Hormuz, documentat și de alte articole recente din presa internațională. Ce ar schimba concluzia: un răspuns oficial iranian care contestă motivele invocate, sau o confirmare/infirmare independentă (AIEA, Reuters, agenții maritime) a restricțiilor de navigație descrise.",
+  "math": {
+    "title": "O ruptură fără ambasadă rezidentă",
+    "explanation": "Peru nu avea, la data anunțului, o ambasadă iraniană rezidentă pe teritoriul său — relația diplomatică era acoperită de ambasada Iranului din Ecuador, țară vecină. Practic, ruperea relațiilor a fost comunicată printr-o notă transmisă unei reprezentanțe dintr-o altă țară, nu unei misiuni prezente fizic la Lima — un detaliu care arată cât de subțire era, deja, legătura diplomatică directă dintre cele două state înainte de decizia din 1 septembrie 2026.",
+    "sources": [
+      {
+        "name": "Rio Times — despre canalul diplomatic via ambasada din Ecuador",
+        "url": "https://www.riotimesonline.com/peru-and-iran-cut-ties-but-consular-links-remain/"
+      }
+    ]
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/peru-rupe-relatii-diplomatice-iran.jpg\" alt=\"Torre Tagle Palace Lima\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Torre Tagle Palace Lima. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Palacio_de_Torre_Tagle_Lima,_Peru.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Palacio de Torre Tagle Lima, Peru</a>\" de Miguel Francisco Rueda Ñañez, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/peru-rupe-relatii-diplomatice-iran.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Miguel Francisco Rueda Ñañez"
+  }
+}
