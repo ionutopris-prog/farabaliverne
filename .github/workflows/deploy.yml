@@ -81,3 +81,9 @@ jobs:
             .well-known/**
             scripts/**
             farabaliverne-deploy.zip
+
+      # Bing/Yandex află pe loc ce am urcat (IndexNow). Google nu-l folosește —
+      # el se uită la sitemap-news.xml și la Publisher Center.
+      - name: Anunță Bing (IndexNow)
+        if: always()
+        run: python3 scripts/indexnow.py || true
