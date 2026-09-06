@@ -34,6 +34,13 @@
       "sursa": "USGS",
       "text": "Cutremur de magnitudine 5,0, la 70 km sud-vest de Pagar Alam, Indonezia.",
       "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tek0",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tek0",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,6, la 96 km est-sud-est de Isangel, Vanuatu.",
+      "tip": "Cutremur"
     }
   ]
 }
