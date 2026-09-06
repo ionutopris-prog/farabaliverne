@@ -1,0 +1,51 @@
+{
+  "slug": "moldova-somaj-73-la-suta-metodologie-eurostat",
+  "title": "Șomajul în Moldova a „scăzut” de la 10,4% la 7,3% într-un trimestru — parte din cifră vine dintr-o schimbare de metodologie, nu doar din piața muncii",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-09-06",
+  "source": "Biroul Național de Statistică / Ziarul Național / Logos Press / Telegraph.md",
+  "url": "https://statistica.gov.md/ro/forta-de-munca-ocuparea-si-somajul-in-trimestrul-ii-9430_62612.html",
+  "dek": "Biroul Național de Statistică a raportat, pe 3 septembrie 2026, o rată a șomajului de 7,3% în trimestrul al II-lea din 2026, în scădere cu 3,1 puncte procentuale față de cei 10,4% din trimestrul I. O parte din presă a titrat scăderea drept o îmbunătățire clară a pieței muncii. BNS însuși precizează însă, în nota metodologică a aceluiași comunicat, că datele din 2026 nu se compară direct cu anii anteriori: de la începutul lui 2026, ancheta forței de muncă (AFM) a fost ajustată la cerințele Eurostat, cu definiții noi care au extins categoria șomerilor.",
+  "mainVerdict": "Probat, cu nuanță: scăderea trimestrială e reală, dar baza de comparație s-a schimbat odată cu metodologia",
+  "probat": [
+    {
+      "text": "Potrivit comunicatului oficial al Biroului Național de Statistică, rata șomajului (15-74 ani) a fost de 7,3% în trimestrul al II-lea din 2026, față de 10,4% în trimestrul I — o scădere de 3,1 puncte procentuale. Numărul șomerilor a scăzut de la 93.600 la 67.600 de persoane, iar populația ocupată (15-89 ani) a crescut cu 5,9%, la 859.300 de persoane.",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Forța de muncă: ocuparea și șomajul în trimestrul II 2026", "url": "https://statistica.gov.md/ro/forta-de-munca-ocuparea-si-somajul-in-trimestrul-ii-9430_62612.html"},
+        {"name": "Ziarul Național — BNS: Ocuparea a crescut cu 5,9%, iar rata șomajului a scăzut la 7,3% în trimestrul II 2026", "url": "https://www.ziarulnational.md/bns-ocuparea-a-crescut-cu-59-iar-rata-somajului-a-scazut-la-73-in-trimestrul-ii-2026"}
+      ]
+    },
+    {
+      "text": "În același comunicat, la secțiunea de note metodologice, BNS precizează: „Începând cu anul 2026, instrumentarul de colectare a datelor din cadrul AFM a fost ajustat în conformitate cu cerințele Eurostat”, cu definiții noi aliniate la practicile statelor UE, inclusiv extinderea grupei de vârstă și includerea lucrătorilor sezonieri și a persoanelor aflate în așteptarea plecării la muncă în străinătate în categoria populației active. BNS adaugă explicit că majorarea numărului de șomeri față de anii precedenți se explică prin impactul acestor modificări metodologice.",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Forța de muncă: ocuparea și șomajul în trimestrul II 2026 (note metodologice)", "url": "https://statistica.gov.md/ro/forta-de-munca-ocuparea-si-somajul-in-trimestrul-ii-9430_62612.html"}
+      ]
+    },
+    {
+      "text": "Sub vechea metodologie, tiparul sezonier exista deja înainte de schimbare: în trimestrul II din 2025, rata șomajului a fost de 4,0%, în scădere față de 4,8% în trimestrul I din 2025 — o scădere de 0,8 puncte procentuale de la iarnă spre vară, mult mai mică decât cei 3,1 puncte din 2026, dar în aceeași direcție.",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Forța de muncă: ocuparea și șomajul în trimestrul II 2025", "url": "https://statistica.gov.md/ro/forta-de-munca-ocuparea-si-somajul-in-trimestrul-ii-9430_62002.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "O parte din presă a prezentat scăderea de 3,1 puncte procentuale drept dovadă a unei îmbunătățiri „semnificative” a pieței muncii, fără să menționeze că punctul de plecare — 10,4% în trimestrul I — a fost el însuși umflat față de anii precedenți tocmai de schimbarea metodologică pe care BNS o recunoaște explicit. Comparată cu același trimestru din 2025 (4,0%, sub metodologia veche), rata de 7,3% din 2026 arată de fapt un nivel mult mai ridicat — diferență despre care nu putem spune cât se datorează definițiilor noi și cât unei evoluții reale a pieței muncii, pentru că BNS nu a publicat o serie recalculată pentru 2024-2025 sub metodologia actuală.",
+      "sources": [
+        {"name": "Logos Press — Șomajul în Moldova a crescut la 10,4%, apoi a scăzut la 7,3%", "url": "https://logos-pres.md/noutati/somajul-in-moldova-a-crescut-brusc/"},
+        {"name": "Telegraph.md — Ocuparea a crescut cu 5,9%, iar șomajul a scăzut la 7,3% în trimestrul II", "url": "https://telegraph.md/ocuparea-a-crescut-cu-59-iar-somajul-a-scazut-la-73-in-trimestrul-ii/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": "93.600 șomeri (trim. I 2026) − 67.600 șomeri (trim. II 2026) = 26.000 mai puțini, adică 3,1 puncte procentuale (10,4% → 7,3%). Pentru comparație, sub metodologia veche, trim. II 2025 arăta 4,0% — mai puțin de jumătate din cei 7,3% raportați acum pentru același trimestru calendaristic.",
+  "aiNote": "Ce s-a verificat: comunicatele oficiale ale Biroului Național de Statistică pentru trimestrele I și II din 2026, inclusiv nota metodologică din josul fiecăruia, comparate cu comunicatele echivalente pentru 2025 (ultimele publicate sub metodologia veche) și cu modul în care Logos Press, Ziarul Național, Telegraph.md și Bancamea.md au titrat cifrele.\n\nUnde se despart lucrurile: cifrele în sine nu sunt disputate — toată lumea citează aceleași 10,4% și 7,3% de la BNS. Ce diferă e contextul. BNS spune negru pe alb, în propriul comunicat, că datele din 2026 nu se compară direct cu anii anteriori, pentru că ancheta forței de muncă a fost aliniată la cerințele Eurostat, cu definiții mai largi ale populației active și ale șomajului. O parte din presă a reținut doar mișcarea de la un trimestru la altul („a scăzut cu 3,1 puncte”) și a prezentat-o ca semn clar de relaxare a pieței muncii, fără să explice de ce trimestrul I a ieșit atât de sus față de anii trecuți.\n\nMecanismul: o parte din scăderea trimestrială e sezonalitate obișnuită — și sub metodologia veche, șomajul cobora de la trimestrul I la trimestrul II (de la 4,8% la 4,0% în 2025), pentru că iarna sunt mai puține activități agricole și sezoniere. Dar diferența de nivel dintre 2025 și 2026 pentru același trimestru (4,0% față de 7,3%) e prea mare ca să fie doar sezonalitate; cea mai plauzibilă explicație, susținută chiar de BNS, e că metodologia nouă „prinde” mai mulți oameni în categoria șomerilor — lucrători sezonieri, persoane în așteptarea plecării la muncă în străinătate — decât cea veche.\n\nCe lipsește: o serie istorică recalculată de BNS pentru 2023-2025 sub metodologia 2026, care ar arăta clar cât din diferența față de anii trecuți vine din definiții și cât dintr-o schimbare reală a pieței muncii. Fără ea, nici „șomajul a scăzut semnificativ”, nici „șomajul a crescut față de anul trecut” nu sunt afirmații pe deplin verificabile — ambele amestecă efectul metodologic cu cel real.\n\nCe ar schimba concluzia: publicarea de către BNS a unei serii recalculate retroactiv, sau o metodologie de comparație explicită (de exemplu, un indicator „ajustat” pentru anii de tranziție), așa cum fac alte oficii de statistică atunci când schimbă definiții.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-somaj-73-la-suta-metodologie-eurostat.jpeg\" alt=\"Chisinau Moldova cityscape\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chisinau Moldova cityscape. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Good_Morning_Chisinau_(237826603).jpeg\" rel=\"nofollow noopener\" target=\"_blank\">Good Morning Chisinau (237826603)</a>\" de Adli Wahid, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-somaj-73-la-suta-metodologie-eurostat.jpeg",
+    "licenta": "CC BY-SA 3.0"
+  }
+}
