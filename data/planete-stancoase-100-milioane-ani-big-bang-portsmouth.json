@@ -1,0 +1,64 @@
+{
+  "slug": "planete-stancoase-100-milioane-ani-big-bang-portsmouth",
+  "title": "Simulări arată că planetele stâncoase s-ar fi putut forma la doar 100 de milioane de ani după Big Bang",
+  "category": "Știință",
+  "date": "2026-08-28",
+  "source": "The Astrophysical Journal Letters / Universitatea Portsmouth",
+  "url": "https://arxiv.org/abs/2501.08375",
+  "dek": "O echipă condusă de Dr. Daniel Whalen, de la Universitatea Portsmouth, a publicat în The Astrophysical Journal Letters simulări care arată că discuri bogate în apă și material solid s-ar fi putut forma în jurul unor stele de masă mică la doar 100 de milioane de ani după Big Bang — cu sute de milioane de ani mai devreme decât presupunea până acum teoria dominantă a formării planetare.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Studiul „Planet Formation at Cosmic Dawn: Planetesimals in H₂O-Rich Disks around Low-Mass Stars”, semnat de Eduard I. Vorobyov, Daniel J. Whalen, Muhammad A. Latif, Alexander M. Skliarevskii, Christopher Jessop, Ryoki Matsukoba, Takashi Hosokawa și Devesh Nandal, a fost acceptat spre publicare în The Astrophysical Journal Letters, după ce a fost depus ca preprint pe arXiv în ianuarie 2025. Cercetarea a fost condusă de la Institutul de Cosmologie și Gravitație al Universității Portsmouth.",
+      "sources": [
+        {
+          "name": "arXiv — Planet Formation at Cosmic Dawn (preprint 2501.08375)",
+          "url": "https://arxiv.org/abs/2501.08375"
+        },
+        {
+          "name": "Phys.org — First supernovae may have seeded rocky planet building blocks 100 million years after the Big Bang",
+          "url": "https://phys.org/news/2026-08-supernovae-seeded-rocky-planet-blocks.html"
+        }
+      ]
+    },
+    {
+      "text": "Echipa a rulat simulări computerizate ale universului timpuriu în care o supernovă de tip „pair-instability” — o explozie extrem de puternică a primelor stele din univers (stele „Pop III”), capabilă să arunce în spațiu peste 100 de mase solare de elemente grele — îmbogățește gazul din jur, iar acesta se prăbușește apoi în jurul unei stele nou-formate, de aproximativ 70% din masa Soarelui. În simulare, discul rezultat conținea suficient material solid pentru mai multe mase terestre de „planetesimale” (corpurile de câțiva metri până la kilometri care sunt precursorii planetelor), situate la 0,5–1,0 unități astronomice de stea — zona în care s-ar putea forma planete stâncoase.",
+      "sources": [
+        {
+          "name": "Sci.News — Rocky Planets May Have Started Forming Just 100 Million Years after Big Bang",
+          "url": "https://www.sci.news/astronomy/early-universe-planets-14987.html"
+        },
+        {
+          "name": "arXiv — Planet Formation at Cosmic Dawn (preprint 2501.08375)",
+          "url": "https://arxiv.org/abs/2501.08375"
+        }
+      ]
+    },
+    {
+      "text": "Discul simulat conținea cantități substanțiale de apă — de câteva ori mai puțin decât se estimează că exista în discul din care s-a format Sistemul Solar. Concluzia echipei: primele planetesimale din istoria universului ar fi putut fi „îmbogățite în apă, prin analogie directă cu Pământul din Sistemul Solar”, ceea ce contrazice ideea că apa și materialele necesare vieții au apărut abia după generații multiple de stele.",
+      "sources": [
+        {
+          "name": "arXiv — Planet Formation at Cosmic Dawn (preprint 2501.08375)",
+          "url": "https://arxiv.org/abs/2501.08375"
+        },
+        {
+          "name": "ScienceDaily — Rocky planets may have formed just 100 million years after the Big Bang",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260828082345.htm"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Titlurile din presă („planetele s-au format la 100 de milioane de ani după Big Bang”) sună ca o descoperire observațională, dar studiul e o simulare computerizată a unui singur scenariu posibil, nu detectarea unei planete reale din universul timpuriu. Echipa a arătat că fizica permite formarea unor planetesimale bogate în apă atât de devreme — nu că astfel de planete au existat cu adevărat sau că vreun telescop le-a văzut."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu științific publicat în The Astrophysical Journal Letters (preprint pe arXiv), relatat și de Phys.org, Sci.News și ScienceDaily. E important de reținut ce a demonstrat de fapt studiul: nu o observație directă a unor planete din universul timpuriu (niciun telescop nu poate încă vedea așa de departe și de precis), ci o simulare care arată că fizica exploziilor supernovelor „Pop III” ar fi permis, teoretic, formarea unor discuri bogate în apă și material solid la doar 100 de milioane de ani după Big Bang — cu mult mai devreme decât presupunea teoria standard, care leagă formarea planetelor de generații succesive de stele care „reciclează” elementele grele. Ce lipsește: nicio confirmare observațională; simularea modelează un singur scenariu (o stea de ~70% din masa Soarelui, lângă o singură supernovă pair-instability), nu o statistică asupra cât de des s-ar fi putut întâmpla acest lucru în universul real. Ce ar schimba concluzia: detectarea directă, cu telescoape precum James Webb, a unor discuri protoplanetare sau planete la distanțe cosmologice corespunzătoare acelei epoci — ceva ce depășește deocamdată capacitățile instrumentelor actuale.",
+  "math": {
+    "title": "Ce e o supernovă „pair-instability” și de ce contează pentru planete",
+    "explanation": "Stelele foarte masive din universul timpuriu (Pop III) nu mor ca stelele obișnuite. La o anumită masă, miezul lor devine atât de fierbinte încât energia razelor gamma începe să se transforme spontan în perechi electron-pozitron — un proces care „fură” brusc presiunea care ținea steaua în echilibru. Steaua se prăbușește și explodează într-o singură reacție termonucleară uriașă, aruncând în spațiu sute de mase solare de elemente grele (carbon, oxigen, siliciu, fier) dintr-o singură lovitură, spre deosebire de supernovele obișnuite, mai mici. Practic, aceste explozii timpurii ar fi putut „semăna” dintr-o singură dată suficient material greu pentru ca o stea vecină, mai mică și longevivă, să adune în jurul ei un disc din care se pot forma planete stâncoase — fără să mai fie nevoie de zeci de generații de stele care să recicleze treptat elementele grele, cum presupune teoria clasică."
+  },
+  "persoane": [],
+  "poza": {}
+}

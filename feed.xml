@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 06 Sep 2026 09:35:45 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 09:37:53 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Racheta germană Spectrum a ajuns pe orbită — prima lansare orbitală privată de pe teritoriul continental european</title>
+      <link>https://farabaliverne.ro/a/isar-aerospace-spectrum-orbit-andoya.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/isar-aerospace-spectrum-orbit-andoya.html</guid>
+      <pubDate>Sun, 06 Sep 2026 06:36:28 +0000</pubDate>
+      <category>Știință</category>
+      <description>Racheta Spectrum a companiei germane Isar Aerospace a decolat sâmbătă, 5 septembrie 2026, ora 22:12 GMT, de la baza Andøya din nordul Norvegiei, și a plasat cu succes cinci sateliți mici pe orbită — a doua tentativă a companiei, după ce prima, din martie 2025, s-a încheiat cu explozia rachetei la 30 de secunde de la decolare.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Japonia pregătește funeralii mult mai reduse pentru fostul împărat Akihito, la cererea sa explicită</title>
       <link>https://farabaliverne.ro/a/japonia-akihito-funeralii-reduse-agentia-casei-imperiale.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 0 contestate.</desc
       <description>Un studiu publicat în revista Science pe 3 septembrie 2026, realizat la MD Anderson Cancer Center, arată că două doze de psilocibină administrate înainte de chimioterapie au protejat șoarecii de leziuni nervoase timp de până la șase cicluri de tratament, cu trei chimioterapice diferite. Cercetătorii avertizează explicit că rezultatele sunt doar preclinice — nu au fost testate încă pe oameni — și urmează un studiu clinic de fază 2 pentru a verifica dacă efectul se reproduce la pacienți.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Misiunea BepiColombo a intrat în faza de sosire la Mercur, după opt ani de călătorie</title>
-      <link>https://farabaliverne.ro/a/bepicolombo-mercur-faza-sosire-3-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bepicolombo-mercur-faza-sosire-3-septembrie.html</guid>
-      <pubDate>Fri, 04 Sep 2026 06:37:58 +0000</pubDate>
-      <category>Știință</category>
-      <description>Pe 3 septembrie 2026, modulul de transfer al misiunii europeano-japoneze BepiColombo s-a separat de cei doi orbitatori științifici, la peste 200 de milioane de kilometri de Pământ — primul pas dintr-o secvență de sosire pe care ESA o descrie drept una dintre cele mai complicate din istoria agenției. Intrarea efectivă pe orbita lui Mercur e programată pentru 21 noiembrie 2026, iar faza științifică începe în aprilie 2027.
-
-Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
