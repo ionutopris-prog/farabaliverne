@@ -87,5 +87,12 @@
     "explanation": "Suprafața Africii este de circa 30,37 milioane km², iar a Groenlandei de circa 2,17 milioane km² — un raport de aproape 14 la 1. Pe harta Mercator, cele două apar totuși la dimensiuni vizuale apropiate, pentru că proiecția întinde suprafețele cu cât te îndepărtezi de ecuator spre poli. Votul de la ONU (164-1-6) arată o susținere aproape unanimă pentru corectarea acestei distorsiuni, dar rezoluția fiind nelegiferantă, ea nu obligă pe nimeni să schimbe harta folosită azi."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (UN News, Al Jazeera, CNN, NPR, Fortune); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am marcat la „Contestat” faptul că opoziția SUA a fost formulată ca o obiecție ideologică, nu una legată de exactitatea cartografică, și că motivele celor șase abțineri nu au fost explicate public în sursele disponibile.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/onu-harta-equal-earth-mercator-africa.jpg\" alt=\"Equal\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Equal. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cylindrical_equal-area_projection_SW.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cylindrical equal-area projection SW</a>\" de Strebe, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/onu-harta-equal-earth-mercator-africa.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Strebe"
+  }
 }

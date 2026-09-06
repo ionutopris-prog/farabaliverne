@@ -1,62 +1,90 @@
 {
- "slug": "sudan-mercenari-columbieni-drone-onu-raport",
- "title": "Raport ONU: până la 2.000 de foști militari columbieni au operat drone și artilerie pentru RSF în Sudan, cu rețele de recrutare legate de Emirate",
- "category": "Extern",
- "date": "2026-09-03",
- "source": "UN News / Middle East Eye",
- "url": "https://news.un.org/en/story/2026/09/1168270",
- "dek": "🌍 Misiunea Independentă de Anchetă a ONU pentru Sudan a publicat, miercuri, 3 septembrie 2026, un raport care găsește „motive rezonabile să creadă” că rețele transnaționale — cu recrutori și intermediari legați de Columbia și Emiratele Arabe Unite — au adus până la 2.000 de foști militari columbieni să opereze drone, artilerie și sisteme antiaeriene pentru Forțele de Sprijin Rapid (RSF) din Darfur și Kordofan. Emiratele au respins acuzațiile, spunând că rămân „neutre” și că nu au găsit dovezi de activitate mercenară sub jurisdicția lor.",
- "mainVerdict": "Probat",
- "probat": [
-  {
-   "text": "Misiunea Independentă Internațională de Anchetă a ONU pentru Sudan a publicat pe 3 septembrie 2026 un raport care documentează implicarea a până la 2.000 de foști militari columbieni, recrutați începând din august 2024, care au operat drone de recunoaștere și atac, artilerie și sisteme antiaeriene alături de unitățile RSF în Darfur și Kordofan — cunoscuți drept unitatea „Desert Wolves”.",
-   "sources": [
-    {"name": "UN News — Outside forces fuel Sudan war, new report finds", "url": "https://news.un.org/en/story/2026/09/1168270"},
-    {"name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds", "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"}
-   ]
+  "slug": "sudan-mercenari-columbieni-drone-onu-raport",
+  "title": "Raport ONU: până la 2.000 de foști militari columbieni au operat drone și artilerie pentru RSF în Sudan, cu rețele de recrutare legate de Emirate",
+  "category": "Extern",
+  "date": "2026-09-03",
+  "source": "UN News / Middle East Eye",
+  "url": "https://news.un.org/en/story/2026/09/1168270",
+  "dek": "🌍 Misiunea Independentă de Anchetă a ONU pentru Sudan a publicat, miercuri, 3 septembrie 2026, un raport care găsește „motive rezonabile să creadă” că rețele transnaționale — cu recrutori și intermediari legați de Columbia și Emiratele Arabe Unite — au adus până la 2.000 de foști militari columbieni să opereze drone, artilerie și sisteme antiaeriene pentru Forțele de Sprijin Rapid (RSF) din Darfur și Kordofan. Emiratele au respins acuzațiile, spunând că rămân „neutre” și că nu au găsit dovezi de activitate mercenară sub jurisdicția lor.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Misiunea Independentă Internațională de Anchetă a ONU pentru Sudan a publicat pe 3 septembrie 2026 un raport care documentează implicarea a până la 2.000 de foști militari columbieni, recrutați începând din august 2024, care au operat drone de recunoaștere și atac, artilerie și sisteme antiaeriene alături de unitățile RSF în Darfur și Kordofan — cunoscuți drept unitatea „Desert Wolves”.",
+      "sources": [
+        {
+          "name": "UN News — Outside forces fuel Sudan war, new report finds",
+          "url": "https://news.un.org/en/story/2026/09/1168270"
+        },
+        {
+          "name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds",
+          "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"
+        }
+      ]
+    },
+    {
+      "text": "Raportul, care folosește pragul de probă „motive rezonabile să creadă”, numește drept facilitatori rețele private și recrutori care operează din Columbia și Emiratele Arabe Unite, cu puncte de tranzit pentru personal, antrenament, arme și logistică în Ciad, sud-estul Libiei și Bosaso (Somalia). Doi columbieni — colonelul în rezervă Álvaro Andrés Quijano Becerra (fondatorul rețelei, stabilit la Abu Dhabi) și Claudia Viviana Oliveros Forero (coordonatoare de recrutare în Columbia) — au fost deja sancționați de Consiliul de Securitate al ONU în aprilie 2026.",
+      "sources": [
+        {
+          "name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds",
+          "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"
+        }
+      ]
+    },
+    {
+      "text": "Recruții au fost antrenați într-o facilitate cu profil militar la Ghayathi, în Emiratele Arabe Unite, înainte de a fi trimiși în Sudan prin Somalia, Libia sau Ciad. Raportul leagă echipamentul folosit de RSF — obuziere NORINCO AH-4, sisteme antiaeriene FK-2000 și drone de recunoaștere/atac CH-95, toate de fabricație chineză — de exporturi asociate Emiratelor.",
+      "sources": [
+        {
+          "name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds",
+          "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"
+        }
+      ]
+    },
+    {
+      "text": "Misiunea a documentat peste 1.000 de morți în rândul civililor în atacuri cu drone între ianuarie și mai 2026, printre care atacul asupra grădiniței Nabaa al-Hanan din Kalogi (4 decembrie 2025, 114 morți, circa 60 de copii) și asupra Spitalului de Instruire Ad-Da'ein (martie 2026, de Eid al-Fitr, 70 de morți și 146 de răniți). Președintele misiunii, Mohamad Chande Othman, a declarat: „Consecințele acestui sprijin extern sunt resimțite cel mai acut de civili.”",
+      "sources": [
+        {
+          "name": "UN News — Outside forces fuel Sudan war, new report finds",
+          "url": "https://news.un.org/en/story/2026/09/1168270"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Emiratele Arabe Unite au respins acuzațiile raportului, declarând că rămân „neutre” în conflictul din Sudan și că nu au găsit dovezi de activitate mercenară sub jurisdicția lor — o poziție care contrazice direct concluziile misiunii ONU, bazate pe pragul „motive rezonabile să creadă”, nu pe certitudine judiciară.",
+      "sources": [
+        {
+          "name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds",
+          "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"
+        }
+      ]
+    },
+    {
+      "text": "Raportul vorbește despre sprijin extern pentru ambele tabere aflate în conflict (armata sudaneză SAF și RSF), dar detaliile publice disponibile se concentrează pe rețeaua columbiano-emirateză din spatele RSF — nu e clar din sursele citate cât de simetric a documentat misiunea sprijinul primit de SAF.",
+      "sources": [
+        {
+          "name": "UN News — Outside forces fuel Sudan war, new report finds",
+          "url": "https://news.un.org/en/story/2026/09/1168270"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Membra misiunii Joy Ngozi Ezeilo a spus că „răspunderea nu se poate opri la cei care execută atacurile” — o poziție care cere sancționarea rețelelor de facilitare, nu doar a executanților; rămâne de văzut dacă Consiliul de Securitate va extinde sancțiunile dincolo de cei doi columbieni deja vizați."
+    }
+  ],
+  "math": {
+    "title": "2.000 de mercenari, un an de recrutare, peste 1.000 de civili morți în cinci luni",
+    "explanation": "Rețeaua descrisă de raportul ONU a recrutat până la 2.000 de foști militari columbieni în circa doi ani (din august 2024). În paralel, doar în perioada ianuarie–mai 2026 (cinci luni), misiunea a documentat peste 1.000 de morți civili în atacuri cu drone — o medie de peste 200 pe lună, în contextul intensificării capacităților de dronă furnizate prin aceleași rețele de sprijin extern."
   },
-  {
-   "text": "Raportul, care folosește pragul de probă „motive rezonabile să creadă”, numește drept facilitatori rețele private și recrutori care operează din Columbia și Emiratele Arabe Unite, cu puncte de tranzit pentru personal, antrenament, arme și logistică în Ciad, sud-estul Libiei și Bosaso (Somalia). Doi columbieni — colonelul în rezervă Álvaro Andrés Quijano Becerra (fondatorul rețelei, stabilit la Abu Dhabi) și Claudia Viviana Oliveros Forero (coordonatoare de recrutare în Columbia) — au fost deja sancționați de Consiliul de Securitate al ONU în aprilie 2026.",
-   "sources": [
-    {"name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds", "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"}
-   ]
-  },
-  {
-   "text": "Recruții au fost antrenați într-o facilitate cu profil militar la Ghayathi, în Emiratele Arabe Unite, înainte de a fi trimiși în Sudan prin Somalia, Libia sau Ciad. Raportul leagă echipamentul folosit de RSF — obuziere NORINCO AH-4, sisteme antiaeriene FK-2000 și drone de recunoaștere/atac CH-95, toate de fabricație chineză — de exporturi asociate Emiratelor.",
-   "sources": [
-    {"name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds", "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"}
-   ]
-  },
-  {
-   "text": "Misiunea a documentat peste 1.000 de morți în rândul civililor în atacuri cu drone între ianuarie și mai 2026, printre care atacul asupra grădiniței Nabaa al-Hanan din Kalogi (4 decembrie 2025, 114 morți, circa 60 de copii) și asupra Spitalului de Instruire Ad-Da'ein (martie 2026, de Eid al-Fitr, 70 de morți și 146 de răniți). Președintele misiunii, Mohamad Chande Othman, a declarat: „Consecințele acestui sprijin extern sunt resimțite cel mai acut de civili.”",
-   "sources": [
-    {"name": "UN News — Outside forces fuel Sudan war, new report finds", "url": "https://news.un.org/en/story/2026/09/1168270"}
-   ]
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (UN News, Middle East Eye); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am pus la „Contestat” negarea oficială a Emiratelor Arabe Unite, alături de concluziile raportului ONU, tocmai pentru că acesta din urmă folosește pragul „motive rezonabile să creadă” — o probă solidă pentru un raport de anchetă, dar nu o condamnare judiciară. Cititorul trage propria concluzie din alăturarea celor două versiuni.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sudan-mercenari-columbieni-drone-onu-raport.jpg\" alt=\"Raport\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Raport. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Andrzej_Lipi%C5%84ski_-_raport_NBS.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Andrzej Lipiński - raport NBS</a>\" de Andrzej Lipiński, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sudan-mercenari-columbieni-drone-onu-raport.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Andrzej Lipiński"
   }
- ],
- "contestat": [
-  {
-   "text": "Emiratele Arabe Unite au respins acuzațiile raportului, declarând că rămân „neutre” în conflictul din Sudan și că nu au găsit dovezi de activitate mercenară sub jurisdicția lor — o poziție care contrazice direct concluziile misiunii ONU, bazate pe pragul „motive rezonabile să creadă”, nu pe certitudine judiciară.",
-   "sources": [
-    {"name": "Middle East Eye — Foreign weapons and mercenaries fuelling atrocities in Sudan's Darfur, UN finds", "url": "https://www.middleeasteye.net/news/foreign-weapons-and-mercenaries-fuelling-atrocities-sudans-darfur-un-finds"}
-   ]
-  },
-  {
-   "text": "Raportul vorbește despre sprijin extern pentru ambele tabere aflate în conflict (armata sudaneză SAF și RSF), dar detaliile publice disponibile se concentrează pe rețeaua columbiano-emirateză din spatele RSF — nu e clar din sursele citate cât de simetric a documentat misiunea sprijinul primit de SAF.",
-   "sources": [
-    {"name": "UN News — Outside forces fuel Sudan war, new report finds", "url": "https://news.un.org/en/story/2026/09/1168270"}
-   ]
-  }
- ],
- "opinie": [
-  {
-   "text": "Membra misiunii Joy Ngozi Ezeilo a spus că „răspunderea nu se poate opri la cei care execută atacurile” — o poziție care cere sancționarea rețelelor de facilitare, nu doar a executanților; rămâne de văzut dacă Consiliul de Securitate va extinde sancțiunile dincolo de cei doi columbieni deja vizați."
-  }
- ],
- "math": {
-  "title": "2.000 de mercenari, un an de recrutare, peste 1.000 de civili morți în cinci luni",
-  "explanation": "Rețeaua descrisă de raportul ONU a recrutat până la 2.000 de foști militari columbieni în circa doi ani (din august 2024). În paralel, doar în perioada ianuarie–mai 2026 (cinci luni), misiunea a documentat peste 1.000 de morți civili în atacuri cu drone — o medie de peste 200 pe lună, în contextul intensificării capacităților de dronă furnizate prin aceleași rețele de sprijin extern."
- },
- "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (UN News, Middle East Eye); sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Am pus la „Contestat” negarea oficială a Emiratelor Arabe Unite, alături de concluziile raportului ONU, tocmai pentru că acesta din urmă folosește pragul „motive rezonabile să creadă” — o probă solidă pentru un raport de anchetă, dar nu o condamnare judiciară. Cititorul trage propria concluzie din alăturarea celor două versiuni.",
- "persoane": []
 }
