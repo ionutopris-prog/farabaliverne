@@ -1,0 +1,74 @@
+{
+  "slug": "isar-aerospace-spectrum-orbit-andoya",
+  "title": "Racheta germană Spectrum a ajuns pe orbită — prima lansare orbitală privată de pe teritoriul continental european",
+  "category": "Știință",
+  "date": "2026-09-05",
+  "source": "ESA / Space.com / SpaceNews / Al Jazeera",
+  "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Spectrum_launches_to_orbit",
+  "dek": "Racheta Spectrum a companiei germane Isar Aerospace a decolat sâmbătă, 5 septembrie 2026, ora 22:12 GMT, de la baza Andøya din nordul Norvegiei, și a plasat cu succes cinci sateliți mici pe orbită — a doua tentativă a companiei, după ce prima, din martie 2025, s-a încheiat cu explozia rachetei la 30 de secunde de la decolare.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Racheta Spectrum, dezvoltată de compania germană Isar Aerospace, a decolat sâmbătă, 5 septembrie 2026, la ora 22:12 GMT (23:12 ora locală), de la Andøya Spaceport, în nordul Norvegiei, și a atins altitudinea de 100 km în mai puțin de patru minute, separând cu succes cinci sateliți mici (cubesat-uri comerciale și educaționale) pe o orbită sincronă cu Soarele. Agenția Spațială Europeană (ESA) a confirmat oficial reușita misiunii, denumită „Onward and Upward”.",
+      "sources": [
+        {
+          "name": "ESA — Spectrum launches to orbit",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Spectrum_launches_to_orbit"
+        },
+        {
+          "name": "Al Jazeera — German company launches rocket as Europe enters satellite race",
+          "url": "https://www.aljazeera.com/news/2026/9/6/german-company-launches-rocket-as-europe-enters-satellite-race"
+        },
+        {
+          "name": "SpaceNews — Isar Aerospace reaches orbit on second Spectrum launch",
+          "url": "https://spacenews.com/isar-aerospace-reaches-orbit-on-second-spectrum-launch/"
+        }
+      ]
+    },
+    {
+      "text": "E a doua tentativă orbitală a companiei cu această rachetă. Primul test, pe 30 martie 2025, tot de la Andøya, s-a încheiat după circa 30 de secunde de zbor, când racheta s-a răsturnat și a explodat; compania a numit atunci rezultatul un „succes”, obiectivul fiind doar validarea sistemelor și strângerea de date, nu atingerea orbitei. De data aceasta, lansarea a fost precedată de șapte amânări pe 4 septembrie, cauzate de vânt.",
+      "sources": [
+        {
+          "name": "Euronews — Isar Aerospace completes first orbital launch vehicle test flight in Norway",
+          "url": "https://www.euronews.com/next/2025/03/30/isar-aerospace-completes-first-orbital-launch-vehicle-test-flight-in-norway"
+        },
+        {
+          "name": "NASASpaceFlight.com — Isar: onward and upward",
+          "url": "https://www.nasaspaceflight.com/2026/09/isar-onward-and-upward/"
+        }
+      ]
+    },
+    {
+      "text": "Reușita marchează prima lansare pe orbită a unei rachete private construite integral pe teritoriul continental european (spre deosebire de lansările din Guyana Franceză, un teritoriu francez de peste mări, sau cele de la baze non-europene). Spectrum are 28 de metri lungime, 2 metri diametru, zece motoare și o capacitate declarată de până la 1.000 kg în orbită joasă. ESA a legat momentul de „European Launcher Challenge”, un program prin care agenția vrea să stimuleze concurența între furnizori europeni de lansare — Isar Aerospace semnase în august 2026 un contract cu ESA în valoare de 230 de milioane de dolari.",
+      "sources": [
+        {
+          "name": "ESA — Spectrum launches to orbit",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Spectrum_launches_to_orbit"
+        },
+        {
+          "name": "Al Jazeera — German company launches rocket as Europe enters satellite race",
+          "url": "https://www.aljazeera.com/news/2026/9/6/german-company-launches-rocket-as-europe-enters-satellite-race"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Comparația vehiculată în presă — 198 de lansări americane în 2025 față de doar opt europene — arată o dependență reală a Europei de rachetele altor puteri, dar nu spune singură dacă Spectrum va deveni competitivă comercial: un singur zbor reușit, cu sarcină utilă mică, nu dovedește încă fiabilitate pe termen lung sau costuri competitive față de SpaceX."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un anunț oficial ESA, confirmat independent de Al Jazeera, SpaceNews, Euronews și NASASpaceFlight.com. Sursele SpaceNews și Space.com au conținut parțial needisponibil fără abonament, dar faptele esențiale (data, ora, locul, rezultatul) sunt confirmate atât de ESA, cât și de Al Jazeera, care nu are interes comercial în poveste.",
+  "math": {
+    "title": "De ce contează „primul lansat de pe teritoriul continental european”",
+    "explanation": "Europa lansează sateliți de multă vreme, dar aproape mereu din Guyana Franceză (America de Sud) sau cu rachete închiriate de la alți furnizori (SpaceX, Roscosmos în trecut). Andøya, în Norvegia continentală, e prima bază din care o rachetă privată, construită de o companie europeană, a ajuns efectiv pe orbită. Diferența contează strategic: dacă un continent depinde de rachete și baze de lansare aflate în alte state sau teritorii, nu are control deplin asupra calendarului și priorităților proprii de acces în spațiu — de-aia ESA vede momentul ca un test de „suveranitate spațială”, nu doar o performanță tehnică."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/isar-aerospace-spectrum-orbit-andoya.jpg\" alt=\"Andoya Space rocket launch site\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Andoya Space rocket launch site. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Launch_of_NASA_Rocketship_Endurance.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Launch of NASA Rocketship Endurance</a>\" de NASA, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/isar-aerospace-spectrum-orbit-andoya.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA"
+  }
+}
