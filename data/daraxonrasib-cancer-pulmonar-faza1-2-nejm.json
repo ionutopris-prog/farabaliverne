@@ -60,5 +60,11 @@
     "explanation": "„Rata de răspuns obiectiv” nu înseamnă că 42% dintre pacienți s-au vindecat, ci că la 42% dintre ei tumora măsurată prin scanări a scăzut semnificativ în volum (de obicei cu cel puțin 30%, după criterii standard folosite în toate studiile oncologice). E un indicator util pentru a vedea dacă medicamentul „atacă” tumora, dar nu spune automat cât trăiesc pacienții în plus — de-aia studiile urmăresc separat și supraviețuirea fără progresie (cât timp nu crește boala) și supraviețuirea globală (cât timp trăiesc pacienții). În acest caz, un răspuns bun (42%) a venit la pachet cu efecte adverse frecvente (jumătate dintre pacienți au avut reacții severe) — motiv pentru care decizia finală despre cât de „bun” e medicamentul se ia abia după ce faza 3 compară direct beneficiul cu riscurile, față de tratamentul standard."
   },
   "persoane": [],
-  "poza": {}
+  "poza": {
+    "img_html": "<img src=\"../img/articole/daraxonrasib-cancer-pulmonar-faza1-2-nejm.jpg\" alt=\"laboratory research science\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — laboratory research science. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bilal_Djeghout_Laboratory_Abidi.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bilal Djeghout Laboratory Abidi</a>\" de Bilal.djeghout, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/daraxonrasib-cancer-pulmonar-faza1-2-nejm.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Bilal.djeghout"
+  }
 }

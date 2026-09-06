@@ -60,5 +60,11 @@
     "explanation": "Stelele foarte masive din universul timpuriu (Pop III) nu mor ca stelele obișnuite. La o anumită masă, miezul lor devine atât de fierbinte încât energia razelor gamma începe să se transforme spontan în perechi electron-pozitron — un proces care „fură” brusc presiunea care ținea steaua în echilibru. Steaua se prăbușește și explodează într-o singură reacție termonucleară uriașă, aruncând în spațiu sute de mase solare de elemente grele (carbon, oxigen, siliciu, fier) dintr-o singură lovitură, spre deosebire de supernovele obișnuite, mai mici. Practic, aceste explozii timpurii ar fi putut „semăna” dintr-o singură dată suficient material greu pentru ca o stea vecină, mai mică și longevivă, să adune în jurul ei un disc din care se pot forma planete stâncoase — fără să mai fie nevoie de zeci de generații de stele care să recicleze treptat elementele grele, cum presupune teoria clasică."
   },
   "persoane": [],
-  "poza": {}
+  "poza": {
+    "img_html": "<img src=\"../img/articole/planete-stancoase-100-milioane-ani-big-bang-portsmouth.jpg\" alt=\"Simulari\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Simulari. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Adv-D26_7-24-2021_1_ps.tif\" rel=\"nofollow noopener\" target=\"_blank\">Adv-D26 7-24-2021 1 ps</a>\" de Dr. Victor Padilla-Sanchez, PhD, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/planete-stancoase-100-milioane-ani-big-bang-portsmouth.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Dr. Victor Padilla-Sanchez, PhD"
+  }
 }
