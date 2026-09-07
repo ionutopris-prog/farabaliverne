@@ -1,0 +1,63 @@
+{
+  "slug": "bondari-europeni-declin-habitat-schimbari-climatice",
+  "title": "Un studiu pe 47 de specii și 800.000 de observații: încălzirea a redus deja habitatul potrivit pentru bondarii europeni, cu până la 19% în unele zone",
+  "category": "Știință",
+  "date": "2026-09-07",
+  "source": "Vrije Universiteit Brussel (VUB) / Nature Climate Change",
+  "url": "https://press.vub.ac.be/the-impact-of-climate-change-on-the-habitat-of-european-bumblebees",
+  "dek": "O echipă de cercetători belgieni (ULB, VUB, UMons, UCLouvain, KU Leuven, UAntwerp), condusă de Bastien De Tandt și Simon Dellicour, a analizat aproape 120 de ani de date (1901-2019) despre 47 de specii de bondari europeni și peste 800.000 de observații georeferențiate. Concluzia, publicată în Nature Climate Change: încălzirea a redus deja habitatul potrivit pentru aceste specii, în medie cu 5%, dar cu până la 19% în regiunile sudice și centrale ale Europei — un declin real, dar parțial mascat la nivel european de câștiguri de habitat la altitudini mari.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Echipa, cu autori de la Spatial Epidemiology Lab (SpELL) — Bastien De Tandt și Simon Dellicour — și colaboratori din mai multe universități belgiene (ULB, VUB, UMons, UCLouvain, KU Leuven, UAntwerp), a construit modele de nișă ecologică pentru 47 de specii de bondari europeni, folosind peste 800.000 de înregistrări de observații georeferențiate, colectate între 1901 și 2019. Pentru a izola efectul specific al schimbărilor climatice, cercetătorii au comparat proiecțiile bazate pe clima reală, observată, cu proiecții bazate pe un scenariu de control în care tendințele de încălzire globală au fost eliminate din date. Studiul a fost publicat în revista cu recenzie de la egal la egal Nature Climate Change.",
+      "sources": [
+        {
+          "name": "Vrije Universiteit Brussel — comunicat oficial despre studiu",
+          "url": "https://press.vub.ac.be/the-impact-of-climate-change-on-the-habitat-of-european-bumblebees"
+        },
+        {
+          "name": "Nature Climate Change — Declines in European bumblebee habitat suitability attributable to climate change",
+          "url": "https://www.nature.com/articles/s41558-026-02734-6"
+        }
+      ]
+    },
+    {
+      "text": "Diferența dintre cele două scenarii a arătat că schimbările climatice au redus deja habitatul mediu potrivit pentru bondarii europeni cu circa 5%, cu declinuri localizate de până la 19% — cele mai afectate fiind regiunile sudice și centrale ale Europei. Efectul a devenit vizibil în special începând cu anii 1980, pe măsură ce ritmul încălzirii s-a accelerat. Extinderea parțială a habitatelor potrivite la altitudini mai mari, în Alpi și în regiunile boreale, a compensat parțial pierderile din zonele joase, ceea ce a dus la o modificare netă mai mică la nivel agregat european decât arată cifrele regionale.",
+      "sources": [
+        {
+          "name": "Vrije Universiteit Brussel — cifrele exacte și citatul cercetătoarei Rosa Pietroiusti",
+          "url": "https://press.vub.ac.be/the-impact-of-climate-change-on-the-habitat-of-european-bumblebees"
+        },
+        {
+          "name": "Phys.org — Since the 1980s, climate change has increasingly altered European bumblebee habitats",
+          "url": "https://phys.org/news/2026-09-1980s-climate-european-bumblebee-habitats.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra medie de 5% la nivel european, luată izolat, poate lăsa impresia unui impact modest — dar ea rezultă tocmai din compensarea parțială dintre pierderile mari din sud și centru (până la 19%) și câștigurile la altitudine. Modelele de nișă ecologică arată unde există climat potrivit pentru o specie, nu dacă bondarii chiar reușesc să se mute acolo — capacitatea reală de dispersie, prezența plantelor de care depind și alți factori locali pot face ca „habitatul potrivit” proiectat de model să nu se traducă automat în populații stabile la altitudine mare.",
+      "sources": [
+        {
+          "name": "Vrije Universiteit Brussel — precizarea despre compensarea parțială la altitudine",
+          "url": "https://press.vub.ac.be/the-impact-of-climate-change-on-the-habitat-of-european-bumblebees"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un comunicat oficial al Vrije Universiteit Brussel (una dintre instituțiile autoare), plus articolul publicat în revista cu recenzie de la egal la egal Nature Climate Change și relatarea Phys.org.\n\nCe s-a verificat exact: pe baza a aproape 120 de ani de date (1901-2019) și peste 800.000 de observații pentru 47 de specii, cercetătorii au separat efectul specific al încălzirii globale de restul variației climatice, comparând proiecții cu și fără tendința de încălzire. Rezultatul — un declin mediu de 5%, cu vârfuri de 19% în sudul și centrul Europei — e o măsurătoare atribuibilă direct schimbărilor climatice, nu doar o corelație generală.\n\nUnde e nevoie de nuanță: cifra agregată de 5% ascunde o poveste geografică inegală — sudul și centrul Europei pierd mult mai mult decât arată media, iar zonele de altitudine mare câștigă teren, ceea ce „diluează” impactul la nivel de continent. Cine citește doar cifra de 5% ar putea subestima cât de sever e declinul acolo unde el chiar se produce.\n\nCe lipsește: modelele arată unde clima ar permite bondarilor să trăiască, nu dacă populațiile chiar reușesc să migreze spre altitudini mai mari — asta depinde de viteza de dispersie a fiecărei specii, de disponibilitatea plantelor cu care se hrănesc și de alte bariere locale. Fără date de monitorizare directă a populațiilor la altitudine, rămâne deschisă întrebarea cât din „habitatul câștigat” pe hârtie se traduce în bondari reali.",
+  "math": {
+    "title": "Ce înseamnă „habitat potrivit” într-un model de nișă ecologică",
+    "explanation": "Un model de nișă ecologică nu urmărește bondarii direct, ci învață, din mii de observații trecute, ce combinație de temperatură, precipitații și alți factori climatici preferă fiecare specie — practic, „rețeta” climatică în care specia a fost găsită de obicei. Odată învățată rețeta, modelul o aplică pe hartă, la fiecare perioadă de timp, și marchează zonele unde clima se potrivește cu rețeta ca „habitat potrivit”. Ca să izoleze efectul strict al încălzirii globale, cercetătorii au făcut trucul de a rula modelul de două ori: o dată cu clima reală, așa cum s-a întâmplat, și o dată cu o climă „ipotetică”, din care au scos matematic tendința de încălzire pe termen lung, păstrând doar variația naturală de la an la an. Diferența dintre cele două hărți — cât habitat potrivit dispare sau apare doar din cauza tendinței de încălzire — e ceea ce raportează studiul ca fiind „atribuibil schimbărilor climatice”. E o metodă statistică solidă pentru a separa un semnal de zgomotul din fundal, dar rămâne un model climatic, nu un recensământ direct al bondarilor de pe teren."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bondari-europeni-declin-habitat-schimbari-climatice.jpg\" alt=\"Bombus terrestris bumblebee\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Bombus terrestris bumblebee. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bumblebee_October_2007-3.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bumblebee October 2007-3</a>\" de Alvesgaspar, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bondari-europeni-declin-habitat-schimbari-climatice.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Alvesgaspar"
+  }
+}

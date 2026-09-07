@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 07 Sep 2026 09:48:35 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 09:50:17 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sonda Solar Orbiter a surprins cea mai clară imagine de până acum a graniței magnetice a Soarelui, la doar 0,28 unități astronomice</title>
+      <link>https://farabaliverne.ro/a/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.html</guid>
+      <pubDate>Mon, 07 Sep 2026 06:49:14 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu condus de Southwest Research Institute (SwRI), cu date de la misiunea comună ESA/NASA Solar Orbiter, a analizat o traversare a „foii de curent heliosferice” — granița unde câmpul magnetic al Soarelui își schimbă polaritatea — la doar 0,28 unități astronomice de Soare, mai aproape decât Mercur. Cercetătorii au găsit o scădere clară a raportului dintre ionii de fier și oxigen exact la limita magnetică, un semnal chimic distinct pe lângă cel magnetic deja cunoscut. Studiul, publicat în The Astrophysical Journal, nu explică definitiv cum se formează această graniță.
+
+Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Cercetători de la Ohio State au blocat o proteină numită SET și au oprit formarea tumorilor de glioblastom în modele preclinice</title>
       <link>https://farabaliverne.ro/a/glioblastom-set-proteina-ohio-state.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce s-a măsurat și în ce condiții — dar e o relata
       <description>Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice de la Boston, o prognoză pentru alegerile americane de la jumătatea mandatului: democrații au 8 șanse din 10 să obțină majoritatea în Camera Reprezentanților, cu aproximativ 226 de locuri față de 209. Modelul a nimerit câștigătorii ultimelor 14 alegeri legislative. Lucrarea în sine nu e publică, iar datele pe care se sprijină vin de la o firmă al cărei cofondator este chiar autorul principal.
 
 Unde bat probele: Probat ce au prezentat cercetătorii și care le e istoricul — dar e o prognoză, nu un rezultat, lucrarea nu e publică, iar comunicatul universității omite că datele vin de la firma cofondată de autorul principal. Verificate: 6 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>Procurorul general al Braziliei cere anularea unei anchete care îl citează pe judecătorul Curții Supreme Moraes — și pe el însuși</title>
-      <link>https://farabaliverne.ro/a/brazilia-pgr-anulare-ancheta-moraes-vorcaro-banco-master.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/brazilia-pgr-anulare-ancheta-moraes-vorcaro-banco-master.html</guid>
-      <pubDate>Sat, 05 Sep 2026 09:24:36 +0000</pubDate>
-      <category>Extern</category>
-      <description>Procurorul general al Braziliei, Paulo Gonet, a cerut pe 1 septembrie 2026 Curții Supreme (STF) să anuleze un raport al Poliției Federale care conține mesaje descoperite pe telefonul fostului bancher Daniel Vorcaro — mesaje care îl citează pe judecătorul Alexandre de Moraes, dar și pe Gonet însuși. Cererea invocă un argument procedural: judecătorul-raportor André Mendonça nu ar fi avut dreptul să dispună singur aprofundarea anchetei asupra unui coleg de Curte, fără aprobarea plenului STF. Cazul e încă în lucru la STF, fără nicio decizie finală, iar conținutul mesajelor rămâne, deocamdată, doar ce a raportat Poliția Federală — nu o constatare judecătorească.
-
-Unde bat probele: Probat ce cere Gonet și ce conține raportul scurs — STF nu s-a pronunțat încă, iar indiciile din raport nu sunt constatări finale. Verificate: 5 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
