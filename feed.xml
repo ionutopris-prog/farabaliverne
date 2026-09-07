@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 08 Sep 2026 01:59:44 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 02:03:42 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bolojan spune că deficitul a scăzut cu 37% și cere „rapid” un premier — cifrele sunt oficiale, dar omit cât a crescut costul dobânzilor</title>
+      <link>https://farabaliverne.ro/a/bolojan-deficit-37-procente-context-dobanzi.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-deficit-37-procente-context-dobanzi.html</guid>
+      <pubDate>Mon, 07 Sep 2026 23:00:30 +0000</pubDate>
+      <category>Economie</category>
+      <description>Premierul interimar Ilie Bolojan a cerut luni, 7 septembrie 2026, partidelor un „guvern cu puteri depline” cât mai repede, susținând că măsurile de austeritate ale guvernului său au funcționat: deficitul bugetar a scăzut cu 37% în primele șapte luni din 2026 față de aceeași perioadă din 2025, iar investițiile publice au ajuns la 76,51 miliarde lei. Ministerul Finanțelor confirmă cifrele oficial — dar același raport arată că plățile de dobânzi la datoria publică au ajuns la peste 40 miliarde lei, în creștere cu 26,5%, o presiune pe care mesajul lui Bolojan nu o menționează.
+
+Unde bat probele: Probat, cu context. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>PNL și USR au depus, în sfârșit, sesizarea la CCR anunțată încă de pe 1 septembrie despre Biroul Permanent al Camerei Deputaților</title>
       <link>https://farabaliverne.ro/a/pnl-usr-sesizare-ccr-birou-permanent-camera-deputatilor.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — cifrele vin din două sondaje distincte, cu metodol
       <description>Biroul de Statistică a Muncii (BLS) a raportat, pe 4 septembrie 2026, 162.000 de locuri de muncă noi în august — de trei ori peste estimarea analiștilor — plus revizuiri în sus pentru iunie și iulie. Președintele Trump a cerut Fed-ului să reducă dobânda și a amenințat că oprește comerțul cu țările față de care SUA are deficit; economiști citează exact raportul ca argument pentru o dobândă mai mare, nu mai mică.
 
 Unde bat probele: Probat — cifrele BLS sunt publice și verificabile; ce ar trebui să facă Fed-ul rămâne o divergență de interpretare economică, nu un fapt contrazis. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Un studiu chinezesc spune că șofatul agresiv ar putea uza bateria de peste 2,5 ori mai repede — dar cifra e o prognoză a unui model, nu o măsurătoare</title>
-      <link>https://farabaliverne.ro/a/shanghai-dianji-condus-agresiv-baterii-electrice-2-5-ori.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/shanghai-dianji-condus-agresiv-baterii-electrice-2-5-ori.html</guid>
-      <pubDate>Sat, 05 Sep 2026 18:17:48 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Trei cercetători de la Universitatea Shanghai Dianji au construit un model care încearcă să separe efectul stilului de condus de restul cauzelor care îmbătrânesc o baterie. Concluzia lor: condusul agresiv se asociază cu o pierdere de capacitate de peste 2,5 ori mai mare decât condusul economic. Titlurile din presă au scăpat trei cuvinte care schimbă tot: „prezisă de model”. Nimeni n-a condus 1.000 de cicluri.
-
-Unde bat probele: Probat că studiul există, cine l-a scris și ce spune — dar cifra de 2,5 ori e o predicție a unui model, nu o măsurătoare, iar textul integral al lucrării nu e încă publicat, deci metoda și eșantionul nu se pot verifica la sursă. Verificate: 5 probate, 5 contestate.</description>
     </item>
   </channel>
 </rss>
