@@ -1,0 +1,72 @@
+{
+  "slug": "princeton-pacman-ai-fuziune-plasma-milisecunde",
+  "title": "Un cadru de inteligență artificială de la Princeton a controlat plasma de fuziune în circa 20 de milisecunde, pe un reactor experimental real",
+  "category": "Știință",
+  "date": "2026-09-07",
+  "source": "Princeton Plasma Physics Laboratory / Nuclear Fusion",
+  "url": "https://www.pppl.gov/news/2026/pacman-ai-framework-controlling-fusion-systems-safely-makes-key-decisions-milliseconds",
+  "dek": "Cercetători de la Princeton Plasma Physics Laboratory (PPPL) și Universitatea Princeton au testat, în cinci experimente pe tokamakul DIII-D din San Diego, un cadru de inteligență artificială numit PACMAN, care citește măsurătorile plasmei și emite comenzi de control în circa 20 de milisecunde — mult mai rapid decât poate reacționa un operator uman. Rezultatele, publicate în revista Nuclear Fusion, arată o unealtă utilă pentru cercetarea în fuziune, nu un reactor de fuziune funcțional sau autonom.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "O echipă de la Princeton Plasma Physics Laboratory și Departamentul de Inginerie Mecanică și Aerospațială al Universității Princeton — cu doctoranzii Hiro Farre Kaga și Andy Rothstein, sub coordonarea profesorului asociat Egemen Kolemen — a dezvoltat PACMAN (Prediction And Control using MAchiNe learning), un cadru software care conectează mai multe modele de inteligență artificială direct la sistemul de control al unui experiment de fuziune. Cadrul a fost testat în cinci experimente separate pe DIII-D National Fusion Facility, un tokamak de cercetare aflat în San Diego, operat de General Atomics pentru Departamentul american al Energiei. Rezultatele au fost publicate în septembrie 2026 în revista cu recenzie de la egal la egal Nuclear Fusion.",
+      "sources": [
+        {
+          "name": "Princeton Plasma Physics Laboratory — PACMAN AI framework for controlling fusion systems safely makes key decisions in milliseconds",
+          "url": "https://www.pppl.gov/news/2026/pacman-ai-framework-controlling-fusion-systems-safely-makes-key-decisions-milliseconds"
+        },
+        {
+          "name": "Nuclear Fusion (IOP Publishing) — studiul integral, DOI 10.1088/1741-4326/ae7f9d",
+          "url": "https://doi.org/10.1088/1741-4326/ae7f9d"
+        }
+      ]
+    },
+    {
+      "text": "PACMAN citește măsurătorile live ale plasmei și poate emite comenzi de control în aproximativ 20 de milisecunde — față de circa o secundă, timpul tipic de reacție al unui operator uman. Într-unul dintre cele cinci experimente, cadrul a prezis apariția unei instabilități de tip „tearing mode” cu aproximativ 200 de milisecunde înainte ca aceasta să se formeze și a ajustat parametrii plasmei pentru a preveni formarea ei. În celelalte experimente, PACMAN a controlat sisteme de încălzire a plasmei, a urmărit unde din plasmă și a ajustat densitatea și rotația acesteia.",
+      "sources": [
+        {
+          "name": "ScienceDaily — AI can now control fusion plasma faster than humans can react",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064215.htm"
+        },
+        {
+          "name": "Newswise — PACMAN AI framework for controlling fusion systems safely makes key decisions in milliseconds",
+          "url": "https://www.newswise.com/doescience/pacman-ai-framework-for-controlling-fusion-systems-safely-makes-key-decisions-in-milliseconds/?article_id=853912&sc=c128"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Titlurile din presă („AI controlează plasma de fuziune mai rapid decât pot reacționa oamenii”) lasă impresia unui sistem autonom care conduce singur un reactor. Cercetătorii precizează însă că limitele de siguranță ale hardware-ului se aplică indiferent de ce recomandă modelele de AI, iar fizicienii examinează rezultatele după fiecare experiment. Kolemen a spus explicit: „No matter how sophisticated your controllers, in the end it's a human operator that sets the parameters” („Oricât de sofisticate ar fi sistemele de control, la final tot un operator uman stabilește parametrii”). PACMAN e o unealtă de asistare a controlului în timp real, nu un pilot automat fără supraveghere.",
+      "sources": [
+        {
+          "name": "Princeton Plasma Physics Laboratory — comunicat oficial, citatele lui Egemen Kolemen",
+          "url": "https://www.pppl.gov/news/2026/pacman-ai-framework-controlling-fusion-systems-safely-makes-key-decisions-milliseconds"
+        }
+      ]
+    },
+    {
+      "text": "Testele au avut loc pe DIII-D, un tokamak de cercetare de mărime medie, folosit pentru studierea fizicii plasmei — nu un reactor care produce energie netă și nu un prototip de centrală electrică. Demonstrația arată că un asemenea cadru de control poate fi implementat rapid (cercetătorii spun că modelele suplimentare se pot adăuga în câteva zile, față de luni pentru primul model), dar nu rezolvă provocările fundamentale ale fuziunii ca sursă de energie — obținerea unui câștig net de energie susținut și rezistența materialelor reactorului pe termen lung.",
+      "sources": [
+        {
+          "name": "ScienceDaily — detalii despre DIII-D și limitele demonstrației",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064215.htm"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un comunicat oficial al Princeton Plasma Physics Laboratory, plus studiul publicat în revista cu recenzie de la egal la egal Nuclear Fusion și relatări din ScienceDaily și Newswise.\n\nCe s-a verificat exact: PACMAN a fost testat în cinci experimente reale pe tokamakul DIII-D, a operat în bucle de control de circa 20 de milisecunde și, într-un caz documentat, a prezis o instabilitate cu 200 de milisecunde înainte de apariția ei. Acestea sunt rezultate măsurate și publicate, nu proiecții.\n\nUnde e nevoie de precizie: formularea din titluri — „AI controlează plasma mai rapid decât oamenii” — e adevărată la nivel de timp de reacție, dar poate lăsa impresia unei autonomii pe care cercetătorii înșiși o resping. Limitele hardware de siguranță rămân fixe indiferent de ce recomandă AI-ul, iar un fizician uman validează rezultatele după fiecare experiment. Nu e vorba de un reactor care se conduce singur, ci de o unealtă de procesare rapidă a datelor pentru un operator care rămâne responsabil de decizii.\n\nCe lipsește: demonstrația a avut loc pe un tokamak de cercetare, nu pe un reactor care produce energie netă. Nu există, în acest studiu, nicio dovadă legată de cât de aproape suntem de fuziunea ca sursă comercială de energie — PACMAN rezolvă o problemă de control în timp real, nu problema mult mai mare a randamentului energetic al reacției în sine.",
+  "math": {
+    "title": "De ce contează milisecundele într-un reactor de fuziune",
+    "explanation": "Într-un tokamak, plasma — un gaz de particule încărcate electric, încălzit la zeci de milioane de grade — e ținută în formă cu ajutorul unor câmpuri magnetice puternice. Uneori, liniile acestui câmp magnetic se pot „rupe” și reconecta altfel, formând așa-numitele „insule magnetice” — zone unde câmpul care ține plasma laolaltă slăbește local. Fenomenul, numit „tearing mode”, poate crește foarte rapid, în câteva zeci sau sute de milisecunde, și, dacă nu e oprit la timp, poate duce la o „disrupție” — o pierdere bruscă și necontrolată a plasmei, care poate elibera energie suficientă cât să deterioreze componentele reactorului. Un operator uman are un timp de reacție de ordinul secundei — prea lent pentru a interveni înainte ca o asemenea instabilitate să scape de sub control. De aceea are sens o unealtă care citește datele și poate acționa în 20 de milisecunde: nu pentru că „gândește” mai bine decât un om, ci pentru că bucla completă a instabilității se joacă la o scară de timp la care reacția umană directă e prea lentă din punct de vedere fizic, nu din lipsă de experiență."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/princeton-pacman-ai-fuziune-plasma-milisecunde.jpg\" alt=\"DIII-D tokamak\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — DIII-D tokamak. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2017_TOCAMAC_Fusion_Chamber_N0689.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2017 TOCAMAC Fusion Chamber N0689</a>\" de Rswilcox, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/princeton-pacman-ai-fuziune-plasma-milisecunde.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Rswilcox"
+  }
+}
