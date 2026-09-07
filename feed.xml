@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 07 Sep 2026 09:44:55 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 09:46:42 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un cadru de inteligență artificială de la Princeton a controlat plasma de fuziune în circa 20 de milisecunde, pe un reactor experimental real</title>
+      <link>https://farabaliverne.ro/a/princeton-pacman-ai-fuziune-plasma-milisecunde.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/princeton-pacman-ai-fuziune-plasma-milisecunde.html</guid>
+      <pubDate>Mon, 07 Sep 2026 06:45:44 +0000</pubDate>
+      <category>Știință</category>
+      <description>Cercetători de la Princeton Plasma Physics Laboratory (PPPL) și Universitatea Princeton au testat, în cinci experimente pe tokamakul DIII-D din San Diego, un cadru de inteligență artificială numit PACMAN, care citește măsurătorile plasmei și emite comenzi de control în circa 20 de milisecunde — mult mai rapid decât poate reacționa un operator uman. Rezultatele, publicate în revista Nuclear Fusion, arată o unealtă utilă pentru cercetarea în fuziune, nu un reactor de fuziune funcțional sau autonom.
+
+Unde bat probele: Probat. Verificate: 2 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Pakistan: NDMA urcă bilanțul mușonului la 180 de morți din iunie, în timp ce alte ploi sunt anunțate pentru Sindh</title>
       <link>https://farabaliverne.ro/a/pakistan-ndma-bilant-muson-180-morti-septembrie-2026.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce cere Gonet și ce conține raportul scurs — STF nu
       <description>Uber a anunțat pe 2 septembrie 2026 că își încetează operațiunile din Nigeria și Uganda, după 12, respectiv 10 ani de activitate, în cadrul unei restructurări globale care taie 3.300 de posturi (circa 10% din personalul corporativ). Compania vorbește oficial despre o „revizuire a priorităților de afaceri”, fără să pomenească inflația, cursul valutar sau presiunea competitivă — factori pe care presa economică nigeriană îi consideră cauza reală a retragerii.
 
 Unde bat probele: Probat ce a anunțat Uber și ce spun cifrele — motivul oficial invocat de companie e incomplet față de contextul economic documentat separat. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Curtea Supremă din Missouri blochează harta electorală cerută de Trump și trimite decizia la referendum pe 3 noiembrie</title>
-      <link>https://farabaliverne.ro/a/missouri-curtea-suprema-blocheaza-harta-trump-referendum.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/missouri-curtea-suprema-blocheaza-harta-trump-referendum.html</guid>
-      <pubDate>Sat, 05 Sep 2026 09:14:55 +0000</pubDate>
-      <category>Extern</category>
-      <description>Curtea Supremă a statului Missouri a decis, pe 3 septembrie 2026, că noua hartă a circumscripțiilor congresuale — redesenată în 2025 de legislativul republican, la cererea președintelui Trump — nu poate fi folosită la alegerile din 3 noiembrie 2026. Harta veche, din 2022, rămâne în vigoare, iar harta nouă va fi supusă separat unui referendum, tot pe 3 noiembrie. Decizia a stârnit reacții dure din partea lui Trump și a procurorului general al statului, care vorbesc despre o „criză constituțională”.
-
-Unde bat probele: Probat ce a decis instanța și ce urmează — reacțiile politice despre „criză constituțională” sunt opinie, nu constatări ale instanței. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>

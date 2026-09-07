@@ -1,0 +1,59 @@
+{
+  "slug": "glioblastom-set-proteina-ohio-state",
+  "title": "Cercetători de la Ohio State au blocat o proteină numită SET și au oprit formarea tumorilor de glioblastom în modele preclinice",
+  "category": "Știință",
+  "date": "2026-09-07",
+  "source": "Ohio State University Comprehensive Cancer Center / Cancer Letters",
+  "url": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
+  "dek": "Un studiu publicat în revista Cancer Letters de o echipă de la Ohio State University Comprehensive Cancer Center – James arată că blocarea proteinei SET a prevenit formarea tumorilor de glioblastom în modele preclinice, iar interferența cu proteine înrudite a făcut celulele canceroase mai vulnerabile la radioterapie. Rezultatele sunt preclinice — nu au fost testate încă la pacienți — dar deschid o țintă nouă pentru un cancer cerebral care a rezistat decenii chimioterapiei și radioterapiei.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "Echipa, condusă de cercetători de la Ohio State University Comprehensive Cancer Center – Arthur G. James Cancer Hospital and Richard J. Solove Research Institute (autori printre care John Ryan Jacob, Shahid M. Nimjee, J. Bradley Elder, Arnab Chakravarti și Kamalakannan Palanichamy), a publicat în revista cu recenzie de la egal la egal Cancer Letters un studiu despre glioblastom (GBM) — cel mai agresiv tip de cancer cerebral la adulți, care a rezistat decenii la chimioterapie și radioterapie. Cercetarea s-a concentrat pe enzima PP2A, care reglează semnale implicate în creșterea, supraviețuirea și repararea celulelor canceroase după tratament.",
+      "sources": [
+        {
+          "name": "ScienceDaily — Scientists find a weak spot in one of the deadliest brain cancers",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm"
+        },
+        {
+          "name": "Cancer Letters — studiul integral, DOI 10.1016/j.canlet.2026.218325",
+          "url": "https://doi.org/10.1016/j.canlet.2026.218325"
+        }
+      ]
+    },
+    {
+      "text": "Celulele de glioblastom suprimă activitatea enzimei PP2A prin trei proteine — ANP32A, CIP2A și SET. În modele preclinice de laborator și pe animale, blocarea proteinei SET a avut un efect puternic asupra formării tumorilor, prevenind-o, iar interferența cu proteinele înrudite (ANP32A, CIP2A) a redus supraviețuirea celulelor canceroase și le-a făcut mai sensibile la radioterapie.",
+      "sources": [
+        {
+          "name": "SciTechDaily — Researchers Discover a Potential Weak Spot in One of the Deadliest Brain Cancers",
+          "url": "https://scitechdaily.com/researchers-discover-a-potential-weak-spot-in-one-of-the-deadliest-brain-cancers/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Rezultatele provin din modele preclinice — celule de laborator și animale, nu pacienți. Cercetătorii spun explicit că investighează în continuare dacă aceste proteine pot fi vizate „safely and whether doing so improves the effectiveness of standard glioblastoma therapies” („în siguranță și dacă acest lucru îmbunătățește eficacitatea terapiilor standard pentru glioblastom”). Strategia e gândită să completeze tratamentele actuale (chimioterapie, radioterapie), nu să le înlocuiască, iar drumul de la un model preclinic la un tratament aprobat pentru pacienți durează de regulă ani și necesită studii clinice pe faze multiple, cu rate mari de eșec pentru cancerul cerebral.",
+      "sources": [
+        {
+          "name": "ScienceDaily — precizările cercetătorilor despre etapele următoare",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în revista cu recenzie de la egal la egal Cancer Letters, relatat de ScienceDaily și SciTechDaily, cu detalii despre instituția care a condus cercetarea (Ohio State University Comprehensive Cancer Center).\n\nCe s-a verificat exact: în modele preclinice (celule și animale, nu pacienți), blocarea proteinei SET a prevenit formarea tumorilor de glioblastom, iar interferența cu proteinele înrudite ANP32A și CIP2A a redus supraviețuirea celulelor canceroase și le-a crescut sensibilitatea la radioterapie. E un rezultat de laborator solid, publicat, dar la o etapă incipientă a cercetării.\n\nUnde e nevoie de prudență: glioblastomul are un istoric lung de rezultate promițătoare în laborator care nu s-au tradus în tratamente eficiente la pacienți — tumora e cunoscută pentru capacitatea de a evita sau contracara intervențiile testate în modele animale. Cercetătorii înșiși spun că următorul pas e să stabilească dacă vizarea acestor proteine e sigură la om, nu doar eficientă în laborator.\n\nCe lipsește: orice date despre siguranța la om, dozare sau efecte secundare — acestea nu există încă, fiindcă studiul nu a ajuns la faza de testare clinică. Titlul de „punct slab” descoperit e susținut de datele preclinice, dar rămâne un rezultat de etapă, nu un tratament nou pentru glioblastom.",
+  "math": {
+    "title": "De ce contează o enzimă „de reglare” ca PP2A",
+    "explanation": "Celulele sănătoase au mecanisme interne care le opresc din a se multiplica necontrolat sau le împing spre autodistrugere dacă ADN-ul lor e prea deteriorat — un fel de frână de siguranță. PP2A e una dintre enzimele care acționează ca parte a acestei frâne, reglând semnale care controlează creșterea, supraviețuirea și reparația celulară. Celulele de glioblastom au găsit o cale de a slăbi această frână, folosind trei proteine (ANP32A, CIP2A și SET) care suprimă activitatea PP2A — practic, taie cablul frânei, ca tumora să poată crește și să reziste la tratamentele care încearcă să-i deterioreze ADN-ul (chimioterapie, radioterapie). Ideea din spatele acestui studiu e simplă ca principiu: dacă blochezi proteinele care suprimă PP2A, „repari cablul frânei”, iar celula canceroasă redevine vulnerabilă la mecanismele ei proprii de autodistrugere și la tratamentele care se bazează pe deteriorarea ADN-ului. Rămâne de dovedit, la om, că acest lucru se poate face fără să afecteze și frâna celulelor sănătoase din creier."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/glioblastom-set-proteina-ohio-state.jpg\" alt=\"brain MRI scan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — brain MRI scan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:7_Tesla_MRI_of_the_ex_vivo_human_brain_at_100_micron_resolution_(100_micron_MRI_acquired_FA25_coronal).webm\" rel=\"nofollow noopener\" target=\"_blank\">7 Tesla MRI of the ex vivo human brain at 100 micron resolution (100 micron MRI acquired FA25 coronal)</a>\" de Edlow, Brian L., Massachusetts General Hospital Mareyam, Azma, Massachusetts Gen, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/glioblastom-set-proteina-ohio-state.jpg",
+    "licenta": "CC0",
+    "autor": "Edlow, Brian L., Massachusetts General Hospital Mareyam, Azma, Massachusetts Gen"
+  }
+}
