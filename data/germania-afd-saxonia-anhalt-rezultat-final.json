@@ -83,5 +83,16 @@
     "explanation": "Parlamentul landului Saxonia-Anhalt are 83 de locuri; majoritatea absolută înseamnă 42. AfD a obținut 39 de mandate cu 43,8% din voturi — suficient pentru primul loc detașat, dar cu trei mandate sub pragul de guvernare de sine stătătoare. O eventuală coaliție CDU-SPD-Verzi ar aduna 15+8+8=31 de mandate, tot sub majoritate; ar fi nevoie și de Die Linke sau de BSW pentru o majoritate anti-AfD, o combinație politic dificilă între partide aflate în mod normal la distanță ideologică mare unele de altele."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională și românească; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am verificat separat cifrele finale față de exit poll-ul de duminică seară (relatat separat de noi pe 6 septembrie): scorul AfD a coborât de la 44,5% (exit poll) la 43,8% (rezultat final), o diferență normală pentru acest tip de estimare, dar am semnalat-o explicit pentru că schimbă aritmetica exactă a mandatelor. Restul cifrelor (mandate pe partid, prezența la vot) provin din numărătoarea oficială, raportată concordant de două redacții independente.",
-  "persoane": ["Ulrich Siegmund", "Donald Tusk", "Donald Trump"]
+  "persoane": [
+    "Ulrich Siegmund",
+    "Donald Tusk",
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/germania-afd-saxonia-anhalt-rezultat-final.jpg\" alt=\"Ulrich Siegmund\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ulrich Siegmund. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:(2026)_AfD_Ulrich_Siegmund_160024148.jpg\" rel=\"nofollow noopener\" target=\"_blank\">(2026) AfD Ulrich Siegmund 160024148</a>\" de Roy Zuo, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/germania-afd-saxonia-anhalt-rezultat-final.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Roy Zuo"
+  }
 }
