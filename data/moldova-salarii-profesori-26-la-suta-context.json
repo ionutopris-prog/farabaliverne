@@ -65,6 +65,14 @@
   ],
   "math": "Creștere garantată 2027: fără grad 10.780→12.335 lei (+14,4%); grad II 13.180→15.008 lei (+13,9%); grad I 14.740→16.438 lei (+11,5%); grad superior 16.180→18.088 lei (+11,8%). Spor de performanță suplimentar (neintrat în vigoare): „excelent” +12%, „foarte bine” +6%. Valoare de referință: 2.500→4.200 lei.",
   "aiNote": "Ce s-a verificat: declarația ministrului Educației, Dan Perciun, din 7 septembrie 2026, despre grila de salarizare din educație pentru 2027, comparată cu cifrele exacte ale grilei publicate de NewsMaker și cu reacția Federației Sindicale a Educației și Științei.\n\nUnde se desparte cifra din titlu de realitate: „până la 26%” e adevărat ca plafon maxim, dar se compune din două lucruri diferite — o creștere garantată de 11-14% pentru toate cadrele didactice, plus un spor de performanță de până la 12% care se acordă doar la calificativul „excelent”, într-un mecanism de evaluare ale cărui criterii nu sunt încă stabilite prin lege. Practic, cifra mare descrie cel mai bun caz posibil pentru o parte a profesorilor, nu creșterea pe care o va primi „un profesor” generic din 2027.\n\nCe lipsește: criteriile exacte de evaluare care ar decide cine primește calificativul „excelent” sau „foarte bine”, precum și o estimare oficială a ponderii profesorilor care ar putea obține aceste calificative — fără aceste date, nu se poate spune câți profesori vor ajunge, în fapt, la 26%.\n\nCe ar schimba concluzia: adoptarea legii salarizării cu criteriile de evaluare incluse, sau o estimare oficială a Ministerului Educației despre procentul de cadre didactice care ar urma să primească sporul maxim.",
-  "persoane": ["Dan Perciun"],
-  "poza": null
+  "persoane": [
+    "Dan Perciun"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-salarii-profesori-26-la-suta-context.jpg\" alt=\"Dan Perciun\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Dan Perciun. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Dan_Perciun,_Andrian_Mardare,_Maia_Sandu_before_the_Olympic_Games_2024.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Dan Perciun, Andrian Mardare, Maia Sandu before the Olympic Games 2024</a>\" de President of Moldova, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-salarii-profesori-26-la-suta-context.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "President of Moldova"
+  }
 }
