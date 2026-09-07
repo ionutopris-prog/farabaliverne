@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 07 Sep 2026 09:50:17 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 09:51:41 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un studiu pe 47 de specii și 800.000 de observații: încălzirea a redus deja habitatul potrivit pentru bondarii europeni, cu până la 19% în unele zone</title>
+      <link>https://farabaliverne.ro/a/bondari-europeni-declin-habitat-schimbari-climatice.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bondari-europeni-declin-habitat-schimbari-climatice.html</guid>
+      <pubDate>Mon, 07 Sep 2026 06:50:57 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă de cercetători belgieni (ULB, VUB, UMons, UCLouvain, KU Leuven, UAntwerp), condusă de Bastien De Tandt și Simon Dellicour, a analizat aproape 120 de ani de date (1901-2019) despre 47 de specii de bondari europeni și peste 800.000 de observații georeferențiate. Concluzia, publicată în Nature Climate Change: încălzirea a redus deja habitatul potrivit pentru aceste specii, în medie cu 5%, dar cu până la 19% în regiunile sudice și centrale ale Europei — un declin real, dar parțial mascat la nivel european de câștiguri de habitat la altitudini mari.
+
+Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Sonda Solar Orbiter a surprins cea mai clară imagine de până acum a graniței magnetice a Soarelui, la doar 0,28 unități astronomice</title>
       <link>https://farabaliverne.ro/a/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Ce SUSȚINE Rusia — media de stat, fără confirmare indepen
       <description>Cercetători de la MIT Lincoln Laboratory au dus senzori pe banchiza din Oceanul Arctic ca să înregistreze ce se aude dedesubt — cântece de balenă beluga, gheață care se fisurează, motoare de nave comerciale. În paralel, au testat un modem care trimite date prin gheață cu câmpuri magnetice, fiindcă undele radio se sting în apa sărată. Au reușit 1,2 kilobytes pe secundă prin 1,1 metri de gheață. Două viscole i-au blocat cinci zile fără niciun zbor, iar din senzorii planificați au apucat să pună un sfert.
 
 Unde bat probele: Probat ce s-a măsurat și în ce condiții — dar e o relatare a redacției MIT despre propria lor muncă de teren, nu o lucrare trecută prin evaluare de colegi, iar testul cu modemul nu s-a făcut în mediul-țintă. Verificate: 4 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>Un model de la Cornell dă democraților 8 șanse din 10 să ia Camera Reprezentanților. A nimerit ultimele 14 alegeri</title>
-      <link>https://farabaliverne.ro/a/cornell-prognoza-midterms-2026-democrati-camera.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/cornell-prognoza-midterms-2026-democrati-camera.html</guid>
-      <pubDate>Sat, 05 Sep 2026 10:27:45 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Politologi de la Universitatea Cornell au prezentat pe 3 septembrie 2026, la conferința anuală a Asociației Americane de Științe Politice de la Boston, o prognoză pentru alegerile americane de la jumătatea mandatului: democrații au 8 șanse din 10 să obțină majoritatea în Camera Reprezentanților, cu aproximativ 226 de locuri față de 209. Modelul a nimerit câștigătorii ultimelor 14 alegeri legislative. Lucrarea în sine nu e publică, iar datele pe care se sprijină vin de la o firmă al cărei cofondator este chiar autorul principal.
-
-Unde bat probele: Probat ce au prezentat cercetătorii și care le e istoricul — dar e o prognoză, nu un rezultat, lucrarea nu e publică, iar comunicatul universității omite că datele vin de la firma cofondată de autorul principal. Verificate: 6 probate, 4 contestate.</description>
     </item>
   </channel>
 </rss>
