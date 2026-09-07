@@ -138,6 +138,22 @@ jobs:
             "23 7,12 * * *") H=7  ;;   # MOLDOVA
             "37 22 * * *")   H=22 ;;   # ASIA
             "43 1 * * *")    H=1  ;;   # STIINTA
+            "17 5,9,14,17,20 * * *")
+              # Edițiile de ZI. Cron-ul are cinci ore, deci nu spune singur care a
+              # declanșat: luăm ULTIMA oră programată care a trecut. Fără asta, o
+              # ediție românească de weekend de la 14:17 pornită la 15:34 citea
+              # H=15 și devenea „weekend internațional" — exact ce s-a întâmplat
+              # duminică 6 septembrie, de două ori (14→15 și 20→22): zero ediții
+              # românești într-o zi întreagă, deși fondatorul ceruse trei.
+              HP=20
+              for X in 5 9 14 17 20; do
+                if [ "$H" -ge "$X" ]; then HP=$X; fi
+              done
+              if [ "$H" -lt 5 ]; then HP=20; D=$(( D == 1 ? 7 : D - 1 )); fi
+              H=$HP
+              WEEKEND=0; if [ "$D" -ge 6 ]; then WEEKEND=1; fi
+              RO_WEEKEND=0; if [ "$H" -eq 5 ] || [ "$H" -eq 14 ] || [ "$H" -eq 20 ]; then RO_WEEKEND=1; fi
+              ;;
           esac
 
           # Fereastra fortata de la buton bate si cron-ul, si ceasul.
