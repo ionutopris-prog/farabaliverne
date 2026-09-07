@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 07 Sep 2026 13:39:06 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 13:40:25 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Saxonia-Anhalt: rezultatul final confirmă victoria AfD, cu 43,8% — sub exit poll, dar cu prezență record la vot din 1990</title>
+      <link>https://farabaliverne.ro/a/germania-afd-saxonia-anhalt-rezultat-final.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/germania-afd-saxonia-anhalt-rezultat-final.html</guid>
+      <pubDate>Mon, 07 Sep 2026 10:39:54 +0000</pubDate>
+      <category>Extern</category>
+      <description>Numărătoarea finală din Saxonia-Anhalt, publicată luni, 7 septembrie 2026, confirmă victoria partidului de extremă dreapta AfD cu 43,8% și 39 de mandate — sub cele 44,5% arătate de exit poll-ul de duminică seară, dar tot cea mai bună performanță a extremei drepte la nivel de land german din 1945. AfD ratează majoritatea absolută (are nevoie de 42 de mandate din 83), iar toate celelalte partide mari resping în continuare o coaliție cu ea.
+
+Unde bat probele: Probat. Verificate: 5 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Un studiu pe 47 de specii și 800.000 de observații: încălzirea a redus deja habitatul potrivit pentru bondarii europeni, cu până la 19% în unele zone</title>
       <link>https://farabaliverne.ro/a/bondari-europeni-declin-habitat-schimbari-climatice.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
       <description>Într-un interviu publicat pe 29 august 2026 de agenția de stat rusă RIA Novosti, viceministrul rus de externe Mihail Galuzin SUSȚINE că Rusia „va reacționa hotărât și fără întârziere” dacă situația din regiunea transnistreană „se agravează”, și că orice acțiune armată a Moldovei sau Ucrainei împotriva malului stâng al Nistrului ar fi tratată drept atac asupra Federației Ruse. Declarația vine cu trei săptămâni înaintea alegerilor pentru Duma rusă, pentru care Tiraspolul a anunțat deschiderea a 17 secții de votare pe teritoriul Republicii Moldova, și în contextul măsurilor de reintegrare fiscală luate de Chișinău față de regiune. Autoritățile moldovene resping public orice variantă de soluționare care nu e pașnică.
 
 Unde bat probele: Ce SUSȚINE Rusia — media de stat, fără confirmare independentă a unui pericol real. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Sub gheața Arcticii e o orchestră: balene, gheață care crapă și motoare de cargobot. Un laborator MIT a ascultat-o și a trimis date prin gheață cu magneți</title>
-      <link>https://farabaliverne.ro/a/mit-arctica-sunete-sub-gheata-comunicatie-magnetica.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-arctica-sunete-sub-gheata-comunicatie-magnetica.html</guid>
-      <pubDate>Sat, 05 Sep 2026 10:34:04 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Cercetători de la MIT Lincoln Laboratory au dus senzori pe banchiza din Oceanul Arctic ca să înregistreze ce se aude dedesubt — cântece de balenă beluga, gheață care se fisurează, motoare de nave comerciale. În paralel, au testat un modem care trimite date prin gheață cu câmpuri magnetice, fiindcă undele radio se sting în apa sărată. Au reușit 1,2 kilobytes pe secundă prin 1,1 metri de gheață. Două viscole i-au blocat cinci zile fără niciun zbor, iar din senzorii planificați au apucat să pună un sfert.
-
-Unde bat probele: Probat ce s-a măsurat și în ce condiții — dar e o relatare a redacției MIT despre propria lor muncă de teren, nu o lucrare trecută prin evaluare de colegi, iar testul cu modemul nu s-a făcut în mediul-țintă. Verificate: 4 probate, 4 contestate.</description>
     </item>
   </channel>
 </rss>
