@@ -42,5 +42,42 @@
       "text": "Cutremur de magnitudine 5,6, la 96 km est-sud-est de Isangel, Vanuatu.",
       "tip": "Cutremur"
     }
+  ],
+  "2026-09-06": [
+    {
+      "cheie": "us7000temi",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000temi",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,6, la 93 km sud-est de Kirakira, Insulele Solomon.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tem2",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tem2",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, la 108 km sud-vest de Puerto Madero, Mexic.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tep6",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tep6",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, în southern East Pacific Rise.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tepa",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tepa",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, în southern East Pacific Rise.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tepx",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tepx",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, în southern East Pacific Rise.",
+      "tip": "Cutremur"
+    }
   ]
 }
