@@ -49,12 +49,5 @@
     "explanation": "Soarele nu are un câmp magnetic simplu, cu un singur pol nord și unul sud, ca un magnet de frigider — câmpul lui e „împăturit” de rotația Soarelui într-o formă asemănătoare unei fuste de balerină în rotație, cu falduri care se întind prin tot sistemul solar, purtate de vântul solar. Foaia de curent heliosferică e limita dintre aceste falduri — locul exact unde polaritatea câmpului magnetic „se răstoarnă”, de la nord la sud. E o graniță subțire, dar imensă ca întindere, prin care trec toate planetele pe rând, pe măsură ce se rotesc în jurul Soarelui. Până acum, cea mai mare parte a ce știm despre ea vine din observații făcute relativ departe de Soare, unde semnalul original al vântului solar a fost deja „amestecat” de drumul parcurs prin spațiu — cam ca și cum ai încerca să afli compoziția exactă a unui izvor gustând apa dintr-un râu, mult în aval. Observația de la doar 0,28 unități astronomice e echivalentul degustării apei aproape direct de la izvor.",
     "sources": []
   },
-  "persoane": [],
-  "poza": {
-    "img_html": "<img src=\"../img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg\" alt=\"ESA Solar Orbiter\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — ESA Solar Orbiter. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Solar_Orbiter-_journey_around_the_Sun_ESA21809047.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Solar Orbiter- journey around the Sun ESA21809047</a>\" de European Space Agency, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 igo</a> · decupată</span></span></figcaption>",
-    "fisier": "img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg",
-    "licenta": "CC BY-SA 3.0 igo",
-    "autor": "European Space Agency"
-  }
+  "persoane": []
 }
