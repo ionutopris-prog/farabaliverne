@@ -1,0 +1,60 @@
+{
+  "slug": "solar-orbiter-foaie-curent-heliosferica-fier-oxigen",
+  "title": "Sonda Solar Orbiter a surprins cea mai clară imagine de până acum a graniței magnetice a Soarelui, la doar 0,28 unități astronomice",
+  "category": "Știință",
+  "date": "2026-09-07",
+  "source": "Southwest Research Institute / The Astrophysical Journal",
+  "url": "https://www.swri.org/newsroom/press-releases/swri-study-helps-unravel-how-the-sun-s-corona-transforms-solar-wind",
+  "dek": "Un studiu condus de Southwest Research Institute (SwRI), cu date de la misiunea comună ESA/NASA Solar Orbiter, a analizat o traversare a „foii de curent heliosferice” — granița unde câmpul magnetic al Soarelui își schimbă polaritatea — la doar 0,28 unități astronomice de Soare, mai aproape decât Mercur. Cercetătorii au găsit o scădere clară a raportului dintre ionii de fier și oxigen exact la limita magnetică, un semnal chimic distinct pe lângă cel magnetic deja cunoscut. Studiul, publicat în The Astrophysical Journal, nu explică definitiv cum se formează această graniță.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "O echipă condusă de dr. Keiichi Ogasawara de la Southwest Research Institute (SwRI, SUA) a analizat date de la instrumentele de câmp magnetic, plasmă și compoziție ale sondei Solar Orbiter, misiune comună a Agenției Spațiale Europene (ESA) și NASA. Sonda a traversat o pliere a foii de curent heliosferice (HCS) — granița din spațiu unde câmpul magnetic al Soarelui își schimbă polul nord cu cel sud — la aproximativ 26 de milioane de mile (0,28 unități astronomice) de Soare, mai aproape decât orbita planetei Mercur. Studiul a fost publicat în revista cu recenzie de la egal la egal The Astrophysical Journal.",
+      "sources": [
+        {
+          "name": "Southwest Research Institute — SwRI study helps unravel how the Sun's corona transforms into solar wind",
+          "url": "https://www.swri.org/newsroom/press-releases/swri-study-helps-unravel-how-the-sun-s-corona-transforms-solar-wind"
+        },
+        {
+          "name": "Universe Today — Snapping the Sun's Grand Magnetic Border at 0.3 AU",
+          "url": "https://www.universetoday.com/articles/snapping-the-suns-grand-magnetic-border-at-03-au"
+        }
+      ]
+    },
+    {
+      "text": "Deoarece observația a avut loc atât de aproape de Soare, echipa a putut studia vântul solar înainte ca semnăturile lui originale să fie alterate semnificativ în drumul spre exterior. Cercetătorii au identificat o scădere distinctă a raportului dintre ionii de fier și oxigen chiar la limita sectorului magnetic — dovadă că foaia de curent heliosferică nu e doar o caracteristică pur magnetică, ci poartă și o amprentă chimică distinctă, legată de modul în care Soarele „sortează” diferiți ioni la origine.",
+      "sources": [
+        {
+          "name": "Southwest Research Institute — citatul lui Keiichi Ogasawara despre raportul fier-oxigen",
+          "url": "https://www.swri.org/newsroom/press-releases/swri-study-helps-unravel-how-the-sun-s-corona-transforms-solar-wind"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cercetătorii sunt clari că studiul nu stabilește definitiv originile foii de curent heliosferice sau mecanismul exact prin care Soarele separă ionii înainte ca aceștia să plece în vântul solar. Rezultatul „oferă constrângeri clare pe care orice model viitor de formare a foii de curent trebuie să le satisfacă” — adică restrânge teoriile posibile, fără să confirme una anume. Rămâne deschisă și întrebarea mai amplă a acestui domeniu de cercetare — cum se încălzește coroana solară și cum se formează exact vântul solar — pe care acest studiu o alimentează, dar nu o rezolvă.",
+      "sources": [
+        {
+          "name": "Southwest Research Institute — precizările despre ce rămâne nerezolvat",
+          "url": "https://www.swri.org/newsroom/press-releases/swri-study-helps-unravel-how-the-sun-s-corona-transforms-solar-wind"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un comunicat oficial al Southwest Research Institute (instituția care a condus studiul), plus relatarea Universe Today, despre un studiu publicat în revista cu recenzie de la egal la egal The Astrophysical Journal.\n\nCe s-a verificat exact: sonda Solar Orbiter (ESA/NASA) a traversat foaia de curent heliosferică la doar 0,28 unități astronomice de Soare — cea mai apropiată și mai puțin „alterată” observație de acest tip făcută până acum — și a măsurat o scădere clară a raportului fier-oxigen exact la granița magnetică. Aceasta e o măsurătoare directă, publicată, nu o interpretare speculativă.\n\nUnde e nevoie de precizie: descoperirea arată CĂ există o amprentă chimică asociată graniței magnetice, nu DE CE apare ea. Cercetătorii spun explicit că rezultatul „constrânge” teoriile viitoare despre formarea foii de curent, fără să confirme un mecanism anume. E o piesă de puzzle utilă pentru fizica solară, nu o explicație completă a modului în care Soarele generează vântul solar sau își încălzește coroana — un mister mai vechi și mai larg, la care acest studiu contribuie fără să-l rezolve.\n\nCe lipsește: un model teoretic acceptat care să explice de ce sortarea ionilor (fier față de oxigen) urmează exact granița magnetică. Până la un asemenea model, rezultatul rămâne o observație empirică solidă, folosită ca test pentru teoriile aflate în dezvoltare.",
+  "math": {
+    "title": "Ce e „foaia de curent heliosferică”",
+    "explanation": "Soarele nu are un câmp magnetic simplu, cu un singur pol nord și unul sud, ca un magnet de frigider — câmpul lui e „împăturit” de rotația Soarelui într-o formă asemănătoare unei fuste de balerină în rotație, cu falduri care se întind prin tot sistemul solar, purtate de vântul solar. Foaia de curent heliosferică e limita dintre aceste falduri — locul exact unde polaritatea câmpului magnetic „se răstoarnă”, de la nord la sud. E o graniță subțire, dar imensă ca întindere, prin care trec toate planetele pe rând, pe măsură ce se rotesc în jurul Soarelui. Până acum, cea mai mare parte a ce știm despre ea vine din observații făcute relativ departe de Soare, unde semnalul original al vântului solar a fost deja „amestecat” de drumul parcurs prin spațiu — cam ca și cum ai încerca să afli compoziția exactă a unui izvor gustând apa dintr-un râu, mult în aval. Observația de la doar 0,28 unități astronomice e echivalentul degustării apei aproape direct de la izvor.",
+    "sources": []
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg\" alt=\"ESA Solar Orbiter\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — ESA Solar Orbiter. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Solar_Orbiter-_journey_around_the_Sun_ESA21809047.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Solar Orbiter- journey around the Sun ESA21809047</a>\" de European Space Agency, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 igo</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg",
+    "licenta": "CC BY-SA 3.0 igo",
+    "autor": "European Space Agency"
+  }
+}

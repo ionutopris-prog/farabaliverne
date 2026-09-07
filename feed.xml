@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 07 Sep 2026 09:46:42 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 09:48:35 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cercetători de la Ohio State au blocat o proteină numită SET și au oprit formarea tumorilor de glioblastom în modele preclinice</title>
+      <link>https://farabaliverne.ro/a/glioblastom-set-proteina-ohio-state.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/glioblastom-set-proteina-ohio-state.html</guid>
+      <pubDate>Mon, 07 Sep 2026 06:47:22 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat în revista Cancer Letters de o echipă de la Ohio State University Comprehensive Cancer Center – James arată că blocarea proteinei SET a prevenit formarea tumorilor de glioblastom în modele preclinice, iar interferența cu proteine înrudite a făcut celulele canceroase mai vulnerabile la radioterapie. Rezultatele sunt preclinice — nu au fost testate încă la pacienți — dar deschid o țintă nouă pentru un cancer cerebral care a rezistat decenii chimioterapiei și radioterapiei.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Un cadru de inteligență artificială de la Princeton a controlat plasma de fuziune în circa 20 de milisecunde, pe un reactor experimental real</title>
       <link>https://farabaliverne.ro/a/princeton-pacman-ai-fuziune-plasma-milisecunde.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce au prezentat cercetătorii și care le e istoricul �
       <description>Procurorul general al Braziliei, Paulo Gonet, a cerut pe 1 septembrie 2026 Curții Supreme (STF) să anuleze un raport al Poliției Federale care conține mesaje descoperite pe telefonul fostului bancher Daniel Vorcaro — mesaje care îl citează pe judecătorul Alexandre de Moraes, dar și pe Gonet însuși. Cererea invocă un argument procedural: judecătorul-raportor André Mendonça nu ar fi avut dreptul să dispună singur aprofundarea anchetei asupra unui coleg de Curte, fără aprobarea plenului STF. Cazul e încă în lucru la STF, fără nicio decizie finală, iar conținutul mesajelor rămâne, deocamdată, doar ce a raportat Poliția Federală — nu o constatare judecătorească.
 
 Unde bat probele: Probat ce cere Gonet și ce conține raportul scurs — STF nu s-a pronunțat încă, iar indiciile din raport nu sunt constatări finale. Verificate: 5 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Uber își încetează activitatea în Nigeria și Uganda — compania nu menționează inflația sau moneda drept motiv, deși presa locală le vede drept cauza reală</title>
-      <link>https://farabaliverne.ro/a/uber-inchide-nigeria-uganda-restructurare-globala.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/uber-inchide-nigeria-uganda-restructurare-globala.html</guid>
-      <pubDate>Sat, 05 Sep 2026 09:17:34 +0000</pubDate>
-      <category>Economie</category>
-      <description>Uber a anunțat pe 2 septembrie 2026 că își încetează operațiunile din Nigeria și Uganda, după 12, respectiv 10 ani de activitate, în cadrul unei restructurări globale care taie 3.300 de posturi (circa 10% din personalul corporativ). Compania vorbește oficial despre o „revizuire a priorităților de afaceri”, fără să pomenească inflația, cursul valutar sau presiunea competitivă — factori pe care presa economică nigeriană îi consideră cauza reală a retragerii.
-
-Unde bat probele: Probat ce a anunțat Uber și ce spun cifrele — motivul oficial invocat de companie e incomplet față de contextul economic documentat separat. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
