@@ -1,0 +1,55 @@
+{
+    "slug": "bolojan-deficit-37-procente-context-dobanzi",
+    "title": "Bolojan spune că deficitul a scăzut cu 37% și cere „rapid” un premier — cifrele sunt oficiale, dar omit cât a crescut costul dobânzilor",
+    "category": "Economie",
+    "date": "2026-09-07",
+    "source": "Ministerul Finanțelor / financiarul.ro / stirileprotv.ro",
+    "url": "https://stirileprotv.ro/stiri/financiar/mf-anunta-executia-bugetara-la-7-luni-deficitul-se-reduce-cu-28-36-miliarde-de-lei-fata-de-2025-si-coboara-la-2-34-din-pib.html",
+    "dek": "Premierul interimar Ilie Bolojan a cerut luni, 7 septembrie 2026, partidelor un „guvern cu puteri depline” cât mai repede, susținând că măsurile de austeritate ale guvernului său au funcționat: deficitul bugetar a scăzut cu 37% în primele șapte luni din 2026 față de aceeași perioadă din 2025, iar investițiile publice au ajuns la 76,51 miliarde lei. Ministerul Finanțelor confirmă cifrele oficial — dar același raport arată că plățile de dobânzi la datoria publică au ajuns la peste 40 miliarde lei, în creștere cu 26,5%, o presiune pe care mesajul lui Bolojan nu o menționează.",
+    "mainVerdict": "Probat, cu context",
+    "probat": [
+        {
+            "text": "Ministerul Finanțelor a confirmat oficial, prin execuția bugetară la 7 luni, că deficitul bugetului general consolidat a scăzut de la 76,44 miliarde lei (3,99% din PIB) în primele 7 luni din 2025, la 48,08 miliarde lei (2,34% din PIB) în aceeași perioadă din 2026 — o reducere de 28,36 miliarde lei, adică 37% în termeni nominali și 1,65 puncte procentuale din PIB.",
+            "sources": [
+                {"name": "Știrile ProTV — MF anunță execuția bugetară la 7 luni: Deficitul se reduce cu 28,36 miliarde de lei față de 2025 și coboară la 2,34% din PIB", "url": "https://stirileprotv.ro/stiri/financiar/mf-anunta-executia-bugetara-la-7-luni-deficitul-se-reduce-cu-28-36-miliarde-de-lei-fata-de-2025-si-coboara-la-2-34-din-pib.html"},
+                {"name": "financiarul.ro — Deficitul bugetar a coborât la 48,08 miliarde lei în primele șapte luni din 2026. Dobânzile au trecut de 40 de miliarde", "url": "https://financiarul.ro/economie/deficitul-bugetar-a-coborat-la-48-08-miliarde-lei-in-primele-sapte-luni/"}
+            ]
+        },
+        {
+            "text": "Tot potrivit datelor oficiale, veniturile bugetare au crescut cu 11,2% (până la 412,31 miliarde lei), în bună parte pe seama TVA net (+26,5%, 88,55 miliarde lei) și a rambursărilor din fonduri europene (+30,3%); cheltuielile totale au crescut cu doar 2,9%, iar cheltuielile de personal au scăzut cu 4,1%. Investițiile totale au ajuns la 76,51 miliarde lei, cu circa 15 miliarde lei mai mult decât în aceeași perioadă din 2025, din care 71% provin din fonduri europene/PNRR.",
+            "sources": [
+                {"name": "financiarul.ro — Deficitul bugetar a coborât la 48,08 miliarde lei în primele șapte luni din 2026. Dobânzile au trecut de 40 de miliarde", "url": "https://financiarul.ro/economie/deficitul-bugetar-a-coborat-la-48-08-miliarde-lei-in-primele-sapte-luni/"},
+                {"name": "bursa.ro — PNL: Guvernul Bolojan a redus deficitul cu 37% şi a crescut investiţiile cu 15 miliarde de lei în primele 7 luni din 2026", "url": "https://www.bursa.ro/pnl-guvernul-bolojan-a-redus-deficitul-cu-37-procente-si-a-crescut-investitiile-cu-15-miliarde-de-lei-in-primele-7-luni-din-2026-42851062"}
+            ]
+        },
+        {
+            "text": "Într-o postare publică, Ilie Bolojan a cerut partidelor politice un guvern cu puteri depline „rapid”, condus de „un premier responsabil, care înțelege exact situația, un premier dispus la efortul constant și adesea impopular”, avertizând că țara riscă să revină la „o politică populistă, bazată pe creșterea cheltuielilor și a consumului” dacă direcția actuală e abandonată. Mesajul vine în contextul unui interimat de peste 130 de zile, de la căderea guvernului Bolojan prin moțiune de cenzură, pe 5 mai 2026.",
+            "sources": [
+                {"name": "Antena 3 CNN — „De acum sunt două variante”. Ilie Bolojan spune că „perioada de provizorat nu mai poate continua”", "url": "https://www.antena3.ro/politica/avem-nevoie-rapid-de-un-guvern-bolojan-spune-ca-situatia-de-provizorat-nu-mai-poate-continua-802313.html"}
+            ]
+        },
+        {
+            "text": "Același raport al Ministerului Finanțelor arată că statul a plătit peste 40,12 miliarde lei doar dobânzi la datoria publică în primele 7 luni din 2026 — cu 26,5% mai mult decât în aceeași perioadă din 2025 — reprezentând aproximativ 2% din PIB. Potrivit unei analize distincte, cheltuielile cu dobânzile au crescut de peste trei ori și jumătate în ultimii cinci ani (de la circa 17 miliarde lei în 2021), iar în 2026 sunt aproape egale cu întregul deficit bugetar rămas.",
+            "sources": [
+                {"name": "financiarul.ro — Deficitul bugetar a coborât la 48,08 miliarde lei în primele șapte luni din 2026. Dobânzile au trecut de 40 de miliarde", "url": "https://financiarul.ro/economie/deficitul-bugetar-a-coborat-la-48-08-miliarde-lei-in-primele-sapte-luni/"},
+                {"name": "cursdeguvernare.ro — Dobânzile la datoria publică au crescut de 3,5 ori în 5 ani și depășesc acum bugetul întregii Armate", "url": "https://cursdeguvernare.ro/cost-oportunitate-romania-cheltuieli-dobanzi-2026-comparatie-bugete-sanatate-aparare.html"}
+            ]
+        }
+    ],
+    "contestat": [],
+    "opinie": [],
+    "math": {
+        "Deficit 7 luni 2025 → 2026": "76,44 mld lei (3,99% PIB) → 48,08 mld lei (2,34% PIB), -37% nominal",
+        "Investiții 7 luni 2025 → 2026": "≈61,7 mld lei → 76,51 mld lei, +≈15 mld lei (71% din fonduri UE/PNRR)",
+        "Dobânzi 7 luni 2025 → 2026": "≈31,7 mld lei → 40,12 mld lei, +26,5%"
+    },
+    "aiNote": "Ce s-a verificat: cifrele citate de Bolojan (și reluate de PNL într-un comunicat) despre scăderea cu 37% a deficitului bugetar și creșterea investițiilor cu aproape 15 miliarde lei, în primele 7 luni din 2026 față de aceeași perioadă din 2025. Ambele cifre sunt confirmate de execuția bugetară oficială publicată de Ministerul Finanțelor — nu sunt inventate și nici umflate: 76,44 miliarde lei față de 48,08 miliarde lei înseamnă exact o reducere de 37% în termeni nominali.\n\nUnde apare omisiunea: mesajul lui Bolojan prezintă scăderea deficitului ca dovadă că „măsurile au funcționat”, fără să menționeze că, în același interval, plățile de dobânzi la datoria publică au ajuns la peste 40 de miliarde lei — cu 26,5% mai mult decât anul trecut și aproape cât întregul deficit rămas. O parte din spațiul fiscal câștigat prin reducerea cheltuielilor de personal și prin creșterea veniturilor (inclusiv TVA, în creștere cu 26,5%, posibil legată de majorări de taxe din 2025) e, practic, absorbită de costul tot mai mare al împrumuturilor statului. De asemenea, comparația se face cu 2025 — anul în care România a avut cel mai mare deficit din UE ca pondere în PIB — ceea ce face ca orice îmbunătățire nominală să pară mai dramatică prin simpla schimbare a bazei de comparație.\n\nCe lipsește: o proiecție oficială pentru execuția pe întregul an 2026, care să arate dacă tendința de scădere se menține și după cheltuielile tipice de final de an (al 13-lea salariu, plăți de investiții concentrate în decembrie) — cifrele de la 7 luni nu se extrapolează liniar la un an întreg. Lipsește și o defalcare clară a cât din creșterea veniturilor vine din creșterea economică reală și cât din majorări de taxe.\n\nCe ar schimba concluzia: execuția bugetară pe întregul an 2026, care ar arăta dacă „direcția corectă” revendicată de Bolojan se menține sau dacă efectul e doar unul de bază de comparație cu un an record de prost din 2025.",
+    "persoane": ["Ilie Bolojan"],
+    "poza": {
+        "img_html": "<img src=\"../img/articole/bolojan-deficit-37-procente-context-dobanzi.jpg\" alt=\"Ilie Bolojan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+        "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto de arhivă</b> — Ilie Bolojan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ilie_Bolojan_-_22_September_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ilie Bolojan - 22 September 2025</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+        "fisier": "img/articole/bolojan-deficit-37-procente-context-dobanzi.jpg",
+        "licenta": "CC BY 4.0",
+        "autor": "European Commission"
+    }
+}
