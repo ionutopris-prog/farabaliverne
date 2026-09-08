@@ -47,13 +47,21 @@ UA = "farabaliverne.ro/1.0 (letopiset; contact@farabaliverne.ro)"
 # care un cutremur se simte serios și intră în presă.
 PRAG_MAGNITUDINE = 5.0
 # GDACS dă trei niveluri: verde (fără impact), portocaliu, roșu. Verdele ar
-# umple pagina cu evenimente pe care nu le-a observat nimeni.
-NIVELURI = ("Orange", "Red")
+# umple pagina cu evenimente pe care nu le-a observat nimeni — pentru inundații
+# și secetă. Dar un uragan, un vulcan, un tsunami sau un incendiu mare sunt
+# evenimente și când GDACS le dă verde (8 sept 2026, cerința fondatorului:
+# „tot ce e natural": vulcani, tsunami, tornade, uragane, alunecări, incendii,
+# temperaturi extreme, epidemii, El Niño / La Niña).
+NIVELURI = ("Orange", "Red")                 # pentru FL (inundații) și DR (secetă)
+VERDE_OK = ("TC", "VO", "TS", "WF")           # intră și pe verde, cu pragurile de mai jos
+PRAG_HECTARE = 10_000                         # incendiu: sub 10.000 ha nu intră pe verde
+PRAG_VANT = 63                                # km/h: sub asta e depresiune tropicală, nu furtună
 
 TIPURI = {
     "EQ": "Cutremur", "TC": "Ciclon tropical", "FL": "Inundație",
     "VO": "Erupție vulcanică", "DR": "Secetă", "WF": "Incendiu de vegetație",
-    "TS": "Tsunami",
+    "TS": "Tsunami", "LS": "Alunecare de teren", "TE": "Temperaturi extreme",
+    "EP": "Epidemie", "EN": "El Niño / La Niña",
 }
 
 
@@ -154,12 +162,22 @@ def gdacs(zi):
     ies = []
     for it in radacina.findall(".//item"):
         nivel = (it.findtext("gdacs:alertlevel", default="", namespaces=NS) or "").strip()
+        cod = (it.findtext("gdacs:eventtype", default="", namespaces=NS) or "").strip()
+        sever = (it.findtext("gdacs:severity", default="", namespaces=NS) or "").strip()
         if nivel not in NIVELURI:
-            continue
+            if cod not in VERDE_OK:
+                continue
+            if cod == "WF":
+                m = re.search(r"([\d,\.]+)\s*ha", sever)
+                if not m or int(re.sub(r"[^\d]", "", m.group(1)) or 0) < PRAG_HECTARE:
+                    continue
+            if cod == "TC":
+                m = re.search(r"(\d+)\s*km/h", sever)
+                if m and int(m.group(1)) < PRAG_VANT:
+                    continue
         de_la = (it.findtext("gdacs:fromdate", default="", namespaces=NS) or "")
         if not _in_zi(de_la, zi):
             continue
-        cod = (it.findtext("gdacs:eventtype", default="", namespaces=NS) or "").strip()
         text = _fraza(it, cod, NS)
         if not text:
             continue
@@ -205,13 +223,25 @@ def _fraza(it, cod, NS):
     elif cod == "FL":
         baza = f"Inundații în {tara}" if tara else "Inundații"
     elif cod == "TC":
-        baza = f"Ciclonul tropical {nume}" if nume else "Ciclon tropical"
+        sever = (it.findtext("gdacs:severity", default="", namespaces=NS) or "")
+        vant = re.search(r"(\d+)\s*km/h", sever)
+        kmh = int(vant.group(1)) if vant else 0
+        nume_curat = re.sub(r"-\d+$", "", nume).title() if nume else ""
+        fel = "Uraganul" if kmh >= 119 else ("Furtuna tropicală" if kmh >= 63 else "Ciclonul tropical")
+        baza = f"{fel} {nume_curat}" if nume_curat else fel
         if tara:
             baza += f", peste {tara}"
+        if kmh:
+            baza += f" — vânt de {kmh} km/h"
     elif cod == "DR":
         baza = f"Secetă în {tara}" if tara else "Secetă"
     elif cod == "WF":
         baza = f"Incendiu de vegetație în {tara}" if tara else "Incendiu de vegetație"
+        sever = (it.findtext("gdacs:severity", default="", namespaces=NS) or "")
+        m = re.search(r"([\d,\.]+)\s*ha", sever)
+        if m:
+            ha = int(re.sub(r"[^\d]", "", m.group(1)) or 0)
+            baza += f" — {ha:,} de hectare".replace(",", ".")
     elif cod == "TS":
         baza = f"Tsunami în {tara}" if tara else "Tsunami"
     elif cod == "EQ":
@@ -318,6 +348,118 @@ def _tara_din_coada(loc):
     return TARI.get(loc, REGIUNI.get(loc, loc))
 
 
+# ─── NASA EONET: vulcani, incendii, furtuni, alunecări, temperaturi extreme ──
+EONET_CAT = {
+    "volcanoes": ("VO", "Activitate vulcanică"), "wildfires": ("WF", "Incendiu de vegetație"),
+    "severeStorms": ("TC", "Furtună"), "landslides": ("LS", "Alunecare de teren"),
+    "floods": ("FL", "Inundații"), "drought": ("DR", "Secetă"),
+    "tempExtremes": ("TE", "Temperaturi extreme"), "earthquakes": ("EQ", "Cutremur"),
+}
+
+
+def eonet(zi):
+    """Evenimentele NASA EONET care au avut o observație în ziua dată."""
+    try:
+        d = json.loads(_ia("https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=3&limit=200"))
+    except Exception as e:
+        print(f"  NASA EONET a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    for ev in d.get("events", []):
+        cat = (ev.get("categories") or [{}])[0].get("id", "")
+        if cat not in EONET_CAT:
+            continue
+        geo = ev.get("geometry") or []
+        zile = {g.get("date", "")[:10] for g in geo}
+        # intră în ziua în care a APĂRUT (prima observație), ca să nu se repete zilnic
+        if not geo or min(zile) != zi:
+            continue
+        cod, eticheta = EONET_CAT[cat]
+        titlu = _ro_titlu_eonet(ev.get("title", ""), cod)
+        ies.append({"tip": TIPURI.get(cod, eticheta), "text": f"{eticheta}: {titlu}. NASA EONET",
+                    "sursa": "NASA EONET", "link": (ev.get("sources") or [{}])[0].get("url") or ev.get("link", ""),
+                    "cheie": "eonet:" + str(ev.get("id"))})
+    return ies
+
+
+def _ro_titlu_eonet(t, cod):
+    """Titlurile EONET sunt englezești și scurte: le curățăm, nu le traducem aproximativ."""
+    t = re.sub(r"^(Wildfire|Wildfires|Volcano|Flood|Flooding|Landslide|Drought)\s*[-–:]\s*", "", t, flags=re.I)
+    t = re.sub(r"\bHurricane\b", "Uraganul", t); t = re.sub(r"\bTyphoon\b", "Taifunul", t)
+    t = re.sub(r"\bTropical Storm\b", "Furtuna tropicală", t); t = re.sub(r"\bCyclone\b", "Ciclonul", t)
+    t = re.sub(r"\bTropical Depression\b", "Depresiunea tropicală", t)
+    t = re.sub(r"\bTornado(es)?\b", "Tornadă", t)
+    return ro_tari(t.strip())
+
+
+# ─── OMS: focare și epidemii (Disease Outbreak News) ─────────────────────────
+BOLI = {
+    "ebola": "Ebola", "cholera": "holeră", "measles": "rujeolă", "mpox": "mpox", "marburg": "Marburg",
+    "dengue": "dengue", "yellow fever": "febră galbenă", "avian influenza": "gripă aviară",
+    "influenza": "gripă", "polio": "poliomielită", "poliovirus": "poliovirus", "plague": "ciumă",
+    "nipah": "Nipah", "lassa": "Lassa", "mers": "MERS", "covid-19": "COVID-19", "meningitis": "meningită",
+    "diphtheria": "difterie", "anthrax": "antrax", "rift valley fever": "febra Văii Rift",
+    "chikungunya": "chikungunya", "zika": "Zika", "hepatitis": "hepatită", "malaria": "malarie",
+    "oropouche": "Oropouche", "monkeypox": "mpox", "rabies": "rabie",
+}
+
+
+def oms(zi):
+    """Comunicatele OMS de focar publicate în ziua dată."""
+    try:
+        d = json.loads(_ia("https://www.who.int/api/news/diseaseoutbreaknews?$top=20&$orderby=PublicationDate%20desc"))
+    except Exception as e:
+        print(f"  OMS a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    for x in d.get("value", []):
+        if (x.get("PublicationDate") or "")[:10] != zi:
+            continue
+        titlu = (x.get("Title") or "").strip()
+        boala = next((ro for en, ro in BOLI.items() if en in titlu.lower()), "")
+        # „Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo”
+        loc = ro_tari(titlu.split(" - ")[-1].split(", ")[-1].strip()) if (" - " in titlu or ", " in titlu) else ""
+        text = f"Focar de {boala}" if boala else "Focar semnalat de OMS"
+        if loc and loc.lower() not in text.lower():
+            text += f", {loc}"
+        text += f" — comunicat OMS: {titlu}."
+        slug = x.get("UrlName") or x.get("ItemDefaultUrl") or ""
+        ies.append({"tip": "Epidemie", "text": text, "sursa": "OMS",
+                    "link": f"https://www.who.int/emergencies/disease-outbreak-news/item/{slug}" if slug and not slug.startswith("http") else slug,
+                    "cheie": "oms:" + str(x.get("Id") or titlu)})
+    return ies
+
+
+# ─── NOAA: starea El Niño / La Niña — se consemnează doar când se SCHIMBĂ ────
+ENSO_FISIER = os.path.join(ROOT, "data", "_letopiset_enso.txt")
+
+
+def enso(zi):
+    try:
+        import html as _html
+        t = _html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ",
+             _ia("https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml").decode("utf-8", "ignore"))))
+    except Exception as e:
+        print(f"  NOAA ENSO a dat greș: {e}", file=sys.stderr)
+        return []
+    m = re.search(r"ENSO Alert System Status:\s*([A-Za-z\u00f1 \-]+?)\s+(?:Synopsis|$)", t)
+    if not m:
+        return []
+    stare = m.group(1).strip()
+    veche = open(ENSO_FISIER, encoding="utf-8").read().strip() if os.path.exists(ENSO_FISIER) else ""
+    if stare == veche:
+        return []
+    with open(ENSO_FISIER, "w", encoding="utf-8") as f:
+        f.write(stare)
+    RO = {"El Niño Advisory": "El Niño în desfășurare (aviz NOAA)", "La Niña Advisory": "La Niña în desfășurare (aviz NOAA)",
+          "El Niño Watch": "El Niño posibil în lunile următoare (NOAA)", "La Niña Watch": "La Niña posibilă în lunile următoare (NOAA)",
+          "Not Active": "nici El Niño, nici La Niña (NOAA)", "Final El Niño Advisory": "El Niño s-a încheiat (NOAA)",
+          "Final La Niña Advisory": "La Niña s-a încheiat (NOAA)"}
+    return [{"tip": "El Niño / La Niña", "text": f"Starea Pacificului: {RO.get(stare, stare)}.", "sursa": "NOAA",
+             "link": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+             "cheie": "enso:" + stare}]
+
+
 def incarca():
     if not os.path.exists(FISIER):
         return {}
@@ -340,7 +482,11 @@ def main():
     deja = {e.get("cheie") for e in tot.get(zi, [])}
 
     noi = []
-    for e in cutremure(zi) + gdacs(zi):
+    # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
+    for e in cutremure(zi) + gdacs(zi) + eonet(zi) + oms(zi) + enso(zi):
+        nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
+        if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
+            continue
         if e["cheie"] in deja:
             continue
         deja.add(e["cheie"])

@@ -101,6 +101,20 @@
       "sursa": "USGS",
       "text": "Cutremur de magnitudine 5,0, în regiunea Insulelor Kermadec.",
       "tip": "Cutremur"
+    },
+    {
+      "cheie": "1031816",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031816",
+      "sursa": "GDACS",
+      "text": "Incendiu de vegetație în Australia — 12.126 de hectare.",
+      "tip": "Incendiu de vegetație"
+    },
+    {
+      "cheie": "enso:El Niño Advisory",
+      "link": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+      "sursa": "NOAA",
+      "text": "Starea Pacificului: El Niño în desfășurare (aviz NOAA).",
+      "tip": "El Niño / La Niña"
     }
   ],
   "2026-09-08": [
@@ -109,6 +123,20 @@
       "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqf",
       "sursa": "USGS",
       "text": "Cutremur de magnitudine 5,1, la 96 km est-sud-est de Isangel, Vanuatu.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tfr8",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfr8",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, la 51 km nord-nord-est de Ruteng, Indonezia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tfs3",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfs3",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, în regiunea Insulelor Sandwich de Sud.",
       "tip": "Cutremur"
     }
   ]
