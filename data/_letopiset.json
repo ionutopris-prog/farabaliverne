@@ -79,5 +79,14 @@
       "text": "Cutremur de magnitudine 5,2, în southern East Pacific Rise.",
       "tip": "Cutremur"
     }
+  ],
+  "2026-09-08": [
+    {
+      "cheie": "us7000tfqf",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqf",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, la 96 km est-sud-est de Isangel, Vanuatu.",
+      "tip": "Cutremur"
+    }
   ]
 }
