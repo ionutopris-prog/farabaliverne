@@ -1,0 +1,54 @@
+{
+  "slug": "lz-materie-intunecata-semnal-2-6-sigma",
+  "title": "Un detector de materie întunecată din Dakota de Sud a înregistrat un semnal neobișnuit — dar oamenii de știință spun clar că nu e o descoperire",
+  "category": "Știință",
+  "date": "2026-09-08",
+  "source": "Lawrence Berkeley National Laboratory / colaborarea LUX-ZEPLIN (LZ)",
+  "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/",
+  "dek": "Experimentul LUX-ZEPLIN (LZ), care caută materie întunecată la un kilometru sub pământ în Dakota de Sud, a găsit un singur eveniment greu de explicat prin zgomotul de fond cunoscut. Semnificația statistică e de 2,6 sigma — mult sub pragul de 5 sigma cerut pentru o descoperire în fizică — iar cercetătorii spun explicit că nu susțin că au văzut materie întunecată.",
+  "mainVerdict": "Probat ce s-a măsurat; speculativ ce ar putea însemna",
+  "probat": [
+    {
+      "text": "Colaborarea internațională LUX-ZEPLIN (LZ) — 250 de oameni de știință din 39 de instituții, coordonată de Lawrence Berkeley National Laboratory — a anunțat că a înregistrat un eveniment izolat, într-o analiză a 220 de zile de date colectate între martie 2023 și aprilie 2024, greu de explicat ca fond cunoscut de radiație sau alte surse instrumentale. Detectorul funcționează la aproape 1,6 km sub pământ, la Sanford Underground Research Facility (SURF), și folosește 10 tone de xenon lichid ultrapur pentru a căuta particule WIMP (particule masive care interacționează slab), un candidat teoretic pentru materia întunecată.",
+      "sources": [
+        {"name": "Berkeley Lab — LZ Sees Surprising Result in Search for Dark Matter", "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/"},
+        {"name": "ScienceDaily — Dark matter detector finds a strange signal scientists can't yet explain", "url": "https://www.sciencedaily.com/releases/2026/09/260904000313.htm"}
+      ]
+    },
+    {
+      "text": "Semnificația statistică a evenimentului este de 2,6 sigma — adică există aproximativ 0,5% șanse ca el să fie explicat doar de fondul cunoscut. Pragul acceptat în fizica particulelor pentru a declara o „descoperire” este de 5 sigma, deci rezultatul e departe de acel prag. Evenimentul sugerează, dacă ar fi cauzat de o particulă WIMP, o masă de cel puțin 200 GeV/c² — de peste 200 de ori masa unui proton —, un scenariu diferit de cel mai simplu model WIMP căutat până acum.",
+      "sources": [
+        {"name": "Berkeley Lab — LZ Sees Surprising Result in Search for Dark Matter", "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/"},
+        {"name": "Stanford Report — Scientists spot a possible dark matter signal", "url": "https://news.stanford.edu/stories/2026/9/dark-matter-detection-signal-lz"}
+      ]
+    },
+    {
+      "text": "Cercetătorii implicați insistă pe prudență. Rick Gaitskell, unul dintre coordonatorii experimentului, a declarat: „Nu susținem că am văzut materie întunecată. Dar am văzut ceva interesant, pe care vrem să-l împărtășim comunității științifice.” Aaron Manalaysay a descris evenimentul drept „primul exemplu, din orice experiment la care am lucrat, al unui outlier care pare valid din toate punctele de vedere” — adică nu au găsit, deocamdată, o explicație instrumentală sau de fond care să-l elimine.",
+      "sources": [
+        {"name": "Berkeley Lab — LZ Sees Surprising Result in Search for Dark Matter", "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Rezultatul a fost prezentat la conferința TeV Particle Astrophysics 2026, din Japonia, nu ca o lucrare care revendică o descoperire. Comunitatea de fizică a particulelor a fost arsă de precedente similare — semnale la 2-3 sigma care s-au dovedit, cu mai multe date, fluctuații statistice sau efecte de fond neidentificate inițial. LZ însuși spune că are nevoie de date suplimentare, colectate în continuare la SURF, pentru a stabili dacă evenimentul se întărește sau dispare pe măsură ce se adună mai multe zile de observație.",
+      "sources": [
+        {"name": "Nature — Is this the first glimpse of dark matter? Data point excites physicists", "url": "https://www.nature.com/articles/d41586-026-01985-9"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un rezultat anunțat oficial de colaborarea LUX-ZEPLIN, prezentat la o conferință de fizică din Japonia și relatat de Berkeley Lab, Stanford, ScienceDaily și comentat de Nature.\n\nCe s-a verificat exact: LZ a văzut un singur eveniment, într-un set de date colectate acum doi ani (martie 2023 – aprilie 2024), care nu se potrivește ușor cu niciun fond cunoscut al detectorului. Semnificația e de 2,6 sigma — o abatere reală de la ce s-ar aștepta doar din zgomot, dar departe de pragul de 5 sigma pe care fizica particulelor îl cere pentru a vorbi despre o „descoperire”.\n\nDe ce contează diferența dintre „semnal interesant” și „descoperire”: la 2,6 sigma, șansa ca un eveniment aparent neobișnuit să fie totuși o fluctuație statistică normală e de circa 1 la 200 — mică, dar nu neglijabilă. Istoria fizicii particulelor are destule „semnale” la acest nivel de încredere care au dispărut complet odată cu mai multe date (cazuri celebre la LHC și în alte experimente de materie întunecată). De aceea înșiși autorii resping explicit eticheta de „descoperire” și vorbesc despre „ceva interesant de împărtășit”, nu despre o confirmare.\n\nCe lipsește: mai multe zile de date de la același detector, care ar arăta dacă evenimentul se repetă statistic sau rămâne un singur punct izolat. Fără asta, nu se poate spune dacă e vorba de materia întunecată căutată de zeci de ani, de o sursă de fond neidentificată încă, sau pur și simplu de o fluctuație. Colaborarea LZ continuă să colecteze date la Sanford Underground Research Facility tocmai pentru a răspunde la această întrebare.",
+  "math": {
+    "title": "Ce înseamnă „2,6 sigma” și de ce fizicienii cer 5",
+    "explanation": "„Sigma” măsoară cât de neobișnuit e un rezultat față de ce te-ai aștepta să vezi doar din întâmplare, dacă nu ar exista niciun fenomen nou. La 1 sigma, un rezultat „ciudat” apare frecvent, doar din variație statistică normală — nu înseamnă nimic. La 2,6 sigma, șansa ca fenomenul să fie doar întâmplare e de aproximativ 0,5%, adică 1 din 200 — suficient de rar ca să fie notabil, dar nu suficient ca să excludă ghinionul statistic. La 5 sigma, pragul folosit pentru a declara oficial o „descoperire” în fizica particulelor, șansa de eroare scade la aproximativ 1 la 3,5 milioane. Motivul pragului atât de strict: cu mii de experimente rulate în lume, unele fluctuații statistice rare apar inevitabil undeva, prin pură probabilitate — iar 5 sigma e nivelul la care riscul de a confunda o fluctuație cu o descoperire reală devine neglijabil. LZ se află undeva la mijlocul acestui drum: a văzut ceva ce merită urmărit, dar recunoaște deschis că nu a ajuns încă la pragul care ar transforma observația într-un fapt stabilit."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/lz-materie-intunecata-semnal-2-6-sigma.jpg\" alt=\"xenon time projection chamber detector\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — xenon time projection chamber detector. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:LUXEvent.pdf\" rel=\"nofollow noopener\" target=\"_blank\">LUXEvent</a>\" de David Malling and Carlos Faham, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/lz-materie-intunecata-semnal-2-6-sigma.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "David Malling and Carlos Faham"
+  }
+}
