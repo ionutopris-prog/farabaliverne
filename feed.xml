@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 08 Sep 2026 09:42:34 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 09:45:51 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un compus din afine a redus depunerea de grăsime în celule musculare cultivate în laborator, arată un studiu japonez</title>
+      <link>https://farabaliverne.ro/a/pterostilbena-afine-muschi-shinshu-fat-bioscience.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/pterostilbena-afine-muschi-shinshu-fat-bioscience.html</guid>
+      <pubDate>Tue, 08 Sep 2026 06:43:29 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă condusă de Takakazu Mitani, de la Universitatea Shinshu din Japonia, a arătat că pterostilbena — un compus natural din afine și struguri — a redus acumularea anormală de grăsime în celule musculare de șoarece cultivate în laborator, stabilizând o proteină cheie a metabolismului lipidic. Cercetătorii spun explicit că rezultatul e limitat la celule cultivate, nu la animale sau oameni, și nu arată încă vreun beneficiu real pentru sănătate.
+
+Unde bat probele: Probat ce s-a măsurat în laborator; speculativ orice extrapolare la oameni. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Gheața arctică din august 2026 a urmărit îndeaproape traiectoria catastrofală din 2012 — dar un episod atmosferic a oprit-o la timp, arată NSIDC</title>
       <link>https://farabaliverne.ro/a/gheata-arctica-august-2026-a-saptea-cea-mai-mica-nsidc.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că bilanțul oficial chinez a continuat să crească, 
       <description>Global Times, publicație de stat chineză, SUSȚINE (11 decembrie 2025), citând un cercetător chinez, că remarcile premierei japoneze Sanae Takaichi despre Taiwan din noiembrie 2025 au provocat pagube economice firmelor japoneze. Publicația nu leagă explicit aceste pagube de propriile măsuri de retorsiune ale Beijingului — anulări de zboruri turistice, restricții la importul de fructe de mare, controale la exportul de pământuri rare. Analize independente (CSIS, Asia Times) arată că, politic, presiunea chineză a avut efectul opus celui scontat: Takaichi a câștigat un mandat zdrobitor în alegerile anticipate din februarie 2026.
 
 Unde bat probele: Adevăr parțial — pagubele economice sunt reale și documentate, dar Global Times omite mecanismul (măsurile chineze proprii) și rezultatul politic (întărirea, nu slăbirea, lui Takaichi). Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Sistemul de apă din Gaza s-a prăbușit aproape complet — OMS avertizează asupra unui dezastru sanitar înaintea sezonului ploios</title>
-      <link>https://farabaliverne.ro/a/gaza-apa-criza-sanatate-oms-unicef-msf.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/gaza-apa-criza-sanatate-oms-unicef-msf.html</guid>
-      <pubDate>Sat, 05 Sep 2026 22:14:17 +0000</pubDate>
-      <category>Extern</category>
-      <description>Rapoarte publicate pe 1 și 4-5 septembrie 2026 de OMS, UNICEF și Medici Fără Frontiere (MSF) arată o prăbușire aproape totală a sistemului de apă și canalizare din Fâșia Gaza: contaminare microbiologică triplată din ianuarie, cazuri de diaree acută aproape dublate din martie și un consum mediu de apă mult sub minimul umanitar. OMS avertizează că sezonul ploios care începe ar putea agrava dramatic situația. Nu am găsit, în sursele consultate, un răspuns oficial al autorităților israeliene la aceste rapoarte.
-
-Unde bat probele: Probat — cifrele vin de la OMS, UNICEF și MSF, cu metodologii publicate; comparațiile intre cifre trebuie citite cu atenție la perioada de referință. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
