@@ -80,6 +80,29 @@
       "tip": "Cutremur"
     }
   ],
+  "2026-09-07": [
+    {
+      "cheie": "us7000teu1",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teu1",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,5, în southeast of the Loyalty Islands.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tesi",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tesi",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, în larg, Oregon.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000test",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000test",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, în regiunea Insulelor Kermadec.",
+      "tip": "Cutremur"
+    }
+  ],
   "2026-09-08": [
     {
       "cheie": "us7000tfqf",
