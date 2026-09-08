@@ -149,10 +149,12 @@ def cutremure(zi):
     return ies
 
 
-def gdacs(zi):
-    """Dezastrele zilei din fluxul GDACS, doar nivel portocaliu și roșu."""
+def gdacs(zi, toate_cheile=frozenset()):
+    """Dezastrele zilei din fluxul GDACS (`toate_cheile` = ce e deja în jurnal, din orice zi)."""
     try:
-        brut = _ia("https://www.gdacs.org/xml/rss.xml")
+        # rss_7d, nu rss: fluxul „curent” NU conținea erupția Krakatau (portocaliu, 4 sept 2026),
+        # cel pe 7 zile da. Am aflat-o de la fondator, nu de la flux.
+        brut = _ia("https://www.gdacs.org/xml/rss_7d.xml")
         radacina = ET.fromstring(brut)
     except Exception as e:
         print(f"  GDACS a dat greș: {e}", file=sys.stderr)
@@ -175,8 +177,14 @@ def gdacs(zi):
                 if m and int(m.group(1)) < PRAG_VANT:
                     continue
         de_la = (it.findtext("gdacs:fromdate", default="", namespaces=NS) or "")
+        modificat = (it.findtext("gdacs:datemodified", default="", namespaces=NS) or "")
+        cheie = (it.findtext("gdacs:eventid", default="", namespaces=NS) or "").strip()
+        # Intră în ziua în care ÎNCEPE. Dar un eveniment început înainte, care abia acum
+        # ajunge la portocaliu/roșu (erupția Krakatau: a început pe 4 sept, alerta a
+        # urcat pe 8), intră în ziua în care GDACS l-a actualizat — dacă nu e deja în jurnal.
         if not _in_zi(de_la, zi):
-            continue
+            if not (nivel in NIVELURI and _in_zi(modificat, zi) and cheie and cheie not in toate_cheile):
+                continue
         text = _fraza(it, cod, NS)
         if not text:
             continue
@@ -219,6 +227,9 @@ def _fraza(it, cod, NS):
     if cod == "VO":
         loc = f"{nume}, {tara}" if nume and tara else (nume or tara)
         baza = f"Erupție vulcanică la {loc}" if loc else "Erupție vulcanică"
+        nivel = (it.findtext("gdacs:alertlevel", default="", namespaces=NS) or "").strip()
+        if nivel in ("Orange", "Red"):
+            baza += f" (alertă {'portocalie' if nivel == 'Orange' else 'roșie'})"
     elif cod == "FL":
         baza = f"Inundații în {tara}" if tara else "Inundații"
     elif cod == "TC":
@@ -265,6 +276,9 @@ def _bilant(pop):
         buc.append(f"{n(m_morti.group(1))} de morți")
     if m_stram:
         buc.append(f"{n(m_stram.group(1))} de strămutați")
+    m_raza = re.search(r"About\s+([\d,\.]+)\s+people\s+within\s+(\d+)\s*km", pop, re.I)
+    if not buc and m_raza:
+        buc.append(f"circa {n(m_raza.group(1))} de oameni pe o rază de {m_raza.group(2)} km")
     return " și ".join(buc)
 
 
@@ -707,10 +721,11 @@ def main():
 
     tot = incarca()
     deja = {e.get("cheie") for e in tot.get(zi, [])}
+    toate_cheile = frozenset(str(e.get("cheie")) for z in tot for e in tot[z])
 
     noi = []
     # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
-    for e in cutremure(zi) + gdacs(zi) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + enso(zi) + nino34(zi):
+    for e in cutremure(zi) + gdacs(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + enso(zi) + nino34(zi):
         nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
         if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
             continue
