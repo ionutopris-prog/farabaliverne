@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 08 Sep 2026 09:38:14 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 09:40:28 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un detector de materie întunecată din Dakota de Sud a înregistrat un semnal neobișnuit — dar oamenii de știință spun clar că nu e o descoperire</title>
+      <link>https://farabaliverne.ro/a/lz-materie-intunecata-semnal-2-6-sigma.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/lz-materie-intunecata-semnal-2-6-sigma.html</guid>
+      <pubDate>Tue, 08 Sep 2026 06:39:14 +0000</pubDate>
+      <category>Știință</category>
+      <description>Experimentul LUX-ZEPLIN (LZ), care caută materie întunecată la un kilometru sub pământ în Dakota de Sud, a găsit un singur eveniment greu de explicat prin zgomotul de fond cunoscut. Semnificația statistică e de 2,6 sigma — mult sub pragul de 5 sigma cerut pentru o descoperire în fizică — iar cercetătorii spun explicit că nu susțin că au văzut materie întunecată.
+
+Unde bat probele: Probat ce s-a măsurat; speculativ ce ar putea însemna. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>KCNA: distrugătorul Kang Kon face parte din „sistemul de contralovire nucleară” al Coreei de Nord — dar nici presa de stat nu confirmă că nava chiar poartă arme nucleare</title>
       <link>https://farabaliverne.ro/a/coreea-nord-kang-kon-distrugator-nuclear-kcna.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — cifrele vin de la OMS, UNICEF și MSF, cu metodolog
       <description>Sâmbătă, 5 septembrie 2026, Comandamentul Central al SUA (CENTCOM) susține că Garda Revoluționară iraniană (IRGC) a lansat rachete balistice spre un portavion și un distrugător american, care le-au evitat pe amândouă — fără victime americane. În replică, forțele SUA au scufundat sau imobilizat trei petroliere iraniene. Teheranul confirmă loviturile asupra propriilor nave, dar respinge varianta americană a evenimentelor și numește atacul „ilegal și agresiv”.
 
 Unde bat probele: Probat — schimbul de lovituri e confirmat de ambele părți; varianta despre CINE a atacat primul rămâne o acuzație americană, needeschisă unei anchete independente. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Vučić anunță alegeri parlamentare anticipate în Serbia, dar promisiunea de demisie din iunie rămâne neonorată</title>
-      <link>https://farabaliverne.ro/a/serbia-vucic-alegeri-anticipate-promisiune-demisie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/serbia-vucic-alegeri-anticipate-promisiune-demisie.html</guid>
-      <pubDate>Sat, 05 Sep 2026 19:21:26 +0000</pubDate>
-      <category>Politică</category>
-      <description>Președintele sârb Aleksandar Vučić a promis, pe 27 iunie 2026, că demisionează „în câteva săptămâni”, sub presiunea a 18 luni de proteste studențești. Pe 21 august a anunțat alegeri parlamentare anticipate pentru 18 sau 25 octombrie — dar nu și una prezidențială, iar la data acestui articol (peste zece săptămâni de la promisiune) el conduce în continuare procesul electoral, fără să fi demisionat.
-
-Unde bat probele: Neconfirmat — alegerile parlamentare sunt convocate, dar promisiunea de demisie din iunie n-a fost încă onorată, iar dacă o eventuală mutare spre funcția de premier ar însemna o retragere reală sau doar o schimbare de titlu rămâne interpretarea analiștilor, nu un fapt stabilit. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
