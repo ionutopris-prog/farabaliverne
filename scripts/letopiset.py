@@ -303,6 +303,7 @@ def _ro_loc(loc):
 # — jumătate din cutremurele lumii se întâmplă în locuri fără nimeni în ele.
 REGIUNI = {
  "Kermadec Islands region": "regiunea Insulelor Kermadec",
+    "southeast of the Loyalty Islands": "sud-estul Insulelor Loyalty", "Loyalty Islands": "Insulele Loyalty",
  "South Sandwich Islands region": "regiunea Insulelor Sandwich de Sud",
  "central Mid-Atlantic Ridge": "Dorsala Medio-Atlantică centrală",
  "northern Mid-Atlantic Ridge": "Dorsala Medio-Atlantică nordică",
