@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 08 Sep 2026 03:46:25 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 03:50:10 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Putin susține la TASS că a cucerit 270 km² în Donețk și a încercuit 2.000 de soldați la Harkov — ISW: cifre de 3 ori mai mari decât realitatea, iar încercuirea nu are dovezi</title>
+      <link>https://farabaliverne.ro/a/putin-tass-cifre-donetk-harkov-isw-contrazice.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/putin-tass-cifre-donetk-harkov-isw-contrazice.html</guid>
+      <pubDate>Tue, 08 Sep 2026 00:47:30 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>La conferința de presă de după summitul OCS de la Bishkek (1 septembrie 2026), Vladimir Putin a declarat, potrivit agenției de stat TASS, că armata rusă a ocupat 270 km² și 15 localități în regiunea Donețk doar în luna august, a preluat orașul Sviatohirsk și a încercuit circa 2.000 de militari ucraineni într-un buzunar de 460 km² lângă Harkov. Institute for the Study of War (ISW), think-tank american care documentează frontul zilnic pe surse deschise, contrazice fiecare cifră: doar 73,14 km² ocupați efectiv în Donețk, nicio dovadă de prezență rusă lângă Sviatohirsk sau de încercuire la Harkov.
+
+Unde bat probele: Contrazis — cifrele TASS/Putin depășesc de 3-4 ori ceea ce confirmă sursele independente, iar două dintre afirmații (Sviatohirsk, încercuirea de la Harkov) nu au acoperire în dovezile disponibile. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Grecia: Mitsotakis promite 2,2 miliarde euro, Tsipras 7,39 miliarde — dar cifrele nu se compară direct</title>
       <link>https://farabaliverne.ro/a/grecia-mitsotakis-tsipras-pachete-rivale-salonic.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Neconfirmat — alegerile parlamentare sunt convocate, dar pro
       <description>Vama chineză a raportat, pentru primele șapte luni din 2026, un comerț bilateral de 37,8 miliarde de dolari cu Africa de Sud, cu un excedent de 5 miliarde de dolari în favoarea Pretoriei. Autoritățile sud-africane contestă însă cifrele, spunând că au de fapt un deficit comercial cu China — iar pentru anul anterior, discrepanța dintre cele două seturi de date oficiale (China vs. UN Comtrade, pe baza raportărilor sud-africane) a fost de aproximativ 17 miliarde de dolari.
 
 Unde bat probele: Contestat — cele două guverne citează cifre oficiale contradictorii, iar nicio parte n-a publicat o reconciliere verificabilă independent. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Coreea de Sud: remanierea guvernului nu oprește căderea popularității lui Lee Jae-myung, la minim istoric</title>
-      <link>https://farabaliverne.ro/a/coreea-sud-lee-jae-myung-aprobare-minim-istoric.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/coreea-sud-lee-jae-myung-aprobare-minim-istoric.html</guid>
-      <pubDate>Sat, 05 Sep 2026 19:15:55 +0000</pubDate>
-      <category>Politică</category>
-      <description>Președintele sud-coreean Lee Jae-myung a remaniat șase miniștri pe 31 august 2026, printre care responsabilii cu politica imobiliară, subiectul cel mai criticat public. Sondajul Gallup Korea publicat pe 4 septembrie arată aprobarea la 40% — minim de la preluarea mandatului, în iunie 2025 — iar un sondaj anterior Realmeter dăduse deja 38,9%. Cifrele diferă între institute, dar tendința e aceeași: în scădere de șapte săptămâni la rând.
-
-Unde bat probele: Probat — cifrele vin din două sondaje distincte, cu metodologii diferite, dar ambele confirmă independent aceeași tendință de scădere. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
