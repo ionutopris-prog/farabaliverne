@@ -138,6 +138,50 @@
       "sursa": "USGS",
       "text": "Cutremur de magnitudine 5,1, în regiunea Insulelor Sandwich de Sud.",
       "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tftd",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tftd",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, la 26 km nord-vest de Neiafu, Tonga.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tfum",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfum",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, la 123 km nord-nord-est de Ruteng, Indonezia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "nino34:02SEP2026",
+      "link": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+      "sursa": "NOAA CPC",
+      "text": "Indicele Niño 3.4 (Pacificul ecuatorial), săptămâna din 02.09.2026: +2.7 °C față de normal — El Niño.",
+      "tip": "El Niño / La Niña"
+    }
+  ],
+  "2026-09-09": [
+    {
+      "cheie": "temp:2026-09-09:Timișoara",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură neobișnuită la Timișoara: maximă de 34 °C, cu 10 °C peste media zilei (1991–2020: 24 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-09:Cluj-Napoca",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură neobișnuită la Cluj-Napoca: maximă de 29 °C, cu 8 °C peste media zilei (1991–2020: 21 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-09:Varșovia",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură neobișnuită la Varșovia: maximă de 28 °C, cu 9 °C peste media zilei (1991–2020: 20 °C).",
+      "tip": "Temperaturi extreme"
     }
   ]
 }

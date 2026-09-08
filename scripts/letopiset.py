@@ -52,16 +52,16 @@ PRAG_MAGNITUDINE = 5.0
 # evenimente și când GDACS le dă verde (8 sept 2026, cerința fondatorului:
 # „tot ce e natural": vulcani, tsunami, tornade, uragane, alunecări, incendii,
 # temperaturi extreme, epidemii, El Niño / La Niña).
-NIVELURI = ("Orange", "Red")                 # pentru FL (inundații) și DR (secetă)
-VERDE_OK = ("TC", "VO", "TS", "WF")           # intră și pe verde, cu pragurile de mai jos
-PRAG_HECTARE = 10_000                         # incendiu: sub 10.000 ha nu intră pe verde
+NIVELURI = ("Orange", "Red")                 # cu impact confirmat — intră întotdeauna
+VERDE_OK = ("TC", "VO", "TS", "WF", "FL", "DR")   # toate tipurile intră și pe verde (9 sept 2026: „toate dezastrele naturale”)
+PRAG_HECTARE = 5_000                          # incendiu: sub 5.000 ha e fum, nu dezastru
 PRAG_VANT = 63                                # km/h: sub asta e depresiune tropicală, nu furtună
 
 TIPURI = {
     "EQ": "Cutremur", "TC": "Ciclon tropical", "FL": "Inundație",
     "VO": "Erupție vulcanică", "DR": "Secetă", "WF": "Incendiu de vegetație",
     "TS": "Tsunami", "LS": "Alunecare de teren", "TE": "Temperaturi extreme",
-    "EP": "Epidemie", "EN": "El Niño / La Niña",
+    "EP": "Epidemie", "EN": "El Niño / La Niña", "TO": "Tornadă",
 }
 
 
@@ -461,6 +461,188 @@ def enso(zi):
              "cheie": "enso:" + stare}]
 
 
+# ─── NOAA SPC: tornadele zilei (SUA — singura sursă zilnică gratuită) ────────
+def tornade(zi):
+    yymmdd = zi[2:4] + zi[5:7] + zi[8:10]
+    try:
+        brut = _ia(f"https://www.spc.noaa.gov/climo/reports/{yymmdd}_rpts_torn.csv").decode("utf-8", "ignore")
+    except Exception as e:
+        if "404" not in str(e):          # 404 = raportul zilei nu e încă publicat; normal la 23:50
+            print(f"  SPC tornade a dat greș: {e}", file=sys.stderr)
+        return []
+    import csv, io, collections
+    randuri = [r for r in csv.DictReader(io.StringIO(brut)) if r.get("State")]
+    if not randuri:
+        return []
+    state = collections.Counter(r["State"].strip() for r in randuri)
+    lista = ", ".join(f"{st} ({n})" if n > 1 else st for st, n in state.most_common())
+    n = len(randuri)
+    text = f"{n} tornad{'ă' if n == 1 else 'e'} raportat{'ă' if n == 1 else 'e'} în SUA — {lista}."
+    return [{"tip": "Tornadă", "text": text, "sursa": "NOAA SPC",
+             "link": f"https://www.spc.noaa.gov/climo/reports/{yymmdd}_rpts.html", "cheie": f"spc:{zi}"}]
+
+
+# ─── Temperaturi neobișnuite pentru perioadă (Open-Meteo: azi vs. media 1991–2020) ──
+ORASE = [
+    ("București", 44.43, 26.10), ("Cluj-Napoca", 46.77, 23.59), ("Iași", 47.16, 27.59), ("Timișoara", 45.75, 21.23),
+    ("Constanța", 44.18, 28.63), ("Chișinău", 47.01, 28.86), ("Copenhaga", 55.68, 12.57), ("Oslo", 59.91, 10.75),
+    ("Stockholm", 59.33, 18.07), ("Helsinki", 60.17, 24.94), ("Londra", 51.51, -0.13), ("Paris", 48.86, 2.35),
+    ("Berlin", 52.52, 13.41), ("Varșovia", 52.23, 21.01), ("Viena", 48.21, 16.37), ("Roma", 41.90, 12.50),
+    ("Madrid", 40.42, -3.70), ("Lisabona", 38.72, -9.14), ("Atena", 37.98, 23.73), ("Istanbul", 41.01, 28.98),
+    ("Kiev", 50.45, 30.52), ("Moscova", 55.76, 37.62), ("Reykjavik", 64.15, -21.94), ("Cairo", 30.04, 31.24),
+    ("Lagos", 6.52, 3.38), ("Nairobi", -1.29, 36.82), ("Johannesburg", -26.20, 28.05), ("Casablanca", 33.57, -7.59),
+    ("Riad", 24.71, 46.68), ("Dubai", 25.20, 55.27), ("Teheran", 35.69, 51.39), ("Karachi", 24.86, 67.01),
+    ("Delhi", 28.61, 77.21), ("Mumbai", 19.08, 72.88), ("Dhaka", 23.81, 90.41), ("Bangkok", 13.76, 100.50),
+    ("Jakarta", -6.21, 106.85), ("Manila", 14.60, 120.98), ("Hanoi", 21.03, 105.85), ("Beijing", 39.90, 116.40),
+    ("Shanghai", 31.23, 121.47), ("Hong Kong", 22.32, 114.17), ("Tokyo", 35.68, 139.69), ("Seul", 37.57, 126.98),
+    ("Ulan Bator", 47.89, 106.91), ("Novosibirsk", 55.03, 82.92), ("Iakutsk", 62.03, 129.73), ("Sydney", -33.87, 151.21),
+    ("Melbourne", -37.81, 144.96), ("Perth", -31.95, 115.86), ("Auckland", -36.85, 174.76), ("Anchorage", 61.22, -149.90),
+    ("Vancouver", 49.28, -123.12), ("Toronto", 43.65, -79.38), ("New York", 40.71, -74.01), ("Chicago", 41.88, -87.63),
+    ("Phoenix", 33.45, -112.07), ("Los Angeles", 34.05, -118.24), ("Houston", 29.76, -95.37), ("Miami", 25.76, -80.19),
+    ("Ciudad de México", 19.43, -99.13), ("Bogotá", 4.71, -74.07), ("Lima", -12.05, -77.04), ("São Paulo", -23.55, -46.63),
+    ("Buenos Aires", -34.60, -58.38), ("Santiago de Chile", -33.45, -70.67), ("Nuuk", 64.18, -51.72), ("Longyearbyen", 78.22, 15.63),
+]
+NORMALE = os.path.join(ROOT, "data", "_letopiset_normale.json")
+PRAG_ANOMALIE = 8.0        # °C peste/sub media zilei (1991–2020) ca să fie „neobișnuit”
+MAX_ORASE_PE_ZI = 6
+
+
+def _normale():
+    """Media maximelor 1991–2020 pentru fiecare zi a anului, per oraș — se calculează o
+    singură dată per oraș (un apel la arhiva ERA5) și se ține pe disc."""
+    try:
+        cache = json.load(open(NORMALE, encoding="utf-8")) if os.path.exists(NORMALE) else {}
+    except Exception:
+        cache = {}
+    schimbat = False
+    # Arhiva Open-Meteo limitează cererile grele (30 de ani de date = o cerere „scumpă”):
+    # peste ~8 într-un minut dă 429. Umplem cache-ul treptat, câteva orașe pe rulare,
+    # cu pauză între ele — în câteva zile sunt toate, și nu mai cerem niciodată.
+    import time
+    noi_pe_rulare, PAUZA = 6, 4
+    for nume, lat, lon in ORASE:
+        if nume in cache:
+            continue
+        if noi_pe_rulare <= 0:
+            break
+        d = None
+        for incercare in (1, 2):
+            try:
+                d = json.loads(_ia(f"https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}"
+                                   f"&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_max&timezone=UTC", timeout=90))
+                break
+            except Exception as e:
+                if "429" in str(e) and incercare == 1:
+                    time.sleep(30); continue
+                print(f"  normale {nume}: {e}", file=sys.stderr)
+        if not d:
+            break          # limita e atinsă; restul orașelor intră la rulările următoare
+        noi_pe_rulare -= 1
+        time.sleep(PAUZA)
+        try:
+            zile = d["daily"]["time"]; val = d["daily"]["temperature_2m_max"]
+        except Exception as e:
+            print(f"  normale {nume}: {e}", file=sys.stderr)
+            continue
+        from datetime import date, timedelta
+        pe_zi = {}
+        for z, v in zip(zile, val):
+            if v is not None:
+                pe_zi.setdefault(z[5:], []).append(v)
+        # fereastră de ±3 zile în jurul fiecărei zile, ca să nu depindă de o singură dată
+        chei = sorted(pe_zi)
+        med = {}
+        for k in chei:
+            m, dd = int(k[:2]), int(k[3:])
+            try:
+                baza = date(2020, m, dd)
+            except ValueError:
+                continue
+            vals = []
+            for off in range(-3, 4):
+                kk = (baza + timedelta(days=off)).strftime("%m-%d")
+                vals += pe_zi.get(kk, [])
+            if vals:
+                med[k] = round(sum(vals) / len(vals), 1)
+        cache[nume] = med
+        schimbat = True
+    if schimbat:
+        with open(NORMALE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)
+    return cache
+
+
+def temperaturi(zi):
+    """Orașele unde maxima zilei a fost cu ≥ PRAG_ANOMALIE °C peste sau sub media zilei (1991–2020)."""
+    normale = _normale()
+    try:
+        lat = ",".join(str(o[1]) for o in ORASE); lon = ",".join(str(o[2]) for o in ORASE)
+        d = json.loads(_ia(f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}"
+                           f"&daily=temperature_2m_max&timezone=UTC&start_date={zi}&end_date={zi}", timeout=90))
+    except Exception as e:
+        print(f"  Open-Meteo a dat greș: {e}", file=sys.stderr)
+        return []
+    if isinstance(d, dict):
+        d = [d]
+    gasite = []
+    for (nume, _, _), x in zip(ORASE, d):
+        try:
+            azi_max = x["daily"]["temperature_2m_max"][0]
+        except Exception:
+            continue
+        med = normale.get(nume, {}).get(zi[5:])
+        if azi_max is None or med is None:
+            continue
+        dif = azi_max - med
+        if abs(dif) >= PRAG_ANOMALIE:
+            gasite.append((abs(dif), dif, nume, azi_max, med))
+    gasite.sort(reverse=True)
+    ies = []
+    for _, dif, nume, azi_max, med in gasite[:MAX_ORASE_PE_ZI]:
+        fel = "Căldură neobișnuită" if dif > 0 else "Frig neobișnuit"
+        semn = "peste" if dif > 0 else "sub"
+        t = (f"{fel} la {nume}: maximă de {azi_max:.0f} °C, cu {abs(dif):.0f} °C {semn} media zilei "
+             f"(1991–2020: {med:.0f} °C).").replace(".0 °C", " °C")
+        ies.append({"tip": "Temperaturi extreme", "text": t, "sursa": "Open-Meteo / ERA5",
+                    "link": "https://open-meteo.com/", "cheie": f"temp:{zi}:{nume}"})
+    return ies
+
+
+# ─── NOAA: indicele Niño 3.4, săptămânal — cifra din spatele lui El Niño / La Niña ──
+def nino34(zi):
+    try:
+        t = _ia("https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for").decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"  NOAA Niño 3.4 a dat greș: {e}", file=sys.stderr)
+        return []
+    ultimul = [l for l in t.splitlines() if re.match(r"\s*\d{2}[A-Z]{3}\d{4}", l)]
+    if not ultimul:
+        return []
+    l = ultimul[-1]
+    m = re.match(r"\s*(\d{2}[A-Z]{3}\d{4})\s+([\d.]+)\s*(-?[\d.]+)\s+([\d.]+)\s*(-?[\d.]+)\s+([\d.]+)\s*(-?[\d.]+)\s+([\d.]+)\s*(-?[\d.]+)", l)
+    if not m:
+        return []
+    saptamana, anom34 = m.group(1), float(m.group(7))     # a treia coloană = Niño 3.4
+    stare_f = ENSO_FISIER + ".nino34"
+    veche = open(stare_f, encoding="utf-8").read().strip() if os.path.exists(stare_f) else ""
+    if saptamana == veche:
+        return []
+    with open(stare_f, "w", encoding="utf-8") as f:
+        f.write(saptamana)
+    fel = "El Niño" if anom34 >= 0.5 else ("La Niña" if anom34 <= -0.5 else "neutru")
+    from datetime import datetime as _dt
+    try:
+        cand = _dt.strptime(saptamana, "%d%b%Y").strftime("%d.%m.%Y")
+    except ValueError:
+        cand = saptamana
+    semn = "+" if anom34 >= 0 else "−"
+    text = (f"Indicele Niño 3.4 (Pacificul ecuatorial), săptămâna din {cand}: {semn}{abs(anom34):.1f} °C față de normal "
+            f"— {fel}.").replace(".0 °C", " °C")
+    return [{"tip": "El Niño / La Niña", "text": text, "sursa": "NOAA CPC",
+             "link": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+             "cheie": "nino34:" + saptamana}]
+
+
 def incarca():
     if not os.path.exists(FISIER):
         return {}
@@ -484,7 +666,7 @@ def main():
 
     noi = []
     # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
-    for e in cutremure(zi) + gdacs(zi) + eonet(zi) + oms(zi) + enso(zi):
+    for e in cutremure(zi) + gdacs(zi) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + enso(zi) + nino34(zi):
         nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
         if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
             continue
