@@ -61,7 +61,6 @@ TIPURI = {
     "EQ": "Cutremur", "TC": "Ciclon tropical", "FL": "Inundație",
     "VO": "Erupție vulcanică", "DR": "Secetă", "WF": "Incendiu de vegetație",
     "TS": "Tsunami", "LS": "Alunecare de teren", "TE": "Temperaturi extreme",
-    "EP": "Epidemie", "EN": "El Niño / La Niña", "TO": "Tornadă",
 }
 
 
@@ -501,26 +500,53 @@ ORASE = [
     ("Phoenix", 33.45, -112.07), ("Los Angeles", 34.05, -118.24), ("Houston", 29.76, -95.37), ("Miami", 25.76, -80.19),
     ("Ciudad de México", 19.43, -99.13), ("Bogotá", 4.71, -74.07), ("Lima", -12.05, -77.04), ("São Paulo", -23.55, -46.63),
     ("Buenos Aires", -34.60, -58.38), ("Santiago de Chile", -33.45, -70.67), ("Nuuk", 64.18, -51.72), ("Longyearbyen", 78.22, 15.63),
+    # lumea, mai des decât acasă (9 sept 2026: „mă interesează mai mult în lume”)
+    ("Denver", 39.74, -104.99), ("Dallas", 32.78, -96.80), ("Seattle", 47.61, -122.33), ("Montreal", 45.50, -73.57),
+    ("Havana", 23.11, -82.37), ("Panama", 8.98, -79.52), ("Caracas", 10.48, -66.90), ("Quito", -0.18, -78.47),
+    ("La Paz", -16.50, -68.15), ("Asunción", -25.26, -57.58), ("Montevideo", -34.90, -56.16), ("Brasília", -15.79, -47.88),
+    ("Rio de Janeiro", -22.91, -43.17), ("Manaus", -3.12, -60.02), ("Accra", 5.60, -0.19), ("Dakar", 14.72, -17.47),
+    ("Addis Abeba", 9.02, 38.75), ("Khartoum", 15.50, 32.56), ("Kinshasa", -4.44, 15.27), ("Dar es Salaam", -6.79, 39.28),
+    ("Luanda", -8.84, 13.23), ("Antananarivo", -18.88, 47.51), ("Cape Town", -33.92, 18.42), ("Alger", 36.75, 3.06),
+    ("Tunis", 36.81, 10.18), ("Tripoli", 32.89, 13.19), ("Bagdad", 33.34, 44.40), ("Kabul", 34.53, 69.17),
+    ("Tașkent", 41.30, 69.24), ("Astana", 51.17, 71.43), ("Almaty", 43.24, 76.89), ("Kathmandu", 27.72, 85.32),
+    ("Yangon", 16.87, 96.20), ("Kuala Lumpur", 3.14, 101.69), ("Singapore", 1.35, 103.82), ("Taipei", 25.03, 121.57),
+    ("Osaka", 34.69, 135.50), ("Vladivostok", 43.12, 131.89), ("Brisbane", -27.47, 153.03), ("Darwin", -12.46, 130.84),
+    ("Port Moresby", -9.44, 147.18), ("Suva", -18.14, 178.44), ("Honolulu", 21.31, -157.86), ("Murmansk", 68.97, 33.08),
+    ("Tromsø", 69.65, 18.96), ("Utqiagvik (Barrow)", 71.29, -156.79), ("Yellowknife", 62.45, -114.37), ("Fairbanks", 64.84, -147.72),
+    ("Punta Arenas", -53.16, -70.91), ("Ushuaia", -54.80, -68.30), ("Stația McMurdo (Antarctica)", -77.85, 166.67),
+    ("Dublin", 53.35, -6.26), ("Amsterdam", 52.37, 4.90), ("Zürich", 47.38, 8.54), ("Praga", 50.08, 14.44),
+    ("Budapesta", 47.50, 19.04), ("Belgrad", 44.79, 20.45), ("Sofia", 42.70, 23.32), ("Tbilisi", 41.72, 44.79),
+    ("Ankara", 39.93, 32.86), ("Tel Aviv", 32.08, 34.78), ("Jeddah", 21.49, 39.19), ("Muscat", 23.59, 58.41),
+    ("Colombo", 6.93, 79.85), ("Chennai", 13.08, 80.27), ("Lahore", 31.55, 74.34), ("Chongqing", 29.56, 106.55),
+    ("Harbin", 45.80, 126.53), ("Sapporo", 43.06, 141.35), ("Adelaide", -34.93, 138.60),
+    ("Wellington", -41.29, 174.78), ("Nouméa", -22.28, 166.46), ("Papeete", -17.54, -149.57), ("Tórshavn", 62.01, -6.77),
 ]
+ACASA = {"București", "Cluj-Napoca", "Iași", "Timișoara", "Constanța", "Chișinău"}
+MAX_ACASA_PE_ZI = 2
 NORMALE = os.path.join(ROOT, "data", "_letopiset_normale.json")
 PRAG_ANOMALIE = 8.0        # °C peste/sub media zilei (1991–2020) ca să fie „neobișnuit”
-MAX_ORASE_PE_ZI = 6
+MAX_ORASE_PE_ZI = 8
 
 
 def _normale():
-    """Media maximelor 1991–2020 pentru fiecare zi a anului, per oraș — se calculează o
-    singură dată per oraș (un apel la arhiva ERA5) și se ține pe disc."""
+    """Per oraș și zi a anului: [media maximelor 1991–2020, maxima și minima din 2016–2025],
+    pe o fereastră de ±3 zile. Un singur apel la arhiva ERA5 per oraș, apoi pe disc.
+    Cele două extreme din ultimii 10 ani sunt testul de „ieșit din comun” (9 sept 2026):
+    o zi care arată ca ultimii zece ani nu e nimic special, oricât ar fi peste media
+    pe 30 de ani."""
     try:
         cache = json.load(open(NORMALE, encoding="utf-8")) if os.path.exists(NORMALE) else {}
     except Exception:
         cache = {}
+    # formatul vechi (doar media) se aruncă și se reface
+    cache = {k: v for k, v in cache.items() if v and isinstance(next(iter(v.values())), list)}
     schimbat = False
     # Arhiva Open-Meteo limitează cererile grele (30 de ani de date = o cerere „scumpă”):
     # peste ~8 într-un minut dă 429. Umplem cache-ul treptat, câteva orașe pe rulare,
     # cu pauză între ele — în câteva zile sunt toate, și nu mai cerem niciodată.
     import time
     noi_pe_rulare, PAUZA = 6, 4
-    for nume, lat, lon in ORASE:
+    for nume, lat, lon in sorted(ORASE, key=lambda o: o[0] in ACASA):
         if nume in cache:
             continue
         if noi_pe_rulare <= 0:
@@ -529,7 +555,7 @@ def _normale():
         for incercare in (1, 2):
             try:
                 d = json.loads(_ia(f"https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}"
-                                   f"&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_max&timezone=UTC", timeout=90))
+                                   f"&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max&timezone=UTC", timeout=90))
                 break
             except Exception as e:
                 if "429" in str(e) and incercare == 1:
@@ -545,25 +571,29 @@ def _normale():
             print(f"  normale {nume}: {e}", file=sys.stderr)
             continue
         from datetime import date, timedelta
-        pe_zi = {}
+        baza_pe_zi, recent_pe_zi = {}, {}
         for z, v in zip(zile, val):
-            if v is not None:
-                pe_zi.setdefault(z[5:], []).append(v)
+            if v is None:
+                continue
+            an = int(z[:4])
+            if 1991 <= an <= 2020:
+                baza_pe_zi.setdefault(z[5:], []).append(v)
+            if 2016 <= an <= 2025:
+                recent_pe_zi.setdefault(z[5:], []).append(v)
         # fereastră de ±3 zile în jurul fiecărei zile, ca să nu depindă de o singură dată
-        chei = sorted(pe_zi)
         med = {}
-        for k in chei:
+        for k in sorted(baza_pe_zi):
             m, dd = int(k[:2]), int(k[3:])
             try:
-                baza = date(2020, m, dd)
+                b = date(2020, m, dd)
             except ValueError:
                 continue
-            vals = []
+            vb, vr = [], []
             for off in range(-3, 4):
-                kk = (baza + timedelta(days=off)).strftime("%m-%d")
-                vals += pe_zi.get(kk, [])
-            if vals:
-                med[k] = round(sum(vals) / len(vals), 1)
+                kk = (b + timedelta(days=off)).strftime("%m-%d")
+                vb += baza_pe_zi.get(kk, []); vr += recent_pe_zi.get(kk, [])
+            if vb and vr:
+                med[k] = [round(sum(vb) / len(vb), 1), round(max(vr), 1), round(min(vr), 1)]
         cache[nume] = med
         schimbat = True
     if schimbat:
@@ -590,19 +620,33 @@ def temperaturi(zi):
             azi_max = x["daily"]["temperature_2m_max"][0]
         except Exception:
             continue
-        med = normale.get(nume, {}).get(zi[5:])
-        if azi_max is None or med is None:
+        n = normale.get(nume, {}).get(zi[5:])
+        if azi_max is None or not n:
             continue
+        med, max10, min10 = n
         dif = azi_max - med
-        if abs(dif) >= PRAG_ANOMALIE:
-            gasite.append((abs(dif), dif, nume, azi_max, med))
+        # ieșit din comun = și departe de media pe 30 de ani, ȘI dincolo de extremele
+        # ultimilor 10 ani pentru perioada asta. Dacă ultimii zece ani au mai avut așa
+        # ceva, nu e nimic special — nu intră.
+        if dif >= PRAG_ANOMALIE and azi_max > max10:
+            gasite.append((abs(dif), dif, nume, azi_max, med, max10))
+        elif dif <= -PRAG_ANOMALIE and azi_max < min10:
+            gasite.append((abs(dif), dif, nume, azi_max, med, min10))
     gasite.sort(reverse=True)
-    ies = []
-    for _, dif, nume, azi_max, med in gasite[:MAX_ORASE_PE_ZI]:
-        fel = "Căldură neobișnuită" if dif > 0 else "Frig neobișnuit"
-        semn = "peste" if dif > 0 else "sub"
-        t = (f"{fel} la {nume}: maximă de {azi_max:.0f} °C, cu {abs(dif):.0f} °C {semn} media zilei "
-             f"(1991–2020: {med:.0f} °C).").replace(".0 °C", " °C")
+    ies, acasa = [], 0
+    for _, dif, nume, azi_max, med, extrem10 in gasite:
+        if len(ies) >= MAX_ORASE_PE_ZI:
+            break
+        if nume in ACASA:
+            if acasa >= MAX_ACASA_PE_ZI:
+                continue
+            acasa += 1
+        if dif > 0:
+            t = (f"Căldură ieșită din comun la {nume}: maximă de {azi_max:.0f} °C — cu {dif:.0f} °C peste media "
+                 f"zilei (1991–2020: {med:.0f} °C) și peste orice maximă din ultimii 10 ani în perioada asta ({extrem10:.0f} °C).")
+        else:
+            t = (f"Frig ieșit din comun la {nume}: maximă de doar {azi_max:.0f} °C — cu {abs(dif):.0f} °C sub media "
+                 f"zilei (1991–2020: {med:.0f} °C) și sub orice maximă din ultimii 10 ani în perioada asta ({extrem10:.0f} °C).")
         ies.append({"tip": "Temperaturi extreme", "text": t, "sursa": "Open-Meteo / ERA5",
                     "link": "https://open-meteo.com/", "cheie": f"temp:{zi}:{nume}"})
     return ies

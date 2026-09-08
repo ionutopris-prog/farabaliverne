@@ -1532,7 +1532,7 @@ def build_letopiset(shell):
             '        <p style="color:var(--ink-soft);font-size:16px;line-height:1.6;max-width:64ch">'
             'Ce s-a întâmplat pe Pământ, zi de zi, din natură: cutremure, erupții, tsunami, '
             'inundații, secetă, uragane, tornade, incendii, alunecări de teren, temperaturi '
-            'neobișnuite pentru perioadă, focare de boală, El Niño și La Niña. '
+            'ieșite din comun (peste orice s-a văzut în ultimii 10 ani), focare de boală, El Niño și La Niña. '
             'Fapta, locul, cifra și sursa — fără explicații și fără comentariu. '
             'Un letopiseț nu interpretează, doar ține minte.</p>\n'
             f'        <p style="color:var(--ink-faint);font-size:13px;margin-top:10px">'
