@@ -31,6 +31,7 @@ on:
 
 permissions:
   contents: write
+  issues: write        # veghea deschide o problemă când presa vorbește despre ce lipsește din jurnal
 
 concurrency:
   group: letopiset
@@ -64,6 +65,23 @@ jobs:
 
       - name: Adună evenimentele zilei
         run: python3 scripts/letopiset.py "${{ steps.zi.outputs.zi }}"
+
+      # Presa vorbește despre un dezastru natural care lipsește din jurnal? Atunci
+      # o problemă pe GitHub, ca să afle un om de la noi — nu fondatorul din altă
+      # parte (Anak Krakatau, 4–6 sept 2026, ratat de toate sursele automate).
+      - name: Veghea — ce spune presa și noi n-avem
+        id: veghe
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/letopiset_veghe.py "${{ steps.zi.outputs.zi }}" | tee veghe.txt
+          if grep -q "posibile evenimente ratate" veghe.txt; then
+            TITLU="🌋 Letopiseț: presa vorbește despre ce lipsește din jurnal"
+            N=$(gh issue list --state open --search "$TITLU" --json number --jq '.[0].number // empty')
+            CORP="$(printf '%s\n\n%s\n\n%s' "Veghea Letopisețului, ${{ steps.zi.outputs.zi }}. Titluri din presă cu nume care NU apar în jurnalul ultimelor 3 zile. De verificat de un om: dacă e real, se adaugă cu sursă primară în \`data/_letopiset.json\`; dacă nu, se ignoră." "\`\`\`" "$(cat veghe.txt)
+\`\`\`")"
+            if [ -n "$N" ]; then gh issue comment "$N" --body "$CORP"; else gh issue create --title "$TITLU" --body "$CORP" --assignee "${{ github.repository_owner }}"; fi
+          fi
 
       - name: Regenerează site-ul
         run: |

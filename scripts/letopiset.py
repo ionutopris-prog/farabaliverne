@@ -149,6 +149,80 @@ def cutremure(zi):
     return ies
 
 
+STARE = os.path.join(ROOT, "data", "_letopiset_stare.json")   # per eveniment GDACS: vântul maxim și morții consemnați
+CATEGORII = [(252, 5), (209, 4), (178, 3), (154, 2), (119, 1)]  # km/h → categoria Saffir-Simpson
+
+
+def _categoria(kmh):
+    for prag, cat in CATEGORII:
+        if kmh >= prag:
+            return cat
+    return 0
+
+
+def _stare():
+    try:
+        return json.load(open(STARE, encoding="utf-8")) if os.path.exists(STARE) else {}
+    except Exception:
+        return {}
+
+
+def _salveaza_stare(st):
+    with open(STARE, "w", encoding="utf-8") as f:
+        json.dump(st, f, ensure_ascii=False, indent=1)
+
+
+def escaladari(zi, toate_cheile=frozenset()):
+    """Un letopiseț ține și CE SE ÎNTÂMPLĂ cu un eveniment, nu doar că a început:
+    uraganul Lowell a lovit Hawaii la categoria 4 la zile după ce a apărut, iar
+    bilanțul unei inundații crește de la o zi la alta. Intră: o furtună când atinge
+    o categorie nouă (1–5) și orice eveniment când bilanțul morților crește cu ≥ 10
+    sau depășește 100. Starea per eveniment se ține în data/_letopiset_stare.json."""
+    try:
+        radacina = ET.fromstring(_ia("https://www.gdacs.org/xml/rss_7d.xml"))
+    except Exception as e:
+        print(f"  GDACS (escaladări) a dat greș: {e}", file=sys.stderr)
+        return []
+    NS = {"gdacs": "http://www.gdacs.org"}
+    st = _stare(); ies = []
+    for it in radacina.findall(".//item"):
+        cod = (it.findtext("gdacs:eventtype", default="", namespaces=NS) or "").strip()
+        eid = (it.findtext("gdacs:eventid", default="", namespaces=NS) or "").strip()
+        modificat = (it.findtext("gdacs:datemodified", default="", namespaces=NS) or "")
+        if not eid or not _in_zi(modificat, zi):
+            continue
+        s_ev = st.setdefault(eid, {})
+        tara = ro_tari(it.findtext("gdacs:country", default="", namespaces=NS))
+        nume = re.sub(r"-\d+$", "", (it.findtext("gdacs:eventname", default="", namespaces=NS) or "").strip()).title()
+        link = (it.findtext("link") or "").strip()
+        if cod == "TC":
+            m = re.search(r"(\d+)\s*km/h", it.findtext("gdacs:severity", default="", namespaces=NS) or "")
+            kmh = int(m.group(1)) if m else 0
+            cat = _categoria(kmh)
+            if cat > s_ev.get("categoria", 0):
+                s_ev["categoria"] = cat; s_ev["kmh"] = kmh
+                cheie = f"{eid}-cat{cat}"
+                if cheie not in toate_cheile:
+                    text = f"Uraganul {nume} a atins categoria {cat} — vânt de {kmh} km/h" + (f", peste {tara}" if tara else "") + "."
+                    ies.append({"tip": "Ciclon tropical", "text": text, "sursa": "GDACS", "link": link, "cheie": cheie})
+        pop = it.findtext("gdacs:population", default="", namespaces=NS) or ""
+        m = re.search(r"([\d,\.]+)\s+deaths?", pop)
+        if m:
+            morti = int(re.sub(r"[^\d]", "", m.group(1)) or 0)
+            vechi = s_ev.get("morti", 0)
+            if morti > vechi and (morti - vechi >= 10 or (morti >= 100 and vechi < 100)):
+                s_ev["morti"] = morti
+                cheie = f"{eid}-morti{morti}"
+                if cheie not in toate_cheile:
+                    ce = TIPURI.get(cod, "Dezastru")
+                    text = f"{ce}{' ' + nume if nume and cod == 'TC' else ''}{', ' + tara if tara else ''}: bilanțul urcă la {morti:,} de morți.".replace(",", ".")
+                    ies.append({"tip": ce, "text": text, "sursa": "GDACS", "link": link, "cheie": cheie})
+            elif morti > vechi:
+                s_ev["morti"] = morti
+    _salveaza_stare(st)
+    return ies
+
+
 def gdacs(zi, toate_cheile=frozenset()):
     """Dezastrele zilei din fluxul GDACS (`toate_cheile` = ce e deja în jurnal, din orice zi)."""
     try:
@@ -725,7 +799,7 @@ def main():
 
     noi = []
     # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
-    for e in cutremure(zi) + gdacs(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + enso(zi) + nino34(zi):
+    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + enso(zi) + nino34(zi):
         nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
         if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
             continue
