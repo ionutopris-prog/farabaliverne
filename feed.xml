@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 10 Sep 2026 01:49:21 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 01:51:21 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Metroul din București riscă să se oprească din 16 septembrie — Metrorex are doar 3.000 de lei în cont, spune sindicatul, după ce subvenția de 63,4 milioane lei a fost blocată</title>
+      <link>https://farabaliverne.ro/a/metrorex-subventie-blocata-salarii-septembrie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/metrorex-subventie-blocata-salarii-septembrie.html</guid>
+      <pubDate>Wed, 09 Sep 2026 22:49:56 +0000</pubDate>
+      <category>Economie</category>
+      <description>Uniunea Sindicatelor Libere Metrou (USLM) a avertizat, miercuri, 9 septembrie 2026, că angajații Metrorex ar putea rămâne fără salariul din 12 septembrie, după ce Ministerul Transporturilor a blocat subvenția lunară de 63,458 milioane lei — motivul invocat fiind că Metrorex nu și-a aprobat bugetul de venituri și cheltuieli pe 2026 în termenul legal de 150 de zile. Sindicatul spune că în conturile companiei mai sunt 3.000 de lei; dacă plata nu se face în cel mult trei zile de la scadență, angajații ar putea opri, individual, activitatea.
+
+Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Avionul lui Zelenski, „aproape lovit” de o dronă la decolarea din Chișinău, spune premierul Norvegiei — Guvernul de la Chișinău nu confirmă, și pune accentul pe alt punct al traseului dronei</title>
       <link>https://farabaliverne.ro/a/zelenski-avion-drona-chisinau-versiuni-contradictorii.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
       <description>Un studiu publicat în revista Cancer Letters de o echipă de la Ohio State University Comprehensive Cancer Center – James arată că blocarea proteinei SET a prevenit formarea tumorilor de glioblastom în modele preclinice, iar interferența cu proteine înrudite a făcut celulele canceroase mai vulnerabile la radioterapie. Rezultatele sunt preclinice — nu au fost testate încă la pacienți — dar deschid o țintă nouă pentru un cancer cerebral care a rezistat decenii chimioterapiei și radioterapiei.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Un cadru de inteligență artificială de la Princeton a controlat plasma de fuziune în circa 20 de milisecunde, pe un reactor experimental real</title>
-      <link>https://farabaliverne.ro/a/princeton-pacman-ai-fuziune-plasma-milisecunde.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/princeton-pacman-ai-fuziune-plasma-milisecunde.html</guid>
-      <pubDate>Mon, 07 Sep 2026 06:45:44 +0000</pubDate>
-      <category>Știință</category>
-      <description>Cercetători de la Princeton Plasma Physics Laboratory (PPPL) și Universitatea Princeton au testat, în cinci experimente pe tokamakul DIII-D din San Diego, un cadru de inteligență artificială numit PACMAN, care citește măsurătorile plasmei și emite comenzi de control în circa 20 de milisecunde — mult mai rapid decât poate reacționa un operator uman. Rezultatele, publicate în revista Nuclear Fusion, arată o unealtă utilă pentru cercetarea în fuziune, nu un reactor de fuziune funcțional sau autonom.
-
-Unde bat probele: Probat. Verificate: 2 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
