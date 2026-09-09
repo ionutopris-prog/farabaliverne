@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 09 Sep 2026 09:50:52 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 09:52:59 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cel mai mare studiu genetic despre personalitate a găsit 1.260 de variante ADN legate de trăsăturile „Big Five” — dar ele explică doar o mică parte din diferențele dintre oameni</title>
+      <link>https://farabaliverne.ro/a/genetica-personalitate-big-five-nature-studiu.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/genetica-personalitate-big-five-nature-studiu.html</guid>
+      <pubDate>Wed, 09 Sep 2026 06:51:49 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat pe 2 septembrie 2026 în Nature, realizat de consorțiul Revived Genomics of Personality pe datele genetice și de personalitate a 1,14 milioane de oameni din 46 de cohorte din 13 țări, a găsit 1.260 de variante genetice comune asociate cu cele cinci mari trăsături de personalitate — extraversie, agreabilitate, conștiinciozitate, nevrotism și deschidere către experiență. Autorii spun explicit că variantele explică doar 5–16% din diferențele de personalitate dintre oameni; restul vine din mediu, nu din familie.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Cercetătorii au găsit în sângele șarpelui-cu-clopoței proteine care neutralizează venin de viperă de zece ori mai bine decât antiveninul actual — dar doar în laborator</title>
       <link>https://farabaliverne.ro/a/antiveninul-din-sange-sarpe-clopotei-pnas.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat (fapte procedurale) — acuzația de fond rămâne de j
       <description>Președintele argentinian Javier Milei a anunțat, într-un discurs televizat pe 4 septembrie 2026, sancțiuni pentru companiile petroliere care extrag lângă Insulele Malvine/Falkland fără aprobarea Buenos Aires-ului, plus o bază navală în Tierra del Fuego — spunând că se bazează pe declarații ale lui Donald Trump despre reevaluarea poziției americane. Ce a spus de fapt Trump e mult mai vag decât redarea lui Milei, iar Marea Britanie respinge orice discuție de suveranitate.
 
 Unde bat probele: Probat, cu nuanță pe citatul Trump. Verificate: 5 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Un nou caz de Ebola apare în zona controlată de rebelii M23, la două luni după ce aceștia declaraseră focarul încheiat pe teritoriul lor</title>
-      <link>https://farabaliverne.ro/a/rdc-ebola-caz-nou-m23-lubero-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/rdc-ebola-caz-nou-m23-lubero-septembrie.html</guid>
-      <pubDate>Sun, 06 Sep 2026 19:22:38 +0000</pubDate>
-      <category>Extern</category>
-      <description>Coordonatorul răspunsului anti-Ebola al M23, Freddy Kaniki, a confirmat pe 3-4 septembrie 2026 un nou caz cu virusul Bundibugyo în teritoriul Lubero, Kivu de Nord — zonă controlată de rebeli care declaraseră focarul încheiat pe teritoriul lor încă din iunie. La nivel național, RD Congo raportează 6.342 de cazuri confirmate și 3.072 de decese (ECDC, 2 septembrie), făcând din acesta al doilea cel mai mare focar de Ebola înregistrat vreodată.
-
-Unde bat probele: Probat. Verificate: 5 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>

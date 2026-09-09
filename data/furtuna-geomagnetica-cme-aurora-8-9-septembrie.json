@@ -1,0 +1,62 @@
+{
+  "slug": "furtuna-geomagnetica-cme-aurora-8-9-septembrie",
+  "title": "Patru erupții solare consecutive au lovit Pământul pe 8-9 septembrie — NOAA a emis alertă de furtună geomagnetică, cu auroră posibilă până în nordul Franței și al SUA",
+  "category": "Știință",
+  "date": "2026-09-09",
+  "source": "NOAA Space Weather Prediction Center / EarthSky",
+  "url": "https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/",
+  "dek": "Cel puțin patru ejecții de masă coronală (CME) pornite din regiunea activă a Soarelui AR4524 pe 5-6 septembrie 2026 au început să lovească magnetosfera Pământului dimineața zilei de 8 septembrie, declanșând o furtună geomagnetică de nivel G1 (minoră). Prognozatorii Centrului de Prognoză Meteo Spațială al NOAA (SWPC) spun că 9 septembrie are cele mai mari șanse de activitate geomagnetică semnificativă, cu posibile niveluri G2 (moderată) și șanse mici de G3 (puternică), dacă mai multe unde de plasmă se combină. Confidența în momentul exact și intensitate rămâne, în cuvintele lor, scăzută.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Cel puțin patru ejecții de masă coronală au fost observate plecând din regiunea activă a Soarelui AR4524 pe 5 și 6 septembrie 2026. Prima dintre ele a ajuns la Pământ în dimineața zilei de 8 septembrie, declanșând o furtună geomagnetică de nivel G1 (minoră pe scara NOAA, de la G1 la G5).",
+      "sources": [
+        {
+          "name": "EarthSky — Sun news: Series of sun blasts arriving, auroras to come",
+          "url": "https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/"
+        }
+      ]
+    },
+    {
+      "text": "Prognozatorii NOAA au indicat că 9 septembrie are cele mai mari șanse de activitate geomagnetică semnificativă, pe măsură ce impactul complet al mai multor CME-uri — posibil combinate într-o singură structură — interacționează cu câmpul magnetic terestru. Scenariul discutat e furtună G1 până la G2 (moderată), cu o șansă mică de G3 (puternică, echivalentă cu un indice Kp de 7).",
+      "sources": [
+        {
+          "name": "EarthSky — Sun news: Series of sun blasts arriving, auroras to come",
+          "url": "https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/"
+        },
+        {
+          "name": "NOAA / NWS Space Weather Prediction Center",
+          "url": "https://www.swpc.noaa.gov"
+        }
+      ]
+    },
+    {
+      "text": "În scenariul actual, auroră ar putea fi vizibilă până la latitudini precum New York, Londra și nordul Franței pe 8-9 septembrie. Dacă mai multe structuri CME se combină favorabil, prognozatorii spun că auroră ar putea ajunge chiar mai la sud — până la Edinburgh, Seattle, Minneapolis și posibil Toronto sau Chicago.",
+      "sources": [
+        {
+          "name": "EarthSky — Sun news: Series of sun blasts arriving, auroras to come",
+          "url": "https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Prognozele de furtună geomagnetică au o incertitudine mare, recunoscută explicit de NOAA: „confidența în momentul exact și magnitudinea rămâne scăzută”. Vizibilitatea reală a auroră depinde de orientarea câmpului magnetic din interiorul CME-ului (componenta Bz), care nu poate fi măsurată precis decât cu circa 15-60 de minute înainte de impact, de la sateliții aflați la punctul Lagrange L1. Un scenariu G3 cu auroră până în nordul Franței rămâne posibilitate, nu certitudine, la ora redactării acestui articol."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română o prognoză de vreme spațială activă la ora scrierii, pe baza agregării EarthSky (care citează direct NOAA SWPC) și a site-ului oficial NOAA. Ce s-a verificat exact: numărul și originea CME-urilor (patru, din regiunea AR4524, lansate 5-6 septembrie), nivelul de furtună deja confirmat (G1, în dimineața de 8 septembrie) și scenariile pentru 9 septembrie (G1-G2 probabil, G3 posibil) — cifre identice în sursa citată și confirmate de pagina oficială NOAA SWPC.\n\nDe ce e important să tratăm asta ca prognoză, nu ca fapt împlinit: spre deosebire de o descoperire științifică publicată, o furtună geomagnetică e un eveniment care se desfășoară ACUM, iar intensitatea ei finală (G1, G2 sau G3) depinde de un parametru — orientarea câmpului magnetic din interiorul norului de plasmă — care nu se poate ști cu certitudine decât cu foarte puțin timp înainte de impact. NOAA însuși spune că nivelul de confidență e scăzut. Am marcat partea legată de posibila extindere a auroră spre sud (Franța, Chicago) ca opinie/scenariu, nu ca fapt probat, tocmai din acest motiv.\n\nCe ar schimba concluzia: măsurătorile în timp real de la sateliții NOAA aflați la punctul Lagrange L1 (DSCOVR/ACE), care indică direcția câmpului magnetic cu doar 15-60 de minute înainte ca norul de plasmă să lovească Pământul — abia atunci se știe sigur dacă furtuna atinge G2, G3 sau rămâne la G1.",
+  "math": {
+    "title": "Ce înseamnă „G1” până la „G5” pe scara NOAA",
+    "explanation": "NOAA clasifică furtunile geomagnetice pe o scară de la G1 (minoră) la G5 (extremă), în funcție de cât de puternic e perturbat câmpul magnetic al Pământului, măsurat printr-un indice numit Kp (de la 0 la 9). G1 (Kp 5) poate produce fluctuații mici în rețelele electrice și auroră vizibilă la latitudini nordice mari (Alaska, nordul Canadei, Scandinavia). G3 (Kp 7), scenariul discutat pentru 9 septembrie ca posibilitate, poate împinge auroră vizibil mai spre sud — de unde și mențiunile despre Londra sau New York — și poate afecta ușor sistemele GPS și de navigație prin satelit, fără să fie însă un eveniment de amploarea furtunilor G4-G5, care pot cauza pene de curent extinse (cum a fost furtuna din mai 2024, cea mai puternică din ultimii 20 de ani)."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/furtuna-geomagnetica-cme-aurora-8-9-septembrie.jpg\" alt=\"Aurora borealis Northern Lights\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Aurora borealis Northern Lights. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:039_Northern_lights_over_M%C3%BDvatn_(Iceland)_Photo_by_Giles_Laurent.jpg\" rel=\"nofollow noopener\" target=\"_blank\">039 Northern lights over Mývatn (Iceland) Photo by Giles Laurent</a>\" de Giles Laurent, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/furtuna-geomagnetica-cme-aurora-8-9-septembrie.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Giles Laurent"
+  }
+}
