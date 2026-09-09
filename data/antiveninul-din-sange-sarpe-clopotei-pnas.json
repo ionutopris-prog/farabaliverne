@@ -1,0 +1,62 @@
+{
+  "slug": "antiveninul-din-sange-sarpe-clopotei-pnas",
+  "title": "Cercetătorii au găsit în sângele șarpelui-cu-clopoței proteine care neutralizează venin de viperă de zece ori mai bine decât antiveninul actual — dar doar în laborator",
+  "category": "Știință",
+  "date": "2026-09-09",
+  "source": "PNAS / University of Maryland Today / ScienceDaily",
+  "url": "https://today.umd.edu/scientists-discover-an-antidote-to-lethal-snake-bites-in-snakes-own-blood",
+  "dek": "Un studiu publicat pe 29 iulie 2026 în Proceedings of the National Academy of Sciences arată că, atunci când sunt combinate, anumite proteine găsite în sângele șarpelui-cu-clopoței diamantin de vest blochează toxinele din veninul mai multor specii de vipere — inclusiv specii separate prin milioane de ani de evoluție — de circa zece ori mai eficient decât antiveninul actual, obținut din ser de oaie. Rezultatul e de laborator; nu a fost testat încă pe animale vii sau pe oameni.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Echipa condusă de profesorul Sean B. Carroll (University of Maryland), împreună cu cercetători de la Texas A&M University-Kingsville, a identificat în serul șarpelui-cu-clopoței diamantin de vest (Crotalus atrox) o familie de proteine numite FETUA, care blochează metaloproteinazele — o clasă de toxine responsabile de mare parte din efectele distructive ale veninului de viperă asupra țesuturilor și sângelui. Studiul a fost publicat pe 29 iulie 2026 în Proceedings of the National Academy of Sciences (PNAS).",
+      "sources": [
+        {
+          "name": "University of Maryland Today — Scientists Discover an Antidote to Lethal Snake Bites in Snake's Own Blood",
+          "url": "https://today.umd.edu/scientists-discover-an-antidote-to-lethal-snake-bites-in-snakes-own-blood"
+        },
+        {
+          "name": "ScienceDaily — Scientists discover a powerful new antivenom hidden in rattlesnake blood",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm"
+        }
+      ]
+    },
+    {
+      "text": "Descoperirea pornește de la o observație mai veche: viperele au evoluat propriile lor proteine de protecție în sânge, care le fac rezistente la propriul venin. Cercetătorii au testat combinații de mai multe proteine FETUA (nu una singură, ca într-un studiu preliminar din 2022) și au găsit că, împreună, neutralizează complet letalitatea veninului de șarpe-cu-clopoței și oferă protecție încrucișată împotriva veninului altor specii de vipere din Lumea Nouă și din Lumea Veche, evolutiv îndepărtate.",
+      "sources": [
+        {
+          "name": "University of Maryland Today — Scientists Discover an Antidote to Lethal Snake Bites in Snake's Own Blood",
+          "url": "https://today.umd.edu/scientists-discover-an-antidote-to-lethal-snake-bites-in-snakes-own-blood"
+        }
+      ]
+    },
+    {
+      "text": "În testele de laborator, combinațiile optimizate de proteine FETUA au fost de aproximativ zece ori mai potente decât antiveninul comercial actual, care se obține prin imunizarea oilor cu venin de șarpe și extragerea anticorpilor din sângele lor — o metodă din secolul al XIX-lea, costisitoare și cu efecte secundare frecvente (boala serului).",
+      "sources": [
+        {
+          "name": "ScienceDaily — Scientists discover a powerful new antivenom hidden in rattlesnake blood",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Titlurile din presă care vorbesc despre un „nou antivenin” lasă impresia unui tratament gata de folosit. Nu e cazul: rezultatele sunt din laborator, pe venin izolat, nu din teste pe animale vii sau pe oameni. Carroll însuși a spus că primele aplicații comerciale ar putea veni în medicina veterinară, iar tratamentele pentru mușcăturile la om ar putea urma abia mai târziu. Echipa lucrează în continuare la proteine care să blocheze și celelalte familii majore de toxine din veninul de viperă, nu doar metaloproteinazele."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în PNAS pe 29 iulie 2026, pe baza comunicatelor University of Maryland Today și ScienceDaily (preluare din 7 septembrie 2026). Ce s-a verificat exact: combinațiile de proteine FETUA din serul șarpelui-cu-clopoței neutralizează, în laborator, letalitatea veninului mai multor specii de vipere, cu o potență de circa zece ori mai mare decât antiveninul actual pe bază de ser de oaie — asta e rezultatul măsurat, citat identic în ambele surse.\n\nCe lipsește, și contează: testele au fost făcute pe venin izolat în laborator, nu pe animale vii mușcate și nu pe oameni. Distanța de la „proteina blochează toxina într-un vas de laborator” la „antiveninul de mâine se ia din farmacie” e mare — trece prin teste pe animale, trial-uri clinice și aprobare reglementară, un proces care durează de regulă ani. Autorii recunosc explicit acest lucru și spun că prima aplicație probabilă e veterinară, nu umană.\n\nCe ar schimba concluzia: rezultate pozitive din teste pe animale vii mușcate efectiv, care ar arăta dacă protecția din eprubetă se traduce în supraviețuire reală — asta e pasul următor pe care cercetătorii spun că îl pregătesc, pentru celelalte familii de toxine din venin, nu doar metaloproteinazele testate acum.",
+  "math": {
+    "title": "De ce contează că proteinele vin chiar din sângele șarpelui",
+    "explanation": "Antiveninul clasic se face invers decât ai crede: se injectează venin de șarpe într-o oaie sau un cal, iar animalul își produce propriii anticorpi împotriva lui; anticorpii aceia, extrași din sângele animalului, sunt antiveninul. E un proces lent, scump și care produce reacții alergice frecvente, pentru că organismul uman „vede” proteinele de oaie ca pe un corp străin. Ideea din studiul de față e diferită: viperele înseși au, în propriul sânge, proteine care le protejează de venin — o formă de auto-imunitate evoluată de-a lungul a milioane de ani. Dacă proteinele acelea pot fi produse sintetic (recombinant, în laborator, fără animale), un viitor antivenin ar putea fi mai ieftin de fabricat, mai stabil la căldură (important în zonele tropicale fără lanț frigorific) și mai puțin predispus să declanșeze reacții alergice — dar toate astea rămân de demonstrat, nu sunt încă rezultate obținute."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/antiveninul-din-sange-sarpe-clopotei-pnas.jpg\" alt=\"Western diamondback rattlesnake\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Western diamondback rattlesnake. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:(Westliche_Diamantklapperschlange)_Crotalus_atrox.jpg\" rel=\"nofollow noopener\" target=\"_blank\">(Westliche Diamantklapperschlange) Crotalus atrox</a>\" de Holger Krisp, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/antiveninul-din-sange-sarpe-clopotei-pnas.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Holger Krisp"
+  }
+}
