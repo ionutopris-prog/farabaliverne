@@ -50,11 +50,11 @@
    "tip": "Erupție vulcanică"
   },
   {
-   "tip": "Ciclon tropical",
-   "sursa": "CNN / Honolulu Star-Advertiser",
    "cheie": "lowell-cat4-2026-09-05",
    "link": "https://www.cnn.com/2026/09/04/weather/hurricane-lowell-hawaii-storm-path-climate",
-   "text": "Uraganul Lowell, categoria 4 în Pacificul Central (a atins categoria 5 pe 2 septembrie, presiune 927 mbar), în drum spre Hawaii; al treilea uragan care amenință arhipelagul în trei săptămâni."
+   "sursa": "CNN / Honolulu Star-Advertiser",
+   "text": "Uraganul Lowell, categoria 4 în Pacificul Central (a atins categoria 5 pe 2 septembrie, presiune 927 mbar), în drum spre Hawaii; al treilea uragan care amenință arhipelagul în trei săptămâni.",
+   "tip": "Ciclon tropical"
   }
  ],
  "2026-09-06": [
@@ -94,11 +94,11 @@
    "tip": "Cutremur"
   },
   {
-   "tip": "Erupție vulcanică",
-   "sursa": "CNBC / InJourney Airports",
-   "link": "https://www.cnbc.com/2026/09/07/flights-canceled-jakarta-airport-anak-krakatau-eruption-disrupts-regional-travel-volcano.html",
    "cheie": "1000148-aeroporturi",
-   "text": "Cenușa de la Anak Krakatau închide aeroporturile Soekarno-Hatta și Halim din Jakarta și pe cel din Lampung — circa 2.300 de zboruri anulate, 268.539 de pasageri afectați."
+   "link": "https://www.cnbc.com/2026/09/07/flights-canceled-jakarta-airport-anak-krakatau-eruption-disrupts-regional-travel-volcano.html",
+   "sursa": "CNBC / InJourney Airports",
+   "text": "Cenușa de la Anak Krakatau închide aeroporturile Soekarno-Hatta și Halim din Jakarta și pe cel din Lampung — circa 2.300 de zboruri anulate, 268.539 de pasageri afectați.",
+   "tip": "Erupție vulcanică"
   }
  ],
  "2026-09-07": [
@@ -138,11 +138,81 @@
    "tip": "El Niño / La Niña"
   },
   {
-   "tip": "Ciclon tropical",
-   "sursa": "Kauai Now / Hawaii News Now",
    "cheie": "lowell-hawaii-2026-09-07",
    "link": "https://kauainownews.com/2026/09/03/lowell-remains-category-4-hurricane-forecasters-say-still-too-soon-to-determine-potential-impacts-in-the-hawaiian-islands/",
-   "text": "Hawaii: stare de urgență și avertizare de uragan pentru comitatul Kauai — uraganul Lowell (categoria 3) trece la vest de insule în noaptea de luni, cu ploi de până la 250 mm și valuri periculoase pe tot arhipelagul."
+   "sursa": "Kauai Now / Hawaii News Now",
+   "text": "Hawaii: stare de urgență și avertizare de uragan pentru comitatul Kauai — uraganul Lowell (categoria 3) trece la vest de insule în noaptea de luni, cu ploi de până la 250 mm și valuri periculoase pe tot arhipelagul.",
+   "tip": "Ciclon tropical"
+  },
+  {
+   "cheie": "1031852",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031852",
+   "sursa": "GDACS",
+   "text": "Incendiu de vegetație în The Democratic Republic of Congo și Zambia — 5.420 de hectare.",
+   "tip": "Incendiu de vegetație"
+  },
+  {
+   "cheie": "1031844",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031844",
+   "sursa": "GDACS",
+   "text": "Incendiu de vegetație în Turcia — 5.330 de hectare.",
+   "tip": "Incendiu de vegetație"
+  },
+  {
+   "cheie": "1031826",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031826",
+   "sursa": "GDACS",
+   "text": "Incendiu de vegetație în Zambia — 7.263 de hectare.",
+   "tip": "Incendiu de vegetație"
+  },
+  {
+   "cheie": "1031817",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031817",
+   "sursa": "GDACS",
+   "text": "Incendiu de vegetație în Brazilia — 12.418 de hectare.",
+   "tip": "Incendiu de vegetație"
+  },
+  {
+   "cheie": "1031780",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031780",
+   "sursa": "GDACS",
+   "text": "Incendiu de vegetație în Angola — 7.279 de hectare.",
+   "tip": "Incendiu de vegetație"
+  },
+  {
+   "cheie": "spc:2026-09-07",
+   "link": "https://www.spc.noaa.gov/climo/reports/260907_rpts.html",
+   "sursa": "NOAA SPC",
+   "text": "3 tornade raportate în SUA — LA, ND, NE.",
+   "tip": "Tornadă"
+  },
+  {
+   "cheie": "temp:2026-09-07:Novosibirsk",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Novosibirsk: maximă de 26 °C — cu 10 °C peste media zilei (1991–2020: 17 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-07:São Paulo",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Frig ieșit din comun la São Paulo: maximă de doar 14 °C — cu 9 °C sub media zilei (1991–2020: 24 °C) și sub orice maximă din ultimii 10 ani în perioada asta (15 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-07:Zürich",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Zürich: maximă de 29 °C — cu 9 °C peste media zilei (1991–2020: 20 °C) și peste orice maximă din ultimii 10 ani în perioada asta (29 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-07:Rio de Janeiro",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Frig ieșit din comun la Rio de Janeiro: maximă de doar 18 °C — cu 8 °C sub media zilei (1991–2020: 26 °C) și sub orice maximă din ultimii 10 ani în perioada asta (20 °C).",
+   "tip": "Temperaturi extreme"
   }
  ],
  "2026-09-08": [
@@ -189,27 +259,90 @@
    "tip": "El Niño / La Niña"
   },
   {
-   "tip": "Epidemie",
-   "sursa": "ECDC / OMS",
    "cheie": "ebola-rdc-2026-09-07",
    "link": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
-   "text": "Ebola (virusul Bundibugyo), Republica Democrată Congo: 6.686 de cazuri confirmate și 3.226 de morți la 7 septembrie, 819 pacienți în izolare — cea mai mare epidemie de Ebola din istoria țării; urgență de sănătate publică internațională (OMS) din 17 mai."
+   "sursa": "ECDC / OMS",
+   "text": "Ebola (virusul Bundibugyo), Republica Democrată Congo: 6.686 de cazuri confirmate și 3.226 de morți la 7 septembrie, 819 pacienți în izolare — cea mai mare epidemie de Ebola din istoria țării; urgență de sănătate publică internațională (OMS) din 17 mai.",
+   "tip": "Epidemie"
   },
   {
-   "tip": "Alunecare de teren",
-   "sursa": "Xinhua / AFP",
    "cheie": "jiangxi-alunecari-2026-09-08",
    "link": "https://www.malaymail.com/news/world/2026/09/08/china-landslides-leave-six-dead-and-nine-missing-after-rains-from-typhoon-saudel/234431",
-   "text": "Alunecări de teren în provincia Jiangxi, China, după ploile taifunului Saudel: 6 morți și 9 dispăruți (satul Mingkeng: 5 morți, 7 dispăruți), peste 170 de salvatori la fața locului."
+   "sursa": "Xinhua / AFP",
+   "text": "Alunecări de teren în provincia Jiangxi, China, după ploile taifunului Saudel: 6 morți și 9 dispăruți (satul Mingkeng: 5 morți, 7 dispăruți), peste 170 de salvatori la fața locului.",
+   "tip": "Alunecare de teren"
+  },
+  {
+   "cheie": "1104121",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104121",
+   "sursa": "GDACS",
+   "text": "Inundații în India — 2 de morți și 19.454 de strămutați.",
+   "tip": "Inundație"
+  },
+  {
+   "cheie": "temp:2026-09-08:Zürich",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Zürich: maximă de 32 °C — cu 12 °C peste media zilei (1991–2020: 20 °C) și peste orice maximă din ultimii 10 ani în perioada asta (29 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-08:Stația McMurdo (Antarctica)",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Frig ieșit din comun la Stația McMurdo (Antarctica): maximă de doar -36 °C — cu 11 °C sub media zilei (1991–2020: -25 °C) și sub orice maximă din ultimii 10 ani în perioada asta (-35 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-08:Viena",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Viena: maximă de 32 °C — cu 11 °C peste media zilei (1991–2020: 22 °C) și peste orice maximă din ultimii 10 ani în perioada asta (30 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-08:Praga",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Praga: maximă de 32 °C — cu 11 °C peste media zilei (1991–2020: 21 °C) și peste orice maximă din ultimii 10 ani în perioada asta (32 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-08:Novosibirsk",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Novosibirsk: maximă de 27 °C — cu 10 °C peste media zilei (1991–2020: 17 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "cheie": "temp:2026-09-08:Budapesta",
+   "link": "https://open-meteo.com/",
+   "sursa": "Open-Meteo / ERA5",
+   "text": "Căldură ieșită din comun la Budapesta: maximă de 32 °C — cu 9 °C peste media zilei (1991–2020: 22 °C) și peste orice maximă din ultimii 10 ani în perioada asta (32 °C).",
+   "tip": "Temperaturi extreme"
+  },
+  {
+   "tip": "Incendiu de vegetație",
+   "sursa": "AP / Türkiye Today",
+   "cheie": "antalya-incendii-2026-09-08",
+   "link": "https://abcnews.com/International/wireStory/wind-fueled-wildfire-forces-hundreds-homes-turkey-firefighters-136278689",
+   "text": "Incendii de vegetație împinse de vânt la Antalya, Turcia: focul pornit pe 7 septembrie la Karaöz (Aksu) s-a întins spre Kepez și Döşemealtı; 720 de oameni din 254 de case evacuați, autostrada Antalya–Isparta închisă temporar; un al doilea incendiu, la Serik, stins."
   }
  ],
  "2026-09-09": [
   {
-   "tip": "Inundație",
-   "sursa": "Poliția Nepalului, via ANI / The Tribune",
    "cheie": "nepal-bhote-koshi-2026-09-09",
    "link": "https://www.tribuneindia.com/news/bhote-koshi/nepal-jolted-by-5-0-earthquake-amid-ongoing-flood-rescue-efforts-as-death-toll-reaches-1366",
-   "text": "Inundațiile de pe râul Bhote Koshi, Nepal, în a 14-a zi de căutări: bilanțul urcă la 1.366 de morți și 4.077 de dispăruți; un cutremur de magnitudine 5,0, adânc (143 km), a zguduit nord-vestul țării fără pagube raportate."
+   "sursa": "Poliția Nepalului, via ANI / The Tribune",
+   "text": "Inundațiile de pe râul Bhote Koshi, Nepal, în a 14-a zi de căutări: bilanțul urcă la 1.366 de morți și 4.077 de dispăruți; un cutremur de magnitudine 5,0, adânc (143 km), a zguduit nord-vestul țării fără pagube raportate.",
+   "tip": "Inundație"
+  },
+  {
+   "tip": "Epidemie",
+   "sursa": "OMS / Al Jazeera / France 24",
+   "cheie": "bangladesh-rujeola-2026-09-09",
+   "link": "https://www.aljazeera.com/news/2026/9/9/bangladesh-measles-deaths-pass-1000-as-vaccination-drive-falls-short",
+   "text": "Rujeolă în Bangladesh: bilanțul trece de 1.000 de copii morți (1.002) și 187.484 de îmbolnăviri din martie — cea mai mare epidemie de rujeolă din lume (CDC) și cea mai gravă din țară în ultimele decenii; peste 80% din cazuri la copii sub 5 ani."
   }
  ]
 }
