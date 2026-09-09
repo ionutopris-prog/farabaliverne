@@ -1,0 +1,50 @@
+{
+  "slug": "iran-hormuz-inchis-total-presstv-date-trafic",
+  "title": "Iranul susține la PressTV că Hormuz e „complet închis” și că afirmațiile lui Trump sunt minciuni — datele independente de trafic naval arată altă poveste",
+  "category": "Media de stat",
+  "date": "2026-09-09",
+  "source": "PressTV (media de stat, Iran) — cu Al Jazeera, date Kpler și Lloyd's List Intelligence",
+  "url": "https://www.presstv.co.uk/Detail/2026/09/07/775810/Iran-Hormuz-control",
+  "dek": "📡 Secretarul Consiliului Suprem de Securitate Națională al Iranului a declarat, într-un interviu televizat preluat de agenția de stat PressTV pe 7 septembrie 2026, că strâmtoarea Hormuz este „complet închisă” și că afirmațiile președintelui american Donald Trump despre o strâmtoare deschisă sunt „simple minciuni” — susținând că traficul a scăzut de la peste 100 de nave pe zi la maximum 7-8. Datele companiilor independente de monitorizare navală arată o poveste diferită de ambele extreme invocate public.",
+  "mainVerdict": "Contestat — traficul prin Hormuz e într-adevăr sever redus față de normal, confirmat de mai multe firme independente de monitorizare (Kpler, Lloyd's List, PortWatch), dar cifra iraniană de „7-8 nave” și eticheta de strâmtoare „complet închisă” nu se potrivesc exact cu datele publice (5-14 tranzitări pe zi, în funcție de sursă și de metodologia de numărare), la fel cum nici cifrele mult mai mari citate de oficiali americani (30-40 de nave pe noapte) nu se potrivesc cu aceleași date",
+  "probat": [
+    {
+      "text": "Secretarul Consiliului Suprem de Securitate Națională al Iranului a declarat, într-un interviu difuzat de PressTV pe 7 septembrie 2026, că strâmtoarea Hormuz este „complet închisă”, că afirmațiile lui Donald Trump despre o strâmtoare deschisă sunt „simple minciuni”, și că, față de peste 100 de nave pe zi înainte de închidere, acum trec maximum 7-8 nave — restul fiind, potrivit lui, interceptate de forțele iraniene atunci când SUA încearcă să le treacă prin rute neautorizate.",
+      "sources": [
+        { "name": "PressTV — Iran Hormuz control (interviul integral, media de stat)", "url": "https://www.presstv.co.uk/Detail/2026/09/07/775810/Iran-Hormuz-control" }
+      ]
+    },
+    {
+      "text": "Firme independente de monitorizare a traficului naval confirmă o scădere drastică față de normalul dinaintea crizei (aproximativ 100 de nave și 20 de milioane de barili de petrol pe zi). Kpler a înregistrat 6 nave luni, 11 marți și 5 miercuri, într-o săptămână recentă din septembrie; Lloyd's List Intelligence a calculat o medie de aproximativ 12 tranzitări pe zi între 26 august și 1 septembrie; PortWatch a raportat o medie de circa 7 nave pe zi de la începutul crizei, în martie 2026.",
+      "sources": [
+        { "name": "Al Jazeera — How much oil is going through Hormuz? Why data doesn't match US claims", "url": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra iraniană de „maximum 7-8 nave” e apropiată de estimările unor firme de monitorizare (Kpler: 5-11 nave/zi într-o săptămână recentă), dar eticheta de strâmtoare „complet închisă” nu se susține: toate sursele independente citate confirmă un trafic continuu, nu zero, chiar dacă mult sub normal. Totodată, oficiali americani au avansat cifre mult mai mari — Trump a spus că marina SUA ajută „aproximativ 30 de nave pe noapte” să treacă prin Hormuz, iar doi oficiali americani au declarat că 40 de nave comerciale au trecut sub escortă militară americană într-o singură zi — cifre care nici ele nu se potrivesc cu datele de monitorizare independente.",
+      "sources": [
+        { "name": "Al Jazeera — datele nu se potrivesc nici cu afirmațiile iraniene, nici cu cele americane", "url": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims" },
+        { "name": "Al Jazeera — Iran war live: Tehran to announce new Hormuz shipping route", "url": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days" }
+      ]
+    },
+    {
+      "text": "Experți maritimi citați de Al Jazeera atribuie o parte din diferența dintre cifrele americane (30-40 nave) și cele ale firmelor comerciale de monitorizare (5-14 nave) unei diferențe de definiție: numărătoarea americană ar include probabil nave auxiliare militare, vase de sprijin și remorchere, în timp ce firmele comerciale numără doar navele cu marfă de peste 10.000 de tone deadweight. Această diferență metodologică nu explică însă susținerea iraniană că strâmtoarea ar fi „complet închisă”.",
+      "sources": [
+        { "name": "Al Jazeera — explicația diferenței metodologice de numărare a navelor", "url": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Zona de excludere pe care oficialul iranian a anunțat-o — dincolo de linia de blocaj a marinei americane, cu sancționarea oricărei nave care ar intra — este o declarație de intenție și de poziție de negociere, nu un fapt verificabil independent la data acestei verificări; rămâne de văzut dacă și cum va fi aplicată."
+    }
+  ],
+  "math": {
+    "title": "„7-8 nave” vs „30-40 de nave”: o diferență de 4-5 ori, între aceleași ape",
+    "explanation": "Cifra iraniană (7-8 nave/zi) și cifra americană citată de Trump (aproximativ 30 de nave pe noapte) diferă de aproximativ 4-5 ori, deși ambele se referă la aceeași strâmtoare, în aceeași perioadă. Datele firmelor comerciale de monitorizare (Kpler, Lloyd's List, PortWatch) se situează între cele două extreme, în jurul a 5-14 nave pe zi — mai aproape de cifra iraniană decât de cea americană, dar suficient de departe de „7-8” cât să nu confirme exact nicio parte. Diferența ține parțial de ce se numără drept „navă” (marfă comercială vs. inclusiv nave militare auxiliare), dar nu explică eticheta iraniană de strâmtoare „complet închisă”, de vreme ce tranzitări zilnice tot există."
+  },
+  "aiNote": "📡 Am etichetat acest articol „Media de stat” fiindcă afirmația centrală — strâmtoare „complet închisă”, cifra de „7-8 nave” și acuzația că Trump minte — vine dintr-un interviu difuzat de PressTV, agenția de stat iraniană, fără o sursă independentă alături în materialul original.\n\nCe s-a verificat exact: am pus afirmația iraniană alături de date publice de monitorizare navală (Kpler, Lloyd's List Intelligence, PortWatch), citate de Al Jazeera într-o analiză dedicată exact acestei neconcordanțe dintre cifrele publice și realitatea de pe teren.\n\nUnde se despart sursele: nu doar Iranul și SUA au cifre diferite — chiar și firmele comerciale de monitorizare, care nu au interes politic în conflict, raportează valori diferite între ele (6-14 nave/zi, în funcție de zi și de sursă), din cauza unor metodologii diferite de numărare. Cifra iraniană de „7-8” e plauzibilă ca ordin de mărime, dar eticheta „complet închisă” o contrazice chiar și pe ea însăși, de vreme ce nave tot trec.\n\nCe lipsește: o metodologie publică unică, acceptată de toate părțile, pentru ce anume se numără drept „tranzitare” prin Hormuz (nave militare, auxiliare, comerciale sub un anumit tonaj), și o confirmare independentă a zonei de excludere anunțate de Iran — dacă și cum va fi aplicată în practică.\n\nCe ar schimba concluzia: dacă firme independente de monitorizare ar raporta, pe o perioadă susținută, zero tranzitări comerciale, afirmația iraniană de „închidere completă” s-ar apropia de realitate; dacă traficul ar reveni aproape de normal, afirmațiile americane de trafic ridicat s-ar confirma. Niciuna dintre cele două situații nu era documentată public la data verificării.",
+  "persoane": []
+}

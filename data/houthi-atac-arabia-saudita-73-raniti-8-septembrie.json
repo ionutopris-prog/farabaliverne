@@ -1,0 +1,85 @@
+{
+  "slug": "houthi-atac-arabia-saudita-73-raniti-8-septembrie",
+  "title": "Houthii lovesc simultan patru obiective din Arabia Saudită cu rachete și drone — coaliția saudită confirmă 73 de răniți",
+  "category": "Extern",
+  "date": "2026-09-09",
+  "source": "NBC News / NPR / CBC / The National",
+  "url": "https://www.nbcnews.com/world/middle-east/houthi-attacks-saudi-arabia-oil-yemen-iran-war-rcna596535",
+  "dek": "🌍 În dimineața de 8 septembrie 2026, rebelii houthi din Yemen au lansat zeci de rachete balistice și drone spre rafinăriile Aramco din Najran și Abha, baza aeriană Khamis Mushait și hub-ul industrial Jazan — cea mai amplă lovitură asupra teritoriului saudit de la redeschiderea acestui front. Coaliția condusă de Arabia Saudită confirmă 73 de răniți; incendiile au oprit temporar operațiunile la mai multe instalații energetice.",
+  "mainVerdict": "Probat — atacul și numărul de 73 de răniți vin de la purtătorul de cuvânt oficial al coaliției saudite și sunt confirmate concordant de mai multe agenții internaționale independente; rămân neconfirmate independent doar amploarea exactă a pagubelor la fiecare instalație în parte și bilanțul unui atac saudit anterior asupra unei închisori din Yemen, invocat de houthi",
+  "probat": [
+    {
+      "text": "În dimineața zilei de marți, 8 septembrie 2026, houthii au lansat un atac coordonat cu rachete balistice și drone asupra mai multor obiective din sudul Arabiei Saudite: rafinăriile Aramco din Najran și Abha, baza aeriană King Khalid din Khamis Mushait și complexul industrial Jazan City for Primary and Downstream Industries, care include o rafinărie cu o capacitate de 400.000 de barili pe zi. Atacul a provocat incendii și a oprit temporar operațiunile la mai multe instalații energetice.",
+      "sources": [
+        {
+          "name": "NBC News — Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people",
+          "url": "https://www.nbcnews.com/world/middle-east/houthi-attacks-saudi-arabia-oil-yemen-iran-war-rcna596535"
+        },
+        {
+          "name": "NPR — Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people",
+          "url": "https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia"
+        },
+        {
+          "name": "CBC News — Iran-backed Houthis attack Saudi oil facilities, injuring dozens",
+          "url": "https://www.cbc.ca/news/world/saudi-houthi-attacks-9.7335307"
+        }
+      ]
+    },
+    {
+      "text": "Purtătorul de cuvânt al coaliției conduse de Arabia Saudită în Yemen, generalul-maior Turki al-Malki, a declarat că 73 de persoane, inclusiv femei și copii, au fost rănite. El a descris atacul drept o „escaladare gravă” și a promis „toate măsurile operaționale necesare pentru a descuraja milițiile teroriste houthi”.",
+      "sources": [
+        {
+          "name": "NBC News — declarația lui Turki al-Malki, purtător de cuvânt al coaliției",
+          "url": "https://www.nbcnews.com/world/middle-east/houthi-attacks-saudi-arabia-oil-yemen-iran-war-rcna596535"
+        },
+        {
+          "name": "The National — Saudi-led coalition in Yemen says 73 people wounded in Houthi attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/news/2026/09/08/saudi-led-coalition-in-yemen-says-73-people-wounded-in-houthi-attacks-on-saudi-arabia/"
+        }
+      ]
+    },
+    {
+      "text": "Purtătorul de cuvânt militar houthi, generalul de brigadă Yahya Saree, a revendicat public atacul, afirmând că au fost trase „zeci de rachete balistice și drone” spre instalații petroliere, economice și o bază aeriană, avertizând că „orice agresiune împotriva țării și poporului nostru va primi un răspuns ferm”.",
+      "sources": [
+        {
+          "name": "NBC News — revendicarea lui Yahya Saree",
+          "url": "https://www.nbcnews.com/world/middle-east/houthi-attacks-saudi-arabia-oil-yemen-iran-war-rcna596535"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Houthii au justificat parțial atacul ca răspuns la un bombardament saudit asupra unei închisori din provincia Jawf, în Yemen, cu câteva ore înainte, pe care îl acuză că ar fi ucis cel puțin 7 persoane. Această cifră vine exclusiv din surse houthi și nu a fost confirmată independent la momentul verificării; Arabia Saudită nu a comentat public acest bombardament.",
+      "sources": [
+        {
+          "name": "NBC News — bombardamentul asupra închisorii din Jawf, cifră neconfirmată independent",
+          "url": "https://www.nbcnews.com/world/middle-east/houthi-attacks-saudi-arabia-oil-yemen-iran-war-rcna596535"
+        }
+      ]
+    },
+    {
+      "text": "Nici Aramco și nici Ministerul saudit al Energiei nu au emis, până la momentul verificării, o declarație publică separată cu amploarea exactă a pagubelor materiale la fiecare instalație lovită (Najran, Abha, Jazan, Khamis Mushait) — informațiile despre pagube provin din relatările agențiilor pe teren și din declarația generală a coaliției militare, nu dintr-un raport tehnic independent al companiei.",
+      "sources": [
+        {
+          "name": "CBC News — Iran-backed Houthis attack Saudi oil facilities, injuring dozens",
+          "url": "https://www.cbc.ca/news/world/saudi-houthi-attacks-9.7335307"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Patru obiective, o singură cifră oficială de răniți",
+    "explanation": "Cele 73 de persoane rănite reprezintă un bilanț agregat pe toate cele patru obiective lovite (Najran, Abha, Jazan, Khamis Mushait), anunțat o singură dată de coaliție — sursele publice nu oferă o defalcare pe obiectiv, deci nu se poate spune care instalație a provocat mai multe victime. Absența acestei defalcări nu contrazice cifra totală, doar limitează ce se poate verifica independent din ea."
+  },
+  "aiNote": "Atacul de pe 8 septembrie e cea mai amplă lovitură houthi asupra Arabiei Saudite din acest război — o etapă nouă față de atacurile individuale asupra unor rafinării Aramco relatate de noi în august (Jazan, Najran). De data asta, patru obiective au fost lovite simultan, iar cifra de 73 de răniți vine direct de la purtătorul de cuvânt al coaliției saudite, nu doar din revendicarea houthilor — motiv pentru care o tratăm ca probată, nu doar ca afirmație a unei părți în conflict.\n\nCe rămâne neclar: amploarea pagubelor materiale la fiecare instalație (nicio declarație tehnică separată din partea Aramco) și bilanțul de 7 morți la bombardamentul saudit asupra închisorii din Jawf, invocat de houthi ca motiv al atacului — acesta din urmă vine dintr-o singură sursă, partizană în conflict, și nu a fost confirmat independent.\n\nCe ar schimba concluzia: o declarație oficială Aramco cu pagube exacte, sau o confirmare independentă (ONU, organizații umanitare) a bilanțului de la închisoarea din Jawf.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/houthi-atac-arabia-saudita-73-raniti-8-septembrie.jpg\" alt=\"Saudi Aramco refinery\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Saudi Aramco refinery. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Satorp_Jer_Refinery,_Jubail_-_panoramio.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Satorp Jer Refinery, Jubail - panoramio</a>\" de Suresh Babunair, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/houthi-atac-arabia-saudita-73-raniti-8-septembrie.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Suresh Babunair"
+  }
+}

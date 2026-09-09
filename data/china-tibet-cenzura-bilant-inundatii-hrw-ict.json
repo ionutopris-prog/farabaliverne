@@ -1,0 +1,57 @@
+{
+  "slug": "china-tibet-cenzura-bilant-inundatii-hrw-ict",
+  "title": "China a sancționat administrativ 10 oameni pentru că au scris online că bilanțul morților din inundațiile din Tibet ar fi peste 1.000, spun Human Rights Watch și activiști tibetani",
+  "category": "Media de stat",
+  "date": "2026-09-09",
+  "source": "NPR / Human Rights Watch / Al Jazeera",
+  "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting",
+  "dek": "📡 La aproape două săptămâni de la colapsul glaciar din 26 august care a provocat inundații devastatoare la granița Nepal-Tibet, autoritățile chineze mențin un bilanț oficial de zeci de morți în regiunea autonomă Tibet — de zeci de ori mai mic, proporțional, decât cel raportat de Nepal pentru aceeași catastrofă. Human Rights Watch și International Campaign for Tibet spun că accesul jurnaliștilor a fost restricționat și că cel puțin 10 persoane au fost sancționate administrativ pentru postări online care contraziceau cifra oficială.",
+  "mainVerdict": "Contestat — cifrele oficiale chineze pentru Tibet au crescut de mai multe ori în două săptămâni (de la 3, la 21, la 31 și apoi la 43 de morți, în rapoarte succesive), iar Ministerul de Externe chinez susține că informarea a fost „deschisă, transparentă și la timp”; Human Rights Watch și organizații tibetane susțin, cu dovezi de restricționare a accesului presei și de sancționare a unor postări online, că bilanțul real ar putea fi mult mai mare — fără ca vreo parte să poată fi verificată independent, din cauza exact acelor restricții de acces",
+  "probat": [
+    {
+      "text": "Bilanțul oficial chinez pentru partea din Tibet afectată de inundații a crescut succesiv în rapoarte separate, publicate de agenția de stat Xinhua și alte autorități chineze: 3 morți (27 august), 21 de morți și 541 de dispăruți (2-3 septembrie), 31 de morți și 531 de dispăruți (4 septembrie), până la o cifră de aproximativ 43 de morți și 519 dispăruți relatată la începutul lunii septembrie. În aceeași perioadă, bilanțul Nepalului a crescut mult mai rapid, depășind 1.300 de morți și aproape 5.000 de dispăruți.",
+      "sources": [
+        { "name": "Al Jazeera — China, Nepal race to find thousands still missing 12 days after floods", "url": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods" },
+        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+      ]
+    },
+    {
+      "text": "Human Rights Watch a relatat, citând jurnaliști și corespondenți, că autoritățile chineze au interzis accesul presei internaționale în zona afectată din Tibet, invocând terenul dificil și riscul de noi inundații, și că jurnaliștilor din media de stat li s-a spus să nu intervieveze supraviețuitori sau membri ai familiilor victimelor. Organizația a documentat și cenzurarea unor materiale video care circulaseră inițial online, ulterior eliminate.",
+      "sources": [
+        { "name": "Human Rights Watch — Tibet Flood Victims Have a Right to be Heard", "url": "https://www.hrw.org/news/2026/08/31/tibet-flood-victims-have-a-right-to-be-heard" },
+        { "name": "ABC News Australia — Tibet flooding videos surface and then disappear in China", "url": "https://www.abc.net.au/news/2026-08-29/china-censors-scrubbing-videos-of-tibet-nepal-flood/107090348" }
+      ]
+    },
+    {
+      "text": "Potrivit NPR, autoritățile chineze au aplicat „sancțiuni administrative” unui număr de 10 persoane pentru postări online calificate drept „zvonuri” despre dezastru — dintre care șapte au fost sancționate specific pentru că au scris că bilanțul real al morților ar depăși 1.000, o cifră mult peste orice bilanț oficial chinez publicat.",
+      "sources": [
+        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "International Campaign for Tibet (ICT), o organizație a exilului tibetan, susține că numărul real de victime ar putea fi „mult mai mare” decât cel oficial și citează surse proprii potrivit cărora peste 300 de case ar fi fost distruse doar în comitatul Gyirong — o cifră neconfirmată independent de nicio sursă în afara ICT. Președinta organizației, Tencho Gyatso, a cerut Chinei să publice „informații complete și verificabile despre pagube și victime”.",
+      "sources": [
+        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+      ]
+    },
+    {
+      "text": "Ministerul de Externe al Chinei a respins acuzațiile, afirmând că publicarea informațiilor despre dezastru a fost „deschisă, transparentă și la timp”. China nu a oferit însă acces presei internaționale independente în zona Gyirong pentru o verificare pe teren a acestei afirmații, iar cifrele oficiale au continuat să crească în etape succesive timp de mai bine de o săptămână.",
+      "sources": [
+        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Nu putem stabili din sursele publice dacă decalajul dintre bilanțul chinez și cel nepalez reflectă în principal condiții de teren diferite (altitudine, acces dificil în Tibet) sau o subraportare administrativă — ambele rămân explicații plauzibile, iar tocmai restricțiile de acces documentate de HRW fac imposibilă o verificare independentă a oricăreia dintre ele."
+    }
+  ],
+  "math": {
+    "title": "O rată de confirmare de peste 40 de ori mai mică pe partea chineză",
+    "explanation": "Dacă raportăm morții confirmați la totalul „morți plus dispăruți” anunțat inițial pe fiecare parte a graniței, Nepalul a confirmat morți într-o proporție de aproximativ 1 la 4-5 (peste 1.300 de morți din aproape 6.300 de cazuri inițiale), în timp ce China a confirmat doar aproximativ 43 de morți dintr-un total inițial raportat de peste 560 de cazuri — o proporție de aproape 1 la 13, de câteva ori mai mică. Diferența nu dovedește prin ea însăși subraportare; poate reflecta și dificultăți reale de acces la fața locului în Tibet, mai puțin prezente pe partea nepaleză, unde presa a putut circula liber."
+  },
+  "aiNote": "📡 Am etichetat acest articol „Media de stat” fiindcă bilanțul chinez oficial vine exclusiv din surse ale statului (Xinhua, autorități locale, Ministerul de Externe), fără o contravoce independentă pe teren în Tibet — chiar Human Rights Watch documentează că presa internațională a fost ținută departe de zona afectată.\n\nCe s-a verificat exact: șirul de cifre oficiale chineze (3 → 21 → 31 → 43 de morți, în rapoarte succesive între 27 august și începutul lui septembrie), comparat cu creșterea mult mai rapidă a bilanțului nepalez pentru același dezastru, plus documentarea de către HRW a restricțiilor de acces și a sancționării a 10 persoane pentru postări online.\n\nUnde se despart sursele: China insistă că informarea a fost „deschisă, transparentă și la timp”; HRW și ICT documentează cenzură, acces restricționat presei și sancțiuni pentru cine a scris o cifră mai mare decât cea oficială. Nu există, la data verificării, o sursă neutră care să fi putut number-check ambele variante pe teren.\n\nCe lipsește: acces independent al presei internaționale în zona Gyirong, o explicație oficială chineză pentru ritmul lent de conversie a „dispăruților” în „morți confirmați”, și o reconciliere transparentă a metodologiei de numărare (de exemplu, ce se întâmplă cu cetățenii nepalezi dispăruți pe partea chineză a graniței).\n\nCe ar schimba concluzia: acces independent verificabil în zona afectată din Tibet, sau o cifră oficială chineză finală care să se apropie proporțional de ritmul nepalez de confirmare — ambele ar arăta că decalajul actual a fost, în primul rând, un artefact de teren, nu de raportare.",
+  "persoane": []
+}
