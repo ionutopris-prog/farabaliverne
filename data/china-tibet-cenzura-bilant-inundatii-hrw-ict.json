@@ -11,21 +11,36 @@
     {
       "text": "Bilanțul oficial chinez pentru partea din Tibet afectată de inundații a crescut succesiv în rapoarte separate, publicate de agenția de stat Xinhua și alte autorități chineze: 3 morți (27 august), 21 de morți și 541 de dispăruți (2-3 septembrie), 31 de morți și 531 de dispăruți (4 septembrie), până la o cifră de aproximativ 43 de morți și 519 dispăruți relatată la începutul lunii septembrie. În aceeași perioadă, bilanțul Nepalului a crescut mult mai rapid, depășind 1.300 de morți și aproape 5.000 de dispăruți.",
       "sources": [
-        { "name": "Al Jazeera — China, Nepal race to find thousands still missing 12 days after floods", "url": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods" },
-        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+        {
+          "name": "Al Jazeera — China, Nepal race to find thousands still missing 12 days after floods",
+          "url": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods"
+        },
+        {
+          "name": "NPR — Questions grow over China's reporting of Nepal floods death toll",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting"
+        }
       ]
     },
     {
       "text": "Human Rights Watch a relatat, citând jurnaliști și corespondenți, că autoritățile chineze au interzis accesul presei internaționale în zona afectată din Tibet, invocând terenul dificil și riscul de noi inundații, și că jurnaliștilor din media de stat li s-a spus să nu intervieveze supraviețuitori sau membri ai familiilor victimelor. Organizația a documentat și cenzurarea unor materiale video care circulaseră inițial online, ulterior eliminate.",
       "sources": [
-        { "name": "Human Rights Watch — Tibet Flood Victims Have a Right to be Heard", "url": "https://www.hrw.org/news/2026/08/31/tibet-flood-victims-have-a-right-to-be-heard" },
-        { "name": "ABC News Australia — Tibet flooding videos surface and then disappear in China", "url": "https://www.abc.net.au/news/2026-08-29/china-censors-scrubbing-videos-of-tibet-nepal-flood/107090348" }
+        {
+          "name": "Human Rights Watch — Tibet Flood Victims Have a Right to be Heard",
+          "url": "https://www.hrw.org/news/2026/08/31/tibet-flood-victims-have-a-right-to-be-heard"
+        },
+        {
+          "name": "ABC News Australia — Tibet flooding videos surface and then disappear in China",
+          "url": "https://www.abc.net.au/news/2026-08-29/china-censors-scrubbing-videos-of-tibet-nepal-flood/107090348"
+        }
       ]
     },
     {
       "text": "Potrivit NPR, autoritățile chineze au aplicat „sancțiuni administrative” unui număr de 10 persoane pentru postări online calificate drept „zvonuri” despre dezastru — dintre care șapte au fost sancționate specific pentru că au scris că bilanțul real al morților ar depăși 1.000, o cifră mult peste orice bilanț oficial chinez publicat.",
       "sources": [
-        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+        {
+          "name": "NPR — Questions grow over China's reporting of Nepal floods death toll",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting"
+        }
       ]
     }
   ],
@@ -33,13 +48,19 @@
     {
       "text": "International Campaign for Tibet (ICT), o organizație a exilului tibetan, susține că numărul real de victime ar putea fi „mult mai mare” decât cel oficial și citează surse proprii potrivit cărora peste 300 de case ar fi fost distruse doar în comitatul Gyirong — o cifră neconfirmată independent de nicio sursă în afara ICT. Președinta organizației, Tencho Gyatso, a cerut Chinei să publice „informații complete și verificabile despre pagube și victime”.",
       "sources": [
-        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+        {
+          "name": "NPR — Questions grow over China's reporting of Nepal floods death toll",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting"
+        }
       ]
     },
     {
       "text": "Ministerul de Externe al Chinei a respins acuzațiile, afirmând că publicarea informațiilor despre dezastru a fost „deschisă, transparentă și la timp”. China nu a oferit însă acces presei internaționale independente în zona Gyirong pentru o verificare pe teren a acestei afirmații, iar cifrele oficiale au continuat să crească în etape succesive timp de mai bine de o săptămână.",
       "sources": [
-        { "name": "NPR — Questions grow over China's reporting of Nepal floods death toll", "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting" }
+        {
+          "name": "NPR — Questions grow over China's reporting of Nepal floods death toll",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5960357/nepal-floods-questions-over-chinas-reporting"
+        }
       ]
     }
   ],
@@ -53,5 +74,12 @@
     "explanation": "Dacă raportăm morții confirmați la totalul „morți plus dispăruți” anunțat inițial pe fiecare parte a graniței, Nepalul a confirmat morți într-o proporție de aproximativ 1 la 4-5 (peste 1.300 de morți din aproape 6.300 de cazuri inițiale), în timp ce China a confirmat doar aproximativ 43 de morți dintr-un total inițial raportat de peste 560 de cazuri — o proporție de aproape 1 la 13, de câteva ori mai mică. Diferența nu dovedește prin ea însăși subraportare; poate reflecta și dificultăți reale de acces la fața locului în Tibet, mai puțin prezente pe partea nepaleză, unde presa a putut circula liber."
   },
   "aiNote": "📡 Am etichetat acest articol „Media de stat” fiindcă bilanțul chinez oficial vine exclusiv din surse ale statului (Xinhua, autorități locale, Ministerul de Externe), fără o contravoce independentă pe teren în Tibet — chiar Human Rights Watch documentează că presa internațională a fost ținută departe de zona afectată.\n\nCe s-a verificat exact: șirul de cifre oficiale chineze (3 → 21 → 31 → 43 de morți, în rapoarte succesive între 27 august și începutul lui septembrie), comparat cu creșterea mult mai rapidă a bilanțului nepalez pentru același dezastru, plus documentarea de către HRW a restricțiilor de acces și a sancționării a 10 persoane pentru postări online.\n\nUnde se despart sursele: China insistă că informarea a fost „deschisă, transparentă și la timp”; HRW și ICT documentează cenzură, acces restricționat presei și sancțiuni pentru cine a scris o cifră mai mare decât cea oficială. Nu există, la data verificării, o sursă neutră care să fi putut number-check ambele variante pe teren.\n\nCe lipsește: acces independent al presei internaționale în zona Gyirong, o explicație oficială chineză pentru ritmul lent de conversie a „dispăruților” în „morți confirmați”, și o reconciliere transparentă a metodologiei de numărare (de exemplu, ce se întâmplă cu cetățenii nepalezi dispăruți pe partea chineză a graniței).\n\nCe ar schimba concluzia: acces independent verificabil în zona afectată din Tibet, sau o cifră oficială chineză finală care să se apropie proporțional de ritmul nepalez de confirmare — ambele ar arăta că decalajul actual a fost, în primul rând, un artefact de teren, nu de raportare.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-tibet-cenzura-bilant-inundatii-hrw-ict.jpg\" alt=\"Gyirong County Tibet\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Gyirong County Tibet. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2019%E5%B9%B48%E6%9C%885%E6%97%A5_%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8_%E8%AE%B0%E5%BD%95%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8F%98%E8%BF%81.webm\" rel=\"nofollow noopener\" target=\"_blank\">2019年8月5日 西藏吉隆口岸 记录时代的变迁</a>\" de 中国新闻网, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-tibet-cenzura-bilant-inundatii-hrw-ict.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "中国新闻网"
+  }
 }
