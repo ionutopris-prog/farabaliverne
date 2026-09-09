@@ -48,6 +48,19 @@
           "url": "https://newsmaker.md/ro/opt-persoane-din-transnistria-au-primit-pa%C8%99apoarte-prin-procedur%C4%83-simplificat%C4%83-ozerov-viitorul-este-al%C4%83turi-de-marea-rusie"
         }
       ]
+    },
+    {
+      "text": "A doua zi, miercuri, 9 septembrie 2026, viceprim-ministrul pentru reintegrare Valeriu Chiveri a comentat, după ședința Guvernului, vizita lui Ozerov la Tiraspol: „Este o contradicție între comportamentul respectiv și statutul de mediator (...) Aceste acțiuni iresponsabile ridică foarte multe semne de întrebare cu privire la credibilitatea acestui pretins mediator, care și așa este foarte afectată și, cred eu, șifonată ireversibil”.",
+      "sources": [
+        {
+          "name": "NewsMaker.md — Chiveri critică vizita lui Ozerov la Tiraspol: „Credibilitatea acestui pretins mediator este șifonată ireversibil”",
+          "url": "https://newsmaker.md/ro/chiveri-critic%C4%83-vizita-lui-ozerov-la-tiraspol-unde-a-%C3%AEnm%C3%A2nat-pa%C8%99apoarte-ruse%C8%99ticredibilitatea-acestui-pretins-mediator-este-%C8%99ifonat%C4%83-ireversibil"
+        },
+        {
+          "name": "Realitatea.md — Chiveri, după vizita ambasadorului rus la Tiraspol: „Ridică semne de întrebare privind credibilitatea lui”",
+          "url": "https://realitatea.md/chiveri-dupa-vizita-ambasadorului-rus-la-tiraspol-ridica-semne-de-intrebare-privind-credibilitatea-lui/"
+        }
+      ]
     }
   ],
   "contestat": [
@@ -79,7 +92,8 @@
   "persoane": [
     "Oleg Ozerov",
     "Mihai Popșoi",
-    "Igor Grosu"
+    "Igor Grosu",
+    "Valeriu Chiveri"
   ],
   "poza": {
     "img_html": "<img src=\"../img/articole/transnistria-opt-pasapoarte-ruse-ozerov-60000-cereri.jpg\" alt=\"Transnistria Tiraspol\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
