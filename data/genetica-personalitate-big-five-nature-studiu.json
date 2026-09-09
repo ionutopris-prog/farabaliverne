@@ -1,0 +1,62 @@
+{
+  "slug": "genetica-personalitate-big-five-nature-studiu",
+  "title": "Cel mai mare studiu genetic despre personalitate a găsit 1.260 de variante ADN legate de trăsăturile „Big Five” — dar ele explică doar o mică parte din diferențele dintre oameni",
+  "category": "Știință",
+  "date": "2026-09-09",
+  "source": "Nature / The Conversation",
+  "url": "https://www.nature.com/articles/d41586-026-02761-5",
+  "dek": "Un studiu publicat pe 2 septembrie 2026 în Nature, realizat de consorțiul Revived Genomics of Personality pe datele genetice și de personalitate a 1,14 milioane de oameni din 46 de cohorte din 13 țări, a găsit 1.260 de variante genetice comune asociate cu cele cinci mari trăsături de personalitate — extraversie, agreabilitate, conștiinciozitate, nevrotism și deschidere către experiență. Autorii spun explicit că variantele explică doar 5–16% din diferențele de personalitate dintre oameni; restul vine din mediu, nu din familie.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Consorțiul internațional Revived Genomics of Personality, coordonat printre alții de Michel Nivard (Universitatea Bristol), a combinat date genetice și chestionare de personalitate de la 1,14 milioane de participanți, din 46 de studii separate în 13 țări. Cercetătorii au identificat 1.260 de variante genetice comune asociate cu cel puțin una dintre cele cinci trăsături „Big Five”, dintre care peste 800 nu fuseseră raportate în studii anterioare. Studiul a fost publicat pe 2 septembrie 2026 în Nature.",
+      "sources": [
+        {
+          "name": "Nature — Anxious or outgoing? Huge study links 'Big Five' personality traits to genetic variants",
+          "url": "https://www.nature.com/articles/d41586-026-02761-5"
+        },
+        {
+          "name": "The Conversation — Huge genetic study finds strong links between DNA and personality traits",
+          "url": "https://theconversation.com/huge-genetic-study-finds-strong-links-between-dna-and-personality-traits-290861"
+        }
+      ]
+    },
+    {
+      "text": "Numărul de variante cunoscute a crescut spectaculos față de studiile anterioare, mai ales pentru unele trăsături: pentru conștiinciozitate, de la 3 variante cunoscute la 131; pentru nevrotism, de la 224 la 706. Variantele genetice comune explică între 5% și 16% din diferențele de personalitate observate între oameni, în funcție de trăsătură — restul variației se datorează unor factori de mediu care NU sunt, în mare parte, mediul familial comun (crescut de aceiași părinți, în aceeași casă).",
+      "sources": [
+        {
+          "name": "The Conversation — Huge genetic study finds strong links between DNA and personality traits",
+          "url": "https://theconversation.com/huge-genetic-study-finds-strong-links-between-dna-and-personality-traits-290861"
+        }
+      ]
+    },
+    {
+      "text": "Studiul a găsit corelații între variantele genetice asociate cu anumite trăsături și alte rezultate din viață: variante legate de nevrotism sunt asociate cu mai mult timp petrecut internat în spital, iar variante legate de deschiderea către experiență sunt asociate cu venitul și cu schimbarea locurilor de muncă. Autorii subliniază că e vorba de asocieri statistice, nu de relații de cauzalitate dovedite.",
+      "sources": [
+        {
+          "name": "Nature — Anxious or outgoing? Huge study links 'Big Five' personality traits to genetic variants",
+          "url": "https://www.nature.com/articles/d41586-026-02761-5"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Cadrul „Big Five” cu care a fost măsurată personalitatea (extraversie, agreabilitate, conștiinciozitate, nevrotism, deschidere) e un model dezvoltat și validat mai ales pe populații occidentale; autorii recunosc că aplicabilitatea lui universală, în alte culturi și limbi, rămâne o limită a cercetării, nu un fapt stabilit."
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat pe 2 septembrie 2026 în Nature, pe baza articolului Nature (news) și a analizei The Conversation, scrisă de cercetători independenți din domeniu. Ce s-a verificat exact: dimensiunea eșantionului (1,14 milioane de oameni, 46 de cohorte, 13 țări), numărul de variante genetice găsite (1.260, dintre care peste 800 noi) și procentul de variație explicată (5-16%) sunt cifre care apar identic în ambele surse.\n\nUnde e miza reală a nuanței: un titlu ca „genele explică personalitatea” induce în eroare prin ce lasă în afară. 5-16% din diferențele dintre oameni explicate de mii de variante genetice comune înseamnă că marea majoritate a variației de personalitate — între 84% și 95% — vine din altceva: experiențe individuale, întâmplare, mediu non-familial. Nu e o „genă a extraversiei”; sunt mii de variante, fiecare cu efect infim, care împreună explică o felie mică din poveste.\n\nCe mai lipsește: studiul arată corelații (variantă genetică X asociată cu trăsătura Y), nu mecanisme cauzale — nu se știe, pentru marea majoritate a variantelor găsite, PRIN CE cale biologică ar influența personalitatea, dacă o influențează deloc direct (unele corelații pot reflecta factori confundați, cum ar fi statutul socio-economic al familiei). Autorii înșiși pun această limită explicit, alături de limita legată de aplicabilitatea culturală a modelului Big Five.\n\nCe ar schimba concluzia: studii de urmărire care testează dacă variantele găsite au efect direct, biologic plauzibil (de exemplu prin gene active în neurodezvoltare), spre deosebire de corelații indirecte prin mediul socio-economic al familiei — un tip de analiză pe care consorțiul spune că îl pregătește pentru studiile viitoare.",
+  "math": {
+    "title": "Ce înseamnă „5-16% din variație explicată”",
+    "explanation": "Când un studiu spune că genele „explică” 10% din diferențele de personalitate, nu înseamnă că 10% din personalitatea ta e „genetică” și restul „de mediu” — înseamnă altceva, statistic mai precis: dacă ai lua un grup mare de oameni și ai măsura cât de diferiți sunt unii de alții la o trăsătură (nevrotism, de exemplu), aproximativ 10% din acea diferență dintre oameni poate fi „prezisă” statistic pornind doar de la variantele genetice comune identificate. Restul de 90% ține de alți factori — mulți dintre ei necunoscuți sau nemăsurați — de la evenimente de viață la variantă genetică rară, netestată în acest tip de studiu. E o cifră despre diferențele DINTRE oameni la nivel de populație, nu o rețetă care spune cât de „genetică” e personalitatea unui singur individ."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/genetica-personalitate-big-five-nature-studiu.jpg\" alt=\"DNA double helix model\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — DNA double helix model. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:20251019_Replica_DNA_double_helix_model_Berlin_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">20251019 Replica DNA double helix model Berlin 01</a>\" de Flocci Nivis, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/genetica-personalitate-big-five-nature-studiu.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Flocci Nivis"
+  }
+}
