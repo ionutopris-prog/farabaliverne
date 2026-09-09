@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 10 Sep 2026 01:46:36 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 01:49:21 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Avionul lui Zelenski, „aproape lovit” de o dronă la decolarea din Chișinău, spune premierul Norvegiei — Guvernul de la Chișinău nu confirmă, și pune accentul pe alt punct al traseului dronei</title>
+      <link>https://farabaliverne.ro/a/zelenski-avion-drona-chisinau-versiuni-contradictorii.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/zelenski-avion-drona-chisinau-versiuni-contradictorii.html</guid>
+      <pubDate>Wed, 09 Sep 2026 22:47:12 +0000</pubDate>
+      <category>Extern</category>
+      <description>Premierul norvegian Jonas Gahr Støre a declarat pentru NRK că avionul lui Volodimir Zelenski „a fost aproape lovit de o dronă” la decolarea din Chișinău spre Oslo, marți, 8 septembrie 2026. Purtătorul de cuvânt al Guvernului de la Chișinău, Dumitru Ciorici, a confirmat doar întârzierea zborului din cauza închiderii spațiului aerian, fără să confirme pericolul descris de premierul norvegian — și a subliniat că drona a explodat la sol la circa 160 km de aeroport.
+
+Unde bat probele: Contestat — versiuni oficiale diferite, care măsoară lucruri diferite. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Nicușor Dan a promulgat legea care anulează incompatibilitatea consilierilor locali angajați la stat — la o lună după ce prevederea inversă intrase în vigoare</title>
       <link>https://farabaliverne.ro/a/consilieri-locali-incompatibilitate-anulata-lege-psd.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 2 probate, 1 contestate.</desc
       <description>Cercetători de la Princeton Plasma Physics Laboratory (PPPL) și Universitatea Princeton au testat, în cinci experimente pe tokamakul DIII-D din San Diego, un cadru de inteligență artificială numit PACMAN, care citește măsurătorile plasmei și emite comenzi de control în circa 20 de milisecunde — mult mai rapid decât poate reacționa un operator uman. Rezultatele, publicate în revista Nuclear Fusion, arată o unealtă utilă pentru cercetarea în fuziune, nu un reactor de fuziune funcțional sau autonom.
 
 Unde bat probele: Probat. Verificate: 2 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Pakistan: NDMA urcă bilanțul musonului la 180 de morți din iunie, în timp ce alte ploi sunt anunțate pentru Sindh</title>
-      <link>https://farabaliverne.ro/a/pakistan-ndma-bilant-muson-180-morti-septembrie-2026.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/pakistan-ndma-bilant-muson-180-morti-septembrie-2026.html</guid>
-      <pubDate>Mon, 07 Sep 2026 00:29:13 +0000</pubDate>
-      <category>Extern</category>
-      <description>🌍 Autoritatea Națională de Gestionare a Dezastrelor din Pakistan (NDMA) a raportat, pe 3-4 septembrie 2026, 180 de morți și 509 răniți de la începutul sezonului de muson, pe 26 iunie 2026. Bilanțul a crescut constant față de actualizările anterioare — 110 morți pe 28 iulie, 126 pe 2 august —, iar Serviciul Meteorologic anunță, pentru 7-13 septembrie, ploi torențiale suplimentare în Sindh și creșteri moderate ale debitelor pe Indus, Jhelum, Chenab și Ravi.
-
-Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
