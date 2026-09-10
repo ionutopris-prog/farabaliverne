@@ -78,5 +78,15 @@
     }
   ],
   "aiNote": "Am urmărit un subiect care evoluează, nu l-am tratat ca pe unul nou: pe 22 august scrisesem despre prăbușirea negocierilor și promisiunea canadiană de răspuns „dolar pentru dolar” de la 8 septembrie. Azi verific ce s-a întâmplat efectiv la data promisă — și cifrele nu se potrivesc perfect cu promisiunea inițială.\n\nCe s-a verificat exact: contra-tarifele canadiene au intrat în vigoare pe 8 septembrie, la 27,6 miliarde de dolari, cifră confirmată de trei surse independente (CNBC, Yahoo Finance, lista oficială a Ministerului de Finanțe al Canadei). În aceeași zi, Casa Albă a răspuns cu cinci proclamații care interzic sau modifică tarife pe produse canadiene.\n\nUnde se despart sursele: comunicatul Casei Albe vorbește despre tarife canadiene „de aproximativ 20 de miliarde de dolari” — o cifră care nu corespunde cu cea raportată de presă și de guvernul canadian pentru runda de pe 8 septembrie (27,6 miliarde). Fără o explicație oficială a discrepanței, nu putem ști sigur dacă fact-sheet-ul american se referă la o rundă anterioară de tarife sau folosește o altă metodologie de calcul — am marcat asta ca nelămurit, nu ca eroare a uneia dintre părți.\n\nA doua divergență e despre cine a stricat negocierile: Carney spune că SUA a schimbat termenii în ultimul moment, Greer spune că Canada a cerut mai mult după ce acordul era conturat. Niciuna dintre părți n-a publicat textul de pe masa negocierilor, deci cititorul rămâne cu două versiuni, nu cu un fapt stabilit. Ce ar lămuri lucrurile ar fi publicarea proiectului de acord discutat pe 21 august.",
-  "persoane": ["Mark Carney", "Donald Trump"]
+  "persoane": [
+    "Mark Carney",
+    "Donald Trump"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie.jpg\" alt=\"Mark Carney\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mark Carney. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Llegada_de_Mark_Carney,_presidente_del_Consejo_de_Estabilidad_Financiera_(31162633417).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Llegada de Mark Carney, presidente del Consejo de Estabilidad Financiera (31162633417)</a>\" de G20 Argentina, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "G20 Argentina"
+  }
 }

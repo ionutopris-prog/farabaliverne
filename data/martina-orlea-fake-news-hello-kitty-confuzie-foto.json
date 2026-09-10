@@ -59,5 +59,15 @@
     }
   ],
   "aiNote": "Am tratat cazul ca pe orice altă afirmație: partea factuală (o poză reală, o persoană greșit identificată, răspândirea pe mai multe platforme) e confirmată independent de mai multe redacții — Spotmedia, Mediafax, Adevărul, România TV, Gândul — care descriu aceleași fotografii și aceeași confuzie. Cifra de „circa un milion de oameni” vine de la Orlea însăși și e citată identic de presă, fără o sursă externă (de exemplu, date de la platforme) care s-o confirme independent — de aceea am păstrat-o la probat, dar marcat ca estimare a sursei, nu ca date verificate de o platformă terță.\n\nUnde se despart lucrurile e la interpretarea intenției: Orlea susține că ținta reală era președintele, folosindu-se de consilierii lui ca vector de atac. E o lectură plauzibilă, venită de la cineva cu experiență în domeniu (a lucrat cu NATO StratCom pe măsurarea impactului narativelor rusești în Ucraina), dar rămâne interpretarea ei — nu există, în sursele verificate, o anchetă independentă sau o confirmare de la platformele sociale despre cine a pornit campania sau cu ce scop exact. Ce ar lămuri lucrurile ar fi o analiză independentă a conturilor implicate, nu doar relatarea persoanei vizate.\n\nNu am folosit termeni ca „a mințit” sau atribuiri de vinovăție unei persoane sau unui grup anume — sursele nu identifică pe nimeni nominal ca autor al campaniei, iar procuroara Ioana apare aici exclusiv ca victimă colaterală a confuziei, nu ca persoană acuzată de ceva.",
-  "persoane": ["Nicușor Dan", "Martina Orlea"]
+  "persoane": [
+    "Nicușor Dan",
+    "Martina Orlea"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/martina-orlea-fake-news-hello-kitty-confuzie-foto.jpg\" alt=\"Nicusor Dan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nicusor Dan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nicu%C8%99or_Dan.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nicușor Dan</a>\" de Razvan Socol, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/martina-orlea-fake-news-hello-kitty-confuzie-foto.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Razvan Socol"
+  }
 }
