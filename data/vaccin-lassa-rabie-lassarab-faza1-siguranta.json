@@ -1,0 +1,72 @@
+{
+  "slug": "vaccin-lassa-rabie-lassarab-faza1-siguranta",
+  "title": "Vaccin experimental combinat rabie-Lassa, sigur și cu anticorpi la 100% dintre voluntari — dar doar în primul test pe oameni",
+  "category": "Știință",
+  "date": "2026-09-09",
+  "source": "Nature Medicine / University of Maryland School of Medicine / Thomas Jefferson University",
+  "url": "https://www.nature.com/articles/s41591-026-04429-z",
+  "dek": "Un vaccin experimental care combină protecția împotriva rabiei cu cea împotriva febrei Lassa — LASSARAB — a produs anticorpi la toți cei 44 de voluntari vaccinați dintr-un test de fază 1, fără evenimente adverse grave. E o veste bună într-un moment în care Nigeria trece prin cel mai grav episod de febră Lassa din ultimii ani, dar rezultatele arată doar că vaccinul e sigur și declanșează un răspuns imunitar — nu că protejează efectiv împotriva bolii.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Cercetători de la Universitatea Maryland (Centrul pentru Dezvoltarea Vaccinurilor și Sănătate Globală) și de la Universitatea Thomas Jefferson (unde a fost dezvoltat vaccinul, sub coordonarea profesorului Matthias Schnell) au testat LASSARAB — un vaccin inactivat, vectorizat pe virusul rabiei, care conține și glicoproteina virusului Lassa — pe 54 de adulți sănătoși. Participanții au primit, la interval de 28 de zile, două doze din una din trei concentrații (700, 1.400 sau 2.800 de unități relative de antigen) sau un vaccin antirabic autorizat, ca grup de control. Rezultatele interimare, la ziua 61, au fost publicate pe 9 iunie 2026 în Nature Medicine.",
+      "sources": [
+        {
+          "name": "PMC — Adjuvanted inactivated rabies virus-vectored Lassa virus vaccine (text integral)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375538/"
+        },
+        {
+          "name": "EurekAlert! — First-in-human clinical trial shows promising results for new Lassa fever vaccine",
+          "url": "https://www.eurekalert.org/news-releases/1131153"
+        }
+      ]
+    },
+    {
+      "text": "Toți cei 44 de voluntari care au primit LASSARAB au dezvoltat anticorpi împotriva glicoproteinei virusului Lassa (seroconversie 100%), față de 0% în grupul de control care a primit doar vaccinul antirabic. Vaccinul a produs și seroconversie de 100% pentru anticorpii anti-rabie la toate grupurile, inclusiv anticorpi neutralizanți peste pragul de protecție recunoscut (≥0,5 UI/ml). Reacțiile adverse — locale la injectare, la 66,7–86,7% dintre voluntari, și sistemice, la 53,3–71,4% — au fost „predominant ușoare și autolimitate”; nu s-a raportat niciun eveniment advers grav, nicio boală autoimună declanșată de vaccin și nicio pierdere de auz neurosenzorială (un risc monitorizat activ la vaccinurile vectorizate pe rabie).",
+      "sources": [
+        {
+          "name": "PMC — Adjuvanted inactivated rabies virus-vectored Lassa virus vaccine (text integral)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375538/"
+        }
+      ]
+    },
+    {
+      "text": "Testul are loc pe fondul unuia dintre cele mai grave episoade de febră Lassa din Nigeria din ultimii ani: până în săptămâna epidemiologică 30 din 2026 (20–26 iulie), autoritățile nigeriene au confirmat 1.000 de cazuri și 237 de decese, cu o rată de fatalitate de 23,7% — mai mare decât cea din aceeași perioadă a lui 2025 (18,4%). Focarul acoperă 116 zone administrative din 23 de state, iar cinci state (Ondo, Bauchi, Taraba, Edo, Benue) concentrează 86% din cazuri. În prezent nu există niciun vaccin aprobat împotriva febrei Lassa.",
+      "sources": [
+        {
+          "name": "Global Biodefense — Nigeria's Lassa Fever Outbreak Surpasses 1,000 Confirmed Cases",
+          "url": "https://globalbiodefense.com/2026/08/12/nigerias-lassa-fever-outbreak-surpasses-1000-confirmed-cases-as-healthcare-workers-bear-growing-burden/"
+        },
+        {
+          "name": "EurekAlert! — First-in-human clinical trial shows promising results for new Lassa fever vaccine",
+          "url": "https://www.eurekalert.org/news-releases/1131153"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "„Sigur și imunogen” nu înseamnă „protejează împotriva bolii” — o distincție pe care înșiși autorii studiului o subliniază. Testul de fază 1 nu a fost conceput și nu are puterea statistică să măsoare eficacitatea reală (adică dacă vaccinul previne efectiv îmbolnăvirea în contact cu virusul Lassa), monitorizarea completă merge doar până la ziua 394, iar voluntarii au fost adulți tineri și sănătoși din Statele Unite, dintr-o regiune fără febră Lassa sau rabie endemică — ceea ce le limitează relevanța directă pentru populațiile expuse real, din Africa de Vest. Autorii spun explicit că vor trece la teste clinice mai avansate doar dacă răspunsul imun se menține ridicat pe termen lung.",
+      "sources": [
+        {
+          "name": "PMC — Adjuvanted inactivated rabies virus-vectored Lassa virus vaccine (text integral)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375538/"
+        }
+      ]
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Nature Medicine, cu text integral verificat pe PMC (versiunea cu acces liber) și confirmat de comunicatul EurekAlert al Universității Maryland. Nota merită dezvoltată fiindcă miza practică a distincției e mare: presa de sănătate tinde să traducă „a produs anticorpi la toți voluntarii” direct în „vaccin eficient”, dar imunogenitatea (capacitatea de a declanșa un răspuns imun) și eficacitatea (protecția reală împotriva bolii) sunt lucruri diferite, verificate în etape diferite ale testării clinice. Un test de fază 1, ca acesta, pe 54 de oameni sănătoși dintr-o țară fără febră Lassa, răspunde doar la întrebarea „e sigur și produce anticorpi?” — nu la „previne boala?”. Ce ar lămuri lucrurile: rezultatele complete la ziua 394, apoi un test de fază 2/3, ideal desfășurat în regiuni endemice din Africa de Vest, unde vaccinul chiar ar putea fi folosit.",
+  "math": {
+    "title": "De ce „100% seroconversie” nu e totuna cu „100% protecție”",
+    "explanation": "Seroconversia înseamnă că organismul a produs anticorpi detectabili împotriva unei componente a virusului — un semn că sistemul imunitar a „recunoscut” vaccinul și a reacționat. Dar prezența anticorpilor nu garantează automat protecție completă: contează și cât de puternici sunt acei anticorpi, cât timp rămân la niveluri utile și dacă „neutralizează” efectiv virusul într-un test de laborator sau doar îl leagă fără să-l oprească. Singurul mod cert de a afla dacă un vaccin previne boala e să urmărești, într-un test de fază 3, ce se întâmplă cu oamenii vaccinați expuși real la virus, față de cei nevaccinați — un pas pe care LASSARAB nu l-a trecut încă."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/vaccin-lassa-rabie-lassarab-faza1-siguranta.jpg\" alt=\"Lassa virus\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Lassa virus. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Lassa_Virus.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Lassa Virus</a>\" de NIAID, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/vaccin-lassa-rabie-lassarab-faza1-siguranta.jpg",
+    "licenta": "CC BY 2.0",
+    "autor": "NIAID"
+  }
+}

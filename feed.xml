@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 10 Sep 2026 09:45:14 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 09:47:49 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sondaj printre sute de astrobiologi: doar 6,6% cred că s-a găsit viață extraterestră pe K2-18b</title>
+      <link>https://farabaliverne.ro/a/k2-18b-sondaj-astrobiologi-viata-extraterestra.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/k2-18b-sondaj-astrobiologi-viata-extraterestra.html</guid>
+      <pubDate>Thu, 10 Sep 2026 06:46:23 +0000</pubDate>
+      <category>Știință</category>
+      <description>La mai bine de un an de la două anunțuri care au făcut înconjurul lumii — un posibil semnal chimic de viață în atmosfera exoplanetei K2-18b și un „posibil biosemnal” într-o rocă de pe Marte —, un sondaj făcut de cercetători de la Universitatea Durham printre sute de astrobiologi arată că marea majoritate a comunității științifice rămâne sceptică. Niciuna dintre descoperiri nu a fost infirmată; dar nici confirmată ca dovadă de viață.
+
+Unde bat probele: Contestat. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Un atașat militar chinez îi lasă un bilet pe masă ministrului filipinez al Apărării, în timp ce vorbea la un forum din Seul — „Sigur, pentru că ați pierdut”</title>
       <link>https://farabaliverne.ro/a/china-filipine-bilet-seoul-defense-dialogue-teodoro.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 5 probate, 1 contestate.</description>
       <description>Ministrul german de interne Alexander Dobrindt a notificat Comisia Europeană, pe 18-19 august 2026, că verificările introduse la toate cele nouă granițe terestre ale Germaniei din septembrie 2024 vor continua încă șase luni, până la mijlocul lui martie 2027 — a patra prelungire consecutivă. Cu două luni și jumătate înainte, Comisia ceruse explicit Germaniei și altor opt state Schengen să înceapă eliminarea treptată a acestor controale.
 
 Unde bat probele: Probat, cu tensiune nerezolvată între Germania și Comisia Europeană. Verificate: 5 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Rusia lovește a doua oară în șase zile punctul de trecere Orlivka, la granița Ucrainei cu România</title>
-      <link>https://farabaliverne.ro/a/orlivka-isaccea-al-doilea-atac-saptamana.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/orlivka-isaccea-al-doilea-atac-saptamana.html</guid>
-      <pubDate>Mon, 07 Sep 2026 11:29:56 +0000</pubDate>
-      <category>Extern</category>
-      <description>În noaptea de 6 spre 7 septembrie 2026, forțele ruse au lovit din nou cu drone punctul de trecere ucrainean Orlivka, capătul feribotului peste Dunăre spre Isaccea, în județul Tulcea — al doilea atac în șase zile asupra aceleiași infrastructuri, după cel din noaptea de 1 septembrie. Traficul a fost suspendat temporar și reluat a doua zi dimineață.
-
-Unde bat probele: Probat. Verificate: 5 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
