@@ -67,6 +67,8 @@ TIPURI = {
 # Numele de țări vin în engleză de la ambele surse. Traducem ce știm sigur și
 # lăsăm restul cum e — un nume englezesc e mai bun decât o traducere greșită.
 TARI = {
+    "Democratic Republic of the Congo": "Republica Democrată Congo", "The Democratic Republic of Congo": "Republica Democrată Congo",
+    "The Democratic Republic of the Congo": "Republica Democrată Congo", "Congo": "Congo", "Timor Leste": "Timor de Est", "Guam": "Guam",
  "Afghanistan":"Afganistan","Albania":"Albania","Algeria":"Algeria","Argentina":"Argentina",
  "Armenia":"Armenia","Australia":"Australia","Austria":"Austria","Azerbaijan":"Azerbaidjan",
  "Bangladesh":"Bangladesh","Belarus":"Belarus","Belgium":"Belgia","Belize":"Belize",
@@ -390,6 +392,7 @@ def _ro_loc(loc):
 # — jumătate din cutremurele lumii se întâmplă în locuri fără nimeni în ele.
 REGIUNI = {
  "Kermadec Islands region": "regiunea Insulelor Kermadec",
+    "southern East Pacific Rise": "sudul Dorsalei Est-Pacifice", "East Pacific Rise": "Dorsala Est-Pacifică",
     "southeast of the Loyalty Islands": "sud-estul Insulelor Loyalty", "Loyalty Islands": "Insulele Loyalty",
  "South Sandwich Islands region": "regiunea Insulelor Sandwich de Sud",
  "central Mid-Atlantic Ridge": "Dorsala Medio-Atlantică centrală",
