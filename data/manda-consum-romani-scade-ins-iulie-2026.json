@@ -1,0 +1,57 @@
+{
+  "slug": "manda-consum-romani-scade-ins-iulie-2026",
+  "title": "Manda (PSD) acuză PNL și USR pe fondul scăderii consumului — cifrele lui despre comerțul cu amănuntul se potrivesc cu INS, dar „a 12-a lună consecutivă” nu are o sursă unică",
+  "category": "Economie",
+  "date": "2026-09-10",
+  "source": "Mediafax / Profit.ro / Gandul / Income Magazine",
+  "url": "https://www.mediafax.ro/politic/claudiu-manda-acuza-pnl-si-usr-ca-numara-voturile-in-timp-ce-romanii-cumpara-mai-putin-23801946",
+  "dek": "Secretarul general PSD, Claudiu Manda, a acuzat pe 4 septembrie 2026 PNL și USR că „inventariază voturile” în timp ce INS arată o scădere a consumului: -5,4% la alimente, -6,4% la nealimentare, -7% la carburanți, față de iulie 2025. Cifrele lui coincid exact cu comunicatul INS. Ce nu e la fel de clar: câte luni consecutive durează declinul — sursele citează 10, 11 sau 12 — și dacă scăderea se explică doar prin „efectul Bolojan”, cum titrează o parte din presă.",
+  "mainVerdict": "Probat, cu context",
+  "probat": [
+    {
+      "text": "INS a comunicat, pe 4 septembrie 2026, că volumul cifrei de afaceri din comerțul cu amănuntul (exclusiv comerțul cu autovehicule și motociclete) a scăzut în iulie 2026 față de iulie 2025 cu 6,2% ca serie brută și 6,1% ca serie ajustată sezonier. Pe categorii, serie brută: alimente, băuturi și tutun -5,4%, produse nealimentare -6,4%, carburanți pentru autovehicule -7,0%. Aceste trei cifre pe categorii sunt exact cele citate de Claudiu Manda.",
+      "sources": [
+        {"name": "Profit.ro — Comerțul cu amănuntul, recul de peste 6% comparativ cu iulie 2025, pe fondul scăderilor la vânzările de carburanți", "url": "https://www.profit.ro/povesti-cu-profit/retail/comertul-cu-amanuntul-recul-de-peste-6-comparativ-cu-iulie-2025-pe-fondul-scaderilor-la-vanzarile-de-carburanti-22694624"},
+        {"name": "Mediafax — Claudiu Manda acuză PNL și USR că „numără voturile”, în timp ce românii cumpără mai puțin", "url": "https://www.mediafax.ro/politic/claudiu-manda-acuza-pnl-si-usr-ca-numara-voturile-in-timp-ce-romanii-cumpara-mai-putin-23801946"}
+      ]
+    },
+    {
+      "text": "Datele Eurostat, publicate în aceeași săptămână, arată că declinul anual al vânzărilor cu amănuntul din România în iulie (-5,7%, în varianta comparabilă Eurostat) a fost cel mai accentuat din Uniunea Europeană, depășind scăderi mult mai mici înregistrate în Germania (-2,5%), Italia (-1%) și Spania (-0,7%).",
+      "sources": [
+        {"name": "Income Magazine — Cel mai puternic declin al vânzărilor cu amănuntul din UE, în luna iulie, a fost înregistrat în România", "url": "https://incomemagazine.ro/cel-mai-puternic-declin-al-vanzarilor-cu-amanuntul-din-ue-in-luna-iulie-a-fost-inregistrat-in-romania/"}
+      ]
+    },
+    {
+      "text": "Pe primele șapte luni din 2026, comparativ cu aceeași perioadă din 2025, comerțul cu amănuntul este în scădere cu 5,7% (serie brută), respectiv 5,8% (serie ajustată) — deci nu e un declin dintr-o singură lună, ci un trend care ține de la începutul anului.",
+      "sources": [
+        {"name": "Gandul — Efectul Bolojan: Comerțul cu amănuntul, în scădere continuă", "url": "https://www.gandul.ro/economie/scadere-comert-amanuntul-consum-romani-ins-2026-20998716"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Numărul exact de „luni consecutive” de scădere variază de la o sursă la alta: Manda a vorbit despre „a 12-a lună consecutivă”, un titlu Gandul din aceeași săptămână menționează „a 11-a lună”, iar alte relatări citează cifre diferite. Nicio sursă verificată nu explică public metodologia exactă a numărătorii (de la ce lună pornește, dacă se ia seria brută sau ajustată, dacă se calculează pe total sau doar pe unele categorii) — cifrele oficiale INS confirmă direcția (scădere continuă, documentată lună de lună în 2026), dar nu un număr unic, necontestat, de luni.",
+      "sources": [
+        {"name": "Gandul — Efectul Bolojan: Comerțul cu amănuntul, în scădere continuă", "url": "https://www.gandul.ro/economie/scadere-comert-amanuntul-consum-romani-ins-2026-20998716"},
+        {"name": "Mediafax — Claudiu Manda acuză PNL și USR că „numără voturile”, în timp ce românii cumpără mai puțin", "url": "https://www.mediafax.ro/politic/claudiu-manda-acuza-pnl-si-usr-ca-numara-voturile-in-timp-ce-romanii-cumpara-mai-putin-23801946"}
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Formularea lui Manda — că PNL și USR „inventariază voturile” în timp ce economia suferă — este o caracterizare politică a adversarilor, nu o afirmație verificabilă. La fel, titlul „Efectul Bolojan”, folosit de o parte din presă pentru scăderea consumului, atribuie declinul unei singure cauze (politicile de austeritate ale guvernului), deși datele statistice arată doar corelație în timp, nu demonstrează cauzalitate exclusivă — inflația, nivelul dobânzilor și încrederea consumatorilor sunt și ele factori posibili, neexcluși de nicio sursă citată.",
+      "sources": [
+        {"name": "Mediafax — Claudiu Manda acuză PNL și USR că „numără voturile”, în timp ce românii cumpără mai puțin", "url": "https://www.mediafax.ro/politic/claudiu-manda-acuza-pnl-si-usr-ca-numara-voturile-in-timp-ce-romanii-cumpara-mai-putin-23801946"},
+        {"name": "Gandul — Efectul Bolojan: Comerțul cu amănuntul, în scădere continuă", "url": "https://www.gandul.ro/economie/scadere-comert-amanuntul-consum-romani-ins-2026-20998716"}
+      ]
+    }
+  ],
+  "math": {
+    "title": "-6,2% față de -5,7% media UE relevantă — cum arată scăderea pe categorii",
+    "explanation": "În iulie 2026 față de iulie 2025, comerțul cu amănuntul din România a scăzut 6,2% (serie brută): -5,4% la alimente/băuturi/tutun, -6,4% la produse nealimentare, -7,0% la carburanți — exact cifrele citate de Manda. Comparativ, Eurostat arată o scădere de -5,7% pentru România în varianta sa de calcul, cea mai mare din UE, față de -2,5% în Germania, -1% în Italia și -0,7% în Spania. Pe primele 7 luni din 2026, media e -5,7%/-5,8%, deci nu e un declin al unei singure luni, ci un trend de mai multe luni — fără ca sursele să cadă de acord pe numărul exact de luni consecutive."
+  },
+  "aiNote": "Ce s-a verificat: declarația lui Claudiu Manda din 4 septembrie 2026 (Mediafax) și cifrele pe care le-a citat despre comerțul cu amănuntul, comparate direct cu comunicatul INS reprodus de Profit.ro, cu datele Eurostat reproduse de Income Magazine și cu contextul din Gandul.\n\nUnde se despart sursele: pe cifrele brute nu există dispută — cele trei procente citate de Manda (-5,4% alimente, -6,4% nealimentare, -7% carburanți) coincid exact cu comunicatul INS pentru iulie 2026 față de iulie 2025. Diferența apare la interpretare: (1) numărul de „luni consecutive” de scădere variază între surse (10, 11, 12), fără ca vreuna să explice metodologia numărătorii; (2) o parte din presă titrează „Efectul Bolojan”, atribuind scăderea exclusiv politicilor de austeritate ale guvernului, deși datele statistice arată doar coincidență temporală, nu o cauzalitate demonstrată — inflația și dobânzile mai mari nu sunt excluse ca factori.\n\nCe lipsește: o explicație oficială, din partea INS sau a unui institut independent, despre ce parte din declinul consumului se explică prin scăderea veniturilor reale, cât prin creșterea economisirii sau a dobânzilor, și cât prin politicile fiscale ale guvernului Bolojan. Fără o descompunere de acest fel, atribuirea cauzală rămâne o interpretare politică, nu un fapt stabilit.\n\nCe ar schimba concluzia: un studiu sau o analiză a INS/BNR care separă efectul politicilor fiscale de alți factori macroeconomici, sau o numărătoare oficială, cu metodologie explicită, a lunilor consecutive de declin.",
+  "persoane": [
+    "Claudiu Manda"
+  ]
+}
