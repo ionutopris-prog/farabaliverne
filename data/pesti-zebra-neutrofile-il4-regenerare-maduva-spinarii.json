@@ -1,0 +1,59 @@
+{
+  "slug": "pesti-zebra-neutrofile-il4-regenerare-maduva-spinarii",
+  "title": "Studiu pe pești zebră: un semnal imunitar descoperit acum arată de ce li se regenerează măduva spinării — la oameni, nu se știe încă",
+  "category": "Știință",
+  "date": "2026-09-07",
+  "source": "Journal of Neuroinflammation / TU Dresden (CRTD) / Universitatea Edinburgh",
+  "url": "https://www.sciencedaily.com/releases/2026/09/260906170136.htm",
+  "dek": "Cercetători de la Centrul pentru Terapii Regenerative din Dresda (CRTD) și Universitatea Edinburgh au identificat mecanismul prin care o parte din celulele imunitare numite neutrofile ajută, în loc să încurce, refacerea măduvei spinării la peștii zebră — specie care, spre deosebire de oameni, își regenerează natural țesutul nervos lezat. Descoperirea explică parțial de ce zebra-fish reușește ceva ce mamiferele nu pot, dar autorii spun clar că nu se știe încă dacă mecanismul funcționează și la oameni.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Echipa, condusă de Xiaobo Tian și Alberto Docampo-Seara, a secționat complet măduva spinării la larve de pește zebră (3 zile de la fertilizare) și a eliminat experimental circa 90% din neutrofilele care migrează la locul leziunii, folosind un sistem genetic (nitroreductază + metronidazol), validat separat printr-un inhibitor chimic (DPI) care a redus infiltrarea neutrofilelor cu 37,9%. Rezultatul: la 24 de ore după leziune, grosimea „podului” de axoni regenerați a scăzut cu 35,2%, proliferarea neuronilor motori a scăzut, iar distanța de înot a scăzut cu 40,8% — dar toți indicatorii au revenit la normal până la 48 de ore, semn că neutrofilele grăbesc regenerarea, nu că sunt indispensabile pentru ea.",
+      "sources": [
+        {
+          "name": "bioRxiv — A reparative neutrophil subpopulation promotes spinal cord regeneration in zebrafish (text integral)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707887v1.full"
+        },
+        {
+          "name": "ScienceDaily — Scientists discover a hidden immune signal that helps spinal cords regrow",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260906170136.htm"
+        }
+      ]
+    },
+    {
+      "text": "Secvențierea ARN la nivel de celulă unică a arătat că gena il4 e printre cele mai active 20 de gene într-o subpopulație de neutrofile, cu 38,4% dintre neutrofile exprimând-o la 4 ore după leziune. Mecanismul identificat: proteina Il-4 eliberată de aceste neutrofile suprimă producția de Il-1β (o moleculă inflamatorie) în macrofage; eliminarea genei il4 a dublat nivelul de Il-1β, iar supraexprimarea artificială a Il-4 a compensat complet efectele eliminării neutrofilelor. Blocarea directă a Il-1β cu o substanță numită YVAD a anulat, la rândul ei, toate deficitele de regenerare cauzate de lipsa neutrofilelor — confirmând lanțul cauzal Il-4 → mai puțin Il-1β în macrofage → axoni refăcuți mai repede. Studiul a fost publicat în Journal of Neuroinflammation (DOI 10.1186/s12974-026-03878-0).",
+      "sources": [
+        {
+          "name": "bioRxiv — A reparative neutrophil subpopulation promotes spinal cord regeneration in zebrafish (text integral)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707887v1.full"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Aplicabilitatea la oameni rămâne deschisă, iar autorii o spun explicit, nu presa: neutrofilele care produc Il-4 sunt „rare în răspunsul imun inițial la mamifere, spre deosebire de peștii zebră”. Cercetătorul Xiaobo Tian a declarat că „întrebarea e în ce măsură rezultatele noastre se aplică oamenilor... rămâne de văzut dacă Il-4 joacă un rol similar”. Studiul a fost făcut pe larve, nu pe pești adulți, iar peștii zebră au, oricum, o capacitate naturală de regenerare a măduvei spinării pe care mamiferele nu o au — deci mecanismul descoperit poate explica DE CE zebra-fish se regenerează, fără să garanteze că activarea aceluiași semnal ar face același lucru la un om cu leziune de măduvă.",
+      "sources": [
+        {
+          "name": "ScienceDaily — Scientists discover a hidden immune signal that helps spinal cords regrow",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260906170136.htm"
+        }
+      ]
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Journal of Neuroinflammation, cu textul integral (preprint bioRxiv, identic ca date experimentale) verificat direct, și confirmat de comunicatul TU Dresden preluat de ScienceDaily. Categoria „Probat” se referă strict la ce s-a demonstrat experimental la peștii zebră — lanțul cauzal neutrofile→Il-4→mai puțin Il-1β→regenerare mai rapidă e susținut de mai multe metode independente în același studiu (ablație genetică, inhibiție chimică, knockout, supraexprimare, blocare farmacologică — toate converg spre aceeași concluzie). Ce NU e probat, și autorii sunt expliciți în privința asta, e transferul la oameni: neutrofilele producătoare de Il-4 sunt rare la mamifere în faza inițială a răspunsului imun, ceea ce înseamnă că mecanismul cheie din studiu ar putea pur și simplu să nu existe, sau să existe mult mai slab, la om. Ce ar lămuri lucrurile: experimente similare pe modele mamifere (șoarece, apoi eventual primate), pentru a vedea dacă inducerea artificială a unor neutrofile producătoare de Il-4 grăbește și la mamifere refacerea axonală — cercetare pe care autorii o propun ca pas următor, nu ca fapt împlinit.",
+  "math": {
+    "title": "De ce contează că peștii zebră se regenerează și oamenii nu",
+    "explanation": "La majoritatea mamiferelor, inclusiv la oameni, o leziune a măduvei spinării declanșează o inflamație care, pe termen scurt, ajută la curățarea țesutului mort, dar pe termen lung formează o cicatrice care blochează refacerea axonilor — de-aia leziunile de măduvă rămân, în mare parte, ireversibile. Peștii zebră trec prin aceeași fază inflamatorie inițială, dar reușesc să o „oprească la timp” și să treacă spre regenerare. Găsirea unui semnal molecular precis (Il-4, eliberat de un subtip specific de neutrofile) care face diferența arată, cel puțin la pește, UNDE anume se ia decizia „cicatrice sau regenerare”. Dacă un semnal echivalent ar putea fi indus artificial la mamifere, ar fi un candidat pentru terapie — dar asta e o ipoteză de cercetare viitoare, nu o concluzie a acestui studiu."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/pesti-zebra-neutrofile-il4-regenerare-maduva-spinarii.jpg\" alt=\"zebrafish Danio rerio\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — zebrafish Danio rerio. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Danio_rerio_Aletas.png\" rel=\"nofollow noopener\" target=\"_blank\">Danio rerio Aletas</a>\" de Shinichi Meguro, Takahiro Hasumura, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/pesti-zebra-neutrofile-il4-regenerare-maduva-spinarii.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Shinichi Meguro, Takahiro Hasumura"
+  }
+}
