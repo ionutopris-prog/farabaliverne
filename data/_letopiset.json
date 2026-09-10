@@ -435,5 +435,112 @@
       "text": "Căldură ieșită din comun la Varșovia: maximă de 29 °C — cu 9 °C peste media zilei (1991–2020: 20 °C) și peste orice maximă din ultimii 10 ani în perioada asta (29 °C).",
       "tip": "Temperaturi extreme"
     }
+  ],
+  "2026-09-10": [
+    {
+      "cheie": "us7000tgey",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgey",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,4, în southern East Pacific Rise.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tg8v",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg8v",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, la 126 km vest-sud-vest de Alianza Cristiana, Peru.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tgf2",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgf2",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, la 83 km est de Lospalos, Timor Leste.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tgb6",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb6",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, la 162 km sud-sud-vest de Merizo Village, Guam.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tg98",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg98",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, la 45 km sud-sud-est de Quepos, Costa Rica.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "1027449",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027449",
+      "sursa": "GDACS",
+      "text": "Secetă în Bahamas, Belize, Cuba și încă 5 țări.",
+      "tip": "Secetă"
+    },
+    {
+      "cheie": "1018431",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018431",
+      "sursa": "GDACS",
+      "text": "Secetă în Madagascar.",
+      "tip": "Secetă"
+    },
+    {
+      "cheie": "1018332",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018332",
+      "sursa": "GDACS",
+      "text": "Secetă în Austria, Bosnia și Herțegovina, Belgia și încă 22 țări.",
+      "tip": "Secetă"
+    },
+    {
+      "cheie": "1001320-cat1",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001320",
+      "sursa": "GDACS",
+      "text": "Uraganul Norbert a atins categoria 1 — vânt de 120 km/h.",
+      "tip": "Ciclon tropical"
+    },
+    {
+      "cheie": "temp:2026-09-10:Novosibirsk",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Novosibirsk: maximă de 29 °C — cu 13 °C peste media zilei (1991–2020: 16 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-10:Astana",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Astana: maximă de 29 °C — cu 10 °C peste media zilei (1991–2020: 20 °C) și peste orice maximă din ultimii 10 ani în perioada asta (27 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-10:Kiev",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Kiev: maximă de 29 °C — cu 10 °C peste media zilei (1991–2020: 20 °C) și peste orice maximă din ultimii 10 ani în perioada asta (28 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-10:Iași",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Iași: maximă de 31 °C — cu 8 °C peste media zilei (1991–2020: 22 °C) și peste orice maximă din ultimii 10 ani în perioada asta (30 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-10:Cluj-Napoca",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Cluj-Napoca: maximă de 29 °C — cu 8 °C peste media zilei (1991–2020: 21 °C) și peste orice maximă din ultimii 10 ani în perioada asta (28 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "oms:0381aabe-6109-425c-a3f9-2b33cb482486",
+      "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617",
+      "sursa": "OMS",
+      "text": "Focar de Ebola, Democratic Republic of the Congo — comunicat OMS: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo.",
+      "tip": "Epidemie"
+    }
   ]
 }
