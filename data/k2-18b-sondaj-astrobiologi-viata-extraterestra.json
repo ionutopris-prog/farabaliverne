@@ -1,0 +1,77 @@
+{
+  "slug": "k2-18b-sondaj-astrobiologi-viata-extraterestra",
+  "title": "Sondaj printre sute de astrobiologi: doar 6,6% cred că s-a găsit viață extraterestră pe K2-18b",
+  "category": "Știință",
+  "date": "2026-09-09",
+  "source": "Nature / Durham University (C-SCOPE) / ScienceDaily / Science / Scientific American",
+  "url": "https://www.sciencedaily.com/releases/2026/09/260909005212.htm",
+  "dek": "La mai bine de un an de la două anunțuri care au făcut înconjurul lumii — un posibil semnal chimic de viață în atmosfera exoplanetei K2-18b și un „posibil biosemnal” într-o rocă de pe Marte —, un sondaj făcut de cercetători de la Universitatea Durham printre sute de astrobiologi arată că marea majoritate a comunității științifice rămâne sceptică. Niciuna dintre descoperiri nu a fost infirmată; dar nici confirmată ca dovadă de viață.",
+  "mainVerdict": "Contestat",
+  "probat": [
+    {
+      "text": "Cele două anunțuri care au stârnit sondajul chiar au avut loc. Pe 17 aprilie 2025, o echipă de la Universitatea Cambridge, condusă de Nikku Madhusudhan, a raportat că telescopul spațial James Webb a detectat un semnal mai puternic de dimetil-sulfură (DMS) — un gaz produs pe Pământ aproape exclusiv de organisme vii — în atmosfera exoplanetei K2-18b, aflată la 124 de ani-lumină. Pe 10 septembrie 2025, NASA a anunțat separat că roverul Perseverance a găsit într-o rocă marțiană numită „Cheyava Falls”, în craterul Jezero, un „posibil biosemnal”: pete minerale („pete de leopard”) asociate pe Pământ cu reacții chimice care pot susține viața microbiană.",
+      "sources": [
+        {
+          "name": "Scientific American — Why astronomers doubt claims that K2-18b finding means alien life",
+          "url": "https://www.scientificamerican.com/article/why-astronomers-doubt-claims-that-planet-k2-18-b-finding-means-alien-life/"
+        },
+        {
+          "name": "EarthSky — Life on K2-18b? Exciting new results met with skepticism",
+          "url": "https://earthsky.org/space/life-on-k2-18b-exoplanets-dimethyl-sulfide-webb-astrobiology/"
+        }
+      ]
+    },
+    {
+      "text": "Cercetătorii de la centrul C-SCOPE al Universității Durham, conduși de Peter Vickers, au chestionat „sute de astrobiologi din comunitatea de cercetare globală”, la câteva zile după fiecare dintre cele două anunțuri, cu o singură întrebare: cred că s-a găsit probabil viață extraterestră? Rezultatele, publicate pe 9 septembrie 2026 în revista Nature, arată scepticism larg: pentru K2-18b, doar 6,6% au fost de acord că s-a găsit probabil viață, 63,4% au fost în dezacord, iar 28,0% au rămas neutri. Pentru roca marțiană, 15,1% au fost de acord, 44,6% în dezacord și 40,3% neutri.",
+      "sources": [
+        {
+          "name": "ScienceDaily — Have we found alien life? Hundreds of scientists weigh in",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005212.htm"
+        },
+        {
+          "name": "Nature — studiul C-SCOPE (s41550-026-02876-9)",
+          "url": "https://www.nature.com/articles/s41550-026-02876-9"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Afirmația vehiculată în presă în 2025 — că s-a găsit „cea mai puternică dovadă de viață” dincolo de Pământ — nu se susține ca fapt stabilit. Pentru K2-18b, cercetători precum Stephen Schmidt (Johns Hopkins) au spus direct „nu e o dovadă puternică”, iar Joshua Krissansen-Totton (Universitatea Washington) a numit scenariul unei planete fără viață „explicația cea mai parcimonioasă”. Motivul tehnic: semnalul de DMS era „la limita a ceea ce poate face JWST” (Laura Kreidberg, Institutul Max Planck), iar dimetil-sulfura poate apărea și prin procese chimice fără legătură cu viața — a fost detectată chiar și pe o cometă lipsită de viață. Pentru roca marțiană, NASA însăși a subliniat că un „posibil biosemnal” nu e o dovadă de viață, ci o structură care ar putea avea origine biologică, dar care are nevoie de analiză suplimentară — inclusiv de eșantioane aduse pe Pământ — pentru a separa explicația biologică de una pur chimică.",
+      "sources": [
+        {
+          "name": "Scientific American — Why astronomers doubt claims that K2-18b finding means alien life",
+          "url": "https://www.scientificamerican.com/article/why-astronomers-doubt-claims-that-planet-k2-18-b-finding-means-alien-life/"
+        },
+        {
+          "name": "Planetary Society — A biosignature on Mars? Unpacking Perseverance's Cheyava Falls find",
+          "url": "https://www.planetary.org/articles/a-biosignature-on-mars-unpacking-perseverances-cheyava-falls-find"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Autorii sondajului avertizează chiar ei că a reduce opinia unei comunități științifice la „de acord / dezacord” riscă să simplifice poziții nuanțate — între 28% și 40% dintre respondenți s-au declarat neutri, ceea ce arată mai degrabă incertitudine calibrată decât resemnare la o concluzie. Nu e un verdict științific final, ci o fotografie a modului în care experții percepeau dovezile la câteva zile după fiecare anunț.",
+      "sources": [
+        {
+          "name": "ScienceDaily — Have we found alien life? Hundreds of scientists weigh in",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005212.htm"
+        }
+      ]
+    }
+  ],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Nature pe 9 septembrie 2026, confirmat independent de acoperirea Scientific American, EarthSky și Planetary Society despre cele două anunțuri din 2025 care au generat sondajul. Nota merită dezvoltată fiindcă miza e chiar mecanismul verificării științifice: nu spunem că cele două descoperiri sunt false — nimeni nu le-a infirmat —, ci că pragul pentru „dovadă de viață” e mult mai înalt decât pragul pentru „semnal interesant”, iar comunitatea de astrobiologi, întrebată direct, a răspuns că pragul acela n-a fost atins. Diferența dintre presa care a titrat „cea mai puternică dovadă de viață găsită vreodată” și sondajul Durham stă în chiar acest mecanism: un semnal statistic slab (DMS „la limita” capacității JWST) sau o structură chimică ambiguă (petele din Cheyava Falls) pot fi reale fără să fie dovezi de viață, pentru că aceleași tipare pot apărea și prin chimie fără organisme. Ce lipsește pentru a tranșa disputa: observații JWST suplimentare, independente, pentru K2-18b, și analiza pe Pământ a eșantioanelor aduse de o viitoare misiune de întoarcere de pe Marte, pentru Cheyava Falls — niciuna nu există încă.",
+  "math": {
+    "title": "De ce „semnal detectat” nu înseamnă „dovadă de viață”",
+    "explanation": "Un instrument ca James Webb nu „vede” molecule direct — le deduce din cât de mult din anumite lungimi de undă de lumină sunt absorbite de atmosfera unei planete aflate la sute de trilioane de kilometri distanță. Când semnalul e slab, la limita a ce poate distinge instrumentul de zgomotul de fond, o citire poate arăta ca „mai mult DMS” fără ca asta să fie sigur. Iar chiar dacă molecula e acolo cu adevărat, dimetil-sulfura se formează și prin reacții fotochimice fără viață — a fost găsită pe o cometă. La fel, pe Marte, „pete de leopard” într-o rocă pot fi semnul unei foste vieți microbiene SAU rezultatul unor reacții pur minerale între fier, fosfor și materie organică non-biologică; deosebirea cere analize pe care roverul, de la distanță, nu le poate face. De-aia „posibil biosemnal” și „semnal detectat” rămân, în vocabularul oamenilor de știință, mult sub „dovadă de viață”."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/k2-18b-sondaj-astrobiologi-viata-extraterestra.jpg\" alt=\"James Webb Space Telescope\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — James Webb Space Telescope. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:James-Webb-Space-Telescope-Deployment-Sequence-_Nominal.webm\" rel=\"nofollow noopener\" target=\"_blank\">James-Webb-Space-Telescope-Deployment-Sequence- Nominal</a>\" de NASA; Adriana Manrique Gutierrez (Visualizations), Michael McClare (Production), via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/k2-18b-sondaj-astrobiologi-viata-extraterestra.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA; Adriana Manrique Gutierrez (Visualizations), Michael McClare (Production)"
+  }
+}
