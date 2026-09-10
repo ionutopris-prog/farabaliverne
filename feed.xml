@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 10 Sep 2026 15:24:40 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 15:28:20 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Avionul lui Zelenski „aproape lovit” de o dronă la Chișinău? O zi mai târziu, Oslo și Chișinăul nuanțează: „nu se știe cât de aproape”</title>
+      <link>https://farabaliverne.ro/a/zelenski-drona-oslo-chisinau-nuanteaza-declaratia.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/zelenski-drona-oslo-chisinau-nuanteaza-declaratia.html</guid>
+      <pubDate>Thu, 10 Sep 2026 12:25:45 +0000</pubDate>
+      <category>Extern</category>
+      <description>Pe 9 septembrie, premierul Norvegiei spunea că avionul lui Volodimir Zelenski „a fost aproape lovit” de o dronă la decolarea din Chișinău. O zi mai târziu, chiar cancelaria premierului norvegian a nuanțat afirmația — „nu se știe cât de aproape” a fost drona de aeronavă — iar biroul lui Zelenski a numit-o „o exagerare”. Guvernul de la Chișinău confirmă doar întârzierea zborului și explozia dronei la sol, la 160 km de aeroport.
+
+Unde bat probele: Contestat. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>România, cea mai mare inflație din regiune și cele mai scumpe obligațiuni — dar „singura economie în recesiune” nu e o concluzie unanimă a institutelor</title>
       <link>https://farabaliverne.ro/a/romania-recesiune-2026-institute-prognoze-divergente.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 3 contestate.</description>
       <description>Președintele Nicușor Dan i-ar fi informat pe liderii fostei coaliții că îl are în vedere pe diplomatul Luca Niculescu, fost ambasador la Paris, pentru funcția de premier, potrivit unor surse politice citate de Adevărul și Capital.ro pe 7 septembrie 2026. PSD spune că rămâne deschis unei variante independente, dar continuă oficial să-l susțină pe Sorin Grindeanu. Informația vine doar din surse anonime — nicio declarație oficială nu confirmă alegerea lui Niculescu.
 
 Unde bat probele: Neconfirmat. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Alexandr Stoianoglo anunță a treia candidatură la bașcan al Găgăuziei — de două ori până acum n-a trecut de primul tur</title>
-      <link>https://farabaliverne.ro/a/moldova-stoianoglo-candidatura-bascan-gagauzia-a-treia-oara.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-stoianoglo-candidatura-bascan-gagauzia-a-treia-oara.html</guid>
-      <pubDate>Mon, 07 Sep 2026 13:47:11 +0000</pubDate>
-      <category>Politică</category>
-      <description>Deputatul Alexandr Stoianoglo, fost procuror general al Republicii Moldova, a anunțat pe 7 septembrie 2026 că va candida independent la funcția de bașcan al Găgăuziei, la scrutinul din 15 noiembrie. E a treia sa candidatură la această funcție, după eșecurile din 2006 (10,58% din voturi) și 2015 (4,98%) — de fiecare dată fără să treacă de primul tur. Titluri din presă au anunțat că „renunță la Parlament”, dar declarația sa și relatările altor publicații arată că își păstrează mandatul de deputat, suspendând doar activitatea parlamentară pe durata campaniei.
-
-Unde bat probele: Probat parțial: candidatura și istoricul electoral sunt confirmate; afirmația că „renunță la Parlament” nu se susține — el își păstrează mandatul. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
