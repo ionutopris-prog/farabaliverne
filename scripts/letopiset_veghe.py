@@ -73,7 +73,7 @@ STOP = {"AP", "News", "BBC", "CNN", "Reuters", "AFP", "Al", "Jazeera", "The", "G
         "Across", "Around", "Through", "Under", "Against", "Between", "Without", "Within", "Unusual", "Extreme",
         "Threat", "Threatens", "Impact", "Impacts", "Damage", "Disaster", "Disasters", "Crisis", "Response", "Relief",
         "Government", "President", "Minister", "Ministry", "Agency", "Department", "Prevention", "Control", "Health",
-        "Disease", "Cases", "Deaths", "Spread", "Spreads", "Rises", "Climbs", "Reaches", "Tops", "Passes", "Surges", "Moderate", "Labor", "Shallow", "Light", "Minor", "Small", "Large", "Huge", "Fresh", "Another", "Latest"}
+        "Disease", "Cases", "Deaths", "Spread", "Spreads", "Rises", "Climbs", "Reaches", "Tops", "Passes", "Surges", "Moderate", "Labor", "Shallow", "Mudslide", "Mudslides", "Water", "Costa", "Rica", "Sierra", "Santa", "Puerto", "Saint", "Cape", "Fire", "Fires", "Smoke", "Rain", "Rains", "Snow", "Wind", "Winds", "Light", "Minor", "Small", "Large", "Huge", "Fresh", "Another", "Latest"}
 
 
 def titluri(q):
@@ -101,6 +101,9 @@ def nume_proprii(titlu):
         c = re.sub(r"['’]s$", "", c)
         if c in STOP or c.upper() == c:
             continue
+        # bolile: jurnalul e în română („rujeolă”), presa în engleză („measles”)
+        if c.lower() in L.BOLI:
+            ies.add(L.BOLI[c.lower()]); continue
         ies.add(L.TARI.get(c, c))
     return ies
 
