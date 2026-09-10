@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 10 Sep 2026 09:50:11 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 09:52:31 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Studiu pe pești zebră: un semnal imunitar descoperit acum arată de ce li se regenerează măduva spinării — la oameni, nu se știe încă</title>
+      <link>https://farabaliverne.ro/a/pesti-zebra-neutrofile-il4-regenerare-maduva-spinarii.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/pesti-zebra-neutrofile-il4-regenerare-maduva-spinarii.html</guid>
+      <pubDate>Thu, 10 Sep 2026 06:51:07 +0000</pubDate>
+      <category>Știință</category>
+      <description>Cercetători de la Centrul pentru Terapii Regenerative din Dresda (CRTD) și Universitatea Edinburgh au identificat mecanismul prin care o parte din celulele imunitare numite neutrofile ajută, în loc să încurce, refacerea măduvei spinării la peștii zebră — specie care, spre deosebire de oameni, își regenerează natural țesutul nervos lezat. Descoperirea explică parțial de ce zebra-fish reușește ceva ce mamiferele nu pot, dar autorii spun clar că nu se știe încă dacă mecanismul funcționează și la oameni.
+
+Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Vaccin experimental combinat rabie-Lassa, sigur și cu anticorpi la 100% dintre voluntari — dar doar în primul test pe oameni</title>
       <link>https://farabaliverne.ro/a/vaccin-lassa-rabie-lassarab-faza1-siguranta.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat parțial: creșterea garantată e 11-14%, nu 26%; proce
       <description>Pe 5 septembrie 2026, ministrul Educației și Cercetării, Dan Perciun, a publicat pe Facebook și într-un interviu pentru Diez actele sale de studii — de la liceul britanic Tonbridge School, până la Universitatea Cambridge și Universitatea Babeș-Bolyai — ca răspuns la afirmații apărute pe conturi de Facebook și Telegram, potrivit cărora nu ar avea „diplomă de BAC” și n-ar fi calificat pentru funcție. Niciuna dintre sursele consultate nu identifică cine a lansat afirmațiile sau o publicație care le-ar fi preluat ca fapt verificat.
 
 Unde bat probele: Contrazis de documentele publicate de minister — afirmația că „nu are studiile necesare” nu are, până acum, nicio sursă verificabilă. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>O judecătoare federală blochează, pentru a doua oară, noul ordin al lui Trump privind cetățenia prin naștere</title>
-      <link>https://farabaliverne.ro/a/trump-cetatenie-nastere-boardman-blocare-clasa.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/trump-cetatenie-nastere-boardman-blocare-clasa.html</guid>
-      <pubDate>Mon, 07 Sep 2026 11:37:23 +0000</pubDate>
-      <category>Extern</category>
-      <description>Judecătoarea federală Deborah Boardman (Districtul Maryland) a emis, pe 2 septembrie 2026, o măsură preliminară care blochează aplicarea ordinului executiv semnat de Trump pe 6 august — a doua sa încercare de a restrânge cetățenia prin naștere, după ce Curtea Supremă i-a respins prima variantă în iunie. Blocarea protejează o clasă certificată de copii vizați de proces, nu ordinul în întregime la nivel național.
-
-Unde bat probele: Probat. Verificate: 5 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
