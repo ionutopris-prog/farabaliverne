@@ -11,20 +11,32 @@
     {
       "text": "Ben Shelton (SUA) l-a învins pe Carlos Alcaraz (Spania, campion en-titre) cu scorul 6-7(5), 6-1, 6-3, 1-6, 7-6(7), în sferturile de finală ale US Open 2026. Meciul, cu o durată de 4 ore și 28 de minute, s-a încheiat la 3:33 dimineața, ora New York-ului, pe 9 septembrie — cel mai târziu final al unui meci din istoria turneului.",
       "sources": [
-        {"name": "CBS Sports — 2026 US Open: Ben Shelton stuns Carlos Alcaraz in five-set thriller to advance to an all-American semifinal", "url": "https://www.cbssports.com/tennis/news/2026-us-open-results-ben-shelton-carlos-alcaraz-upset-bracket/"},
-        {"name": "Sky Sports — US Open: Ben Shelton beats Carlos Alcaraz in five-set thriller in latest-ever finish to US Open match at 3.33am", "url": "https://www.skysports.com/tennis/news/12110/13583380/us-open-ben-shelton-beats-carlos-alcaraz-in-five-set-thriller-in-latest-ever-finish-to-us-open-match-at-3-33am"}
+        {
+          "name": "CBS Sports — 2026 US Open: Ben Shelton stuns Carlos Alcaraz in five-set thriller to advance to an all-American semifinal",
+          "url": "https://www.cbssports.com/tennis/news/2026-us-open-results-ben-shelton-carlos-alcaraz-upset-bracket/"
+        },
+        {
+          "name": "Sky Sports — US Open: Ben Shelton beats Carlos Alcaraz in five-set thriller in latest-ever finish to US Open match at 3.33am",
+          "url": "https://www.skysports.com/tennis/news/12110/13583380/us-open-ben-shelton-beats-carlos-alcaraz-in-five-set-thriller-in-latest-ever-finish-to-us-open-match-at-3-33am"
+        }
       ]
     },
     {
       "text": "A fost prima victorie din cariera lui Shelton în fața unui jucător din top 3 mondial — venea cu un bilanț de 0-17 în astfel de meciuri. Victoria a pus capăt și unei serii de 13 succese consecutive ale lui Alcaraz împotriva jucătorilor americani și de 14 la rând împotriva jucătorilor stângaci.",
       "sources": [
-        {"name": "NBC News — American Ben Shelton outduels defending champ Alcaraz in latest-ever U.S. Open finish", "url": "https://www.nbcnews.com/sports/tennis/ben-shelton-carlos-alcaraz-latest-ever-us-open-quarter-final-rcna596746"}
+        {
+          "name": "NBC News — American Ben Shelton outduels defending champ Alcaraz in latest-ever U.S. Open finish",
+          "url": "https://www.nbcnews.com/sports/tennis/ben-shelton-carlos-alcaraz-latest-ever-us-open-quarter-final-rcna596746"
+        }
       ]
     },
     {
       "text": "Shelton îl întâlnește în semifinală pe compatriotul Frances Tiafoe (cap de serie 11), care l-a eliminat pe Michelsen — rezultat care garantează prezența unui jucător american în finala masculină de simplu a US Open pentru prima dată din 2003, când Andy Roddick a câștigat titlul.",
       "sources": [
-        {"name": "CBS Sports — 2026 US Open: Ben Shelton stuns Carlos Alcaraz in five-set thriller to advance to an all-American semifinal", "url": "https://www.cbssports.com/tennis/news/2026-us-open-results-ben-shelton-carlos-alcaraz-upset-bracket/"}
+        {
+          "name": "CBS Sports — 2026 US Open: Ben Shelton stuns Carlos Alcaraz in five-set thriller to advance to an all-American semifinal",
+          "url": "https://www.cbssports.com/tennis/news/2026-us-open-results-ben-shelton-carlos-alcaraz-upset-bracket/"
+        }
       ]
     }
   ],
@@ -39,5 +51,12 @@
     "Ben Shelton",
     "Carlos Alcaraz",
     "Frances Tiafoe"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/shelton-alcaraz-us-open-2026-cel-mai-tarziu-meci.jpg\" alt=\"Ben Shelton\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ben Shelton. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ben_Shelton,_ATP_500_Basel_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ben Shelton, ATP 500 Basel 2025</a>\" de Skyscraper2010, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/shelton-alcaraz-us-open-2026-cel-mai-tarziu-meci.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Skyscraper2010"
+  }
 }

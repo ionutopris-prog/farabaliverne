@@ -11,20 +11,32 @@
     {
       "text": "BCE a anunțat pe 10 septembrie 2026 majorarea cu 0,25 puncte procentuale a celor trei rate de referință: dobânda de depozit la 2,50%, dobânda de refinanțare (principală) la 2,65%, dobânda de creditare marginală la 2,90%. Noile niveluri devin efective din 16 septembrie 2026.",
       "sources": [
-        {"name": "BCE — Comunicat oficial de politică monetară, 10 septembrie 2026", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"},
-        {"name": "Newsweek România — BCE își crește dobânzile la 2,50%: decizie majoră, din cauza inflației din Orientul Mijlociu", "url": "https://newsweek.ro/economie/bce-creste-dobanzile-250-decizie-majora-cauza-inflatiei-orientul-mijlociu"}
+        {
+          "name": "BCE — Comunicat oficial de politică monetară, 10 septembrie 2026",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+        },
+        {
+          "name": "Newsweek România — BCE își crește dobânzile la 2,50%: decizie majoră, din cauza inflației din Orientul Mijlociu",
+          "url": "https://newsweek.ro/economie/bce-creste-dobanzile-250-decizie-majora-cauza-inflatiei-orientul-mijlociu"
+        }
       ]
     },
     {
       "text": "BCE a motivat decizia prin presiunile inflaționiste persistente legate de conflictul din Orientul Mijlociu, care mențin inflația „mult peste țintă pentru o perioadă extinsă”. Noile proiecții BCE arată o inflație medie de 3,0% în 2026, 2,5% în 2027 și 2,1% în 2028 — peste ținta de 2% pe termen mediu.",
       "sources": [
-        {"name": "BCE — Comunicat oficial de politică monetară, 10 septembrie 2026", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"}
+        {
+          "name": "BCE — Comunicat oficial de politică monetară, 10 septembrie 2026",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+        }
       ]
     },
     {
       "text": "Este a doua majorare de dobândă a BCE din 2026, iar reuniunea Consiliului guvernatorilor a avut loc la Berlin, la sediul Bundesbank — o practică pe care BCE o urmează anual, ținând o ședință de politică monetară în afara Frankfurtului, într-un alt stat membru.",
       "sources": [
-        {"name": "Gandul — BCE majorează dobânda de politică monetară. Ce se întâmplă cu ratele românilor care au credite în euro", "url": "https://www.gandul.ro/financiar/bce-majoreaza-dobanda-de-politica-monetara-ce-se-intampla-cu-ratele-romanilor-care-au-credite-in-euro-21004295"}
+        {
+          "name": "Gandul — BCE majorează dobânda de politică monetară. Ce se întâmplă cu ratele românilor care au credite în euro",
+          "url": "https://www.gandul.ro/financiar/bce-majoreaza-dobanda-de-politica-monetara-ce-se-intampla-cu-ratele-romanilor-care-au-credite-in-euro-21004295"
+        }
       ]
     }
   ],
@@ -37,5 +49,12 @@
   "aiNote": "Am verificat comunicatul oficial al BCE din 10 septembrie 2026 și l-am confirmat cu relatări independente din presa română (Newsweek, Gandul). Cele trei cifre — 2,50%, 2,65%, 2,90% — coincid exact între sursa primară și presă. Singurul detaliu care ar putea crea confuzie e locația reuniunii: Berlin, nu Frankfurt (sediul obișnuit al BCE) — dar e o practică anuală documentată, nu un semnal special legat de criza din Orientul Mijlociu. Nu există elemente contestate în relatarea faptelor de bază.",
   "persoane": [
     "Christine Lagarde"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bce-dobanda-2-50-berlin-septembrie-2026.jpg\" alt=\"Christine Lagarde\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Christine Lagarde. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Christine_Lagarde_at_Albright_Institute_public_forum.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Christine Lagarde at Albright Institute public forum</a>\" de Brinacor, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bce-dobanda-2-50-berlin-septembrie-2026.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Brinacor"
+  }
 }
