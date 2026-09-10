@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 11 Sep 2026 01:49:48 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 01:51:26 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Manda (PSD) acuză PNL și USR pe fondul scăderii consumului — cifrele lui despre comerțul cu amănuntul se potrivesc cu INS, dar „a 12-a lună consecutivă” nu are o sursă unică</title>
+      <link>https://farabaliverne.ro/a/manda-consum-romani-scade-ins-iulie-2026.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/manda-consum-romani-scade-ins-iulie-2026.html</guid>
+      <pubDate>Thu, 10 Sep 2026 22:50:54 +0000</pubDate>
+      <category>Economie</category>
+      <description>Secretarul general PSD, Claudiu Manda, a acuzat pe 4 septembrie 2026 PNL și USR că „inventariază voturile” în timp ce INS arată o scădere a consumului: -5,4% la alimente, -6,4% la nealimentare, -7% la carburanți, față de iulie 2025. Cifrele lui coincid exact cu comunicatul INS. Ce nu e la fel de clar: câte luni consecutive durează declinul — sursele citează 10, 11 sau 12 — și dacă scăderea se explică doar prin „efectul Bolojan”, cum titrează o parte din presă.
+
+Unde bat probele: Probat, cu context. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Canada a aplicat pe 8 septembrie tarife de represalii de 27,6 miliarde de dolari — mai mult decât „dolar pentru dolar” promis — iar Trump a răspuns cu interdicții de import</title>
       <link>https://farabaliverne.ro/a/canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat evenimentul (punerea în funcțiune, discursul lui Kim)
       <description>La conferința de presă de după summitul OCS de la Bishkek (1 septembrie 2026), Vladimir Putin a declarat, potrivit agenției de stat TASS, că armata rusă a ocupat 270 km² și 15 localități în regiunea Donețk doar în luna august, a preluat orașul Sviatohirsk și a încercuit circa 2.000 de militari ucraineni într-un buzunar de 460 km² lângă Harkov. Institute for the Study of War (ISW), think-tank american care documentează frontul zilnic pe surse deschise, contrazice fiecare cifră: doar 73,14 km² ocupați efectiv în Donețk, nicio dovadă de prezență rusă lângă Sviatohirsk sau de încercuire la Harkov.
 
 Unde bat probele: Contrazis — cifrele TASS/Putin depășesc de 3-4 ori ceea ce confirmă sursele independente, iar două dintre afirmații (Sviatohirsk, încercuirea de la Harkov) nu au acoperire în dovezile disponibile. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Grecia: Mitsotakis promite 2,2 miliarde euro, Tsipras 7,39 miliarde — dar cifrele nu se compară direct</title>
-      <link>https://farabaliverne.ro/a/grecia-mitsotakis-tsipras-pachete-rivale-salonic.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/grecia-mitsotakis-tsipras-pachete-rivale-salonic.html</guid>
-      <pubDate>Mon, 07 Sep 2026 23:04:28 +0000</pubDate>
-      <category>Extern</category>
-      <description>La tradiționalul Târg Internațional de la Salonic, premierul grec Kyriakos Mitsotakis a anunțat, pe 5 septembrie 2026, un pachet de măsuri economice de 2,2 miliarde euro pentru 2027, iar liderul opoziției Alexis Tsipras a prezentat, cu câteva zile înainte, un program de 7,39 miliarde euro pentru 2027-2030. Comparate simplu, cifrele par să arate un decalaj uriaș între cele două tabere — dar ele nu măsoară aceeași perioadă și nici nu folosesc aceeași metodă de calcul.
-
-Unde bat probele: Probat, cu cifre greu comparabile direct. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>

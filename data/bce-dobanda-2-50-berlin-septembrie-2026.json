@@ -1,0 +1,41 @@
+{
+  "slug": "bce-dobanda-2-50-berlin-septembrie-2026",
+  "title": "BCE majorează dobânda-cheie la 2,50%, a doua oară în 2026 — Consiliul s-a reunit la Berlin, nu la Frankfurt, pe fondul inflației alimentate de conflictul din Orientul Mijlociu",
+  "category": "Economie",
+  "date": "2026-09-10",
+  "source": "Banca Centrală Europeană",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+  "dek": "Consiliul guvernatorilor BCE a decis pe 10 septembrie 2026 o creștere de 0,25 puncte procentuale a celor trei dobânzi de referință — depozit la 2,50%, refinanțare la 2,65%, creditare marginală la 2,90% — efective din 16 septembrie. Reuniunea a avut loc la Berlin, la sediul Bundesbank, parte dintr-o practică anuală a BCE de a ține o ședință pe an în afara Frankfurtului, nu o schimbare de protocol legată de criză.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "BCE a anunțat pe 10 septembrie 2026 majorarea cu 0,25 puncte procentuale a celor trei rate de referință: dobânda de depozit la 2,50%, dobânda de refinanțare (principală) la 2,65%, dobânda de creditare marginală la 2,90%. Noile niveluri devin efective din 16 septembrie 2026.",
+      "sources": [
+        {"name": "BCE — Comunicat oficial de politică monetară, 10 septembrie 2026", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"},
+        {"name": "Newsweek România — BCE își crește dobânzile la 2,50%: decizie majoră, din cauza inflației din Orientul Mijlociu", "url": "https://newsweek.ro/economie/bce-creste-dobanzile-250-decizie-majora-cauza-inflatiei-orientul-mijlociu"}
+      ]
+    },
+    {
+      "text": "BCE a motivat decizia prin presiunile inflaționiste persistente legate de conflictul din Orientul Mijlociu, care mențin inflația „mult peste țintă pentru o perioadă extinsă”. Noile proiecții BCE arată o inflație medie de 3,0% în 2026, 2,5% în 2027 și 2,1% în 2028 — peste ținta de 2% pe termen mediu.",
+      "sources": [
+        {"name": "BCE — Comunicat oficial de politică monetară, 10 septembrie 2026", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"}
+      ]
+    },
+    {
+      "text": "Este a doua majorare de dobândă a BCE din 2026, iar reuniunea Consiliului guvernatorilor a avut loc la Berlin, la sediul Bundesbank — o practică pe care BCE o urmează anual, ținând o ședință de politică monetară în afara Frankfurtului, într-un alt stat membru.",
+      "sources": [
+        {"name": "Gandul — BCE majorează dobânda de politică monetară. Ce se întâmplă cu ratele românilor care au credite în euro", "url": "https://www.gandul.ro/financiar/bce-majoreaza-dobanda-de-politica-monetara-ce-se-intampla-cu-ratele-romanilor-care-au-credite-in-euro-21004295"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": {
+    "title": "2,50% → 2,65% → 2,90% — cele trei dobânzi BCE",
+    "explanation": "Dobânda de depozit (2,50%) e cea la care băncile comerciale își păstrează banii peste noapte la BCE — cea mai urmărită, pentru că influențează direct costul creditelor. Dobânda de refinanțare (2,65%) e rata la care băncile pot împrumuta bani de la BCE pe termen scurt. Dobânda de creditare marginală (2,90%) e cea mai scumpă variantă, folosită doar în situații excepționale. Toate trei au crescut cu 0,25 puncte procentuale față de nivelul anterior, a doua majorare din 2026."
+  },
+  "aiNote": "Am verificat comunicatul oficial al BCE din 10 septembrie 2026 și l-am confirmat cu relatări independente din presa română (Newsweek, Gandul). Cele trei cifre — 2,50%, 2,65%, 2,90% — coincid exact între sursa primară și presă. Singurul detaliu care ar putea crea confuzie e locația reuniunii: Berlin, nu Frankfurt (sediul obișnuit al BCE) — dar e o practică anuală documentată, nu un semnal special legat de criza din Orientul Mijlociu. Nu există elemente contestate în relatarea faptelor de bază.",
+  "persoane": [
+    "Christine Lagarde"
+  ]
+}
