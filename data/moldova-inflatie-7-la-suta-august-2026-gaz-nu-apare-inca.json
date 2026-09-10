@@ -1,0 +1,54 @@
+{
+  "slug": "moldova-inflatie-7-la-suta-august-2026-gaz-nu-apare-inca",
+  "title": "Inflația anuală în Moldova a ajuns la 7% în august — dar cifra nu include încă scumpirea de 41% a gazului, intrată în vigoare abia pe 1 septembrie",
+  "category": "Economie",
+  "tara": "Moldova",
+  "date": "2026-09-10",
+  "source": "Biroul Național de Statistică al Republicii Moldova",
+  "url": "https://statistica.gov.md/ro/indicii-preturilor-de-consum-in-republica-moldova-in-luna-9485_62619.html",
+  "dek": "Biroul Național de Statistică a publicat pe 10 septembrie 2026 indicii prețurilor de consum pentru august: +0,2% față de iulie, +4,9% de la începutul anului și +7,0% față de august 2025. Motorina (+65,3%) și energia electrică reglementată (+23,7%) au tras cel mai tare în sus, în timp ce gazele naturale apar, paradoxal, cu -13,9% anual — pentru că datele de august nu includ încă majorarea de 41% a tarifului la gaz, aprobată de ANRE și intrată în vigoare abia pe 1 septembrie 2026.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Potrivit comunicatului Biroului Național de Statistică (BNS), publicat pe 10 septembrie 2026, prețurile medii de consum din Republica Moldova au crescut cu 0,2% în august 2026 față de iulie, cu 4,9% față de decembrie 2025 (variație de la începutul anului) și cu 7,0% față de august 2025 (variație anuală).",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Indicii prețurilor de consum, august 2026", "url": "https://statistica.gov.md/ro/indicii-preturilor-de-consum-in-republica-moldova-in-luna-9485_62619.html"},
+        {"name": "Ziarul Național — Prețurile de consum au crescut cu 0,2% în august, inflația anuală a ajuns la 7%", "url": "https://www.ziarulnational.md/preturile-de-consum-au-crescut-cu-02-in-august-iar-inflatia-anuala-a-ajuns-la-7/"}
+      ]
+    },
+    {
+      "text": "Pe categorii, variația anuală arată un tablou inegal: mărfurile nealimentare s-au scumpit cu 8,19%, serviciile cu 8,08%, iar alimentele cu 4,74%. Cele mai mari creșteri anuale, produs cu produs: motorina +65,3%, benzina +32,4%, energia electrică la tarif reglementat +23,7%, serviciile de transport de pasageri +28,0%, ouăle +11,8%, pâinea din grâu +5,8%.",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Indicii prețurilor de consum, august 2026", "url": "https://statistica.gov.md/ro/indicii-preturilor-de-consum-in-republica-moldova-in-luna-9485_62619.html"}
+      ]
+    },
+    {
+      "text": "În aceeași statistică pentru august 2026, tarifele la gazele naturale apar cu -13,9% și energia termică cu -17,0% în variație anuală — scăderi reale, dar care compară august 2026 cu august 2025, o perioadă de dinaintea ultimei scumpiri. ANRE a aprobat, pe 21 august 2026, un nou tarif de circa 20,30 lei/m³ pentru gazele furnizate de Energocom populației — cu circa 41% peste tariful anterior de 14,42 lei/m³ — intrat în vigoare abia de la 1 septembrie 2026, deci în afara perioadei acoperite de statistica de față.",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Indicii prețurilor de consum, august 2026", "url": "https://statistica.gov.md/ro/indicii-preturilor-de-consum-in-republica-moldova-in-luna-9485_62619.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cifra de 7,0% inflație anuală, cea mai citată în presă din acest comunicat, nu include efectul scumpirii de 41% a gazului de la 1 septembrie — acesta urmează să apară abia în datele pentru septembrie, publicate în octombrie. Raportul de inflație al Băncii Naționale a Moldovei din 26 august 2026 estimase deja un vârf de 9,2% pentru ultimul trimestru din 2026, motivat explicit de prețurile reglementate, printre care gazul. Cifra de azi confirmă traiectoria ascendentă descrisă de BNM, dar nu e, prin ea însăși, dovada că ținta de 9,2% va fi atinsă exact.",
+      "sources": [
+        {"name": "Biroul Național de Statistică — Indicii prețurilor de consum, august 2026", "url": "https://statistica.gov.md/ro/indicii-preturilor-de-consum-in-republica-moldova-in-luna-9485_62619.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De ce gazul arată „mai ieftin” în statistica de august",
+    "explanation": "Variația anuală compară august 2026 cu august 2025. Scumpirea de 41% a gazului (de la 14,42 la circa 20,30 lei/m³) a intrat în vigoare abia pe 1 septembrie 2026 — o zi după încheierea lunii la care se referă acest comunicat. De aceea gazul apare cu -13,9% în statistica de azi, deși pentru consumatori factura de septembrie va fi vizibil mai mare. Efectul complet va apărea în comunicatul pentru luna septembrie, publicat în octombrie."
+  },
+  "aiNote": "Ce s-a verificat exact: cifrele oficiale ale Biroului Național de Statistică pentru august 2026 — inflație lunară de 0,2%, de la început de an 4,9%, anuală 7,0% — publicate direct pe statistica.gov.md, cu defalcare pe categorii și produse.\n\nAdevărul trunchiat de aici ține de calendar, nu de vreo declarație a cuiva: titlul de „7% inflație” circulă în presă ca ultima cifră disponibilă, dar ea descrie o lună (august) care s-a încheiat cu o zi înainte ca scumpirea de 41% la gaz să intre în vigoare. Cititorul care vede „gazele -13,9%” în comunicat ar putea crede că facturile la gaz au scăzut — de fapt, ele urmează să crească vizibil începând cu factura de septembrie, calculată la noul tarif ANRE.\n\nCe lipsește: datele pentru septembrie 2026, care vor arăta pentru prima dată efectul scumpirii gazului în indicele de prețuri — acestea se publică abia în octombrie. Până atunci, comparația directă între cifra de azi (7,0%) și estimarea Băncii Naționale pentru trimestrul IV (9,2%) rămâne una de traiectorie, nu de confirmare fermă a țintei.\n\nCe ar schimba concluzia: dacă indicele de septembrie arată o creștere mai mică decât cea implicată de scumpirea de 41% a gazului — de exemplu, dacă mulți consumatori sunt pe alte tipuri de contracte sau dacă efectul e amortizat de compensații guvernamentale — traiectoria spre 9,2% descrisă de BNM s-ar putea dovedi prea pesimistă.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-inflatie-7-la-suta-august-2026-gaz-nu-apare-inca.jpg\" alt=\"Moldovan leu banknotes currency\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Moldovan leu banknotes currency. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:MD_1_leu_2015_av.jpg\" rel=\"nofollow noopener\" target=\"_blank\">MD 1 leu 2015 av</a>\" de Wiki currency, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-inflatie-7-la-suta-august-2026-gaz-nu-apare-inca.jpg",
+    "licenta": "Public domain",
+    "autor": "Wiki currency"
+  }
+}
