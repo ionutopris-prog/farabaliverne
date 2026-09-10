@@ -1,0 +1,82 @@
+{
+  "slug": "canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie",
+  "title": "Canada a aplicat pe 8 septembrie tarife de represalii de 27,6 miliarde de dolari — mai mult decât „dolar pentru dolar” promis — iar Trump a răspuns cu interdicții de import",
+  "category": "Extern",
+  "date": "2026-09-10",
+  "source": "CNBC / Casa Albă / Guvernul Canadei",
+  "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
+  "dek": "După colapsul negocierilor comerciale din 21 august, Canada a aplicat pe 8 septembrie 2026 tarife de represalii pe 27,6 miliarde de dolari de bunuri americane — mai mult decât cei 20 de miliarde vizați de tarifele americane inițiale. Casa Albă a răspuns cu cinci proclamații care interzic sau modifică importul unor produse canadiene. Cele două guverne se acuză reciproc pentru eșecul negocierilor, fără ca vreo parte să publice dovezi care să tranșeze cine a schimbat termenii în ultimul moment.",
+  "mainVerdict": "Probat, cu acuzații reciproce nedovedite public",
+  "probat": [
+    {
+      "text": "Canada a pus în aplicare, începând cu 8 septembrie 2026, ora 00:01, tarife de represalii pe bunuri americane în valoare de 27,6 miliarde de dolari — dairy (lactate), echipamente agricole, hârtie, electrocasnice, electronice, mobilă, motociclete, îmbrăcăminte și produse cosmetice, cu cote între 15% și 50% (50% pentru oțel, aluminiu și fier). Lista oficială a produselor vizate e publicată de Ministerul de Finanțe al Canadei.",
+      "sources": [
+        {
+          "name": "CNBC — Canada's retaliatory tariffs worth $27.6 billion take effect",
+          "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+        },
+        {
+          "name": "Guvernul Canadei — Lista produselor americane supuse contra-tarifelor de la 8 septembrie 2026",
+          "url": "https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html"
+        },
+        {
+          "name": "Yahoo Finance — Canada retaliatory tariffs on U.S. goods take effect Sept. 8, 2026",
+          "url": "https://finance.yahoo.com/economy/policy/articles/canada-retaliatory-tariffs-u-goods-111253721.html"
+        }
+      ]
+    },
+    {
+      "text": "Ca răspuns, președintele Trump a semnat pe 8 septembrie cinci proclamații în temeiul Secțiunii 338 din Legea Tarifelor din 1930: trei interzic complet importul anumitor produse canadiene (autovehicule, lactate, băuturi alcoolice) începând cu 29 septembrie 2026, iar două modifică sfera altor tarife anunțate pe 20 iulie 2026 (scoțând, de exemplu, sarea gemă și cimentul, adăugând ATV-uri și alte produse lactate), cu efect din 15 septembrie 2026.",
+      "sources": [
+        {
+          "name": "Casa Albă — Fact Sheet: President Trump Responds to Canada's Retaliation",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-responds-to-canadas-retaliation/"
+        }
+      ]
+    },
+    {
+      "text": "Ministrul canadian de Finanțe, François-Philippe Champagne, a confirmat cotele tarifare și a anunțat un pachet de sprijin de 7,5 miliarde de dolari pentru companiile și lucrătorii afectați de tarifele americane.",
+      "sources": [
+        {
+          "name": "Yahoo Finance — pachetul de sprijin de 7,5 miliarde de dolari",
+          "url": "https://finance.yahoo.com/economy/policy/articles/canada-retaliatory-tariffs-u-goods-111253721.html"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cele două guverne dau versiuni diferite despre motivul prăbușirii negocierilor din 21 august. Premierul canadian Mark Carney a spus că negociatorii americani au introdus în ultimul moment schimbări în textul acordului care l-ar fi făcut „mai rău” pentru Canada, motiv pentru care a retras delegația cu mai puțin de o oră înainte de termen. Reprezentantul comercial american Jamieson Greer a susținut varianta opusă: că after acordul fusese deja convenit în linii mari, Canada a cerut concesii suplimentare de tarife. Nicio parte n-a publicat textul propus la masa negocierilor, așa că afirmațiile rămân declarații necoroborate public ale fiecărei părți.",
+      "sources": [
+        {
+          "name": "The Globe and Mail — Canada, U.S. trade talks reach an impasse",
+          "url": "https://www.theglobeandmail.com/world/us-politics/article-canada-us-trade-talks-reach-an-impasse/"
+        },
+        {
+          "name": "CNBC — declarațiile lui Carney și Greer",
+          "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+        }
+      ]
+    },
+    {
+      "text": "Comunicatul Casei Albe descrie tarifele de represalii ale Canadei ca fiind „de aproximativ 20 de miliarde de dolari”, cifră care corespunde tarifelor americane inițiale de 50% aplicate bunurilor canadiene în august, nu răspunsului canadian efectiv. Sursele independente (CNBC, Yahoo Finance, lista oficială a Guvernului Canadei) indică o valoare mai mare pentru contra-tarifele intrate în vigoare pe 8 septembrie: 27,6 miliarde de dolari — cu circa 7,6 miliarde mai mult decât „dolar pentru dolar” presupunea. Diferența poate veni din faptul că fact-sheet-ul american recalculează după propria metodologie sau se referă la o rundă anterioară de represalii, dar textul Casei Albe nu clarifică explicit sursa discrepanței.",
+      "sources": [
+        {
+          "name": "Casa Albă — cifra de „aproximativ 20 de miliarde”",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-responds-to-canadas-retaliation/"
+        },
+        {
+          "name": "CNBC — cifra de 27,6 miliarde de dolari",
+          "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Evaluarea că partea cealaltă a acționat „de rea-credință” în negocieri aparține fiecărui guvern implicat — Carney vorbește despre termeni „nedrepți, neeconomici”, iar Greer despre concesii cerute „după” un acord convenit. Sunt interpretări ale unor discuții private, nu fapte verificabile independent de o a treia parte."
+    }
+  ],
+  "aiNote": "Am urmărit un subiect care evoluează, nu l-am tratat ca pe unul nou: pe 22 august scrisesem despre prăbușirea negocierilor și promisiunea canadiană de răspuns „dolar pentru dolar” de la 8 septembrie. Azi verific ce s-a întâmplat efectiv la data promisă — și cifrele nu se potrivesc perfect cu promisiunea inițială.\n\nCe s-a verificat exact: contra-tarifele canadiene au intrat în vigoare pe 8 septembrie, la 27,6 miliarde de dolari, cifră confirmată de trei surse independente (CNBC, Yahoo Finance, lista oficială a Ministerului de Finanțe al Canadei). În aceeași zi, Casa Albă a răspuns cu cinci proclamații care interzic sau modifică tarife pe produse canadiene.\n\nUnde se despart sursele: comunicatul Casei Albe vorbește despre tarife canadiene „de aproximativ 20 de miliarde de dolari” — o cifră care nu corespunde cu cea raportată de presă și de guvernul canadian pentru runda de pe 8 septembrie (27,6 miliarde). Fără o explicație oficială a discrepanței, nu putem ști sigur dacă fact-sheet-ul american se referă la o rundă anterioară de tarife sau folosește o altă metodologie de calcul — am marcat asta ca nelămurit, nu ca eroare a uneia dintre părți.\n\nA doua divergență e despre cine a stricat negocierile: Carney spune că SUA a schimbat termenii în ultimul moment, Greer spune că Canada a cerut mai mult după ce acordul era conturat. Niciuna dintre părți n-a publicat textul de pe masa negocierilor, deci cititorul rămâne cu două versiuni, nu cu un fapt stabilit. Ce ar lămuri lucrurile ar fi publicarea proiectului de acord discutat pe 21 august.",
+  "persoane": ["Mark Carney", "Donald Trump"]
+}
