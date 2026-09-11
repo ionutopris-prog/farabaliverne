@@ -67,5 +67,12 @@
   ],
   "opinie": [],
   "aiNote": "Ce s-a verificat: faptul că trei pasageri israelieni cu bilete valide nu au urcat în autobuzul Gal Trans de pe ruta Chișinău-Odesa în noaptea de 8 septembrie e confirmat concordant de mai multe redacții moldovenești (NewsMaker, IPN, Radio Chișinău, Realitatea.md), la fel ca sesizarea Ambasadei Israelului și autosesizarea IGP. Pe atât sursele coincid.\n\nUnde se desparte povestea: motivul refuzului — că pasagerii ar fi fost respinși pentru că sunt evrei — vine exclusiv din relatarea lor și a ambasadei. Compania de transport nu a confirmat, dar nici nu a negat public: contactată de IPN, a cerut o solicitare scrisă în loc să răspundă direct, ceea ce înseamnă că, la momentul scrierii acestui articol, varianta ei a rămas necunoscută public.\n\nCe lipsește: concluzia verificării IGP, care ar trebui să stabilească exact ce s-a întâmplat la ghișeul de îmbarcare — inclusiv dacă a existat vreo altă explicație (loc suplimentar vândut, problemă de bilet) invocată de șofer sau de companie — și eventualele măsuri legale, dacă se confirmă o încălcare.\n\nCe ar schimba concluzia: un răspuns public al Gal Trans sau al șoferului implicat, imagini de supraveghere de la aeroport, sau rezultatul oficial al verificării IGP. Până atunci, tratăm acuzația de discriminare ca afirmație a unei părți, nu ca fapt stabilit.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-israelieni-autobuz-chisinau-odesa-antisemit.jpg\" alt=\"Trei\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Trei. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Hanul_Trei_Iazuri.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Hanul Trei Iazuri</a>\" de Cezar Suceveanu, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-israelieni-autobuz-chisinau-odesa-antisemit.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Cezar Suceveanu"
+  }
 }
