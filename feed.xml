@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 11 Sep 2026 03:42:43 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 03:45:27 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>China respinge la Global Times acuzația SUA de „distilare industrială” a modelelor americane de inteligență artificială</title>
+      <link>https://farabaliverne.ro/a/china-distilare-ai-negare-aviz-sua.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/china-distilare-ai-negare-aviz-sua.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:44:01 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>📡 Un aviz comun al NSA, CISA și FBI, publicat pe 8 septembrie 2026, acuză șase firme chineze de inteligență artificială — DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun și Z.AI — că ar fi extras „la scară industrială” miliarde de token-uri din modelele americane Claude, GPT, Gemini și Grok. Ce SUSȚINE Ministerul Comerțului chinez, citat de agenția de stat Global Times: că acuzațiile sunt „nefondate” și că distilarea e o „practică normală”, folosită și de companiile americane. Punem alături datele publicate chiar de una dintre companiile vizate, Anthropic.
+
+Unde bat probele: Contestat — avizul american documentează o campanie reală de amploare neobișnuită (Anthropic descrie 151 de milioane de schimburi atribuite unei singure campanii, în trei luni), dar evită cuvintele „furt” sau „ilegal” și nu oferă cifre exacte; contra-afirmația Chinei, că ar fi „aceeași practică” pe care o fac și companiile americane, nu e însoțită de nicio dovadă publică. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Ben Shelton îl elimină pe Carlos Alcaraz în cel mai târziu meci din istoria US Open — finală garantată cu doi americani în semifinală, premieră după 23 de ani</title>
       <link>https://farabaliverne.ro/a/shelton-alcaraz-us-open-2026-cel-mai-tarziu-meci.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce s-a măsurat în laborator; speculativ orice extrapo
       <description>Extinderea gheții arctice din august 2026 a fost a șaptea cea mai mică din cei aproape 50 de ani de observații prin satelit, la doar 840.000 km² peste recordul absolut din 2012 — dar cu un volum de gheață aflat deja la minim istoric din martie 2026. NSIDC explică diferența printr-un episod atmosferic specific din primăvară, nu printr-o încetinire a încălzirii pe termen lung.
 
 Unde bat probele: Probat, cu context de tendință pe termen lung. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Un detector de materie întunecată din Dakota de Sud a înregistrat un semnal neobișnuit — dar oamenii de știință spun clar că nu e o descoperire</title>
-      <link>https://farabaliverne.ro/a/lz-materie-intunecata-semnal-2-6-sigma.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/lz-materie-intunecata-semnal-2-6-sigma.html</guid>
-      <pubDate>Tue, 08 Sep 2026 06:39:14 +0000</pubDate>
-      <category>Știință</category>
-      <description>Experimentul LUX-ZEPLIN (LZ), care caută materie întunecată la un kilometru sub pământ în Dakota de Sud, a găsit un singur eveniment greu de explicat prin zgomotul de fond cunoscut. Semnificația statistică e de 2,6 sigma — mult sub pragul de 5 sigma cerut pentru o descoperire în fizică — iar cercetătorii spun explicit că nu susțin că au văzut materie întunecată.
-
-Unde bat probele: Probat ce s-a măsurat; speculativ ce ar putea însemna. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
