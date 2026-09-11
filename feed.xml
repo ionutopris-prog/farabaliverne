@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 11 Sep 2026 09:48:38 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 09:51:22 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un microscop 3D a fotografiat pentru prima dată „arhitectura” apei organizate în jurul unei peptide, la scară subnanometrică</title>
+      <link>https://farabaliverne.ro/a/superstructura-proteica-apa-hidratare-3d-afm.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/superstructura-proteica-apa-hidratare-3d-afm.html</guid>
+      <pubDate>Fri, 11 Sep 2026 06:49:37 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă internațională din Japonia, Finlanda, Italia și SUA a folosit un microscop de forță atomică tridimensional pentru a vizualiza direct, prima dată, modul în care apa se organizează în straturi ordonate în jurul unei peptide, în funcție de secvența ei de aminoacizi. Cercetătorii propun un concept nou — „superstructura proteică” — dar experimentul a fost făcut pe un sistem simplificat de peptide autoasamblate, nu pe o proteină reală, iar autorii spun explicit că extinderea la sisteme biologice complexe rămâne de făcut.
+
+Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Senzori cuantici răciți aproape de zero absolut măsoară razele X ale plutoniului cu precizie de până la 8 ori mai mare, utilă pentru controlul materialelor nucleare</title>
       <link>https://farabaliverne.ro/a/nist-senzori-cuantici-plutoniu-control-nuclear.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</desc
       <description>Comisia pentru Constituționalitate a Senatului, condusă de senatoarea Cosmina Cerva (PACE), a ținut marți, 8 septembrie 2026, primele audieri din ancheta parlamentară privind întâlnirea din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Elena-Simina Tănăsescu. Niciunul dintre cei doi nu s-a prezentat la ora programată; Tănăsescu a anunțat în scris că nu poate participa între 7 și 11 septembrie și va fi audiată pe 15 septembrie. În ședință, reprezentanții USR și PNL au cerut ca ancheta să fie extinsă și la zborul privat spre Mykonos al judecătorului CCR Cristian Deliorga.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Von der Leyen promite 200 de milioane de euro Groenlandei, chiar când NATO începe un exercițiu arctic cu 400 de militari — pe fondul amenințărilor lui Trump</title>
-      <link>https://farabaliverne.ro/a/von-der-leyen-groenlanda-200-milioane-nato-arctic-shield.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/von-der-leyen-groenlanda-200-milioane-nato-arctic-shield.html</guid>
-      <pubDate>Tue, 08 Sep 2026 10:04:52 +0000</pubDate>
-      <category>Extern</category>
-      <description>Președinta Comisiei Europene, Ursula von der Leyen, a anunțat luni, 7 septembrie 2026, la Nuuk, un pachet de investiții de 200 de milioane de euro (232 de milioane de dolari) pentru Groenlanda, plus o propunere de 530 de milioane de euro pentru bugetul UE 2028-2034. Anunțul vine chiar în ziua în care NATO a început exercițiul arctic „Arctic Shield”, cu aproximativ 400 de militari din 11 țări, pe fondul amenințărilor repetate ale președintelui Donald Trump de a prelua controlul asupra teritoriului danez.
-
-Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
