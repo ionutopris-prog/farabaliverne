@@ -55,5 +55,12 @@
     "explanation": "124 milioane de lire e pierderea totală înainte de impozitare, cu tot cu costurile excepționale (unice, greu de repetat, precum restructurările). 89 milioane e pierderea „de bază”, fără acele costuri excepționale — cifra pe care companiile o preferă adesea în titluri, pentru că arată mai bine performanța operațională curentă. Niciuna dintre cifre nu e greșită; măsoară lucruri diferite, iar comunicatul oficial le publică pe amândouă."
   },
   "aiNote": "Am verificat comunicatul oficial al John Lewis Partnership din 10 septembrie 2026 și l-am confirmat cu relatări independente din presa britanică (Retail Gazette, Stratford Herald). Punctul unde presa a scris diferit nu e o contradicție reală: unele titluri au folosit „pierdere de 89 milioane” (fără elemente excepționale), altele „124 milioane” (pierderea totală) — ambele apar explicit în comunicatul companiei, pentru perioade și metrici diferite. Am pus alături ambele cifre ca să nu lase impresia că una dintre relatări greșește. Ce lipsește din comunicat: compania nu detaliază public, cu sumă exactă, ce anume compun elementele excepționale de 35 milioane de lire (diferența dintre 124 și 89) — doar le menționează generic drept costuri de restructurare și transformare.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/john-lewis-pierdere-124-milioane-semestrul-1-2026.jpg\" alt=\"John\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — John. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Nave,_St_John_the_Evangelist,_Knotty_Ash_2.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Nave, St John the Evangelist, Knotty Ash 2</a>\" de Rodhullandemu, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/john-lewis-pierdere-124-milioane-semestrul-1-2026.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Rodhullandemu"
+  }
 }
