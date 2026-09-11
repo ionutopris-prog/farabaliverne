@@ -1,0 +1,66 @@
+{
+  "slug": "china-distilare-ai-negare-aviz-sua",
+  "title": "China respinge la Global Times acuzația SUA de „distilare industrială” a modelelor americane de inteligență artificială",
+  "category": "Media de stat",
+  "date": "2026-09-11",
+  "source": "Global Times",
+  "url": "https://www.globaltimes.cn/page/202609/1370195.shtml",
+  "dek": "📡 Un aviz comun al NSA, CISA și FBI, publicat pe 8 septembrie 2026, acuză șase firme chineze de inteligență artificială — DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun și Z.AI — că ar fi extras „la scară industrială” miliarde de token-uri din modelele americane Claude, GPT, Gemini și Grok. Ce SUSȚINE Ministerul Comerțului chinez, citat de agenția de stat Global Times: că acuzațiile sunt „nefondate” și că distilarea e o „practică normală”, folosită și de companiile americane. Punem alături datele publicate chiar de una dintre companiile vizate, Anthropic.",
+  "mainVerdict": "Contestat — avizul american documentează o campanie reală de amploare neobișnuită (Anthropic descrie 151 de milioane de schimburi atribuite unei singure campanii, în trei luni), dar evită cuvintele „furt” sau „ilegal” și nu oferă cifre exacte; contra-afirmația Chinei, că ar fi „aceeași practică” pe care o fac și companiile americane, nu e însoțită de nicio dovadă publică",
+  "probat": [
+    {
+      "text": "Pe 8 septembrie 2026, Agenția Națională de Securitate (NSA), Agenția pentru Securitate Cibernetică și Infrastructură (CISA) și FBI au publicat un aviz comun (catalogat AA26-251A) în care acuză șase companii chineze de inteligență artificială — DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun și Z.AI — că desfășoară, cel puțin din 2024, „campanii de distilare la scară industrială” împotriva unor modele americane de vârf (variante Claude, GPT, Gemini și Grok), extrăgând „miliarde de token-uri prin milioane de interogări”. Avizul susține că amploarea și sofisticarea campaniilor arată că distilarea nu e o completare, ci „nucleul central” al modului în care aceste firme își dezvoltă modelele, probabil cu știrea autorităților chineze.",
+      "sources": [
+        { "name": "CISA — Advisory AA26-251A: China-Based AI Companies Conducting Industrial-Scale Distillation Campaigns", "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a" },
+        { "name": "Business Standard — Alibaba, DeepSeek have 'systematically' siphoned AI models, says US", "url": "https://www.business-standard.com/technology/artificial-intelligence/alibaba-deepseek-have-systematically-siphoned-ai-models-says-us-126090900318_1.html" }
+      ]
+    },
+    {
+      "text": "Anthropic, una dintre companiile ale căror modele sunt citate în aviz, a publicat separat detalii tehnice despre cea mai mare campanie observată: 151 de milioane de schimburi atribuite Alibaba între mai și iulie 2026, cu un vârf de aproape 3 milioane de interogări într-o singură zi — descrisă de companie drept cea mai mare campanie „de distilare cu ridicata” pe care a observat-o vreodată.",
+      "sources": [
+        { "name": "TechCrunch — Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/" }
+      ]
+    },
+    {
+      "text": "Pe 9 septembrie 2026, purtătorul de cuvânt al Ministerului Comerțului chinez a respins public acuzațiile americane, numindu-le „nefondate și fără temei legal” și afirmând că distilarea modelelor e „o metodă tehnică neutră, folosită de dezvoltatori de modele din toată lumea, inclusiv din SUA”. Oficialul a acuzat Washingtonul că politizează o practică obișnuită pentru a-și menține „hegemonia tehnologică” și a avertizat că, dacă SUA vor lua măsuri de suprimare a firmelor chineze de AI sub pretextul distilării, China va lua „contramăsuri ferme” — fără să detalieze care ar fi acestea.",
+      "sources": [
+        { "name": "Global Times — China dismisses US AI distillation claims, vows countermeasures", "url": "https://www.globaltimes.cn/page/202609/1370195.shtml" },
+        { "name": "China.org.cn — China firmly opposes US groundless allegations on Chinese AI firms: commerce ministry", "url": "http://www.china.org.cn/2026-09/10/content_118688477.shtml" },
+        { "name": "National Law Review — China's Commerce Ministry Rejects US Accusations of Industrial-Scale AI Distillation", "url": "https://natlawreview.com/article/chinas-commerce-ministry-rejects-us-accusations-industrial-scale-ai-distillation" }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Deși titlurile de presă au tradus avizul american drept o acuzație de „furt”, textul avizului însuși evită acest cuvânt și pe „ilegal” sau „nelegitim” — vorbește despre „extragere sistematică” și „distilare la scară industrială”, fără să folosească vreodată termeni de natură penală. Documentul nu oferă nici cifre exacte (doar intervale, „de la mii la milioane per domeniu”) și nici o dată precisă de început a campaniilor, deși reușește să enumere 41 de versiuni distincte de modele americane vizate — o precizie tehnică ridicată, combinată cu o imprecizie temporală și cantitativă notabilă.",
+      "sources": [
+        { "name": "National Law Review — rezumat al avizului AA26-251A", "url": "https://natlawreview.com/article/chinas-commerce-ministry-rejects-us-accusations-industrial-scale-ai-distillation" }
+      ]
+    },
+    {
+      "text": "Contra-afirmația Ministerului Comerțului chinez — că firmele americane fac „același lucru” cu modelele chineze — nu este însoțită de niciun exemplu, cifră sau campanie numită public, spre deosebire de campania documentată de Anthropic (151 de milioane de schimburi, cu date și grafice concrete). Fără dovezi publice de partea chineză, afirmația de simetrie rămâne o declarație politică, nu un fapt verificabil.",
+      "sources": [
+        { "name": "Global Times — China dismisses US AI distillation claims, vows countermeasures", "url": "https://www.globaltimes.cn/page/202609/1370195.shtml" },
+        { "name": "TechCrunch — Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek", "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/" }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dacă distilarea modelelor e „practică normală” sau „furt de proprietate intelectuală” este, în esență, o dezbatere de politică tehnologică și de interpretare a termenilor de utilizare ai fiecărei companii, nu un fapt care se poate „proba” sau „contrazice” — companiile americane interzic prin contract extragerea în masă a răspunsurilor modelelor lor, dar încălcarea unor termeni contractuali nu echivalează automat cu o faptă penală, iar avizul american însuși evită să facă acea echivalență."
+    }
+  ],
+  "math": {
+    "title": "151 de milioane de schimburi, împărțite la trei luni",
+    "explanation": "Anthropic descrie 151 de milioane de schimburi atribuite campaniei Alibaba între mai și iulie 2026 — o perioadă de aproximativ 92 de zile. Împărțit uniform, ar însemna o medie de circa 1,64 milioane de interogări pe zi. Compania spune însă că vârful a atins aproape 3 milioane de interogări într-o singură zi, adică aproape dublul mediei — semn că activitatea a venit în valuri concentrate, nu constant, ceea ce susține caracterizarea drept campanie organizată, nu trafic obișnuit de utilizatori."
+  },
+  "aiNote": "Ce s-a verificat exact: avizul comun NSA-CISA-FBI (AA26-251A) din 8 septembrie 2026, care acuză șase firme chineze de AI de distilare „la scară industrială” a unor modele americane, și răspunsul Ministerului Comerțului chinez din 9 septembrie, difuzat de agenția de stat Global Times, care respinge acuzațiile ca „nefondate”. Am pus alături și datele publicate separat de Anthropic, una dintre companiile ale căror modele sunt citate în aviz.\n\nUnde se despart sursele: avizul guvernamental american susține că e vorba de o campanie sistematică, posibil cu știrea statului chinez, dar evită cuvinte cu greutate legală („furt”, „ilegal”) și rămâne vag la cifre exacte și date precise — o combinație neobișnuită pentru un document care, în alte privințe, e foarte specific (numește 41 de versiuni de modele). China respinge în bloc acuzația și susține că practica e reciprocă, dar nu aduce nicio dovadă publică pentru asta, spre deosebire de cifrele concrete publicate de Anthropic pentru campania atribuită Alibaba.\n\nCe lipsește: nu există, în nicio sursă publică, o cifră exactă a token-urilor extrase, o dată de start clară a campaniilor sau o listă a exemplelor concrete în care companii americane ar fi distilat modele chineze — afirmație pe care China o face, dar nu o documentează. De asemenea, nu se cunosc „contramăsurile ferme” la care s-a referit Ministerul Comerțului chinez.\n\nCe ar schimba concluzia: dacă vreo companie americană ar publica o listă concretă de campanii de distilare a modelelor chineze, afirmația chineză de reciprocitate ar deveni verificabilă. Dacă SUA ar impune sancțiuni sau restricții concrete firmelor numite în aviz, s-ar putea evalua dacă reacția chineză anunțată se confirmă.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-distilare-ai-negare-aviz-sua.jpg\" alt=\"server farm data center\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — server farm data center. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:A_NASA_computer_server_farm_-a.jpg\" rel=\"nofollow noopener\" target=\"_blank\">A NASA computer server farm -a</a>\" de NASA, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-distilare-ai-negare-aviz-sua.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA"
+  }
+}
