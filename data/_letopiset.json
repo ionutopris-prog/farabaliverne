@@ -542,5 +542,42 @@
       "text": "Focar de Ebola, Democratic Republic of the Congo — comunicat OMS: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo.",
       "tip": "Epidemie"
     }
+  ],
+  "2026-09-11": [
+    {
+      "cheie": "temp:2026-09-11:Novosibirsk",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Novosibirsk: maximă de 29 °C — cu 14 °C peste media zilei (1991–2020: 16 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-11:Astana",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Astana: maximă de 30 °C — cu 11 °C peste media zilei (1991–2020: 19 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-11:Cluj-Napoca",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Cluj-Napoca: maximă de 31 °C — cu 10 °C peste media zilei (1991–2020: 21 °C) și peste orice maximă din ultimii 10 ani în perioada asta (28 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-11:Timișoara",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Timișoara: maximă de 33 °C — cu 9 °C peste media zilei (1991–2020: 24 °C) și peste orice maximă din ultimii 10 ani în perioada asta (32 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-11:Sofia",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Sofia: maximă de 32 °C — cu 9 °C peste media zilei (1991–2020: 23 °C) și peste orice maximă din ultimii 10 ani în perioada asta (31 °C).",
+      "tip": "Temperaturi extreme"
+    }
   ]
 }
