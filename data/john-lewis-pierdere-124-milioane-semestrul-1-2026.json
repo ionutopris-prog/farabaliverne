@@ -1,0 +1,59 @@
+{
+  "slug": "john-lewis-pierdere-124-milioane-semestrul-1-2026",
+  "title": "John Lewis Partnership a pierdut 124 milioane de lire în primul semestru — presa a citat și cifra de 89 milioane, pentru că măsoară altceva",
+  "category": "Economie",
+  "date": "2026-09-11",
+  "source": "John Lewis Partnership — comunicat oficial",
+  "url": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23943",
+  "dek": "Grupul britanic John Lewis Partnership (magazinele John Lewis și supermarketurile Waitrose) a raportat pe 10 septembrie 2026 o pierdere înainte de impozitare de 124 milioane de lire pentru primele 26 de săptămâni ale anului financiar (până pe 1 august 2026) — aproape dublu față de cele 88 milioane din anul anterior — deși vânzările totale au crescut cu 2%, la 6,3 miliarde de lire. O parte din presa britanică a scris „pierdere de 89 milioane”: e cifra fără elementele excepționale, nu una greșită sau alta corectă.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Conform comunicatului oficial al John Lewis Partnership din 10 septembrie 2026, pierderea înainte de impozitare pentru primul semestru (26 de săptămâni încheiate pe 1 august 2026) a fost de 124 milioane de lire, față de 88 milioane de lire în perioada echivalentă din anul anterior — aproape o dublare.",
+      "sources": [
+        {
+          "name": "John Lewis Partnership — Rezultate intermediare neauditate, 10 septembrie 2026",
+          "url": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23943"
+        },
+        {
+          "name": "Stratford Herald — John Lewis Partnership losses more than double in tougher trading",
+          "url": "https://www.stratford-herald.com/national/john-lewis-partnership-losses-more-than-double-in-tougher-trading-171502/"
+        }
+      ]
+    },
+    {
+      "text": "Vânzările totale ale Partnership au crescut 2%, la 6,3 miliarde de lire, susținute de Waitrose (+4%, la 4,3 miliarde), în timp ce vânzările magazinelor John Lewis au scăzut 2%, la 2,0 miliarde de lire — consumatorii au redus achizițiile mari, de tip electrocasnice și mobilă.",
+      "sources": [
+        {
+          "name": "John Lewis Partnership — Rezultate intermediare neauditate, 10 septembrie 2026",
+          "url": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23943"
+        },
+        {
+          "name": "Retail Gazette — John Lewis losses widen to £89m as it warns on outlook",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/john-lewis-losses-widen-to-89m-as-it-warns-on-outlook/"
+        }
+      ]
+    },
+    {
+      "text": "Compania a raportat și o a doua cifră, folosită de o parte din presă în titluri: pierderea „înainte de impozitare și elemente excepționale” a fost de 89 milioane de lire, față de 34 milioane anul trecut. Diferența dintre cele două cifre (124 vs. 89 milioane) e dată de elementele excepționale — costuri unice, precum cele de restructurare — pe care prima le include, iar a doua le exclude.",
+      "sources": [
+        {
+          "name": "John Lewis Partnership — Rezultate intermediare neauditate, 10 septembrie 2026",
+          "url": "https://www.johnlewispartnership.co.uk/media-centre/latest-news/2026/23943"
+        },
+        {
+          "name": "Retail Gazette — John Lewis losses widen to £89m as it warns on outlook",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/john-lewis-losses-widen-to-89m-as-it-warns-on-outlook/"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": {
+    "title": "124 milioane vs. 89 milioane — aceeași companie, două pierderi",
+    "explanation": "124 milioane de lire e pierderea totală înainte de impozitare, cu tot cu costurile excepționale (unice, greu de repetat, precum restructurările). 89 milioane e pierderea „de bază”, fără acele costuri excepționale — cifra pe care companiile o preferă adesea în titluri, pentru că arată mai bine performanța operațională curentă. Niciuna dintre cifre nu e greșită; măsoară lucruri diferite, iar comunicatul oficial le publică pe amândouă."
+  },
+  "aiNote": "Am verificat comunicatul oficial al John Lewis Partnership din 10 septembrie 2026 și l-am confirmat cu relatări independente din presa britanică (Retail Gazette, Stratford Herald). Punctul unde presa a scris diferit nu e o contradicție reală: unele titluri au folosit „pierdere de 89 milioane” (fără elemente excepționale), altele „124 milioane” (pierderea totală) — ambele apar explicit în comunicatul companiei, pentru perioade și metrici diferite. Am pus alături ambele cifre ca să nu lase impresia că una dintre relatări greșește. Ce lipsește din comunicat: compania nu detaliază public, cu sumă exactă, ce anume compun elementele excepționale de 35 milioane de lire (diferența dintre 124 și 89) — doar le menționează generic drept costuri de restructurare și transformare.",
+  "persoane": []
+}
