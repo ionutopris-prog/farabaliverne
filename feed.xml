@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 11 Sep 2026 09:43:13 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 09:45:41 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un tip extrem de rar de neuroni din cortex — sub 1% din total — poate declanșa somnul, arată un studiu Nature pe șoareci</title>
+      <link>https://farabaliverne.ro/a/neuroni-sst-chodl-somn-cortex-nature.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/neuroni-sst-chodl-somn-cortex-nature.html</guid>
+      <pubDate>Fri, 11 Sep 2026 06:44:20 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă de neuroștiințe a identificat, la șoareci, o populație extrem de rară de neuroni inhibitori din cortex — sub 1% din totalul neuronilor GABAergici corticali — care, activați artificial, sincronizează tot cortexul într-o stare asemănătoare somnului și pot chiar declanșa somnul comportamental. Descoperirea contrazice ideea veche că somnul e comandat exclusiv din structuri subcorticale. Studiul e făcut integral pe șoareci; autorii spun explicit că nu se știe încă dacă neuronii echivalenți la om joacă același rol.
+
+Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Israelul susține că Iranul a mutat mii de centrifuge la Pickaxe Mountain — AIEA confirmă doar construcții văzute din satelit, fără acces în interior</title>
       <link>https://farabaliverne.ro/a/iran-pickaxe-mountain-centrifuge-israel-aiea-grossi.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
       <description>Emisarii lui Trump, Steve Witkoff și Jared Kushner, au avut peste trei ore de discuții cu Vladimir Putin la Moscova pe 5 septembrie 2026, apoi au mers la Kiev pe 6 septembrie pentru întâlniri cu Volodimir Zelenski și cu consilierii de securitate ai Marii Britanii, Franței și Germaniei. Nu s-a ajuns la niciun acord, iar Zelenski a declarat că se așteaptă ca războiul să continue — în contrast cu limbajul optimist folosit de emisarii americani.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Sub un morman de bolovani din Utah stă ascuns un rezervor de gheață cât 600 de bazine olimpice, arată măsurători gravimetrice</title>
-      <link>https://farabaliverne.ro/a/glaciar-roca-timpanogos-utah-gheata-ascunsa.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/glaciar-roca-timpanogos-utah-gheata-ascunsa.html</guid>
-      <pubDate>Tue, 08 Sep 2026 06:46:48 +0000</pubDate>
-      <category>Știință</category>
-      <description>Geologi de la Universitatea Utah au măsurat prin gravimetrie glaciarul de rocă Timpanogos — o formațiune care arată ca un morman obișnuit de bolovani — și au descoperit că e alcătuit în proporție de 83% din gheață. Extrapolată la nivel global, la cele aproape 50.000 de glaciare de rocă cunoscute în lume, descoperirea sugerează o rezervă de apă mult mai mare decât se credea, deși cercetătorii recunosc că estimarea globală se bazează pe o singură măsurătoare directă.
-
-Unde bat probele: Probat ce s-a măsurat direct; estimativ ce s-a extrapolat global. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
