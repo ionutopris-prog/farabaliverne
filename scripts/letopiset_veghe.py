@@ -156,17 +156,22 @@ def main():
         toate = json.load(open(DE_VERIFICAT, encoding="utf-8")) if os.path.exists(DE_VERIFICAT) else {}
     except Exception:
         toate = {}
-    toate[zi] = gasite
+    # Un nume anunțat o dată nu se mai anunță 7 zile: altfel fondatorul primea
+    # același „Nepal” de două ori pe zi, la fiecare rulare (10–11 sept 2026).
+    anuntate = {n for z, g in toate.items() if z != zi and z >= (datetime.strptime(zi, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d") for n in g}
+    anuntate |= set(toate.get(zi, {}))
+    noi = {n: g for n, g in gasite.items() if n not in anuntate}
+    toate.setdefault(zi, {}).update(gasite)
     # ținem doar ultimele 14 zile
     for k in sorted(toate)[:-14]:
         toate.pop(k, None)
     with open(DE_VERIFICAT, "w", encoding="utf-8") as f:
         json.dump(toate, f, ensure_ascii=False, indent=1)
-    if not gasite:
-        print(f"{zi}: presa nu vorbește despre nimic care să lipsească din jurnal.")
+    if not noi:
+        print(f"{zi}: nimic nou față de ce am anunțat deja ({len(gasite)} nume, toate văzute).")
         return
-    print(f"{zi}: {len(gasite)} posibile evenimente ratate — de verificat de un om:")
-    for cheie, g in gasite.items():
+    print(f"{zi}: {len(noi)} posibile evenimente ratate — de verificat de un om:")
+    for cheie, g in noi.items():
         print(f"   · [{g['tip']}] {', '.join(g['nume'])} — în {g['aparitii']} titluri")
         for t in g["titluri"]:
             print(f"        „{t['titlu']}”")

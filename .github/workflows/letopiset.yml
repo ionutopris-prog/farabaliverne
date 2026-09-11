@@ -54,8 +54,9 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.zi }}" ]; then
             ZI="${{ github.event.inputs.zi }}"
-          elif [ "${{ github.event.schedule }}" = "20 1 * * *" ]; then
-            # A doua trecere rulează după miezul nopții, deci ziua de închis e IERI.
+          elif [ "$(date -u +%H)" -lt 12 ]; then
+            # Oricare cron pornit după miezul nopții (și cel de 23:50, pe care GitHub
+            # l-a întârziat până la 01:30 pe 11 sept 2026) închide ziua de IERI.
             ZI=$(date -u -d "yesterday" +%Y-%m-%d)
           else
             ZI=$(date -u +%Y-%m-%d)
