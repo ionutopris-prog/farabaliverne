@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 11 Sep 2026 09:45:41 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 09:48:38 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Senzori cuantici răciți aproape de zero absolut măsoară razele X ale plutoniului cu precizie de până la 8 ori mai mare, utilă pentru controlul materialelor nucleare</title>
+      <link>https://farabaliverne.ro/a/nist-senzori-cuantici-plutoniu-control-nuclear.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/nist-senzori-cuantici-plutoniu-control-nuclear.html</guid>
+      <pubDate>Fri, 11 Sep 2026 06:46:41 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă a Institutului Național de Standarde și Tehnologie al SUA (NIST), cu colaboratori de la Universitatea Colorado Boulder, Laboratorul Național Los Alamos și Sorbona, a folosit senzori supraconductori răciți la o fracțiune de grad peste zero absolut pentru a măsura cu precizie fără precedent razele X emise de plutoniu, uraniu și neptuniu. Rezultatul poate face mai exactă verificarea internațională a materialelor nucleare — dar tehnologia rămâne, deocamdată, prea voluminoasă pentru inspecții de teren.
+
+Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Un tip extrem de rar de neuroni din cortex — sub 1% din total — poate declanșa somnul, arată un studiu Nature pe șoareci</title>
       <link>https://farabaliverne.ro/a/neuroni-sst-chodl-somn-cortex-nature.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 2 contestate.</desc
       <description>Președinta Comisiei Europene, Ursula von der Leyen, a anunțat luni, 7 septembrie 2026, la Nuuk, un pachet de investiții de 200 de milioane de euro (232 de milioane de dolari) pentru Groenlanda, plus o propunere de 530 de milioane de euro pentru bugetul UE 2028-2034. Anunțul vine chiar în ziua în care NATO a început exercițiul arctic „Arctic Shield”, cu aproximativ 400 de militari din 11 țări, pe fondul amenințărilor repetate ale președintelui Donald Trump de a prelua controlul asupra teritoriului danez.
 
 Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Trimișii lui Trump vorbesc despre „progrese substanțiale” după Moscova și Kiev — dar Zelenski spune că se așteaptă ca războiul să continue</title>
-      <link>https://farabaliverne.ro/a/witkoff-kushner-moscova-kiev-fara-acord-razboi-continua.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/witkoff-kushner-moscova-kiev-fara-acord-razboi-continua.html</guid>
-      <pubDate>Tue, 08 Sep 2026 10:01:29 +0000</pubDate>
-      <category>Extern</category>
-      <description>Emisarii lui Trump, Steve Witkoff și Jared Kushner, au avut peste trei ore de discuții cu Vladimir Putin la Moscova pe 5 septembrie 2026, apoi au mers la Kiev pe 6 septembrie pentru întâlniri cu Volodimir Zelenski și cu consilierii de securitate ai Marii Britanii, Franței și Germaniei. Nu s-a ajuns la niciun acord, iar Zelenski a declarat că se așteaptă ca războiul să continue — în contrast cu limbajul optimist folosit de emisarii americani.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
