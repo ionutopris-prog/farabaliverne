@@ -53,5 +53,11 @@
     "explanation": "Cortexul unui șoarece are milioane de neuroni, iar cei inhibitori (GABAergici) sunt deja o minoritate față de cei excitatori. Sst-Chodl reprezintă sub 1% chiar din această minoritate — un grup extrem de mic. Ce-i face relevanți nu e numărul, ci arhitectura: spre deosebire de majoritatea neuronilor inhibitori, care acționează local, aceștia au axoni lungi ce ajung simultan în mai multe regiuni corticale. Practic, un grup mic de celule poate „vorbi” cu tot cortexul deodată, ceea ce explică de ce activarea unui procent atât de mic de neuroni a fost suficientă să sincronizeze activitatea la scară largă. E un principiu întâlnit și în alte sisteme biologice: importanța unui tip de celulă nu se măsoară după cât de multe sunt, ci după cât de departe „ajunge” fiecare."
   },
   "persoane": [],
-  "poza": {}
+  "poza": {
+    "img_html": "<img src=\"../img/articole/neuroni-sst-chodl-somn-cortex-nature.jpg\" alt=\"Nature\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nature. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Alfombra_de_algas_amarillas,_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_42.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Alfombra de algas amarillas, parque nacional Ras Muhammad, Egipto, 2022-03-27, DD 42</a>\" de Diego Delso, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/neuroni-sst-chodl-somn-cortex-nature.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Diego Delso"
+  }
 }
