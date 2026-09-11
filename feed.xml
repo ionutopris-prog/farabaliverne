@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 11 Sep 2026 20:56:26 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:58:19 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>UE propune reguli noi la achizițiile publice: autoritățile ar putea exclude firmele chineze din contracte de peste 2.000 de miliarde de euro pe an</title>
+      <link>https://farabaliverne.ro/a/ue-achizitii-publice-excludere-firme-chineze-sejourne.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/ue-achizitii-publice-excludere-firme-chineze-sejourne.html</guid>
+      <pubDate>Fri, 11 Sep 2026 17:57:26 +0000</pubDate>
+      <category>Extern</category>
+      <description>Comisia Europeană, prin comisarul pentru industrie Stéphane Séjourné, a prezentat pe 9 septembrie 2026 o propunere de reformă a achizițiilor publice din UE — o piață de circa 2.600 de miliarde de euro pe an, 15% din PIB-ul blocului. Reforma ar permite autorităților publice să excludă firme din afara UE, explicit menționate fiind cele chineze, din contracte în sectoare precum energie, apă, căi ferate, porturi, aeroporturi și poștă, dacă țara de origine nu oferă acces reciproc pe propria piață de achiziții publice. Propunerea trebuie încă aprobată de Parlamentul European și de Consiliul UE.
+
+Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>ChatGPT a „confirmat” un festival care nu avea loc — peste zece autocare de turiști au ajuns degeaba la Jurilovca</title>
       <link>https://farabaliverne.ro/a/jurilovca-chatgpt-festival-inexistent-turisti.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contestat — cifrele oficiale chineze pentru Tibet au crescut
       <description>🌍 În dimineața de 8 septembrie 2026, rebelii houthi din Yemen au lansat zeci de rachete balistice și drone spre rafinăriile Aramco din Najran și Abha, baza aeriană Khamis Mushait și hub-ul industrial Jazan — cea mai amplă lovitură asupra teritoriului saudit de la redeschiderea acestui front. Coaliția condusă de Arabia Saudită confirmă 73 de răniți; incendiile au oprit temporar operațiunile la mai multe instalații energetice.
 
 Unde bat probele: Probat — atacul și numărul de 73 de răniți vin de la purtătorul de cuvânt oficial al coaliției saudite și sunt confirmate concordant de mai multe agenții internaționale independente; rămân neconfirmate independent doar amploarea exactă a pagubelor la fiecare instalație în parte și bilanțul unui atac saudit anterior asupra unei închisori din Yemen, invocat de houthi. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Peiu (AUR): România a avut creștere economică doar în trimestrele cu alegeri — cifrele INS arată altceva</title>
-      <link>https://farabaliverne.ro/a/peiu-aur-criza-economica-zece-trimestre-alegeri.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/peiu-aur-criza-economica-zece-trimestre-alegeri.html</guid>
-      <pubDate>Tue, 08 Sep 2026 23:05:22 +0000</pubDate>
-      <category>Economie</category>
-      <description>Liderul senatorilor AUR, Petrișor Peiu, a scris pe Facebook pe 8 septembrie 2026 că, din ultimele zece trimestre, România a avut „doar trei” de creștere economică — „exact acelea în care au avut loc alegeri” în 2024 și 2025 — și că guvernele Ciolacu și Bolojan au adus „cea mai gravă criză economică” de la aderarea la UE. Seria trimestrială publicată de INS arată o poziționare a trimestrelor de creștere diferită de cea descrisă de Peiu, deși recesiunea tehnică și inflația cea mai mare din UE sunt confirmate.
-
-Unde bat probele: Adevăr parțial, cu cifre care nu se potrivesc. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
