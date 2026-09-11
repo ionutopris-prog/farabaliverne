@@ -1873,13 +1873,13 @@ def main():
             s = pune_letopiset_panou(s)
             s = pune_carusel(s)
         s = pune_buton_salt(s)
-    # Google lua ca descriere a articolului LEGENDA („Probat; Contestat; Contrazis; În
-    # verificare") și subsolul („© 2026 Fără Baliverne…"), fiindcă stau în HTML înaintea
-    # articolului (11 sept 2026, captura fondatorului). `data-nosnippet` îi spune lui
-    # Google să nu ia text de acolo pentru fragmentul din rezultate; descrierea reală
-    # (dek-ul) rămâne în <meta name="description">.
-    s = s.replace('<div class="legend">', '<div class="legend" data-nosnippet>')
-    s = s.replace('<footer>', '<footer data-nosnippet>')
+        # Google lua ca descriere a articolului LEGENDA („Probat; Contestat; Contrazis; În
+        # verificare") și subsolul („© 2026 Fără Baliverne…"), fiindcă stau în HTML înaintea
+        # articolului (11 sept 2026, captura fondatorului). `data-nosnippet` îi spune lui
+        # Google să nu ia text de acolo pentru fragmentul din rezultate; descrierea reală
+        # (dek-ul) rămâne în <meta name="description">.
+        s = s.replace('<div class="legend">', '<div class="legend" data-nosnippet>')
+        s = s.replace('<footer>', '<footer data-nosnippet>')
         # Cloșcu a fost scoasă definitiv. Curățarea rămâne pentru totdeauna,
         # necondiționat: linkul se propagă prin șablonul articolelor, deci fără
         # ea ar reapărea la primul articol scris după un fișier vechi.
