@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 12 Sep 2026 20:25:37 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 20:27:39 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Curtea Supremă a Chile a demis 11 judecători care au călătorit în străinătate pe concediu medical — Asociația Magistraților vorbește despre un atac la independența justiției</title>
+      <link>https://farabaliverne.ro/a/chile-curtea-suprema-demite-11-judecatori-concedii-medicale.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/chile-curtea-suprema-demite-11-judecatori-concedii-medicale.html</guid>
+      <pubDate>Sat, 12 Sep 2026 17:26:24 +0000</pubDate>
+      <category>Extern</category>
+      <description>Plenul Curții Supreme din Chile a decis pe 11 septembrie 2026 demiterea a 11 judecători găsiți vinovați că au călătorit în străinătate în timp ce se aflau în concediu medical, respingând însă înlăturarea altor 26 aflați sub aceeași anchetă. Decizia a stârnit o reacție dură din partea Asociației Naționale a Magistraților, care nu contestă faptele individuale, ci procedura însăși — numind-o „unul dintre cele mai grave episoade pentru independența judiciară de la revenirea democrației”.
+
+Unde bat probele: Probat că demiterile au avut loc — corectitudinea procedurii rămâne un diferend nerezolvat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Parlamentul Nigeriei suspendă relațiile cu cel al Africii de Sud, invocând nigerieni uciși în valuri de violență xenofobă — dar cifrele diferă de la o zi la alta</title>
       <link>https://farabaliverne.ro/a/nigeria-africa-de-sud-parlament-suspenda-relatii-xenofobie-11-septembrie.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
       <description>Un vaccin experimental care combină protecția împotriva rabiei cu cea împotriva febrei Lassa — LASSARAB — a produs anticorpi la toți cei 44 de voluntari vaccinați dintr-un test de fază 1, fără evenimente adverse grave. E o veste bună într-un moment în care Nigeria trece prin cel mai grav episod de febră Lassa din ultimii ani, dar rezultatele arată doar că vaccinul e sigur și declanșează un răspuns imunitar — nu că protejează efectiv împotriva bolii.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Sondaj printre sute de astrobiologi: doar 6,6% cred că s-a găsit viață extraterestră pe K2-18b</title>
-      <link>https://farabaliverne.ro/a/k2-18b-sondaj-astrobiologi-viata-extraterestra.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/k2-18b-sondaj-astrobiologi-viata-extraterestra.html</guid>
-      <pubDate>Thu, 10 Sep 2026 06:46:23 +0000</pubDate>
-      <category>Știință</category>
-      <description>La mai bine de un an de la două anunțuri care au făcut înconjurul lumii — un posibil semnal chimic de viață în atmosfera exoplanetei K2-18b și un „posibil biosemnal” într-o rocă de pe Marte —, un sondaj făcut de cercetători de la Universitatea Durham printre sute de astrobiologi arată că marea majoritate a comunității științifice rămâne sceptică. Niciuna dintre descoperiri nu a fost infirmată; dar nici confirmată ca dovadă de viață.
-
-Unde bat probele: Contestat. Verificate: 2 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
