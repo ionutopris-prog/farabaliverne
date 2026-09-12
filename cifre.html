@@ -611,6 +611,12 @@
 <meta name="twitter:image" content="https://farabaliverne.ro/og-cover.png">
   <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
   <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro/", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png", "width": 180, "height": 180}, "sameAs": ["https://www.facebook.com/profile.php?id=61593641722625", "https://x.com/farabaliverne"], "foundingDate": "2026-08-08", "foundingLocation": "Danemarca", "correctionsPolicy": "https://farabaliverne.ro/corectari.html", "ethicsPolicy": "https://farabaliverne.ro/metodologie.html", "founder": {"@type": "Person", "name": "Ionuț Opriș", "url": "https://farabaliverne.ro/cine-suntem.html"}, "email": "contact@farabaliverne.ro"}, {"@context": "https://schema.org", "@type": "WebSite", "name": "Fără Baliverne", "url": "https://farabaliverne.ro/", "inLanguage": "ro", "publisher": {"@type": "Organization", "name": "Fără Baliverne"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://farabaliverne.ro/cauta.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]</script>
+<style id="fb-reparatii">
+  /* Bara verde de sus, pe telefon: textul trece pe două rânduri, dar bara avea
+     înălțime fixă 38px + overflow:hidden, deci al doilea rând (Copenhaga · ora
+     · grade) ieșea tăiat pe jumătate (poza fondatorului, 12 sept 2026, 21:21). */
+  @media(max-width:720px){.topbar .wrap{height:auto;min-height:38px;padding:7px 0;overflow:visible;row-gap:4px}}
+</style>
 </head>
 <body>
 
@@ -1015,6 +1021,7 @@
   window.addEventListener('resize', potriveste);
 })();
 </script>
+
 
 
 <style>

@@ -612,6 +612,12 @@
   <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
     <link rel="next" href="https://farabaliverne.ro/economie-2.html">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Economie — toate verificările", "url": "https://farabaliverne.ro/economie.html", "inLanguage": "ro", "isPartOf": {"@type": "WebSite", "url": "https://farabaliverne.ro/"}, "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://farabaliverne.ro/"}, {"@type": "ListItem", "position": 2, "name": "Economie", "item": "https://farabaliverne.ro/economie.html"}]}}</script>
+<style id="fb-reparatii">
+  /* Bara verde de sus, pe telefon: textul trece pe două rânduri, dar bara avea
+     înălțime fixă 38px + overflow:hidden, deci al doilea rând (Copenhaga · ora
+     · grade) ieșea tăiat pe jumătate (poza fondatorului, 12 sept 2026, 21:21). */
+  @media(max-width:720px){.topbar .wrap{height:auto;min-height:38px;padding:7px 0;overflow:visible;row-gap:4px}}
+</style>
 </head>
 <body>
 
@@ -2434,6 +2440,7 @@
   window.addEventListener('resize', potriveste);
 })();
 </script>
+
 
 
 <style>

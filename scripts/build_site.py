@@ -1515,6 +1515,25 @@ BUTON_CAUTA = """
 _RE_BUTON_CAUTA = re.compile(r"\n<style>\n  \.fb-cauta\{.*?var a = document\.createElement\('a'\);.*?\}\)\(\);\n</script>\n", re.S)
 
 
+# Reparații de CSS care trebuie să ajungă pe TOATE paginile, indiferent din ce
+# șablon vin. Se pun idempotent (se înlocuiește blocul vechi la fiecare build).
+CSS_REPARATII = """<style id="fb-reparatii">
+  /* Bara verde de sus, pe telefon: textul trece pe două rânduri, dar bara avea
+     înălțime fixă 38px + overflow:hidden, deci al doilea rând (Copenhaga · ora
+     · grade) ieșea tăiat pe jumătate (poza fondatorului, 12 sept 2026, 21:21). */
+  @media(max-width:720px){.topbar .wrap{height:auto;min-height:38px;padding:7px 0;overflow:visible;row-gap:4px}}
+</style>
+"""
+_RE_CSS_REPARATII = re.compile(r'<style id="fb-reparatii">.*?</style>\n?', re.S)
+
+
+def pune_css_reparatii(s):
+    if "</head>" not in s:
+        return s
+    s = _RE_CSS_REPARATII.sub("", s)
+    return s.replace("</head>", CSS_REPARATII + "</head>", 1)
+
+
 def pune_buton_cauta(s, pref=""):
     """Butonul de căutare plutitor: varianta veche (dacă e) se scoate și se pune
     cea curentă, la fiecare build — altfel paginile deja construite rămân cu
@@ -1988,6 +2007,7 @@ def main():
             s = pune_letopiset_panou(s)
             s = pune_carusel(s)
         s = pune_buton_salt(s)
+        s = pune_css_reparatii(s)
         if os.sep + "a" + os.sep not in f and not f.endswith("cauta.html"):
             s = pune_buton_cauta(s, "../" if os.sep + "parlamentar" + os.sep in f else "")
         # Google lua ca descriere a articolului LEGENDA („Probat; Contestat; Contrazis; În

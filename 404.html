@@ -209,6 +209,12 @@
   @media(max-width:640px){.letopiset .zi{display:block;min-width:0;margin-bottom:2px}}
 </style>
   <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
+<style id="fb-reparatii">
+  /* Bara verde de sus, pe telefon: textul trece pe două rânduri, dar bara avea
+     înălțime fixă 38px + overflow:hidden, deci al doilea rând (Copenhaga · ora
+     · grade) ieșea tăiat pe jumătate (poza fondatorului, 12 sept 2026, 21:21). */
+  @media(max-width:720px){.topbar .wrap{height:auto;min-height:38px;padding:7px 0;overflow:visible;row-gap:4px}}
+</style>
 </head>
 <body>
   <div class="box">
@@ -369,6 +375,7 @@
   pune();
 })();
 </script>
+
 
 
 <style>

@@ -611,6 +611,12 @@
 <meta name="twitter:image" content="https://farabaliverne.ro/og-cover.png">
   <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
   <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "Fără Baliverne", "url": "https://farabaliverne.ro/", "logo": {"@type": "ImageObject", "url": "https://farabaliverne.ro/apple-touch-icon.png", "width": 180, "height": 180}, "sameAs": ["https://www.facebook.com/profile.php?id=61593641722625", "https://x.com/farabaliverne"], "foundingDate": "2026-08-08", "foundingLocation": "Danemarca", "correctionsPolicy": "https://farabaliverne.ro/corectari.html", "ethicsPolicy": "https://farabaliverne.ro/metodologie.html", "founder": {"@type": "Person", "name": "Ionuț Opriș", "url": "https://farabaliverne.ro/cine-suntem.html"}, "email": "contact@farabaliverne.ro"}, {"@context": "https://schema.org", "@type": "WebSite", "name": "Fără Baliverne", "url": "https://farabaliverne.ro/", "inLanguage": "ro", "publisher": {"@type": "Organization", "name": "Fără Baliverne"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://farabaliverne.ro/cauta.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]</script>
+<style id="fb-reparatii">
+  /* Bara verde de sus, pe telefon: textul trece pe două rânduri, dar bara avea
+     înălțime fixă 38px + overflow:hidden, deci al doilea rând (Copenhaga · ora
+     · grade) ieșea tăiat pe jumătate (poza fondatorului, 12 sept 2026, 21:21). */
+  @media(max-width:720px){.topbar .wrap{height:auto;min-height:38px;padding:7px 0;overflow:visible;row-gap:4px}}
+</style>
 </head>
 <body>
 
@@ -999,6 +1005,7 @@
 })();
 </script>
 
+
 <style>
   .fb-cauta{position:fixed;right:18px;bottom:18px;z-index:9996;width:46px;height:46px;
     border-radius:50%;border:1px solid var(--line-2);background:var(--card);
@@ -1009,8 +1016,9 @@
   .fb-cauta:hover{background:var(--accent);border-color:var(--accent);color:#fff;
     transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
   @media(max-width:980px){
-    .fb-cauta{right:12px;bottom:12px;width:42px;height:42px}
-    .fb-cauta.vizibil{display:flex}
+    .fb-cauta{right:12px;bottom:12px;width:42px;height:42px;display:flex}
+    /* pe telefon, pastila din meniu dispare: căutarea e butonul plutitor, în oglindă cu săgeata */
+    .nav a.search{display:none}
   }
 </style>
 <script>
@@ -1023,14 +1031,9 @@
     + 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
     + 'stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
   document.body.appendChild(a);
-  function inalt(){
-    return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
-  }
-  // aceeași regulă ca săgeata: doar pe paginile mai lungi de ~două ecrane
-  function pune(){ a.classList.toggle('vizibil', inalt() > window.innerHeight * 1.8); }
-  window.addEventListener('scroll', pune, {passive:true});
-  window.addEventListener('resize', pune);
-  pune();
+  // Mereu vizibil pe telefon (pastila din meniu e ascunsă acolo), deci nu
+  // depinde de lungimea paginii ca săgeata — altfel pe paginile scurte n-ar
+  // mai exista niciun buton de căutare.
 })();
 </script>
 </body>
