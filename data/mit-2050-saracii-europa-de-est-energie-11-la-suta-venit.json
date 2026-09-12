@@ -1,0 +1,125 @@
+{
+  "slug": "mit-2050-saracii-europa-de-est-energie-11-la-suta-venit",
+  "title": "MIT a rulat 3.735 de scenarii pentru 2050: în Europa de Est, cei mai săraci 10 % ar putea da 11,3 % din venit pe energie, cei mai bogați sub 5 %. În Africa de Sud, săracii ar da jumătate din venit pe mâncare",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-09-13",
+  "source": "MIT News · revista Earth's Future",
+  "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908",
+  "dek": "Nu o prognoză, ci o hartă a riscurilor: cercetătorii de la MIT, Stanford, Tufts, Tulane și Laboratorul Național Pacific Northwest au variat 12 factori (populație, PIB, distribuția veniturilor, comerț agricol, climă, energie, apă) în 3.735 de scenarii, pe 32 de regiuni ale lumii, 235 de bazine hidrografice și 384 de zone de folosință a terenului. Concluzia care contează pentru noi: în Europa de Est, povara energiei pentru cei mai săraci 10 % ajunge la 11,3 % din venit, față de sub 5 % pentru cei mai bogați. Iar „media regională” ascunde exact oamenii cei mai expuși. Publicat în Earth's Future, cu acces liber.",
+  "mainVerdict": "Probat ce descrie MIT: metoda (modelul GCAM 7.1, 12 factori, 3.735 de scenarii), cifrele pe regiuni și pe decile de venit, inclusiv Europa de Est. Contestat, chiar de autori: sunt intervale de scenarii, nu predicții; incertitudinea pe 25 de ani e mare; iar „Europa de Est” e o regiune de model, nu România anume",
+  "probat": [
+    {
+      "text": "Lucrarea „Identifying Key Uncertainties and Drivers of Future Resource Security Outcomes Through a Multisector Scenario Ensemble” a apărut în revista Earth's Future (Uniunea Geofizică Americană), cu acces liber (Creative Commons BY-NC-ND 4.0). Autori: Jennifer Morris (MIT Center for Sustainability Science and Strategy și MIT Energy Initiative), Gi Joo Kim (Universitatea Tulane), Brian O'Neill și Marshall Wise (Laboratorul Național Pacific Northwest), John Weyant (Stanford), Jonathan Lamontagne (Tufts). Finanțare: Departamentul Energiei al SUA, Stanford, Fundația Națională de Cercetare a Coreei.",
+      "sources": [
+        {
+          "name": "MIT News — articolul din 8 septembrie 2026 (tradus integral mai jos)",
+          "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908"
+        },
+        {
+          "name": "Earth's Future — lucrarea, cu acces liber",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF007585"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: modelul Global Change Analysis Model (GCAM) versiunea 7.1, care leagă energia, economia, apa, terenul și clima, cu lumea împărțită în 32 de regiuni, 235 de bazine hidrografice și 384 de zone de folosință a terenului. Au fost variate 12 mari variabile (populație, PIB, distribuția veniturilor, intensitatea carbonului, folosința terenului, comerțul agricol, mai multe scenarii de consum de energie și de apă) și rulate 3.735 de scenarii pentru 2050. Scopul declarat: nu „viitorul cel mai probabil”, ci „condițiile care produc rezultate diferite”.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea „Filling a gap”",
+          "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908"
+        }
+      ]
+    },
+    {
+      "text": "Cifrele: în Africa australă, cei mai săraci 10 % ar putea cheltui 49,6 % din venit pe mâncare, față de 5,5 % pentru cei mai bogați 10 %; în Africa de Vest, 48,4 %; în Africa de Est, 42,5 %. Pentru comparație, în 2015 cei mai săraci din Africa de Vest dădeau circa 25 % pe mâncare; scenariile pentru 2050 merg de la 20 % la 75 %. La energie: în părți din Orientul Mijlociu, 1,7 % din venit pentru cei mai bogați și 18,9 % pentru cei mai săraci; în Europa de Est, 11,3 % pentru cei mai săraci și sub 5 % pentru cei mai bogați.",
+      "sources": [
+        {
+          "name": "MIT News — paragrafele cu cifre pe regiuni",
+          "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Nu e o prognoză. Autorii spun asta de trei ori, în trei feluri: „metoda a fost concepută să identifice condițiile care produc rezultate diferite, nu să prezică un viitor cel mai probabil”; „există multe incertitudini, iar incertitudinea face mereu parte din modelarea economiei globale”; „variația largă a poverii proiectate reflectă gama largă de scenarii posibile”. Cine citește „MIT prezice că săracii vor da jumătate din venit pe mâncare în 2050” citește altceva decât scrie studiul.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea „Understanding the dynamics”",
+          "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908"
+        }
+      ]
+    },
+    {
+      "text": "„Europa de Est” e o regiune a modelului GCAM, nu România. În GCAM, regiunea cuprinde mai multe țări din estul Europei, cu economii și sisteme de energie diferite; cifra de 11,3 % e pentru decila cea mai săracă a acestei regiuni, în anumite scenarii. Nu există în textul MIT o cifră pentru România și nici intervalul (minim–maxim) pentru Europa de Est, așa cum există pentru Africa. Lucrarea are acces liber; cine vrea cifra pe regiune și pe scenariu o poate căuta acolo.",
+      "sources": [
+        {
+          "name": "Earth's Future — lucrarea, cu materialul suplimentar",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF007585"
+        }
+      ]
+    },
+    {
+      "text": "Povara la energie e „rezidențială”, adică ce plătește gospodăria pentru casă (curent, încălzire), nu combustibilul pentru mașină și nici energia încorporată în prețul altor bunuri. E o definiție îngustă, care subestimează costul total al energiei pentru o familie săracă. Autorii nu ascund asta; e felul în care modelul contabilizează.",
+      "sources": [
+        {
+          "name": "MIT News — paragraful despre „residential energy burden”",
+          "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cea mai bună propoziție din studiu e a lui Gi Joo Kim: „mediile regionale pot face riscurile să pară mai ușor de gestionat decât sunt”. E exact ce se întâmplă când un guvern anunță că „prețul mediu la energie a scăzut”: media e a tuturor, factura e a fiecăruia. Că o echipă de la MIT a rulat 3.735 de scenarii ca să ajungă aici pare mult; dar cifra pe decile, 11,3 % contra sub 5 %, e genul de lucru pe care nimeni nu-l calculează pentru Europa de Est, și cu atât mai puțin pentru România. Ar fi treaba cuiva de la noi să o facă."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, articol semnat de Peter Dizikes, publicat pe 8 septembrie 2026. Republicat conform politicii oficiale MIT News (titlu, subtitlu, semnătura autorului, mențiunea „MIT News” cu link la original în capul textului; „Reprinted with permission of MIT News” la final). Imaginile lor NU sunt preluate.\n\nCe s-a verificat: că lucrarea există în Earth's Future, cu acces liber, cu autorii și afilierile citate; cifrele din textul MIT. Ce am adăugat noi: că „Europa de Est” e o regiune de model, nu România; că povara energiei e doar cea rezidențială; și că nu e o prognoză, în cuvintele autorilor. Nu decretăm nimic; arătăm ce s-a modelat și ce spun autorii că nu se poate spune.",
+  "persoane": [
+    "Jennifer Morris",
+    "Gi Joo Kim"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "Study predicts large disparities in access to food, water, and energy in 2050",
+    "publicatie": "MIT News",
+    "autor": "Peter Dizikes, MIT News",
+    "data": "8 septembrie 2026",
+    "url": "https://news.mit.edu/2026/study-predicts-large-disparities-access-food-water-energy-2050-0908",
+    "nota_sus": "Titlul în română: „Un studiu prevede disparități mari în accesul la hrană, apă și energie în 2050”. Subtitlul original: „În unele regiuni ale lumii, cei mai săraci oameni ar putea cheltui circa 50 % din venit pe hrană, în timp ce cei mai bogați cheltuiesc circa 5 %.”",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "Cum va evolua accesul global la hrană, apă și energie în deceniile următoare? Un studiu nou, la care sunt coautori cercetători de la MIT, sugerează că răspunsurile pot fi foarte diferite în funcție de regiune, de resursă și de venit.",
+      "Pe baza unei modelări extinse a multor scenarii diferite pentru resurse, studiul constată că în unele regiuni oamenii cu venituri mici ar putea cheltui în jur de 50 % din venit pe hrană până în anul 2050, spre deosebire de grupurile cu venituri mari, care ar putea cheltui circa 5 % din venit pe hrană în aceleași zone.",
+      "„Pentru multe dintre aceste rezultate, grupurile cu venituri mai mici se confruntă cu o insecuritate potențială mult mai gravă”, spune Jennifer Morris, cercetătoare principală la Centrul MIT pentru Știința și Strategia Sustenabilității și la Inițiativa MIT pentru Energie, coautoare a unei lucrări noi care detaliază constatările. Rezultatele, notează ea, pot fi evaluate de decidenții din diferite regiuni ale lumii pentru a înțelege ce riscuri de securitate a resurselor, pe termen lung și la scară mare, pot apărea pentru diferite părți ale populației lor.",
+      "„Orice lucru care îți ia jumătate din venit e potențial destabilizator pentru întreaga ta viață, fiindcă lasă atât de puține resurse pentru celelalte nevoi critice și necesități de bază”, spune Morris.",
+      "Studiul se concentrează pe proiectarea accesului viitor la hrană, apă și energie, pe baza variației pe termen lung a unei duzini de factori majori care influențează disponibilitatea lor, de la condițiile economice și producția agricolă la condițiile comerciale, climă, folosința terenului și altele.",
+      "„Acest studiu arată că nu există un singur factor determinant al viitoarei insecurități alimentare, energetice și a apei”, spune Gi Joo Kim, cercetător la Universitatea Tulane și coautor al lucrării. „Venitul e important, dar condițiile regionale, folosința terenului, sistemele energetice, disponibilitatea apei și comportamentul consumatorilor modelează toate riscurile cu care se confruntă oamenii.” Pentru decidenți, adaugă el, „asta înseamnă că trebuie să ia în calcul combinațiile specifice de factori care creează vulnerabilitate în fiecare regiune”.",
+      "Lucrarea, „Identifying Key Uncertainties and Drivers of Future Resource Security Outcomes Through a Multisector Scenario Ensemble”, apare în revista Earth's Future.",
+      "Pe lângă Morris și Kim, autorii sunt Brian O'Neill, geolog la Laboratorul Național Pacific Northwest; Marshall Wise, inginer de sisteme la Laboratorul Național Pacific Northwest; John Weyant, profesor de științe ale managementului și inginerie la Universitatea Stanford; și Jonathan Lamontagne, profesor asociat de inginerie civilă și de mediu la Universitatea Tufts.",
+      "ACOPERIREA UNUI GOL. Studiul actual acoperă un gol din modelarea folosită de oamenii de știință care studiază chestiuni precum securitatea resurselor pe termen lung. Date fiind complicațiile analizelor pe termen lung, multe studii au folosit ceea ce oamenii de știință numesc „căi socio-economice comune”, un set mic de scenarii care acoperă narațiuni globale largi despre viitor, în loc să exploreze rezultate specifice, cum ar fi felul în care accesul la resurse pe termen lung se poate schimba, în mod corelat, între grupurile de venit din diferite regiuni ale lumii. Acum doi ani, același grup de autori a scris o lucrare care cerea analize de scenarii mai specifice socio-economic, concentrate pe rezultate pentru bunăstarea umană; studiul de față e efortul lor de a dezvolta acest tip de modelare.",
+      "„Pentru acest tip de studiu, în care ne concentrăm pe rezultate pentru bunăstarea umană, partea de venit e cu adevărat importantă”, spune Morris.",
+      "Pentru a realiza studiul, cercetătorii au adoptat un cadru existent în domeniu, Global Change Analysis Model (GCAM) versiunea 7.1, care reprezintă interacțiunile dintre energie, economii, apă, teren și climă, împărțind lumea în 32 de regiuni, 235 de bazine hidrografice și 384 de regiuni de folosință a terenului și făcând ajustări pentru lucruri precum prețurile estimate ale mărfurilor în timp.",
+      "Grupul de cercetare a folosit 12 variabile principale legate de disponibilitatea resurselor, între care populația, PIB-ul, distribuția veniturilor, intensitatea carbonului, folosința terenului, comerțul agricol, mai multe scenarii de consum de energie, mai multe proiecții de folosire a apei și altele. Au rulat simulări pentru 3.735 de scenarii diferite care implică acești factori, pentru a înțelege mai bine gama de rezultate posibile pentru resurse până în 2050.",
+      "În linii mari, modelarea scoate la iveală unele variații regionale semnificative. În 2050, securitatea alimentară ar putea fi cea mai acută în părți din Africa subsahariană, în timp ce securitatea energetică ar putea fi cea mai acută pentru locuitorii cu venituri mici din unele părți ale Asiei, Europei de Est și Orientului Mijlociu.",
+      "Dar în interiorul oricărei regiuni poate exista în continuare o variație substanțială a securității resurselor. În Africa australă, modelarea sugerează că cei mai săraci 10 % din populație, după venit, ar putea cheltui 49,6 % din venit pe hrană, față de doar 5,5 % pentru cei mai bogați 10 % din populație. În Africa de Vest și de Est, povara alimentară proiectată pentru cei 10 % de la baza veniturilor e de 48,4 % și, respectiv, 42,5 %.",
+      "Pentru a înțelege schimbarea potențială pe care o reprezintă asta în timp, cercetătorii au comparat rezultatele cu datele din anul 2015 din modelul GCAM. Pentru grupul cu cele mai mici venituri din Africa de Vest, în 2015 povara alimentară medie era de circa 25 % din venitul oamenilor, față de estimările pentru 2050, care merg de la circa 20 % la 75 % din venit. În Africa australă, grupul cu cele mai mici venituri cheltuia circa 20 % din venit pe hrană în 2015, dar modelarea cercetătorilor proiectează o creștere a poverii alimentare între 25 % și 65 % din venit. Variația largă a poverii proiectate reflectă gama largă a scenariilor viitoare posibile.",
+      "Când vine vorba de energie, variația în funcție de venit e la fel de vizibilă. În unele părți ale Orientului Mijlociu, de exemplu, povara energiei rezidențiale în 2050 e estimată la doar 1,7 % pentru tranșa cu cele mai mari venituri, dar la 18,9 % pentru tranșa cu cele mai mici venituri; în Europa de Est, povara energiei ajunge la 11,3 % din venit pentru tranșa cu cele mai mici venituri, în timp ce rămâne sub 5 % pentru tranșa cu cele mai mari venituri.",
+      "„Mediile regionale pot face riscurile viitoare pentru securitatea resurselor să pară mai ușor de gestionat decât sunt în realitate”, spune Kim. „Asta înseamnă că analizele care se opresc la medie pot rata exact populațiile cele mai vulnerabile la schimbările viitoare.”",
+      "ÎNȚELEGEREA DINAMICII. Desigur, așa cum subliniază cercetătorii, există multe incertitudini când vine vorba de accesul la resurse, iar incertitudinea face întotdeauna parte din modelarea economiei și a resurselor globale. Totuși, ei cred că acest tip de proiecții poate oferi o perspectivă mai detaliată asupra condițiilor sociale din 2050 decât a fost disponibilă până acum.",
+      "„Cel puțin, evidențiază zonele de îngrijorare și arată că ele diferă în diferite părți ale lumii”, spune Morris. „Unul dintre rezultatele acestui tip de studiu e să cartografieze asta și să ofere acest fel de înțelegere. Asta poate orienta și studiile ulterioare asupra unor regiuni și preocupări specifice.”",
+      "Cercetătorii cred, de asemenea, că rezultatele vor oferi o nouă foaie de parcurs pentru decidenții preocupați de asigurarea resurselor pe termen lung pentru întreaga lor societate. Deși e valoros să ai proiecții noi, modelarea îi ajută pe analiști și pe decidenți să vadă și care factori influențează cel mai clar rezultatele viitoare pentru resurse.",
+      "„Metoda noastră a fost concepută pentru a identifica condițiile care produc rezultate diferite pentru securitatea resurselor, nu pentru a prezice un singur viitor, cel mai probabil”, spune Kim.",
+      "„E o abordare a scenariilor diferită de ceea ce vedem de obicei”, adaugă Morris. „Abordarea și metoda au atras oamenii fiindcă au o gamă largă de utilizări și aplicații.”",
+      "Cercetarea a fost susținută, în parte, de Departamentul Energiei al SUA, de Universitatea Stanford și de Fundația Națională de Cercetare a Coreei."
+    ]
+  },
+  "poza": {
+    "img_html": "<img src=\"../img/articole/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.jpg\" alt=\"Jennifer Morris\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Jennifer Morris. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Attn_editors-_NASA_Hubble_Releases_New_Images_To_Celebrate_Its_35th_Year_Of_Operations_(SVS14825_-_Hubble_35_Jennifer_Wiseman_canned).webm\" rel=\"nofollow noopener\" target=\"_blank\">Attn editors- NASA Hubble Releases New Images To Celebrate Its 35th Year Of Operations (SVS14825 - Hubble 35 Jennifer Wiseman canned)</a>\" de NASA's Scientific Visualization Studio - eMITS/Michelle Handleman, NASA Interns/, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA's Scientific Visualization Studio - eMITS/Michelle Handleman, NASA Interns/"
+  }
+}

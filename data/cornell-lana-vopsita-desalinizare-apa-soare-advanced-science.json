@@ -1,0 +1,118 @@
+{
+  "slug": "cornell-lana-vopsita-desalinizare-apa-soare-advanced-science",
+  "title": "Cornell a făcut apă potabilă din apă de mare cu lână de oaie vopsită în negru și pusă la soare: 2,43 litri pe metru pătrat pe oră, sare sub limita OMS, zece ore fără să se înfunde. Materialul e biodegradabil și nu lasă microplastic",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-09-13",
+  "source": "Cornell Chronicle · revista Advanced Science",
+  "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative",
+  "dek": "Un laborator de design vestimentar de la Cornell, condus de Larissa Shepherd, a vopsit lâna cu polidopamină, un polimer inspirat de melanina din midii, care absoarbe lumina infraroșie și o face căldură. Anul trecut, cu un pas în plus de gravare cu plasmă, aceeași lână devenise „ultranegrul” de record, copiat după o pasăre a paradisului. Acum, pusă vertical în apă sărată, sub un simulator solar, cu oglinzi pe spate, a evaporat 2,43 kilograme de apă pe metru pătrat pe oră (varianta doar vopsită: 2,21), aproape dublu față de sistemele orizontale clasice. Publicat în Advanced Science pe 6 septembrie 2026, cu acces liber.",
+  "mainVerdict": "Probat ce descrie Cornell: metoda (evaporare solară interfacială), cifrele pe cele trei configurații, sarea sub limita OMS, zece ore fără înfundare, acces liber la lucrare. Contestat, chiar de autori: e la scară de laborator, sub simulator solar, nu în soare real; nu s-a testat pe apă de ploaie sau uzată; iar gravarea cu plasmă poate să nu merite costul",
+  "probat": [
+    {
+      "text": "Lucrarea „Polydopamine-Wool Textiles for Sustainable Interfacial Solar Vapor Generation” a apărut în Advanced Science pe 6 septembrie 2026, cu acces liber (Creative Commons BY 4.0). Autor principal: Kyuin Park (master 2023, doctorat 2026), din laboratorul Responsive Apparel Design al lui Larissa Shepherd, profesoară asistentă la Departamentul de Design Centrat pe Om, Colegiul de Ecologie Umană, Cornell. Coautori: Hansadi Jayamaha, Lenan Zhang (profesor asistent de inginerie mecanică și aerospațială, al cărui laborator a făcut simularea solară), Jintong Gao, Yipu Wang, Mia Bressler. Finanțare: National Science Foundation, Cornell Atkinson Center, AATCC Foundation.",
+      "sources": [
+        {
+          "name": "Cornell Chronicle — articolul din 9 septembrie 2026 (tradus integral mai jos)",
+          "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative"
+        },
+        {
+          "name": "Advanced Science — lucrarea, cu acces liber",
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77609"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: „generare solară interfacială de vapori”: materialul e scufundat parțial, absoarbe apa prin capilaritate și încălzește doar stratul de la suprafață, care se evaporă; vaporii se condensează în apă potabilă, sarea rămâne în material. Au fost testate trei arhitecturi de lână vopsită, în trei configurații: orizontal (paralel cu apa), vertical pe o față, vertical pe două fețe cu oglinzi în spate. Cel mai bun rezultat: lâna ultraneagră, vertical pe două fețe, 2,43 kg de apă pe metru pătrat pe oră; lâna doar cu polidopamină, 2,21 kg. Ambele, aproape dublul sistemelor orizontale clasice. Zece ore de funcționare continuă fără acumulare de sare, iar sarea din apa obținută „mult sub” standardul OMS pentru apă potabilă.",
+      "sources": [
+        {
+          "name": "Cornell Chronicle — paragrafele despre ISVG și rezultate",
+          "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative"
+        }
+      ]
+    },
+    {
+      "text": "Contextul dat de Cornell: până în 2050, aproape jumătate din populația urbană a lumii nu va avea destulă apă potabilă, cu 50 % mai mult decât în 2016. Argumentul pentru lână: „e biodegradabilă și nu trebuie să ne facem griji pentru microplastice și alte lucruri care nu se degradează”, spune Shepherd; ideea e ca zonele fără infrastructură să poată face apă curată din apă sărată cu materiale naturale.",
+      "sources": [
+        {
+          "name": "Cornell Chronicle — primele paragrafe și citatele lui Larissa Shepherd",
+          "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Laborator, nu deșert: cifrele sunt sub un simulator solar, în condiții controlate, cu oglinzi puse în spatele materialului. Soarele real variază, vântul și praful există, iar 2,43 litri pe metru pătrat pe oră e un vârf, nu o medie zilnică. Cornell nu dă randamentul pe o zi întreagă și nici cât de repede scade după cele zece ore testate.",
+      "sources": [
+        {
+          "name": "Cornell Chronicle — descrierea testelor cu simulator solar",
+          "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative"
+        }
+      ]
+    },
+    {
+      "text": "Nu s-a testat pe apă de ploaie sau uzată; Shepherd spune că asta urmează, împreună cu proiecte mai bune de colectare a apei. Și pasul de gravare cu plasmă, care face lâna „ultraneagră”, „s-ar putea să nu merite”, spune tot ea: polidopamina singură e atât de eficientă, încât diferența (2,21 față de 2,43) e „un pas mic”; ar conta doar pe un an sau mai mult de folosire.",
+      "sources": [
+        {
+          "name": "Cornell Chronicle — citatele despre plasmă și studiile viitoare",
+          "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative"
+        }
+      ]
+    },
+    {
+      "text": "Cornell nu spune cât costă un metru pătrat de lână vopsită cu polidopamină, cât durează materialul în apă sărată și cât de des trebuie înlocuit. Fără aceste cifre, „ieftin și la îndemână” rămâne o promisiune, nu un calcul. Lucrarea are acces liber; cine vrea detaliile de material le poate citi acolo.",
+      "sources": [
+        {
+          "name": "Advanced Science — lucrarea",
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77609"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Îmi place că vine dintr-un laborator de haine, nu de inginerie chimică: aceiași oameni care anul trecut au făcut cea mai neagră țesătură din lume, ca să copieze o pasăre, au întrebat-o acum ce altceva știe să facă, și răspunsul e apă. Cifra de 2,43 e din laborator și trebuie citită ca atare. Dar principiul, un material natural care se descompune singur în loc să lase microplastic, e exact contrariul a ceea ce facem de obicei cu apa, și merită urmărit."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: Cornell Chronicle, publicația oficială a Universității Cornell, articol publicat pe 9 septembrie 2026. Politica lor de copyright spune explicit: „Permission is granted to excerpt or reprint any of this material in news or information media”, cu creditarea sursei; fotografiile cer permisiune separată de la Cornell University Photography și NU sunt preluate. Traducerea aparține redacției Fără Baliverne.\n\nCe s-a verificat: că lucrarea există în Advanced Science, cu acces liber, cu autorii și afilierile citate; cifrele din textul Cornell. Ce am adăugat noi: că rezultatele sunt din laborator, sub simulator, și că lipsesc costul și durata de viață a materialului. Nu decretăm nimic; arătăm ce s-a măsurat.",
+  "persoane": [
+    "Larissa Shepherd",
+    "Kyuin Park",
+    "Lenan Zhang"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "Dyed wool a sustainable water purification alternative",
+    "publicatie": "Cornell Chronicle",
+    "autor": "Cornell Chronicle (contact media: Kaitlyn Serrao)",
+    "data": "9 septembrie 2026",
+    "url": "https://news.cornell.edu/stories/2026/09/dyed-wool-sustainable-water-purification-alternative",
+    "nota_sus": "Titlul în română: „Lâna vopsită, o alternativă sustenabilă de purificare a apei”. Text republicat conform politicii de copyright a Cornell Chronicle (https://news.cornell.edu/about/copyright): „Permission is granted to excerpt or reprint any of this material in news or information media.”",
+    "nota_jos": "Sursa: Cornell Chronicle, Universitatea Cornell (https://news.cornell.edu/). Traducerea în limba română aparține redacției Fără Baliverne; fotografiile Cornell nu sunt preluate.",
+    "paragrafe": [
+      "Oamenii de știință estimează că, până în 2050, aproape jumătate din populația urbană globală nu va avea suficientă apă potabilă, o creștere de 50 % față de 2016. E nevoie de metode noi și sustenabile de desalinizare, iar cercetătorii de la Cornell au o soluție potențială, inspirată în parte de pasărea paradisului.",
+      "Folosind o metodă de distilare a apei care valorifică lumina soarelui prin încălzirea suprafeței unui corp de apă, un grup condus de Larissa Shepherd, master 2013, doctorat 2017, profesoară asistentă la Departamentul de Design Centrat pe Om din Colegiul de Ecologie Umană, a demonstrat fezabilitatea folosirii lânii vopsite cu polidopamină și a lânii ultranegre ca metodă ieftină și regenerabilă de purificare a apei.",
+      "„Ideea e să folosim materiale naturale și să le folosim într-un fel care să permită zonelor care nu au neapărat multă infrastructură să poată produce apă curată din apă sărată”, a spus Shepherd. „Lâna e biodegradabilă și nu trebuie să ne facem griji pentru microplastice și pentru alte lucruri care nu se degradează.”",
+      "Kyuin Park, master 2023, doctorat 2026, fost membru al laboratorului Responsive Apparel Design (RAD) al lui Shepherd, e autorul principal al lucrării „Polydopamine-Wool Textiles for Sustainable Interfacial Solar Vapor Generation”, publicată pe 6 septembrie în Advanced Science.",
+      "Coautorii includ membra laboratorului Hansadi Jayamaha, doctorat 2026, și Lenan Zhang, profesor asistent la Școala Sibley de Inginerie Mecanică și Aerospațială din Colegiul de Inginerie Duffield al Cornell, al cărui laborator a ajutat la simularea solară și la analiză.",
+      "Polidopamina (PDA) e un polimer inspirat de melanină, o proteină care se găsește în midii. PDA are proprietăți puternice de legare chimică și absoarbe lumina din infraroșul apropiat, transformând-o în căldură. Vopsirea lânii cu polidopamină de către laboratorul RAD, împreună cu un pas suplimentar de gravare cu plasmă care creează nanofibrile ce captează lumina, a produs anul trecut un material ultranegru, imitând negrul adânc, izbitor, al păsării-pușcaș magnifice, o pasăre a paradisului, care a fost cea mai întunecată țesătură înregistrată vreodată.",
+      "Pentru această lucrare, cercetătorii au folosit generarea solară interfacială de vapori (ISVG), o metodă relativ nouă de evaporare și desalinizare. În ISVG, materiale specializate sunt parțial scufundate și încălzite de lumina soarelui; ele încălzesc suprafața de sus a apei în timp ce o absorb și o transformă în vapori.",
+      "Materialul reține marea majoritate a sării, iar vaporii sunt transformați înapoi în apă potabilă. Pentru ISVG, un material trebuie să reziste la înfundarea cu sare; cercetătorii au obținut 10 ore de funcționare continuă fără acumulare de sare.",
+      "Park și echipa au vopsit trei arhitecturi diferite de lână și le-au testat capacitățile de evaporare și vaporizare în trei configurații distincte, folosind un simulator solar: orizontală (paralelă cu suprafața apei); verticală pe o singură față; și verticală pe două fețe, cu oglinzi poziționate în spatele materialului pentru a obține iluminare pe ambele părți.",
+      "Grupul a constatat că lâna vopsită ultraneagră, în configurația ISVG verticală pe două fețe, a captat 2,43 kilograme de apă pe metru pătrat de țesătură pe oră, în timp ce lâna doar cu PDA a înregistrat o absorbție de 2,21 kg. Ambele rate sunt aproape dublul celor ale sistemelor tradiționale de evaporare orizontale, bidimensionale.",
+      "Conținutul de sare din apa captată, a spus Shepherd, a fost mult sub standardul Organizației Mondiale a Sănătății pentru apa potabilă.",
+      "Shepherd a spus că eficiența PDA e atât de mare, încât s-ar putea să nu merite pasul suplimentar al gravării cu plasmă pentru a obține ultranegrul. Dar pe parcursul unui an sau mai mult, a spus ea, obținerea potențialului suplimentar de evaporare al ultranegrului ar putea fi preferabilă. „E o diferență destul de drastică de la o țesătură neagră obișnuită la lâna noastră vopsită cu PDA, iar ultranegrul e un pas mic în plus față de asta”, a spus ea.",
+      "Studiile viitoare, a spus Shepherd, vor testa tehnologia lânii vopsite atât pe apă de ploaie, cât și pe apă uzată, împreună cu proiecte îmbunătățite de colectare a apei.",
+      "Alți contribuitori au fost Mia Bressler, promoția 2028, studentă la inginerie de mediu; Jintong Gao, cercetător postdoctoral din laboratorul Zhang; și Yipu Wang, doctorand în inginerie mecanică și membru al laboratorului Zhang.",
+      "Această lucrare a folosit Centrul Cornell pentru Cercetarea Materialelor și facilitatea de instrumente comune a Departamentului de Design Centrat pe Om. Finanțarea a venit de la National Science Foundation, Cornell Atkinson Center for Sustainability și AATCC Foundation."
+    ]
+  },
+  "poza": {
+    "img_html": "<img src=\"../img/articole/cornell-lana-vopsita-desalinizare-apa-soare-advanced-science.jpg\" alt=\"Cornell a\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Cornell a. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cornell_University_Sign_20240525.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cornell University Sign 20240525</a>\" de 颐园居, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/cornell-lana-vopsita-desalinizare-apa-soare-advanced-science.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "颐园居"
+  }
+}
