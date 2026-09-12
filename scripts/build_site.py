@@ -843,7 +843,7 @@ SHARE_FINAL_FB = ("window.shareFB=function(){if(window.__fbMobil&&navigator.shar
                   "window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),"
                   "'_blank','noopener,width=650,height=600');};")
 SHARE_FINAL_X = ("window.shareX=function(){"
-                 "window.open('https://x.com/intent/post?url='+e(U)+'&text='+e(T),"
+                 "window.open('https://farabaliverne.ro/partajeaza-x.html?u='+e(U)+'&t='+e(T),"
                  "'_blank','noopener,width=560,height=460');};")
 # Orice variantă de shareFB / shareX de până acum se termină cu
 # `'_blank','noopener…');};` — pe asta prindem tot, indiferent de ce e în corp.
@@ -862,10 +862,12 @@ def repara_share(s):
     întregul corp al funcțiilor, cu regex, deci nu mai contează istoricul.
 
     Ce e definitiv și DE CE (fondatorul: POPUP, „nu vreau improvizații"):
-    - X: `x.com/intent/post` cu text + adresă, în POPUP cu dimensiune. Testat
-      cu click pe 12 sept 2026: `window.open(...,'_blank','noopener')` FĂRĂ
-      dimensiune (filă normală) e mai rău — X pierde parametrii și aruncă pe
-      /home; popup-ul cu width/height păstrează adresa cu parametri.
+    - X: POPUP cu dimensiune, dar care deschide întâi `partajeaza-x.html` (pagina
+      noastră, fără referrer), iar ea trece la `x.com/intent/post` prin
+      location.replace. Testat cu click pe 12 sept 2026: X deschis direct în
+      popup din site ignora parametrii (compunere goală, deși adresa îi avea);
+      aceeași adresă încărcată ca navigare proprie vine cu textul scris; iar
+      fila normală cu `noopener` e cea mai rea — X aruncă pe /home.
     - Facebook: pe telefon foaia nativă (Facebook nu acceptă text
       precompletat); pe desktop `sharer.php` în popup.
     """
