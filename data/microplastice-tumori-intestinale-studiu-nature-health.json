@@ -11,13 +11,19 @@
     {
       "text": "Cercetătorii, conduși de Honghong Chen, Zhaohui Liu și Wenhui Qiu, de la Southern University of Science and Technology (Shenzhen, China), împreună cu colaboratori din mai multe țări, au analizat 188 de specimene clinice de tumori intestinale folosind trei tehnici complementare de detecție cu rezoluție înaltă: spectroscopie confocală micro-Raman, imagistică Raman combinată cu microscopie electronică de baleiaj și imagistică hiperspectrală. Microplastice au fost identificate în 106 din cele 188 de mostre (56,4%), polimerul cel mai frecvent fiind polietilena tereftalată (PET) — materialul folosit, printre altele, la sticlele de plastic și ambalajele alimentare.",
       "sources": [
-        {"name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours", "url": "https://www.nature.com/articles/s44360-026-00123-z"}
+        {
+          "name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours",
+          "url": "https://www.nature.com/articles/s44360-026-00123-z"
+        }
       ]
     },
     {
       "text": "Pe o perioadă medie de urmărire de 34,1 luni (±17,4 luni), pacienții ale căror tumori conțineau microplastice au avut o tendință de recidivă mai frecventă și „severitate considerabil crescută” a simptomelor gastrointestinale, comparativ cu cei ale căror tumori nu conțineau microplastice detectabile. Țesuturile pozitive pentru microplastice au prezentat și semne locale de inflamație și modificări histopatologice asociate.",
       "sources": [
-        {"name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours", "url": "https://www.nature.com/articles/s44360-026-00123-z"}
+        {
+          "name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours",
+          "url": "https://www.nature.com/articles/s44360-026-00123-z"
+        }
       ]
     }
   ],
@@ -25,7 +31,10 @@
     {
       "text": "Autorii subliniază explicit că studiul e observațional — arată o asociere statistică între prezența microplasticelor în țesutul tumoral și evoluția mai proastă a bolii, nu o relație de cauzalitate dovedită. Rămân necunoscute căile exacte prin care microplasticele ajung în țesutul tumoral, cât timp rămân acolo și dacă sunt un factor care contribuie la agravarea bolii sau doar un „pasager” care se acumulează mai ușor în țesutul deja bolnav — întrebări pe care autorii le numesc explicit ca fiind nerezolvate și necesare pentru cercetări viitoare.",
       "sources": [
-        {"name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours", "url": "https://www.nature.com/articles/s44360-026-00123-z"}
+        {
+          "name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours",
+          "url": "https://www.nature.com/articles/s44360-026-00123-z"
+        }
       ]
     }
   ],
@@ -35,8 +44,18 @@
     "title": "De ce „asociere” nu înseamnă „cauză” aici",
     "explanation": "Studiul a comparat pacienți ale căror tumori aveau microplastice cu pacienți ale căror tumori nu aveau, și a observat că primii au avut o evoluție ceva mai proastă. Dar asta nu spune automat CE a cauzat CE. Sunt cel puțin trei explicații posibile, la fel de compatibile cu aceleași date: (1) microplasticele contribuie activ la inflamație și, prin asta, la recidivă — varianta care ar face titluri; (2) tumorile mai agresive sau mai avansate creează, prin structura lor (mai multă suprafață expusă, circulație sangvină modificată), condiții în care microplasticele se acumulează mai ușor, caz în care microplasticul e un simptom, nu o cauză; sau (3) un al treilea factor — de exemplu dieta sau expunerea generală la plastic a unei persoane — influențează simultan atât cantitatea de microplastic ingerată, cât și alți factori de risc pentru recidivă. Un studiu observațional pe 188 de mostre, oricât de riguroase tehnicile de detecție, nu poate singur să separe aceste trei variante — de-aia autorii cer explicit cercetare suplimentară despre căile de expunere și despre cât timp rămân microplasticele în țesut, înainte de a trage concluzii despre cauzalitate.",
     "sources": [
-      {"name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours", "url": "https://www.nature.com/articles/s44360-026-00123-z"}
+      {
+        "name": "Nature Health — Tumour recurrence, gastrointestinal symptoms and inflammation associated with microplastic-positive intestinal tumours",
+        "url": "https://www.nature.com/articles/s44360-026-00123-z"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/microplastice-tumori-intestinale-studiu-nature-health.jpg\" alt=\"Nature\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nature. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Alfombra_de_algas_amarillas,_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_42.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Alfombra de algas amarillas, parque nacional Ras Muhammad, Egipto, 2022-03-27, DD 42</a>\" de Diego Delso, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/microplastice-tumori-intestinale-studiu-nature-health.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Diego Delso"
+  }
 }

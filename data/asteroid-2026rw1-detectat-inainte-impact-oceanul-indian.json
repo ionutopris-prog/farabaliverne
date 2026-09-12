@@ -11,22 +11,40 @@
     {
       "text": "Asteroidul, cu diametrul estimat între 0,6 și 1,3 metri (circa 80 cm ca valoare centrală), a fost descoperit de Catalina Sky Survey, la stația Mount Lemmon din Arizona, sub denumirea provizorie CERNQ52. NASA, prin Center for Near-Earth Object Studies (CNEOS), și ESA, prin Near-Earth Object Coordination Centre (NEOCC) — condus de Richard Moissl — au calculat independent traiectoria și au anunțat că obiectul va intra în atmosferă între orele 16:00 și 16:30 UTC pe 6 septembrie 2026, deasupra Oceanului Indian, la nord-vest de Australia.",
       "sources": [
-        {"name": "ESA NEOCC — pagina oficială a evenimentului „2026 RW1”", "url": "https://neo.ssa.esa.int/past-impactors/2026rw1"},
-        {"name": "EarthSky — Small asteroid impact near Australia, Sept. 6, 2026", "url": "https://earthsky.org/space/small-asteroid-impact-australia-sep-6-2026/"}
+        {
+          "name": "ESA NEOCC — pagina oficială a evenimentului „2026 RW1”",
+          "url": "https://neo.ssa.esa.int/past-impactors/2026rw1"
+        },
+        {
+          "name": "EarthSky — Small asteroid impact near Australia, Sept. 6, 2026",
+          "url": "https://earthsky.org/space/small-asteroid-impact-australia-sep-6-2026/"
+        }
       ]
     },
     {
       "text": "Obiectul a intrat efectiv în atmosferă la ora 16:07 UTC, s-a dezintegrat complet — fără să lase un crater sau resturi pe sol sau în apă — și a produs un meteor luminos deasupra unei zone oceanice nelocuite, între Australia de Vest și Insulele Sunda Mici (aproape de Bali). Traiectoria a fost rafinată ulterior cu ajutorul unor poziții „pre-descoperire” de la telescoapele Pan-STARRS 2, plus observații de urmărire de la telescoapele Zadko și Faulkes South din Australia, până la o precizie sub un kilometru.",
       "sources": [
-        {"name": "BBC Sky at Night Magazine — Asteroid 2026 RW1 impact", "url": "https://www.skyatnightmagazine.com/news/asteroid-2026-rw1-impact"},
-        {"name": "ESA NEOCC — pagina oficială a evenimentului „2026 RW1”", "url": "https://neo.ssa.esa.int/past-impactors/2026rw1"}
+        {
+          "name": "BBC Sky at Night Magazine — Asteroid 2026 RW1 impact",
+          "url": "https://www.skyatnightmagazine.com/news/asteroid-2026-rw1-impact"
+        },
+        {
+          "name": "ESA NEOCC — pagina oficială a evenimentului „2026 RW1”",
+          "url": "https://neo.ssa.esa.int/past-impactors/2026rw1"
+        }
       ]
     },
     {
       "text": "2026 RW1 este al 13-lea asteroid din istorie detectat în spațiu înainte de a intra în atmosfera Pământului — o listă începută în 2008. Toate cele 12 detectate anterior aparțineau familiei orbitale Apollo (asteroizi a căror orbită traversează orbita Pământului dintr-o zonă mai îndepărtată de Soare); 2026 RW1 pare să fie primul din familia Aten, ale cărei orbite stau, în mare parte, mai aproape de Soare decât a Pământului — o categorie mai greu de „prins” din direcția în care privesc de obicei telescoapele de supraveghere.",
       "sources": [
-        {"name": "EarthSky — Small asteroid impact near Australia, Sept. 6, 2026", "url": "https://earthsky.org/space/small-asteroid-impact-australia-sep-6-2026/"},
-        {"name": "BBC Sky at Night Magazine — Asteroid 2026 RW1 impact", "url": "https://www.skyatnightmagazine.com/news/asteroid-2026-rw1-impact"}
+        {
+          "name": "EarthSky — Small asteroid impact near Australia, Sept. 6, 2026",
+          "url": "https://earthsky.org/space/small-asteroid-impact-australia-sep-6-2026/"
+        },
+        {
+          "name": "BBC Sky at Night Magazine — Asteroid 2026 RW1 impact",
+          "url": "https://www.skyatnightmagazine.com/news/asteroid-2026-rw1-impact"
+        }
       ]
     }
   ],
@@ -37,8 +55,18 @@
     "title": "De ce contează un asteroid de 80 cm care oricum ar fi ars complet",
     "explanation": "Un obiect de sub un metru nu ajunge niciodată la sol — se dezintegrează în atmosferă și, cel mult, produce un meteor spectaculos. Miza nu e obiectul în sine, ci timpul de reacție: 2026 RW1 a fost văzut cu șase-șapte ore înainte de impact, suficient cât NASA și ESA să calculeze independent, cu precizie sub un kilometru, unde și când va intra în atmosferă. Sistemele de supraveghere sunt optimizate să scaneze cerul nopții, direcție din care vin majoritatea asteroizilor Apollo. Un asteroid din familia Aten se apropie adesea dinspre Soare, într-o zonă a cerului greu de observat cu telescoape de la sol — de-asta detectarea lui, chiar și cu doar câteva ore înainte, e privită ca un test reușit al capacității de a prinde exact tipul de obiect pe care sistemele actuale îl ratează cel mai des. Un asteroid de zeci sau sute de metri, care ar produce pagube reale, e însă vizibil cu luni sau ani înainte, nu ore — la scara aceea, timpul de reacție nu mai e o problemă.",
     "sources": [
-      {"name": "ESA NEOCC — pagina oficială a evenimentului „2026 RW1”", "url": "https://neo.ssa.esa.int/past-impactors/2026rw1"}
+      {
+        "name": "ESA NEOCC — pagina oficială a evenimentului „2026 RW1”",
+        "url": "https://neo.ssa.esa.int/past-impactors/2026rw1"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/asteroid-2026rw1-detectat-inainte-impact-oceanul-indian.jpg\" alt=\"Oceanului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Oceanului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bloom_in_the_Ross_Sea_(6876655363).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bloom in the Ross Sea (6876655363)</a>\" de NASA Goddard Space Flight Center from Greenbelt, MD, USA, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/asteroid-2026rw1-detectat-inainte-impact-oceanul-indian.jpg",
+    "licenta": "Public domain",
+    "autor": "NASA Goddard Space Flight Center from Greenbelt, MD, USA"
+  }
 }

@@ -11,19 +11,28 @@
     {
       "text": "Cercetătorii, conduși de Jianping Jia și Guoguang Zhao de la Xuanwu Hospital (Capital Medical University, Beijing), au urmărit 3.119 adulți vârstnici din cohorta „China Cognition and Aging Study” (COAST) pe o perioadă mediană de 13,7 ani. Au construit doi indicatori longitudinali: un „scor de patologie” (bazat pe raportul dintre proteina tau fosforilată la treonina 181 și amiloid-β42) și un „scor de rezistență cognitivă” (calculat ca abaterea reală a declinului cognitiv al fiecărei persoane față de cât ar fi fost „așteptat” după vârstă, sex și nivelul patologiei).",
       "sources": [
-        {"name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk", "url": "https://www.nature.com/articles/s41591-026-04635-9"}
+        {
+          "name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk",
+          "url": "https://www.nature.com/articles/s41591-026-04635-9"
+        }
       ]
     },
     {
       "text": "Fiecare abatere standard în plus la scorul de patologie a fost asociată cu un risc de 2,5 ori mai mare de a dezvolta demență Alzheimer (raport de risc 2,50; interval de încredere 95%: 2,30–2,72). În schimb, fiecare abatere standard în plus la scorul de rezistență cognitivă a fost asociată cu o reducere la aproape jumătate a riscului (raport de risc 0,51; interval de încredere 95%: 0,48–0,55) — iar cei doi factori au acționat independent unul de celălalt, nu doar ca oglindă a aceleiași cauze.",
       "sources": [
-        {"name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk", "url": "https://www.nature.com/articles/s41591-026-04635-9"}
+        {
+          "name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk",
+          "url": "https://www.nature.com/articles/s41591-026-04635-9"
+        }
       ]
     },
     {
       "text": "Riscul cel mai mic de demență a fost observat la persoanele cu patologie redusă ȘI rezistență cognitivă ridicată; riscul cel mai mare, la cele cu patologie ridicată ȘI rezistență scăzută — cele două scoruri se combină multiplicativ, nu doar se adună. Rezultatele au fost replicate independent pe o a doua cohortă, americană — Alzheimer's Disease Neuroimaging Initiative (ADNI) — și au rămas stabile în analize suplimentare menite să verifice dacă relația nu era, de fapt, inversă (declinul cognitiv timpuriu cauzând scorul de rezistență scăzut, nu invers).",
       "sources": [
-        {"name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk", "url": "https://www.nature.com/articles/s41591-026-04635-9"}
+        {
+          "name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk",
+          "url": "https://www.nature.com/articles/s41591-026-04635-9"
+        }
       ]
     }
   ],
@@ -31,7 +40,10 @@
     {
       "text": "Autorii recunosc o limită importantă de metodă: „rezistența cognitivă” a fost calculată indirect, din teste neuropsihologice repetate în timp, nu măsurată direct la nivelul creierului (de exemplu prin biomarkeri neuronali sau imagistică a rețelelor cerebrale). Rămâne deschisă întrebarea ce anume, biologic, face un creier mai „rezistent” — genetică, educație, stil de viață sau o combinație — iar cohorta studiată, formată din vârstnici chinezi, ridică semne de întrebare privind cât de bine se generalizează rezultatele la populații cu compoziție etnică, educațională și socio-economică diferită.",
       "sources": [
-        {"name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk", "url": "https://www.nature.com/articles/s41591-026-04635-9"}
+        {
+          "name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk",
+          "url": "https://www.nature.com/articles/s41591-026-04635-9"
+        }
       ]
     }
   ],
@@ -41,8 +53,18 @@
     "title": "Ce înseamnă, de fapt, „rezistență cognitivă”",
     "explanation": "De zeci de ani, teoria dominantă despre Alzheimer spune, simplificat, că boala apare atunci când în creier se acumulează suficient amiloid și tau — două proteine care, în exces, deteriorează neuronii. Problema e că mulți oameni cu multă acumulare de amiloid și tau la autopsie n-au avut niciodată simptome de demență în viață, iar alții cu acumulare modestă au dezvoltat boala rapid. Acest studiu propune o explicație pentru acel decalaj: pe lângă cât de multă „daună” fizică există, contează și cât de bine reușește creierul să funcționeze normal ÎN CIUDA daunei — asta e „rezistența cognitivă”, calculată aici ca diferența dintre cât de rău ar fi trebuit să decline cineva, statistic, având un anumit nivel de patologie, și cât de rău a decinat de fapt. Cine declină mai puțin decât „prevede” patologia lui are rezistență ridicată. Faptul că cei doi factori se înmulțesc, nu doar se adună, înseamnă practic că o intervenție care ar crește rezistența cognitivă (nu doar una care ar reduce acumularea de amiloid, cum încearcă majoritatea tratamentelor actuale) ar putea avea efect chiar și la pacienți cu leziuni deja avansate — dar rămâne un rezultat statistic, nu dovada unui tratament care funcționează.",
     "sources": [
-      {"name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk", "url": "https://www.nature.com/articles/s41591-026-04635-9"}
+      {
+        "name": "Nature Medicine — Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk",
+        "url": "https://www.nature.com/articles/s41591-026-04635-9"
+      }
     ]
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/alzheimer-rezistenta-cognitiva-studiu-coast-nature-medicine.jpg\" alt=\"Alzheimer\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Alzheimer. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Alzheimers_disease_beta-amyloid_plaque_formation-2.gif\" rel=\"nofollow noopener\" target=\"_blank\">Alzheimers disease beta-amyloid plaque formation-2</a>\" de National Institute on Aging, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/alzheimer-rezistenta-cognitiva-studiu-coast-nature-medicine.jpg",
+    "licenta": "Public domain",
+    "autor": "National Institute on Aging"
+  }
 }
