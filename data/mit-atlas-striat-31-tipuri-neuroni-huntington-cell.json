@@ -1,0 +1,132 @@
+{
+  "slug": "mit-atlas-striat-31-tipuri-neuroni-huntington-cell",
+  "title": "MIT a cartografiat 31 de tipuri de neuroni din striat, regiunea creierului lovită de Huntington, schizofrenie și adicție. Și a găsit de ce partea de sus a striatului cedează prima",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-09-12",
+  "source": "MIT News · revista Cell",
+  "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901",
+  "dek": "Din țesut donat de oameni, băncilor de creier din SUA și Canada, cercetătorii MIT au făcut un atlas al neuronilor din striat: 31 de subpopulații, dintre care nouă tipuri de „neuroni spinoși medii”. Două populații atipice poartă genele adicției la opioide, ale răspunsului la antidepresive și la clozapină. Iar neuronii din partea de sus a striatului exprimă mai mult MSH2 și MSH3, genele care înmulțesc repetițiile CAG din gena huntingtinei; de asta cedează primii în boala Huntington. Publicat în Cell pe 1 septembrie 2026.",
+  "mainVerdict": "Probat ce descrie MIT: metoda (secvențiere ARN pe celule individuale, plus două tehnici spațiale), cele 31 de subpopulații, cele două populații atipice și explicația vulnerabilității dorsale la Huntington prin MSH2/MSH3. Lucrarea din Cell e cu acces restricționat; e un atlas, nu un tratament, iar diferențele față de șoareci, spuse chiar de autori, limitează cât din biologia asta se poate testa pe animale",
+  "probat": [
+    {
+      "text": "Lucrarea „Cross-species single-cell atlas of the striatum defines cell type and subregion disease vulnerabilities” a apărut în revista Cell pe 1 septembrie 2026. Autorii seniori: Myriam Heiman (profesoară de neuroștiințe, directoarea Institutului Picower al MIT), Manolis Kellis (informatică, CSAIL și Broad Institute) și Dana Gabuzda (Dana-Farber, Brigham and Women’s, Harvard Medical School). Autori principali: Raleigh Linville și Benjamin James, de la MIT. Finanțare: National Institutes of Health și mai multe fundații private.",
+      "sources": [
+        {
+          "name": "MIT News — articolul din 1 septembrie 2026 (tradus integral mai jos)",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: probe post-mortem de striat, din regiuni anatomice diverse, colectate de la bănci de creier din SUA și Canada; trei tehnici pe același țesut: secvențiere ARN pe celule individuale (ce gene exprimă fiecare celulă), hibridizare fluorescentă multiplexată in situ și transcriptomică spațială (unde anume stau celulele în țesut). Rezultat: 31 de subpopulații de neuroni, dintre care nouă tipuri de neuroni spinoși medii, celulele majoritare ale striatului, cele care răspund la dopamină.",
+      "sources": [
+        {
+          "name": "MIT News — metoda și probele",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    },
+    {
+      "text": "Cele două populații „atipice”: neuronii D1-outlier exprimă intens gene ale adicției și ale răspunsului la opioide, inclusiv gena receptorului mu opioid (OPRM1); neuronii D2-outlier exprimă gene care răspund la antidepresive. Ambele răspund puternic la clozapină, unul dintre cele mai eficiente antipsihotice, puțin folosit în SUA fiindcă poate provoca, la o mică parte din pacienți, o boală de sânge fatală. Autorii spun că, știind acum pe ce celule acționează medicamentul, s-ar putea proiecta tratamente țintite fără efectul advers.",
+      "sources": [
+        {
+          "name": "MIT News — populațiile D1 și D2 outlier",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    },
+    {
+      "text": "Huntington: boala e dată de o versiune moștenită a genei huntingtinei cu prea multe repetiții CAG. Neuronii spinoși medii din partea dorsală (de sus) a striatului exprimă mai mult MSH2 și MSH3, gene care cresc numărul de repetiții CAG, deci proteina mutantă devine mai toxică acolo; asta explică de ce partea dorsală e lovită prima. O populație rară de neuroni, dispusă în „insule” în striatul ventral, s-a dovedit mai rezistentă la acumularea repetițiilor.",
+      "sources": [
+        {
+          "name": "MIT News — vulnerabilitatea dorsală și neuronii rezistenți",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Lucrarea din Cell e cu acces restricționat; am citit articolul MIT News, textul instituției, nu lucrarea. Nu știm câți donatori și câte probe au intrat în atlas, nici cât de bine se suprapun cele trei tehnici între ele. MIT nu dă cifrele astea.",
+      "sources": [
+        {
+          "name": "Cell — lucrarea (titlul citat de MIT)",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    },
+    {
+      "text": "E un atlas, nu un tratament. Tot ce scrie MIT despre medicamente e la condițional: „ar putea ajuta”, „ar putea proiecta”. Distanța de la „știm pe ce celule acționează clozapina” la „avem un antipsihotic fără efectul advers” e de ani de cercetare și de studii clinice care nu există încă.",
+      "sources": [
+        {
+          "name": "MIT News — formulările la condițional ale autorilor",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    },
+    {
+      "text": "Limita pe care o spun chiar autorii: comparate cu probe de la șoareci, probele umane arată diferențe importante, mai ales la genele răspunsului la droguri; receptorul mu opioid e intens exprimat în populația D1-outlier la om, dar nu în populația corespunzătoare la șoarece. Deci modelele standard pe rozătoare pot să nu prindă biologia răspunsului la opioide; autorii propun „umanizarea” unor modele. Până atunci, o parte din ce e în atlas nu poate fi testată pe animale.",
+      "sources": [
+        {
+          "name": "MIT News — diferențele om–șoarece, declarația lui Myriam Heiman",
+          "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Ce-mi place la studiul ăsta e modestia lui: „aveam nevoie de o hartă a ceea ce e acolo”, spune Heiman. Nu promite vindecări, promite o hartă, și hărțile bune sunt exact lucrurile pe care nu le promovează nimeni, fiindcă nu vindecă pe nimeni mâine. Dar fără harta asta, fiecare laborator care caută un tratament pentru Huntington sau pentru adicția la opioide lucra cu propria clasificare a celulelor, și nu se puteau compara între ei. Acum se pot."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, redacția proprie a Institutului de Tehnologie din Massachusetts, articol semnat de Anne Trafton, publicat pe 1 septembrie 2026. Textul e republicat conform politicii lor oficiale de republicare, care cere titlul, subtitlul, semnătura autorului și mențiunea „MIT News” cu link la original în capul textului, plus formula „Reprinted with permission of MIT News” la final. Le-am pus pe amândouă. Fotografiile lor NU sunt preluate.\n\n🔴 Ce trebuie știut înainte de a-l citi: e textul instituției despre propria cercetare, nu lucrarea din Cell, care e cu acces restricționat. Numărul de donatori și de probe nu apare în text; nu l-am completat de altundeva.\n\nCe s-a verificat: titlul lucrării, autorii și afilierile, cele trei tehnici, cele 31 de subpopulații și cele nouă tipuri de neuroni spinoși medii, genele numite (MSH2, MSH3, OPRM1), numele medicamentelor. Ce am adăugat noi: că e un atlas, nu un tratament, și că limita om–șoaerece, spusă de autori, restrânge ce se poate testa pe animale. Nu decretăm nimic; arătăm ce s-a măsurat și ce s-a spus.",
+  "persoane": [
+    "Myriam Heiman",
+    "Manolis Kellis",
+    "Dana Gabuzda",
+    "Raleigh Linville",
+    "Benjamin James"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "Atlas of the brain’s striatum could guide researchers to new drug treatments",
+    "publicatie": "MIT News",
+    "autor": "Anne Trafton, MIT News",
+    "data": "1 septembrie 2026",
+    "url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901",
+    "nota_sus": "Subtitlul original: „Un studiu nou dezvăluie informații despre populațiile de neuroni afectate de boala Huntington, schizofrenie, adicție și alte tulburări.”",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "O regiune a creierului numită striat e esențială pentru multe funcții cognitive și motorii, printre care luarea deciziilor, controlul mișcării, formarea obiceiurilor și procesarea recompensei. Ea joacă un rol și în adicție și e afectată semnificativ de boala Huntington, de schizofrenie și de alte tulburări.",
+      "Într-o lucrare care i-ar putea ajuta pe oamenii de știință să conceapă tratamente noi pentru aceste boli, cercetători de la MIT au generat un nou atlas al neuronilor din striat. Folosind secvențierea ARN pe celule individuale și alte tehnici, au reușit să identifice 31 de subgrupuri de neuroni, pe baza genelor pe care le exprimă.",
+      "Aceste grupuri includ neuroni implicați în adicție, depresie și schizofrenie. Cercetătorii au descoperit și de ce unii neuroni ai striatului sunt mai vulnerabili la boala Huntington. Toate aceste rezultate, spun ei, i-ar putea ajuta pe oamenii de știință să dezvolte medicamente noi împotriva acestor afecțiuni.",
+      "„Vedem asta ca fundația care va permite mai multe studii în proiectele noastre despre boala Huntington și despre tulburarea consumului de opioide. Aveam nevoie de o hartă a ceea ce e acolo”, spune Myriam Heiman, profesoară Picower de neuroștiințe și directoarea Institutului Picower pentru Învățare și Memorie al MIT.",
+      "Heiman; Manolis Kellis, profesor de informatică în Laboratorul de Informatică și Inteligență Artificială (CSAIL) al MIT și membru al Broad Institute al MIT și Harvard; și Dana Gabuzda, cercetătoare principală la Dana-Farber Cancer Institute și profesoară de neurologie la Brigham and Women’s Hospital și la Harvard Medical School, sunt autorii seniori ai studiului, care apare astăzi în Cell. Cercetătorul postdoctoral Raleigh Linville și doctorandul Benjamin James, ambii de la MIT, sunt autorii principali ai lucrării.",
+      "Striatul, aflat adânc în creier, primește semnale diverse de la cortex, mezencefal, hipocamp și alte regiuni, pe care le folosește ca să coordoneze planificarea, mișcarea și luarea deciziilor, precum și procesarea recompensei. În acest studiu, cercetătorii s-au concentrat pe tipul de celule cel mai numeros din striat, un neuron inhibitor numit neuron spinos mediu, care răspunde la dopamină.",
+      "Majoritatea acestor neuroni spinoși medii aparțin fie căii directe, care ajută la promovarea mișcării, fie căii indirecte, care suprimă mișcările nedorite. Căile se disting după tipul de receptor de dopamină pe care îl exprimă: receptorul de dopamină 1 (D1) sau receptorul de dopamină 2 (D2).",
+      "Dincolo de aceste două diviziuni, oamenii de știință știau că există multe subpopulații cu roluri diferite, mai ales în regiunile anatomic ventrale (inferioare) ale striatului. A fost însă greu să se ajungă la un consens asupra clasificării acestor celule, în parte fiindcă studiile anterioare se concentrau pe subregiuni specifice, așa că lipseau principiile generale ale organizării celulare a striatului.",
+      "Ca să depășească această dificultate, cercetătorii au lucrat îndeaproape cu bănci de creier din Statele Unite și Canada pentru a colecta probe post-mortem de striat, reprezentând regiuni anatomice diverse.",
+      "Apoi au folosit trei tehnici diferite ca să analizeze probele, printre care secvențierea ARN pe celule individuale, o metodă care poate măsura moleculele de ARN din interiorul fiecărei celule, dezvăluind ce gene sunt exprimate. Două tehnici suplimentare, hibridizarea fluorescentă multiplexată in situ și transcriptomica spațială, le-au permis cercetătorilor să identifice principiile spațiale de organizare din interiorul țesutului.",
+      "Cu aceste tehnici, cercetătorii au reușit să identifice 31 de subpopulații diferite de neuroni, inclusiv nouă tipuri de neuroni spinoși medii. Printre tipurile lor de neuroni spinoși medii se numără două populații „atipice”, care par să joace roluri importante în schizofrenie, în tulburarea consumului de substanțe și în depresie.",
+      "Una dintre aceste populații, cunoscută drept D1-outlier, a arătat o expresie ridicată a genelor implicate în adicție și în tulburarea consumului de substanțe, mai ales a genelor legate de răspunsul la opioide. O altă populație, numită D2-outlier, a arătat o expresie ridicată a genelor care răspund la antidepresive. Și ambele populații au părut să răspundă puternic la clozapină, un antipsihotic folosit în tratamentul schizofreniei.",
+      "Clozapina e printre cele mai eficiente antipsihotice disponibile, dar nu e folosită pe scară largă în Statele Unite, fiindcă poate provoca o boală de sânge fatală la un procent mic de pacienți. Acum că cercetătorii știu pe ce celule acționează medicamentul, ar putea reuși să proiecteze terapii mai țintite pentru a depăși psihoza, dar fără efectele secundare dăunătoare, spune Heiman.",
+      "O altă descoperire-cheie a lucrării ajută la lămurirea motivului pentru care partea dorsală (superioară) a striatului e mai vulnerabilă la boala Huntington. Boala e provocată de o versiune moștenită a genei huntingtinei, care poartă prea multe segmente repetitive de ADN, numite repetiții CAG.",
+      "Cercetătorii au constatat că populațiile dorsale de neuroni spinoși medii exprimă niveluri mai ridicate ale genelor MSH2 și MSH3, care joacă un rol în creșterea numărului de repetiții CAG din gena huntingtinei. Pe măsură ce se acumulează mai multe repetiții, versiunea mutantă a proteinei huntingtină devine mai dăunătoare pentru celule.",
+      "Cercetătorii au descoperit și că o populație rară de neuroni spinoși medii, care formează structuri asemănătoare unor insule în striatul ventral, a fost mai rezistentă la acumularea repetițiilor CAG. Studierea mai atentă a acestei clase de celule i-ar putea ajuta pe cercetători să învețe cum să-i facă și pe alți neuroni spinoși medii mai rezistenți la boală, spune Heiman.",
+      "„Dacă ne uităm la genele pe care acești neuroni le exprimă sau nu le exprimă, am putea primi indicii despre cum să-i facem și pe alți neuroni spinoși medii la fel de rezilienți”, spune ea.",
+      "Cercetătorii au comparat și rezultatele obținute din probe de țesut uman cu probe de la șoareci și au găsit mai multe diferențe, mai ales în expresia genelor legate de răspunsul la medicamente și de tulburările consumului de substanțe. Una dintre aceste gene, care codifică receptorul mu opioid (OPRM1), e intens exprimată în populația umană D1-outlier, dar nu și în populația corespunzătoare de neuroni de la șoareci.",
+      "Asta înseamnă că modelele standard pe șoareci s-ar putea să nu surprindă pe deplin biologia răspunsului la opioide și că modificarea genetică a șoarecilor ca să exprime acest receptor într-un mod asemănător cu oamenii ar putea face acele modele semnificativ mai precise.",
+      "„O parte din diversitatea pe care o vedem în striatul ventral uman e specifică speciei și are implicații pentru modelarea tulburării consumului de substanțe la rozătoare”, spune Heiman. „Acum că înțelegem mai bine diferențele dintre specii, putem folosi modelele pe rozătoare pentru întrebări specifice, valabile pentru genele conservate, dar ne-am putea gândi și să umanizăm unele modele.”",
+      "Cercetătorii speră că această hartă, construită din țesut donat de donatori de creier și de familiile lor și asamblată peste discipline și instituții, va oferi un punct de plecare important pentru cercetătorii care caută tratamente noi pentru unele dintre cele mai greu de tratat tulburări ale creierului.",
+      "Cercetarea a fost finanțată, în parte, de National Institutes of Health, G. Harold and Leila Y. Mathers Charitable Foundation, Freedom Together Foundation, Natalia Mental Health Foundation, Biswas Family Foundation și Milken Institute."
+    ]
+  },
+  "poza": {
+    "img_html": "<img src=\"../img/articole/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.jpg\" alt=\"Manolis Kellis\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Manolis Kellis. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:MIT_6.895_-_6.095J_Computational_Biology-_Genomes,_Networks,_Evolution,_Fall_2005_-_More_Complex_Folds.jpg\" rel=\"nofollow noopener\" target=\"_blank\">MIT 6.895 - 6.095J Computational Biology- Genomes, Networks, Evolution, Fall 2005 - More Complex Folds</a>\" de mitopencourseware, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "mitopencourseware"
+  }
+}

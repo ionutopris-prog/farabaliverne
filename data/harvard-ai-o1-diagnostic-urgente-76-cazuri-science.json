@@ -1,0 +1,94 @@
+{
+  "slug": "harvard-ai-o1-diagnostic-urgente-76-cazuri-science",
+  "title": "Un model de inteligență artificială a nimerit diagnosticul la triajul din urgență în 67% din 76 de cazuri reale, față de 55% și 50% pentru doi medici. Autorii spun că nu e gata pentru pacienți, iar un medic de urgență spune că s-a comparat cu specialitatea greșită",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-09-12",
+  "source": "Harvard Medical School · Beth Israel Deaconess · revista Science",
+  "url": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study",
+  "dek": "Harvard Medical School și Beth Israel Deaconess au dat modelului o1 al OpenAI exact ce aveau și medicii: fișa electronică, semnele vitale, câteva rânduri scrise de asistenta de la triaj, fără nicio prelucrare. La primul contact, cel cu cea mai puțină informație și cea mai mare grabă, modelul a dat diagnosticul exact sau foarte apropiat în 67% din cazuri; cei doi medici, în 55% și 50%. Evaluatorii nu știau ce vine de la om și ce de la mașină. Publicat în Science pe 30 aprilie 2026.",
+  "mainVerdict": "Probat ce a măsurat studiul: 76 de cazuri reale, trei momente de diagnostic, comparație în orb cu doi medici, plus alte experimente pe raționament clinic. Ce nu spune studiul: că mașina poate înlocui medicul. Cei doi medici erau interniști, nu medici de urgență; datele au fost doar text, fără imagistică sau EKG; iar autorii cer studii prospective înainte de orice folosire la pacienți",
+  "probat": [
+    {
+      "text": "Studiul a apărut în revista Science pe 30 aprilie 2026. Autori seniori: Arjun Manrai (conduce un laborator de inteligență artificială la Harvard Medical School) și Adam Rodman (Harvard Medical School și Beth Israel Deaconess Medical Center); printre autori, Thomas Buckley (Harvard) și Peter Brodeur (Beth Israel), cu colaboratori de la Stanford. Modelul testat: o1-preview al OpenAI, comparat și cu modelul 4o.",
+      "sources": [
+        {
+          "name": "Harvard Magazine — prezentarea studiului, cu autorii și experimentele",
+          "url": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study"
+        },
+        {
+          "name": "TechCrunch — articolul din 3 mai 2026, cu citate din comunicatul Harvard Medical School",
+          "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+        }
+      ]
+    },
+    {
+      "text": "Experimentul principal: 76 de pacienți veniți la urgența Beth Israel, evaluați în trei momente: triajul inițial, primul contact cu medicul, internarea pe secție sau la terapie intensivă. Modelul și doi medici interniști au primit aceleași date, cele din fișa electronică la momentul respectiv, fără prelucrare. Diagnosticele au fost notate de alți doi medici, care nu știau care vin de la om și care de la model. La triaj, o1 a dat diagnosticul exact sau foarte apropiat în 67% din cazuri, față de 55% și 50% pentru cei doi medici; „la fiecare moment de diagnostic, o1 a fost nominal mai bun sau la egalitate” cu ei, cu diferențe „mai ales la primul moment”, unde informația e cea mai puțină și urgența cea mai mare.",
+      "sources": [
+        {
+          "name": "TechCrunch — cifrele 67% / 55% / 50% și citatul din studiu",
+          "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+        }
+      ]
+    },
+    {
+      "text": "Alte experimente din aceeași lucrare: teste de raționament diagnostic față de medici experți și generaliști, teste de raționament de management (recomandări de antibiotice, discuții de sfârșit de viață) și cazuri complexe din seria Massachusetts General Hospital publicată în New England Journal of Medicine. Concluzia autorilor, în cuvintele lui Manrai: modelul „a eclipsat atât modelele anterioare, cât și medicii noștri de referință” pe aproape toate reperele.",
+      "sources": [
+        {
+          "name": "Harvard Magazine — lista experimentelor",
+          "url": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Cei doi medici comparați erau interniști (medicină internă), nu medici de urgență. Kristen Panthagani, medic de urgență, a scris că studiul e „interesant”, dar a produs „titluri foarte exagerate”: „dacă vrem să comparăm uneltele AI cu abilitatea clinică a medicilor, ar trebui să începem cu medicii care practică efectiv specialitatea aceea”. Și: „ca medic de urgență care vede un pacient prima dată, scopul meu principal nu e să ghicesc diagnosticul final. Scopul meu principal e să stabilesc dacă ai o afecțiune care te poate omorî.” TechCrunch și-a corectat titlul și textul după observația ei.",
+      "sources": [
+        {
+          "name": "TechCrunch — nota de corectare și citatele lui Kristen Panthagani",
+          "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+        }
+      ]
+    },
+    {
+      "text": "Doar text. Autorii scriu că au studiat modelul numai cu informație text și că „studiile existente sugerează că modelele fundamentale actuale sunt mai limitate în raționamentul pe intrări non-text”. Un medic real vede radiografii, EKG-uri, imagistică, pacientul. Studiul nu spune ce s-ar întâmpla cu ele; studiul spune că nu le-a testat.",
+      "sources": [
+        {
+          "name": "Harvard Magazine — limitele declarate de autori",
+          "url": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study"
+        }
+      ]
+    },
+    {
+      "text": "76 de cazuri și doi medici. E un studiu retrospectiv, pe fișe, nu unul în care mașina a decis pentru pacienți reali. Autorii înșiși scriu că rezultatele arată o „nevoie urgentă de studii prospective”, iar Rodman a spus că nu există „niciun cadru formal pentru responsabilitate” la diagnosticele AI și că pacienții „vor ca oamenii să-i ghideze prin decizii de viață și de moarte”. Lucrarea din Science n-am putut-o citi integral; cifrele sunt din comunicatul Harvard Medical School, citat de TechCrunch, și din Harvard Magazine.",
+      "sources": [
+        {
+          "name": "TechCrunch — citatele lui Adam Rodman și apelul la studii prospective",
+          "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Studiul ăsta e de două ori util: o dată pentru ce arată, și încă o dată pentru cum a fost povestit. Ce arată e serios: cu aceleași date ca omul, la momentul cu cea mai puțină informație, un model a nimerit mai des. Cum a fost povestit, „AI bate medicii de la urgență”, e fals la propriu, fiindcă medicii nu erau de la urgență și datele nu erau ale unei urgențe reale, ci ale unei fișe. Cea mai bună frază rămâne a medicului de urgență: la primul contact nu ghicesc diagnosticul, caut ce te poate omorî. Un model care nimerește diagnosticul în 67% din cazuri nu a fost testat la asta."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, cu link către original.\n\n🔴 De ce e REZUMAT, nu traducere integrală: lucrarea din Science e cu abonament, iar articolele Harvard Magazine și TechCrunch sunt sub drepturile lor de autor. Regula secțiunii: traducem integral doar unde sursa permite explicit (Cornell și MIT o permit, în scris). Aici rezumăm și cităm scurt, cu link. Imaginile lor nu se preiau.\n\nCe s-a verificat: Harvard Magazine (autorii, instituțiile, cele trei momente de diagnostic, experimentele suplimentare, limitele declarate) și TechCrunch (cifrele 67/55/50, citatul din studiu despre primul moment, citatele lui Manrai și Rodman din comunicatul Harvard Medical School, observația medicului Kristen Panthagani și nota de corectare a redacției). Studiul e din 30 aprilie 2026; îl publicăm acum fiindcă secțiunea e despre cercetare, nu despre noutate.\n\nUnde ne oprim: nu am citit lucrarea din Science. Ce am adăugat noi: că medicii erau interniști, nu de urgență, și că testul a fost pe text, lucruri spuse de autori și de un medic de urgență, dar absente din titlurile care au circulat.",
+  "persoane": [
+    "Arjun Manrai",
+    "Adam Rodman",
+    "Thomas Buckley",
+    "Peter Brodeur",
+    "Kristen Panthagani"
+  ],
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.jpg\" alt=\"Adam Rodman\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Adam Rodman. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:US_Navy_100526-N-9643W-406_Lt._j.g._Adam_Cole,_from_Denver_Colo.,_speaks_with_officers_from_the_Panamanian_Defense_Forces_near_the_brow_of_High_Speed_Vessel_Swift_(HSV_2).jpg\" rel=\"nofollow noopener\" target=\"_blank\">US Navy 100526-N-9643W-406 Lt. j.g. Adam Cole, from Denver Colo., speaks with officers from the Panamanian Defense Forces near the brow of High Speed Vessel Swift (HSV 2)</a>\" de U.S. Navy photo by Mass Communication Specialist 2nd Class Kim Williams, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.jpg",
+    "licenta": "Public domain",
+    "autor": "U.S. Navy photo by Mass Communication Specialist 2nd Class Kim Williams"
+  }
+}

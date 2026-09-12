@@ -1,0 +1,128 @@
+{
+  "slug": "mit-cw-net-masina-autonoma-explicatii-nature",
+  "title": "MIT și Motional au făcut o mașină autonomă să spună în cuvinte de ce frânează. Șoferul a aflat că nu vedea biciclistul, ci se oprea doar din reflexul de urgență",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-09-12",
+  "source": "MIT News · revista Nature",
+  "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+  "dek": "CW-Net e un modul care se prinde în mijlocul „creierului” unei mașini autonome și îi traduce raționamentul în concepte pe care le înțelege un om: „mă apropii de un vehicul oprit”, „biciclist aproape”. Antrenat pe 130 de milioane de scene, testat pe un robotaxi real pe pistă privată și în simulări cu oameni obișnuiți. Rezultatul: oamenii au prezis mai bine ce face mașina, iar mașina a condus la fel. Publicat în Nature pe 2 septembrie 2026.",
+  "mainVerdict": "Probat ce descrie MIT: metoda, antrenamentul pe 130 de milioane de scene, testul pe pistă cu șofer de siguranță și simulările cu neexperți, cu explicațiile care au îmbunătățit predicțiile oamenilor. Lucrarea din Nature nu e cu acces liber; MIT nu dă numărul de participanți și nici cu cât s-au îmbunătățit predicțiile, iar testul real a fost pe o pistă privată, nu în trafic",
+  "probat": [
+    {
+      "text": "Lucrarea „Explainable deep learning improves human mental models of self-driving cars” a apărut în revista Nature pe 2 septembrie 2026. Autorul principal e Eoin Kenny, fost cercetător postdoctoral la MIT, acum la J.P. Morgan Chase; autorii seniori sunt Julie Shah, profesoară de aeronautică și astronautică la MIT și directoarea Interactive Robotics Group din CSAIL, și Momchil Tomov, cercetător la Motional, compania de robotaxiuri; între coautori e și Laura Major, directoarea generală a Motional.",
+      "sources": [
+        {
+          "name": "Nature — pagina lucrării",
+          "url": "https://www.nature.com/articles/s41586-026-10950-5"
+        },
+        {
+          "name": "MIT News — articolul din 2 septembrie 2026 (tradus integral mai jos)",
+          "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902"
+        }
+      ]
+    },
+    {
+      "text": "Cum funcționează: un „clasificator de concepte” e inserat în arhitectura existentă a planificatorului (modelul care decide traiectoria mașinii). El traduce starea internă a modelului în concepte lizibile și obligă ultima parte a planificatorului să decidă folosind exact acele concepte. Așa, explicația nu e o poveste spusă după, ci chiar motivul deciziei. Modulul a fost antrenat pe 130 de milioane de scene etichetate și proiectat să imite deciziile planificatorului, ca să nu strice condusul.",
+      "sources": [
+        {
+          "name": "MIT News — descrierea metodei",
+          "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902"
+        }
+      ]
+    },
+    {
+      "text": "Testul care spune totul: pe pista privată, mașina se oprea constant când se apropia de un biciclist, iar șoferul de siguranță credea că o face fiindcă l-a detectat. Explicațiile CW-Net au arătat că modelul nu era configurat corect ca să vadă biciclistul și alesese o traiectorie care ar fi dus la coliziune; se oprea doar pentru că intra în funcțiune frânarea de urgență, când ajungea prea aproape. Cu informația asta, șoferul poate reduce viteza sau prelua controlul mai devreme, iar inginerii pot repara modelul.",
+      "sources": [
+        {
+          "name": "MIT News — testul pe pistă cu robotaxiul Motional",
+          "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Lucrarea din Nature e cu abonament; am citit articolul MIT News, care e textul instituției, nu lucrarea. MIT nu spune câți șoferi de siguranță au participat la testul pe pistă, câți oameni au fost în simulările online și cu cât anume s-au îmbunătățit predicțiile („semnificativ” e singurul cuvânt). Cifra „sub 1% diferență de performanță la condus”, care a circulat în presă, nu apare în textul MIT; n-o putem verifica.",
+      "sources": [
+        {
+          "name": "Nature — pagina lucrării (acces cu abonament)",
+          "url": "https://www.nature.com/articles/s41586-026-10950-5"
+        }
+      ]
+    },
+    {
+      "text": "Testul real a fost pe o pistă privată, cu un șofer de siguranță la volan, iar restul în simulări cu scene filmate în Las Vegas. Nu e trafic real cu pasageri, iar concluzia autorilor e pe măsură: unealta e deocamdată pentru ingineri care depanează sistemul și pentru șoferii de siguranță, cu un „pe termen lung” pentru încrederea pasagerilor. Autorii spun ei înșiși că modulul ar trebui extins ca să acopere mai multe concepte.",
+      "sources": [
+        {
+          "name": "MIT News — ce urmează, în cuvintele autorilor",
+          "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902"
+        }
+      ]
+    },
+    {
+      "text": "Motional, coautoare a studiului, e o companie care vinde exact tehnologia testată. Nu înseamnă că rezultatul e greșit, dar e o lucrare făcută împreună cu cel care are interes ca mașinile lui să pară mai sigure și mai transparente. Nature a trecut-o prin recenzie; noi n-am putut vedea recenzia.",
+      "sources": [
+        {
+          "name": "MIT News — lista autorilor, cu afilierile Motional",
+          "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cea mai bună frază din studiu nu e despre inteligența artificială, e despre oameni: șoferul „știa” de ce se oprește mașina și greșea. Atâta timp cât o mașină nu poate spune în cuvinte de ce a făcut ceva, tot ce avem sunt presupunerile noastre despre ea, și presupunerile sunt confortabile exact până când nu mai sunt. Julie Shah o spune fără ocolișuri: dacă nu construim aceste tehnologii astfel încât să ne putem baza pe ele și să le prezicem comportamentul, „e o fundație șubredă și nesigură pentru folosirea lor”."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, redacția proprie a Institutului de Tehnologie din Massachusetts, articol semnat de Adam Zewe, publicat pe 2 septembrie 2026. Textul e republicat conform politicii lor oficiale de republicare, care cere titlul, subtitlul, semnătura autorului și mențiunea „MIT News” cu link la original în capul textului, plus formula „Reprinted with permission of MIT News” la final. Le-am pus pe amândouă. Fotografiile lor NU sunt preluate — imaginile cer aprobare separată, scrisă.\n\n🔴 Ce trebuie știut înainte de a-l citi: e textul instituției despre propria cercetare, nu lucrarea din Nature. Lucrarea are acces cu abonament și n-am putut-o citi. Cifrele lipsă (participanți, mărimea îmbunătățirii) sunt lipsă și aici; nu le-am completat din presă.\n\nCe s-a verificat: că lucrarea există în Nature cu titlul citat, că autorii și afilierile sunt cele din articol, și că testele descrise (pistă privată, simulări cu scene din Las Vegas) sunt cele din text. Ce am adăugat noi: că testul real a fost pe pistă, nu în trafic, și că Motional e parte interesată. Nu decretăm nimic; arătăm ce s-a măsurat și ce s-a spus.",
+  "persoane": [
+    "Eoin Kenny",
+    "Julie Shah",
+    "Momchil Tomov",
+    "Laura Major"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "System helps humans predict when self-driving cars will make mistakes",
+    "publicatie": "MIT News",
+    "autor": "Adam Zewe, MIT News",
+    "data": "2 septembrie 2026",
+    "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+    "nota_sus": "Subtitlul original: „O metodă nouă, numită CW-Net, traduce procesul de raționament al sistemului de inteligență artificială al unui vehicul autonom în concepte inteligibile, care îi explică comportamentul.”",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "Mașinile autonome sunt de multe ori controlate de modele de învățare profundă care, uneori, dau greș în situații neașteptate. De pildă, mașina poate frâna inexplicabil și bloca drumul unui vehicul de urgență care vine din sens opus. Un șofer sau un pasager ar putea fi nevoit să reacționeze rapid ca să prevină o coliziune.",
+      "Ca să-i ajute pe oameni să anticipeze mai bine greșelile unui vehicul, cercetători de la MIT și de la Motional, companie de tehnologie pentru vehicule autonome, au dezvoltat o metodă nouă care oferă explicații clare pentru deciziile modelului de bază.",
+      "De obicei, procesul intern de raționament al unui model de învățare profundă e opac și greu de înțeles. Noua metodă însă, numită Concept-Wrapper Network (CW-Net), traduce acel raționament în concepte care descriu fidel deciziile vehiculului autonom, fără să-i altereze performanța la condus.",
+      "CW-Net explică deciziile planificatoarelor bazate pe învățare automată folosind concepte inteligibile, precum „mă apropii de un vehicul oprit” sau „biciclist aproape”. Explicațiile pot corecta ideile greșite pe care șoferii și pasagerii le au despre comportamentul vehiculului și le pot îmbunătăți conștientizarea situației.",
+      "În teste pe drum, pe o pistă privată, explicațiile CW-Net i-au ajutat pe șoferii de siguranță să prezică mai exact comportamentul vehiculului; un studiu de simulare mai amplu, cu utilizatori neexperți, a dat rezultate similare. Experimentele arată cum CW-Net poate oferi un feedback important inginerilor care depanează sistemele de inteligență artificială din vehicul. Pe termen mai lung, tehnica ar putea spori siguranța și transparența vehiculelor autonome, construind totodată o încredere pe măsură în rândul șoferilor și al pasagerilor.",
+      "„Această lucrare arată cum explicațiile susțin modelul mental al omului și înțelegerea comportamentului unui sistem, și cum ar putea fi folosite în inginerie și dezvoltare pentru a îmbunătăți tehnologia”, spune Julie Shah, profesoară de aeronautică și astronautică la MIT, directoarea Interactive Robotics Group din Laboratorul de Informatică și Inteligență Artificială (CSAIL) și coautoare seniorală a lucrării despre CW-Net. „Dacă nu construim aceste tehnologii într-un fel în care să ne putem baza pe ele și să le prezicem comportamentul, atunci e o fundație șubredă și nesigură pentru folosirea lor.”",
+      "Alături de ea, la lucrare semnează autorul principal Eoin Kenny, fost cercetător postdoctoral la MIT, acum cercetător senior în inteligență artificială la J.P. Morgan Chase; coautorul seniorial Momchil Tomov, cercetător științific la Motional; precum și membrii echipei Motional Akshay Dharmavaram, Sang Uk Lee, Tung Phan-Minh, Shreyas Rajesh, Yunqing Hu și Laura Major, președinta și directoarea generală a Motional. Cercetarea apare astăzi în Nature.",
+      "Planificatoarele bazate pe învățare automată sunt „creierul” unei mașini autonome. Aceste arhitecturi puternice de învățare profundă procesează datele de la camerele și senzorii lidar ai vehiculului, generează un rezumat de nivel înalt al mediului din jurul lui, decid ce ar trebui să facă mașina în continuare și produc o traiectorie pe care ea s-o urmeze.",
+      "Planificatoarele sunt de obicei modele de tip „cutie neagră”, adică procesul lor intern de decizie e atât de complex încât e greu de înțeles. Asta îi poate lăsa pe oamenii de știință și pe șoferii de siguranță în întuneric cu privire la motivul pentru care un vehicul autonom a luat o decizie neașteptată, cum e frânarea-fantomă.",
+      "Cercetătorii au proiectat CW-Net ca să explice deciziile vehiculului prin concepte inteligibile, asigurându-se totodată că explicațiile reflectă exact motivele reale ale comportamentului lui.",
+      "„Mai ales în situații cu miză mare, cum sunt mașinile autonome, e important ca explicațiile să nu fie potențial înșelătoare. Fiindcă CW-Net e fidel cauzal în felul în care ia deciziile, asta oferă anumite garanții în privința explicațiilor”, spune Kenny.",
+      "CW-Net e un „clasificator de concepte”, un algoritm de inteligență artificială antrenat să prezică conceptele de nivel înalt prezente în datele de intrare. Cercetătorii conectează modulul CW-Net în mijlocul arhitecturii existente a planificatorului bazat pe învățare automată al unui vehicul autonom.",
+      "El traduce procesul intern de raționament al modelului în concepte inteligibile, precum „mă apropii de un vehicul oprit” sau „biciclist aproape”. Apoi obligă ultima componentă a arhitecturii planificatorului să folosească acele concepte când decide ce ar trebui să facă vehiculul în continuare. În felul acesta, CW-Net se asigură că respectivele concepte explică fidel acțiunile vehiculului.",
+      "În același timp, CW-Net folosește conceptele pe care le-a clasificat pentru a genera explicații clare, produse împreună cu traiectoria vehiculului, în timp real.",
+      "„În loc să te întrebi doar de ce s-a oprit mașina, datele în timp real îți dau un feedback care îți permite să testezi sistemul în timpul funcționării. Ai putea da acele date și unui inginer, ca să îmbunătățească eventual sistemul”, spune Kenny.",
+      "Cercetătorii au antrenat CW-Net să prezică concepte folosind un set de date de 130 de milioane de exemple de scene provenite de la mașini autonome, cu mai multe concepte etichetate în fiecare scenă. Un set de date etichetat atât de mare îi permite să identifice conceptele cu precizie într-o gamă largă de situații.",
+      "De asemenea, au proiectat CW-Net să imite deciziile de condus ale planificatoarelor bazate pe învățare automată, astfel încât modulul să nu afecteze negativ performanța vehiculului.",
+      "În final, CW-Net generează explicații exacte și inteligibile fără să altereze modelul original de învățare profundă.",
+      "Ca să testeze CW-Net, cercetătorii au instalat modulul pe un vehicul real de testare pentru condus autonom (un robotaxi Motional), pe o pistă privată, cu un șofer de siguranță. Au constatat că CW-Net l-a ajutat pe șoferul de siguranță să prezică mai bine cum se va comporta vehiculul în situații surprinzătoare.",
+      "De exemplu, vehiculul se oprea constant când se apropia de un biciclist, iar șoferul de siguranță presupunea că o face fiindcă detectase biciclistul. Dar explicațiile CW-Net au dezvăluit că modelul nu era configurat corespunzător ca să detecteze biciclistul și alesese o traiectorie care ar fi provocat o coliziune. Se oprea, în schimb, fiindcă procedura lui de frânare de urgență intra în funcțiune când ajungea prea aproape.",
+      "Înarmat cu această informație despre greșeala modelului, șoferul de siguranță putea să reducă viteza sau să treacă mai devreme pe condus manual în situații similare. Asta i-ar putea ajuta și pe ingineri să repare modelul, ca să evite acest eșec pe viitor.",
+      "În studii de simulare online mai ample, care au folosit situații reale de condus filmate pe străzile din Las Vegas, cercetătorii au văzut rezultate similare. Explicațiile CW-Net au îmbunătățit semnificativ capacitatea participanților de a prezice cum se va comporta un vehicul autonom.",
+      "Pe viitor, cercetătorii ar putea extinde CW-Net astfel încât modulul să acopere mai multe concepte și ar putea explora tehnici diferite de antrenare și de proiectare, care să crească performanța și să îmbunătățească interpretabilitatea.",
+      "„Studiul nostru arată cât de crucială poate fi interpretabilitatea în aceste medii cu miză mare și cum ar trebui să fie în mintea oamenilor pe măsură ce construiesc inteligență artificială în viitor, pentru mașini autonome sau pentru alte medii critice pentru siguranță”, spune Kenny."
+    ]
+  },
+  "poza": {
+    "img_html": "<img src=\"../img/articole/mit-cw-net-masina-autonoma-explicatii-nature.jpg\" alt=\"Eoin Kenny\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Eoin Kenny. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ballinalee_PO_90%27s_(cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ballinalee PO 90's (cropped)</a>\" de 1959 Historian, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/mit-cw-net-masina-autonoma-explicatii-nature.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "1959 Historian"
+  }
+}
