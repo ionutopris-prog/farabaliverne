@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 12 Sep 2026 09:43:29 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 09:45:26 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cercetători suedezi propun, teoretic, operații pe biți cuantici de peste 1.000 de ori mai rapide — dar ideea n-a fost încă testată pe un computer real</title>
+      <link>https://farabaliverne.ro/a/chalmers-porti-cuantice-1000x-mai-rapide-prl.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/chalmers-porti-cuantice-1000x-mai-rapide-prl.html</guid>
+      <pubDate>Sat, 12 Sep 2026 06:44:30 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu teoretic publicat în Physical Review Letters, semnat de cercetători de la Chalmers University of Technology (Suedia), propune o metodă — numită „porți cuantice de rețea” (quantum lattice gates) — care ar putea comprima mii de cicluri de control necesare azi pentru anumite operații pe biți cuantici bosonici într-un singur ciclu, adică o accelerare teoretică de peste 1.000 de ori. Autorii spun că discută deja cu colegi de la Chalmers o posibilă demonstrație experimentală, dar până acum rezultatul există doar pe hârtie și în simulări.
+
+Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Un studiu pe 3.119 oameni urmăriți 14 ani arată că „rezistența cognitivă” poate contracara riscul de Alzheimer, chiar și la boală avansată</title>
       <link>https://farabaliverne.ro/a/alzheimer-rezistenta-cognitiva-studiu-coast-nature-medicine.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat atacul și victimele; neconfirmată independent justifi
       <description>Ministrul ungar de externe, Anita Orbán, a anunțat pe 8 septembrie 2026 expulzarea a 10 diplomați ruși, pentru activități „incompatibile cu statutul diplomatic” conform Convenției de la Viena — prima măsură de acest fel din 2018, sub noul guvern al premierului Péter Magyar. Rusia promite un răspuns „dur și dureros”.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Curtea de Apel București suspendă procedura Guvernului pentru desemnarea candidatului României la CJUE</title>
-      <link>https://farabaliverne.ro/a/cjue-candidat-romania-procedura-suspendata-cab.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/cjue-candidat-romania-procedura-suspendata-cab.html</guid>
-      <pubDate>Wed, 09 Sep 2026 09:59:30 +0000</pubDate>
-      <category>Politică</category>
-      <description>La cererea unei judecătoare de la Curtea de Apel Craiova, instanța bucureșteană a suspendat pe 8 septembrie 2026 memorandumul Guvernului Bolojan din 27 august, prin care se declanșa selecția candidatului României la Curtea de Justiție a Uniunii Europene. Decizia poate fi atacată cu recurs în 5 zile.
-
-Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
