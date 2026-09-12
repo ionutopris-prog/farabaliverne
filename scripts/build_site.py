@@ -841,10 +841,10 @@ def pune_citite(s):
 SHARE_FINAL_FB = ("window.shareFB=function(){if(window.__fbMobil&&navigator.share)"
                   "{navigator.share({title:T,url:U}).catch(function(){});return;}"
                   "window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),"
-                  "'_blank','noopener');};")
+                  "'_blank','noopener,width=650,height=600');};")
 SHARE_FINAL_X = ("window.shareX=function(){"
                  "window.open('https://x.com/intent/post?url='+e(U)+'&text='+e(T),"
-                 "'_blank','noopener');};")
+                 "'_blank','noopener,width=560,height=460');};")
 # Orice variantă de shareFB / shareX de până acum se termină cu
 # `'_blank','noopener…');};` — pe asta prindem tot, indiferent de ce e în corp.
 _RE_SHARE_FB = re.compile(r"window\.shareFB=function\(\)\{.*?'_blank','noopener[^']*'\);\};")
@@ -861,13 +861,13 @@ def repara_share(s):
     celei dinainte. A patra ar fi fost la fel de fragilă. Acum se rescrie
     întregul corp al funcțiilor, cu regex, deci nu mai contează istoricul.
 
-    Ce e definitiv și DE CE:
-    - X: `x.com/intent/post` cu text + adresă, deschis în FILĂ NORMALĂ. În
-      popup mic (560×460) X încarcă varianta de telefon și pierde parametrii —
-      fereastra de compunere apărea goală. Testat pe 12 sept: în filă normală
-      textul și linkul sunt gata scrise.
+    Ce e definitiv și DE CE (fondatorul: POPUP, „nu vreau improvizații"):
+    - X: `x.com/intent/post` cu text + adresă, în POPUP cu dimensiune. Testat
+      cu click pe 12 sept 2026: `window.open(...,'_blank','noopener')` FĂRĂ
+      dimensiune (filă normală) e mai rău — X pierde parametrii și aruncă pe
+      /home; popup-ul cu width/height păstrează adresa cu parametri.
     - Facebook: pe telefon foaia nativă (Facebook nu acceptă text
-      precompletat); pe desktop `sharer.php`, tot în filă normală, nu popup.
+      precompletat); pe desktop `sharer.php` în popup.
     """
     if "window.shareFB=function()" not in s and "window.shareX=function()" not in s:
         return s
