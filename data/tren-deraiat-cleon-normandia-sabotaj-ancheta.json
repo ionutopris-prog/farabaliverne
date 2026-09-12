@@ -1,0 +1,55 @@
+{
+  "slug": "tren-deraiat-cleon-normandia-sabotaj-ancheta",
+  "title": "Un tren regional a deraiat în Normandia, la Cléon — poliția franceză anchetează sabotajul ca pistă principală, 44 de răniți",
+  "category": "Extern",
+  "date": "2026-09-12",
+  "source": "NBC News / Gulf News",
+  "url": "https://www.nbcnews.com/world/europe/train-derails-france-injures-44-authorities-investigate-possible-sabot-rcna597370",
+  "dek": "Un tren regional cu 186 de pasageri, pe ruta Rouen–Caen, a deraiat vineri seară, 11 septembrie 2026, la Cléon (Seine-Maritime). 44 de persoane au fost rănite, una aflându-se în stare critică. Poliția a găsit un fragment de cale ferată pe șină și tratează sabotajul ca „pista principală” de anchetă, dar procuratura nu a tras încă o concluzie definitivă — nu există, până acum, nicio revendicare sau suspiciune formală asupra unui grup sau stat anume.",
+  "mainVerdict": "Probat, anchetă în curs",
+  "probat": [
+    {
+      "text": "Trenul regional, cu 186 de pasageri la bord, a deraiat vineri, 11 septembrie 2026, în jurul orei 19:45, la Cléon, în departamentul Seine-Maritime, pe linia dintre Rouen și Caen. 44 de persoane au fost rănite, inclusiv o femeie de 18 ani aflată în stare critică, evacuată cu elicopterul la Spitalul Universitar din Rouen.",
+      "sources": [
+        {
+          "name": "NBC News — Train derails in France and injures 44 as authorities investigate possible sabotage",
+          "url": "https://www.nbcnews.com/world/europe/train-derails-france-injures-44-authorities-investigate-possible-sabot-rcna597370"
+        },
+        {
+          "name": "Gulf News — French police suspect Normandy train derailment was result of sabotage",
+          "url": "https://gulfnews.com/world/europe/french-police-suspect-train-derailment-was-sabotage-1.500672050"
+        }
+      ]
+    },
+    {
+      "text": "Poliția a găsit pe șină un fragment de cale ferată pe care îl consideră „probabil” legat de deraiere, potrivit unei purtătoare de cuvânt a poliției. Pe această bază, sabotajul este tratat ca pista principală a anchetei, dar biroul procurorului s-a abținut de la o concluzie definitivă privind natura accidentală sau intenționată a incidentului.",
+      "sources": [
+        {
+          "name": "NBC News — Train derails in France and injures 44 as authorities investigate possible sabotage",
+          "url": "https://www.nbcnews.com/world/europe/train-derails-france-injures-44-authorities-investigate-possible-sabot-rcna597370"
+        }
+      ]
+    },
+    {
+      "text": "Niciun articol din sursele citate nu menționează vreo revendicare sau vreo suspiciune formală atribuită unui grup sau unui stat anume — ancheta este, pentru moment, strict despre natura tehnică a incidentului (accident vs. act deliberat), nu despre un autor identificat.",
+      "sources": [
+        {
+          "name": "Gulf News — French police suspect Normandy train derailment was result of sabotage",
+          "url": "https://gulfnews.com/world/europe/french-police-suspect-train-derailment-was-sabotage-1.500672050"
+        }
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [],
+  "math": null,
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (NBC News, Gulf News, care citează poliția franceză); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: locul, ora și numărul de răniți ale deraierii, plus declarația poliției despre fragmentul de cale ferată găsit pe șină. Sursele coincid pe aceste fapte.\n\nCe lipsește, deliberat: un autor. „Sabotaj” înseamnă aici doar că un act deliberat nu e exclus — nu spune cine l-ar fi comis. Presa citată nu atribuie incidentul niciunui grup sau stat, iar noi nu o facem nici în absența unei dovezi publice. Orice speculație despre un vinovat anume ar fi, în acest stadiu, doar presupunere.\n\nCe ar schimba concluzia: rezultatele expertizei tehnice asupra fragmentului de cale ferată găsit pe șină, care ar confirma sau exclude definitiv mâna omului, și orice revendicare sau arestare anunțată oficial de procuratura franceză.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/tren-deraiat-cleon-normandia-sabotaj-ancheta.jpg\" alt=\"SNCF regional train France\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — SNCF regional train France. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Rame_R%C3%A9giolis_en_livr%C3%A9e_TER_Occitanie_en_gare_d%27Ax-les-Thermes.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Rame Régiolis en livrée TER Occitanie en gare d'Ax-les-Thermes</a>\" de Skola19, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/tren-deraiat-cleon-normandia-sabotaj-ancheta.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Skola19"
+  }
+}
