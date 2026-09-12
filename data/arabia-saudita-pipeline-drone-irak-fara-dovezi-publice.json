@@ -1,0 +1,89 @@
+{
+  "slug": "arabia-saudita-pipeline-drone-irak-fara-dovezi-publice",
+  "title": "Arabia Saudită spune că pipeline-ul East-West a fost atacat cu drone „provenite din Irak” — dar nu a arătat public dovezi tehnice, iar gruparea responsabilă rămâne neidentificată oficial",
+  "category": "Media de stat",
+  "date": "2026-09-12",
+  "source": "SPA (Agenția de Presă Saudită) / Al Jazeera / TASS",
+  "url": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq",
+  "dek": "📡 Ministerul saudit de Externe, prin agenția de stat SPA, a declarat pe 11 septembrie 2026 că pipeline-ul East-West (7 milioane de barili/zi) a fost țintit de mai multe drone „provenite din Irak”, lângă Riad și Medina. Bagdadul a demis un comandant militar din provincia Maysan și a promis o anchetă — dar nicio parte n-a făcut publice dovezi tehnice (traiectorii, resturi, radar), iar gruparea care ar fi lansat efectiv dronele nu a fost identificată oficial de niciun guvern.",
+  "mainVerdict": "Contestat — atacul și oprirea temporară a pipeline-ului sunt confirmate independent; originea teritorială din Irak e susținută chiar de propria anchetă irakiană, dar identitatea exactă a grupării responsabile și orice legătură cu Iranul sau cu houthii rămân afirmații neconfirmate public",
+  "probat": [
+    {
+      "text": "Ministerul saudit de Externe a declarat, pe 11 septembrie 2026, că pipeline-ul East-West a fost lovit de „several drones launched from Iraq” în zonele Riad și Medina, provocând răniri și daune materiale. Compania saudită a oprit temporar conducta, ca măsură de precauție, iar echipe tehnice au fost mobilizate pentru evaluarea siguranței.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+          "url": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq"
+        },
+        {
+          "name": "TASS — Saudi pipeline comes under drone attack launched from Iraq, Foreign Ministry says",
+          "url": "https://tass.com/world/2186509"
+        },
+        {
+          "name": "Arab News — Saudi Arabia condemns drone attack from Iraq after East-West pipeline shut as precaution",
+          "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-condemns-drone-attack-from-iraq-after-east-west-pipeline-shut-as-precaution-3001403"
+        }
+      ]
+    },
+    {
+      "text": "Guvernul irakian nu a negat originea teritorială a atacului: premierul Ali al-Zaidi a ordonat o anchetă, iar comandantul militar responsabil de operațiunile din provincia Maysan a fost demis, după ce ancheta a „confirmat că cele mai recente atacuri cu drone au provenit din această țară”. Arabia Saudită a decis să nu riposteze militar, la cererea premierului irakian, pentru a-i da timp Bagdadului să prevină alte atacuri de pe teritoriul său.",
+      "sources": [
+        {
+          "name": "ABC News (Australia) — Drone attack on Saudi oil pipeline from Iraq",
+          "url": "https://www.abc.net.au/news/2026-09-12/drone-attack-on-saudi-oil-pipeline-from-iraq/107146218"
+        },
+        {
+          "name": "TASS — Saudi pipeline comes under drone attack launched from Iraq, Foreign Ministry says",
+          "url": "https://tass.com/world/2186509"
+        }
+      ]
+    },
+    {
+      "text": "Imagini satelitare comerciale (Copernicus Sentinel, Planet Labs PBC) arată fum negru vizibil în apropierea traseului pipeline-ului, lângă Medina — o confirmare vizuală a unui incendiu la fața locului, dar nu o dovadă tehnică a originii sau a autorului atacului.",
+      "sources": [
+        {
+          "name": "Al Jazeera — Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+          "url": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nicio sursă verificată public (saudită, irakiană sau independentă) nu a arătat dovezi tehnice concrete — resturi de dronă, date radar, traiectorii de zbor — care să identifice exact tipul de dronă folosit sau punctul precis de lansare. Ancheta irakiană a confirmat doar provincia de origine (Maysan), nu gruparea sau persoanele responsabile.",
+      "sources": [
+        {
+          "name": "TASS — Saudi pipeline comes under drone attack launched from Iraq, Foreign Ministry says",
+          "url": "https://tass.com/world/2186509"
+        },
+        {
+          "name": "ABC News (Australia) — Drone attack on Saudi oil pipeline from Iraq",
+          "url": "https://www.abc.net.au/news/2026-09-12/drone-attack-on-saudi-oil-pipeline-from-iraq/107146218"
+        }
+      ]
+    },
+    {
+      "text": "Oficiali regionali, citați anonim de presă, au afirmat că „houthii ar fi ajutat miliții irakiene să planifice și să execute atacurile” — o afirmație care ar lega indirect Iranul (susținătorul declarat al houthilor) de atac, dar care nu a fost confirmată oficial, cu numele, de niciun guvern și nu vine dintr-o sursă publică verificabilă.",
+      "sources": [
+        {
+          "name": "ABC News (Australia) — Drone attack on Saudi oil pipeline from Iraq",
+          "url": "https://www.abc.net.au/news/2026-09-12/drone-attack-on-saudi-oil-pipeline-from-iraq/107146218"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Decizia Arabiei Saudite de a nu riposta militar și de a acorda Bagdadului timp să investigheze e o alegere politică, nu o consecință automată a faptelor probate — reflectă calculul saudit privind stabilitatea regională, nu o concluzie despre gravitatea reală a atacului."
+    }
+  ],
+  "aiNote": "📡 Atenție: sursa de pornire e o declarație oficială transmisă prin presa de stat — SPA (Agenția de Presă Saudită) pentru varianta saudită, TASS (media de stat rusă) pentru relatarea externă. Am pus alături Al Jazeera și ABC News (Australia), redacții independente de statele saudit, irakian sau rus.\n\nCe s-a verificat: faptul de bază — pipeline-ul East-West a fost atins de un incident care a provocat incendii și oprirea temporară a conducteii — e confirmat de mai multe redacții independente și susținut de imagini satelitare comerciale (fum vizibil). Originea teritorială irakiană nu vine doar de la Riad: chiar guvernul irakian a demis un comandant militar din Maysan după propria anchetă, ceea ce dă un al doilea nivel de confirmare pentru „de unde au partit dronele”.\n\nUnde se desparte povestea: cine exact a lansat dronele — ce grupare, cu ce comandă — nu a fost făcut public de niciun guvern. Afirmația că houthii ar fi „ajutat” miliții irakiene vine din surse anonime citate de presă, nu dintr-o declarație oficială asumată; e genul de legătură care, odată repetată des, se poate transforma în cap de acuzație împotriva Iranului fără să fi fost demonstrată vreodată public.\n\nCe lipsește: dovezi tehnice publice (resturi, traiectorii radar) care să identifice tipul exact de dronă și punctul de lansare; numele grupării responsabile, asumat oficial de vreun guvern; și o confirmare directă, nu anonimă, a unei eventuale implicări houthi/iraniene.\n\nCe ar schimba concluzia: publicarea de către Irak sau Arabia Saudită a rezultatelor anchetei tehnice, sau o revendicare oficială a atacului de către o grupare identificabilă.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/arabia-saudita-pipeline-drone-irak-fara-dovezi-publice.jpg\" alt=\"East-West pipeline Saudi Arabia oil\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — East-West pipeline Saudi Arabia oil. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Saudi_Arabian_Pipeline_-_DPLA_-_cec0c28b706a03a876ecc20f524c59b8.pdf\" rel=\"nofollow noopener\" target=\"_blank\">Saudi Arabian Pipeline - DPLA - cec0c28b706a03a876ecc20f524c59b8</a>\" de President (1933-1945 : Roosevelt). 1933-1945, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/arabia-saudita-pipeline-drone-irak-fara-dovezi-publice.jpg",
+    "licenta": "Public domain",
+    "autor": "President (1933-1945 : Roosevelt). 1933-1945"
+  }
+}
