@@ -98,12 +98,5 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Ce se probează clar: există doi candidați cu numele „Dan Sullivan” pe buletinul de vot din Alaska, autoritățile electorale au încercat să-l excludă pe al doilea, iar două instanțe succesive au respins acea excludere, spunând explicit că acuzația de rea-credință nu are suport probatoriu. Ce rămâne neprobat: afirmația lui Trump și a senatorului Sullivan, potrivit căreia al doilea candidat ar acționa la comanda sau în coordonare cu democrații — candidatul și campania democrată au negat-o, iar niciun judecător nu a confirmat-o până acum. Am tratat separat faptul juridic (deciziile instanțelor) de acuzația politică (declarația lui Trump), ca să nu prezentăm acuzația nedovedită drept fapt stabilit.",
   "persoane": [
     "Donald Trump"
-  ],
-  "poza": {
-    "img_html": "<img src=\"../img/articole/alaska-doi-dan-sullivan-trump-avertisment.jpg\" alt=\"Sullivan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Sullivan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Court_Street_in_downtown_Sullivan.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Court Street in downtown Sullivan</a>\" de Nyttend, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
-    "fisier": "img/articole/alaska-doi-dan-sullivan-trump-avertisment.jpg",
-    "licenta": "Public domain",
-    "autor": "Nyttend"
-  }
+  ]
 }
