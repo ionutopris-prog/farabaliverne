@@ -1471,6 +1471,58 @@ def pune_buton_salt(s):
     return s.replace("</body>", BUTON_SALT + "</body>", 1)
 
 
+# „Caută o afirmație", pe telefon: buton rotund care plutește jos-DREAPTA, în
+# oglindă cu săgeata din stânga, și urmează pagina exact ca ea (apare pe
+# aceleași pagini lungi, la fel de mare, cu aceeași umbră). Cerut de fondator pe
+# 12 sept 2026, cu poza de pe telefon: „să fie în partea opusă săgeții, exact în
+# oglindă, și să urmeze butonul de săgeată". Pe desktop rămâne pastila din meniu.
+# NU pe paginile de articol (acolo jos-dreapta stau f / X / Gabe it) și nu pe
+# pagina de căutare.
+BUTON_CAUTA = """
+<style>
+  .fb-cauta{position:fixed;right:18px;bottom:18px;z-index:9996;width:46px;height:46px;
+    border-radius:50%;border:1px solid var(--line-2);background:var(--card);
+    color:var(--ink-soft);display:none;align-items:center;justify-content:center;
+    box-shadow:0 6px 20px rgba(0,0,0,.12);text-decoration:none;
+    transition:background .25s cubic-bezier(.4,0,.6,1),color .25s cubic-bezier(.4,0,.6,1),
+      border-color .25s cubic-bezier(.4,0,.6,1),transform .2s ease,box-shadow .25s ease}
+  .fb-cauta:hover{background:var(--accent);border-color:var(--accent);color:#fff;
+    transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
+  @media(max-width:980px){
+    .fb-cauta{right:12px;bottom:12px;width:42px;height:42px}
+    .fb-cauta.vizibil{display:flex}
+  }
+</style>
+<script>
+(function(){
+  var a = document.createElement('a');
+  a.className = 'fb-cauta';
+  a.href = '__PREF__cauta.html';
+  a.setAttribute('aria-label', 'Caută o afirmație');
+  a.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" '
+    + 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
+    + 'stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
+  document.body.appendChild(a);
+  function inalt(){
+    return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+  }
+  // aceeași regulă ca săgeata: doar pe paginile mai lungi de ~două ecrane
+  function pune(){ a.classList.toggle('vizibil', inalt() > window.innerHeight * 1.8); }
+  window.addEventListener('scroll', pune, {passive:true});
+  window.addEventListener('resize', pune);
+  pune();
+})();
+</script>
+"""
+
+
+def pune_buton_cauta(s, pref=""):
+    """Butonul de căutare plutitor, o singură dată, înainte de </body>."""
+    if "fb-cauta" in s or "</body>" not in s:
+        return s
+    return s.replace("</body>", BUTON_CAUTA.replace("__PREF__", pref) + "</body>", 1)
+
+
 
 def build_cele_mai_verificate(arts, n=5, zile=30):
     """
@@ -1934,6 +1986,8 @@ def main():
             s = pune_letopiset_panou(s)
             s = pune_carusel(s)
         s = pune_buton_salt(s)
+        if os.sep + "a" + os.sep not in f and not f.endswith("cauta.html"):
+            s = pune_buton_cauta(s, "../" if os.sep + "parlamentar" + os.sep in f else "")
         # Google lua ca descriere a articolului LEGENDA („Probat; Contestat; Contrazis; În
         # verificare") și subsolul („© 2026 Fără Baliverne…"), fiindcă stau în HTML înaintea
         # articolului (11 sept 2026, captura fondatorului). `data-nosnippet` îi spune lui
