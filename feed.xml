@@ -5,8 +5,48 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 12 Sep 2026 12:49:56 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 13:08:18 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MIT și Motional au făcut o mașină autonomă să spună în cuvinte de ce frânează. Șoferul a aflat că nu vedea biciclistul, ci se oprea doar din reflexul de urgență</title>
+      <link>https://farabaliverne.ro/a/mit-cw-net-masina-autonoma-explicatii-nature.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-cw-net-masina-autonoma-explicatii-nature.html</guid>
+      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>CW-Net e un modul care se prinde în mijlocul „creierului” unei mașini autonome și îi traduce raționamentul în concepte pe care le înțelege un om: „mă apropii de un vehicul oprit”, „biciclist aproape”. Antrenat pe 130 de milioane de scene, testat pe un robotaxi real pe pistă privată și în simulări cu oameni obișnuiți. Rezultatul: oamenii au prezis mai bine ce face mașina, iar mașina a condus la fel. Publicat în Nature pe 2 septembrie 2026.
+
+Unde bat probele: Probat ce descrie MIT: metoda, antrenamentul pe 130 de milioane de scene, testul pe pistă cu șofer de siguranță și simulările cu neexperți, cu explicațiile care au îmbunătățit predicțiile oamenilor. Lucrarea din Nature nu e cu acces liber; MIT nu dă numărul de participanți și nici cu cât s-au îmbunătățit predicțiile, iar testul real a fost pe o pistă privată, nu în trafic. Verificate: 3 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>Stanford a blocat o singură proteină a îmbătrânirii și cartilajul din genunchii șoarecilor bătrâni a crescut la loc. A pornit regenerarea și în țesut uman scos la proteze. Deocamdată doar în laborator</title>
+      <link>https://farabaliverne.ro/a/stanford-15-pgdh-cartilaj-regenerare-artroza-science.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/stanford-15-pgdh-cartilaj-regenerare-artroza-science.html</guid>
+      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>Proteina se numește 15-PGDH și se dublează în cartilaj odată cu vârsta. Blocată cu o moleculă mică, injectată în abdomen sau direct în genunchi, cartilajul subțiat al șoarecilor bătrâni s-a îngroșat, și era cartilaj hialin, cel bun, nu fibrocartilaj. Șoarecii cu leziuni de tip ligament încrucișat tratați patru săptămâni nu au mai făcut artroză. Iar probe de cartilaj de la pacienți operați de proteză de genunchi, ținute o săptămână cu inhibitorul, au început să producă cartilaj nou. Mecanismul surprinzător: nu celule stem, ci celulele existente care își „întineresc” programul genetic. Publicat în Science pe 12 iunie 2026.
+
+Unde bat probele: Probat ce descrie Stanford: proteina, dublarea ei cu vârsta, regenerarea la șoareci bătrâni și după leziune, procentele pe tipuri de celule, răspunsul probelor umane în laborator. Ce nu există încă: niciun pacient tratat. Studiul e pe șoareci și pe țesut în vas; inhibitorul e în faza 1 de teste clinice pentru mușchi, nu pentru cartilaj; iar autorii principali au brevete și părți într-o companie care dezvoltă molecula. Verificate: 4 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>Un model de inteligență artificială a nimerit diagnosticul la triajul din urgență în 67% din 76 de cazuri reale, față de 55% și 50% pentru doi medici. Autorii spun că nu e gata pentru pacienți, iar un medic de urgență spune că s-a comparat cu specialitatea greșită</title>
+      <link>https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</guid>
+      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>Harvard Medical School și Beth Israel Deaconess au dat modelului o1 al OpenAI exact ce aveau și medicii: fișa electronică, semnele vitale, câteva rânduri scrise de asistenta de la triaj, fără nicio prelucrare. La primul contact, cel cu cea mai puțină informație și cea mai mare grabă, modelul a dat diagnosticul exact sau foarte apropiat în 67% din cazuri; cei doi medici, în 55% și 50%. Evaluatorii nu știau ce vine de la om și ce de la mașină. Publicat în Science pe 30 aprilie 2026.
+
+Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente de diagnostic, comparație în orb cu doi medici, plus alte experimente pe raționament clinic. Ce nu spune studiul: că mașina poate înlocui medicul. Cei doi medici erau interniști, nu medici de urgență; datele au fost doar text, fără imagistică sau EKG; iar autorii cer studii prospective înainte de orice folosire la pacienți. Verificate: 3 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>MIT a cartografiat 31 de tipuri de neuroni din striat, regiunea creierului lovită de Huntington, schizofrenie și adicție. Și a găsit de ce partea de sus a striatului cedează prima</title>
+      <link>https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</guid>
+      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>Din țesut donat de oameni, băncilor de creier din SUA și Canada, cercetătorii MIT au făcut un atlas al neuronilor din striat: 31 de subpopulații, dintre care nouă tipuri de „neuroni spinoși medii”. Două populații atipice poartă genele adicției la opioide, ale răspunsului la antidepresive și la clozapină. Iar neuronii din partea de sus a striatului exprimă mai mult MSH2 și MSH3, genele care înmulțesc repetițiile CAG din gena huntingtinei; de asta cedează primii în boala Huntington. Publicat în Cell pe 1 septembrie 2026.
+
+Unde bat probele: Probat ce descrie MIT: metoda (secvențiere ARN pe celule individuale, plus două tehnici spațiale), cele 31 de subpopulații, cele două populații atipice și explicația vulnerabilității dorsale la Huntington prin MSH2/MSH3. Lucrarea din Cell e cu acces restricționat; e un atlas, nu un tratament, iar diferențele față de șoareci, spuse chiar de autori, limitează cât din biologia asta se poate testa pe animale. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Vârfurile munților Europei au tot mai multe specii de plante. Un studiu în Science, cu cercetători de la Cluj, arată că tocmai asta ascunde dispariția plantelor alpine</title>
       <link>https://farabaliverne.ro/a/science-varfuri-munti-europa-specii-alpine-disparitii-ubb-cluj.html</link>
@@ -16,6 +56,16 @@
       <description>Douăzeci de ani, 62 de vârfuri din 16 lanțuri muntoase, 896 de parcele de vegetație numărate de patru ori, între 2001 și 2022, inclusiv în Munții Rodnei. Numărul total de specii de pe vârfuri crește, fiindcă plantele de la altitudini mai joase urcă. Dar cu fiecare campanie de numărare, tot mai multe specii nu mai sunt regăsite, iar cele care dispar sunt exact specialiștii înălțimilor. Vârfurile care s-au încălzit mai tare au pierdut mai mult.
 
 Unde bat probele: Probat ce a măsurat studiul: 62 de vârfuri, 896 de parcele, patru campanii în 21 de ani, cu procentul speciilor neregăsite în creștere de la o campanie la alta și cu pierderi mai mari acolo unde încălzirea a fost mai puternică. Lucrarea din Science nu poate fi citită integral fără abonament; cifrele de mai jos sunt cele publicate de universitățile participante, iar legătura cu încălzirea e o corelație observată, nu un experiment. Verificate: 4 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>SUA: administrația Trump cere, a treia oară, Curții Supreme să lase regula USPS pentru votul prin corespondență să intre în vigoare înaintea alegerilor de la mijlocul mandatului</title>
+      <link>https://farabaliverne.ro/a/sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara.html</guid>
+      <pubDate>Sat, 12 Sep 2026 09:50:53 +0000</pubDate>
+      <category>Extern</category>
+      <description>🌍 Un ordin executiv al președintelui Trump, semnat pe 31 martie 2026, a dus la o regulă a Poștei americane (USPS) care impune design standardizat de plic, coduri de bare unice pentru fiecare buletin de vot prin corespondență și încărcarea de către state a listelor de alegători într-un portal federal nou — cu refuzul USPS de a livra buletinele care nu respectă cerințele. O judecătoare federală din Boston a blocat regula de două ori, spunând că riscă să dezavantajeze alegători și că nu există, în peste un secol de vot prin corespondență, dovezi de fraudă la scară care să justifice măsura. Administrația a mers a treia oară la Curtea Supremă, cerând ca regula să poată intra în vigoare înainte ca alegerile din noiembrie 2026 să înceapă efectiv — state precum Carolina de Nord au început deja să trimită buletine.
+
+Unde bat probele: Probat ce conține regula și ce a decis instanța — dar afirmația administrației că regula previne „fraudă electorală” rămâne nesusținută de dovezi publice citate în vreuna dintre sursele verificate. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
       <title>China a extins patrulele gărzii de coastă la est de Taiwan — Beijingul le numește „de rutină”, Taipei vorbește despre o „nouă normalitate” impusă</title>
@@ -456,56 +506,6 @@ Unde bat probele: Contestat. Verificate: 2 probate, 1 contestate.</description>
       <description>🌍 Pe 9 septembrie 2026, în timp ce ministrul filipinez al Apărării, Gilberto Teodoro Jr., răspundea unei întrebări despre coerciția Chinei în Marea Chinei de Sud la Seoul Defense Dialogue, un reprezentant al atașatului militar chinez de la ambasada Chinei din Seul i-a lăsat pe masă un bilet scris, reafirmând poziția Beijingului că nu recunoaște hotărârea din 2016 a tribunalului de la Haga. Teodoro l-a citit cu voce tare și a răspuns pe loc, numindu-l lipsă de respect. China spune că Filipine „caută atenție”.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Qatar și Emiratele spun, la un forum din Abu Dhabi, că Golful „nu se mai poate baza doar pe SUA” pentru securitate</title>
-      <link>https://farabaliverne.ro/a/qatar-eau-hili-forum-securitate-golf-fara-sua.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/qatar-eau-hili-forum-securitate-golf-fara-sua.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:45:12 +0000</pubDate>
-      <category>Extern</category>
-      <description>🌍 La Hili Forum din Abu Dhabi, pe 7-8 septembrie 2026, purtătorul de cuvânt al diplomației qatareze, Majed Al Ansari, și consilierul prezidențial emiratez Anwar Gargash au declarat public că statele din Golf trebuie să devină mai autosuficiente în privința securității și nu se mai pot baza exclusiv pe SUA — în plin război american-israelian cu Iranul, care a lovit deja infrastructură din regiune. Redăm declarațiile oficiale, cu context.
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>IRGC susține că a provocat „daune grave” unor distrugătoare americane și bazei din Iordania; Amman confirmă doar rachete interceptate, fără victime</title>
-      <link>https://farabaliverne.ro/a/iran-sua-9-septembrie-petroliere-scufundate-atac-iordania.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/iran-sua-9-septembrie-petroliere-scufundate-atac-iordania.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:43:13 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>🌍📡 Pe 9 septembrie 2026, Garda Revoluționară iraniană (IRGC), citată de presa de stat PressTV, SUSȚINE că a provocat „daune grave” la doi distrugătoare americane și la baza aeriană Al-Azraq din Iordania, ca răspuns la scufundarea a cinci petroliere legate de Iran de către Comandamentul Central american (CENTCOM). Punem afirmația iraniană lângă ce confirmă independent Iordania (18 din 20 rachete interceptate, fără victime) și ce spune SUA (niciun militar american rănit). NU prezentăm afirmațiile IRGC despre daune ca fapt stabilit.
-
-Unde bat probele: Probat schimbul de lovituri; contestată amploarea daunelor revendicate de Iran. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Salariile din Japonia cresc cel mai rapid din 1997 — piețele dau șanse mari ca banca centrală să majoreze dobânda pe 18 septembrie</title>
-      <link>https://farabaliverne.ro/a/japonia-salarii-record-1997-boj-dobanda-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/japonia-salarii-record-1997-boj-dobanda-septembrie.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:40:50 +0000</pubDate>
-      <category>Extern</category>
-      <description>🌍 Datele publicate pe 8 septembrie 2026 arată că salariile nominale din Japonia au urcat 4,7% în iulie față de anul trecut — cea mai mare creștere din ianuarie 1997 și mult peste estimările economiștilor (3,8%). Salariul de bază a crescut 4,1%, cel mai rapid ritm din 1992. Datele elimină una dintre ultimele ezitări ale băncii centrale japoneze (BOJ) înaintea deciziei de dobândă din 17-18 septembrie, dar sursele nu sunt de acord asupra cât de sigură e majorarea: unele dau ~80%, altele aproape 100%.
-
-Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Consiliul Guvernatorilor AIEA trimite Iranul în fața Consiliului de Securitate ONU — prima referire de acest fel în 20 de ani. Rusia, China și Niger au votat împotrivă</title>
-      <link>https://farabaliverne.ro/a/aiea-iran-consiliul-securitate-onu-referire.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/aiea-iran-consiliul-securitate-onu-referire.html</guid>
-      <pubDate>Wed, 09 Sep 2026 22:51:53 +0000</pubDate>
-      <category>Extern</category>
-      <description>Consiliul Guvernatorilor Agenției Internaționale pentru Energie Atomică (AIEA) a adoptat, miercuri, 9 septembrie 2026, o rezoluție prin care raportează neconformarea Iranului cu obligațiile de neproliferare nucleară Consiliului de Securitate și Adunării Generale ONU — cu 23 de voturi pentru, 3 împotrivă (Rusia, China, Niger) și 8 abțineri. E prima referire de acest tip în două decenii; analiștii o descriu drept „în mare parte simbolică”, din cauza dreptului de veto al Rusiei și Chinei în Consiliul de Securitate. Iranul a respins decizia.
-
-Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Metroul din București riscă să se oprească din 16 septembrie — Metrorex are doar 3.000 de lei în cont, spune sindicatul, după ce subvenția de 63,4 milioane lei a fost blocată</title>
-      <link>https://farabaliverne.ro/a/metrorex-subventie-blocata-salarii-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/metrorex-subventie-blocata-salarii-septembrie.html</guid>
-      <pubDate>Wed, 09 Sep 2026 22:49:56 +0000</pubDate>
-      <category>Economie</category>
-      <description>Uniunea Sindicatelor Libere Metrou (USLM) a avertizat, miercuri, 9 septembrie 2026, că angajații Metrorex ar putea rămâne fără salariul din 12 septembrie, după ce Ministerul Transporturilor a blocat subvenția lunară de 63,458 milioane lei — motivul invocat fiind că Metrorex nu și-a aprobat bugetul de venituri și cheltuieli pe 2026 în termenul legal de 150 de zile. Sindicatul spune că în conturile companiei mai sunt 3.000 de lei; dacă plata nu se face în cel mult trei zile de la scadență, angajații ar putea opri, individual, activitatea.
-
-Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
