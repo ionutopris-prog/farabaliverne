@@ -1151,5 +1151,38 @@
   pune();
 })();
 </script>
+
+<style>
+  .fb-cauta{position:fixed;right:18px;bottom:18px;z-index:9996;width:46px;height:46px;
+    border-radius:50%;border:1px solid var(--line-2);background:var(--card);
+    color:var(--ink-soft);display:none;align-items:center;justify-content:center;
+    box-shadow:0 6px 20px rgba(0,0,0,.12);text-decoration:none;
+    transition:background .25s cubic-bezier(.4,0,.6,1),color .25s cubic-bezier(.4,0,.6,1),
+      border-color .25s cubic-bezier(.4,0,.6,1),transform .2s ease,box-shadow .25s ease}
+  .fb-cauta:hover{background:var(--accent);border-color:var(--accent);color:#fff;
+    transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
+  @media(max-width:980px){
+    .fb-cauta{right:12px;bottom:12px;width:42px;height:42px;display:flex}
+    /* pe articole, jos-dreapta stau f / X / Gabe it: lupa urcă deasupra lor */
+    .fb-cauta.pe-articol{bottom:126px;right:16px}
+    /* pe telefon, pastila din meniu dispare: căutarea e butonul plutitor, în oglindă cu săgeata */
+    .nav a.search{display:none}
+  }
+</style>
+<script>
+(function(){
+  var a = document.createElement('a');
+  a.className = 'fb-cauta pe-articol';
+  a.href = '../cauta.html';
+  a.setAttribute('aria-label', 'Caută o afirmație');
+  a.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" '
+    + 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
+    + 'stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>';
+  document.body.appendChild(a);
+  // Mereu vizibil pe telefon (pastila din meniu e ascunsă acolo), deci nu
+  // depinde de lungimea paginii ca săgeata — altfel pe paginile scurte n-ar
+  // mai exista niciun buton de căutare.
+})();
+</script>
 </body>
 </html>

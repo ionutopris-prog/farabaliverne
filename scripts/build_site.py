@@ -1490,6 +1490,8 @@ BUTON_CAUTA = """
     transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
   @media(max-width:980px){
     .fb-cauta{right:12px;bottom:12px;width:42px;height:42px;display:flex}
+    /* pe articole, jos-dreapta stau f / X / Gabe it: lupa urcă deasupra lor */
+    .fb-cauta.pe-articol{bottom:126px;right:16px}
     /* pe telefon, pastila din meniu dispare: căutarea e butonul plutitor, în oglindă cu săgeata */
     .nav a.search{display:none}
   }
@@ -1497,7 +1499,7 @@ BUTON_CAUTA = """
 <script>
 (function(){
   var a = document.createElement('a');
-  a.className = 'fb-cauta';
+  a.className = 'fb-cauta__ARTICOL__';
   a.href = '__PREF__cauta.html';
   a.setAttribute('aria-label', 'Caută o afirmație');
   a.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" '
@@ -1534,14 +1536,15 @@ def pune_css_reparatii(s):
     return s.replace("</head>", CSS_REPARATII + "</head>", 1)
 
 
-def pune_buton_cauta(s, pref=""):
+def pune_buton_cauta(s, pref="", articol=False):
     """Butonul de căutare plutitor: varianta veche (dacă e) se scoate și se pune
     cea curentă, la fiecare build — altfel paginile deja construite rămân cu
     prima versiune (exact capcana de la share, 12 sept 2026)."""
     if "</body>" not in s:
         return s
     s = _RE_BUTON_CAUTA.sub("\n", s)
-    return s.replace("</body>", BUTON_CAUTA.replace("__PREF__", pref) + "</body>", 1)
+    bloc = BUTON_CAUTA.replace("__PREF__", pref).replace("__ARTICOL__", " pe-articol" if articol else "")
+    return s.replace("</body>", bloc + "</body>", 1)
 
 
 
@@ -2008,8 +2011,9 @@ def main():
             s = pune_carusel(s)
         s = pune_buton_salt(s)
         s = pune_css_reparatii(s)
-        if os.sep + "a" + os.sep not in f and not f.endswith("cauta.html"):
-            s = pune_buton_cauta(s, "../" if os.sep + "parlamentar" + os.sep in f else "")
+        if not f.endswith("cauta.html"):
+            _in_a = os.sep + "a" + os.sep in f
+            s = pune_buton_cauta(s, "../" if (_in_a or os.sep + "parlamentar" + os.sep in f) else "", articol=_in_a)
         # Google lua ca descriere a articolului LEGENDA („Probat; Contestat; Contrazis; În
         # verificare") și subsolul („© 2026 Fără Baliverne…"), fiindcă stau în HTML înaintea
         # articolului (11 sept 2026, captura fondatorului). `data-nosnippet` îi spune lui
