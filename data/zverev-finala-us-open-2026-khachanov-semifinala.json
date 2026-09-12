@@ -11,20 +11,32 @@
     {
       "text": "Alexander Zverev (Germania) l-a învins pe Karen Khachanov (Rusia) cu scorul 6-3, 7-6(7), 7-6(6) în semifinalele US Open 2026, disputate vineri, 11 septembrie 2026. Zverev a apărat avantaje în ambele tiebreak-uri pentru a închide meciul în trei seturi.",
       "sources": [
-        {"name": "Local10/AP — Alexander Zverev reaches the US Open final and awaits Shelton-Tiafoe winner", "url": "https://www.local10.com/sports/2026/09/11/alexander-zverev-reaches-the-us-open-final-and-awaits-shelton-tiafoe-winner/"},
-        {"name": "CBS Sports — US Open 2026 results, live updates as Ben Shelton, Frances Tiafoe, Alexander Zverev battle in semifinals", "url": "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-live-updates-mens-semifinals-ben-shelton-frances-tiafoe-alexander-zverev/live/"}
+        {
+          "name": "Local10/AP — Alexander Zverev reaches the US Open final and awaits Shelton-Tiafoe winner",
+          "url": "https://www.local10.com/sports/2026/09/11/alexander-zverev-reaches-the-us-open-final-and-awaits-shelton-tiafoe-winner/"
+        },
+        {
+          "name": "CBS Sports — US Open 2026 results, live updates as Ben Shelton, Frances Tiafoe, Alexander Zverev battle in semifinals",
+          "url": "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-live-updates-mens-semifinals-ben-shelton-frances-tiafoe-alexander-zverev/live/"
+        }
       ]
     },
     {
       "text": "E a doua finală de Grand Slam din 2026 pentru Zverev, care a câștigat Roland Garros mai devreme în sezon și a pierdut finala de la Wimbledon în fața lui Jannik Sinner. Bilanțul lui în meciurile de Grand Slam din acest sezon a ajuns la 24 de victorii și 2 înfrângeri. Zverev a intrat în semifinală cu o serie de 13 seturi consecutive câștigate.",
       "sources": [
-        {"name": "Local10/AP — Alexander Zverev reaches the US Open final and awaits Shelton-Tiafoe winner", "url": "https://www.local10.com/sports/2026/09/11/alexander-zverev-reaches-the-us-open-final-and-awaits-shelton-tiafoe-winner/"}
+        {
+          "name": "Local10/AP — Alexander Zverev reaches the US Open final and awaits Shelton-Tiafoe winner",
+          "url": "https://www.local10.com/sports/2026/09/11/alexander-zverev-reaches-the-us-open-final-and-awaits-shelton-tiafoe-winner/"
+        }
       ]
     },
     {
       "text": "Zverev îl va întâlni în finala de duminică pe câștigătorul semifinalei 100% americane dintre Ben Shelton (cap de serie 8) și Frances Tiafoe (cap de serie 11), programată vineri seara. Oricare ar câștiga, SUA ar avea un finalist la simplu masculin pentru prima dată din 2003, când Andy Roddick a cucerit titlul.",
       "sources": [
-        {"name": "Local10/AP — Alexander Zverev reaches the US Open final and awaits Shelton-Tiafoe winner", "url": "https://www.local10.com/sports/2026/09/11/alexander-zverev-reaches-the-us-open-final-and-awaits-shelton-tiafoe-winner/"}
+        {
+          "name": "Local10/AP — Alexander Zverev reaches the US Open final and awaits Shelton-Tiafoe winner",
+          "url": "https://www.local10.com/sports/2026/09/11/alexander-zverev-reaches-the-us-open-final-and-awaits-shelton-tiafoe-winner/"
+        }
       ]
     }
   ],
@@ -40,5 +52,12 @@
     "Karen Khachanov",
     "Ben Shelton",
     "Frances Tiafoe"
-  ]
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/zverev-finala-us-open-2026-khachanov-semifinala.jpg\" alt=\"Alexander Zverev\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Alexander Zverev. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2013_IPC_Athletics_World_Championships_-_26072013_-_Alexander_Zverev_of_Russia_during_the_Men%27s_400M_-_T13_Semifinal.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2013 IPC Athletics World Championships - 26072013 - Alexander Zverev of Russia during the Men's 400M - T13 Semifinal</a>\" de Clément Bucco-Lechat, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/zverev-finala-us-open-2026-khachanov-semifinala.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Clément Bucco-Lechat"
+  }
 }
