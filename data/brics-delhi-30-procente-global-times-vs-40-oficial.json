@@ -1,0 +1,78 @@
+{
+  "slug": "brics-delhi-30-procente-global-times-vs-40-oficial",
+  "title": "Global Times spune că BRICS reprezintă „30% din economia globală”, președinția indiană a summitului spune 40%. Amândouă cifrele sunt reale",
+  "category": "Media de stat",
+  "date": "2026-09-12",
+  "source": "Global Times",
+  "url": "https://www.globaltimes.cn/page/202609/1370360.shtml",
+  "dek": "📡 Înaintea summitului BRICS de la Delhi, agenția de stat chineză Global Times scrie că gruparea reprezintă „aproape jumătate din populația lumii, circa 30% din economia globală și o cincime din comerțul mondial”. Președinția indiană a summitului citează 40% din PIB global. Niciuna dintre cifre nu e falsă — dar niciuna nu spune cititorului ce metodă de calcul folosește, iar diferența dintre ele vine exact din alegerea metodei.",
+  "mainVerdict": "Ambele cifre sunt reale — PIB nominal versus PIB la paritatea puterii de cumpărare (PPP)",
+  "probat": [
+    {
+      "text": "Global Times a scris, pe 11 septembrie 2026, înaintea sosirii lui Xi Jinping la summitul BRICS de la Delhi, că „BRICS countries now account for nearly half of the world's population, around 30 percent of the global economy and one-fifth of global trade”.",
+      "sources": [
+        {
+          "name": "Global Times — Xi Jinping advocates Global South cooperation ahead of BRICS summit",
+          "url": "https://www.globaltimes.cn/page/202609/1370360.shtml"
+        }
+      ]
+    },
+    {
+      "text": "Președinția indiană a summitului (comunicat oficial guvernamental, citat de presă) dă alte cifre pentru aceiași 11 membri BRICS: aproximativ 49,5% din populația lumii, 40% din PIB-ul global și 26% din comerțul mondial.",
+      "sources": [
+        {
+          "name": "Forbes India — BRICS 2026: India hosts 11-nation bloc amid global trade tensions",
+          "url": "https://www.forbesindia.com/article/news/explainer/brics-2026-india-hosts-11-nation-bloc-amid-global-trade-tensions/2998241/1"
+        },
+        {
+          "name": "Tribune India — Xi Jinping advocates Global South cooperation as he heads to BRICS summit in Delhi (Xinhua)",
+          "url": "https://www.tribuneindia.com/news/brics/xi-jinping-advocates-global-south-cooperation-as-he-heads-to-brics-summit-in-delhi-xinhua"
+        }
+      ]
+    },
+    {
+      "text": "Diferența dintre 30% și 40% (sau 45%, în alte surse) se explică prin metoda de calcul: PIB „nominal” (convertit direct în dolari, la cursul de schimb pieței) plasează BRICS la aproximativ 28-30% din economia globală, în timp ce PIB la „paritatea puterii de cumpărare” (PPP — care ajustează pentru diferențele de cost al vieții și de preț dintre țări) plasează gruparea la 40-45%. Ambele metode sunt folosite curent de instituții precum FMI și Banca Mondială; niciuna nu e „greșită”, dar aleg lucruri diferite.",
+      "sources": [
+        {
+          "name": "WhatIsGDP.com — BRICS GDP 2026: $35T Nominal (~28%), $90T PPP (~45%), date din IMF World Economic Outlook aprilie 2026 / World Bank / US BEA",
+          "url": "https://whatisgdp.com/brics-gdp"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Nici Global Times, nici comunicatul președinției indiene citat de presă nu precizează explicit dacă cifra dată e nominală sau PPP — omisiunea asta e ceea ce face ca cele două procente să pară „contradictorii” unui cititor care nu cunoaște distincția, când de fapt pot fi ambele corecte, calculate diferit.",
+      "sources": [
+        {
+          "name": "Global Times — Xi Jinping advocates Global South cooperation ahead of BRICS summit",
+          "url": "https://www.globaltimes.cn/page/202609/1370360.shtml"
+        },
+        {
+          "name": "Forbes India — BRICS 2026: India hosts 11-nation bloc amid global trade tensions",
+          "url": "https://www.forbesindia.com/article/news/explainer/brics-2026-india-hosts-11-nation-bloc-amid-global-trade-tensions/2998241/1"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Faptul că fiecare parte alege să publice cifra care îi arată gruparea mai puternică (China: cifra mai relevantă politic ar fi PPP-ul de 40-45%, dar Global Times a ales nominalul de 30%; presa indiană a ales invers, cifra PPP de 40%) e o observație despre comunicare, nu o dovadă de manipulare deliberată — nu putem cunoaște intenția din spatele alegerii editoriale."
+    }
+  ],
+  "math": {
+    "title": "De ce nu se contrazic, de fapt, cele două cifre",
+    "explanation": "PIB nominal = suma producției unei țări convertită în dolari la cursul de schimb de pe piață. PIB PPP = aceeași producție, ajustată pentru faptul că un dolar cumpără mai mult în India sau China decât în SUA sau Germania. Pentru economii mari, populate și cu prețuri interne mai mici (cazul clasic al Chinei și Indiei, ambele în BRICS), PIB PPP e sistematic mai mare decât PIB nominal — de aici salt de la ~28-30% (nominal) la ~40-45% (PPP) pentru aceeași grupare de 11 țări, în același an. Diferența nu vine din date greșite, ci din alegerea unității de măsură."
+  },
+  "aiNote": "📡 Atenție: sursa de pornire e presă de stat. Global Times (media de stat din R.P. Chineză) scrie că BRICS reprezintă „circa 30% din economia globală”, cifră care circulă înaintea summitului de la Delhi. Am pus alături comunicatul președinției indiene a summitului (citat de Forbes India și de Xinhua însuși, via Tribune India), care dă 40%. La prima vedere par cifre contradictorii — dar nu sunt.\n\nCe s-a verificat: ambele cifre corespund unor metode de calcul reale și larg folosite (PIB nominal, respectiv PIB la paritatea puterii de cumpărare), confirmate independent de o sursă terță (WhatIsGDP.com, care citează FMI, Banca Mondială și Biroul american de analiză economică): ~28% nominal, ~45% PPP pentru cei 11 membri BRICS în 2026. Cifrele Global Times (30%) și cea a președinției indiene (40%) se încadrează, fiecare, în intervalul metodei ei probabile.\n\nUnde se desparte, de fapt, povestea: nu sursele contrazic un fapt, ci fiecare parte omite să spună ce metodă de calcul a folosit. Cititorul care vede „30%” într-un loc și „40%” în altul trage concluzia greșită — că una dintre surse minte — când de fapt e o diferență de metodologie, nespusă de nimeni.\n\nCe lipsește: nici Global Times, nici comunicatul oficial indian nu indică sursa exactă de date sau metoda de calcul folosită. Nu există, în relatările verificate, o precizare explicită „nominal” sau „PPP” în declarațiile citate — asta ar clarifica instant disputa aparentă.",
+  "persoane": [
+    "Xi Jinping"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/brics-delhi-30-procente-global-times-vs-40-oficial.jpg\" alt=\"Xi Jinping\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Xi Jinping. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Bongbong_Marcos_and_Xi_Jinping_3.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Bongbong Marcos and Xi Jinping 3</a>\" de 𝗢𝗣𝗦-𝗢𝗜𝗖 𝗨𝗻𝗱𝗲𝗿𝘀𝗲𝗰𝗿𝗲𝘁𝗮𝗿𝘆 𝗖𝗵𝗲𝗹𝗼𝘆 𝗩𝗲𝗹𝗶𝗰𝗮𝗿𝗶𝗮-𝗚𝗮𝗿𝗮𝗳𝗶𝗹, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/brics-delhi-30-procente-global-times-vs-40-oficial.jpg",
+    "licenta": "Public domain",
+    "autor": "𝗢𝗣𝗦-𝗢𝗜𝗖 𝗨𝗻𝗱𝗲𝗿𝘀𝗲𝗰𝗿𝗲𝘁𝗮𝗿𝘆 𝗖𝗵𝗲𝗹𝗼𝘆 𝗩𝗲𝗹𝗶𝗰𝗮𝗿𝗶𝗮-𝗚𝗮𝗿𝗮𝗳𝗶𝗹"
+  }
+}
