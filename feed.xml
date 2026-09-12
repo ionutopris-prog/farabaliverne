@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 12 Sep 2026 09:45:26 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 09:47:00 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microplastice găsite în peste jumătate din tumorile intestinale analizate într-un studiu publicat în Nature Health</title>
+      <link>https://farabaliverne.ro/a/microplastice-tumori-intestinale-studiu-nature-health.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/microplastice-tumori-intestinale-studiu-nature-health.html</guid>
+      <pubDate>Sat, 12 Sep 2026 06:46:27 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu publicat în Nature Health, pe 188 de mostre de țesut din tumori intestinale prelevate de la pacienți, a găsit microplastice în 106 dintre ele — 56,4% din total —, cu polimerul PET (folosit la sticle și ambalaje) ca prezență dominantă. Pacienții ale căror tumori conțineau microplastice au avut, pe parcursul unei urmăriri medii de aproape trei ani, rate mai mari de recidivă și simptome digestive mai severe. Autorii sunt clari: descoperirea arată o asociere, nu dovedește că microplasticele cauzează cancerul sau recidiva lui.
+
+Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Cercetători suedezi propun, teoretic, operații pe biți cuantici de peste 1.000 de ori mai rapide — dar ideea n-a fost încă testată pe un computer real</title>
       <link>https://farabaliverne.ro/a/chalmers-porti-cuantice-1000x-mai-rapide-prl.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Ce SUSȚINE Tiraspolul — acuzație fără dovezi publice. Ve
       <description>În noaptea de 8 spre 9 septembrie 2026, între orele 23:35 și 00:05, drone rusești au lovit punctul de trecere a frontierei Starokazacie, pe partea ucraineană, la câțiva metri de vama Tudora, din Republica Moldova. Doi civili ucraineni au murit și alte două persoane au fost rănite, dintre care una este cetățean moldovean. Ministerul Apărării al Rusiei a revendicat atacul, spunând că punctul „era folosit pentru livrarea încărcăturilor militare” spre Ucraina — o justificare pe care nicio sursă independentă n-a confirmat-o și care nu menționează victimele civile.
 
 Unde bat probele: Probat atacul și victimele; neconfirmată independent justificarea militară dată de Rusia. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Ungaria expulzează 10 diplomați ruși — prima ruptură de acest fel din 2018, sub noul guvern Magyar</title>
-      <link>https://farabaliverne.ro/a/ungaria-expulzeaza-10-diplomati-rusi-magyar.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ungaria-expulzeaza-10-diplomati-rusi-magyar.html</guid>
-      <pubDate>Wed, 09 Sep 2026 10:02:30 +0000</pubDate>
-      <category>Extern</category>
-      <description>Ministrul ungar de externe, Anita Orbán, a anunțat pe 8 septembrie 2026 expulzarea a 10 diplomați ruși, pentru activități „incompatibile cu statutul diplomatic” conform Convenției de la Viena — prima măsură de acest fel din 2018, sub noul guvern al premierului Péter Magyar. Rusia promite un răspuns „dur și dureros”.
-
-Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
