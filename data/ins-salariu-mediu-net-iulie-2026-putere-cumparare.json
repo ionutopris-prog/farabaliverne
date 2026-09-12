@@ -1,0 +1,72 @@
+{
+  "slug": "ins-salariu-mediu-net-iulie-2026-putere-cumparare",
+  "title": "INS: salariul mediu net a crescut cu 5,5% în iulie față de anul trecut, dar puterea de cumpărare a scăzut cu 2,5%",
+  "category": "Economie",
+  "date": "2026-09-12",
+  "source": "INS / News.ro, B1 TV, Income Magazine, Mediafax",
+  "url": "https://www.news.ro/economic/ins-castigul-salarial-mediu-brut-in-iulie-2026-a-fost-9-709-lei-in-crestere-cu-1-5-fata-de-luna-iunie-2026-avans-de-5-5-raportat-la-iulie-2025-domeniile-cu-cele-mai-mari-salarii-1922400111002026091022720343",
+  "dek": "Institutul Național de Statistică a comunicat pe 10 septembrie 2026 că câștigul salarial mediu net a ajuns la 5.820 lei în iulie, cu 5,5% mai mult decât în iulie 2025. Aceeași statistică arată însă că, după ce se scade inflația, puterea de cumpărare a salariului mediu a fost cu 2,5% mai mică decât acum un an — cifra care a circulat în urmă cu o lună pentru iunie (-6,3%) nu mai e valabilă pentru iulie.",
+  "mainVerdict": "Probat",
+  "probat": [
+    {
+      "text": "Câștigul salarial mediu brut a ajuns la 9.709 lei în iulie 2026, în creștere cu 1,5% (145 lei) față de iunie. Câștigul salarial mediu net a ajuns la 5.820 lei, tot cu 1,5% (86 lei) mai mult decât în luna precedentă. Datele au fost publicate de INS pe 10 septembrie 2026.",
+      "sources": [
+        {
+          "name": "News.ro — INS: Câştigul salarial mediu brut, în iulie 2026, a fost 9.709 lei",
+          "url": "https://www.news.ro/economic/ins-castigul-salarial-mediu-brut-in-iulie-2026-a-fost-9-709-lei-in-crestere-cu-1-5-fata-de-luna-iunie-2026-avans-de-5-5-raportat-la-iulie-2025-domeniile-cu-cele-mai-mari-salarii-1922400111002026091022720343"
+        },
+        {
+          "name": "Profit.ro — Ce salarii au românii. Câștigul salarial mediu brut a crescut la 9.709 lei",
+          "url": "https://www.profit.ro/taxe-si-consultanta/ce-salarii-au-romanii-castigul-salarial-mediu-brut-a-crescut-la-9-709-lei-domeniile-cu-cele-mai-mari-salarii-22720367"
+        }
+      ]
+    },
+    {
+      "text": "Față de iulie 2025, salariul mediu net a crescut nominal cu 5,5%. Dar indicele câștigului salarial real — raportul dintre creșterea salariului net și creșterea prețurilor de consum în același interval — a fost de 97,5%, sub 100%. Practic, puterea de cumpărare a salariului mediu a scăzut cu 2,5% într-un an, pentru că prețurile au crescut mai rapid decât salariile.",
+      "sources": [
+        {
+          "name": "Mediafax — Salariul mediu net a crescut la 5.820 de lei. Românii au pierdut însă putere de cumpărare în ultimul an",
+          "url": "https://www.mediafax.ro/economic/salariul-mediu-net-a-crescut-la-5-820-de-lei-romanii-au-pierdut-insa-putere-de-cumparare-in-ultimul-an-23805440"
+        },
+        {
+          "name": "Income Magazine — INS: Câştigul salarial mediu brut, în iulie 2026, a fost 9.709 lei",
+          "url": "https://incomemagazine.ro/ins-castigul-salarial-mediu-brut-in-iulie-2026-a-fost-9-709-lei-in-crestere-cu-15-fata-de-luna-iunie-2026/"
+        }
+      ]
+    },
+    {
+      "text": "Diferențele între domenii rămân mari: cel mai bine plătit sector, programare și consultanță IT, a avut un salariu net mediu de 13.464 lei în iulie — de peste patru ori mai mult decât în „alte activități de servicii” (2.986 lei net), cel mai slab plătit domeniu.",
+      "sources": [
+        {
+          "name": "News.ro — INS: domeniile cu cele mai mari salarii",
+          "url": "https://www.news.ro/economic/ins-castigul-salarial-mediu-brut-in-iulie-2026-a-fost-9-709-lei-in-crestere-cu-1-5-fata-de-luna-iunie-2026-avans-de-5-5-raportat-la-iulie-2025-domeniile-cu-cele-mai-mari-salarii-1922400111002026091022720343"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "O cifră diferită de scădere a puterii de cumpărare — 6,3% — a circulat în presă în urmă cu o lună, dar se referea la iunie 2026 (indice 93,7%), nu la iulie. Indicele câștigului salarial real variază de la o lună la alta, mai ales din cauza efectului de bază — cu ce lună din 2025 se face comparația — deci cele două cifre sunt corecte fiecare pentru luna ei și nu arată neapărat o îmbunătățire reală de patru puncte procentuale într-o singură lună.",
+      "sources": [
+        {
+          "name": "Digi24 — Salariul mediu net a crescut în iunie. Ce s-a întâmplat cu puterea de cumpărare",
+          "url": "https://www.digi24.ro/digieconomic/consumer/salariul-mediu-net-a-crescut-in-iunie-la-cat-au-ajuns-veniturile-romanilor-si-ce-s-a-intamplat-cu-puterea-de-cumparare-114161"
+        }
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "Ce înseamnă „indicele câștigului salarial real” de 97,5%",
+    "explanation": "Indicele se calculează ca raport între indicele câștigului salarial mediu net (cât de mult a crescut nominal salariul) și indicele prețurilor de consum (cât de mult au crescut prețurile), în același interval de 12 luni. O valoare de 100% ar însemna că salariile au ținut pasul exact cu inflația. 97,5% înseamnă că salariile au crescut cu aproape 2,5 puncte procentuale mai puțin decât prețurile — deci, cu același salariu, un angajat își poate permite în iulie 2026 cu 2,5% mai puține bunuri și servicii decât și-ar fi permis în iulie 2025."
+  },
+  "aiNote": "Ce s-a verificat: cifrele din comunicatul INS privind câștigul salarial pentru iulie 2026, publicat pe 10 septembrie 2026 — salariul brut (9.709 lei) și net (5.820 lei), creșterile lunare și anuale, indicele câștigului salarial real (97,5%) și topul domeniilor de activitate după salariu. News.ro, B1 TV, Income Magazine și Mediafax citează aceleași cifre, deci nu există dezacord pe fapte.\n\nUnde se despart sursele: nu pe cifre, ci pe accent. Titlurile axate pe creșterea nominală („salariul mediu net a crescut la 5.820 lei”) lasă impresia unei evoluții pur pozitive; cele axate pe indicele real („românii au pierdut putere de cumpărare”) arată partea inversă. Amândouă sunt corecte — sunt fețe ale aceleiași statistici. În plus, cifra de -6,3% care a circulat în august se referea la iunie, nu la iulie; folosită ca fiind „actuală” ar fi înșelătoare, pentru că indicele real fluctuează lunar și nu descrie un trend de patru luni, ci o singură lună comparată cu luna corespunzătoare din 2025.\n\nCe lipsește: INS nu publică o defalcare a indicelui câștigului salarial real pe județe sau pe nivel de venit (de exemplu, pentru salariul minim față de salariul mediu), deci nu se poate spune din aceste date cine a pierdut mai mult din puterea de cumpărare — cei cu venituri mici sau cei cu venituri mari.\n\nCe ar schimba concluzia: datele pentru august și septembrie 2026, care vor arăta dacă scăderea puterii de cumpărare e un episod legat de o lună anume sau o tendință care continuă pe mai multe luni consecutive.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ins-salariu-mediu-net-iulie-2026-putere-cumparare.jpg\" alt=\"Romanian leu banknotes\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Romanian leu banknotes. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1_leu._Romania,_2005_a.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1 leu. Romania, 2005 a</a>\" de en:User:ES Vic, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ins-salariu-mediu-net-iulie-2026-putere-cumparare.jpg",
+    "licenta": "Public domain",
+    "autor": "en:User:ES Vic"
+  }
+}
