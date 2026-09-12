@@ -1512,10 +1512,16 @@ BUTON_CAUTA = """
 """
 
 
+_RE_BUTON_CAUTA = re.compile(r"\n<style>\n  \.fb-cauta\{.*?var a = document\.createElement\('a'\);.*?\}\)\(\);\n</script>\n", re.S)
+
+
 def pune_buton_cauta(s, pref=""):
-    """Butonul de căutare plutitor, o singură dată, înainte de </body>."""
-    if "fb-cauta" in s or "</body>" not in s:
+    """Butonul de căutare plutitor: varianta veche (dacă e) se scoate și se pune
+    cea curentă, la fiecare build — altfel paginile deja construite rămân cu
+    prima versiune (exact capcana de la share, 12 sept 2026)."""
+    if "</body>" not in s:
         return s
+    s = _RE_BUTON_CAUTA.sub("\n", s)
     return s.replace("</body>", BUTON_CAUTA.replace("__PREF__", pref) + "</body>", 1)
 
 
