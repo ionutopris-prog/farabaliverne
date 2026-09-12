@@ -1939,15 +1939,6 @@ def main():
         # articolului (11 sept 2026, captura fondatorului). `data-nosnippet` îi spune lui
         # Google să nu ia text de acolo pentru fragmentul din rezultate; descrierea reală
         # (dek-ul) rămâne în <meta name="description">.
-        # Meniul duce la PAGINA categoriei (toate știrile ei), nu la o ancoră pe
-        # prima pagină. Cerut de fondator pe 12 sept 2026, cu poza de pe telefon:
-        # „când omul apasă pe un meniu anume să vadă toate știrile în meniul
-        # respectiv, nu să sară după 3 știri la următorul meniu". Moldova are
-        # meniul ei, nu se atinge.
-        if "moldova" + os.sep not in f:
-            pref = "../" if os.sep + "a" + os.sep in f or os.sep + "parlamentar" + os.sep in f else ""
-            for cat, cid in CAT_ID.items():
-                s = s.replace(f'href="{pref}index.html#{cid}"', f'href="{pref}{cid}.html"')
         # Un singur H1 pe pagină: marca din antet devine <div class="brand"> (auditul SEO, 12 sept 2026)
         s = re.sub(r'<h1 class="brand">(.*?)</h1>', lambda m: '<div class="brand">' + m.group(1) + '</div>', s, count=1, flags=re.S)
         if f == IDX:
