@@ -838,43 +838,59 @@ def pune_citite(s):
     return s.replace("</body>", CITITE_JS + "</body>", 1)
 
 
+# Forma FINALĂ a partajării (12 septembrie 2026), după cercetare pe cod real:
+# Digi24, PressOne, Spiegel, BBC, NYT, react-share, Jetpack, widgets.js al X.
+# - X: `x.com/intent/tweet?text=…&url=…` (endpointul documentat de X; toate
+#   bibliotecile îl folosesc), popup 550×420 cu opțiunile din documentația X.
+# - Facebook: `sharer.php?u=…` (Jetpack, react-share, BBC, Digi24), popup
+#   600×400; pe telefon foaia nativă, fiindcă sharer.php e stricat în Safari
+#   cu aplicația Facebook instalată.
+# - FĂRĂ `noopener` în lista de opțiuni a window.open: nicio bibliotecă nu-l
+#   pune acolo (Chromium a avut ani de zile bug-uri cu noopener + dimensiuni).
+#   Protecția se face ca la ctrl.blog: `w.opener = null` după deschidere, iar
+#   linkul are `rel="noopener"` ca rezervă fără JavaScript.
+# - Butoanele sunt LINKURI reale (<a href>), ca la toată presa: merg și fără
+#   JavaScript, se pot deschide cu click dreapta, iar adresa e vizibilă.
 SHARE_FINAL_FB = ("window.shareFB=function(){if(window.__fbMobil&&navigator.share)"
                   "{navigator.share({title:T,url:U}).catch(function(){});return;}"
-                  "window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),"
-                  "'_blank','noopener,width=650,height=600');};")
+                  "var w=window.open(window.shareFB.href,'fb_share',"
+                  "'width=600,height=400,scrollbars=yes,resizable=yes,toolbar=no,location=yes');"
+                  "if(w)w.opener=null;};"
+                  "window.shareFB.href='https://www.facebook.com/sharer/sharer.php?u='+e(U);")
 SHARE_FINAL_X = ("window.shareX=function(){"
-                 "window.open('https://farabaliverne.ro/partajeaza-x.html?u='+e(U)+'&t='+e(T),"
-                 "'_blank','noopener,width=560,height=460');};")
-# Orice variantă de shareFB / shareX de până acum se termină cu
-# `'_blank','noopener…');};` — pe asta prindem tot, indiferent de ce e în corp.
-_RE_SHARE_FB = re.compile(r"window\.shareFB=function\(\)\{.*?'_blank','noopener[^']*'\);\};")
-_RE_SHARE_X = re.compile(r"window\.shareX=function\(\)\{.*?'_blank','noopener[^']*'\);\};")
+                 "var w=window.open(window.shareX.href,'x_intent',"
+                 "'width=550,height=420,scrollbars=yes,resizable=yes,toolbar=no,location=yes');"
+                 "if(w)w.opener=null;};"
+                 "window.shareX.href='https://x.com/intent/tweet?text='+e(T)+'&url='+e(U);")
+RND_FINAL = ("function rnd(txt,fn,bg,fs){var b=document.createElement('a');b.innerHTML=txt;"
+             "b.href=fn.href||'#';b.target='_blank';b.rel='noopener';"
+             "b.onclick=function(ev){ev.preventDefault();fn();};"
+             "b.style.cssText='display:flex;align-items:center;justify-content:center;"
+             "text-decoration:none;width:42px;height:42px;border-radius:50%;border:none;"
+             "cursor:pointer;color:#fff;background:'+bg+';box-shadow:0 6px 16px rgba(0,0,0,.28);"
+             "font:700 '+fs+' system-ui';return b;}")
+# Prindem ORICE variantă istorică: de la `window.shareFB=function(){` până la
+# începutul lui shareX, și de la shareX până la copyLink. Nu depinde de corp.
+_RE_SHARE_FB = re.compile(r"window\.shareFB=function\(\)\{.*?(?=\s*window\.shareX=function\(\)\{)", re.S)
+_RE_SHARE_X = re.compile(r"window\.shareX=function\(\)\{.*?(?=\s*window\.copyLink=function\(\))", re.S)
+_RE_RND = re.compile(r"function rnd\(txt,fn,bg,fs\)\{.*?return b;\}")
 
 
 def repara_share(s):
     """
-    Aduce butoanele de partajare la forma finală, pe ORICE pagină, la FIECARE
-    build — indiferent ce variantă veche are pagina în ea.
+    Aduce partajarea la forma finală, pe ORICE pagină, la FIECARE build —
+    indiferent ce variantă veche are pagina în ea.
 
-    Istoric, ca să nu se repete (12 septembrie 2026): au fost trei reparații
-    „în lanț" (veche → intermediară → nouă), fiecare recunoscând exact textul
-    celei dinainte. A patra ar fi fost la fel de fragilă. Acum se rescrie
-    întregul corp al funcțiilor, cu regex, deci nu mai contează istoricul.
-
-    Ce e definitiv și DE CE (fondatorul: POPUP, „nu vreau improvizații"):
-    - X: POPUP cu dimensiune, dar care deschide întâi `partajeaza-x.html` (pagina
-      noastră, fără referrer), iar ea trece la `x.com/intent/post` prin
-      location.replace. Testat cu click pe 12 sept 2026: X deschis direct în
-      popup din site ignora parametrii (compunere goală, deși adresa îi avea);
-      aceeași adresă încărcată ca navigare proprie vine cu textul scris; iar
-      fila normală cu `noopener` e cea mai rea — X aruncă pe /home.
-    - Facebook: pe telefon foaia nativă (Facebook nu acceptă text
-      precompletat); pe desktop `sharer.php` în popup.
+    Istoric, ca să nu se repete (12 septembrie 2026): patru reparații scrise din
+    raționament, fără click; a cincea e cea de mai sus, luată din codul presei
+    și al bibliotecilor de partajare, după cercetare. Se rescrie corpul întreg
+    al funcțiilor cu regex, deci nu contează ce era înainte.
     """
     if "window.shareFB=function()" not in s and "window.shareX=function()" not in s:
         return s
     s = _RE_SHARE_FB.sub(lambda m: SHARE_FINAL_FB, s)
     s = _RE_SHARE_X.sub(lambda m: SHARE_FINAL_X, s)
+    s = _RE_RND.sub(lambda m: RND_FINAL, s)
     if "__fbMobil=/" not in s:
         s = s.replace("window.shareFB=function()", SHARE_DETECT + "window.shareFB=function()", 1)
     return s
