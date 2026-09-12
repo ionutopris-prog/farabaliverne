@@ -1,0 +1,102 @@
+{
+  "slug": "sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara",
+  "title": "SUA: administrația Trump cere, a treia oară, Curții Supreme să lase regula USPS pentru votul prin corespondență să intre în vigoare înaintea alegerilor de la mijlocul mandatului",
+  "category": "Extern",
+  "date": "2026-09-12",
+  "source": "NPR / ACLU / SCOTUSblog / Votebeat / Fox News / NBC News",
+  "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/",
+  "dek": "🌍 Un ordin executiv al președintelui Trump, semnat pe 31 martie 2026, a dus la o regulă a Poștei americane (USPS) care impune design standardizat de plic, coduri de bare unice pentru fiecare buletin de vot prin corespondență și încărcarea de către state a listelor de alegători într-un portal federal nou — cu refuzul USPS de a livra buletinele care nu respectă cerințele. O judecătoare federală din Boston a blocat regula de două ori, spunând că riscă să dezavantajeze alegători și că nu există, în peste un secol de vot prin corespondență, dovezi de fraudă la scară care să justifice măsura. Administrația a mers a treia oară la Curtea Supremă, cerând ca regula să poată intra în vigoare înainte ca alegerile din noiembrie 2026 să înceapă efectiv — state precum Carolina de Nord au început deja să trimită buletine.",
+  "mainVerdict": "Probat ce conține regula și ce a decis instanța — dar afirmația administrației că regula previne „fraudă electorală” rămâne nesusținută de dovezi publice citate în vreuna dintre sursele verificate",
+  "probat": [
+    {
+      "text": "Pe 31 martie 2026, președintele Trump a semnat un ordin executiv prin care a instruit Poșta SUA (USPS) să ia măsuri împotriva a ceea ce ordinul numește „vot ilegal al non-cetățenilor”. Pe baza acestui ordin, USPS a emis, pe 23 august 2026, o regulă finală care impune: design standardizat pentru plicurile de vot prin corespondență, coduri de bare unice pentru fiecare buletin, încărcarea de către state a listelor de alegători prin corespondență într-un portal federal nou, și refuzul USPS de a livra buletine care nu respectă aceste cerințe.",
+      "sources": [
+        {
+          "name": "NPR — Trump again asks Supreme Court to allow USPS plan to restrict mail-in voting",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps"
+        },
+        {
+          "name": "ACLU — Federal Court Blocks U.S. Postal Service from Interfering with Mail Ballots in November Election",
+          "url": "https://www.aclu.org/press-releases/federal-court-blocks-u-s-postal-service-from-interfering-with-mail-ballots-in-november-election"
+        }
+      ]
+    },
+    {
+      "text": "Pe 24 august 2026, Curtea Supremă a ridicat una dintre cele două suspendări ale ordinului executiv, într-o decizie nesemnată, dată pe criterii ideologice (6-3), permițând administrației să treacă la implementarea unor părți din ordin: o listă federală a cetățeniei compilată de Departamentul pentru Securitate Internă, prioritizarea de către procurorul general a urmăririi penale a funcționarilor electorali care ar emite buletine unor persoane neeligibile, și dreptul USPS de a stabili reguli pentru designul buletinelor. Decizia NU s-a pronunțat asupra constituționalității ordinului și NU a adresat partea cea mai contestată — obligația USPS de a verifica eligibilitatea fiecărui alegător și de a reține buletinele celor care nu apar pe o listă guvernamentală.",
+      "sources": [
+        {
+          "name": "Votebeat — Supreme Court lifts 1 of 2 injunctions on Trump's mail-voting executive order for 2026 elections",
+          "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+        }
+      ]
+    },
+    {
+      "text": "Judecătoarea federală Indira Talwani (numită de președintele Obama, instanța districtuală din Massachusetts) a emis, pe 4 septembrie 2026, o suspendare preliminară a regulii USPS, concluzionând că aceasta este „probabil neconstituțională și ilegală”, că USPS „nu are autoritate în Constituție sau în legea federală asupra modului în care statele administrează votul prin corespondență”, și că votul prin corespondență a fost folosit în siguranță din perioada Războiului Civil încoace, fără dovezi de fraudă la scară care să justifice regula. Curtea de Apel pentru Circuitul 1 (judecători numiți de președintele Biden) a refuzat, pe 10 septembrie 2026, să suspende decizia Talwani cât timp procesul continuă.",
+      "sources": [
+        {
+          "name": "ACLU — Federal Court Blocks U.S. Postal Service from Interfering with Mail Ballots in November Election",
+          "url": "https://www.aclu.org/press-releases/federal-court-blocks-u-s-postal-service-from-interfering-with-mail-ballots-in-november-election"
+        },
+        {
+          "name": "NBC News — Trump administration asks Supreme Court to allow mail ballot restrictions to move forward for a third time",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-administration-supreme-court-mail-ballot-restrictions-appeal-rcna596346"
+        }
+      ]
+    },
+    {
+      "text": "Este a treia oară, în șase luni, când administrația Trump cere Curții Supreme să intervină în acest dosar. Procurorul General adjunct D. John Sauer a argumentat că regula USPS impune doar „cerințe modeste de design al plicului și de informații despre destinatar” și este „clar constituțională”, susținând că statele nu pot „folosi poșta federală pentru a-și organiza alegerile, dar apoi insista că poșta electorală e cumva exceptată de la autoritatea de reglementare a USPS”. Judecătoarea Ketanji Brown Jackson a cerut, pe 6 septembrie 2026, ca cei care contestă regula să depună răspuns până pe 9 septembrie; la data verificării, Curtea Supremă nu se pronunțase asupra acestei a treia cereri.",
+      "sources": [
+        {
+          "name": "SCOTUSblog — Trump administration again appeals mail-in ballot dispute to the Supreme Court",
+          "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Administrația justifică regula prin riscul de „fraudă electorală” care ar „dilua voturile alegătorilor legitimi”, potrivit argumentelor depuse la Curtea Supremă de procurorul general adjunct Sauer. Niciuna dintre sursele verificate — nici cele favorabile administrației (Fox News, citând Honest Election Project), nici cele critice (ACLU, NPR) — nu citează statistici, constatări judecătorești sau date concrete despre amploarea votului ilegal al non-cetățenilor care ar justifica, la scara la care ar afecta alegerile, măsurile impuse prin regulă. Judecătoarea Talwani a constatat explicit lipsa unor astfel de dovezi în hotărârea sa.",
+      "sources": [
+        {
+          "name": "Fox News — Obama-appointed judge ripped for blocking Trump mail ballot rule to 'run out the clock'",
+          "url": "https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock"
+        },
+        {
+          "name": "ACLU — Federal Court Blocks U.S. Postal Service from Interfering with Mail Ballots in November Election",
+          "url": "https://www.aclu.org/press-releases/federal-court-blocks-u-s-postal-service-from-interfering-with-mail-ballots-in-november-election"
+        }
+      ]
+    },
+    {
+      "text": "Susținătorii regulii, precum Jason Snead (Honest Election Project) și avocatul Gregory Teufel, acuză instanța de tergiversare deliberată („run out the clock”) înaintea alegerilor și susțin că regula doar transformă în obligații niște recomandări USPS deja existente pentru corespondența electorală, nu un control asupra alegerilor în sine. Organizațiile pentru drepturi civile și mai multe state, printr-un memoriu depus la Curtea Supremă, susțin opusul: că regula ar face „practic inevitabilă” dezavantajarea unor alegători legitimi, din cauza cerințelor tehnice noi introduse cu mai puțin de 60 de zile înaintea alegerilor, timp în care unele state (Carolina de Nord) trimiseseră deja buletine.",
+      "sources": [
+        {
+          "name": "Fox News — Obama-appointed judge ripped for blocking Trump mail ballot rule to 'run out the clock'",
+          "url": "https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock"
+        },
+        {
+          "name": "NBC News — Trump administration asks Supreme Court to allow mail ballot restrictions to move forward for a third time",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-administration-supreme-court-mail-ballot-restrictions-appeal-rcna596346"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Judecătoarea Ketanji Brown Jackson a avertizat, într-o opinie separată la decizia din august, că modul în care Curtea a gestionat cazul va crea un „coșmar kafkian” care „injectează inutil haos și incertitudine” în alegerile de la mijlocul mandatului — o evaluare de risc, nu o constatare de fapt, formulată de o singură judecătoare aflată în opoziție cu majoritatea."
+    }
+  ],
+  "math": {
+    "title": "A treia cerere la Curtea Supremă, în șase luni de la ordinul executiv",
+    "explanation": "Cronologie: 31 martie 2026 — ordinul executiv; 23 august — regula finală USPS; 24 august — Curtea Supremă ridică o primă suspendare (dar nu se pronunță pe fond); 4 septembrie — judecătoarea Talwani blochează din nou regula printr-o suspendare preliminară separată; 10 septembrie — Curtea de Apel pentru Circuitul 1 refuză să suspende decizia Talwani; administrația depune, pentru a treia oară, cerere de urgență la Curtea Supremă. Practic, fiecare etapă a litigiului a mutat decizia finală mai aproape de data alegerilor din noiembrie, fără ca fondul disputei — dacă USPS are autoritate legală asupra modului în care statele administrează votul prin corespondență — să fi fost tranșat."
+  },
+  "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa americană; sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: mecanismul regulii USPS (design de plic, coduri de bare, portal federal de liste, refuzul livrării) și cronologia litigiului — de la ordinul executiv din martie, prin decizia parțială a Curții Supreme din august, la cele două blocări succesive impuse de judecătoarea Talwani — sunt confirmate concordant de surse cu poziții politice diferite: NPR, ACLU și SCOTUSblog pe de-o parte, Fox News pe de altă parte.\n\nUnde se desparte povestea: justificarea oficială a regulii — prevenirea fraudei electorale prin vot ilegal al non-cetățenilor — este o preocupare legitimă în abstract, dar niciuna dintre sursele verificate, inclusiv cele care susțin regula, nu citează date concrete despre amploarea acestui fenomen la o scară care ar justifica cerințele tehnice impuse. Judecătoarea care a blocat regula a constatat explicit această lipsă de dovezi în hotărârea ei. În același timp, criticii regulii (organizații pentru drepturi civile, mai multe state) nu au încă, la rândul lor, un bilanț concret al alegătorilor efectiv afectați — vorbesc despre un risc („practic inevitabil”), nu despre un prejudiciu deja produs.\n\nCe lipsește: o decizie finală a Curții Supreme pe fondul disputei constituționale; date publice, de la USPS sau de la administrație, despre câte cazuri de vot ilegal al non-cetățenilor au fost documentate anterior la nivel național; și o estimare independentă a câți alegători legitimi ar risca efectiv să fie afectați de cerințele tehnice noi, introduse cu mai puțin de 60 de zile înaintea alegerilor.\n\nCe ar schimba concluzia: o decizie definitivă a Curții Supreme pe fond, sau publicarea de către administrație a unor date concrete despre fraudă electorală care să susțină amploarea măsurilor impuse.",
+  "persoane": ["Donald Trump", "Indira Talwani", "Ketanji Brown Jackson", "D. John Sauer"],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara.jpg\" alt=\"United States Supreme Court building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — United States Supreme Court building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Exterior_of_Supreme_Court_Building_20240601.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Exterior of Supreme Court Building 20240601</a>\" de 颐园居, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "颐园居"
+  }
+}
