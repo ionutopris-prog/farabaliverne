@@ -368,6 +368,39 @@ def build_featured_script(arts, mom=None):
 '''
     return js_data + js_logic
 
+def banda_minti(arts, mom=None, n=3):
+    """Trei carduri „Minți luminate", cele mai noi, sub hero. Marketing, nu gust
+    (12 sept 2026): cine revine pe prima pagină vede secțiunea originală a
+    site-ului fără să o caute, dar restul ordinii rămâne cea pe care o apasă
+    publicul (politică, local)."""
+    mom = mom or {}
+    items = [d for d in arts.values() if d.get("category") == "Minți luminate"]
+    if not items:
+        return ""
+    items.sort(key=lambda d: cheie_timp(d, mom), reverse=True)
+    cards = "".join(card(d) for d in items[:n])
+    return ('        <section class="cat-section banda-minti" id="minti-azi">\n'
+            '          <div class="section-head">\n'
+            '            <h2>💡 Minți luminate</h2>\n'
+            '            <a class="tot" href="minti-luminate.html" style="font-size:13px;margin-left:auto;align-self:center">Toate din Minți luminate →</a>\n'
+            '          </div>\n'
+            '          <p style="margin:-6px 0 14px;color:var(--ink-soft);font-size:14px">Cercetare universitară, din orice domeniu, explicată pe înțelesul tuturor, cu link la studiul original.</p>\n'
+            '          <div class="cards-3">\n'
+            + cards.rstrip("\n") + "\n"
+            '          </div>\n'
+            '        </section>\n')
+
+
+def replace_minti(html, banda):
+    START, END = "<!-- AUTO:minti:start -->", "<!-- AUTO:minti:end -->"
+    block = f"{START}\n{banda}        {END}\n" if banda else ""
+    if START in html and END in html:
+        return re.sub(re.escape(START) + r".*?" + re.escape(END) + r"\n", lambda m: block, html, count=1, flags=re.S)
+    if not banda or "<!-- AUTO:feed:start -->" not in html:
+        return html
+    return html.replace("        <!-- AUTO:feed:start -->", block + "        <!-- AUTO:feed:start -->", 1)
+
+
 def replace_feed(html, feed):
     START, END = "<!-- AUTO:feed:start -->", "<!-- AUTO:feed:end -->"
     block = f"{START}\n{feed}        {END}\n"
@@ -727,7 +760,17 @@ def bloc_vezi_si(slug, arts, idx, rar, obisnuit):
                           and d2.get("category") == cat),
                          key=lambda s2: ((arts[s2].get("date") or ""), s2), reverse=True)
         legate = legate + acelasi[:6 - len(legate)]
-    if not legate:
+    # „Ceva deștept azi": un articol din Minți luminate la finalul ORICĂRUI
+    # articol. Vizitatorul nou aterizează pe un articol (din Google), nu pe prima
+    # pagină; modulul de la final e locul unde se câștigă a doua pagină.
+    destept = None
+    if cat != "Minți luminate":
+        ml = sorted((s2 for s2, d2 in arts.items() if d2.get("category") == "Minți luminate" and s2 != slug),
+                    key=lambda s2: ((arts[s2].get("date") or ""), s2), reverse=True)
+        if ml:  # rotim după slug, ca să nu fie același pe tot site-ul
+            destept = ml[sum(ord(c) for c in slug) % min(len(ml), 5)]
+            legate = [x for x in legate if x != destept]
+    if not legate and not destept:
         return ""
     out = [VEZI_START,
            '      <section class="ev-block" style="border-left:5px solid var(--gold)">',
@@ -744,6 +787,14 @@ def bloc_vezi_si(slug, arts, idx, rar, obisnuit):
             f'<p style="margin:0"><span class="chip soft {vc} sm">{vl}</span> '
             f'<span style="font-size:12px;color:var(--ink-faint);margin-left:6px">'
             f'{d2.get("category","")} · {d2.get("date","")}</span></p></div>')
+    if destept:
+        d2 = arts[destept]
+        out.append(
+            '        <div class="ev-item" style="padding:11px 0;border-top:1px dashed var(--line)">'
+            '<p style="margin:0 0 4px;font:700 12px system-ui;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)">💡 Ceva deștept azi · Minți luminate</p>'
+            '<p style="margin:0 0 5px;font-size:15.5px;line-height:1.35">'
+            f'<a href="{destept}.html" style="text-decoration:underline;text-underline-offset:2px">{d2["title"]}</a></p>'
+            f'<p style="margin:0"><span style="font-size:12px;color:var(--ink-faint)">{d2.get("source","")} · {d2.get("date","")}</span></p></div>')
     out += ["      </section>", VEZI_END]
     return "\n".join(out) + "\n"
 
@@ -1551,6 +1602,30 @@ def prefera_webp(s):
     return _RE_SRC_POZA.sub(_inl, s)
 
 
+# Contorul de vizite: GoatCounter (gratuit pentru necomercial, cod deschis, fără
+# cookie-uri, fără date personale; statisticile se pot face publice). Ales de
+# fondator pe 12 sept 2026 („condiția să fie publice și gratis"). Se pornește
+# doar când există `data/_contor.txt` cu codul contului (ex. `farabaliverne`).
+def _cod_contor():
+    try:
+        return open(os.path.join(ROOT, "data", "_contor.txt"), encoding="utf-8").read().strip()
+    except OSError:
+        return ""
+
+
+_RE_CONTOR = re.compile(r'\n?<script data-goatcounter="[^"]*"[^>]*></script>\n?')
+
+
+def pune_contor(s):
+    cod = _cod_contor()
+    s = _RE_CONTOR.sub("\n", s)
+    if not cod or "</body>" not in s:
+        return s
+    tag = (f'<script data-goatcounter="https://{cod}.goatcounter.com/count" '
+           f'async src="//gc.zgo.at/count.js"></script>\n')
+    return s.replace("</body>", tag + "</body>", 1)
+
+
 def pune_buton_cauta(s, pref="", articol=False):
     """Butonul de căutare plutitor: varianta veche (dacă e) se scoate și se pune
     cea curentă, la fiecare build — altfel paginile deja construite rămân cu
@@ -1957,6 +2032,7 @@ def main():
     _idx, _rar, _obis = indice_inrudite(arts)
     _fire = fire(arts, _idx, _rar, _obis)
     html = replace_feed(html, build_feed(arts, mom) + build_featured_script(arts, mom))
+    html = replace_minti(html, banda_minti(arts, mom))
     open(IDX, "w", encoding="utf-8").write(html)
     # 2. politicieni (clonează shell-ul din index)
     shell = open(IDX, encoding="utf-8").read()
@@ -2027,6 +2103,7 @@ def main():
         s = pune_buton_salt(s)
         s = pune_css_reparatii(s)
         s = prefera_webp(s)
+        s = pune_contor(s)
         if not f.endswith("cauta.html"):
             _in_a = os.sep + "a" + os.sep in f
             s = pune_buton_cauta(s, "../" if (_in_a or os.sep + "parlamentar" + os.sep in f) else "", articol=_in_a)
