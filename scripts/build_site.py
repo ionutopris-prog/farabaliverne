@@ -1536,6 +1536,21 @@ def pune_css_reparatii(s):
     return s.replace("</head>", CSS_REPARATII + "</head>", 1)
 
 
+# Pozele: paginile aleg .webp când există lângă .jpg/.png (scripts/webp.py le
+# face). og:image / twitter:image rămân JPEG (sunt în `content=`, nu în `src=`).
+_RE_SRC_POZA = re.compile(r'src="((?:\.\./)?img/(?:articole|carduri)/[^"]+?)\.(?:jpe?g|png)"', re.I)
+
+
+def prefera_webp(s):
+    def _inl(m):
+        cale = m.group(1)
+        rel = cale[3:] if cale.startswith("../") else cale
+        if os.path.exists(os.path.join(ROOT, rel + ".webp")):
+            return f'src="{cale}.webp"'
+        return m.group(0)
+    return _RE_SRC_POZA.sub(_inl, s)
+
+
 def pune_buton_cauta(s, pref="", articol=False):
     """Butonul de căutare plutitor: varianta veche (dacă e) se scoate și se pune
     cea curentă, la fiecare build — altfel paginile deja construite rămân cu
@@ -2011,6 +2026,7 @@ def main():
             s = pune_carusel(s)
         s = pune_buton_salt(s)
         s = pune_css_reparatii(s)
+        s = prefera_webp(s)
         if not f.endswith("cauta.html"):
             _in_a = os.sep + "a" + os.sep in f
             s = pune_buton_cauta(s, "../" if (_in_a or os.sep + "parlamentar" + os.sep in f) else "", articol=_in_a)
