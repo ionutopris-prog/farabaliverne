@@ -1602,10 +1602,27 @@ def prefera_webp(s):
     return _RE_SRC_POZA.sub(_inl, s)
 
 
-# Contorul de vizite: GoatCounter (gratuit pentru necomercial, cod deschis, fără
-# cookie-uri, fără date personale; statisticile se pot face publice). Ales de
-# fondator pe 12 sept 2026 („condiția să fie publice și gratis"). Se pornește
-# doar când există `data/_contor.txt` cu codul contului (ex. `farabaliverne`).
+# Contorul de vizite, în casă (12 sept 2026). Condițiile fondatorului: public și
+# gratuit. GoatCounter era blocat de blocatoarele de reclame la nivel de DNS
+# (goatcounter.com → 0.0.0.0 pe rețeaua lui), deci contorul stă pe serverul
+# nostru GABE (findgabe.app, `routes/stats.js`): fără cookie-uri, fără IP stocat
+# (doar un hash zilnic), fără date personale; cifrele sunt publice pe
+# statistici.html. Respectă „Do Not Track". Dacă există și data/_contor.txt
+# (cod GoatCounter), se pune și acela.
+CONTOR_JS = """<script>
+(function(){try{
+  if(navigator.doNotTrack==='1'||window.doNotTrack==='1')return;
+  if(/^(localhost|127\\.)/.test(location.hostname))return;
+  var b=JSON.stringify({site:'farabaliverne',path:location.pathname,ref:document.referrer||''});
+  var u='https://findgabe.app/api/stats/hit';
+  if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([b],{type:'text/plain'}));}
+  else{fetch(u,{method:'POST',body:b,mode:'no-cors',keepalive:true}).catch(function(){});}
+}catch(e){}})();
+</script>
+"""
+_RE_CONTOR_JS = re.compile(r"<script>\n\(function\(\)\{try\{\n  if\(navigator\.doNotTrack.*?\}catch\(e\)\{\}\}\)\(\);\n</script>\n", re.S)
+
+
 def _cod_contor():
     try:
         return open(os.path.join(ROOT, "data", "_contor.txt"), encoding="utf-8").read().strip()
@@ -1617,13 +1634,73 @@ _RE_CONTOR = re.compile(r'\n?<script data-goatcounter="[^"]*"[^>]*></script>\n?'
 
 
 def pune_contor(s):
-    cod = _cod_contor()
-    s = _RE_CONTOR.sub("\n", s)
-    if not cod or "</body>" not in s:
+    if "</body>" not in s:
         return s
-    tag = (f'<script data-goatcounter="https://{cod}.goatcounter.com/count" '
-           f'async src="//gc.zgo.at/count.js"></script>\n')
+    s = _RE_CONTOR_JS.sub("", s)
+    s = _RE_CONTOR.sub("\n", s)
+    tag = CONTOR_JS
+    cod = _cod_contor()
+    if cod:
+        tag += (f'<script data-goatcounter="https://{cod}.goatcounter.com/count" '
+                f'async src="//gc.zgo.at/count.js"></script>\n')
     return s.replace("</body>", tag + "</body>", 1)
+
+
+def build_statistici(shell):
+    """statistici.html — cifrele publice ale site-ului, citite din /api/stats."""
+    main = ('''    <div class="wrap" style="max-width:760px;margin:0 auto;padding:0 20px">
+      <div style="padding:30px 0 10px">
+        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 10px">Statistici publice</h1>
+        <p style="color:var(--ink-soft);font-size:16px;line-height:1.6;max-width:64ch">Câți oameni citesc Fără Baliverne, ce citesc și de unde vin. Cifrele sunt publice, fiindcă un site care cere încredere nu are ce ascunde. Contorul e al nostru: fără cookie-uri, fără adrese IP stocate, fără date personale; un vizitator e numărat o dată pe zi printr-un cod care nu poate fi legat de o persoană și se schimbă zilnic. Cine are „Do Not Track” pornit nu e numărat deloc.</p>
+      </div>
+      <div id="stat" style="margin:20px 0 50px;color:var(--ink-soft);font-size:15px">Se încarcă…</div>
+    </div>
+    <script>
+    (function(){
+      var el=document.getElementById('stat');
+      fetch('https://findgabe.app/api/stats/farabaliverne').then(function(r){return r.json();}).then(function(d){
+        function n(x){return (x||0).toLocaleString('ro-RO');}
+        var max=Math.max.apply(null,d.zile.map(function(z){return z.vizite;}).concat([1]));
+        var bare=d.zile.map(function(z){return '<div style="display:flex;align-items:center;gap:8px;font-size:13px"><span style="width:88px;color:var(--ink-faint)">'+z.day.slice(5)+'</span><span style="display:inline-block;height:12px;background:var(--accent);border-radius:3px;width:'+Math.round(100*z.vizite/max)+'%"></span><span>'+n(z.vizite)+' <span style="color:var(--ink-faint)">· '+n(z.vizitatori)+' vizitatori</span></span></div>';}).join('');
+        var pag=d.pagini.map(function(p){return '<li style="padding:5px 0;border-bottom:1px solid var(--line)"><a href="'+p.path.replace(/^\\//,'')+'" style="color:inherit">'+p.path+'</a> <span style="color:var(--ink-faint)">'+n(p.vizite)+'</span></li>';}).join('');
+        var sur=d.surse.map(function(p){return '<li style="padding:5px 0;border-bottom:1px solid var(--line)">'+p.sursa+' <span style="color:var(--ink-faint)">'+n(p.vizite)+'</span></li>';}).join('');
+        el.innerHTML='<p><strong>'+n(d.total30)+'</strong> vizualizări în ultimele 30 de zile · azi: <strong>'+n(d.azi.vizite)+'</strong> ('+n(d.azi.vizitatori)+' vizitatori)</p>'
+          +'<h2 style="font-family:Georgia,serif;font-size:19px;margin:22px 0 10px">Pe zile</h2><div style="display:grid;gap:4px">'+(bare||'<p>Încă nimic — contorul a pornit azi.</p>')+'</div>'
+          +'<h2 style="font-family:Georgia,serif;font-size:19px;margin:22px 0 10px">Cele mai citite pagini (30 zile)</h2><ul style="list-style:none;margin:0;padding:0">'+(pag||'<li>—</li>')+'</ul>'
+          +'<h2 style="font-family:Georgia,serif;font-size:19px;margin:22px 0 10px">De unde vin cititorii</h2><ul style="list-style:none;margin:0;padding:0">'+(sur||'<li>—</li>')+'</ul>'
+          +'<p style="color:var(--ink-faint);font-size:12px;margin-top:18px">Actualizat: '+new Date(d.generat).toLocaleString('ro-RO')+' · cifrele se reîmprospătează la 5 minute.</p>';
+      }).catch(function(){el.textContent='Contorul nu răspunde acum. Încearcă mai târziu.';});
+    })();
+    </script>''')
+    h = re.sub(r"<main>.*?</main>", lambda m: "<main>\n" + main + "\n  </main>", shell, count=1, flags=re.S)
+    for a, b in (
+        ("<title>Fără Baliverne — Apă, paie… Adevăr</title>", "<title>Statistici publice — Fără Baliverne</title>"),
+        ('<link rel="canonical" href="https://farabaliverne.ro/">', '<link rel="canonical" href="https://farabaliverne.ro/statistici.html">'),
+        ('<meta property="og:url" content="https://farabaliverne.ro/">', '<meta property="og:url" content="https://farabaliverne.ro/statistici.html">'),
+        ('<meta property="og:title" content="Fără Baliverne — Apă, paie… Adevăr">', '<meta property="og:title" content="Statistici publice — Fără Baliverne">'),
+        ('<meta name="twitter:title" content="Fără Baliverne — Apă, paie… Adevăr">', '<meta name="twitter:title" content="Statistici publice — Fără Baliverne">'),
+    ):
+        h = h.replace(a, b, 1)
+    h = re.sub(r'(<meta name="description" content=")[^"]*(">)', lambda m: m.group(1) + "Câți oameni citesc Fără Baliverne, ce citesc și de unde vin — cifre publice, contor fără cookie-uri și fără date personale." + m.group(2), h, count=1)
+    h = re.sub(r'<script type="application/ld\+json">.*?</script>\n?', "", h, flags=re.S)
+    return h
+
+
+NOTA_CONTOR = ('<section id="contor" style="margin:26px 0"><h2>Contorul de vizite</h2>'
+               '<p>Numărăm vizitele cu un contor propriu, găzduit pe serverul nostru (findgabe.app). '
+               'Nu folosește cookie-uri, nu stochează adresa IP și nu reține date personale: din adresa IP, '
+               'tipul browserului și ziua curentă se face un cod care se schimbă zilnic și nu poate fi legat de o persoană. '
+               'Se rețin doar pagina vizitată, ziua și domeniul de pe care ați venit (de exemplu google.com). '
+               'Dacă browserul are „Do Not Track” pornit, nu sunteți numărat. Cifrele sunt publice, la '
+               '<a href="statistici.html">Statistici publice</a>.</p></section>')
+
+
+def pune_nota_contor(s):
+    s = re.sub(r'<section id="contor".*?</section>', "", s, flags=re.S)
+    i = s.rfind("</main>")
+    if i < 0:
+        return s
+    return s[:i] + "    " + NOTA_CONTOR + "\n  " + s[i:]
 
 
 def pune_buton_cauta(s, pref="", articol=False):
@@ -1935,7 +2012,7 @@ def build_sitemap(arts):
     for fis, lm in PAGINI_CATEGORII:
         rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>' % (B, fis, lm or today))
     for pg in ("politicieni.html","parlament.html","cauta.html","cifre.html","letopiset.html","publicitate.html","metodologie.html",
-               "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
+               "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html","statistici.html"):
         if os.path.exists(os.path.join(ROOT, pg)):
             pr = "0.6" if pg in ("politicieni.html","parlament.html","cauta.html","cifre.html") else "0.4"
             # lastmod real: paginile astea se regenerează la fiecare build, dar conținutul
@@ -2041,6 +2118,7 @@ def main():
     open(os.path.join(ROOT, "cauta.html"), "w", encoding="utf-8").write(build_search_page(arts, shell))
     open(os.path.join(ROOT, "cifre.html"), "w", encoding="utf-8").write(build_cifre(arts, shell))
     _leto = build_letopiset(shell)
+    open(os.path.join(ROOT, "statistici.html"), "w", encoding="utf-8").write(build_statistici(shell))
     # Paginile de categorie: toate articolele unei categorii, paginate (SEO, 12 sept 2026)
     global PAGINI_CATEGORII
     PAGINI_CATEGORII = seo.build_categorii(arts, shell, mom, CAT_ORDER, CAT_ID, card, cheie_timp, ROOT)
@@ -2061,7 +2139,7 @@ def main():
                                             "cifre.html","letopiset.html","metodologie.html","cine-suntem.html",
                                             "corectari.html","contact.html","termeni.html",
                                             "confidentialitate.html","404.html",
-                                            "parlament.html","moldova/index.html")] + \
+                                            "parlament.html","moldova/index.html","statistici.html")] + \
             [os.path.join(ROOT, fis) for fis, _ in PAGINI_CATEGORII]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
@@ -2104,6 +2182,8 @@ def main():
         s = pune_css_reparatii(s)
         s = prefera_webp(s)
         s = pune_contor(s)
+        if f.endswith("confidentialitate.html"):
+            s = pune_nota_contor(s)
         if not f.endswith("cauta.html"):
             _in_a = os.sep + "a" + os.sep in f
             s = pune_buton_cauta(s, "../" if (_in_a or os.sep + "parlamentar" + os.sep in f) else "", articol=_in_a)

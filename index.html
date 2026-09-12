@@ -22814,6 +22814,17 @@
 
 
 
+<script>
+(function(){try{
+  if(navigator.doNotTrack==='1'||window.doNotTrack==='1')return;
+  if(/^(localhost|127\.)/.test(location.hostname))return;
+  var b=JSON.stringify({site:'farabaliverne',path:location.pathname,ref:document.referrer||''});
+  var u='https://findgabe.app/api/stats/hit';
+  if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([b],{type:'text/plain'}));}
+  else{fetch(u,{method:'POST',body:b,mode:'no-cors',keepalive:true}).catch(function(){});}
+}catch(e){}})();
+</script>
+
 <style>
   .fb-cauta{position:fixed;right:18px;bottom:18px;z-index:9996;width:46px;height:46px;
     border-radius:50%;border:1px solid var(--line-2);background:var(--card);
