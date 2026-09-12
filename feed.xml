@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 13 Sep 2026 01:30:20 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 01:34:13 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>INS: salariul mediu net a crescut cu 5,5% în iulie față de anul trecut, dar puterea de cumpărare a scăzut cu 2,5%</title>
+      <link>https://farabaliverne.ro/a/ins-salariu-mediu-net-iulie-2026-putere-cumparare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/ins-salariu-mediu-net-iulie-2026-putere-cumparare.html</guid>
+      <pubDate>Sat, 12 Sep 2026 22:31:32 +0000</pubDate>
+      <category>Economie</category>
+      <description>Institutul Național de Statistică a comunicat pe 10 septembrie 2026 că câștigul salarial mediu net a ajuns la 5.820 lei în iulie, cu 5,5% mai mult decât în iulie 2025. Aceeași statistică arată însă că, după ce se scade inflația, puterea de cumpărare a salariului mediu a fost cu 2,5% mai mică decât acum un an — cifra care a circulat în urmă cu o lună pentru iunie (-6,3%) nu mai e valabilă pentru iulie.
+
+Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Lângă Iași, arheologii au dezgropat cel mai mare cuptor de olărie cucutenian cunoscut: 7,5 metri pătrați de vatră, 12 metri cubi, acum 6.000 de ani. Studiul, publicat în Antiquity, e semnat integral de cercetători români</title>
       <link>https://farabaliverne.ro/a/ursoaia-cuptor-cucuteni-cel-mai-mare-antiquity-iasi.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
       <description>Comisia Electorală Centrală a stabilit pe 1 septembrie 2026 data de 15 noiembrie pentru alegerea bașcanului Găgăuziei și a celor 35 de deputați ai Adunării Populare — după ce Adunarea Populară a autonomiei a încercat de trei ori, în august și septembrie, să fixeze ea însăși un termen și n-a reușit. Nu e prima criză: două date stabilite anterior de regiune, 22 martie și 21 iunie, au fost anulate în instanță la contestația reprezentantului Guvernului central.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Avionul lui Zelenski „aproape lovit” de o dronă la Chișinău? O zi mai târziu, Oslo și Chișinăul nuanțează: „nu se știe cât de aproape”</title>
-      <link>https://farabaliverne.ro/a/zelenski-drona-oslo-chisinau-nuanteaza-declaratia.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/zelenski-drona-oslo-chisinau-nuanteaza-declaratia.html</guid>
-      <pubDate>Thu, 10 Sep 2026 12:25:45 +0000</pubDate>
-      <category>Extern</category>
-      <description>Pe 9 septembrie, premierul Norvegiei spunea că avionul lui Volodimir Zelenski „a fost aproape lovit” de o dronă la decolarea din Chișinău. O zi mai târziu, chiar cancelaria premierului norvegian a nuanțat afirmația — „nu se știe cât de aproape” a fost drona de aeronavă — iar biroul lui Zelenski a numit-o „o exagerare”. Guvernul de la Chișinău confirmă doar întârzierea zborului și explozia dronei la sol, la 160 km de aeroport.
-
-Unde bat probele: Contestat. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
