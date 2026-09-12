@@ -18,6 +18,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   4. commit + push  →  GitHub urcă singur pe site
 """
 import json, re, glob, os, unicodedata, subprocess, collections, html, time
+import seo  # <head>, date structurate, pagini de categorie, lastmod (auditul SEO din 12 sept 2026)
 from datetime import datetime, timedelta, timezone
 
 def now_edition():
@@ -715,7 +716,17 @@ def bloc_desfasurator(slug, lista, arts):
 
 
 def bloc_vezi_si(slug, arts, idx, rar, obisnuit):
-    legate = inrudite(slug, arts, idx, rar, obisnuit)
+    legate = inrudite(slug, arts, idx, rar, obisnuit, cate=4)
+    # Auditul SEO (12 sept 2026): 606 din 898 de articole nu legau spre NICIUN
+    # alt articol, fiindcă înrudirea cere surse/persoane comune. Completăm cu
+    # cele mai noi din aceeași categorie, până la 6 — drum pentru Google și
+    # pentru cititor.
+    cat = arts[slug].get("category")
+    if len(legate) < 6 and cat:
+        acelasi = sorted((s2 for s2, d2 in arts.items() if s2 != slug and s2 not in legate
+                          and d2.get("category") == cat),
+                         key=lambda s2: ((arts[s2].get("date") or ""), s2), reverse=True)
+        legate = legate + acelasi[:6 - len(legate)]
     if not legate:
         return ""
     out = [VEZI_START,
@@ -1708,6 +1719,9 @@ def build_rss(arts, momente_pub):
     return len(items)
 
 
+PAGINI_CATEGORII = []
+
+
 def build_sitemap(arts):
     """Regenerează sitemap.xml cu TOATE articolele + paginile-hub (SEO Google)."""
     from zoneinfo import ZoneInfo
@@ -1749,13 +1763,19 @@ def build_sitemap(arts):
                 continue
             rows.append('<url><loc>%sparlamentar/%s</loc><lastmod>%s</lastmod>'
                         '<changefreq>monthly</changefreq><priority>0.5</priority></url>'
-                        % (B, _f, time.strftime("%Y-%m-%d")))
+                        % (B, _f, seo.git_lastmod(ROOT, "parlamentar/" + _f, time.strftime("%Y-%m-%d"))))
 
+    # Paginile de categorie: lastmod = cel mai nou articol din categorie
+    for fis, lm in PAGINI_CATEGORII:
+        rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>' % (B, fis, lm or today))
     for pg in ("politicieni.html","parlament.html","cauta.html","cifre.html","letopiset.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html"):
         if os.path.exists(os.path.join(ROOT, pg)):
             pr = "0.6" if pg in ("politicieni.html","parlament.html","cauta.html","cifre.html") else "0.4"
-            rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>%s</priority></url>' % (B, pg, today, pr))
+            # lastmod real: paginile astea se regenerează la fiecare build, dar conținutul
+            # nu se schimbă; „azi" la fiecare build îl face pe Google să ignore lastmod.
+            lm = today if pg in ("politicieni.html","parlament.html","letopiset.html","cifre.html") else seo.git_lastmod(ROOT, pg, today)
+            rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>%s</priority></url>' % (B, pg, lm, pr))
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '
            + "\n  ".join(rows) + "\n</urlset>\n")
@@ -1854,6 +1874,10 @@ def main():
     open(os.path.join(ROOT, "cauta.html"), "w", encoding="utf-8").write(build_search_page(arts, shell))
     open(os.path.join(ROOT, "cifre.html"), "w", encoding="utf-8").write(build_cifre(arts, shell))
     _leto = build_letopiset(shell)
+    # Paginile de categorie: toate articolele unei categorii, paginate (SEO, 12 sept 2026)
+    global PAGINI_CATEGORII
+    PAGINI_CATEGORII = seo.build_categorii(arts, shell, mom, CAT_ORDER, CAT_ID, card, cheie_timp, ROOT)
+    print(f"✅ pagini de categorie: {len(PAGINI_CATEGORII)}")
     if _leto:
         open(os.path.join(ROOT, "letopiset.html"), "w", encoding="utf-8").write(_leto)
     # 2b. sitemap.xml (toate articolele + hub) pentru Google
@@ -1870,7 +1894,8 @@ def main():
                                             "cifre.html","letopiset.html","metodologie.html","cine-suntem.html",
                                             "corectari.html","contact.html","termeni.html",
                                             "confidentialitate.html","404.html",
-                                            "parlament.html","moldova/index.html")]
+                                            "parlament.html","moldova/index.html")] + \
+            [os.path.join(ROOT, fis) for fis, _ in PAGINI_CATEGORII]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
     hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html"),
@@ -1914,6 +1939,12 @@ def main():
         # articolului (11 sept 2026, captura fondatorului). `data-nosnippet` îi spune lui
         # Google să nu ia text de acolo pentru fragmentul din rezultate; descrierea reală
         # (dek-ul) rămâne în <meta name="description">.
+        # Un singur H1 pe pagină: marca din antet devine <div class="brand"> (auditul SEO, 12 sept 2026)
+        s = re.sub(r'<h1 class="brand">(.*?)</h1>', lambda m: '<div class="brand">' + m.group(1) + '</div>', s, count=1, flags=re.S)
+        if f == IDX:
+            s = seo.link_toate(s, CAT_ORDER, CAT_ID)
+            if '"@type": "NewsMediaOrganization"' not in s and '"NewsMediaOrganization"' not in s:
+                s = s.replace('</head>', '  <script type="application/ld+json">' + json.dumps(seo.organizatie_ld(), ensure_ascii=False) + '</script>\n</head>', 1)
         s = s.replace('<div class="legend">', '<div class="legend" data-nosnippet>')
         s = s.replace('<footer>', '<footer data-nosnippet>')
         # Cloșcu a fost scoasă definitiv. Curățarea rămâne pentru totdeauna,
@@ -1939,29 +1970,14 @@ def main():
             slug = os.path.splitext(os.path.basename(f))[0]
             d = arts.get(slug)
             if d:
-                ld = {"@context":"https://schema.org","@type":"NewsArticle","headline":d["title"],
-                      "image":[img],"datePublished":d.get("date",""),"dateModified":d.get("date",""),
-                      "author":{"@type":"Organization","name":"Fără Baliverne","url":"https://farabaliverne.ro"},
-                      "publisher":{"@type":"Organization","name":"Fără Baliverne","logo":{"@type":"ImageObject","url":"https://farabaliverne.ro/apple-touch-icon.png"}},
-                      "mainEntityOfPage":"https://farabaliverne.ro/a/"+slug+".html","description":d.get("dek","")}
-                # ClaimReview: cardul de identitate al unei verificari. Fara el,
-                # Google nu stie ca pagina e un fact-check si nu intra in Fact
-                # Check Explorer, unde cauta jurnalistii. Vezi `verdict_scurt`.
-                blocuri = [ld]
+                # <head> (titlu scurt de căutare, descriere ≤155, article:*), semnătură + <time>
+                s = seo.cap_articol(s, d, slug, mom, CAT_ID.get(d.get("category",""), "index"))
+                card_url = ("https://farabaliverne.ro/img/share/" + slug + ".jpg") if are_card else None
                 eticheta = verdict_scurt(d.get("mainVerdict"))
-                if eticheta:
-                    cr = {"@context":"https://schema.org","@type":"ClaimReview",
-                          "url":"https://farabaliverne.ro/a/"+slug+".html",
-                          "claimReviewed":d["title"],
-                          "datePublished":d.get("date",""),
-                          "author":{"@type":"Organization","name":"Fără Baliverne",
-                                    "url":"https://farabaliverne.ro"},
-                          "reviewRating":{"@type":"Rating","alternateName":eticheta}}
-                    sursa = d.get("url")
-                    if sursa:
-                        cr["itemReviewed"] = {"@type":"Claim",
-                            "appearance":{"@type":"CreativeWork","url":sursa}}
-                    blocuri.append(cr)
+                # NewsArticle + BreadcrumbList (+ ClaimReview doar la categoriile cu fact-check) — vezi seo.py
+                blocuri = seo.date_structurate(d, slug, img, card_url, mom, eticheta,
+                                               CAT_ID.get(d.get("category",""), "index"))
+                ld = blocuri[0]
                 lds = '<script type="application/ld+json">' + json.dumps(blocuri if len(blocuri) > 1 else ld, ensure_ascii=False) + '</script>'
                 if 'application/ld+json' in s:
                     s = re.sub(r'<script type="application/ld\+json">.*?</script>', lambda m: lds, s, count=1, flags=re.S)

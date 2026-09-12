@@ -1,0 +1,2441 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
+<title>Extern — toate verificările — Fără Baliverne</title>
+<meta name="description" content="Toate verificările Fără Baliverne despre lumea de dincolo de graniță, cu surse din mai multe părți.">
+<style>
+
+  :root{
+    --ink:#22271f;
+    --ink-soft:#556050;
+    --ink-faint:#87907c;
+    --paper:#e7f0e4;
+    --paper-2:#f1f7ef;
+    --card:#ffffff;
+    --line:#d6e2d0;
+    --line-2:#bfd2b7;
+    --accent:#a5372a;
+    --accent-deep:#7c2620;
+    --accent-soft:#f6e6df;
+    --gold:#b3852e;
+    --ok:#1e8a50;
+    --ok-bg:#e5f5ea;
+    --ok-line:#bfe3cb;
+    --warn:#a8710b;
+    --warn-bg:#fbf0d6;
+    --warn-line:#edd7a0;
+    --bad:#c23b2e;
+    --bad-bg:#fbe7e3;
+    --bad-line:#f0c6bc;
+    --check:#2265a3;
+    --check-bg:#e6f0f9;
+    --check-line:#bcd9ee;
+    --serif:Georgia,'Times New Roman',Cambria,'Iowan Old Style',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --radius:16px;
+    --radius-sm:11px;
+    --shadow:0 1px 2px rgba(34,31,27,.04),0 10px 26px rgba(34,31,27,.06);
+    --shadow-hi:0 6px 14px rgba(34,31,27,.08),0 24px 50px rgba(34,31,27,.13);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 22px}
+  section[id]{scroll-margin-top:66px}
+
+  .topbar{background:var(--accent-deep);color:#fbe9e2;font-size:12.5px;letter-spacing:.02em}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:38px;gap:12px;flex-wrap:wrap;overflow:hidden}
+  .topbar .date{opacity:.92;font-variant:small-caps;letter-spacing:.08em}
+  .topbar .live{display:flex;align-items:center;gap:8px;opacity:.96}
+  .dot{width:8px;height:8px;border-radius:50%;background:#f0b429;box-shadow:0 0 0 0 rgba(240,180,41,.7);animation:pulse 2s infinite}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(240,180,41,.6)}
+    70%{box-shadow:0 0 0 7px rgba(240,180,41,0)}
+    100%{box-shadow:0 0 0 0 rgba(240,180,41,0)}
+  }
+
+  .masthead{background:linear-gradient(180deg,var(--paper-2),var(--paper));border-bottom:2px solid var(--ink)}
+  .masthead .wrap{padding-top:28px;padding-bottom:18px;text-align:center;position:relative}
+  .brand{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(38px,7vw,76px);line-height:.98;letter-spacing:-.01em;margin:0;color:var(--ink);
+  }
+  .brand a{display:inline-block}
+  .brand .amp{color:var(--accent)}
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;margin:13px 0 4px;
+    font-family:var(--serif);font-style:italic;font-size:clamp(15px,2.4vw,20px);color:var(--accent);
+  }
+  .kicker .r{height:1px;width:38px;background:var(--line-2)}
+  .subline{font-size:12.5px;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
+  .support{position:absolute;right:22px;top:28px}
+  /* Butonul sta in dreapta, ca inainte, dar centrat pe verticala cu
+     titlul: aceeasi cutie ca a lui (top 28, inaltime 74), iar butonul
+     asezat la mijlocul ei. */
+  .support{top:28px;height:74px;display:flex;align-items:center;
+    justify-content:center}
+  .btn-md{
+    display:inline-flex;align-items:center;
+    padding:9px 20px;border-radius:999px;
+    font-size:13.5px;font-weight:700;letter-spacing:.01em;
+    color:var(--accent);border:1.5px solid var(--accent);
+    background:transparent;transition:.16s ease;
+  }
+  .btn-md:hover{color:#fff;background:var(--accent);
+    box-shadow:0 5px 14px rgba(165,55,42,.26)}
+  .btn-support{
+    border:1.5px solid var(--accent);color:var(--accent);background:var(--paper-2);
+    font-family:var(--sans);font-size:13px;font-weight:700;padding:9px 18px;border-radius:999px;
+    cursor:pointer;transition:.18s ease;display:inline-flex;align-items:center;gap:7px;box-shadow:var(--shadow);
+  }
+  .btn-support:hover{background:var(--accent);color:#fff;transform:translateY(-1px);box-shadow:var(--shadow-hi)}
+
+  .nav{position:sticky;top:0;z-index:40;background:rgba(241,247,239,.9);backdrop-filter:saturate(1.3) blur(10px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;gap:5px;height:54px;overflow-x:auto}
+  .nav a{
+    font-size:14px;font-weight:700;letter-spacing:.02em;color:var(--ink-soft);
+    padding:8px 10px;border-radius:999px;white-space:nowrap;transition:.16s ease;position:relative;
+  }
+  .nav a:hover{color:var(--ink);background:var(--accent-soft)}
+  .nav a.active{color:#fff;background:var(--accent);box-shadow:0 4px 12px rgba(165,55,42,.28)}
+  .nav .sep{flex:1}
+  .nav .md{
+    color:var(--accent);border:1px solid var(--accent);
+    background:transparent;
+  }
+  .nav .md:hover{color:#fff;background:var(--accent)}
+  .nav .search{position:sticky;right:0;z-index:2;flex-shrink:0;box-shadow:-14px 0 14px -10px rgba(0,0,0,.10);
+    font-size:13px;color:var(--ink-soft);border:1px solid var(--line-2);background:var(--card);
+    padding:8px 13px;border-radius:999px;white-space:nowrap;display:inline-flex;gap:7px;align-items:center;
+    transition:.16s ease;
+  }
+  .nav .search:hover{border-color:var(--accent);color:var(--accent)}
+
+  .legend{border-bottom:1px solid var(--line);background:var(--paper-2)}
+  .legend .wrap{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:12px 22px;font-size:12.5px;color:var(--ink-soft)}
+  .legend .lbl{font-weight:700;color:var(--ink);letter-spacing:.04em;text-transform:uppercase;font-size:11px}
+  .legend span.i{display:inline-flex;align-items:center;gap:7px}
+
+  .chip{
+    display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:800;letter-spacing:.03em;
+    text-transform:uppercase;padding:6px 12px;border-radius:999px;border:1.5px solid transparent;
+    line-height:1;white-space:nowrap;box-shadow:0 2px 6px rgba(34,31,27,.08);
+  }
+  .chip .ic{font-size:12px;line-height:1}
+  .chip.ok{color:#fff;background:var(--ok);border-color:#166b3e}
+  .chip.warn{color:#2b1a02;background:#f5b93e;border-color:#c98f16}
+  .chip.bad{color:#fff;background:var(--bad);border-color:#9c2e23}
+  .chip.check{color:#fff;background:var(--check);border-color:#194f7d}
+  .chip.sm{font-size:10.5px;padding:4px 10px;box-shadow:none}
+  .chip.soft.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok-line);box-shadow:none}
+  .chip.soft.warn{color:var(--warn);background:var(--warn-bg);border-color:var(--warn-line);box-shadow:none}
+  .chip.soft.bad{color:var(--bad);background:var(--bad-bg);border-color:var(--bad-line);box-shadow:none}
+  .chip.soft.check{color:var(--check);background:var(--check-bg);border-color:var(--check-line);box-shadow:none}
+
+  /* --- Badge de raport (probat / contestat / opinie) — inlocuieste verdictul-oracol --- */
+  .report-badge{
+    display:inline-flex;align-items:center;gap:9px;font-size:11.5px;font-weight:800;color:var(--ink-soft);
+    background:var(--paper-2);border:1px solid var(--line-2);padding:6px 12px;border-radius:999px;white-space:nowrap;
+  }
+  .report-badge .seg{display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+  .report-badge .seg.ok{color:var(--ok)}
+  .report-badge .seg.warn{color:var(--warn)}
+  .report-badge .seg.check{color:var(--check)}
+  .report-badge .seg.op{color:var(--ink-faint)}
+  .report-badge.lg{font-size:13.5px;padding:9px 16px;gap:13px;box-shadow:var(--shadow)}
+  .report-badge.sm{font-size:10.5px;padding:5px 10px;gap:8px}
+  .verdict-mini{font-size:10px}
+
+  main{padding:28px 0 40px}
+  .grid-main{display:grid;grid-template-columns:1fr 320px;gap:34px;align-items:start}
+
+  .hero{
+    display:block;border-radius:var(--radius);overflow:hidden;background:var(--card);
+    border:1px solid var(--line);box-shadow:var(--shadow);transition:.22s ease;margin-bottom:32px;
+  }
+  .hero:hover{box-shadow:var(--shadow-hi);transform:translateY(-3px)}
+  .hero .photo{aspect-ratio:16/9}
+  .hero .body{padding:24px 28px 28px}
+  .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:13px;flex-wrap:wrap}
+  .cat-tag{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+  .hero h1{
+    font-family:var(--serif);font-weight:700;font-size:clamp(27px,4.4vw,45px);line-height:1.08;
+    margin:0 0 13px;letter-spacing:-.01em;color:var(--ink);transition:.18s ease;
+  }
+  .hero:hover h1{color:var(--accent-deep)}
+  .hero .dek{font-size:17.5px;color:var(--ink-soft);margin:0 0 17px;max-width:62ch}
+  .meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--ink-soft)}
+  .src{
+    display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-2);background:var(--paper-2);
+    padding:6px 12px;border-radius:999px;font-weight:700;font-size:12.5px;color:var(--ink);transition:.15s ease;
+  }
+  .src:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .src .fav{width:14px;height:14px;border-radius:4px;display:inline-block;flex:0 0 auto}
+  .meta .ext{color:var(--ink-faint);font-size:12px}
+  .meta .ext::before{content:"↗ ";opacity:.7}
+
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:9px;margin:0 0 22px}
+  .section-head h2{font-family:var(--serif);font-size:21px;margin:0;letter-spacing:.01em}
+  .section-head .more{font-size:12.5px;color:var(--accent);font-weight:700}
+  .section-head .more:hover{text-decoration:underline}
+  .cat-section{margin-bottom:40px}
+
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 24px}
+  .cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+  /* Lista compactă: articolele mai vechi dintr-o categorie, fără imagine.
+     Rămân toate pe prima pagină și indexabile, dar nu mai cer poze — altfel
+     prima pagină creștea la nesfârșit, în octeți și în număr de imagini. */
+  .mini-list{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+  .mini-head{
+    font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ink-faint);font-weight:800;padding:10px 2px 8px;
+  }
+  .mini-row{
+    display:flex;gap:16px;align-items:baseline;justify-content:space-between;
+    padding:9px 2px;border-bottom:1px solid var(--line);
+    text-decoration:none;color:inherit;transition:padding-left .15s,color .15s;
+  }
+  .mini-row:last-child{border-bottom:none}
+  .mini-row:hover{padding-left:7px;color:var(--accent)}
+  .mini-title{font-size:15.5px;line-height:1.4;min-width:0}
+  .mini-meta{display:flex;gap:10px;align-items:center;flex:none;white-space:nowrap}
+  .mini-date{font-size:12px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+  @media(max-width:620px){
+    .mini-row{flex-direction:column;gap:6px;align-items:flex-start}
+    .mini-meta{gap:8px}
+  }
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    box-shadow:var(--shadow);transition:.24s ease;display:flex;flex-direction:column;
+  }
+  .card:hover{box-shadow:var(--shadow-hi);transform:translateY(-4px);border-color:var(--line-2)}
+  .card .photo{aspect-ratio:16/9}
+  .card:hover .photo .art{transform:scale(1.06)}
+  .card .cbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:11px;flex:1}
+  .card .toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .card h3{
+    font-family:var(--serif);font-weight:700;font-size:19px;line-height:1.22;margin:0;
+    letter-spacing:-.005em;color:var(--ink);transition:.15s ease;
+  }
+  .card:hover h3{color:var(--accent-deep)}
+  .card .dek{font-size:13.5px;color:var(--ink-soft);margin:0}
+  .card .cmeta{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink-faint)}
+
+  .photo{position:relative;overflow:hidden;background:#e4ede1}
+  .photo .art{position:absolute;inset:0;transition:transform .5s ease}
+  .photo .glyph{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-size:clamp(40px,9vw,84px);opacity:.92;filter:drop-shadow(0 4px 10px rgba(0,0,0,.2));
+  }
+  .photo .srcbadge{
+    position:absolute;left:12px;bottom:12px;z-index:3;font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;
+    background:rgba(20,16,14,.55);backdrop-filter:blur(3px);padding:6px 11px;border-radius:999px;
+    display:inline-flex;align-items:center;gap:6px;transition:.15s ease;
+  }
+  .photo .srcbadge:hover{background:rgba(20,16,14,.78)}
+  .photo .srcbadge .fav{width:12px;height:12px;border-radius:3px}
+  .photo .grad{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.42) 100%)}
+  .photo .cat-pill{
+    position:absolute;right:12px;top:12px;z-index:3;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+    color:#fff;background:rgba(20,16,14,.42);padding:5px 10px;border-radius:999px;backdrop-filter:blur(2px);
+  }
+  .photo .imgtag{
+    position:absolute;left:12px;top:12px;z-index:3;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:rgba(255,255,255,.88);background:rgba(20,16,14,.35);padding:4px 9px;border-radius:6px;
+  }
+  .pattern{position:absolute;inset:0;z-index:1;opacity:.5;mix-blend-mode:soft-light}
+
+  .g-pol{background:linear-gradient(135deg,#6a7ba0,#37426a)}
+  .g-eco{background:linear-gradient(135deg,#4a9179,#245a49)}
+  .g-ext{background:linear-gradient(135deg,#8c6a9c,#4a3563)}
+  .g-soc{background:linear-gradient(135deg,#c07f52,#7d4a2b)}
+  .g-san{background:linear-gradient(135deg,#5f9ab5,#2f5f79)}
+  .g-hero{background:linear-gradient(120deg,#a5372a 0%,#5b3c67 55%,#2f4267 100%)}
+  .g-sport{background:linear-gradient(135deg,#2f8f86,#12615f)}
+  .g-sci{background:linear-gradient(135deg,#5a7fb0,#243a6a)}
+  .g-state{background:linear-gradient(135deg,#8a5a3c,#4a2a1e)}
+
+  aside{display:flex;flex-direction:column;gap:26px;position:sticky;top:72px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .panel .ph{
+    padding:13px 17px;border-bottom:1px solid var(--line);font-family:var(--serif);font-size:15.5px;font-weight:700;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .panel .ph .tag{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-family:var(--sans)}
+
+  .rank{list-style:none;margin:0;padding:6px 0}
+  .rank li{display:flex;gap:12px;padding:12px 17px;border-bottom:1px solid var(--line);transition:.15s}
+  .rank li:last-child{border-bottom:0}
+  .rank li:hover{background:var(--paper-2)}
+  .rank a{display:flex;gap:12px}
+  .rank .n{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--line-2);line-height:1;min-width:22px}
+  .rank .t{font-size:14px;font-weight:600;line-height:1.28;color:var(--ink)}
+  .rank .rmeta{margin-top:6px;display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--ink-faint)}
+
+  .ad{border:1px dashed var(--line-2);border-radius:var(--radius);background:var(--paper-2);overflow:hidden}
+  .ad .adlabel{
+    font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center;
+    padding:7px;border-bottom:1px dashed var(--line-2);background:rgba(34,31,27,.02);
+  }
+  .ad .adbox{padding:26px 18px;text-align:center}
+  .ad .adart{
+    width:56px;height:56px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(135deg,#d8b25a,#a5822f);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 8px 18px rgba(165,130,47,.3);
+  }
+  .ad h4{margin:0 0 5px;font-family:var(--serif);font-size:17px}
+  .ad p{margin:0 0 14px;font-size:13px;color:var(--ink-soft)}
+  .ad .adbtn{display:inline-block;font-size:12.5px;font-weight:700;color:var(--gold);border:1px solid var(--gold);padding:8px 17px;border-radius:999px;transition:.15s}
+  .ad:hover .adbtn{background:var(--gold);color:#fff}
+
+  .method{padding:17px}
+  .method p{margin:0 0 13px;font-size:13.5px;color:var(--ink-soft);line-height:1.5}
+  .method .row{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:11px}
+  .method .row:last-child{margin-bottom:0}
+  .method .row .k{font-size:15px;line-height:1.3}
+
+  .support-panel{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fbe9e2;text-align:center;
+    padding:24px 20px;border-radius:var(--radius);box-shadow:var(--shadow);
+  }
+  .support-panel h4{font-family:var(--serif);font-size:19px;margin:0 0 8px;color:#fff}
+  .support-panel p{font-size:13px;margin:0 0 16px;color:#f4ddd6;line-height:1.5}
+  .support-panel .sbtn{display:inline-block;background:#faf6ec;color:var(--accent-deep);font-weight:700;font-size:13.5px;padding:10px 21px;border-radius:999px;transition:.15s}
+  .support-panel .sbtn:hover{transform:translateY(-1px);background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.18)}
+  .support-panel small{display:block;margin-top:12px;font-size:11px;color:#f0d4cd;opacity:.9}
+
+  .strip{margin-top:8px}
+
+  footer{background:var(--ink);color:#d6cec0;margin-top:22px;border-top:4px solid var(--accent)}
+  footer .wrap{padding:42px 22px 30px}
+  .foot-top{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start;padding-bottom:26px;border-bottom:1px solid #3a352d}
+  .foot-brand{max-width:420px}
+  .foot-brand .fb{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff}
+  .foot-brand .fb .amp{color:#e0a89e}
+  .foot-brand .dev{font-family:var(--serif);font-style:italic;color:#e6bcb2;margin:6px 0 12px;font-size:17px}
+  .foot-brand .creed{font-size:13.5px;color:#b0a790;line-height:1.55}
+  .foot-brand .creed b{color:#f0e6d4;font-weight:700}
+  .foot-cols{display:flex;gap:48px;flex-wrap:wrap}
+  .foot-cols h5{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#948b78;margin:0 0 12px}
+  .foot-cols ul{list-style:none;margin:0;padding:0}
+  .foot-cols li{margin-bottom:8px}
+  .foot-cols a{font-size:14px;color:#d6cec0;transition:.15s}
+  .foot-cols a:hover{color:#fff}
+  .foot-bottom{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#948b78}
+  .foot-bottom a{color:#948b78;transition:.15s}
+  .foot-bottom a:hover{color:#fff}
+  .foot-bottom .legal-links{display:flex;gap:10px;flex-wrap:wrap}
+
+  /* ---------- Article page specific ---------- */
+  .backlink{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--ink-soft);
+    border:1px solid var(--line-2);background:var(--card);padding:8px 15px;border-radius:999px;margin-bottom:22px;transition:.15s}
+  .backlink:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+  .article-head{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    overflow:hidden;margin-bottom:28px}
+  .article-head .photo{aspect-ratio:21/9}
+  .article-head .abody{padding:26px 30px 30px}
+  .article-head h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,40px);line-height:1.12;
+    margin:0 0 14px;letter-spacing:-.01em;color:var(--ink)}
+  .article-head .dek{font-size:17px;color:var(--ink-soft);margin:0 0 18px;max-width:70ch}
+  .article-head .verdict-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 16px}
+
+  .ev-block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:22px 26px 26px;margin-bottom:24px}
+  .ev-block h2{font-family:var(--serif);font-size:20px;margin:0 0 6px;display:flex;align-items:center;gap:9px}
+  .ev-block .ev-sub{font-size:13px;color:var(--ink-faint);margin:0 0 18px}
+  .ev-item{padding:16px 0;border-top:1px solid var(--line)}
+  .ev-item:first-of-type{border-top:none;padding-top:4px}
+  .ev-item p{margin:0 0 11px;font-size:15.5px;line-height:1.55;color:var(--ink)}
+  .ev-sources{display:flex;flex-wrap:wrap;gap:8px}
+  .ev-sources a{
+    display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-2);background:var(--paper-2);
+    padding:6px 12px;border-radius:999px;font-weight:600;font-size:12.5px;color:var(--ink-soft);transition:.15s ease;
+    max-width:100%;
+  }
+  .ev-sources a:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .ev-sources a .fav{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+  .ev-sources a span.lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  .ev-block.probat{border-left:5px solid var(--ok)}
+  .ev-block.contestat{border-left:5px solid var(--warn)}
+  .ev-block.neverificabil{border-left:5px solid var(--check)}
+  .ev-block.opinie{border-left:5px solid var(--ink-faint)}
+  .opinie-item{padding:14px 0;border-top:1px solid var(--line);font-size:15.5px;line-height:1.55;color:var(--ink-soft);font-style:italic}
+  .opinie-item:first-of-type{border-top:none;padding-top:4px}
+
+  .ai-note{background:linear-gradient(160deg,var(--paper-2),var(--paper));border:1.5px dashed var(--line-2);
+    border-radius:var(--radius);padding:22px 26px;margin-bottom:24px}
+  .ai-note h2{font-family:var(--serif);font-size:19px;margin:0 0 10px;display:flex;align-items:center;gap:9px}
+  .ai-note p{margin:0;font-size:14.5px;line-height:1.6;color:var(--ink-soft)}
+
+  .math-block{background:var(--card);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:22px 26px;margin-bottom:24px}
+  .math-block h2{font-family:var(--serif);font-size:19px;margin:0 0 12px;display:flex;align-items:center;gap:9px;color:var(--accent-deep)}
+  .math-block p{margin:0;font-size:14.5px;line-height:1.65;color:var(--ink)}
+
+  .conclusion-box{
+    background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fff;
+    border-radius:var(--radius);padding:30px 30px;text-align:center;box-shadow:var(--shadow-hi);margin:32px 0 8px;
+  }
+  .conclusion-box .glyph{font-size:34px;margin-bottom:10px}
+  .conclusion-box h3{font-family:var(--serif);font-size:24px;margin:0 0 9px;color:#fff}
+  .conclusion-box p{font-size:14.5px;color:#f4ddd6;margin:0 0 18px;max-width:56ch;margin-left:auto;margin-right:auto;line-height:1.55}
+  .conclusion-box .backlink{background:#faf6ec;color:var(--accent-deep);border:none;font-weight:800}
+  .conclusion-box .backlink:hover{background:#fff;color:var(--accent-deep)}
+
+  @media(max-width:980px){
+    .grid-main{grid-template-columns:1fr}
+    aside{position:static;flex-direction:column}
+    .cards-3{grid-template-columns:repeat(2,1fr)}
+  }
+  @media(max-width:720px){
+    body{font-size:16px}
+    .cards,.cards-3{grid-template-columns:1fr}
+    .support{position:static;margin-top:14px}
+    .masthead .wrap{padding-bottom:18px}
+    .legend .wrap{font-size:12px}
+    .brand{font-size:44px}
+    .article-head .abody{padding:20px 20px 24px}
+    .ev-block{padding:18px 18px 20px}
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     PALETA „ALB APPLE + PETROL" — 4 septembrie 2026
+     ═══════════════════════════════════════════════════════════════════════
+     Aleasa de fondator dupa ce ne-am uitat la cum amesteca Apple culorile pe
+     apple.com/macbook-air. Descoperirea care a schimbat tot: Apple NU coloreaza
+     fundalul. Il tine gri-neutru (#f5f5f7) si lasa fotografia produsului sa
+     aduca toata culoarea. Noi avem 513 poze pe prima pagina — deci fundalul se
+     retrage, iar pozele ies in fata.
+
+     🔴 Blocul asta sta la COADA foii de stil dinadins, ca sa bata regulile de
+     mai sus fara !important. Daca vrei paleta veche inapoi: sterge blocul.
+     Nu umbla la regulile de deasupra, sunt neatinse.
+
+     🔴 Culorile verdictelor (--ok, --bad, --warn, --check) NU se ating.
+     Alea nu sunt decor, sunt informatie: verde=probat, rosu=contrazis.
+     De-aia accentul e petrol si nu rosu — caramiziul vechi (#a5372a) era
+     aproape identic cu rosul de „Contestat" si ochiul le confunda pe alb.
+     ═══════════════════════════════════════════════════════════════════════ */
+  :root{
+    --paper:#fbfbfd; --paper-2:#f7f7f9; --card:#ffffff;
+    --line:#ececf1;  --line-2:#e0e0e6;
+    --ink:#1d1d1f;   --ink-soft:#6e6e73; --ink-faint:#86868b;
+    --accent:#13817d; --accent-deep:#0e6360; --accent-soft:#eef7f6;
+    --panou-bg:#fafdfc; --panou-line:#eaf4f2;
+    /* curba si durata luate din codul Apple: `color .32s cubic-bezier(.4,0,.6,1)` */
+    --lin:.32s cubic-bezier(.4,0,.6,1);
+  }
+
+  /* accentul iese din litere; ramane doar pe fundaluri si butoane */
+  .cat-tag, .section-head .more, .brand .amp,
+  .panel .ph .tag, .math-block h2{color:var(--ink)}
+
+  /* banda de sus: petrol DESCHIS, scris alb (era roz, din paleta veche).
+     Fondatorul a observat ca banda si pastila „Acasa" aveau doua nuante
+     diferite de petrol — #0e6360 sus, #13817d in meniu. Acum e una singura. */
+  .topbar{background:var(--accent); color:rgba(255,255,255,.86)}
+
+  /* 🔴 Meniul: TOATE intrarile arata la fel, inclusiv „Acasa".
+     Pastila plina de dinainte il facea pe „Acasa" alt animal decat fratii lui.
+     Cererea fondatorului, 4 sept 2026: „toate meniurile sa arate la fel" si
+     „oglinda ca restul meniurilor".
+
+     `:not(:hover)` e cheia si m-a prins o data. Cu `background:transparent`
+     simplu pe `.nav a.active`, pastila dispare — dar dispare si oglinda, fiindca
+     regula bate hover-ul la specificitate egala. Asa, cat sta linistit e ca
+     oricare altul; sub mouse primeste aceeasi sticla.
+
+     „Moldova" si „Cauta o afirmatie" raman cu conturul lor: nu sunt categorii,
+     sunt destinatii. Decizia lui, aceeasi zi. */
+  .nav a.active:not(:hover){background:transparent; box-shadow:none}
+  .nav a.active{color:var(--ink-soft); font-weight:700}
+
+  /* panourile din dreapta erau petrol PLIN si dureau ochii pe alb */
+  .support-panel, .conclusion-box{
+    background:var(--panou-bg); color:var(--ink);
+    border:1px solid var(--panou-line);
+    box-shadow:0 1px 2px rgba(16,60,58,.04), 0 10px 26px rgba(16,60,58,.05)}
+  .support-panel h4, .conclusion-box h4, .support-panel b{color:var(--ink)}
+  .support-panel p{color:#4a5654}
+  .support-panel small{color:#6e7b79; opacity:1}
+  .support-panel .sbtn, .conclusion-box .backlink{
+    background:var(--accent); color:#fff; border:none}
+
+  /* ── STICLA: bara de meniu si cardurile ────────────────────────────────
+     Sticla mata are nevoie de ceva in spate ca sa se vada. Pe meniu merge —
+     continutul trece pe sub el cand derulezi. Pe carduri, pozele razbat. */
+  .nav{background:rgba(255,255,255,.68);
+    -webkit-backdrop-filter:saturate(180%) blur(20px);
+    backdrop-filter:saturate(180%) blur(20px);
+    border-bottom:1px solid rgba(0,0,0,.06)}
+  .card{background:rgba(255,255,255,.72);
+    -webkit-backdrop-filter:saturate(180%) blur(18px);
+    backdrop-filter:saturate(180%) blur(18px);
+    border:1px solid rgba(0,0,0,.05);
+    box-shadow:0 1px 2px rgba(0,0,0,.03), 0 12px 28px rgba(0,0,0,.05)}
+
+  /* ── OGLINDA: aceeasi miscare peste tot ────────────────────────────────
+     Secretul nu e culoarea, e `inset 0 1px 0 rgba(255,255,255,...)`: dunga
+     de lumina pe muchia de sus face pastila sa para sticla groasa prinsa de
+     lumina. Fara ea arata a plastic. */
+  .nav a, .nav .md, .nav .search, .card, .mini-row, .section-head .more,
+  .support-panel .sbtn, .support-panel button, .support-panel a,
+  .conclusion-box .backlink, .panel{
+    transition:color var(--lin), background-color var(--lin),
+               box-shadow var(--lin), transform var(--lin),
+               border-color var(--lin), padding-left var(--lin)}
+
+  .nav a:hover, .nav .md:hover, .nav .search:hover,
+  .section-head .more:hover, .mini-row:hover{
+    background:rgba(255,255,255,.72); color:var(--ink);
+    border-radius:999px; text-decoration:none;
+    -webkit-backdrop-filter:saturate(200%) blur(14px);
+    backdrop-filter:saturate(200%) blur(14px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.95),
+               inset 0 -1px 0 rgba(0,0,0,.03),
+               0 1px 2px rgba(0,0,0,.05), 0 8px 20px rgba(0,0,0,.08)}
+  .mini-row:hover{border-radius:12px; padding-left:12px}
+
+  .card:hover{transform:translateY(-4px); background:rgba(255,255,255,.9);
+    -webkit-backdrop-filter:saturate(200%) blur(18px);
+    backdrop-filter:saturate(200%) blur(18px);
+    border-color:rgba(255,255,255,.9);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,1),
+               0 2px 4px rgba(0,0,0,.04), 0 20px 44px rgba(0,0,0,.13)}
+  .panel:hover, .support-panel:hover{
+    box-shadow:inset 0 1px 0 rgba(255,255,255,1),
+               0 2px 4px rgba(16,60,58,.04), 0 16px 34px rgba(16,60,58,.10)}
+
+  /* butoanele care isi au fundalul lor INCHIS (Facebook, X, Gabe it):
+     luciu interior si ridicare, NU sticla alba — alba peste negru = murdarie */
+  .support-panel .sbtn:hover, .conclusion-box .backlink:hover,
+  .support-panel button[style*="background:#1877f2"]:hover,
+  .support-panel button[style*="background:#000"]:hover,
+  .support-panel a[onclick*="gabeIt"]:hover,
+  .support-panel button[onclick*="gabeIt"]:hover{
+    transform:translateY(-2px); filter:saturate(1.08) brightness(1.06);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.3),
+               0 2px 5px rgba(0,0,0,.12), 0 12px 26px rgba(0,0,0,.22)}
+  .support-panel button[style*="var(--card)"]:hover{
+    background:rgba(255,255,255,.85); transform:translateY(-2px);
+    -webkit-backdrop-filter:saturate(200%) blur(14px);
+    backdrop-filter:saturate(200%) blur(14px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,1),
+               0 2px 4px rgba(0,0,0,.05), 0 10px 22px rgba(0,0,0,.10)}
+
+  /* „Minți luminate" — culoarea secțiunii de cercetare universitară.
+     Chihlimbar spre bronz: singura familie caldă rămasă liberă. Verdele, roșul
+     și albastrul sunt ale verdictelor, petrolul e accentul, mov e Extern.
+     Numele e al fondatorului, 5 septembrie 2026 — „gen Beautiful Mind". */
+  .g-minti{background:linear-gradient(135deg,#c9a227,#7d5f10)}
+
+  /* Blocul „Articolul original, tradus integral" — sectiunea „Minți luminate".
+     🔴 Se vede DIFERIT de restul dinadins: nu e textul nostru, e al altcuiva,
+     tradus. Dunga din stanga il leaga de accent, iar corpul e mai mare si mai
+     aerisit fiindca e de citit pe indelete, nu de scanat ca o lista de dovezi.
+     Se foloseste doar cand sursa permite explicit reproducerea. */
+  .ev-block.traducere{border-left:5px solid var(--accent)}
+  .ev-block.traducere p{font-size:16.5px;line-height:1.68;margin:0 0 15px;color:var(--ink)}
+  .ev-block.traducere p:last-child{margin-bottom:0}
+  .ev-block.traducere .ev-sub{font-size:12.5px;line-height:1.5;
+    padding:11px 13px;border-radius:10px;background:var(--accent-soft);
+    color:var(--ink-soft);margin-bottom:20px}
+  .ev-block.traducere .ev-sub a{color:var(--accent);font-weight:700}
+
+  /* 🔴 Butonul de cautare e `position:sticky` lipit de marginea dreapta, deci
+     cand meniul depaseste latimea, el PLUTESTE peste ce ajunge sub el — a
+     acoperit „Moldova" cand am adaugat a 14-a intrare, pe 5 septembrie 2026.
+     Prima incercare a fost `min-width` pe separator: a inrautatit, fiindca a
+     mai adaugat 172px la un rand care oricum nu incapea.
+     Reparatia adevarata e sa NU depaseasca: eticheta din meniu e scurtata la
+     „Minți", titlul sectiunii ramane „Minți luminate". Daca se mai adauga
+     vreodata o categorie, asta e locul unde se rupe primul. */
+  .nav .md{flex-shrink:0}
+
+  /* Nota de republicare ceruta de sursa (MIT News o cere explicit la final).
+     Se vede ca o mentiune legala, nu ca text de citit. */
+  .ev-block.traducere .nota-republicare{
+    margin-top:20px;padding-top:14px;border-top:1px solid var(--line);
+    font-size:12px;color:var(--ink-faint);line-height:1.5}
+
+  .letopiset{border-top:1px solid rgba(255,255,255,.10);margin-top:26px;padding-top:22px}
+  .letopiset h5{margin:0 0 4px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:rgba(255,255,255,.55)}
+  .letopiset .sub{margin:0 0 14px;font-size:12.5px;color:rgba(255,255,255,.38);
+    font-style:italic}
+  .letopiset ol{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+  .letopiset li{font-size:13.5px;line-height:1.5;color:rgba(255,255,255,.72)}
+  .letopiset .zi{display:inline-block;min-width:132px;color:rgba(255,255,255,.40);
+    font-variant-numeric:tabular-nums}
+  .letopiset a.s{color:rgba(255,255,255,.40);text-decoration:none;font-size:11.5px;
+    border-bottom:1px dotted rgba(255,255,255,.25)}
+  .letopiset a.s:hover{color:#fff;border-bottom-color:#fff}
+  .letopiset .tot{display:inline-block;margin-top:14px;font-size:13px;
+    color:rgba(255,255,255,.62);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.22)}
+  .letopiset .tot:hover{color:#fff;border-bottom-color:#fff}
+  @media(max-width:640px){.letopiset .zi{display:block;min-width:0;margin-bottom:2px}}
+</style>
+<meta name="google-site-verification" content="yf2OSB96PCopr8e7hY18kzo9X918O5AbfKWE1XJzJTY">
+<link rel="canonical" href="https://farabaliverne.ro/extern.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#2f8a49">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fără Baliverne">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:title" content="Extern — toate verificările">
+<meta property="og:description" content="Toate verificările Fără Baliverne despre lumea de dincolo de graniță, cu surse din mai multe părți.">
+<meta property="og:url" content="https://farabaliverne.ro/extern.html">
+<meta property="og:image" content="https://farabaliverne.ro/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Extern — toate verificările">
+<meta name="twitter:description" content="Toate verificările Fără Baliverne despre lumea de dincolo de graniță, cu surse din mai multe părți.">
+<meta name="twitter:image" content="https://farabaliverne.ro/og-cover.png">
+  <link rel="alternate" type="application/rss+xml" title="Fără Baliverne — articole noi" href="https://farabaliverne.ro/feed.xml">
+    <link rel="next" href="https://farabaliverne.ro/extern-2.html">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Extern — toate verificările", "url": "https://farabaliverne.ro/extern.html", "inLanguage": "ro", "isPartOf": {"@type": "WebSite", "url": "https://farabaliverne.ro/"}, "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://farabaliverne.ro/"}, {"@type": "ListItem", "position": 2, "name": "Extern", "item": "https://farabaliverne.ro/extern.html"}]}}</script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap">
+      <div class="date">Sâmbătă, 12 septembrie 2026 · Ediția de seară târzie</div>
+      <div class="live"><span class="dot"></span> 895 verificări publicate</div>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="wrap">
+      <div class="brand"><a href="index.html">Fără&nbsp;Baliverne</a></div>
+      <div class="kicker"><span class="r"></span>Apă, paie… <span class="amp" style="font-style:normal;color:var(--accent)">Adevăr</span><span class="r"></span></div>
+      <div class="subline">Agregăm știrile. Verificăm faptele. Tu tragi concluzia.</div>
+      <div class="support">
+        <a href="/moldova/" class="btn-md" title="Fara Scorneli — verificarile din Republica Moldova">Fără Scorneli · Moldova</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="active">Acasă</a>
+      <a href="index.html#politica">Politică</a>
+      <a href="index.html#economie">Economie</a>
+      <a href="index.html#extern">Extern</a>
+      <a href="index.html#stiinta">Știință</a>
+      <a href="index.html#minti-luminate">Minți</a>
+      <a href="index.html#social">Social</a>
+      <a href="index.html#sport">Sport</a>
+      <a href="index.html#media-de-stat">Media de stat</a>
+      <a href="politicieni.html">Politicieni</a>
+      <a href="parlament.html">Parlament</a>
+            <a href="/moldova/" class="md" title="Fără Scorneli — verificările din Republica Moldova">🇲🇩 Moldova</a>
+      <span class="sep"></span>
+      <a href="cauta.html" class="search">🔍 Caută o afirmație</a>
+    </div>
+  </nav>
+
+  <div class="legend" data-nosnippet>
+    <div class="wrap">
+      <span class="lbl">Cum stau probele:</span>
+      <span class="i"><span class="chip soft ok"><span class="ic">✅</span> Probat</span> susținut de dovezi</span>
+      <span class="i"><span class="chip soft warn"><span class="ic">⚠️</span> Contestat</span> surse în dezacord</span>
+      <span class="i"><span class="chip soft bad"><span class="ic">❌</span> Contrazis</span> infirmat de dovezi</span>
+      <span class="i"><span class="chip soft check"><span class="ic">🔍</span> În verificare</span> analiză în curs</span>
+    </div>
+  </div>
+
+  <main>
+    <div class="wrap">
+      <nav aria-label="Ești aici" style="font-size:13px;color:var(--ink-faint);padding:18px 0 0">
+        <a href="index.html" style="color:inherit">Acasă</a> › <span>Extern</span></nav>
+      <div style="padding:10px 0 6px">
+        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 8px">Extern</h1>
+        <p style="color:var(--ink-soft);font-size:16px;line-height:1.6;max-width:64ch">Toate verificările Fără Baliverne despre lumea de dincolo de graniță, cu surse din mai multe părți.</p>
+        <p style="color:var(--ink-faint);font-size:13px">343 articole, cele mai noi întâi.</p>
+      </div>
+      <section class="cat-section" id="extern">
+        <div class="cards-3">
+          <a href="a/sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/sua-usps-vot-corespondenta-curtea-suprema-a-treia-oara.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NPR / ACLU / SCOTUSblog / Votebeat / Fox News / NBC News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>SUA: administrația Trump cere, a treia oară, Curții Supreme să lase regula USPS pentru votul prin corespondență să intre în vigoare înaintea alegerilor de la mijlocul mandatului</h3>
+              <p class="dek">🌍 Un ordin executiv al președintelui Trump, semnat pe 31 martie 2026, a dus la o regulă a Poștei americane (USPS) care impune design standardizat de plic…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NPR / ACLU / SCOTUSblog / Votebeat / Fox News / NBC News</span>
+                <span>· 2026-09-12</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/china-garda-costiera-patrule-est-taiwan.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-garda-costiera-patrule-est-taiwan" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-garda-costiera-patrule-est-taiwan)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/articole/china-garda-costiera-patrule-est-taiwan.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Bloomberg (via gCaptain) / The Japan Times / Vision Times</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>China a extins patrulele gărzii de coastă la est de Taiwan — Beijingul le numește „de rutină”, Taipei vorbește despre o „nouă normalitate” impusă</h3>
+              <p class="dek">🌍 Din iunie 2026, Garda de Coastă chineză a trimis în medie două nave pe lună la est de Taiwan, într-o zonă de peste 27.000 de mile marine pătrate — dublul…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Bloomberg (via gCaptain) / The Japan Times / Vision Times</span>
+                <span>· 2026-09-12</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/houthi-bab-al-mandeb-control-navigatie-sigura-trafic-prabusit.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-houthi-bab-al-mandeb-control-navigatie-sigura-trafic-prabusit" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-houthi-bab-al-mandeb-control-navigatie-sigura-trafic-prabusit)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/houthi-bab-al-mandeb-control-navigatie-sigura-trafic-prabusit.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews / The National / Times of Israel</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Houthii spun că au control „total” pe Bab al-Mandeb și că navigația e „sigură” — dar traficul naval s-a prăbușit de la 30 la 12 nave pe zi</h3>
+              <p class="dek">🌍 După ce au cucerit portul Mocha și insula Perim (Mayyun), houthii susțin, prin oficialul de politburo Hazem al-Assad, că navigația comercială prin…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Euronews / The National / Times of Israel</span>
+                <span>· 2026-09-12</span>
+                <span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/ue-achizitii-publice-excludere-firme-chineze-sejourne.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-ue-achizitii-publice-excludere-firme-chineze-sejourne" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-ue-achizitii-publice-excludere-firme-chineze-sejourne)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/ue-achizitii-publice-excludere-firme-chineze-sejourne.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews / EUobserver</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>UE propune reguli noi la achizițiile publice: autoritățile ar putea exclude firmele chineze din contracte de peste 2.000 de miliarde de euro pe an</h3>
+              <p class="dek">Comisia Europeană, prin comisarul pentru industrie Stéphane Séjourné, a prezentat pe 9 septembrie 2026 o propunere de reformă a achizițiilor publice din UE —…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Euronews / EUobserver</span>
+                <span>· 2026-09-11</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/iran-pickaxe-mountain-centrifuge-israel-aiea-grossi.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-iran-pickaxe-mountain-centrifuge-israel-aiea-grossi" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-iran-pickaxe-mountain-centrifuge-israel-aiea-grossi)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/iran-pickaxe-mountain-centrifuge-israel-aiea-grossi.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Iran International / Bloomberg</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Israelul susține că Iranul a mutat mii de centrifuge la Pickaxe Mountain — AIEA confirmă doar construcții văzute din satelit, fără acces în interior</h3>
+              <p class="dek">🌍 Oficiali israelieni și americani, citați de Wall Street Journal, susțin că Iranul ar fi mutat „mii” de centrifuge de îmbogățire a uraniului în tunelurile…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Iran International / Bloomberg</span>
+                <span>· 2026-09-11</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/houthi-mocha-bab-al-mandeb-perim-neconfirmat.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-houthi-mocha-bab-al-mandeb-perim-neconfirmat" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-houthi-mocha-bab-al-mandeb-perim-neconfirmat)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/houthi-mocha-bab-al-mandeb-perim-neconfirmat.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Reuters</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Houthii cuceresc portul Mocha și ajung la insulele din Bab al-Mandeb; revendicarea insulei Perim rămâne neconfirmată independent</h3>
+              <p class="dek">🌍 Pe 10 septembrie 2026, luptătorii houthi susținuți de Iran au preluat controlul orașului-port Mocha, pe coasta yemenită a Mării Roșii, la mai puțin de 80…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Reuters</span>
+                <span>· 2026-09-11</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/canada-tarife-27-6-miliarde-trump-cinci-proclamatii-8-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> CNBC / Casa Albă / Guvernul Canadei</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Canada a aplicat pe 8 septembrie tarife de represalii de 27,6 miliarde de dolari — mai mult decât „dolar pentru dolar” promis — iar Trump a răspuns cu interdicții de import</h3>
+              <p class="dek">După colapsul negocierilor comerciale din 21 august, Canada a aplicat pe 8 septembrie 2026 tarife de represalii pe 27,6 miliarde de dolari de bunuri…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> CNBC / Casa Albă / Guvernul Canadei</span>
+                <span>· 2026-09-10</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/zelenski-drona-oslo-chisinau-nuanteaza-declaratia.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-zelenski-drona-oslo-chisinau-nuanteaza-declaratia" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-zelenski-drona-oslo-chisinau-nuanteaza-declaratia)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/zelenski-drona-oslo-chisinau-nuanteaza-declaratia.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Europa Liberă Moldova / NewsMaker / Digi24</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Avionul lui Zelenski „aproape lovit” de o dronă la Chișinău? O zi mai târziu, Oslo și Chișinăul nuanțează: „nu se știe cât de aproape”</h3>
+              <p class="dek">Pe 9 septembrie, premierul Norvegiei spunea că avionul lui Volodimir Zelenski „a fost aproape lovit” de o dronă la decolarea din Chișinău. O zi mai târziu…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Europa Liberă Moldova / NewsMaker / Digi24</span>
+                <span>· 2026-09-10</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/china-filipine-bilet-seoul-defense-dialogue-teodoro.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-filipine-bilet-seoul-defense-dialogue-teodoro" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-filipine-bilet-seoul-defense-dialogue-teodoro)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/china-filipine-bilet-seoul-defense-dialogue-teodoro.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Philstar / ABC News / Fox News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Un atașat militar chinez îi lasă un bilet pe masă ministrului filipinez al Apărării, în timp ce vorbea la un forum din Seul — „Sigur, pentru că ați pierdut”</h3>
+              <p class="dek">🌍 Pe 9 septembrie 2026, în timp ce ministrul filipinez al Apărării, Gilberto Teodoro Jr., răspundea unei întrebări despre coerciția Chinei în Marea Chinei de…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Philstar / ABC News / Fox News</span>
+                <span>· 2026-09-09</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/aiea-iran-consiliul-securitate-onu-referire.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-aiea-iran-consiliul-securitate-onu-referire" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-aiea-iran-consiliul-securitate-onu-referire)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/aiea-iran-consiliul-securitate-onu-referire.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Al-Monitor</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Consiliul Guvernatorilor AIEA trimite Iranul în fața Consiliului de Securitate ONU — prima referire de acest fel în 20 de ani. Rusia, China și Niger au votat împotrivă</h3>
+              <p class="dek">Consiliul Guvernatorilor Agenției Internaționale pentru Energie Atomică (AIEA) a adoptat, miercuri, 9 septembrie 2026, o rezoluție prin care raportează…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Al-Monitor</span>
+                <span>· 2026-09-09</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/zelenski-avion-drona-chisinau-versiuni-contradictorii.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-zelenski-avion-drona-chisinau-versiuni-contradictorii" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-zelenski-avion-drona-chisinau-versiuni-contradictorii)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/zelenski-avion-drona-chisinau-versiuni-contradictorii.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> TVR Moldova / Mediafax / NewsMaker.md / Economica.net</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Avionul lui Zelenski, „aproape lovit” de o dronă la decolarea din Chișinău, spune premierul Norvegiei — Guvernul de la Chișinău nu confirmă, și pune accentul pe alt punct al traseului dronei</h3>
+              <p class="dek">Premierul norvegian Jonas Gahr Støre a declarat pentru NRK că avionul lui Volodimir Zelenski „a fost aproape lovit de o dronă” la decolarea din Chișinău spre…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> TVR Moldova / Mediafax / NewsMaker.md / Economica.net</span>
+                <span>· 2026-09-09</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/moldova-atac-tudora-starokazacie-doi-morti-9-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-atac-tudora-starokazacie-doi-morti-9-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-atac-tudora-starokazacie-doi-morti-9-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/moldova-atac-tudora-starokazacie-doi-morti-9-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> MAE R. Moldova / NewsMaker.md / TVR Moldova / Radio Chișinău / UNIMEDIA / Ministerul Apărării al Rusiei (media oficială)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Atac cu drone rusești la câțiva metri de Moldova: doi morți la Starokazacie, Rusia spune că punctul era țintă „militară”</h3>
+              <p class="dek">În noaptea de 8 spre 9 septembrie 2026, între orele 23:35 și 00:05, drone rusești au lovit punctul de trecere a frontierei Starokazacie, pe partea…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> MAE R. Moldova / NewsMaker.md / TVR Moldova / Radio Chișinău / UNIMEDIA / Ministerul Apărării al Rusiei (media oficială)</span>
+                <span>· 2026-09-09</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/ungaria-expulzeaza-10-diplomati-rusi-magyar.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-ungaria-expulzeaza-10-diplomati-rusi-magyar" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-ungaria-expulzeaza-10-diplomati-rusi-magyar)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/ungaria-expulzeaza-10-diplomati-rusi-magyar.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Euronews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Ungaria expulzează 10 diplomați ruși — prima ruptură de acest fel din 2018, sub noul guvern Magyar</h3>
+              <p class="dek">Ministrul ungar de externe, Anita Orbán, a anunțat pe 8 septembrie 2026 expulzarea a 10 diplomați ruși, pentru activități „incompatibile cu statutul…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Euronews</span>
+                <span>· 2026-09-09</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/houthi-atac-arabia-saudita-73-raniti-8-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-houthi-atac-arabia-saudita-73-raniti-8-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-houthi-atac-arabia-saudita-73-raniti-8-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/houthi-atac-arabia-saudita-73-raniti-8-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NBC News / NPR / CBC / The National</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Houthii lovesc simultan patru obiective din Arabia Saudită cu rachete și drone — coaliția saudită confirmă 73 de răniți</h3>
+              <p class="dek">🌍 În dimineața de 8 septembrie 2026, rebelii houthi din Yemen au lansat zeci de rachete balistice și drone spre rafinăriile Aramco din Najran și Abha, baza…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NBC News / NPR / CBC / The National</span>
+                <span>· 2026-09-09</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/qatar-eau-hili-forum-securitate-golf-fara-sua.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-qatar-eau-hili-forum-securitate-golf-fara-sua" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-qatar-eau-hili-forum-securitate-golf-fara-sua)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/qatar-eau-hili-forum-securitate-golf-fara-sua.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Euronews / Arab News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Qatar și Emiratele spun, la un forum din Abu Dhabi, că Golful „nu se mai poate baza doar pe SUA” pentru securitate</h3>
+              <p class="dek">🌍 La Hili Forum din Abu Dhabi, pe 7-8 septembrie 2026, purtătorul de cuvânt al diplomației qatareze, Majed Al Ansari, și consilierul prezidențial emiratez…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Euronews / Arab News</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/japonia-salarii-record-1997-boj-dobanda-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-japonia-salarii-record-1997-boj-dobanda-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-japonia-salarii-record-1997-boj-dobanda-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/japonia-salarii-record-1997-boj-dobanda-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> InvestingLive / ActionForex / BigGo Finance</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Salariile din Japonia cresc cel mai rapid din 1997 — piețele dau șanse mari ca banca centrală să majoreze dobânda pe 18 septembrie</h3>
+              <p class="dek">🌍 Datele publicate pe 8 septembrie 2026 arată că salariile nominale din Japonia au urcat 4,7% în iulie față de anul trecut — cea mai mare creștere din…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> InvestingLive / ActionForex / BigGo Finance</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/trump-pompieri-9-11-steel-across-america.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-pompieri-9-11-steel-across-america" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-pompieri-9-11-steel-across-america)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/trump-pompieri-9-11-steel-across-america.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> PBS NewsHour / Newsweek</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Trump spune că doi pompieri l-au „ridicat și dus în fugă” de la Ground Zero — povestea lui despre 11 septembrie s-a tot schimbat în 25 de ani</h3>
+              <p class="dek">La evenimentul „Steel Across America”, organizat de fundația Tunnel to Towers pe Ellipse, lângă Casa Albă, pe 8 septembrie 2026 — cu trei zile înainte de a…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> PBS NewsHour / Newsweek</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/moldova-drona-shahed-8-septembrie-ungheni-iasi-riscani.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-drona-shahed-8-septembrie-ungheni-iasi-riscani" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-drona-shahed-8-septembrie-ungheni-iasi-riscani)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/moldova-drona-shahed-8-septembrie-ungheni-iasi-riscani.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NewsMaker.md / TVR Moldova / Ministerul Apărării al R. Moldova / Digi24 / MApN România</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>O dronă a survolat 17 minute Republica Moldova și a intrat în România, apoi o dronă a căzut într-un lan la Rîșcani — fără victime</h3>
+              <p class="dek">Marți, 8 septembrie 2026, un aparat de zbor de tip Shahed a intrat dinspre Ucraina în spațiul aerian al Republicii Moldova, l-a traversat timp de circa 17…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NewsMaker.md / TVR Moldova / Ministerul Apărării al R. Moldova / Digi24 / MApN România</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/transnistria-opt-pasapoarte-ruse-ozerov-60000-cereri.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-transnistria-opt-pasapoarte-ruse-ozerov-60000-cereri" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-transnistria-opt-pasapoarte-ruse-ozerov-60000-cereri)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/transnistria-opt-pasapoarte-ruse-ozerov-60000-cereri.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NewsMaker.md / Realitatea.md / TASS (media de stat)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Opt pașapoarte rusești înmânate la Tiraspol, dar ambasadorul Ozerov vorbește de 60.000 de cereri — cifră neconfirmată independent</h3>
+              <p class="dek">Ambasadorul Rusiei la Chișinău, Oleg Ozerov, a înmânat pe 8 septembrie 2026, la Tiraspol, primele opt pașapoarte rusești obținute prin procedura simplificată…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NewsMaker.md / Realitatea.md / TASS (media de stat)</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/von-der-leyen-groenlanda-200-milioane-nato-arctic-shield.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-von-der-leyen-groenlanda-200-milioane-nato-arctic-shield" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-von-der-leyen-groenlanda-200-milioane-nato-arctic-shield)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/von-der-leyen-groenlanda-200-milioane-nato-arctic-shield.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> AFP / Al Jazeera / Euronews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Von der Leyen promite 200 de milioane de euro Groenlandei, chiar când NATO începe un exercițiu arctic cu 400 de militari — pe fondul amenințărilor lui Trump</h3>
+              <p class="dek">Președinta Comisiei Europene, Ursula von der Leyen, a anunțat luni, 7 septembrie 2026, la Nuuk, un pachet de investiții de 200 de milioane de euro (232 de…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> AFP / Al Jazeera / Euronews</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/witkoff-kushner-moscova-kiev-fara-acord-razboi-continua.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-witkoff-kushner-moscova-kiev-fara-acord-razboi-continua" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-witkoff-kushner-moscova-kiev-fara-acord-razboi-continua)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/witkoff-kushner-moscova-kiev-fara-acord-razboi-continua.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Kyiv Independent / Adevărul</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trimișii lui Trump vorbesc despre „progrese substanțiale” după Moscova și Kiev — dar Zelenski spune că se așteaptă ca războiul să continue</h3>
+              <p class="dek">Emisarii lui Trump, Steve Witkoff și Jared Kushner, au avut peste trei ore de discuții cu Vladimir Putin la Moscova pe 5 septembrie 2026, apoi au mers la…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Kyiv Independent / Adevărul</span>
+                <span>· 2026-09-08</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/grecia-mitsotakis-tsipras-pachete-rivale-salonic.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-grecia-mitsotakis-tsipras-pachete-rivale-salonic" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-grecia-mitsotakis-tsipras-pachete-rivale-salonic)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/grecia-mitsotakis-tsipras-pachete-rivale-salonic.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Bloomberg / parapolitika.gr / tovima.com</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Grecia: Mitsotakis promite 2,2 miliarde euro, Tsipras 7,39 miliarde — dar cifrele nu se compară direct</h3>
+              <p class="dek">La tradiționalul Târg Internațional de la Salonic, premierul grec Kyriakos Mitsotakis a anunțat, pe 5 septembrie 2026, un pachet de măsuri economice de 2,2…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Bloomberg / parapolitika.gr / tovima.com</span>
+                <span>· 2026-09-07</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/malta-fenech-achitare-caruana-galizia-apel-procuratura.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-malta-fenech-achitare-caruana-galizia-apel-procuratura" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-malta-fenech-achitare-caruana-galizia-apel-procuratura)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/malta-fenech-achitare-caruana-galizia-apel-procuratura.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Reuters / NPR / ICIJ</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Malta: omul de afaceri Yorgen Fenech, achitat de acuzația că a comandat asasinarea jurnalistei Daphne Caruana Galizia — procuratura ia în calcul un apel</h3>
+              <p class="dek">Un juriu din Malta l-a achitat pe 2 septembrie 2026, cu un verdict de 8 la 1, pe omul de afaceri Yorgen Fenech de acuzațiile de complicitate la asasinarea…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Reuters / NPR / ICIJ</span>
+                <span>· 2026-09-07</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/ue-buget-2028-2034-sase-state-taieri-fara-cifra.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-ue-buget-2028-2034-sase-state-taieri-fara-cifra" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-ue-buget-2028-2034-sase-state-taieri-fara-cifra)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/ue-buget-2028-2034-sase-state-taieri-fara-cifra.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Euronews / Mediafax</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Șase state „mari plătitoare” ale UE cer tăieri de „sute de miliarde” din bugetul 2028-2034 — dar declarația comună evită orice cifră fermă</h3>
+              <p class="dek">Cancelarul german Friedrich Merz a găzduit la Berlin, pe 27 august 2026, liderii Austriei, Danemarcei și Finlandei (Olanda și Suedia, prin videoconferință)…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Euronews / Mediafax</span>
+                <span>· 2026-09-07</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/orlivka-isaccea-al-doilea-atac-saptamana.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-orlivka-isaccea-al-doilea-atac-saptamana" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-orlivka-isaccea-al-doilea-atac-saptamana)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/orlivka-isaccea-al-doilea-atac-saptamana.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Cotidianul.md / Adevărul / Digi24</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Rusia lovește a doua oară în șase zile punctul de trecere Orlivka, la granița Ucrainei cu România</h3>
+              <p class="dek">În noaptea de 6 spre 7 septembrie 2026, forțele ruse au lovit din nou cu drone punctul de trecere ucrainean Orlivka, capătul feribotului peste Dunăre spre…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Cotidianul.md / Adevărul / Digi24</span>
+                <span>· 2026-09-07</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/germania-afd-saxonia-anhalt-rezultat-final.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-germania-afd-saxonia-anhalt-rezultat-final" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-germania-afd-saxonia-anhalt-rezultat-final)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/germania-afd-saxonia-anhalt-rezultat-final.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Adevărul / Monitorul BT / HotNews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Saxonia-Anhalt: rezultatul final confirmă victoria AfD, cu 43,8% — sub exit poll, dar cu prezență record la vot din 1990</h3>
+              <p class="dek">Numărătoarea finală din Saxonia-Anhalt, publicată luni, 7 septembrie 2026, confirmă victoria partidului de extremă dreapta AfD cu 43,8% și 39 de mandate —…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Adevărul / Monitorul BT / HotNews</span>
+                <span>· 2026-09-07</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/pakistan-ndma-bilant-muson-180-morti-septembrie-2026.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-pakistan-ndma-bilant-muson-180-morti-septembrie-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-pakistan-ndma-bilant-muson-180-morti-septembrie-2026)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/pakistan-ndma-bilant-muson-180-morti-septembrie-2026.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Express Tribune / Dawn / Pakistan Link</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Pakistan: NDMA urcă bilanțul musonului la 180 de morți din iunie, în timp ce alte ploi sunt anunțate pentru Sindh</h3>
+              <p class="dek">🌍 Autoritatea Națională de Gestionare a Dezastrelor din Pakistan (NDMA) a raportat, pe 3-4 septembrie 2026, 180 de morți și 509 răniți de la începutul…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> The Express Tribune / Dawn / Pakistan Link</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/yemen-guvern-hais-hodeida-avans-houthi-6-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-yemen-guvern-hais-hodeida-avans-houthi-6-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-yemen-guvern-hais-hodeida-avans-houthi-6-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/yemen-guvern-hais-hodeida-avans-houthi-6-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Guvernul yemenit recunoscut internațional revendică recucerirea districtului Hais — analiștii spun că nu e o schimbare decisivă</h3>
+              <p class="dek">🌍 Guvernul yemenit recunoscut internațional, citat de agenția sa de presă Saba, susține că a recucerit sâmbătă, 5 septembrie 2026, districtul strategic Hais…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/isro-privatizare-negata-narayanan-goenka.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-isro-privatizare-negata-narayanan-goenka" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-isro-privatizare-negata-narayanan-goenka)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/isro-privatizare-negata-narayanan-goenka.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Business Today / News24online / OdishaBytes</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>ISRO respinge zvonurile de privatizare, după ce angajații au cerut clarificări pe o declarație a șefului IN-SPACe</h3>
+              <p class="dek">🌍 Agenția Spațială Indiană (ISRO) a declarat duminică, 6 septembrie 2026, că informațiile privind o eventuală privatizare sunt „complet nefondate” și că…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Business Today / News24online / OdishaBytes</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/iran-zona-interzisa-hormuz-rezaei-6-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-iran-zona-interzisa-hormuz-rezaei-6-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-iran-zona-interzisa-hormuz-rezaei-6-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/iran-zona-interzisa-hormuz-rezaei-6-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Gulf News / SCMP (AP)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Iran anunță o „zonă interzisă” lângă Hormuz: orice navă care intră va fi sancționată</h3>
+              <p class="dek">🌍 Mohsen Rezaei, șeful Consiliului Suprem de Securitate Națională al Iranului, a anunțat duminică, 6 septembrie 2026, că Teheranul va declara în zilele…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Gulf News / SCMP (AP)</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/filipine-sara-duterte-mandat-arestare-cautiune-amenintari-marcos.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-filipine-sara-duterte-mandat-arestare-cautiune-amenintari-marcos" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-filipine-sara-duterte-mandat-arestare-cautiune-amenintari-marcos)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/filipine-sara-duterte-mandat-arestare-cautiune-amenintari-marcos.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NPR/KPBS / Inquirer / Al Jazeera</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Vicepreședinta Filipinelor, Sara Duterte, eliberată pe cauțiune după un mandat de arestare pentru trei capete de acuzare de amenințări grave la adresa președintelui Marcos</h3>
+              <p class="dek">Un tribunal din Quezon City a emis, vineri, 4 septembrie 2026, un mandat de arestare pe numele vicepreședintei filipineze Sara Duterte, pentru trei capete de…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NPR/KPBS / Inquirer / Al Jazeera</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/argentina-malvine-milei-sanctiuni-trump-baza-navala.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-argentina-malvine-milei-sanctiuni-trump-baza-navala" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-argentina-malvine-milei-sanctiuni-trump-baza-navala)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/argentina-malvine-milei-sanctiuni-trump-baza-navala.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / La Nación / Euronews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Milei anunță sancțiuni și o bază navală în disputa cu Marea Britanie pentru Malvine/Falkland, după ce spune că Trump „reevaluează” poziția SUA</h3>
+              <p class="dek">Președintele argentinian Javier Milei a anunțat, într-un discurs televizat pe 4 septembrie 2026, sancțiuni pentru companiile petroliere care extrag lângă…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / La Nación / Euronews</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/rdc-ebola-caz-nou-m23-lubero-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-rdc-ebola-caz-nou-m23-lubero-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-rdc-ebola-caz-nou-m23-lubero-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/rdc-ebola-caz-nou-m23-lubero-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Xinhua / ECDC / Africanews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Un nou caz de Ebola apare în zona controlată de rebelii M23, la două luni după ce aceștia declaraseră focarul încheiat pe teritoriul lor</h3>
+              <p class="dek">Coordonatorul răspunsului anti-Ebola al M23, Freddy Kaniki, a confirmat pe 3-4 septembrie 2026 un nou caz cu virusul Bundibugyo în teritoriul Lubero, Kivu de…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Xinhua / ECDC / Africanews</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/chile-argentina-stramtoarea-magellan-milei-kast.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-chile-argentina-stramtoarea-magellan-milei-kast" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-chile-argentina-stramtoarea-magellan-milei-kast)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/chile-argentina-stramtoarea-magellan-milei-kast.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Buenos Aires Herald / Rio Times</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Chile și Argentina, dispută diplomatică pe Strâmtoarea Magellan — Milei și Kast reafirmă suveranitatea chiliană, dar decretul din 2021 rămâne neabrogat oficial</h3>
+              <p class="dek">După ce un general al Forțelor Aeriene argentiniene a vorbit, într-un podcast, despre „suveranitate” argentiniană asupra Strâmtorii Magellan, Chile a…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Buenos Aires Herald / Rio Times</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/peru-rupe-relatii-diplomatice-iran.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-peru-rupe-relatii-diplomatice-iran" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-peru-rupe-relatii-diplomatice-iran)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/peru-rupe-relatii-diplomatice-iran.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Rio Times / Iran International</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Peru rupe relațiile diplomatice cu Iranul, invocând Strâmtoarea Hormuz și reprimarea internă — Teheranul nu a răspuns public</h3>
+              <p class="dek">Prin comunicatul oficial 014-26, guvernul peruan a anunțat pe 1 septembrie 2026 ruperea relațiilor diplomatice cu Iranul, acuzându-l de restricționarea…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Rio Times / Iran International</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/germania-afd-saxonia-anhalt-exit-poll.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-germania-afd-saxonia-anhalt-exit-poll" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-germania-afd-saxonia-anhalt-exit-poll)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/germania-afd-saxonia-anhalt-exit-poll.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / NBC News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Germania: AfD termină pe primul loc în Saxonia-Anhalt, potrivit exit poll-urilor — prima victorie a extremei drepte la nivel de land din 1945</h3>
+              <p class="dek">Potrivit exit poll-ului Infratest dimap difuzat de ARD duminică, 6 septembrie 2026, partidul de extremă dreapta Alternativa pentru Germania (AfD) a obținut…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / NBC News</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/japonia-akihito-funeralii-reduse-agentia-casei-imperiale.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-japonia-akihito-funeralii-reduse-agentia-casei-imperiale" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-japonia-akihito-funeralii-reduse-agentia-casei-imperiale)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/japonia-akihito-funeralii-reduse-agentia-casei-imperiale.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Japan Times / TBS (via News On Japan) / Jiji Press (via The Thaiger)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Japonia pregătește funeralii mult mai reduse pentru fostul împărat Akihito, la cererea sa explicită</h3>
+              <p class="dek">🌍 Agenția Casei Imperiale a Japoniei ia în calcul o ceremonie funerară mult mai restrânsă pentru fostul împărat Akihito, în vârstă de 92 de ani (93 în…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> The Japan Times / TBS (via News On Japan) / Jiji Press (via The Thaiger)</span>
+                <span>· 2026-09-06</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/gaza-apa-criza-sanatate-oms-unicef-msf.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-gaza-apa-criza-sanatate-oms-unicef-msf" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-gaza-apa-criza-sanatate-oms-unicef-msf)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/gaza-apa-criza-sanatate-oms-unicef-msf.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Arab News / Al Jazeera</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Sistemul de apă din Gaza s-a prăbușit aproape complet — OMS avertizează asupra unui dezastru sanitar înaintea sezonului ploios</h3>
+              <p class="dek">Rapoarte publicate pe 1 și 4-5 septembrie 2026 de OMS, UNICEF și Medici Fără Frontiere (MSF) arată o prăbușire aproape totală a sistemului de apă și…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Arab News / Al Jazeera</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/iran-sua-atac-petroliere-portavion-5-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-iran-sua-atac-petroliere-portavion-5-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-iran-sua-atac-petroliere-portavion-5-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/iran-sua-atac-petroliere-portavion-5-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NBC News / NPR / The National</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>SUA scufundă sau imobilizează trei petroliere iraniene, după ce Garda Revoluționară a tras rachete spre un portavion american</h3>
+              <p class="dek">Sâmbătă, 5 septembrie 2026, Comandamentul Central al SUA (CENTCOM) susține că Garda Revoluționară iraniană (IRGC) a lansat rachete balistice spre un…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NBC News / NPR / The National</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/moldova-chiveri-posta-diplomatica-buletine-transnistria.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-chiveri-posta-diplomatica-buletine-transnistria" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-chiveri-posta-diplomatica-buletine-transnistria)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/moldova-chiveri-posta-diplomatica-buletine-transnistria.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NewsMaker.md / Europa Liberă Moldova</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Chiveri: buletinele de vot pentru Transnistria ar putea ajunge din Rusia prin poșta diplomatică — „deocamdată, putem doar să ne revoltăm”</h3>
+              <p class="dek">Viceprim-ministrul pentru reintegrare, Valeriu Chiveri, a recunoscut pe 4 septembrie 2026 că R. Moldova are pârghii limitate pentru a opri Rusia să deschidă…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NewsMaker.md / Europa Liberă Moldova</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/brazilia-pgr-anulare-ancheta-moraes-vorcaro-banco-master.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-brazilia-pgr-anulare-ancheta-moraes-vorcaro-banco-master" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-brazilia-pgr-anulare-ancheta-moraes-vorcaro-banco-master)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/brazilia-pgr-anulare-ancheta-moraes-vorcaro-banco-master.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Poder360 / Agência Brasil / Gilberto Léda</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Procurorul general al Braziliei cere anularea unei anchete care îl citează pe judecătorul Curții Supreme Moraes — și pe el însuși</h3>
+              <p class="dek">Procurorul general al Braziliei, Paulo Gonet, a cerut pe 1 septembrie 2026 Curții Supreme (STF) să anuleze un raport al Poliției Federale care conține mesaje…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Poder360 / Agência Brasil / Gilberto Léda</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/missouri-curtea-suprema-blocheaza-harta-trump-referendum.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-missouri-curtea-suprema-blocheaza-harta-trump-referendum" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-missouri-curtea-suprema-blocheaza-harta-trump-referendum)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/missouri-curtea-suprema-blocheaza-harta-trump-referendum.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NBC News / KCTV5 / St. Louis Public Radio / KCUR</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Curtea Supremă din Missouri blochează harta electorală cerută de Trump și trimite decizia la referendum pe 3 noiembrie</h3>
+              <p class="dek">Curtea Supremă a statului Missouri a decis, pe 3 septembrie 2026, că noua hartă a circumscripțiilor congresuale — redesenată în 2025 de legislativul…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NBC News / KCTV5 / St. Louis Public Radio / KCUR</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/simulare-cornell-rusia-moldova-romania-articolul-5.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-simulare-cornell-rusia-moldova-romania-articolul-5" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-simulare-cornell-rusia-moldova-romania-articolul-5)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/simulare-cornell-rusia-moldova-romania-articolul-5.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Washington Post (David Ignatius) / TD International / Radio România Regional / Profit.ro</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 7</span><span class="seg warn">⚠ 5</span><span class="seg op">✎ 3</span></div></div>
+              <h3>O simulare americană cu Rusia lovind Moldova și România a dat un răspuns călduț al SUA. Ignatius: Articolul 5 e „aproape literă moartă”</h3>
+              <p class="dek">Luni, 31 august 2026, un exercițiu de tip „war game” organizat de Brooks Institute al Universității Cornell împreună cu Fundația Rockefeller a pus membri în…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> The Washington Post (David Ignatius) / TD International / Radio România Regional / Profit.ro</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/trump-iran-inflatie-300-procente-date-oficiale.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-iran-inflatie-300-procente-date-oficiale" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-iran-inflatie-300-procente-date-oficiale)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/trump-iran-inflatie-300-procente-date-oficiale.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Truth Social / Trading Economics / IranWire / VINnews</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Trump spune că inflația din Iran a ajuns la 300% — datele Statisticii oficiale iraniene și ale agențiilor independente arată sub 90%</h3>
+              <p class="dek">Președintele american Donald Trump a scris pe Truth Social, pe 31 august 2026, că Iranul e „oficial un stat eșuat”, fără marină, aviație sau monedă…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Truth Social / Trading Economics / IranWire / VINnews</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft bad sm verdict-mini">unde bat probele: Contrazis</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/india-pib-7-8-controversa-garg-mospi.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-india-pib-7-8-controversa-garg-mospi" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-india-pib-7-8-controversa-garg-mospi)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/india-pib-7-8-controversa-garg-mospi.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> MoSPI / BusinessToday / India.com / X (Kaushik Basu)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>India anunță 7,8% creștere a PIB — un fost secretar de Finanțe spune că, fără o revizuire contabilă, cifra reală ar fi sub 2,6%</h3>
+              <p class="dek">Ministerul indian de Statistică (MoSPI) a anunțat, pe 2 septembrie 2026, o creștere de 7,8% a PIB-ului pentru trimestrul aprilie-iunie 2026 — peste estimarea…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> MoSPI / BusinessToday / India.com / X (Kaushik Basu)</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/china-taifun-saudel-fujian-dig-rupt-putian.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-china-taifun-saudel-fujian-dig-rupt-putian" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-china-taifun-saudel-fujian-dig-rupt-putian)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/china-taifun-saudel-fujian-dig-rupt-putian.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Reuters / Xinhua (Bernama) / Associated Press / South China Morning Post / US News / Dawn</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 0</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Taifunul Saudel: dig rupt lângă Putian și alunecare de teren în Jiangxi — bilanț de un mort și 11 dispăruți, plus sute de case surpate în Fujian</h3>
+              <p class="dek">Taifunul Saudel a atins uscatul a treia oară în China, în dimineața de 3 septembrie 2026, pe coasta provinciei Fujian, după ce lovise deja de trei ori orașul…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Reuters / Xinhua (Bernama) / Associated Press / South China Morning Post / US News / Dawn</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/india-pakistan-haga-tratatul-apelor-indus.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-india-pakistan-haga-tratatul-apelor-indus" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-india-pakistan-haga-tratatul-apelor-indus)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/india-pakistan-haga-tratatul-apelor-indus.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Permanent Court of Arbitration / Al Jazeera / CNBC / The Week</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Curtea de la Haga: India nu avea dreptul să suspende unilateral Tratatul Apelor Indus cu Pakistanul — New Delhi respinge decizia ca „ilegal constituită”</h3>
+              <p class="dek">Curtea Permanentă de Arbitraj de la Haga a decis, în unanimitate, pe 1 septembrie 2026, că Tratatul Apelor Indus din 1960 „rămâne pe deplin în vigoare” și că…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Permanent Court of Arbitration / Al Jazeera / CNBC / The Week</span>
+                <span>· 2026-09-05</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/israel-liban-cinci-prizonieri-eliberati-mormintele-evreilor.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-israel-liban-cinci-prizonieri-eliberati-mormintele-evreilor" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-israel-liban-cinci-prizonieri-eliberati-mormintele-evreilor)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/israel-liban-cinci-prizonieri-eliberati-mormintele-evreilor.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Associated Press</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Israel eliberează cinci civili libanezi, în schimbul căutării de către Beirut a rămășițelor unor evrei libanezi dispăruți în anii '80</h3>
+              <p class="dek">🌍 Israel a eliberat, pe 3 și 4 septembrie 2026, cinci civili libanezi aflați în detenție, prin mediere a Comitetului Internațional al Crucii Roșii (ICRC) —…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Associated Press</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/moldova-abtinere-onu-harta-lumii-solidaritate-ucraina.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-abtinere-onu-harta-lumii-solidaritate-ucraina" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-abtinere-onu-harta-lumii-solidaritate-ucraina)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/moldova-abtinere-onu-harta-lumii-solidaritate-ucraina.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> NewsMaker / Realitatea.md / Jurnal.md / Radio Chișinău</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>De ce s-a abținut Moldova la ONU de la rezoluția „harta corectă a lumii”: MAE a explicat abia după ce alte guverne au tăcut pe această temă</h3>
+              <p class="dek">Adunarea Generală a ONU a adoptat pe 4 septembrie 2026, cu 164 de voturi pentru și unul împotrivă (SUA), rezoluția „Correct the Map”, care încurajează…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> NewsMaker / Realitatea.md / Jurnal.md / Radio Chișinău</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/colombia-ocana-atac-drone-eln-trei-militari.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-colombia-ocana-atac-drone-eln-trei-militari" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-colombia-ocana-atac-drone-eln-trei-militari)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/colombia-ocana-atac-drone-eln-trei-militari.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Infobae / El Colombiano</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Un roi de drone al ELN ucide trei militari colombieni la Ocaña, lângă granița cu Venezuela — președintele De la Espriella promite „toată forța legitimă a statului”</h3>
+              <p class="dek">🌍 Frontul Camilo Torres Restrepo al Ejército de Liberación Nacional (ELN) a atacat, vineri seara, 4 septembrie 2026, batalionul de infanterie „General…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Infobae / El Colombiano</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/onu-harta-equal-earth-mercator-africa.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-onu-harta-equal-earth-mercator-africa" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-onu-harta-equal-earth-mercator-africa)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/onu-harta-equal-earth-mercator-africa.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> UN News / Al Jazeera / CNN</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>ONU adoptă o rezoluție pentru harta „Equal Earth”, care arată Africa la mărimea ei reală — SUA, singurul vot împotrivă</h3>
+              <p class="dek">🌍 Adunarea Generală a ONU a votat vineri, 4 septembrie 2026, cu 164 la 1 (6 abțineri), o rezoluție nelegiferantă care încurajează statele, școlile și…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> UN News / Al Jazeera / CNN</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/spania-ceuta-proteste-luna-migranti-sanchez.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-spania-ceuta-proteste-luna-migranti-sanchez" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-spania-ceuta-proteste-luna-migranti-sanchez)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/spania-ceuta-proteste-luna-migranti-sanchez.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / ABC News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 3</span><span class="seg op">✎ 1</span></div></div>
+              <h3>O lună după valul de migranți din Ceuta, zeci de mii de spanioli protestează în peste 200 de orașe și cer demisia lui Pedro Sánchez</h3>
+              <p class="dek">🌍 Pe 2 septembrie 2026, de Ziua Ceuta, zeci de mii de spanioli au ieșit în stradă în peste 200 de localități — circa 50.000 doar la Madrid — la o lună după…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / ABC News</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/katz-80-procente-gazani-emigrare-sondaje.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-katz-80-procente-gazani-emigrare-sondaje" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-katz-80-procente-gazani-emigrare-sondaje)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/katz-80-procente-gazani-emigrare-sondaje.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> The Times of Israel / France24 (AFP)</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Ministrul israelian al Apărării spune că 80% dintre gazani vor să emigreze; sondajele publicate arată 43-52%</h3>
+              <p class="dek">La o conferință Ynet/Yedioth Ahronoth pe 2 septembrie 2026, ministrul israelian al Apărării, Israel Katz, a spus că planul de relocare a populației din Fâșia…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> The Times of Israel / France24 (AFP)</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft warn sm verdict-mini">unde bat probele: Mixt</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/netanyahu-doborare-regim-iranian-la-indemana.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-netanyahu-doborare-regim-iranian-la-indemana" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-netanyahu-doborare-regim-iranian-la-indemana)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/netanyahu-doborare-regim-iranian-la-indemana.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> AFP / TASS</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Netanyahu: doborârea regimului iranian este „misiunea centrală” a Israelului, „la îndemână”</h3>
+              <p class="dek">La un toast de Roș Hașana cu conducerea militară israeliană, pe 3 septembrie 2026, premierul Benjamin Netanyahu a spus că „misiunea centrală” a Israelului…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> AFP / TASS</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/siria-reactor-nuclear-deir-ez-zor-aiea.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-siria-reactor-nuclear-deir-ez-zor-aiea" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-siria-reactor-nuclear-deir-ez-zor-aiea)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/siria-reactor-nuclear-deir-ez-zor-aiea.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Al Jazeera / Al-Monitor</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>AIEA confirmă: Siria construia un reactor nuclear nedeclarat la Deir ez-Zor, sub regimul Assad</h3>
+              <p class="dek">Agenția Internațională pentru Energie Atomică a confirmat, într-un raport publicat la începutul lunii septembrie 2026, că infrastructura de răcire…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Al Jazeera / Al-Monitor</span>
+                <span>· 2026-09-04</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/siria-distrugere-arme-chimice-opcw-onu-3-septembrie.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-siria-distrugere-arme-chimice-opcw-onu-3-septembrie" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-siria-distrugere-arme-chimice-opcw-onu-3-septembrie)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/siria-distrugere-arme-chimice-opcw-onu-3-septembrie.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> ONU (Consiliul de Securitate) / The National / Arab News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 0</span></div></div>
+              <h3>Siria distruge, pentru prima dată din 2014, muniție chimică din era Assad — verificată de OPCW, în timp ce ambasadorul sirian acuză Israelul că a blocat operațiunile</h3>
+              <p class="dek">🌍 Organizația pentru Interzicerea Armelor Chimice (OPCW) a confirmat, în august 2026, distrugerea a 42 de bombe aeriene declarate de guvernul sirian — prima…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> ONU (Consiliul de Securitate) / The National / Arab News</span>
+                <span>· 2026-09-03</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/sudan-mercenari-columbieni-drone-onu-raport.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-sudan-mercenari-columbieni-drone-onu-raport" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-sudan-mercenari-columbieni-drone-onu-raport)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/sudan-mercenari-columbieni-drone-onu-raport.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> UN News / Middle East Eye</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 2</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Raport ONU: până la 2.000 de foști militari columbieni au operat drone și artilerie pentru RSF în Sudan, cu rețele de recrutare legate de Emirate</h3>
+              <p class="dek">🌍 Misiunea Independentă de Anchetă a ONU pentru Sudan a publicat, miercuri, 3 septembrie 2026, un raport care găsește „motive rezonabile să creadă” că rețele…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> UN News / Middle East Eye</span>
+                <span>· 2026-09-03</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/moldova-mae-convoaca-ozerov-16-sectii-vot-transnistria.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-moldova-mae-convoaca-ozerov-16-sectii-vot-transnistria" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-moldova-mae-convoaca-ozerov-16-sectii-vot-transnistria)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/moldova-mae-convoaca-ozerov-16-sectii-vot-transnistria.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Digi24 / Adevărul / Logos Press</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 3</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 0</span></div></div>
+              <h3>MAE de la Chișinău a convocat ambasadorul Rusiei și a transmis notă de protest pentru cele 16 secții de vot planificate în Transnistria</h3>
+              <p class="dek">Ministerul de Externe de la Chișinău l-a convocat, joi, 3 septembrie 2026, pe ambasadorul rus Oleg Ozerov și i-a transmis o notă oficială de protest privind…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Digi24 / Adevărul / Logos Press</span>
+                <span>· 2026-09-03</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/taiwan-raport-aparare-china-debarcare-blocaj-2026.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-taiwan-raport-aparare-china-debarcare-blocaj-2026" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-taiwan-raport-aparare-china-debarcare-blocaj-2026)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/taiwan-raport-aparare-china-debarcare-blocaj-2026.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Taipei Times / Focus Taiwan</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 4</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>Raportul anual al Apărării taiwaneze: China accelerează pregătirile pentru debarcare și blocaj naval, dar recunoaște că nu are încă toate capacitățile</h3>
+              <p class="dek">Ministerul taiwanez al Apărării a depus la Parlament (Legislative Yuan), pe 1 septembrie 2026, raportul anual despre puterea militară a Chinei — document…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Taipei Times / Focus Taiwan</span>
+                <span>· 2026-09-03</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+          <a href="a/trump-cetatenie-nastere-boardman-blocare-clasa.html" class="card">
+
+            <div class="photo g-ext">
+              <div class="art">
+                <div class="pattern"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="p-trump-cetatenie-nastere-boardman-blocare-clasa" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M0 12 H24 M12 0 V24" stroke="#fff" stroke-width="1" opacity="0.25"/></pattern></defs><rect width="100%" height="100%" fill="url(#p-trump-cetatenie-nastere-boardman-blocare-clasa)"/></svg></div>
+                <div class="glyph">🌍</div>
+              </div>
+              <img data-cardphoto="1" src="img/carduri/trump-cetatenie-nastere-boardman-blocare-clasa.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1">
+              <div class="grad"></div>
+              <div class="imgtag">Verificare Fără Baliverne</div>
+              <div class="cat-pill">Extern</div>
+              <div class="srcbadge"><span class="fav" style="background:#888"></span> Reuters / NBC News / CBS News</div>
+            </div>
+            <div class="cbody">
+              <div class="toprow"><span class="cat-tag">Extern</span><div class="report-badge sm"><span class="seg ok">✔ 5</span><span class="seg warn">⚠ 1</span><span class="seg op">✎ 1</span></div></div>
+              <h3>O judecătoare federală blochează, pentru a doua oară, noul ordin al lui Trump privind cetățenia prin naștere</h3>
+              <p class="dek">Judecătoarea federală Deborah Boardman (Districtul Maryland) a emis, pe 2 septembrie 2026, o măsură preliminară care blochează aplicarea ordinului executiv…</p>
+              <div class="cmeta">
+                <span class="src"><span class="fav" style="background:#888"></span> Reuters / NBC News / CBS News</span>
+                <span>· 2026-09-02</span>
+                <span class="chip soft ok sm verdict-mini">unde bat probele: Probat</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+        <nav class="pager" aria-label="Pagini" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:26px 0 40px;font-size:15px"><strong style="padding:6px 10px">1</strong>
+<a href="extern-2.html" style="padding:6px 10px;text-decoration:none;border:1px solid var(--line);border-radius:8px;color:inherit">2</a>
+<a href="extern-3.html" style="padding:6px 10px;text-decoration:none;border:1px solid var(--line);border-radius:8px;color:inherit">3</a>
+<a href="extern-4.html" style="padding:6px 10px;text-decoration:none;border:1px solid var(--line);border-radius:8px;color:inherit">4</a>
+<a href="extern-5.html" style="padding:6px 10px;text-decoration:none;border:1px solid var(--line);border-radius:8px;color:inherit">5</a>
+<a href="extern-6.html" style="padding:6px 10px;text-decoration:none;border:1px solid var(--line);border-radius:8px;color:inherit">6</a></nav>
+    </div>
+  </main>
+
+  <footer data-nosnippet>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <div class="fb">Fără <span class="amp">Baliverne</span></div>
+          <div class="dev">Apă, paie… Adevăr</div>
+          <p class="creed">Arătăm dovezile și sursele. <b>Tu tragi concluzia.</b> Fapt ≠ opinie. Agregăm știri din presa românească și internațională, le punem lângă probe și îți lăsăm ție ultima judecată.</p>
+        </div>
+        <div class="foot-cols">
+          <div>
+            <h5>Categorii</h5>
+            <ul>
+              <li><a href="index.html#politica">Politică</a></li>
+              <li><a href="index.html#economie">Economie</a></li>
+              <li><a href="index.html#extern">Extern</a></li>
+              <li><a href="index.html#social">Social</a></li>
+              <li><a href="index.html#sport">Sport</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Despre</h5>
+            <ul>
+              <li><a href="metodologie.html">Metodologie</a>
+            <a href="cifre.html">Cifrele noastre</a></li>
+              <li><a href="cine-suntem.html">Cine suntem</a></li>
+              <li><a href="corectari.html">Corectări</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="publicitate.html">Publicitate</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Cum stau probele</h5>
+            <ul>
+              <li>✅ Probat</li>
+              <li>⚠️ Contestat</li>
+              <li>❌ Contrazis</li>
+              <li>🔍 În verificare</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- AUTO:letopiset:start -->
+      <div class="letopiset">
+        <h5>Letopisețul Planetei Pământ</h5>
+        <p class="sub">Ce s-a întâmplat pe Pământ, zi de zi.</p>
+        <ol>
+          <li><span class="zi">11 septembrie 2026</span><span class="fapt">Cutremur de magnitudine 6,6, la 115 km nord-nord-est de Teluknaga, Indonezia. <a class="s" href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk" target="_blank" rel="noopener">USGS</a></span></li>
+          <li><span class="zi">11 septembrie 2026</span><span class="fapt">Cutremur de magnitudine 5,9, la 253 km est-nord-est de Lospalos, Timor de Est. <a class="s" href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgl2" target="_blank" rel="noopener">USGS</a></span></li>
+          <li><span class="zi">11 septembrie 2026</span><span class="fapt">Cutremur de magnitudine 5,3, la 151 km vest-sud-vest de Adak, Alaska. <a class="s" href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgky" target="_blank" rel="noopener">USGS</a></span></li>
+          <li><span class="zi">11 septembrie 2026</span><span class="fapt">2 tornade raportate în SUA — MN (2). <a class="s" href="https://www.spc.noaa.gov/climo/reports/260911_rpts.html" target="_blank" rel="noopener">NOAA SPC</a></span></li>
+          <li><span class="zi">11 septembrie 2026</span><span class="fapt">Căldură ieșită din comun la Novosibirsk: maximă de 30 °C — cu 14 °C peste media zilei (1991–2020: 16 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C). <a class="s" href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo / ERA5</a></span></li>
+          <li><span class="zi">11 septembrie 2026</span><span class="fapt">Căldură ieșită din comun la Astana: maximă de 31 °C — cu 11 °C peste media zilei (1991–2020: 19 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C). <a class="s" href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo / ERA5</a></span></li>
+        </ol>
+        <a class="tot" href="letopiset.html">Tot letopisețul →</a>
+      </div>
+      <!-- AUTO:letopiset:end -->
+      <div class="foot-bottom">
+        <span>© 2026 Fără Baliverne · farabaliverne.ro · Toate mărcile și logo-urile aparțin surselor citate.</span>
+        <span class="legal-links"><a href="termeni.html">Termeni</a> · <a href="confidentialitate.html">Confidențialitate</a> · <a href="corectari.html">Politica de corectare</a></span>
+      </div>
+    </div>
+  </footer>
+<script>
+(function(){
+  var U=location.href, T=(document.title||'Fără Baliverne').replace(/\s*[—-]\s*Fără Baliverne.*$/,'');
+  function e(s){return encodeURIComponent(s);}
+  function toast(m){var t=document.createElement('div');t.textContent=m;t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2f4234;color:#fff;padding:11px 18px;border-radius:12px;font:600 14px system-ui;z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.25)';document.body.appendChild(t);setTimeout(function(){t.style.transition='opacity .4s';t.style.opacity='0';},1700);setTimeout(function(){t.remove();},2200);}
+  window.gabeIt=function(){window.open('https://findgabe.app/?compose='+e(T+'\n'+U),'_blank','noopener');};
+  window.__fbMobil=/Android|iPhone|iPad|iPod|Mobile|Silk/i.test(navigator.userAgent||'');window.shareFB=function(){if(window.__fbMobil&&navigator.share){navigator.share({title:T,url:U}).catch(function(){});return;}var w=window.open(window.shareFB.href,'fb_share','width=600,height=400,scrollbars=yes,resizable=yes,toolbar=no,location=yes');if(w)w.opener=null;};window.shareFB.href='https://www.facebook.com/sharer/sharer.php?u='+e(U);
+  window.shareX=function(){var w=window.open(window.shareX.href,'x_intent','width=550,height=420,scrollbars=yes,resizable=yes,toolbar=no,location=yes');if(w)w.opener=null;};window.shareX.href='https://x.com/intent/tweet?text='+e(T)+'&url='+e(U);
+  window.copyLink=function(){navigator.clipboard.writeText(U).then(function(){toast('Link copiat — dă-l mai departe!');});};
+  window.toggleLike=function(b){var k='fb_like_'+location.pathname,on=localStorage.getItem(k)!=='1';localStorage.setItem(k,on?'1':'0');b.style.background=on?'#a5372a':'';b.style.color=on?'#fff':'';if(on)toast('Mulțumim! ♥');};
+  window.subscribeNotify=function(){if(!('Notification'in window)){toast('Salvează-ne cu Ctrl+D 🔖');return;}Notification.requestPermission().then(function(p){toast(p==='granted'?'Gata! Te anunțăm la verificări noi.':'Salvează-ne cu Ctrl+D 🔖');});};
+  if(/\/a\//.test(location.pathname)){
+    var w=document.createElement('div');w.style.cssText='position:fixed;right:16px;bottom:16px;z-index:9997;display:flex;flex-direction:column;gap:8px;align-items:flex-end';
+    var row=document.createElement('div');row.style.cssText='display:flex;gap:8px';
+    function rnd(txt,fn,bg,fs){var b=document.createElement('a');b.innerHTML=txt;b.href=fn.href||'#';b.target='_blank';b.rel='noopener';b.onclick=function(ev){ev.preventDefault();fn();};b.style.cssText='display:flex;align-items:center;justify-content:center;text-decoration:none;width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;color:#fff;background:'+bg+';box-shadow:0 6px 16px rgba(0,0,0,.28);font:700 '+fs+' system-ui';return b;}
+    row.appendChild(rnd('f',window.shareFB,'#1877f2','18px'));
+    row.appendChild(rnd('𝕏',window.shareX,'#000','16px'));
+    var g=document.createElement('button');g.innerHTML='⚡ Gabe it';g.onclick=window.gabeIt;g.style.cssText='padding:12px 18px;border:none;border-radius:30px;cursor:pointer;color:#fff;background:linear-gradient(135deg,#2f8a49,#1f6a37);box-shadow:0 8px 22px rgba(47,138,73,.4);font:800 15px system-ui';
+    w.appendChild(row);w.appendChild(g);document.body.appendChild(w);
+  }
+})();
+</script>
+<script>
+(function(){
+  var el=document.querySelector('.topbar .live'); if(!el) return;
+  var MAP={'Bucharest':'București','Chisinau':'Chișinău','Timisoara':'Timișoara','Iasi':'Iași'};
+  function emo(c){if(c===0)return'☀️';if(c<=3)return'⛅';if(c<=48)return'🌫️';if(c<=67)return'🌧️';if(c<=77)return'❄️';if(c<=82)return'🌦️';return'⛈️';}
+  var tz=''; try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+  var city=((tz.split('/').pop()||'').replace(/_/g,' ')); city=MAP[city]||city||'';
+  var wx='';
+  function paint(){var t=new Date().toLocaleTimeString('ro-RO',{hour:'2-digit',minute:'2-digit'});el.innerHTML='<span class="dot"></span> '+city+' · '+t+wx;}
+  if(city){paint(); setInterval(paint,30000);}
+  try{
+    fetch('https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(city)+'&count=1&language=ro').then(function(r){return r.json();}).then(function(g){
+      if(!g.results||!g.results[0])return; var o=g.results[0];
+      return fetch('https://api.open-meteo.com/v1/forecast?latitude='+o.latitude+'&longitude='+o.longitude+'&current=temperature_2m,weather_code');
+    }).then(function(r){return r&&r.json();}).then(function(w){ if(w&&w.current){wx=' · '+emo(w.current.weather_code)+' '+Math.round(w.current.temperature_2m)+'°'; paint();} }).catch(function(){});
+  }catch(e){}
+})();
+</script>
+
+<script>
+(function(){
+  var el=document.querySelector('.topbar .date'); if(!el) return;
+  var Z=['Duminică','Luni','Marți','Miercuri','Joi','Vineri','Sâmbătă'];
+  var L=['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+  function scrie(){
+    var n=new Date(), h=n.getHours(), e;
+    if(h>=5&&h<8) e='Ediția de dimineață';
+    else if(h>=8&&h<11) e='Ediția de cafeluță';
+    else if(h>=11&&h<14) e='Ediția de amiază';
+    else if(h>=14&&h<17) e='Ediția de după-amiază';
+    else if(h>=17&&h<20) e='Ediția de seară';
+    else if(h>=20&&h<23) e='Ediția de seară târzie';
+    else e='Ediția de noapte';
+    el.textContent=Z[n.getDay()]+', '+n.getDate()+' '+L[n.getMonth()]+' '+n.getFullYear()+' · '+e;
+  }
+  scrie(); setInterval(scrie, 60000);
+})();
+</script>
+
+<script>
+(function(){
+  var K='fb_citite';
+  function citite(){ try{ return JSON.parse(localStorage.getItem(K)||'[]'); }catch(e){ return []; } }
+  // Pe pagina articolului: reținem că a fost deschis.
+  var m = location.pathname.match(/\/a\/([^\/]+)\.html$/);
+  if(m){
+    var L=citite(); if(L.indexOf(m[1])<0){ L.push(m[1]); try{ localStorage.setItem(K, JSON.stringify(L.slice(-400))); }catch(e){} }
+    return;
+  }
+  // Pe prima pagină: ascundem ce s-a citit deja.
+  if(!/(^\/$|index\.html$)/.test(location.pathname)) return;
+  document.addEventListener('DOMContentLoaded', function(){
+    var L=citite(); if(!L.length) return;
+    var ascunse=0;
+    document.querySelectorAll('main section.cat-section').forEach(function(sec){
+      var tot=sec.querySelectorAll('a.card, a.mini-row');
+      var deAscuns=[];
+      tot.forEach(function(a){
+        var h=a.getAttribute('href')||'';
+        var s=(h.match(/a\/([^\/]+)\.html$/)||[])[1];
+        if(s && L.indexOf(s)>=0) deAscuns.push(a);
+      });
+      // Dacă a citit tot din secțiune, o lăsăm întreagă — mai bine ceva decât gol.
+      if(deAscuns.length && deAscuns.length < tot.length){
+        deAscuns.forEach(function(a){ a.style.display='none'; a.dataset.fbCitit='1'; });
+        ascunse += deAscuns.length;
+      }
+    });
+    if(!ascunse) return;
+    var b=document.createElement('button');
+    b.textContent = ascunse===1 ? 'Arată și articolul pe care l-ai citit'
+                                : 'Arată și cele '+ascunse+' pe care le-ai citit';
+    b.style.cssText='display:block;margin:18px auto 0;padding:9px 18px;border-radius:999px;border:1px solid var(--line-2);background:var(--card);color:var(--ink-soft);font:600 13px system-ui;cursor:pointer';
+    b.onclick=function(){
+      document.querySelectorAll('[data-fb-citit]').forEach(function(a){ a.style.display=''; });
+      b.remove();
+    };
+    var w=document.querySelector('main .wrap'); if(w) w.appendChild(b);
+  });
+})();
+</script>
+
+<style>
+  .fb-salt{position:fixed;left:18px;bottom:18px;z-index:9996;width:46px;height:46px;
+    border-radius:50%;border:1px solid var(--line-2);background:var(--card);
+    color:var(--ink-soft);cursor:pointer;display:none;align-items:center;justify-content:center;
+    box-shadow:0 6px 20px rgba(0,0,0,.12);
+    transition:background .25s cubic-bezier(.4,0,.6,1),color .25s cubic-bezier(.4,0,.6,1),
+      border-color .25s cubic-bezier(.4,0,.6,1),transform .2s ease,box-shadow .25s ease}
+  .fb-salt.vizibil{display:flex}
+  .fb-salt:hover{background:var(--accent);border-color:var(--accent);color:#fff;
+    transform:translateY(-2px);box-shadow:0 10px 26px rgba(19,129,125,.32)}
+  .fb-salt svg{transition:transform .3s cubic-bezier(.4,0,.6,1)}
+  .fb-salt.sus svg{transform:rotate(180deg)}
+  .fb-salt .et{position:absolute;left:56px;white-space:nowrap;font:600 12.5px system-ui;
+    background:#1d1d1f;color:#fff;padding:6px 10px;border-radius:8px;opacity:0;
+    pointer-events:none;transition:opacity .2s ease}
+  .fb-salt:hover .et{opacity:1}
+  @media(max-width:980px){.fb-salt{left:12px;bottom:12px;width:42px;height:42px}
+    .fb-salt .et{display:none}}
+</style>
+<script>
+(function(){
+  var b = document.createElement('button');
+  b.className = 'fb-salt';
+  b.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" '
+    + 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
+    + 'stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>'
+    + '<span class="et">La subsol</span>';
+  document.body.appendChild(b);
+  var et = b.querySelector('.et');
+
+  function inalt(){
+    return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+  }
+  function jos(){ return window.scrollY > (inalt() - window.innerHeight) * 0.6; }
+
+  function pune(){
+    // Pe paginile scurte n-are ce salt să facă — nu apare deloc.
+    b.classList.toggle('vizibil', inalt() > window.innerHeight * 1.8);
+    var s = jos();
+    b.classList.toggle('sus', s);
+    et.textContent = s ? 'Sus de tot' : 'La subsol';
+    b.setAttribute('aria-label', s ? 'Sus de tot' : 'Sari la subsol');
+  }
+
+  b.addEventListener('click', function(){
+    var tinta = jos() ? 0 : inalt();
+    // Derularea lină nu funcționează pe distanțe uriașe: prima pagină are
+    // ~168.000 de pixeli, adică 168 de ecrane, iar `behavior:"smooth"` peste
+    // atât fie nu pornește deloc, fie ar dura zeci de secunde. Deci: lin doar
+    // când e aproape, salt instant când e departe.
+    var departe = Math.abs(tinta - window.scrollY) > 15000;
+    window.scrollTo({ top: tinta, behavior: departe ? 'auto' : 'smooth' });
+  });
+  window.addEventListener('scroll', pune, {passive:true});
+  window.addEventListener('resize', pune);
+  pune();
+})();
+</script>
+
+<style>
+  /* Coloana din dreapta derulează singură. Fără blocul ăsta, scriptul
+     caruselului rulează degeaba: `aside` n-are înălțime fixă și n-are
+     overflow, deci nu există nimic de derulat.
+     Se injectează AICI, nu direct în HTML: pe 5 septembrie 2026 l-am pus în
+     fișiere cu mâna, iar prima aliniere la origin l-a șters — caruselul a
+     ajuns pe site fără el, adică prezent și inert. Ce nu e în generator nu
+     supraviețuiește. */
+  @media(min-width:981px){
+    main aside{
+      height:calc(100vh - 96px);
+      overflow-y:auto;
+      /* Piesa care face să se SIMTĂ intenționat: la capătul coloanei
+         derularea nu „scapă" în pagină și nu sare nimic sub cititor. */
+      overscroll-behavior:contain;
+      padding-right:8px;
+      scrollbar-width:thin;
+      scrollbar-color:var(--line-2) transparent;
+    }
+    /* `aside` e `display:flex`, iar fără asta panourile se COMPRIMĂ ca să
+       încapă în înălțimea fixă în loc să iasă în afară — scrollHeight egal cu
+       clientHeight, deci browserul n-are ce derula. */
+    main aside > *{flex-shrink:0}
+    main aside::-webkit-scrollbar{width:8px}
+    main aside::-webkit-scrollbar-track{background:transparent}
+    main aside::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:99px}
+    main aside::-webkit-scrollbar-thumb:hover{background:var(--ink-faint)}
+  }
+</style>
+
+<script>
+(function(){
+  var a = document.querySelector('main aside');
+  if (!a) return;
+  var PRAG = 981;                       // sub el coloanele stau una sub alta
+  var banda, unit = 0, gap = 0, pornit = false;
+
+  function construieste(){
+    if (pornit) return;
+    var copii = [].slice.call(a.children);
+    if (copii.length < 2) return;       // cu un singur panou n-are ce se roti
+    banda = document.createElement('div');
+    banda.className = 'carusel-banda';
+    banda.style.cssText = 'display:flex;flex-direction:column;gap:26px';
+    copii.forEach(function(el){ banda.appendChild(el); });
+    a.appendChild(banda);
+    gap = parseFloat(getComputedStyle(a).rowGap) || 26;
+    // O clonă e OBLIGATORIE, nu opțională: fără conținut dincolo de capătul
+    // primei benzi, saltul înapoi n-ar avea unde să se ascundă și caruselul
+    // s-ar opri, exact ca o derulare obișnuită. Restul clonelor se adaugă doar
+    // dacă banda e mai scundă decât două ecrane.
+    var n = 0;
+    do {
+      var c = banda.cloneNode(true);
+      c.setAttribute('aria-hidden', 'true');
+      c.querySelectorAll('[id]').forEach(function(x){ x.removeAttribute('id'); });
+      a.appendChild(c); n++;
+    } while (a.scrollHeight < a.clientHeight * 2 + banda.offsetHeight && n < 6);
+    masoara();
+    a.scrollTop = 1;
+    pornit = true;
+  }
+
+  function masoara(){ unit = banda.offsetHeight + gap; }
+
+  function desfa(){
+    if (!pornit) return;
+    [].slice.call(a.querySelectorAll('.carusel-banda')).forEach(function(b, i){
+      if (i === 0) { while (b.firstChild) a.appendChild(b.firstChild); }
+      b.remove();
+    });
+    a.scrollTop = 0; pornit = false;
+  }
+
+  a.addEventListener('scroll', function(){
+    if (!pornit || !unit) return;
+    if (a.scrollTop >= unit) a.scrollTop -= unit;
+    else if (a.scrollTop <= 0) a.scrollTop += unit;
+  }, {passive: true});
+
+  function potriveste(){
+    if (window.innerWidth >= PRAG) { construieste(); if (pornit) masoara(); }
+    else desfa();
+  }
+  potriveste();
+  window.addEventListener('resize', potriveste);
+})();
+</script>
+</body>
+</html>
