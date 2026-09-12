@@ -5,7 +5,7 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 12 Sep 2026 20:29:17 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 21:31:40 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sondajele din Franța o dau pe Marine Le Pen câștigătoare în 2027 — dar scorul din turul doi variază enorm în funcție de cine îi este adversar</title>
@@ -38,16 +38,6 @@ Unde bat probele: Probat că demiterile au avut loc — corectitudinea proceduri
 Unde bat probele: Probat că decizia și atacurile există — cifrele exacte și responsabilitatea rămân disputate. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>Un model de inteligență artificială a nimerit diagnosticul la triajul din urgență în 67% din 76 de cazuri reale, față de 55% și 50% pentru doi medici. Autorii spun că nu e gata pentru pacienți, iar un medic de urgență spune că s-a comparat cu specialitatea greșită</title>
-      <link>https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</guid>
-      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Harvard Medical School și Beth Israel Deaconess au dat modelului o1 al OpenAI exact ce aveau și medicii: fișa electronică, semnele vitale, câteva rânduri scrise de asistenta de la triaj, fără nicio prelucrare. La primul contact, cel cu cea mai puțină informație și cea mai mare grabă, modelul a dat diagnosticul exact sau foarte apropiat în 67% din cazuri; cei doi medici, în 55% și 50%. Evaluatorii nu știau ce vine de la om și ce de la mașină. Publicat în Science pe 30 aprilie 2026.
-
-Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente de diagnostic, comparație în orb cu doi medici, plus alte experimente pe raționament clinic. Ce nu spune studiul: că mașina poate înlocui medicul. Cei doi medici erau interniști, nu medici de urgență; datele au fost doar text, fără imagistică sau EKG; iar autorii cer studii prospective înainte de orice folosire la pacienți. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
       <title>MIT și Motional au făcut o mașină autonomă să spună în cuvinte de ce frânează. Șoferul a aflat că nu vedea biciclistul, ci se oprea doar din reflexul de urgență</title>
       <link>https://farabaliverne.ro/a/mit-cw-net-masina-autonoma-explicatii-nature.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/mit-cw-net-masina-autonoma-explicatii-nature.html</guid>
@@ -58,16 +48,6 @@ Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente
 Unde bat probele: Probat ce descrie MIT: metoda, antrenamentul pe 130 de milioane de scene, testul pe pistă cu șofer de siguranță și simulările cu neexperți, cu explicațiile care au îmbunătățit predicțiile oamenilor. Lucrarea din Nature nu e cu acces liber; MIT nu dă numărul de participanți și nici cu cât s-au îmbunătățit predicțiile, iar testul real a fost pe o pistă privată, nu în trafic. Verificate: 3 probate, 3 contestate.</description>
     </item>
     <item>
-      <title>MIT a cartografiat 31 de tipuri de neuroni din striat, regiunea creierului lovită de Huntington, schizofrenie și adicție. Și a găsit de ce partea de sus a striatului cedează prima</title>
-      <link>https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</guid>
-      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Din țesut donat de oameni, băncilor de creier din SUA și Canada, cercetătorii MIT au făcut un atlas al neuronilor din striat: 31 de subpopulații, dintre care nouă tipuri de „neuroni spinoși medii”. Două populații atipice poartă genele adicției la opioide, ale răspunsului la antidepresive și la clozapină. Iar neuronii din partea de sus a striatului exprimă mai mult MSH2 și MSH3, genele care înmulțesc repetițiile CAG din gena huntingtinei; de asta cedează primii în boala Huntington. Publicat în Cell pe 1 septembrie 2026.
-
-Unde bat probele: Probat ce descrie MIT: metoda (secvențiere ARN pe celule individuale, plus două tehnici spațiale), cele 31 de subpopulații, cele două populații atipice și explicația vulnerabilității dorsale la Huntington prin MSH2/MSH3. Lucrarea din Cell e cu acces restricționat; e un atlas, nu un tratament, iar diferențele față de șoareci, spuse chiar de autori, limitează cât din biologia asta se poate testa pe animale. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
       <title>Stanford a blocat o singură proteină a îmbătrânirii și cartilajul din genunchii șoarecilor bătrâni a crescut la loc. A pornit regenerarea și în țesut uman scos la proteze. Deocamdată doar în laborator</title>
       <link>https://farabaliverne.ro/a/stanford-15-pgdh-cartilaj-regenerare-artroza-science.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/stanford-15-pgdh-cartilaj-regenerare-artroza-science.html</guid>
@@ -76,6 +56,26 @@ Unde bat probele: Probat ce descrie MIT: metoda (secvențiere ARN pe celule indi
       <description>Proteina se numește 15-PGDH și se dublează în cartilaj odată cu vârsta. Blocată cu o moleculă mică, injectată în abdomen sau direct în genunchi, cartilajul subțiat al șoarecilor bătrâni s-a îngroșat, și era cartilaj hialin, cel bun, nu fibrocartilaj. Șoarecii cu leziuni de tip ligament încrucișat tratați patru săptămâni nu au mai făcut artroză. Iar probe de cartilaj de la pacienți operați de proteză de genunchi, ținute o săptămână cu inhibitorul, au început să producă cartilaj nou. Mecanismul surprinzător: nu celule stem, ci celulele existente care își „întineresc” programul genetic. Publicat în Science pe 12 iunie 2026.
 
 Unde bat probele: Probat ce descrie Stanford: proteina, dublarea ei cu vârsta, regenerarea la șoareci bătrâni și după leziune, procentele pe tipuri de celule, răspunsul probelor umane în laborator. Ce nu există încă: niciun pacient tratat. Studiul e pe șoareci și pe țesut în vas; inhibitorul e în faza 1 de teste clinice pentru mușchi, nu pentru cartilaj; iar autorii principali au brevete și părți într-o companie care dezvoltă molecula. Verificate: 4 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>Un model de inteligență artificială a nimerit diagnosticul la triajul din urgență în 67% din 76 de cazuri reale, față de 55% și 50% pentru doi medici. Autorii spun că nu e gata pentru pacienți, iar un medic de urgență spune că s-a comparat cu specialitatea greșită</title>
+      <link>https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</guid>
+      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>Harvard Medical School și Beth Israel Deaconess au dat modelului o1 al OpenAI exact ce aveau și medicii: fișa electronică, semnele vitale, câteva rânduri scrise de asistenta de la triaj, fără nicio prelucrare. La primul contact, cel cu cea mai puțină informație și cea mai mare grabă, modelul a dat diagnosticul exact sau foarte apropiat în 67% din cazuri; cei doi medici, în 55% și 50%. Evaluatorii nu știau ce vine de la om și ce de la mașină. Publicat în Science pe 30 aprilie 2026.
+
+Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente de diagnostic, comparație în orb cu doi medici, plus alte experimente pe raționament clinic. Ce nu spune studiul: că mașina poate înlocui medicul. Cei doi medici erau interniști, nu medici de urgență; datele au fost doar text, fără imagistică sau EKG; iar autorii cer studii prospective înainte de orice folosire la pacienți. Verificate: 3 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>MIT a cartografiat 31 de tipuri de neuroni din striat, regiunea creierului lovită de Huntington, schizofrenie și adicție. Și a găsit de ce partea de sus a striatului cedează prima</title>
+      <link>https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</guid>
+      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
+      <category>Minți luminate</category>
+      <description>Din țesut donat de oameni, băncilor de creier din SUA și Canada, cercetătorii MIT au făcut un atlas al neuronilor din striat: 31 de subpopulații, dintre care nouă tipuri de „neuroni spinoși medii”. Două populații atipice poartă genele adicției la opioide, ale răspunsului la antidepresive și la clozapină. Iar neuronii din partea de sus a striatului exprimă mai mult MSH2 și MSH3, genele care înmulțesc repetițiile CAG din gena huntingtinei; de asta cedează primii în boala Huntington. Publicat în Cell pe 1 septembrie 2026.
+
+Unde bat probele: Probat ce descrie MIT: metoda (secvențiere ARN pe celule individuale, plus două tehnici spațiale), cele 31 de subpopulații, cele două populații atipice și explicația vulnerabilității dorsale la Huntington prin MSH2/MSH3. Lucrarea din Cell e cu acces restricționat; e un atlas, nu un tratament, iar diferențele față de șoareci, spuse chiar de autori, limitează cât din biologia asta se poate testa pe animale. Verificate: 4 probate, 3 contestate.</description>
     </item>
     <item>
       <title>Vârfurile munților Europei au tot mai multe specii de plante. Un studiu în Science, cu cercetători de la Cluj, arată că tocmai asta ascunde dispariția plantelor alpine</title>
