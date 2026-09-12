@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 12 Sep 2026 20:27:39 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 20:29:17 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sondajele din Franța o dau pe Marine Le Pen câștigătoare în 2027 — dar scorul din turul doi variază enorm în funcție de cine îi este adversar</title>
+      <link>https://farabaliverne.ro/a/franta-sondaje-le-pen-2027-eligibilitate-apel.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/franta-sondaje-le-pen-2027-eligibilitate-apel.html</guid>
+      <pubDate>Sat, 12 Sep 2026 17:28:27 +0000</pubDate>
+      <category>Extern</category>
+      <description>Două sondaje publicate la începutul lui septembrie 2026 (Ipsos pentru Le Parisien, OpinionWay pentru CNEWS) o arată pe Marine Le Pen cu un avans clar în primul tur al prezidențialelor franceze din 2027 — 33-36%, în funcție de scenariu. Dar în turul doi, marja variază radical: zdrobitoare în fața lui Jean-Luc Mélenchon, practic egalitate statistică în fața lui Édouard Philippe. Le Pen și-a redobândit eligibilitatea abia în iulie 2026, după ce Curtea de Apel din Paris i-a redus pedeapsa inițială.
+
+Unde bat probele: Probat ce arată sondajele — dar avansul depinde total de adversarul din turul doi. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Curtea Supremă a Chile a demis 11 judecători care au călătorit în străinătate pe concediu medical — Asociația Magistraților vorbește despre un atac la independența justiției</title>
       <link>https://farabaliverne.ro/a/chile-curtea-suprema-demite-11-judecatori-concedii-medicale.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 5 probate, 2 contestate.</desc
       <description>Cercetători de la Centrul pentru Terapii Regenerative din Dresda (CRTD) și Universitatea Edinburgh au identificat mecanismul prin care o parte din celulele imunitare numite neutrofile ajută, în loc să încurce, refacerea măduvei spinării la peștii zebră — specie care, spre deosebire de oameni, își regenerează natural țesutul nervos lezat. Descoperirea explică parțial de ce zebra-fish reușește ceva ce mamiferele nu pot, dar autorii spun clar că nu se știe încă dacă mecanismul funcționează și la oameni.
 
 Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Vaccin experimental combinat rabie-Lassa, sigur și cu anticorpi la 100% dintre voluntari — dar doar în primul test pe oameni</title>
-      <link>https://farabaliverne.ro/a/vaccin-lassa-rabie-lassarab-faza1-siguranta.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/vaccin-lassa-rabie-lassarab-faza1-siguranta.html</guid>
-      <pubDate>Thu, 10 Sep 2026 06:48:45 +0000</pubDate>
-      <category>Știință</category>
-      <description>Un vaccin experimental care combină protecția împotriva rabiei cu cea împotriva febrei Lassa — LASSARAB — a produs anticorpi la toți cei 44 de voluntari vaccinați dintr-un test de fază 1, fără evenimente adverse grave. E o veste bună într-un moment în care Nigeria trece prin cel mai grav episod de febră Lassa din ultimii ani, dar rezultatele arată doar că vaccinul e sigur și declanșează un răspuns imunitar — nu că protejează efectiv împotriva bolii.
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
