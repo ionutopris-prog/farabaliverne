@@ -1,0 +1,92 @@
+{
+  "slug": "bucuresti-metavers-refugiati-ucraineni-studiu-clinic-bjpsych",
+  "title": "Un studiu clinic de la Universitatea din București a testat „terapia în metavers” pe refugiați ucraineni. A câștigat grupul de sprijin față în față, iar din 156 de participanți mai mult de jumătate au renunțat pe drum",
+  "category": "Minți luminate",
+  "tara": "România",
+  "date": "2026-09-12",
+  "source": "The British Journal of Psychiatry · Universitatea din București",
+  "url": "https://doi.org/10.1192/bjp.2026.10755",
+  "dek": "Din aproximativ 1.000 de refugiați ucraineni evaluați în București între ianuarie 2024 și martie 2025, 156 au intrat în studiu (153 femei, vârsta medie 47 de ani) și au fost împărțiți la întâmplare: grupuri de sprijin ca avatar, într-un spațiu 3D din browser copiat după un centru comunitar din Kiev, grupuri față în față, sau listă de așteptare. La final, doar grupul față în față a avut un efect clar față de așteptare: sprijin social perceput mai mare. Efectele „metaversului” au fost mai mici și nesemnificative statistic. La trei luni, aproape totul se ștersese. Publicat în The British Journal of Psychiatry pe 28 august 2026, cu acces liber.",
+  "mainVerdict": "Probat ce raportează studiul: metoda (trei brațe, randomizat, înregistrat înainte), cifrele, rezultatul în favoarea întâlnirilor față în față și lipsa efectului semnificativ al variantei în realitate virtuală. Contestat de autorii înșiși: abandonul de 53–61 % până la final și 65–81 % la trei luni, calculul de putere care n-a ținut cont de grupare, lipsa orbirii; iar platforma a fost construită de un coautor",
+  "probat": [
+    {
+      "text": "Lucrarea „Evaluation of the efficacy of support groups in the metaverse for Ukrainian refugees: randomised clinical trial” a apărut în The British Journal of Psychiatry (Royal College of Psychiatrists, prin Cambridge University Press) pe 28 august 2026, cu acces liber (Creative Commons BY). Autori: Cezar Giosan (autor corespondent), Cătălina M. Popoviciu și Saltanat Zhamaliyeva (Departamentul de Psihologie și Științe Cognitive, Universitatea din București), Iuliana Zaborot (Fundația Dr. Max, București), George Deac (Capablanca.ai, București) și Albert „Skip” Rizzo (University of Southern California, unul dintre pionierii terapiei prin realitate virtuală). Studiul a fost înregistrat înainte de a începe, la ClinicalTrials.gov, NCT06142032, pe 8 noiembrie 2023. Finanțare: niciun grant specific. Conflicte de interese declarate: niciunul.",
+      "sources": [
+        {
+          "name": "The British Journal of Psychiatry — lucrarea, cu acces liber",
+          "url": "https://doi.org/10.1192/bjp.2026.10755"
+        },
+        {
+          "name": "ClinicalTrials.gov — înregistrarea NCT06142032",
+          "url": "https://clinicaltrials.gov/study/NCT06142032"
+        }
+      ]
+    },
+    {
+      "text": "Cum s-a făcut: adulți recrutați în București prin psihologi licențiați vorbitori de română și rusă, afiliați unor ONG-uri care lucrează cu refugiați (Fundația Dr. Max, printre altele). Din aproximativ 1.000 de persoane evaluate, 156 au îndeplinit criteriile: 153 femei, 2 bărbați, o persoană fără date de gen; vârsta medie 47,4 ani. Repartizare la întâmplare: 64 în grupurile de sprijin în realitate virtuală cu avatar (mediu 3D în browser, copiat după un spațiu comunitar din centrul Kievului, cu voce în funcție de apropiere și mesaje private cu facilitatorii), 49 în grupuri față în față, 43 pe lista de așteptare. Măsurători la început, la mijloc, la final și la trei luni. Analiza principală: modele mixte longitudinale, „intenție de tratare”, cu erori standard robuste la grupare.",
+      "sources": [
+        {
+          "name": "BJPsych — secțiunile „Participants” și „Results: participant retention and attendance”",
+          "url": "https://doi.org/10.1192/bjp.2026.10755"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit: „majoritatea comparațiilor între grupuri au favorizat intervențiile, dar multe n-au avut semnificație statistică, probabil din cauza abandonului și a grupării”. Singurul rezultat semnificativ în modelul principal: la final, grupul față în față a raportat sprijin social perceput mai mare decât lista de așteptare (β = 12,99; interval de încredere 95 % 1,04–24,94; p = 0,033; mărimea efectului g = 0,82, adică mare). În analizele la punctul final, aceiași participanți au avut și simptome depresive mai reduse decât lista de așteptare (β = −3,39; p = 0,026; g = −0,68). Efectele realității virtuale „au fost mai mici și nesemnificative”. La trei luni, efectele „s-au atenuat în mare parte”. Excluzând participanții cu traumă mare la început, efectele tratamentului au fost mai puternice.",
+      "sources": [
+        {
+          "name": "BJPsych — rezumatul și secțiunea de rezultate",
+          "url": "https://doi.org/10.1192/bjp.2026.10755"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Abandonul e problema numărul unu, și autorii o pun primii pe listă: din 156 de observații la început au rămas 86 la mijloc, 70 la final și 43 la trei luni. Ei scriu că abandonul „a fost substanțial, a limitat puterea statistică și a redus încrederea în estimările de la urmărire”; că e de înțeles la o populație strămutată, cu război, locuințe instabile și incertitudine juridică, „dar rămâne o limitare majoră”; și că „calculul inițial de putere n-a ținut cont de gruparea pe cohorte și nici de gradul de abandon observat”, deci puterea reală a fost mai mică decât cea planificată.",
+      "sources": [
+        {
+          "name": "BJPsych — secțiunea „Limitations”, prima și a doua limitare",
+          "url": "https://doi.org/10.1192/bjp.2026.10755"
+        }
+      ]
+    },
+    {
+      "text": "Nimeni nu putea fi „orbit”: participanții știau în ce grup sunt, facilitatorii la fel, iar grupul de așteptare s-a ameliorat și el cu timpul. Autorii scriu că „efectele de așteptare și angajamentul diferit pot fi contribuit la diferențele observate”. Analizele de sensibilitate (ponderare inversă, margini Lee, imputare multiplă, doar cei care au terminat) „au susținut în linii mari” rezultatele pe termen scurt, dar „nu pot elimina complet incertitudinea introdusă de datele lipsă”, mai ales dacă lipsurile n-au fost întâmplătoare.",
+      "sources": [
+        {
+          "name": "BJPsych — secțiunea „Limitations”, a treia și a patra limitare",
+          "url": "https://doi.org/10.1192/bjp.2026.10755"
+        }
+      ]
+    },
+    {
+      "text": "Platforma de realitate virtuală a fost construită de un coautor (George Deac, Capablanca.ai, București). Declarația de interese spune „niciunul” și nu există finanțare comercială, dar cine a făcut unealta a și evaluat-o. Nu e un motiv să respingi rezultatul, cu atât mai mult cu cât rezultatul e defavorabil uneltei; e un lucru pe care cititorul trebuie să-l știe. Autorii adaugă și că studiul n-a evaluat costul: nu se știe dacă varianta imersivă aduce destul în plus față de intervenții digitale mai simple sau față de întâlniri ca să-și justifice infrastructura.",
+      "sources": [
+        {
+          "name": "BJPsych — afilierile autorilor, declarația de interese și ultima limitare",
+          "url": "https://doi.org/10.1192/bjp.2026.10755"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Un studiu românesc într-una dintre cele mai serioase reviste de psihiatrie din lume, cu un rezultat pe care nimeni nu-l vinde: metaversul n-a bătut o cameră cu scaune și un psiholog. E exact felul de lucrare de care e nevoie când toată lumea promite „terapie cu AI și VR”. Cel mai important lucru din ea, pentru mine, nu e cifra, ci onestitatea: autorii își listează singuri abandonul, calculul greșit de putere și lipsa orbirii, și scriu că implicația e „mai degrabă de dezvoltare decât definitivă”. Iar femeile ucrainene de 47 de ani din București care au venit la întâlniri și au rămas până la capăt au făcut, se pare, mai mult bine una alteia decât orice avatar."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la o lucrare științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber și licență CC BY (ar permite traducerea), dar are 11 pagini de metodă statistică; am tradus și explicat ce contează pentru cititor și am lăsat linkul spre text. Regula secțiunii se respectă: link la original, limitele autorilor puse în față.\n\nCe s-a verificat: lucrarea din BJPsych (autori, afilieri, înregistrarea NCT06142032 din 8 noiembrie 2023, cifrele 1.000 / 156 / 64 / 49 / 43, observațiile 156 / 86 / 70 / 43, coeficienții β = 12,99 și −3,39 cu intervalele lor, secțiunea de limitări, finanțarea și declarația de interese). Ce am adăugat noi: că platforma a fost făcută de un coautor (e în afilieri, nu în declarația de interese) și că rezultatul e defavorabil uneltei. Nu decretăm nimic; arătăm ce s-a măsurat și ce spun autorii că nu pot susține.",
+  "persoane": [
+    "Cezar Giosan",
+    "Cătălina M. Popoviciu",
+    "Albert Rizzo"
+  ],
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/bucuresti-metavers-refugiati-ucraineni-studiu-clinic-bjpsych.jpg\" alt=\"Albert Rizzo\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Albert Rizzo. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cubs_visit_to_the_White_House_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cubs visit to the White House 1</a>\" de White House, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/bucuresti-metavers-refugiati-ucraineni-studiu-clinic-bjpsych.jpg",
+    "licenta": "Public domain",
+    "autor": "White House"
+  }
+}

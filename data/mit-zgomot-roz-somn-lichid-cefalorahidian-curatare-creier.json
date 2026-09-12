@@ -1,0 +1,120 @@
+{
+  "slug": "mit-zgomot-roz-somn-lichid-cefalorahidian-curatare-creier",
+  "title": "MIT: o rafală de 50 de milisecunde de „zgomot roz”, trimisă exact pe vârful undelor lente din somn, mărește valurile de lichid care spală creierul. Testat pe 14 voluntari sănătoși, cu EEG și RMN în același timp",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-09-12",
+  "source": "MIT News · Science Translational Medicine",
+  "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
+  "dek": "Ziua, în creier se adună acid lactic și proteine uzate; noaptea, valuri de lichid cefalorahidian le spală. Cercetătorii MIT au arătat că pot mări aceste valuri cu rafale scurte de sunet blând, un fâsâit ca ploaia, livrate pe vârful undelor electrice lente din somnul profund. Sunetul mărește undele lente, undele lente strâng și lărgesc vasele de sânge, iar vasele pompează lichidul afară din creier. Rezultatul, pe 14 voluntari sănătoși, e în Science Translational Medicine pe 9 septembrie 2026. Ce urmează, spun ei, e testul pe oameni cu insomnie și cu Alzheimer; nu s-a făcut încă.",
+  "mainVerdict": "Probat ce descrie MIT: metoda (EEG curățat de zgomotul RMN în sub 100 de milisecunde, plus un algoritm care prezice vârful undei), efectul pe 14 voluntari sănătoși și mecanismul văzut la RMN. Contestat: eșantionul e mic și doar oameni sănătoși; nu s-a măsurat nicio ameliorare a memoriei sau a vreunei boli; lucrarea e cu abonament; iar autorul principal și-a făcut o firmă pentru un dispozitiv de casă",
+  "probat": [
+    {
+      "text": "Lucrarea „Closed-loop auditory stimulation in phase with slow waves during sleep enhances cerebrospinal fluid flow in humans” a apărut în Science Translational Medicine pe 9 septembrie 2026. Autor senior: Laura Lewis, profesoară asociată „Athinoula A. Martinos” de inginerie electrică și informatică la MIT, membră a Institutului de Inginerie și Științe Medicale și a Laboratorului de Cercetare în Electronică, membră asociată a Institutului Picower. Autor principal: Joshua Levitt, doctorat recent la Universitatea Boston, student vizitator în laboratorul Lewis. Finanțare: McKnight, Sloan, Pew, Fundația Simons, NIH și altele.",
+      "sources": [
+        {
+          "name": "MIT News — articolul din 9 septembrie 2026 (tradus integral mai jos)",
+          "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909"
+        },
+        {
+          "name": "Science Translational Medicine — pagina lucrării (acces cu abonament)",
+          "url": "https://www.science.org/doi/10.1126/scitranslmed.aea5469"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a făcut: 14 voluntari sănătoși au dormit cu EEG și RMN funcțional în același timp. Câmpul magnetic al RMN-ului strică semnalul EEG, așa că echipa a construit o metodă de curățare a EEG-ului în mai puțin de 100 de milisecunde și un algoritm care prezice când vine vârful undei lente, ca să trimită sunetul exact atunci. Sunetul: o rafală de 50 de milisecunde de „zgomot roz” (toate frecvențele audibile, cu cele joase mai tari, ca ploaia sau o cascadă îndepărtată), destul de încet ca să nu trezească.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea „Cleaning up the brain”",
+          "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit: stimulul a mărit amplitudinea undelor electrice lente și, odată cu ele, a valurilor de lichid cefalorahidian. RMN-ul a arătat și mecanismul: undele lente fac vasele de sânge să se strângă și să se lărgească, iar vasele acționează ca o pompă care împinge lichidul afară din creier. Undele lente apar doar în somnul non-REM și sunt mai pronunțate în stadiile adânci. Lewis: „Am putut mări valul de lichid cefalorahidian în timpul somnului, ceea ce, din câte știm, nu s-a mai putut face”.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea „More restorative sleep”",
+          "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 14 oameni, toți sănătoși, și o singură măsură: mărimea valului de lichid. Studiul NU a măsurat dacă cineva a dormit mai odihnitor, dacă memoria s-a îmbunătățit sau dacă s-a curățat vreo proteină din cele legate de Alzheimer. Toate acestea sunt, în textul MIT, la viitor: „speră să studieze”, „plănuiesc să exploreze”, „am putea ajuta”. Distanța dintre „valul e mai mare” și „previne demența” e de ani de studii clinice care nu există.",
+      "sources": [
+        {
+          "name": "MIT News — formulările la viitor din secțiunea „More restorative sleep”",
+          "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea e cu abonament; am citit textul MIT, al instituției, nu lucrarea. MIT nu dă cu cât s-au mărit valurile (în procente) și nici câte nopți sau câte ore de înregistrare au intrat în calcul.",
+      "sources": [
+        {
+          "name": "Science Translational Medicine — lucrarea (abonament)",
+          "url": "https://www.science.org/doi/10.1126/scitranslmed.aea5469"
+        }
+      ]
+    },
+    {
+      "text": "Interes comercial, declarat chiar în articolul MIT: autorul principal, Joshua Levitt, „a înființat o companie care speră să dezvolte un dispozitiv, cum ar fi o bentiță, pe care oamenii să-l folosească acasă”. Nu e un motiv să respingi rezultatul; e un motiv să aștepți replicarea de către un laborator fără bentiță de vândut, și să fii atent la produsele „zgomot roz pentru creier” care vor apărea pe piață înaintea dovezilor.",
+      "sources": [
+        {
+          "name": "MIT News — ultimele paragrafe ale articolului",
+          "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "E o inginerie frumoasă: ca să împingi un copil în leagăn trebuie să-l împingi exact când e la capătul cursei, iar aici „leagănul” e o undă din creier, „împinsul” e un fâsâit de o douăzecime de secundă, iar „capătul cursei” trebuie ghicit cu 100 de milisecunde înainte, prin zgomotul unui RMN. Că se poate e o veste reală. Că se vor vinde bentițe cu „zgomot roz anti-Alzheimer” înainte să se știe dacă folosesc la ceva e, din păcate, tot o veste reală. Tineți minte cifra: 14 oameni sănătoși."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, redacția Institutului de Tehnologie din Massachusetts, articol semnat de Anne Trafton, publicat pe 9 septembrie 2026. Republicat conform politicii lor oficiale, care cere titlul, subtitlul, semnătura autorului și mențiunea „MIT News” cu link la original în capul textului, plus „Reprinted with permission of MIT News” la final. Fotografiile lor NU sunt preluate.\n\n🔴 Ce trebuie știut: e textul instituției despre propria cercetare, nu lucrarea, care e cu abonament. Cifrele care lipsesc (mărimea efectului, numărul de nopți) lipsesc și aici.\n\nCe s-a verificat: că lucrarea există în Science Translational Medicine cu titlul citat, autorii și afilierile. Ce am adăugat noi: că studiul n-a măsurat niciun rezultat clinic și că autorul principal are o firmă, lucruri care sunt în textul MIT, dar nu în titlurile care circulă.",
+  "persoane": [
+    "Laura Lewis",
+    "Joshua Levitt"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "A burst of “pink noise” may lead to more restorative sleep",
+    "publicatie": "MIT News",
+    "autor": "Anne Trafton, MIT News",
+    "data": "9 septembrie 2026",
+    "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
+    "nota_sus": "Titlul în română: „O rafală de «zgomot roz» ar putea duce la un somn mai odihnitor”. Subtitlul original: „Livrat exact la momentul potrivit, acest tip de stimul auditiv poate întări fluxul de lichid cefalorahidian, care curăță reziduurile din creier și îl menține sănătos.”",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "În timpul zilei, în creier se acumulează produse reziduale, cum ar fi acidul lactic și proteinele uzate. Când dormim noaptea, valuri de lichid cefalorahidian (LCR) ajută la spălarea acestor reziduuri, menținând creierul sănătos.",
+      "Într-un studiu nou, cercetătorii de la MIT au arătat că pot întări aceste valuri de LCR prin expunerea, în timpul somnului, la rafale scurte ale unui sunet blând, cu fâsâit, cunoscut ca „zgomot roz”. Aceste rafale măresc amplitudinea undelor electrice lente din creier, ceea ce mărește apoi valurile de LCR.",
+      "Cercetătorii speră acum să exploreze dacă acest flux de LCR întărit ar putea ajuta la stimularea funcției cognitive, la îmbunătățirea memoriei sau chiar la încetinirea progresiei bolilor neurodegenerative cauzate de acumularea unor proteine dăunătoare, precum beta-amiloidul.",
+      "„Am constatat că am putut mări dimensiunea valului de flux de LCR în timpul somnului, ceea ce, din câte știm, nu a mai existat o metodă să se facă până acum. Acum, că putem intensifica fluxul de LCR în timpul somnului la adulți sănătoși, suntem foarte entuziasmați să ducem această tehnologie la populații clinice, ca să vedem ce efecte putem avea”, spune Laura Lewis, profesoară asociată „Athinoula A. Martinos” de inginerie electrică și informatică, membră a Institutului de Inginerie și Științe Medicale al MIT și a Laboratorului de Cercetare în Electronică și membră asociată a Institutului Picower pentru Învățare și Memorie.",
+      "Lewis este autoarea senioră a studiului, care apare astăzi în Science Translational Medicine. Joshua Levitt, care și-a luat recent doctoratul la Universitatea Boston și a fost student vizitator în laboratorul lui Lewis, este autorul principal al lucrării.",
+      "CURĂȚENIE ÎN CREIER. Lichidul cefalorahidian este un lichid limpede care înconjoară și amortizează creierul și măduva spinării. Pe lângă faptul că protejează creierul de răniri, el ajută și la furnizarea unor nutrienți, cum e glucoza, și îndepărtează produsele reziduale secretate de celulele nervoase când ard energie.",
+      "În 2019, Lewis a raportat o metodă de a folosi imagistica prin rezonanță magnetică funcțională (fMRI) pentru a măsura valurile de LCR în timp ce intră și ies din creier în timpul somnului. Acel studiu a arătat că aceste valuri sunt strâns cuplate cu unde cerebrale numite unde lente, asociate cu somnul profund.",
+      "În noul studiu, ea a vrut să exploreze mai departe relația dintre undele cerebrale și fluxul de LCR și să investigheze dacă manipularea undelor cerebrale ar putea intensifica fluxul de LCR. Lucrări anterioare arătaseră deja că livrarea unui stimul auditiv pe vârful undelor lente le poate adânci.",
+      "„Poți produce mai multe dintre aceste unde electrice lente printr-un stimul auditiv, dacă vine exact la momentul potrivit. Ca la un copil în leagăn: dacă îl împingi când e în punctul potrivit al mișcării, poți face leagănul să meargă mai departe”, spune Lewis. „Provocarea e: cum găsești exact momentul potrivit?”",
+      "Stimulul auditiv folosit în acest studiu este o rafală de 50 de milisecunde de zgomot roz. Asemănător zgomotului alb, zgomotul roz conține toate frecvențele sonore audibile de urechea umană, dar frecvențele joase sunt mai puternice, iar cele înalte mai slabe. Rezultă un sunet echilibrat, blând, asemănător unei ploi constante sau unei cascade îndepărtate.",
+      "Pentru a livra aceste rafale pe vârful undelor lente ale creierului, cercetătorii au trebuit să măsoare activitatea EEG a fiecărui participant în timp ce dormea. Asta s-a dovedit dificil, fiindcă trebuiau să măsoare în același timp și semnalele fMRI, ca să monitorizeze fluxul de LCR, iar câmpurile magnetice folosite la fMRI interferează cu semnalele EEG.",
+      "Ca să depășească problema, cercetătorii au dezvoltat o metodă de a procesa semnalele EEG astfel încât să elimine zgomotul cauzat de fMRI, foarte rapid: în mai puțin de 100 de milisecunde. Ca să compenseze această mică întârziere a măsurătorii EEG, au dezvoltat și un algoritm care putea prezice când vor apărea vârfurile undelor lente. Așa au putut livra stimulul de zgomot roz la momentul corect.",
+      "UN SOMN MAI ODIHNITOR. În teste cu 14 voluntari sănătoși, cercetătorii au constatat că stimulul auditiv livrat, care nu e destul de puternic ca să trezească o persoană adormită, a mărit amplitudinea atât a undelor electrice lente, cât și a valurilor de LCR, în timpul somnului.",
+      "Studiile lor fMRI au arătat, de asemenea, că undele lente stimulează vasele de sânge să se contracte și să se dilate, permițându-le să acționeze ca o pompă care împinge LCR afară din creier. Undele lente se văd doar în somnul non-REM și devin mai pronunțate în stadiile mai adânci ale somnului.",
+      "Cercetătorii speră acum să studieze dacă intensificarea fluxului de LCR i-ar putea ajuta pe oameni să aibă un somn mai odihnitor, în special pe cei cu insomnie. Plănuiesc, de asemenea, să exploreze dacă creșterea fluxului de LCR și îndepărtarea produselor reziduale din creier i-ar putea ajuta pe oamenii cu Alzheimer și cu alte boli caracterizate de acumularea de proteine dăunătoare.",
+      "„Curățarea reziduurilor din creier e cu adevărat importantă pentru Alzheimer și pentru alte forme de demență, care sunt cauzate, în parte, de acumularea în creier a unor molecule precum amiloidul și tau. Dacă putem îmbunătăți curățarea reziduurilor din creier, am putea ajuta la prevenirea acumulărilor acestor plăci care duc la boală”, spune Levitt.",
+      "Levitt a înființat o companie care speră să dezvolte un dispozitiv, cum ar fi o bentiță, pe care oamenii să-l poată folosi acasă pentru a crește fluxul de LCR prin livrarea unui stimul auditiv la momentul potrivit.",
+      "Cercetarea a fost finanțată printr-un McKnight Scholar Award, o bursă Sloan, un Pew Biomedical Scholars Award, Colaborarea Fundației Simons pentru Plasticitate în Creierul Îmbătrânit, Fondul de Cercetare Transformativă al Departamentului EECS de la MIT, Institutele Naționale de Sănătate, Institutul Corundum Convergence și Bursa Panasonic Well pentru AI și Bunăstare."
+    ]
+  },
+  "poza": {
+    "img_html": "<img src=\"../img/articole/mit-zgomot-roz-somn-lichid-cefalorahidian-curatare-creier.jpg\" alt=\"Laura Lewis\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Laura Lewis. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Avi_Lewis_-_2016.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Avi Lewis - 2016</a>\" de Laura Flanders &amp; Friends, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/mit-zgomot-roz-somn-lichid-cefalorahidian-curatare-creier.jpg",
+    "licenta": "CC BY 3.0",
+    "autor": "Laura Flanders &amp; Friends"
+  }
+}
