@@ -838,24 +838,41 @@ def pune_citite(s):
     return s.replace("</body>", CITITE_JS + "</body>", 1)
 
 
+SHARE_FINAL_FB = ("window.shareFB=function(){if(window.__fbMobil&&navigator.share)"
+                  "{navigator.share({title:T,url:U}).catch(function(){});return;}"
+                  "window.open('https://www.facebook.com/sharer/sharer.php?u='+e(U),"
+                  "'_blank','noopener');};")
+SHARE_FINAL_X = ("window.shareX=function(){"
+                 "window.open('https://x.com/intent/post?url='+e(U)+'&text='+e(T),"
+                 "'_blank','noopener');};")
+# Orice variantă de shareFB / shareX de până acum se termină cu
+# `'_blank','noopener…');};` — pe asta prindem tot, indiferent de ce e în corp.
+_RE_SHARE_FB = re.compile(r"window\.shareFB=function\(\)\{.*?'_blank','noopener[^']*'\);\};")
+_RE_SHARE_X = re.compile(r"window\.shareX=function\(\)\{.*?'_blank','noopener[^']*'\);\};")
+
+
 def repara_share(s):
     """
-    Pune partajarea nativă pe mobil, pe orice pagină care are butoanele.
+    Aduce butoanele de partajare la forma finală, pe ORICE pagină, la FIECARE
+    build — indiferent ce variantă veche are pagina în ea.
 
-    Se aplică la fiecare build, nu o singură dată: articolele noi le scrie botul
-    după șablon, iar dacă reparația ar sta doar în șablon ar rămâne validă până
-    la prima modificare a lui. Aici se autorepară.
+    Istoric, ca să nu se repete (12 septembrie 2026): au fost trei reparații
+    „în lanț" (veche → intermediară → nouă), fiecare recunoscând exact textul
+    celei dinainte. A patra ar fi fost la fel de fragilă. Acum se rescrie
+    întregul corp al funcțiilor, cu regex, deci nu mai contează istoricul.
+
+    Ce e definitiv și DE CE:
+    - X: `x.com/intent/post` cu text + adresă, deschis în FILĂ NORMALĂ. În
+      popup mic (560×460) X încarcă varianta de telefon și pierde parametrii —
+      fereastra de compunere apărea goală. Testat pe 12 sept: în filă normală
+      textul și linkul sunt gata scrise.
+    - Facebook: pe telefon foaia nativă (Facebook nu acceptă text
+      precompletat); pe desktop `sharer.php`, tot în filă normală, nu popup.
     """
-    # Atenție la ordinea verificărilor: paginile deja reparate o dată NU mai
-    # conțin varianta veche, deci o ieșire devreme pe „n-are varianta veche" ar
-    # fi lăsat pe loc toate articolele publicate. Exact așa a scăpat X
-    # nereparat, după ce Facebook fusese rezolvat.
-    if (SHARE_VECHI_FB not in s and SHARE_VECHI_X not in s
-            and SHARE_INTERMEDIAR_X not in s):
+    if "window.shareFB=function()" not in s and "window.shareX=function()" not in s:
         return s
-    s = (s.replace(SHARE_VECHI_FB, SHARE_NOU_FB)
-          .replace(SHARE_VECHI_X, SHARE_NOU_X)
-          .replace(SHARE_INTERMEDIAR_X, SHARE_NOU_X))
+    s = _RE_SHARE_FB.sub(lambda m: SHARE_FINAL_FB, s)
+    s = _RE_SHARE_X.sub(lambda m: SHARE_FINAL_X, s)
     if "__fbMobil=/" not in s:
         s = s.replace("window.shareFB=function()", SHARE_DETECT + "window.shareFB=function()", 1)
     return s
@@ -1834,7 +1851,8 @@ def main():
             [os.path.join(ROOT,x) for x in ("politicieni.html","publicitate.html","cauta.html",
                                             "cifre.html","letopiset.html","metodologie.html","cine-suntem.html",
                                             "corectari.html","contact.html","termeni.html",
-                                            "confidentialitate.html","404.html")]
+                                            "confidentialitate.html","404.html",
+                                            "parlament.html","moldova/index.html")]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
     hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html"),
