@@ -83,5 +83,12 @@
     "title": "250 de milioane AUD pe an, timp de 10 ani = 2,5 miliarde — dar nu ca un cec direct",
     "explanation": "Cifra-titlu de 2,5 miliarde AUD vine din înmulțirea a 250 de milioane AUD pe an cu cei 10 ani ai garanției guvernamentale (2028-2038) — nu dintr-o plată unică. În schimbul acestei garanții, Tomago Aluminium investește separat cel puțin 1 miliard AUD (aproximativ 40% din valoarea garanției guvernamentale) în întreținere și decarbonizare, iar Rio Tinto migrează integral la energie regenerabilă până în 2033. Contextul economic: uzina consumă circa 10% din energia furnizată în New South Wales și contribuie cu 2,2 miliarde AUD anual — cifre care explică de ce guvernul o tratează ca infrastructură strategică, nu doar ca o companie oarecare."
   },
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/australia-tomago-rio-tinto-subventie-2-5-miliarde.jpg\" alt=\"South\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — South. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Adelie_penguins_in_the_South_Shetland_Islands.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Adelie penguins in the South Shetland Islands</a>\" de ravas51, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/australia-tomago-rio-tinto-subventie-2-5-miliarde.jpg",
+    "licenta": "CC BY-SA 2.0",
+    "autor": "ravas51"
+  }
 }

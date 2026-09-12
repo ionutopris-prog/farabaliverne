@@ -73,5 +73,12 @@
     "explanation": "Contractul a fost semnat în 2020–2021 pentru 12 luni de proiectare plus 24 de luni de execuție (36 de luni în total, termen decembrie 2023). Lucrarea s-a finalizat abia în august 2026 — aproximativ 5-6 ani de la semnarea contractului și cu aproape doi ani peste termenul contractual — pentru 12,24 km de autostradă, la un cost de 905 milioane lei fără TVA (~74 milioane lei/km)."
   },
   "aiNote": "Datele tehnice (lungime, dată, cost, constructor) sunt confirmate concordant de Digi24, Adevărul și Asociația Pro Infrastructură — o organizație civică ce monitorizează independent proiectele de infrastructură rutieră, nu o sursă oficială CNAIR, dar cu o poziție publică verificabilă. Cauzele întârzierii (alunecări de teren, tergiversări administrative) vin din aceeași sursă Pro Infrastructură, citată și de Digi24; nu am găsit o explicație oficială separată din partea CNAIR pentru motivele exacte ale întârzierii.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/a3-zimbor-poarta-salajului-inaugurare.jpg\" alt=\"Primul\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Primul. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:06.05.2025_Expozi%C8%9Bia_de_fotografii_documentare_Moldpres_%E2%80%93_Agerpres_%E2%80%9EFlori_pe_Prut_35_de_ani_de_la_primul_Pod_de_Flori%E2%80%9D_IMG_0297.jpg\" rel=\"nofollow noopener\" target=\"_blank\">06.05.2025 Expoziția de fotografii documentare Moldpres – Agerpres „Flori pe Prut 35 de ani de la primul Pod de Flori” IMG 0297</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/a3-zimbor-poarta-salajului-inaugurare.jpg",
+    "licenta": "CC0",
+    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+  }
 }
