@@ -116,10 +116,10 @@
     ]
   },
   "poza": {
-    "img_html": "<img src=\"../img/articole/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.jpg\" alt=\"Jennifer Morris\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Jennifer Morris. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Attn_editors-_NASA_Hubble_Releases_New_Images_To_Celebrate_Its_35th_Year_Of_Operations_(SVS14825_-_Hubble_35_Jennifer_Wiseman_canned).webm\" rel=\"nofollow noopener\" target=\"_blank\">Attn editors- NASA Hubble Releases New Images To Celebrate Its 35th Year Of Operations (SVS14825 - Hubble 35 Jennifer Wiseman canned)</a>\" de NASA's Scientific Visualization Studio - eMITS/Michelle Handleman, NASA Interns/, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.jpg\" alt=\"Smart prepayment meter\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Smart prepayment meter. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:U-key.jpg\" rel=\"nofollow noopener\" target=\"_blank\">U-key</a>\" de Elwell, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.jpg",
-    "licenta": "Public domain",
-    "autor": "NASA's Scientific Visualization Studio - eMITS/Michelle Handleman, NASA Interns/"
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Elwell"
   }
 }
