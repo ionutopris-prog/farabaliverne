@@ -164,10 +164,24 @@ def cap_articol(s, d, slug, mom, cat_id):
     s = re.sub(r'<span class="cat-tag">([^<]*)</span>',
                lambda m: f'<a class="cat-tag" href="../{cat_id}.html" style="text-decoration:none;color:inherit">{m.group(1)}</a>',
                s, count=1)
+    # Curăță semnăturile deja scrise în paginile vechi. Fără pasul ăsta, regula
+    # de mai jos nu prinde: ea caută data seacă, iar paginile generate înainte au
+    # deja un <span class="byline">. Regex-ul păstrează doar <time>, deci merge
+    # pe ORICE variantă istorică de semnătură, nu doar pe ultima.
+    s = re.sub(
+        r'<span class="byline">.*?(<time[^>]*>.*?</time>).*?</span>',
+        lambda m: f'<span class="byline">{m.group(1)}</span>',
+        s, flags=re.S)
+
     # semnătura + <time>: înlocuiește data seacă „2026-09-12" din rândul .meta
     zi = (d.get("date") or "")[:10]
     if zi:
-        semn = (f'<span class="byline">Verificat de <a href="../cine-suntem.html" style="color:inherit">Ionuț Opriș</a> · '
+        # 🔴 Fără numele fondatorului pe articol (decizia lui, 13 septembrie 2026:
+        # „afara cu verificat cu numele meu, din toate"). Rămâne doar data.
+        # Răspunderea editorială asumată public stă mai departe pe
+        # `cine-suntem.html` și în datele structurate NewsArticle, unde e cerută
+        # de codurile europene de certificare.
+        semn = (f'<span class="byline">'
                 f'<time datetime="{e(pub)}">{data_ro(pub)}</time></span>')
         s = re.sub(rf'<span>{re.escape(zi)}</span>', lambda m: semn, s, count=1)
     return s
