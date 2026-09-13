@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 13 Sep 2026 15:56:29 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 16:05:09 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Site-urile Guvernului, Președinției și ale altor instituții de stat din Moldova, indisponibile pe alocuri — al treilea incident cibernetic din septembrie, fără autor identificat</title>
+      <link>https://farabaliverne.ro/a/moldova-atac-cibernetic-ddos-guvern-presedintie-11-septembrie.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-atac-cibernetic-ddos-guvern-presedintie-11-septembrie.html</guid>
+      <pubDate>Sun, 13 Sep 2026 12:57:57 +0000</pubDate>
+      <category>Politică</category>
+      <description>Pe 11 septembrie 2026, în jurul orei 14:44, site-urile Guvernului, Președinției, mai multor ministere și ale Consiliului Superior al Procurorilor din Republica Moldova au devenit indisponibile pe alocuri. Serviciul Tehnologia Informației și Securitate Cibernetică (STISC) a confirmat un atac de tip DDoS — al treilea incident care afectează resursele web guvernamentale în mai puțin de zece zile. Nicio sursă oficială sau publicație consultată nu a identificat până acum autorul atacului.
+
+Unde bat probele: Probat — atac confirmat oficial de STISC; autorul rămâne neidentificat public. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Aproape un milion de britanici, urmăriți în medie 14 ani: cine își bea ceaiul și cafeaua „foarte fierbinți” are un risc de trei ori mai mare pentru un tip de cancer esofagian. Pentru celălalt tip de cancer esofagian, niciun risc în plus</title>
       <link>https://farabaliverne.ro/a/ceai-cafea-foarte-fierbinte-cancer-esofagian-oxford-un-milion-adulti.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că incidentul a avut loc și că IGP s-a autosesizat �
       <description>Hadja Lahbib, comisara europeană pentru Egalitate, Pregătire și Gestionarea Situațiilor de Criză, a făcut pe 11 septembrie 2026 prima sa vizită oficială în Republica Moldova. S-a întâlnit cu președinta Maia Sandu și premierul Vasile Tofan pe tema reformelor europene și a statului de drept, a asistat la o demonstrație a echipei moldovenești de căutare-salvare urbană (USAR) și a vizitat un centru pentru refugiați și organizația „La Strada”.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Ion Ceban spune că reforma administrativă va închide 600 de primării — Guvernul spune că raioanele nu se desființează, doar li se schimbă atribuțiile</title>
-      <link>https://farabaliverne.ro/a/moldova-reforma-raioane-ceban-truc-electoral-guvern-desfiintare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-reforma-raioane-ceban-truc-electoral-guvern-desfiintare.html</guid>
-      <pubDate>Fri, 11 Sep 2026 12:37:00 +0000</pubDate>
-      <category>Politică</category>
-      <description>Primarul general al Chișinăului, Ion Ceban, a numit reforma administrației publice locale „un truc electoral” al PAS, susținând că ar urma să dispară circa 600 de primării și că Moldova va rămâne cu circa 10 raioane. Guvernul spune, prin vocea secretarului general adjunct Alexandru Iacub, că raioanele nu vor fi desființate „în această fază”, ci doar li se vor revizui atribuțiile — deși numărul exact de unități administrative de nivelul doi a variat, în sursele consultate, între cel mult zece și mai puțin de opt.
-
-Unde bat probele: Mixt — reforma e reală, dar cifrele exacte ale lui Ceban nu au confirmare oficială, iar planul Guvernului însuși s-a schimbat de la o declarație la alta. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
