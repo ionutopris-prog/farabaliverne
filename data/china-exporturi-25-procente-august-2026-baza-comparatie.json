@@ -11,20 +11,32 @@
     {
       "text": "Administrația Generală a Vămilor din China a raportat pe 8 septembrie 2026 că exporturile țării au crescut cu 25% în termeni de dolari SUA față de august 2025, accelerând de la 23,9% în iulie; importurile au crescut cu 28,2%. Excedentul comercial a atins 119,1 miliarde de dolari, în creștere de la 112,5 miliarde în iulie — potrivit analiștilor, pe cale să devină un nou record anual.",
       "sources": [
-        {"name": "NBC News — China's exports pick up in August, jumping 25% as its trade surplus widens", "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"},
-        {"name": "CNBC — China's imports in August miss estimates as calls for rebalancing trade grow", "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html"}
+        {
+          "name": "NBC News — China's exports pick up in August, jumping 25% as its trade surplus widens",
+          "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"
+        },
+        {
+          "name": "CNBC — China's imports in August miss estimates as calls for rebalancing trade grow",
+          "url": "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html"
+        }
       ]
     },
     {
       "text": "Pe destinații: exporturile către SUA au crescut 34,4%, la 42,5 miliarde de dolari; către Uniunea Europeană doar 6,6% (cel mai lent ritm din ultimele 10 luni); către Asia de Sud-Est 30,2%; către America Latină 17,5%. Pe categorii de produse, exporturile de automobile au crescut 43%, iar cele de semiconductori 129,8%.",
       "sources": [
-        {"name": "NBC News — China's exports pick up in August, jumping 25%", "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"}
+        {
+          "name": "NBC News — China's exports pick up in August, jumping 25%",
+          "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"
+        }
       ]
     },
     {
       "text": "Lynn Song, economist-șef pentru Grand China la ING, a declarat că exporturile Chinei „au depășit constant importurile” și că sunt „pe cale să ducă la un excedent comercial record în acest an”. Chi Lo, strateg senior de piață la BNP Paribas, a spus că „China e foarte competitivă în exporturile de tehnologie” și că țara „a avansat agresiv în lanțul valoric, devenind un actor major în infrastructura de inteligență artificială și automatizarea industrială”.",
       "sources": [
-        {"name": "NBC News — China's exports pick up in August, jumping 25%", "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"}
+        {
+          "name": "NBC News — China's exports pick up in August, jumping 25%",
+          "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"
+        }
       ]
     }
   ],
@@ -32,13 +44,19 @@
     {
       "text": "Creșterea de 34,4% a exporturilor către SUA nu înseamnă neapărat că comerțul bilateral e mai puternic ca niciodată: presa citează efecte de bază — exporturile din august 2025, termenul de comparație, fuseseră deja comprimate de rundele de tarife americane impuse anul trecut, ceea ce face ca procentul din 2026 să pară mai mare decât ar arăta o comparație cu un an „normal”, netarifat.",
       "sources": [
-        {"name": "NBC News — China's exports pick up in August, jumping 25%", "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"}
+        {
+          "name": "NBC News — China's exports pick up in August, jumping 25%",
+          "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"
+        }
       ]
     },
     {
       "text": "Chi Lo (BNP Paribas) a avertizat că relația SUA-China rămâne, în fond, una de blocaj reciproc pe produse strategice: „ambele părți se țin reciproc ostatice pe unele produse strategice, SUA reținând bunurile tehnologice avansate de la vânzarea către China, iar China reținând exporturile de pământuri rare” — deci cifrele de creștere nu anulează fricțiunea structurală dintre cele două economii, doar o mascează temporar.",
       "sources": [
-        {"name": "NBC News — China's exports pick up in August, jumping 25%", "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"}
+        {
+          "name": "NBC News — China's exports pick up in August, jumping 25%",
+          "url": "https://www.nbcnews.com/world/asia/china-exports-august-jump-25-percent-trade-surplus-widens-rcna596541"
+        }
       ]
     }
   ],
@@ -48,5 +66,12 @@
     "explanation": "Media de 25% creștere a exporturilor Chinei ascunde o distribuție foarte neuniformă: către Uniunea Europeană, cel mai lent ritm din 10 luni (6,6%), în timp ce către SUA — piața cea mai afectată de tarife — creșterea a fost cea mai mare dintre toate destinațiile majore (34,4%), parțial explicată de comparația cu un august 2025 deja comprimat de tarife."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate.\n\nCe s-a verificat: cifrele oficiale ale vămilor chineze — exporturi +25%, importuri +28,2%, excedent 119,1 miliarde de dolari — sunt confirmate identic de NBC News și CNBC, care citează aceeași sursă vamală. Defalcarea pe destinații și categorii de produse vine dintr-o singură sursă (NBC News), dar cifrele sunt interne și consistente (procentele pe regiuni se adună la un tablou coerent cu media generală).\n\nUnde e nevoie de nuanță: titlurile „exporturile Chinei explodează” sau „exporturile spre SUA explodează cu 34%” pot lăsa impresia unei relații comerciale în plină înflorire. Analiștii citați arată însă că procentul mare spre SUA se explică parțial prin comparația cu o bază joasă — augustul 2025, deja afectat de tarife — nu neapărat printr-o cerere americană explozivă. E genul de cifră adevărată, care fără context poate fi citită greșit.\n\nCe lipsește: nu există, în sursele consultate, o cifră exactă a cât din creșterea de 34,4% se explică prin efectul de bază și cât prin cerere reală suplimentară — analiștii semnalează fenomenul, dar nu îl cuantifică separat.\n\nCe ar schimba concluzia: datele lunii septembrie 2026, care ar arăta dacă ritmul de creștere se menține (semn de cerere reală) sau se domolește brusc odată ce baza de comparație redevine „normală”.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/china-exporturi-25-procente-august-2026-baza-comparatie.jpg\" alt=\"Exporturile\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Exporturile. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:China_(Hunan)_Pilot_Free_Trade_Zone_20250221N.jpg\" rel=\"nofollow noopener\" target=\"_blank\">China (Hunan) Pilot Free Trade Zone 20250221N</a>\" de Huangdan2060, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/china-exporturi-25-procente-august-2026-baza-comparatie.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Huangdan2060"
+  }
 }
