@@ -145,6 +145,29 @@ să citești știri."*
 7. **Fotografia respiră.** Imagine mare sus, colțuri rotunjite, creditul vizibil
    dedesubt — onestitatea se vede, nu se ascunde în subsol.
 
+### Referința vizuală: Ground News (arătată de fondator pe 13 septembrie)
+
+Ce facem cu ea: luăm **tiparele**, nu înfățișarea. Tiparele sunt oricum
+standardul iOS (selector sus, carduri, bară de file jos), iar identitatea
+noastră rămâne a noastră: serif pentru titluri, paleta petrol și alb, „Apă,
+paie… Adevăr".
+
+**Ce iau de la ei, cu echivalentul nostru:**
+
+| La ei | La noi |
+|---|---|
+| „43 Sources • 3h ago" pus mare, ca măsură a știrii | **„4 probate · 3 contestate"** — numărul de dovezi e măsura noastră, și e mai bună decât a lor, fiindcă spune ce s-a verificat, nu doar câți au scris |
+| Bara colorată L 25 % / C 50 % / R 25 % (orientarea politică a presei) | **Bara dovezilor:** cât din articol e probat, cât contestat, cât contrazis. Se vede dintr-o privire unde bat probele, fără să citești. NU copiem bara stânga-dreapta: noi nu clasificăm presa politic, asta e chiar decizia ta din 5 septembrie |
+| „Blindspot" — ce nu acoperă o tabără | **„Cum a titrat fiecare"** — pe care îl avem deja pe site: aceeași știre, prin titlurile fiecărei publicații, fără etichete puse de noi. E cel mai apropiat lucru de ce vinde Ground News, și e deja scris |
+| File sus: Top / For You / Blindspot | File sus: **Toate / Pentru tine / Contrazise** |
+| „Daily Briefing — stories you may have missed", carusel | **„Ediția de azi"** și **„Ce ai ratat"**, carusel orizontal |
+| Bară jos: News / Discover / Alerts / Profile | **Știri / Caută / Alerte / Eu** |
+| Fotografie mare, colțuri rotunjite, rezumat scurt sub titlu | La fel, cu dek-ul nostru, care e deja scris pentru asta |
+
+**Ce NU luăm:** bara de abonament peste conținut, clasificarea presei pe
+stânga-dreapta, și insistența pe „câte surse" ca scop în sine. Noi numărăm
+dovezi, nu surse.
+
 🔴 **Cum se aleg culorile și așezarea: NU din descrieri, ci văzându-le.** Regula
 lui, din 11 septembrie: deciziile vizuale se iau pe un ecran cu butoane de
 comparat, nu din argumente scrise. La Etapa 1 fac două-trei variante de ecran de
