@@ -60,7 +60,9 @@ Ce faci cu răspunsul:
 - **✅ / SUBIECT NOU** — publică normal.
 
 PASUL 3 — Scrie fiecare articol (după șablon, EXACT):
-- `data/<slug>.json`: schema completă (slug,title,category,date,source,url,dek,mainVerdict,probat[],contestat[],opinie[],math,aiNote,persoane[]). Fiecare probat/contestat = text + sources[] (name+url REALE verificate).
+- `data/<slug>.json`: schema completă (slug,title,**seoTitle**,category,date,source,url,dek,mainVerdict,probat[],contestat[],opinie[],math,aiNote,persoane[]).
+  - 🔴 **`seoTitle` e OBLIGATORIU și NU e titlul scurtat.** E titlul pe care îl vede Google, iar `title` rămâne cel editorial, lung, care se vede pe pagină. Reguli: **50–62 de caractere**, cuvintele după care caută omul în **primele 30** (numele localității, al instituției, al bolii, al legii), fapt concret, fără „…", fără semnul întrebării, fără marca site-ului (se adaugă singură). Măsurat pe 13 septembrie 2026: tăierea automată a titlului edito­rial arunca exact cuvintele căutate — „Aproape un milion de britanici, urmăriți în medie 14 ani" nu conținea nici *ceai*, nici *cancer*; „…cel mai mare cuptor de…" pierdea *Cucuteni*. Scrie-l tu, nu-l lăsa pe generator să ghicească.
+  - Exemple bune: „Ceai și cafea fierbinți: risc triplu de cancer esofagian" · „Cutremurele din Gorj din 2023: ce a arătat analiza INFP" · „Roșia Montană: ce spun localnicii despre mină, într-un studiu". Fiecare probat/contestat = text + sources[] (name+url REALE verificate).
 - `a/<slug>.html`: **NU îl scrie de mână.** Rulează `python3 scripts/scrie_articol.py <slug>` — generează pagina din JSON, cu head meta corect (canonical/og:url/og:title/og:image pe slug-ul tău), hero, card `.src-cite`, secțiunile probat/contestat/opinie, Nota AI și blocul de cifre. Scrisul de mână al celor ~750 de linii de HTML îți mânca bugetul de tururi pe muncă mecanică, nu pe verificare — de-aia edițiile se opreau la jumătate. Tu scrii DOAR JSON-ul; HTML-ul e mecanic.
 - **POZA — obligatoriu prin unealtă, NICIODATĂ hotlink la poza altei publicații.**
   Rulează: `python3 scripts/article_image.py <slug> "<ce căutăm>" "<titlu + dek>" [persoana]`

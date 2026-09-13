@@ -68,6 +68,27 @@ def seo_titlu(titlu, maxim=64):
     return taiat.rstrip(" ,;:—–-") + "…"
 
 
+def titlu_cautare(d):
+    """Titlul pe care îl vede Google. Dacă articolul are `seoTitle` scris de om,
+    ăla câștigă; altfel se taie automat din titlul editorial.
+
+    De ce (13 septembrie 2026, cerut de fondator: „titluri care să prindă
+    algoritmul"): titlurile noastre încep cu povestea, nu cu subiectul căutat,
+    iar tăierea automată la prima propoziție arunca exact cuvintele după care
+    caută omul. Trei exemple măsurate: „Aproape un milion de britanici, urmăriți
+    în medie 14 ani" (fără ceai, cafea, cancer), „…cel mai mare cuptor de…"
+    (fără Cucuteni), „Cercetarea despre războaie măsoară violența aproape numai
+    prin…" (fără Ucraina, fără satelit). H1-ul lung rămâne neatins pe pagină.
+
+    Regula pentru `seoTitle`: 50–62 de caractere, cuvintele-cheie în primele 30,
+    fără marcă (se adaugă singură), fără „…", fapt concret, nu întrebare.
+    """
+    t = (d.get("seoTitle") or "").strip()
+    if t:
+        return re.sub(r"\s+", " ", t)
+    return seo_titlu(d.get("title", ""))
+
+
 def seo_descriere(dek, maxim=155):
     """Meta description: propoziții întregi din dek, ≤ `maxim`, fără emoji în față."""
     t = re.sub(r"\s+", " ", (dek or "")).strip()
@@ -121,7 +142,7 @@ def _meta(s, k, val, prop=True):
 
 def cap_articol(s, d, slug, mom, cat_id):
     """Rescrie <title>, descrierile, og/article meta pe pagina unui articol."""
-    titlu = seo_titlu(d.get("title", ""))
+    titlu = titlu_cautare(d)
     desc = seo_descriere(d.get("dek", ""))
     pub = moment_iso(d, mom)
     s = re.sub(r"<title>.*?</title>", lambda _: f"<title>{e(titlu)} — Fără Baliverne</title>", s, count=1, flags=re.S)
@@ -175,7 +196,7 @@ def date_structurate(d, slug, img, card_url, mom, eticheta, cat_id):
     pub = moment_iso(d, mom)
     imagini = [x for x in (card_url, img) if x]
     ld = {"@context": "https://schema.org", "@type": "NewsArticle",
-          "headline": seo_titlu(d.get("title", ""), 110),
+          "headline": titlu_cautare(d)[:110],
           "alternativeHeadline": d.get("title", ""),
           "description": seo_descriere(d.get("dek", ""), 300),
           "image": imagini,
@@ -190,7 +211,7 @@ def date_structurate(d, slug, img, card_url, mom, eticheta, cat_id):
     crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Acasă", "item": BAZA + "/"},
         {"@type": "ListItem", "position": 2, "name": d.get("category", ""), "item": f"{BAZA}/{cat_id}.html"},
-        {"@type": "ListItem", "position": 3, "name": seo_titlu(d.get("title", ""), 110), "item": url}]}
+        {"@type": "ListItem", "position": 3, "name": titlu_cautare(d)[:110], "item": url}]}
     blocuri = [ld, crumbs]
     if eticheta and d.get("category") in CU_CLAIMREVIEW:
         cr = {"@context": "https://schema.org", "@type": "ClaimReview",
