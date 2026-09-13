@@ -600,5 +600,42 @@
       "text": "Căldură ieșită din comun la Sofia: maximă de 32 °C — cu 8 °C peste media zilei (1991–2020: 23 °C) și peste orice maximă din ultimii 10 ani în perioada asta (31 °C).",
       "tip": "Temperaturi extreme"
     }
+  ],
+  "2026-09-12": [
+    {
+      "cheie": "us7000tgvr",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgvr",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, în regiunea Insulelor Sandwich de Sud.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000th1q",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th1q",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, la 101 km sud de Yudomari, Japonia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "spc:2026-09-12",
+      "link": "https://www.spc.noaa.gov/climo/reports/260912_rpts.html",
+      "sursa": "NOAA SPC",
+      "text": "2 tornade raportate în SUA — FL, VA.",
+      "tip": "Tornadă"
+    },
+    {
+      "cheie": "temp:2026-09-12:Novosibirsk",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Novosibirsk: maximă de 29 °C — cu 14 °C peste media zilei (1991–2020: 15 °C) și peste orice maximă din ultimii 10 ani în perioada asta (25 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-12:Lisabona",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Lisabona: maximă de 34 °C — cu 8 °C peste media zilei (1991–2020: 25 °C) și peste orice maximă din ultimii 10 ani în perioada asta (33 °C).",
+      "tip": "Temperaturi extreme"
+    }
   ]
 }
