@@ -78,9 +78,23 @@ def nume_proprii(d):
     return ies[:4]
 
 
+# 🔴 Categoriile unde numele de oameni NU se caută pe Commons.
+# La „Minți luminate" persoanele din articol sunt cercetători, nu oameni publici
+# fotografiați. Commons nu-i are, dar are pe altcineva cu nume asemănător — și
+# atunci pune poza aia. S-a întâmplat pe 13 septembrie 2026: articolul despre
+# studiul BJPsych din București a ieșit ilustrat cu Barack Obama ținând un tricou
+# de baseball, fiindcă unul dintre autori se numea Albert Rizzo, iar Commons are
+# poze cu jucătorul Anthony Rizzo. Înainte: „Langa Township" pe articolul despre
+# Ursoaia și o carte de genealogie pe cel despre Copenhaga.
+#
+# Regula fondatorului, după ce a văzut poza: la „Minți luminate" poza se alege
+# de mână, după SUBIECT, cu `scripts/pune_poza.py <slug> "<căutare>" "<context>"`.
+FARA_NUME = {"Minți luminate"}
+
+
 def intrebari(d):
     """Întrebările de încercat, în ordine. Ultima e categoria — plasa de siguranță."""
-    q = nume_proprii(d)
+    q = [] if d.get("category") in FARA_NUME else nume_proprii(d)
     CAT = {
         "Politică": "parliament building government",
         "Economie": "stock exchange trading floor",
@@ -171,6 +185,16 @@ def main():
         for slug, *_ in lista:
             print("   ", slug)
         return 0
+
+    # Minți luminate nu se rezolvă automat: poza se alege de mână, după subiect.
+    de_mana = [x for x in lista if x[2].get("category") in FARA_NUME]
+    if de_mana and "--si-minti" not in sys.argv:
+        lista = [x for x in lista if x[2].get("category") not in FARA_NUME]
+        print(f'\n✋ {len(de_mana)} articole din „Minți luminate": poza se alege de mână,')
+        print("   fiindcă numele cercetătorilor dau potriviri greșite pe Commons:")
+        for slug, *_ in de_mana:
+            print(f'   python3 scripts/pune_poza.py {slug} "<căutare în engleză>" "<context>"')
+        print()
 
     reparate, ramase = 0, []
     for slug, j, d, pagina, html in lista:
