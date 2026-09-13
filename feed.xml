@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 14 Sep 2026 01:43:54 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 01:47:34 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Suedia a votat cu gândul la o guvernare de extremă dreapta — dar numărătoarea arată partidul Sweden Democrats în scădere</title>
+      <link>https://farabaliverne.ro/a/suedia-alegeri-13-septembrie-extrema-dreapta-scade.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/suedia-alegeri-13-septembrie-extrema-dreapta-scade.html</guid>
+      <pubDate>Sun, 13 Sep 2026 22:45:08 +0000</pubDate>
+      <category>Extern</category>
+      <description>Suedezii au votat duminică, 13 septembrie 2026, într-un scrutin care putea aduce pentru prima oară partidul naționalist Sweden Democrats direct la guvernare. La jumătatea numărătorii, cursa e la limită între cele două blocuri, dar surpriza e alta: Sweden Democrats a scăzut, prima oară de la intrarea sa în Parlament în 2010.
+
+Unde bat probele: Probat, rezultate parțiale. Verificate: 4 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>O masă caritabilă de 5,5 km în fața Parlamentului, transformată pe TikTok într-o „baricadă” anti-protest</title>
       <link>https://farabaliverne.ro/a/masa-care-uneste-fals-baricada-protest-15-septembrie.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
       <description>Pe 6 septembrie 2026, telescopul Mount Lemmon din Arizona a descoperit un asteroid mic cu aproximativ șase-șapte ore înainte ca acesta să intre în atmosferă și să ardă complet deasupra Oceanului Indian, între Australia de Vest și Indonezia. Obiectul, numit ulterior 2026 RW1, a fost al 13-lea asteroid din istorie detectat în spațiu înainte de a lovi Pământul — și, spun astronomii, probabil primul din familia orbitală „Aten” prins înainte de impact.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Houthii spun că au control „total” pe Bab al-Mandeb și că navigația e „sigură” — dar traficul naval s-a prăbușit de la 30 la 12 nave pe zi</title>
-      <link>https://farabaliverne.ro/a/houthi-bab-al-mandeb-control-navigatie-sigura-trafic-prabusit.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/houthi-bab-al-mandeb-control-navigatie-sigura-trafic-prabusit.html</guid>
-      <pubDate>Sat, 12 Sep 2026 00:49:53 +0000</pubDate>
-      <category>Extern</category>
-      <description>🌍 După ce au cucerit portul Mocha și insula Perim (Mayyun), houthii susțin, prin oficialul de politburo Hazem al-Assad, că navigația comercială prin strâmtoarea Bab al-Mandeb rămâne „sigură și ordonată”. Datele portuare arată altceva: traficul naval prin zonă a scăzut de la 30 de nave miercuri la 12 joi, iar un comandant houthi a promis să „țintească liniile de petrol”. Bilanțul luptelor diferă între surse — de la peste 60 de morți într-o singură zi la peste 500 pe toată durata ofensivei.
-
-Unde bat probele: Contestat — controlul teritorial e confirmat de mai multe surse, dar afirmația despre „navigație sigură” e contrazisă chiar de datele privind traficul naval. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
