@@ -51,6 +51,60 @@ circulă.** Unde se găsesc, gratuit și legal:
 5. Alți verificatori (Veridica, Factual.ro) — DOAR ca semnal că o afirmație
    circulă. Verificarea o faci tu, din surse primare, și nu reproduci textul lor.
 
+6. **Monitorizare LARGĂ a presei românești, nu a unei liste de vinovați.**
+   Treci în revistă un spectru întreg: Digi24, HotNews, G4Media, Adevărul,
+   Libertatea, Mediafax, Agerpres, Observator/Antena 1, Știrile Pro TV, Gândul,
+   Spotmedia, Recorder, Biziday, Economedia, Profit.ro, Capital, Newsweek
+   România, Aktual24, Antena 3 CNN, România TV, Realitatea Plus, Evenimentul
+   Zilei, Puterea, activenews și altele. **Nu ocoli niciun outlet și nu ținti
+   niciunul.**
+
+   🔴 **Semnalul cel mai bun NU e „ce outlet a scris", ci „outleturile se
+   contrazic între ele pe aceeași știre".** Când două publicații dau cifre
+   diferite, atribuiri diferite sau un fapt pe care cealaltă îl neagă, acolo e
+   sigur ceva de verificat, și acolo iese cea mai utilă verificare. Caută
+   activ contradicțiile, nu numele.
+
+   **De ce așa și nu „monitorizăm site-urile care mint" (regula fondatorului,
+   5 septembrie 2026):** secțiunea „Cloșcu cu Puii de AUR" a fost ștearsă
+   definitiv fiindcă, în cuvintele lui, *„pare că site-ul e făcut să fie
+   împotriva AUR, iar site-ul e făcut să prezinte adevărul ușor de înțeles"*.
+   O conductă care pornește de la o listă de outleturi-țintă recreează exact
+   aceeași problemă: cititorul nu mai vede metoda, vede ținta. Verificările se
+   adună după AFIRMAȚII, nu după cine le-a spus. Dacă, după sute de verificări,
+   se vede că afirmațiile unui anumit outlet pică cel mai des, aia e o
+   constatare care IESE din dovezi și o putem publica cu cele sute de verificări
+   în spate. Nu e o premisă de la care pornim.
+
+   **Cum se scrie, ca să nu fie defăimare:** niciodată despre canal, întotdeauna
+   despre afirmație, cu data și locul. NU „România TV publică minciuni", ci
+   „afirmația că X, difuzată de Y pe data Z, nu se susține: [sursele care arată
+   altceva]". Regula „neadevăr, nu minciună" din `CLAUDE.md` se aplică
+   outleturilor exact ca politicienilor: arăți mecanismul, nu imputezi intenția.
+   Blocul „Cum a titrat fiecare" (`AUTO:titluri`) e locul unde se vede singură
+   diferența dintre publicații, fără ca noi să punem etichete.
+
+7. **Filonul de neadevăruri mari, care circulă de ani de zile.** Nu tot ce
+   merită verificat e de azi. Există afirmații care circulă masiv în română, sunt
+   infirmate de tot ce se știe, și pe care nimeni nu le-a verificat pe înțelesul
+   omului: Pământul plat, „dârele de pe cer" (chemtrails), 5G și sănătatea,
+   nanocipuri în vaccinuri, apa „structurată", leacuri-minune pentru cancer,
+   perpetuum mobile, „nu s-a ajuns pe Lună", fluorul din apă, alimente care
+   „vindecă" orice. Verifică-le ca pe orice altă afirmație: cine o susține și
+   unde circulă, ce spun măsurătorile și sursele primare, unde se rupe
+   mecanismul.
+
+   **Astea sunt cel mai bun material pentru mandatul site-ului** fiindcă întrunesc
+   tot: sunt crezute de mulți oameni, sunt infirmate fără dubiu, nu vizează o
+   persoană anume (deci zero risc de defăimare) și lumea le caută pe Google tot
+   anul, nu doar în ziua în care apar. `mainVerdict` firesc: **Contrazis**.
+
+   🔴 **Fără echilibru fals.** Vezi secțiunea din `CLAUDE.md`: când probele bat
+   covârșitor într-o direcție, o spui limpede. NU scrii „unii spun una, alții
+   alta, trageți voi concluzia" despre un fapt stabilit — asta e o minciună prin
+   prezentare. Scrii ce arată dovezile, arăți dovezile, și explici DE CE se rupe
+   afirmația. Nuanța e pentru dispute reale, nu pentru cele inventate.
+
 **Cum se scrie o astfel de verificare:** în `dek` spui CINE a afirmat și UNDE;
 în `probat` pui ce se susține cu dovezi; în `contestat` pui ce nu se susține,
 cu sursa care arată altceva. `mainVerdict` urmează dovezile.

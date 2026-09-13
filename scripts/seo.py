@@ -332,6 +332,132 @@ def build_categorii(arts, shell, mom, cat_order, cat_id, card, cheie_timp, root)
     return scrise
 
 
+# ─── paginile de verdict: apeși pe „Contrazis" și le vezi pe toate ──────────
+# Cerut de fondator pe 13 septembrie 2026: „de ce nu pui undeva și posibilitatea
+# ca omul să apese pe contrazis și să-i apară toate articolele". E gruparea după
+# CE AU ARĂTAT DOVEZILE, nu după cine a fost vizat — deci respectă regula din
+# 5 septembrie (verificările se adună după afirmații, nu după persoane).
+VERDICTE = {
+    "Contrazis": ("contrazis", "❌", "bad",
+                  "Afirmații pe care dovezile le infirmă. Fiecare cu sursele care arată altceva. "
+                  "Nu spunem că cineva a mințit: arătăm de ce afirmația nu se susține."),
+    "Contestat": ("contestat", "⚠️", "warn",
+                  "Afirmații în jurul cărora sursele serioase se despart. Arătăm ambele părți și de ce "
+                  "diferă, iar concluzia o trageți dumneavoastră."),
+    "Probat": ("probat", "✅", "ok",
+               "Afirmații susținute de dovezi verificabile. Sursele sunt lângă fiecare, ca să le puteți "
+               "controla singuri."),
+    "În verificare": ("in-verificare", "🔍", "check",
+                      "Afirmații pe care le avem în lucru. Le arătăm înainte de a avea concluzia, ca să "
+                      "se vadă ce verificăm."),
+}
+
+
+def build_verdicte(arts, shell, mom, card, cheie_timp, verdict_scurt, root):
+    """Scrie contrazis.html, contestat.html, probat.html, in-verificare.html
+    (+ paginare). Întoarce [(fișier, lastmod)], ca paginile de categorie."""
+    import json
+    grupe = {}
+    for d in arts.values():
+        if not os.path.exists(os.path.join(root, "a", d["slug"] + ".html")):
+            continue
+        v = verdict_scurt(d.get("mainVerdict"))
+        if v in VERDICTE:
+            grupe.setdefault(v, []).append(d)
+    scrise = []
+    for v, (vid, glyph, klas, desc) in VERDICTE.items():
+        items = grupe.get(v, [])
+        if not items:
+            continue
+        items.sort(key=lambda d: cheie_timp(d, mom), reverse=True)
+        pagini = [items[i:i + PE_PAGINA] for i in range(0, len(items), PE_PAGINA)]
+        for nr, lot in enumerate(pagini, 1):
+            fis = (vid + ".html") if nr == 1 else (vid + "-" + str(nr) + ".html")
+            titlu = glyph + " " + v + " — " + str(len(items)) + " verificări"
+            if nr > 1:
+                titlu += " (pagina " + str(nr) + ")"
+            d2 = desc if nr == 1 else ("Pagina " + str(nr) + " din " + str(len(pagini)) + ". " + desc)
+            cards = "".join(card(x) for x in lot)
+            pager = ""
+            if len(pagini) > 1:
+                leg = []
+                for k in range(1, len(pagini) + 1):
+                    f2 = (vid + ".html") if k == 1 else (vid + "-" + str(k) + ".html")
+                    if k == nr:
+                        leg.append('<strong style="padding:6px 10px">' + str(k) + "</strong>")
+                    else:
+                        leg.append('<a href="' + f2 + '" style="padding:6px 10px;text-decoration:none;'
+                                   'border:1px solid var(--line);border-radius:8px;color:inherit">' + str(k) + "</a>")
+                pager = ('        <nav class="pager" aria-label="Pagini" style="display:flex;gap:8px;'
+                         'flex-wrap:wrap;justify-content:center;margin:26px 0 40px;font-size:15px">'
+                         + "\n".join(leg) + "</nav>\n")
+            alte = " · ".join(
+                '<a href="' + o[0] + '.html" style="color:inherit">' + o[1] + " " + k + "</a>"
+                for k, o in VERDICTE.items() if k != v and grupe.get(k))
+            main = (
+                '    <div class="wrap">\n'
+                '      <nav aria-label="Ești aici" style="font-size:13px;color:var(--ink-faint);padding:18px 0 0">\n'
+                '        <a href="index.html" style="color:inherit">Acasă</a> &rsaquo; <span>' + e(v) + "</span></nav>\n"
+                '      <div style="padding:10px 0 6px">\n'
+                '        <h1 style="font-family:Georgia,serif;font-size:34px;margin:0 0 8px">' + glyph + " " + e(v) + "</h1>\n"
+                '        <p style="color:var(--ink-soft);font-size:16px;line-height:1.6;max-width:64ch">' + e(desc) + "</p>\n"
+                '        <p style="color:var(--ink-faint);font-size:13px">' + str(len(items))
+                + " verificări, cele mai noi întâi. Vezi și: " + alte + "</p>\n"
+                "      </div>\n"
+                '      <section class="cat-section" id="' + vid + '">\n'
+                '        <div class="cards-3">\n'
+                + cards.rstrip("\n") + "\n"
+                "        </div>\n"
+                "      </section>\n"
+                + pager + "    </div>")
+            h = re.sub(r"<main>.*?</main>", lambda m: "<main>\n" + main + "\n  </main>", shell, count=1, flags=re.S)
+            url = BAZA + "/" + fis
+            h = re.sub(r"<title>.*?</title>", lambda _: "<title>" + e(titlu) + " — Fără Baliverne</title>",
+                       h, count=1, flags=re.S)
+            h = re.sub(r'(<link rel="canonical" href=")[^"]*(">)', lambda m: m.group(1) + url + m.group(2), h, count=1)
+            h = _meta(h, "og:url", url)
+            h = _meta(h, "og:title", titlu)
+            h = _meta(h, "twitter:title", titlu, prop=False)
+            h = _meta(h, "description", d2, prop=False)
+            h = _meta(h, "og:description", d2)
+            h = _meta(h, "twitter:description", d2, prop=False)
+            h = _meta(h, "og:type", "website")
+            if nr > 1:
+                h = h.replace("</head>", '  <link rel="prev" href="' + BAZA + "/" + vid + '.html">\n</head>', 1)
+            if nr < len(pagini):
+                f3 = vid + "-" + str(nr + 1) + ".html"
+                h = h.replace("</head>", '  <link rel="next" href="' + BAZA + "/" + f3 + '">\n</head>', 1)
+            h = re.sub(r'<script type="application/ld\+json">.*?</script>\n?', "", h, flags=re.S)
+            ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": titlu,
+                  "url": url, "inLanguage": "ro", "description": desc,
+                  "isPartOf": {"@type": "WebSite", "url": BAZA + "/"}}
+            h = h.replace("</head>", '  <script type="application/ld+json">'
+                          + json.dumps(ld, ensure_ascii=False) + "</script>\n</head>", 1)
+            open(os.path.join(root, fis), "w", encoding="utf-8").write(h)
+            scrise.append((fis, (lot[0].get("date") or "")[:10]))
+    return scrise
+
+
+_RE_CHIP_LEGENDA = re.compile(
+    r'<span class="chip soft (ok|warn|bad|check)"><span class="ic">([^<]*)</span> ([^<]+)</span>')
+
+
+def legenda_clicabila(s, pref=""):
+    """Pastilele din legendă devin linkuri către paginile de verdict."""
+    dupa_clasa = {val[2]: val[0] for val in VERDICTE.values()}
+
+    def _inl(m):
+        klas, ic, txt = m.group(1), m.group(2), m.group(3)
+        vid = dupa_clasa.get(klas)
+        if not vid:
+            return m.group(0)
+        return ('<a href="' + pref + vid + '.html" class="chip soft ' + klas + '" '
+                'style="text-decoration:none;color:inherit" title="Vezi toate verificările: '
+                + txt.strip() + '"><span class="ic">' + ic + "</span> " + txt + "</a>")
+
+    return _RE_CHIP_LEGENDA.sub(_inl, s)
+
+
 def link_toate(s, cat_order, cat_id):
     """Pe prima pagină: sub titlul fiecărei secțiuni, „Toate din X →" spre pagina categoriei."""
     for cat in cat_order:

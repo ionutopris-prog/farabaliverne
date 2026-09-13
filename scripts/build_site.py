@@ -2009,7 +2009,7 @@ def build_sitemap(arts):
                         % (B, _f, seo.git_lastmod(ROOT, "parlamentar/" + _f, time.strftime("%Y-%m-%d"))))
 
     # Paginile de categorie: lastmod = cel mai nou articol din categorie
-    for fis, lm in PAGINI_CATEGORII:
+    for fis, lm in PAGINI_CATEGORII + PAGINI_VERDICTE:
         rows.append('<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>' % (B, fis, lm or today))
     for pg in ("politicieni.html","parlament.html","cauta.html","cifre.html","letopiset.html","publicitate.html","metodologie.html",
                "cine-suntem.html","corectari.html","contact.html","termeni.html","confidentialitate.html","statistici.html"):
@@ -2123,6 +2123,10 @@ def main():
     global PAGINI_CATEGORII
     PAGINI_CATEGORII = seo.build_categorii(arts, shell, mom, CAT_ORDER, CAT_ID, card, cheie_timp, ROOT)
     print(f"✅ pagini de categorie: {len(PAGINI_CATEGORII)}")
+    # Paginile de verdict: apeși pe „Contrazis" în legendă și le vezi pe toate.
+    global PAGINI_VERDICTE
+    PAGINI_VERDICTE = seo.build_verdicte(arts, shell, mom, card, cheie_timp, verdict_scurt, ROOT)
+    print(f"✅ pagini de verdict: {len(PAGINI_VERDICTE)}")
     if _leto:
         open(os.path.join(ROOT, "letopiset.html"), "w", encoding="utf-8").write(_leto)
     # 2b. sitemap.xml (toate articolele + hub) pentru Google
@@ -2140,7 +2144,7 @@ def main():
                                             "corectari.html","contact.html","termeni.html",
                                             "confidentialitate.html","404.html",
                                             "parlament.html","moldova/index.html","statistici.html")] + \
-            [os.path.join(ROOT, fis) for fis, _ in PAGINI_CATEGORII]
+            [os.path.join(ROOT, fis) for fis, _ in PAGINI_CATEGORII + PAGINI_VERDICTE]
     tb = now_edition()
     date_re = re.compile(r'(<div class="date">).*?(</div>)', re.S)
     hub = {IDX, os.path.join(ROOT,"politicieni.html"), os.path.join(ROOT,"publicitate.html"),
@@ -2199,6 +2203,8 @@ def main():
             if '"@type": "NewsMediaOrganization"' not in s and '"NewsMediaOrganization"' not in s:
                 s = s.replace('</head>', '  <script type="application/ld+json">' + json.dumps(seo.organizatie_ld(), ensure_ascii=False) + '</script>\n</head>', 1)
         s = s.replace('<div class="legend">', '<div class="legend" data-nosnippet>')
+        # Legenda devine clicabilă: fiecare pastilă duce la toate verificările cu acel verdict
+        s = seo.legenda_clicabila(s, "../" if (os.sep + "a" + os.sep in f or os.sep + "parlamentar" + os.sep in f) else "")
         s = s.replace('<footer>', '<footer data-nosnippet>')
         # Cloșcu a fost scoasă definitiv. Curățarea rămâne pentru totdeauna,
         # necondiționat: linkul se propagă prin șablonul articolelor, deci fără
