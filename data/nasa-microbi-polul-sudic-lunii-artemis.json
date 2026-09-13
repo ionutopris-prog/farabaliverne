@@ -1,0 +1,49 @@
+{
+  "slug": "nasa-microbi-polul-sudic-lunii-artemis",
+  "title": "Microbi aduși de oameni ar putea supraviețui la polul sudic al Lunii, arată un studiu NASA gândit pentru misiunile Artemis",
+  "category": "Știință",
+  "date": "2026-09-13",
+  "source": "NASA Goddard Space Flight Center — publicat în Science Advances",
+  "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+  "dek": "Cercetători de la NASA Goddard, conduși de Prabal Saxena, au testat prin modelare cinci microorganisme cunoscute pentru rezistența lor și au descoperit că unele ar putea supraviețui cel puțin o zi terestră în crăpăturile permanent umbrite de la polul sudic lunar — exact zona vizată de aselenizările Artemis. Studiul nu spune că Luna poate găzdui viață microbiană; spune că oamenii trebuie să aibă grijă să nu-și „contamineze” propriile viitoare căutări de viață pe Marte.",
+  "mainVerdict": "Probat ce a modelat studiul; distincția supraviețuire vs. înmulțire e esențială și explicită în cercetare",
+  "probat": [
+    {
+      "text": "Echipa condusă de Prabal Saxena, cercetător planetar la NASA Goddard Space Flight Center, a modelat condițiile din trei situri candidate pentru aselenizările misiunilor Artemis, la polul sudic al Lunii — Nobile Rim, Connecting Ridge și De Gerlache Rim — și a testat, prin simulare, capacitatea de supraviețuire a cinci microorganisme cunoscute pentru toleranța lor în condiții extreme de zbor spațial, printre care fungul Aspergillus niger. Concluzia: în anumite nișe permanent umbrite și extrem de reci din aceste zone, unele dintre organisme ar putea rezista cel puțin o zi terestră.",
+      "sources": [
+        {"name": "NASA Science — Human-Related Microbes May Survive Moon's South Pole, NASA Finds", "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/"},
+        {"name": "Houston Public Media — Human microbes might be able to survive on the Moon's South Pole", "url": "https://www.houstonpublicmedia.org/articles/news/nasa/space/2026/08/21/560126/microbe-bacteria-moon-base-south-pole-artemis/"}
+      ]
+    },
+    {
+      "text": "Cercetătorii NASA subliniază explicit că rezultatul nu înseamnă că Luna poate susține viață microbiană — supraviețuirea pasivă, pentru scurt timp, într-un mediu extrem nu echivalează cu înmulțirea sau colonizarea. Andrew Needham, cercetător la NASA Goddard implicat în proiect, a explicat miza reală a studiului: „Trebuie să înțelegem ce era acolo înainte de noi, pentru că atunci când mergem pe Marte să căutăm semne de viață dincolo de planeta noastră, vom vrea să fim siguri că nu e ceva ce am adus noi.”",
+      "sources": [
+        {"name": "Scientific American — Some microbes could survive on the moon—that's a big problem for NASA", "url": "https://www.scientificamerican.com/article/some-microbes-could-survive-on-the-moon-thats-a-big-problem-for-nasa/"},
+        {"name": "NASA Science — Human-Related Microbes May Survive Moon's South Pole, NASA Finds", "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Rezultatul e o modelare pentru cel puțin o zi terestră de expunere, în condiții simulate — nu o observație experimentală directă pe Lună și nici un test pe durate mai lungi sau în combinație cu toți factorii reali ai unei misiuni (radiație cumulată, praf lunar abraziv, cicluri termice repetate). Studiul e gândit ca instrument de planificare a protecției planetare pentru Artemis, nu ca dovadă că vreo contaminare a avut deja loc sau că microbii ar rezista pe termen lung fără intervenție umană.",
+      "sources": [
+        {"name": "Houston Public Media — Human microbes might be able to survive on the Moon's South Pole", "url": "https://www.houstonpublicmedia.org/articles/news/nasa/space/2026/08/21/560126/microbe-bacteria-moon-base-south-pole-artemis/"},
+        {"name": "Scientific American — Some microbes could survive on the moon—that's a big problem for NASA", "url": "https://www.scientificamerican.com/article/some-microbes-could-survive-on-the-moon-thats-a-big-problem-for-nasa/"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu al NASA Goddard, publicat în Science Advances și relatat de NASA Science, Houston Public Media și Scientific American.\n\nCe s-a verificat exact: cercetătorii au modelat condițiile termice și de radiație din nișele permanent umbrite ale a trei situri candidate pentru aselenizările Artemis, apoi au verificat, pe baza toleranțelor cunoscute din literatura de microbiologie spațială, dacă cinci microorganisme rezistente ar supraviețui acolo cel puțin o zi terestră. Răspunsul: da, pentru unele dintre ele, în anumite nișe.\n\nDe ce contează distincția supraviețuire vs. înmulțire: titlul „microbii pot supraviețui pe Lună” lasă loc unei impresii greșite — că Luna ar putea găzdui viață. Cercetătorii resping explicit asta: a rezista pasiv, pentru scurt timp, la frig extrem și radiație, e complet diferit de a te înmulți sau de a coloniza un mediu. Studiul nu găsește viață pe Lună și nu arată că microbii s-ar putea stabili acolo — arată doar că un contaminant adus accidental de oameni n-ar muri instantaneu.\n\nDe ce a fost făcut acest studiu: miza reală e „protecția planetară” — grija ca urmele de viață terestră aduse involuntar de misiuni umane să nu fie confundate, mai târziu, cu semne de viață extraterestră descoperite pe Marte sau chiar pe Lună. Dacă microbii de pe Pământ pot persista în anumite nișe lunare, viitoarele căutări de „biosemnături” trebuie să știe să separe ce a adus omul de ce era deja acolo.\n\nCe lipsește: teste experimentale directe, pe Lună sau în condiții de laborator care să reproducă exact toți factorii unei misiuni reale (durată mai lungă, praf lunar abraziv, cicluri termice repetate), nu doar simulări bazate pe toleranțe cunoscute din alte contexte.",
+  "math": {
+    "title": "Cât de rece e „permanent umbrit” la polul sudic lunar",
+    "explanation": "Craterele de la polul sudic al Lunii au pereți atât de înalți și un unghi al Soarelui atât de mic, încât fundul lor nu vede niciodată lumina directă — de aici numele de „regiuni permanent umbrite”. Temperaturile acolo pot coborî sub -230°C, printre cele mai scăzute măsurate oriunde în Sistemul Solar, mult sub pragul la care majoritatea proceselor biologice cunoscute se opresc complet. Faptul că un microorganism „supraviețuiește” acolo nu înseamnă că funcționează sau se reproduce — înseamnă că structura lui celulară nu e distrusă ireversibil de frig și de radiație pe durata testată. E diferența dintre un semnal electric înghețat într-un fir și un motor care încă funcționează: unul poate rezista neschimbat mult timp, dar asta nu îl face activ."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/nasa-microbi-polul-sudic-lunii-artemis.jpg\" alt=\"lunar south pole shackleton crater\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — lunar south pole shackleton crater. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Annotated_lunar_south_pole_mosaic_ESA311785.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Annotated lunar south pole mosaic ESA311785</a>\" de European Space Agency, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0 igo</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/nasa-microbi-polul-sudic-lunii-artemis.jpg",
+    "licenta": "CC BY-SA 3.0 igo",
+    "autor": "European Space Agency"
+  }
+}
