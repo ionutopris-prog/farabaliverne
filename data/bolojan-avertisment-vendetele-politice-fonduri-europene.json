@@ -79,10 +79,10 @@
     "Dominic Fritz"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/bolojan-avertisment-vendetele-politice-fonduri-europene.jpg\" alt=\"România\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — România. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Apuseni._(41412826664).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Apuseni. (41412826664)</a>\" de Mihai Lucîț from Baia Mare, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/bolojan-avertisment-vendetele-politice-fonduri-europene.jpg\" alt=\"Ilie Bolojan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ilie Bolojan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ilie_Bolojan_-_22_September_2025.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ilie Bolojan - 22 September 2025</a>\" de European Commission, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/bolojan-avertisment-vendetele-politice-fonduri-europene.jpg",
-    "licenta": "CC BY 2.0",
-    "autor": "Mihai Lucîț from Baia Mare, Romania"
+    "licenta": "CC BY 4.0",
+    "autor": "European Commission"
   }
 }

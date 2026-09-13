@@ -59,10 +59,10 @@
     "Mykolas Alekna"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/alekna-record-diamond-league-disc-silesia-23-august.jpg\" alt=\"Alekna\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Alekna. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Alekna_90c_o.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Alekna 90c o</a>\" de az1172, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/alekna-record-diamond-league-disc-silesia-23-august.jpg\" alt=\"Mykolas Alekna\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mykolas Alekna. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2022-08-19_European_Championships_2022_%E2%80%93_Men%27s_Discus_Throw_by_Sandro_Halank%E2%80%93008.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2022-08-19 European Championships 2022 – Men's Discus Throw by Sandro Halank–008</a>\" de Sandro Halank, Wikimedia Commons, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/alekna-record-diamond-league-disc-silesia-23-august.jpg",
-    "licenta": "CC BY-SA 2.0",
-    "autor": "az1172"
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Sandro Halank, Wikimedia Commons"
   }
 }
