@@ -25,6 +25,44 @@ PASUL 1 — Cercetează (WebSearch + WebFetch), în funcție de FEREASTRA CURENT
 - **NOAPTE ȘTIINȚĂ:** ediție DEDICATĂ **doar categoriei `Știință`** — descoperiri, spațiu, sănătate, tehnologie, climă — cu surse primare (NASA/ESA, reviste peer-review, agenții). Publică DOAR articole Știință în ediția asta.
 - „Unde se întâmplă mai des" — alege cel mai RELEVANT, nu forțat egal; rotește țările ca să nu te blochezi pe una.
 
+PASUL 1.5 — VÂNĂTOAREA DE AFIRMAȚII (obligatoriu, cel puțin o încercare pe ediție)
+
+🔴 De ce există pasul ăsta, cu cifre (13 septembrie 2026): din 931 de articole,
+737 (79 %) aveau verdictul „Probat" și doar 22 (2,4 %) „Contrazis". Cauza nu e
+metoda, e materia primă: sursele din PASUL 1 sunt agenții și instituții, adică
+surse de „ce s-a întâmplat". Când rezumi un anunț oficial, verdictul e firesc
+„probat". Site-ul a fost făcut ca să devoaleze neadevăruri, iar pentru asta
+trebuie pornit de la o AFIRMAȚIE CARE CIRCULĂ, nu de la un comunicat.
+
+**Caută activ, în fiecare ediție, cel puțin o afirmație verificabilă care
+circulă.** Unde se găsesc, gratuit și legal:
+1. **Presa care relatează despre viral.** Caută în română formulări de tipul
+   „a circulat pe internet că", „s-a viralizat", „postare virală", „fals",
+   „dezinformare", „fake news", pe Digi24, HotNews, G4Media, Libertatea,
+   Adevărul, Mediafax. Presa semnalează afirmația; NOI o verificăm din surse
+   primare, nu copiem verificarea altcuiva.
+2. **Afirmații cu cifre ale politicienilor și instituțiilor** — declarații de
+   la conferințe, din Parlament, de pe paginile oficiale. O cifră spusă public
+   se poate confrunta cu INS, Eurostat, BNR, Monitorul Oficial, ANAF.
+3. **Ce a ajuns la noi pe e-mail**, la contact@farabaliverne.ro: cititorii
+   trimit „am văzut asta, e adevărat?". Astea au prioritate.
+4. **Ce e în trend în România** (Google Trends RO): un subiect care sare brusc
+   are aproape întotdeauna o afirmație în spate.
+5. Alți verificatori (Veridica, Factual.ro) — DOAR ca semnal că o afirmație
+   circulă. Verificarea o faci tu, din surse primare, și nu reproduci textul lor.
+
+**Cum se scrie o astfel de verificare:** în `dek` spui CINE a afirmat și UNDE;
+în `probat` pui ce se susține cu dovezi; în `contestat` pui ce nu se susține,
+cu sursa care arată altceva. `mainVerdict` urmează dovezile.
+
+🔴 **REGULA CARE NU SE ÎNCALCĂ: verdictul urmează dovada, niciodată o cotă.**
+NU există țintă de articole „Contrazis". Dacă afirmația se dovedește adevărată,
+scrii „Probat" și ăla e un articol la fel de bun. A eticheta ceva drept contrazis
+ca să crească un procent înseamnă exact ce combatem, plus risc de defăimare
+(vezi principiul roșu și regula „neadevăr, nu minciună" din `CLAUDE.md`).
+Dacă într-o ediție nu găsești nicio afirmație verificabilă care circulă, spui
+asta în raport și treci mai departe. Zero e un rezultat onest.
+
 PASUL 2 — Categorii & tratament:
 category ∈ {Politică, Economie, Extern, Știință, Minți luminate, Media de stat, Social, Sport} (cu diacritice).
 - 🔴 **Minți luminate — NU PUBLICA în categoria asta. Niciodată.** E singura secțiune scrisă de MÂNĂ, de fondator împreună cu Claude, în weekend. Decizia lui, 5 septembrie 2026: „astea le vom face noi, nu face redactorul automat". Dacă găsești un studiu bun, poți să-l scrii în `Știință` dacă e știință — dar categoria `Minți luminate` rămâne goală pentru tine.
