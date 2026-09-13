@@ -18,6 +18,7 @@ Cum adaugi un articol nou (și pt agentul cloud):
   4. commit + push  →  GitHub urcă singur pe site
 """
 import json, re, glob, os, unicodedata, subprocess, collections, html, time
+import api  # JSON-ul din care citeste aplicatia de telefon (PLAN-APP-IOS.md, Etapa 0)
 import seo  # <head>, date structurate, pagini de categorie, lastmod (auditul SEO din 12 sept 2026)
 from datetime import datetime, timedelta, timezone
 
@@ -2127,6 +2128,12 @@ def main():
     global PAGINI_VERDICTE
     PAGINI_VERDICTE = seo.build_verdicte(arts, shell, mom, card, cheie_timp, verdict_scurt, ROOT)
     print(f"✅ pagini de verdict: {len(PAGINI_VERDICTE)}")
+    # JSON-ul pentru aplicatia de telefon (nativa, deseneaza singura articolul)
+    try:
+        _n, _t = api.scrie(arts, ROOT, verdict_scurt, mom, seo.moment_iso, letopiset_incarca())
+        print(f"✅ api: {_t} articole in index, {_n} fisiere schimbate")
+    except Exception as _e:
+        print(f"⚠️  api: {_e}")
     if _leto:
         open(os.path.join(ROOT, "letopiset.html"), "w", encoding="utf-8").write(_leto)
     # 2b. sitemap.xml (toate articolele + hub) pentru Google
