@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 13 Sep 2026 20:33:30 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 20:35:38 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O judecătoare federală decide că planul administrației Trump de a reduce la jumătate personalul FEMA a încălcat legea post-Katrina</title>
+      <link>https://farabaliverne.ro/a/fema-illston-reducere-jumatate-personal-nelegal.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/fema-illston-reducere-jumatate-personal-nelegal.html</guid>
+      <pubDate>Sun, 13 Sep 2026 17:34:31 +0000</pubDate>
+      <category>Extern</category>
+      <description>Judecătoarea federală Susan Illston, din Districtul de Nord al Californiei, a decis pe 12 septembrie 2026 că Departamentul Securității Interne (DHS) a acționat ilegal când a împins FEMA să-și reducă personalul de la circa 23.000 la aproximativ 11.500 de angajați, încălcând o lege adoptată după uraganul Katrina care interzice reducerea substanțială a atribuțiilor agenției. Decizia nu impune încă remedii — părțile trebuie să depună un raport comun până pe 9 octombrie.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Cine a lansat falsurile despre alegerile din Găgăuzia: de la „Chișinăul a modificat ilegal regulile” la „CC anulează autonomia” — ce arată, de fapt, deciziile oficiale</title>
       <link>https://farabaliverne.ro/a/moldova-gagauzia-val-dezinformare-alegeri-cec-grt-tiraspol.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
       <description>În weekendul 4-5 septembrie 2026, peste zece autocare cu turiști, plus numeroși alții cu mașini personale, au ajuns în comuna Jurilovca (județul Tulcea), convinși că participă la Festivalul Borșului Lipovenesc — eveniment care nu a fost organizat anul acesta. Primarul Eugen Ion a povestit că, testând el însuși ChatGPT, a primit răspunsul greșit că festivalul „se desfășoară în acest weekend”, iar nicio agenție de turism care promova excursii nu a sunat la primărie să verifice informația.
 
 Unde bat probele: Probat. Verificate: 4 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Digi24 relatează, citând surse din PNL, un scenariu de demisie a lui Bolojan — Guvernul îl dezminte: „fake news absolut”</title>
-      <link>https://farabaliverne.ro/a/bolojan-demisie-fake-news-dogioiu-11-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-demisie-fake-news-dogioiu-11-septembrie.html</guid>
-      <pubDate>Fri, 11 Sep 2026 17:51:32 +0000</pubDate>
-      <category>Politică</category>
-      <description>Digi24 a scris pe 11 septembrie 2026, citând surse din PNL, că premierul interimar Ilie Bolojan ar lua în calcul demisia pentru a forța președintele Nicușor Dan să numească rapid un nou prim-ministru, într-un scenariu care ar antrena și retragerea miniștrilor liberali și USR. În aceeași zi, purtătoarea de cuvânt a Guvernului, Ioana Dogioiu, a calificat informația drept „fake news absolut”. Niciuna dintre cele două versiuni nu poate fi verificată independent — rămâne cuvântul unor surse anonime de partid contra dezmințirea oficială.
-
-Unde bat probele: Probat că Digi24 a relatat scenariul și că Guvernul l-a dezmințit ferm — scenariul demisiei în sine rămâne neconfirmat independent. Verificate: 4 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
