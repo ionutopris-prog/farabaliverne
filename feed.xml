@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 13 Sep 2026 09:59:29 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 10:02:17 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sub Marte s-au format cândva sisteme uriașe de magmă, deși planeta n-are plăci tectonice, arată date seismice de la InSight</title>
+      <link>https://farabaliverne.ro/a/marte-insight-magma-fara-placi-tectonice-oxford.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/marte-insight-magma-fara-placi-tectonice-oxford.html</guid>
+      <pubDate>Sun, 13 Sep 2026 07:00:40 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă condusă de cercetătorul Tobermory Mackay-Champion, pe atunci la Universitatea Oxford, a analizat datele seismice ale misiunii NASA InSight și a găsit o graniță neexplicată la circa 24 de kilometri sub suprafața lui Marte, compatibilă cu un fenomen numit „magmatism transcrustal” — sisteme de magmă interconectate, extinse pe sute sau mii de kilometri — crezut până acum specific Pământului, cu plăcile lui tectonice. Concluzia vine din compararea semnalului seismic cu sute de compoziții posibile de rocă, nu dintr-o eșantionare directă a subsolului marțian.
+
+Unde bat probele: Probat ce arată datele seismice InSight; interpretativă concluzia despre amploarea și natura exactă a sistemului de magmă. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Microbi aduși de oameni ar putea supraviețui la polul sudic al Lunii, arată un studiu NASA gândit pentru misiunile Artemis</title>
       <link>https://farabaliverne.ro/a/nasa-microbi-polul-sudic-lunii-artemis.html</link>
@@ -494,16 +504,6 @@ Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
       <pubDate>Fri, 11 Sep 2026 06:46:41 +0000</pubDate>
       <category>Știință</category>
       <description>O echipă a Institutului Național de Standarde și Tehnologie al SUA (NIST), cu colaboratori de la Universitatea Colorado Boulder, Laboratorul Național Los Alamos și Sorbona, a folosit senzori supraconductori răciți la o fracțiune de grad peste zero absolut pentru a măsura cu precizie fără precedent razele X emise de plutoniu, uraniu și neptuniu. Rezultatul poate face mai exactă verificarea internațională a materialelor nucleare — dar tehnologia rămâne, deocamdată, prea voluminoasă pentru inspecții de teren.
-
-Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Un tip extrem de rar de neuroni din cortex — sub 1% din total — poate declanșa somnul, arată un studiu Nature pe șoareci</title>
-      <link>https://farabaliverne.ro/a/neuroni-sst-chodl-somn-cortex-nature.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/neuroni-sst-chodl-somn-cortex-nature.html</guid>
-      <pubDate>Fri, 11 Sep 2026 06:44:20 +0000</pubDate>
-      <category>Știință</category>
-      <description>O echipă de neuroștiințe a identificat, la șoareci, o populație extrem de rară de neuroni inhibitori din cortex — sub 1% din totalul neuronilor GABAergici corticali — care, activați artificial, sincronizează tot cortexul într-o stare asemănătoare somnului și pot chiar declanșa somnul comportamental. Descoperirea contrazice ideea veche că somnul e comandat exclusiv din structuri subcorticale. Studiul e făcut integral pe șoareci; autorii spun explicit că nu se știe încă dacă neuronii echivalenți la om joacă același rol.
 
 Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
     </item>
