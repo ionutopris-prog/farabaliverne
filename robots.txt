@@ -8,3 +8,20 @@ Sitemap: https://farabaliverne.ro/sitemap.xml
 Sitemap: https://farabaliverne.ro/sitemap-news.xml
 # Feed RSS pentru agregatoare si cititoare de stiri:
 # https://farabaliverne.ro/feed.xml
+
+# Roboti de unelte SEO comerciale. Nu ne aduc cititori si nu ne indexeaza nicaieri;
+# ne citesc arhiva ca sa o vanda in tablourile lor de bord. Masurat pe 13 sept 2026,
+# in 13 zile: AhrefsBot 3.225 cereri / 188 MB si SemrushBot 812 cereri / 16 MB,
+# fata de Googlebot 211 cereri / 5,5 MB. Adica unealta de SEO ne-a citit de 15 ori
+# mai mult decat Google. Se pot reactiva stergand liniile de mai jos.
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
