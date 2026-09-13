@@ -120,10 +120,10 @@
     ]
   },
   "poza": {
-    "img_html": "<img src=\"../img/articole/mit-cw-net-masina-autonoma-explicatii-nature.jpg\" alt=\"Eoin Kenny\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Eoin Kenny. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ballinalee_PO_90%27s_(cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ballinalee PO 90's (cropped)</a>\" de 1959 Historian, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/mit-cw-net-masina-autonoma-explicatii-nature.jpg\" alt=\"autonomous self-driving car lidar sensor\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — autonomous self-driving car lidar sensor. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Zoox_Toyota_Highlander_Test_Vehicle_-_San_Francisco,_May_2025_08.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Zoox Toyota Highlander Test Vehicle - San Francisco, May 2025 08</a>\" de 9yz, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/mit-cw-net-masina-autonoma-explicatii-nature.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "1959 Historian"
+    "licenta": "CC BY 4.0",
+    "autor": "9yz"
   }
 }
