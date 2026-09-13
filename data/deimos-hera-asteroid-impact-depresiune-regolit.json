@@ -1,0 +1,55 @@
+{
+  "slug": "deimos-hera-asteroid-impact-depresiune-regolit",
+  "title": "Un singur impact de asteroid ar putea explica două mistere ale lunii marțiene Deimos, arată simulări confirmate de sonda Hera",
+  "category": "Știință",
+  "date": "2026-09-13",
+  "source": "Universitatea din Berna / date de la sonda ESA Hera — publicat în Nature Astronomy",
+  "url": "https://mediarelations.unibe.ch/media_releases/2026/media_releases_2026/impact_deimos/index_eng.html",
+  "dek": "O echipă condusă de Universitatea din Berna arată, prin aproape 100 de simulări pe computer combinate cu date reale de la survolarea Deimos de către sonda ESA Hera, că un singur asteroid ar fi putut crea atât adâncitura din polul sudic al lunii marțiene, cât și stratul ei neobișnuit de neted și prăfos. E o ipoteză unificatoare, nu o observație directă a impactului — iar cercetătorii spun ei înșiși că explicații alternative rămân posibile.",
+  "mainVerdict": "Probat ce arată simulările și datele Hera; ipoteză explicativă pentru originea celor două trăsături, nu certitudine",
+  "probat": [
+    {
+      "text": "O echipă internațională condusă de Sabina Raducan (Universitatea din Berna), cu colaboratori de la Observatoire de la Côte d'Azur, Universitatea Arizona și Universitatea din Tokyo, a rulat aproximativ 100 de simulări de mare rezoluție, cu codul „Bern SPH” dezvoltat timp de două decenii la Berna, fiecare simulare cerând circa o săptămână de calcul pe un cluster de mare performanță. Rezultatul: un asteroid de circa 320 de metri, lovind Deimos sub un unghi de 45 de grade, ar fi împrăștiat material pe toată suprafața lunii, până la adâncimi de peste 200 de metri, explicând atât depresiunea din polul sudic, cât și stratul neted de regolit care acoperă restul corpului ceresc.",
+      "sources": [
+        {"name": "Universitatea din Berna — Asteroid impact shaped the appearance of Mars' moon Deimos", "url": "https://mediarelations.unibe.ch/media_releases/2026/media_releases_2026/impact_deimos/index_eng.html"},
+        {"name": "ScienceDaily — One asteroid strike may explain two mysteries of Mars' moon Deimos", "url": "https://www.sciencedaily.com/releases/2026/08/260824065516.htm"}
+      ]
+    },
+    {
+      "text": "Ipoteza a fost testată și împotriva unor date reale: survolarea Deimos de către sonda ESA Hera, din martie 2025, a arătat că straturile de suprafață ale lunii sunt neobișnuit de slabe și foarte poroase, mai degrabă asemănătoare unui „rubble pile” (grămadă de moloz ținută laolaltă de gravitație) decât unui corp solid precum Luna Pământului — exact tipul de structură pe care simulările impactului îl prezic. Este prima publicație științifică bazată pe datele acestei survolări.",
+      "sources": [
+        {"name": "Universitatea din Berna — Asteroid impact shaped the appearance of Mars' moon Deimos", "url": "https://mediarelations.unibe.ch/media_releases/2026/media_releases_2026/impact_deimos/index_eng.html"},
+        {"name": "Universe Today — Mars's Funky Moon Deimos was Shaped by an Impact", "url": "https://www.universetoday.com/articles/marss-funky-moon-deimos-was-shaped-by-an-impact"}
+      ]
+    },
+    {
+      "text": "Coautorul Martin Jutzi a explicat că impactul „a fost suficient de violent încât să redistribuie materialul la nivel global, dar nu atât de puternic încât să spargă luna în bucăți”. Cercetătorii au tradus scenariul în predicții concrete, testabile — grosimea și distribuția stratului de regolit, proprietățile mecanice ale materialului — pe care misiunea japoneză Martian Moons eXploration (MMX), programată să se lanseze în 2026, le va putea verifica direct prin eșantionare fizică.",
+      "sources": [
+        {"name": "Universitatea din Berna — Asteroid impact shaped the appearance of Mars' moon Deimos", "url": "https://mediarelations.unibe.ch/media_releases/2026/media_releases_2026/impact_deimos/index_eng.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Cercetătorii recunosc explicit că explicații alternative pentru suprafața netedă și pentru depresiunea sudică a Deimosului rămân posibile — scenariul cu un singur impact e cel mai simplu care explică ambele trăsături deodată, nu singurul compatibil cu datele actuale. Confirmarea fermă depinde de misiunea MMX, care nu a ajuns încă la Deimos: predicțiile despre grosimea regolitului și structura internă sunt, deocamdată, necesare pentru a distinge acest scenariu de altele, nu date obținute deja.",
+      "sources": [
+        {"name": "Universe Today — Mars's Funky Moon Deimos was Shaped by an Impact", "url": "https://www.universetoday.com/articles/marss-funky-moon-deimos-was-shaped-by-an-impact"},
+        {"name": "ScienceDaily — One asteroid strike may explain two mysteries of Mars' moon Deimos", "url": "https://www.sciencedaily.com/releases/2026/08/260824065516.htm"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un rezultat publicat în Nature Astronomy, relatat oficial de Universitatea din Berna și confirmat de ScienceDaily și Universe Today.\n\nCe s-a verificat exact: echipa a rulat aproape 100 de simulări de impact cu un cod dezvoltat special pentru acest tip de calcul, variind mărimea, viteza și unghiul asteroidului ipotetic, apoi a comparat rezultatele cu date reale — survolarea Deimos de către sonda Hera din martie 2025, care a măsurat cât de poroasă și de fragilă e suprafața lunii. Simulările care reproduc cel mai bine acea poroziate sunt cele cu un asteroid de circa 320 de metri, lovind sub 45 de grade.\n\nUnde rămâne o ipoteză, nu un fapt stabilit: nimeni n-a „văzut” acest impact — a avut loc, dacă a avut loc așa, cu mult timp în urmă. Ce avem e un model care reproduce bine trăsăturile observate azi, testat parțial împotriva datelor Hera. Autorii înșiși spun clar că explicații alternative pentru forma și textura Deimosului rămân posibile; scenariul cu un singur impact e preferat pentru că explică deodată două trăsături separate, nu pentru că a fost confirmat direct.\n\nCe lipsește: eșantionarea fizică a suprafeței, pe care o va face misiunea japoneză MMX, lansată în 2026. Cercetătorii au transformat modelul în predicții exacte — grosimea stratului de regolit, proprietățile lui mecanice — tocmai ca să poată fi verificate sau infirmate când sonda ajunge acolo, peste câțiva ani.\n\nCe ar schimba concluzia: dacă MMX găsește un strat de regolit mult mai subțire sau mai gros decât cei peste 200 de metri prezși de model, sau o structură internă diferită de cea poroasă anticipată, scenariul impactului unic ar trebui revizuit sau abandonat în favoarea altor explicații.",
+  "math": {
+    "title": "Cum poate un asteroid de 320 de metri să remodeleze o lună întreagă",
+    "explanation": "Deimos are un diametru de doar circa 12,4 kilometri — un asteroid de 320 de metri e, așadar, mic în comparație, dar nu neglijabil: reprezintă aproximativ 2,5% din diametrul lunii. La viteze tipice de impact în sistemul solar interior (zeci de mii de km/h), un corp de această mărime eliberează o energie suficientă ca să arunce material de pe toată suprafața unui corp mic și slab legat gravitațional, fără să-l distrugă complet. Diferența dintre „a distruge” și „a redistribui” ține de unghiul de impact și de structura internă: un impact frontal, pe un corp compact, ar putea sparge luna în bucăți; un impact oblic (45 de grade), pe un corp poros ca un „rubble pile”, absoarbe mai mult din energie prin deformare și fragmentare locală, împrăștiind moloz pe orbite joase care recad apoi uniform pe toată suprafața — exact mecanismul care ar explica de ce Deimos pare acoperit peste tot de un strat neted de praf, nu doar în jurul unui singur crater vizibil."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg\" alt=\"Deimos moon Mars\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Deimos moon Mars. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Moon_Phobos_Deimos.png\" rel=\"nofollow noopener\" target=\"_blank\">Moon Phobos Deimos</a>\" de Self Arranged, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg",
+    "licenta": "Public domain",
+    "autor": "Self Arranged"
+  }
+}
