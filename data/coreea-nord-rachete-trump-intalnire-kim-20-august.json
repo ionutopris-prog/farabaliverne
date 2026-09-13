@@ -117,5 +117,12 @@
     "explanation": "Este al treilea test de rachetă balistică nord-coreeană din august 2026 (după 6 și 12 august) și vine la mai puțin de 24 de ore după ce Seul și Washington au anunțat, miercuri, reducerea la jumătate a exercițiului Ulchi Freedom Shield — decis de Trump cu doar câteva zile înainte de finalul programat al exercițiului."
   },
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa sud-coreeană și americană; sursele originale sunt linkate mai sus. Am marcat la „Contestat” faptul că sursele diferă ușor asupra numărului exact de rachete (10 vs. 12) — normal la câteva ore după eveniment — și, mai important, faptul că nimeni nu a confirmat oficial o legătură cauzală între anunțul lui Trump și lansare; presa citată tratează coincidența de calendar ca fiind semnificativă, dar asta rămâne o interpretare. Declarația Kim Yo Jong ilustrează bine tiparul recurent al Phenianului: respingere fermă a gesturilor militare americane, combinată cu un ton personal cald față de Trump — cele două mesaje nu se exclud, dar înseamnă lucruri diferite, iar cititorul ar trebui să le țină separate.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/coreea-nord-rachete-trump-intalnire-kim-20-august.jpg\" alt=\"military vehicles convoy\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — military vehicles convoy. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Albanian_Army_DAF_YA_4440_on_a_Military_Convoy_in_Kor%C3%A7%C3%AB.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Albanian Army DAF YA 4440 on a Military Convoy in Korçë</a>\" de SHQP, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/coreea-nord-rachete-trump-intalnire-kim-20-august.jpg",
+    "licenta": "CC0",
+    "autor": "SHQP"
+  }
 }
