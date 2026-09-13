@@ -58,3 +58,15 @@ Options -Indexes
 <FilesMatch "\.(json)$">
   Require all denied
 </FilesMatch>
+
+# Incercare de a permite .json. Gazduirea raspunde 403 la orice .json (verificat
+# 13 sept 2026: date/localitati.js = 200, date/proba.json = 403). Daca regula de
+# mai jos invinge regula serverului, se poate reveni la .json in scripts/api.py.
+<IfModule mod_authz_core.c>
+  <FilesMatch "\.json$">
+    Require all granted
+  </FilesMatch>
+</IfModule>
+<IfModule mod_mime.c>
+  AddType application/json .json
+</IfModule>

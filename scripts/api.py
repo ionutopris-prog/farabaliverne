@@ -26,11 +26,18 @@ from datetime import datetime, timezone
 BAZA = "https://farabaliverne.ro"
 VERSIUNE = 1
 
-# 🔴 Folderul NU se numeste „api": gazduirea (LiteSpeed, Datahost) raspunde 403
-# la orice adresa care incepe cu /api/ — verificat pe 13 septembrie 2026, dupa
-# un deploy reusit. Numele de mai jos e cel care merge. Daca se schimba, se
-# schimba si `Depozit.bazaAPI` din aplicatia iOS.
+# 🔴 Gazduirea (LiteSpeed, Datahost) BLOCHEAZA extensia .json: raspunde 403 la
+# orice fisier .json, in orice folder. Dovada, 13 septembrie 2026: in acelasi
+# folder, `date/localitati.js` = 200, iar `date/proba.json` = 403. E o regula
+# obisnuita pe gazduirile partajate, ca sa nu se poata citi composer.json,
+# package.json si alte fisiere de configurare.
+#
+# Solutia: scriem acelasi JSON, dar cu extensia .js. Continutul e identic,
+# aplicatia nu tine cont de extensie. In .htaccess am pus si o incercare de a
+# permite .json; daca prinde, se poate reveni schimband EXT aici si in
+# `Depozit.bazaAPI` din aplicatia iOS.
 FOLDER = "date"
+EXT = ".js"
 
 
 def _absolut(cale):
@@ -141,7 +148,7 @@ def scrie(arts, root, verdict_scurt, mom, moment_iso, letopiset=None):
             continue  # nepublicat încă: nu-l dăm aplicației
         rez = _rezumat(d, verdict_scurt, mom, moment_iso)
         lista.append(rez)
-        cale = os.path.join(api, "a", slug + ".json")
+        cale = os.path.join(api, "a", slug + EXT)
         nou = json.dumps(_intreg(d, rez), ensure_ascii=False, separators=(",", ":"))
         vechi = None
         if os.path.exists(cale):
@@ -154,11 +161,11 @@ def scrie(arts, root, verdict_scurt, mom, moment_iso, letopiset=None):
             scrise += 1
 
     lista.sort(key=lambda x: (x["publicat"] or x["data"], x["slug"]), reverse=True)
-    _pune(os.path.join(api, "index.json"),
+    _pune(os.path.join(api, "index" + EXT),
           {"versiune": VERSIUNE, "total": len(lista), "articole": lista})
 
     if letopiset:
-        _pune(os.path.join(api, "letopiset.json"),
+        _pune(os.path.join(api, "letopiset" + EXT),
               {"versiune": VERSIUNE, "zile": letopiset})
 
     # numărătoarea pe verdicte, ca widgetul „ziua în verificări" să n-o calculeze el
@@ -166,7 +173,7 @@ def scrie(arts, root, verdict_scurt, mom, moment_iso, letopiset=None):
     for x in lista:
         if x["verdict"]:
             pe_verdict[x["verdict"]] = pe_verdict.get(x["verdict"], 0) + 1
-    _pune(os.path.join(api, "stare.json"), {
+    _pune(os.path.join(api, "stare" + EXT), {
         "versiune": VERSIUNE,
         "generat": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(lista),
@@ -174,11 +181,9 @@ def scrie(arts, root, verdict_scurt, mom, moment_iso, letopiset=None):
         "peCategorie": _numara(lista, "categorie"),
         "site": BAZA,
     })
-    # Probe: aflam dintr-un singur deploy ce nume de folder accepta gazduirea.
-    for nume in ("date", "v1", "continut", "api"):
-        d = os.path.join(root, nume)
-        os.makedirs(d, exist_ok=True)
-        _pune(os.path.join(d, "proba.json"), {"ok": True, "folder": nume})
+    # Proba: ne spune daca regula din .htaccess a reusit sa deblocheze .json.
+    _pune(os.path.join(api, "proba.json"), {"ok": True, "ext": ".json"})
+    _pune(os.path.join(api, "proba.js"), {"ok": True, "ext": ".js"})
 
     return scrise, len(lista)
 
