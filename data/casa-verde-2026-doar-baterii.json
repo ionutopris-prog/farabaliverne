@@ -78,10 +78,10 @@
     "Diana Buzoianu"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/casa-verde-2026-doar-baterii.jpg\" alt=\"Verde\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Verde. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cape_Verde_Assomada_square.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cape Verde Assomada square</a>\" de Cayambe, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/casa-verde-2026-doar-baterii.jpg\" alt=\"solar panels battery storage\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — solar panels battery storage. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:RDECOM_solar_panels,_Djibouti,_May_2011_(5729070957).jpg\" rel=\"nofollow noopener\" target=\"_blank\">RDECOM solar panels, Djibouti, May 2011 (5729070957)</a>\" de US Army Africa from Vicenza, Italy, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/casa-verde-2026-doar-baterii.jpg",
-    "licenta": "CC BY-SA 3.0",
-    "autor": "Cayambe"
+    "licenta": "CC BY 2.0",
+    "autor": "US Army Africa from Vicenza, Italy"
   }
 }

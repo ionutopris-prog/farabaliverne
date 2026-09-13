@@ -110,10 +110,10 @@
   "aiNote": "Am agregat informația din comunicate oficiale (CEC Bank, Exim Banca Românească) și presă economică (Forbes România, BURSA, Economedia, Economica.net). Am marcat la „Contestat” faptul că titluri diferite ale acelorași instituții — sau ale aceluiași proiect, la doi ani distanță — dau cifre diferite despre „de câți ani” de la ultima centrală nouă în București, ca să nu lăsăm impresia unei singure cifre „oficiale” acolo unde presa folosește formulări diferite.",
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/cet-titan-finantare-289-milioane-lei.jpg\" alt=\"Titan\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Titan. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:A_Titan_Sample_Return_Using_In-Situ_Propellants.jpg\" rel=\"nofollow noopener\" target=\"_blank\">A Titan Sample Return Using In-Situ Propellants</a>\" de Katherine Miller, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/cet-titan-finantare-289-milioane-lei.jpg\" alt=\"district heating plant chimney\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — district heating plant chimney. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:District_heating_plant_in_Spittelau,_Wienna.jpg\" rel=\"nofollow noopener\" target=\"_blank\">District heating plant in Spittelau, Wienna</a>\" de Allegria, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/cet-titan-finantare-289-milioane-lei.jpg",
-    "licenta": "Public domain",
-    "autor": "Katherine Miller"
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Allegria"
   }
 }
