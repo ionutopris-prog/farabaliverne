@@ -66,12 +66,26 @@ def nume_proprii(d):
         if p and p not in ies:
             ies.append(fara_diacritice(p))
     text = (d.get("title") or "")
+    # 🔴 Prima majusculă din titlu e început de propoziție, NU nume propriu.
+    # Fără tăietura asta a ieșit „Incendiul de" ca întrebare pentru Commons, pe
+    # articolul despre feribotul din Filipine — iar Commons a răspuns cu un plan
+    # de etaj în rusă (13 septembrie 2026).
+    text = re.sub(r"^\s*\S+\s*", "", text, count=1)
+
     # grupuri de cuvinte cu majusculă, lipite (ex. „Banca Națională a României")
     for grup in re.findall(r"(?:[A-ZĂÂÎȘȚ][\w\-]+(?:\s+(?:a|al|ale|de|din)\s+)?)+", text):
         g = fara_diacritice(grup).strip()
+        g = re.sub(r"\s+(a|al|ale|de|din)$", "", g)   # nu lăsăm prepoziția la coadă
         if len(g) < 4:
             continue
         if g.lower() in GOALE:
+            continue
+        # 🔴 Un singur cuvânt e prea larg ca întrebare: „Chile" a adus peșterile
+        # de marmură pe un articol despre banca centrală. Un nume de țară sau un
+        # cuvânt izolat nu spune NIMIC despre subiectul articolului. Lăsăm doar
+        # numele din mai multe cuvinte (instituții, oameni), care chiar
+        # identifică ceva.
+        if len(g.split()) < 2:
             continue
         if g not in ies:
             ies.append(g)
@@ -92,9 +106,54 @@ def nume_proprii(d):
 FARA_NUME = {"Minți luminate"}
 
 
+# 🔴 Ce e articolul DESPRE, nu unde se petrece. Numele proprii spun locul;
+# astea spun subiectul, care e ce vrea cititorul să vadă în poză.
+#
+# De ce există: pe 13 septembrie 2026 articolul despre incendiul de pe feribotul
+# din Filipine, cu 76 de morți, a primit plasa de siguranță a categoriei Extern,
+# adică „steaguri la un summit". Corect din punct de vedere tehnic, nepotrivit
+# ca ton. Cuvintele de mai jos se caută în titlu ŞI în dek, iar primul potrivit
+# dă întrebarea. Se completează pe măsură ce apar cazuri noi.
+SUBIECTE = [
+    (("feribot", "navă", "nava", "vapor", "ambarcaţiune", "ambarcatiune"), "passenger ferry ship at sea"),
+    (("incendiu", "flăcări", "flacari", "ardere"), "firefighters extinguishing fire"),
+    (("cutremur", "seism", "replici"), "earthquake damaged building"),
+    (("inundaţi", "inundati", "viitur"), "flooded street high water"),
+    (("banca centrală", "banca centrala", "dobând", "doband", "inflaţi", "inflati"), "central bank building facade"),
+    (("prognoz", "creştere economică", "crestere economica", "pib", "recesiune"), "economic growth chart graph"),
+    (("bursă", "bursa", "acţiuni", "actiuni"), "stock exchange trading floor"),
+    (("avion", "aerian", "aeroport", "zbor"), "commercial airplane airport"),
+    (("tren", "feroviar", "cale ferată", "cale ferata"), "passenger train railway"),
+    (("spital", "pacient", "medic", "urgenţe", "urgente"), "hospital corridor medical"),
+    (("vaccin", "epidemi", "virus", "infecţi", "infecti"), "laboratory vaccine vial"),
+    (("alegeri", "vot", "scrutin", "urne"), "ballot box voting station"),
+    (("protest", "manifestaţi", "manifestati", "grevă", "greva"), "street protest crowd"),
+    (("instanţ", "instant", "judecăt", "judecat", "tribunal", "proces"), "courtroom judge gavel"),
+    (("armat", "militar", "război", "razboi", "rachet", "dron"), "military vehicles convoy"),
+    (("migraţi", "migrati", "refugiaţi", "refugiati", "azil"), "refugees temporary shelter"),
+    (("gaz", "petrol", "conduct", "energie"), "gas pipeline industrial"),
+    (("pădur", "padur", "defrişă", "defrisa"), "forest trees canopy"),
+    (("şcoal", "scoal", "elev", "profesor", "educaţi", "educati"), "school classroom desks"),
+    (("fotbal", "meci", "campionat"), "football stadium match"),
+]
+
+
+def subiect(d):
+    """Întrebarea după SUBIECT, dacă îl recunoaştem. Altfel None."""
+    t = ((d.get("title") or "") + " " + (d.get("dek") or "")).lower()
+    for chei, intrebare in SUBIECTE:
+        if any(k in t for k in chei):
+            return intrebare
+    return None
+
+
 def intrebari(d):
     """Întrebările de încercat, în ordine. Ultima e categoria — plasa de siguranță."""
     q = [] if d.get("category") in FARA_NUME else nume_proprii(d)
+    # subiectul bate numele proprii: „feribot" spune mai mult decât „Filipine"
+    sub = subiect(d)
+    if sub:
+        q.insert(0, sub)
     CAT = {
         "Politică": "parliament building government",
         "Economie": "stock exchange trading floor",
