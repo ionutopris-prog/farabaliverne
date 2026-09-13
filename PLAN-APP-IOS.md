@@ -145,6 +145,52 @@ să citești știri."*
 7. **Fotografia respiră.** Imagine mare sus, colțuri rotunjite, creditul vizibil
    dedesubt — onestitatea se vede, nu se ascunde în subsol.
 
+### Ecranul de pornire, așa cum l-a cerut fondatorul (13 septembrie)
+
+*„Vreau să se vadă știrile, poza și titlul, iar unde poți să derulezi la dreapta
+sunt știrile cu cele mai mari interacțiuni din ultimele 24 de ore."*
+
+```
+┌──────────────────────────────────────┐
+│  Fără Baliverne        [caută] [eu]  │
+│  ┌────────┐ ┌─────────┐ ┌──────────┐ │  file lipite sus
+│  │ Toate  │ │ Pt. tine│ │ Contrazis│ │
+│  └────────┘ └─────────┘ └──────────┘ │
+│                                      │
+│  CITITE ACUM · ultimele 24 de ore    │  ← carusel, se derulează la dreapta
+│  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐     │     alimentat din contorul nostru
+│  │ poză│ │ poză│ │ poză│ │ poză│ ... │     (câți oameni le-au deschis)
+│  │titlu│ │titlu│ │titlu│ │titlu│     │
+│  └─────┘ └─────┘ └─────┘ └─────┘     │
+│                                      │
+│  ────────────────────────────────    │
+│  ┌──────────────────────────────┐    │  ← lista, una sub alta
+│  │        poză mare             │    │     tragi cardul stânga/dreapta
+│  │ ▓▓▓▓▓▓▓░░░  4 probate·3 cont.│    │     bara dovezilor
+│  │ Titlul verificării           │    │
+│  │ dek-ul, două rânduri         │    │
+│  │ Politică · azi · Digi24      │    │
+│  └──────────────────────────────┘    │
+│  ┌──────────────────────────────┐    │
+│           ...                        │
+│ ─────────────────────────────────    │
+│  Știri   Caută   Alerte   Eu         │  bară jos
+└──────────────────────────────────────┘
+```
+
+**De unde vin „cele mai citite din ultimele 24 de ore":** din contorul nostru,
+făcut pe 13 septembrie. Serverul GABE are punctul
+`GET /api/stats/farabaliverne/top?ore=24&limita=10`, care întoarce slug-urile
+celor mai deschise articole, cu câți oameni le-au deschis. Aplicația le leagă
+de `api/index.json` și are poza și titlul. Fără cont, fără urmărirea nimănui:
+se numără deschiderile, nu oamenii.
+
+⚠️ **Cinstit:** azi site-ul are ~20 de cititori pe zi, deci „cele mai citite"
+se calculează pe cifre mici și poate arăta ciudat la început. Regula în
+aplicație: dacă în 24 de ore nu sunt cel puțin 5 articole cu cel puțin 3
+cititori fiecare, caruselul arată „Cele mai noi" în loc de „Citite acum", fără
+să spună nimănui că n-avem trafic. Se trece automat pe cifre reale când vin.
+
 ### Referința vizuală: Ground News (arătată de fondator pe 13 septembrie)
 
 Ce facem cu ea: luăm **tiparele**, nu înfățișarea. Tiparele sunt oricum
@@ -182,11 +228,20 @@ eventual să posteze pe Facebook în contul tău știrea care ți-a plăcut; sau
 țină evidența câte like-uri."*
 
 **A. Tragerea cu degetul — DA, și se face fără cont.**
-- Dreapta = „mai vreau așa", stânga = „nu mă interesează.
+- Dreapta = „mai vreau așa", stânga = „nu mă interesează".
+- **Merge în două locuri** (precizarea fondatorului, 13 septembrie): pe cardul
+  din listă, cât vezi doar titlul, ȘI în articolul deschis, trăgând de toată
+  pagina. Același gest, aceeași învățare, ca omul să nu fie nevoit să se
+  întoarcă în listă ca să spună ce a crezut.
+- Cât tragi, apare sub deget semnul: verde cu „mai vreau așa" la dreapta, gri cu
+  „nu mă interesează" la stânga. Se poate lăsa la jumătate, fără efect.
 - Semnalul stă **doar pe telefonul tău**, în memoria aplicației. Din el se
   învață categoriile, sursele și subiectele care te interesează, iar lista se
   rearanjează. Fără server, fără cont, fără date personale plecate nicăieri.
 - Se poate anula oricând dintr-un buton („uită ce ai învățat despre mine").
+- Atenție la conflict: în articolul deschis, tragerea de la marginea din stânga
+  e gestul iOS de întoarcere înapoi. Deci gestul nostru pornește din mijlocul
+  ecranului, nu de pe margine, altfel îi stricăm omului navigarea.
 
 **B. Partajarea din articol — DA, nativ.**
 Butonul de partajare al iPhone-ului (`ShareLink` în SwiftUI): de acolo omul
