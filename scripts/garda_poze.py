@@ -135,15 +135,28 @@ SUBIECTE = [
     (("pădur", "padur", "defrişă", "defrisa"), "forest trees canopy"),
     (("şcoal", "scoal", "elev", "profesor", "educaţi", "educati"), "school classroom desks"),
     (("fotbal", "meci", "campionat"), "football stadium match"),
+    (("autostrad", "tronson", "şosea", "sosea", "drum naţional", "drum national"), "highway motorway road"),
+    (("turişti", "turisti", "litoral", "plaj", "staţiun", "statiun"), "beach seaside tourists"),
+    (("asteroid", "cometă", "cometa", "telescop", "satelit", "orbit"), "telescope night sky astronomy"),
+    (("ploşniţ", "plosnit", "focar", "infestare"), "hospital ward beds"),
+    (("defrişă", "defrisa", "despădur", "despadur"), "deforestation cleared forest"),
 ]
 
 
 def subiect(d):
-    """Întrebarea după SUBIECT, dacă îl recunoaştem. Altfel None."""
+    """Întrebarea după SUBIECT, dacă îl recunoaştem. Altfel None.
+
+    🔴 Potrivirea e pe ÎNCEPUT DE CUVÂNT, nu oriunde în text. Prima versiune
+    căuta naiv cu `in` şi a dat „refugees temporary shelter" pe articolul despre
+    defrişarea Amazonului: cheia „azil" se potriveşte în interiorul lui
+    „br-azil-ian". Cu `\b` la început, rădăcina prinde formele flexionate
+    („incendiu", „incendii", „incendiul") fără să sară în alt cuvânt.
+    """
     t = ((d.get("title") or "") + " " + (d.get("dek") or "")).lower()
     for chei, intrebare in SUBIECTE:
-        if any(k in t for k in chei):
-            return intrebare
+        for k in chei:
+            if re.search(r"\b" + re.escape(k), t):
+                return intrebare
     return None
 
 
