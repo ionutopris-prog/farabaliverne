@@ -26,6 +26,12 @@ from datetime import datetime, timezone
 BAZA = "https://farabaliverne.ro"
 VERSIUNE = 1
 
+# 🔴 Folderul NU se numeste „api": gazduirea (LiteSpeed, Datahost) raspunde 403
+# la orice adresa care incepe cu /api/ — verificat pe 13 septembrie 2026, dupa
+# un deploy reusit. Numele de mai jos e cel care merge. Daca se schimba, se
+# schimba si `Depozit.bazaAPI` din aplicatia iOS.
+FOLDER = "date"
+
 
 def _absolut(cale):
     """`../img/articole/x.jpg` sau `img/articole/x.jpg` → URL întreg."""
@@ -125,7 +131,7 @@ def _intreg(d, rez):
 
 def scrie(arts, root, verdict_scurt, mom, moment_iso, letopiset=None):
     """Scrie tot ce are nevoie aplicația. Întoarce câte fișiere a scris."""
-    api = os.path.join(root, "api")
+    api = os.path.join(root, FOLDER)
     os.makedirs(os.path.join(api, "a"), exist_ok=True)
 
     lista, scrise = [], 0
@@ -168,6 +174,12 @@ def scrie(arts, root, verdict_scurt, mom, moment_iso, letopiset=None):
         "peCategorie": _numara(lista, "categorie"),
         "site": BAZA,
     })
+    # Probe: aflam dintr-un singur deploy ce nume de folder accepta gazduirea.
+    for nume in ("date", "v1", "continut", "api"):
+        d = os.path.join(root, nume)
+        os.makedirs(d, exist_ok=True)
+        _pune(os.path.join(d, "proba.json"), {"ok": True, "folder": nume})
+
     return scrise, len(lista)
 
 
