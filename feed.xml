@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 15 Sep 2026 02:21:31 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 02:24:38 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>„Jumătate dintre români se încălzesc cu lemne” — de unde vine cifra și ce arată, de fapt, datele</title>
+      <link>https://farabaliverne.ro/a/romani-incalzire-lemne-jumatate-procent-precizari.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/romani-incalzire-lemne-jumatate-procent-precizari.html</guid>
+      <pubDate>Mon, 14 Sep 2026 23:22:44 +0000</pubDate>
+      <category>Social</category>
+      <description>Digi24 a scris pe 11 septembrie 2026 că „jumătate dintre români se încălzesc cu lemne”, o formulare reluată de presă an de an, fără să fie legată explicit de o sursă oficială. Cifra din spate există și e reală — dar e „aproape jumătate”, nu exact jumătate, iar un alt procent vehiculat des în context, 43,4% dintr-un sondaj INSCOP, măsoară cu totul altceva și nu contrazice, ci se confundă cu prima cifră.
+
+Unde bat probele: Probat, cu precizări. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Senatul a respins reducerea Parlamentului la 299 de membri, deși AUR și USR au votat pentru</title>
       <link>https://farabaliverne.ro/a/senat-respinge-reducere-parlamentari-299-aur.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce scrie lucrarea: dimensiunile, construcția, datăril
       <description>Din aproximativ 1.000 de refugiați ucraineni evaluați în București între ianuarie 2024 și martie 2025, 156 au intrat în studiu (153 femei, vârsta medie 47 de ani) și au fost împărțiți la întâmplare: grupuri de sprijin ca avatar, într-un spațiu 3D din browser copiat după un centru comunitar din Kiev, grupuri față în față, sau listă de așteptare. La final, doar grupul față în față a avut un efect clar față de așteptare: sprijin social perceput mai mare. Efectele „metaversului” au fost mai mici și nesemnificative statistic. La trei luni, aproape totul se ștersese. Publicat în The British Journal of Psychiatry pe 28 august 2026, cu acces liber.
 
 Unde bat probele: Probat ce raportează studiul: metoda (trei brațe, randomizat, înregistrat înainte), cifrele, rezultatul în favoarea întâlnirilor față în față și lipsa efectului semnificativ al variantei în realitate virtuală. Contestat de autorii înșiși: abandonul de 53–61 % până la final și 65–81 % la trei luni, calculul de putere care n-a ținut cont de grupare, lipsa orbirii; iar platforma a fost construită de un coautor. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>MIT: o rafală de 50 de milisecunde de „zgomot roz”, trimisă exact pe vârful undelor lente din somn, mărește valurile de lichid care spală creierul. Testat pe 14 voluntari sănătoși, cu EEG și RMN în același timp</title>
-      <link>https://farabaliverne.ro/a/mit-zgomot-roz-somn-lichid-cefalorahidian-curatare-creier.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-zgomot-roz-somn-lichid-cefalorahidian-curatare-creier.html</guid>
-      <pubDate>Sat, 12 Sep 2026 21:55:29 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Ziua, în creier se adună acid lactic și proteine uzate; noaptea, valuri de lichid cefalorahidian le spală. Cercetătorii MIT au arătat că pot mări aceste valuri cu rafale scurte de sunet blând, un fâsâit ca ploaia, livrate pe vârful undelor electrice lente din somnul profund. Sunetul mărește undele lente, undele lente strâng și lărgesc vasele de sânge, iar vasele pompează lichidul afară din creier. Rezultatul, pe 14 voluntari sănătoși, e în Science Translational Medicine pe 9 septembrie 2026. Ce urmează, spun ei, e testul pe oameni cu insomnie și cu Alzheimer; nu s-a făcut încă.
-
-Unde bat probele: Probat ce descrie MIT: metoda (EEG curățat de zgomotul RMN în sub 100 de milisecunde, plus un algoritm care prezice vârful undei), efectul pe 14 voluntari sănătoși și mecanismul văzut la RMN. Contestat: eșantionul e mic și doar oameni sănătoși; nu s-a măsurat nicio ameliorare a memoriei sau a vreunei boli; lucrarea e cu abonament; iar autorul principal și-a făcut o firmă pentru un dispozitiv de casă. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
