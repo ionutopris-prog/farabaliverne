@@ -50,10 +50,11 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa economică internațională (Yahoo Finance, CryptoBriefing, pe baza datelor University of Michigan Surveys of Consumers); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/sua-sentiment-consumatori-scadere-august-2026.jpg\" alt=\"Universității\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Universității. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Gala_Absolven%C8%9Bilor_Universit%C4%83%C8%9Bii_Pedagogice_de_Stat_%E2%80%9EIon_Creang%C4%83%E2%80%9D_-_08.07.2025_-_54642182802.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Gala Absolvenților Universității Pedagogice de Stat „Ion Creangă” - 08.07.2025 - 54642182802</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/sua-sentiment-consumatori-scadere-august-2026.jpg\" alt=\"supermarket shopping cart\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — supermarket shopping cart. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Publix_MetroWest_Village_shopping_carts.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Publix MetroWest Village shopping carts</a>\" de Nielsoncaetanosalmeron, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/sua-sentiment-consumatori-scadere-august-2026.jpg",
-    "licenta": "CC0",
-    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+    "licenta": "CC BY 4.0",
+    "autor": "Nielsoncaetanosalmeron",
+    "aleasa_de_om": true
   }
 }

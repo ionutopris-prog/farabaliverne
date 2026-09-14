@@ -118,10 +118,11 @@
     "Donald Trump"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/trump-venezuela-acord-petrolier-65-miliarde-barili.jpg\" alt=\"Venezuela\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Venezuela. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ambassador_of_the_Bolivarian_Republic_of_Venezuela_(16285217575).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ambassador of the Bolivarian Republic of Venezuela (16285217575)</a>\" de Foreign and Commonwealth Office, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/trump-venezuela-acord-petrolier-65-miliarde-barili.jpg\" alt=\"oil drilling rig\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — oil drilling rig. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Drill_rig-invergordon-11_hg.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Drill rig-invergordon-11 hg</a>\" de Hannes Grobe, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/trump-venezuela-acord-petrolier-65-miliarde-barili.jpg",
-    "licenta": "CC BY 2.0",
-    "autor": "Foreign and Commonwealth Office"
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Hannes Grobe",
+    "aleasa_de_om": true
   }
 }

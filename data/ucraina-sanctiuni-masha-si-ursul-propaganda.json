@@ -87,10 +87,11 @@
     "Volodimir Zelenski"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/ucraina-sanctiuni-masha-si-ursul-propaganda.jpg\" alt=\"Masha\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Masha. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Masha_and_the_Bear_2019_stampsheet_of_Russia_2.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Masha and the Bear 2019 stampsheet of Russia 2</a>\" de A. Povarikhin (Russian: А. Поварихин ), via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/ucraina-sanctiuni-masha-si-ursul-propaganda.jpg\" alt=\"television cartoon children watching\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — television cartoon children watching. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Army_Photography_Contest_-_2007_-_FMWRC_-_Arts_and_Crafts_-_Giving_unto_others_(4929686395).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Army Photography Contest - 2007 - FMWRC - Arts and Crafts - Giving unto others (4929686395)</a>\" de U.S. Army, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/ucraina-sanctiuni-masha-si-ursul-propaganda.jpg",
-    "licenta": "Public domain",
-    "autor": "A. Povarikhin (Russian: А. Поварихин )"
+    "licenta": "CC BY 2.0",
+    "autor": "U.S. Army",
+    "aleasa_de_om": true
   }
 }

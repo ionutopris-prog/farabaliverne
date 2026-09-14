@@ -67,10 +67,11 @@
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională (date oficiale ONS, distribuite de Reuters); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Cifrele centrale (0,4% pe trimestru, 0,3% pe iunie) sunt confirmate concordant de mai multe redacții care citează aceleași date ONS. Ce rămâne o chestiune de interpretare, nu de fapt stabilit: cât de mult va continua încetinirea în trimestrele următoare — aici instituțiile citate (Banca Angliei, Capital Economics, FMI) au estimări diferite, de la stagnare la creștere moderată.",
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/uk-pib-crestere-0-4-trimestrul-2-2026.jpg\" alt=\"Iran\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Iran. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:AaSyd.jpg\" rel=\"nofollow noopener\" target=\"_blank\">AaSyd</a>\" de امین فداکار, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/uk-pib-crestere-0-4-trimestrul-2-2026.jpg\" alt=\"London financial district skyline\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — London financial district skyline. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:City_of_London_skyline_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">City of London skyline 1</a>\" de Dimitri Hon, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/uk-pib-crestere-0-4-trimestrul-2-2026.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "امین فداکار"
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Dimitri Hon",
+    "aleasa_de_om": true
   }
 }

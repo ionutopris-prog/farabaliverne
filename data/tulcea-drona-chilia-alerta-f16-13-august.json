@@ -85,10 +85,11 @@
   "aiNote": "Am pus alături relatările Aleph News și Radio România Actualități despre acest incident aerian — cele două surse coincid pe orele și traseul evenimentului. Ce se probează: intrarea unei ținte aeriene, traseul ei, alerta emisă și reacția F-16. Ce rămâne neconfirmat public: originea exactă a țintei (dronă rusească, resturi dintr-un atac, sau alt tip de obiect zburător) — MApN a folosit doar termenul neutru „țintă aeriană”.",
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/tulcea-drona-chilia-alerta-f16-13-august.jpg\" alt=\"Chilia\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Chilia. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chilia_Bonito_Lugar.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chilia Bonito Lugar</a>\" de Chilia Bonito Lugar, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/tulcea-drona-chilia-alerta-f16-13-august.jpg\" alt=\"F-16 fighter jet\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — F-16 fighter jet. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:A_USAF_F-16_pilot_breaking_right_on_final_approach_over_northern_Las_Vegas.jpg\" rel=\"nofollow noopener\" target=\"_blank\">A USAF F-16 pilot breaking right on final approach over northern Las Vegas</a>\" de Master Sgt. Benjamin Bloker, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/tulcea-drona-chilia-alerta-f16-13-august.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "Chilia Bonito Lugar"
+    "licenta": "Public domain",
+    "autor": "Master Sgt. Benjamin Bloker",
+    "aleasa_de_om": true
   }
 }

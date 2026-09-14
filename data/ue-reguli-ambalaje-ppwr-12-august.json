@@ -73,10 +73,11 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/ue-reguli-ambalaje-ppwr-12-august.jpg\" alt=\"România\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — România. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Apuseni._(41412826664).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Apuseni. (41412826664)</a>\" de Mihai Lucîț from Baia Mare, Romania, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 2.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/ue-reguli-ambalaje-ppwr-12-august.jpg\" alt=\"plastic packaging waste recycling\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — plastic packaging waste recycling. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Various_Packaging_Waste_In_Water_Systems.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Various Packaging Waste In Water Systems</a>\" de Twentyfour Students from Bangkok, Thailand, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/ue-reguli-ambalaje-ppwr-12-august.jpg",
-    "licenta": "CC BY 2.0",
-    "autor": "Mihai Lucîț from Baia Mare, Romania"
+    "licenta": "CC BY-SA 2.0",
+    "autor": "Twentyfour Students from Bangkok, Thailand",
+    "aleasa_de_om": true
   }
 }
