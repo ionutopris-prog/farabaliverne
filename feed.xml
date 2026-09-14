@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 14 Sep 2026 17:31:08 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:35:38 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Igor Grosu neagă zvonul apărut pe Telegram, cum că Alexandr Stoianoglo ar candida la bașcănia Găgăuziei cu sprijinul PAS: „Este un fals” — partidul nu a decis încă dacă are propriul candidat</title>
+      <link>https://farabaliverne.ro/a/moldova-grosu-neaga-stoianoglo-candidat-pas-bascan.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-grosu-neaga-stoianoglo-candidat-pas-bascan.html</guid>
+      <pubDate>Mon, 14 Sep 2026 14:32:33 +0000</pubDate>
+      <category>Politică</category>
+      <description>Deputatul Alexandr Stoianoglo, fost procuror general și candidat independent la bașcănia Găgăuziei, și-a anunțat pe 7 septembrie 2026 a treia candidatură la conducerea autonomiei. Pe canale de Telegram a circulat apoi informația că ar candida, de fapt, cu susținerea Partidului Acțiune și Solidaritate (PAS). Liderul PAS și președintele Parlamentului, Igor Grosu, a numit informația „un fals” pe 9 septembrie, la emisiunea „Secretele Puterii” de la Jurnal TV, precizând că partidul nu a decis încă dacă va avea candidat propriu la alegerile de la 15 noiembrie 2026.
+
+Unde bat probele: Contrazis. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Un fost redactor-șef Sputnik Moldova a folosit inteligența artificială Claude ca să fabrice atacuri la adresa Maiei Sandu, arată un raport Anthropic publicat pe 10 septembrie</title>
       <link>https://farabaliverne.ro/a/moldova-sputnik-claude-dezinformare-maia-sandu.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că demiterile au avut loc — corectitudinea proceduri
       <description>Adunarea Națională a Nigeriei a anunțat pe 11 septembrie 2026 suspendarea tuturor vizitelor oficiale și a participării la evenimente găzduite de Parlamentul Africii de Sud, cu trei zile înainte ca Cape Town să găzduiască o conferință parlamentară a Commonwealth-ului. Motivul invocat e un șir de atacuri xenofobe soldate cu moartea unor cetățeni nigerieni — dar bilanțul oficial a crescut de la 90 la peste 100 în doar trei săptămâni, iar Pretoria respinge atât eticheta de „xenofobă”, cât și acuzația că poliția ar fi ucis direct nigerieni.
 
 Unde bat probele: Probat că decizia și atacurile există — cifrele exacte și responsabilitatea rămân disputate. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Un model de inteligență artificială a nimerit diagnosticul la triajul din urgență în 67% din 76 de cazuri reale, față de 55% și 50% pentru doi medici. Autorii spun că nu e gata pentru pacienți, iar un medic de urgență spune că s-a comparat cu specialitatea greșită</title>
-      <link>https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/harvard-ai-o1-diagnostic-urgente-76-cazuri-science.html</guid>
-      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Harvard Medical School și Beth Israel Deaconess au dat modelului o1 al OpenAI exact ce aveau și medicii: fișa electronică, semnele vitale, câteva rânduri scrise de asistenta de la triaj, fără nicio prelucrare. La primul contact, cel cu cea mai puțină informație și cea mai mare grabă, modelul a dat diagnosticul exact sau foarte apropiat în 67% din cazuri; cei doi medici, în 55% și 50%. Evaluatorii nu știau ce vine de la om și ce de la mașină. Publicat în Science pe 30 aprilie 2026.
-
-Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente de diagnostic, comparație în orb cu doi medici, plus alte experimente pe raționament clinic. Ce nu spune studiul: că mașina poate înlocui medicul. Cei doi medici erau interniști, nu medici de urgență; datele au fost doar text, fără imagistică sau EKG; iar autorii cer studii prospective înainte de orice folosire la pacienți. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
