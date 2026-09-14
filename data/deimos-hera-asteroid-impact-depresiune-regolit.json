@@ -67,10 +67,10 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg\" alt=\"Deimos\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Deimos. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Deimos-e-phoboslllll.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Deimos-e-phoboslllll</a>\" de Lukiwerner50, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg\" alt=\"asteroid surface space probe\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — asteroid surface space probe. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Asteroid_2016_AJ193_-_PIA24564.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Asteroid 2016 AJ193 - PIA24564</a>\" de NASA/JPL-Caltech, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "Lukiwerner50"
+    "licenta": "Public domain",
+    "autor": "NASA/JPL-Caltech"
   }
 }
