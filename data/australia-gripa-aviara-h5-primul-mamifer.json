@@ -68,6 +68,7 @@
     "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — poultry farm chickens. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Chickens_on_Poultry_Farm_-_geograph.org.uk_-_1700579.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Chickens on Poultry Farm - geograph.org.uk - 1700579</a>\" de Dave Spicer, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 2.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/australia-gripa-aviara-h5-primul-mamifer.jpg",
     "licenta": "CC BY-SA 2.0",
-    "autor": "Dave Spicer"
+    "autor": "Dave Spicer",
+    "aleasa_de_om": true
   }
 }

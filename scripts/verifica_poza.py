@@ -121,6 +121,21 @@ def sluguri_noi(de_la="HEAD~1"):
     return sorted(sluguri)
 
 
+def _aleasa_de_om(slug):
+    """A pus-o un om cu `pune_poza.py`? Atunci n-o scoatem automat.
+
+    🔴 Regula e asimetrică intenţionat: verificatorul are voie să SPUNĂ că o
+    poză aleasă de om nu-i place, dar nu are voie s-o ŞTEARGĂ. Fiindcă ce pune
+    în loc `garda_poze` e o plasă de siguranţă pe categorie — mai largă, deci
+    mai proastă decât alegerea omului. Aşa se pierdea curăţenia făcută manual.
+    """
+    try:
+        d = json.load(open(os.path.join(ROOT, "data", slug + ".json"), encoding="utf-8"))
+    except Exception:
+        return False
+    return bool((d.get("poza") or {}).get("aleasa_de_om"))
+
+
 def main():
     repara = "--repara" in sys.argv
     argumente = [a for a in sys.argv[1:] if not a.startswith("--")]
@@ -147,7 +162,10 @@ def main():
             if rez["verdict"] != "POTRIVIT":
                 print(f"      {rez['motiv']}")
             if rez["verdict"] == "NEPOTRIVIT":
-                rele.append(rez)
+                if _aleasa_de_om(rez["slug"]):
+                    print("      (aleasă de om — o las; doar raportez)")
+                else:
+                    rele.append(rez)
 
     if not rele:
         print(f"\ntoate cele {len(articole)} se potrivesc")

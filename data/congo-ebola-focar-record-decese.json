@@ -114,6 +114,7 @@
     "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — medical workers protective suits. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Autopsy_performed_outdoors_by_medical_examiners_wearing_special_protective_suits._Krynytsia,_Ternopil_oblast,_Ukraine.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Autopsy performed outdoors by medical examiners wearing special protective suits. Krynytsia, Ternopil oblast, Ukraine</a>\" de Mstyslav Chernov, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/congo-ebola-focar-record-decese.jpg",
     "licenta": "CC BY-SA 4.0",
-    "autor": "Mstyslav Chernov"
+    "autor": "Mstyslav Chernov",
+    "aleasa_de_om": true
   }
 }

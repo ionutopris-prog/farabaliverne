@@ -102,6 +102,7 @@
     "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — naval ship South China Sea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:USS_Charleston_(LCS-18)_South_China_Sea_22_January_2023.png\" rel=\"nofollow noopener\" target=\"_blank\">USS Charleston (LCS-18) South China Sea 22 January 2023</a>\" de Anonymous United States Navy photographer, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/china-pla-filipine-patrule-scarborough-provocari.jpg",
     "licenta": "Public domain",
-    "autor": "Anonymous United States Navy photographer"
+    "autor": "Anonymous United States Navy photographer",
+    "aleasa_de_om": true
   }
 }

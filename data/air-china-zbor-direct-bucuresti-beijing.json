@@ -66,6 +66,7 @@
     "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Air China aircraft. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Air_China_B747-4J6_B-2447_EDDS_01.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Air China B747-4J6 B-2447 EDDS 01</a>\" de Julian Herzog (Website), via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/air-china-zbor-direct-bucuresti-beijing.jpg",
     "licenta": "CC BY 4.0",
-    "autor": "Julian Herzog (Website)"
+    "autor": "Julian Herzog (Website)",
+    "aleasa_de_om": true
   }
 }

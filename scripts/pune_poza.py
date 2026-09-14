@@ -28,6 +28,12 @@ def main():
     if not gasit:
         print(f"⚪ {slug}: nimic pentru „{q}”"); return 1
     d["poza"] = {k: gasit[k] for k in ("img_html", "figcaption_html", "fisier", "licenta", "autor") if k in gasit}
+    # 🔴 Semnul că poza a ales-o un om, nu unealta. `verifica_poza.py --repara`
+    # NU scoate pozele marcate aşa. Fără semnul ăsta, robotul de noapte îmi
+    # ştergea alegerile şi punea în loc plasa de siguranţă pe categorie, care e
+    # mai proastă: pe 14 septembrie 2026 mi-a înlocuit „apărare antirachetă" cu
+    # „steaguri la un summit" şi „bărci pe mare" cu „feribot de pasageri".
+    d["poza"]["aleasa_de_om"] = True
     json.dump(d, open(j, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "scrie_articol.py"), slug], cwd=ROOT, check=False)
     print(f"✅ {slug}: {gasit.get('licenta','')} · {q}")
