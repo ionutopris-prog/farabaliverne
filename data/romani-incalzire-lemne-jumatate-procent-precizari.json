@@ -12,15 +12,27 @@
     {
       "text": "Cifra „aproximativ jumătate din gospodăriile din România (circa 3,5 milioane din aproximativ 7,5 milioane de locuințe locuite) se încălzesc cu lemne” provine din date ale Institutului Național de Statistică, citate de Ministerul Energiei; în mediul rural, ponderea trece de 80% (aproximativ 2,7 milioane de locuințe). Aceeași cifră de 3,5 milioane apare identică în relatări din 2020, 2023, 2024 și 2026, semn că e o estimare mai veche, recirculată, nu o măsurătoare reactualizată anual.",
       "sources": [
-        {"name": "Radio România Oltenia — Aproximativ jumătate dintre gospodăriile din România se încălzesc cu lemne de foc, potrivit datelor INS", "url": "https://www.radiooltenia.ro/aproximativ-jumatate-dintre-gospodariile-din-romania-se-incalzesc-cu-lemne-de-foc-audio/"},
-        {"name": "HotNews — Jumătate din locuințele din România se încălzesc cu lemne, dintre care 80.000 în București și Ilfov", "url": "https://hotnews.ro/jumatate-din-locuintele-din-romania-se-incalzesc-cu-lemne-dintre-care-80-000-in-bucuresti-si-ilfov-1819608"},
-        {"name": "Digi24 — Jumătate dintre români se încălzesc cu lemne. Cât au ajuns să coste proviziile pentru o iarnă", "url": "https://www.digi24.ro/stiri/actualitate/social/jumatate-dintre-romani-se-incalzesc-cu-lemne-cat-au-ajuns-sa-coste-proviziile-pentru-o-iarna-sunt-foarte-scumpe-3943159"}
+        {
+          "name": "Radio România Oltenia — Aproximativ jumătate dintre gospodăriile din România se încălzesc cu lemne de foc, potrivit datelor INS",
+          "url": "https://www.radiooltenia.ro/aproximativ-jumatate-dintre-gospodariile-din-romania-se-incalzesc-cu-lemne-de-foc-audio/"
+        },
+        {
+          "name": "HotNews — Jumătate din locuințele din România se încălzesc cu lemne, dintre care 80.000 în București și Ilfov",
+          "url": "https://hotnews.ro/jumatate-din-locuintele-din-romania-se-incalzesc-cu-lemne-dintre-care-80-000-in-bucuresti-si-ilfov-1819608"
+        },
+        {
+          "name": "Digi24 — Jumătate dintre români se încălzesc cu lemne. Cât au ajuns să coste proviziile pentru o iarnă",
+          "url": "https://www.digi24.ro/stiri/actualitate/social/jumatate-dintre-romani-se-incalzesc-cu-lemne-cat-au-ajuns-sa-coste-proviziile-pentru-o-iarna-sunt-foarte-scumpe-3943159"
+        }
       ]
     },
     {
       "text": "Un sondaj Inscop Research, citat separat de presă, arată că 43,4% dintre respondenți declară că se încălzesc iarna cu sobă pe lemne, cărbune SAU gaz natural (o categorie combinată), 35,7% au centrală proprie pe gaz, 13,5% au încălzire centralizată, iar 1,8% încălzire electrică. Această cifră circulă adesea alături de „jumătate se încălzesc cu lemne”, dar nu măsoară același lucru: include și cărbunele și gazul de sobă, și exclude din capul locului pe cei cu centrală proprie pe gaz — nu e deci o contrazicere a cifrei INS, ci o categorie statistică diferită.",
       "sources": [
-        {"name": "G4Media — Sondaj: 43% dintre români se încălzesc cu soba cu lemn, cărbune sau gaz natural", "url": "https://www.g4media.ro/sondaj-43-dintre-romani-se-incalzesc-cu-soba-cu-lemn-carbune-sau-gaz-natural.html"}
+        {
+          "name": "G4Media — Sondaj: 43% dintre români se încălzesc cu soba cu lemn, cărbune sau gaz natural",
+          "url": "https://www.g4media.ro/sondaj-43-dintre-romani-se-incalzesc-cu-soba-cu-lemn-carbune-sau-gaz-natural.html"
+        }
       ]
     }
   ],
@@ -28,7 +40,10 @@
     {
       "text": "Formularea seacă „jumătate” rotunjește în sus o cifră care, calculată din numerele citate de surse (3,5 din 7,5 milioane de locuințe), e de fapt circa 46-47%, nu 50%. Diferența e mică și nu schimbă concluzia de fond — locuirea pe lemne rămâne majoritară în rural și foarte răspândită la nivel național — dar niciuna dintre relatări nu explică de unde vine exact estimarea de 7,5 milioane de locuințe „locuite” folosită ca numitor, nici dacă a fost actualizată după recensământul din 2021.",
       "sources": [
-        {"name": "Radio România Oltenia — Aproximativ jumătate dintre gospodăriile din România se încălzesc cu lemne de foc", "url": "https://www.radiooltenia.ro/aproximativ-jumatate-dintre-gospodariile-din-romania-se-incalzesc-cu-lemne-de-foc-audio/"}
+        {
+          "name": "Radio România Oltenia — Aproximativ jumătate dintre gospodăriile din România se încălzesc cu lemne de foc",
+          "url": "https://www.radiooltenia.ro/aproximativ-jumatate-dintre-gospodariile-din-romania-se-incalzesc-cu-lemne-de-foc-audio/"
+        }
       ]
     }
   ],
@@ -38,5 +53,12 @@
     "explanation": "3,5 milioane de locuințe încălzite cu lemne dintr-un total de aproximativ 7,5 milioane de locuințe locuite reprezintă 46,7%, nu 50%. E o rotunjire uzuală în limbaj jurnalistic („jumătate”, „aproape jumătate”), nu o cifră inventată — dar exactitatea contează mai ales când aceeași estimare de 3,5 milioane e recirculată neschimbată din 2020 până în 2026, ceea ce sugerează că nimeni nu a mai actualizat-o cu date mai proaspete între timp."
   },
   "aiNote": "Am plecat de la afirmația reluată de Digi24 pe 11 septembrie 2026 și am urmărit-o înapoi în timp: aceeași cifră de 3,5 milioane de gospodării (din ~7,5 milioane) apare, identică, în articole din 2020, 2023, 2024 și 2026, provenind în ultimă instanță din date ale INS citate de Ministerul Energiei — nu dintr-o măsurătoare nouă. Asta nu înseamnă că cifra e falsă: proporția mare a încălzirii cu lemne, mai ales la sate (peste 80%), e confirmată constant. Înseamnă doar că „jumătate” e o rotunjire a unei cifre reale de circa 46-47%, iar vechimea estimării (posibil neactualizată de la recensământul din 2021 sau chiar mai devreme) nu e menționată în nicio relatare pe care am găsit-o.\n\nSeparat, sondajul Inscop Research cu 43,4% circulă adesea ca și cum ar confirma sau contrazice cifra „jumătate” — dar cele două nu sunt comparabile: sondajul măsoară o categorie combinată (sobă pe lemne, cărbune SAU gaz), exclude explicit centrala proprie pe gaz, și e un sondaj de opinie pe eșantion, nu o statistică oficială de gospodării. Cititorul care vede „43%” lângă „jumătate” ar putea crede că una o contrazice pe cealaltă; de fapt, măsoară lucruri diferite.\n\nCe ar limpezi complet lucrurile: o cifră actualizată direct de la INS, defalcată pe combustibil de încălzire, din recensământul 2021 sau dintr-o anchetă mai recentă asupra condițiilor de viață — nu am găsit-o publicată separat de estimarea de 3,5 milioane vehiculată de minister.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/romani-incalzire-lemne-jumatate-procent-precizari.jpg\" alt=\"city street people\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — city street people. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2024_-_free_download_photo_of_Leiden_old_city_-_a_look-through_view_through_the_historical_brick_city_gate_Morspoort_of_people_walking_in_the_Morsstraat._Street_photography_of_old_Dutch_cities_in_high_resolutions,_Fons_Heijnsbroek.tif\" rel=\"nofollow noopener\" target=\"_blank\">2024 - free download photo of Leiden old city - a look-through view through the historical brick city gate Morspoort of people walking in the Morsstraat. Street photography of old Dutch cities in high resolutions, Fons Heijnsbroek</a>\" de Fons Heijnsbroek, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/romani-incalzire-lemne-jumatate-procent-precizari.jpg",
+    "licenta": "CC0",
+    "autor": "Fons Heijnsbroek"
+  }
 }
