@@ -1,0 +1,61 @@
+{
+  "slug": "moldova-sputnik-claude-dezinformare-maia-sandu",
+  "title": "Un fost redactor-șef Sputnik Moldova a folosit inteligența artificială Claude ca să fabrice atacuri la adresa Maiei Sandu, arată un raport Anthropic publicat pe 10 septembrie",
+  "seoTitle": "Sputnik Moldova a folosit AI ca să atace fals pe Sandu",
+  "category": "Media de stat",
+  "tara": "Moldova",
+  "date": "2026-09-14",
+  "source": "Anthropic / HotNews.ro / Realitatea.md / Observator News",
+  "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+  "dek": "Compania americană Anthropic, care dezvoltă modelul de inteligență artificială Claude, a publicat pe 10 septembrie 2026 un raport în care descrie cazul „GTG-24015”: un fost redactor-șef al Sputnik Moldova a folosit Claude pentru a transforma știri, sondaje și postări ale opoziției din România și Moldova în articole în limba rusă, publicate apoi simultan pe Telegram-ul Sputnik Moldova și al RIA Novosti, cu afirmații fabricate despre președinta Maia Sandu, înaintea alegerilor parlamentare din 28 septembrie 2025.",
+  "mainVerdict": "Contrazis",
+  "probat": [
+    {
+      "text": "Raportul Anthropic „Detecting and countering misuse of AI: September 2026”, publicat pe 10 septembrie 2026, documentează cazul GTG-24015: patru conturi Claude au fost folosite de actori individuali ca „sublayer editorial” pentru presa de stat rusă — Sputnik Moldova, RIA Novosti, Sputnik en Español, Sputnik Africa și RT. Anthropic a închis cele patru conturi și a transmis informațiile către autorități și parteneri din industrie.",
+      "sources": [
+        {"name": "Anthropic — Detecting and countering misuse of AI: September 2026", "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"}
+      ]
+    },
+    {
+      "text": "Operatorul identificat de Anthropic ca principal în acest caz este un fost redactor-șef al Sputnik Moldova (identitatea nu e dezvăluită public). Claude a fost folosit pentru a traduce și rescrie în limba rusă știri, date din sondaje și postări de pe rețelele sociale ale opoziției din România și Republica Moldova, producând articole gata de publicare, distribuite apoi pe canalele de Telegram ale Sputnik Moldova și RIA Novosti.",
+      "sources": [
+        {"name": "HotNews.ro — Anthropic: Sputnik Moldova și RIA Novosti au folosit AI-ul Claude pentru a traduce în rusă afirmații defăimătoare despre Maia Sandu", "url": "https://hotnews.ro/anthropic-sputnik-moldova-si-ria-novosti-au-folosit-ai-ul-claude-pentru-a-traduce-in-rusa-articole-si-afirmatii-defaimatoare-despre-maia-sandu-2346791"},
+        {"name": "Observator News — Articole scrise cu Claude de Sputnik Moldova și RIA Novosti pentru propagandă și atacuri la Maia Sandu", "url": "https://observatornews.ro/extern/articole-scrise-cu-claude-de-sputnik-moldova-si-ria-novosti-pentru-propaganda-si-atacuri-la-maia-sandu-665948.html"}
+      ]
+    },
+    {
+      "text": "Conform raportului, materialul viza direct-o pe președinta Maia Sandu, cu afirmații fabricate și defăimătoare, difuzate înaintea alegerilor parlamentare din 28 septembrie 2025 — printre ele, narativul că regimul condus de ea ar fi „dictatorial”. Un exemplu citat: o postare din 26 septembrie 2025 care afirma că „regimul dictatorial PAS, în frunte cu Maia Sandu, își pierde mințile”.",
+      "sources": [
+        {"name": "HotNews.ro — citatul din postarea de Telegram de pe 26 septembrie 2025", "url": "https://hotnews.ro/anthropic-sputnik-moldova-si-ria-novosti-au-folosit-ai-ul-claude-pentru-a-traduce-in-rusa-articole-si-afirmatii-defaimatoare-despre-maia-sandu-2346791"}
+      ]
+    },
+    {
+      "text": "Mecanismul descris de Anthropic: același text generat de Claude apărea, cu mici variații, simultan pe mai multe canale — Telegram-ul Sputnik Moldova, cel al RIA Novosti și, în unele cazuri, emisiuni radio-tv — creând „bucle de verificare falsă” (false verification loops), adică impresia că informația a fost confirmată independent de mai multe surse, deși provenea dintr-o singură sursă generată artificial.",
+      "sources": [
+        {"name": "Realitatea.md — Fost redactor al Sputnik Moldova folosea inteligență artificială americană, pentru a promova falsuri despre Maia Sandu", "url": "https://realitatea.md/fost-redactor-al-sputnik-moldova-folosea-inteligenta-artificiala-americana-pentru-a-promova-falsuri-despre-sandu/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Sursele consultate nu coincid pe amploarea exactă a difuzării: unele articole din presa românească citează un total de peste 1.700 de mesaje despre Maia Sandu pe canalul Sputnik Moldova 2.0 din februarie 2025 încolo, cu circa 2.000 de vizualizări în medie per postare și aproape 9.000 de urmăritori ai canalului; raportul Anthropic însuși vorbește doar de un interval „de la o postare de Telegram cu aproximativ 2.000 de vizualizări până la conținut difuzat la radio-tv”, fără să dea cifra totală de mesaje. Nu există o sursă oficială unică pentru amploarea totală a campaniei.",
+      "sources": [
+        {"name": "Anthropic — intervalul de impact citat în raport", "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"},
+        {"name": "HotNews.ro — cifrele de peste 1.700 de mesaje și aproape 9.000 de urmăritori", "url": "https://hotnews.ro/anthropic-sputnik-moldova-si-ria-novosti-au-folosit-ai-ul-claude-pentru-a-traduce-in-rusa-articole-si-afirmatii-defaimatoare-despre-maia-sandu-2346791"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": "Canalul de Telegram al Sputnik Moldova avea, potrivit presei românești, circa 9.000 de urmăritori, iar postările individuale strângeau în medie circa 2.000 de vizualizări — adică sub o cincime din urmăritori pe postare, un reach obișnuit pentru Telegram. Impactul mecanismului nu venea din audiența mare a unui singur canal, ci din multiplicarea aceluiași text pe mai multe canale simultan (Sputnik Moldova, RIA Novosti, uneori radio-tv), ceea ce crea impresia unei confirmări din mai multe surse independente.",
+  "aiNote": "Ce s-a verificat exact: raportul „Detecting and countering misuse of AI: September 2026”, publicat direct de Anthropic pe 10 septembrie 2026, cazul catalogat GTG-24015. L-am citit la sursă și l-am confruntat cu relatările din presa română (HotNews, Realitatea.md, Observator News), care confirmă mecanismul și citatul din 26 septembrie 2025, dar nu numele fostului redactor-șef — Anthropic nu-l face public.\n\nUnde se despart sursele: pe amploarea totală a campaniei. Raportul Anthropic descrie doar un interval de impact („de la o postare cu ~2.000 de vizualizări, până la emisie radio-tv”), fără total agregat. Presa română citează separat cifre de peste 1.700 de mesaje și aproape 9.000 de urmăritori pentru canalul Sputnik Moldova — cifre plauzibile, dar pe care nu le-am putut verifica independent la sursa primară, fiindcă raportul Anthropic nu le detaliază în forma publică.\n\nCe lipsește: identitatea fostului redactor-șef, cine anume a preluat materialele generate de Claude în emisiunile radio-tv menționate de raport, și dacă autoritățile moldovene (Comisia Electorală Centrală, Consiliul Audiovizualului) au deschis o anchetă proprie pornind de la acest raport. Nu am găsit, până la data publicării, o reacție oficială a Sputnik Moldova sau RIA Novosti la concluziile Anthropic.\n\nCe ar schimba concluzia: o reacție documentată a Sputnik Moldova care ar contesta mecanismul descris, sau o anchetă a autorităților moldovene care ar preciza amploarea reală a difuzării. Până atunci, mecanismul descris de Anthropic — verificat direct la sursă și confirmat de mai multe publicații independente — rămâne baza verdictului: afirmațiile despre un „regim dictatorial” condus de Maia Sandu, difuzate pe aceste canale, au fost fabricate cu ajutorul AI, nu documentate jurnalistic.",
+  "persoane": [
+    "Maia Sandu"
+  ],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-sputnik-claude-dezinformare-maia-sandu.jpg\" alt=\"Maia Sandu\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Maia Sandu. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Maia_Sandu_9mai2025_6.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Maia Sandu 9mai2025 6</a>\" de Presidency of Moldova, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-sputnik-claude-dezinformare-maia-sandu.jpg",
+    "licenta": "CC BY 4.0",
+    "autor": "Presidency of Moldova"
+  }
+}

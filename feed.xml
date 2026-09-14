@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 14 Sep 2026 14:30:47 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:26:24 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Budăi îl acuză pe Bolojan că „ascunde” deficitul prin facturi amânate — cifra e reală, dar Consiliul Fiscal descrie un alt mecanism</title>
+      <link>https://farabaliverne.ro/a/budai-acuza-bolojan-deficit-ascuns-facturi-amanate.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/budai-acuza-bolojan-deficit-ascuns-facturi-amanate.html</guid>
+      <pubDate>Mon, 14 Sep 2026 11:31:57 +0000</pubDate>
+      <category>Politică</category>
+      <description>Fostul ministru al Muncii Marius Budăi (PSD) a acuzat pe Facebook, pe 13-14 septembrie 2026, că reducerea deficitului bugetar anunțată de Ministerul Finanțelor pentru primele șapte luni din 2026 e „pe hârtie”, obținută prin amânarea plăților către furnizori, inclusiv la programul „Anghel Saligny”. Cifra deficitului e confirmată oficial, dar structura ei, descrisă chiar de Consiliul Fiscal, arată un mecanism diferit de cel invocat de Budăi — iar suspendarea plăților din „Anghel Saligny”, reală și documentată separat, a intrat în vigoare abia în septembrie, după finalul perioadei pentru care s-a raportat deficitul.
+
+Unde bat probele: Probat parțial — deficitul redus e real, mecanismul „facturi ascunse” invocat de Budăi nu se confirmă din structura oficială a ajustării. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Sorana Cîrstea a trecut de 13 milioane de dolari câștigați din tenis, după cea mai bună clasare WTA din carieră</title>
       <link>https://farabaliverne.ro/a/sorana-cirstea-13-milioane-dolari-locul-15-wta.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente
       <description>CW-Net e un modul care se prinde în mijlocul „creierului” unei mașini autonome și îi traduce raționamentul în concepte pe care le înțelege un om: „mă apropii de un vehicul oprit”, „biciclist aproape”. Antrenat pe 130 de milioane de scene, testat pe un robotaxi real pe pistă privată și în simulări cu oameni obișnuiți. Rezultatul: oamenii au prezis mai bine ce face mașina, iar mașina a condus la fel. Publicat în Nature pe 2 septembrie 2026.
 
 Unde bat probele: Probat ce descrie MIT: metoda, antrenamentul pe 130 de milioane de scene, testul pe pistă cu șofer de siguranță și simulările cu neexperți, cu explicațiile care au îmbunătățit predicțiile oamenilor. Lucrarea din Nature nu e cu acces liber; MIT nu dă numărul de participanți și nici cu cât s-au îmbunătățit predicțiile, iar testul real a fost pe o pistă privată, nu în trafic. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>MIT a cartografiat 31 de tipuri de neuroni din striat, regiunea creierului lovită de Huntington, schizofrenie și adicție. Și a găsit de ce partea de sus a striatului cedează prima</title>
-      <link>https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-atlas-striat-31-tipuri-neuroni-huntington-cell.html</guid>
-      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Din țesut donat de oameni, băncilor de creier din SUA și Canada, cercetătorii MIT au făcut un atlas al neuronilor din striat: 31 de subpopulații, dintre care nouă tipuri de „neuroni spinoși medii”. Două populații atipice poartă genele adicției la opioide, ale răspunsului la antidepresive și la clozapină. Iar neuronii din partea de sus a striatului exprimă mai mult MSH2 și MSH3, genele care înmulțesc repetițiile CAG din gena huntingtinei; de asta cedează primii în boala Huntington. Publicat în Cell pe 1 septembrie 2026.
-
-Unde bat probele: Probat ce descrie MIT: metoda (secvențiere ARN pe celule individuale, plus două tehnici spațiale), cele 31 de subpopulații, cele două populații atipice și explicația vulnerabilității dorsale la Huntington prin MSH2/MSH3. Lucrarea din Cell e cu acces restricționat; e un atlas, nu un tratament, iar diferențele față de șoareci, spuse chiar de autori, limitează cât din biologia asta se poate testa pe animale. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
