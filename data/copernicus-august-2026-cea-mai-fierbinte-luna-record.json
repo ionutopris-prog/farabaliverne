@@ -49,12 +49,5 @@
     "title": "De ce apar două cifre diferite pentru „cât de fierbinte\" a fost august 2026",
     "explanation": "Comunicatul Copernicus dă două anomalii pentru aceeași lună: +0,85°C și +1,65°C. Nu sunt greșeli, ci compară august 2026 cu două perioade de referință diferite. Prima, +0,85°C, arată cât de neobișnuit a fost august 2026 față de mediile lunilor august din 1991-2020 — perioadă deja afectată de încălzire. A doua, +1,65°C, compară aceeași lună cu perioada 1850-1900, dinainte de industrializarea masivă, reperul folosit de Acordul de la Paris pentru ținta de 1,5°C. Cifra mai mare nu înseamnă o încălzire suplimentară „nouă\" — arată doar cât s-a încălzit deja planeta față de un punct de plecare mult mai vechi și mai rece."
   },
-  "persoane": [],
-  "poza": {
-    "img_html": "<img src=\"../img/articole/copernicus-august-2026-cea-mai-fierbinte-luna-record.jpg\" alt=\"heat wave Europe summer sun\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — heat wave Europe summer sun. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Marine_heat_in_Northwest_European_Waters_20250522.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Marine heat in Northwest European Waters 20250522</a>\" de NASA Earth Observatory image by Wanmei Liang, using data from the Multiscale Ult, via Wikimedia Commons · <a href=\"https://en.wikipedia.org/wiki/Public_domain\" rel=\"license nofollow noopener\" target=\"_blank\">Public domain</a> · decupată</span></span></figcaption>",
-    "fisier": "img/articole/copernicus-august-2026-cea-mai-fierbinte-luna-record.jpg",
-    "licenta": "Public domain",
-    "autor": "NASA Earth Observatory image by Wanmei Liang"
-  }
+  "persoane": []
 }
