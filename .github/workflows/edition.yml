@@ -187,9 +187,14 @@ jobs:
           else
             W="NOAPTE ASIA/ORIENT (01 EEST) — Asia-Pacific + Orientul Mijlociu + Media de stat (etichetata + cross-check independent)."
           fi
+          # Ce caută românii acum (Google Trends RO, RSS public, fără cont).
+          # Dacă pică, ediția merge mai departe fără el.
+          TENDINTE="$(python3 scripts/tendinte.py 2>/dev/null || true)"
           PROMPT="$(cat .github/edition-prompt.md)
 
-          FEREASTRA CURENTA: $W"
+          FEREASTRA CURENTA: $W
+
+          $TENDINTE"
           # Buget de tururi: 80, coborât de la 120 pe 17 august.
           #
           # Se putea cobora abia DUPĂ ce promptul a fost schimbat să publice după

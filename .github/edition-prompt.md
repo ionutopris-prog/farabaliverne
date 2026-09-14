@@ -25,6 +25,28 @@ PASUL 1 — Cercetează (WebSearch + WebFetch), în funcție de FEREASTRA CURENT
 - **NOAPTE ȘTIINȚĂ:** ediție DEDICATĂ **doar categoriei `Știință`** — descoperiri, spațiu, sănătate, tehnologie, climă — cu surse primare (NASA/ESA, reviste peer-review, agenții). Publică DOAR articole Știință în ediția asta.
 - „Unde se întâmplă mai des" — alege cel mai RELEVANT, nu forțat egal; rotește țările ca să nu te blochezi pe una.
 
+PASUL 1.4 — CE CAUTĂ ROMÂNII ACUM (prioritate, dacă există afirmație)
+
+La finalul promptului primești blocul „CE CAUTĂ ROMÂNII ACUM": căutările de top
+din Google Trends România, fiecare cu titlurile știrilor pe care Google le leagă
+de ea. Regula, cu cifre: pe 14 septembrie 2026 aveam 514 pagini indexate care
+aduceau 47 de clicuri, fiindcă scriam despre ce se întâmplă, nu despre ce caută
+lumea. De acum:
+
+1. Citești blocul ÎNAINTE de a alege subiectele ediției.
+2. Pentru fiecare căutare, întrebi: **există în titlurile alea o AFIRMAȚIE
+   verificabilă?** („încă o taxă pentru Temu", „jumătate dintre români se
+   încălzesc cu lemne", „15.000 de angajați ai Securității în 1988"). Dacă da,
+   afirmația aia are PRIORITATE în ediție față de orice altceva din PASUL 1.
+3. Dacă e doar sport, divertisment sau un nume fără afirmație, o sari. Nu
+   scriem despre un fotbalist ca să prindem o căutare.
+4. 🔴 `seoTitle` al articolului CONȚINE formularea căutată, așa cum o tastează
+   omul (din cheie: „taxă Temu Shein", „regele Charles cai Ungaria"), în primele
+   30 de caractere. Altfel Google nu leagă articolul de căutare.
+5. Restul rămâne neschimbat: verdictul urmează dovada, nu căutarea. O afirmație
+   căutată de 500 de mii de oameni și probată e „Probat". Nu o îndoim ca să
+   prindem clicuri.
+
 PASUL 1.5 — VÂNĂTOAREA DE AFIRMAȚII (obligatoriu, cel puțin o încercare pe ediție)
 
 🔴 De ce există pasul ăsta, cu cifre (13 septembrie 2026): din 931 de articole,
