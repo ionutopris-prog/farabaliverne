@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 15 Sep 2026 02:16:20 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 02:21:31 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Senatul a respins reducerea Parlamentului la 299 de membri, deși AUR și USR au votat pentru</title>
+      <link>https://farabaliverne.ro/a/senat-respinge-reducere-parlamentari-299-aur.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/senat-respinge-reducere-parlamentari-299-aur.html</guid>
+      <pubDate>Mon, 14 Sep 2026 23:17:44 +0000</pubDate>
+      <category>Politică</category>
+      <description>Senatul a respins luni, 14 septembrie 2026, proiectul AUR care ar fi redus Parlamentul de la numărul actual la 299 de membri (201 deputați, 98 de senatori). Deși au fost mai multe voturi „pentru” decât „împotrivă”, legea organică are nevoie de majoritatea absolută a Senatului, prag pe care cele 43 de voturi „pentru” nu l-au atins.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Zelenski se declară gata să-l întâlnească pe Putin la summitul G20 din Miami — Kremlinul respinge propunerea, cere ca el să vină la Moscova</title>
       <link>https://farabaliverne.ro/a/zelenski-putin-g20-miami-kremlin-respinge.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează studiul: metoda (trei brațe, randomizat
       <description>Ziua, în creier se adună acid lactic și proteine uzate; noaptea, valuri de lichid cefalorahidian le spală. Cercetătorii MIT au arătat că pot mări aceste valuri cu rafale scurte de sunet blând, un fâsâit ca ploaia, livrate pe vârful undelor electrice lente din somnul profund. Sunetul mărește undele lente, undele lente strâng și lărgesc vasele de sânge, iar vasele pompează lichidul afară din creier. Rezultatul, pe 14 voluntari sănătoși, e în Science Translational Medicine pe 9 septembrie 2026. Ce urmează, spun ei, e testul pe oameni cu insomnie și cu Alzheimer; nu s-a făcut încă.
 
 Unde bat probele: Probat ce descrie MIT: metoda (EEG curățat de zgomotul RMN în sub 100 de milisecunde, plus un algoritm care prezice vârful undei), efectul pe 14 voluntari sănătoși și mecanismul văzut la RMN. Contestat: eșantionul e mic și doar oameni sănătoși; nu s-a măsurat nicio ameliorare a memoriei sau a vreunei boli; lucrarea e cu abonament; iar autorul principal și-a făcut o firmă pentru un dispozitiv de casă. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Sondajele din Franța o dau pe Marine Le Pen câștigătoare în 2027 — dar scorul din turul doi variază enorm în funcție de cine îi este adversar</title>
-      <link>https://farabaliverne.ro/a/franta-sondaje-le-pen-2027-eligibilitate-apel.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/franta-sondaje-le-pen-2027-eligibilitate-apel.html</guid>
-      <pubDate>Sat, 12 Sep 2026 17:28:27 +0000</pubDate>
-      <category>Extern</category>
-      <description>Două sondaje publicate la începutul lui septembrie 2026 (Ipsos pentru Le Parisien, OpinionWay pentru CNEWS) o arată pe Marine Le Pen cu un avans clar în primul tur al prezidențialelor franceze din 2027 — 33-36%, în funcție de scenariu. Dar în turul doi, marja variază radical: zdrobitoare în fața lui Jean-Luc Mélenchon, practic egalitate statistică în fața lui Édouard Philippe. Le Pen și-a redobândit eligibilitatea abia în iulie 2026, după ce Curtea de Apel din Paris i-a redus pedeapsa inițială.
-
-Unde bat probele: Probat ce arată sondajele — dar avansul depinde total de adversarul din turul doi. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
