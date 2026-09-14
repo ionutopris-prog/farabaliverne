@@ -65,12 +65,5 @@
     "title": "Cum poate un asteroid de 320 de metri să remodeleze o lună întreagă",
     "explanation": "Deimos are un diametru de doar circa 12,4 kilometri — un asteroid de 320 de metri e, așadar, mic în comparație, dar nu neglijabil: reprezintă aproximativ 2,5% din diametrul lunii. La viteze tipice de impact în sistemul solar interior (zeci de mii de km/h), un corp de această mărime eliberează o energie suficientă ca să arunce material de pe toată suprafața unui corp mic și slab legat gravitațional, fără să-l distrugă complet. Diferența dintre „a distruge” și „a redistribui” ține de unghiul de impact și de structura internă: un impact frontal, pe un corp compact, ar putea sparge luna în bucăți; un impact oblic (45 de grade), pe un corp poros ca un „rubble pile”, absoarbe mai mult din energie prin deformare și fragmentare locală, împrăștiind moloz pe orbite joase care recad apoi uniform pe toată suprafața — exact mecanismul care ar explica de ce Deimos pare acoperit peste tot de un strat neted de praf, nu doar în jurul unui singur crater vizibil."
   },
-  "persoane": [],
-  "poza": {
-    "img_html": "<img src=\"../img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg\" alt=\"asteroid surface space probe\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — asteroid surface space probe. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Asteroid_2016_AJ193_-_PIA24564.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Asteroid 2016 AJ193 - PIA24564</a>\" de NASA/JPL-Caltech, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
-    "fisier": "img/articole/deimos-hera-asteroid-impact-depresiune-regolit.jpg",
-    "licenta": "Public domain",
-    "autor": "NASA/JPL-Caltech"
-  }
+  "persoane": []
 }
