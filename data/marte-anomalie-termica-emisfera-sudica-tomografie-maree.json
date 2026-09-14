@@ -50,10 +50,11 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/marte-anomalie-termica-emisfera-sudica-tomografie-maree.jpg\" alt=\"Marte\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Marte. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_MARTE,_Coahuila_-_panoramio_(15).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Estación MARTE, Coahuila - panoramio (15)</a>\" de urbanomafia, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/marte-anomalie-termica-emisfera-sudica-tomografie-maree.jpg\" alt=\"Mars planet surface\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mars planet surface. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:AEB_000002_0000_Ancient_Cratered_Surface_Northeast_of_Martz_Crater_,.png\" rel=\"nofollow noopener\" target=\"_blank\">AEB 000002 0000 Ancient Cratered Surface Northeast of Martz Crater ,</a>\" de image:NASA/JPL-Caltech/Uarizona modified by Mariagat1959, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/marte-anomalie-termica-emisfera-sudica-tomografie-maree.jpg",
-    "licenta": "CC BY-SA 3.0",
-    "autor": "urbanomafia"
+    "licenta": "Public domain",
+    "autor": "image:NASA/JPL-Caltech/Uarizona modified by Mariagat1959",
+    "aleasa_de_om": true
   }
 }

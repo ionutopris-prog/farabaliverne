@@ -79,10 +79,11 @@
     "Claudiu Manda"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/manda-consum-romani-scade-ins-iulie-2026.jpg\" alt=\"Manda\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Manda. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Manda_23_Ras_Kitau_79.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Manda 23 Ras Kitau 79</a>\" de Bingar1234, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/manda-consum-romani-scade-ins-iulie-2026.jpg\" alt=\"supermarket shopping cart\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — supermarket shopping cart. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Publix_MetroWest_Village_shopping_carts.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Publix MetroWest Village shopping carts</a>\" de Nielsoncaetanosalmeron, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/manda-consum-romani-scade-ins-iulie-2026.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "Bingar1234"
+    "licenta": "CC BY 4.0",
+    "autor": "Nielsoncaetanosalmeron",
+    "aleasa_de_om": true
   }
 }

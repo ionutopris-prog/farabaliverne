@@ -72,10 +72,11 @@
   "aiNote": "🌍 Am rezumat și pus în context în română știri din presa internațională (Euronews, NBC News, Al Jazeera); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate. Am marcat explicit ca „Contestat” diferențele de cifre între surse (arestări și bilanțul morților), pentru că nu am găsit o sursă oficială care să le reconcilieze.",
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/maroc-ceuta-migranti-arestati-16-august.jpg\" alt=\"Ceuta\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Ceuta. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ceuta..jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ceuta.</a>\" de GenesisGelbes, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/maroc-ceuta-migranti-arestati-16-august.jpg\" alt=\"border fence migrants\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — border fence migrants. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Hermetically_closed_unidirectional_turnstiles_where_migrants_were_trapped_(cropped).png\" rel=\"nofollow noopener\" target=\"_blank\">Hermetically closed unidirectional turnstiles where migrants were trapped (cropped)</a>\" de National Human Rights Council of the Kingdom of Morocco, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/maroc-ceuta-migranti-arestati-16-august.jpg",
-    "licenta": "CC BY-SA 3.0",
-    "autor": "GenesisGelbes"
+    "licenta": "Public domain",
+    "autor": "National Human Rights Council of the Kingdom of Morocco",
+    "aleasa_de_om": true
   }
 }

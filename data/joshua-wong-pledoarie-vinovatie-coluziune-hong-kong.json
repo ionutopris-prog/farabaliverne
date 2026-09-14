@@ -79,10 +79,11 @@
     "Nathan Law"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/joshua-wong-pledoarie-vinovatie-coluziune-hong-kong.jpg\" alt=\"Joshua\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Joshua. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:1963_Airstream_trailer_in_Joshua_Tree_dllu.jpg\" rel=\"nofollow noopener\" target=\"_blank\">1963 Airstream trailer in Joshua Tree dllu</a>\" de Dllu, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/joshua-wong-pledoarie-vinovatie-coluziune-hong-kong.jpg\" alt=\"Hong Kong court building\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Hong Kong court building. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Legislative_Council_Building_in_Hong_Kong.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Legislative Council Building in Hong Kong</a>\" de Gloriashek91, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/joshua-wong-pledoarie-vinovatie-coluziune-hong-kong.jpg",
-    "licenta": "CC BY-SA 4.0",
-    "autor": "Dllu"
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Gloriashek91",
+    "aleasa_de_om": true
   }
 }
