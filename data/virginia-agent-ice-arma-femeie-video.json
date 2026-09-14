@@ -94,10 +94,11 @@
     "Carolina Molina"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/virginia-agent-ice-arma-femeie-video.jpg\" alt=\"Virginia\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Virginia. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Low-end_EF3_damage_to_a_home_in_Virginia_Beach,_Virginia.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Low-end EF3 damage to a home in Virginia Beach, Virginia</a>\" de National Weather Service, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/virginia-agent-ice-arma-femeie-video.jpg\" alt=\"police traffic stop car\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — police traffic stop car. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Deputy_Uses_PIT_Maneuver_To_Stop_Car_After_4_Women_Tried_To_Flee_From_Traffic_Stop.webm\" rel=\"nofollow noopener\" target=\"_blank\">Deputy Uses PIT Maneuver To Stop Car After 4 Women Tried To Flee From Traffic Stop</a>\" de PoliceActivity, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/virginia-agent-ice-arma-femeie-video.jpg",
     "licenta": "Public domain",
-    "autor": "National Weather Service"
+    "autor": "PoliceActivity",
+    "aleasa_de_om": true
   }
 }

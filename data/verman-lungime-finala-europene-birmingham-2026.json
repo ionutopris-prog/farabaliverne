@@ -55,10 +55,11 @@
     "Ramona Verman"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/verman-lungime-finala-europene-birmingham-2026.jpg\" alt=\"Verman\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Verman. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Verman_05_2009_-2136.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Verman 05 2009 -2136</a>\" de ВикиКорректор, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/verman-lungime-finala-europene-birmingham-2026.jpg\" alt=\"long jump athletics\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — long jump athletics. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2013_IPC_Athletics_World_Championships_-_26072013_-_Keng-Chin_Liang_of_Taipei_during_the_Men%27s_Long_jump_-_T12_2.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2013 IPC Athletics World Championships - 26072013 - Keng-Chin Liang of Taipei during the Men's Long jump - T12 2</a>\" de Clément Bucco-Lechat, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/verman-lungime-finala-europene-birmingham-2026.jpg",
-    "licenta": "Public domain",
-    "autor": "ВикиКорректор"
+    "licenta": "CC BY-SA 3.0",
+    "autor": "Clément Bucco-Lechat",
+    "aleasa_de_om": true
   }
 }
