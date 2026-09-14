@@ -76,10 +76,11 @@
     "Amir Hatami"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/iran-hatami-recompensa-30000-soldati-americani.jpg\" alt=\"Press\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Press. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2023_Stari_Bar_Press_for_olive_oil.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2023 Stari Bar Press for olive oil</a>\" de Qasinka, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/iran-hatami-recompensa-30000-soldati-americani.jpg\" alt=\"military parade soldiers\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — military parade soldiers. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ethiopian_soldiers_marching_in_a_military_parade_2019_(cropped).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Ethiopian soldiers marching in a military parade 2019 (cropped)</a>\" de Office of the Prime Minister - Ethiopia, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/iran-hatami-recompensa-30000-soldati-americani.jpg",
-    "licenta": "CC0",
-    "autor": "Qasinka"
+    "licenta": "Public domain",
+    "autor": "Office of the Prime Minister - Ethiopia",
+    "aleasa_de_om": true
   }
 }
