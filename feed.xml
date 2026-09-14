@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 14 Sep 2026 17:26:24 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 17:31:08 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un fost redactor-șef Sputnik Moldova a folosit inteligența artificială Claude ca să fabrice atacuri la adresa Maiei Sandu, arată un raport Anthropic publicat pe 10 septembrie</title>
+      <link>https://farabaliverne.ro/a/moldova-sputnik-claude-dezinformare-maia-sandu.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-sputnik-claude-dezinformare-maia-sandu.html</guid>
+      <pubDate>Mon, 14 Sep 2026 14:27:48 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>Compania americană Anthropic, care dezvoltă modelul de inteligență artificială Claude, a publicat pe 10 septembrie 2026 un raport în care descrie cazul „GTG-24015”: un fost redactor-șef al Sputnik Moldova a folosit Claude pentru a transforma știri, sondaje și postări ale opoziției din România și Moldova în articole în limba rusă, publicate apoi simultan pe Telegram-ul Sputnik Moldova și al RIA Novosti, cu afirmații fabricate despre președinta Maia Sandu, înaintea alegerilor parlamentare din 28 septembrie 2025.
+
+Unde bat probele: Contrazis. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Budăi îl acuză pe Bolojan că „ascunde” deficitul prin facturi amânate — cifra e reală, dar Consiliul Fiscal descrie un alt mecanism</title>
       <link>https://farabaliverne.ro/a/budai-acuza-bolojan-deficit-ascuns-facturi-amanate.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat că decizia și atacurile există — cifrele exacte ș
       <description>Harvard Medical School și Beth Israel Deaconess au dat modelului o1 al OpenAI exact ce aveau și medicii: fișa electronică, semnele vitale, câteva rânduri scrise de asistenta de la triaj, fără nicio prelucrare. La primul contact, cel cu cea mai puțină informație și cea mai mare grabă, modelul a dat diagnosticul exact sau foarte apropiat în 67% din cazuri; cei doi medici, în 55% și 50%. Evaluatorii nu știau ce vine de la om și ce de la mașină. Publicat în Science pe 30 aprilie 2026.
 
 Unde bat probele: Probat ce a măsurat studiul: 76 de cazuri reale, trei momente de diagnostic, comparație în orb cu doi medici, plus alte experimente pe raționament clinic. Ce nu spune studiul: că mașina poate înlocui medicul. Cei doi medici erau interniști, nu medici de urgență; datele au fost doar text, fără imagistică sau EKG; iar autorii cer studii prospective înainte de orice folosire la pacienți. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>MIT și Motional au făcut o mașină autonomă să spună în cuvinte de ce frânează. Șoferul a aflat că nu vedea biciclistul, ci se oprea doar din reflexul de urgență</title>
-      <link>https://farabaliverne.ro/a/mit-cw-net-masina-autonoma-explicatii-nature.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-cw-net-masina-autonoma-explicatii-nature.html</guid>
-      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>CW-Net e un modul care se prinde în mijlocul „creierului” unei mașini autonome și îi traduce raționamentul în concepte pe care le înțelege un om: „mă apropii de un vehicul oprit”, „biciclist aproape”. Antrenat pe 130 de milioane de scene, testat pe un robotaxi real pe pistă privată și în simulări cu oameni obișnuiți. Rezultatul: oamenii au prezis mai bine ce face mașina, iar mașina a condus la fel. Publicat în Nature pe 2 septembrie 2026.
-
-Unde bat probele: Probat ce descrie MIT: metoda, antrenamentul pe 130 de milioane de scene, testul pe pistă cu șofer de siguranță și simulările cu neexperți, cu explicațiile care au îmbunătățit predicțiile oamenilor. Lucrarea din Nature nu e cu acces liber; MIT nu dă numărul de participanți și nici cu cât s-au îmbunătățit predicțiile, iar testul real a fost pe o pistă privată, nu în trafic. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
