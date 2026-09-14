@@ -1,12 +1,13 @@
 {
   "slug": "arabia-saudita-pipeline-drone-irak-fara-dovezi-publice",
-  "title": "Arabia Saudită spune că pipeline-ul East-West a fost atacat cu drone „provenite din Irak” — dar nu a arătat public dovezi tehnice, iar gruparea responsabilă rămâne neidentificată oficial",
+  "title": "Arabia Saudită spune că pipeline-ul East-West a fost atacat cu drone „provenite din Irak” — Trump zice că „probabil” e Iranul responsabil, dar nicio dovadă tehnică n-a fost făcută publică, iar gruparea din Irak vizată neagă implicarea",
+  "seoTitle": "Pipeline saudit: Trump zice Iran, dar fără dovezi publice",
   "category": "Media de stat",
   "date": "2026-09-12",
   "source": "SPA (Agenția de Presă Saudită) / Al Jazeera / TASS",
   "url": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq",
-  "dek": "📡 Ministerul saudit de Externe, prin agenția de stat SPA, a declarat pe 11 septembrie 2026 că pipeline-ul East-West (7 milioane de barili/zi) a fost țintit de mai multe drone „provenite din Irak”, lângă Riad și Medina. Bagdadul a demis un comandant militar din provincia Maysan și a promis o anchetă — dar nicio parte n-a făcut publice dovezi tehnice (traiectorii, resturi, radar), iar gruparea care ar fi lansat efectiv dronele nu a fost identificată oficial de niciun guvern.",
-  "mainVerdict": "Contestat — atacul și oprirea temporară a pipeline-ului sunt confirmate independent; originea teritorială din Irak e susținută chiar de propria anchetă irakiană, dar identitatea exactă a grupării responsabile și orice legătură cu Iranul sau cu houthii rămân afirmații neconfirmate public",
+  "dek": "📡 Ministerul saudit de Externe, prin agenția de stat SPA, a declarat pe 11 septembrie 2026 că pipeline-ul East-West (7 milioane de barili/zi) a fost țintit de mai multe drone „provenite din Irak”, lângă Riad și Medina. Bagdadul a demis un comandant militar din provincia Maysan și a promis o anchetă. O zi mai târziu, președintele american Donald Trump a declarat că Iranul e „probabil” responsabil — dar nicio parte (saudită, irakiană sau americană) n-a făcut publice dovezi tehnice (traiectorii, resturi, radar), iar gruparea Rezistența Islamică din Irak, vizată indirect, a negat implicarea.",
+  "mainVerdict": "Contestat — atacul și oprirea temporară a pipeline-ului sunt confirmate independent; originea teritorială din Irak e susținută chiar de propria anchetă irakiană, dar identitatea exactă a grupării responsabile și orice legătură cu Iranul rămân afirmații neconfirmate public, inclusiv după ce Trump a numit Iranul „probabil” responsabil",
   "probat": [
     {
       "text": "Ministerul saudit de Externe a declarat, pe 11 septembrie 2026, că pipeline-ul East-West a fost lovit de „several drones launched from Iraq” în zonele Riad și Medina, provocând răniri și daune materiale. Compania saudită a oprit temporar conducta, ca măsură de precauție, iar echipe tehnice au fost mobilizate pentru evaluarea siguranței.",
@@ -70,6 +71,19 @@
           "url": "https://www.abc.net.au/news/2026-09-12/drone-attack-on-saudi-oil-pipeline-from-iraq/107146218"
         }
       ]
+    },
+    {
+      "text": "Președintele american Donald Trump a declarat pe 12 septembrie 2026, la Dublin, întrebat dacă Iranul e responsabil: „Cred că da, probabil sunt ei” — dar nici Arabia Saudită, nici Irakul nu au făcut această atribuire în declarațiile lor oficiale. În aceeași zi, gruparea Rezistența Islamică din Irak, o umbrelă de miliții susținute de Iran, a negat public orice implicare în atac. Că Trump a făcut această afirmație e un fapt verificat; originea reală a atacului rămâne, la fel ca înainte, neconfirmată public de vreun guvern.",
+      "sources": [
+        {
+          "name": "CNN — Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
+          "url": "https://www.cnn.com/2026/09/12/middleeast/trump-iran-saudi-pipeline-intl"
+        },
+        {
+          "name": "U.S. News (Reuters) — Trump Says Iran Probably Responsible for Attack on Saudi Pipeline",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-12/trump-says-iran-probably-responsible-for-attack-on-saudi-pipeline"
+        }
+      ]
     }
   ],
   "opinie": [
@@ -77,8 +91,10 @@
       "text": "Decizia Arabiei Saudite de a nu riposta militar și de a acorda Bagdadului timp să investigheze e o alegere politică, nu o consecință automată a faptelor probate — reflectă calculul saudit privind stabilitatea regională, nu o concluzie despre gravitatea reală a atacului."
     }
   ],
-  "aiNote": "📡 Atenție: sursa de pornire e o declarație oficială transmisă prin presa de stat — SPA (Agenția de Presă Saudită) pentru varianta saudită, TASS (media de stat rusă) pentru relatarea externă. Am pus alături Al Jazeera și ABC News (Australia), redacții independente de statele saudit, irakian sau rus.\n\nCe s-a verificat: faptul de bază — pipeline-ul East-West a fost atins de un incident care a provocat incendii și oprirea temporară a conducteii — e confirmat de mai multe redacții independente și susținut de imagini satelitare comerciale (fum vizibil). Originea teritorială irakiană nu vine doar de la Riad: chiar guvernul irakian a demis un comandant militar din Maysan după propria anchetă, ceea ce dă un al doilea nivel de confirmare pentru „de unde au partit dronele”.\n\nUnde se desparte povestea: cine exact a lansat dronele — ce grupare, cu ce comandă — nu a fost făcut public de niciun guvern. Afirmația că houthii ar fi „ajutat” miliții irakiene vine din surse anonime citate de presă, nu dintr-o declarație oficială asumată; e genul de legătură care, odată repetată des, se poate transforma în cap de acuzație împotriva Iranului fără să fi fost demonstrată vreodată public.\n\nCe lipsește: dovezi tehnice publice (resturi, traiectorii radar) care să identifice tipul exact de dronă și punctul de lansare; numele grupării responsabile, asumat oficial de vreun guvern; și o confirmare directă, nu anonimă, a unei eventuale implicări houthi/iraniene.\n\nCe ar schimba concluzia: publicarea de către Irak sau Arabia Saudită a rezultatelor anchetei tehnice, sau o revendicare oficială a atacului de către o grupare identificabilă.",
-  "persoane": [],
+  "aiNote": "📡 Atenție: sursa de pornire e o declarație oficială transmisă prin presa de stat — SPA (Agenția de Presă Saudită) pentru varianta saudită, TASS (media de stat rusă) pentru relatarea externă. Am pus alături Al Jazeera și ABC News (Australia), redacții independente de statele saudit, irakian sau rus.\n\nCe s-a verificat: faptul de bază — pipeline-ul East-West a fost atins de un incident care a provocat incendii și oprirea temporară a conducteii — e confirmat de mai multe redacții independente și susținut de imagini satelitare comerciale (fum vizibil). Originea teritorială irakiană nu vine doar de la Riad: chiar guvernul irakian a demis un comandant militar din Maysan după propria anchetă, ceea ce dă un al doilea nivel de confirmare pentru „de unde au partit dronele”.\n\nUnde se desparte povestea: cine exact a lansat dronele — ce grupare, cu ce comandă — nu a fost făcut public de niciun guvern. Afirmația că houthii ar fi „ajutat” miliții irakiene vine din surse anonime citate de presă, nu dintr-o declarație oficială asumată. Pe 12 septembrie, președintele Trump a mers un pas mai departe și a spus, întrebat direct de reporteri, că Iranul e „probabil” responsabil — o afirmație pe care nici Arabia Saudită, nici Irakul nu au făcut-o oficial. Că Trump a spus asta e verificabil și îl reproducem ca atare; asta NU face din implicarea Iranului un fapt stabilit — e genul de legătură care, odată repetată des de o voce cu autoritate, se poate transforma în cap de acuzație împotriva unui stat fără să fi fost demonstrată vreodată public. În aceeași zi, gruparea irakiană vizată indirect (Rezistența Islamică din Irak) a negat public orice implicare.\n\nCe lipsește: dovezi tehnice publice (resturi, traiectorii radar) care să identifice tipul exact de dronă și punctul de lansare; numele grupării responsabile, asumat oficial de vreun guvern; și o confirmare directă, nu anonimă, a unei eventuale implicări iraniene.\n\nCe ar schimba concluzia: publicarea de către Irak sau Arabia Saudită a rezultatelor anchetei tehnice, sau o revendicare oficială a atacului de către o grupare identificabilă.",
+  "persoane": [
+    "Donald Trump"
+  ],
   "poza": {
     "img_html": "<img src=\"../img/articole/arabia-saudita-pipeline-drone-irak-fara-dovezi-publice.jpg\" alt=\"oil pipeline desert\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
     "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — oil pipeline desert. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Oil_Price_Chronology_1970-2005.gif\" rel=\"nofollow noopener\" target=\"_blank\">Oil Price Chronology 1970-2005</a>\" de autor necunoscut, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
