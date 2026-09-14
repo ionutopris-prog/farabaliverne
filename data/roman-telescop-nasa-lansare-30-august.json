@@ -66,10 +66,11 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/roman-telescop-nasa-lansare-30-august.jpg\" alt=\"Roman\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Roman. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Centru_roman_din_avion.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Centru roman din avion</a>\" de Bogdan29roman, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/roman-telescop-nasa-lansare-30-august.jpg\" alt=\"rocket launch space\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — rocket launch space. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:45th_Space_Wing_Supports_Successful_Falcon_9_SAOCOM_1B_Launch_02.jpg\" rel=\"nofollow noopener\" target=\"_blank\">45th Space Wing Supports Successful Falcon 9 SAOCOM 1B Launch 02</a>\" de U.S. Space Force photo by Joshua Conti, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/roman-telescop-nasa-lansare-30-august.jpg",
     "licenta": "Public domain",
-    "autor": "Bogdan29roman"
+    "autor": "U.S. Space Force photo by Joshua Conti",
+    "aleasa_de_om": true
   }
 }

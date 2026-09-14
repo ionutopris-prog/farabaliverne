@@ -51,10 +51,11 @@
   },
   "persoane": [],
   "poza": {
-    "img_html": "<img src=\"../img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg\" alt=\"Sonda\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Sonda. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Talvine_loojang_Sonda_l%C3%A4hedal.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Talvine loojang Sonda lähedal</a>\" de Kalev Vask, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg\" alt=\"Sun solar flare corona\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Sun solar flare corona. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Mid-level_Solar_Flare_Erupts_from_Sun_on_March_31,_2022_(SVS14129).gif\" rel=\"nofollow noopener\" target=\"_blank\">Mid-level Solar Flare Erupts from Sun on March 31, 2022 (SVS14129)</a>\" de NASA's Scientific Visualization Studio - KBR Wyle Services, LLC/Scott Wiessinger, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/solar-orbiter-foaie-curent-heliosferica-fier-oxigen.jpg",
-    "licenta": "CC BY-SA 3.0",
-    "autor": "Kalev Vask"
+    "licenta": "Public domain",
+    "autor": "NASA's Scientific Visualization Studio - KBR Wyle Services, LLC/Scott Wiessinger",
+    "aleasa_de_om": true
   }
 }

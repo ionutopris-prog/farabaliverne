@@ -91,10 +91,11 @@
     "Diana Buzoianu"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/romsilva-contracte-fara-licitatie-anap-buzoianu.jpg\" alt=\"Mediului\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Mediului. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:04.02.2025_-_Consult%C4%83ri_publice_asupra_proiectului_de_lege_pentru_modificarea_unor_acte_normative_(facilitarea_activit%C4%83%C8%9Bii_mediului_de_afaceri_VII)_-_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">04.02.2025 - Consultări publice asupra proiectului de lege pentru modificarea unor acte normative (facilitarea activității mediului de afaceri VII) - 1</a>\" de Parlamentul Republicii Moldova | Pagina oficială, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/romsilva-contracte-fara-licitatie-anap-buzoianu.jpg\" alt=\"forest logging timber\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — forest logging timber. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Atwell_Logging_-_Kisatchie_National_Forest_-_006_(51718686980).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Atwell Logging - Kisatchie National Forest - 006 (51718686980)</a>\" de US Forest Service - Southern Region, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
     "fisier": "img/articole/romsilva-contracte-fara-licitatie-anap-buzoianu.jpg",
-    "licenta": "CC0",
-    "autor": "Parlamentul Republicii Moldova | Pagina oficială"
+    "licenta": "Public domain",
+    "autor": "US Forest Service - Southern Region",
+    "aleasa_de_om": true
   }
 }
