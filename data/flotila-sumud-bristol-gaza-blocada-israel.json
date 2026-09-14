@@ -80,5 +80,12 @@
   ],
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Detaliile despre plecarea vasului „Kate” din Bristol, componența echipajului și costul campaniei Flotilei Sumud sunt confirmate concordant de Al Jazeera și de o a doua relatare a aceleiași știri. Am separat explicit acuzațiile de abuz din cazul precedent (Thunberg, octombrie 2025) — negate de Israel — ca poziții contestate ale părților implicate, nu ca fapte stabilite independent.",
   "math": null,
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/flotila-sumud-bristol-gaza-blocada-israel.jpg\" alt=\"passenger ferry ship at sea\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — passenger ferry ship at sea. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Aarhus_to_Sams%C3%B8_passenger_ferry_Lille%C3%B8re_in_Aarhus_harbour_Denmark_Nov_2023.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Aarhus to Samsø passenger ferry Lilleøre in Aarhus harbour Denmark Nov 2023</a>\" de Ciara Ní Riain, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/flotila-sumud-bristol-gaza-blocada-israel.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Ciara Ní Riain"
+  }
 }
