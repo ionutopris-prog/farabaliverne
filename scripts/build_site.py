@@ -1634,6 +1634,45 @@ def _cod_contor():
 _RE_CONTOR = re.compile(r'\n?<script data-goatcounter="[^"]*"[^>]*></script>\n?')
 
 
+# Google Analytics 4, cerut de fondator pe 14 septembrie 2026, după ce a spus
+# că plănuieşte să facă bani din site. Argumentul care a contat: agenţiile şi
+# sponsorii cer cifre din GA, nu dintr-un contor propriu, iar contul trebuie să
+# aibă istoric înainte să vândă cineva ceva.
+#
+# 🔴 Pornit în CONSENT MODE cu totul refuzat. Fără cookie-uri, fără identificator
+# de utilizator: GA primeşte semnale anonime şi modelează restul. De ce: pagina
+# noastră de confidenţialitate spune că folosim doar cookie-uri strict necesare,
+# şi rămâne adevărată. Când apare bannerul de consimţământ (obligatoriu la
+# publicitate în UE), se trece la `granted` din banner, nu de aici.
+GA_ID = "G-7V8271YRY2"
+GA_TAG = f"""<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('consent', 'default', {{
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied'
+  }});
+  gtag('js', new Date());
+  gtag('config', '{GA_ID}', {{ 'anonymize_ip': true }});
+</script>
+"""
+# Normalizare: scoate ORICE variantă istorică a tag-ului înainte să-l pună pe
+# cel curent. Fără asta, o schimbare aici n-ar atinge paginile deja scrise
+# (lecţia de la butoanele de partajare şi de la semnătură).
+_RE_GA = re.compile(r"<!-- Google tag \(gtag\.js\) -->\n.*?gtag\('config',[^\n]*\n</script>\n", re.S)
+
+
+def pune_ga(s):
+    if "</head>" not in s:
+        return s
+    s = _RE_GA.sub("", s)
+    return s.replace("</head>", GA_TAG + "</head>", 1)
+
+
 def pune_contor(s):
     if "</body>" not in s:
         return s
@@ -2193,6 +2232,7 @@ def main():
         s = pune_css_reparatii(s)
         s = prefera_webp(s)
         s = pune_contor(s)
+        s = pune_ga(s)
         if f.endswith("confidentialitate.html"):
             s = pune_nota_contor(s)
         if not f.endswith("cauta.html"):
