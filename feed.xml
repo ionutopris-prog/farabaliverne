@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:56:58 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 14:03:24 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sorana Cîrstea a trecut de 13 milioane de dolari câștigați din tenis, după cea mai bună clasare WTA din carieră</title>
+      <link>https://farabaliverne.ro/a/sorana-cirstea-13-milioane-dolari-locul-15-wta.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/sorana-cirstea-13-milioane-dolari-locul-15-wta.html</guid>
+      <pubDate>Mon, 14 Sep 2026 10:58:10 +0000</pubDate>
+      <category>Sport</category>
+      <description>După ce a ajuns în optimile de finală la US Open 2026, eliminată de Jessica Pegula, Sorana Cîrstea a urcat pe locul 15 WTA — cea mai bună clasare din cariera ei, care depășește recordul anterior, locul 21, stabilit în august 2013. Presa română titrează că românca a trecut de 13 milioane de dolari premii totale în carieră.
+
+Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Ungaria i-a cerut regelui Charles să dea înapoi doi cai lipițani dăruiți în 2024, apoi a spus că a fost o eroare administrativă</title>
       <link>https://farabaliverne.ro/a/ungaria-cai-regele-charles-razboiul-cailor.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce descrie MIT: metoda, antrenamentul pe 130 de milioan
       <description>Din țesut donat de oameni, băncilor de creier din SUA și Canada, cercetătorii MIT au făcut un atlas al neuronilor din striat: 31 de subpopulații, dintre care nouă tipuri de „neuroni spinoși medii”. Două populații atipice poartă genele adicției la opioide, ale răspunsului la antidepresive și la clozapină. Iar neuronii din partea de sus a striatului exprimă mai mult MSH2 și MSH3, genele care înmulțesc repetițiile CAG din gena huntingtinei; de asta cedează primii în boala Huntington. Publicat în Cell pe 1 septembrie 2026.
 
 Unde bat probele: Probat ce descrie MIT: metoda (secvențiere ARN pe celule individuale, plus două tehnici spațiale), cele 31 de subpopulații, cele două populații atipice și explicația vulnerabilității dorsale la Huntington prin MSH2/MSH3. Lucrarea din Cell e cu acces restricționat; e un atlas, nu un tratament, iar diferențele față de șoareci, spuse chiar de autori, limitează cât din biologia asta se poate testa pe animale. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Stanford a blocat o singură proteină a îmbătrânirii și cartilajul din genunchii șoarecilor bătrâni a crescut la loc. A pornit regenerarea și în țesut uman scos la proteze. Deocamdată doar în laborator</title>
-      <link>https://farabaliverne.ro/a/stanford-15-pgdh-cartilaj-regenerare-artroza-science.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/stanford-15-pgdh-cartilaj-regenerare-artroza-science.html</guid>
-      <pubDate>Sat, 12 Sep 2026 12:08:17 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Proteina se numește 15-PGDH și se dublează în cartilaj odată cu vârsta. Blocată cu o moleculă mică, injectată în abdomen sau direct în genunchi, cartilajul subțiat al șoarecilor bătrâni s-a îngroșat, și era cartilaj hialin, cel bun, nu fibrocartilaj. Șoarecii cu leziuni de tip ligament încrucișat tratați patru săptămâni nu au mai făcut artroză. Iar probe de cartilaj de la pacienți operați de proteză de genunchi, ținute o săptămână cu inhibitorul, au început să producă cartilaj nou. Mecanismul surprinzător: nu celule stem, ci celulele existente care își „întineresc” programul genetic. Publicat în Science pe 12 iunie 2026.
-
-Unde bat probele: Probat ce descrie Stanford: proteina, dublarea ei cu vârsta, regenerarea la șoareci bătrâni și după leziune, procentele pe tipuri de celule, răspunsul probelor umane în laborator. Ce nu există încă: niciun pacient tratat. Studiul e pe șoareci și pe țesut în vas; inhibitorul e în faza 1 de teste clinice pentru mușchi, nu pentru cartilaj; iar autorii principali au brevete și părți într-o companie care dezvoltă molecula. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
