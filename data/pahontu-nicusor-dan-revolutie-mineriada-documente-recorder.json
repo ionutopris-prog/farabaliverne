@@ -143,10 +143,11 @@
     "Lucian Pahonțu"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/pahontu-nicusor-dan-revolutie-mineriada-documente-recorder.jpg\" alt=\"Lucian\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Lucian. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Ausgew%C3%A4hlte_Schriften_des_Lucian_(microform)_(IA_ausgewhlteschrif00luci).pdf\" rel=\"nofollow noopener\" target=\"_blank\">Ausgewählte Schriften des Lucian (microform) (IA ausgewhlteschrif00luci)</a>\" de Lucian, of Samosata, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/pahontu-nicusor-dan-revolutie-mineriada-documente-recorder.jpg\" alt=\"old paper archive files\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — old paper archive files. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Old_Champion_Paper_Mill,_Canton,_NC_(32845148128).jpg\" rel=\"nofollow noopener\" target=\"_blank\">Old Champion Paper Mill, Canton, NC (32845148128)</a>\" de Warren LeMay from Cincinnati, OH, United States, via Wikimedia Commons · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" rel=\"license nofollow noopener\" target=\"_blank\">CC0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/pahontu-nicusor-dan-revolutie-mineriada-documente-recorder.jpg",
-    "licenta": "Public domain",
-    "autor": "Lucian, of Samosata"
+    "licenta": "CC0",
+    "autor": "Warren LeMay from Cincinnati, OH, United States",
+    "aleasa_de_om": true
   }
 }

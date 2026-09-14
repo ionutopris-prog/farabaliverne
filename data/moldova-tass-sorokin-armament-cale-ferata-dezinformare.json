@@ -84,10 +84,11 @@
     "Dmitri Sorokin"
   ],
   "poza": {
-    "img_html": "<img src=\"../img/articole/moldova-tass-sorokin-armament-cale-ferata-dezinformare.jpg\" alt=\"Moldova\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
-    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Moldova. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Moldova_rand_1.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Moldova rand 1</a>\" de Maris Juuse, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "img_html": "<img src=\"../img/articole/moldova-tass-sorokin-armament-cale-ferata-dezinformare.jpg\" alt=\"freight train railway\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — freight train railway. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:201904_Freight_Train_at_Anshun_Railway_Station_1.jpg\" rel=\"nofollow noopener\" target=\"_blank\">201904 Freight Train at Anshun Railway Station 1</a>\" de Jonashtand, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
     "fisier": "img/articole/moldova-tass-sorokin-armament-cale-ferata-dezinformare.jpg",
-    "licenta": "CC BY-SA 3.0",
-    "autor": "Maris Juuse"
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Jonashtand",
+    "aleasa_de_om": true
   }
 }
