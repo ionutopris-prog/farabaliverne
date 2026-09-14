@@ -637,5 +637,49 @@
       "text": "Căldură ieșită din comun la Lisabona: maximă de 34 °C — cu 8 °C peste media zilei (1991–2020: 25 °C) și peste orice maximă din ultimii 10 ani în perioada asta (33 °C).",
       "tip": "Temperaturi extreme"
     }
+  ],
+  "2026-09-13": [
+    {
+      "cheie": "us7000th4y",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th4y",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, la 43 km est-sud-est de Port-Olry, Vanuatu.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000th8u",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th8u",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, la 50 km nord de Ruteng, Indonezia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000th50",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th50",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, în sud-estul Insulelor Loyalty.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "1001321",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001321",
+      "sursa": "GDACS",
+      "text": "Furtuna tropicală Fifteen-E — vânt de 65 km/h.",
+      "tip": "Ciclon tropical"
+    },
+    {
+      "cheie": "temp:2026-09-13:Stația McMurdo (Antarctica)",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Stația McMurdo (Antarctica): maximă de -9 °C — cu 15 °C peste media zilei (1991–2020: -24 °C) și peste orice maximă din ultimii 10 ani în perioada asta (-10 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-13:Casablanca",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Casablanca: maximă de 37 °C — cu 9 °C peste media zilei (1991–2020: 28 °C) și peste orice maximă din ultimii 10 ani în perioada asta (31 °C).",
+      "tip": "Temperaturi extreme"
+    }
   ]
 }
