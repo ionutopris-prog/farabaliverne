@@ -1,0 +1,63 @@
+{
+  "slug": "actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel",
+  "title": "Acțiunile companiilor AI s-au prăbușit la nivel mondial, după ce Dario Amodei (Anthropic) a cerut încetinirea dezvoltării — Trump și consilierul său David Sacks resping ideea, vorbind despre un „cartel”",
+  "seoTitle": "Acțiunile AI au scăzut: Amodei cere încetinire, Trump refuză",
+  "category": "Economie",
+  "date": "2026-09-15",
+  "source": "Reuters / Digi24 / News.ro / The Washington Post / Infobae",
+  "url": "https://www.digi24.ro/stiri/externe/actiunile-companiilor-ai-scad-la-nivel-mondial-dupa-avertismentele-liderilor-industriei-producatorii-de-cipuri-cei-mai-afectati-3947913",
+  "dek": "Luni, 14 și marți, 15 septembrie 2026, acțiunile companiilor din industria inteligenței artificiale au scăzut puternic pe bursele din SUA, Europa și Asia, în special la producătorii de cipuri. Scăderea a urmat unui eseu al directorului general al Anthropic, Dario Amodei, care a cerut o încetinire coordonată a dezvoltării celor mai avansate modele AI — idee susținută public de Sam Altman (OpenAI), Demis Hassabis (Google DeepMind) și Elon Musk. Președintele Donald Trump și consilierul său pentru AI, David Sacks, resping propunerea: Sacks o numește o încercare de „cartel”, iar Trump spune că vrea ca SUA să rămână „cea mai sofisticată țară din lume” în cursa cu China.",
+  "mainVerdict": "Probat, cu rezerve — scăderile bursiere și propunerea sunt fapte confirmate; motivele reale din spatele propunerii (siguranță genuină vs. avantaj competitiv pentru liderii de piață) rămân disputate între părți cu interese opuse",
+  "probat": [
+    {
+      "text": "Luni, acțiunile din sectorul AI au scăzut puternic pe bursele mondiale: indicele Nasdaq 100 a coborât cu 1,2% (minimul ultimelor șase săptămâni), indicele semiconductorilor de la Philadelphia a pierdut 5,2%, Nvidia -3%, AMD -4,5%, Micron -5,4%, iar Lam Research, Applied Materials și Bloom Energy au scăzut cu peste 6%. În Europa, sectorul tehnologic a pierdut 2,2%, iar ASML a coborât cu 6%; în Asia, acțiunile SoftBank s-au prăbușit cu peste 10%, iar TSMC și SK Hynix au înregistrat de asemenea pierderi.",
+      "sources": [
+        {"name": "Digi24 (Reuters) — Acțiunile companiilor AI scad la nivel mondial", "url": "https://www.digi24.ro/stiri/externe/actiunile-companiilor-ai-scad-la-nivel-mondial-dupa-avertismentele-liderilor-industriei-producatorii-de-cipuri-cei-mai-afectati-3947913"},
+        {"name": "News.ro — Acțiunile companiilor AI scad puternic la nivel mondial", "url": "https://www.news.ro/economic/actiunile-companiilor-ai-scad-puternic-la-nivel-mondial-dupa-avertismentele-liderilor-industriei-producatorii-de-cipuri-printre-cei-mai-afectati-1922402215002026090622735134"}
+      ]
+    },
+    {
+      "text": "Scăderea a urmat unui eseu publicat sâmbătă, 12 septembrie, de directorul general al Anthropic, Dario Amodei, care a propus un plan în trei pași pentru „pacing the frontier” — o încetinire coordonată a ritmului de dezvoltare a celor mai avansate modele AI, printr-un organism independent de auto-reglementare, după modelul FINRA (autoritatea privată de reglementare a industriei financiare din SUA, autorizată de Congres). Propunerea a fost susținută în orele următoare de Sam Altman (OpenAI), Demis Hassabis (Google DeepMind) și Elon Musk, care au declarat că „progresul a fost rapid și va continua să fie așa. Dar ar trebui să fie mai lent”. Cele trei companii au cerut și o derogare limitată de la legea concurenței, ca să poată coordona standardele de siguranță între ele.",
+      "sources": [
+        {"name": "Infobae (via The Washington Post) — Anthropic, OpenAI y Google estudian crear un organismo de seguridad", "url": "https://www.infobae.com/america/agencias/2026/09/14/anthropic-openai-y-google-estudian-crear-un-organismo-de-seguridad-para-autorregular-la-ia-segun-twp/"}
+      ]
+    },
+    {
+      "text": "Președintele Donald Trump s-a opus public ideii de încetinire, scriind pe Truth Social: „WHOEVER WINS AI, WINS!” și că „singurul control sau «paragarde» de care AI are nevoie este un PREȘEDINTE PUTERNIC ȘI INTELIGENT”; el a mai spus că vrea ca SUA să rămână țara „cea mai sofisticată” din competiția tehnologică globală, în special față de China.",
+      "sources": [
+        {"name": "930 WFMD (Fox News) — Trump unloads on tech titans pushing for slowdown", "url": "https://www.wfmd.com/2026/09/14/trump-unloads-on-tech-titans-pushing-for-slowdown-on-emerging-industry-whoever-wins-ai-wins/"},
+        {"name": "Infobae — declarația lui Trump despre a rămâne în frunte față de China", "url": "https://www.infobae.com/america/agencias/2026/09/14/anthropic-openai-y-google-estudian-crear-un-organismo-de-seguridad-para-autorregular-la-ia-segun-twp/"}
+      ]
+    },
+    {
+      "text": "David Sacks, consilierul lui Trump pentru AI și criptomonede, a criticat dur propunerea celor trei directori, numind-o o încercare de a forma un „cartel”: „Stop pretending you need to suspend antitrust law in order to create a cartel”. Sacks a mai acuzat Anthropic că organizația de testare independentă pe care se bazează propunerea (METR) nu e cu adevărat independentă, fiind „intercorelată cu investitorii și personalul Anthropic”.",
+      "sources": [
+        {"name": "CDM Press — David Sacks Says They Are Building A Cartel", "url": "https://cdm.press/news/business/2026/09/13/amodei-altman-and-musk-all-want-to-slow-down-ai-david-sacks-says-they-are-building-a-cartel/"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Criticile de „cartel” nu vin doar din tabăra Trump: analistul Gartner Nader Henein a spus că „auto-reglementarea nu e viabilă, fiindcă presupune că toată lumea e capabilă să se auto-regleze”, iar Aman Mahapatra (Tribeca Softtech) a atras atenția că standardele propuse vor reflecta interesele celor cinci companii ai căror directori le redactează. Argumentul comun al criticilor: un organism format și condus chiar de liderii de piață ar putea ridica bariere de cost și conformitate greu de suportat pentru companiile mici, consolidând poziția celor care sunt deja în frunte — fără să fie, prin el însuși, o dovadă că motivul declarat (siguranța) e fals.",
+      "sources": [
+        {"name": "CDM Press — critici numite: Nader Henein (Gartner), Aman Mahapatra (Tribeca Softtech)", "url": "https://cdm.press/news/business/2026/09/13/amodei-altman-and-musk-all-want-to-slow-down-ai-david-sacks-says-they-are-building-a-cartel/"}
+      ]
+    },
+    {
+      "text": "Amploarea riscului invocat de industrie rămâne o predicție, nu un fapt măsurat: presa citează avertismente ale liderilor din domeniu despre posibile pagube „de sute de miliarde de dolari” provocate de agenți AI necontrolați în următoarele 6-12 luni, dar aceste cifre sunt estimări proprii ale unor companii care au și un interes comercial direct în cum e percepută urgența reglementării — nu rezultate ale unei evaluări independente publicate.",
+      "sources": [
+        {"name": "Digi24 (Reuters) — avertismentul lui Dario Amodei", "url": "https://www.digi24.ro/stiri/externe/actiunile-companiilor-ai-scad-la-nivel-mondial-dupa-avertismentele-liderilor-industriei-producatorii-de-cipuri-cei-mai-afectati-3947913"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "Ce se probează cu date verificabile: scăderile bursiere de luni și marți sunt fapte de piață, raportate concordant de Reuters și preluate de presa română; existența propunerii de „pacing the frontier” și susținerea ei publică de către Altman, Hassabis și Musk sunt de asemenea documentate. Unde se despart sursele: motivul din spatele propunerii. Amodei și susținătorii lui prezintă inițiativa drept prevenție împotriva unor riscuri existențiale; criticii — de la consilierul Casei Albe David Sacks până la analiști independenți precum Nader Henein — susțin că miza reală e alta: o derogare de la legea concurenței și un organism de auto-reglementare controlat chiar de liderii de piață ar ridica bariere pe care doar companiile mari și le pot permite, consolidându-le poziția în fața unor concurenți mai mici. Ambele tabere au interese directe în cum e citită povestea: companiile mari, în reglementarea pe care o propun ele însele; Casa Albă, în cursa tehnologică cu China. Ce lipsește: nu există, deocamdată, o evaluare independentă (guvernamentală sau academică) publicată a riscurilor reale invocate de Amodei, și nici o propunere legislativă concretă depusă în Congres.",
+  "persoane": ["Dario Amodei", "Sam Altman", "Demis Hassabis", "Elon Musk", "Donald Trump", "David Sacks"],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.jpg\" alt=\"Nvidia headquarters Santa Clara\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Nvidia headquarters Santa Clara. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:2788-2888_San_Tomas_Expressway.jpg\" rel=\"nofollow noopener\" target=\"_blank\">2788-2888 San Tomas Expressway</a>\" de Coolcaesar, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Coolcaesar"
+  }
+}

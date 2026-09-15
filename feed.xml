@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:27:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 21:32:01 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Insulă din Grecia dă 5.000 de euro pe an ca să te muți acolo — dar e Kastellorizo, nu insula cu 3.000 de euro la naștere, care e Nisyros</title>
+      <link>https://farabaliverne.ro/a/grecia-kastellorizo-nisyros-doua-programe-insule-bani.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/grecia-kastellorizo-nisyros-doua-programe-insule-bani.html</guid>
+      <pubDate>Tue, 15 Sep 2026 18:28:24 +0000</pubDate>
+      <category>Extern</category>
+      <description>Două insule grecești au anunțat, în aceeași săptămână din septembrie 2026, câte un program de bani publici pentru a-și opri depopularea — iar presa și căutările din România le amestecă des sub eticheta „o insulă din Grecia oferă bani". Nu e aceeași insulă: premierul Kyriakos Mitsotakis a anunțat pe 13 septembrie, la Kastellorizo, un stimulent de 5.000 de euro pe an de gospodărie pentru cine se mută și rămâne acolo, plus 1.000 de euro pe an per copil minor. Separat, primăria insulei Nisyros a decis să plătească 3.000 de euro pentru fiecare copil nou-născut acolo — o măsură locală, mai mică, votată de consiliul local, nu de guvern.
+
+Unde bat probele: Probat — sunt două programe distincte, pe două insule diferite, cu sume și mecanisme diferite. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Comerțul exterior al Moldovei: exporturile acoperă doar 34 din 100 de euro importați, iar noul TVA diferențiat la carne stârnește critici din partea patronatului</title>
       <link>https://farabaliverne.ro/a/moldova-deficit-comercial-34-euro-tva-carne-fragmentare.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează lucrarea: cele două cutremure, adâncim
       <description>Nu o prognoză, ci o hartă a riscurilor: cercetătorii de la MIT, Stanford, Tufts, Tulane și Laboratorul Național Pacific Northwest au variat 12 factori (populație, PIB, distribuția veniturilor, comerț agricol, climă, energie, apă) în 3.735 de scenarii, pe 32 de regiuni ale lumii, 235 de bazine hidrografice și 384 de zone de folosință a terenului. Concluzia care contează pentru noi: în Europa de Est, povara energiei pentru cei mai săraci 10 % ajunge la 11,3 % din venit, față de sub 5 % pentru cei mai bogați. Iar „media regională” ascunde exact oamenii cei mai expuși. Publicat în Earth's Future, cu acces liber.
 
 Unde bat probele: Probat ce descrie MIT: metoda (modelul GCAM 7.1, 12 factori, 3.735 de scenarii), cifrele pe regiuni și pe decile de venit, inclusiv Europa de Est. Contestat, chiar de autori: sunt intervale de scenarii, nu predicții; incertitudinea pe 25 de ani e mare; iar „Europa de Est” e o regiune de model, nu România anume. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>1.038 de psihiatri din 19 țări, inclusiv România, au primit aceleași cazuri scrise. Doi medici au ajuns la același diagnostic doar în 55 % din cazuri; la schizofrenie, sub 50 %. Experiența n-a schimbat nimic</title>
-      <link>https://farabaliverne.ro/a/copenhaga-psihiatri-acord-diagnostic-55-la-suta-frontiers.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/copenhaga-psihiatri-acord-diagnostic-55-la-suta-frontiers.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:40:23 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Nouă descrieri standardizate de pacienți, câte două pentru fiecare medic, diagnostic după sistemul ICD-10 al OMS. Rezultatul: acordul între doi psihiatri luați la întâmplare e de circa 55 %, un nivel „îngrijorător de scăzut”, spun autorii, apropiat de cel din anii 1970, când tocmai lipsa de acord a dus la criteriile standardizate de azi. Bipolar și TOC au fost recunoscute în 94 % și 92 % din cazuri; schizofrenia și rudele ei, în 37–54 %. Medicii cu experiență n-au făcut mai bine decât cei tineri. Printre coautori e și o psihiatră de la „Carol Davila” și de la Spitalul Obregia din București.
-
-Unde bat probele: Probat ce raportează studiul: 1.038 de medici, 19 țări, cazuri scrise, acord de 55 % (Krippendorff α = 0,48), corectitudine 66 %, diferențele mari între diagnostice, lipsa efectului experienței. Contestat, chiar de autori: cazurile scrise nu sunt consultații reale; eșantionul e voluntar și inegal pe țări, fără rată de răspuns; și au avut de ales doar dintre 30 de diagnostice. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
