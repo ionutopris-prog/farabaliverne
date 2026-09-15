@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 02:11:51 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 02:14:15 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eMAG rescrie abonamentul Genius în trei planuri — dar varianta implicită pentru abonații actuali costă dublu</title>
+      <link>https://farabaliverne.ro/a/emag-genius-trei-planuri-scumpire-implicita.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/emag-genius-trei-planuri-scumpire-implicita.html</guid>
+      <pubDate>Tue, 15 Sep 2026 23:12:34 +0000</pubDate>
+      <category>Economie</category>
+      <description>eMAG a anunțat că, de la 1 octombrie 2026, abonamentul Genius (99 de lei/an din 2020) se împarte în trei variante — Light, Premium și Elite. Comunicarea pune accentul pe „mai multe opțiuni” și beneficii noi (Glovo, Apple TV), dar abonații actuali cu reînnoire automată trec, implicit, pe Genius Premium — la 199,99 lei/an, mai mult decât dublu față de prețul actual, pentru un nivel de livrare gratuită echivalent cu ce au acum.
+
+Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Senatul SUA a blocat legea-cheie pentru reglementarea criptomonedelor, în plină dispută pe averea în cripto a lui Trump</title>
       <link>https://farabaliverne.ro/a/sua-senat-clarity-act-vot-cloture-esuat-cripto.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce arată datele seismice InSight; interpretativă conc
       <description>Cercetători de la NASA Goddard, conduși de Prabal Saxena, au testat prin modelare cinci microorganisme cunoscute pentru rezistența lor și au descoperit că unele ar putea supraviețui cel puțin o zi terestră în crăpăturile permanent umbrite de la polul sudic lunar — exact zona vizată de aselenizările Artemis. Studiul nu spune că Luna poate găzdui viață microbiană; spune că oamenii trebuie să aibă grijă să nu-și „contamineze” propriile viitoare căutări de viață pe Marte.
 
 Unde bat probele: Probat ce a modelat studiul; distincția supraviețuire vs. înmulțire e esențială și explicită în cercetare. Verificate: 2 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Un singur impact de asteroid ar putea explica două mistere ale lunii marțiene Deimos, arată simulări confirmate de sonda Hera</title>
-      <link>https://farabaliverne.ro/a/deimos-hera-asteroid-impact-depresiune-regolit.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/deimos-hera-asteroid-impact-depresiune-regolit.html</guid>
-      <pubDate>Sun, 13 Sep 2026 06:55:18 +0000</pubDate>
-      <category>Știință</category>
-      <description>O echipă condusă de Universitatea din Berna arată, prin aproape 100 de simulări pe computer combinate cu date reale de la survolarea Deimos de către sonda ESA Hera, că un singur asteroid ar fi putut crea atât adâncitura din polul sudic al lunii marțiene, cât și stratul ei neobișnuit de neted și prăfos. E o ipoteză unificatoare, nu o observație directă a impactului — iar cercetătorii spun ei înșiși că explicații alternative rămân posibile.
-
-Unde bat probele: Probat ce arată simulările și datele Hera; ipoteză explicativă pentru originea celor două trăsături, nu certitudine. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
