@@ -1,0 +1,60 @@
+{
+  "slug": "moldova-nistru-ucraina-22-m3s-negocieri-esuate",
+  "title": "Negocierile Moldova-Ucraina pentru debitul Nistrului au eșuat: Kievul a propus reducere la 22 m³/s, Chișinăul a refuzat",
+  "seoTitle": "Debit Nistru: Ucraina a propus 22 m³/s, Moldova a refuzat",
+  "category": "Politică",
+  "tara": "Moldova",
+  "date": "2026-09-14",
+  "source": "Unimedia / TVR Moldova / NewsMaker.md (ru)",
+  "url": "https://unimedia.info/ro/news/5c1a5d885464c873/negocieri-fara-finalitate-pe-situatia-de-pe-nistru-ucraina-a-propus-sa-reduca-debitul-apei-in-rau-la-doar-22-m3-s-moldova-a-refuzat.html",
+  "dek": "Comisia mixtă Republica Moldova-Ucraina pentru gestionarea apelor Nistrului s-a întâlnit pe 14 septembrie 2026 și nu a ajuns la un acord: partea ucraineană a propus reducerea debitului deversat din lacul de acumulare Novodnistrovsk de la actualii 60 m³/s la doar 22 m³/s — cât intră efectiv în lac, susține Kievul —, iar Ministerul Mediului de la Chișinău a refuzat, invocând riscul unei „reduceri prea bruște” a apei în aval. Nivelul lacului scăzuse deja cu 45 cm în două săptămâni.",
+  "mainVerdict": "Probat — negocierile chiar au eșuat, cifrele sunt confirmate încrucișat",
+  "probat": [
+    {
+      "text": "Pe 14 septembrie 2026, la ședința Comisiei mixte Republica Moldova-Ucraina pentru Nistru, partea ucraineană a propus reducerea debitului de apă deversat din lacul de acumulare Novodnistrovsk către aval, de la actualii 60 m³/s la o medie de doar 22 m³/s — argumentând că acesta e volumul care intră efectiv în lac în perioada actuală de secetă.",
+      "sources": [
+        {"name": "Unimedia — Negocieri fără finalitate pe situația de pe Nistru: Ucraina a propus să reducă debitul apei în râu la doar 22 m³/s, Moldova a refuzat", "url": "https://unimedia.info/ro/news/5c1a5d885464c873/negocieri-fara-finalitate-pe-situatia-de-pe-nistru-ucraina-a-propus-sa-reduca-debitul-apei-in-rau-la-doar-22-m3-s-moldova-a-refuzat.html"},
+        {"name": "TVR Moldova — R. Moldova și Ucraina, fără un acord privind debitul Nistrului", "url": "https://tvrmoldova.md/article/d6aab6902b9ffad0/r-moldova-si-ucraina-fara-un-acord-privind-debitul-nistrului.html"}
+      ]
+    },
+    {
+      "text": "Ministerul Mediului de la Chișinău a respins propunerea ucraineană, argumentând că trecerea directă de la 60 m³/s la 22 m³/s ar însemna „o reducere prea bruscă a apei în aval”, cu riscuri pentru aprovizionarea cu apă a populației și pentru situația hidrologică a râului.",
+      "sources": [
+        {"name": "TVR Moldova — R. Moldova și Ucraina, fără un acord privind debitul Nistrului", "url": "https://tvrmoldova.md/article/d6aab6902b9ffad0/r-moldova-si-ucraina-fara-un-acord-privind-debitul-nistrului.html"},
+        {"name": "Realitatea.md — Moldova și Ucraina nu au ajuns la un acord privind debitul Nistrului. Chișinăul se teme de o reducere bruscă a apei", "url": "https://realitatea.md/moldova-si-ucraina-nu-au-ajuns-la-un-acord-privind-debitul-nistrului-chisinaul-se-teme-de-o-reducere-brusca-a-apei/"}
+      ]
+    },
+    {
+      "text": "Nivelul lacului de acumulare Novodnistrovsk a scăzut cu 45 cm în doar două săptămâni (1-13 septembrie 2026), pe fondul secetei, iar aporturile de apă către lac au fost, în aceeași perioadă, sub 23 m³/s — insuficiente pentru a susține în continuare deversările la nivelul actual de 60 m³/s.",
+      "sources": [
+        {"name": "NewsMaker.md (rusă) — Уровень воды в Днестровском водохранилище снизился на 45 см за две недели", "url": "https://newsmaker.md/ru/uroven-vody-v-dnestrovskom-vodohranilishe-snizilsya-na-45-sm-za-dve-nedeli-hajder-dojdei-okazalos-nedostatochno"}
+      ]
+    },
+    {
+      "text": "Discuțiile nu au ajuns la consens; părțile au convenit să reia negocierile în zilele următoare, fără să fi stabilit o dată fermă. E a doua rundă eșuată consecutiv pe acest subiect, după ședința anterioară a Comisiei, când fusese fixat provizoriu pragul de 60 m³/s.",
+      "sources": [
+        {"name": "IPN — Moldova și Ucraina nu au ajuns la un consens privind debitul de apă de la Novodnestrovsk", "url": "https://ipn.md/moldova-si-ucraina-nu-au-ajuns-la-un-consens-privind-debitul-de-apa-de-la-novodnestrovsk"}
+      ]
+    }
+  ],
+  "contestat": [],
+  "opinie": [
+    {
+      "text": "Autoritățile de la Chișinău prezintă poziția ucraineană ca pe un risc pentru „situația hidrologică” din aval, dar niciuna dintre sursele consultate nu publică o analiză tehnică independentă a pragului minim de debit sub care aprovizionarea cu apă potabilă sau agricolă ar fi efectiv afectată — rămâne, deocamdată, o evaluare de risc a părții moldovenești, nu o cifră documentată public.",
+      "sources": []
+    }
+  ],
+  "math": {
+    "title": "De la 60 la 22 m³/s ar însemna o reducere de 63%",
+    "text": "Debitul actual deversat din lacul Novodnistrovsk e de 60 m³/s. Propunerea ucraineană de 22 m³/s reprezintă doar 37% din nivelul actual — o tăiere de 63%. În același timp, aporturile de apă către lac erau, în perioada 1-13 septembrie, sub 23 m³/s: adică Ucraina propunea, în esență, să nu mai deverseze decât ce primește, fără să mai suplimenteze din rezerva lacului — motiv pentru care nivelul lacului scăzuse deja cu 45 cm în două săptămâni."
+  },
+  "aiNote": "Ce s-a verificat exact: că ședința Comisiei mixte Republica Moldova-Ucraina din 14 septembrie 2026 a avut loc și că negocierile chiar au eșuat, cu cifre confirmate din trei surse independente (Unimedia, TVR Moldova, Realitatea.md) plus o sursă în limba rusă (NewsMaker.md) pentru datele despre scăderea nivelului lacului. Toate patru dau aceleași cifre: 60 m³/s debit actual, 22 m³/s propunerea ucraineană, 45 cm scădere de nivel în două săptămâni.\n\nUnde se despart părțile: Ucraina argumentează tehnic — poate deversa doar cât primește, iar secetă înseamnă că lacul nu se mai umple ca înainte. Moldova răspunde cu un argument de risc — o reducere atât de bruscă ar afecta aprovizionarea în aval —, dar nu a publicat, până acum, o cifră sau un studiu care să arate exact la ce prag de debit apar problemele reale de aprovizionare. Ambele poziții sunt plauzibile; niciuna nu e, deocamdată, complet documentată public.\n\nCe lipsește: o analiză hidrologică independentă (de la un institut de mediu sau o organizație internațională) care să stabilească pragul minim de debit sigur pentru Republica Moldova, și date publice despre cât de repede se poate reface nivelul lacului dacă vin ploi. Fără ele, disputa rămâne una de poziții, nu de cifre verificabile pe ambele părți.\n\nCe ar schimba concluzia: publicarea unui studiu tehnic comun sau independent privind pragul de siguranță al debitului, sau o evoluție a secetei (ploi abundente) care ar elimina practic disputa.",
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-nistru-ucraina-22-m3s-negocieri-esuate.jpg\" alt=\"Dniester River\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — Dniester River. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:61-208-5089_Dniester_Canyon_RB_18.jpg\" rel=\"nofollow noopener\" target=\"_blank\">61-208-5089 Dniester Canyon RB 18</a>\" de Rbrechko, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-nistru-ucraina-22-m3s-negocieri-esuate.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Rbrechko"
+  }
+}
