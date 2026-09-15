@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 15 Sep 2026 16:05:17 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 16:07:30 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Comerțul exterior al Moldovei: exporturile acoperă doar 34 din 100 de euro importați, iar noul TVA diferențiat la carne stârnește critici din partea patronatului</title>
+      <link>https://farabaliverne.ro/a/moldova-deficit-comercial-34-euro-tva-carne-fragmentare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-deficit-comercial-34-euro-tva-carne-fragmentare.html</guid>
+      <pubDate>Tue, 15 Sep 2026 13:06:14 +0000</pubDate>
+      <category>Economie</category>
+      <description>Datele Biroului Național de Statistică (BNS) pentru primele șapte luni din 2026 arată exporturi de 1.969,9 milioane euro (+11,7%) și importuri de 5.842,2 milioane euro (+7,1%) — un deficit comercial de 3.872,3 milioane euro, cu gradul de acoperire a importurilor prin exporturi la doar 33,7%. În paralel, Guvernul a aprobat pe 8 septembrie 2026 un TVA redus de 8% pentru ouă și carne de pui, menținând cota standard de 20% pentru restul categoriilor de carne — o măsură pe care organizația patronală citată de Logos Press (numită în sursă „Confederația Națională a Angajatorilor din Moldova”) o critică drept „fragmentare fiscală”, cu un cost suplimentar de capital circulant pentru procesatorii autohtoni.
+
+Unde bat probele: Probat — cifrele oficiale și critica patronatului sunt confirmate din surse independente. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Ministrul Sănătății Gasnaș dă vina pe Centrul de achiziții pentru penuria de interferon de la Institutul Oncologic — furnizorul nu a livrat patru luni</title>
       <link>https://farabaliverne.ro/a/moldova-interferon-penurie-institutul-oncologic-gasnas.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce descrie MIT: metoda (modelul GCAM 7.1, 12 factori, 3
       <description>Nouă descrieri standardizate de pacienți, câte două pentru fiecare medic, diagnostic după sistemul ICD-10 al OMS. Rezultatul: acordul între doi psihiatri luați la întâmplare e de circa 55 %, un nivel „îngrijorător de scăzut”, spun autorii, apropiat de cel din anii 1970, când tocmai lipsa de acord a dus la criteriile standardizate de azi. Bipolar și TOC au fost recunoscute în 94 % și 92 % din cazuri; schizofrenia și rudele ei, în 37–54 %. Medicii cu experiență n-au făcut mai bine decât cei tineri. Printre coautori e și o psihiatră de la „Carol Davila” și de la Spitalul Obregia din București.
 
 Unde bat probele: Probat ce raportează studiul: 1.038 de medici, 19 țări, cazuri scrise, acord de 55 % (Krippendorff α = 0,48), corectitudine 66 %, diferențele mari între diagnostice, lipsa efectului experienței. Contestat, chiar de autori: cazurile scrise nu sunt consultații reale; eșantionul e voluntar și inegal pe țări, fără rată de răspuns; și au avut de ales doar dintre 30 de diagnostice. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Cornell a făcut apă potabilă din apă de mare cu lână de oaie vopsită în negru și pusă la soare: 2,43 litri pe metru pătrat pe oră, sare sub limita OMS, zece ore fără să se înfunde. Materialul e biodegradabil și nu lasă microplastic</title>
-      <link>https://farabaliverne.ro/a/cornell-lana-vopsita-desalinizare-apa-soare-advanced-science.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/cornell-lana-vopsita-desalinizare-apa-soare-advanced-science.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:40:23 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Un laborator de design vestimentar de la Cornell, condus de Larissa Shepherd, a vopsit lâna cu polidopamină, un polimer inspirat de melanina din midii, care absoarbe lumina infraroșie și o face căldură. Anul trecut, cu un pas în plus de gravare cu plasmă, aceeași lână devenise „ultranegrul” de record, copiat după o pasăre a paradisului. Acum, pusă vertical în apă sărată, sub un simulator solar, cu oglinzi pe spate, a evaporat 2,43 kilograme de apă pe metru pătrat pe oră (varianta doar vopsită: 2,21), aproape dublu față de sistemele orizontale clasice. Publicat în Advanced Science pe 6 septembrie 2026, cu acces liber.
-
-Unde bat probele: Probat ce descrie Cornell: metoda (evaporare solară interfacială), cifrele pe cele trei configurații, sarea sub limita OMS, zece ore fără înfundare, acces liber la lucrare. Contestat, chiar de autori: e la scară de laborator, sub simulator solar, nu în soare real; nu s-a testat pe apă de ploaie sau uzată; iar gravarea cu plasmă poate să nu merite costul. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
