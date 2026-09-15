@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 15 Sep 2026 15:58:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 16:05:17 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ministrul Sănătății Gasnaș dă vina pe Centrul de achiziții pentru penuria de interferon de la Institutul Oncologic — furnizorul nu a livrat patru luni</title>
+      <link>https://farabaliverne.ro/a/moldova-interferon-penurie-institutul-oncologic-gasnas.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-interferon-penurie-institutul-oncologic-gasnas.html</guid>
+      <pubDate>Tue, 15 Sep 2026 12:58:57 +0000</pubDate>
+      <category>Social</category>
+      <description>Ministrul Sănătății, Alexandru Gasnaș, a declarat public că lipsa Interferonului alfa-2b de la Institutul Oncologic din Chișinău, semnalată din 8 septembrie 2026, se explică prin faptul că „în țară avem în jur de 55-57% din lista necesară” de medicamente esențiale și că mecanismul Centrului pentru achiziții publice centralizate în sănătate „reacționează prea târziu atunci când un furnizor nu-și respectă obligațiile contractuale”. Potrivit Institutului Oncologic, medicamentul a lipsit patru luni, iar circa 20 din cei 50-60 de pacienți anuali care au nevoie de el nu l-au primit în această perioadă.
+
+Unde bat probele: Probat — lipsa medicamentului și cauza invocată (furnizor care nu a livrat) sunt confirmate, dar niciun oficial al Centrului de achiziții nu s-a apărat public. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Negocierile Moldova-Ucraina pentru debitul Nistrului au eșuat: Kievul a propus reducere la 22 m³/s, Chișinăul a refuzat</title>
       <link>https://farabaliverne.ro/a/moldova-nistru-ucraina-22-m3s-negocieri-esuate.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează studiul: 1.038 de medici, 19 țări, caz
       <description>Un laborator de design vestimentar de la Cornell, condus de Larissa Shepherd, a vopsit lâna cu polidopamină, un polimer inspirat de melanina din midii, care absoarbe lumina infraroșie și o face căldură. Anul trecut, cu un pas în plus de gravare cu plasmă, aceeași lână devenise „ultranegrul” de record, copiat după o pasăre a paradisului. Acum, pusă vertical în apă sărată, sub un simulator solar, cu oglinzi pe spate, a evaporat 2,43 kilograme de apă pe metru pătrat pe oră (varianta doar vopsită: 2,21), aproape dublu față de sistemele orizontale clasice. Publicat în Advanced Science pe 6 septembrie 2026, cu acces liber.
 
 Unde bat probele: Probat ce descrie Cornell: metoda (evaporare solară interfacială), cifrele pe cele trei configurații, sarea sub limita OMS, zece ore fără înfundare, acces liber la lucrare. Contestat, chiar de autori: e la scară de laborator, sub simulator solar, nu în soare real; nu s-a testat pe apă de ploaie sau uzată; iar gravarea cu plasmă poate să nu merite costul. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Exporturile Chinei au crescut 25% în august față de anul trecut, iar cele către SUA au „explodat” cu 34,4% — dar o parte din salt vine din compararea cu un august 2025 slăbit de tarife</title>
-      <link>https://farabaliverne.ro/a/china-exporturi-25-procente-august-2026-baza-comparatie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/china-exporturi-25-procente-august-2026-baza-comparatie.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:31:04 +0000</pubDate>
-      <category>Economie</category>
-      <description>🌍 Datele vamale oficiale ale Chinei, publicate pe 8 septembrie 2026, arată exporturi în creștere cu 25% față de august 2025 și un excedent comercial record de 119,1 miliarde de dolari. Cea mai mare surpriză e creșterea de 34,4% a exporturilor către Statele Unite, în plină încordare comercială — dar analiști citați de presă spun că o parte din acest salt e un „efect de bază”: exporturile Chinei către SUA din august 2025 fuseseră deja comprimate de tarifele americane impuse anterior, așa că procentul de creștere de anul acesta pare mai spectaculos decât e, în realitate, revenirea.
-
-Unde bat probele: Probat. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
