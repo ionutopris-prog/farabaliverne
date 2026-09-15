@@ -681,5 +681,84 @@
       "text": "Căldură ieșită din comun la Casablanca: maximă de 37 °C — cu 9 °C peste media zilei (1991–2020: 28 °C) și peste orice maximă din ultimii 10 ani în perioada asta (31 °C).",
       "tip": "Temperaturi extreme"
     }
+  ],
+  "2026-09-14": [
+    {
+      "cheie": "us7000thcs",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thcs",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,6, la 78 km nord-nord-est de Tobelo, Indonezia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thc6",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thc6",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,5, la 187 km sud-sud-vest de Pelabuhanratu, Indonezia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000tha3",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tha3",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,4, în Dorsala Medio-Atlantică nordică.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thgs",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thgs",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,3, în larg, Michoacan, Mexic.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thea",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thea",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, la 135 km sud-est de Gizo, Insulele Solomon.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thhd",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thhd",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,2, la 66 km est de Kainantu, Papua-Noua Guinee.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "1027465",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027465",
+      "sursa": "GDACS",
+      "text": "Secetă în Democratic Republic of Congo, Kenya, Tanzania și încă 1 țări.",
+      "tip": "Secetă"
+    },
+    {
+      "cheie": "1027450",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027450",
+      "sursa": "GDACS",
+      "text": "Secetă în Eritrea, Etiopia, Kenya și încă 1 țări.",
+      "tip": "Secetă"
+    },
+    {
+      "cheie": "spc:2026-09-14",
+      "link": "https://www.spc.noaa.gov/climo/reports/260914_rpts.html",
+      "sursa": "NOAA SPC",
+      "text": "1 tornadă raportată în SUA — CO.",
+      "tip": "Tornadă"
+    },
+    {
+      "cheie": "temp:2026-09-14:Iakutsk",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Frig ieșit din comun la Iakutsk: maximă de doar 3 °C — cu 8 °C sub media zilei (1991–2020: 11 °C) și sub orice maximă din ultimii 10 ani în perioada asta (4 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "nino34:09SEP2026",
+      "link": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+      "sursa": "NOAA CPC",
+      "text": "Indicele Niño 3.4 (Pacificul ecuatorial), săptămâna din 09.09.2026: +2.9 °C față de normal — El Niño.",
+      "tip": "El Niño / La Niña"
+    }
   ]
 }
