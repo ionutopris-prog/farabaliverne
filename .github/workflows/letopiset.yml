@@ -117,3 +117,22 @@ jobs:
             sleep 20
           done
           echo "::warning::nu am putut urca letopisețul; se reia la trecerea următoare"
+
+      # 🔴 Fără pasul ăsta letopisețul NU ajungea pe site până la ediția
+      # următoare. GitHub nu declanșează workflow-uri `on: push` pentru comituri
+      # făcute cu GITHUB_TOKEN de un alt workflow (protecție anti-buclă). Ediția
+      # știe asta și pornește deploy.yml explicit; letopisețul nu știa. Pe 15
+      # septembrie 2026 fondatorul a văzut pe site ultima zi = 13, deși în git
+      # ziua de 14 avea 11 evenimente de la 01:58.
+      - name: Urcă pe site
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch -q origin main
+          if git log -1 --format=%s origin/main | grep -q "^Letopisețul"; then
+            echo "letopisețul e pe main · pornesc deploy-ul"
+            gh workflow run deploy.yml --ref main
+          else
+            echo "ultimul commit nu e al letopisețului · deploy-ul îl face altcineva"
+          fi
