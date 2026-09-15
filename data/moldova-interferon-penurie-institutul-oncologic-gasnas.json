@@ -1,0 +1,60 @@
+{
+  "slug": "moldova-interferon-penurie-institutul-oncologic-gasnas",
+  "title": "Ministrul Sănătății Gasnaș dă vina pe Centrul de achiziții pentru penuria de interferon de la Institutul Oncologic — furnizorul nu a livrat patru luni",
+  "seoTitle": "Penurie interferon Institutul Oncologic: cine e vinovat",
+  "category": "Social",
+  "tara": "Moldova",
+  "date": "2026-09-14",
+  "source": "Realitatea.md / TVR Moldova / NewsMaker.md",
+  "url": "https://tvrmoldova.md/article/27511f52efe00804/criza-de-medicamente-pentru-bolnavii-de-cancer-ministrul-sanatatii-da-vina-pe-centrul-de-achizitii.html",
+  "dek": "Ministrul Sănătății, Alexandru Gasnaș, a declarat public că lipsa Interferonului alfa-2b de la Institutul Oncologic din Chișinău, semnalată din 8 septembrie 2026, se explică prin faptul că „în țară avem în jur de 55-57% din lista necesară” de medicamente esențiale și că mecanismul Centrului pentru achiziții publice centralizate în sănătate „reacționează prea târziu atunci când un furnizor nu-și respectă obligațiile contractuale”. Potrivit Institutului Oncologic, medicamentul a lipsit patru luni, iar circa 20 din cei 50-60 de pacienți anuali care au nevoie de el nu l-au primit în această perioadă.",
+  "mainVerdict": "Probat — lipsa medicamentului și cauza invocată (furnizor care nu a livrat) sunt confirmate, dar niciun oficial al Centrului de achiziții nu s-a apărat public",
+  "probat": [
+    {
+      "text": "Interferonul alfa-2b, folosit în tratamentul unor afecțiuni oncologice și hematologice, a lipsit de la Institutul Oncologic din Chișinău timp de patru luni, potrivit directorului adjunct al instituției, Iurie Bulat. Din cei 50-60 de pacienți care au nevoie anual de acest tratament, circa 20 nu au beneficiat de el în perioada respectivă.",
+      "sources": [
+        {"name": "TVR Moldova — Criza de medicamente pentru bolnavii de cancer: ministrul Sănătății dă vina pe Centrul de achiziții", "url": "https://tvrmoldova.md/article/27511f52efe00804/criza-de-medicamente-pentru-bolnavii-de-cancer-ministrul-sanatatii-da-vina-pe-centrul-de-achizitii.html"}
+      ]
+    },
+    {
+      "text": "Ministrul Sănătății, Alexandru Gasnaș, a explicat penuria prin faptul că „în țară avem în jur de 55-57% din lista necesară” de medicamente esențiale, precizând că protocoalele naționale de tratament se construiesc pe baza medicamentelor efectiv înregistrate în țară.",
+      "sources": [
+        {"name": "Realitatea.md — Gasnaș explică penuria de interferon: „În țară avem 55-57% din lista medicamentelor esențiale”", "url": "https://realitatea.md/gasnas-explica-penuria-de-interferon-in-tara-avem-55-din-lista-medicamentelor-esentiale/"}
+      ]
+    },
+    {
+      "text": "Gasnaș a acuzat direct mecanismul de achiziții al Centrului pentru achiziții publice centralizate în sănătate, spunând că instituția „reacționează prea târziu atunci când un furnizor nu-și respectă obligațiile contractuale” — medicamentul fusese contractat din timp, dar furnizorul nu l-a livrat conform angajamentelor. Ministrul a cerut modificarea regulamentului de organizare al Centrului în termen de două luni.",
+      "sources": [
+        {"name": "TVR Moldova — Criza de medicamente pentru bolnavii de cancer: ministrul Sănătății dă vina pe Centrul de achiziții", "url": "https://tvrmoldova.md/article/27511f52efe00804/criza-de-medicamente-pentru-bolnavii-de-cancer-ministrul-sanatatii-da-vina-pe-centrul-de-achizitii.html"}
+      ]
+    },
+    {
+      "text": "Ministerul Sănătății și-a cerut public scuze pacienților afectați de indisponibilitatea temporară a medicamentului, iar Interferonul a redevenit disponibil la Institutul Oncologic din 15 septembrie 2026. Guvernul a anunțat și implementarea unui sistem informatic de monitorizare a stocurilor de medicamente, menit să identifice din timp riscul de epuizare.",
+      "sources": [
+        {"name": "NewsMaker.md — Scuze de la Guvern: interferonul va fi din nou disponibil la Institutul Oncologic din 15 septembrie", "url": "https://newsmaker.md/ro/scuze-de-la-guvern-interferonul-va-fi-din-nou-disponibil-la-institutul-oncologic-din-15-septembrie"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Niciuna dintre sursele consultate nu conține o reacție publică a Centrului pentru achiziții publice centralizate în sănătate la acuzația ministrului că instituția „reacționează prea târziu”. Rămâne varianta unilaterală a Ministerului Sănătății — plauzibilă, dar necontrazisă și neconfirmată public de instituția vizată direct.",
+      "sources": [
+        {"name": "TVR Moldova — Criza de medicamente pentru bolnavii de cancer: ministrul Sănătății dă vina pe Centrul de achiziții", "url": "https://tvrmoldova.md/article/27511f52efe00804/criza-de-medicamente-pentru-bolnavii-de-cancer-ministrul-sanatatii-da-vina-pe-centrul-de-achizitii.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "20 din 50-60 de pacienți anuali, afectați de o lipsă de patru luni",
+    "text": "Potrivit Institutului Oncologic, circa 50-60 de pacienți au nevoie anual de tratament cu Interferon alfa-2b. Cei patru luni de lipsă (aproximativ o treime din an) au afectat circa 20 dintre ei — adică între o treime și 40% din pacienții tratați anual cu acest medicament nu l-au primit la timp."
+  },
+  "aiNote": "Ce s-a verificat exact: că Interferonul alfa-2b a lipsit patru luni de la Institutul Oncologic din Chișinău, că circa 20 din 50-60 de pacienți anuali au fost afectați, și că ministrul Sănătății Alexandru Gasnaș a explicat public cauza — atât structural (Moldova are doar 55-57% din lista de medicamente esențiale), cât și punctual (furnizorul contractat nu și-a respectat obligațiile, iar Centrul de achiziții a reacționat cu întârziere). Toate acestea sunt confirmate din trei surse independente: TVR Moldova, Realitatea.md și NewsMaker.md.\n\nUnde lipsește un contrapunct: acuzația ministrului la adresa Centrului pentru achiziții publice centralizate în sănătate — că „reacționează prea târziu” — nu are, în nicio sursă găsită, un răspuns public al Centrului. Instituția vizată nu și-a explicat public întârzierea și nici n-a comentat cererea ministrului de a-i modifica regulamentul de organizare. Asta nu înseamnă că explicația ministrului e greșită — nimic din ce s-a verificat o contrazice —, dar rămâne o versiune unilaterală, dintr-o singură parte a conflictului.\n\nCe lipsește: numele furnizorului care nu a livrat medicamentul, termenii exacți ai contractului încălcat și orice sancțiune aplicată. Fără aceste detalii, „furnizorul nu și-a respectat obligațiile” rămâne o explicație generică, greu de verificat independent.\n\nCe ar schimba concluzia: o reacție publică a Centrului de achiziții care să confirme sau să conteste versiunea ministrului, sau publicarea contractului și a istoricului livrărilor pentru acest medicament.",
+  "persoane": ["Alexandru Gasnaș"],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/moldova-interferon-penurie-institutul-oncologic-gasnas.jpg\" alt=\"hospital pharmacy medicine shelves\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — hospital pharmacy medicine shelves. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Hospital_Pharmacy.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Hospital Pharmacy</a>\" de User:Mattes, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/moldova-interferon-penurie-institutul-oncologic-gasnas.jpg",
+    "licenta": "Public domain",
+    "autor": "User:Mattes"
+  }
+}
