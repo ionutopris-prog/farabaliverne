@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 02:09:11 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 02:11:51 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Senatul SUA a blocat legea-cheie pentru reglementarea criptomonedelor, în plină dispută pe averea în cripto a lui Trump</title>
+      <link>https://farabaliverne.ro/a/sua-senat-clarity-act-vot-cloture-esuat-cripto.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/sua-senat-clarity-act-vot-cloture-esuat-cripto.html</guid>
+      <pubDate>Tue, 15 Sep 2026 23:10:01 +0000</pubDate>
+      <category>Extern</category>
+      <description>Senatul american a respins marți, 15 septembrie 2026, moțiunea de cloture pentru CLARITY Act (H.R. 3633) — legea care ar fi stabilit reguli federale clare pentru piața criptomonedelor — cu 49 de voturi pentru și 50 împotrivă, sub pragul de 60 necesar. Votul a picat pe fondul unei dispute privind caracterul suficient al restricțiilor etice legate de averea în criptomonede a președintelui Donald Trump.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>Acțiunile companiilor AI s-au prăbușit la nivel mondial, după ce Dario Amodei (Anthropic) a cerut încetinirea dezvoltării — Trump și consilierul său David Sacks resping ideea, vorbind despre un „cartel”</title>
       <link>https://farabaliverne.ro/a/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce a modelat studiul; distincția supraviețuire vs. î
       <description>O echipă condusă de Universitatea din Berna arată, prin aproape 100 de simulări pe computer combinate cu date reale de la survolarea Deimos de către sonda ESA Hera, că un singur asteroid ar fi putut crea atât adâncitura din polul sudic al lunii marțiene, cât și stratul ei neobișnuit de neted și prăfos. E o ipoteză unificatoare, nu o observație directă a impactului — iar cercetătorii spun ei înșiși că explicații alternative rămân posibile.
 
 Unde bat probele: Probat ce arată simulările și datele Hera; ipoteză explicativă pentru originea celor două trăsături, nu certitudine. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Cutremurele din Gorj din februarie 2023, refăcute pas cu pas de fizicienii de la Măgurele: o falie normală înclinată spre sud-est, ruptura urcând spre nord-vest, alunecare de doar 5 și 12 centimetri și peste 4.400 de replici într-un an</title>
-      <link>https://farabaliverne.ro/a/gorj-2023-cutremure-targu-jiu-falie-normala-4400-replici-scientific-reports.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/gorj-2023-cutremure-targu-jiu-falie-normala-4400-replici-scientific-reports.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:47:43 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Pe 13 și 14 februarie 2023, două cutremure de magnitudine 4,9 și 5,4, la circa 20 de kilometri adâncime, au zguduit Târgu Jiu și s-au simțit până în București, într-o zonă considerată liniștită seismic. O echipă a Institutului Național pentru Fizica Pământului, condusă de Andreea Craiu, a pus cap la cap hipocentrele relocalizate, mecanismele de focar, inversia formelor de undă și un model simplificat al rupturii, și a refăcut ce s-a întâmplat în scoarță: o falie normală înclinată spre sud-est, ruptură care a urcat spre nord-vest, căderi de tensiune de 3,6 și 4,7 megapascali, durate de 1,3 și 2 secunde, alunecări maxime de 5 și 12 centimetri. Peste 4.400 de replici arată că structuri vechi din scoarță au dirijat ruptura, poate cu ajutorul fluidelor. Publicat în Scientific Reports pe 29 august 2026, cu acces liber.
-
-Unde bat probele: Probat ce raportează lucrarea: cele două cutremure, adâncimea, geometria faliei, parametrii rupturii, numărul de replici, finanțarea și autorii, toți români. Contestat, chiar în rezumat: modelul de ruptură e „simplificat” și „auto-similar”, iar direcția rupturii e doar „calitativ compatibilă” cu datele; lucrarea nu prezice nimic despre cutremure viitoare. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
