@@ -25,6 +25,20 @@ PASUL 1 — Cercetează (WebSearch + WebFetch), în funcție de FEREASTRA CURENT
 - **NOAPTE ȘTIINȚĂ:** ediție DEDICATĂ **doar categoriei `Știință`** — descoperiri, spațiu, sănătate, tehnologie, climă — cu surse primare (NASA/ESA, reviste peer-review, agenții). Publică DOAR articole Știință în ediția asta.
 - „Unde se întâmplă mai des" — alege cel mai RELEVANT, nu forțat egal; rotește țările ca să nu te blochezi pe una.
 
+🔴 FORMA `seoTitle` PENTRU VERIFICĂRI (14 sept 2026, din Search Console + Google Suggest)
+
+Românii caută verificările exact așa: „e adevărat că …”, „este adevărat că …”,
+„… mit sau adevăr”, „… ce înseamnă”. Google Suggest completează singur „e
+adevărat că pământul este plat”, „e adevărat că a secat dunărea”, „este adevărat
+că românia va trece la euro”. Noi aveam ZERO titluri în forma asta.
+
+Regula: când articolul verifică o afirmație concretă, `seoTitle` începe cu
+**„E adevărat că …?”** urmat de un răspuns scurt, fără a da verdictul în titlu:
+- „E adevărat că sucurile au nanocipuri? Ce spun dovezile”
+- „E adevărat că a secat Dunărea? Ce arată datele oficiale”
+Când articolul explică o situație, nu o afirmație: „… ce înseamnă și ce riscă”.
+Rămân sub 62 de caractere. Titlul editorial (`title`) rămâne liber, ca până acum.
+
 PASUL 1.4 — CE CAUTĂ ROMÂNII ACUM (prioritate, dacă există afirmație)
 
 La finalul promptului primești blocul „CE CAUTĂ ROMÂNII ACUM": căutările de top
