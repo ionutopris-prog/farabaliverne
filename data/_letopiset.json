@@ -759,6 +759,27 @@
       "sursa": "NOAA CPC",
       "text": "Indicele Niño 3.4 (Pacificul ecuatorial), săptămâna din 09.09.2026: +2.9 °C față de normal — El Niño.",
       "tip": "El Niño / La Niña"
+    },
+    {
+      "cheie": "vaac-etna-2026-09-14",
+      "tip": "Activitate vulcanică",
+      "text": "Etna, în erupție: cenușa a dus la suspendarea zborurilor pe aeroportul din Catania. Centrul de avertizare pentru aviație de la Toulouse a emis avertismentul cu numărul 156 din seria acestei erupții.",
+      "sursa": "Toulouse VAAC (Météo-France)",
+      "link": "https://vaac.meteo.fr/"
+    },
+    {
+      "cheie": "magma-semeru-2026-09-14",
+      "tip": "Activitate vulcanică",
+      "text": "Semeru, Java, Indonezia: mai multe erupții într-o singură zi, cu avertismente pentru aviație emise de observatorul vulcanului la 21:32 și 22:27 UTC.",
+      "sursa": "MAGMA Indonesia (PVMBG)",
+      "link": "https://magma.esdm.go.id/v1/vona"
+    },
+    {
+      "cheie": "hr-cz-brac-2026-09-14",
+      "tip": "Incendiu de vegetație",
+      "text": "Incendiu de vegetație pe insula Brač, Croația, cu evacuări; Protecția Civilă croată a emis avertismente pentru locuitori și turiști.",
+      "sursa": "Protecția Civilă a Croației",
+      "link": "https://civilna-zastita.gov.hr/vijesti/vijesti/pozar-na-otoku-bracu/9556"
     }
   ]
 }
