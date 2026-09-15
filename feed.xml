@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:32:01 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 21:35:07 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Acțiunile companiilor AI s-au prăbușit la nivel mondial, după ce Dario Amodei (Anthropic) a cerut încetinirea dezvoltării — Trump și consilierul său David Sacks resping ideea, vorbind despre un „cartel”</title>
+      <link>https://farabaliverne.ro/a/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.html</guid>
+      <pubDate>Tue, 15 Sep 2026 18:33:16 +0000</pubDate>
+      <category>Economie</category>
+      <description>Luni, 14 și marți, 15 septembrie 2026, acțiunile companiilor din industria inteligenței artificiale au scăzut puternic pe bursele din SUA, Europa și Asia, în special la producătorii de cipuri. Scăderea a urmat unui eseu al directorului general al Anthropic, Dario Amodei, care a cerut o încetinire coordonată a dezvoltării celor mai avansate modele AI — idee susținută public de Sam Altman (OpenAI), Demis Hassabis (Google DeepMind) și Elon Musk. Președintele Donald Trump și consilierul său pentru AI, David Sacks, resping propunerea: Sacks o numește o încercare de „cartel”, iar Trump spune că vrea ca SUA să rămână „cea mai sofisticată țară din lume” în cursa cu China.
+
+Unde bat probele: Probat, cu rezerve — scăderile bursiere și propunerea sunt fapte confirmate; motivele reale din spatele propunerii (siguranță genuină vs. avantaj competitiv pentru liderii de piață) rămân disputate între părți cu interese opuse. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Insulă din Grecia dă 5.000 de euro pe an ca să te muți acolo — dar e Kastellorizo, nu insula cu 3.000 de euro la naștere, care e Nisyros</title>
       <link>https://farabaliverne.ro/a/grecia-kastellorizo-nisyros-doua-programe-insule-bani.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce arată simulările și datele Hera; ipoteză explica
       <description>Pe 13 și 14 februarie 2023, două cutremure de magnitudine 4,9 și 5,4, la circa 20 de kilometri adâncime, au zguduit Târgu Jiu și s-au simțit până în București, într-o zonă considerată liniștită seismic. O echipă a Institutului Național pentru Fizica Pământului, condusă de Andreea Craiu, a pus cap la cap hipocentrele relocalizate, mecanismele de focar, inversia formelor de undă și un model simplificat al rupturii, și a refăcut ce s-a întâmplat în scoarță: o falie normală înclinată spre sud-est, ruptură care a urcat spre nord-vest, căderi de tensiune de 3,6 și 4,7 megapascali, durate de 1,3 și 2 secunde, alunecări maxime de 5 și 12 centimetri. Peste 4.400 de replici arată că structuri vechi din scoarță au dirijat ruptura, poate cu ajutorul fluidelor. Publicat în Scientific Reports pe 29 august 2026, cu acces liber.
 
 Unde bat probele: Probat ce raportează lucrarea: cele două cutremure, adâncimea, geometria faliei, parametrii rupturii, numărul de replici, finanțarea și autorii, toți români. Contestat, chiar în rezumat: modelul de ruptură e „simplificat” și „auto-similar”, iar direcția rupturii e doar „calitativ compatibilă” cu datele; lucrarea nu prezice nimic despre cutremure viitoare. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>MIT a rulat 3.735 de scenarii pentru 2050: în Europa de Est, cei mai săraci 10 % ar putea da 11,3 % din venit pe energie, cei mai bogați sub 5 %. În Africa de Sud, săracii ar da jumătate din venit pe mâncare</title>
-      <link>https://farabaliverne.ro/a/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-2050-saracii-europa-de-est-energie-11-la-suta-venit.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:40:23 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Nu o prognoză, ci o hartă a riscurilor: cercetătorii de la MIT, Stanford, Tufts, Tulane și Laboratorul Național Pacific Northwest au variat 12 factori (populație, PIB, distribuția veniturilor, comerț agricol, climă, energie, apă) în 3.735 de scenarii, pe 32 de regiuni ale lumii, 235 de bazine hidrografice și 384 de zone de folosință a terenului. Concluzia care contează pentru noi: în Europa de Est, povara energiei pentru cei mai săraci 10 % ajunge la 11,3 % din venit, față de sub 5 % pentru cei mai bogați. Iar „media regională” ascunde exact oamenii cei mai expuși. Publicat în Earth's Future, cu acces liber.
-
-Unde bat probele: Probat ce descrie MIT: metoda (modelul GCAM 7.1, 12 factori, 3.735 de scenarii), cifrele pe regiuni și pe decile de venit, inclusiv Europa de Est. Contestat, chiar de autori: sunt intervale de scenarii, nu predicții; incertitudinea pe 25 de ani e mare; iar „Europa de Est” e o regiune de model, nu România anume. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
