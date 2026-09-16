@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 10:01:19 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:05:05 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Singurătatea cronică fură ani de viață fără boală, arată un studiu pe 277.000 de britanici — mai mult din sănătatea mintală decât din cea fizică</title>
+      <link>https://farabaliverne.ro/a/singuratate-izolare-sociala-biobank-speranta-viata.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/singuratate-izolare-sociala-biobank-speranta-viata.html</guid>
+      <pubDate>Wed, 16 Sep 2026 07:02:05 +0000</pubDate>
+      <category>Știință</category>
+      <description>Un studiu de cohortă publicat pe 20 august 2026 în Nature Communications, realizat de cercetători de la Universitatea Fudan, Universitatea Tulane și Harvard, a urmărit timp de 13,8 ani, în medie, 277.489 de participanți la UK Biobank și a calculat câți ani de viață liberi de boală majoră pierd oamenii singuri sau izolați social — separat pentru boli fizice și pentru tulburări mintale.
+
+Unde bat probele: Probat, cu limitele metodologice recunoscute chiar de autori. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Telescopul spațial Webb a găsit cele mai puțin masive pitice brune cunoscute, cu o semnătură chimică nemaivăzută</title>
       <link>https://farabaliverne.ro/a/jwst-pitice-brune-ic348-clasa-spectrala-noua.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — atac confirmat oficial de STISC; autorul rămâne n
       <description>Că băuturile fierbinți la vreo 70 de grade cresc riscul de cancer esofagian se știa din studii făcute în Asia, Africa, America de Sud și Orientul Mijlociu. Nu se știa ce se întâmplă la temperaturile obișnuite în Europa. Unitatea de Epidemiologie a Cancerului de la Oxford a luat două studii britanice mari, 977.282 de oameni la un loc, și i-a urmărit în medie 14,2 și 11,1 ani. Au apărut 2.348 de cancere esofagiene. Cine declara că bea băuturile „foarte fierbinți”, față de „calde”, avea un risc de 3,17 ori mai mare pentru carcinomul scuamos, dar niciun risc în plus pentru adenocarcinom. Șase sau mai multe băuturi fierbinți pe zi creșteau riscul cu 71 %, independent de temperatură.
 
 Unde bat probele: Probat ce raportează studiul: mărimea grupului, durata urmăririi, numărul de cazuri pe cele două tipuri de cancer și riscurile calculate, cu intervalele lor de încredere. Contestat: e un studiu observațional, deci nu dovedește o cauză; temperatura nu e măsurată în grade, ci declarată de oameni („caldă”, „fierbinte”, „foarte fierbinte”); iar rezultatul e pe adulți britanici de vârstă mijlocie. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Cercetarea despre războaie măsoară violența aproape numai prin numărul de morți, iar numărul de morți depinde de cine a fost acolo să numere. Un studiu din Nature arată ce se vede în plus din satelit, în Ucraina și în Myanmar</title>
-      <link>https://farabaliverne.ro/a/nature-satelit-razboi-ucraina-myanmar-numarul-mortilor-masura-gresita.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/nature-satelit-razboi-ucraina-myanmar-numarul-mortilor-masura-gresita.html</guid>
-      <pubDate>Sun, 13 Sep 2026 11:16:05 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Când se studiază un război, datele vin din relatări scrise, iar intensitatea violenței se măsoară aproape exclusiv prin morți. Problema, spun autorii: relatările există doar acolo unde a fost cineva să relateze. Imaginile din satelit au și ele limitele lor, dar sunt alte limite, așa că cele două surse se completează. Cercetătorii propun trei feluri de a le combina și le testează pe două războaie: în Ucraina, unde analiza a găsit semnificativ mai multe clădiri distruse în zonele capturate de forțele ruse decât în cele recucerite ulterior de ucraineni, și în Myanmar, unde sateliții au arătat distrugerea caselor rohingya continuând mult după ce masacrele se terminaseră. Publicat în Nature pe 9 septembrie 2026, cu acces liber.
-
-Unde bat probele: Probat ce susține lucrarea: critica dependenței de numărul de morți, cele trei metode de combinare a datelor și cele două studii de caz. Contestat, spus de autori: sateliții singuri nu spun toată povestea, în zonele de conflict lipsesc datele de verificare la sol, iar unele evenimente sunt greu sau imposibil de văzut din spațiu. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
