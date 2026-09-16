@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 13:07:38 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:10:32 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>La protestele violente din Piața Victoriei, presa rusă de stat a citat un singur politician român: George Simion</title>
+      <link>https://farabaliverne.ro/a/piata-victoriei-presa-rusa-simion-singurul-citat.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/piata-victoriei-presa-rusa-simion-singurul-citat.html</guid>
+      <pubDate>Wed, 16 Sep 2026 10:08:42 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>Digi24 a analizat, pe 16 septembrie 2026, modul în care agenția rusă news.ru (afiliată statului) a relatat despre violențele din Piața Victoriei de pe 15 septembrie: singurul politician român citat a fost George Simion, liderul AUR, deși președintele Nicușor Dan și premierul interimar Ilie Bolojan au transmis reacții publice ferme în aceeași zi.
+
+Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>MIT: nanoantene magnetice injectabile, activate din afara capului printr-un câmp magnetic slab, au ucis 52% din celulele de glioblastom rezistente la chimioterapie într-o probă de laborator; la șoareci, supraviețuirea a crescut cu peste 50%</title>
       <link>https://farabaliverne.ro/a/mit-hitman-nanoantene-magnetice-glioblastom.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis de indexul HEPI, citat chiar în analiza distribuit�
       <description>🌍 Secretarul american de Stat, Marco Rubio, a spus pe 8-9 septembrie 2026, la Barranquilla, că noul guvern al Columbiei a „moștenit un șir de dezastre și decizii proaste” de la administrația lui Gustavo Petro, care a încheiat mandatul pe 7 august 2026. Președintele Petro a susținut, pe rețeaua X, că rata omuciderilor a rămas stabilă la 26 la 100.000 de locuitori, aceeași cu media ultimului deceniu. Analiza Centrului de Pace și Securitate al Universității Externado din Bogotá arată, însă, că cei patru ani ai lui Petro au avut cel mai mare număr de omucideri din ultimul deceniu (circa 54.866, mai mult decât la Duque și la Santos) și cea mai mare rată dintre ultimele trei guverne, potrivit datelor oficiale ale DANE.
 
 Unde bat probele: Contrazis pentru afirmația că rata omuciderilor a rămas „aceeași cu media ultimilor 10 ani” — analiza academică independentă arată că administrația Petro are cea mai mare rată dintre ultimele trei guverne comparate (27-28 la 100.000, date DANE) și cel mai mare număr absolut de omucideri (circa 54.866 în patru ani, peste Duque și Santos); afirmația mai amplă a lui Rubio, despre un „șir de dezastre”, e caracterizare politică, nu o cifră verificabilă. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Site-urile Guvernului, Președinției și ale altor instituții de stat din Moldova, indisponibile pe alocuri — al treilea incident cibernetic din septembrie, fără autor identificat</title>
-      <link>https://farabaliverne.ro/a/moldova-atac-cibernetic-ddos-guvern-presedintie-11-septembrie.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-atac-cibernetic-ddos-guvern-presedintie-11-septembrie.html</guid>
-      <pubDate>Sun, 13 Sep 2026 12:57:57 +0000</pubDate>
-      <category>Politică</category>
-      <description>Pe 11 septembrie 2026, în jurul orei 14:44, site-urile Guvernului, Președinției, mai multor ministere și ale Consiliului Superior al Procurorilor din Republica Moldova au devenit indisponibile pe alocuri. Serviciul Tehnologia Informației și Securitate Cibernetică (STISC) a confirmat un atac de tip DDoS — al treilea incident care afectează resursele web guvernamentale în mai puțin de zece zile. Nicio sursă oficială sau publicație consultată nu a identificat până acum autorul atacului.
-
-Unde bat probele: Probat — atac confirmat oficial de STISC; autorul rămâne neidentificat public. Verificate: 3 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
