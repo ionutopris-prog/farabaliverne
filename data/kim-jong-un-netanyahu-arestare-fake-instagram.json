@@ -12,8 +12,14 @@
     {
       "text": "Coreea de Nord are, prin agenția sa oficială KCNA, un istoric real de declarații critice la adresa Israelului pe tema Gaza — de exemplu în august 2025, când a numit decizia guvernului israelian de a ocupa complet Fâșia Gaza „un act clar de încălcare a dreptului internațional”. Contextul general al criticilor nord-coreene la adresa Israelului există, deci afirmația virală se grefează pe o poziționare politică reală a Phenianului.",
       "sources": [
-        {"name": "GlobalSecurity.org — arhivă comunicat KCNA, august 2025", "url": "https://www.globalsecurity.org/military/library/news/2025/08/mil-250812-kcna01.htm"},
-        {"name": "Anadolu Agency — North Korea blasts Israeli plan to occupy Gaza", "url": "https://www.aa.com.tr/en/middle-east/north-korea-blasts-israeli-plan-to-occupy-gaza/3657813"}
+        {
+          "name": "GlobalSecurity.org — arhivă comunicat KCNA, august 2025",
+          "url": "https://www.globalsecurity.org/military/library/news/2025/08/mil-250812-kcna01.htm"
+        },
+        {
+          "name": "Anadolu Agency — North Korea blasts Israeli plan to occupy Gaza",
+          "url": "https://www.aa.com.tr/en/middle-east/north-korea-blasts-israeli-plan-to-occupy-gaza/3657813"
+        }
       ]
     }
   ],
@@ -21,13 +27,26 @@
     {
       "text": "Afirmația specifică din videoclipul viral — că Kim Jong Un „cere arestarea” lui Netanyahu și că le-ar fi ordonat generalilor să găsească „orice mod” de a duce hrană în Gaza — nu are nicio sursă. Verificatorii Lead Stories au căutat pe KCNA Watch (platforma care urmărește sistematic toate declarațiile oficiale nord-coreene), pe Google News și pe Yahoo News și nu au găsit niciun raport care să confirme o astfel de declarație a lui Kim. Autorul postării, Ethan Levin, nu a citat nicio sursă pentru afirmația sa.",
       "sources": [
-        {"name": "Lead Stories — Fact Check: NO Evidence Kim Jong Un Called For Benjamin Netanyahu Arrest", "url": "https://leadstories.com/hoax-alert/2026/09/fact-check-no-evidence-kim-jong-un-called-for-benjamin-netanyahu-arrest.html"},
-        {"name": "Yahoo News — Fact Check: NO Evidence Kim Jong Un Called For Benjamin Netanyahu Arrest", "url": "https://www.yahoo.com/news/world/articles/fact-check-no-evidence-kim-050400490.html"}
+        {
+          "name": "Lead Stories — Fact Check: NO Evidence Kim Jong Un Called For Benjamin Netanyahu Arrest",
+          "url": "https://leadstories.com/hoax-alert/2026/09/fact-check-no-evidence-kim-jong-un-called-for-benjamin-netanyahu-arrest.html"
+        },
+        {
+          "name": "Yahoo News — Fact Check: NO Evidence Kim Jong Un Called For Benjamin Netanyahu Arrest",
+          "url": "https://www.yahoo.com/news/world/articles/fact-check-no-evidence-kim-050400490.html"
+        }
       ]
     }
   ],
   "opinie": [],
   "math": null,
   "aiNote": "🌍 Am rezumat și pus în context în română o știre din presa internațională; sursa originală e linkată mai sus — o poți citi oricând, inclusiv cu Google Translate. Verificarea arată un tipar frecvent: o afirmație pornește de la un fapt real (Coreea de Nord chiar a criticat oficial Israel pentru Gaza, prin comunicate KCNA), dar apoi cineva — aici, un cont Instagram fără nicio legătură cu presa sau cu autoritățile nord-coreene — adaugă un detaliu inventat și mai spectaculos (o „cerere de arestare” a lui Netanyahu, ordine către generali), pe care îl prezintă ca știre de ultimă oră. Mecanismul se verifică simplu: agențiile de presă nord-coreene își publică declarațiile oficiale, iar platforme precum KCNA Watch le arhivează sistematic — dacă declarația nu apare acolo și nici în presa internațională care monitorizează Phenianul, cel mai probabil nu a existat. Absența unei surse nu e o dovadă definitivă că ceva nu s-a întâmplat, dar sarcina probei stă pe cine afirmă, nu pe cine verifică — iar aici nimeni nu a produs-o.",
-  "persoane": []
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/kim-jong-un-netanyahu-arestare-fake-instagram.jpg\" alt=\"gas pipeline industrial\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — gas pipeline industrial. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Aderklaa_-_Gasstation.JPG\" rel=\"nofollow noopener\" target=\"_blank\">Aderklaa - Gasstation</a>\" de C.Stadler/Bwag, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/kim-jong-un-netanyahu-arestare-fake-instagram.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "C.Stadler/Bwag"
+  }
 }
