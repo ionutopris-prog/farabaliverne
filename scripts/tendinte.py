@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RSS = "https://trends.google.com/trending/rss?geo=RO"
-CATE = 12
+CATE = 8   # 12 → 8 pe 16 sept: edițiile atingeau plafonul de 80 de tururi și publicau jumătate
 
 
 def ia():
@@ -53,7 +53,7 @@ def parseaza(xml):
                 })
         out.append({"cautare": titlu,
                     "trafic": (trafic.group(1).strip() if trafic else ""),
-                    "stiri": stiri[:3]})
+                    "stiri": stiri[:2]})
     return out[:CATE]
 
 
