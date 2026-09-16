@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 03:59:31 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 04:02:58 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Coreea de Nord spune că a lovit toate țintele cu „100% acuratețe” într-un exercițiu cu rachete și drone — Seul confirmă doar lansarea, nu și precizia</title>
+      <link>https://farabaliverne.ro/a/coreea-nord-kcna-100-acuratete-exercitiu-rachete-drone.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/coreea-nord-kcna-100-acuratete-exercitiu-rachete-drone.html</guid>
+      <pubDate>Wed, 16 Sep 2026 01:00:35 +0000</pubDate>
+      <category>Media de stat</category>
+      <description>Agenția de stat nord-coreeană KCNA a raportat pe 14 septembrie 2026 că un exercițiu cu rachete balistice, rachete de croazieră și drone de atac, desfășurat pe 12-13 septembrie, a lovit toate țintele cu „100% acuratețe”. Coreea de Sud, prin Joint Chiefs of Staff, a confirmat doar parametrii fizici observabili — ora lansării, locul (Wonsan) și distanța parcursă de rachete (aproximativ 250 km) — nu și afirmația despre precizia loviturilor, care nu poate fi verificată independent.
+
+Unde bat probele: Contestat — cifra de precizie e susținută doar de sursa de stat. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>eMAG rescrie abonamentul Genius în trei planuri — dar varianta implicită pentru abonații actuali costă dublu</title>
       <link>https://farabaliverne.ro/a/emag-genius-trei-planuri-scumpire-implicita.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contestat — condamnarea nu e definitivă (apărarea a anunț
       <description>O echipă condusă de cercetătorul Tobermory Mackay-Champion, pe atunci la Universitatea Oxford, a analizat datele seismice ale misiunii NASA InSight și a găsit o graniță neexplicată la circa 24 de kilometri sub suprafața lui Marte, compatibilă cu un fenomen numit „magmatism transcrustal” — sisteme de magmă interconectate, extinse pe sute sau mii de kilometri — crezut până acum specific Pământului, cu plăcile lui tectonice. Concluzia vine din compararea semnalului seismic cu sute de compoziții posibile de rocă, nu dintr-o eșantionare directă a subsolului marțian.
 
 Unde bat probele: Probat ce arată datele seismice InSight; interpretativă concluzia despre amploarea și natura exactă a sistemului de magmă. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Microbi aduși de oameni ar putea supraviețui la polul sudic al Lunii, arată un studiu NASA gândit pentru misiunile Artemis</title>
-      <link>https://farabaliverne.ro/a/nasa-microbi-polul-sudic-lunii-artemis.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/nasa-microbi-polul-sudic-lunii-artemis.html</guid>
-      <pubDate>Sun, 13 Sep 2026 06:57:49 +0000</pubDate>
-      <category>Știință</category>
-      <description>Cercetători de la NASA Goddard, conduși de Prabal Saxena, au testat prin modelare cinci microorganisme cunoscute pentru rezistența lor și au descoperit că unele ar putea supraviețui cel puțin o zi terestră în crăpăturile permanent umbrite de la polul sudic lunar — exact zona vizată de aselenizările Artemis. Studiul nu spune că Luna poate găzdui viață microbiană; spune că oamenii trebuie să aibă grijă să nu-și „contamineze” propriile viitoare căutări de viață pe Marte.
-
-Unde bat probele: Probat ce a modelat studiul; distincția supraviețuire vs. înmulțire e esențială și explicită în cercetare. Verificate: 2 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
