@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 09:59:04 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:01:19 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Telescopul spațial Webb a găsit cele mai puțin masive pitice brune cunoscute, cu o semnătură chimică nemaivăzută</title>
+      <link>https://farabaliverne.ro/a/jwst-pitice-brune-ic348-clasa-spectrala-noua.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/jwst-pitice-brune-ic348-clasa-spectrala-noua.html</guid>
+      <pubDate>Wed, 16 Sep 2026 06:59:51 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă condusă de Kevin Luhman (Penn State) și Catarina Alves de Oliveira (ESA) a folosit telescopul spațial James Webb pentru a găsi, în regiunea de formare stelară IC 348, obiecte de doar aproximativ două mase joviene — cele mai puțin masive pitice brune confirmate spectroscopic până acum. Rezultatele au fost publicate în The Astrophysical Journal Letters, iar NASA a anunțat pe 15 septembrie 2026 imaginile complete ale sondajului.
+
+Unde bat probele: Probat — descoperire confirmată spectroscopic, publicată peer-review; clasificarea „nouă” a semnăturii chimice e propunerea autorilor, nu un fapt încă validat independent. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Antarctica a câștigat 695 de miliarde de tone de gheață — dar postările virale care spun că asta infirmă încălzirea globală nu se susțin</title>
       <link>https://farabaliverne.ro/a/antarctica-castig-gheata-viral-incalzire-globala.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează studiul: mărimea grupului, durata urmă
       <description>Când se studiază un război, datele vin din relatări scrise, iar intensitatea violenței se măsoară aproape exclusiv prin morți. Problema, spun autorii: relatările există doar acolo unde a fost cineva să relateze. Imaginile din satelit au și ele limitele lor, dar sunt alte limite, așa că cele două surse se completează. Cercetătorii propun trei feluri de a le combina și le testează pe două războaie: în Ucraina, unde analiza a găsit semnificativ mai multe clădiri distruse în zonele capturate de forțele ruse decât în cele recucerite ulterior de ucraineni, și în Myanmar, unde sateliții au arătat distrugerea caselor rohingya continuând mult după ce masacrele se terminaseră. Publicat în Nature pe 9 septembrie 2026, cu acces liber.
 
 Unde bat probele: Probat ce susține lucrarea: critica dependenței de numărul de morți, cele trei metode de combinare a datelor și cele două studii de caz. Contestat, spus de autori: sateliții singuri nu spun toată povestea, în zonele de conflict lipsesc datele de verificare la sol, iar unele evenimente sunt greu sau imposibil de văzut din spațiu. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Ce a însemnat mineritul la Roșia Montană, prin ce-și amintesc oamenii locului: un studiu de la Universitatea din Alba Iulia a stat de vorbă cu șapte preoți și a chestionat 327 de localnici, printre care 45 de strămutați</title>
-      <link>https://farabaliverne.ro/a/rosia-montana-minerit-memorie-preoti-studiu-alba-iulia-histories.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/rosia-montana-minerit-memorie-preoti-studiu-alba-iulia-histories.html</guid>
-      <pubDate>Sun, 13 Sep 2026 11:16:05 +0200</pubDate>
-      <category>Minți luminate</category>
-      <description>Patru cercetători de la Alba Iulia au urmărit cum s-a schimbat înțelesul mineritului la Roșia Montană în patru epoci: comunismul târziu, anii de după 1989 până la închiderea minei de stat, perioada proiectului Roșia Montană Gold Corporation și ce a rămas după retragerea companiei. Au intervievat șapte preoți de confesiuni diferite, în primăvara lui 2019, și au chestionat 282 de localnici și 45 de foști locuitori strămutați, în 2020, înainte de intrarea sitului în patrimoniul UNESCO. Concluzia lor: sub comunism, mina nu era ținută minte doar ca loc de muncă, ci ca sursă de ordine, prestigiu și identitate; tranziția a adus ambivalență morală; anii RMGC au polarizat comunitatea. Publicat pe 10 septembrie 2026, cu acces liber.
-
-Unde bat probele: Probat ce raportează lucrarea: metoda, numărul de interviuri și de chestionare, cele patru perioade analizate și concluziile autorilor despre felul în care s-a schimbat sensul mineritului. Contestat: e o cercetare calitativă, pe un eșantion mic și neprobabilistic, iar teren s-a făcut înainte de înscrierea în UNESCO din 2021, deci nu poate spune nimic despre ce s-a schimbat după. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
