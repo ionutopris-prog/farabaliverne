@@ -762,24 +762,61 @@
     },
     {
       "cheie": "vaac-etna-2026-09-14",
-      "tip": "Activitate vulcanică",
-      "text": "Etna, în erupție: cenușa a dus la suspendarea zborurilor pe aeroportul din Catania. Centrul de avertizare pentru aviație de la Toulouse a emis avertismentul cu numărul 156 din seria acestei erupții.",
+      "link": "https://vaac.meteo.fr/",
       "sursa": "Toulouse VAAC (Météo-France)",
-      "link": "https://vaac.meteo.fr/"
+      "text": "Etna, în erupție: cenușa a dus la suspendarea zborurilor pe aeroportul din Catania. Centrul de avertizare pentru aviație de la Toulouse a emis avertismentul cu numărul 156 din seria acestei erupții.",
+      "tip": "Activitate vulcanică"
     },
     {
       "cheie": "magma-semeru-2026-09-14",
-      "tip": "Activitate vulcanică",
-      "text": "Semeru, Java, Indonezia: mai multe erupții într-o singură zi, cu avertismente pentru aviație emise de observatorul vulcanului la 21:32 și 22:27 UTC.",
+      "link": "https://magma.esdm.go.id/v1/vona",
       "sursa": "MAGMA Indonesia (PVMBG)",
-      "link": "https://magma.esdm.go.id/v1/vona"
+      "text": "Semeru, Java, Indonezia: mai multe erupții într-o singură zi, cu avertismente pentru aviație emise de observatorul vulcanului la 21:32 și 22:27 UTC.",
+      "tip": "Activitate vulcanică"
     },
     {
       "cheie": "hr-cz-brac-2026-09-14",
-      "tip": "Incendiu de vegetație",
-      "text": "Incendiu de vegetație pe insula Brač, Croația, cu evacuări; Protecția Civilă croată a emis avertismente pentru locuitori și turiști.",
+      "link": "https://civilna-zastita.gov.hr/vijesti/vijesti/pozar-na-otoku-bracu/9556",
       "sursa": "Protecția Civilă a Croației",
-      "link": "https://civilna-zastita.gov.hr/vijesti/vijesti/pozar-na-otoku-bracu/9556"
+      "text": "Incendiu de vegetație pe insula Brač, Croația, cu evacuări; Protecția Civilă croată a emis avertismente pentru locuitori și turiști.",
+      "tip": "Incendiu de vegetație"
+    }
+  ],
+  "2026-09-15": [
+    {
+      "cheie": "1001322",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001322",
+      "sursa": "GDACS",
+      "text": "Uraganul Twentyfour, peste Japonia — vânt de 120 km/h.",
+      "tip": "Ciclon tropical"
+    },
+    {
+      "cheie": "1032001",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001",
+      "sursa": "GDACS",
+      "text": "Incendiu de vegetație în Australia — 5.632 de hectare.",
+      "tip": "Incendiu de vegetație"
+    },
+    {
+      "cheie": "1104081",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+      "sursa": "GDACS",
+      "text": "Inundații în China — 0 de morți și 80.704 de strămutați.",
+      "tip": "Inundație"
+    },
+    {
+      "cheie": "temp:2026-09-15:Santiago de Chile",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Santiago de Chile: maximă de 28 °C — cu 10 °C peste media zilei (1991–2020: 18 °C) și peste orice maximă din ultimii 10 ani în perioada asta (27 °C).",
+      "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "temp:2026-09-15:Madrid",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Madrid: maximă de 36 °C — cu 9 °C peste media zilei (1991–2020: 26 °C) și peste orice maximă din ultimii 10 ani în perioada asta (35 °C).",
+      "tip": "Temperaturi extreme"
     }
   ]
 }
