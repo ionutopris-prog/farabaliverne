@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 13:13:31 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:16:07 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>„200.000 de fermieri” erau așteptați în Piața Victoriei pe 15 septembrie. Câți au venit, de fapt</title>
+      <link>https://farabaliverne.ro/a/protest-fermieri-200000-asteptati-cati-au-venit.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/protest-fermieri-200000-asteptati-cati-au-venit.html</guid>
+      <pubDate>Wed, 16 Sep 2026 10:14:29 +0000</pubDate>
+      <category>Social</category>
+      <description>Înainte de protestul din 15 septembrie 2026 din Piața Victoriei, presa agricolă (agrointel.ro) și mai multe publicații au preluat estimarea organizatorilor: „aproximativ 200.000 de producători agricoli din toate sectoarele”. Jurnaliștii prezenți la fața locului, plus bilanțurile oficiale ale violențelor, arată o participare de ordinul miilor, nu al sutelor de mii.
+
+Unde bat probele: Contrazis. Verificate: 3 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Doar 3 din cele 87 de unități administrative din Buzău mai pot emite documente de urbanism, după intrarea în vigoare a noului Cod</title>
       <link>https://farabaliverne.ro/a/buzau-cod-urbanism-blocaj-primarii-arhitect-sef.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Între 26 august și 3 septembrie 2026, peste zece canale Telegram și conturi — printre care Alb și Negru, Sputnik Moldova, Sputnik Молдова 2.0, Gagauznews și Canal 5 — au distribuit coordonat afirmații potrivit cărora autoritățile de la Chișinău ar fi modificat ilegal regulile electorale, ar fi ocolit instituțiile Găgăuziei și ar amenința autonomia regiunii, în perioada premergătoare alegerilor duble din 15 noiembrie (bașcan și Adunarea Populară). Verificarea StopFals.md (Asociația Presei Independente, membră EFCSN), publicată pe 12 septembrie, confruntă fiecare afirmație cu decizia oficială pe care o citează greșit sau o omite.
 
 Unde bat probele: Contrazis — patru afirmații despre alegerile din Găgăuzia, verificate separat, nu se susțin. Verificate: 4 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>Fostul oficial Dumitru Barbalat a susținut că moldovenii plătesc „cel mai mult pentru gaze” din Europa — indexul HEPI arată o poziție de mijloc, nu un record</title>
-      <link>https://farabaliverne.ro/a/moldova-fals-gaz-mai-scump-europa-barbalat-hepi.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-fals-gaz-mai-scump-europa-barbalat-hepi.html</guid>
-      <pubDate>Sun, 13 Sep 2026 13:09:08 +0000</pubDate>
-      <category>Economie</category>
-      <description>După ce ANRE a aprobat, de la 1 septembrie 2026, o scumpire de 41% a gazului natural (de la 14,42 la 20,30 lei/m³), fostul director din Ministerul Economiei Dumitru Barbalat a afirmat, într-o analiză distribuită de mai multe site-uri, că locuitorii Republicii Moldova plătesc „cel mai mult pentru gaze în comparație cu majoritatea statelor UE”. Verificarea StopFals.md, publicată pe 11 septembrie, arată că afirmația nu se susține: indexul HEPI (Household Energy Price Index) situează Moldova la mijlocul clasamentului european, sub Suedia, Olanda, Franța, Austria, Portugalia și Italia — nu în frunte.
-
-Unde bat probele: Contrazis de indexul HEPI, citat chiar în analiza distribuită. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
