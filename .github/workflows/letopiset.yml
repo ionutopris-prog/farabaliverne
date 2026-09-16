@@ -32,6 +32,9 @@ on:
 permissions:
   contents: write
   issues: write        # veghea deschide o problemă când presa vorbește despre ce lipsește din jurnal
+  actions: write       # 🔴 ca să poată porni deploy.yml. Fără asta, pasul „Urcă pe site"
+                       # (adăugat 15 sept 2026) pica cu „HTTP 403: Resource not accessible
+                       # by integration" — trei rulări la rând, 15–16 sept.
 
 concurrency:
   group: letopiset
