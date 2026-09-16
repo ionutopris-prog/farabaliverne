@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 16 Sep 2026 13:16:07 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:18:24 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O instanță din Seul obligă Coreea de Nord să plătească 32,5 milioane de dolari pentru distrugerea biroului de legătură inter-coreean din Kaesong</title>
+      <link>https://farabaliverne.ro/a/coreea-sud-instanta-32-5-milioane-birou-legatura-kaesong.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/coreea-sud-instanta-32-5-milioane-birou-legatura-kaesong.html</guid>
+      <pubDate>Wed, 16 Sep 2026 10:17:06 +0000</pubDate>
+      <category>Extern</category>
+      <description>Tribunalul Central din Seul a decis, pe 16 septembrie 2026, că regimul de la Phenian trebuie să plătească guvernului sud-coreean aproximativ 44,6 miliarde de woni (circa 32,5 milioane de dolari) pentru distrugerea, în 2020, a biroului de legătură comun din orașul de graniță Kaesong. E prima dată când statul sud-coreean cere și obține în instanță despăgubiri directe de la statul nord-coreean, dar decizia nu poate fi pusă în executare, iar Phenianul nu a comentat.
+
+Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
+    </item>
     <item>
       <title>„200.000 de fermieri” erau așteptați în Piața Victoriei pe 15 septembrie. Câți au venit, de fapt</title>
       <link>https://farabaliverne.ro/a/protest-fermieri-200000-asteptati-cati-au-venit.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat parțial. Verificate: 3 probate, 1 contestate.</descrip
       <description>Judecătoarea federală Susan Illston, din Districtul de Nord al Californiei, a decis pe 12 septembrie 2026 că Departamentul Securității Interne (DHS) a acționat ilegal când a împins FEMA să-și reducă personalul de la circa 23.000 la aproximativ 11.500 de angajați, încălcând o lege adoptată după uraganul Katrina care interzice reducerea substanțială a atribuțiilor agenției. Decizia nu impune încă remedii — părțile trebuie să depună un raport comun până pe 9 octombrie.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Cine a lansat falsurile despre alegerile din Găgăuzia: de la „Chișinăul a modificat ilegal regulile” la „CC anulează autonomia” — ce arată, de fapt, deciziile oficiale</title>
-      <link>https://farabaliverne.ro/a/moldova-gagauzia-val-dezinformare-alegeri-cec-grt-tiraspol.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-gagauzia-val-dezinformare-alegeri-cec-grt-tiraspol.html</guid>
-      <pubDate>Sun, 13 Sep 2026 13:09:08 +0000</pubDate>
-      <category>Politică</category>
-      <description>Între 26 august și 3 septembrie 2026, peste zece canale Telegram și conturi — printre care Alb și Negru, Sputnik Moldova, Sputnik Молдова 2.0, Gagauznews și Canal 5 — au distribuit coordonat afirmații potrivit cărora autoritățile de la Chișinău ar fi modificat ilegal regulile electorale, ar fi ocolit instituțiile Găgăuziei și ar amenința autonomia regiunii, în perioada premergătoare alegerilor duble din 15 noiembrie (bașcan și Adunarea Populară). Verificarea StopFals.md (Asociația Presei Independente, membră EFCSN), publicată pe 12 septembrie, confruntă fiecare afirmație cu decizia oficială pe care o citează greșit sau o omite.
-
-Unde bat probele: Contrazis — patru afirmații despre alegerile din Găgăuzia, verificate separat, nu se susțin. Verificate: 4 probate, 4 contestate.</description>
     </item>
   </channel>
 </rss>
