@@ -1,0 +1,48 @@
+{
+  "slug": "caldura-mortalitate-europa-sudica-atribuire-climatica",
+  "title": "Un val de căldură ca cel din 2022 ucide de 26,5 ori mai probabil în sudul Europei decât înainte de încălzirea globală, arată o nouă metodă de atribuire",
+  "seoTitle": "Căldura ucide de 26 ori mai mult în sudul Europei. De ce",
+  "category": "Știință",
+  "date": "2026-09-16",
+  "source": "Nature Health",
+  "url": "https://www.nature.com/articles/s44360-026-00193-z",
+  "dek": "O echipă de la ETH Zürich — Thessa Beck, Lukas Gudmundsson, Dominik L. Schumacher și Sonia I. Seneviratne — a combinat metode de atribuire a evenimentelor extreme cu modele epidemiologice pentru a calcula, pentru 34 de țări europene, cât de mult a crescut probabilitatea unor episoade de mortalitate legată de căldură asemănătoare celor din vara 2022, din cauza încălzirii climatice provocate de om. În sudul Europei, riscul e de circa 26,5 ori mai mare față de perioada preindustrială — de aproape zece ori mai mult decât media europeană.",
+  "mainVerdict": "Probat, cu incertitudinile metodologice inerente oricărei atribuiri climatice",
+  "probat": [
+    {
+      "text": "Studiul, publicat în Nature Health, prezintă o metodă nouă care combină atribuirea evenimentelor extreme (compararea climei actuale cu o climă simulată „fără” încălzire provocată de om) cu modele epidemiologice care leagă temperaturile de mortalitate. Aplicată pe date din 34 de țări europene, metoda arată că un episod de mortalitate legată de căldură similar cu cel din vara 2022 e, în medie pe tot continentul, de câteva ori mai probabil acum decât într-o lume fără încălzire de origine umană — dar riscul nu e distribuit egal.",
+      "sources": [
+        {"name": "Nature Health — Extreme event attribution for heat-related mortality due to anthropogenic climate change across Europe (Beck, Gudmundsson, Schumacher et al.)", "url": "https://www.nature.com/articles/s44360-026-00193-z"}
+      ]
+    },
+    {
+      "text": "Disparitatea regională e mare: în sudul Europei, un episod de mortalitate ca cel din 2022 e, în medie, de 26,5 ori mai probabil față de perioada preindustrială — de aproape zece ori peste media europeană. Studiul arată că, pe măsură ce încălzirea globală se intensifică, probabilitatea unor astfel de episoade crește neliniar, cu cea mai abruptă creștere tot în sudul continentului, ceea ce indică o vulnerabilitate demografică și climatică disproporționată a acestei regiuni.",
+      "sources": [
+        {"name": "Nature Health — Extreme event attribution for heat-related mortality due to anthropogenic climate change across Europe (Beck, Gudmundsson, Schumacher et al.)", "url": "https://www.nature.com/articles/s44360-026-00193-z"},
+        {"name": "PROCLIAS (COST Association) — Attributing heat-related mortality to anthropogenic warming, vizita STSM a Thessei Beck la ETH Zürich", "url": "https://proclias.eu/news/thessa-beck-stsm-ethzuerich"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Orice metodă de atribuire a evenimentelor extreme are limite metodologice recunoscute în literatura de specialitate: nu există, în realitate, o „lume fără încălzire provocată de om” pe care s-o măsori direct — varianta contrafactuală e simulată prin modele climatice, iar calitatea ei nu poate fi verificată direct împotriva unor observații reale, pentru că acea lume nu a existat niciodată. În plus, evenimentele extreme sunt rare prin definiție, ceea ce limitează datele disponibile și lărgește marja de incertitudine statistică a oricărei estimări de tipul „de X ori mai probabil”.",
+      "sources": [
+        {"name": "World Weather Attribution — Pathways and Pitfalls in Extreme Event Attribution", "url": "https://www.worldweatherattribution.org/pathways-and-pitfalls-in-extreme-event-attribution/"}
+      ]
+    },
+    {
+      "text": "Pagina de prezentare a proiectului care a dus la această metodologie descrie rezultatele ca ieșite dintr-un „schimb fructuos” care a deschis „oportunitatea unor noi colaborări” — limbaj tipic pentru o metodă recent dezvoltată, aflată la primele aplicații ample, nu pentru un consens metodologic deja stabilit în domeniu de mai mulți ani, precum modelele clasice de atribuire a valurilor de căldură simple (fără componenta de mortalitate).",
+      "sources": [
+        {"name": "PROCLIAS (COST Association) — Attributing heat-related mortality to anthropogenic warming, vizita STSM a Thessei Beck la ETH Zürich", "url": "https://proclias.eu/news/thessa-beck-stsm-ethzuerich"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu publicat în Nature Health de o echipă de la ETH Zürich (Institutul de Științe Atmosferice și Climatice), care propune o metodă nouă de a lega direct încălzirea climatică de mortalitatea provocată de căldură.\n\nCe s-a verificat exact: cercetătorii nu au măsurat doar cât de cald a fost un val de căldură, ci au combinat asta cu modele epidemiologice care traduc temperatura în număr estimat de decese, apoi au comparat probabilitatea unui asemenea episod în clima actuală cu probabilitatea lui într-o climă simulată fără încălzire provocată de om. Rezultatul central — un episod ca cel din 2022 e de 26,5 ori mai probabil în sudul Europei față de era preindustrială — vine din această comparație, aplicată pe 34 de țări.\n\nDe ce contează disparitatea regională: cifra de „aproape zece ori peste media europeană” arată că riscul nu crește uniform pe continent. Sudul Europei cumulează, probabil, mai mulți factori simultan — temperaturi de bază mai ridicate, populație mai îmbătrânită în anumite zone, infrastructură de răcire mai puțin răspândită — pe care studiul îi grupează sub eticheta „vulnerabilitate demografică și climatică”, fără să separă complet contribuția fiecăruia.\n\nCe lipsește: orice metodă de atribuire climatică se bazează pe o „lume contrafactuală” simulată, nu observată — nu poate exista un termen de comparație real pentru „cum ar fi arătat vara 2022 fără om”. Asta introduce o incertitudine statistică inerentă, mai mare decât la măsurătorile directe. Fiind o metodă nou dezvoltată (descrisă chiar de proiectul care a găzduit cercetarea drept rezultat al unui „schimb fructuos”), ea nu are încă istoricul de validare independentă pe care îl au metodele clasice de atribuire a valurilor de căldură simple, fără componenta de mortalitate.\n\nCe ar schimba concluzia: aplicarea aceleiași metode de către alte echipe, pe alte seturi de date sau pe alte episoade de căldură din trecut, ar arăta dacă multiplicatorul de 26,5x e stabil sau sensibil la alegerile de model. Comparațiile directe cu metodele clasice de atribuire ar ajuta să se stabilească marja reală de incertitudine din spatele cifrei.",
+  "math": {
+    "title": "Ce înseamnă „de 26,5 ori mai probabil”",
+    "explanation": "Imaginează-ți că arunci un zar special, care în trecut (înainte de încălzirea provocată de om) scotea „val de căldură mortal” doar la una din, să zicem, 265 de aruncări. Cercetătorii spun că, în clima de azi, din sudul Europei, zarul e „încărcat” altfel — scoate același rezultat la una din 10 aruncări. Raportul dintre cele două probabilități (10 la sută față de aproximativ 0,4 la sută) e ceea ce înseamnă „de 26,5 ori mai probabil”. Nu înseamnă că un asemenea eveniment se întâmplă sigur de 26,5 ori mai des în calendar — înseamnă că șansa lui de a se produce într-un an oarecare a crescut de atâtea ori, calculată prin compararea a două lumi simulate: cea reală și una ipotetică, fără încălzire climatică."
+  },
+  "persoane": [],
+  "poza": {}
+}
