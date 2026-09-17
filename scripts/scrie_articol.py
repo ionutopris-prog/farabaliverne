@@ -94,7 +94,7 @@ def main_block(d):
             <div class="meta">
               <span class="src"><span class="fav" style="background:#1c3f66"></span> {e(d.get("source",""))}</span>
               <span>·</span>
-              <span>{e(d.get("date",""))}</span>
+              <span>{e((d.get("date") or "")[:10])}</span>
               <span>·</span>
               <a href="{e(d.get("url",""))}" target="_blank" rel="noopener noreferrer" class="ext">Articol sursă original</a>
             </div>
