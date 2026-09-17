@@ -818,5 +818,70 @@
       "text": "Căldură ieșită din comun la Madrid: maximă de 36 °C — cu 9 °C peste media zilei (1991–2020: 26 °C) și peste orice maximă din ultimii 10 ani în perioada asta (35 °C).",
       "tip": "Temperaturi extreme"
     }
+  ],
+  "2026-09-16": [
+    {
+      "cheie": "us7000thsx",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thsx",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, la 172 km est-sud-est de Saipan, Northern Mariana Islands.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thwt",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thwt",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,1, la 77 km sud-sud-vest de San Jose Village, Northern Mariana Islands.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thrz",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thrz",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, la 60 km sud-sud-vest de Ocós, Guatemala.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000ths9",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ths9",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, la 281 km sud-sud-est de Dunhuang, China.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thv6",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thv6",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, la 5 km nord-est de Mitsukaidō, Japonia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "us7000thxc",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thxc",
+      "sursa": "USGS",
+      "text": "Cutremur de magnitudine 5,0, la 29 km vest-sud-vest de Sipí, Columbia.",
+      "tip": "Cutremur"
+    },
+    {
+      "cheie": "1032039",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032039",
+      "sursa": "GDACS",
+      "text": "Incendiu de vegetație în Africa de Sud — 6.703 de hectare.",
+      "tip": "Incendiu de vegetație"
+    },
+    {
+      "cheie": "1032032",
+      "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032032",
+      "sursa": "GDACS",
+      "text": "Incendiu de vegetație în Australia — 7.347 de hectare.",
+      "tip": "Incendiu de vegetație"
+    },
+    {
+      "cheie": "temp:2026-09-16:Perth",
+      "link": "https://open-meteo.com/",
+      "sursa": "Open-Meteo / ERA5",
+      "text": "Căldură ieșită din comun la Perth: maximă de 29 °C — cu 10 °C peste media zilei (1991–2020: 19 °C) și peste orice maximă din ultimii 10 ani în perioada asta (26 °C).",
+      "tip": "Temperaturi extreme"
+    }
   ]
 }
