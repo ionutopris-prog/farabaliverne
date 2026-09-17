@@ -31,6 +31,7 @@ evenimente rămâne o zi fără evenimente.
 """
 
 import json
+import html as html_mod
 import os
 import re
 import sys
@@ -566,6 +567,99 @@ def oms_stiri(zi):
     return ies
 
 
+# ─── FAO Locust Watch: invaziile de lăcuste ──────────────────────────────────
+# Cerința fondatorului, 17 sept 2026: „valabil și cu invazii din astea de lăcuste
+# și ce fenomene se mai întâmplă prin lumea asta". Serviciile ArcGIS ale FAO cer
+# token din 2026, iar ReliefWeb cere appname aprobat; rămâne pagina de știri a
+# Locust Watch, unde fiecare notă are data în titlu („7 July 2026: Adult groups
+# spreading in Morocco"). Prognozele de precipitații nu sunt evenimente.
+LUNI_EN = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july",
+                                       "august", "september", "october", "november", "december"], 1)}
+
+
+def fao_lacuste(zi):
+    """Notele FAO Locust Watch din ziua dată (situația lăcustelor de deșert)."""
+    try:
+        h = _ia("https://www.fao.org/locust-watch/information/news/en")
+        h = h.decode("utf-8", "ignore") if isinstance(h, bytes) else h
+    except Exception as e:
+        print(f"  FAO Locust Watch a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    for link, titlu in re.findall(r'<a[^>]+href="([^"]*locust-watch/information/news/[^"]{5,200})"[^>]*>\s*([^<]{8,200})</a>', h):
+        titlu = html_mod.unescape(titlu.strip())
+        m = re.match(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})\s*:\s*(.+)$", titlu)
+        if not m or LUNI_EN.get(m.group(2).lower()) is None:
+            continue
+        data = f"{m.group(3)}-{LUNI_EN[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
+        if data != zi or re.search(r"precipitation prediction", m.group(4), re.I):
+            continue
+        ies.append({"tip": "Invazie de lăcuste", "text": f"Lăcuste de deșert — FAO Locust Watch: {ro_tari(m.group(4).strip())}.",
+                    "sursa": "FAO Locust Watch", "link": link if link.startswith("http") else "https://www.fao.org" + link,
+                    "cheie": "fao-lacuste:" + data + ":" + re.sub(r"[^a-z0-9]+", "-", m.group(4).lower())[:60]})
+    return ies
+
+
+# ─── NOAA SWPC: furtunile solare mari (geomagnetic K≥7, erupții clasa X, radiații S3+) ──
+def furtuni_solare(zi):
+    """Alertele NOAA SWPC din ziua dată care trec de pragurile mari."""
+    try:
+        d = json.loads(_ia("https://services.swpc.noaa.gov/products/alerts.json"))
+    except Exception as e:
+        print(f"  NOAA SWPC a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    for x in d:
+        if (x.get("issue_datetime") or "")[:10] != zi:
+            continue
+        m = x.get("message", "")
+        k = re.search(r"(?:ALERT|SUMMARY): Geomagnetic K-index of ([7-9])", m)
+        xr = re.search(r"SUMMARY: X-ray Event exceeded (X\d+)", m)
+        sr = re.search(r"(?:ALERT|SUMMARY): Proton Event .*?S([3-5])", m, re.S)
+        if k:
+            text = (f"Furtună geomagnetică puternică: indicele K a ajuns la {k.group(1)} (nivel G{int(k.group(1)) - 4}), "
+                    "cu posibile perturbări ale rețelelor electrice, GPS-ului și comunicațiilor radio; aurore vizibile la latitudini neobișnuit de joase.")
+            cheie = f"swpc:k{k.group(1)}:{zi}"
+        elif xr:
+            text = f"Erupție solară de clasă {xr.group(1)}: nivel R3 sau mai mult, cu blocarea comunicațiilor radio pe unde scurte pe partea luminată a Pământului."
+            cheie = f"swpc:x:{zi}:{x.get('product_id', '')}"
+        elif sr:
+            text = f"Furtună de radiații solare de nivel S{sr.group(1)}: risc pentru sateliți și pentru zborurile polare la mare altitudine."
+            cheie = f"swpc:s{sr.group(1)}:{zi}"
+        else:
+            continue
+        ies.append({"tip": "Furtună solară", "text": text + " NOAA Space Weather Prediction Center.",
+                    "sursa": "NOAA SWPC", "link": "https://www.swpc.noaa.gov/products/alerts-watches-and-warnings",
+                    "cheie": cheie})
+    return ies
+
+
+# ─── NASA/JPL CNEOS: bolizii mari (meteori cu energie de impact ≥ 1 kilotonă TNT) ──
+def bolizi(zi):
+    """Bolizii din ziua dată, de la senzorii guvernamentali americani, prin NASA/JPL."""
+    try:
+        d = json.loads(_ia("https://ssd-api.jpl.nasa.gov/fireball.api?impact-e-min=1&limit=20"))
+    except Exception as e:
+        print(f"  NASA CNEOS a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    f = d.get("fields") or []
+    for row in d.get("data") or []:
+        r = dict(zip(f, row))
+        if (r.get("date") or "")[:10] != zi:
+            continue
+        kt = float(r.get("impact-e") or 0)
+        loc = ""
+        if r.get("lat") and r.get("lon"):
+            loc = f", la {r['lat']}°{r.get('lat-dir', '')} {r['lon']}°{r.get('lon-dir', '')}"
+        alt = f", la {r['alt']} km altitudine" if r.get("alt") else ""
+        ies.append({"tip": "Bolid", "text": (f"Bolid: un meteor a explodat în atmosferă cu o energie de impact de circa "
+                                             f"{kt:g} kilotone TNT{loc}{alt}. NASA/JPL CNEOS."),
+                    "sursa": "NASA/JPL CNEOS", "link": "https://cneos.jpl.nasa.gov/fireballs/",
+                    "cheie": "bolid:" + (r.get("date") or zi)})
+    return ies
+
+
 # ─── NOAA: starea El Niño / La Niña — se consemnează doar când se SCHIMBĂ ────
 ENSO_FISIER = os.path.join(ROOT, "data", "_letopiset_enso.txt")
 
@@ -847,7 +941,7 @@ def main():
 
     noi = []
     # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
-    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + oms_stiri(zi) + enso(zi) + nino34(zi):
+    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + oms_stiri(zi) + fao_lacuste(zi) + furtuni_solare(zi) + bolizi(zi) + enso(zi) + nino34(zi):
         nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
         if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
             continue
