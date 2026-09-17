@@ -138,7 +138,7 @@ def main():
             arts.append(d)
 
     arts.sort(key=lambda d: (PRIORITATE.get(verdict(d)[1], 3),
-                             -int((d.get("date") or "0").replace("-", "")),
+                             -int(((d.get("date") or "0")[:10]).replace("-", "") or "0"),  # data poate veni și ca 2026-09-17T09:00:00Z
                              d.get("slug", "")))
 
     carduri = []
