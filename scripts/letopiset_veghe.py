@@ -45,6 +45,8 @@ INTREBARI = {
     "caniculă": "heatwave record temperature",
     "secetă": "drought emergency",
     "focar": "outbreak WHO cholera OR ebola OR mpox OR measles",
+    "mortalitate animală": "mass die-off OR dead fish OR whales stranded OR birds found dead OR seals dead",
+    "lăcuste": "locust swarms",
 }
 # titluri care nu sunt evenimente (verificări de fapte, aniversări, studii, opinii)
 NU_E_EVENIMENT = re.compile(r"fact.?check|falsely|years?-old|anniversary|study|explain|opinion|what to know|"

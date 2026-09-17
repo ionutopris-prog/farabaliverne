@@ -37,7 +37,7 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import timedelta, datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FISIER = os.path.join(ROOT, "data", "_letopiset.json")
@@ -660,6 +660,116 @@ def bolizi(zi):
     return ies
 
 
+# ─── Mortalități în masă la animale: WOAH (WAHIS) + USGS (WHISPers) ─────────
+# Cerința fondatorului, 17 sept 2026: „mortalități în masă la animale". Nu există
+# o singură sursă mondială; luăm două oficiale: notificările imediate ale
+# Organizației Mondiale pentru Sănătatea Animalelor (boli apărute/reapărute într-o
+# țară) și baza USGS de mortalitate a faunei sălbatice (evenimente cu ≥ 100 de
+# animale, în cea mai mare parte SUA). Restul lumii vine prin veghe (presă),
+# de verificat de un om.
+BOLI_ANIMALE = {
+    "african swine fever": "pestă porcină africană", "avian influenza": "gripă aviară",
+    "highly pathogenic": "gripă aviară înalt patogenă", "high pathogenicity": "gripă aviară înalt patogenă", "bluetongue": "boala limbii albastre",
+    "foot and mouth": "febră aftoasă", "newcastle": "boala Newcastle", "rabies": "rabie",
+    "anthrax": "antrax", "lumpy skin": "dermatoză nodulară", "peste des petits": "pesta micilor rumegătoare",
+    "sheep pox": "variola ovină", "goat pox": "variola caprină", "west nile": "West Nile",
+    "rift valley": "febra Văii Rift", "classical swine fever": "pestă porcină clasică",
+    "epizootic haemorrhagic": "boala hemoragică epizootică", "brucell": "bruceloză",
+    "equine": "boală a cailor", "tuberculosis": "tuberculoză", "chronic wasting": "boala cronică cașectizantă",
+    "white spot": "boala petelor albe (creveți)", "infectious salmon": "anemia infecțioasă a somonului",
+}
+MOTIVE_WOAH = {
+    "First occurrence": "prima apariție în țară", "Recurrence of an eradicated disease": "reapariție după eradicare",
+    "New strain": "tulpină nouă", "Unusual host species": "specie-gazdă neobișnuită",
+    "Unexpected change in morbidity or mortality": "creștere neașteptată a îmbolnăvirilor sau a morților",
+    "Emerging disease": "boală emergentă", "Recurrence": "reapariție",
+}
+PRAG_ANIMALE = 100                              # sub 100 de animale nu e „în masă"
+
+
+def woah(zi):
+    """Notificările imediate WOAH (WAHIS) trimise în ziua dată."""
+    corp = json.dumps({"eventIds": [], "reportIds": [], "countries": [], "firstDiseases": [], "secondDiseases": [],
+                       "typeStatuses": [], "reasons": [], "eventStatuses": [], "reportTypes": ["IN"], "reportStatuses": [],
+                       "eventStartDate": None, "submissionDate": {"from": _zi_plus(zi, -1), "to": _zi_plus(zi, 1)}, "animalTypes": [],
+                       "sortColumn": "submissionDate", "sortOrder": "DESC", "pageNumber": 0, "pageSize": 50}).encode()
+    try:
+        req = urllib.request.Request("https://wahis.woah.org/api/v1/pi/event/filtered-list?language=en", data=corp,
+                                     headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0 (farabaliverne.ro letopiset)"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            d = json.loads(r.read())
+    except Exception as e:
+        print(f"  WOAH a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    for x in d.get("list") or []:
+        if (x.get("submissionDate") or "")[:10] != zi or x.get("reportType") != "IN":
+            continue
+        boala_en = re.sub(r"\(Inf\. with\)|\(\d{4}-\)|\s+", " ", x.get("disease") or "").strip(" ,")
+        boala = next((ro for en, ro in BOLI_ANIMALE.items() if en in boala_en.lower()), boala_en)
+        if "non-poultry" in (x.get("disease") or "").lower():
+            boala += " la păsări sălbatice sau alte specii"
+        motiv_en = (x.get("reason") or "").strip()
+        motiv = next((ro for en, ro in MOTIVE_WOAH.items() if motiv_en.lower().startswith(en.lower())), motiv_en)
+        if "zone or a compartment" in motiv_en.lower():
+            motiv = motiv.replace(" în țară", "") + " într-o zonă a țării"
+        tara = ro_tari(re.sub(r"\s*\((Rep\. of|the)\)", "", x.get("country") or ""))
+        inceput = (x.get("eventStartDate") or "")[:10]
+        text = f"Boală animală, {tara}: {boala}" + (f" — {motiv}" if motiv else "") + \
+               (f"; focarul a început pe {_data_ro_scurt(inceput)}" if inceput else "") + \
+               ". Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor."
+        ies.append({"tip": "Boală animală", "text": text, "sursa": "WOAH (WAHIS)",
+                    "link": f"https://wahis.woah.org/#/in-review/{x.get('reportId')}" if x.get("reportId") else "https://wahis.woah.org/#/event-management",
+                    "cheie": f"woah:{x.get('eventId')}"})
+    return ies
+
+
+def _zi_plus(zi, n):
+    return (datetime.strptime(zi, "%Y-%m-%d") + timedelta(days=n)).strftime("%Y-%m-%d")
+
+
+def _data_ro_scurt(iso):
+    try:
+        dt = datetime.strptime(iso, "%Y-%m-%d")
+        return f"{dt.day} {LUNI_RO[dt.month - 1]}"
+    except Exception:
+        return iso
+
+
+LUNI_RO = ["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august",
+           "septembrie", "octombrie", "noiembrie", "decembrie"]
+
+
+def whispers(zi, toate_cheile=frozenset()):
+    """Evenimentele USGS WHISPers cu ≥ PRAG_ANIMALE animale, începute în ultimele 10 zile, neconsemnate încă."""
+    try:
+        d = json.loads(_ia("https://whispers.usgs.gov/api/eventsummaries/?ordering=-start_date&page_size=60"))
+    except Exception as e:
+        print(f"  USGS WHISPers a dat greș: {e}", file=sys.stderr)
+        return []
+    limita = (datetime.strptime(zi, "%Y-%m-%d") - timedelta(days=10)).strftime("%Y-%m-%d")
+    ies = []
+    for r in d.get("results") or []:
+        inceput = r.get("start_date") or ""
+        n = r.get("affected_count") or 0
+        if not inceput or inceput > zi or inceput < limita or n < PRAG_ANIMALE:
+            continue
+        cheie = f"whispers:{r.get('id')}"
+        if cheie in toate_cheile:
+            continue
+        specii = ", ".join(s.get("name", "") for s in (r.get("species") or [])[:3])
+        locuri = ", ".join(a.get("name", "") for a in (r.get("administrativelevelones") or [])[:3])
+        tari = ", ".join(ro_tari(c.get("name", "")) for c in (r.get("countries") or [])[:2]) or "SUA"
+        diag = "; ".join(x.get("diagnosis_string", "") for x in (r.get("eventdiagnoses") or [])[:2] if x.get("diagnosis_string") not in ("Pending", "Undetermined"))
+        text = (f"Mortalitate în masă la animale sălbatice, {locuri or tari}: {n:,} exemplare".replace(",", ".") +
+                (f" ({specii})" if specii else "") + f", eveniment început pe {_data_ro_scurt(inceput)}" +
+                (f"; cauză: {diag}" if diag else "; cauza, în curs de stabilire") +
+                ". Baza de date a Centrului Național pentru Sănătatea Faunei Sălbatice (USGS).")
+        ies.append({"tip": "Mortalitate animală", "text": text, "sursa": "USGS WHISPers",
+                    "link": f"https://whispers.usgs.gov/event/{r.get('id')}", "cheie": cheie})
+    return ies
+
+
 # ─── NOAA: starea El Niño / La Niña — se consemnează doar când se SCHIMBĂ ────
 ENSO_FISIER = os.path.join(ROOT, "data", "_letopiset_enso.txt")
 
@@ -941,7 +1051,7 @@ def main():
 
     noi = []
     # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
-    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + oms_stiri(zi) + fao_lacuste(zi) + furtuni_solare(zi) + bolizi(zi) + enso(zi) + nino34(zi):
+    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + oms_stiri(zi) + fao_lacuste(zi) + furtuni_solare(zi) + bolizi(zi) + woah(zi) + whispers(zi, toate_cheile) + enso(zi) + nino34(zi):
         nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
         if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
             continue

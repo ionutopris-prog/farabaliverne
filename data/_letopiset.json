@@ -55,6 +55,27 @@
       "sursa": "CNN / Honolulu Star-Advertiser",
       "text": "Uraganul Lowell, categoria 4 în Pacificul Central (a atins categoria 5 pe 2 septembrie, presiune 927 mbar), în drum spre Hawaii; al treilea uragan care amenință arhipelagul în trei săptămâni.",
       "tip": "Ciclon tropical"
+    },
+    {
+      "cheie": "woah:7677",
+      "link": "https://wahis.woah.org/#/in-review/184233",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Indonezia: pestă porcină clasică — reapariție după eradicare; focarul a început pe 15 februarie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7678",
+      "link": "https://wahis.woah.org/#/in-review/184235",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Indonezia: pestă porcină africană — reapariție după eradicare; focarul a început pe 6 ianuarie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7704",
+      "link": "https://wahis.woah.org/#/in-review/184473",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Indonezia: dermatoză nodulară — reapariție după eradicare; focarul a început pe 1 ianuarie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-06": [
@@ -327,6 +348,41 @@
       "sursa": "AP / Türkiye Today",
       "text": "Incendii de vegetație împinse de vânt la Antalya, Turcia: focul pornit pe 7 septembrie la Karaöz (Aksu) s-a întins spre Kepez și Döşemealtı; 720 de oameni din 254 de case evacuați, autostrada Antalya–Isparta închisă temporar; un al doilea incendiu, la Serik, stins.",
       "tip": "Incendiu de vegetație"
+    },
+    {
+      "cheie": "woah:7817",
+      "link": "https://wahis.woah.org/#/in-review/185763",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Bhutan: pestă porcină africană — reapariție după eradicare; focarul a început pe 9 iulie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7816",
+      "link": "https://wahis.woah.org/#/in-review/185761",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Ungaria: Echinococcus multilocularis — reapariție după eradicare; focarul a început pe 21 ianuarie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7815",
+      "link": "https://wahis.woah.org/#/in-review/185755",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Slovenia: Caprine arthritis/encephalitis — reapariție după eradicare; focarul a început pe 29 iunie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7812",
+      "link": "https://wahis.woah.org/#/in-review/185741",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, România: variola ovină — reapariție după eradicare; focarul a început pe 3 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7813",
+      "link": "https://wahis.woah.org/#/in-review/185744",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Germania: West Nile — reapariție după eradicare; focarul a început pe 25 august. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-09": [
@@ -434,6 +490,13 @@
       "sursa": "Open-Meteo / ERA5",
       "text": "Căldură ieșită din comun la Varșovia: maximă de 29 °C — cu 9 °C peste media zilei (1991–2020: 20 °C) și peste orice maximă din ultimii 10 ani în perioada asta (29 °C).",
       "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "woah:7819",
+      "link": "https://wahis.woah.org/#/in-review/185791",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Chile: gripă aviară înalt patogenă la păsări sălbatice sau alte specii — reapariție după eradicare; focarul a început pe 31 august. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-10": [
@@ -541,6 +604,13 @@
       "sursa": "OMS",
       "text": "Focar de Ebola, Democratic Republic of the Congo — comunicat OMS: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo.",
       "tip": "Epidemie"
+    },
+    {
+      "cheie": "woah:7822",
+      "link": "https://wahis.woah.org/#/in-review/185795",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, România: variola ovină — prima apariție într-o zonă a țării; focarul a început pe 7 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-11": [
@@ -599,6 +669,41 @@
       "sursa": "Open-Meteo / ERA5",
       "text": "Căldură ieșită din comun la Sofia: maximă de 32 °C — cu 8 °C peste media zilei (1991–2020: 23 °C) și peste orice maximă din ultimii 10 ani în perioada asta (31 °C).",
       "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "woah:7835",
+      "link": "https://wahis.woah.org/#/in-review/185864",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Slovenia: West Nile — reapariție după eradicare; focarul a început pe 5 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7834",
+      "link": "https://wahis.woah.org/#/in-review/185861",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Germania: West Nile — reapariție după eradicare; focarul a început pe 4 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7833",
+      "link": "https://wahis.woah.org/#/in-review/185857",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Germania: West Nile — reapariție după eradicare; focarul a început pe 25 iulie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7830",
+      "link": "https://wahis.woah.org/#/in-review/185840",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Polonia: boala Newcastle — reapariție după eradicare; focarul a început pe 8 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7829",
+      "link": "https://wahis.woah.org/#/in-review/185832",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Germania: West Nile — reapariție după eradicare; focarul a început pe 1 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-12": [
@@ -680,6 +785,13 @@
       "sursa": "Open-Meteo / ERA5",
       "text": "Căldură ieșită din comun la Casablanca: maximă de 37 °C — cu 9 °C peste media zilei (1991–2020: 28 °C) și peste orice maximă din ultimii 10 ani în perioada asta (31 °C).",
       "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "woah:7836",
+      "link": "https://wahis.woah.org/#/in-review/185875",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Turcia: febră aftoasă — reapariție după eradicare; focarul a început pe 7 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-14": [
@@ -787,6 +899,13 @@
       "sursa": "OMS",
       "text": "OMS — Boală eliminată (rabie): Chile becomes first country in South America validated for eliminating dog-transmitted rabies as a public health problem.",
       "tip": "Boală eliminată"
+    },
+    {
+      "cheie": "woah:7825",
+      "link": "https://wahis.woah.org/#/in-review/185805",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Polonia: pestă porcină africană — reapariție după eradicare; focarul a început pe 8 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-15": [
@@ -824,6 +943,27 @@
       "sursa": "Open-Meteo / ERA5",
       "text": "Căldură ieșită din comun la Madrid: maximă de 36 °C — cu 9 °C peste media zilei (1991–2020: 26 °C) și peste orice maximă din ultimii 10 ani în perioada asta (35 °C).",
       "tip": "Temperaturi extreme"
+    },
+    {
+      "cheie": "woah:7840",
+      "link": "https://wahis.woah.org/#/in-review/185933",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, South Sudan: antrax — reapariție după eradicare; focarul a început pe 18 iunie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7837",
+      "link": "https://wahis.woah.org/#/in-review/185913",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Filipine: gripă aviară înalt patogenă la păsări sălbatice sau alte specii — prima apariție într-o zonă a țării; focarul a început pe 9 iunie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7801",
+      "link": "https://wahis.woah.org/#/in-review/185597",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Filipine: gripă aviară înalt patogenă la păsări sălbatice sau alte specii — prima apariție într-o zonă a țării; focarul a început pe 5 mai. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ],
   "2026-09-16": [
@@ -903,6 +1043,34 @@
       "sursa": "Departamentul de Sănătate al Pennsylvaniei",
       "text": "Rujeolă în Pennsylvania, SUA: Departamentul de Sănătate al statului a anunțat 731 de cazuri confirmate în 38 de comitate de la începutul anului, 141 de spitalizări și 4 morți; focarul a început la sfârșitul lui aprilie, iar doar 4 dintre bolnavi erau vaccinați.",
       "tip": "Epidemie"
+    },
+    {
+      "cheie": "woah:7844",
+      "link": "https://wahis.woah.org/#/in-review/185969",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Ucraina: pestă porcină africană — reapariție după eradicare; focarul a început pe 14 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7843",
+      "link": "https://wahis.woah.org/#/in-review/185966",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Regatul Unit: boala limbii albastre — reapariție după eradicare; focarul a început pe 11 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7842",
+      "link": "https://wahis.woah.org/#/in-review/185940",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Mongolia: febră aftoasă — tulpină nouă într-o zonă a țării; focarul a început pe 12 septembrie. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
+    },
+    {
+      "cheie": "woah:7841",
+      "link": "https://wahis.woah.org/#/in-review/185939",
+      "sursa": "WOAH (WAHIS)",
+      "text": "Boală animală, Singapore: Megalocytivirus pagrus 1 — reapariție; focarul a început pe 1 august. Notificare imediată trimisă de autoritățile veterinare ale țării la Organizația Mondială pentru Sănătatea Animalelor.",
+      "tip": "Boală animală"
     }
   ]
 }
