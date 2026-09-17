@@ -1,0 +1,55 @@
+{
+  "slug": "petraeus-zona-mortii-drone-front-ucraina-35-km",
+  "title": "Fostul șef CIA David Petraeus spune că dronele au creat pe frontul din Ucraina o „zonă a morții” de 25-35 km — alte surse militare ucrainene dau cifre apropiate, dar nu identice",
+  "seoTitle": "Cât timp are un soldat pe front, spune fostul șef CIA",
+  "category": "Extern",
+  "date": "2026-09-17",
+  "source": "RBC-Ukraine / Antena 3 CNN / CBS News",
+  "url": "https://www.antena3.ro/externe/in-cat-timp-e-depistat-si-anihilat-de-drone-un-soldat-pe-frontul-din-ucraina-fost-sef-cia-aici-se-traseaza-viitorul-razboiului-803449.html",
+  "dek": "Într-un interviu acordat publicației ucrainene RBC-Ukraine, publicat pe 16 septembrie 2026 și preluat în România de Antena 3 CNN, fostul director CIA David Petraeus a descris frontul din Ucraina ca fiind străbătut de o „zonă a morții” lată de 25-35 de kilometri, în care un soldat depistat de o dronă de recunoaștere e atacat de o dronă FPV „sigur sub 10 minute, poate chiar în doar 5 minute”. Am comparat afirmația cu alte surse militare ucrainene care au dat, în lunile anterioare, cifre apropiate, dar nu identice, pentru aceeași „kill zone”.",
+  "mainVerdict": "Probat, cu rezerve",
+  "probat": [
+    {
+      "text": "David Petraeus, fost director al CIA (2011-2012) și fost comandant al forțelor americane și NATO din Afganistan, a declarat, într-un interviu acordat RBC-Ukraine, publicat pe 16 septembrie 2026, că „e cel puțin 35 de kilometri pe fiecare parte a liniilor frontului” zona în care artileria, tancurile și blindatele „nu pot supraviețui” din cauza supravegherii permanente cu drone — o afirmație confirmată și de o postare separată care citează același interviu, cu formularea „the death zone in Ukraine extends 35 kilometers on either side of the front lines — defined by drone battery life”.",
+      "sources": [
+        {"name": "Antena 3 CNN — În cât timp e depistat și anihilat de drone un soldat pe frontul din Ucraina", "url": "https://www.antena3.ro/externe/in-cat-timp-e-depistat-si-anihilat-de-drone-un-soldat-pe-frontul-din-ucraina-fost-sef-cia-aici-se-traseaza-viitorul-razboiului-803449.html"},
+        {"name": "CBS News — Ex-CIA director David Petraeus says U.S. needs to learn \"whole new concept of warfare\" from Ukraine", "url": "https://www.cbsnews.com/news/ex-cia-director-david-petraeus-us-ukraine-new-concept-warfare/"}
+      ]
+    },
+    {
+      "text": "Petraeus a spus că, odată ce un soldat rus e depistat de o dronă de recunoaștere, „în câteva minute, sigur sub 10 minute, poate chiar în doar 5 minute”, o dronă FPV (kamikaze) sau una care lansează muniție îl va ataca — descriind un lanț de „fuziune rapidă a informațiilor” de la detecție la lovire, susținut de supraveghere video continuă transmisă în centre de comandă.",
+      "sources": [
+        {"name": "Antena 3 CNN — În cât timp e depistat și anihilat de drone un soldat pe frontul din Ucraina", "url": "https://www.antena3.ro/externe/in-cat-timp-e-depistat-si-anihilat-de-drone-un-soldat-pe-frontul-din-ucraina-fost-sef-cia-aici-se-traseaza-viitorul-razboiului-803449.html"}
+      ]
+    },
+    {
+      "text": "Fenomenul descris de Petraeus e confirmat independent, cu cifre în același ordin de mărime dar nu identice, de generalul de brigadă Yevhen Lasiichuk, comandantul Corpului 7 de Asalt Aerian al Ucrainei, care a declarat pentru RBC-Ukraine, pe 3 iulie 2026, că zona gri de pe front se întinde deja pe 20-25 de kilometri de fiecare parte și „ar putea ajunge la 30 de kilometri către sfârșitul anului” — adăugând că 70-80% din pierderile ambelor tabere provin acum din atacuri cu drone.",
+      "sources": [
+        {"name": "RBC-Ukraine — General Lasiichuk on Pokrovsk, drones and how the war is evolving", "url": "https://newsukraine.rbc.ua/interview/kill-zone-at-the-front-could-reach-30-km-1783059775.html"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Dimensiunea exactă a „zonei morții” nu e o cifră fixă și diferă între surse și momente: un reportaj Reuters din vara anului 2025 descria „kill zone”-ul ca fiind de aproximativ 10 kilometri de fiecare parte a liniei de contact, generalul ucrainean Lasiichuk vorbea în iulie 2026 despre 20-25 km (cu proiecție spre 30 km), iar Petraeus, în septembrie 2026, spune 35 km. Diferențele nu se contrazic neapărat — reflectă probabil o zonă în expansiune, pe măsură ce raza dronelor crește — dar înseamnă că „35 de kilometri” e cifra unui singur observator la un moment dat, nu o măsurătoare oficială unică agreată de toate părțile.",
+      "sources": [
+        {"name": "Yahoo News (Reuters) — Enter the kill zone: Ukraine's drone-infested front slows Russian advance", "url": "https://www.yahoo.com/news/enter-kill-zone-ukraines-drone-050213324.html"},
+        {"name": "RBC-Ukraine — General Lasiichuk on Pokrovsk, drones and how the war is evolving", "url": "https://newsukraine.rbc.ua/interview/kill-zone-at-the-front-could-reach-30-km-1783059775.html"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "math": {
+    "title": "De la ~10 km (2025) la 35 km (2026) — o zonă care crește, nu o cifră fixă",
+    "explanation": "Cifrele citate în timp pentru „kill zone”/„zona morții” de pe frontul ucrainean cresc constant: ~10 km de fiecare parte relatat de Reuters în vara 2025, 20-25 km cu proiecție la 30 km spus de generalul Lasiichuk în iulie 2026, 35 km spus de Petraeus în septembrie 2026. Creșterea e consecventă cu explicația tehnică dată de sursele militare — raza tot mai mare a dronelor FPV și de recunoaștere — dar niciuna dintre cifre nu vine dintr-o măsurătoare oficială comună; sunt estimări ale unor oficiali sau observatori individuali, la momente diferite."
+  },
+  "aiNote": "Am verificat citatul lui Petraeus direct din articolul Antena 3 CNN (16 septembrie 2026, care citează interviul RBC-Ukraine) și l-am confirmat separat printr-o postare publică ce reproduce același interviu cu formularea „35 kilometers on either side”. Contextul biografic (fost director CIA, fost comandant NATO în Afganistan, aflat recent în Ucraina) e confirmat de CBS News și CNN.\n\nUnde se despart sursele: cifra exactă a „zonei morții”. Nu există o singură definiție tehnică agreată — diferite surse militare și jurnalistice dau 10, 20-25 sau 35 de kilometri, în funcție de momentul măsurătorii și de cine o face (soldați anonimi, un general ucrainean, un fost oficial american aflat în vizită). Fenomenul de bază — că soldații și blindatele nu mai pot opera nepedepsit la zeci de kilometri de linia de contact, din cauza supravegherii cu drone — e confirmat constant de toate sursele; doar granița exactă a zonei variază.\n\nCe lipsește: o măsurătoare oficială, verificabilă independent (de exemplu din partea NATO sau a unui institut de analiză militară precum RUSI), care să dea o cifră unică pentru un moment anume. Fără ea, cifrele rămân estimări calificate ale unor participanți sau observatori direcți, utile ca ordin de mărime, nu ca statistică exactă.\n\n🌍 Am rezumat și pus în context în română o știre din presa internațională (RBC-Ukraine, preluată de Antena 3 CNN și CBS News); sursele originale sunt linkate mai sus — le poți citi oricând, inclusiv cu Google Translate.",
+  "persoane": ["David Petraeus"],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/petraeus-zona-mortii-drone-front-ucraina-35-km.jpg\" alt=\"David Petraeus\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto de arhivă</b> — David Petraeus. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:David_Petraeus,_Lynn_Swann,_Roger_Craig,_John_Elway,_Roger_Goodell_at_Super_Bowl_43.jpg\" rel=\"nofollow noopener\" target=\"_blank\">David Petraeus, Lynn Swann, Roger Craig, John Elway, Roger Goodell at Super Bowl 43</a>\" de Staff Sergeant Bradley Lail, United States Air Force, via Wikimedia Commons · Public domain · decupată</span></span></figcaption>",
+    "fisier": "img/articole/petraeus-zona-mortii-drone-front-ucraina-35-km.jpg",
+    "licenta": "Public domain",
+    "autor": "Staff Sergeant Bradley Lail, United States Air Force"
+  }
+}
