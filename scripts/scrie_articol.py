@@ -13,6 +13,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 SABLON = ROOT / "a" / "legea-integritatii-vot-final.html"
+
+_SN = None
+def _studies_news():
+    """Perechile RO→EN cu studies.news (data/_studies_news.json); gol dacă lipsește."""
+    global _SN
+    if _SN is None:
+        try:
+            _SN = json.loads((ROOT / "data" / "_studies_news.json").read_text(encoding="utf-8"))
+        except Exception:
+            _SN = {}
+    return _SN
 BAZA = "https://farabaliverne.ro"
 
 # 🔴 Trebuie sa contina TOATE categoriile din build_site.CAT_ORDER. Cand am
@@ -144,6 +155,19 @@ def main_block(d):
             f'        <p class="ev-sub">„{cap}” — {e(semnatura)}. {e(sus)} '
             f'<a href="{url_o}" target="_blank" rel="noopener noreferrer">Originalul, în engleză →</a></p>\n'
             f'{pars}{subsol}\n      </section>\n\n')
+
+    # 📚 Minți luminate: nota spre lucrarea originală și spre versiunea în engleză
+    # de pe studies.news (biblioteca, unde lucrarea e păstrată întreagă când
+    # licența permite). Perechile stau în data/_studies_news.json — cerința
+    # fondatorului din 17 sept 2026: „o notă către sursa originală și către
+    # studies.news, dacă oamenii vor să-l citească complet în limba engleză".
+    sn = _studies_news().get(d.get("slug", ""))
+    if sn and d.get("category") == "Minți luminate":
+        pdf = " Acolo e păstrată și lucrarea completă, așa cum a fost publicată." if sn.get("pdf") else ""
+        h.append('      <section class="ai-note biblioteca">\n        <h2>📚 Lucrarea, la sursă</h2>\n'
+                 f'        <p>Studiul original: <a href="{e(d.get("url", ""))}" target="_blank" rel="noopener noreferrer">{e(d.get("source") or d.get("url", ""))}</a>. '
+                 f'Versiunea în engleză, pe <a href="{e(sn["en"])}" target="_blank" rel="noopener noreferrer">studies.news</a>, sora noastră în engleză.{pdf}</p>\n'
+                 '      </section>\n\n')
 
     h.append(sectiune("probat", "✅ Se probează",
                       "Afirmații susținute de surse verificabile.", itemi(d.get("probat"))))
