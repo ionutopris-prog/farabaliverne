@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 17 Sep 2026 09:53:09 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 09:56:01 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cercetătorii de la UCL au descoperit o „frână” naturală a inflamației în corpul uman, testată pe voluntari sănătoși</title>
+      <link>https://farabaliverne.ro/a/ucl-frana-naturala-inflamatie-epoxi-oxilipine.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/ucl-frana-naturala-inflamatie-epoxi-oxilipine.html</guid>
+      <pubDate>Thu, 17 Sep 2026 06:54:23 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă de la University College London, condusă de Olivia Bracken și coordonată de profesorul Derek Gilroy, a publicat în Nature Communications un studiu pe 48 de voluntari sănătoși care arată cum niște molecule derivate din grăsimi, numite epoxi-oxilipine, acționează ca o „frână” naturală a inflamației — oprind supraproducția unor celule imune care, în exces, întrețin inflamația cronică. Cercetătorii au testat și un medicament experimental care întărește acest mecanism, cu rezultate mixte: a grăbit calmarea durerii, dar nu și a roșeții sau umflăturii vizibile.
+
+Unde bat probele: Probat — mecanism demonstrat printr-un studiu clinic controlat pe oameni, publicat peer-review; eficacitatea în boli cronice reale rămâne netestată. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Pământul s-a format aproape în întregime din materiale din Sistemul Solar interior, arată un studiu care contestă teoria standard</title>
       <link>https://farabaliverne.ro/a/pamant-formare-sistem-solar-interior-nature-astronomy.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
       <description>Presa română scrie despre „încă o taxă” pentru comenzile ieftine de pe Temu și Shein: Consiliul UE a aprobat pe 3 septembrie 2026 o taxă de procesare pentru coletele din afara UE, care se va aplica de la 1 noiembrie 2026 — separat de taxa vamală de 3 euro, în vigoare din iulie. Cuantumul exact nu a fost încă stabilit.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Un tratament imunoterapic a oprit complet boala la 78% dintre pacienții cu o formă precoce, cu risc înalt, de mielom multiplu</title>
-      <link>https://farabaliverne.ro/a/teclistamab-mielom-multiplu-precoce-immunoprism-nature-medicine.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/teclistamab-mielom-multiplu-precoce-immunoprism-nature-medicine.html</guid>
-      <pubDate>Mon, 14 Sep 2026 07:32:45 +0000</pubDate>
-      <category>Știință</category>
-      <description>Rezultatele studiului de fază 2 ImmunoPRISM, coordonat de Dana-Farber Cancer Institute și publicat online pe 11 septembrie 2026 în Nature Medicine, arată că 77,8% dintre pacienții cu mielom multiplu „smoldering" (forma precoce, asimptomatică) cu risc înalt, tratați cu anticorpul bispecific teclistamab, au atins un răspuns complet, față de 0% în brațul de control tratat cu terapia standard.
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
     </item>
   </channel>
 </rss>
