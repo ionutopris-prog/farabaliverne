@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 17 Sep 2026 09:56:01 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 09:58:46 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mercur are cu până la 25% mai puțin dioxid de siliciu decât se credea — indiciu al unui trecut vulcanic mult mai fierbinte, arată un studiu</title>
+      <link>https://farabaliverne.ro/a/mercur-dioxid-siliciu-trecut-vulcanic-max-planck.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mercur-dioxid-siliciu-trecut-vulcanic-max-planck.html</guid>
+      <pubDate>Thu, 17 Sep 2026 06:57:16 +0000</pubDate>
+      <category>Știință</category>
+      <description>Christian Renggli, coordonatorul grupului „Experimental Laboratory Magma Ocean” de la Institutul Max Planck pentru Cercetarea Sistemului Solar, a publicat pe 11 septembrie 2026, în Planetary Research, un studiu care arată că suprafața lui Mercur conține circa 37% dioxid de siliciu — cu până la 25% mai puțin decât estimările anterioare. Concluzia sugerează că lava vulcanică a planetei a provenit din regiuni mult mai adânci și mai fierbinți ale mantalei decât se credea. Rezultatul urmează să fie confirmat cu date de rezoluție mai mare de la sonda BepiColombo (ESA/JAXA), care intră pe orbita lui Mercur în noiembrie 2026.
+
+Unde bat probele: Probat — rezultat obținut printr-o metodă de calibrare validată întâi pe date lunare, publicat peer-review; confirmarea directă, de la orbita lui Mercur, urmează abia în noiembrie 2026. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Cercetătorii de la UCL au descoperit o „frână” naturală a inflamației în corpul uman, testată pe voluntari sănătoși</title>
       <link>https://farabaliverne.ro/a/ucl-frana-naturala-inflamatie-epoxi-oxilipine.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Compania aeriană letonă airBaltic, deținută majoritar de statul leton, a cerut pe 14 septembrie 2026 protecție conform Capitolului 11 din legea falimentului SUA, la New York, invocând scumpirea combustibilului de avion pe fondul războiului dintre SUA și Iran. E prima companie aeriană europeană care ajunge în această situație din cauza prețului carburantului.
 
 Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>O nouă taxă UE pentru coletele de pe Temu și Shein, separată de cea de 3 euro, din 1 noiembrie</title>
-      <link>https://farabaliverne.ro/a/ue-taxa-procesare-colete-temu-shein-noiembrie-2026.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ue-taxa-procesare-colete-temu-shein-noiembrie-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 08:42:56 +0000</pubDate>
-      <category>Economie</category>
-      <description>Presa română scrie despre „încă o taxă” pentru comenzile ieftine de pe Temu și Shein: Consiliul UE a aprobat pe 3 septembrie 2026 o taxă de procesare pentru coletele din afara UE, care se va aplica de la 1 noiembrie 2026 — separat de taxa vamală de 3 euro, în vigoare din iulie. Cuantumul exact nu a fost încă stabilit.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
