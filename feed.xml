@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 17 Sep 2026 13:25:25 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 15:55:20 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>„Jumătate dintre români se încălzesc cu lemne” — o cifră care circulă fără sursă în presă, dar care rezistă la verificare, cu o condiție</title>
+      <link>https://farabaliverne.ro/a/jumatate-romani-lemne-incalzire-recensamant-verificare.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/jumatate-romani-lemne-incalzire-recensamant-verificare.html</guid>
+      <pubDate>Thu, 17 Sep 2026 10:26:43 +0000</pubDate>
+      <category>Social</category>
+      <description>„Jumătate dintre români se încălzesc cu lemne” e o propoziție care apare an de an în presă — ultima oară pe 11 septembrie 2026, la Digi24, într-un articol despre prețul lemnelor de foc — de obicei fără nicio sursă citată în text. Am urmărit cifra până la origine: vine de la Asociația Energia Inteligentă (AEI), care estimează 3,5 milioane de gospodării încălzite cu lemne. Comparată corect cu numărul de gospodării din recensământul 2021, cifra chiar iese aproape de jumătate — dar comparată, cum fac mulți cititori din reflex, cu numărul total de locuințe din România (aproape 10 milioane, dintre care un sfert stau goale), ar părea o exagerare.
+
+Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>Fostul șef CIA David Petraeus spune că dronele au creat pe frontul din Ucraina o „zonă a morții” de 25-35 km — alte surse militare ucrainene dau cifre apropiate, dar nu identice</title>
       <link>https://farabaliverne.ro/a/petraeus-zona-mortii-drone-front-ucraina-35-km.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis. Verificate: 4 probate, 1 contestate.</description>
       <description>Compania americană Anthropic, care dezvoltă modelul de inteligență artificială Claude, a publicat pe 10 septembrie 2026 un raport în care descrie cazul „GTG-24015”: un fost redactor-șef al Sputnik Moldova a folosit Claude pentru a transforma știri, sondaje și postări ale opoziției din România și Moldova în articole în limba rusă, publicate apoi simultan pe Telegram-ul Sputnik Moldova și al RIA Novosti, cu afirmații fabricate despre președinta Maia Sandu, înaintea alegerilor parlamentare din 28 septembrie 2025.
 
 Unde bat probele: Contrazis. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Budăi îl acuză pe Bolojan că „ascunde” deficitul prin facturi amânate — cifra e reală, dar Consiliul Fiscal descrie un alt mecanism</title>
-      <link>https://farabaliverne.ro/a/budai-acuza-bolojan-deficit-ascuns-facturi-amanate.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/budai-acuza-bolojan-deficit-ascuns-facturi-amanate.html</guid>
-      <pubDate>Mon, 14 Sep 2026 11:31:57 +0000</pubDate>
-      <category>Politică</category>
-      <description>Fostul ministru al Muncii Marius Budăi (PSD) a acuzat pe Facebook, pe 13-14 septembrie 2026, că reducerea deficitului bugetar anunțată de Ministerul Finanțelor pentru primele șapte luni din 2026 e „pe hârtie”, obținută prin amânarea plăților către furnizori, inclusiv la programul „Anghel Saligny”. Cifra deficitului e confirmată oficial, dar structura ei, descrisă chiar de Consiliul Fiscal, arată un mecanism diferit de cel invocat de Budăi — iar suspendarea plăților din „Anghel Saligny”, reală și documentată separat, a intrat în vigoare abia în septembrie, după finalul perioadei pentru care s-a raportat deficitul.
-
-Unde bat probele: Probat parțial — deficitul redus e real, mecanismul „facturi ascunse” invocat de Budăi nu se confirmă din structura oficială a ajustării. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
