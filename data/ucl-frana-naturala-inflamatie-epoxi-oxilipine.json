@@ -1,0 +1,50 @@
+{
+  "slug": "ucl-frana-naturala-inflamatie-epoxi-oxilipine",
+  "title": "Cercetătorii de la UCL au descoperit o „frână” naturală a inflamației în corpul uman, testată pe voluntari sănătoși",
+  "seoTitle": "Frâna naturală a inflamației: ce a găsit studiul UCL",
+  "category": "Știință",
+  "date": "2026-09-17",
+  "source": "Nature Communications / UCL",
+  "url": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm",
+  "dek": "O echipă de la University College London, condusă de Olivia Bracken și coordonată de profesorul Derek Gilroy, a publicat în Nature Communications un studiu pe 48 de voluntari sănătoși care arată cum niște molecule derivate din grăsimi, numite epoxi-oxilipine, acționează ca o „frână” naturală a inflamației — oprind supraproducția unor celule imune care, în exces, întrețin inflamația cronică. Cercetătorii au testat și un medicament experimental care întărește acest mecanism, cu rezultate mixte: a grăbit calmarea durerii, dar nu și a roșeții sau umflăturii vizibile.",
+  "mainVerdict": "Probat — mecanism demonstrat printr-un studiu clinic controlat pe oameni, publicat peer-review; eficacitatea în boli cronice reale rămâne netestată",
+  "probat": [
+    {
+      "text": "Echipa, condusă de Olivia Bracken (Departamentul de Îmbătrânire, Reumatologie și Medicină Regenerativă, UCL) și coordonată de profesorul Derek Gilroy, a injectat 48 de voluntari sănătoși cu E. coli ucis prin radiații UV, provocând o reacție inflamatorie de scurtă durată — durere, roșeață, căldură și umflătură — similară celei de după o infecție sau o leziune. Jumătate dintre voluntari au primit GSK2256294, un inhibitor al enzimei epoxid hidrolază solubilă (sEH), fie preventiv, fie după apariția simptomelor; cealaltă jumătate a primit placebo.",
+      "sources": [
+        {"name": "ScienceDaily — Scientists discover a hidden switch that shuts down inflammation", "url": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm"},
+        {"name": "GEN — Immune-Regulating Lipid Signals May Provide a Path to Treat Chronic Inflammation", "url": "https://www.genengnews.com/topics/translational-medicine/immune-regulating-lipid-signals-may-provide-a-path-to-treat-chronic-inflammation/"}
+      ]
+    },
+    {
+      "text": "Rezultatele arată că moleculele numite epoxi-oxilipine, în special una notată 12,13-EpOME, suprimă o cale de semnalizare celulară (proteina p38 MAPK) care în mod normal transformă monocitele — un tip de globule albe — în forme „intermediare” ce, dacă persistă sau se acumulează excesiv, întrețin inflamația cronică. Blocarea enzimei care descompune aceste molecule, cu medicamentul testat, a redus schimbările imune asociate inflamației și a grăbit calmarea durerii la voluntari, deschizând o posibilă cale terapeutică pentru boli precum artrita reumatoidă, bolile cardiovasculare și diabetul — fără să suprime funcția imună în ansamblu.",
+      "sources": [
+        {"name": "GEN — Immune-Regulating Lipid Signals May Provide a Path to Treat Chronic Inflammation", "url": "https://www.genengnews.com/topics/translational-medicine/immune-regulating-lipid-signals-may-provide-a-path-to-treat-chronic-inflammation/"},
+        {"name": "News-Medical.net — Natural brakes on inflammation could treat chronic diseases", "url": "https://www.news-medical.net/news/20260116/Natural-brakes-on-inflammation-could-treat-chronic-diseases.aspx"}
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "Medicamentul testat nu a îmbunătățit semnificativ semnele externe ale inflamației — roșeața și umflătura la locul injecției — deși a grăbit calmarea durerii, ceea ce arată că mecanismul descoperit acționează pe o parte a răspunsului inflamator, nu pe toate componentele lui deodată. Cercetătorii subliniază explicit că studiile pe oameni în acest domeniu rămân limitate comparativ cu cercetarea pe animale, iar eficacitatea reală în boli cronice — nu doar în inflamația de scurtă durată provocată experimental — urmează să fie testată în viitoare trialuri clinice la pacienți cu artrită reumatoidă.",
+      "sources": [
+        {"name": "GEN — Immune-Regulating Lipid Signals May Provide a Path to Treat Chronic Inflammation", "url": "https://www.genengnews.com/topics/translational-medicine/immune-regulating-lipid-signals-may-provide-a-path-to-treat-chronic-inflammation/"},
+        {"name": "ScienceDaily — Scientists discover a hidden switch that shuts down inflammation", "url": "https://www.sciencedaily.com/releases/2026/09/260911214306.htm"}
+      ]
+    }
+  ],
+  "opinie": [],
+  "aiNote": "🔬 Am rezumat și pus în context în română un studiu clinic al University College London, publicat în Nature Communications (DOI 10.1038/s41467-025-67961-5) de Olivia Bracken și echipa coordonată de profesorul Derek Gilroy, relatat de ScienceDaily, GEN și News-Medical.net.\n\nCe s-a verificat exact: cercetătorii au provocat, controlat, o inflamație de scurtă durată la 48 de voluntari sănătoși, prin injectarea unei bacterii E. coli ucise prin radiații UV — o metodă standard, sigură, de a studia răspunsul imun uman fără riscul unei infecții reale. Jumătate au primit un medicament experimental care blochează o enzimă (sEH) responsabilă de descompunerea moleculelor „frână”, cealaltă jumătate placebo. Comparând cele două grupuri, echipa a putut lega direct nivelul de epoxi-oxilipine de comportamentul celulelor imune și de simptome.\n\nDe ce contează mecanismul găsit: inflamația e utilă pe termen scurt — ajută la vindecare — dar devine dăunătoare când persistă. Monocitele „intermediare” identificate în studiu sunt un tip de celulă care, acumulată în exces, e asociată cu boli cronice precum artrita reumatoidă sau bolile cardiovasculare. Faptul că o moleculă naturală din organism (nu un medicament din exterior) poate opri această acumulare sugerează o cale terapeutică ce ar întări un mecanism deja existent al corpului, nu unul complet nou și necunoscut sistemului imunitar.\n\nCe lipsește: rezultatul e dintr-un model experimental de inflamație acută, indusă artificial și controlat — nu dintr-o boală cronică reală, cu ani de evoluție. Medicamentul testat nu a redus roșeața și umflătura vizibile, deși a grăbit calmarea durerii, un semn că efectul e parțial, nu complet. Nu există încă date despre eficacitatea pe termen lung sau la pacienți cu boli inflamatorii cronice diagnosticate.\n\nCe ar schimba concluzia: rezultatele trialurilor clinice viitoare pe pacienți cu artrită reumatoidă, anunțate de echipă ca următorul pas — dacă îmbunătățesc simptomele reale de boală, ipoteza terapeutică se confirmă; dacă nu, mecanismul rămâne valabil biologic, dar fără aplicație clinică demonstrată.",
+  "math": {
+    "title": "Ce înseamnă „48 de voluntari, jumătate placebo”",
+    "explanation": "Un studiu clinic controlat împarte participanții în două grupuri cât mai asemănătoare, astfel încât singura diferență sistematică dintre ele să fie tratamentul primit. Cu 48 de voluntari — 24 pe fiecare braț al studiului — mărimea eșantionului e suficientă pentru a detecta un efect biologic clar și măsurabil pe termen scurt (cum e viteza de calmare a durerii), dar prea mică pentru a trage concluzii ferme despre efecte rare sau despre eficacitate pe termen lung într-o boală cronică — pentru asta sunt nevoie de trialuri ulterioare, cu sute sau mii de pacienți reali, urmăriți luni sau ani, nu doar zile."
+  },
+  "persoane": [],
+  "poza": {
+    "img_html": "<img src=\"../img/articole/ucl-frana-naturala-inflamatie-epoxi-oxilipine.jpg\" alt=\"University College London\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — University College London. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:Cruciform_Building,_University_College_London_-_200403.jpg\" rel=\"nofollow noopener\" target=\"_blank\">Cruciform Building, University College London - 200403</a>\" de The original uploader was Secretlondon at English Wikipedia., via Wikimedia Commons · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 3.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/ucl-frana-naturala-inflamatie-epoxi-oxilipine.jpg",
+    "licenta": "CC BY-SA 3.0",
+    "autor": "The original uploader was Secretlondon at English Wikipedia."
+  }
+}
