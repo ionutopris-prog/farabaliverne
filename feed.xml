@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 17 Sep 2026 09:48:12 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 09:50:49 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Elias 2-24 b: astronomii au confirmat cea mai tânără exoplanetă descoperită vreodată, sub un milion de ani</title>
+      <link>https://farabaliverne.ro/a/elias-2-24-b-cea-mai-tanara-exoplaneta-keck.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/elias-2-24-b-cea-mai-tanara-exoplaneta-keck.html</guid>
+      <pubDate>Thu, 17 Sep 2026 06:49:32 +0000</pubDate>
+      <category>Știință</category>
+      <description>O echipă condusă de Andrea Bernardi (Universidad Diego Portales, Chile), cu Lucas Cieza drept coautor, a confirmat pe 16 septembrie 2026, în The Astrophysical Journal Letters, existența planetei Elias 2-24 b — cu masa apropiată de a lui Jupiter, aflată la circa 450 de ani-lumină, în jurul stelei tinere Elias 2-24. Planeta are sub un milion de ani, ceea ce o face cea mai tânără exoplanetă confirmată vreodată, și a fost găsită reanalizând arhiva de observații a telescopului Keck.
+
+Unde bat probele: Probat — descoperire confirmată prin analiza mișcării în arhiva Keck, coroborată cu date ALMA și VLT, publicată peer-review. Verificate: 2 probate, 1 contestate.</description>
+    </item>
     <item>
       <title>DZNE Bonn: zece diete considerate sănătoase — mediteraneană, nordică, DASH, EAT-Lancet, plant-based și altele — încetinesc în mod asemănător îmbătrânirea biologică măsurată prin ADN, la 7.500 de oameni din Germania, dar aceeași persoană poate ieși bine la o dietă și prost la alta</title>
       <link>https://farabaliverne.ro/a/dzne-rhineland-dieta-imbatranire-biologica-adn-metilare.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Un studiu publicat în The Astrophysical Journal Letters, semnat de Srashti Goyal, Hector Villarrubia-Rojo și Miguel Zumalacárregui, propune că semnalul de unde gravitaționale GW231123 — catalogat în 2025 drept cea mai masivă fuziune de găuri negre observată vreodată — ar fi fost, de fapt, mărit și distorsionat de o lentilă gravitațională, ceea ce ar reduce masa reală estimată a sistemului de la 190-265 la 100-180 de mase solare. Autorii înșiși spun clar că ipoteza nu e confirmată.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>August 2026, la egalitate cea mai fierbinte lună înregistrată vreodată la nivel global, anunță Copernicus</title>
-      <link>https://farabaliverne.ro/a/copernicus-august-2026-cea-mai-fierbinte-luna-record.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/copernicus-august-2026-cea-mai-fierbinte-luna-record.html</guid>
-      <pubDate>Mon, 14 Sep 2026 07:32:45 +0000</pubDate>
-      <category>Știință</category>
-      <description>Serviciul european Copernicus pentru Schimbări Climatice a anunțat pe 10 septembrie 2026 că luna august a fost, la egalitate cu iulie 2023, cea mai fierbinte lună înregistrată vreodată la nivel global — cu o temperatură medie de 16,96°C, prima lună din noiembrie 2025 încoace care depășește pragul de 1,5°C față de perioada preindustrială.
-
-Unde bat probele: Probat. Verificate: 2 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
