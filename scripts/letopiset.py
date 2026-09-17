@@ -521,6 +521,51 @@ def oms(zi):
     return ies
 
 
+# ─── OMS: comunicatele de presă — pandemii, comitete de urgență, eliminări de boli ──
+# Disease Outbreak News (oms) apare rar, o dată la două săptămâni. Restul vieții
+# OMS — declarații de urgență de sănătate publică, ședințele Comitetului de urgență
+# IHR, țări certificate că au eliminat o boală — trece prin comunicatele de presă.
+# Cerința fondatorului, 17 sept 2026: „la surse pentru letopiseț pune și OMS pentru
+# pandemii și alte chestii". Ținem doar ce e eveniment de sănătate a planetei;
+# parteneriatele, numirile și forumurile nu intră.
+OMS_DA = re.compile(r"pandemic|public health emergency|emergency committee|PHEIC|outbreak|epidemic|"
+                    r"declares|declared|eliminat|malaria-free|certif|validat|"
+                    r"cholera|mpox|ebola|marburg|influenza|polio|measles|dengue|plague|nipah|lassa|"
+                    r"meningitis|yellow fever|covid|h5n1|rabies|trachoma|hepatitis", re.I)
+OMS_NU = re.compile(r"partnership|collaborat|university|forum|appoint|envoy|tribute|visits?\b|prequalif|"
+                    r"strategy|market|initiative launched|welcome", re.I)
+OMS_ETICHETE = [
+    (re.compile(r"emergency committee|PHEIC|public health emergency", re.I), "Comitetul de urgență al OMS"),
+    (re.compile(r"pandemic", re.I), "Pandemie"),
+    (re.compile(r"eliminat|malaria-free|certif|validat", re.I), "Boală eliminată"),
+]
+
+
+def oms_stiri(zi):
+    """Comunicatele de presă OMS din ziua dată care privesc urgențe, pandemii sau eliminări de boli."""
+    try:
+        d = json.loads(_ia("https://www.who.int/api/news/newsitems?$top=40&$orderby=PublicationDateAndTime%20desc"))
+    except Exception as e:
+        print(f"  OMS (comunicate) a dat greș: {e}", file=sys.stderr)
+        return []
+    ies = []
+    for x in d.get("value", []):
+        if (x.get("PublicationDateAndTime") or "")[:10] != zi:
+            continue
+        titlu = (x.get("Title") or "").strip()
+        if not OMS_DA.search(titlu) or OMS_NU.search(titlu):
+            continue
+        eticheta = next((et for rx, et in OMS_ETICHETE if rx.search(titlu)), "Epidemie")
+        boala = next((ro for en, ro in BOLI.items() if en in titlu.lower()), "")
+        text = f"OMS — {eticheta}" + (f" ({boala})" if boala else "") + f": {titlu}."
+        slug = (x.get("ItemDefaultUrl") or "").strip("/")
+        ies.append({"tip": eticheta if eticheta != "Comitetul de urgență al OMS" else "Epidemie",
+                    "text": text, "sursa": "OMS",
+                    "link": f"https://www.who.int/news/item/{slug}" if slug else "https://www.who.int/news",
+                    "cheie": "oms-stiri:" + (slug or titlu)})
+    return ies
+
+
 # ─── NOAA: starea El Niño / La Niña — se consemnează doar când se SCHIMBĂ ────
 ENSO_FISIER = os.path.join(ROOT, "data", "_letopiset_enso.txt")
 
@@ -802,7 +847,7 @@ def main():
 
     noi = []
     # Dedupare între surse: furtuna „Lowell” vine și de la GDACS, și de la NASA.
-    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + enso(zi) + nino34(zi):
+    for e in cutremure(zi) + gdacs(zi, toate_cheile) + escaladari(zi, toate_cheile) + eonet(zi) + tornade(zi) + temperaturi(zi) + oms(zi) + oms_stiri(zi) + enso(zi) + nino34(zi):
         nume_furtuna = re.search(r"(?:Uraganul|Furtuna tropicală|Taifunul|Ciclonul)\s+([A-Z][a-z]+)", e["text"])
         if nume_furtuna and any(nume_furtuna.group(1) in x["text"] for x in noi + tot.get(zi, [])):
             continue
