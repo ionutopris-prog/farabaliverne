@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 23 Sep 2026 07:16:24 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 07:19:52 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>UC Riverside: un algoritm bazat pe măsurători GPS arată care porțiuni ale unei falii de subducție sunt „blocate” și acumulează energie — aplicat retroactiv, a marcat exact segmentul care avea să producă cutremurul de 8,8 din Kamceatka, din 29 iulie 2025</title>
+      <link>https://farabaliverne.ro/a/uc-riverside-falie-blocata-gps-cutremur-kamceatka-2025.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/uc-riverside-falie-blocata-gps-cutremur-kamceatka-2025.html</guid>
+      <pubDate>Wed, 23 Sep 2026 04:17:39 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Pe 29 iulie 2025, un cutremur de magnitudine 8,8 a zguduit largul peninsulei Kamceatka, în Rusia — al șaselea cel mai puternic înregistrat vreodată cu instrumente și declanșator de alertă de tsunami pe tot Pacificul. Doi geofizicieni de la Universitatea California, Riverside, Gareth Funning și Axel Periollat, au publicat pe 4 septembrie 2026 în Geophysical Research Letters o metodă care, aplicată datelor GPS dinaintea cutremurului, arată o zonă „blocată” a faliei a cărei energie acumulată de la ultimul cutremur mare din regiune (magnitudine 9,0, în 1952) corespunde cu energia eliberată în 2025 — iar zonele mici de blocaj identificate de model coincid cu locul de unde a pornit ruptura. Autorii spun clar: metoda arată UNDE se acumulează stresul, nu CÂND se va rupe falia.
+
+Unde bat probele: Probat ce descrie lucrarea: metoda (model geometric al faliei + algoritm care estimează probabilitatea de „blocaj” din viteze GPS orizontale, fără să presupună dinainte unde sunt zonele blocate), rezultatul pe cazul Kamceatka și corespondența dintre zonele de blocaj și ruptura din 2025. Contestat: testul e o reconstituire făcută DUPĂ ce cutremurul s-a produs deja, nu o prezicere făcută înainte și confirmată ulterior; metoda nu spune CÂND va lovi un cutremur; și se aplică falierilor de subducție cu rețele GPS dense, o categorie din care Vrancea, sursa cutremurelor românești, nu face parte. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>850.000 de lei în 14 zile: cât a încasat bugetul R. Moldova de la eliminarea scutirilor vamale pentru Transnistria — și de ce cifra nu se compară direct cu cea de dinainte</title>
       <link>https://farabaliverne.ro/a/moldova-vama-transnistria-850000-lei-14-zile.html</link>
@@ -288,16 +298,6 @@ Unde bat probele: Probat că gheața a crescut temporar; contrazis că asta infi
 Unde bat probele: Contestat — două versiuni oficiale contrare, fără confirmare independentă a cauzei. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>A doua rundă de audieri în ancheta Bolojan–Tănăsescu: premierul și șefa CCR au lipsit nemotivat, iar Abrudean a depus acte medicale — cu o seară înainte, cei trei luaseră cina la aceeași masă</title>
-      <link>https://farabaliverne.ro/a/bolojan-tanasescu-a-doua-runda-audieri-abrudean-scutire-medicala.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-tanasescu-a-doua-runda-audieri-abrudean-scutire-medicala.html</guid>
-      <pubDate>Wed, 16 Sep 2026 04:45:38 +0000</pubDate>
-      <category>Politică</category>
-      <description>Marți, 15 septembrie 2026, Comisia de Constituționalitate a Senatului s-a reunit pentru a doua rundă de audieri în ancheta privind întâlnirea nedeclarată din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Simina Tănăsescu. Niciunul dintre cei doi nu s-a prezentat, iar președintele Senatului, Mircea Abrudean, a depus acte medicale și a lipsit motivat. Cu o seară înainte, cei trei participaseră la aceeași cină festivă la Palatul Parlamentului.
-
-Unde bat probele: Probat — absențele și motivul depus de Abrudean sunt confirmate de mai multe redacții; motivul real al absenței lui Bolojan și al Tănăsescăi rămâne neexplicat public. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
       <title>Uniforma școlară obligatorie a trecut de Comisia din Senat, în scandal — dar argumentul PSD despre bullying nu are studii în spate</title>
       <link>https://farabaliverne.ro/a/uniforme-scolare-comisie-senat-bullying-studii.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/uniforme-scolare-comisie-senat-bullying-studii.html</guid>
@@ -306,6 +306,16 @@ Unde bat probele: Probat — absențele și motivul depus de Abrudean sunt confi
       <description>Comisia pentru Învățământ a Senatului a dat marți, 15 septembrie 2026, raport favorabil proiectului PSD (L443/2026) care introduce uniforma obligatorie în școlile de stat, după o dezbatere care a alunecat în insulte între senatorii PSD și USR. Argumentul central al inițiatorilor — că uniforma reduce bullying-ul și discriminarea economică între elevi — nu este susținut de studiile disponibile, spune chiar Ministerul Educației.
 
 Unde bat probele: Votul din comisie e real; afirmația că uniforma reduce bullying-ul nu e susținută de studiile citate. Verificate: 3 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>A doua rundă de audieri în ancheta Bolojan–Tănăsescu: premierul și șefa CCR au lipsit nemotivat, iar Abrudean a depus acte medicale — cu o seară înainte, cei trei luaseră cina la aceeași masă</title>
+      <link>https://farabaliverne.ro/a/bolojan-tanasescu-a-doua-runda-audieri-abrudean-scutire-medicala.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bolojan-tanasescu-a-doua-runda-audieri-abrudean-scutire-medicala.html</guid>
+      <pubDate>Wed, 16 Sep 2026 04:45:38 +0000</pubDate>
+      <category>Politică</category>
+      <description>Marți, 15 septembrie 2026, Comisia de Constituționalitate a Senatului s-a reunit pentru a doua rundă de audieri în ancheta privind întâlnirea nedeclarată din 14 august dintre premierul interimar Ilie Bolojan și președinta CCR, Simina Tănăsescu. Niciunul dintre cei doi nu s-a prezentat, iar președintele Senatului, Mircea Abrudean, a depus acte medicale și a lipsit motivat. Cu o seară înainte, cei trei participaseră la aceeași cină festivă la Palatul Parlamentului.
+
+Unde bat probele: Probat — absențele și motivul depus de Abrudean sunt confirmate de mai multe redacții; motivul real al absenței lui Bolojan și al Tănăsescăi rămâne neexplicat public. Verificate: 4 probate, 2 contestate.</description>
     </item>
     <item>
       <title>China numește raportul de apărare al Japoniei „narațiuni false” — dar nu contestă activitățile militare concrete pe care Tokyo le citează drept dovadă</title>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — ambele declarații sunt confirmate oficial; rămân
       <description>Agenția Națională pentru Reglementare în Energetică (ANRE) a decis pe 2 septembrie 2026 să majoreze de peste 2,5 ori rezerva obligatorie de gaze naturale pe care „Moldovagaz” trebuie s-o constituie pentru regiunea transnistreană, de la 53,7 la aproape 136 de milioane de metri cubi, până la 1 noiembrie 2026. Ministrul Energiei, Dorin Junghietu, a explicat public majorarea prin nevoia de a acoperi și gazul folosit la producerea de energie electrică. Reprezentantul „Moldovagaz”, Valentin Tonu, a contestat însă calculul ANRE, spunând că include, fără justificare deplină, consumul centralei electrice de la Cuciurgan (MGRES), care poate funcționa și pe cărbune — iar fără acest consum, cifra reală necesară ar fi de circa 76 de milioane de metri cubi.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Igor Grosu neagă zvonul apărut pe Telegram, cum că Alexandr Stoianoglo ar candida la bașcănia Găgăuziei cu sprijinul PAS: „Este un fals” — partidul nu a decis încă dacă are propriul candidat</title>
-      <link>https://farabaliverne.ro/a/moldova-grosu-neaga-stoianoglo-candidat-pas-bascan.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-grosu-neaga-stoianoglo-candidat-pas-bascan.html</guid>
-      <pubDate>Mon, 14 Sep 2026 14:32:33 +0000</pubDate>
-      <category>Politică</category>
-      <description>Deputatul Alexandr Stoianoglo, fost procuror general și candidat independent la bașcănia Găgăuziei, și-a anunțat pe 7 septembrie 2026 a treia candidatură la conducerea autonomiei. Pe canale de Telegram a circulat apoi informația că ar candida, de fapt, cu susținerea Partidului Acțiune și Solidaritate (PAS). Liderul PAS și președintele Parlamentului, Igor Grosu, a numit informația „un fals” pe 9 septembrie, la emisiunea „Secretele Puterii” de la Jurnal TV, precizând că partidul nu a decis încă dacă va avea candidat propriu la alegerile de la 15 noiembrie 2026.
-
-Unde bat probele: Contrazis. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>

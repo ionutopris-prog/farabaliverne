@@ -1,0 +1,105 @@
+{
+  "slug": "camh-long-covid-dopamina-vmat2-pet-toronto",
+  "title": "Long COVID, „ceața mentală” și oboseala: scanări PET la Toronto arată neuroni de dopamină mai puțini în trei zone ale creierului, la 24 de pacienți față de 24 de martori sănătoși",
+  "seoTitle": "Long COVID: ce arată scanările despre dopamină",
+  "category": "Minți luminate",
+  "tara": "Canada",
+  "date": "2026-09-24",
+  "source": "eBioMedicine (The Lancet Discovery Science) · CAMH – Centre for Addiction and Mental Health, Toronto",
+  "url": "https://doi.org/10.1016/j.ebiom.2026.106339",
+  "dek": "Milioane de oameni cu long COVID descriu „ceață mentală”, lipsă de motivație și mișcări încetinite, fără o explicație biologică clară. O echipă de la CAMH (afiliată Universității din Toronto), condusă de Jeffrey H. Meyer, a scanat prin PET creierul a 24 de adulți cu long COVID și al 24 de martori sănătoși de aceeași vârstă, măsurând un marker al terminațiilor nervoase care eliberează dopamină. Rezultatul, publicat pe 10 iulie 2026 în eBioMedicine (acces liber, CC BY) și reluat pe larg în presa de specialitate în septembrie: markerul e cu 16-20% mai mic în trei zone ale striatului la cei cu long COVID, iar scăderea se leagă de simptomele exacte pe care le au — apatie, încetinire, memorie slabă.",
+  "mainVerdict": "Probat ce arată scanările: un marker al neuronilor de dopamină (VMAT2) e semnificativ mai mic, în toate cele trei regiuni măsurate ale striatului, la persoanele cu long COVID față de martori sănătoși, iar mărimea scăderii se corelează cu simptomele raportate de pacienți. Contestat: eșantionul e mic (24 vs. 24), studiul arată o asociere, nu dovedește CE anume a distrus acei neuroni, iar niciun tratament nu a fost testat încă — abia urmează un studiu clinic",
+  "probat": [
+    {
+      "text": "Lucrarea „Loss of vesicular monoamine transporter 2 in striatum of long COVID and relationship to neuropsychiatric symptoms” a apărut în eBioMedicine (parte din grupul The Lancet Discovery Science) pe 10 iulie 2026, cu acces liber, licență CC BY. Autor senior: Jeffrey H. Meyer, om de știință senior la CAMH, titular al unei Canada Research Chair în neurochimia depresiei majore și șef al Programului de Imagistică Neurochimică la Brain Health Imaging Centre. Cercetarea s-a făcut la CAMH (Centre for Addiction and Mental Health), instituție afiliată integral Universității din Toronto, Canada, cu finanțare de la Institutele Canadiene de Cercetare în Sănătate (CIHR).",
+      "sources": [
+        {
+          "name": "eBioMedicine — pagina lucrării (DOI, acces liber)",
+          "url": "https://doi.org/10.1016/j.ebiom.2026.106339"
+        },
+        {
+          "name": "PubMed Central — textul integral, acces liber",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476897/"
+        },
+        {
+          "name": "CAMH — comunicatul oficial al cercetării",
+          "url": "https://www.camh.ca/en/camh-news-and-stories/rsch-new-study-provides-first-evidence-of-dopamine-system-injury-in-the-brain-of-long-covid-patients"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a făcut: un studiu caz-control desfășurat din august 2022 până în aprilie 2025, cu 24 de adulți diagnosticați cu long COVID și 24 de martori sănătoși, potriviți după vârstă. Toți au fost scanați prin tomografie cu emisie de pozitroni (PET), la Brain Health Imaging Centre din cadrul CAMH, Toronto, folosind un radiotrasor care se leagă de VMAT2 — transportorul vezicular de monoamine 2, o proteină aflată pe terminațiile nervoase care eliberează dopamină. Cu cât VMAT2 e mai puțin, cu atât sunt mai puține (sau mai afectate) aceste terminații nervoase. S-au măsurat trei regiuni ale striatului: striatul ventral, putamenul dorsal și caudatul dorsal.",
+      "sources": [
+        {
+          "name": "eBioMedicine — metodologia lucrării",
+          "url": "https://doi.org/10.1016/j.ebiom.2026.106339"
+        },
+        {
+          "name": "EurekAlert! — comunicatul CAMH, reluat integral",
+          "url": "https://www.eurekalert.org/news-releases/1134884"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit: nivelul VMAT2 a fost cu 16-20% mai mic, în funcție de regiune, la pacienții cu long COVID față de martori — și scăderea în fiecare regiune s-a potrivit cu un simptom anume. Mai puțin VMAT2 în striatul ventral s-a asociat cu mai multă apatie (lipsă de motivație); mai puțin în putamenul dorsal, cu mișcări mai lente; mai puțin în caudatul dorsal, cu memorie mai slabă. Meyer: „Descoperirile noastre oferă dovezi convingătoare că long COVID implică pierderea neuronilor care eliberează dopamină […] Știm că inflamația poate afecta neuronii de dopamină. Acest studiu oferă dovezi directe că markerul neuronilor de dopamină e redus exact în aceleași regiuni — și că această pierdere se corelează cu simptomele pacienților”.",
+      "sources": [
+        {
+          "name": "CAMH — comunicatul oficial, citatele lui Jeffrey Meyer",
+          "url": "https://www.camh.ca/en/camh-news-and-stories/rsch-new-study-provides-first-evidence-of-dopamine-system-injury-in-the-brain-of-long-covid-patients"
+        },
+        {
+          "name": "ScienceDaily — reluarea comunicatului, 20 septembrie 2026",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260920222412.htm"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 24 de pacienți și 24 de martori — un eșantion mic, tipic pentru un studiu de imagistică PET (scump și greu de făcut la scară mare), dar insuficient ca să spui ce proporție din milioanele de oameni cu long COVID au exact acest tip de leziune. Nu știm dacă rezultatul se reproduce pe o populație mai mare sau pe pacienți cu forme diferite de long COVID.",
+      "sources": [
+        {
+          "name": "eBioMedicine — dimensiunea eșantionului",
+          "url": "https://doi.org/10.1016/j.ebiom.2026.106339"
+        }
+      ]
+    },
+    {
+      "text": "Studiul arată o ASOCIERE, nu un mecanism cauzal dovedit. Cercetătorii spun că „inflamația POATE afecta neuronii de dopamină” — o ipoteză plauzibilă, sprijinită de alte lucrări despre inflamație și boli neurologice, dar acest studiu nu a testat direct dacă inflamația e cauza, nici nu a exclus alte explicații (efectul direct al virusului, alte modificări vasculare sau metabolice din long COVID).",
+      "sources": [
+        {
+          "name": "CAMH — comunicatul oficial, formularea „can injure”",
+          "url": "https://www.camh.ca/en/camh-news-and-stories/rsch-new-study-provides-first-evidence-of-dopamine-system-injury-in-the-brain-of-long-covid-patients"
+        }
+      ]
+    },
+    {
+      "text": "Niciun tratament nu a fost testat în acest studiu. Ideea de a „reponsi” medicamente care sprijină funcția dopaminergică (precursori de dopamină, inhibitori ai metabolizării dopaminei) e o propunere pentru viitor; echipa spune că plănuiește un studiu clinic, în colaborare cu University Health Network, „în următoarele luni” — nu există încă niciun rezultat despre dacă un asemenea tratament ajută pacienții cu long COVID.",
+      "sources": [
+        {
+          "name": "CAMH — comunicatul oficial, secțiunea despre studiul clinic viitor",
+          "url": "https://www.camh.ca/en/camh-news-and-stories/rsch-new-study-provides-first-evidence-of-dopamine-system-injury-in-the-brain-of-long-covid-patients"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea a fost publicată pe 10 iulie 2026, cu acces liber; a ajuns în atenția presei de sănătate abia la mijlocul lunii septembrie 2026, când comunicatul CAMH a fost reluat pe larg (Fortune, ScienceDaily, EurekAlert, Medscape, Pharmacy Times). Cifrele citate aici (24 vs. 24, scăderea de 16-20%, cele trei regiuni și corelațiile cu simptomele) apar identic în comunicatul CAMH și în textul lucrării, disponibil integral și gratuit pe PubMed Central.",
+      "sources": [
+        {
+          "name": "PubMed Central — textul integral al lucrării",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476897/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "„Ceață mentală” a fost, ani la rând, un cuvânt fără o poză de creier în spate — ceva ce pacienții simțeau și mulți medici nu știau unde să caute. Acest studiu nu vindecă pe nimeni și nu explică totul: 24 de oameni nu sunt long COVID-ul întregii lumi, iar „inflamația poate afecta neuronii” e încă o ipoteză, nu o demonstrație completă. Dar e prima dată când cineva a arătat, cu o scanare, o zonă anume din creier care lipsește exact acolo unde lipsesc și motivația, viteza de mișcare sau memoria. Pentru cineva care a fost ani la rând întrebat „ești doar obosit?”, diferența dintre „nu știm” și „iată, aici” contează."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei instituții academice (CAMH, afiliată Universității din Toronto), cu link către lucrarea originală.\n\nDe ce e REZUMAT, nu traducere integrală: deși lucrarea are licență CC BY (acces liber) și permite reproducerea, în această rulare am putut citi doar comunicatul oficial al CAMH și acoperirea jurnalistică de specialitate (ScienceDaily, EurekAlert, Fortune, Medscape, Pharmacy Times) — nu am reușit să accesăm direct textul integral de pe PubMed Central în timpul scrierii. Am tradus și rezumat doar ce apare identic în comunicatul CAMH și în cel puțin o altă sursă independentă, nu am inventat nicio cifră.\n\n🔴 Ce trebuie știut: studiul a fost publicat pe 10 iulie 2026, dar a devenit vizibil în presă abia în septembrie 2026 — nu e o descoperire de ultimă oră, e o descoperire recent popularizată. Eșantionul e mic (24 vs. 24) și studiul arată o corelație, nu un mecanism cauzal complet dovedit.\n\nCe s-a verificat: existența lucrării (DOI, autori, dată, licența CC BY), afilierea CAMH/Universitatea Toronto, finanțarea CIHR, metoda (PET, radiotrasor pentru VMAT2, trei regiuni ale striatului) și cifrele (24 vs. 24, scădere de 16-20%, corelațiile cu apatie/încetinire/memorie). Ce am adăugat noi: limitele — eșantionul mic, lipsa unui mecanism cauzal dovedit și absența oricărui tratament testat până acum.",
+  "persoane": [
+    "Jeffrey H. Meyer"
+  ],
+  "math": null
+}
