@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 24 Sep 2026 07:19:52 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 12:56:36 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Long COVID, „ceața mentală” și oboseala: scanări PET la Toronto arată neuroni de dopamină mai puțini în trei zone ale creierului, la 24 de pacienți față de 24 de martori sănătoși</title>
+      <link>https://farabaliverne.ro/a/camh-long-covid-dopamina-vmat2-pet-toronto.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/camh-long-covid-dopamina-vmat2-pet-toronto.html</guid>
+      <pubDate>Thu, 24 Sep 2026 04:21:08 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Milioane de oameni cu long COVID descriu „ceață mentală”, lipsă de motivație și mișcări încetinite, fără o explicație biologică clară. O echipă de la CAMH (afiliată Universității din Toronto), condusă de Jeffrey H. Meyer, a scanat prin PET creierul a 24 de adulți cu long COVID și al 24 de martori sănătoși de aceeași vârstă, măsurând un marker al terminațiilor nervoase care eliberează dopamină. Rezultatul, publicat pe 10 iulie 2026 în eBioMedicine (acces liber, CC BY) și reluat pe larg în presa de specialitate în septembrie: markerul e cu 16-20% mai mic în trei zone ale striatului la cei cu long COVID, iar scăderea se leagă de simptomele exacte pe care le au — apatie, încetinire, memorie slabă.
+
+Unde bat probele: Probat ce arată scanările: un marker al neuronilor de dopamină (VMAT2) e semnificativ mai mic, în toate cele trei regiuni măsurate ale striatului, la persoanele cu long COVID față de martori sănătoși, iar mărimea scăderii se corelează cu simptomele raportate de pacienți. Contestat: eșantionul e mic (24 vs. 24), studiul arată o asociere, nu dovedește CE anume a distrus acei neuroni, iar niciun tratament nu a fost testat încă — abia urmează un studiu clinic. Verificate: 3 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>UC Riverside: un algoritm bazat pe măsurători GPS arată care porțiuni ale unei falii de subducție sunt „blocate” și acumulează energie — aplicat retroactiv, a marcat exact segmentul care avea să producă cutremurul de 8,8 din Kamceatka, din 29 iulie 2025</title>
       <link>https://farabaliverne.ro/a/uc-riverside-falie-blocata-gps-cutremur-kamceatka-2025.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Volodimir Zelenski a declarat vineri, 12 septembrie 2026, într-un interviu pentru Deutsche Welle, că este pregătit să-l întâlnească pe Vladimir Putin la summitul G20 din Miami (14-15 decembrie 2026) pentru a discuta încetarea războiului. Purtătorul de cuvânt al Kremlinului, Dmitri Peskov, a respins propunerea în aceeași zi, spunând că o întâlnire directă e posibilă doar la Moscova, și a adăugat că Rusia nici nu a decis încă dacă Putin va merge la Miami.
 
 Unde bat probele: Probat — ambele declarații sunt confirmate oficial; rămân poziții incompatibile, nu un acord. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>ANRE a majorat de 2,5 ori rezerva obligatorie de gaz pentru Transnistria — la aproape 136 de milioane de metri cubi — dar Moldovagaz contestă calculul: fără centrala MGRES, care poate arde cărbune, ar fi nevoie de doar 76 de milioane</title>
-      <link>https://farabaliverne.ro/a/moldova-anre-rezerva-gaz-transnistria-2-5-ori.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-anre-rezerva-gaz-transnistria-2-5-ori.html</guid>
-      <pubDate>Mon, 14 Sep 2026 14:36:55 +0000</pubDate>
-      <category>Economie</category>
-      <description>Agenția Națională pentru Reglementare în Energetică (ANRE) a decis pe 2 septembrie 2026 să majoreze de peste 2,5 ori rezerva obligatorie de gaze naturale pe care „Moldovagaz” trebuie s-o constituie pentru regiunea transnistreană, de la 53,7 la aproape 136 de milioane de metri cubi, până la 1 noiembrie 2026. Ministrul Energiei, Dorin Junghietu, a explicat public majorarea prin nevoia de a acoperi și gazul folosit la producerea de energie electrică. Reprezentantul „Moldovagaz”, Valentin Tonu, a contestat însă calculul ANRE, spunând că include, fără justificare deplină, consumul centralei electrice de la Cuciurgan (MGRES), care poate funcționa și pe cărbune — iar fără acest consum, cifra reală necesară ar fi de circa 76 de milioane de metri cubi.
-
-Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
