@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 26 Sep 2026 07:16:49 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 07:17:17 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cambridge și Tsinghua, cu datele unei aplicații de somn: tusea de noapte crește cu 2,4% pentru fiecare 10 micrograme de particule în plus în aer, în 32 de orașe din 12 țări, chiar sub pragul OMS</title>
+      <link>https://farabaliverne.ro/a/cambridge-tsinghua-poluare-aer-tuse-noapte-sleep-cycle.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/cambridge-tsinghua-poluare-aer-tuse-noapte-sleep-cycle.html</guid>
+      <pubDate>Sat, 26 Sep 2026 04:18:04 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Cercetători de la Cambridge și de la Universitatea Tsinghua, împreună cu compania suedeză Sleep Cycle (aplicație de urmărire a somnului), au pus un model de inteligență artificială să numere tusea din înregistrările audio nocturne ale utilizatorilor aplicației — 32 de orașe, 12 țări, aproape 500 de nopți la rând. Rezultatul, publicat în Communications Health: la fiecare creștere de 10 micrograme de particule fine (PM2,5) pe metru cub, tusea de noapte a crescut cu circa 2,4% în zilele următoare, iar legătura a apărut chiar și în zilele cu poluare sub limita zilnică recomandată de OMS. Autoarea principală, Cecilia Mascolo, spune chiar ea: „cercetarea noastră e pur observațională” — adică arată o legătură, nu o dovadă că poluarea CHIAR cauzează tusea, pentru fiecare persoană în parte.
+
+Unde bat probele: Probat ce raportează studiul: metoda, cele 32 de orașe din 12 țări, cele circa 500 de zile de date și legătura statistică de 2,4%. Contestat: e „pur observațională” (cuvintele autoarei), eșantionul e din utilizatorii unei aplicații comerciale de somn — nu populația generală —, iar tusea a fost detectată automat de un algoritm, nu diagnosticată de un medic. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Fostul președinte al Kosovo, Hashim Thaçi, condamnat la 25 de ani de închisoare pentru crime de război — verdict de la Haga, cu apel posibil</title>
       <link>https://farabaliverne.ro/a/kosovo-thaci-condamnare-crime-razboi-haga-25-ani.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Premierul ungar Péter Magyar a depus luni, 14 septembrie 2026, un proiect de lege care elimină referirile la homosexualitate și identitate de gen din legea protecției copilului adoptată în 2021 sub Viktor Orbán — lege pe care Curtea de Justiție a UE a declarat-o, în aprilie 2026, contrară dreptului UE pentru că discriminează minoritățile sexuale. Ungaria are blocate circa 0,6 miliarde de euro din fonduri de coeziune de la finele lui 2022 din cauza disputei.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>„Jumătate dintre români se încălzesc cu lemne” — de unde vine cifra și ce arată, de fapt, datele</title>
-      <link>https://farabaliverne.ro/a/romani-incalzire-lemne-jumatate-procent-precizari.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/romani-incalzire-lemne-jumatate-procent-precizari.html</guid>
-      <pubDate>Mon, 14 Sep 2026 23:22:44 +0000</pubDate>
-      <category>Social</category>
-      <description>Digi24 a scris pe 11 septembrie 2026 că „jumătate dintre români se încălzesc cu lemne”, o formulare reluată de presă an de an, fără să fie legată explicit de o sursă oficială. Cifra din spate există și e reală — dar e „aproape jumătate”, nu exact jumătate, iar un alt procent vehiculat des în context, 43,4% dintr-un sondaj INSCOP, măsoară cu totul altceva și nu contrazice, ci se confundă cu prima cifră.
-
-Unde bat probele: Probat, cu precizări. Verificate: 2 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
