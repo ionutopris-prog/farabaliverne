@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 27 Sep 2026 07:17:17 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 07:25:10 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>95.559 de britanici au purtat o brățară de mișcare o săptămână și au fost urmăriți aproape 9 ani: mai mult somn REM se leagă de un risc mai mic la 83 de boli, de la insuficiență cardiacă la Parkinson</title>
+      <link>https://farabaliverne.ro/a/plos-medicine-somn-rem-83-boli-uk-biobank.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/plos-medicine-somn-rem-83-boli-uk-biobank.html</guid>
+      <pubDate>Sun, 27 Sep 2026 04:18:14 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>O echipă de la Universitatea de Medicină din Capitală (Beijing), condusă de Shengzhi Sun, a luat 95.559 de participanți la UK Biobank care au purtat o brățară de mișcare șapte nopți la rând, a folosit un algoritm de învățare automată ca să le calculeze stadiile somnului (REM, profund, ușor) și i-a urmărit apoi aproape 9 ani, testând legătura cu peste o mie de boli. Rezultatul, publicat în PLOS Medicine pe 17 septembrie 2026, cu acces liber: mai mult somn REM se leagă de un risc mai mic la 83 de boli, mai mult somn profund la alte 7, iar somnul neregulat și trezirile dese, de un risc mai mare la câteva. Autorii înșiși spun clar: e un studiu observațional, pe o populație britanică majoritar albă și cu stare materială peste medie, care nu dovedește cauzalitate.
+
+Unde bat probele: Probat ce raportează lucrarea: eșantionul, metoda (accelerometru + algoritm de învățare automată numit SleepNet), analiza pe scara întregului „fenom” (1.049 de rezultate de sănătate) și cifrele de risc (hazard ratios) pentru REM, somn profund, neregularitate și treziri. Contestat, chiar de autori: eșantionul UK Biobank e părtinitor spre oameni sănătoși, albi și cu stare materială bună; algoritmul de stadializare a somnului diferă sistematic de polisomnografia de laborator; iar fiind un studiu observațional, nu dovedește că somnul REM PREVINE bolile — poate fi și invers. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Cambridge și Tsinghua, cu datele unei aplicații de somn: tusea de noapte crește cu 2,4% pentru fiecare 10 micrograme de particule în plus în aer, în 32 de orașe din 12 țări, chiar sub pragul OMS</title>
       <link>https://farabaliverne.ro/a/cambridge-tsinghua-poluare-aer-tuse-noapte-sleep-cycle.html</link>
@@ -494,16 +504,6 @@ Unde bat probele: Probat că a avut loc o lansare de rachete pe 12 septembrie 20
       <pubDate>Mon, 14 Sep 2026 23:29:45 +0000</pubDate>
       <category>Extern</category>
       <description>De marți, 15 septembrie 2026, Departamentul pentru Securitate Internă (DHS) al SUA elimină regimul „duration of status” (D/S) pentru vizele F (studenți), J (schimb de experiență) și I (presă străină) — statutul deschis, legat de durata efectivă a programului, e înlocuit cu o perioadă fixă de ședere, cu dată de expirare. Regula a fost publicată oficial pe 17 iulie 2026 în Federal Register; documentul juridic nu detaliază public motivația DHS, dincolo de descrierea ei drept „una dintre cele mai importante schimbări structurale din ultimele decenii” pentru aceste categorii de viză.
-
-Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Ungaria modifică legea protecției copilului, condamnată de CJUE pentru discriminare anti-LGBTIQ, ca să evite amenda și să deblocheze fonduri UE</title>
-      <link>https://farabaliverne.ro/a/ungaria-magyar-lege-protectia-copilului-cjue-amendament.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ungaria-magyar-lege-protectia-copilului-cjue-amendament.html</guid>
-      <pubDate>Mon, 14 Sep 2026 23:25:51 +0000</pubDate>
-      <category>Extern</category>
-      <description>Premierul ungar Péter Magyar a depus luni, 14 septembrie 2026, un proiect de lege care elimină referirile la homosexualitate și identitate de gen din legea protecției copilului adoptată în 2021 sub Viktor Orbán — lege pe care Curtea de Justiție a UE a declarat-o, în aprilie 2026, contrară dreptului UE pentru că discriminează minoritățile sexuale. Ungaria are blocate circa 0,6 miliarde de euro din fonduri de coeziune de la finele lui 2022 din cauza disputei.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
     </item>

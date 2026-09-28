@@ -1,0 +1,86 @@
+{
+  "saptamana_de": "2026-09-28",
+  "nota": "Rulare cu acces de rețea restricționat (fără OpenAlex, fără fluxuri RSS universitare directe — doar căutare web). Plasa a fost mai îngustă decât cele 15-25 de candidați ceruți; sunt 10 candidați reali, verificați prin cel puțin două surse independente, nu 15-25. De semnalat fondatorului separat de acest top.",
+  "candidati": [
+    {
+      "nr": 1,
+      "universitate": "World Weather Attribution (Imperial College London + Universitatea Utrecht)",
+      "rezultat": "Dezastrul din Nepal (Langtang Lirung, 26 aug. 2026, peste 1.451 morți): +5°C față de normal iulie-august, din care ~1,5°C atribuit încălzirii; ghețarul s-a retras cu 1-2,3%/an în ultimii 16 ani, față de 0,5%/an în ultimele 2 secole",
+      "licenta": "CC BY-NC-ND — rezumat",
+      "leaga_de": "climă + cutremur/dezastre naturale — cerere permanentă",
+      "status": "SCRIS AZI — pending/minti-nepal-himalaya-wwa"
+    },
+    {
+      "nr": 2,
+      "universitate": "Universitatea „Ștefan cel Mare” din Suceava",
+      "rezultat": "804 ani de inele de stejar (554 mostre): cel mai secetos an din România din ultimii 800 de ani a fost 1660, cel mai ploios 1315",
+      "licenta": "date pe Zenodo CC BY, articol AMS incert — rezumat",
+      "leaga_de": "secetă/climă România — prioritate România",
+      "status": "SCRIS AZI — pending/minti-suceava-stejari-800-ani"
+    },
+    {
+      "nr": 3,
+      "universitate": "University of Southern Denmark + Universitatea din Copenhaga + Queen Mary University of London",
+      "rezultat": "Meta-analiză pe 8 studii randomizate: rata de supradiagnosticare la mamografie e sub 5%, nu 30-50% cum se credea (JNCI, 14 sept. 2026)",
+      "licenta": "necunoscută — rezumat",
+      "leaga_de": "sănătate/cancer — cerere permanentă",
+      "status": "candidat pentru zilele următoare"
+    },
+    {
+      "nr": 4,
+      "universitate": "MIT",
+      "rezultat": "Chatboții AI generează ușor răspunsuri, imagini și video înșelătoare despre alegeri, arată un studiu MIT (19 sept. 2026)",
+      "licenta": "MIT News — posibil integral (verifică nota de copyright a articolului)",
+      "leaga_de": "AI + dezinformare/alegeri",
+      "status": "candidat"
+    },
+    {
+      "nr": 5,
+      "universitate": "MIT (echipa prof. David Autor)",
+      "rezultat": "Avocați juniori de brevete care au folosit AI n-au arătat nicio îmbunătățire netă a competențelor (22 sept. 2026)",
+      "licenta": "MIT News — posibil integral",
+      "leaga_de": "AI + muncă/joburi",
+      "status": "candidat"
+    },
+    {
+      "nr": 6,
+      "universitate": "universitate neconfirmată (raportat de presa științifică, ~sept. 2026)",
+      "rezultat": "Substanțele de curățenie parfumate reacționează cu ozonul din interior și formează miliarde-trilioane de nanoparticule ce pătrund adânc în plămâni",
+      "licenta": "rezumat",
+      "leaga_de": "sănătate + calitatea aerului din casă",
+      "status": "candidat, necesită identificarea universității și a lucrării exacte"
+    },
+    {
+      "nr": 7,
+      "universitate": "Copenhagen University Hospital (registru danez)",
+      "rezultat": "132.585 de pacienți cu diabet tip 2: statinele începute în primul an de la diagnostic reduc riscul de demență cu 15% (față de 10% la începere tardivă) — Lancet Regional Health Europe",
+      "licenta": "rezumat",
+      "leaga_de": "sănătate + Nordice",
+      "status": "candidat, dar publicat 27 aug. 2026 — mai vechi de 10 zile, de verificat dacă mai e „proaspăt” editorial"
+    },
+    {
+      "nr": 8,
+      "universitate": "Stanford Medicine",
+      "rezultat": "Creierul uman s-ar fi dezvoltat din două sisteme celulare distincte, fuzionate evolutiv (21 sept. 2026)",
+      "licenta": "rezumat",
+      "leaga_de": "știință generală, cerere redusă",
+      "status": "candidat de nișă"
+    },
+    {
+      "nr": 9,
+      "universitate": "RIKEN (Japonia) + coautori internaționali",
+      "rezultat": "Obiectul interstelar 3I/ATLAS ar fi vechi de până la 12 miliarde de ani, format într-un mediu sărac în metale — Nature",
+      "licenta": "rezumat",
+      "leaga_de": "spațiu — subiect viral tot anul, bun pentru combaterea teoriilor „e navă extraterestră”",
+      "status": "candidat, dar lucrarea a apărut în iunie 2026 — vechi pentru „săptămâna asta”, rămâne valabil ca subiect de fond"
+    },
+    {
+      "nr": 10,
+      "universitate": "universități islandeze/nordice (context: pășunat sub-arctic)",
+      "rezultat": "Abandonarea pășunatului a redus carbonul din sol, față de pășunatul continuu, în pajiști sub-arctice din Islanda",
+      "licenta": "rezumat",
+      "leaga_de": "climă/agricultură, cerere redusă",
+      "status": "candidat de nișă, nordic — de aprofundat dacă fondatorul vrea neapărat un subiect nordic pe energie/climă"
+    }
+  ]
+}
