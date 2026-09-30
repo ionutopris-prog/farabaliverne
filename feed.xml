@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 30 Sep 2026 07:34:50 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 07:52:54 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O meta-analiză daneză reexaminează cele opt mari studii randomizate de mamografie din lume și coboară rata de supradiagnosticare sub 5%, față de estimările vechi de 30-50% care circulă de zeci de ani</title>
+      <link>https://farabaliverne.ro/a/danemarca-njor-mamografie-supradiagnosticare-sub-5-procente-jnci.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/danemarca-njor-mamografie-supradiagnosticare-sub-5-procente-jnci.html</guid>
+      <pubDate>Wed, 30 Sep 2026 04:36:06 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>De zeci de ani circulă, în dezbaterea despre screeningul mamografic, cifre de supradiagnosticare uriașe — până la 30-50% din cazurile depistate, adică femei tratate pentru cancere care n-ar fi făcut niciodată rău. O echipă condusă de Sisse Helle Njor, profesoară la Universitatea din Southern Denmark și la Spitalul Lillebælt, a strâns la un loc toate cele opt mari studii randomizate de screening mamografic făcute vreodată în lume, a corectat diferențele de durată a urmăririi și de screening făcut de grupul de control după terminarea trialurilor, și a comparat rezultatul cu datele pe termen lung din programul danez de screening al populației. Concluzia, publicată pe 14 septembrie 2026 în JNCI: rata reală de supradiagnosticare e sub 5%, nu 30-50%. 🔴 Notă de transparență: rețeaua mediului în care am scris articolul azi a blocat accesul la doi.org, la academic.oup.com și la aproape orice altă sursă primară, așa că am scris acest rezumat din acoperirea de presă independentă (ScienceDaily, EurekAlert, MedicalXpress, SciTechDaily), care se confirmă reciproc pe cifre și citate, NU din lucrarea însăși sau din comunicatul JNCI. E o abatere de la procedura obișnuită a secțiunii și fondatorul trebuie s-o cântărească înainte de aprobare.
+
+Unde bat probele: Probat ce raportează, consecvent, presa de specialitate despre meta-analiză: cele opt studii randomizate reexaminate, metodologia (corecție pentru durata urmăririi și screeningul post-trial), și concluzia — supradiagnosticare sub 5%, comparativ cu estimările vechi de 30-50%. Contestat/limite: n-am citit lucrarea sau comunicatul oficial, blocate azi de rețea, ci doar acoperirea de presă; comparația se bazează pe folosirea populației daneze ca etalon, o alegere de model care poate să nu se generalizeze; un coautor lucrează pentru American Cancer Society, care susține screeningul de rutină. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Dezastrul din Himalaya care a ucis peste 1.400 de oameni: World Weather Attribution arată cum topirea permafrostului, retragerea accelerată a ghețarului Langtang Lirung și un cutremur vechi din 2015 s-au suprapus peste cea mai fierbinte vară înregistrată vreodată în regiune</title>
       <link>https://farabaliverne.ro/a/nepal-himalaya-2026-langtang-permafrost-ghetar-world-weather-attribution.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Ce SUSȚINE un canal Telegram, preluat de media de stat rusă 
       <description>Purtătorul de cuvânt militar houthi, Yahya Saree, SUSȚINE că, pe 14 septembrie 2026, gruparea a lovit baza aeriană King Khalid din Khamis Mushait (Arabia Saudită) cu zeci de rachete balistice și drone, ca replică la „peste 300” de raiduri aeriene saudite asupra Yemenului în ultimele cinci zile. Cifra de 300 e repetată identic de toate agențiile care au relatat evenimentul, dar niciuna nu o verifică independent, iar Arabia Saudită nu a comentat public revendicarea.
 
 Unde bat probele: Neconfirmat independent — houthii revendică atacul și cifra de „peste 300” de raiduri saudite, dar nicio sursă independentă sau oficialitate saudită nu a confirmat vreuna dintre cele două afirmații. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Coreea de Nord anunță un exercițiu cu cinci arme diferite; Seul confirmă doar rachete balistice care au zburat 250 km</title>
-      <link>https://farabaliverne.ro/a/coreea-nord-exercitiu-rachete-12-septembrie-kcna-vs-seul.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/coreea-nord-exercitiu-rachete-12-septembrie-kcna-vs-seul.html</guid>
-      <pubDate>Tue, 15 Sep 2026 01:05:45 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>KCNA SUSȚINE că Coreea de Nord a desfășurat, pe 12 septembrie 2026, un „exercițiu de atac cu foc” în care cinci unități militare au testat simultan drone de atac, rachete de croazieră tactice, rachete balistice tactice și lansatoare multiple de calibru mare. Statul Major Reunit al Coreei de Sud confirmă, separat, doar „mai multe rachete balistice de rază scurtă” care au zburat aproximativ 250 km spre mare. Punem cele două variante alături.
-
-Unde bat probele: Probat că a avut loc o lansare de rachete pe 12 septembrie 2026; contestată rămâne amploarea „exercițiului cu cinci arme diferite” susținută de KCNA, pe care Seul nu a confirmat-o dincolo de rachetele balistice de rază scurtă. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
