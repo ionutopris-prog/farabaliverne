@@ -1,42 +1,42 @@
 {
   "slug": "mit-turbine-eoliene-tunel-presurizat-putere-pnas-nexus",
-  "title": "MIT, Princeton, Queen's University și Penn State au testat o turbină eoliană de 15 centimetri într-un tunel de vânt presurizat la 240 de atmosfere, ca să reproducă exact aerodinamica turbinelor reale, și au arătat cum alinierea și viteza vârfului palei pot aduce mai multă putere din parcurile eoliene existente",
-  "seoTitle": "Energie eoliană: ce a găsit MIT în tunelul presurizat",
+  "title": "MIT: cum să scoți mai multă putere din turbinele eoliene deja instalate, testat într-un tunel de vânt presurizat până la 240 de atmosfere — zeci de mii de dolari în plus, pe turbină, pe an, fără echipament nou",
+  "seoTitle": "Turbine eoliene mai eficiente: ce a aflat MIT",
   "category": "Minți luminate",
   "tara": "SUA",
   "date": "2026-09-30",
   "source": "MIT News · PNAS Nexus",
   "url": "https://doi.org/10.1093/pnasnexus/pgag303",
-  "dek": "O turbină eoliană mică, testată într-un tunel de vânt obișnuit, se comportă aerodinamic altfel decât o turbină mare, dintr-un parc real — fizica nu se scalează simplu. Cercetătorii de la MIT, Princeton, Queen's University (Canada) și Penn State au rezolvat problema presurizând tunelul de vânt de la Princeton până la 240 de atmosfere, ca să mărească densitatea aerului de 100 până la 220 de ori și să reproducă, pe o turbină de doar 15 centimetri, condițiile aerodinamice ale unor turbine echivalente unor diametre de zeci de metri. Rezultatul, publicat în PNAS Nexus (acces liber): un model de predicție validat și observația că turbina poate produce mai multă putere dacă e ușor dezaxată față de vânt, combinat cu schimbarea vitezei vârfului palei — o strategie de control, nu o turbină nouă, estimată la câte zece mii de dolari în plus pe an, per turbină.",
-  "mainVerdict": "Probat ce descrie lucrarea: metoda (tunel de vânt presurizat la Princeton, turbină de test de 15 cm, presiuni de până la 240 de atmosfere), rezultatul (model aerodinamic validat) și observația de control (dezalinierea combinată cu viteza vârfului palei poate ridica puterea produsă). Contestat: turbina de test rămâne mică față de turbinele mari de pe mare, iar cifra de „zeci de mii de dolari pe an” e o estimare a modelului, nu un venit măsurat pe un parc eolian real",
+  "dek": "Turbinele eoliene sunt cele mai mari mașini rotative construite vreodată, iar atmosfera e un loc prost pentru experimente controlate: vântul își schimbă mereu direcția și viteza. O echipă de la MIT, Princeton, Queen's University, Penn State și NSERC Canada a rezolvat problema într-un tunel de vânt presurizat până la 240 de atmosfere, unde o turbină de laborator de 15 centimetri se comportă aerodinamic ca una reală, de 15 până la 35 de metri. Rezultatul, publicat cu acces liber în PNAS Nexus pe 28 septembrie 2026: ajustarea vitezei vârfului palei în funcție de cât de dezaliniată e turbina față de vânt poate crește puterea produsă — o strategie rar folosită azi — și, combinată cu optimizarea unghiului turbinei, ar putea aduce zeci de mii de dolari în plus, pe turbină, pe an, la parcuri eoliene deja construite, fără nicio piesă nouă.",
+  "mainVerdict": "Probat ce arată MIT: metoda (tunel presurizat, turbină de 15 cm testată la presiuni de până la 240 de atmosfere, ca să simuleze una de zeci de metri), rezultatul (puterea crește prin ajustarea vitezei vârfului palei la dezaliniere) și validarea unui model matematic care poate rula pe un laptop obișnuit. Contestat: cifra de „zeci de mii de dolari” e o estimare calculată cu acel model, nu o măsurătoare pe un parc eolian real; strategia de control descrisă e „rar folosită azi”, deci nu ajunge automat în factura la curent a nimănui",
   "probat": [
     {
-      "text": "Lucrarea „Full dynamic similarity experiments and predictive modeling of wind turbine aerodynamics across control strategies”, cu autor principal John W. Kurelek (profesor asistent la Queen's University, Canada) și autor senior Michael Howland (MIT, Jeffrey Cheah Career Development Professor), cu contribuții de la Marcus Hultmark (Princeton University, unde e instalată instalația de testare la număr Reynolds mare — High Reynolds number Test Facility) și de la Penn State University, a apărut în PNAS Nexus în septembrie 2026, revistă cu acces liber (fiecare articol e publicat sub licență Creative Commons).",
+      "text": "Lucrarea „Full dynamic similarity experiments and predictive modeling of wind turbine aerodynamics across control strategies” a apărut cu acces liber (open access) în PNAS Nexus pe 28 septembrie 2026. Autor principal: John Kurelek, profesor asistent la Queen's University (Canada). Coautori: Michael Howland, „Jeffrey Cheah Career Development Professor” la MIT, care a coordonat partea de modelare; Ilan Upfal și Kirby Heck, doctoranzi la MIT; Supun Pieris, postdoctorand la Queen's University; Alexander Piqué, cercetător la Penn State; și Marcus Hultmark, profesor la Princeton, al cărui laborator a dezvoltat tehnica tunelului de vânt presurizat. Finanțare: Consiliul canadian de cercetare în științe naturale și inginerie (NSERC), National Science Foundation (SUA) și Alianța MIT-GE Vernova.",
       "sources": [
         {
-          "name": "MIT News — articolul din 28 septembrie 2026",
+          "name": "MIT News — articolul din 28 septembrie 2026 (tradus integral mai jos)",
           "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928"
         },
         {
-          "name": "PNAS Nexus — pagina lucrării",
+          "name": "PNAS Nexus — pagina lucrării, acces liber",
           "url": "https://doi.org/10.1093/pnasnexus/pgag303"
         }
       ]
     },
     {
-      "text": "Problema pe care o rezolvă: turbinele mici, testate în tunele de vânt obișnuite, nu se comportă aerodinamic la fel ca turbinele mari dintr-un parc eolian real — raportul dintre forțele inerțiale și cele viscoase ale aerului (numărul Reynolds) e diferit, așa că fenomene ca desprinderea curgerii de pe pală apar diferit la scară mică. Echipa a presurizat tunelul de vânt de la Princeton până la 240 de atmosfere, mărind densitatea aerului de 100 până la 220 de ori față de normal, ca să reproducă, pe o turbină de test de 15 centimetri diametru, condiții aerodinamice comparabile cu cele ale unor turbine mult mai mari.",
+      "text": "Ce s-a făcut: turbinele reale sunt greu de testat, fiindcă atmosfera e haotică, iar o turbină scoasă la scară mică într-un tunel de vânt obișnuit se comportă altfel decât una de zeci de metri, în vânt real. Soluția echipei: un tunel de vânt presurizat până la 240 de atmosfere, în care o turbină de laborator de doar 15 centimetri diametru simulează aerodinamic una de 15 până la 35 de metri, fiindcă presiunea mărește densitatea aerului de 100 până la 220 de ori. Cu datele din tunel, Howland a calculat aerodinamica, forțele și puterea produsă folosind un model matematic dezvoltat de el anterior („unified momentum model”), suficient de rapid ca să ruleze pe un laptop obișnuit.",
       "sources": [
         {
-          "name": "MIT News — secțiunea despre tunelul presurizat",
+          "name": "MIT News — secțiunea „Answers in the wind”",
           "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928"
         }
       ]
     },
     {
-      "text": "Ce a ieșit: un model de predicție a puterii, validat cu datele din tunelul presurizat, pe care inginerii îl pot folosi ca să testeze rapid diverse strategii de control fără să mai depindă de corecții empirice. Echipa a observat și că turbina poate atinge noi maxime de putere atunci când e dezalinită față de direcția vântului, dacă se schimbă în același timp viteza vârfului palei față de viteza vântului — o combinație de reglaje care nu e „turbina orientată exact spre vânt”, cum s-ar aștepta intuitiv. MIT estimează că optimizarea alinierii, a unghiului palelor și a vitezei vârfului ar putea aduce câte zece mii de dolari în plus, pe an, per turbină, în parcurile eoliene existente.",
+      "text": "Ce a ieșit: puterea produsă poate crește semnificativ dacă viteza vârfului palei e ajustată în funcție de cât de dezaliniată e turbina față de vânt — o strategie de control „rar folosită azi” în parcurile eoliene, spun autorii. Combinată cu optimizarea unghiului turbinei față de vânt și a pasului palelor (unghiul de atac al profilului aerodinamic), cercetătorii estimează un câștig de zeci de mii de dolari pe turbină, pe an, în venituri suplimentare — la parcuri deja construite, fără echipament nou.",
       "sources": [
         {
-          "name": "MIT News — secțiunea cu rezultatele și estimarea de venit",
+          "name": "MIT News — paragraful cu estimarea de venituri",
           "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928"
         }
       ]
@@ -44,32 +44,28 @@
   ],
   "contestat": [
     {
-      "text": "🔴 Turbina testată are 15 centimetri diametru; relatările despre lucrare (MIT News și presa de specialitate) descriu echivalența de „similaritate dinamică” obținută ca acoperind turbine de ordinul a 15–35 de metri diametru, nu turbinele mari de pe mare de azi, care ajung la peste 200 de metri. E un pas real înainte față de tunelele de vânt obișnuite, dar concluziile pentru cele mai mari turbine din parcurile offshore rămân extrapolare de model, nu măsurătoare directă la scara lor.",
+      "text": "🔴 Cifra de „zeci de mii de dolari pe turbină, pe an” e o ESTIMARE calculată cu modelul lor matematic, nu o măsurătoare de pe un parc eolian real în funcțiune. Testul propriu-zis s-a făcut pe o turbină de laborator de 15 centimetri, într-un tunel presurizat; drumul până la aplicarea pe o turbină de producție, în vânt adevărat, cu toate variabilele lui, rămâne de parcurs — MIT News nu raportează niciun test pe teren cu strategia asta de control.",
       "sources": [
         {
-          "name": "MIT News — descrierea scării turbinei simulate",
-          "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928"
-        },
-        {
-          "name": "TechXplore — relatare independentă despre aceeași lucrare",
-          "url": "https://techxplore.com/news/2026-09-pressurized-tunnel-farms-generate-power.html"
-        }
-      ]
-    },
-    {
-      "text": "Cifra de „zeci de mii de dolari pe an, per turbină” e o estimare făcută pe baza modelului validat în lucrare, nu un venit măsurat pe un parc eolian real cu turbinele lui existente. Nu s-a publicat, în relatările verificate, un test de teren care să confirme exact acest venit.",
-      "sources": [
-        {
-          "name": "MIT News — formularea estimării, la condițional",
+          "name": "MIT News — articolul integral",
           "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928"
         }
       ]
     },
     {
-      "text": "Lucrarea are acces liber în PNAS Nexus, dar în această rulare am reconstituit conținutul din articolul MIT News și din relatări independente ale altor publicații de știință (TechXplore, Scientific Frontline, AZoCleanTech, Interesting Engineering) care descriu aceeași lucrare cu aceleași cifre, fără să citim integral cele peste 20 de pagini ale lucrării originale — de aceea am scris rezumat, nu traducere, deși licența ar permite mai mult.",
+      "text": "Venitul suplimentar al operatorului parcului eolian NU înseamnă automat un preț mai mic la curent pentru consumator — sunt lucruri diferite, iar articolul nu face nicio afirmație despre facturi. Și strategia de control descrisă e „rar folosită azi”, spun chiar autorii: rezultatul arată ce e POSIBIL, nu ce se întâmplă deja în parcurile eoliene existente.",
       "sources": [
         {
-          "name": "PNAS Nexus — pagina lucrării (acces liber, netradusă integral aici)",
+          "name": "MIT News — citatul lui Michael Howland",
+          "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea e cu acces liber, dar tehnică (aerodinamică, ecuații de similaritate dinamică); am citit textul MIT despre ea, cu link la lucrarea originală pentru cine vrea detaliile de calcul complete.",
+      "sources": [
+        {
+          "name": "PNAS Nexus — lucrarea integrală, acces liber",
           "url": "https://doi.org/10.1093/pnasnexus/pgag303"
         }
       ]
@@ -77,13 +73,49 @@
   ],
   "opinie": [
     {
-      "text": "Nu e o turbină nouă, e o rețetă de reglaj: cam ca la o bicicletă cu viteze, aceleași palete produc mai mult sau mai puțin în funcție de cum le orientezi și cât de repede le lași să se învârtă față de vânt. Diferența, per turbină, sună mic — zece mii de dolari pe an — dar înmulțită la sutele de turbine dintr-un parc, și la sutele de parcuri eoliene din Europa, inclusiv cele din Dobrogea, nu mai e o notă de subsol. Rămâne de văzut cine face primul testul pe un parc real, nu doar în tunelul de la Princeton."
+      "text": "România nu are încă parcuri eoliene offshore și cele de pe uscat sunt vechi de un deceniu-două, dar ideea centrală trece granița: o turbină deja înfiptă în pământ poate produce mai mult curent doar din felul în care e „condusă” — fără nicio piesă nouă, fără subvenție, fără proiect de investiții. Într-o țară unde discuția publică despre energie e aproape mereu despre CE construim (reactoare, panouri, baterii), e util de reținut că o parte din răspuns stă și în CUM exploatăm ce avem deja. Rețineți, totuși, cifra din tunel: 15 centimetri, nu 150 de metri."
     }
   ],
-  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, cu link către lucrarea originală.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea din PNAS Nexus are acces liber (CC), dar e un articol tehnic de aerodinamică de peste 20 de pagini; am tradus și explicat, nu am reprodus paragraf cu paragraf textul MIT News, ca să nu riscăm o traducere „integrală” pe care nu am putut-o verifica cuvânt cu cuvânt în această rulare (accesul direct la pagini web a fost indisponibil azi din motive tehnice ale mediului de lucru, așa că ne-am bazat pe motorul de căutare și pe încrucișarea mai multor relatări independente ale aceleiași lucrări, nu pe citirea directă a paginii).\n\nCe s-a verificat: titlul lucrării, autorii și afilierile (MIT, Queen's University, Princeton, Penn State), revista (PNAS Nexus) și DOI-ul, confirmate identic în articolul MIT News și în cel puțin trei relatări independente ale altor publicații de știință. Ce am adăugat noi: diferența dintre turbina de test (15 cm) și turbinele mari reale, și faptul că cifra de venit e o estimare de model, nu o măsurătoare de teren.",
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, redacția Institutului de Tehnologie din Massachusetts, articol semnat de Zach Winn, publicat pe 28 septembrie 2026. Republicat conform politicii lor oficiale, care cere titlul, autorul și mențiunea „MIT News” cu link la original în capul textului, plus „Reprinted with permission of MIT News” la final. Fotografiile lor NU sunt preluate.\n\n🔴 Ce trebuie știut: cifra de venit suplimentar e un calcul de model, nu o măsurătoare de teren, iar testul e pe o turbină miniaturală într-un tunel presurizat, nu pe un parc eolian real.\n\nCe s-a verificat: că lucrarea există, cu acces liber, în PNAS Nexus, cu titlul, autorii, afilierile și finanțarea citate în textul MIT. Ce am adăugat noi: distincția dintre venitul operatorului și prețul la curent pentru consumator, și faptul că strategia de control descrisă nu e încă în uz curent — lucruri care sunt implicite în textul MIT, dar nu ies în titlu.",
   "persoane": [
-    "John W. Kurelek",
-    "Michael Howland"
+    "Michael Howland",
+    "John Kurelek",
+    "Marcus Hultmark"
   ],
-  "math": null
+  "math": null,
+  "traducere": {
+    "titlu": "Pressurized experiments could help wind farms generate more power",
+    "publicatie": "MIT News",
+    "autor": "Zach Winn, MIT News",
+    "data": "28 septembrie 2026",
+    "url": "https://news.mit.edu/2026/pressurized-experiments-could-help-wind-farms-generate-more-power-0928",
+    "nota_sus": "Titlul în română: „Experimente într-un tunel presurizat ar putea ajuta parcurile eoliene să genereze mai multă putere”. Subtitlul original: „O nouă metodă de a simula turbine eoliene pe teren arată cum ajustarea funcționării turbinei ar putea debloca zeci de mii de dolari pe turbină, în fiecare an.”",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "Lumea are nevoie de mai multă energie eoliană. Dar oricine proiectează turbine eoliene noi sau încearcă să scoată mai multă putere din cele existente se lovește de o provocare serioasă când vrea să testeze abordări noi. Motivul: atmosfera e un loc dificil pentru un experiment controlat.",
+      "Unii cercetători folosesc tuneluri de vânt pentru teste, dar turbinele eoliene miniaturizate din tunelurile de vânt tradiționale pot fi foarte diferite de condițiile din teren. (Turbinele eoliene sunt cele mai mari mașini rotative construite vreodată.) Problema nu afectează doar dezvoltarea unor turbine mai bune, ci și înțelegerea unor întrebări de bază, cum ar fi la câtă putere să te aștepți de la o turbină atunci când vântul își schimbă direcția.",
+      "Într-o lucrare nouă, cu acces liber, publicată în PNAS Nexus, cercetătorii au închis distanța dintre experimentele din teren și cele de laborator, folosind un tunel de vânt cu presurizare ridicată, ca să simuleze fizica fluxului din atmosferă. Cu această abordare, cercetătorii au determinat cum influențează alinierea turbinei și viteza vârfului palei, relativ la vânt, puterea pe care o generează, oferind perspective noi asupra modului de a obține mai multă putere din parcurile eoliene existente.",
+      "Au folosit abordarea și pentru a valida un model computațional ușor, pe care inginerii îl pot folosi ca să testeze diverse proiecte de turbine și strategii de control ale parcurilor eoliene.",
+      "Împreună, cercetătorii estimează că optimizarea alinierii turbinei față de vânt, a unghiurilor de pas ale palelor — care controlează unghiul de atac al profilului aerodinamic — și a vitezei vârfului palei relativ la vânt ar putea aduce, potențial, zeci de mii de dolari pe turbină, în fiecare an, în venituri suplimentare.",
+      "„Impactul imediat al acestui studiu e că am îmbunătățit și am validat modele care intră în protocoalele de control ale turbinelor eoliene pentru parcurile existente”, spune Michael Howland, „Jeffrey Cheah Career Development Professor” la MIT. „Impactul mai mare, pe termen mediu, cu un potențial mult mai ridicat, e această nouă paradigmă experimentală de a prototipa rapid, a valida modele de simulare și a testa ipoteze despre proiecte și strategii de control mai bune, mult mai repede decât a fost posibil până acum.”",
+      "Alături de Howland, pe lucrare, sunt autorul principal John Kurelek, profesor asistent la Queen's University; doctoranzii MIT Ilan Upfal și Kirby Heck; postdoctorandul de la Queen's University Supun Pieris; cercetătorul de la Penn State University Alexander Piqué; și profesorul de la Princeton University Marcus Hultmark.",
+      "RĂSPUNSURI ÎN VÂNT. Howland a petrecut ani întregi dezvoltând modele pentru a simula performanța parcurilor eoliene și dezvoltând tehnici noi pentru a le crește puterea produsă. În 2022, a arătat că luarea în calcul a siajului fiecărei turbine în parte, la controlul întregului parc eolian, poate crește semnificativ puterea produsă.",
+      "Dar acea lucrare a cerut mai întâi echipei sale de cercetare să desfășoare un experiment de teren îndelungat, care a redus temporar puterea produsă de un parc eolian real, dezaliniind intenționat turbinele față de vânt timp de luni de zile, ca să înțeleagă mai bine performanța lor în dezaliniere.",
+      "„Energia eoliană e o problemă unic de dificilă de studiat experimental”, spune Howland. „Vrem să testăm efectul unei anumite schimbări, izolat, dar parcurile eoliene funcționează în medii haotice, turbulente, unde vremea evoluează constant. Turbinele eoliene trebuie să reacționeze la condiții meteo pe care nu le controlăm, iar asta introduce complexități în identificarea impactului schimbării pe care o studiem. Domeniul se află exact la această intersecție unică dintre fluxul de mediu, mecanică, aerodinamică și meteorologie.”",
+      "Dificultatea de a rula experimente pe parcuri eoliene reale i-a lăsat pe cercetători și ingineri nesiguri asupra modului în care schimbările din alinierea dintre vânt și turbină, sau factori precum viteza vârfului palei relativ la vânt, schimbă puterea produsă.",
+      "De fapt, spun cercetătorii, multe dintre modelele predictive folosite azi pornesc de la premisa că turbinele sunt mereu perfect perpendiculare pe vânt. Asta e rareori cazul în lumea reală, chiar și la turbinele moderne, care își ajustează treptat unghiul ca răspuns la schimbările rapide de direcție ale vântului.",
+      "„Lumea a tot dezbătut care modele sunt cele mai bune pentru înțelegerea puterii produse de aceste parcuri eoliene, dar dacă n-ai nimic cu care să le compari, e foarte greu să avansezi domeniul”, spune Hultmark. „Lucrarea asta încearcă să facă amândouă.”",
+      "Laboratorul lui Hultmark de la Princeton a fost pionier în studiul turbinelor eoliene miniaturizate în tuneluri de vânt presurizate, care, așa cum au arătat studii anterioare, reproduc mai bine turbinele de scară mare din atmosferă, fiindcă presiunea face aerul mai dens, rezultând mai multă inerție în mediul de laborator miniaturizat. Pentru noul studiu, cercetătorii au folosit o turbină de 15 centimetri diametru, la presiuni variind până la 240 de atmosfere.",
+      "„Presurizând camera, testăm o turbină care, cu toate celelalte lucruri egale, are 15 până la 20 de metri diametru, cu posibilitatea de a ajunge până la 35 de metri diametru”, explică autorul principal Kurelek. „Asta pentru că mărim densitatea de 100 până la 220 de ori.”",
+      "Kurelek i-a trimis lui Howland dimensiunile tunelului de vânt și ale montajului turbinei, iar acesta le-a folosit ca să calculeze aerodinamica, forțele și producția de putere, folosind un model unificat de turbină eoliană, dezvoltat recent, care se bazează pe o lucrare anterioară ce a dezvoltat o teorie aerodinamică mai generală pentru turbinele eoliene. Noul model le permite cercetătorilor să simuleze performanța turbinei eoliene în diverse condiții de funcționare, fără să se bazeze pe corecții empirice folosite istoric în modelele de putere eoliană.",
+      "Cercetătorii au rulat apoi o serie de experimente în tunel, pe parcursul mai multor săptămâni, testând performanța turbinei la diverse alinieri față de vânt și cu diverse strategii de control, ca să izoleze cum afectează fiecare factor performanța.",
+      "Au descoperit că puterea produsă poate crește semnificativ prin ajustarea vitezei vârfului palei în funcție de unghiul de dezaliniere față de vânt — o strategie de control rar folosită azi în parcurile eoliene, dar care ar putea oferi o cale de a crește performanța cu costuri suplimentare minime.",
+      "„Rezultatul principal al experimentelor a arătat clar că se pot atinge noi maxime de putere atunci când turbina devine dezaliniată față de vânt doar prin schimbări ale vitezei vârfului palei”, spune Kurelek.",
+      "EXTINDEREA ABORDĂRII. Studiul a servit drept validare pentru modelul lui Howland, care e suficient de rapid încât să poată fi rulat de ingineri care proiectează și operează turbine eoliene în toată lumea, pe calculatoare laptop obișnuite.",
+      "„Ce vrem cu adevărat să știm e dacă turbinele funcționează mereu într-un anumit grad de dezaliniere față de vânt, cum ar trebui să controlăm turbina ca să obținem producția maximă de putere realizabilă?”, explică Howland. „Modelul nostru unificat de moment a putut face predicții despre cum să facem acest control, cu câțiva ani în urmă, iar acum e prima dată când am putut valida experimental acel model.”",
+      "Howland spune că validarea modelelor e doar o parte din impactul potențial al lucrării.",
+      "„Acest studiu arată și oportunitatea uriașă de a efectua aceste experimente controlate, de mare capacitate, în facilitățile presurizate cu care lucrează Marcus și John, permițându-ne să obținem fizica corectă, dar într-o manieră eficientă din punct de vedere al timpului și cu costuri reduse”, spune Howland. „Chiar acum, există o distanță uriașă între modelele teoretice și de simulare idealizate și testarea la scară completă, în medii de teren extrem de complicate. Nimic nu umple acel gol, în afară de aceste experimente presurizate. Sper că asta poate fi un instrument pentru a investiga o gamă enormă de întrebări nerezolvate despre energia eoliană, în medii controlate.”",
+      "Lucrarea a fost susținută parțial de Consiliul de Cercetare în Științe Naturale și Inginerie al Canadei; de National Science Foundation; și de Alianța MIT-GE Vernova."
+    ]
+  }
 }

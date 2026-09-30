@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 30 Sep 2026 07:52:54 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 07:56:23 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MIT: cum să scoți mai multă putere din turbinele eoliene deja instalate, testat într-un tunel de vânt presurizat până la 240 de atmosfere — zeci de mii de dolari în plus, pe turbină, pe an, fără echipament nou</title>
+      <link>https://farabaliverne.ro/a/mit-turbine-eoliene-tunel-presurizat-putere-pnas-nexus.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-turbine-eoliene-tunel-presurizat-putere-pnas-nexus.html</guid>
+      <pubDate>Wed, 30 Sep 2026 04:54:10 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Turbinele eoliene sunt cele mai mari mașini rotative construite vreodată, iar atmosfera e un loc prost pentru experimente controlate: vântul își schimbă mereu direcția și viteza. O echipă de la MIT, Princeton, Queen's University, Penn State și NSERC Canada a rezolvat problema într-un tunel de vânt presurizat până la 240 de atmosfere, unde o turbină de laborator de 15 centimetri se comportă aerodinamic ca una reală, de 15 până la 35 de metri. Rezultatul, publicat cu acces liber în PNAS Nexus pe 28 septembrie 2026: ajustarea vitezei vârfului palei în funcție de cât de dezaliniată e turbina față de vânt poate crește puterea produsă — o strategie rar folosită azi — și, combinată cu optimizarea unghiului turbinei, ar putea aduce zeci de mii de dolari în plus, pe turbină, pe an, la parcuri eoliene deja construite, fără nicio piesă nouă.
+
+Unde bat probele: Probat ce arată MIT: metoda (tunel presurizat, turbină de 15 cm testată la presiuni de până la 240 de atmosfere, ca să simuleze una de zeci de metri), rezultatul (puterea crește prin ajustarea vitezei vârfului palei la dezaliniere) și validarea unui model matematic care poate rula pe un laptop obișnuit. Contestat: cifra de „zeci de mii de dolari” e o estimare calculată cu acel model, nu o măsurătoare pe un parc eolian real; strategia de control descrisă e „rar folosită azi”, deci nu ajunge automat în factura la curent a nimănui. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>O meta-analiză daneză reexaminează cele opt mari studii randomizate de mamografie din lume și coboară rata de supradiagnosticare sub 5%, față de estimările vechi de 30-50% care circulă de zeci de ani</title>
       <link>https://farabaliverne.ro/a/danemarca-njor-mamografie-supradiagnosticare-sub-5-procente-jnci.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contestat — narativ contradictoriu între organizatorii prot
       <description>Pe 13 septembrie 2026, un cont de Telegram care pretindea a fi al lui Vitalie Neagu, vicepreședintele executivului de facto de la Tiraspol, a anunțat că acesta va candida la funcția rămasă liberă după ce Vadim Krasnoselski a spus că nu mai vrea un al treilea mandat. Agenția de stat rusă RIA NOVOSTI SUSȚINE inițial știrea ca fiind reală, apoi a publicat o retractare — dar fără să elimine postarea inițială. Administrația de la Tiraspol a confirmat că pagina a fost creată fără nicio autorizare din partea lui Neagu.
 
 Unde bat probele: Ce SUSȚINE un canal Telegram, preluat de media de stat rusă — infirmat de administrația de la Tiraspol. Verificate: 5 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Houthii spun că au lovit baza aeriană King Khalid ca replică la „peste 300” de raiduri saudite — cifră pe care nimeni nu o confirmă</title>
-      <link>https://farabaliverne.ro/a/houthi-baza-king-khalid-atac-300-raiduri-saudite-neconfirmat.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/houthi-baza-king-khalid-atac-300-raiduri-saudite-neconfirmat.html</guid>
-      <pubDate>Tue, 15 Sep 2026 01:10:35 +0000</pubDate>
-      <category>Extern</category>
-      <description>Purtătorul de cuvânt militar houthi, Yahya Saree, SUSȚINE că, pe 14 septembrie 2026, gruparea a lovit baza aeriană King Khalid din Khamis Mushait (Arabia Saudită) cu zeci de rachete balistice și drone, ca replică la „peste 300” de raiduri aeriene saudite asupra Yemenului în ultimele cinci zile. Cifra de 300 e repetată identic de toate agențiile care au relatat evenimentul, dar niciuna nu o verifică independent, iar Arabia Saudită nu a comentat public revendicarea.
-
-Unde bat probele: Neconfirmat independent — houthii revendică atacul și cifra de „peste 300” de raiduri saudite, dar nicio sursă independentă sau oficialitate saudită nu a confirmat vreuna dintre cele două afirmații. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
