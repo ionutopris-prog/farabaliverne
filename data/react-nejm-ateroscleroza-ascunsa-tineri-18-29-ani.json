@@ -1,0 +1,93 @@
+{
+  "slug": "react-nejm-ateroscleroza-ascunsa-tineri-18-29-ani",
+  "title": "Studiul REACT, pe 16.808 de adulți din Danemarca și Spania: aproape 1 din 13 tineri de 18-29 de ani are deja plăci ascunse pe artere, fără niciun simptom. Ecografie 3D și tomografie coronariană, publicat în New England Journal of Medicine",
+  "seoTitle": "1 din 13 tineri de 18-29 de ani are plăci în artere",
+  "category": "Minți luminate",
+  "tara": "Danemarca / Spania",
+  "date": "2026-10-02",
+  "source": "New England Journal of Medicine · studiul REACT (Rigshospitalet Copenhaga · CNIC Madrid)",
+  "url": "https://doi.org/10.1056/NEJMoa2609059",
+  "dek": "Ateroscleroza — depunerile de grăsime și calciu care îngustează arterele — e asociată de obicei cu oamenii în vârstă. O echipă daneză și spaniolă, condusă de Henning Bundgaard (Rigshospitalet, Universitatea din Copenhaga) și Borja Ibáñez (CNIC, Madrid), a scanat cu ecografie 3D și tomografie computerizată coronariană 16.808 adulți sănătoși, de 18 până la 70 de ani, fără niciun diagnostic de boală cardiovasculară. Rezultatul, publicat pe 29 august 2026 în New England Journal of Medicine: peste jumătate dintre participanți aveau deja plăci pe artere, iar la grupa cea mai jună, 18-29 de ani, le aveau 8,7% dintre bărbați și 6,7% dintre femei — aproximativ 1 din 13. Studiul e finanțat de Novo Nordisk Foundation și e prima etapă (de prevalență) a unui proiect mai mare, care va testa, într-o etapă viitoare, dacă depistarea timpurie schimbă ceva în tratament.",
+  "mainVerdict": "Probat ce raportează lucrarea: metoda (ecografie vasculară 3D pe carotide și femurale, plus tomografie coronariană), numărul de participanți, procentele pe grupe de vârstă și sex, și concluzia că ateroscleroza e detectabilă încă din tinerețe. Contestat: studiul arată PREVALENȚA plăcilor, nu dacă depistarea lor schimbă vreun tratament sau prognostic — asta e o etapă ulterioară, care nu s-a făcut încă; iar „a avea o placă” nu înseamnă „a face un infarct”",
+  "probat": [
+    {
+      "text": "Lucrarea „Prevalence of Silent Atherosclerosis across Adult Life” a apărut în New England Journal of Medicine pe 29 august 2026, cu acces pe abonament. Prim autor: Henning Bundgaard, de la Rigshospitalet — Copenhagen University Hospital. Coordonator pe partea spaniolă: Borja Ibáñez, de la Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid, cu participarea lui Valentin Fuster. Studiul se numește REACT și e înregistrat pe ClinicalTrials.gov cu numărul NCT06692127. Finanțare: Novo Nordisk Foundation.",
+      "sources": [
+        {
+          "name": "New England Journal of Medicine — pagina lucrării (acces cu abonament)",
+          "url": "https://doi.org/10.1056/NEJMoa2609059"
+        },
+        {
+          "name": "ClinicalTrials.gov — înregistrarea studiului REACT, NCT06692127",
+          "url": "https://clinicaltrials.gov/study/NCT06692127"
+        },
+        {
+          "name": "CNIC — comunicatul institutului spaniol, cu numele coordonatorilor",
+          "url": "https://www.cnic.es/en/noticias/nejm-react-reveals-silent-atherosclerosis-already-affects-1-13-young-adults-aged-18-29-and"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a făcut, în cifrele rezumatului lucrării: 16.808 adulți din Danemarca și Spania, de 18 la 70 de ani, fără boală cardiovasculară cunoscută, împărțiți în cinci grupe de vârstă cu numere egale de femei și bărbați. Fiecăruia i s-a făcut ecografie vasculară tridimensională la arterele carotide (gât) și femurale (picior) și tomografie computerizată coronariană, ca să se vadă dacă există plăci de ateroscleroză, chiar fără simptome.",
+      "sources": [
+        {
+          "name": "New England Journal of Medicine — rezumatul lucrării (metodologie)",
+          "url": "https://doi.org/10.1056/NEJMoa2609059"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit: vârsta medie a participanților a fost 45 de ani, 51,4% femei. Ateroscleroza a fost prezentă la 57,1% din toți participanții (interval de încredere 95%: 56,3-58,0). La grupa cea mai jună, 18-29 de ani, plăcile erau prezente la 8,7% dintre bărbați și 6,7% dintre femei — aproximativ 1 din 13. Prevalența crește cu vârsta, cu o creștere mai bruscă la femei după menopauză. La tineri, plăcile erau de obicei izolate, pe o singură arteră periferică; cu vârsta, volumul lor crește exponențial și apar pe mai multe artere deodată. Ateroscleroza izolată doar pe arterele coronare (ale inimii) a fost rară la toate vârstele (sub 9,3% la bărbați, sub 5,0% la femei).",
+      "sources": [
+        {
+          "name": "New England Journal of Medicine — rezultatele lucrării, cu cifrele complete",
+          "url": "https://doi.org/10.1056/NEJMoa2609059"
+        },
+        {
+          "name": "Societatea Europeană de Cardiologie (ESC) — comunicatul de presă al congresului unde a fost prezentat studiul",
+          "url": "https://www.escardio.org/news/press/press-releases/early-imaging-of-atherosclerosis-identifies-silent-disease-not-captured-by-conventional-risk-assessment/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Studiul măsoară PREVALENȚA, nu consecințele. E prima etapă (de screening) a unui proiect mai mare, numit REACT; nu urmărește încă dacă persoanele cu plăci au făcut infarcte sau accidente vasculare, și nu testează dacă depistarea timpurie, urmată de tratament, schimbă vreun rezultat. Asta ar fi o a doua etapă, care nu s-a publicat. Autorii spun explicit, în discuția rezultatelor pe care o citează și comunicatul CNIC, că „a avea plăci nu înseamnă inevitabil boală simptomatică” — e un semnal de risc, nu un diagnostic de boală.",
+      "sources": [
+        {
+          "name": "CNIC — comunicatul, secțiunea despre etapele viitoare ale studiului",
+          "url": "https://www.cnic.es/en/noticias/nejm-react-reveals-silent-atherosclerosis-already-affects-1-13-young-adults-aged-18-29-and"
+        }
+      ]
+    },
+    {
+      "text": "E un studiu observațional, pe adulți din doar două țări europene (Danemarca și Spania), fără factori de risc cardiovascular diagnosticați la înscriere — rezultatele nu se generalizează automat la populații cu alimentație, genetică sau acces la sănătate diferite, inclusiv România, de unde nu există date comparabile la această scară. Lucrarea e pe abonament; am citit rezumatul complet (fundal, metodă, rezultate, concluzii), nu textul integral cu discuția extinsă.",
+      "sources": [
+        {
+          "name": "New England Journal of Medicine — lucrarea (abonament)",
+          "url": "https://doi.org/10.1056/NEJMoa2609059"
+        }
+      ]
+    },
+    {
+      "text": "Finanțare de la o fundație cu interes în sănătatea metabolică: studiul e plătit de Novo Nordisk Foundation, fundația unui mare producător de medicamente pentru diabet și obezitate (inclusiv semaglutidă/Ozempic), care are un interes comercial evident în orice cercetare care arată boală cardiovasculară mai răspândită decât se credea. Asta nu invalidează metoda — ecografia și tomografia sunt măsurători obiective — dar e un motiv să fii atent la cum va fi folosit rezultatul în marketingul unor tratamente.",
+      "sources": [
+        {
+          "name": "CNIC — comunicatul, secțiunea de finanțare",
+          "url": "https://www.cnic.es/en/noticias/nejm-react-reveals-silent-atherosclerosis-already-affects-1-13-young-adults-aged-18-29-and"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cifra care rămâne în minte nu e 57%, e 1 din 13: la 18-29 de ani, când nimeni nu se gândește la artere, unul din treisprezece tineri are deja o placă. Asta nu e un verdict de infarct, e o fotografie făcută mai devreme decât s-a făcut vreodată la scara asta. Dacă fotografia aia schimbă ceva în tratament — asta e întrebarea la care studiul ăsta încă nu a răspuns, și care merită urmărită, nu presupusă."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la o lucrare științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: New England Journal of Medicine e pe abonament, fără licență Creative Commons. Am citit rezumatul complet al lucrării (fundal, metodă, rezultate, concluzii, finanțare) prin bazele de date academice, nu comunicatul vreunei instituții, și l-am explicat în română.\n\nCe s-a verificat: pagina lucrării din NEJM (titlul, autorii, data, DOI), înregistrarea studiului REACT pe ClinicalTrials.gov, comunicatul CNIC (Madrid) cu numele coordonatorilor și finanțarea, și comunicatul Societății Europene de Cardiologie de la congresul unde a fost prezentat. Ce am adăugat noi: că studiul arată doar prevalența, nu consecințele clinice, și că finanțatorul are un interes comercial în zona sănătății metabolice — lucruri care nu apar în titlurile de tipul „1 din 3 bărbați de 30 de ani are deja boala asta”, care au circulat după publicare.",
+  "persoane": [
+    "Henning Bundgaard",
+    "Borja Ibáñez"
+  ],
+  "math": null
+}
