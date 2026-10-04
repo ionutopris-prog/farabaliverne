@@ -1,0 +1,95 @@
+{
+  "slug": "wisconsin-ai-pascode-ibrainmap-alzheimer-celule-nature-medicine",
+  "title": "Universitatea Wisconsin–Madison, cu Mount Sinai: două instrumente de inteligență artificială au „scorat” 6,3 milioane de celule din creiere donate și au legat tipuri de celule și gene concrete de simptomele Alzheimer — depresie, scădere cognitivă, rezistență la boală",
+  "seoTitle": "Alzheimer: AI a scorat milioane de celule, ce înseamnă",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-10-04",
+  "source": "Nature Medicine · Nature Communications · University of Wisconsin–Madison",
+  "url": "https://doi.org/10.1038/s41591-025-04128-1",
+  "dek": "Boala Alzheimer nu e la fel la toată lumea: unii pacienți au depresie, alții scad cognitiv rapid, alții rezistă surprinzător de bine la aceleași modificări din creier. O echipă de la Universitatea Wisconsin–Madison, condusă de Daifeng Wang, împreună cu Panos Roussos de la Mount Sinai, a construit două instrumente de inteligență artificială — PASCode și iBrainMap — ca să lege aceste diferențe de celule și gene concrete, nu doar de diagnosticul general „Alzheimer”. Pe un set de date cu peste 6 milioane de celule din creierele a peste 1.000 de persoane decedate, PASCode a găsit aproximativ 1,5 milioane de celule legate de simptome specifice la 584 de donatori, iar iBrainMap a construit o „hartă” genetică separată pentru fiecare persoană, care a îmbunătățit cu 21% distincția dintre bolnavi și sănătoși, validată pe cohorte cu peste 1.900 de creiere. Cele două lucrări au apărut pe 23 septembrie 2026, în Nature Medicine și Nature Communications, cu acces liber (CC BY-NC-ND).",
+  "mainVerdict": "Probat ce arată cele două lucrări: metoda (rețele neuronale de tip graf), cifrele (6+ milioane de celule, ~1,5 milioane de celule legate de fenotip, 584 de donatori, îmbunătățire de 21% în clasificare), tipurile de celule și genele identificate, și faptul că instrumentele sunt publicate open-source. Contestat/de reținut: chiar autorii spun că PASCode leagă fiecare celulă de UN SINGUR simptom la un moment dat, că modelul de progresie a bolii e simplificat (liniar), că datele brute nu sunt publice (acces controlat, cu acord de utilizare) și că niciuna dintre cele două lucrări nu testează vreun tratament — sunt instrumente de cercetare, nu diagnostic clinic",
+  "probat": [
+    {
+      "text": "Lucrarea „AI-based characterization of Alzheimer's disease phenotypes from population-scale single-cell data” (instrumentul PASCode) a apărut în Nature Medicine pe 23 septembrie 2026, cu acces liber (CC BY-NC-ND 4.0). Autor principal: Chenfeng He (Departamentul de Biostatistică și Informatică Medicală, Universitatea Wisconsin–Madison). Autori corespondenți: Daifeng Wang (Wisconsin–Madison, Centrul Waisman) și Panos Roussos (genetică și genomică, Icahn School of Medicine at Mount Sinai). Primită: 26 iunie 2025; acceptată: 18 noiembrie 2025; publicată: 23 septembrie 2026. Finanțare: Institutele Naționale de Sănătate (NIH), prin consorțiul PsychAD, plus fonduri de start de la Universitatea Wisconsin–Madison și alte burse. Autorii declară că nu au conflicte de interese.",
+      "sources": [
+        {
+          "name": "Nature Medicine — lucrarea PASCode, acces liber",
+          "url": "https://doi.org/10.1038/s41591-025-04128-1"
+        },
+        {
+          "name": "UW–Madison News — articolul din 29 septembrie 2026 despre cele două instrumente",
+          "url": "https://news.wisc.edu/we-built-a-brain-roadmap-for-each-person-new-ai-driven-tools-help-researchers-decode-alzheimers-disease-at-the-cellular-level/"
+        }
+      ]
+    },
+    {
+      "text": "A doua lucrare, „Personalized single-cell transcriptomics reveals molecular diversity in Alzheimer's disease” (instrumentul iBrainMap), a apărut în aceeași zi, 23 septembrie 2026, în Nature Communications, tot cu acces liber (CC BY-NC-ND 4.0). Autor principal: Pramod Bharadwaj Chandrashekar, cercetător în laboratorul lui Wang; aceiași autori corespondenți, Wang și Roussos. Cele două echipe fac parte din consorțiul PsychAD, finanțat de NIH, care reunește cercetători de la mai multe institute americane pentru a găsi biomarkeri și ținte terapeutice pentru Alzheimer și simptome neuropsihiatrice asociate.",
+      "sources": [
+        {
+          "name": "Nature Communications — lucrarea iBrainMap, acces liber",
+          "url": "https://doi.org/10.1038/s41467-026-72310-1"
+        }
+      ]
+    },
+    {
+      "text": "Ce face PASCode, în cifre: pe un set de date al consorțiului PsychAD cu peste 6 milioane de nuclee celulare din cortexul prefrontal al unor creiere provenite de la peste 1.000 de persoane, instrumentul a „notat” fiecare celulă în funcție de cât de probabil e legată de un anumit simptom (declin cognitiv, depresie, rezistență la boală). Așa a identificat aproximativ 1,5 milioane de „celule asociate cu fenotipul” la 584 de donatori cu trăsături legate de Alzheimer, repartizate în 27 de subtipuri celulare din creier. Printre descoperiri: subpopulații de microglii implicate în patologia bolii, subtipuri de astrocite reactive cu gene schimbate care ar explica rezistența cognitivă la unii pacienți, și dezechilibru excitator/inhibitor plus disfuncție mitocondrială la cei cu declin cognitiv sever. Echipa a găsit și celule comune între Alzheimer și depresie, cu gene de inflamație și de stres al reticulului endoplasmatic.",
+      "sources": [
+        {
+          "name": "Nature Medicine — rezumatul lucrării PASCode",
+          "url": "https://doi.org/10.1038/s41591-025-04128-1"
+        }
+      ]
+    },
+    {
+      "text": "Ce face iBrainMap: construiește o „hartă” personalizată de gene și rețele de reglare genetică pentru fiecare donator în parte, nu pentru grupuri medii de bolnavi versus sănătoși. Validată pe cohorte combinate de peste 1.900 de creiere, harta a îmbunătățit cu 21% capacitatea de a distinge persoanele sănătoase de cele cu Alzheimer, față de analizele obișnuite pe grupuri. Instrumentul a identificat și „grQTL” — variante genetice legate de modul în care genele sunt reglate la nivelul fiecărui donator, dincolo de analizele clasice de tip eQTL. Ambele instrumente sunt publicate open-source, cu aplicație web, pentru ca alți cercetători să le folosească pe datele proprii.",
+      "sources": [
+        {
+          "name": "Nature Communications — rezumatul lucrării iBrainMap",
+          "url": "https://doi.org/10.1038/s41467-026-72310-1"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Chiar autorii scriu, la limitările lucrării PASCode: instrumentul leagă fiecare celulă de UN SINGUR fenotip la un moment dat, „deși în realitate celulele pot contribui simultan la mai multe fenotipuri” — extinderea la asocieri multiple e numită „o direcție promițătoare pentru viitor”, nu ceva făcut deja. Al doilea avertisment al lor: modelul de progresie a bolii Alzheimer e liniar, „probabil simplist”, și poate ignora relații mai complexe care ar putea fi importante pentru înțelegerea mecanismelor bolii.",
+      "sources": [
+        {
+          "name": "Nature Medicine — secțiunea de discuție/limitări a lucrării PASCode",
+          "url": "https://doi.org/10.1038/s41591-025-04128-1"
+        }
+      ]
+    },
+    {
+      "text": "Datele nu sunt liber descărcabile: setul PsychAD e accesibil doar „sub condiții de utilizare controlată, impuse de reglementările de confidențialitate umană”, printr-un acord de utilizare a datelor (AD Knowledge Portal). Am citit rezumatele, metodologia și secțiunea de limitări ale celor două lucrări, ambele cu acces liber la text; nu am avut acces la datele brute, care sunt restricționate.",
+      "sources": [
+        {
+          "name": "Nature Medicine — secțiunea de disponibilitate a datelor",
+          "url": "https://doi.org/10.1038/s41591-025-04128-1"
+        }
+      ]
+    },
+    {
+      "text": "Nicio lucrare nu testează un tratament și nicio lucrare nu a fost validată ca instrument de diagnostic clinic. Sunt instrumente de cercetare — un „atlas” și o „hartă” — menite să ajute alți oameni de știință să găsească ținte terapeutice; drumul de la „am identificat o subpopulație de celule legată de rezistența cognitivă” la „avem un tratament” înseamnă, de regulă, ani de studii suplimentare care nu există încă. Comunicatul universității folosește formulări la condițional — „ar putea”, „potențial” — exact pentru aceste etape care nu s-au făcut.",
+      "sources": [
+        {
+          "name": "UW–Madison News — formulările la condițional din articolul despre PASCode și iBrainMap",
+          "url": "https://news.wisc.edu/we-built-a-brain-roadmap-for-each-person-new-ai-driven-tools-help-researchers-decode-alzheimers-disease-at-the-cellular-level/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Partea interesantă nu e că s-a folosit inteligență artificială — se folosește în zeci de laboratoare — ci CE anume a făcut-o aici: în loc să compare „bolnavi” cu „sănătoși” ca două grupuri mari, a încercat să explice de ce doi oameni cu același diagnostic trăiesc boala complet diferit, unul cu depresie, altul rezistent cognitiv ani la rând. E genul de întrebare pe care statistica pe grupuri o șterge automat, prin mediere. Rămâne însă o unealtă pentru cercetători, nu un test pe care să-l ceri la medicul de familie — și e bine că universitatea o spune direct, în loc să lase titlul să sugereze altceva."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la două lucrări științifice cu acces liber, link către original.\n\nDe ce e REZUMAT, nu traducere integrală: ambele lucrări au licența Creative Commons BY-NC-ND (permite distribuirea, dar NU adaptările/traducerile ca derivate), iar comunicatul Universității Wisconsin–Madison nu afișează o permisiune explicită de republicare integrală (ca la MIT News sau Cornell Chronicle). Am rezumat și citat scurt, cu link la lucrări și la comunicatul universității.\n\nCe s-a verificat: paginile celor două lucrări pe nature.com (titluri, autori, afilieri, datele de primire/acceptare/publicare, licența CC BY-NC-ND, finanțarea NIH prin PsychAD, declarația „fără conflicte de interese”), rezumatele cu toate cifrele citate, și secțiunea de limitări a lucrării PASCode. Ce am adăugat noi: limitările recunoscute explicit de autori (un fenotip per celulă, model liniar simplificat), statutul de acces controlat al datelor, și distincția dintre „instrument de cercetare” și „diagnostic clinic” — lucruri care nu sunt în titlul comunicatului de presă.",
+  "persoane": [
+    "Daifeng Wang",
+    "Chenfeng He",
+    "Panos Roussos"
+  ],
+  "math": null
+}
