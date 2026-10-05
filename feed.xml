@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 04 Oct 2026 07:18:07 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 07:20:02 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Universitatea Wisconsin–Madison, cu Mount Sinai: două instrumente de inteligență artificială au „scorat” 6,3 milioane de celule din creiere donate și au legat tipuri de celule și gene concrete de simptomele Alzheimer — depresie, scădere cognitivă, rezistență la boală</title>
+      <link>https://farabaliverne.ro/a/wisconsin-ai-pascode-ibrainmap-alzheimer-celule-nature-medicine.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/wisconsin-ai-pascode-ibrainmap-alzheimer-celule-nature-medicine.html</guid>
+      <pubDate>Sun, 04 Oct 2026 04:19:24 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Boala Alzheimer nu e la fel la toată lumea: unii pacienți au depresie, alții scad cognitiv rapid, alții rezistă surprinzător de bine la aceleași modificări din creier. O echipă de la Universitatea Wisconsin–Madison, condusă de Daifeng Wang, împreună cu Panos Roussos de la Mount Sinai, a construit două instrumente de inteligență artificială — PASCode și iBrainMap — ca să lege aceste diferențe de celule și gene concrete, nu doar de diagnosticul general „Alzheimer”. Pe un set de date cu peste 6 milioane de celule din creierele a peste 1.000 de persoane decedate, PASCode a găsit aproximativ 1,5 milioane de celule legate de simptome specifice la 584 de donatori, iar iBrainMap a construit o „hartă” genetică separată pentru fiecare persoană, care a îmbunătățit cu 21% distincția dintre bolnavi și sănătoși, validată pe cohorte cu peste 1.900 de creiere. Cele două lucrări au apărut pe 23 septembrie 2026, în Nature Medicine și Nature Communications, cu acces liber (CC BY-NC-ND).
+
+Unde bat probele: Probat ce arată cele două lucrări: metoda (rețele neuronale de tip graf), cifrele (6+ milioane de celule, ~1,5 milioane de celule legate de fenotip, 584 de donatori, îmbunătățire de 21% în clasificare), tipurile de celule și genele identificate, și faptul că instrumentele sunt publicate open-source. Contestat/de reținut: chiar autorii spun că PASCode leagă fiecare celulă de UN SINGUR simptom la un moment dat, că modelul de progresie a bolii e simplificat (liniar), că datele brute nu sunt publice (acces controlat, cu acord de utilizare) și că niciuna dintre cele două lucrări nu testează vreun tratament — sunt instrumente de cercetare, nu diagnostic clinic. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>UCSF: 20 de pacienți cu depresie au redus mâncarea ultraprocesată cu peste 85% timp de patru săptămâni, și au avut îmbunătățiri moderate-spre-mari ale simptomelor. Studiu-pilot, cu grupuri inversate, publicat în JAMA Psychiatry pe 23 septembrie 2026</title>
       <link>https://farabaliverne.ro/a/ucsf-mancare-ultraprocesata-depresie-studiu-pilot.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Luni, 14 și marți, 15 septembrie 2026, acțiunile companiilor din industria inteligenței artificiale au scăzut puternic pe bursele din SUA, Europa și Asia, în special la producătorii de cipuri. Scăderea a urmat unui eseu al directorului general al Anthropic, Dario Amodei, care a cerut o încetinire coordonată a dezvoltării celor mai avansate modele AI — idee susținută public de Sam Altman (OpenAI), Demis Hassabis (Google DeepMind) și Elon Musk. Președintele Donald Trump și consilierul său pentru AI, David Sacks, resping propunerea: Sacks o numește o încercare de „cartel”, iar Trump spune că vrea ca SUA să rămână „cea mai sofisticată țară din lume” în cursa cu China.
 
 Unde bat probele: Probat, cu rezerve — scăderile bursiere și propunerea sunt fapte confirmate; motivele reale din spatele propunerii (siguranță genuină vs. avantaj competitiv pentru liderii de piață) rămân disputate între părți cu interese opuse. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Insulă din Grecia dă 5.000 de euro pe an ca să te muți acolo — dar e Kastellorizo, nu insula cu 3.000 de euro la naștere, care e Nisyros</title>
-      <link>https://farabaliverne.ro/a/grecia-kastellorizo-nisyros-doua-programe-insule-bani.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/grecia-kastellorizo-nisyros-doua-programe-insule-bani.html</guid>
-      <pubDate>Tue, 15 Sep 2026 18:28:24 +0000</pubDate>
-      <category>Extern</category>
-      <description>Două insule grecești au anunțat, în aceeași săptămână din septembrie 2026, câte un program de bani publici pentru a-și opri depopularea — iar presa și căutările din România le amestecă des sub eticheta „o insulă din Grecia oferă bani". Nu e aceeași insulă: premierul Kyriakos Mitsotakis a anunțat pe 13 septembrie, la Kastellorizo, un stimulent de 5.000 de euro pe an de gospodărie pentru cine se mută și rămâne acolo, plus 1.000 de euro pe an per copil minor. Separat, primăria insulei Nisyros a decis să plătească 3.000 de euro pentru fiecare copil nou-născut acolo — o măsură locală, mai mică, votată de consiliul local, nu de guvern.
-
-Unde bat probele: Probat — sunt două programe distincte, pe două insule diferite, cu sume și mecanisme diferite. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
