@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 05 Oct 2026 07:20:02 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 07:25:40 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Harvard &amp; Smithsonian, cu un fizician de la Oregon: radiotelescopul MeerKAT a prins, pentru prima dată, un semnal radio venit chiar de la o exoplanetă — Beta Pictoris b, la 64 de ani-lumină, cu un câmp magnetic de peste 1.250 de gauss, măsurat direct și nu doar estimat</title>
+      <link>https://farabaliverne.ro/a/beta-pictoris-b-semnal-radio-camp-magnetic-harvard-meerkat.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/beta-pictoris-b-semnal-radio-camp-magnetic-harvard-meerkat.html</guid>
+      <pubDate>Mon, 05 Oct 2026 04:20:58 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Pe 15 septembrie 2026, trei astronomi — Kevin Ortiz Ceballos și Edo Berger, de la Center for Astrophysics | Harvard &amp; Smithsonian, și Yvette Cendes, de la Universitatea Oregon — au pus pe arXiv o lucrare care anunță prima detecție radio atribuită fără echivoc unei planete de dincolo de Sistemul Solar, nu stelei ei. Cu radiotelescopul MeerKAT din Africa de Sud, au prins rafale rapide, puternic polarizate, și o emisie persistentă, la frecvențe între 0,85 și 3,5 gigahertzi, venite de la Beta Pictoris b, un gigant gazos de aproximativ 10-13 mase Jupiter, la 64 de ani-lumină. Din frecvența cea mai înaltă, calculează un câmp magnetic de cel puțin 1.250 de gauss la planetă — prima măsurătoare directă a unui câmp magnetic exoplanetar, nu o estimare din model. Site-urile internaționale au scris despre asta începând cu 2 octombrie; lucrarea e un preprint, nu a trecut încă de recenzia unei reviste.
+
+Unde bat probele: Probat ce raportează lucrarea: detecția de rafale radio polarizate și emisie persistentă de la coordonatele planetei, nu ale stelei, localizarea astrometrică folosind quasari ca repere, și câmpul magnetic de minimum 1,25 kilogauss calculat din fizica maserului cu ciclotron de electroni. Contestat: e o singură detecție, pe un preprint nerecenzat încă de o revistă științifică; cifra e un minim, nu valoarea exactă a câmpului; și nu are nicio legătură cu semnale extraterestre inteligente — e o aurora, ca cea de pe Jupiter, doar mult mai puternică. Verificate: 5 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>Universitatea Wisconsin–Madison, cu Mount Sinai: două instrumente de inteligență artificială au „scorat” 6,3 milioane de celule din creiere donate și au legat tipuri de celule și gene concrete de simptomele Alzheimer — depresie, scădere cognitivă, rezistență la boală</title>
       <link>https://farabaliverne.ro/a/wisconsin-ai-pascode-ibrainmap-alzheimer-celule-nature-medicine.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 2 probate, 0 contestate.</description>
       <description>Senatul american a respins marți, 15 septembrie 2026, moțiunea de cloture pentru CLARITY Act (H.R. 3633) — legea care ar fi stabilit reguli federale clare pentru piața criptomonedelor — cu 49 de voturi pentru și 50 împotrivă, sub pragul de 60 necesar. Votul a picat pe fondul unei dispute privind caracterul suficient al restricțiilor etice legate de averea în criptomonede a președintelui Donald Trump.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>Acțiunile companiilor AI s-au prăbușit la nivel mondial, după ce Dario Amodei (Anthropic) a cerut încetinirea dezvoltării — Trump și consilierul său David Sacks resping ideea, vorbind despre un „cartel”</title>
-      <link>https://farabaliverne.ro/a/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/actiuni-ai-scadere-amodei-incetinire-trump-sacks-cartel.html</guid>
-      <pubDate>Tue, 15 Sep 2026 18:33:16 +0000</pubDate>
-      <category>Economie</category>
-      <description>Luni, 14 și marți, 15 septembrie 2026, acțiunile companiilor din industria inteligenței artificiale au scăzut puternic pe bursele din SUA, Europa și Asia, în special la producătorii de cipuri. Scăderea a urmat unui eseu al directorului general al Anthropic, Dario Amodei, care a cerut o încetinire coordonată a dezvoltării celor mai avansate modele AI — idee susținută public de Sam Altman (OpenAI), Demis Hassabis (Google DeepMind) și Elon Musk. Președintele Donald Trump și consilierul său pentru AI, David Sacks, resping propunerea: Sacks o numește o încercare de „cartel”, iar Trump spune că vrea ca SUA să rămână „cea mai sofisticată țară din lume” în cursa cu China.
-
-Unde bat probele: Probat, cu rezerve — scăderile bursiere și propunerea sunt fapte confirmate; motivele reale din spatele propunerii (siguranță genuină vs. avantaj competitiv pentru liderii de piață) rămân disputate între părți cu interese opuse. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
