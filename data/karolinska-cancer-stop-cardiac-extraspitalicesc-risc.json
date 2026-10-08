@@ -1,0 +1,88 @@
+{
+  "slug": "karolinska-cancer-stop-cardiac-extraspitalicesc-risc",
+  "title": "Karolinska Institutet: aproape 800.000 de pacienți cu cancer, comparați cu 3,7 milioane de persoane fără cancer, au un risc de stop cardiac în afara spitalului cu 55% mai mare — de până la șase ori mai mare în primul an, la cancerul pulmonar și la cel neurologic",
+  "seoTitle": "Cancerul crește riscul de stop cardiac: ce arată un studiu",
+  "category": "Minți luminate",
+  "tara": "Suedia",
+  "date": "2026-10-08",
+  "source": "JACC: Advances · Karolinska Institutet",
+  "url": "https://doi.org/10.1016/j.jacadv.2026.103293",
+  "dek": "O echipă de la Karolinska Institutet și Karolinska University Hospital, cu Hanna L. Hägglund prim-autoare și Therese Djärv autoare senior, a comparat în registrele naționale suedeze aproape 800.000 de adulți diagnosticați cu cancer între 2010 și 2022 cu 3,7 milioane de persoane fără cancer, potrivite după vârstă, sex și regiune. Rezultatul, publicat pe 5 octombrie 2026 în JACC: Advances, cu acces liber: cancerul e asociat cu un risc de stop cardiac în afara spitalului (OHCA) cu 55% mai mare. Riscul e cel mai mare în primul an după diagnostic și la cancerul pulmonar și neurologic, unde ajunge de până la șase ori mai mare decât la persoanele fără cancer; la cancerul pulmonar și la mielomul multiplu rămâne de 2-3 ori mai mare și pe termen lung. Autorii spun clar: e un studiu de asociere, din registre, nu un test al vreunei intervenții.",
+  "mainVerdict": "Probat ce arată studiul: cohorta (aproape 800.000 de pacienți cu cancer, 3,7 milioane de controale, din registrele naționale suedeze, 2010-2022), riscul relativ cu 55% mai mare de stop cardiac extraspitalicesc la pacienții cu cancer, și riscurile mult mai mari pe termen scurt la cancerul pulmonar și neurologic. Contestat/nuanțat: e o asociere statistică dintr-un registru, nu un experiment — nu separă efectul bolii de efectul tratamentelor, și nu testează ce ar reduce riscul.",
+  "probat": [
+    {
+      "text": "Lucrarea „Increased Out-of-Hospital Cardiac Arrest Risk in Cancer” a apărut în JACC: Advances pe 5 octombrie 2026, cu acces liber (CC BY). Autori: Hanna L. Hägglund (prim-autoare, Karolinska University Hospital), Agneta Månsson Broberg (Karolinska University Hospital), Martin N. Jonsson (Spitalul General de Sud din Stockholm), Sandra Eloranta (Karolinska Institutet), Elham Hedayati (Karolinska University Hospital și Karolinska Institutet), Christel Hedman și Therese Djärv (autoare senior, Karolinska Institutet). Studiul e o cohortă populațională, cu date din șapte registre naționale suedeze (cancer, cauze de deces, resuscitare și altele).",
+      "sources": [
+        {
+          "name": "JACC: Advances — lucrarea, cu acces liber",
+          "url": "https://doi.org/10.1016/j.jacadv.2026.103293"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: adulți (18+) diagnosticați cu cancer între 2010 și 2022 au fost potriviți 1:5, după vârstă, sex și regiune, cu persoane fără cancer din populația generală. Cu modele de risc proporțional Cox și estimări ale incidenței cumulative, echipa a calculat riscul de stop cardiac în afara spitalului (OHCA — un eveniment în care inima se oprește brusc, de obicei fatal fără resuscitare imediată) la cei cu cancer față de cei fără. Rezultatul: un risc relativ (hazard ratio) de 1,55 — cu 55% mai mare — pentru pacienții cu cancer, cu un interval de încredere de 95% între 1,50 și 1,60.",
+      "sources": [
+        {
+          "name": "JACC: Advances — secțiunea de metode și rezultate",
+          "url": "https://doi.org/10.1016/j.jacadv.2026.103293"
+        }
+      ]
+    },
+    {
+      "text": "Riscul nu e același la toate tipurile de cancer, nici constant în timp. Excesul cel mai mare apare în primul an de la diagnostic. Pe termen scurt, cancerul pulmonar și cel neurologic au un risc de OHCA de circa șase ori mai mare decât la persoanele fără cancer; pe termen lung, cancerul pulmonar și mielomul multiplu rămân cu un risc de 2-3 ori mai mare. Autorii scriu că localizarea cancerului, timpul scurs de la diagnostic și stadiul metastatic sunt factorii-cheie, și că rezultatele pot ajuta la evaluarea personalizată a riscului cardiac și la planificarea îngrijirii, inclusiv a îngrijirii de final de viață, la pacienții oncologici.",
+      "sources": [
+        {
+          "name": "JACC: Advances — discuția și concluziile lucrării",
+          "url": "https://doi.org/10.1016/j.jacadv.2026.103293"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 E o asociere statistică dintr-un registru, nu un experiment. Studiul nu poate separa cât din excesul de risc vine din boala însăși (de exemplu, tumori care afectează direct inima sau plămânii), cât din efectele secundare ale tratamentelor (chimioterapie cardiotoxică, radioterapie toracică) și cât din factori comuni ambelor boli — fumatul, de exemplu, crește riscul atât de cancer pulmonar, cât și de boală cardiacă. Lucrarea nu încearcă să separe aceste căi, și nu trebuie citită ca „cancerul cauzează direct stopul cardiac”.",
+      "sources": [
+        {
+          "name": "JACC: Advances — lucrarea, cu acces liber",
+          "url": "https://doi.org/10.1016/j.jacadv.2026.103293"
+        }
+      ]
+    },
+    {
+      "text": "Datele vin din registrele naționale ale Suediei — un sistem de sănătate și de intervenție de urgență diferit de cel românesc, cu altă rată de resuscitare reușită și altă acoperire cu defibrilatoare publice. Cifrele arată riscul RELATIV (de câte ori mai mare), nu probabilitatea absolută pentru un pacient anume, și nu pot fi transferate automat la o populație cu alt acces la îngrijire.",
+      "sources": [
+        {
+          "name": "JACC: Advances — descrierea cohortei",
+          "url": "https://doi.org/10.1016/j.jacadv.2026.103293"
+        }
+      ]
+    },
+    {
+      "text": "Studiul nu testează nicio intervenție — nu arată dacă o monitorizare cardiacă mai atentă la pacienții cu cancer pulmonar sau neurologic ar reduce riscul de stop cardiac. E un semnal pentru cercetare și pentru discuții clinice, nu o dovadă că o anumită măsură de prevenție funcționează.",
+      "sources": [
+        {
+          "name": "JACC: Advances — concluziile lucrării",
+          "url": "https://doi.org/10.1016/j.jacadv.2026.103293"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Vestea nu e „cancerul dă stop cardiac”, cu care titlurile ar fi tentate să înceapă, ci una mai utilă și mai greu de pus pe o manșetă: la unele tipuri de cancer, mai ales în primul an, riscul cardiac merită urmărit activ, nu lăsat în grija unui singur specialist. Autorii înșiși leagă rezultatul de decizii practice — discuții cu pacientul, planificare a îngrijirii — nu de panică. E genul de cifră utilă unui medic de familie sau unui oncolog, nu unui pacient care citește un titlu alarmist fără context."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber (CC BY gold), dar e un studiu clinic-epidemiologic dens, cu modele statistice (hazard ratio, intervale de încredere) — am tradus și explicat cifrele esențiale, nu tot textul tehnic. N-am găsit un comunicat de presă al Karolinska Institutet pentru lucrarea asta; rezumatul de mai sus e scris direct din lucrarea cu acces liber (rezumat, metodă, discuție), nu dintr-un intermediar.\n\nCe s-a verificat: pagina lucrării din JACC: Advances (titlul, autorii, afilierile, data de 5 octombrie 2026, licența CC BY, cifrele din rezumat — 1,55 risc relativ, cohortele de 800.000 și 3,7 milioane). Ce am adăugat noi: limitele unui studiu de asociere pe bază de registru, și diferența dintre risc relativ și risc absolut pentru un pacient anume.",
+  "persoane": [
+    "Hanna L. Hägglund",
+    "Therese Djärv"
+  ],
+  "math": null,
+  "poza": {
+    "img_html": "<img src=\"../img/articole/karolinska-cancer-stop-cardiac-extraspitalicesc-risc.jpg\" alt=\"cardiopulmonary resuscitation training\" loading=\"eager\" style=\"position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1\">",
+    "figcaption_html": "<figcaption class=\"foto-credit\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg><span class=\"txt\"><span class=\"lead\"><b>Foto ilustrativă</b> — cardiopulmonary resuscitation training. Nu este o imagine de la evenimentul relatat.</span><span class=\"attrib\">„<a href=\"https://commons.wikimedia.org/wiki/File:CPR_Training_Chiasma.jpg\" rel=\"nofollow noopener\" target=\"_blank\">CPR Training Chiasma</a>\" de Adhitya2048, via Wikimedia Commons · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" rel=\"license nofollow noopener\" target=\"_blank\">CC BY-SA 4.0</a> · decupată</span></span></figcaption>",
+    "fisier": "img/articole/karolinska-cancer-stop-cardiac-extraspitalicesc-risc.jpg",
+    "licenta": "CC BY-SA 4.0",
+    "autor": "Adhitya2048"
+  }
+}

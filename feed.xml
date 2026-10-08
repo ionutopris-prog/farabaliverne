@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 07 Oct 2026 07:22:30 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 07:29:53 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Vitamina C, testată un an, la 109 pacienți cu boli de sânge precanceroase din Danemarca și SUA: obiectivul principal al studiului a picat, dar în grupul care a luat-o au fost mai puține decese după trei ani de urmărire</title>
+      <link>https://farabaliverne.ro/a/danemarca-evita-vitamina-c-boli-precanceroase-sange-supravietuire.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/danemarca-evita-vitamina-c-boli-precanceroase-sange-supravietuire.html</guid>
+      <pubDate>Wed, 07 Oct 2026 04:23:35 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>„Vitamina C vindecă cancerul” circulă de decenii ca remediu-minune, de obicei fără nicio dovadă serioasă în spate. Studiul EVITA e altceva: un test clinic de fază 2, randomizat, dublu-orb, controlat cu placebo, condus de hematologa Kirsten Grønbæk (Universitatea din Copenhaga, Spitalul Universitar Rigshospitalet) și de Peter A. Jones (Van Andel Institute, Michigan), pe 109 pacienți din Danemarca și SUA cu afecțiuni de sânge precanceroase (CCUS) sau cu forme de leucemie cu risc scăzut (MDS). Timp de un an, jumătate au luat 1.000 mg de vitamina C pe zi, cealaltă jumătate placebo identic la vedere, gust și miros. Obiectivul principal — încetinirea creșterii clonelor anormale de celule — NU s-a confirmat. Dar, la o urmărire ulterioară de aproape trei ani, într-o analiză făcută după încheierea studiului, nu prevăzută de la început, cei care au luat vitamina C au murit mai rar: 11 din 55, față de 24 din 54 la placebo. Publicat pe 21 septembrie 2026 în revista Cancer, cu autor principal S.U. Mikkelsen.
+
+Unde bat probele: Probat: studiul a fost făcut, randomizat corect, iar diferența brută de decese (11 vs. 24) e reală, în datele publicate. Contestat: obiectivul principal al studiului — creșterea clonelor anormale — NU s-a încetinit cu vitamina C, iar diferența de supraviețuire vine dintr-o analiză exploratorie, făcută după ce studiul s-a terminat, nu dintr-o întrebare la care studiul a fost conceput să răspundă. Chiar autorii și experți independenți spun că e prea puțin ca să schimbe vreun tratament.. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Cel mai lung studiu randomizat de până acum pe băuturi „light”: 493 de adulți urmăriți 104 săptămâni arată că băuturile cu îndulcitori fără calorii ajută la pierderea în greutate la fel de bine ca apa. Studiul a fost plătit de asociația americană a producătorilor de băuturi</title>
       <link>https://farabaliverne.ro/a/liverpool-bauturi-light-apa-greutate-switch-trial-bjn.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — absențele și motivul depus de Abrudean sunt confi
       <description>Guvernul japonez a aprobat pe 4 august 2026 raportul „Defense of Japan 2026”, care numește China „cea mai mare provocare strategică” și citează, printre altele, cooperarea militară tot mai strânsă dintre China și Rusia. Purtătorul de cuvânt al Ministerului Apărării chinez, Chen Xi, a respins documentul ca fiind „plin de narațiuni false” și o „exagerare” a amenințării chineze. Presa independentă (Japan Times, USNI News) confirmă însă, separat de raportul japonez, că patrulele aeriene comune ale bombardierelor chineze și ruse lângă Japonia chiar au avut loc — inclusiv una din iunie 2026, cu peste 15 aeronave, care a determinat Japonia și Coreea de Sud să-și ridice avioane de interceptare.
 
 Unde bat probele: Probat — activitățile citate de Japonia sunt confirmate independent; China respinge doar interpretarea, nu faptele punctuale. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Coreea de Nord spune că a lovit toate țintele cu „100% acuratețe” într-un exercițiu cu rachete și drone — Seul confirmă doar lansarea, nu și precizia</title>
-      <link>https://farabaliverne.ro/a/coreea-nord-kcna-100-acuratete-exercitiu-rachete-drone.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/coreea-nord-kcna-100-acuratete-exercitiu-rachete-drone.html</guid>
-      <pubDate>Wed, 16 Sep 2026 01:00:35 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Agenția de stat nord-coreeană KCNA a raportat pe 14 septembrie 2026 că un exercițiu cu rachete balistice, rachete de croazieră și drone de atac, desfășurat pe 12-13 septembrie, a lovit toate țintele cu „100% acuratețe”. Coreea de Sud, prin Joint Chiefs of Staff, a confirmat doar parametrii fizici observabili — ora lansării, locul (Wonsan) și distanța parcursă de rachete (aproximativ 250 km) — nu și afirmația despre precizia loviturilor, care nu poate fi verificată independent.
-
-Unde bat probele: Contestat — cifra de precizie e susținută doar de sursa de stat. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
