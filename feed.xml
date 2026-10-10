@@ -5,8 +5,28 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 09 Oct 2026 07:35:01 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 07:22:50 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Spitalele adoptă inteligența artificială pentru diagnostic, radioterapie și triaj — dar costul ei de mediu rămâne, aproape mereu, întrebarea pe care nimeni n-a pus-o: o revizie sistematică a 47 de studii, de la Universitatea Norvegiană de Știință și Tehnologie (NTNU), arată inițiative „izolate”, fără o imagine de ansamblu</title>
+      <link>https://farabaliverne.ro/a/ntnu-ai-verde-sanatate-mediu-artificial-intelligence-medicine.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/ntnu-ai-verde-sanatate-mediu-artificial-intelligence-medicine.html</guid>
+      <pubDate>Fri, 09 Oct 2026 04:36:19 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Inteligența artificială a intrat în spitale pentru diagnostic, planificarea radioterapiei, notarea automată a consultațiilor și telemedicină — cu beneficii reale pentru pacienți. Ce rămâne, de obicei, în afara discuției: antrenarea și folosirea acestor modele consumă electricitate și apă în centre de date, iar amprenta de mediu rareori e pusă pe cântar lângă beneficiul medical. Yaser Alzoubi și Alok Mishra, de la Universitatea Norvegiană de Știință și Tehnologie (NTNU), au trecut sistematic prin 47 de studii despre AI „verde” în sănătate și au publicat concluziile în Artificial Intelligence in Medicine, pe 28 aprilie 2026, cu acces liber. NTNU a revenit asupra temei pe 29 septembrie 2026, cu reacții și de la un oncolog care chiar folosește AI zilnic.
+
+Unde bat probele: Probat ce arată revizia: că e o sinteză sistematică a 47 de studii publicate, nu o măsurătoare nouă, directă, a amprentei de mediu a AI-ului din sănătate; că inițiativele găsite sunt descrise de autori ca „izolate”; și cifrele citate despre consumul centrelor de date vin din rapoarte ale Agenției Internaționale pentru Energie (IEA), nu din lucrare. Contestat/opinie: discuția despre cât de „verde” trebuie să fie AI-ul medical e, cum spune chiar un oncolog intervievat, mai mult politică decât medicală — nu există, deocamdată, o cifră agreată pentru cât costă în energie un diagnostic asistat de AI. Verificate: 3 probate, 2 contestate.</description>
+    </item>
+    <item>
+      <title>Un satelit construit să măsoare oceanele și râurile mari „vede”, din întâmplare, și canalele de irigație: cercetătorii de la Universitatea Washington au testat SWOT pe 795.110 kilometri de canale din 22 de țări asiatice și au găsit semnal de încredere medie sau mare pe 84% din ele</title>
+      <link>https://farabaliverne.ro/a/washington-nasa-swot-satelit-canale-irigatie-asia-geophysical-research-letters.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/washington-nasa-swot-satelit-canale-irigatie-asia-geophysical-research-letters.html</guid>
+      <pubDate>Fri, 09 Oct 2026 04:36:19 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Satelitul SWOT (Surface Water and Ocean Topography), lansat de NASA în decembrie 2022 ca să măsoare nivelul oceanelor, lacurilor și râurilor mari, nu a fost construit pentru canale de irigație late de câțiva metri — acelea erau considerate prea mici pentru instrumentul lui. O echipă de la Universitatea Washington, condusă de Mridul Sharma și Faisal Hossain, a verificat totuși datele satelitului pe 795.110 kilometri de canale din 22 de țări asiatice și a comparat rezultatele cu măsurători reale, la fața locului. Concluzia, publicată pe 30 septembrie 2026 în Geophysical Research Letters, cu acces liber: satelitul poate urmări nivelul apei cu încredere mare pe 37,5% din canale și cu încredere medie pe încă 46,9% — în total, peste opt din zece kilometri de canale studiate. Pe restul, mai ales unde vegetația deasă umbrește apa, semnalul e slab.
+
+Unde bat probele: Probat ce arată lucrarea: metoda (un indicator nou de încredere, calibrat pe măsurători reale din SUA), cifrele pe cele 795.110 kilometri de canale din Asia și hărțile de încredere publicate. Contestat/limitat: e un studiu de fezabilitate („proof of concept”), nu un instrument gata de folosit de fermieri; vegetația deasă și canalele foarte înguste rămân puncte oarbe, iar cercetătorii înșiși spun că algoritmii trebuie să se îmbunătățească. Verificate: 3 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>Karolinska Institutet: aproape 800.000 de pacienți cu cancer, comparați cu 3,7 milioane de persoane fără cancer, au un risc de stop cardiac în afara spitalului cu 55% mai mare — de până la șase ori mai mare în primul an, la cancerul pulmonar și la cel neurologic</title>
       <link>https://farabaliverne.ro/a/karolinska-cancer-stop-cardiac-extraspitalicesc-risc.html</link>
@@ -486,26 +506,6 @@ Unde bat probele: Probat — descoperire confirmată spectroscopic, publicată p
       <description>Un studiu condus de Yunhe Wang, de la Institutul de Oceanologie al Academiei Chineze de Științe, publicat pe 19 august 2026 în Nature, arată că Antarctica a câștigat circa 695 de miliarde de tone de gheață între 2021 și 2023 — cel mai mare câștig observat de sateliții GRACE. Pe rețele, postări ajunse la peste 8 milioane de vizualizări au folosit cifra ca să susțină că „încălzirea globală s-a oprit” sau că „ridicarea nivelului mării e o minciună”. Cercetătorii, inclusiv autorii studiului, spun explicit că nu asta arată datele.
 
 Unde bat probele: Probat că gheața a crescut temporar; contrazis că asta infirmă încălzirea globală sau creșterea nivelului mării. Verificate: 2 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Petrolierul El Gaia a luat foc lângă Oman: IRGC spune că a lovit o mină iraniană, CENTCOM spune că a fost atacat cu rachetă și dronă — un dispărut din echipajul indian</title>
-      <link>https://farabaliverne.ro/a/hormuz-el-gaia-petrolier-mina-sau-atac-irgc-centcom.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/hormuz-el-gaia-petrolier-mina-sau-atac-irgc-centcom.html</guid>
-      <pubDate>Wed, 16 Sep 2026 04:45:38 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Petrolierul El Gaia, sub pavilion panamez și cu echipaj indian, a luat foc în weekendul 13-14 septembrie 2026 în apele din largul Omanului. Media de stat iraniană (IRIB, preluată de PressTV) și Garda Revoluționară (IRGC) susțin că vasul a lovit o mină navală iraniană, pe o rută pe care Teheranul o declarase interzisă. Comandamentul american CENTCOM respinge explicit această variantă, spunând că e „falsă” și că petrolierul a fost lovit cu o rachetă iraniană luna trecută, apoi cu o dronă în acest weekend. Ministerul de Externe al Indiei confirmă doar partea necontestată: 13 din cei 14 membri ai echipajului au fost salvați, un marinar rămâne dispărut.
-
-Unde bat probele: Contestat — două versiuni oficiale contrare, fără confirmare independentă a cauzei. Verificate: 4 probate, 2 contestate.</description>
-    </item>
-    <item>
-      <title>Uniforma școlară obligatorie a trecut de Comisia din Senat, în scandal — dar argumentul PSD despre bullying nu are studii în spate</title>
-      <link>https://farabaliverne.ro/a/uniforme-scolare-comisie-senat-bullying-studii.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/uniforme-scolare-comisie-senat-bullying-studii.html</guid>
-      <pubDate>Wed, 16 Sep 2026 04:45:38 +0000</pubDate>
-      <category>Politică</category>
-      <description>Comisia pentru Învățământ a Senatului a dat marți, 15 septembrie 2026, raport favorabil proiectului PSD (L443/2026) care introduce uniforma obligatorie în școlile de stat, după o dezbatere care a alunecat în insulte între senatorii PSD și USR. Argumentul central al inițiatorilor — că uniforma reduce bullying-ul și discriminarea economică între elevi — nu este susținut de studiile disponibile, spune chiar Ministerul Educației.
-
-Unde bat probele: Votul din comisie e real; afirmația că uniforma reduce bullying-ul nu e susținută de studiile citate. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
