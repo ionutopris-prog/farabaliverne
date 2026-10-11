@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 10 Oct 2026 07:22:50 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 07:20:53 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Jonathan, o țestoasă gigant de pe insula Sfânta Elena, are 194 de ani și e cel mai vechi animal terestru viu din lume. O echipă condusă de organizația americană Kallel, cu un cercetător de la Cambridge, i-a analizat genomul și epigenomul și a găsit 287 de variante genetice unice, legate de reparare ADN, inflamație, insulină și supresie tumorală, plus un „ceas” epigenetic neobișnuit de stabil pentru vârsta lui</title>
+      <link>https://farabaliverne.ro/a/testoasa-jonathan-194-ani-gene-epigenom-longevitate-science-advances.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/testoasa-jonathan-194-ani-gene-epigenom-longevitate-science-advances.html</guid>
+      <pubDate>Sat, 10 Oct 2026 04:23:38 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Jonathan, o țestoasă gigant de Aldabra (Aldabrachelys gigantea), a eclozat în jurul anului 1832 și trăiește din 1882 la Plantation House, reședința guvernatorului insulei Sfânta Elena (teritoriu britanic de peste mări, Atlanticul de Sud) — e contemporan cu Charles Darwin și cu regina Victoria, cel mai vechi animal terestru viu cunoscut azi. O echipă condusă de organizația americană de cercetare a longevității Kallel, cu participarea lui Justin Gerlach de la Universitatea Cambridge, i-a secvențiat genomul și, pentru prima dată la o țestoasă gigant, i-a cartografiat epigenomul — „întrerupătoarele” chimice care pornesc și opresc genele și care, de regulă, se schimbă cu vârsta. Lucrarea a apărut în Science Advances pe 7 octombrie 2026.
+
+Unde bat probele: Probat ce arată studiul, descris de Cambridge și de pre-printul aceleiași echipe: 287 de variante genetice unice la Jonathan, în gene legate de repararea ADN-ului, reducerea inflamației, reglarea insulinei și suprimarea tumorilor, plus un epigenom (switch-urile de pe genele de reparare și metabolism) neobișnuit de asemănător cu cel al unor țestoase mai tinere din aceeași specie. Contestat: observația vine de la UN singur animal extrem de longeviv, comparat cu un număr mic de alte țestoase — e o corelație, nu o dovadă de cauzalitate; iar organizația care conduce studiul anunță direct, în comunicatul Cambridge, că vrea să transforme descoperirea în „tratamente” pentru oameni.. Verificate: 3 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>Spitalele adoptă inteligența artificială pentru diagnostic, radioterapie și triaj — dar costul ei de mediu rămâne, aproape mereu, întrebarea pe care nimeni n-a pus-o: o revizie sistematică a 47 de studii, de la Universitatea Norvegiană de Știință și Tehnologie (NTNU), arată inițiative „izolate”, fără o imagine de ansamblu</title>
       <link>https://farabaliverne.ro/a/ntnu-ai-verde-sanatate-mediu-artificial-intelligence-medicine.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu limitele metodologice recunoscute chiar de autori. 
       <description>O echipă condusă de Kevin Luhman (Penn State) și Catarina Alves de Oliveira (ESA) a folosit telescopul spațial James Webb pentru a găsi, în regiunea de formare stelară IC 348, obiecte de doar aproximativ două mase joviene — cele mai puțin masive pitice brune confirmate spectroscopic până acum. Rezultatele au fost publicate în The Astrophysical Journal Letters, iar NASA a anunțat pe 15 septembrie 2026 imaginile complete ale sondajului.
 
 Unde bat probele: Probat — descoperire confirmată spectroscopic, publicată peer-review; clasificarea „nouă” a semnăturii chimice e propunerea autorilor, nu un fapt încă validat independent. Verificate: 2 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Antarctica a câștigat 695 de miliarde de tone de gheață — dar postările virale care spun că asta infirmă încălzirea globală nu se susțin</title>
-      <link>https://farabaliverne.ro/a/antarctica-castig-gheata-viral-incalzire-globala.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/antarctica-castig-gheata-viral-incalzire-globala.html</guid>
-      <pubDate>Wed, 16 Sep 2026 06:57:30 +0000</pubDate>
-      <category>Știință</category>
-      <description>Un studiu condus de Yunhe Wang, de la Institutul de Oceanologie al Academiei Chineze de Științe, publicat pe 19 august 2026 în Nature, arată că Antarctica a câștigat circa 695 de miliarde de tone de gheață între 2021 și 2023 — cel mai mare câștig observat de sateliții GRACE. Pe rețele, postări ajunse la peste 8 milioane de vizualizări au folosit cifra ca să susțină că „încălzirea globală s-a oprit” sau că „ridicarea nivelului mării e o minciună”. Cercetătorii, inclusiv autorii studiului, spun explicit că nu asta arată datele.
-
-Unde bat probele: Probat că gheața a crescut temporar; contrazis că asta infirmă încălzirea globală sau creșterea nivelului mării. Verificate: 2 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
