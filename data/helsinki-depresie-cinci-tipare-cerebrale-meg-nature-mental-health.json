@@ -1,0 +1,81 @@
+{
+  "slug": "helsinki-depresie-cinci-tipare-cerebrale-meg-nature-mental-health",
+  "title": "Depresia nu e o singură boală: cercetători de la Universitatea Helsinki și Universitatea Aalto au găsit, cu magnetoencefalografie, cel puțin cinci tipare diferite de activitate electrică a creierului la 263 de pacienți cu depresie majoră, fiecare legat de alt profil de simptome",
+  "seoTitle": "Depresia are cel puțin cinci tipare cerebrale diferite",
+  "category": "Minți luminate",
+  "tara": "Finlanda",
+  "date": "2026-10-12",
+  "source": "Nature Mental Health · Universitatea Helsinki, Universitatea Aalto",
+  "url": "https://doi.org/10.1038/s44220-026-00723-4",
+  "dek": "La Universitatea Helsinki și Universitatea Aalto, o echipă condusă de Wenya Liu și Satu Palva a măsurat cu magnetoencefalografie (MEG) activitatea electrică a creierului la 263 de pacienți cu depresie majoră și 75 de oameni sănătoși, parte dintr-un studiu clinic finlandez, „Meliora” (NCT05426265). Rezultatul, publicat în Nature Mental Health pe 31 august 2026, cu acces liber (CC BY 4.0): sub aceeași etichetă, „depresie”, se ascund cel puțin cinci tipare diferite de conectivitate electrică între regiunile creierului, fiecare legat de alt profil de simptome — de la anxietate și gânduri repetitive, la traumă sau abuz de substanțe.",
+  "mainVerdict": "Probat ce raportează lucrarea: metoda (MEG plus RMN structural, la 263 de pacienți cu depresie și 75 de martori sănătoși), cele cinci tipare de conectivitate electrică găsite prin analiză statistică și legătura fiecăruia cu alt profil de simptome. Contestat: studiul e „transversal” — o singură măsurare, nu o urmărire în timp —, autorii spun explicit că tiparele nu sunt încă un instrument de diagnostic și că validarea pe alte loturi de pacienți nu s-a făcut încă; doi dintre autori sunt acționari la o companie care dezvoltă un tratament digital pentru depresie, pe un brevet al Universității Aalto",
+  "probat": [
+    {
+      "text": "Lucrarea „Magnetoencephalography oscillation-based functional connectivity identifies clinically relevant depression phenotypes” a apărut în Nature Mental Health (portofoliul Nature), cu acces liber (Creative Commons BY 4.0, finanțat de Universitatea Helsinki). Autoare corespondente: Wenya Liu și Satu Palva. Restul echipei: Maria Vesterinen, Alexandra Andersson, Paula Partanen, Samanta Knapič, Joonas J. Juvonen, Felix Siebenhühner, Antti Salonen, Hanna Renvall, Risto J. Ilmoniemi, Eero Castrén, Erkki Isometsä, J. Matias Palva (Universitatea Helsinki și Universitatea Aalto, Finlanda) și Dimitri Van De Ville (EPFL și Universitatea Geneva, Elveția). Finanțare: Fundația Ella și Georg Ehrnrooth, Fundația Culturală Finlandeză, programul „Multi-Channel Psych” al Wellcome Leap.",
+      "sources": [
+        {
+          "name": "Nature Mental Health — lucrarea, cu acces liber",
+          "url": "https://doi.org/10.1038/s44220-026-00723-4"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a făcut: datele vin dintr-un substudiu al „Meliora RCT”, un studiu clinic finlandez remote, randomizat, dublu-orb (NCT05426265). 263 de adulți (18-65 ani) cu depresie majoră confirmată prin interviu clinic (MINI 6.0.0, criteriile DSM-IV) și 75 de oameni sănătoși, recrutați prin trei spitale/clinici finlandeze (Helsinki, Turku, Mehiläinen) și prin rețele sociale, au făcut MEG de repaus plus RMN structural. Din semnalul MEG, reconstruit la nivelul surselor din creier, echipa a calculat două măsuri de conectivitate funcțională — sincronizare de fază (PS) și corelație de amplitudine (AC) — și le-a redus statistic la componente care leagă activitatea cerebrală de simptome, apoi a grupat pacienții după acele componente.",
+      "sources": [
+        {
+          "name": "Nature Mental Health — secțiunea „Methods”, „Recruitment” și „Participants”",
+          "url": "https://doi.org/10.1038/s44220-026-00723-4"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit: cinci tipare („clustere”), fiecare cu alt tipar spectral și spațial de conectivitate și alt profil de simptome. Două tipare au conectivitate mai mare decât la martorii sănătoși (unul cu simptome severe pe mai multe domenii și legătură cu ruminație; altul, cel mai puternic, cu profil dominat de abuz de substanțe), două au conectivitate mai mică (simptome mai ușoare, unul specific pentru simptome de stres post-traumatic), iar unul se aseamănă cu martorii sănătoși. Echipa a găsit și diferențe între sexe (contribuția benzii beta la conectivitate a apărut doar la bărbați) și o legătură cu frecvența-vârf alfa individuală (iAF), un marker neurofiziologic deja asociat cu funcționarea cognitivă.",
+      "sources": [
+        {
+          "name": "Nature Mental Health — secțiunea „Results” și „Discussion”",
+          "url": "https://doi.org/10.1038/s44220-026-00723-4"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Studiul e transversal: o singură măsurare pe fiecare pacient, nu o urmărire în timp. Nu se știe dacă un pacient rămâne în același tipar luni sau ani mai târziu, nici dacă tiparul prezice cine răspunde la ce tratament — autorii scriu explicit că „este necesară muncă suplimentară cu seturi de date independente pentru a valida și rafina aceste fenotipuri și pentru a le evalua utilitatea clinică”. Cele cinci tipare au fost verificate doar prin re-eșantionare în interiorul aceluiași lot de pacienți, nu pe alt lot, din altă țară.",
+      "sources": [
+        {
+          "name": "Nature Mental Health — secțiunea „Discussion”, ultimele paragrafe",
+          "url": "https://doi.org/10.1038/s44220-026-00723-4"
+        }
+      ]
+    },
+    {
+      "text": "Autorii înșiși spun că magnetoencefalografia „nu e probabil să devină un instrument de diagnostic de primă linie pentru toți pacienții cu depresie majoră”, ci ar putea ajuta doar în clinici specializate. Tiparele găsite sunt, în cuvintele lor, „markeri candidați pentru stratificare mecanicistă”, nu biomarkeri de diagnostic gata de folosit. Lotul e și el specific: pacienți finlandezi cu vârste 18-65 de ani, cu tratament psihiatric existent, fără gânduri suicidare active (excluse din studiu).",
+      "sources": [
+        {
+          "name": "Nature Mental Health — secțiunea „Discussion”",
+          "url": "https://doi.org/10.1038/s44220-026-00723-4"
+        }
+      ]
+    },
+    {
+      "text": "🔴 Conflict de interese, declarat chiar în lucrare: J. Matias Palva (angajat part-time) și Joonas J. Juvonen și Antti Salonen (angajați) lucrează la Soihtu DTx Ltd., o companie care dezvoltă un tratament digital pentru depresie majoră, pe un brevet transferat de la Universitatea Aalto, pe care J.M. Palva, J.J. Juvonen și Satu Palva (autoare corespondentă) sunt co-inventatori. Lucrarea spune că firma „nu a avut niciun rol în conceperea, desfășurarea, analiza datelor sau finanțarea studiului” — dar interesul comercial în ideea de „fenotipuri personalizate ale depresiei” e real și declarat, nu dedus de noi.",
+      "sources": [
+        {
+          "name": "Nature Mental Health — secțiunea „Competing interests”",
+          "url": "https://doi.org/10.1038/s44220-026-00723-4"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Timp de decenii, „depresie” a fost o singură cutie în care intrau oameni foarte diferiți — unul care nu mai poate dormi de anxietate, altul tocit de o traumă veche, altul luptând cu alcoolul. Că cei 263 de pacienți din Helsinki s-au împărțit, din datele creierului lor, în cinci grupuri cu profiluri de simptome diferite confirmă, cu aparatură, ceea ce orice psihiatru vede în cabinet: eticheta e una, bolile de dedesubt sunt mai multe. Asta nu înseamnă că mâine un RMN îți spune ce pastilă să iei — autorii o spun limpede, e un prim pas spre acolo, nu pasul final. Și, fiindcă doi dintre ei au deja o companie construită pe ideea asta, merită urmărit ce produs comercial va ieși din cercetare, nu doar rezultatul științific."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, cu link către original. REZUMAT, nu traducere integrală — licența e CC BY 4.0, care ar permite-o, dar lucrarea e un articol tehnic de neuroștiințe, cu metode de semnal și statistică; am tradus și explicat rezultatele, nu tot textul.\n\nCe s-a verificat: că lucrarea există în Nature Mental Health, cu titlul, autorii, afilierile, licența CC BY 4.0 și data publicării (31 august 2026) citate corect; numărul de pacienți și martori; cele cinci tipare și descrierea lor; secțiunile „Discussion”, „Limitations” (implicite, în ultimele paragrafe ale discuției) și „Competing interests”. Ce am adăugat noi: context despre ce înseamnă „transversal” și de ce conflictul de interese al autorilor contează pentru cititor, fără să sugerăm că cercetarea e, din cauza lui, mai puțin validă.",
+  "persoane": [
+    "Wenya Liu",
+    "Satu Palva"
+  ],
+  "math": null
+}
