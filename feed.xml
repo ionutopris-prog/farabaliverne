@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Mon, 12 Oct 2026 07:27:52 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 07:18:45 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Depresia nu e o singură boală: cercetători de la Universitatea Helsinki și Universitatea Aalto au găsit, cu magnetoencefalografie, cel puțin cinci tipare diferite de activitate electrică a creierului la 263 de pacienți cu depresie majoră, fiecare legat de alt profil de simptome</title>
+      <link>https://farabaliverne.ro/a/helsinki-depresie-cinci-tipare-cerebrale-meg-nature-mental-health.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/helsinki-depresie-cinci-tipare-cerebrale-meg-nature-mental-health.html</guid>
+      <pubDate>Mon, 12 Oct 2026 04:29:12 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>La Universitatea Helsinki și Universitatea Aalto, o echipă condusă de Wenya Liu și Satu Palva a măsurat cu magnetoencefalografie (MEG) activitatea electrică a creierului la 263 de pacienți cu depresie majoră și 75 de oameni sănătoși, parte dintr-un studiu clinic finlandez, „Meliora” (NCT05426265). Rezultatul, publicat în Nature Mental Health pe 31 august 2026, cu acces liber (CC BY 4.0): sub aceeași etichetă, „depresie”, se ascund cel puțin cinci tipare diferite de conectivitate electrică între regiunile creierului, fiecare legat de alt profil de simptome — de la anxietate și gânduri repetitive, la traumă sau abuz de substanțe.
+
+Unde bat probele: Probat ce raportează lucrarea: metoda (MEG plus RMN structural, la 263 de pacienți cu depresie și 75 de martori sănătoși), cele cinci tipare de conectivitate electrică găsite prin analiză statistică și legătura fiecăruia cu alt profil de simptome. Contestat: studiul e „transversal” — o singură măsurare, nu o urmărire în timp —, autorii spun explicit că tiparele nu sunt încă un instrument de diagnostic și că validarea pe alte loturi de pacienți nu s-a făcut încă; doi dintre autori sunt acționari la o companie care dezvoltă un tratament digital pentru depresie, pe un brevet al Universității Aalto. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>O analiză a 22 de studii, condusă de Universitatea din Reading: grăsimile trans NATURALE din lapte, unt, iaurt și brânză nu s-au legat de un risc mai mare de boli de inimă sau de diabet de tip 2 — spre diferență de cele industriale</title>
       <link>https://farabaliverne.ro/a/reading-grasimi-trans-lactate-inima-diabet-nutrition-research.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
       <description>Glioblastomul, cea mai agresivă formă de cancer cerebral, are o supraviețuire mediană de doar 12-15 luni chiar cu cel mai bun tratament de azi. O echipă de la MIT Media Lab, condusă de Deblina Sarkar, a construit niște „nanoantene” de circa 150 de nanometri, care se injectează în țesut și se activează din exterior, printr-un câmp magnetic slab ce trece prin craniu, producând câmpuri electrice minuscule exact acolo unde sunt nanoantenele. Pe celule tumorale rezistente la tratament, luate de la pacienți reali, tehnologia (numită HITMAN) a ucis 52,2% dintre celule, de peste cinci ori mai mult decât medicamentul standard, temozolomida, fără să afecteze neuronii sănătoși din jur. La șoareci cu tumoră, supraviețuirea mediană a crescut cu peste 50%, fără toxicitate observată la alte organe. Lucrarea a apărut în Science Advances, cu acces liber, pe 9 septembrie 2026. Nu s-a testat pe niciun om.
 
 Unde bat probele: Probat ce descrie lucrarea: mecanismul nanoantenelor, testele pe celule tumorale rezistente luate de la pacienți și pe șoareci cu tumoră implantată, cifrele de eficacitate și de supraviețuire. Contestat: tot ce s-a arătat e in vitro și pe animale — nu există, deocamdată, niciun studiu pe oameni, iar calea de la injecția din laborator la un tratament administrabil simplu, la un pacient, nu e demonstrată în această lucrare. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Singurătatea cronică fură ani de viață fără boală, arată un studiu pe 277.000 de britanici — mai mult din sănătatea mintală decât din cea fizică</title>
-      <link>https://farabaliverne.ro/a/singuratate-izolare-sociala-biobank-speranta-viata.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/singuratate-izolare-sociala-biobank-speranta-viata.html</guid>
-      <pubDate>Wed, 16 Sep 2026 07:02:05 +0000</pubDate>
-      <category>Știință</category>
-      <description>Un studiu de cohortă publicat pe 20 august 2026 în Nature Communications, realizat de cercetători de la Universitatea Fudan, Universitatea Tulane și Harvard, a urmărit timp de 13,8 ani, în medie, 277.489 de participanți la UK Biobank și a calculat câți ani de viață liberi de boală majoră pierd oamenii singuri sau izolați social — separat pentru boli fizice și pentru tulburări mintale.
-
-Unde bat probele: Probat, cu limitele metodologice recunoscute chiar de autori. Verificate: 2 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
