@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 13 Oct 2026 07:18:45 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 07:23:18 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O fractură de șold, la 81 de ani în medie, ucide până la un pacient din cinci într-un an. O analiză din JAMA, discutată de Harvard Gazette, o pune alături de infarct și de AVC — dar comparația e din interviu, nu din statisticile lucrării</title>
+      <link>https://farabaliverne.ro/a/harvard-fractura-sold-infarct-avc-mortalitate-jama.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/harvard-fractura-sold-infarct-avc-mortalitate-jama.html</guid>
+      <pubDate>Tue, 13 Oct 2026 04:19:47 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Pe 8 octombrie 2026, Harvard Gazette a publicat un interviu cu endocrinologa Joy N. Tsai, de la Massachusetts General Hospital și Harvard Medical School, coautoare a analizei „Hip Fractures: A Review”, apărută în JAMA pe 11 august 2026 împreună cu Fjola Johannesdottir, Jimmie E. Roberts și Douglas P. Kiel. În interviu, Tsai spune că „o fractură de șold echivalează cu un infarct sau un AVC” ca risc de deces. Analiza adună cifre din literatura medicală: în lume, o fractură de șold la fiecare două secunde; în SUA, una la 30 de secunde; vârsta medie la fractură, 81 de ani; mortalitatea la un an, în jur de 22% (26,9% la bărbați și 18,5% la femei, în SUA, 2008-2017). Tsai are și un interes de declarat: soțul ei lucrează la Amgen, companie care produce două dintre medicamentele pentru osteoporoză discutate în text.
+
+Unde bat probele: Probat ce arată analiza publicată în JAMA: amploarea fracturilor de șold (14,2 milioane de cazuri pe an în lume), mortalitatea ridicată la un an și factorii de risc cunoscuți — vârsta, densitatea osoasă scăzută, fracturile anterioare, genetica. Contestat: comparația explicită cu infarctul și AVC-ul e o formulare din interviul de la Harvard Gazette, nu o concluzie statistică a lucrării din JAMA, care nu pune cele trei evenimente față în față; iar fiind un review, cifrele vin din alte studii, mai vechi, nu din date noi culese de autori. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Depresia nu e o singură boală: cercetători de la Universitatea Helsinki și Universitatea Aalto au găsit, cu magnetoencefalografie, cel puțin cinci tipare diferite de activitate electrică a creierului la 263 de pacienți cu depresie majoră, fiecare legat de alt profil de simptome</title>
       <link>https://farabaliverne.ro/a/helsinki-depresie-cinci-tipare-cerebrale-meg-nature-mental-health.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</desc
       <description>Digi24 a analizat, pe 16 septembrie 2026, modul în care agenția rusă news.ru (afiliată statului) a relatat despre violențele din Piața Victoriei de pe 15 septembrie: singurul politician român citat a fost George Simion, liderul AUR, deși președintele Nicușor Dan și premierul interimar Ilie Bolojan au transmis reacții publice ferme în aceeași zi.
 
 Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>MIT: nanoantene magnetice injectabile, activate din afara capului printr-un câmp magnetic slab, au ucis 52% din celulele de glioblastom rezistente la chimioterapie într-o probă de laborator; la șoareci, supraviețuirea a crescut cu peste 50%</title>
-      <link>https://farabaliverne.ro/a/mit-hitman-nanoantene-magnetice-glioblastom.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-hitman-nanoantene-magnetice-glioblastom.html</guid>
-      <pubDate>Wed, 16 Sep 2026 08:27:33 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Glioblastomul, cea mai agresivă formă de cancer cerebral, are o supraviețuire mediană de doar 12-15 luni chiar cu cel mai bun tratament de azi. O echipă de la MIT Media Lab, condusă de Deblina Sarkar, a construit niște „nanoantene” de circa 150 de nanometri, care se injectează în țesut și se activează din exterior, printr-un câmp magnetic slab ce trece prin craniu, producând câmpuri electrice minuscule exact acolo unde sunt nanoantenele. Pe celule tumorale rezistente la tratament, luate de la pacienți reali, tehnologia (numită HITMAN) a ucis 52,2% dintre celule, de peste cinci ori mai mult decât medicamentul standard, temozolomida, fără să afecteze neuronii sănătoși din jur. La șoareci cu tumoră, supraviețuirea mediană a crescut cu peste 50%, fără toxicitate observată la alte organe. Lucrarea a apărut în Science Advances, cu acces liber, pe 9 septembrie 2026. Nu s-a testat pe niciun om.
-
-Unde bat probele: Probat ce descrie lucrarea: mecanismul nanoantenelor, testele pe celule tumorale rezistente luate de la pacienți și pe șoareci cu tumoră implantată, cifrele de eficacitate și de supraviețuire. Contestat: tot ce s-a arătat e in vitro și pe animale — nu există, deocamdată, niciun studiu pe oameni, iar calea de la injecția din laborator la un tratament administrabil simplu, la un pacient, nu e demonstrată în această lucrare. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
