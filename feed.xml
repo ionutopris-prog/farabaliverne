@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 14 Oct 2026 07:23:18 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 07:24:49 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cercetătorii de la Universitatea Michigan au construit un software, numit Kareus, care reduce cu până la 28,3% energia folosită la antrenarea modelelor mari de inteligență artificială, la același timp de antrenare — sau scurtează antrenarea cu până la 27,5%, la același consum</title>
+      <link>https://farabaliverne.ro/a/michigan-kareus-energie-antrenare-ai-osdi26.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/michigan-kareus-energie-antrenare-ai-osdi26.html</guid>
+      <pubDate>Wed, 14 Oct 2026 04:24:38 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Antrenarea modelelor mari de inteligență artificială consumă energie electrică din ce în ce mai scumpă, iar centrele de date care o fac cresc rapid ca pondere din consumul total. O echipă de la Universitatea Michigan, condusă de profesorul Mosharaf Chowdhury, a construit sistemul Kareus, care optimizează simultan două surse de consum (procesarea propriu-zisă și «energia statică» pierdută cât GPU-urile stau pornite fără să calculeze) prin reglarea fină a ordinii sarcinilor și a frecvenței procesoarelor grafice. Testat pe modele antrenate cu Megatron-LM, Kareus reduce energia cu până la 28,3% la același timp de antrenare, sau scurtează timpul cu până la 27,5% la același consum, față de metodele anterioare. Lucrarea a fost prezentată la simpozionul USENIX OSDI '26, în iulie 2026, la Seattle, și e disponibilă gratuit, inclusiv o versiune preprint pe arXiv.
+
+Unde bat probele: Probat ce raportează lucrarea: arhitectura sistemului Kareus, metoda (împărțirea optimizării în subprobleme locale și un algoritm multi-obiectiv care caută compromisul optim timp-energie) și cele două cifre de performanță, 28,3% și 27,5%, măsurate de autori față de metodele anterioare de ultimă generație. Contestat: cifrele sunt din testele proprii ale autorilor, pe modele și infrastructură alese de ei, nu dintr-o validare independentă într-un centru de date real; și reducerea nu înseamnă automat 28,3% mai puțină energie totală la nivelul unui data center, fiindcă antrenarea e doar o parte din consum.. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>O fractură de șold, la 81 de ani în medie, ucide până la un pacient din cinci într-un an. O analiză din JAMA, discutată de Harvard Gazette, o pune alături de infarct și de AVC — dar comparația e din interviu, nu din statisticile lucrării</title>
       <link>https://farabaliverne.ro/a/harvard-fractura-sold-infarct-avc-mortalitate-jama.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis. Verificate: 3 probate, 1 contestate.</description>
       <description>De la 25 august 2026, noul Cod al Amenajării Teritoriului, Urbanismului și Construcțiilor (Legea 169/2026) cere fiecărei unități administrative propriul arhitect-șef pentru a mai putea emite certificate de urbanism sau autorizații de construire. În județul Buzău, doar municipiile Buzău și Râmnicu Sărat și comuna Merei îndeplinesc condiția — restul de 84 de unități administrative nu mai pot elibera aceste documente.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>La protestele violente din Piața Victoriei, presa rusă de stat a citat un singur politician român: George Simion</title>
-      <link>https://farabaliverne.ro/a/piata-victoriei-presa-rusa-simion-singurul-citat.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/piata-victoriei-presa-rusa-simion-singurul-citat.html</guid>
-      <pubDate>Wed, 16 Sep 2026 10:08:42 +0000</pubDate>
-      <category>Media de stat</category>
-      <description>Digi24 a analizat, pe 16 septembrie 2026, modul în care agenția rusă news.ru (afiliată statului) a relatat despre violențele din Piața Victoriei de pe 15 septembrie: singurul politician român citat a fost George Simion, liderul AUR, deși președintele Nicușor Dan și premierul interimar Ilie Bolojan au transmis reacții publice ferme în aceeași zi.
-
-Unde bat probele: Probat. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
