@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 15 Oct 2026 07:24:49 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:21:54 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MIT: un «strat» de învățare automată care corectează erorile modelelor de prognoză dublează acuratețea prevederilor meteo pe intervalul de două până la șase săptămâni — considerat de decenii un «deșert al predictibilității» — și a terminat pe primul loc într-un concurs internațional al ECMWF</title>
+      <link>https://farabaliverne.ro/a/mit-prognoza-meteo-2-6-saptamani-postprocesare-nature.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-prognoza-meteo-2-6-saptamani-postprocesare-nature.html</guid>
+      <pubDate>Thu, 15 Oct 2026 04:25:30 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>De la teoria haosului a lui Edward Lorenz, din anii 1970, prognoza meteo dincolo de două săptămâni e considerată aproape la fel de sigură ca o zaruri la cazinou. O echipă cu cercetători de la MIT, Harvard, Universitatea Toronto, Microsoft și Centrul European pentru Prognoze Meteorologice pe Termen Mediu (ECMWF) a construit un «strat» de învățare automată care învață din greșelile trecute ale unui model de prognoză și le corectează. Aplicat modelului ECMWF, considerat cel mai bun din lume, a dublat puterea de predicție pe intervalul de două până la șase săptămâni («subsezonier») și a câștigat un concurs internațional de prognoză. Rezultatele, publicate în Nature pe 14 octombrie 2026, arată și o îmbunătățire semnificativă statistic a predicției vremii extreme. Ministerul meteorologiei din Kenya a cerut deja să folosească modelul pentru prognoza sezonului de monsoon.
+
+Unde bat probele: Probat ce descrie MIT: metoda (un strat de învățare automată care corectează erorile modelelor de prognoză existente), rezultatul din concursul ECMWF (locul 1, dublarea puterii de predicție pe intervalul subsezonier) și îmbunătățirea semnificativă statistic a predicției vremii extreme. Contestat: cifrele exacte ale îmbunătățirii nu sunt date în articolul MIT; testul-vitrină a fost un singur sezon de concurs; lucrarea din Nature are o licență care nu permite traducerea ei integrală, iar MIT nu spune cum se comportă modelul în regiunile cu istoric de date sărac. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Cercetătorii de la Universitatea Michigan au construit un software, numit Kareus, care reduce cu până la 28,3% energia folosită la antrenarea modelelor mari de inteligență artificială, la același timp de antrenare — sau scurtează antrenarea cu până la 27,5%, la același consum</title>
       <link>https://farabaliverne.ro/a/michigan-kareus-energie-antrenare-ai-osdi26.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
       <description>Înainte de protestul din 15 septembrie 2026 din Piața Victoriei, presa agricolă (agrointel.ro) și mai multe publicații au preluat estimarea organizatorilor: „aproximativ 200.000 de producători agricoli din toate sectoarele”. Jurnaliștii prezenți la fața locului, plus bilanțurile oficiale ale violențelor, arată o participare de ordinul miilor, nu al sutelor de mii.
 
 Unde bat probele: Contrazis. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Doar 3 din cele 87 de unități administrative din Buzău mai pot emite documente de urbanism, după intrarea în vigoare a noului Cod</title>
-      <link>https://farabaliverne.ro/a/buzau-cod-urbanism-blocaj-primarii-arhitect-sef.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/buzau-cod-urbanism-blocaj-primarii-arhitect-sef.html</guid>
-      <pubDate>Wed, 16 Sep 2026 10:11:30 +0000</pubDate>
-      <category>Politică</category>
-      <description>De la 25 august 2026, noul Cod al Amenajării Teritoriului, Urbanismului și Construcțiilor (Legea 169/2026) cere fiecărei unități administrative propriul arhitect-șef pentru a mai putea emite certificate de urbanism sau autorizații de construire. În județul Buzău, doar municipiile Buzău și Râmnicu Sărat și comuna Merei îndeplinesc condiția — restul de 84 de unități administrative nu mai pot elibera aceste documente.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
