@@ -1,0 +1,85 @@
+{
+  "slug": "ohsu-mancat-noaptea-risc-ficat-gras-ciroza-cgh",
+  "title": "OHSU, cu Massachusetts General Hospital: pe datele a trei cohorte americane de aproape 200.000 de oameni, cei care au declarat că mănâncă după cină sau înainte de culcare au, în analiza observațională, un risc cu 20-30% mai mare de ficat gras și ciroză decât cei care nu mănâncă noaptea",
+  "seoTitle": "E adevărat că mâncatul noaptea strică ficatul? Ce spun datele",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-10-17",
+  "source": "OHSU News · Clinical Gastroenterology and Hepatology",
+  "url": "https://doi.org/10.1016/j.cgh.2026.09.047",
+  "dek": "O echipă condusă de Oregon Health & Science University (OHSU), cu colegi de la Massachusetts General Hospital, a analizat obiceiurile alimentare auto-raportate ale a aproape 200.000 de participanți din trei mari studii americane de sănătate — Nurses' Health Study, Nurses' Health Study II și Health Professionals Follow-up Study. Cei care au declarat că mănâncă după cină sau înainte de culcare au avut, în analiză, un risc cu 20-30% mai mare de boală hepatică — ficat gras (steatoză hepatică) și ciroză — decât cei care nu mâncau noaptea. Lucrarea a apărut pe 9 octombrie 2026 în Clinical Gastroenterology and Hepatology. Autorul principal, hepatologul Robert Wilechansky, și coautorul Andrew McHill, care studiază ritmurile circadiene, spun amândoi același lucru: e un studiu observațional, pe date auto-raportate, nu un experiment care să dovedească cauzalitatea — abia urmează un studiu clinic la OHSU care să testeze direct dacă mâncatul mai timpuriu schimbă ceva la ficat.",
+  "mainVerdict": "Probat ce raportează OHSU despre propriul studiu: analiza pe trei cohorte americane de aproape 200.000 de persoane și legătura observată, de 20-30% risc mai mare, între a mânca noaptea și boala hepatică. Contestat: studiul e OBSERVAȚIONAL, pe date auto-raportate, și NU dovedește că mâncatul noaptea CAUZEAZĂ boala hepatică — lucru spus explicit de autorul principal; lucrarea e cu abonament, am citit comunicatul OHSU și metadatele de pe PubMed, nu textul integral cu statistica detaliată",
+  "probat": [
+    {
+      "text": "Lucrarea „Late-Night Eating is Associated with MASLD and Cirrhosis: The Nurses' Health Study and Health Professionals' Follow-Up Study” a apărut în Clinical Gastroenterology and Hepatology pe 9 octombrie 2026 (DOI 10.1016/j.cgh.2026.09.047, PMID 42858825). Autori: Robert M. Wilechansky (OHSU, autor corespondent), Kevin Casey, Andrew T. Chan și Tracey G. Simon (Massachusetts General Hospital, Boston), Andrew W. McHill (OHSU, Laboratorul de Somn, Cronobiologie și Sănătate). Finanțare: American Association for the Study of Liver Diseases Foundation, grant CTORA24-179910.",
+      "sources": [
+        {
+          "name": "PubMed — fișa lucrării (titlu, autori, afilieri, DOI, PMID)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42858825/"
+        },
+        {
+          "name": "OHSU News — comunicatul universității, 9 octombrie 2026",
+          "url": "https://news.ohsu.edu/2026/10/09/late-night-eating-may-be-bad-for-your-liver-study-suggests"
+        }
+      ]
+    },
+    {
+      "text": "Metoda, descrisă de OHSU: cercetătorii au analizat date auto-raportate despre dietă și stil de viață din trei studii naționale americane preexistente — Nurses' Health Study, Nurses' Health Study II și Health Professionals Follow-up Study — de la aproape 200.000 de participanți în total. I-au grupat după momentul la care declarau că mănâncă și au căutat o legătură cu boala hepatică raportată: steatoza hepatică asociată disfuncției metabolice (MASLD, „ficat gras”) și ciroza (cicatrizare avansată a ficatului).",
+      "sources": [
+        {
+          "name": "OHSU News — secțiunea despre metodă și cele trei cohorte",
+          "url": "https://news.ohsu.edu/2026/10/09/late-night-eating-may-be-bad-for-your-liver-study-suggests"
+        }
+      ]
+    },
+    {
+      "text": "Rezultat: cei care au declarat că mănâncă după cină sau înainte de culcare au avut un risc cu 20% până la 30% mai mare de boală hepatică (toate formele luate împreună) decât cei care nu mâncau noaptea. Context, tot din comunicat: ficatul gras afectează până la 30% din populația SUA, dar doar o mică parte dintre cei cu ficat gras ajung la forme grave, precum ciroza. Wilechansky: „Concluzia mare de aici e că limitarea caloriilor la câteva ore înainte de culcare ar putea fi benefică.”",
+      "sources": [
+        {
+          "name": "OHSU News — citatul lui Wilechansky și cifrele de risc",
+          "url": "https://news.ohsu.edu/2026/10/09/late-night-eating-may-be-bad-for-your-liver-study-suggests"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Studiul e OBSERVAȚIONAL, pe date auto-raportate — spune explicit chiar autorul principal. Wilechansky, citat de OHSU: studiul arată o ASOCIERE, nu o cauzalitate dovedită; participanții și-au raportat singuri obiceiurile alimentare, cu toate limitele memoriei și ale formulării chestionarelor. Nimeni n-a măsurat direct, în timp real, ora meselor sau starea ficatului — s-a lucrat cu ce au declarat oamenii, ani la rând, în chestionare.",
+      "sources": [
+        {
+          "name": "OHSU News — avertismentul explicit al lui Wilechansky",
+          "url": "https://news.ohsu.edu/2026/10/09/late-night-eating-may-be-bad-for-your-liver-study-suggests"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea e cu abonament (Elsevier); am citit comunicatul instituției-mamă (OHSU News) și fișa de pe PubMed, care conține titlul, autorii și afilierile, dar NU și rezumatul complet al lucrării (nu era încă indexat la data verificării). N-am avut acces la metodologia statistică detaliată — de pildă, ce factori confondanți (greutate, activitate fizică, alcool) au fost ajustați în calculul riscului de 20-30%.",
+      "sources": [
+        {
+          "name": "PubMed — fișa lucrării, fără rezumat disponibil",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42858825/"
+        }
+      ]
+    },
+    {
+      "text": "Nu există încă un studiu clinic care să testeze direct ideea. OHSU scrie că Wilechansky face parte dintr-o echipă care RECRUTEAZĂ acum participanți pentru un studiu care va monitoriza direct momentul meselor și va verifica dacă a mânca mai timpuriu îmbunătățește măsurile clinice ale ficatului gras — rezultatele acelui studiu nu există încă.",
+      "sources": [
+        {
+          "name": "OHSU News — paragraful despre noul studiu clinic, în recrutare",
+          "url": "https://news.ohsu.edu/2026/10/09/late-night-eating-may-be-bad-for-your-liver-study-suggests"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "E genul de rezultat care circulă ușor fără jumătatea a doua a propoziției: „mâncatul noaptea distruge ficatul” sună ca o lege a naturii, dar ce spune de fapt studiul e „oamenii care au declarat că mănâncă noaptea au raportat, de-a lungul anilor, mai multă boală hepatică” — o asociere statistică, pe date auto-raportate, pe care autorii înșiși o numesc un punct de pornire, nu o concluzie. Diferența dintre „asociat cu” și „cauzează” e exact diferența dintre ce putem spune azi și ce vom putea spune după studiul clinic pe care OHSU îl recrutează acum."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea e cu abonament (Elsevier, Clinical Gastroenterology and Hepatology) și nu era accesibilă integral; am folosit comunicatul OHSU News (sursa instituției-mamă a autorului principal) pentru citate și fapte, verificate față de fișa lucrării pe PubMed (titlu, autori, afilieri, DOI, PMID).\n\nCe s-a verificat: identitatea lucrării pe PubMed și pe pagina Elsevier/DOI; textul integral al comunicatului OHSU. Ce am adăugat noi, din comunicatul OHSU, dar scos la vedere, nu lăsat la subsol: că studiul e observațional, pe date auto-raportate, cu limitele spuse de autorul principal, și că un studiu clinic care să testeze cauzalitatea e abia în recrutare.",
+  "persoane": [
+    "Robert Wilechansky",
+    "Andrew McHill"
+  ],
+  "math": null
+}

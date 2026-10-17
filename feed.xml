@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:21:54 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 07:21:33 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Rutgers: oamenii care au început Ozempic sau Wegovy au, în 18 luni, cu 3-4 cazuri la 10.000 mai multe diagnostice de neuropatie optică ischemică decât cei care au început alte două clase de medicamente pentru diabet, într-un studiu pe baze de date de asigurări din SUA</title>
+      <link>https://farabaliverne.ro/a/rutgers-ozempic-wegovy-glp1-neuropatie-optica-ischemica.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/rutgers-ozempic-wegovy-glp1-neuropatie-optica-ischemica.html</guid>
+      <pubDate>Fri, 16 Oct 2026 04:22:58 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Pe TikTok și în grupurile de Facebook despre slăbit circulă de luni de zile întrebarea „e adevărat că Ozempic poate să-ți ia vederea?”. Patru cercetători de la Rutgers au comparat, în date de asigurări medicale din SUA (2017-2022), adulți cu diabet de tip 2 care au început un medicament din clasa GLP-1 (ca semaglutida, substanța din Ozempic și Wegovy) cu adulți care au început alte două clase de medicamente pentru diabet. În 18 luni, grupul GLP-1 a avut cu 3,0 cazuri la 10.000 mai multe diagnostice de neuropatie optică ischemică (o leziune bruscă a nervului optic, din lipsă de sânge) decât grupul cu un inhibitor SGLT2, și cu 3,6 cazuri la 10.000 mai multe decât grupul cu un inhibitor DPP-4. Publicat în Annals of Internal Medicine pe 23 septembrie 2026 (numărul din septembrie).
+
+Unde bat probele: Probat: studiul a găsit o diferență de risc mică, dar reală statistic, concentrată la bărbați și la cei peste 50 de ani, folosind un cod de diagnostic folosit ca aproximare pentru boala care dă pierderea bruscă de vedere. Contestat: riscul absolut rămâne foarte mic (3-4 cazuri suplimentare la 10.000 de pacienți), studiul nu arată cauzalitate, iar autorii spun explicit că o parte din diferență poate veni din alte boli ale pacienților, nu din medicament. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>MIT: un «strat» de învățare automată care corectează erorile modelelor de prognoză dublează acuratețea prevederilor meteo pe intervalul de două până la șase săptămâni — considerat de decenii un «deșert al predictibilității» — și a terminat pe primul loc într-un concurs internațional al ECMWF</title>
       <link>https://farabaliverne.ro/a/mit-prognoza-meteo-2-6-saptamani-postprocesare-nature.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu context: întârzierea e reală și documentată, d
       <description>Tribunalul Central din Seul a decis, pe 16 septembrie 2026, că regimul de la Phenian trebuie să plătească guvernului sud-coreean aproximativ 44,6 miliarde de woni (circa 32,5 milioane de dolari) pentru distrugerea, în 2020, a biroului de legătură comun din orașul de graniță Kaesong. E prima dată când statul sud-coreean cere și obține în instanță despăgubiri directe de la statul nord-coreean, dar decizia nu poate fi pusă în executare, iar Phenianul nu a comentat.
 
 Unde bat probele: Probat. Verificate: 3 probate, 0 contestate.</description>
-    </item>
-    <item>
-      <title>„200.000 de fermieri” erau așteptați în Piața Victoriei pe 15 septembrie. Câți au venit, de fapt</title>
-      <link>https://farabaliverne.ro/a/protest-fermieri-200000-asteptati-cati-au-venit.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/protest-fermieri-200000-asteptati-cati-au-venit.html</guid>
-      <pubDate>Wed, 16 Sep 2026 10:14:29 +0000</pubDate>
-      <category>Social</category>
-      <description>Înainte de protestul din 15 septembrie 2026 din Piața Victoriei, presa agricolă (agrointel.ro) și mai multe publicații au preluat estimarea organizatorilor: „aproximativ 200.000 de producători agricoli din toate sectoarele”. Jurnaliștii prezenți la fața locului, plus bilanțurile oficiale ale violențelor, arată o participare de ordinul miilor, nu al sutelor de mii.
-
-Unde bat probele: Contrazis. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
