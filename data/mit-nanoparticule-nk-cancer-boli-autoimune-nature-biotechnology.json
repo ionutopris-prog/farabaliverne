@@ -1,0 +1,119 @@
+{
+  "slug": "mit-nanoparticule-nk-cancer-boli-autoimune-nature-biotechnology",
+  "title": "MIT a creat nanoparticule care reprogramează celulele NK chiar în corpul pacientului, nu într-un laborator: pe șoareci, au dus la remisie completă un melanom agresiv și au vindecat o hepatită autoimună, dar niciun tratament de acest tip nu are încă aprobare FDA",
+  "seoTitle": "Celule NK reprogramate în corp, testate contra cancerului",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-10-18",
+  "source": "MIT News · Nature Biotechnology",
+  "url": "https://doi.org/10.1038/s41587-026-03310-1",
+  "dek": "Terapiile cu celule CAR, care învață sistemul imunitar să atace celule bolnave, cer azi ca celulele să fie scoase din pacient, modificate într-un laborator și reintroduse — un proces lent și scump. O echipă de la MIT, condusă de Daniel Anderson, a construit nanoparticule lipidice care livrează direct în corp instrucțiunile genetice (ARN mesager) ce transformă celulele NK (natural killer) ale pacientului în „vânători” de celule T bolnave, fără nicio extracție. Pe șoareci, particulele au reprogramat circa 80% din celulele NK vizate, au dus la remisie completă un melanom agresiv la 3 din 5 animale, au eradicat un limfom după cinci injecții și au vindecat o hepatită autoimună după o singură injecție. Rezultatele au apărut în Nature Biotechnology pe 13 octombrie 2026; nicio terapie CAR NK nu are încă aprobare FDA, iar testele pe oameni nu au început.",
+  "mainVerdict": "Probat ce descrie MIT: metoda (nanoparticule lipidice cu ARN mesager, acoperite cu fragmente de anticorp, care reprogramează celulele NK direct în corp) și rezultatele pe șoareci, cu cifrele lor. Contestat: totul s-a făcut pe șoareci, nu pe oameni; eșantioanele sunt mici (3 din 5 animale la melanom); nicio terapie CAR NK nu are aprobare FDA; iar cercetarea e finanțată, printre alții, de compania farmaceutică Sanofi",
+  "probat": [
+    {
+      "text": "Lucrarea „In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles” a apărut în Nature Biotechnology pe 13 octombrie 2026. Autor senior: Daniel Anderson, profesor la Departamentul de Inginerie Chimică de la MIT, membru al Koch Institute for Integrative Cancer Research și al Institute for Medical Engineering and Science (IMES). Autori principali: Yuang Chen (postdoctorand MIT), Julia Monkovic și Haseeb Mughal (doctoranzi MIT). Printre ceilalți autori: Robert Langer, profesor „David H. Koch” la MIT. Finanțare: Sanofi, Marble Center for Cancer Nanomedicine și un grant de bază („core”) al Koch Institute de la National Cancer Institute.",
+      "sources": [
+        {
+          "name": "MIT News — articolul din 13 octombrie 2026 (tradus integral mai jos)",
+          "url": "https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013"
+        },
+        {
+          "name": "Nature Biotechnology — pagina lucrării (acces cu abonament)",
+          "url": "https://doi.org/10.1038/s41587-026-03310-1"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a făcut: terapiile existente cu celule „CAR” (care învață celulele imunitare să recunoască și să atace o țintă, cum e o proteină de pe celulele canceroase) cer ca celulele pacientului să fie extrase, trimise în laborator, modificate genetic și reintroduse — un proces lent și costisitor, folosit azi mai ales cu celule T, împotriva unor cancere de sânge. Echipa MIT a construit nanoparticule lipidice care livrează ARN mesager direct celulelor NK (natural killer) din corp, fără nicio extracție; particulele sunt acoperite cu fragmente de anticorp care se leagă de receptori de pe celulele NK, ca să ajungă la ținta corectă. ARN-ul instruiește celulele NK să atace fie celule B bolnave (prin proteina CD19), fie celule T autoreactive (prin proteina CD3).",
+      "sources": [
+        {
+          "name": "MIT News — secțiunile „To generate these cells” și cele despre CAR T/CAR NK",
+          "url": "https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit, pe șoareci: particulele au reprogramat cu succes circa 80% din celulele NK vizate. Într-un model de melanom agresiv, 3 din 5 șoareci tratați au intrat în remisie completă. Într-un model de limfom T, pe șoareci „umanizați” (cu un sistem imunitar uman transplantat temporar), tumorile au fost eradicate după cinci injecții — un rezultat comparabil cu metoda convențională, cu celule extrase și modificate în laborator. La șoareci cu hepatită autoimună (în care celulele T atacă ficatul), o singură injecție a distrus celulele T autoreactive și a vindecat leziunile hepatice.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea cu rezultatele pe șoareci",
+          "url": "https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Tot ce s-a raportat e pe șoareci, nu pe oameni, și eșantioanele sunt mici: „3 din 5” la melanom înseamnă literalmente trei animale, nu un procent dintr-un studiu amplu; la limfom și hepatită autoimună, MIT News nu dă numărul de șoareci folosiți. Nicio terapie CAR NK, cu nicio metodă de fabricare, nu are azi aprobare FDA — textul MIT o spune direct. Distanța dintre „a vindecat șoareci” și „tratament aprobat pentru oameni” e, pentru terapiile CAR T comparabile, de ani de studii clinice.",
+      "sources": [
+        {
+          "name": "MIT News — formularea „Currently, there are no FDA-approved CAR NK cell therapies”",
+          "url": "https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013"
+        }
+      ]
+    },
+    {
+      "text": "Interes comercial, declarat chiar în articolul MIT: cercetarea e finanțată, printre alții, de Sanofi, companie farmaceutică cu interes direct în terapii celulare. Nu e un motiv să respingi rezultatul — Sanofi n-a scris lucrarea, iar finanțarea e declarată public — dar e un motiv să aștepți replicarea independentă înainte să tragi concluzii despre eficacitate la oameni.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea de finanțare",
+          "url": "https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea din Nature Biotechnology e cu abonament; am citit textul MIT, al instituției, nu lucrarea integrală. MIT News nu dă nici numărul total de șoareci din fiecare experiment, nici vreo măsură a siguranței pe termen lung a nanoparticulelor.",
+      "sources": [
+        {
+          "name": "Nature Biotechnology — lucrarea (abonament)",
+          "url": "https://doi.org/10.1038/s41587-026-03310-1"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Ideea e simplă de explicat și grea de făcut: în loc să scoți celulele dintr-un pacient ca să le „înveți” într-un laborator, trimiți chiar în corpul lui o nanoparticulă care face lecția pe loc. Dacă funcționează și la oameni, costul și timpul unei terapii azi de sute de mii de dolari ar putea scădea mult. Dar „a vindecat 3 șoareci din 5” și „a vindecat oameni” sunt propoziții diferite, iar istoria terapiilor CAR arată că distanța dintre ele se măsoară în ani, nu în luni."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, redacția Institutului de Tehnologie din Massachusetts, articol semnat de Anne Trafton, publicat pe 13 octombrie 2026. Republicat conform politicii lor oficiale de reutilizare a textului (news.mit.edu/terms-of-use), care cere titlul, subtitlul, semnătura autorului și mențiunea „MIT News” cu link la original în capul textului, plus „Reprinted with permission of MIT News” la final. Fotografiile lor NU sunt preluate.\n\n🔴 Ce trebuie știut: e textul instituției despre propria cercetare, nu lucrarea din Nature Biotechnology, care e cu abonament. Numărul exact de șoareci din experimentele cu limfom și hepatită autoimună nu apare în textul MIT.\n\nCe s-a verificat: că lucrarea există în Nature Biotechnology cu titlul citat, autorii, afilierile și finanțarea. Ce am adăugat noi: că rezultatele sunt doar pe șoareci, că nicio terapie CAR NK nu are aprobare FDA și că printre finanțatori e o companie farmaceutică — lucruri care sunt în textul MIT, dar nu în titlurile scurte care circulă.",
+  "persoane": [
+    "Daniel Anderson",
+    "Yuang Chen"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "Reprogrammed NK immune cells target cancer and autoimmune disorders",
+    "publicatie": "MIT News",
+    "autor": "Anne Trafton, MIT News",
+    "data": "13 octombrie 2026",
+    "url": "https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013",
+    "nota_sus": "Titlul în română: „Celule imunitare NK reprogramate vizează cancerul și bolile autoimune”. Subtitlul original: „A new approach can program these cells inside the body and shows promise against diseases caused by dysfunctional T cells, including lymphoma and autoimmune hepatitis” („O nouă metodă poate reprograma aceste celule direct în corp și arată promisiuni împotriva bolilor cauzate de celule T disfuncționale, inclusiv limfom și hepatită autoimună”).",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "Inginerii de la MIT au dezvoltat o nouă metodă de a reprograma celulele imunitare NK (natural killer, „ucigașe naturale”) ca să vizeze celule T canceroase sau celule T care au devenit autoreactive, ducând la boli precum limfomul și hepatita autoimună.",
+      "Folosind noua tehnică, cercetătorii pot reprograma celulele NK ca să vizeze celule T bolnave fără să le scoată vreodată din corpul pacientului. În schimb, folosesc nanoparticule lipidice ca să livreze ARN mesager direct celulelor NK. Aceste molecule de ARN codifică proteine care permit celulelor NK să caute și să distrugă celulele T disfuncționale.",
+      "Cunoscute drept celule CAR NK, aceste celule ar putea fi folosite împotriva unei varietăți de boli. Noua abordare a echipei de la MIT ar putea evita unul dintre obstacolele majore în folosirea acestor celule: timpul și costul fabricării lor în afara corpului.",
+      "„Provocările de fabricație ale celulelor CAR NK sunt semnificative. Ideea de aici e că poți livra o nanoparticulă care îți va modifica propriile celule NK cu un construct CAR și le va învăța să atace celulele tumorale”, spune Daniel Anderson, profesor la Departamentul de Inginerie Chimică de la MIT și membru al Koch Institute for Integrative Cancer Research și al Institute for Medical Engineering and Science al MIT.",
+      "Anderson este autorul senior al studiului, care apare astăzi în Nature Biotechnology. Autorii principali ai lucrării sunt postdoctorandul MIT Yuang Chen și doctoranzii MIT Julia Monkovic și Haseeb Mughal. Robert Langer, profesorul „David H. Koch” la MIT, este și el autor.",
+      "În ultimul deceniu, Agenția Americană pentru Alimente și Medicamente (FDA) a aprobat șapte tratamente noi împotriva cancerului, bazate pe celule T inginerite numite celule CAR T (cu receptor chimeric de antigen). Receptorii chimerici de antigen sunt proteine care pot fi integrate în celulele T, permițându-le să detecteze un antigen-țintă, cum ar fi o proteină a cancerului. Când ținta e detectată, celula T se activează și distruge celula-țintă.",
+      "Această abordare a avut mare succes în tratarea cancerelor de sânge, mai ales a celor care provin din celule B, inclusiv mai multe tipuri de leucemie, limfom și mielom multiplu.",
+      "Pentru a produce celule CAR T, medicii iau o probă de sânge de la pacient. Proba e trimisă într-un laborator, unde celulele T sunt izolate și apoi inginerite să exprime proteina CAR. Când s-au generat suficiente celule CAR T, ele sunt trimise înapoi la spital și infuzate în pacient.",
+      "În ultimii ani, cercetătorii au început să folosească o strategie similară pentru a crea celule CAR NK. Un avantaj potențial al celulelor CAR NK față de celulele CAR T este că ele ar putea fi folosite ca să ucidă celule T bolnave. Folosirea celulelor CAR T pentru a trata boli ale celulelor T funcționează, de multe ori, slab, fiindcă celulele T inginerite să vizeze proteine ale celulelor T pot ajunge să se ucidă între ele, pe lângă celulele T bolnave. Problema asta nu apare când se folosesc celule NK pentru a viza celule T.",
+      "„Celulele NK pot trata aceste boli maligne ale celulelor T — nu doar cancerul celulelor T, ci și boli autoimune ale celulelor T”, spune Chen.",
+      "Totuși, fabricarea unor cantități mari de celule CAR NK are multe dintre dificultățile pe care le are și generarea celulelor CAR T. Ca să simplifice procesul, echipa MIT a vrut să găsească o metodă de a genera celule CAR NK „in vivo” — adică chiar în corpul pacientului, fără să fie nevoie să se scoată vreo celulă.",
+      "„Dacă un pacient poate primi pur și simplu o infuzie de nanoparticule, procesul s-ar simplifica dramatic și costurile ar scădea”, spune Anderson.",
+      "În prezent, nu există terapii CAR NK aprobate de FDA, dar mulți cercetători lucrează la dezvoltarea lor pentru tratarea cancerului sau a bolilor autoimune.",
+      "Pentru a genera aceste celule, echipa MIT a conceput nanoparticule lipidice (LNP) care pot livra o încărcătură de ARN mesager. Aceste fire de ARN codifică un receptor CAR care poate fi direcționat spre tipuri specifice de celule. De exemplu, ar putea livra un CAR care vizează CD19, o proteină găsită pe celulele B, sau CD3, o proteină găsită pe celulele T autoreactive.",
+      "Particulele sunt acoperite cu fragmente de anticorp care se leagă de receptori aflați pe suprafața celulelor NK, ca să se asigure că ajung la țintele corecte.",
+      "După ce aceste particule au fost infuzate la șoareci, cercetătorii au constatat că au putut reprograma cu succes circa 80% din celulele NK vizate. Cercetătorii au testat apoi potențialul particulelor de a trata cancerul și hepatita autoimună, cauzată de celule T autoreactive.",
+      "Într-un model de șoarece cu o formă agresivă de melanom, trei din cei cinci șoareci care au primit LNP-uri ce au reprogramat celulele lor NK ca să vizeze celulele cancerului au intrat în remisie completă.",
+      "Cercetătorii au observat și o distrugere semnificativă a tumorilor când au folosit LNP-urile pentru a trata limfomul cu celule T într-un model de șoarece „umanizat”, creat atunci când șoarecii primesc transfuzii de celule sanguine umane, ceea ce le permite să genereze temporar un sistem imunitar asemănător celui uman.",
+      "La acești șoareci, tumorile au fost eradicate după cinci injecții cu LNP-urile de reprogramare. Acest rezultat a fost similar cu ce au observat cercetătorii când au tratat șoareci cu celule CAR NK generate prin metoda convențională — scoaterea celulelor NK, reprogramarea lor și reintroducerea în șoareci.",
+      "În cele din urmă, cercetătorii au demonstrat că LNP-urile lor pot genera celule CAR NK care vizează celule T autoreactive. Pentru această aplicație, au studiat șoareci cu hepatită autoimună, în care celulele T atacă hepatocitele din ficat. Au constatat că, la șoarecii tratați, celulele T autoreactive au fost distruse, iar leziunile hepatice s-au vindecat. Aceste efecte au fost observate după o singură injecție cu LNP-urile.",
+      "„Acest studiu e un exemplu excelent al puterii sistemelor de livrare la scară nanometrică și al capacității lor de a trata, potențial, cancerul și alte boli”, spune Langer.",
+      "Cercetătorii speră că aceste tipuri de celule NK inginerite ar putea fi folosite pentru a trata o varietate de boli autoimune cauzate de celule T disfuncționale, inclusiv scleroza multiplă și artrita reumatoidă.",
+      "Cercetarea a fost finanțată de Sanofi, de Marble Center for Cancer Nanomedicine și printr-un grant de bază („core”) al Koch Institute, oferit de National Cancer Institute."
+    ]
+  }
+}
