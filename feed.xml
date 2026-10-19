@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 18 Oct 2026 07:20:07 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 07:20:39 +0300</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MIT a creat nanoparticule care reprogramează celulele NK chiar în corpul pacientului, nu într-un laborator: pe șoareci, au dus la remisie completă un melanom agresiv și au vindecat o hepatită autoimună, dar niciun tratament de acest tip nu are încă aprobare FDA</title>
+      <link>https://farabaliverne.ro/a/mit-nanoparticule-nk-cancer-boli-autoimune-nature-biotechnology.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-nanoparticule-nk-cancer-boli-autoimune-nature-biotechnology.html</guid>
+      <pubDate>Sun, 18 Oct 2026 04:20:48 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Terapiile cu celule CAR, care învață sistemul imunitar să atace celule bolnave, cer azi ca celulele să fie scoase din pacient, modificate într-un laborator și reintroduse — un proces lent și scump. O echipă de la MIT, condusă de Daniel Anderson, a construit nanoparticule lipidice care livrează direct în corp instrucțiunile genetice (ARN mesager) ce transformă celulele NK (natural killer) ale pacientului în „vânători” de celule T bolnave, fără nicio extracție. Pe șoareci, particulele au reprogramat circa 80% din celulele NK vizate, au dus la remisie completă un melanom agresiv la 3 din 5 animale, au eradicat un limfom după cinci injecții și au vindecat o hepatită autoimună după o singură injecție. Rezultatele au apărut în Nature Biotechnology pe 13 octombrie 2026; nicio terapie CAR NK nu are încă aprobare FDA, iar testele pe oameni nu au început.
+
+Unde bat probele: Probat ce descrie MIT: metoda (nanoparticule lipidice cu ARN mesager, acoperite cu fragmente de anticorp, care reprogramează celulele NK direct în corp) și rezultatele pe șoareci, cu cifrele lor. Contestat: totul s-a făcut pe șoareci, nu pe oameni; eșantioanele sunt mici (3 din 5 animale la melanom); nicio terapie CAR NK nu are aprobare FDA; iar cercetarea e finanțată, printre alții, de compania farmaceutică Sanofi. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>OHSU, cu Massachusetts General Hospital: pe datele a trei cohorte americane de aproape 200.000 de oameni, cei care au declarat că mănâncă după cină sau înainte de culcare au, în analiza observațională, un risc cu 20-30% mai mare de ficat gras și ciroză decât cei care nu mănâncă noaptea</title>
       <link>https://farabaliverne.ro/a/ohsu-mancat-noaptea-risc-ficat-gras-ciroza-cgh.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis. Verificate: 1 probate, 1 contestate.</description>
       <description>Traian Băsescu a declarat sâmbătă, 13 septembrie 2026, la emisiunea „În fața ta”, că întârzierea desemnării unui premier de către Nicușor Dan „a produs mult rău României” și a invocat „obligația constituțională scrisă în articolul 83”. Cronologia crizei se confirmă din mai multe surse; obligația de a desemna un premier e reală, dar articolul corect e 103, nu 83 — iar aprecierea „mult rău” rămâne o judecată politică.
 
 Unde bat probele: Probat, cu o corecție de citare. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Zelenski spune că Rusia a atacat Moldova cu drone fiindcă acolo era avionul lui prezidențial — o sursă din biroul propriu vorbește însă de „o exagerare”</title>
-      <link>https://farabaliverne.ro/a/moldova-zelenski-avion-prezidential-drona-atac-tinta.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-zelenski-avion-prezidential-drona-atac-tinta.html</guid>
-      <pubDate>Wed, 16 Sep 2026 13:00:45 +0000</pubDate>
-      <category>Extern</category>
-      <description>Într-un interviu difuzat de CBS News pe 15 septembrie 2026, președintele ucrainean Volodimir Zelenski a declarat despre incursiunile de dronă din spațiul aerian moldovenesc de pe 8-9 septembrie: „Avionul meu prezidențial era acolo și de aceea au atacat Moldova”, sugerând că Rusia a vizat intenționat aeronava sa în timpul unei escale la Chișinău, în drum spre funeraliile regelui Harald al Norvegiei. Afirmația nu e confirmată public de nicio anchetă oficială — iar o sursă anonimă din biroul propriu al lui Zelenski a numit relatarea despre „aproape-coliziune” drept „o exagerare”, potrivit Meduza. Autoritățile moldovenești și cele române au confirmat doar incursiunea dronelor în spațiul aerian, nu și ținta sau intenția lor.
-
-Unde bat probele: Neconfirmat: incursiunea dronelor în spațiul aerian moldovenesc e probată de autorități, dar ținta intenționată — avionul lui Zelenski — rămâne o afirmație fără dovadă publică, contestată chiar din anturajul său și negată de Kremlin. Verificate: 3 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
