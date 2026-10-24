@@ -1,0 +1,85 @@
+{
+  "slug": "northwestern-inima-astronauti-gravitatie-marte-circulation",
+  "title": "Studiu Circulation, condus de la Northwestern: inimile a 13 astronauți, urmărite înainte, timpul și după șase luni pe Stația Spațială Internațională, se adaptează la gravitația Marte simulată fără un stres cardiovascular mai mare decât statul în picioare pe Pământ",
+  "seoTitle": "E adevărat că inima astronauților suferă în spațiu?",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-10-24",
+  "source": "Circulation (American Heart Association) · Northwestern University",
+  "url": "https://doi.org/10.1161/CIRCULATIONAHA.125.078665",
+  "dek": "Una dintre grijile NASA pentru o misiune spre Marte e cum rezistă inima: de la gravitația Pământului (1G), la lipsa de gravitație din spațiu (0G), la gravitația de pe Marte (3/8 din a Pământului). O echipă condusă de Vinesh Appadurai și James D. Thomas, de la Institutul Cardiovascular Bluhm al Universității Northwestern, cu coautori de la Cleveland Clinic, NASA Johnson Space Center și UT Southwestern, a urmărit ecografic inimile a 13 astronauți — înainte de zbor, în timpul a aproximativ șase luni pe Stația Spațială Internațională, la aterizare și, din nou, în timpul unui test care simulează gravitația Marte. Publicată în Circulation pe 13 octombrie 2026, lucrarea arată adaptări care se reversează pe parcursul misiunii și, la final, niciun semn de stres cardiovascular mai mare decât poziția în picioare pe Pământ, înainte de zbor.",
+  "mainVerdict": "Probat ce arată studiul: la 13 astronauți urmăriți cu ecocardiografie, schimbările inimii din primele două săptămâni în microgravitate s-au reversat pe parcursul misiunii, iar la testul de gravitație Marte simulată, după circa șase luni, nicio măsură de volum sau hemodinamică n-a arătat o încărcare mai mare decât poziția în picioare pe Pământ, înainte de zbor. Contestat, chiar în cuvintele autorilor: e un „studiu exploratoriu mic”, pe 13 oameni, fără grup de control separat, iar testul de „gravitație Marte” e o masă înclinată pe Pământ, nu o călătorie sau o aterizare reală",
+  "probat": [
+    {
+      "text": "Lucrarea „Impact of Prolonged Spaceflight on Cardiac Structure and Function: An Exploratory Longitudinal Observational Study” a apărut în Circulation (revista Asociației Americane a Inimii) pe 13 octombrie 2026. Autor principal: Vinesh Appadurai, Institutul Cardiovascular Bluhm al Universității Northwestern (Chicago) și Școala de Medicină a Universității din Queensland (Australia). Autor senior: James D. Thomas, același institut Northwestern. Coautori de la Victor Chang Cardiac Research Institute și Universitatea New South Wales (Australia), Heart and Vascular Institute al Cleveland Clinic (Ohio), NASA Johnson Space Center prin Wyle Science, Technology, and Engineering (Houston), UT Houston McGovern Medical School și Institutul pentru Exercițiu și Medicină de Mediu de la UT Southwestern (Dallas).",
+      "sources": [
+        {
+          "name": "Circulation — lucrarea (pagina DOI; abonament pentru text integral)",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.125.078665"
+        },
+        {
+          "name": "Crossref — metadatele lucrării, autorii și afilierile, rezumatul integral",
+          "url": "https://api.crossref.org/works/10.1161/CIRCULATIONAHA.125.078665"
+        }
+      ]
+    },
+    {
+      "text": "Designul: studiu observațional, prospectiv, cu măsurători repetate la aceiași 13 astronauți (9 bărbați), vârstă medie 49±4 ani, care au zburat spre Stația Spațială Internațională. Echipa a făcut ecocardiografii înainte de zbor — culcat și în picioare, inclusiv la o înclinare de 22 de grade care simulează gravitația Marte, de 3/8 din a Pământului — apoi în timpul zborului (de la a 14-a zi), la aterizare și, din nou după aterizare, în timpul expunerii la gravitația Marte simulată. Durata mediană a misiunilor a fost de 164 de zile (interval intercvartilic: 126-169 de zile).",
+      "sources": [
+        {
+          "name": "Circulation — rezumatul lucrării, secțiunea „Methods”",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.125.078665"
+        }
+      ]
+    },
+    {
+      "text": "Rezultatele: în primele 14 zile în microgravitate, volumul telediastolic al ventriculului stâng, volumul-bătaie și deformarea miocardică au scăzut semnificativ — dar la o magnitudine asemănătoare cu cea observată la trecerea de la poziția culcat la poziția în picioare pe Pământ, înainte de zbor (cu excepția deformării longitudinale, care a crescut: -14,5% față de -16,9%, p=0,006, și a deformării circumferențiale, care a scăzut: -26,09% față de -23,3%, p=0,016). Pe parcursul restului misiunii, volumul telediastolic și volumul-bătaie au crescut înapoi spre valorile de înainte de zbor. După aproximativ șase luni, la testul de gravitație Marte simulată, nicio măsură de volum sau hemodinamică n-a arătat o încărcare sau un stres mai mare decât poziția în picioare pe Pământ, înainte de zbor.",
+      "sources": [
+        {
+          "name": "Circulation — rezumatul lucrării, secțiunea „Results”",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.125.078665"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Autorii înșiși numesc cercetarea „un studiu exploratoriu mic” („small exploratory study”): 13 oameni, fără grup de control separat — fiecare astronaut e comparat cu el însuși, „înainte” și „după” — și e un studiu observațional, nu testează o intervenție, ci urmărește ce se întâmplă de la sine. Concluzia lucrării e formulată cu grijă: adaptările sugerează că intoleranța ortostatică „e puțin probabil” să apară pe Marte, nu că e exclusă.",
+      "sources": [
+        {
+          "name": "Circulation — rezumatul lucrării, secțiunea „Conclusions”",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.125.078665"
+        }
+      ]
+    },
+    {
+      "text": "Testul de „gravitație Marte” nu e Marte: e o înclinare de 22 de grade pe o masă, pe Pământ, care simulează doar componenta de hemodinamică a unei gravitații de 3/8G, nu și restul condițiilor unei misiuni reale — radiația cosmică, praful fin, izolarea de luni de zile, absența asistenței medicale imediate. Studiul răspunde la o întrebare îngustă (cum reacționează inima la schimbarea de sarcină gravitațională), nu la întrebarea mai largă a riscurilor unei călătorii spre Marte.",
+      "sources": [
+        {
+          "name": "Circulation — rezumatul lucrării, secțiunea „Background” și „Methods”",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.125.078665"
+        }
+      ]
+    },
+    {
+      "text": "Adaptarea bună e legată explicit, în comunicatul Northwestern, de programul de contracarare al NASA — până la două ore de exercițiu zilnic (30-45 de minute de antrenament de anduranță plus 60-75 de minute de rezistență). Rezultatul nu spune ce s-ar întâmpla unor astronauți fără un program la fel de intens de mișcare pe durata zborului.",
+      "sources": [
+        {
+          "name": "ScienceDaily / Northwestern Medicine — comunicatul despre studiu",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085016.htm"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Titlul ușor de scris ar fi „Inima rezistă pe Marte” — dar autorii n-au scris asta, au scris că, la 13 oameni, cu două ore de exercițiu pe zi și un test de gravitație simulat pe o masă înclinată, inima nu arată un stres mai mare decât statul în picioare acasă. E o veste bună, utilă pentru planificarea NASA, dar e o piesă dintr-un puzzle, nu răspunsul la întrebarea „se poate ajunge sănătos pe Marte?”. Radiația, izolarea și lipsa unui spital la șase luni distanță rămân întrebări separate, pe care studiul ăsta nu le pune."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică originală, cu link către aceasta.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea din Circulation e cu abonament (fără licență deschisă listată în Crossref), deci nu putem reproduce text integral; am tradus și explicat rezumatul tehnic (disponibil liber prin metadatele Crossref) și comunicatul de presă al Northwestern Medicine, nu articolul complet.\n\nCe s-a verificat: rezumatul integral al lucrării, cu autorii și afilierile lor exacte, obținute din metadatele Crossref ale DOI-ului (titlu, secțiunile Background/Methods/Results/Conclusions, cifrele și valorile p citate). Ce am adăugat noi: distincția dintre „testul de gravitație Marte simulată” (o masă înclinată, pe Pământ) și o călătorie reală spre Marte, plus limitele pe care autorii înșiși le recunosc explicit (eșantion mic, fără grup de control, rolul exercițiului zilnic intens).",
+  "persoane": [
+    "Vinesh Appadurai",
+    "James D. Thomas"
+  ],
+  "math": null
+}
