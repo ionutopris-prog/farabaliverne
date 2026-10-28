@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 27 Oct 2026 06:19:08 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 06:20:10 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un model de inteligență artificială de la Mayo Clinic a găsit semne de cancer pancreatic pe scanări CT vechi, cu 475 de zile înainte de diagnostic — de două ori mai sensibil decât radiologii, pe un set de testare de 493 de scanări</title>
+      <link>https://farabaliverne.ro/a/mayo-redmod-ai-cancer-pancreatic-ocult-ct-scanare-gut.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mayo-redmod-ai-cancer-pancreatic-ocult-ct-scanare-gut.html</guid>
+      <pubDate>Tue, 27 Oct 2026 04:20:05 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Cancerul pancreatic se descoperă aproape mereu târziu, fiindcă pe scanările CT nu se vede nimic anormal înainte să apară o masă vizibilă. O echipă de la Mayo Clinic, MD Anderson Cancer Center și Universitatea din Washington a luat scanări CT vechi ale unor pacienți care, la 3-36 de luni mai târziu, au fost diagnosticați cu cancer pancreatic — scanări pe care radiologii le-au citit atunci ca fiind normale — și a antrenat un model de inteligență artificială, numit REDMOD, să caute în ele semne subtile, invizibile cu ochiul liber. Pe un set de testare independent de 493 de scanări, modelul a găsit semnul cu 475 de zile înainte de diagnostic, în medie, cu o sensibilitate de 73%, față de 38,9% la doi radiologi experimentați. Publicat în Gut (grupul BMJ) pe 28 aprilie 2026, cu acces liber (CC BY-NC). Autorii spun clar: validează o performanță de diagnostic, nu un beneficiu pentru pacient, și cer teste prospective înainte de orice folosire clinică.
+
+Unde bat probele: Probat ce raportează lucrarea, cu cifrele ei: antrenarea și testarea modelului, sensibilitatea și specificitatea pe fiecare set de date, comparația directă cu doi radiologi pe aceleași 493 de scanări. Contestat, de chiar autori: eșantionul de cazuri e mic (63 de scanări pre-diagnostic în testul principal), nu s-a validat sensibilitatea pe niciun set public, nu s-a testat pe grupuri etnice diferite, și — cel mai important — studiul nu arată dacă detectarea mai timpurie salvează vieți, fiindcă nu a măsurat supraviețuirea. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Un studiu genetic pe peste 13.500 de participanți ai testului ASPREE arată că aspirina reduce riscul de demență cu aproximativ 70% — dar numai la o cincime dintre oameni, cei cu un anumit profil genetic legat de trombocite, și cu prețul dublării riscului de sângerare gravă</title>
       <link>https://farabaliverne.ro/a/monash-aspirina-dementa-risc-genetic-sangerare-aspree.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat — rezultat obținut printr-o metodă de calibrare val
       <description>O echipă de la University College London, condusă de Olivia Bracken și coordonată de profesorul Derek Gilroy, a publicat în Nature Communications un studiu pe 48 de voluntari sănătoși care arată cum niște molecule derivate din grăsimi, numite epoxi-oxilipine, acționează ca o „frână” naturală a inflamației — oprind supraproducția unor celule imune care, în exces, întrețin inflamația cronică. Cercetătorii au testat și un medicament experimental care întărește acest mecanism, cu rezultate mixte: a grăbit calmarea durerii, dar nu și a roșeții sau umflăturii vizibile.
 
 Unde bat probele: Probat — mecanism demonstrat printr-un studiu clinic controlat pe oameni, publicat peer-review; eficacitatea în boli cronice reale rămâne netestată. Verificate: 2 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Pământul s-a format aproape în întregime din materiale din Sistemul Solar interior, arată un studiu care contestă teoria standard</title>
-      <link>https://farabaliverne.ro/a/pamant-formare-sistem-solar-interior-nature-astronomy.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/pamant-formare-sistem-solar-interior-nature-astronomy.html</guid>
-      <pubDate>Thu, 17 Sep 2026 06:52:04 +0000</pubDate>
-      <category>Știință</category>
-      <description>Paolo Sossi și Dan Bower, de la ETH Zürich, au publicat în Nature Astronomy un studiu bazat pe zece sisteme izotopice diferite din meteoriți, care arată că Pământul s-a format aproape exclusiv din materiale ale Sistemului Solar interior — mai puțin de 2%, poate chiar deloc, venind din regiunile reci de dincolo de Jupiter. Concluzia contestă teoria de zeci de ani conform căreia 6-40% din materialul Pământului, inclusiv o parte din apă, ar fi venit din exterior, și deschide o întrebare nouă: de unde a venit atunci apa planetei noastre.
-
-Unde bat probele: Probat ce arată analiza izotopică; explicația pentru originea apei rămâne deschisă, recunoscută explicit de autori ca nerezolvată. Verificate: 2 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
