@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 29 Oct 2026 06:18:26 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 06:23:01 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ghețarul Thwaites din Antarctica Vestică, cel supranumit „ghețarul apocalipsei”: un model calibrat pe trei decenii de observații din satelit arată că poate contribui la nivelul global al mării cu până la 30 de milimetri până în 2100 — aproape dublu față de proiecțiile de până acum, chiar fără încălzire suplimentară</title>
+      <link>https://farabaliverne.ro/a/thwaites-antarctica-nivelul-marii-dublu-model-nature-communications.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/thwaites-antarctica-nivelul-marii-dublu-model-nature-communications.html</guid>
+      <pubDate>Thu, 29 Oct 2026 04:19:39 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Thwaites, un ghețar cât statul Florida din Antarctica Vestică, e supranumit de ani de zile „ghețarul apocalipsei” (doomsday glacier) fiindcă topirea lui, singur, ar putea ridica nivelul mării cu peste jumătate de metru. O echipă de la Universitatea California-Irvine, UCLA și NASA JPL, condusă de Mattia Poinelli și Eric Rignot, a construit un model care, pentru prima dată, nu mai tratează marginea dintre gheața sprijinită pe fundul oceanului și cea care flotează ca pe o linie îngustă, ci ca pe o „zonă de contact” lată de 2-5 kilometri, pe unde apa caldă a oceanului se infiltrează pe dedesubt. Doar așa modelul a reprodus corect aproape trei decenii de retragere, topire și accelerare observate prin satelit. Dus înainte în timp, modelul arată că Thwaites s-ar putea desprinde de creasta subacvatică care îl ține pe loc încă din 2038, cu o probabilitate de 60% să se producă până la finalul secolului, și ar putea adăuga până la 30±6 milimetri la nivelul mării până în 2100 — aproximativ dublu față de proiecțiile anterioare. Publicat pe 12 octombrie 2026 în Nature Communications, cu acces liber.
+
+Unde bat probele: Probat ce arată modelul: reproduce corect aproape trei decenii de retragere și topire observate prin satelit doar când include o „zonă de contact” lată de kilometri, nu o linie îngustă; proiectează o desprindere posibilă de creastă din 2038 și până la 30±6 mm la nivelul mării până în 2100, dublu față de estimările de până acum. Contestat, chiar de autori: e o proiecție condiționată, nu o prognoză fermă a nivelului total al mării; modelul exclude procesele de rupere și retragere a frontului de gheață (calving); folosește o parametrizare simplificată a topirii submarine, nu o simulare completă a circulației oceanice; și presupune o lățime fixă a zonei de contact, când realitatea variază cu panta fundului, maree și presiunea apei subglaciare. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Universitatea din Southern California, cu Universitatea Sapienza din Roma: la 49 de pacienți vârstnici cu fibrilație atrială, cei care țineau mai strict dieta mediteraneeană aveau niveluri mai mari din două „microproteine” mitocondriale și markeri mai mici de stres oxidativ. Un studiu pilot, transversal, care nu a măsurat niciun infarct sau accident vascular</title>
       <link>https://farabaliverne.ro/a/usc-dieta-mediteraneeana-humanin-shmoose-microproteine-inima.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</desc
       <description>Președintele Nicușor Dan a primit joi, 17 septembrie 2026, liderii partidelor parlamentare la Palatul Cotroceni pentru a discuta desemnarea unui nou premier, la 135 de zile de la demiterea Guvernului Bolojan prin moțiunea de cenzură PSD-AUR din 5 mai 2026. Consultările s-au încheiat fără o majoritate transparentă: PSD și-a reafirmat disponibilitatea de a prelua guvernarea, AUR a exclus orice variantă fără el, iar pe masă rămân mai multe nume — niciunul confirmat oficial la ora publicării.
 
 Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Departamentul de Justiție al SUA acuză o rețea legată de spionajul rus că plănuia asasinate plătite, inclusiv la Washington — cinci persoane puse sub acuzare</title>
-      <link>https://farabaliverne.ro/a/sua-doj-retea-rusa-asasinate-washington-indictment.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/sua-doj-retea-rusa-asasinate-washington-indictment.html</guid>
-      <pubDate>Thu, 17 Sep 2026 09:16:20 +0000</pubDate>
-      <category>Extern</category>
-      <description>🌍 Departamentul de Justiție al SUA a desigilat, pe 15 septembrie 2026, la Curtea Federală din Manhattan, un rechizitoriu împotriva a cinci persoane, acuzate că fac parte dintr-o rețea legată de serviciile de informații ruse — care, potrivit acuzării, plătea oameni din SUA și din alte țări pentru a supraveghea și a ucide contra cost persoane vizate, printre care un disident rus stabilit la Washington. Kremlinul a respins acuzațiile, cerând „dovezi tangibile” înainte de a comenta.
-
-Unde bat probele: Probat, cu precizarea că e o acuzare, nu o condamnare. Verificate: 4 probate, 2 contestate.</description>
     </item>
   </channel>
 </rss>
