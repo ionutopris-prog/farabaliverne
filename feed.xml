@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 30 Oct 2026 06:23:01 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 06:17:05 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MIT: gena APOE4, cel mai mare risc genetic pentru Alzheimer, suprimă semnalizarea „Wnt” în celulele care izolează neuronii cu mielină; un screening CRISPR pe tot genomul a găsit mecanismul, și o substanță l-a reversat în celule umane, organoide și șoareci</title>
+      <link>https://farabaliverne.ro/a/mit-apoe4-alzheimer-mielina-oligodendrocite-wnt-cell-stem-cell.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-apoe4-alzheimer-mielina-oligodendrocite-wnt-cell-stem-cell.html</guid>
+      <pubDate>Fri, 30 Oct 2026 04:24:05 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Neuroștiințiștii de la Institutul Picower pentru Învățare și Memorie al MIT, conduși de Li-Huei Tsai și de autoarea principală Leyla Akay, au căutat de ce gena APOE4 — cel mai mare factor de risc genetic pentru Alzheimerul cu debut tardiv — perturbă circuitele cerebrale. Cu un screening CRISPR pe tot genomul în oligodendrocite umane purtătoare de APOE4 (celulele care învelesc neuronii cu grăsimea izolatoare numită mielină) și cu analiza accesibilității cromatinei în celule și în țesut cerebral uman post-mortem, au arătat că APOE4 suprimă semnalizarea „Wnt”: celulele acumulează picături de grăsime în loc să mielinizeze axonii. Când au restabilit semnalizarea Wnt — inhibând proteina GSK3b cu o substanță de laborator, CHIR99021 — mielinizarea s-a reluat, atât în culturi de celule umane și în organoide, cât și la șoareci cu model de Alzheimer. Publicat în Cell Stem Cell pe 15 octombrie 2026.
+
+Unde bat probele: Probat ce descrie echipa MIT: mecanismul (APOE4 suprimă Wnt în oligodendrocite, ceea ce blochează mielinizarea) și intervenția experimentală care l-a reversat, confirmată în culturi de celule umane, organoide și șoareci. Contestat: totul s-a demonstrat în laborator — pe celule, organoide și șoareci —, nu la oameni bolnavi de Alzheimer; substanța folosită, CHIR99021, e un instrument de cercetare, nu un medicament testat pentru siguranță la om; iar cei doi autori principali au depus o cerere de brevet pe rezultatele screeningului. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Ghețarul Thwaites din Antarctica Vestică, cel supranumit „ghețarul apocalipsei”: un model calibrat pe trei decenii de observații din satelit arată că poate contribui la nivelul global al mării cu până la 30 de milimetri până în 2100 — aproape dublu față de proiecțiile de până acum, chiar fără încălzire suplimentară</title>
       <link>https://farabaliverne.ro/a/thwaites-antarctica-nivelul-marii-dublu-model-nature-communications.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</desc
       <description>Într-un interviu acordat publicației ucrainene RBC-Ukraine, publicat pe 16 septembrie 2026 și preluat în România de Antena 3 CNN, fostul director CIA David Petraeus a descris frontul din Ucraina ca fiind străbătut de o „zonă a morții” lată de 25-35 de kilometri, în care un soldat depistat de o dronă de recunoaștere e atacat de o dronă FPV „sigur sub 10 minute, poate chiar în doar 5 minute”. Am comparat afirmația cu alte surse militare ucrainene care au dat, în lunile anterioare, cifre apropiate, dar nu identice, pentru aceeași „kill zone”.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Consultările de la Cotroceni: PSD cere guvernarea, AUR exclude orice guvern din care nu face parte, la 135 de zile fără executiv cu puteri depline</title>
-      <link>https://farabaliverne.ro/a/consultari-cotroceni-premier-135-zile-guvern-desemnare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/consultari-cotroceni-premier-135-zile-guvern-desemnare.html</guid>
-      <pubDate>Thu, 17 Sep 2026 10:10:55 +0000</pubDate>
-      <category>Politică</category>
-      <description>Președintele Nicușor Dan a primit joi, 17 septembrie 2026, liderii partidelor parlamentare la Palatul Cotroceni pentru a discuta desemnarea unui nou premier, la 135 de zile de la demiterea Guvernului Bolojan prin moțiunea de cenzură PSD-AUR din 5 mai 2026. Consultările s-au încheiat fără o majoritate transparentă: PSD și-a reafirmat disponibilitatea de a prelua guvernarea, AUR a exclus orice variantă fără el, iar pe masă rămân mai multe nume — niciunul confirmat oficial la ora publicării.
-
-Unde bat probele: Probat. Verificate: 6 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
