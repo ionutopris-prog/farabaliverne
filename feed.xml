@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 31 Oct 2026 06:17:05 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 06:20:41 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RESET for Remission: un studiu clinic la McGill, Leicester și Alberta arată că o dietă de 800-900 de calorii plus exerciții supravegheate a dus la remisia diabetului de tip 2 la 54% dintre 50 de adulți sub 45 de ani, față de 4% la îngrijirea obișnuită</title>
+      <link>https://farabaliverne.ro/a/mcgill-leicester-alberta-diabet-tip2-reset-remisie-dieta-exercitii.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mcgill-leicester-alberta-diabet-tip2-reset-remisie-dieta-exercitii.html</guid>
+      <pubDate>Sat, 31 Oct 2026 04:17:46 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Diabetul de tip 2 diagnosticat sub 45 de ani e, de obicei, mai agresiv: zahărul din sânge scade mai greu sub control, complicațiile vin mai devreme, viața se scurtează mai mult. O echipă de la Universitatea McGill (Montreal), Universitatea din Leicester (Marea Britanie) și Universitatea din Alberta (Edmonton) a testat, într-un studiu clinic randomizat numit „RESET for Remission”, ce se întâmplă când la o dietă foarte restrictivă (800-900 de calorii pe zi) se adaugă exerciții aerobe și de forță, de două ori pe săptămână, supravegheate. Rezultatele, prezentate la reuniunea anuală a Asociației Europene pentru Studiul Diabetului (EASD) și publicate în The Lancet Regional Health – Americas, pe 96 de adulți cu obezitate și diabet de tip 2 recent diagnosticat.
+
+Unde bat probele: Probat, cu dovezi dintr-un studiu clinic randomizat publicat: 54% dintre cei 50 de participanți din grupul cu dietă și exerciții au atins remisia diabetului în 24 de săptămâni (fără medicație, cu HbA1c sub 6,5%), față de 4% (2 din 46) la îngrijirea obișnuită, cu scădere medie în plus de 7,5 kg, inclusiv masă grasă. Contestat: eșantionul e mic (96 de persoane, în trei centre), studiul e „open-label” (participanții și medicii au știut cine primește ce), nu există încă date pe termen lung despre menținerea remisiei după ieșirea din program, iar efectele adverse (constipație, dureri de cap, oboseală) au fost mai frecvente în grupul intensiv. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>MIT: gena APOE4, cel mai mare risc genetic pentru Alzheimer, suprimă semnalizarea „Wnt” în celulele care izolează neuronii cu mielină; un screening CRISPR pe tot genomul a găsit mecanismul, și o substanță l-a reversat în celule umane, organoide și șoareci</title>
       <link>https://farabaliverne.ro/a/mit-apoe4-alzheimer-mielina-oligodendrocite-wnt-cell-stem-cell.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce a declarat oficialul vamal — dar cele două cifre 
       <description>„Jumătate dintre români se încălzesc cu lemne” e o propoziție care apare an de an în presă — ultima oară pe 11 septembrie 2026, la Digi24, într-un articol despre prețul lemnelor de foc — de obicei fără nicio sursă citată în text. Am urmărit cifra până la origine: vine de la Asociația Energia Inteligentă (AEI), care estimează 3,5 milioane de gospodării încălzite cu lemne. Comparată corect cu numărul de gospodării din recensământul 2021, cifra chiar iese aproape de jumătate — dar comparată, cum fac mulți cititori din reflex, cu numărul total de locuințe din România (aproape 10 milioane, dintre care un sfert stau goale), ar părea o exagerare.
 
 Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Fostul șef CIA David Petraeus spune că dronele au creat pe frontul din Ucraina o „zonă a morții” de 25-35 km — alte surse militare ucrainene dau cifre apropiate, dar nu identice</title>
-      <link>https://farabaliverne.ro/a/petraeus-zona-mortii-drone-front-ucraina-35-km.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/petraeus-zona-mortii-drone-front-ucraina-35-km.html</guid>
-      <pubDate>Thu, 17 Sep 2026 10:15:25 +0000</pubDate>
-      <category>Extern</category>
-      <description>Într-un interviu acordat publicației ucrainene RBC-Ukraine, publicat pe 16 septembrie 2026 și preluat în România de Antena 3 CNN, fostul director CIA David Petraeus a descris frontul din Ucraina ca fiind străbătut de o „zonă a morții” lată de 25-35 de kilometri, în care un soldat depistat de o dronă de recunoaștere e atacat de o dronă FPV „sigur sub 10 minute, poate chiar în doar 5 minute”. Am comparat afirmația cu alte surse militare ucrainene care au dat, în lunile anterioare, cifre apropiate, dar nu identice, pentru aceeași „kill zone”.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 3 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
