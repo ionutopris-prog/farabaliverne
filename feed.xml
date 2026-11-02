@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 01 Nov 2026 06:20:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 06:20:15 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un studiu pe 12.772 de brazilieni, urmăriți 8 ani în studiul ELSA-Brasil: cei care au consumat cel mai mult din șapte îndulcitori fără calorii au avut un declin cognitiv mai rapid, mai pronunțat sub 60 de ani și la persoanele cu diabet</title>
+      <link>https://farabaliverne.ro/a/usp-indulcitori-artificiali-declin-cognitiv-elsa-brasil-neurology.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/usp-indulcitori-artificiali-declin-cognitiv-elsa-brasil-neurology.html</guid>
+      <pubDate>Sun, 01 Nov 2026 04:21:57 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Îndulcitorii „fără calorii” sunt vânduți ca alternativa sănătoasă la zahăr. O echipă condusă de Claudia Kimie Suemoto, de la Universitatea din São Paulo, a urmărit 12.772 de adulți brazilieni timp de opt ani, în studiul ELSA-Brasil, și a măsurat cât de mult au consumat din șapte îndulcitori (aspartam, zaharină, acesulfam-K, eritritol, xilitol, sorbitol, tagatoză) și cum li s-a schimbat memoria și viteza de gândire. Cei cu cel mai mare consum au avut un declin cognitiv cu 62% mai rapid decât cei cu cel mai mic, echivalent cu circa 1,6 ani în plus de îmbătrânire cognitivă — dar legătura s-a văzut doar sub 60 de ani și a fost mai puternică la persoanele cu diabet. Publicat în Neurology, revista Academiei Americane de Neurologie.
+
+Unde bat probele: Probat ce arată lucrarea: asocierea statistică, pe 8 ani, între consumul mare de șase din cele șapte îndulcitori testați și un declin cognitiv mai rapid, mai ales sub 60 de ani și la diabetici. Contestat: e un studiu observațional — arată o asociere, nu o cauză; datele despre dietă sunt auto-raportate; tagatoza, al șaptelea îndulcitor, nu a arătat nicio legătură. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>RESET for Remission: un studiu clinic la McGill, Leicester și Alberta arată că o dietă de 800-900 de calorii plus exerciții supravegheate a dus la remisia diabetului de tip 2 la 54% dintre 50 de adulți sub 45 de ani, față de 4% la îngrijirea obișnuită</title>
       <link>https://farabaliverne.ro/a/mcgill-leicester-alberta-diabet-tip2-reset-remisie-dieta-exercitii.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce descrie lucrarea: metoda (model geometric al faliei 
       <description>De la 1 septembrie 2026, agenții economici din stânga Nistrului au pierdut scutirile vamale de care beneficiau la importul de anumite mărfuri prin posturile controlate de Chișinău. Alexandru Sușcov, șeful posturilor vamale interne de la Criuleni, Vadul lui Vodă și feribotul Molovata, a declarat pentru canalul de Telegram MOST că, în primele 14 zile, bugetul a încasat circa 850.000 de lei din TVA, accize și taxe vamale — o cifră care circulă acum comparată, uneori fără context, cu cea de 110,5 milioane de lei încasați din taxe vamale în ianuarie-august 2026.
 
 Unde bat probele: Probat ce a declarat oficialul vamal — dar cele două cifre nu sunt comparabile direct, fiindcă măsoară lucruri diferite. Verificate: 3 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>„Jumătate dintre români se încălzesc cu lemne” — o cifră care circulă fără sursă în presă, dar care rezistă la verificare, cu o condiție</title>
-      <link>https://farabaliverne.ro/a/jumatate-romani-lemne-incalzire-recensamant-verificare.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/jumatate-romani-lemne-incalzire-recensamant-verificare.html</guid>
-      <pubDate>Thu, 17 Sep 2026 10:26:43 +0000</pubDate>
-      <category>Social</category>
-      <description>„Jumătate dintre români se încălzesc cu lemne” e o propoziție care apare an de an în presă — ultima oară pe 11 septembrie 2026, la Digi24, într-un articol despre prețul lemnelor de foc — de obicei fără nicio sursă citată în text. Am urmărit cifra până la origine: vine de la Asociația Energia Inteligentă (AEI), care estimează 3,5 milioane de gospodării încălzite cu lemne. Comparată corect cu numărul de gospodării din recensământul 2021, cifra chiar iese aproape de jumătate — dar comparată, cum fac mulți cititori din reflex, cu numărul total de locuințe din România (aproape 10 milioane, dintre care un sfert stau goale), ar părea o exagerare.
-
-Unde bat probele: Probat, cu rezerve. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
