@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:18:50 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:17:53 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>25 de cercetători de la Centrul pentru Dependențe și Sănătate Mintală din Toronto, Columbia, Yale, Harvard și alte zece universități au calculat riscul de moarte legat de alcool pe toată viața: la 14 pahare pe săptămână, riscul e de 1 la 25, și n-au găsit niciun efect protector net la consum redus</title>
+      <link>https://farabaliverne.ro/a/camh-toronto-alcool-moderat-risc-mortalitate-jsad.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/camh-toronto-alcool-moderat-risc-mortalitate-jsad.html</guid>
+      <pubDate>Tue, 03 Nov 2026 04:19:37 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>„Un pahar de vin pe zi e bun pentru inimă” e una dintre cele mai repetate idei despre alcool, și circulă de ani buni și în România. O echipă condusă de cercetători de la Institute for Mental Health Policy Research (CAMH) și Dalla Lana School of Public Health, Universitatea din Toronto, împreună cu colegi de la Columbia, Yale, Harvard, UCLA, UCSF, Universitatea Brown și alte instituții, a combinat date din sondaje naționale de sănătate din SUA, riscuri relative dintr-o analiză narativă a literaturii și date de mortalitate și morbiditate, ca să calculeze riscul de moarte legat de alcool pe toată durata vieții unei persoane. Rezultatul, publicat în Journal of Studies on Alcohol and Drugs: la niveluri joase de consum nu există niciun efect protector net, iar la 14 pahare pe săptămână — limita veche pentru bărbați din ghidul alimentar american — riscul de deces cauzat de alcool e de 1 la 25.
+
+Unde bat probele: Probat ce arată lucrarea: metoda (model cauzal pe cauze de deces, combinând sondaje naționale de consum cu date de mortalitate și morbiditate din SUA), pragurile de risc calculate și concluzia că nu există efect protector net la consum redus. Contestat: lucrarea e un model statistic, nu un experiment; se bazează pe date americane, nu românești; iar „fără efect protector NET” nu înseamnă „zero beneficiu la nimic” — unele riscuri cardiovasculare scad, dar sunt depășite de cancer, boli hepatice și accidentări. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Un studiu pe 485.934 de oameni din China, urmăriți 9 ani: cei care beau ceai în fiecare zi au un risc cu 11% mai mic de boli cardiovasculare. Dar ceaiul băut „fierbinte, cât arde”, nu cald, a fost legat de un risc cu 16% MAI MARE</title>
       <link>https://farabaliverne.ro/a/china-kadoorie-biobank-ceai-risc-cardiovascular-485000-oameni.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Contrazis de instituția care administrează vila — nicio fi
       <description>Milioane de oameni cu long COVID descriu „ceață mentală”, lipsă de motivație și mișcări încetinite, fără o explicație biologică clară. O echipă de la CAMH (afiliată Universității din Toronto), condusă de Jeffrey H. Meyer, a scanat prin PET creierul a 24 de adulți cu long COVID și al 24 de martori sănătoși de aceeași vârstă, măsurând un marker al terminațiilor nervoase care eliberează dopamină. Rezultatul, publicat pe 10 iulie 2026 în eBioMedicine (acces liber, CC BY) și reluat pe larg în presa de specialitate în septembrie: markerul e cu 16-20% mai mic în trei zone ale striatului la cei cu long COVID, iar scăderea se leagă de simptomele exacte pe care le au — apatie, încetinire, memorie slabă.
 
 Unde bat probele: Probat ce arată scanările: un marker al neuronilor de dopamină (VMAT2) e semnificativ mai mic, în toate cele trei regiuni măsurate ale striatului, la persoanele cu long COVID față de martori sănătoși, iar mărimea scăderii se corelează cu simptomele raportate de pacienți. Contestat: eșantionul e mic (24 vs. 24), studiul arată o asociere, nu dovedește CE anume a distrus acei neuroni, iar niciun tratament nu a fost testat încă — abia urmează un studiu clinic. Verificate: 3 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>UC Riverside: un algoritm bazat pe măsurători GPS arată care porțiuni ale unei falii de subducție sunt „blocate” și acumulează energie — aplicat retroactiv, a marcat exact segmentul care avea să producă cutremurul de 8,8 din Kamceatka, din 29 iulie 2025</title>
-      <link>https://farabaliverne.ro/a/uc-riverside-falie-blocata-gps-cutremur-kamceatka-2025.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/uc-riverside-falie-blocata-gps-cutremur-kamceatka-2025.html</guid>
-      <pubDate>Wed, 23 Sep 2026 04:17:39 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Pe 29 iulie 2025, un cutremur de magnitudine 8,8 a zguduit largul peninsulei Kamceatka, în Rusia — al șaselea cel mai puternic înregistrat vreodată cu instrumente și declanșator de alertă de tsunami pe tot Pacificul. Doi geofizicieni de la Universitatea California, Riverside, Gareth Funning și Axel Periollat, au publicat pe 4 septembrie 2026 în Geophysical Research Letters o metodă care, aplicată datelor GPS dinaintea cutremurului, arată o zonă „blocată” a faliei a cărei energie acumulată de la ultimul cutremur mare din regiune (magnitudine 9,0, în 1952) corespunde cu energia eliberată în 2025 — iar zonele mici de blocaj identificate de model coincid cu locul de unde a pornit ruptura. Autorii spun clar: metoda arată UNDE se acumulează stresul, nu CÂND se va rupe falia.
-
-Unde bat probele: Probat ce descrie lucrarea: metoda (model geometric al faliei + algoritm care estimează probabilitatea de „blocaj” din viteze GPS orizontale, fără să presupună dinainte unde sunt zonele blocate), rezultatul pe cazul Kamceatka și corespondența dintre zonele de blocaj și ruptura din 2025. Contestat: testul e o reconstituire făcută DUPĂ ce cutremurul s-a produs deja, nu o prezicere făcută înainte și confirmată ulterior; metoda nu spune CÂND va lovi un cutremur; și se aplică falierilor de subducție cu rețele GPS dense, o categorie din care Vrancea, sursa cutremurelor românești, nu face parte. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
