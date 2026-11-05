@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 04 Nov 2026 06:17:53 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:18:11 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O echipă de la Universitatea Oslo și institutul norvegian SINTEF a construit o rețea neuronală „constrânsă fizic” pentru stocarea hidrogenului în roci subterane: modelele clasice își pierd peste jumătate din precizie când trec de la un tip de rocă la altul, noua metodă rămâne utilizabilă</title>
+      <link>https://farabaliverne.ro/a/oslo-sintef-ai-hidrogen-stocare-subterana-roci-predictie-acs-omega.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/oslo-sintef-ai-hidrogen-stocare-subterana-roci-predictie-acs-omega.html</guid>
+      <pubDate>Wed, 04 Nov 2026 04:19:08 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Stocarea hidrogenului în roci subterane e văzută în Europa ca o soluție pentru a păstra, de la o lună la alta, surplusul de energie eoliană și solară din verile cu vânt și soare mult, pentru iernile fără. Problema: modelele clasice care prezic cât hidrogen rămâne „prins” într-o rocă se potrivesc foarte bine pe UN eșantion de laborator (R²=0,80–0,90), dar, aplicate pe un set combinat din mai multe tipuri de rocă, precizia se prăbușește la R²=0,09–0,38 — practic, nu mai prezic nimic util. O echipă de la Universitatea Oslo și institutul SINTEF, cu un coautor de la China University of Petroleum, a construit o rețea neuronală care respectă legile fizicii (limite de saturație, răspuns monoton la presiune) și a ținut precizia la R²=0,95 pe testul obișnuit, iar la R²=0,72–0,79 chiar și atunci când a lăsat complet afară din antrenare un tip de rocă (cărbune, respectiv șist) — cu 11–15% mai bine decât un model clasic de învățare automată, bine reglat. Publicată în ACS Omega pe 3 noiembrie 2026, cu acces liber (CC BY).
+
+Unde bat probele: Probat ce descrie lucrarea: prăbușirea de precizie a modelelor clasice între tipuri de rocă diferite, metoda rețelei constrânse fizic și cifrele de precizie raportate, inclusiv la testul cel mai dur (lăsarea afară a unui tip de rocă întreg din antrenare). Contestat/de reținut: rezultatele sunt pe date de laborator și din literatură, nu pe un rezervor real testat la scară industrială; autorii nu afirmă că stocarea hidrogenului e sigură în orice formațiune geologică, doar că modelul lor generalizează mai bine decât alternativele clasice. Verificate: 4 probate, 2 contestate.</description>
+    </item>
     <item>
       <title>25 de cercetători de la Centrul pentru Dependențe și Sănătate Mintală din Toronto, Columbia, Yale, Harvard și alte zece universități au calculat riscul de moarte legat de alcool pe toată viața: la 14 pahare pe săptămână, riscul e de 1 la 25, și n-au găsit niciun efect protector net la consum redus</title>
       <link>https://farabaliverne.ro/a/camh-toronto-alcool-moderat-risc-mortalitate-jsad.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
       <description>Pe 15 septembrie 2026, canalul de Telegram „WTF Moldova” a lansat informația că o firmă administrată de soțul unei verișoare a președintei Maia Sandu ar fi primit, pe 2 august 2026, un contract de aproape 900.000 de lei pentru reparații la vila prezidențială de la Condrița. Informația s-a răspândit pe mai multe site-uri și conturi politice, iar formularea condițională inițială a devenit, pe parcurs, afirmație categorică. Guvernul a dezmințit-o oficial, iar o investigație ulterioară a stabilit ce s-a întâmplat de fapt la Condrița.
 
 Unde bat probele: Contrazis de instituția care administrează vila — nicio firmă n-a fost contractată, iar cele două licitații reale pentru reparații au eșuat din lipsă de ofertanți. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Long COVID, „ceața mentală” și oboseala: scanări PET la Toronto arată neuroni de dopamină mai puțini în trei zone ale creierului, la 24 de pacienți față de 24 de martori sănătoși</title>
-      <link>https://farabaliverne.ro/a/camh-long-covid-dopamina-vmat2-pet-toronto.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/camh-long-covid-dopamina-vmat2-pet-toronto.html</guid>
-      <pubDate>Thu, 24 Sep 2026 04:21:08 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Milioane de oameni cu long COVID descriu „ceață mentală”, lipsă de motivație și mișcări încetinite, fără o explicație biologică clară. O echipă de la CAMH (afiliată Universității din Toronto), condusă de Jeffrey H. Meyer, a scanat prin PET creierul a 24 de adulți cu long COVID și al 24 de martori sănătoși de aceeași vârstă, măsurând un marker al terminațiilor nervoase care eliberează dopamină. Rezultatul, publicat pe 10 iulie 2026 în eBioMedicine (acces liber, CC BY) și reluat pe larg în presa de specialitate în septembrie: markerul e cu 16-20% mai mic în trei zone ale striatului la cei cu long COVID, iar scăderea se leagă de simptomele exacte pe care le au — apatie, încetinire, memorie slabă.
-
-Unde bat probele: Probat ce arată scanările: un marker al neuronilor de dopamină (VMAT2) e semnificativ mai mic, în toate cele trei regiuni măsurate ale striatului, la persoanele cu long COVID față de martori sănătoși, iar mărimea scăderii se corelează cu simptomele raportate de pacienți. Contestat: eșantionul e mic (24 vs. 24), studiul arată o asociere, nu dovedește CE anume a distrus acei neuroni, iar niciun tratament nu a fost testat încă — abia urmează un studiu clinic. Verificate: 3 probate, 4 contestate.</description>
     </item>
   </channel>
 </rss>
