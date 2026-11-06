@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 05 Nov 2026 06:18:11 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 06:19:31 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>University of Washington: ținerea orei de vară tot anul în SUA ar aduce cel puțin 2 miliarde de drumuri în plus la școală pe întuneric, iar accidentele mortale cu elevi pietoni sunt de două ori mai probabile dimineața, în lumină slabă</title>
+      <link>https://farabaliverne.ro/a/washington-ora-vara-permanenta-elevi-intuneric-dimineata-current-biology.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/washington-ora-vara-permanenta-elevi-intuneric-dimineata-current-biology.html</guid>
+      <pubDate>Thu, 05 Nov 2026 04:19:27 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Camera Reprezentanților din SUA a votat vara asta o lege care ar face ora de vară permanentă, fără mai întoarce ceasul în octombrie; legea e blocată acum în Senat, dar 19 state, inclusiv statul Washington, au aprobat deja măsura, care ar intra în vigoare dacă legea federală trece. O echipă de la Universitatea Washington, condusă de biologul Horacio de la Iglesia, a calculat, pentru 14 din cele 19 state, câte drumuri în plus ar face elevii spre școală pe întuneric dacă ceasul nu s-ar mai da înapoi iarna, și a confruntat întunericul de dimineață cu datele de accidente mortale ale pietonilor-elevi din SUA. Rezultatul a apărut pe 29 octombrie 2026 în Current Biology.
+
+Unde bat probele: Probat ce raportează studiul: metoda de calcul pe 14 state, cifrele de drumuri în plus (cel puțin 2 miliarde la nivel național, estimat), și legătura statistică dintre întunericul de dimineață și accidentele mortale ale pietonilor-elevi, din date de trafic deja existente. Contestat: legea nu a trecut încă, deci nimic din asta nu s-a măsurat direct ca efect real; cifra națională e o extrapolare din 14 state, nu o măsurătoare din toate; iar legătura întuneric–accidente e o corelație din date generale de trafic, nu un experiment pe efectul exact al schimbării legii. Verificate: 3 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>O echipă de la Universitatea Oslo și institutul norvegian SINTEF a construit o rețea neuronală „constrânsă fizic” pentru stocarea hidrogenului în roci subterane: modelele clasice își pierd peste jumătate din precizie când trec de la un tip de rocă la altul, noua metodă rămâne utilizabilă</title>
       <link>https://farabaliverne.ro/a/oslo-sintef-ai-hidrogen-stocare-subterana-roci-predictie-acs-omega.html</link>
@@ -298,16 +308,6 @@ Unde bat probele: Probat ce raportează analiza: în cele 22 de studii citate, g
 Unde bat probele: Probat ce arată studiul, descris de Cambridge și de pre-printul aceleiași echipe: 287 de variante genetice unice la Jonathan, în gene legate de repararea ADN-ului, reducerea inflamației, reglarea insulinei și suprimarea tumorilor, plus un epigenom (switch-urile de pe genele de reparare și metabolism) neobișnuit de asemănător cu cel al unor țestoase mai tinere din aceeași specie. Contestat: observația vine de la UN singur animal extrem de longeviv, comparat cu un număr mic de alte țestoase — e o corelație, nu o dovadă de cauzalitate; iar organizația care conduce studiul anunță direct, în comunicatul Cambridge, că vrea să transforme descoperirea în „tratamente” pentru oameni.. Verificate: 3 probate, 4 contestate.</description>
     </item>
     <item>
-      <title>Un satelit construit să măsoare oceanele și râurile mari „vede”, din întâmplare, și canalele de irigație: cercetătorii de la Universitatea Washington au testat SWOT pe 795.110 kilometri de canale din 22 de țări asiatice și au găsit semnal de încredere medie sau mare pe 84% din ele</title>
-      <link>https://farabaliverne.ro/a/washington-nasa-swot-satelit-canale-irigatie-asia-geophysical-research-letters.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/washington-nasa-swot-satelit-canale-irigatie-asia-geophysical-research-letters.html</guid>
-      <pubDate>Fri, 09 Oct 2026 04:36:19 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Satelitul SWOT (Surface Water and Ocean Topography), lansat de NASA în decembrie 2022 ca să măsoare nivelul oceanelor, lacurilor și râurilor mari, nu a fost construit pentru canale de irigație late de câțiva metri — acelea erau considerate prea mici pentru instrumentul lui. O echipă de la Universitatea Washington, condusă de Mridul Sharma și Faisal Hossain, a verificat totuși datele satelitului pe 795.110 kilometri de canale din 22 de țări asiatice și a comparat rezultatele cu măsurători reale, la fața locului. Concluzia, publicată pe 30 septembrie 2026 în Geophysical Research Letters, cu acces liber: satelitul poate urmări nivelul apei cu încredere mare pe 37,5% din canale și cu încredere medie pe încă 46,9% — în total, peste opt din zece kilometri de canale studiate. Pe restul, mai ales unde vegetația deasă umbrește apa, semnalul e slab.
-
-Unde bat probele: Probat ce arată lucrarea: metoda (un indicator nou de încredere, calibrat pe măsurători reale din SUA), cifrele pe cele 795.110 kilometri de canale din Asia și hărțile de încredere publicate. Contestat/limitat: e un studiu de fezabilitate („proof of concept”), nu un instrument gata de folosit de fermieri; vegetația deasă și canalele foarte înguste rămân puncte oarbe, iar cercetătorii înșiși spun că algoritmii trebuie să se îmbunătățească. Verificate: 3 probate, 2 contestate.</description>
-    </item>
-    <item>
       <title>Spitalele adoptă inteligența artificială pentru diagnostic, radioterapie și triaj — dar costul ei de mediu rămâne, aproape mereu, întrebarea pe care nimeni n-a pus-o: o revizie sistematică a 47 de studii, de la Universitatea Norvegiană de Știință și Tehnologie (NTNU), arată inițiative „izolate”, fără o imagine de ansamblu</title>
       <link>https://farabaliverne.ro/a/ntnu-ai-verde-sanatate-mediu-artificial-intelligence-medicine.html</link>
       <guid isPermaLink="true">https://farabaliverne.ro/a/ntnu-ai-verde-sanatate-mediu-artificial-intelligence-medicine.html</guid>
@@ -318,14 +318,14 @@ Unde bat probele: Probat ce arată lucrarea: metoda (un indicator nou de încred
 Unde bat probele: Probat ce arată revizia: că e o sinteză sistematică a 47 de studii publicate, nu o măsurătoare nouă, directă, a amprentei de mediu a AI-ului din sănătate; că inițiativele găsite sunt descrise de autori ca „izolate”; și cifrele citate despre consumul centrelor de date vin din rapoarte ale Agenției Internaționale pentru Energie (IEA), nu din lucrare. Contestat/opinie: discuția despre cât de „verde” trebuie să fie AI-ul medical e, cum spune chiar un oncolog intervievat, mai mult politică decât medicală — nu există, deocamdată, o cifră agreată pentru cât costă în energie un diagnostic asistat de AI. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
-      <title>Universitățile din Bern și Hawaii: o simulare pe 1.000 de ani a ciclului seismic arată că segmentul San Jacinto-Bernardino al faliei, la Cajon Pass în sudul Californiei, a acumulat azi 3,6 megapascali de tensiune — cel mai ridicat nivel din toată rețeaua de falii studiată</title>
-      <link>https://farabaliverne.ro/a/bern-hawaii-cajon-pass-san-jacinto-tensiune-cutremur.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/bern-hawaii-cajon-pass-san-jacinto-tensiune-cutremur.html</guid>
-      <pubDate>Thu, 08 Oct 2026 04:31:10 +0000</pubDate>
+      <title>Un satelit construit să măsoare oceanele și râurile mari „vede”, din întâmplare, și canalele de irigație: cercetătorii de la Universitatea Washington au testat SWOT pe 795.110 kilometri de canale din 22 de țări asiatice și au găsit semnal de încredere medie sau mare pe 84% din ele</title>
+      <link>https://farabaliverne.ro/a/washington-nasa-swot-satelit-canale-irigatie-asia-geophysical-research-letters.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/washington-nasa-swot-satelit-canale-irigatie-asia-geophysical-research-letters.html</guid>
+      <pubDate>Fri, 09 Oct 2026 04:36:19 +0000</pubDate>
       <category>Minți luminate</category>
-      <description>Cajon Pass, la nord-est de Los Angeles, e locul unde falia San Andreas din sud se întâlnește cu falia San Jacinto — o zonă pe care geofizicienii o numesc „poarta” cutremurelor din sudul Californiei. Liliane M. L. Burkhard (Universitatea Hawaii și Universitatea din Bern) și colegii ei au construit o simulare 4D a ciclului seismic, bazată pe o cronologie paleoseismică de 1.000 de ani, ca să calculeze cât de multă tensiune (Coulomb) s-a acumulat pe fiecare segment de falie și cât mai are, comparativ cu cutremurele trecute, până la rupere. Rezultatul, publicat pe 1 iunie 2026 în Journal of Geophysical Research: Solid Earth, cu acces liber: segmentul San Jacinto-Bernardino are azi 3,6 megapascali de tensiune, cel mai ridicat din toată rețeaua, în intervalul la care alte segmente s-au rupt în trecut. Autorii sunt expliciți: modelul arată UNDE s-a acumulat tensiunea, nu CÂND va ceda falia.
+      <description>Satelitul SWOT (Surface Water and Ocean Topography), lansat de NASA în decembrie 2022 ca să măsoare nivelul oceanelor, lacurilor și râurilor mari, nu a fost construit pentru canale de irigație late de câțiva metri — acelea erau considerate prea mici pentru instrumentul lui. O echipă de la Universitatea Washington, condusă de Mridul Sharma și Faisal Hossain, a verificat totuși datele satelitului pe 795.110 kilometri de canale din 22 de țări asiatice și a comparat rezultatele cu măsurători reale, la fața locului. Concluzia, publicată pe 30 septembrie 2026 în Geophysical Research Letters, cu acces liber: satelitul poate urmări nivelul apei cu încredere mare pe 37,5% din canale și cu încredere medie pe încă 46,9% — în total, peste opt din zece kilometri de canale studiate. Pe restul, mai ales unde vegetația deasă umbrește apa, semnalul e slab.
 
-Unde bat probele: Probat ce arată lucrarea: metoda (simulare 4D a ciclului seismic, calibrată pe o cronologie paleoseismică de 1.000 de ani), nivelurile de tensiune Coulomb de azi pe cele trei segmente studiate (3,6 MPa la San Jacinto-Bernardino, 2,8 MPa la Mojave Sud, 1,8 MPa la North San Bernardino) și intervalele de tensiune la care alte cutremure din trecut s-au produs. Contestat: e un model, nu o măsurătoare directă a stresului din scoarță; nu prezice CÂND se va rupe falia; iar metoda nu se aplică faliilor de tip Vrancea, unde cutremurele românești se produc prin alt mecanism, la adâncime mare, într-o placă aflată în subducție.. Verificate: 3 probate, 3 contestate.</description>
+Unde bat probele: Probat ce arată lucrarea: metoda (un indicator nou de încredere, calibrat pe măsurători reale din SUA), cifrele pe cele 795.110 kilometri de canale din Asia și hărțile de încredere publicate. Contestat/limitat: e un studiu de fezabilitate („proof of concept”), nu un instrument gata de folosit de fermieri; vegetația deasă și canalele foarte înguste rămân puncte oarbe, iar cercetătorii înșiși spun că algoritmii trebuie să se îmbunătățească. Verificate: 3 probate, 2 contestate.</description>
     </item>
     <item>
       <title>Karolinska Institutet: aproape 800.000 de pacienți cu cancer, comparați cu 3,7 milioane de persoane fără cancer, au un risc de stop cardiac în afara spitalului cu 55% mai mare — de până la șase ori mai mare în primul an, la cancerul pulmonar și la cel neurologic</title>
@@ -336,6 +336,16 @@ Unde bat probele: Probat ce arată lucrarea: metoda (simulare 4D a ciclului seis
       <description>O echipă de la Karolinska Institutet și Karolinska University Hospital, cu Hanna L. Hägglund prim-autoare și Therese Djärv autoare senior, a comparat în registrele naționale suedeze aproape 800.000 de adulți diagnosticați cu cancer între 2010 și 2022 cu 3,7 milioane de persoane fără cancer, potrivite după vârstă, sex și regiune. Rezultatul, publicat pe 5 octombrie 2026 în JACC: Advances, cu acces liber: cancerul e asociat cu un risc de stop cardiac în afara spitalului (OHCA) cu 55% mai mare. Riscul e cel mai mare în primul an după diagnostic și la cancerul pulmonar și neurologic, unde ajunge de până la șase ori mai mare decât la persoanele fără cancer; la cancerul pulmonar și la mielomul multiplu rămâne de 2-3 ori mai mare și pe termen lung. Autorii spun clar: e un studiu de asociere, din registre, nu un test al vreunei intervenții.
 
 Unde bat probele: Probat ce arată studiul: cohorta (aproape 800.000 de pacienți cu cancer, 3,7 milioane de controale, din registrele naționale suedeze, 2010-2022), riscul relativ cu 55% mai mare de stop cardiac extraspitalicesc la pacienții cu cancer, și riscurile mult mai mari pe termen scurt la cancerul pulmonar și neurologic. Contestat/nuanțat: e o asociere statistică dintr-un registru, nu un experiment — nu separă efectul bolii de efectul tratamentelor, și nu testează ce ar reduce riscul.. Verificate: 3 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>Universitățile din Bern și Hawaii: o simulare pe 1.000 de ani a ciclului seismic arată că segmentul San Jacinto-Bernardino al faliei, la Cajon Pass în sudul Californiei, a acumulat azi 3,6 megapascali de tensiune — cel mai ridicat nivel din toată rețeaua de falii studiată</title>
+      <link>https://farabaliverne.ro/a/bern-hawaii-cajon-pass-san-jacinto-tensiune-cutremur.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bern-hawaii-cajon-pass-san-jacinto-tensiune-cutremur.html</guid>
+      <pubDate>Thu, 08 Oct 2026 04:31:10 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Cajon Pass, la nord-est de Los Angeles, e locul unde falia San Andreas din sud se întâlnește cu falia San Jacinto — o zonă pe care geofizicienii o numesc „poarta” cutremurelor din sudul Californiei. Liliane M. L. Burkhard (Universitatea Hawaii și Universitatea din Bern) și colegii ei au construit o simulare 4D a ciclului seismic, bazată pe o cronologie paleoseismică de 1.000 de ani, ca să calculeze cât de multă tensiune (Coulomb) s-a acumulat pe fiecare segment de falie și cât mai are, comparativ cu cutremurele trecute, până la rupere. Rezultatul, publicat pe 1 iunie 2026 în Journal of Geophysical Research: Solid Earth, cu acces liber: segmentul San Jacinto-Bernardino are azi 3,6 megapascali de tensiune, cel mai ridicat din toată rețeaua, în intervalul la care alte segmente s-au rupt în trecut. Autorii sunt expliciți: modelul arată UNDE s-a acumulat tensiunea, nu CÂND va ceda falia.
+
+Unde bat probele: Probat ce arată lucrarea: metoda (simulare 4D a ciclului seismic, calibrată pe o cronologie paleoseismică de 1.000 de ani), nivelurile de tensiune Coulomb de azi pe cele trei segmente studiate (3,6 MPa la San Jacinto-Bernardino, 2,8 MPa la Mojave Sud, 1,8 MPa la North San Bernardino) și intervalele de tensiune la care alte cutremure din trecut s-au produs. Contestat: e un model, nu o măsurătoare directă a stresului din scoarță; nu prezice CÂND se va rupe falia; iar metoda nu se aplică faliilor de tip Vrancea, unde cutremurele românești se produc prin alt mecanism, la adâncime mare, într-o placă aflată în subducție.. Verificate: 3 probate, 3 contestate.</description>
     </item>
     <item>
       <title>Vitamina C, testată un an, la 109 pacienți cu boli de sânge precanceroase din Danemarca și SUA: obiectivul principal al studiului a picat, dar în grupul care a luat-o au fost mai puține decese după trei ani de urmărire</title>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează studiul: metoda, cele 32 de orașe din 1
       <description>Tribunalul internațional Kosovo Specialist Chambers, cu sediul la Haga, a pronunțat pe 16 septembrie 2026 verdictul într-un proces urmărit de ani de zile în regiune: fostul președinte al Kosovo, Hashim Thaçi, și fostul președinte al Parlamentului, Jakup Krasniqi, au fost condamnați la câte 25 de ani de închisoare pentru crime de război comise în perioada 1998-1999, când erau comandanți în Armata de Eliberare a Kosovo (UÇK). Alți doi foști lideri UÇK, Kadri Veseli și Rexhep Selimi, au primit 18, respectiv 13 ani. Toți patru au fost achitați de acuzațiile de crime împotriva umanității. Verdictul e de primă instanță și poate fi atacat cu apel.
 
 Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
-    </item>
-    <item>
-      <title>Fals pe Telegram: nicio firmă legată de familia Maiei Sandu n-a primit contract pentru vila de la Condrița — reparațiile reale, de 574.500 lei, au eșuat de două ori la licitație</title>
-      <link>https://farabaliverne.ro/a/moldova-fals-vila-condrita-contract-verisoara-sandu.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/moldova-fals-vila-condrita-contract-verisoara-sandu.html</guid>
-      <pubDate>Thu, 24 Sep 2026 09:57:52 +0000</pubDate>
-      <category>Politică</category>
-      <description>Pe 15 septembrie 2026, canalul de Telegram „WTF Moldova” a lansat informația că o firmă administrată de soțul unei verișoare a președintei Maia Sandu ar fi primit, pe 2 august 2026, un contract de aproape 900.000 de lei pentru reparații la vila prezidențială de la Condrița. Informația s-a răspândit pe mai multe site-uri și conturi politice, iar formularea condițională inițială a devenit, pe parcurs, afirmație categorică. Guvernul a dezmințit-o oficial, iar o investigație ulterioară a stabilit ce s-a întâmplat de fapt la Condrița.
-
-Unde bat probele: Contrazis de instituția care administrează vila — nicio firmă n-a fost contractată, iar cele două licitații reale pentru reparații au eșuat din lipsă de ofertanți. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>

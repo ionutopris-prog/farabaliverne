@@ -1,0 +1,103 @@
+{
+  "slug": "washington-accent-bias-audio-ai-angajare-emnlp",
+  "title": "Universitatea Washington, cu colaboratori de la Toronto, Ohio State și LMU München: patru din șase modele de AI „care ascultă” audio notează mai slab vorbirea (nu conținutul) spusă cu accent chinez sau nigerian față de accent american sau britanic, la aceleași cuvinte, în teste pentru angajare, prezentări și examene de engleză",
+  "seoTitle": "AI penalizează accentul străin la interviu, arată un studiu",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-11-06",
+  "source": "University of Washington News · lucrare prezentată la EMNLP 2026",
+  "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf",
+  "dek": "La conferința EMNLP, ținută la Budapesta pe 25 octombrie 2026, o echipă condusă de la Universitatea Washington, cu colaboratori de la UW-Madison, Universitatea Toronto, CISPA, LMU München, Universitatea Ohio State și Allen Institute for AI, a pus șase modele de inteligență artificială „audio” — care ascultă direct vorbirea, nu doar citesc un transcript — să evalueze aceleași replici, spuse cuvânt cu cuvânt la fel, de vorbitori cu accent american, britanic, chinez, indian și nigerian, în trei situații cu miză: interviuri de angajare, prezentări academice și teste de competență în engleză. Patru dintre modele au dat constant note mai mici la „livrare” (claritate, ritm, încredere) vorbitorilor cu accent chinez și nigerian, iar nota scădea pe măsură ce accentul se îndepărta, din punct de vedere acustic, de engleza americană — un tipar observat și la ascultătorii umani din studiu. Lucrarea, un preprint prezentat la conferință, a fost finanțată parțial din fonduri de la Google și OpenAI, companiile care fac două dintre modelele testate.",
+  "mainVerdict": "Probat ce arată experimentul, descris de autori: pe texte identice, modelele Gemini 2.5 Pro, Gemini 2.5 Flash, GPT-Audio-1.5 și Qwen3-Omni dau scoruri de „livrare” mai mici vorbitorilor cu accent chinez și nigerian decât celor cu accent american sau britanic, iar scorul scade odată cu distanța acustică față de engleza americană (corelații Spearman între -0,35 și -0,66, toate cu p<0,05, pe trei dintre modele). Contestat: eșantionul de voci umane e mic și limitat la un singur domeniu (angajare); alte două din cele șase modele testate au avut rezultate „neclare, nesigure sau instabile” și au fost scoase din analiza principală; iar studiul a fost finanțat parțial de Google și OpenAI, ale căror modele au fost printre cele evaluate.",
+  "probat": [
+    {
+      "text": "Lucrarea „The Cost of Sounding Different: Accent Bias in Audio Language Models” a fost prezentată la EMNLP (Conference on Empirical Methods in Natural Language Processing) la Budapesta, pe 25 octombrie 2026. Autori principali, cu contribuție egală: Aruna Srivastava (Koel Labs) și Orevaoghene Ahia (Universitatea Washington); autoare senioră: Yulia Tsvetkov (Universitatea Washington). Coautori: Li Lucy (Washington și UW-Madison), Ashley Christendat și Farhan Samir (Universitatea Toronto), Sameep Chattopadhyay (Washington), Tejumade Afonja (CISPA Helmholtz Center), Valentin Hofmann (LMU München), Sachin Kumar (Universitatea Ohio State), Noah A. Smith (Washington și Allen Institute for AI). Finanțare, scrisă explicit de autori la „Acknowledgments”: „This work was supported in part by gift funding from Google and OpenAI” (lucrarea a fost susținută parțial cu fonduri-donație de la Google și OpenAI).",
+      "sources": [
+        {
+          "name": "Lucrarea integrală (PDF, pagina autoarei de la UW)",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        },
+        {
+          "name": "University of Washington News — articolul despre studiu",
+          "url": "https://www.washington.edu/news/2026/11/04/ai-models-are-biased-against-certain-accents/"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: șase modele de AI care primesc direct fișiere audio (nu doar text) — Gemini 2.5 Pro, Gemini 2.5 Flash, GPT-Audio-1.5, Qwen3-Omni, Voxtral-Small-24B și Audio Flamingo 3 — au notat, pe o scală de la 1 (începător) la 7 (expert), aceleași replici spuse cu cinci accente: american, britanic, chinez, indian și nigerian. S-au folosit atât voci sintetice (30 de voci, 6 pentru fiecare accent, 19 ore de audio, 599 de înregistrări, în toate cele trei domenii), cât și voci umane reale (52 de vorbitori — 13 americani, 4 britanici, 11 chinezi, 10 indieni, 14 nigerieni — 4 ore și 46 de minute de audio, 312 înregistrări, doar pentru domeniul angajării). Fiecare model a notat separat „livrarea” (claritate, articulare, ritm, încredere) și „conținutul”, cu instrucțiunea explicită de a ignora celălalt criteriu.",
+      "sources": [
+        {
+          "name": "Lucrarea integrală — secțiunile 3.2 și 3.3 (Data Curation, Experimental Setup)",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        }
+      ]
+    },
+    {
+      "text": "Rezultatul principal, pe cele patru modele analizate în text (Gemini 2.5 Pro, Gemini 2.5 Flash, GPT-Audio-1.5, Qwen3-Omni): vorbitorii cu accent chinez și nigerian au primit constant cele mai mici note de livrare, indiferent de calitatea conținutului, iar nota corelează negativ cu distanța acustică a vocii față de engleza americană (coeficienți Spearman între -0,35 și -0,66, toți statistic semnificativi, p<0,05, pe trei dintre modele). Tiparul s-a văzut atât pe vocile sintetice, cât și pe vocile umane reale, iar notele de „conținut” — care ar fi trebuit să ignore accentul, conform instrucțiunilor date modelelor — au scăzut și ele în aceeași direcție pentru vorbitorii chinezi și nigerieni, deși modelele puteau transcrie corect vorbirea.",
+      "sources": [
+        {
+          "name": "Lucrarea integrală — secțiunea 4, „Experimental Results” și 5.1, „Acoustic Distance Predicts Delivery Penalties”",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        }
+      ]
+    },
+    {
+      "text": "Autorii au testat și cu ascultători umani reali — nu doar modele — folosind aceleași înregistrări, și au găsit un tipar asemănător, cu o diferență între accente chiar mai mare decât la modelele de AI. Concluzia lor, scrisă direct: modelele de AI reproduc, pe acoperire mai largă și la scară, o părtinire pe care o au deja oamenii față de accentele din afara „nucleului” SUA–Regatul Unit.",
+      "sources": [
+        {
+          "name": "University of Washington News — comparația cu ascultătorii umani",
+          "url": "https://www.washington.edu/news/2026/11/04/ai-models-are-biased-against-certain-accents/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Eșantionul de voci umane e mic și limitat: doar 4 vorbitori britanici, între 10 și 14 pentru celelalte accente, și doar pentru domeniul angajării — autorii scriu chiar ei, la „Limitations”, că aceste dimensiuni mici „nu reprezintă neapărat întreaga variație din interiorul fiecărui grup de accent”. Pentru prezentări academice și teste de engleză s-au folosit doar voci sintetice, nu vorbitori reali.",
+      "sources": [
+        {
+          "name": "Lucrarea integrală — secțiunea 8, „Limitations”",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        }
+      ]
+    },
+    {
+      "text": "Din cele șase modele testate, doar patru au intrat în analiza principală. Celelalte două — Voxtral-Small-24B și Audio Flamingo 3 — au dat, în cuvintele autorilor, rezultate „neclare, nesigure și/sau instabile” și au fost scoase din text, detaliile fiind puse într-o anexă. Concluzia „AI-ul penalizează accentele” se bazează pe patru modele, nu pe toate modelele de AI audio care existau în 2026.",
+      "sources": [
+        {
+          "name": "Lucrarea integrală — secțiunea 4, nota despre Voxtral și Audio Flamingo 3",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        }
+      ]
+    },
+    {
+      "text": "Studiul a fost finanțat parțial din fonduri-donație de la Google și OpenAI — exact companiile care fac Gemini și GPT-Audio, două dintre modelele evaluate și criticate în lucrare. Nu e un motiv să respingi rezultatul (modelele ambelor companii au ieșit cu notă proastă, nu doar ale concurenței, și tiparul s-a repetat și la un model deschis, Qwen3-Omni, de la o a treia companie), dar e o informație pe care autorii o scriu explicit și pe care cititorul trebuie s-o știe.",
+      "sources": [
+        {
+          "name": "Lucrarea integrală — secțiunea 10, „Acknowledgments”",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea e un preprint pus de autori pe un site personal, prezentat la conferință, nu încă publicată cu DOI în volumul oficial EMNLP — nu i se cunoaște licența exactă de reutilizare. Am lucrat direct din textul integral al lucrării (metodă, rezultate, limitări), nu dintr-un comunicat de presă, dar din acest motiv am rezumat, fără traducere integrală.",
+      "sources": [
+        {
+          "name": "Lucrarea integrală (PDF)",
+          "url": "https://orevaahia.github.io/assets/pubs/The_Cost_of_Sounding_Different.pdf"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Partea interesantă nu e că un algoritm poate fi părtinitor — se știe de ani buni, de la CV-uri la recunoașterea facială. Partea interesantă e CE anume a penalizat AI-ul aici: nu conținutul răspunsului, ci felul în care sună vocea, la cuvinte identice. Un angajator care folosește un asistent AI să pre-filtreze interviuri video crede, probabil, că a scos factorul uman din ecuație. Studiul ăsta arată că a băgat înapoi, la scară și automatizat, exact părtinirea pe care voia s-o evite — și că cele patru modele penalizate vin inclusiv de la companiile care au plătit parțial cercetarea."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la o lucrare de cercetare, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea e un preprint prezentat la conferința EMNLP 2026, pus de autori pe un site personal, fără licență de reutilizare afișată și fără DOI încă (volumul oficial al conferinței nu a apărut la data scrierii). Am citit textul integral al lucrării (28 de pagini, inclusiv secțiunile de metodă, rezultate, discuție, limitări și finanțare), nu un comunicat de presă, și am rezumat cu cifrele și citatele exacte ale autorilor.\n\nCe s-a verificat: identitatea autorilor și afilierile lor, venue-ul și data (EMNLP, Budapesta, 25 octombrie 2026), metoda (6 modele, 5 accente, 3 domenii, eșantioanele exacte de voci sintetice și umane), rezultatele numerice (corelațiile Spearman) și secțiunile „Limitations” și „Acknowledgments” scrise de autori. Ce am adăugat noi: am pus laolaltă, pentru cititor, limita eșantionului uman, excluderea a două din șase modele din analiza principală și finanțarea de la Google și OpenAI — toate scrise de autori, dar împrăștiate în lucrare, nu în titlurile care circulă despre „AI-ul rasist”.",
+  "persoane": [
+    "Orevaoghene Ahia",
+    "Yulia Tsvetkov"
+  ],
+  "math": null
+}
