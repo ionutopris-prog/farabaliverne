@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Fri, 06 Nov 2026 06:19:31 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 06:21:48 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Universitatea Washington, cu colaboratori de la Toronto, Ohio State și LMU München: patru din șase modele de AI „care ascultă” audio notează mai slab vorbirea (nu conținutul) spusă cu accent chinez sau nigerian față de accent american sau britanic, la aceleași cuvinte, în teste pentru angajare, prezentări și examene de engleză</title>
+      <link>https://farabaliverne.ro/a/washington-accent-bias-audio-ai-angajare-emnlp.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/washington-accent-bias-audio-ai-angajare-emnlp.html</guid>
+      <pubDate>Fri, 06 Nov 2026 04:20:47 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>La conferința EMNLP, ținută la Budapesta pe 25 octombrie 2026, o echipă condusă de la Universitatea Washington, cu colaboratori de la UW-Madison, Universitatea Toronto, CISPA, LMU München, Universitatea Ohio State și Allen Institute for AI, a pus șase modele de inteligență artificială „audio” — care ascultă direct vorbirea, nu doar citesc un transcript — să evalueze aceleași replici, spuse cuvânt cu cuvânt la fel, de vorbitori cu accent american, britanic, chinez, indian și nigerian, în trei situații cu miză: interviuri de angajare, prezentări academice și teste de competență în engleză. Patru dintre modele au dat constant note mai mici la „livrare” (claritate, ritm, încredere) vorbitorilor cu accent chinez și nigerian, iar nota scădea pe măsură ce accentul se îndepărta, din punct de vedere acustic, de engleza americană — un tipar observat și la ascultătorii umani din studiu. Lucrarea, un preprint prezentat la conferință, a fost finanțată parțial din fonduri de la Google și OpenAI, companiile care fac două dintre modelele testate.
+
+Unde bat probele: Probat ce arată experimentul, descris de autori: pe texte identice, modelele Gemini 2.5 Pro, Gemini 2.5 Flash, GPT-Audio-1.5 și Qwen3-Omni dau scoruri de „livrare” mai mici vorbitorilor cu accent chinez și nigerian decât celor cu accent american sau britanic, iar scorul scade odată cu distanța acustică față de engleza americană (corelații Spearman între -0,35 și -0,66, toate cu p&lt;0,05, pe trei dintre modele). Contestat: eșantionul de voci umane e mic și limitat la un singur domeniu (angajare); alte două din cele șase modele testate au avut rezultate „neclare, nesigure sau instabile” și au fost scoase din analiza principală; iar studiul a fost finanțat parțial de Google și OpenAI, ale căror modele au fost printre cele evaluate.. Verificate: 4 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>University of Washington: ținerea orei de vară tot anul în SUA ar aduce cel puțin 2 miliarde de drumuri în plus la școală pe întuneric, iar accidentele mortale cu elevi pietoni sunt de două ori mai probabile dimineața, în lumină slabă</title>
       <link>https://farabaliverne.ro/a/washington-ora-vara-permanenta-elevi-intuneric-dimineata-current-biology.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează lucrarea: eșantionul, metoda (accelerom
       <description>Cercetători de la Cambridge și de la Universitatea Tsinghua, împreună cu compania suedeză Sleep Cycle (aplicație de urmărire a somnului), au pus un model de inteligență artificială să numere tusea din înregistrările audio nocturne ale utilizatorilor aplicației — 32 de orașe, 12 țări, aproape 500 de nopți la rând. Rezultatul, publicat în Communications Health: la fiecare creștere de 10 micrograme de particule fine (PM2,5) pe metru cub, tusea de noapte a crescut cu circa 2,4% în zilele următoare, iar legătura a apărut chiar și în zilele cu poluare sub limita zilnică recomandată de OMS. Autoarea principală, Cecilia Mascolo, spune chiar ea: „cercetarea noastră e pur observațională” — adică arată o legătură, nu o dovadă că poluarea CHIAR cauzează tusea, pentru fiecare persoană în parte.
 
 Unde bat probele: Probat ce raportează studiul: metoda, cele 32 de orașe din 12 țări, cele circa 500 de zile de date și legătura statistică de 2,4%. Contestat: e „pur observațională” (cuvintele autoarei), eșantionul e din utilizatorii unei aplicații comerciale de somn — nu populația generală —, iar tusea a fost detectată automat de un algoritm, nu diagnosticată de un medic. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Fostul președinte al Kosovo, Hashim Thaçi, condamnat la 25 de ani de închisoare pentru crime de război — verdict de la Haga, cu apel posibil</title>
-      <link>https://farabaliverne.ro/a/kosovo-thaci-condamnare-crime-razboi-haga-25-ani.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/kosovo-thaci-condamnare-crime-razboi-haga-25-ani.html</guid>
-      <pubDate>Thu, 24 Sep 2026 09:57:52 +0000</pubDate>
-      <category>Extern</category>
-      <description>Tribunalul internațional Kosovo Specialist Chambers, cu sediul la Haga, a pronunțat pe 16 septembrie 2026 verdictul într-un proces urmărit de ani de zile în regiune: fostul președinte al Kosovo, Hashim Thaçi, și fostul președinte al Parlamentului, Jakup Krasniqi, au fost condamnați la câte 25 de ani de închisoare pentru crime de război comise în perioada 1998-1999, când erau comandanți în Armata de Eliberare a Kosovo (UÇK). Alți doi foști lideri UÇK, Kadri Veseli și Rexhep Selimi, au primit 18, respectiv 13 ani. Toți patru au fost achitați de acuzațiile de crime împotriva umanității. Verdictul e de primă instanță și poate fi atacat cu apel.
-
-Unde bat probele: Probat. Verificate: 4 probate, 1 contestate.</description>
     </item>
   </channel>
 </rss>
