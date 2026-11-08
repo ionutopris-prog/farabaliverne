@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 07 Nov 2026 06:21:48 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 06:20:14 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Universitatea din Toronto: trei porții de lactate grase pe zi, timp de 12 săptămâni, n-au mărit semnificativ greutatea, colesterolul sau grăsimea corporală a 74 de adulți supraponderali, față de o dietă cu puține lactate și 500 de calorii mai puțin pe zi. Cercetarea a fost finanțată de industria canadiană a laptelui</title>
+      <link>https://farabaliverne.ro/a/toronto-lactate-grase-greutate-colesterol-journal-of-nutrition.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/toronto-lactate-grase-greutate-colesterol-journal-of-nutrition.html</guid>
+      <pubDate>Sat, 07 Nov 2026 04:23:03 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Decenii la rând, ghidurile alimentare au recomandat lactatele degresate, pe motiv că grăsimea saturată din lapte, iaurt și brânză ar face rău la inimă și la greutate. O echipă de la Universitatea din Toronto și Mount Saint Vincent University (Halifax) a pus la test exact această idee: 74 de adulți supraponderali sau obezi, împărțiți aleatoriu în trei grupe timp de 12 săptămâni — una cu puține lactate și o reducere de 500 de calorii pe zi, și două cărora li s-au adăugat trei porții zilnice de lactate grase (lapte, iaurt, brânză). Rezultat, publicat în The Journal of Nutrition pe 22 ianuarie 2026, cu acces liber: nicio diferență semnificativă în greutate, grăsime corporală sau colesterol între grupele cu lactate grase și cea cu restricție calorică. Dar comparația nu e „lactate grase vs. lactate grase cu aceleași calorii”, eșantionul e sub o treime din cel planificat inițial, iar finanțarea vine chiar de la industria laptelui din Canada.
+
+Unde bat probele: Probat ce arată studiul: la 74 de adulți, timp de 12 săptămâni, trei porții zilnice de lactate grase nu au dus la o creștere semnificativă a greutății, a grăsimii corporale, a colesterolului sau a glicemiei, față de o dietă cu puține lactate și restricție calorică; grupele cu lactate grase au avut, în plus, tensiune sistolică și circumferință a bazinului puțin mai mici și un aport mai mare de calciu, proteine și vitamina D. Contestat: eșantionul e sub o treime din cel calculat necesar inițial (74 din 153), durata e scurtă (12 săptămâni), comparația nu a fost „aceleași calorii, doar mai multe lactate” (grupul cu restricție a avut și el 500 de calorii mai puțin pe zi, iar unul din grupele cu lactate și-a redus tot cu 500 de calorii aportul din altă parte ca să facă loc lactatelor), iar cercetarea e finanțată de Dairy Farmers of Canada — un fapt declarat corect de autori, dar care lipsește din majoritatea titlurilor din presă. Verificate: 3 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>Universitatea Washington, cu colaboratori de la Toronto, Ohio State și LMU München: patru din șase modele de AI „care ascultă” audio notează mai slab vorbirea (nu conținutul) spusă cu accent chinez sau nigerian față de accent american sau britanic, la aceleași cuvinte, în teste pentru angajare, prezentări și examene de engleză</title>
       <link>https://farabaliverne.ro/a/washington-accent-bias-audio-ai-angajare-emnlp.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce documentează raportul, cu cifre verificabile: tempe
       <description>O echipă de la Universitatea de Medicină din Capitală (Beijing), condusă de Shengzhi Sun, a luat 95.559 de participanți la UK Biobank care au purtat o brățară de mișcare șapte nopți la rând, a folosit un algoritm de învățare automată ca să le calculeze stadiile somnului (REM, profund, ușor) și i-a urmărit apoi aproape 9 ani, testând legătura cu peste o mie de boli. Rezultatul, publicat în PLOS Medicine pe 17 septembrie 2026, cu acces liber: mai mult somn REM se leagă de un risc mai mic la 83 de boli, mai mult somn profund la alte 7, iar somnul neregulat și trezirile dese, de un risc mai mare la câteva. Autorii înșiși spun clar: e un studiu observațional, pe o populație britanică majoritar albă și cu stare materială peste medie, care nu dovedește cauzalitate.
 
 Unde bat probele: Probat ce raportează lucrarea: eșantionul, metoda (accelerometru + algoritm de învățare automată numit SleepNet), analiza pe scara întregului „fenom” (1.049 de rezultate de sănătate) și cifrele de risc (hazard ratios) pentru REM, somn profund, neregularitate și treziri. Contestat, chiar de autori: eșantionul UK Biobank e părtinitor spre oameni sănătoși, albi și cu stare materială bună; algoritmul de stadializare a somnului diferă sistematic de polisomnografia de laborator; iar fiind un studiu observațional, nu dovedește că somnul REM PREVINE bolile — poate fi și invers. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Cambridge și Tsinghua, cu datele unei aplicații de somn: tusea de noapte crește cu 2,4% pentru fiecare 10 micrograme de particule în plus în aer, în 32 de orașe din 12 țări, chiar sub pragul OMS</title>
-      <link>https://farabaliverne.ro/a/cambridge-tsinghua-poluare-aer-tuse-noapte-sleep-cycle.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/cambridge-tsinghua-poluare-aer-tuse-noapte-sleep-cycle.html</guid>
-      <pubDate>Sat, 26 Sep 2026 04:18:04 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Cercetători de la Cambridge și de la Universitatea Tsinghua, împreună cu compania suedeză Sleep Cycle (aplicație de urmărire a somnului), au pus un model de inteligență artificială să numere tusea din înregistrările audio nocturne ale utilizatorilor aplicației — 32 de orașe, 12 țări, aproape 500 de nopți la rând. Rezultatul, publicat în Communications Health: la fiecare creștere de 10 micrograme de particule fine (PM2,5) pe metru cub, tusea de noapte a crescut cu circa 2,4% în zilele următoare, iar legătura a apărut chiar și în zilele cu poluare sub limita zilnică recomandată de OMS. Autoarea principală, Cecilia Mascolo, spune chiar ea: „cercetarea noastră e pur observațională” — adică arată o legătură, nu o dovadă că poluarea CHIAR cauzează tusea, pentru fiecare persoană în parte.
-
-Unde bat probele: Probat ce raportează studiul: metoda, cele 32 de orașe din 12 țări, cele circa 500 de zile de date și legătura statistică de 2,4%. Contestat: e „pur observațională” (cuvintele autoarei), eșantionul e din utilizatorii unei aplicații comerciale de somn — nu populația generală —, iar tusea a fost detectată automat de un algoritm, nu diagnosticată de un medic. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
