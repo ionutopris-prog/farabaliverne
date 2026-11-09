@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 08 Nov 2026 06:20:14 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 06:25:07 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un sondaj Harvard–RAND pe 2.009 americani: dintre cei 242 care beau alcool și au început un medicament GLP-1 (Ozempic, Wegovy, Mounjaro), 44% spun că beau mai puțin. Autoarele avertizează că e ce raportează pacientul, nu ce s-a măsurat clinic</title>
+      <link>https://farabaliverne.ro/a/harvard-rand-ozempic-glp1-alcool-sondaj-jama-psychiatry.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/harvard-rand-ozempic-glp1-alcool-sondaj-jama-psychiatry.html</guid>
+      <pubDate>Sun, 08 Nov 2026 04:21:10 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Printre utilizatorii de Ozempic, Wegovy și Mounjaro circulă ideea că medicamentele astea „te fac să nu mai vrei să bei”. Opt cercetători de la Harvard Medical School, Universitatea Brown, RAND Corporation, Duke, Brandeis și McLean Hospital au pus afirmația la un test simplu: au întrebat direct 2.009 americani. Scrisoarea de cercetare, publicată pe 14 octombrie 2026 în JAMA Psychiatry, arată că, dintre cei 242 de respondenți care beau alcool când au început un medicament GLP-1, 44% spun că beau mai puțin acum. Autoarele principale, Lori Uscher-Pines și Haiden Huskamp, avertizează explicit: e ce raportează pacientul despre propria percepție, nu un efect măsurat clinic, și nu e dovadă că medicamentul „tratează” consumul de alcool.
+
+Unde bat probele: Probat ce a măsurat chiar sondajul: proporțiile de pacienți care RAPORTEAZĂ că beau mai puțin, mai mult sau la fel, pe un eșantion național de 242 de consumatori de alcool care au început un GLP-1, plus cât de puțini (10%) auziseră despre acest efect posibil înainte. Contestat: sondajul nu cuantifică cât s-a redus consumul, nu testează niciun mecanism cauzal și nu e un tratament validat pentru consumul problematic de alcool — pentru asta ar fi nevoie de un studiu clinic randomizat, pe care autoarele înseși îl cer ca pas următor.. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Universitatea din Toronto: trei porții de lactate grase pe zi, timp de 12 săptămâni, n-au mărit semnificativ greutatea, colesterolul sau grăsimea corporală a 74 de adulți supraponderali, față de o dietă cu puține lactate și 500 de calorii mai puțin pe zi. Cercetarea a fost finanțată de industria canadiană a laptelui</title>
       <link>https://farabaliverne.ro/a/toronto-lactate-grase-greutate-colesterol-journal-of-nutrition.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează, consecvent, presa de specialitate despr
       <description>Pe 26 august 2026, un perete de stâncă din muntele Langtang Lirung (7.227 m), la granița dintre Nepal și China, s-a prăbușit; căderea a smuls și o parte din ghețarul de deasupra, iar avalanșa de gheață și rocă s-a transformat rapid într-un torent de apă și noroi care a coborât valea cu o viteză medie de 188 km/h. La 19 septembrie 2026, bilanțul oficial trecea de 1.451 de morți confirmați și 5.786 de persoane date dispărute — cifre pe care autoritățile din Nepal le spun încă provizorii. Pe 15 septembrie 2026, un grup de cercetători reuniți sub World Weather Attribution, cu nume de la Imperial College London și de la Universitatea Utrecht, a publicat raportul „Rapid Warming in the Himalaya Exacerbates Geohazard Cascades Beyond Adaptation Limits”. Concluzia lor: dezastrul n-a avut o singură cauză, ci e o cascadă — încălzire record, dezgheț de permafrost, topirea și retragerea accelerată a ghețarului, peste care s-au suprapus daune structurale rămase de la cutremurul din 2015.
 
 Unde bat probele: Probat ce documentează raportul, cu cifre verificabile: temperaturile-record din iulie-august 2026, ritmul de retragere al ghețarului Langtang Lirung, urcarea liniei de îngheț și cronologia dezastrului, confirmate independent de mai multe agenții de presă care au citat raportul. Contestat: raportul nu dă o singură cifră de tipul „de X ori mai probabil din cauza încălzirii”, fiindcă descrie o cascadă de cauze, nu un eveniment meteo simplu; bilanțul uman era încă provizoriu la data raportului; iar redacția n-a putut deschide direct fișierul integral al raportului (acces tehnic blocat în timpul redactării) și s-a bazat pe pagina-rezumat a instituției și pe citate din raport reproduse, verificate încrucișat, de mai multe publicații independente.. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>95.559 de britanici au purtat o brățară de mișcare o săptămână și au fost urmăriți aproape 9 ani: mai mult somn REM se leagă de un risc mai mic la 83 de boli, de la insuficiență cardiacă la Parkinson</title>
-      <link>https://farabaliverne.ro/a/plos-medicine-somn-rem-83-boli-uk-biobank.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/plos-medicine-somn-rem-83-boli-uk-biobank.html</guid>
-      <pubDate>Sun, 27 Sep 2026 04:18:14 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>O echipă de la Universitatea de Medicină din Capitală (Beijing), condusă de Shengzhi Sun, a luat 95.559 de participanți la UK Biobank care au purtat o brățară de mișcare șapte nopți la rând, a folosit un algoritm de învățare automată ca să le calculeze stadiile somnului (REM, profund, ușor) și i-a urmărit apoi aproape 9 ani, testând legătura cu peste o mie de boli. Rezultatul, publicat în PLOS Medicine pe 17 septembrie 2026, cu acces liber: mai mult somn REM se leagă de un risc mai mic la 83 de boli, mai mult somn profund la alte 7, iar somnul neregulat și trezirile dese, de un risc mai mare la câteva. Autorii înșiși spun clar: e un studiu observațional, pe o populație britanică majoritar albă și cu stare materială peste medie, care nu dovedește cauzalitate.
-
-Unde bat probele: Probat ce raportează lucrarea: eșantionul, metoda (accelerometru + algoritm de învățare automată numit SleepNet), analiza pe scara întregului „fenom” (1.049 de rezultate de sănătate) și cifrele de risc (hazard ratios) pentru REM, somn profund, neregularitate și treziri. Contestat, chiar de autori: eșantionul UK Biobank e părtinitor spre oameni sănătoși, albi și cu stare materială bună; algoritmul de stadializare a somnului diferă sistematic de polisomnografia de laborator; iar fiind un studiu observațional, nu dovedește că somnul REM PREVINE bolile — poate fi și invers. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
