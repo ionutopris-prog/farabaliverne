@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Tue, 10 Nov 2026 06:25:26 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:20:06 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Un spital din București a analizat 14 ani de fișe ale pacienților cu sepsis (10.832 de cazuri): glicemia instabilă din primele 24 de ore se leagă de risc mai mare de deces, dar doar la cei FĂRĂ diabet — iar autorii spun că semnalul „adaugă puțin” la predicție</title>
+      <link>https://farabaliverne.ro/a/bucuresti-sepsis-glicemie-diabet-mortalitate-14-ani-jcm.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/bucuresti-sepsis-glicemie-diabet-mortalitate-14-ani-jcm.html</guid>
+      <pubDate>Tue, 10 Nov 2026 04:26:17 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>O echipă de la Universitatea de Medicină „Carol Davila” și Spitalul Clinic de Urgență București a adunat din fișele de externare 10.832 de pacienți adulți internați cu sepsis între 2011 și 2024 și a măsurat cât de mult le-a variat glicemia în primele 24 de ore de la internare. Mortalitatea intraspitalicească a fost de 53,6%. Glicemia instabilă s-a legat de risc mai mare de deces — dar efectul a fost clar doar la pacienții fără diabet; la cei cu diabet, legătura a fost mult mai slabă și statistic nesigură. Publicat pe 6 noiembrie 2026 în Journal of Clinical Medicine, cu acces liber.
+
+Unde bat probele: Probat ce arată studiul: pe 10.832 de pacienți cu sepsis dintr-un spital din București (2011-2024), mortalitatea intraspitalicească a fost de 53,6%, iar o glicemie care variază mult în primele 24 de ore s-a legat de risc mai mare de deces — dar numai la pacienții FĂRĂ diabet. Contestat: chiar autorii spun că semnalul „adaugă puțin” la puterea de predicție, că efectul se atenuează când se scot din calcul decesele din primele 48-72 de ore (semn posibil de cauzalitate inversă), și că mortalitatea puțin mai mică la pacienții cu diabet NU trebuie citită ca un efect protector al bolii. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>MIT: un vaccin anti-cancer construit dintr-un bacteriofag inofensiv (M13), cu doza de antigen pe fibră reglabilă genetic — a prevenit tumori de colon la șoareci, cu un singur antigen-model testat până acum</title>
       <link>https://farabaliverne.ro/a/mit-vaccin-cancer-personalizat-nanofibre-fag-m13-colon-soareci.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează studiul de fază 1: la cei 10 pacienți 
       <description>Turbinele eoliene sunt cele mai mari mașini rotative construite vreodată, iar atmosfera e un loc prost pentru experimente controlate: vântul își schimbă mereu direcția și viteza. O echipă de la MIT, Princeton, Queen's University, Penn State și NSERC Canada a rezolvat problema într-un tunel de vânt presurizat până la 240 de atmosfere, unde o turbină de laborator de 15 centimetri se comportă aerodinamic ca una reală, de 15 până la 35 de metri. Rezultatul, publicat cu acces liber în PNAS Nexus pe 28 septembrie 2026: ajustarea vitezei vârfului palei în funcție de cât de dezaliniată e turbina față de vânt poate crește puterea produsă — o strategie rar folosită azi — și, combinată cu optimizarea unghiului turbinei, ar putea aduce zeci de mii de dolari în plus, pe turbină, pe an, la parcuri eoliene deja construite, fără nicio piesă nouă.
 
 Unde bat probele: Probat ce arată MIT: metoda (tunel presurizat, turbină de 15 cm testată la presiuni de până la 240 de atmosfere, ca să simuleze una de zeci de metri), rezultatul (puterea crește prin ajustarea vitezei vârfului palei la dezaliniere) și validarea unui model matematic care poate rula pe un laptop obișnuit. Contestat: cifra de „zeci de mii de dolari” e o estimare calculată cu acel model, nu o măsurătoare pe un parc eolian real; strategia de control descrisă e „rar folosită azi”, deci nu ajunge automat în factura la curent a nimănui. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>O meta-analiză daneză reexaminează cele opt mari studii randomizate de mamografie din lume și coboară rata de supradiagnosticare sub 5%, față de estimările vechi de 30-50% care circulă de zeci de ani</title>
-      <link>https://farabaliverne.ro/a/danemarca-njor-mamografie-supradiagnosticare-sub-5-procente-jnci.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/danemarca-njor-mamografie-supradiagnosticare-sub-5-procente-jnci.html</guid>
-      <pubDate>Wed, 30 Sep 2026 04:36:06 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>De zeci de ani circulă, în dezbaterea despre screeningul mamografic, cifre de supradiagnosticare uriașe — până la 30-50% din cazurile depistate, adică femei tratate pentru cancere care n-ar fi făcut niciodată rău. O echipă condusă de Sisse Helle Njor, profesoară la Universitatea din Southern Denmark și la Spitalul Lillebælt, a strâns la un loc toate cele opt mari studii randomizate de screening mamografic făcute vreodată în lume, a corectat diferențele de durată a urmăririi și de screening făcut de grupul de control după terminarea trialurilor, și a comparat rezultatul cu datele pe termen lung din programul danez de screening al populației. Concluzia, publicată pe 14 septembrie 2026 în JNCI: rata reală de supradiagnosticare e sub 5%, nu 30-50%. 🔴 Notă de transparență: rețeaua mediului în care am scris articolul azi a blocat accesul la doi.org, la academic.oup.com și la aproape orice altă sursă primară, așa că am scris acest rezumat din acoperirea de presă independentă (ScienceDaily, EurekAlert, MedicalXpress, SciTechDaily), care se confirmă reciproc pe cifre și citate, NU din lucrarea însăși sau din comunicatul JNCI. E o abatere de la procedura obișnuită a secțiunii și fondatorul trebuie s-o cântărească înainte de aprobare.
-
-Unde bat probele: Probat ce raportează, consecvent, presa de specialitate despre meta-analiză: cele opt studii randomizate reexaminate, metodologia (corecție pentru durata urmăririi și screeningul post-trial), și concluzia — supradiagnosticare sub 5%, comparativ cu estimările vechi de 30-50%. Contestat/limite: n-am citit lucrarea sau comunicatul oficial, blocate azi de rețea, ci doar acoperirea de presă; comparația se bazează pe folosirea populației daneze ca etalon, o alegere de model care poate să nu se generalizeze; un coautor lucrează pentru American Cancer Society, care susține screeningul de rutină. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
