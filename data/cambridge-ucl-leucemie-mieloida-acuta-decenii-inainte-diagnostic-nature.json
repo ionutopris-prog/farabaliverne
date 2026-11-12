@@ -1,0 +1,98 @@
+{
+  "slug": "cambridge-ucl-leucemie-mieloida-acuta-decenii-inainte-diagnostic-nature",
+  "title": "Cambridge și UCL au refăcut, din probe de sânge păstrate ani la rând, povestea leucemiei mieloide acute dinainte de diagnostic: la două treimi din cele 47 de femei bolnave, prima mutație apăruse înainte de 20 de ani, cu peste 50 de ani înainte de boală",
+  "seoTitle": "Leucemia mieloidă acută: cu decenii înainte de diagnostic",
+  "category": "Minți luminate",
+  "tara": "Regatul Unit",
+  "date": "2026-11-12",
+  "source": "Nature · University of Cambridge",
+  "url": "https://doi.org/10.1038/s41586-026-11269-x",
+  "dek": "O echipă de la Early Cancer Institute al Universității Cambridge și de la UCL, condusă de Jamie Blundell, a folosit un „fond arheologic” neobișnuit: probe de sânge luate anual, timp de până la 11 ani, de la zeci de mii de femei înscrise într-un studiu britanic pentru screeningul cancerului ovarian (UKCTOCS). Au găsit 47 de femei care au făcut leucemie mieloidă acută (LMA) ani mai târziu și aveau cel puțin două probe de sânge de dinainte de diagnostic, plus 47 de femei de control, de aceeași vârstă, care n-au făcut boala. Cu o metodă de secvențiere ultra-sensibilă, au reconstituit cum au evoluat mutațiile din sânge, an de an, cu până la 15 ani înainte de diagnostic. Rezultatul, publicat în Nature pe 11 noiembrie 2026, cu acces liber: prima mutație care deschide drumul spre LMA apare, la majoritatea, în primele decenii de viață — la două treimi din cazuri, înainte de 20 de ani — și crește lent, decenii la rând, până când mai apar mutații, care o accelerează brusc.",
+  "mainVerdict": "Probat ce arată lucrarea: reconstituirea, din probe seriate de sânge de la 47 de femei cu LMA și 47 de control, a vitezei cu care cresc clonele cu mutații premaligne, și faptul că cele mai multe mutații „fondatoare” apar cu decenii înainte de boală. Contestat: eșantionul e mic, format exclusiv din femei peste 50 de ani dintr-un singur studiu britanic, iar autorii recunosc că nu au acces la țesutul de la diagnostic, deci nu pot fi siguri că exact acele clone urmărite au devenit cancerul; la circa 20% din cazuri, metoda n-a găsit nicio expansiune clonală clară",
+  "probat": [
+    {
+      "text": "Lucrarea „Evolutionary dynamics in the years preceding acute myeloid leukaemia” a apărut în Nature pe 11 noiembrie 2026, cu acces liber (Creative Commons BY 4.0). Autoare corespondentă: Caroline J. Watson; autor senior: Jamie R. Blundell, profesor la Early Cancer Institute al Universității Cambridge. Coautori: Gladys Y. P. Poon, Hamish A. J. MacGregor, Adriana V. A. Fonseca, Sophia Apostolidou, Aristi Damaskou, Christopher Boniface, Samuel Hackett, Aleksandra Gentry-Maharaj și Usha Menon (ultimii doi de la UCL).",
+      "sources": [
+        {
+          "name": "Nature — lucrarea, cu acces liber",
+          "url": "https://doi.org/10.1038/s41586-026-11269-x"
+        },
+        {
+          "name": "University of Cambridge — comunicatul de presă, 11 noiembrie 2026",
+          "url": "https://www.cam.ac.uk/research/news/fossil-record-in-stored-blood-samples-lets-scientists-trace-leukaemia-back-decades-before-diagnosis"
+        }
+      ]
+    },
+    {
+      "text": "Materialul: studiul UKCTOCS (United Kingdom Collaborative Trial of Ovarian Cancer Screening) a înscris 202.638 de femei fără cancer, în postmenopauză, între 2001 și 2005; 50.640 dintre ele au dat probe de sânge anual, până la 11 ani. Din toate femeile urmărite peste 12 ani, 47 au făcut leucemie mieloidă acută (LMA) și aveau probe suficiente de la cel puțin două momente dinainte de diagnostic — vârsta mediană la diagnostic, 72 de ani (interval 53-83), cu până la 10 probe seriate (mediană 5) per femeie. Echipa a comparat 249 de probe de la aceste 47 de femei cu 249 de probe, din aceleași momente, de la 47 de femei de control de aceeași vârstă, care au rămas fără cancer (una dintre ele a fost exclusă ulterior, fiindcă a dezvoltat un sindrom mielodisplazic).",
+      "sources": [
+        {
+          "name": "Nature — secțiunea „Longitudinal sequencing of blood pre-AML”",
+          "url": "https://doi.org/10.1038/s41586-026-11269-x"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: o secvențiere numită TETRIS-seq, cu corectare „duplex” a erorilor, pe un panel de gene și rearanjări cromozomiale legate de hematopoieza clonală și de LMA. Rezultatul principal: primele mutații „fondatoare” apar, la majoritatea femeilor care au făcut LMA, în primele decenii de viață — la două treimi din cazuri, înainte de 20 de ani, cu peste 50 de ani înainte de diagnostic, spune comunicatul Cambridge — și cresc lent, ani la rând (uneori decenii), ca niște clone unice într-un sânge încă „polClonal”. Problema apare când, pe fondul unei astfel de clone lente, apar mutații suplimentare: acestea cresc de până la 100 de ori mai rapid și pot ajunge să domine complet sângele cu ani sau decenii înainte de diagnostic — fenomen numit în lucrare „somatic sweep”. Un astfel de „sweep” n-a fost văzut la nicio femeie din grupul de control; în grupul cu LMA, la cel puțin o treime din cazuri a apărut cu ani înainte de boală.",
+      "sources": [
+        {
+          "name": "Nature — rezumatul și secțiunea „Discussion”",
+          "url": "https://doi.org/10.1038/s41586-026-11269-x"
+        },
+        {
+          "name": "University of Cambridge — citatul lui Jamie Blundell",
+          "url": "https://www.cam.ac.uk/research/news/fossil-record-in-stored-blood-samples-lets-scientists-trace-leukaemia-back-decades-before-diagnosis"
+        }
+      ]
+    },
+    {
+      "text": "Context, din comunicatul Cambridge: LMA e un cancer de sânge agresiv, cu circa 2.700 de cazuri noi pe an în Regatul Unit, din care doar circa unul din șase supraviețuiește cinci ani după diagnostic. Mulți oameni sănătoși, în special la vârste mai mari, au în sânge celule cu mutații asemănătoare celor din LMA (hematopoieză clonală), dar numai o mică parte dezvoltă boala; de ce unele clone rămân inofensive și altele devin cancer nu era clar, fiindcă procesul nu fusese urmărit an de an înainte de diagnostic.",
+      "sources": [
+        {
+          "name": "University of Cambridge — comunicatul de presă",
+          "url": "https://www.cam.ac.uk/research/news/fossil-record-in-stored-blood-samples-lets-scientists-trace-leukaemia-back-decades-before-diagnosis"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Eșantionul e mic și dintr-un singur grup: 47 de femei cu LMA și 47 (46, după exclusă) de control, toate din UKCTOCS — adică toate femei, în postmenopauză, înscrise în Regatul Unit la 50-74 de ani. Autorii nu pretind că cifrele (două treimi, înainte de 20 de ani) se aplică la bărbați, la oameni mai tineri sau la alte populații; e un eșantion de reconstituit mecanismul, nu un sondaj reprezentativ.",
+      "sources": [
+        {
+          "name": "Nature — secțiunea „Longitudinal sequencing of blood pre-AML”",
+          "url": "https://doi.org/10.1038/s41586-026-11269-x"
+        }
+      ]
+    },
+    {
+      "text": "Autorii recunosc, explicit, la „Discussion”: nu au avut acces la țesutul prelevat chiar la momentul diagnosticului de LMA, deci nu pot fi siguri că exact clonele urmărite în probele de sânge sunt cele care au devenit boala; e posibil ca mutația finală, decisivă, să fi apărut după ultima probă recoltată. La circa 20% din cazurile de pre-LMA din studiu, metoda n-a găsit nicio expansiune clonală clară, sau a găsit una doar în ultimii 1-2 ani înainte de diagnostic — semn că metoda nu „vede” totul, în toate cazurile.",
+      "sources": [
+        {
+          "name": "Nature — secțiunea „Discussion”, paragraful despre limitări",
+          "url": "https://doi.org/10.1038/s41586-026-11269-x"
+        }
+      ]
+    },
+    {
+      "text": "Nu e un test de diagnostic și nu există încă unul derivat din el. Lucrarea descrie un mecanism retrospectiv (ce s-a întâmplat în sângele unor femei care AU făcut deja boala, privit în urmă), nu o metodă validată de prezis cine va face leucemie. Autorii „speculează” (cuvântul lor) că reducerea vitezei de creștere a clonelor cu risc ar putea scădea riscul de transformare malignă, dar asta rămâne o hipoteză de cercetare viitoare, nu o intervenție disponibilă azi.",
+      "sources": [
+        {
+          "name": "Nature — ultimul paragraf înainte de secțiunea de limitări",
+          "url": "https://doi.org/10.1038/s41586-026-11269-x"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "E genul de studiu care schimbă întrebarea, nu doar răspunsul: nu „de ce faci leucemie”, ci „de ce nu o faci, de vreme ce mulți dintre noi purtăm deja, fără să știm, clone de celule cu mutații premaligne în sânge de ani de zile”. Cifra care rămâne în minte nu e „două treimi” sau „20 de ani” — e că cinci cercetători au avut răbdarea să urmărească 47 de femei, an de an, cu probe de sânge păstrate dintr-un studiu făcut pentru altceva (screening de cancer ovarian), ca să vadă ce se întâmplă ÎNAINTE să apară boala. Nu e un test pe care să-l ceri mâine de la medic; e o hartă pentru unde să caute, într-o zi, cercetătorii care vor construi testul."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber (CC BY 4.0), dar e un articol tehnic de genetică a cancerului, cu secvențiere „duplex”, teorie evolutivă și modele matematice ale clonelor celulare; am tradus și explicat rezultatele principale și limitele, nu paragraf cu paragraf. Comunicatul de presă al Universității Cambridge (CC BY-NC-SA) e citat doar pentru context și citate scurte, nu reprodus integral.\n\nCe s-a verificat: pagina lucrării din Nature (titlul, autorii, afilierile, data de 11 noiembrie 2026, licența CC BY 4.0), rezumatul, secțiunea „Longitudinal sequencing of blood pre-AML” cu cifrele studiului UKCTOCS, și secțiunea „Discussion” cu limitările recunoscute de autori. Ce am adăugat noi: că eșantionul e mic și exclusiv feminin, că rezultatul e retrospectiv și nu e un test de diagnostic, și că la 20% din cazuri metoda nu a găsit o expansiune clonală clară — lucruri care sunt în lucrare, dar nu ies în titlurile scurte.",
+  "persoane": [
+    "Jamie Blundell",
+    "Caroline Watson"
+  ],
+  "math": null
+}

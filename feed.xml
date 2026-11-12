@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:20:06 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:19:40 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O echipă de la Universitatea Pekin a modelat ce se întâmplă când vântul lipsește exact în zilele de caniculă: pe 27 de modele climatice globale, astfel de episoade pot deveni, până în 2100, de la două până la peste opt ori mai frecvente și cu durata lungită de la 80% la 300%</title>
+      <link>https://farabaliverne.ro/a/pekin-seceta-vant-val-de-caldura-retea-electrica-pnas.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/pekin-seceta-vant-val-de-caldura-retea-electrica-pnas.html</guid>
+      <pubDate>Wed, 11 Nov 2026 04:20:45 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>În România căutarea „dunkelflaute” (cuvântul german pentru zilele fără vânt și fără soare, când prețul curentului sare în Germania) a fost în trend săptămâna asta. O echipă de la Universitatea Pekin a pus lupa pe fenomenul înrudit, de vară: zilele în care vântul e slab EXACT când e canicula, adică exact când rețeaua electrică are nevoie de mai multă energie (pentru aer condiționat) și producția eoliană scade. Pe 27 de modele climatice globale (rezoluție de circa 25 km), publicat în PNAS pe 9 noiembrie 2026, calculul arată că aceste episoade combinate se pot intensifica masiv până în 2100 — frecvență cu 100% până la 750% mai mare, durată cu 80% până la 300% mai lungă, în funcție de cât de mult se încălzește planeta. Rezultatul e o proiecție pe modele, nu o măsurătoare, iar autorii spun asta explicit.
+
+Unde bat probele: Probat ce arată modelarea: pe 27 de modele climatice CMIP6, frecvența și durata episoadelor de „secetă de vânt + val de căldură” cresc global, mai mult în scenariile cu emisii mai ridicate, din cauza încălzirii și a slăbirii vântului, amplificate regional de modificări ale curenților de aer de la altitudine. Contestat: e o proiecție pe modele cu incertitudine mare (intervalele date sunt foarte largi), pe orizont de până la 2100, nu o măsurătoare a prezentului; lucrarea nu dă o cifră separată pentru România sau pentru prețul curentului, iar modelele climatice sistematic nu reproduc perfect vântul la sol. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>Un spital din București a analizat 14 ani de fișe ale pacienților cu sepsis (10.832 de cazuri): glicemia instabilă din primele 24 de ore se leagă de risc mai mare de deces, dar doar la cei FĂRĂ diabet — iar autorii spun că semnalul „adaugă puțin” la predicție</title>
       <link>https://farabaliverne.ro/a/bucuresti-sepsis-glicemie-diabet-mortalitate-14-ani-jcm.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează lucrarea: eșantionul, durata, scorul de
       <description>O echipă de la Cleveland Clinic, condusă de cardiologul Luke Laffin, a testat pe 15 pacienți cu colesterol rezistent la medicamente o terapie experimentală de editare genetică: o singură infuzie care dezactivează, cu CRISPR-Cas9, gena ANGPTL3 din ficat. La cei 10 pacienți care au primit doza cea mai mare, colesterolul LDL a scăzut în medie cu 52,5% (până la 84%) și trigliceridele cu 47,8% (până la 78%), efect susținut cel puțin un an. Rezultatele au fost prezentate la Congresul Societății Europene de Cardiologie din august 2026 și publicate simultan în New England Journal of Medicine. Terapia e dezvoltată de compania CRISPR Therapeutics AG.
 
 Unde bat probele: Probat ce raportează studiul de fază 1: la cei 10 pacienți cu doza maximă (0,8 mg/kg), reducerea medie de 52,5% a LDL și 47,8% a trigliceridelor, susținută timp de un an, fără evenimente adverse grave legate de tratament. Contestat: cifrele mari descriu doar subgrupul cu doza cea mai mare; eșantionul total e de 15 pacienți, fără grup de control cu placebo; au existat reacții adverse mai mici (o reacție alergică, trei reacții la infuzie, creșteri trecătoare ale enzimelor hepatice la un pacient); nu există încă date despre infarcte sau accidente vasculare; iar studiul e finanțat de compania care deține terapia. Verificate: 3 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>MIT: cum să scoți mai multă putere din turbinele eoliene deja instalate, testat într-un tunel de vânt presurizat până la 240 de atmosfere — zeci de mii de dolari în plus, pe turbină, pe an, fără echipament nou</title>
-      <link>https://farabaliverne.ro/a/mit-turbine-eoliene-tunel-presurizat-putere-pnas-nexus.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-turbine-eoliene-tunel-presurizat-putere-pnas-nexus.html</guid>
-      <pubDate>Wed, 30 Sep 2026 04:54:10 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Turbinele eoliene sunt cele mai mari mașini rotative construite vreodată, iar atmosfera e un loc prost pentru experimente controlate: vântul își schimbă mereu direcția și viteza. O echipă de la MIT, Princeton, Queen's University, Penn State și NSERC Canada a rezolvat problema într-un tunel de vânt presurizat până la 240 de atmosfere, unde o turbină de laborator de 15 centimetri se comportă aerodinamic ca una reală, de 15 până la 35 de metri. Rezultatul, publicat cu acces liber în PNAS Nexus pe 28 septembrie 2026: ajustarea vitezei vârfului palei în funcție de cât de dezaliniată e turbina față de vânt poate crește puterea produsă — o strategie rar folosită azi — și, combinată cu optimizarea unghiului turbinei, ar putea aduce zeci de mii de dolari în plus, pe turbină, pe an, la parcuri eoliene deja construite, fără nicio piesă nouă.
-
-Unde bat probele: Probat ce arată MIT: metoda (tunel presurizat, turbină de 15 cm testată la presiuni de până la 240 de atmosfere, ca să simuleze una de zeci de metri), rezultatul (puterea crește prin ajustarea vitezei vârfului palei la dezaliniere) și validarea unui model matematic care poate rula pe un laptop obișnuit. Contestat: cifra de „zeci de mii de dolari” e o estimare calculată cu acel model, nu o măsurătoare pe un parc eolian real; strategia de control descrisă e „rar folosită azi”, deci nu ajunge automat în factura la curent a nimănui. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
