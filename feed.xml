@@ -5,8 +5,18 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:19:40 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:20:03 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cambridge și UCL au refăcut, din probe de sânge păstrate ani la rând, povestea leucemiei mieloide acute dinainte de diagnostic: la două treimi din cele 47 de femei bolnave, prima mutație apăruse înainte de 20 de ani, cu peste 50 de ani înainte de boală</title>
+      <link>https://farabaliverne.ro/a/cambridge-ucl-leucemie-mieloida-acuta-decenii-inainte-diagnostic-nature.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/cambridge-ucl-leucemie-mieloida-acuta-decenii-inainte-diagnostic-nature.html</guid>
+      <pubDate>Thu, 12 Nov 2026 04:20:43 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>O echipă de la Early Cancer Institute al Universității Cambridge și de la UCL, condusă de Jamie Blundell, a folosit un „fond arheologic” neobișnuit: probe de sânge luate anual, timp de până la 11 ani, de la zeci de mii de femei înscrise într-un studiu britanic pentru screeningul cancerului ovarian (UKCTOCS). Au găsit 47 de femei care au făcut leucemie mieloidă acută (LMA) ani mai târziu și aveau cel puțin două probe de sânge de dinainte de diagnostic, plus 47 de femei de control, de aceeași vârstă, care n-au făcut boala. Cu o metodă de secvențiere ultra-sensibilă, au reconstituit cum au evoluat mutațiile din sânge, an de an, cu până la 15 ani înainte de diagnostic. Rezultatul, publicat în Nature pe 11 noiembrie 2026, cu acces liber: prima mutație care deschide drumul spre LMA apare, la majoritatea, în primele decenii de viață — la două treimi din cazuri, înainte de 20 de ani — și crește lent, decenii la rând, până când mai apar mutații, care o accelerează brusc.
+
+Unde bat probele: Probat ce arată lucrarea: reconstituirea, din probe seriate de sânge de la 47 de femei cu LMA și 47 de control, a vitezei cu care cresc clonele cu mutații premaligne, și faptul că cele mai multe mutații „fondatoare” apar cu decenii înainte de boală. Contestat: eșantionul e mic, format exclusiv din femei peste 50 de ani dintr-un singur studiu britanic, iar autorii recunosc că nu au acces la țesutul de la diagnostic, deci nu pot fi siguri că exact acele clone urmărite au devenit cancerul; la circa 20% din cazuri, metoda n-a găsit nicio expansiune clonală clară. Verificate: 4 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>O echipă de la Universitatea Pekin a modelat ce se întâmplă când vântul lipsește exact în zilele de caniculă: pe 27 de modele climatice globale, astfel de episoade pot deveni, până în 2100, de la două până la peste opt ori mai frecvente și cu durata lungită de la 80% la 300%</title>
       <link>https://farabaliverne.ro/a/pekin-seceta-vant-val-de-caldura-retea-electrica-pnas.html</link>
@@ -496,16 +506,6 @@ Unde bat probele: Probat ce raportează lucrarea: metoda (ecografie vasculară 3
       <description>Dieta MIND (o combinație între dieta mediteraneană și dieta DASH, orientată spre creier) a fost legată în studii anterioare de risc mai mic de demență, dar mai ales din comparații la un singur moment în timp. O echipă condusă de Changzheng Yuan (Harvard T.H. Chan School of Public Health și Universitatea Zhejiang) a urmărit 1.647 de adulți din cohorta Framingham Offspring, cu câte două-trei RMN-uri fiecare, pe o perioadă mediană de 12,3 ani. Rezultatul, publicat în Journal of Neurology, Neurosurgery &amp; Psychiatry: fiecare creștere de 3 puncte a scorului de aderență la dieta MIND s-a legat de o pierdere mai lentă de substanță cenușie — cu 0,279 cm³ pe an, o atenuare de 20% a declinului legat de vârstă, echivalentul a 2,5 ani de îmbătrânire cerebrală evitată pe durata studiului. S-a observat și o creștere mai lentă a ventriculilor cerebrali (spațiile cu lichid care se măresc pe măsură ce creierul se atrofiază).
 
 Unde bat probele: Probat ce raportează lucrarea: eșantionul, durata, scorul de dietă folosit și asocierile statistice cu volumul de substanță cenușie și cu ventriculii. Contestat: e un studiu observațional, care arată o ASOCIERE, nu o cauză; nu s-a măsurat dacă vreun participant și-a păstrat memoria mai bine; iar eșantionul e, în cuvintele indirecte ale metodologiei, predominant alb și american. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Cleveland Clinic: o singură infuzie cu editare genetică CRISPR a scăzut colesterolul LDL cu 52,5% și trigliceridele cu 47,8% în medie, susținut un an întreg, la cei 10 pacienți cu doza cea mai mare, din cei 15 înscriși în studiul de fază 1</title>
-      <link>https://farabaliverne.ro/a/cleveland-clinic-crispr-ctx310-colesterol-ldl-nejm.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/cleveland-clinic-crispr-ctx310-colesterol-ldl-nejm.html</guid>
-      <pubDate>Thu, 01 Oct 2026 04:27:27 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>O echipă de la Cleveland Clinic, condusă de cardiologul Luke Laffin, a testat pe 15 pacienți cu colesterol rezistent la medicamente o terapie experimentală de editare genetică: o singură infuzie care dezactivează, cu CRISPR-Cas9, gena ANGPTL3 din ficat. La cei 10 pacienți care au primit doza cea mai mare, colesterolul LDL a scăzut în medie cu 52,5% (până la 84%) și trigliceridele cu 47,8% (până la 78%), efect susținut cel puțin un an. Rezultatele au fost prezentate la Congresul Societății Europene de Cardiologie din august 2026 și publicate simultan în New England Journal of Medicine. Terapia e dezvoltată de compania CRISPR Therapeutics AG.
-
-Unde bat probele: Probat ce raportează studiul de fază 1: la cei 10 pacienți cu doza maximă (0,8 mg/kg), reducerea medie de 52,5% a LDL și 47,8% a trigliceridelor, susținută timp de un an, fără evenimente adverse grave legate de tratament. Contestat: cifrele mari descriu doar subgrupul cu doza cea mai mare; eșantionul total e de 15 pacienți, fără grup de control cu placebo; au existat reacții adverse mai mici (o reacție alergică, trei reacții la infuzie, creșteri trecătoare ale enzimelor hepatice la un pacient); nu există încă date despre infarcte sau accidente vasculare; iar studiul e finanțat de compania care deține terapia. Verificate: 3 probate, 4 contestate.</description>
     </item>
   </channel>
 </rss>
