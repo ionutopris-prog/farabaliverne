@@ -5,8 +5,28 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sat, 14 Nov 2026 06:20:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 06:22:16 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>O echipă de la Cambridge, City University of Hong Kong și Chinese University of Hong Kong (Shenzhen) a construit un model deschis care arată cum valurile de căldură sufocă rețelele electrice din opt țări vest-europene: Franța, Spania și Italia riscă cel mai mult pene de curent, Germania și Marea Britanie sunt mai rezistente, dar tot mai expuse</title>
+      <link>https://farabaliverne.ro/a/cambridge-valuri-caldura-retele-electrice-europa-nature-energy.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/cambridge-valuri-caldura-retele-electrice-europa-nature-energy.html</guid>
+      <pubDate>Sat, 14 Nov 2026 04:21:20 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>După ce vara 2026 a fost cea mai caldă lună august înregistrată vreodată pe Pământ, un model dezvoltat de cercetători de la Cambridge, City University of Hong Kong și Chinese University of Hong Kong (Shenzhen), publicat pe 22 octombrie 2026 în Nature Energy, cu acces liber, simulează sute de scenarii de val de căldură pentru 2026-2030 pe rețelele electrice din Spania, Portugalia, Franța, Italia, Germania, Belgia, Olanda și Marea Britanie. Căldura crește cererea de curent pentru răcire, scade producția (panourile solare devin mai puțin eficiente, reactoarele se reduc ca să nu se supraîncălzească, eolienele au mai puțin vânt) și forțează liniile electrice să-și reducă sarcina ca să nu se rupă din cauza căldurii. Franța, Spania și Italia riscă cel mai mult blocaje și pene de curent intenționate; Germania și Marea Britanie sunt mai rezistente, dar nu imune.
+
+Unde bat probele: Probat ce arată modelul: mecanismul prin care căldura reduce capacitatea rețelei (cerere mai mare, producție mai mică, linii mai fragile) și riscul comparativ mai mare pentru Franța, Spania și Italia, mai mic pentru Germania și Marea Britanie. Contestat: e un model de simulare pe date publice limitate, nu o măsurătoare directă a unui colaps real; ipotezele sunt, chiar în cuvintele autorilor, conservatoare și probabil optimiste. Verificate: 3 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>MIT: la adulții de 60-84 de ani, valurile de lichid cefalorahidian care spală creierul în somnul profund sunt semnificativ mai mici decât la cei de 18-39 de ani — efectul rămâne chiar și după ce se scade din calcul somnul mai scurt și mai agitat al vârstei</title>
+      <link>https://farabaliverne.ro/a/mit-csf-somn-imbatranire-unde-lente-nature-aging.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/mit-csf-somn-imbatranire-unde-lente-nature-aging.html</guid>
+      <pubDate>Sat, 14 Nov 2026 04:21:20 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>Laura Lewis, profesoară la MIT, a arătat în 2019 că valurile de lichid cefalorahidian care spală reziduurile din creier apar în somnul profund și sunt legate de undele electrice lente ale somnului. Noul studiu, publicat în Nature Aging pe 13 noiembrie 2026, compară direct două grupe de vârstă — 31 de adulți de 18-39 de ani și 41 de adulți de 60-84 de ani — scanați la EEG și RMN în timp ce adormeau. La vârstnici, undele lente sunt mai slabe, valurile de lichid cefalorahidian sunt semnificativ mai mici, iar vasele de sânge răspund mai puțin la cerere de oxigen. Niciun subiect nu avea o boală neurodegenerativă diagnosticată, dar la cei cu valuri mai mici s-a văzut și mai multă atrofie a substanței cenușii. Articolul e disponibil cu acces liber (CC BY 4.0).
+
+Unde bat probele: Probat ce raportează lucrarea: scăderea cu vârsta a valurilor de lichid cefalorahidian din timpul somnului, la 31 de adulți tineri față de 41 de adulți vârstnici, și cele două mecanisme parțiale găsite (reglare vasculară la cerere de oxigen mai slabă; unde electrice lente mai slabe). Contestat: modelul statistic nu explică toată scăderea; niciun subiect nu avea boală diagnosticată, așa că legătura cu demența e doar o corelație cu atrofia substanței cenușii, nu o dovadă; unele subexperimente au folosit alte grupuri, mai mici, de participanți. Verificate: 4 probate, 4 contestate.</description>
+    </item>
     <item>
       <title>Bugetul global de carbon pentru 2026: emisiile fosile proiectate scad cu 0,4%, dar CO2 total crește, iar bugetul rămas pentru a sta sub 1,5°C se epuizează în sub patru ani, arată raportul Global Carbon Project condus de Universitatea Exeter</title>
       <link>https://farabaliverne.ro/a/global-carbon-budget-2026-exeter-emisii-co2-buget-1-5-grade.html</link>
@@ -486,26 +506,6 @@ Unde bat probele: Probat ce raportează lucrarea: detecția de rafale radio pola
       <description>Boala Alzheimer nu e la fel la toată lumea: unii pacienți au depresie, alții scad cognitiv rapid, alții rezistă surprinzător de bine la aceleași modificări din creier. O echipă de la Universitatea Wisconsin–Madison, condusă de Daifeng Wang, împreună cu Panos Roussos de la Mount Sinai, a construit două instrumente de inteligență artificială — PASCode și iBrainMap — ca să lege aceste diferențe de celule și gene concrete, nu doar de diagnosticul general „Alzheimer”. Pe un set de date cu peste 6 milioane de celule din creierele a peste 1.000 de persoane decedate, PASCode a găsit aproximativ 1,5 milioane de celule legate de simptome specifice la 584 de donatori, iar iBrainMap a construit o „hartă” genetică separată pentru fiecare persoană, care a îmbunătățit cu 21% distincția dintre bolnavi și sănătoși, validată pe cohorte cu peste 1.900 de creiere. Cele două lucrări au apărut pe 23 septembrie 2026, în Nature Medicine și Nature Communications, cu acces liber (CC BY-NC-ND).
 
 Unde bat probele: Probat ce arată cele două lucrări: metoda (rețele neuronale de tip graf), cifrele (6+ milioane de celule, ~1,5 milioane de celule legate de fenotip, 584 de donatori, îmbunătățire de 21% în clasificare), tipurile de celule și genele identificate, și faptul că instrumentele sunt publicate open-source. Contestat/de reținut: chiar autorii spun că PASCode leagă fiecare celulă de UN SINGUR simptom la un moment dat, că modelul de progresie a bolii e simplificat (liniar), că datele brute nu sunt publice (acces controlat, cu acord de utilizare) și că niciuna dintre cele două lucrări nu testează vreun tratament — sunt instrumente de cercetare, nu diagnostic clinic. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>NTNU și spitalele universitare din Oslo și Trondheim: la 132 de adulți care au supraviețuit leucemiei sau limfomului din copilărie, 49% au simptome peste pragul clinic pentru depresie și 41% pentru anxietate. Publicat în Current Oncology, iulie 2026, acces liber</title>
-      <link>https://farabaliverne.ro/a/ntnu-supravietuitori-cancer-copilarie-anxietate-depresie-current-oncology.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ntnu-supravietuitori-cancer-copilarie-anxietate-depresie-current-oncology.html</guid>
-      <pubDate>Sat, 03 Oct 2026 04:23:16 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>O echipă de la NTNU și de la spitalele universitare din Oslo și Trondheim, condusă de Anna Franzén și Magnus Aasved Hjort, a chestionat 132 de adulți (18-40 de ani) care au supraviețuit leucemiei acute sau limfomului non-Hodgkin din copilărie. Aproape jumătate aveau simptome peste pragul clinic pentru depresie (49%) sau anxietate (41%), 43% raportau oboseală severă, iar 28% probleme de funcție executivă (memorie de lucru, organizare, control al impulsurilor). Cei cu probleme de funcție executivă aveau șanse semnificativ mai mari să raporteze și distres mintal sau oboseală. Publicată în Current Oncology (iulie 2026, acces liber CC BY), cercetarea se bazează pe chestionare completate chiar de participanți, nu pe diagnostice clinice puse de un medic.
-
-Unde bat probele: Probat ce raportează lucrarea: procentele de participanți peste pragurile clinice pentru depresie, anxietate, oboseală și probleme de funcție executivă, la un eșantion de 132 de supraviețuitori din două spitale norvegiene, plus legătura statistică dintre funcția executivă și distresul mintal. Contestat: sunt autoraportări prin chestionar, nu diagnostice clinice; eșantionul acoperă doar leucemie și limfom, nu toate cancerele din copilărie; și e un studiu transversal, făcut la un moment dat, care nu arată cum evoluează problemele în timp. Verificate: 4 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>UCSF: 20 de pacienți cu depresie au redus mâncarea ultraprocesată cu peste 85% timp de patru săptămâni, și au avut îmbunătățiri moderate-spre-mari ale simptomelor. Studiu-pilot, cu grupuri inversate, publicat în JAMA Psychiatry pe 23 septembrie 2026</title>
-      <link>https://farabaliverne.ro/a/ucsf-mancare-ultraprocesata-depresie-studiu-pilot.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/ucsf-mancare-ultraprocesata-depresie-studiu-pilot.html</guid>
-      <pubDate>Sat, 03 Oct 2026 04:23:16 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>O echipă de la UCSF, condusă de Nyasha Chagwedera și Andrew Krystal, a pus 20 de pacienți cu depresie să treacă patru săptămâni pe dieta lor obișnuită și patru săptămâni pe o dietă cu mult mai puține alimente ultraprocesate — fiecare om a fost propriul control. Participanții și-au tăiat consumul de ultraprocesate cu peste 85%, iar simptomele de depresie s-au ameliorat moderat spre mult, cele de anxietate ceva mai puțin. Cercetătorii leagă efectul de inflamație și de sănătatea intestinului, nu l-au măsurat direct, și spun clar: e un studiu mic și preliminar, făcut ca să arate că un studiu mare e posibil. Publicat în JAMA Psychiatry pe 23 septembrie 2026, cu finanțare de la NIH.
-
-Unde bat probele: Probat ce raportează lucrarea: designul (grupuri încrucișate, fiecare pacient pe ambele diete), reducerea de peste 85% a ultraprocesatelor și ameliorarea simptomelor de depresie și anxietate, măsurată pe scale validate. Contestat: eșantionul e de doar 20 de oameni, fără grup placebo sau orb, iar mecanismul propus (inflamație, intestin) e o ipoteză a autorilor, nu ceva măsurat în acest studiu. Verificate: 3 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>

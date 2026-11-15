@@ -1,0 +1,93 @@
+{
+  "slug": "stanford-arc-conectom-alzheimer-super-agers-science-advances",
+  "title": "Stanford: un scor calculat din scanări de repaus ale creierului distinge „super agers” de bolnavii Alzheimer cu 85% acuratețe și, aplicat pe peste 1.300 de adulți sănătoși de 55-70 de ani, a prezis cine avea să acumuleze amiloid-beta și cine avea să primească diagnosticul, cu ani înainte",
+  "seoTitle": "Alzheimer: ce arată scorul ARC, cu ani înainte de boală",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-11-15",
+  "source": "Science Advances (AAAS) · Stanford Medicine",
+  "url": "https://doi.org/10.1126/sciadv.aed9351",
+  "dek": "O echipă de la Stanford Medicine, condusă de Yu Zhang, a comparat scanările RMN funcționale (în repaus) ale unor „super agers” — oameni de peste 75 de ani cu memoria unui om de 45 — cu cele ale unor bolnavi de Alzheimer, și a scos din diferență un scor numit ARC (Alzheimer's Resilience-vulnerability Connectome). Pe o cohortă de 290 de persoane, scorul a separat cele două grupe cu 85% acuratețe, confirmat pe alte 143. Aplicat apoi pe peste 1.300 de adulți cognitiv sănătoși de 55-70 de ani, din două cohorte separate, scorul a arătat că cei cu activitate „asemănătoare Alzheimer” au acumulat mai multă placă de amiloid-beta și au primit mai des diagnosticul în anii următori, pe perioade de urmărire care diferă după sursă — între 5 și 15 ani, în funcție de cohortă. Publicat în Science Advances pe 4 noiembrie 2026. Cercetătorii spun clar: nu e un test de diagnostic, ci un instrument de cercetare.",
+  "mainVerdict": "Probat ce descrie studiul: metoda (scorul ARC din conectomul funcțional), acuratețea de separare pe cohorta de validare, și legătura dintre scorul „asemănător Alzheimer” și declinul cognitiv ulterior, la peste 1.300 de adulți sănătoși. Contestat: scorul nu e un test diagnostic, ci o cercetare; descoperirile genetice sunt „candidate”, nu confirmate; iar intervalele de urmărire citate în presă variază după cohortă și sursă, nu sunt un singur număr clar",
+  "probat": [
+    {
+      "text": "Lucrarea „A functional connectome identifies vulnerability to cognitive decline and Alzheimer's disease progression” a apărut în Science Advances (AAAS) pe 4 noiembrie 2026. Autor principal: Kanhao Zhao, cercetător postdoctoral în psihiatrie la Stanford Medicine. Autor senior: Yu Zhang, profesor asistent de psihiatrie și științe comportamentale la Stanford Medicine. Printre coautori: Hua Xie, Gregory A. Fonzo, Nancy B. Carlisle, Tovia Jacobs, Ricardo S. Osorio, Arpana Church, Feng Vankee Lin, plus consorțiul Alzheimer's Disease Neuroimaging Initiative (ADNI), ale cărui date au fost folosite. Finanțare: granturi NIH (R21AG080425, R01MH129694, R01AG081768), un program comun al Fundației Rosenkranz și al Knight Initiative, un grant al Alzheimer's Association și un grant CORE de la Universitatea Lehigh.",
+      "sources": [
+        {
+          "name": "Science Advances — pagina lucrării, DOI 10.1126/sciadv.aed9351",
+          "url": "https://doi.org/10.1126/sciadv.aed9351"
+        },
+        {
+          "name": "EurekAlert — comunicatul oficial al Stanford Medicine, 4-6 noiembrie 2026",
+          "url": "https://www.eurekalert.org/news-releases/1150534"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: cercetătorii au construit scorul ARC comparând scanări RMN funcționale de repaus de la „super agers” (persoane de 75+ ani cu memorie comparabilă unui adult de 45 de ani și funcție executivă normală pentru vârstă) cu scanări de la bolnavi de Alzheimer. Pe o cohortă de descoperire de 290 de persoane, scorul a distins cele două grupuri cu o acuratețe (AUC) de 0,85; rezultatul s-a confirmat independent pe o cohortă separată de 143 de persoane. Scorul implică rețele din cortexul prefrontal, temporal și insular și e asociat cu „vârsta creierului”.",
+      "sources": [
+        {
+          "name": "EurekAlert — comunicatul oficial, secțiunea despre metodă",
+          "url": "https://www.eurekalert.org/news-releases/1150534"
+        },
+        {
+          "name": "Neuroscience News — rezumatul lucrării, cu cifrele cohortelor",
+          "url": "https://neurosciencenews.com/superager-ai-connectome-alzheimers-32388/"
+        }
+      ]
+    },
+    {
+      "text": "Aplicat apoi pe adulți cognitiv sănătoși (818 într-o cohortă de descoperire, 497 într-o cohortă de replicare, în total peste 1.300, cu vârste între 55 și 70 de ani, din bazele de date OASIS, Harvard Aging Brain Study și ADNI), scorul ARC a împărțit oamenii în subgrupuri „asemănătoare super agers” și „asemănătoare Alzheimer”, cu cogniție inițială similară, dar traiectorii diferite: grupul „asemănător Alzheimer” a acumulat mai repede placă amiloid-beta, a avut un declin cognitiv mai rapid și un risc mai mare de a primi diagnosticul de Alzheimer. Zhang: „Vrem să rezolvăm o problemă majoră în domeniul Alzheimer: majoritatea studiilor se uită la biomarkerii cunoscuți — amiloid-beta sau tau — dar aceia se văd abia în stadii relativ târzii ale bolii. Ce ne interesează pe noi e să definim markeri timpurii care pot detecta semne precoce de declin cognitiv.” Scorul a prezis declinul mai bine decât datele demografice, biomarkerii amiloid/tau și riscul genetic, conform comunicatului.",
+      "sources": [
+        {
+          "name": "EurekAlert — comunicatul oficial, citatul lui Yu Zhang",
+          "url": "https://www.eurekalert.org/news-releases/1150534"
+        },
+        {
+          "name": "Neuroscience News — rezultatele pe cohortele cognitiv sănătoase",
+          "url": "https://neurosciencenews.com/superager-ai-connectome-alzheimers-32388/"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Chiar comunicatul Stanford spune clar: scorul ARC NU e un test de diagnostic, ci un instrument de cercetare, care arată o „dimensiune conectomică continuă”, nu o categorie clinică validată. Cercetătorii nu recomandă folosirea lui de către medici pentru a diagnostica pe cineva, și spun că e nevoie de mai multe studii înainte de orice aplicație clinică.",
+      "sources": [
+        {
+          "name": "EurekAlert — comunicatul oficial, avertismentul despre uz clinic",
+          "url": "https://www.eurekalert.org/news-releases/1150534"
+        }
+      ]
+    },
+    {
+      "text": "Intervalele de urmărire citate în presă nu sunt un singur număr clar: un titlu de imagine din materialul de presă vorbește despre „până la 15 ani înainte”, iar textul propriu-zice despre intervale „între 5 și 15 ani”, în funcție de cohorta folosită (OASIS, Harvard Aging Brain Study, ADNI au perioade de urmărire diferite). Site-ul Science Advances a blocat accesul automatizat la pagina lucrării (eroare 403), așa că n-am putut citi tabelele cu cifrele exacte de urmărire pe fiecare cohortă; am citit comunicatul și presa de specialitate, nu lucrarea integrală.",
+      "sources": [
+        {
+          "name": "Neuroscience News — formulările diferite despre orizontul de urmărire",
+          "url": "https://neurosciencenews.com/superager-ai-connectome-alzheimers-32388/"
+        }
+      ]
+    },
+    {
+      "text": "O analiză genetică exploratorie (GWAS) a găsit două gene — CLYBL și FRMD6 — asociate cu diferența dintre subgrupuri. Autorii le numesc explicit „candidate”, nu confirmate; au nevoie de replicare pe alte cohorte înainte să însemne ceva. Și nimeni n-a testat încă dacă schimbarea activității cerebrale a unei persoane (prin antrenament cognitiv sau stimulare magnetică transcraniană, pomenite ca posibilități de Zhang) ar schimba și traiectoria bolii — e un pas viitor, nu un rezultat al acestui studiu.",
+      "sources": [
+        {
+          "name": "Neuroscience News — secțiunea despre analiza genetică",
+          "url": "https://neurosciencenews.com/superager-ai-connectome-alzheimers-32388/"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Ce e cu adevărat nou aici nu e că scanările creierului pot spune ceva despre Alzheimer — asta se știe. E că cercetătorii au pornit din celălalt capăt: în loc să caute ce au în comun bolnavii, au căutat ce au în comun oamenii de 80 de ani cu memoria unui om de 45, și au scos din contrastul ăsta un scor. E o idee bună, pusă la treabă corect, cu replicare pe cohorte separate. Dar „pune oamenii pe o scală de la super ager la Alzheimer” sună mult mai aproape de un test de laborator decât e în realitate — azi, scala asta trăiește doar în baze de date de cercetare, nu într-un cabinet medical, și e bine să rămână așa până se dovedește mai mult."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la o lucrare științifică, rezumată în română, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: Stanford Medicine (ca și Oxford, Caltech sau universitățile nordice) nu dă dreptul de traducere integrală a comunicatelor sale, iar pagina lucrării din Science Advances a respins accesul automatizat (eroare 403 la orice încercare de citire directă) — n-am putut verifica licența exactă a lucrării (Science Advances permite fie CC BY, fie CC BY-NC, la alegerea autorilor, și nu am putut confirma care varietate e la această lucrare). Când nu e sigur, rezumăm.\n\nCe s-a verificat: comunicatul oficial distribuit prin EurekAlert (platforma AAAS pentru comunicate științifice), reluat de Universitatea Stanford, și rezumatul lucrării redat de Neuroscience News, inclusiv cifrele cohortelor (290, 143, 818, 497) și citatul lui Yu Zhang. Ce am adăugat noi: că instrumentul nu e diagnostic, că cifrele de urmărire variază după sursă, și că descoperirile genetice sunt explicit „candidate”, lucruri care sunt în comunicat, dar nu ajung mereu în titlurile presei.",
+  "persoane": [
+    "Kanhao Zhao",
+    "Yu Zhang"
+  ],
+  "math": null
+}
