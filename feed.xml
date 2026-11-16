@@ -5,8 +5,28 @@
     <link>https://farabaliverne.ro/</link>
     <description>Agregăm știrile din presa românească și internațională, verificăm ce se probează cu surse și lăsăm cititorul să tragă concluzia.</description>
     <language>ro</language>
-    <lastBuildDate>Sun, 15 Nov 2026 06:22:16 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 06:24:53 +0200</lastBuildDate>
     <atom:link href="https://farabaliverne.ro/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Studiul STREAM, condus de la Berna, a oprit statinele la 938 de oameni de peste 70 de ani și le-a continuat la alți 942: la doi ani, 12,7% dintre cei care au oprit au avut un eveniment cardiovascular major sau au murit, față de 9,2% dintre cei care au continuat — un eveniment suplimentar la fiecare 40 de oameni care renunță</title>
+      <link>https://farabaliverne.ro/a/stream-elvetia-statine-varstnici-70-ani-nejm.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/stream-elvetia-statine-varstnici-70-ani-nejm.html</guid>
+      <pubDate>Sun, 15 Nov 2026 04:23:16 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>STREAM e un trial randomizat condus de Nicolas Rodondi, de la Universitatea din Berna, pe 1.880 de oameni de 70 de ani și peste, cu cel puțin două boli cronice, care nu avuseseră niciodată infarct sau accident vascular, dar luau statină de cel puțin un an ca prevenție. Jumătate au oprit statina, jumătate au continuat-o. La aproape doi ani (urmărire mediană de 103 săptămâni), 119 din cei 938 care au oprit (12,7%) au avut un infarct, un accident vascular ischemic sau au murit din orice cauză, față de 87 din cei 942 care au continuat (9,2%) — calculat de cercetători la un eveniment suplimentar la fiecare 40 de oameni care renunță, pe doi ani. Prezentat la sesiunea de la American Heart Association pe 7 noiembrie 2026 și publicat simultan în New England Journal of Medicine.
+
+Unde bat probele: Probat ce arată studiul: designul (randomizat, 24 de centre din Elveția, Franța și Olanda), numărul de participanți, criteriile de includere, și cifrele brute ale evenimentului compus la doi ani. Contestat: rezultatul e descris de autori drept „non-inferior” pe criteriul lor statistic predefinit, dar diferența absolută (12,7% față de 9,2%) nu e deloc neglijabilă, iar coautoarea Rita Redberg a avertizat explicit că nu se poate face o recomandare generală de a opri statina la această populație. Verificate: 3 probate, 3 contestate.</description>
+    </item>
+    <item>
+      <title>Stanford: un scor calculat din scanări de repaus ale creierului distinge „super agers” de bolnavii Alzheimer cu 85% acuratețe și, aplicat pe peste 1.300 de adulți sănătoși de 55-70 de ani, a prezis cine avea să acumuleze amiloid-beta și cine avea să primească diagnosticul, cu ani înainte</title>
+      <link>https://farabaliverne.ro/a/stanford-arc-conectom-alzheimer-super-agers-science-advances.html</link>
+      <guid isPermaLink="true">https://farabaliverne.ro/a/stanford-arc-conectom-alzheimer-super-agers-science-advances.html</guid>
+      <pubDate>Sun, 15 Nov 2026 04:23:16 +0000</pubDate>
+      <category>Minți luminate</category>
+      <description>O echipă de la Stanford Medicine, condusă de Yu Zhang, a comparat scanările RMN funcționale (în repaus) ale unor „super agers” — oameni de peste 75 de ani cu memoria unui om de 45 — cu cele ale unor bolnavi de Alzheimer, și a scos din diferență un scor numit ARC (Alzheimer's Resilience-vulnerability Connectome). Pe o cohortă de 290 de persoane, scorul a separat cele două grupe cu 85% acuratețe, confirmat pe alte 143. Aplicat apoi pe peste 1.300 de adulți cognitiv sănătoși de 55-70 de ani, din două cohorte separate, scorul a arătat că cei cu activitate „asemănătoare Alzheimer” au acumulat mai multă placă de amiloid-beta și au primit mai des diagnosticul în anii următori, pe perioade de urmărire care diferă după sursă — între 5 și 15 ani, în funcție de cohortă. Publicat în Science Advances pe 4 noiembrie 2026. Cercetătorii spun clar: nu e un test de diagnostic, ci un instrument de cercetare.
+
+Unde bat probele: Probat ce descrie studiul: metoda (scorul ARC din conectomul funcțional), acuratețea de separare pe cohorta de validare, și legătura dintre scorul „asemănător Alzheimer” și declinul cognitiv ulterior, la peste 1.300 de adulți sănătoși. Contestat: scorul nu e un test diagnostic, ci o cercetare; descoperirile genetice sunt „candidate”, nu confirmate; iar intervalele de urmărire citate în presă variază după cohortă și sursă, nu sunt un singur număr clar. Verificate: 3 probate, 3 contestate.</description>
+    </item>
     <item>
       <title>O echipă de la Cambridge, City University of Hong Kong și Chinese University of Hong Kong (Shenzhen) a construit un model deschis care arată cum valurile de căldură sufocă rețelele electrice din opt țări vest-europene: Franța, Spania și Italia riscă cel mai mult pene de curent, Germania și Marea Britanie sunt mai rezistente, dar tot mai expuse</title>
       <link>https://farabaliverne.ro/a/cambridge-valuri-caldura-retele-electrice-europa-nature-energy.html</link>
@@ -486,26 +506,6 @@ Unde bat probele: Probat ce arată studiul: pe 104 săptămâni, băuturile cu �
       <description>Tensiunea mare e numită „ucigașul tăcut” fiindcă, de obicei, nu dă niciun semn înainte de un atac de cord sau un accident vascular. O echipă de la Oxford Population Health, condusă de statisticiana Wenyu Liu, a măsurat tensiunea a 1,4 milioane de adulți din Anglia, înscriși între 2022 și 2025 în programul de cercetare Our Future Health, cel mai mare din Marea Britanie. Rezultatul, publicat pe 23 septembrie 2026 în BMJ Public Health, cu acces liber: 37,2% dintre participanți aveau hipertensiune, după criteriile Organizației Mondiale a Sănătății. Dintre ei, 58,8% n-aveau niciun diagnostic și nu luau niciun tratament. Iar dintre cei care luau deja medicamente, jumătate aveau tot tensiunea peste limită.
 
 Unde bat probele: Probat ce arată studiul: proporția de 37,2% cu hipertensiune, repartiția pe vârstă și sex, procentul de cazuri nedetectate (58,8%) și rata de control insuficient la cei tratați (50,2%), toate din măsurători directe la peste un milion de oameni. Contestat/limitat: eșantionul nu e unul aleatoriu reprezentativ pentru toată populația, tensiunea s-a măsurat o singură dată per persoană, iar studiul nu arată DE CE rămân oamenii netratați sau necontrolați, doar că rămân. Verificate: 3 probate, 3 contestate.</description>
-    </item>
-    <item>
-      <title>Harvard &amp; Smithsonian, cu un fizician de la Oregon: radiotelescopul MeerKAT a prins, pentru prima dată, un semnal radio venit chiar de la o exoplanetă — Beta Pictoris b, la 64 de ani-lumină, cu un câmp magnetic de peste 1.250 de gauss, măsurat direct și nu doar estimat</title>
-      <link>https://farabaliverne.ro/a/beta-pictoris-b-semnal-radio-camp-magnetic-harvard-meerkat.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/beta-pictoris-b-semnal-radio-camp-magnetic-harvard-meerkat.html</guid>
-      <pubDate>Mon, 05 Oct 2026 04:20:58 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Pe 15 septembrie 2026, trei astronomi — Kevin Ortiz Ceballos și Edo Berger, de la Center for Astrophysics | Harvard &amp; Smithsonian, și Yvette Cendes, de la Universitatea Oregon — au pus pe arXiv o lucrare care anunță prima detecție radio atribuită fără echivoc unei planete de dincolo de Sistemul Solar, nu stelei ei. Cu radiotelescopul MeerKAT din Africa de Sud, au prins rafale rapide, puternic polarizate, și o emisie persistentă, la frecvențe între 0,85 și 3,5 gigahertzi, venite de la Beta Pictoris b, un gigant gazos de aproximativ 10-13 mase Jupiter, la 64 de ani-lumină. Din frecvența cea mai înaltă, calculează un câmp magnetic de cel puțin 1.250 de gauss la planetă — prima măsurătoare directă a unui câmp magnetic exoplanetar, nu o estimare din model. Site-urile internaționale au scris despre asta începând cu 2 octombrie; lucrarea e un preprint, nu a trecut încă de recenzia unei reviste.
-
-Unde bat probele: Probat ce raportează lucrarea: detecția de rafale radio polarizate și emisie persistentă de la coordonatele planetei, nu ale stelei, localizarea astrometrică folosind quasari ca repere, și câmpul magnetic de minimum 1,25 kilogauss calculat din fizica maserului cu ciclotron de electroni. Contestat: e o singură detecție, pe un preprint nerecenzat încă de o revistă științifică; cifra e un minim, nu valoarea exactă a câmpului; și nu are nicio legătură cu semnale extraterestre inteligente — e o aurora, ca cea de pe Jupiter, doar mult mai puternică. Verificate: 5 probate, 4 contestate.</description>
-    </item>
-    <item>
-      <title>Universitatea Wisconsin–Madison, cu Mount Sinai: două instrumente de inteligență artificială au „scorat” 6,3 milioane de celule din creiere donate și au legat tipuri de celule și gene concrete de simptomele Alzheimer — depresie, scădere cognitivă, rezistență la boală</title>
-      <link>https://farabaliverne.ro/a/wisconsin-ai-pascode-ibrainmap-alzheimer-celule-nature-medicine.html</link>
-      <guid isPermaLink="true">https://farabaliverne.ro/a/wisconsin-ai-pascode-ibrainmap-alzheimer-celule-nature-medicine.html</guid>
-      <pubDate>Sun, 04 Oct 2026 04:19:24 +0000</pubDate>
-      <category>Minți luminate</category>
-      <description>Boala Alzheimer nu e la fel la toată lumea: unii pacienți au depresie, alții scad cognitiv rapid, alții rezistă surprinzător de bine la aceleași modificări din creier. O echipă de la Universitatea Wisconsin–Madison, condusă de Daifeng Wang, împreună cu Panos Roussos de la Mount Sinai, a construit două instrumente de inteligență artificială — PASCode și iBrainMap — ca să lege aceste diferențe de celule și gene concrete, nu doar de diagnosticul general „Alzheimer”. Pe un set de date cu peste 6 milioane de celule din creierele a peste 1.000 de persoane decedate, PASCode a găsit aproximativ 1,5 milioane de celule legate de simptome specifice la 584 de donatori, iar iBrainMap a construit o „hartă” genetică separată pentru fiecare persoană, care a îmbunătățit cu 21% distincția dintre bolnavi și sănătoși, validată pe cohorte cu peste 1.900 de creiere. Cele două lucrări au apărut pe 23 septembrie 2026, în Nature Medicine și Nature Communications, cu acces liber (CC BY-NC-ND).
-
-Unde bat probele: Probat ce arată cele două lucrări: metoda (rețele neuronale de tip graf), cifrele (6+ milioane de celule, ~1,5 milioane de celule legate de fenotip, 584 de donatori, îmbunătățire de 21% în clasificare), tipurile de celule și genele identificate, și faptul că instrumentele sunt publicate open-source. Contestat/de reținut: chiar autorii spun că PASCode leagă fiecare celulă de UN SINGUR simptom la un moment dat, că modelul de progresie a bolii e simplificat (liniar), că datele brute nu sunt publice (acces controlat, cu acord de utilizare) și că niciuna dintre cele două lucrări nu testează vreun tratament — sunt instrumente de cercetare, nu diagnostic clinic. Verificate: 4 probate, 3 contestate.</description>
     </item>
   </channel>
 </rss>
