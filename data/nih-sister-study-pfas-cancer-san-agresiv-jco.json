@@ -1,0 +1,85 @@
+{
+  "slug": "nih-sister-study-pfas-cancer-san-agresiv-jco",
+  "title": "Institutul Național de Științe ale Sănătății Mediului (NIH) a analizat sângele a 3.878 de femei din Sister Study: cele cu cele mai mari niveluri de PFOA au avut o rată cu 67% mai mare de cancer de sân ER-negativ, agresiv, iar la PFOS rata a fost cu 93% mai mare — fără legătură cu cancerul de sân în general",
+  "seoTitle": "E adevărat că PFAS cresc riscul de cancer de sân?",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-11-17",
+  "source": "Journal of Clinical Oncology · NIEHS Sister Study",
+  "url": "https://doi.org/10.1200/JCO-26-00318",
+  "dek": "„Substanțele chimice eterne” (PFAS) sunt folosite de decenii în tigăi antiadezive, ambalaje de mâncare și spume de stins incendii, și nu se degradează practic deloc. Cercetătoarea Alexandra White de la NIEHS (Institutele Naționale de Sănătate ale SUA) și colegii au măsurat 17 substanțe PFAS în sângele a 1.609 femei care au dezvoltat cancer de sân și 2.269 de femei fără cancer, toate din Sister Study — o cohortă de 50.884 de femei care au avut câte o soră diagnosticată anterior cu cancer de sân. Rezultat, publicat pe 5 noiembrie 2026 în Journal of Clinical Oncology: femeile cu cele mai mari niveluri de PFOA au avut o rată cu 67% mai mare de cancer de sân ER-negativ (un tip agresiv), iar la PFOS, cu 93% mai mare. Pentru cancerul de sân în general, nu s-a văzut nicio legătură clară.",
+  "mainVerdict": "Probat ce arată analiza: asocierea statistică, cu cifre precise, dintre nivelurile de PFOA și PFOS din sânge și riscul de cancer de sân ER-negativ, pe un eșantion mare din Sister Study. Contestat: e tot o asociere, nu o cauzalitate dovedită; mecanismul biologic nu a fost testat; comunicatul nu dă intervalele de încredere statistică, numărul exact de cazuri ER-negative sau datele pentru ER-pozitiv, deci nu pot fi verificate direct; lucrarea e cu abonament",
+  "probat": [
+    {
+      "text": "Lucrarea „Per- and Polyfluoroalkyl Substance Exposure and Breast Cancer Incidence in the Sister Study” a apărut în Journal of Clinical Oncology pe 5 noiembrie 2026. Autoare principală: Che-Jung Chang, care a fost cercetătoare postdoctorală la NIEHS (Institutul Național de Științe ale Sănătății Mediului, parte din NIH) și lucrează acum la DLH; autoarea care a coordonat studiul: Alexandra White, „Stadtman Investigator” la NIEHS. Finanțare: granturile NIEHS Z01ES044005, Z1AES103332 și R01ES032831.",
+      "sources": [
+        {
+          "name": "NIH — comunicatul despre studiu, cu citatele autoarelor",
+          "url": "https://www.nih.gov/news-events/news-releases/two-forever-chemicals-associated-higher-risk-aggressive-breast-cancer-nih-analysis"
+        },
+        {
+          "name": "Journal of Clinical Oncology — pagina lucrării (acces cu abonament)",
+          "url": "https://doi.org/10.1200/JCO-26-00318"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a măsurat: 17 substanțe PFAS în sânge, prelevat cu ani înainte de diagnostic, la 1.609 femei care au dezvoltat cancer de sân (grupul caz) și 2.269 de femei fără cancer (grupul de comparație), toate din Sister Study — cohorta NIEHS de 50.884 de femei din SUA și Puerto Rico, înscrise între 2003 și 2009, fiecare având o soră (întreagă sau pe jumătate) diagnosticată anterior cu cancer de sân.",
+      "sources": [
+        {
+          "name": "NIH — descrierea Sister Study și a eșantionului analizat",
+          "url": "https://www.nih.gov/news-events/news-releases/two-forever-chemicals-associated-higher-risk-aggressive-breast-cancer-nih-analysis"
+        }
+      ]
+    },
+    {
+      "text": "Cifrele: femeile din grupul cu cele mai mari niveluri de PFOA au avut o rată cu 67% mai mare de cancer de sân ER-negativ (un tip de tumoră fără receptori de estrogen, de obicei mai agresiv) față de grupul cu cele mai mici niveluri; pentru PFOS, diferența a fost de 93% — aproape dublu. Pentru cancerul de sân ER-pozitiv și pentru cancerul de sân în general, nu s-a observat o asociere clară. Alexandra White: „certain legacy PFAS, including PFOA and PFOS, are associated with a higher risk of ER-negative breast cancer” („anumite PFAS vechi, printre care PFOA și PFOS, sunt asociate cu un risc mai mare de cancer de sân ER-negativ”).",
+      "sources": [
+        {
+          "name": "NIH — comunicatul despre studiu, secțiunea cu rezultatele",
+          "url": "https://www.nih.gov/news-events/news-releases/two-forever-chemicals-associated-higher-risk-aggressive-breast-cancer-nih-analysis"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Cifrele de 67% și 93% sunt DIFERENȚE RELATIVE între grupul cu expunere mare și cel cu expunere mică, nu șansa reală a unei femei anume de a face cancer de sân. Comunicatul NIH spune explicit asta. Fără riscul absolut de bază (cât la sută din femei fac, în general, cancer de sân ER-negativ), un „risc cu 93% mai mare” poate suna mai dramatic decât e în realitate pentru o persoană.",
+      "sources": [
+        {
+          "name": "NIH — comunicatul despre studiu",
+          "url": "https://www.nih.gov/news-events/news-releases/two-forever-chemicals-associated-higher-risk-aggressive-breast-cancer-nih-analysis"
+        }
+      ]
+    },
+    {
+      "text": "E o asociere, nu o cauzalitate dovedită. Autoarea White cere explicit mai multă cercetare, mai ales despre substanțele PFAS mai noi, de substituție, care au luat locul PFOA și PFOS pe piață și nu au fost evaluate în acest studiu. Mecanismul biologic (de ce ar crește riscul de cancer ER-negativ, nu și de cel ER-pozitiv) nu a fost testat — autorii propun doar ipoteze, legate de modificări ale activității genelor sau ale sistemului imunitar.",
+      "sources": [
+        {
+          "name": "NIH — citatul Alexandrei White despre nevoia de mai multă cercetare",
+          "url": "https://www.nih.gov/news-events/news-releases/two-forever-chemicals-associated-higher-risk-aggressive-breast-cancer-nih-analysis"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea e cu abonament (Journal of Clinical Oncology); am citit comunicatul NIH, nu textul integral. Comunicatul nu dă intervalele de încredere statistică, numărul exact de cazuri ER-negative din cele 1.609, nicio cifră pentru cancerul ER-pozitiv, și nu spune dacă rezultatul a rezistat după ajustarea pentru alți factori de risc ai cancerului de sân (vârsta la prima naștere, greutate, consum de alcool) — pentru astea e nevoie de lucrarea completă.",
+      "sources": [
+        {
+          "name": "Journal of Clinical Oncology — lucrarea (abonament)",
+          "url": "https://doi.org/10.1200/JCO-26-00318"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Che-Jung Chang, prima autoare, pune și partea practică: „exposure to them is still potentially modifiable, meaning people can take steps to reduce their exposure” — expunerea la PFAS se poate reduce (tigăi antiadezive, ambalaje tratate, anumite produse cosmetice). Dar un studiu care compară grupul cu expunere mare față de cel cu expunere mică nu e totuna cu un ghid „ce să eviți azi” — pentru asta ar fi nevoie să se vadă CE surse de expunere au contat cel mai mult la aceste 1.609 femei, lucru pe care comunicatul nu îl spune."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică originală, cu link către ea; mai jos, rezumat în română, nu traducere integrală.\n\nDe ce e REZUMAT: Journal of Clinical Oncology (ASCO) e cu abonament — nu am avut acces la textul integral, doar la rezumatul public și la comunicatul NIH, care citează direct autoarele. Comunicatele instituțiilor federale americane sunt, de regulă, domeniu public, dar am tratat textul ca pe orice sursă secundară: am rezumat, nu am copiat, și am marcat exact ce informații lipsesc din comunicat (intervale de încredere, cifre ER-pozitive).\n\nCe s-a verificat: comunicatul NIH (titlul lucrării, autoarele, afilierile NIEHS, data, cifrele de 67% și 93%, citatele directe, descrierea Sister Study) și pagina DOI a lucrării (confirmă titlul, revista, data, accesul cu abonament). Ce am adăugat noi: că cifrele sunt relative, nu risc absolut individual, și că mecanismul biologic rămâne netestat — lucruri spuse explicit de autoare, dar care nu apar în titlurile scurte gen „chimicalele din tigăi dau cancer”.",
+  "persoane": [
+    "Alexandra White",
+    "Che-Jung Chang"
+  ],
+  "math": null
+}
