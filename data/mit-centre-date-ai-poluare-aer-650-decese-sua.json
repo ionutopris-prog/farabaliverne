@@ -1,0 +1,131 @@
+{
+  "slug": "mit-centre-date-ai-poluare-aer-650-decese-sua",
+  "title": "MIT: electricitatea cerută de centrele de date pentru AI a cauzat circa 650 de decese premature în SUA în 2023 — iar cele mai multe nu sunt în Virginia sau Texas, unde e cererea, ci în Midwest, la sute de kilometri distanță",
+  "seoTitle": "E adevărat că centrele de date AI poluează aerul?",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-11-19",
+  "source": "MIT News · Environmental Research Letters",
+  "url": "https://doi.org/10.1088/1748-9326/aebbd4",
+  "dek": "Cercetători de la MIT, Universitatea din California la Irvine și Universitatea Yale au construit un model al rețelei electrice americane ca să vadă unde ajunge, de fapt, poluarea cauzată de electricitatea cerută de centrele de date pentru inteligență artificială. Rezultatul, publicat pe 14 noiembrie 2026 în Environmental Research Letters (acces liber): în 2023, emisiile legate de centrele de date ar fi cauzat circa 650 de decese premature în SUA — dar cele mai mari rate, pe cap de locuitor, nu sunt în Virginia și Texas, unde e concentrată cererea, ci în state din Midwest precum Iowa, Nevada, Dakota de Sud și Kansas, din cauza modului în care e interconectată rețeaua electrică.",
+  "mainVerdict": "Probat ce arată modelul MIT: metoda (simulare oră-cu-oră a rețelei electrice americane, legată de un model de transport al poluanților în atmosferă), rezultatul central (~650 de decese premature estimate pentru 2023, din care 513 de la particule fine și 137 de la smog, adică 5,3% din mortalitatea totală legată de electricitate a SUA) și decalajul geografic (ratele cele mai mari pe cap de locuitor sunt în Midwest, nu în Virginia/Texas, unde e cererea). Contestat: e un MODEL, nu o măsurare directă a deceselor; se bazează pe date din 2023, pe care autorii înșiși le consideră probabil depășite, fiindcă cererea centrelor de date a crescut rapid de atunci; iar rezultatele descriu rețeaua electrică americană, nu se pot copia automat pentru România sau Europa, unde mixul energetic e altul.",
+  "probat": [
+    {
+      "text": "Lucrarea „Spatially distributed air quality and health impacts of data center electricity demand in the United States” a apărut în Environmental Research Letters pe 14 noiembrie 2026, cu acces liber (CC BY 4.0). Autoare senior: Noelle Selin, profesoară la Institutul MIT pentru Date, Sisteme și Societate (IDSS) și la Departamentul de Științe ale Pământului, Atmosferei și Planetare (EAPS), directoare a Centrului pentru Știință și Strategie a Sustenabilității. Autor principal: Yuang (Albert) Chen, doctorand la MIT. Coautori la MIT, Universitatea din California la Irvine și Universitatea Yale. Finanțare: MIT Energy Initiative Society of Energy Scholars și MIT Martin Family Society of Fellows for Sustainability — fără finanțare din industria centrelor de date.",
+      "sources": [
+        {
+          "name": "MIT News — articolul din 19 noiembrie 2026 (tradus integral mai jos)",
+          "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"
+        },
+        {
+          "name": "Environmental Research Letters — lucrarea completă (acces liber, CC BY 4.0)",
+          "url": "https://doi.org/10.1088/1748-9326/aebbd4"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: cercetătorii au construit un model al sistemului electric american care simulează, oră cu oră, cât produce fiecare dintre peste 10.000 de generatoare din rețeaua SUA și cum circulă electricitatea între regiuni. De aici au scos emisiile de oxizi de azot (NOx) și dioxid de sulf (SO2) ale fiecărui generator, pe care le-au introdus într-un model de transport chimic — cum circulă poluanții prin atmosferă între regiuni — și, în final, în rate de mortalitate prematură, folosind date din literatura epidemiologică.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea „Capturing regional impacts”",
+          "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"
+        }
+      ]
+    },
+    {
+      "text": "Rezultatul central: modelul estimează circa 650 de decese premature în 2023, legate de emisiile cauzate de electricitatea cerută de centrele de date (513 de la particule fine PM2.5, 137 de la smog) — 5,3% din mortalitatea totală legată de electricitate a SUA. Ratele cele mai mari pe cap de locuitor sunt în Iowa, Nevada, Dakota de Sud și Kansas — nu în Virginia și Texas, unde e concentrată cererea electrică a centrelor de date, dar unde ratele sunt doar la jumătate față de cele din Midwest. Motivul: generatoarele care răspund la cererea din Virginia sunt adesea în Valea Ohio, unde sunt mai multe centrale vechi pe cărbune și gaz, iar vântul duce poluarea mai departe, spre state agricole din Midwest, unde amoniacul din îngrășăminte favorizează formarea particulelor fine.",
+      "sources": [
+        {
+          "name": "MIT News — secțiunea „A pollution mismatch”",
+          "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"
+        },
+        {
+          "name": "Environmental Research Letters — lucrarea completă",
+          "url": "https://doi.org/10.1088/1748-9326/aebbd4"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 E un model, nu o măsurare directă. Cifra de 650 de decese premature nu vine din certificate de deces examinate individual, ci dintr-un calcul în lanț: emisii estimate ale generatoarelor → poluare modelată în atmosferă → rate de mortalitate luate din studii epidemiologice separate. Fiecare etapă are propria marjă de eroare, iar autorii nu publică, în textul MIT, un interval de incertitudine pentru cifra finală.",
+      "sources": [
+        {
+          "name": "MIT News — descrierea metodei, fără interval de incertitudine",
+          "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"
+        }
+      ]
+    },
+    {
+      "text": "Datele sunt din 2023, iar autorii spun explicit că proporția cererii de electricitate a centrelor de date „a crescut probabil” de atunci, pe măsură ce s-au construit centre noi în ritm rapid. Cifra de 650 de decese e un instantaneu al unui moment deja vechi de trei ani în domeniul AI, nu o estimare pentru situația de azi, care e probabil mai mare.",
+      "sources": [
+        {
+          "name": "MIT News — „That proportion has likely increased as new data centers continue to be built at a rapid pace”",
+          "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"
+        }
+      ]
+    },
+    {
+      "text": "Rezultatele descriu rețeaua electrică a SUA — unde cărbunele și gazul mai au o pondere mare în producția marginală — și nu se pot translata automat în România sau Europa, unde mixul energetic e altul (hidro, nuclear, eolian, gaz). Mecanismul descoperit (poluarea urmează rețeaua electrică interconectată, nu neapărat locul centrului de date) e relevant și aici, dar cifrele exacte nu sunt.",
+      "sources": [
+        {
+          "name": "Environmental Research Letters — studiul se limitează explicit la rețeaua electrică a SUA",
+          "url": "https://doi.org/10.1088/1748-9326/aebbd4"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Dezbaterea din România despre centrele de date AI s-a purtat aproape exclusiv în jurul facturii la curent — cât consumă, cât scumpesc energia. Studiul MIT arată un alt cost, mai greu de văzut: electricitatea cerută de un centru de date dintr-o regiune poate aprinde o centrală murdară la sute de kilometri distanță, iar poluarea ajunge, pe vânt, la oameni care nici nu știau că au un centru de date „în vecini”. Nu e un motiv să respingem AI-ul sau centrele de date; e un motiv să cerem ca deciziile despre unde se construiesc și de unde se alimentează cu electricitate să țină cont și de calitatea aerului, nu doar de prețul terenului."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la cercetarea unei universități, tradusă integral în română, cu link către original.\n\nDe unde vine: MIT News, redacția Institutului de Tehnologie din Massachusetts, articol semnat de Adam Zewe, publicat pe 19 noiembrie 2026. Republicat conform politicii lor oficiale, care cere titlul, subtitlul, semnătura autorului și mențiunea „MIT News” cu link la original în capul textului, plus „Reprinted with permission of MIT News” la final. Fotografiile lor NU sunt preluate. Lucrarea de bază, din Environmental Research Letters, e publicată cu licență CC BY 4.0, deci integral verificabilă de orice cititor.\n\nCe s-a verificat: că lucrarea există, cu titlul, autorii și afilierile citate, în Environmental Research Letters, cu acces liber. Ce am adăugat noi: că cifra de 650 de decese e un model, nu o măsurare directă, că datele sunt din 2023 (deci probabil subestimează situația de azi) și că rezultatele nu se pot copia automat pentru rețeaua electrică din România sau Europa — lucruri care sunt în textul MIT sau în lucrare, dar nu în titlurile scurte care circulă despre „AI care poluează”.",
+  "persoane": [
+    "Noelle Selin",
+    "Yuang Chen"
+  ],
+  "math": null,
+  "traducere": {
+    "titlu": "Study reveals data centers’ long-distance damage to air quality",
+    "publicatie": "MIT News",
+    "autor": "Adam Zewe, MIT News",
+    "data": "19 noiembrie 2026",
+    "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+    "nota_sus": "Titlul în română: „Un studiu arată daunele pe care centrele de date le fac, de la distanță, calității aerului”. Subtitlul original: „Cercetătorii găsesc că poluarea aerului provocată de consumul de electricitate al centrelor de date poate afecta comunități aflate departe de aceste facilități, cu unele dintre cele mai mari impacturi în Midwest.”",
+    "nota_jos": "Reprinted with permission of MIT News (http://news.mit.edu/). Traducerea în limba română aparține redacției Fără Baliverne.",
+    "paragrafe": [
+      "Expansiunea rapidă a centrelor de date pentru inteligența artificială provoacă impacturi negative asupra sănătății și calității aerului în regiuni aflate departe de locurile unde se află, fizic, aceste facilități, potrivit unui studiu nou realizat de cercetători de la MIT.",
+      "Echipa estimează că poluarea suplimentară a aerului, provenită din cererea de electricitate a centrelor de date din 2023, a cauzat circa 650 de decese premature în Statele Unite.",
+      "Unele state din Midwest au avut printre cele mai mari rate estimate de decese premature pe cap de locuitor atribuibile centrelor de date, chiar dacă cea mai mare parte a cererii de electricitate a centrelor de date era concentrată în Virginia și Texas.",
+      "Cercetătorii au construit un cadru de modelare care captează felul în care electricitatea cerută de centrele de date se propagă prin rețeaua electrică interconectată a țării. Modelul ține cont și de modul în care condițiile atmosferice influențează formarea poluării aerului în diferite regiuni.",
+      "Cadrul identifică centralele electrice din toată țara ale căror emisii cresc ca răspuns la cererea de electricitate a centrelor de date. În părți din Midwest, aceste emisii se combină cu condiții atmosferice care favorizează formarea particulelor fine, un poluant care poate cauza infarcturi, accidente vasculare cerebrale și boli pulmonare.",
+      "Cercetătorii spun că aceste rezultate arată cât de importantă e luarea în calcul a impacturilor regionale neintenționate ale centrelor de date asupra sănătății, și a felului în care locația și operarea acestor facilități afectează sănătatea publică la o scară mai largă.",
+      "„Când oamenii se gândesc la impacturile negative ale centrelor de date, de regulă se concentrează pe vecini. Dar studiul nostru arată că impacturile asupra calității aerului ale centrelor de date sunt foarte răspândite, pe o regiune largă. Chiar dacă crezi că nu ești afectat pentru că nu ai un centru de date în apropiere, mai gândește-te”, spune Noelle Selin, profesoară la Institutul MIT pentru Date, Sisteme și Societate (IDSS) și la Departamentul de Științe ale Pământului, Atmosferei și Planetare (EAPS); directoare a Centrului pentru Știință și Strategie a Sustenabilității; și autoarea senioră a studiului.",
+      "Lui Selin i se alătură pe lucrare Yuang (Albert) Chen, doctorand la MIT, precum și alți cercetători de la MIT, Universitatea din California la Irvine și Universitatea Yale. Cercetarea apare astăzi în Environmental Research Letters.",
+      "CAPTAREA IMPACTURILOR REGIONALE. Laboratorul Național Lawrence Berkeley a estimat că cererea de electricitate a centrelor de date a reprezentat circa 4% din cererea totală de energie a SUA în 2023 și a cauzat circa 4,4% din emisiile totale ale țării.",
+      "Această proporție a crescut probabil de atunci, pe măsură ce centre de date noi continuă să fie construite într-un ritm rapid.",
+      "Multe studii anterioare estimează impacturile folosind emisiile medii ale rețelei electrice. La fel ca acele studii, cercetătorii presupun că centrele de date consumă energie pentru sarcini de calcul non-stop, 24 de ore din 24. Dar abordarea lor identifică și ce generatoare răspund la acea cerere suplimentară, oră de oră, permițându-le să urmărească unde apar emisiile și impacturile asupra sănătății rezultate, explică Chen.",
+      "„Generatoarele care răspund la cererea suplimentară de electricitate sunt adesea centrale pe gaz natural, deși răspunsul variază în funcție de loc și de oră”, spune el.",
+      "Pentru a ajunge la impacturile regionale asupra sănătății, cercetătorii de la MIT au dezvoltat o metodă de modelare care le permite să identifice ce generatoare contribuie la cererea de electricitate a centrelor de date în fiecare regiune modelată.",
+      "Asta le permite să introducă o componentă spațială în analiză.",
+      "Au construit un model al sistemului electric care simulează cât de multă electricitate produce fiecare generator și pompează în rețea, în fiecare oră. Modelul ține cont și de modul în care acea electricitate e transmisă între regiuni.",
+      "Modelul le dă date despre emisiile de oxizi de azot (NOx) și dioxid de sulf (SO2) ale fiecărui generator din Statele Unite. NOx contribuie la formarea ozonului de la nivelul solului, sau smogul, în timp ce atât NOx, cât și SO2 contribuie la formarea particulelor fine (PM2.5) din atmosferă.",
+      "„A fost o provocare să adunăm toate datele”, spune Chen. „Sunt peste 10.000 de generatoare în rețeaua electrică a SUA, și a trebuit să ne asigurăm că datele furnizate pentru fiecare generator sunt valide și validate față de alte surse de date.”",
+      "Cercetătorii au introdus aceste date într-un model de transport chimic. Acest model simulează cum se formează poluanții și cum circulă prin atmosferă, între regiuni.",
+      "De aici, au tradus poluarea suplimentară a aerului provenită din operarea centrelor de date în rate de mortalitate prematură, folosind dovezi din literatura epidemiologică.",
+      "Modelul estimează că emisiile de la centrele de date au cauzat circa 650 de decese premature în 2023 (513 de la PM2.5 și 137 de la smog), ceea ce reprezintă circa 5,3% din mortalitatea totală legată de electricitate a țării.",
+      "„Nu e surprinzător că orice sursă suplimentară de poluare a aerului va avea ca rezultat decese, dar la centrele de date, când și unde apar aceste decese e diferit de ce te-ai aștepta”, spune Selin.",
+      "UN DECALAJ AL POLUĂRII. Ratele de mortalitate prematură au fost cele mai mari în Iowa, Nevada, Dakota de Sud și Kansas, dar cea mai mare parte a cererii de electricitate a fost concentrată în nordul Virginiei și în Texas. Ratele de mortalitate prematură din Virginia și Texas sunt doar la circa jumătate față de cele din majoritatea statelor din Midwest.",
+      "Un motiv pentru acest decalaj e natura interconectată a rețelei electrice, spune Chen.",
+      "Generatoarele care răspund la cererea crescută din Virginia sunt probabil situate în Valea Ohio, unde e o proporție mai mare de centrale electrice vechi, care generează mai multe emisii din arderea cărbunelui și a gazului natural.",
+      "„Regiuni diferite au mixuri diferite de energie. Dacă pornești o nouă sursă majoră de cerere, conectând un centru de date la rețea, ar putea fi nevoie să pornești centrala ta cea mai murdară, ca să faci față noii cereri”, spune Selin.",
+      "În plus, din cauza condițiilor atmosferice, mulți dintre poluanții generați în aceste regiuni sunt transportați spre statele aflate în direcția vântului.",
+      "State din Midwest, precum Nebraska și Iowa, sunt în mod tradițional regiuni agricole. Amoniacul suplimentar din atmosferă, provenit din îngrășăminte, favorizează formarea PM2.5. Impacturile estimate asupra sănătății se extind și la Kansas, Dakota de Sud, Missouri și Arkansas, arătând că efectele pot ajunge și în state cu relativ puține centre de date.",
+      "Studiul arată că populațiile rurale sunt de așteptat să aibă un risc de mortalitate semnificativ mai mare din cauza cererii de electricitate a centrelor de date decât populațiile urbane, spune Chen.",
+      "„Când oamenii se gândesc la amplasarea și operarea centrelor de date, e important să ia în calcul mai mult decât lucruri precum prețul terenului și al energiei. Ar trebui să țină cont și de calitatea aerului”, spune el. „Ăsta e un punct de pornire bun ca să ne gândim unde ar trebui construite centrele de date și cum ar trebui alimentate cu electricitate.”",
+      "În viitor, cercetătorii vor să analizeze impacturile asupra calității aerului ale generării de electricitate la fața locului — o tendință în creștere, în care centrele de date au propriile centrale electrice care le alimentează. Ar putea studia și flexibilitatea operării centrelor de date, și cum ajustarea adaptivă a cererii de electricitate ar putea influența calitatea aerului.",
+      "Această cercetare a fost finanțată, în parte, de MIT Energy Initiative Society of Energy Scholars și de MIT Martin Family Society of Fellows for Sustainability."
+    ]
+  }
+}
