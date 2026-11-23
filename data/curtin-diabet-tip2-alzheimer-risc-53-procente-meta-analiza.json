@@ -1,0 +1,81 @@
+{
+  "slug": "curtin-diabet-tip2-alzheimer-risc-53-procente-meta-analiza",
+  "title": "Diabetul de tip 2 și Alzheimer: o meta-analiză condusă de Curtin University, pe 40 de studii și peste 27 de milioane de puncte de date, pune cifre pe o legătură suspectată de ani — risc cu 53% mai mare, dar cu o incertitudine foarte largă",
+  "seoTitle": "E adevărat că diabetul crește riscul de Alzheimer?",
+  "category": "Minți luminate",
+  "tara": "Australia",
+  "date": "2026-11-23",
+  "source": "Alzheimer's Research & Therapy (BMC) · Curtin University",
+  "url": "https://doi.org/10.1186/s13195-026-02254-7",
+  "dek": "Că diabetul de tip 2 și Alzheimer sunt legate circulă de ani în presa de sănătate, dar studiile anterioare combinau tipuri diferite de diabet și de demență, iar cifrele variau mult. O echipă condusă de Emmanuel O. Adewuyi, de la Curtin University (Australia), cu coautori din Marea Britanie și Nigeria, a strâns 40 de studii care au urmărit strict diabetul de tip 2 și Alzheimer, separat de alte combinații. Rezultatul, publicat pe 9 noiembrie 2026 în Alzheimer's Research & Therapy, cu acces liber: un risc relativ ajustat cu 53% mai mare la persoanele cu diabet de tip 2, și circa 4,7 cazuri noi de Alzheimer la 1.000 de persoane pe an cu diabet de tip 2 — dar cu o incertitudine foarte mare între studii.",
+  "mainVerdict": "Probat ce arată meta-analiza: pe 40 de studii, diabetul de tip 2 e asociat cu un risc relativ ajustat de Alzheimer cu 53% mai mare (aRR 1,53) și cu o incidență de circa 4,71 cazuri noi la 1.000 de persoane pe an. Contestat: e un rezumat statistic al unor studii observaționale (nu arată că diabetul CAUZEAZĂ Alzheimer), intervalul de predicție e foarte larg (0,76-29,30 la mia de persoane), iar incidența variază de peste două ori după metoda de numărare a cazurilor (4,00 vs. 10,24 la mia de persoane).",
+  "probat": [
+    {
+      "text": "Lucrarea „Incidence and risk of Alzheimer's disease in individuals with type 2 diabetes: a systematic review and meta-analysis” a apărut în Alzheimer's Research & Therapy (grup BMC/Springer Nature) pe 9 noiembrie 2026, cu acces liber (Creative Commons BY 4.0). Autor corespondent: Emmanuel O. Adewuyi, bursier NHMRC la Curtin School of Population Health, Curtin University, Perth, Australia. Prim-autoare: Thi Thu Huong Nguyen, de la aceeași școală. Coautori de la Edge Hill University (Marea Britanie), Universitatea de Stat Gombe (Nigeria) și cercetători independenți din Australia. Finanțare: o bursă NHMRC Investigator Fellowship (Australia) pentru Adewuyi; finanțatorul n-a avut niciun rol în design, colectarea datelor, analiză sau redactare, spun autorii.",
+      "sources": [
+        {
+          "name": "Alzheimer's Research & Therapy — lucrarea, acces liber",
+          "url": "https://doi.org/10.1186/s13195-026-02254-7"
+        }
+      ]
+    },
+    {
+      "text": "Metoda: căutare sistematică în patru baze de date (MEDLINE, CINAHL, Embase, Scopus), din înființarea lor până în aprilie 2026, pentru studii care măsoară fie incidența Alzheimer la persoane cu diabet de tip 2, fie legătura dintre cele două, cu definiții clare pentru ambele boli. Din 9.431 de articole găsite, au rămas 40 de studii, cu un total neajustat de 27.102.559 de puncte de date (suma dimensiunilor eșantioanelor, nu persoane unice). 23 de studii au oferit date de incidență, 26 au raportat riscuri relative ajustate; datele au fost combinate cu modele cu efecte aleatoare.",
+      "sources": [
+        {
+          "name": "Alzheimer's Research & Therapy — secțiunile „Background” și „Methods”",
+          "url": "https://doi.org/10.1186/s13195-026-02254-7"
+        }
+      ]
+    },
+    {
+      "text": "Rezultatele: incidența combinată a Alzheimer la persoanele cu diabet de tip 2 a fost de 4,71 cazuri noi la 1.000 de persoane pe an (interval de încredere 95%: 3,31-6,71). Riscul relativ ajustat a fost 1,53 (interval de încredere 95%: 1,38-1,70) — adică „53% mai mare”. Pe sexe: incidența a fost numeric mai mare la femei decât la bărbați (3,62 față de 2,76 la mia de persoane), dar riscurile relative au fost asemănătoare (1,73 față de 1,76). Concluzia autorilor: „persoanele cu diabet de tip 2 au avut aproximativ cinci cazuri de Alzheimer la 1.000 de persoane pe an și un risc cu 53% mai mare”, ceea ce susține, spun ei, includerea prevenției riscului cognitiv în îngrijirea diabetului.",
+      "sources": [
+        {
+          "name": "Alzheimer's Research & Therapy — secțiunile „Results” și „Conclusions”",
+          "url": "https://doi.org/10.1186/s13195-026-02254-7"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 E o meta-analiză de studii observaționale, nu un experiment: arată o ASOCIERE statistică, nu o relație de cauză. Persoanele cu diabet de tip 2 pot avea și alți factori de risc pentru Alzheimer (greutate, tensiune, mod de viață) pe care fiecare studiu inclus îi ajustează diferit sau deloc — chiar autorii numesc rezultatul un „risc relativ AJUSTAT”, nu o cauzalitate dovedită.",
+      "sources": [
+        {
+          "name": "Alzheimer's Research & Therapy — secțiunea „Methods”",
+          "url": "https://doi.org/10.1186/s13195-026-02254-7"
+        }
+      ]
+    },
+    {
+      "text": "Incidența combinată (4,71 la mia de persoane) ascunde o incertitudine foarte mare: intervalul de PREDICȚIE de 95% — cât de diferit poate fi rezultatul unui studiu nou similar — e de 0,76 până la 29,30 cazuri la mia de persoane, o plajă de aproape 40 de ori. În plus, studiile care au numărat cazurile din dosare administrative (asigurări, spitalizări) au dat o incidență de 4,00 la mia de persoane, iar cele cu metode non-administrative (examinare clinică directă) au dat 10,24 — de peste două ori mai mult. Cifra „aproape cinci la mie” depinde, deci, puternic de cum a fost numărat Alzheimer în studiul de bază.",
+      "sources": [
+        {
+          "name": "Alzheimer's Research & Therapy — secțiunea „Results”",
+          "url": "https://doi.org/10.1186/s13195-026-02254-7"
+        }
+      ]
+    },
+    {
+      "text": "Cele 27,1 milioane de „puncte de date” citate de autori NU sunt 27 de milioane de oameni diferiți: e suma neajustată a dimensiunilor celor 40 de eșantioane, iar aceiași oameni pot apărea, teoretic, în mai multe studii incluse. Autorii numesc explicit cifra „o sumă neajustată”, nu o populație unică studiată.",
+      "sources": [
+        {
+          "name": "Alzheimer's Research & Therapy — secțiunea „Results”",
+          "url": "https://doi.org/10.1186/s13195-026-02254-7"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Legătura diabet-Alzheimer circulă de mult, dar de regulă într-o formă vagă: „diabetul afectează și creierul”. Meritul studiului ăsta e că pune un număr pe vag — 53% risc relativ, aproape 5 cazuri noi la mie pe an — și, în același timp, arată onest cât de larg e intervalul în jurul acelui număr. E genul de nuanță care se pierde când titlul rămâne „diabetul crește riscul de Alzheimer cu 53%”, fără precizarea că cifra de incidență variază de două ori după cum a fost numărată boala."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la o lucrare științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber (CC BY 4.0), dar e o meta-analiză tehnică de epidemiologie, cu metode statistice și abrevieri (aRR, IC, interval de predicție); am tradus și explicat rezultatele cheie din rezumatul lucrării, cu citate scurte, nu tot textul.\n\nCe s-a verificat: pagina lucrării din Alzheimer's Research & Therapy (titlul, autorii, afilierile, data de 9 noiembrie 2026, licența CC BY 4.0, finanțarea NHMRC, cifrele din rezumat — 40 de studii, 9.431 de articole examinate, incidența de 4,71 la mia de persoane, riscul relativ de 1,53). Ce am adăugat noi: intervalul de predicție foarte larg și diferența de peste două ori între metodele de numărare a cazurilor — detalii care sunt în rezumatul lucrării, dar nu în titlurile presei de sănătate care au reluat știrea.",
+  "persoane": [
+    "Emmanuel O. Adewuyi",
+    "Thi Thu Huong Nguyen"
+  ],
+  "math": null
+}

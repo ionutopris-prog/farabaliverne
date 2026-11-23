@@ -1,0 +1,85 @@
+{
+  "slug": "harvard-rush-siesta-somn-zi-mortalitate-jama",
+  "title": "La vârstnicii urmăriți de cercetătorii de la Harvard și Rush, fiecare oră suplimentară de somn de zi a fost legată de un risc de deces cu 13% mai mare, iar cei care dorm mai ales dimineața au avut un risc cu 30% mai mare decât cei care dorm după-amiaza — pe 1.338 de adulți, urmăriți până la 19 ani",
+  "seoTitle": "E adevărat că siesta crește riscul de deces?",
+  "category": "Minți luminate",
+  "tara": "SUA",
+  "date": "2026-11-17",
+  "source": "JAMA Network Open · Rush Memory and Aging Project",
+  "url": "https://doi.org/10.1001/jamanetworkopen.2026.7938",
+  "dek": "O echipă de la Mass General Brigham și Harvard Medical School, cu colaboratori de la Rush University Medical Center din Chicago, a urmărit timp de până la 19 ani 1.338 de adulți din Rush Memory and Aging Project, cu brățări care le-au înregistrat obiectiv somnul de zi. Fiecare oră suplimentară de somn de zi a fost legată de un risc de deces cu 13% mai mare, fiecare siestă suplimentară pe zi cu 7% mai mare, iar cei care dormeau mai ales dimineața au avut un risc cu 30% mai mare decât cei care dormeau după-amiaza devreme. Publicat pe 20 aprilie 2026 în JAMA Network Open, cu acces liber (CC BY). Autorii spun clar: e o asociere statistică, nu o dovadă că somnul de zi provoacă moartea.",
+  "mainVerdict": "Probat ce arată studiul: asocierile statistice, pe cifre precise, dintre durata, frecvența și momentul somnului de zi și riscul de deces, măsurate obiectiv cu brățări de actigrafie timp de până la 19 ani, pe 1.338 de adulți vârstnici. Contestat: e un studiu observațional, care nu poate dovedi că somnul de zi CAUZEAZĂ decesul (poate fi și semnul unei boli deja prezente); eșantionul e preponderent alb, dintr-o singură regiune a SUA, și nu s-a putut compara cu somnul auto-raportat",
+  "probat": [
+    {
+      "text": "Lucrarea „Objectively Measured Daytime Napping Patterns and All-Cause Mortality in Older Adults” a apărut în JAMA Network Open pe 20 aprilie 2026 (2026;9(4):e267938), cu acces liber, licență CC BY. Autoare principală: Chenlu Gao, de la Department of Anesthesiology, Mass General Brigham și Harvard Medical School, Boston; autor senior: Kun Hu, din același departament. Coautori de la Rush University Medical Center din Chicago (Lei Yu, Aron Buchman, David Bennett) și de la Broad Institute of MIT and Harvard. Date din Rush Memory and Aging Project, cu înregistrări începute în august 2005.",
+      "sources": [
+        {
+          "name": "JAMA Network Open — lucrarea, cu acces liber",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847953"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a măsurat: 1.338 de adulți din nordul statului Illinois, cu vârsta medie 81,4 ani (76% femei), au purtat brățări de actigrafie care au înregistrat obiectiv somnul de zi, nu printr-un chestionar. Au fost urmăriți în medie 8,3 ani, maximum 19 ani; 926 (69,2%) au decedat în perioada de urmărire.",
+      "sources": [
+        {
+          "name": "JAMA Network Open — secțiunea „Methods” și „Results”",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847953"
+        }
+      ]
+    },
+    {
+      "text": "Cifrele exacte, ajustate statistic: fiecare oră suplimentară de somn de zi → risc de deces cu 13% mai mare (HR 1,13; interval de încredere 95%: 1,04–1,23); fiecare siestă adițională pe zi → risc cu 7% mai mare (HR 1,07; 1,02–1,13); cei care dormeau mai ales dimineața → risc cu 30% mai mare decât cei care dormeau după-amiaza devreme (HR 1,30; 1,03–1,64). Variabilitatea duratei somnului de zi de la o zi la alta NU a fost legată de risc (HR 1,01, fără semnificație statistică).",
+      "sources": [
+        {
+          "name": "JAMA Network Open — tabelul cu hazard ratios",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847953"
+        },
+        {
+          "name": "Mass General Brigham — comunicatul despre studiu",
+          "url": "https://news.massgeneralbrigham.org/en/high-mortality-rates-in-older-adults-napping-excessively"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 E un studiu observațional: arată o ASOCIERE, nu o cauză. Autorii înșiși discută explicația alternativă cea mai probabilă — somnul de zi mai lung și mai frecvent poate fi SEMNUL unei boli deja prezente (inflamație, probleme cardiovasculare, declin cognitiv incipient), nu cauza decesului. Ca să reducă riscul ca decesele timpurii să fi „tras” rezultatul în sus (cauzalitate inversă), au repetat analiza excluzând decesele din primii doi ani — rezultatele au rămas asemănătoare, dar asta nu elimină explicația complet.",
+      "sources": [
+        {
+          "name": "JAMA Network Open — secțiunea „Discussion”",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847953"
+        }
+      ]
+    },
+    {
+      "text": "Eșantionul e „predominant alb” (populația Rush Memory and Aging Project), dintr-o singură regiune, Illinois de nord, iar siesta de după-amiază e și o practică culturală (ca în țările mediteraneene) — autorii spun explicit că rezultatele pot NU se aplica altor grupuri etnice, culturale sau de vârstă, nici persoanelor cu program de lucru în ture.",
+      "sources": [
+        {
+          "name": "JAMA Network Open — secțiunea „Limitations”",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847953"
+        }
+      ]
+    },
+    {
+      "text": "Somnul a fost măsurat doar cu brățara (actigrafie), care „poate să nu distingă somnul de starea de veghe liniștită” — nu a existat și o variantă auto-raportată, pentru comparație. Pentru analiza momentului siestei, 249 de participanți (18,6%) au fost excluși fiindcă dormeau rar ziua, iar la persoanele fără deficit cognitiv la început, legătura dintre momentul siestei și deces NU a mai fost semnificativă statistic.",
+      "sources": [
+        {
+          "name": "JAMA Network Open — secțiunea „Limitations” și analizele de sensibilitate",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847953"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Cifrele astea nu spun „nu mai dormi după-masă” — spun că, la bătrânețe, un somn de zi care se alungește și se mută tot mai spre dimineață poate fi un termometru pentru ceva ce se schimbă deja în organism, nu un instrument care provoacă moartea. E genul de studiu care merită citit cu calculatorul alături, nu cu spaima: un risc „cu 13% mai mare” pe o populație cu vârsta medie de peste 80 de ani e foarte diferit de un risc „cu 13% mai mare” pentru un om de 40 de ani care tot pune un pui de somn după prânz."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică originală, cu link către ea; mai jos, rezumat în română, nu traducere integrală.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber (CC BY), dar e o lucrare clinică tehnică — metodologie de actigrafie, tabele de hazard ratios, analize de sensibilitate — nu un text jurnalistic. Am tradus și explicat cifrele și limitele, cu link la lucrarea completă pentru cine vrea tabelele.\n\nCe s-a verificat: pagina lucrării din JAMA Network Open (titlul, autorii, afilierile, data, licența CC BY, toate hazard ratios citate cu intervalele de încredere), plus comunicatele Mass General Brigham și Rush University despre studiu. Ce am adăugat noi: limita centrală — asociere, nu cauzalitate — și explicația alternativă (somnul de zi ca simptom, nu cauză), care e în textul lucrării, dar nu e în titlurile scurte care circulă despre „siesta care ucide”.",
+  "persoane": [
+    "Chenlu Gao",
+    "Kun Hu"
+  ],
+  "math": null
+}
