@@ -1,0 +1,90 @@
+{
+  "slug": "politehnica-bucuresti-bergamo-panouri-solare-bloc-autoconsum-rec",
+  "title": "Un inginer de la Politehnica București, într-un studiu italo-român despre panouri solare pe bloc: cu renovare și o baterie de 5 kWh, un apartament poate acoperi singur până la 78,64% din consumul de curent",
+  "seoTitle": "Panouri solare pe bloc: cât din factură poți acoperi singur",
+  "category": "Minți luminate",
+  "tara": "România",
+  "date": "2026-11-26T06:00:00Z",
+  "source": "Energy Engineering (Tech Science Press)",
+  "url": "https://doi.org/10.32604/ee.2026.087000",
+  "dek": "Cât poate un singur apartament de bloc să se descurce fără rețea, dacă renovează și își pune panouri solare? O echipă de la Universitatea din Bergamo (Italia) și Universitatea Politehnica din București — prin Alexandra Cătălina Lăzăroiu, de la Departamentul de Inginerie Electrică — a răspuns pentru un caz concret: un apartament de bloc din Peschiera Borromeo, lângă Milano. După renovare (izolație, ferestre, echipamente) și un sistem fotovoltaic de 3 kWp, clasa energetică a apartamentului a sărit de la F la A3, cu o scădere de 82,05% a energiei primare necesare. Cu o baterie de 5 kWh, apartamentul și-a acoperit singur, din soare, până la 78,64% din consumul de curent și 77,33% din necesarul total de energie, în cel mai bun scenariu — dar panourile singure n-au asigurat independență tot anul: iarna, consumul pentru încălzire a rămas mult peste cât produc panourile. Publicat în Energy Engineering pe 12 noiembrie 2026, cu acces liber.",
+  "mainVerdict": "Probat ce raportează lucrarea: cifrele de autoconsum și autosuficiență, îmbunătățirea clasei energetice, metoda (diagnoză energetică, PVGIS plus un model propriu, cinci scenarii de consum) și autorii. Contestat: e un singur apartament dintr-un singur bloc, din Italia, nu din România; panourile singure nu dau independență pe timp de iarnă; iar lucrarea nu spune nimic despre cât ar costa, în lei, o astfel de renovare la un bloc românesc",
+  "probat": [
+    {
+      "text": "Lucrarea „Assessment of Energy Self-Consumption and Potential Participation in Renewable Energy Community through a 3 kWp Photovoltaic System: Case Study of a Condominium Apartment” a apărut în Energy Engineering (Tech Science Press) pe 12 noiembrie 2026, cu acces liber (Creative Commons Attribution 4.0). Autoare principală: Giuliana Daniela Foti, de la Departamentul de Inginerie și Științe Aplicate al Universității din Bergamo, Italia. Coautori: Alexandra Cătălina Lăzăroiu, de la Departamentul de Inginerie Electrică al Universității Naționale de Știință și Tehnologie Politehnica din București, și Mariacristina Roscia, tot de la Bergamo. Lucrarea face parte dintr-un număr special despre comunitățile de energie regenerabilă (REC) și reducerea sărăciei energetice.",
+      "sources": [
+        {
+          "name": "Energy Engineering — lucrarea, cu acces liber",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    },
+    {
+      "text": "Ce s-a studiat: un apartament dintr-un bloc (condominium) din Peschiera Borromeo, lângă Milano. Cercetătorii au făcut o diagnoză energetică a apartamentului, au identificat soluții de renovare a anvelopei clădirii și a echipamentelor, au construit cinci scenarii de consum (încălzire, răcire, apă caldă, electrocasnice) și au estimat producția unui sistem fotovoltaic de 3 kWp, cu două metode independente: platforma europeană PVGIS și un model propriu, oră cu oră, care ține cont de poziția soarelui, temperatura panourilor și umbrirea locală.",
+      "sources": [
+        {
+          "name": "Energy Engineering — rezumatul lucrării",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    },
+    {
+      "text": "Ce a ieșit: cea mai bună variantă de renovare a dus clasa energetică a apartamentului de la F la A3 și a scăzut cu 82,05% energia primară necesară. Producția anuală a panourilor a fost estimată la 4.022 kWh (PVGIS) și 3.671 kWh (modelul propriu). Cu o baterie de 5 kWh, cel mai bun scenariu a atins 78,64% autoconsum (cât din curentul produs de panouri a fost folosit pe loc) și 77,33% autosuficiență (cât din tot consumul apartamentului a fost acoperit din panouri). În scenariul cu cel mai mic consum, autosuficiența a ajuns la 72,99%. În iulie și august, panourile au acoperit singure tot consumul lunar de curent; iarna, dependența de rețea a rămas mare, din cauza soarelui mai slab și a consumului mai mare pentru căldură.",
+      "sources": [
+        {
+          "name": "Energy Engineering — rezumatul și secțiunea de rezultate",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    },
+    {
+      "text": "Concluzia autorilor: configurația propusă poate reduce substanțial cât curent trage apartamentul din rețea și poate genera surplus de electricitate regenerabilă, utilizabil pentru autoconsum colectiv într-o comunitate de energie regenerabilă (REC) — dar panourile fotovoltaice, singure, nu asigură independență energetică tot anul.",
+      "sources": [
+        {
+          "name": "Energy Engineering — concluzia rezumatului",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Apartamentul studiat e din Peschiera Borromeo, Italia, nu din România. Clima, prețul curentului, costul materialelor de renovare și regulile pentru comunitățile de energie regenerabilă diferă de la o țară la alta — cifrele din lucrare (78,64% autoconsum, clasa A3) sunt valabile pentru CAZUL ăsta, nu o garanție pentru orice bloc din București sau Cluj. Contribuția românească e autoarea de la Politehnica București, nu locul studiat.",
+      "sources": [
+        {
+          "name": "Energy Engineering — secțiunea „Case Study”",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    },
+    {
+      "text": "Chiar autorii spun limpede: „integrarea fotovoltaică, singură, nu poate asigura independența energetică tot anul”. Iarna, când e nevoie de cel mai mult curent pentru încălzire, soarele dă cel mai puțin — exact opusul a ce ar avea nevoie o gospodărie. Panourile ajută cel mai mult primăvara și toamna, nu în lunile cu facturi mari la energie.",
+      "sources": [
+        {
+          "name": "Energy Engineering — rezumatul, ultima frază",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    },
+    {
+      "text": "Lucrarea e un studiu tehnic de fezabilitate, nu o analiză de cost: nu dă nicio sumă în lei sau euro pentru renovare, panouri sau baterie, și nici timpul de recuperare a investiției. Pagina lucrării nu menționează o sursă externă de finanțare a cercetării. Am citit rezumatul și secțiunile vizibile fără abonament; discuția tehnică completă, cu grafice și ecuații, e în textul integral, cu acces liber.",
+      "sources": [
+        {
+          "name": "Energy Engineering — textul integral, acces liber",
+          "url": "https://doi.org/10.32604/ee.2026.087000"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "Vestea bună din studiul ăsta nu e numărul 78,64%, e combinația: panourile singure n-ar fi dus apartamentul nicăieri aproape de atât — abia alături de renovarea anvelopei (izolație, ferestre) autoconsumul a sărit la nivelul ăsta. E un argument împotriva modei de a pune panouri pe un bloc nerenovat și a-l declara „verde”: fără izolație bună, panourile alimentează, în primul rând, pierderile de căldură prin pereți. Și e un argument pentru comunitățile de energie regenerabilă, unde surplusul de vară al unui apartament ajută vecinul care consumă mai mult — ideea pe care o testează, teoretic, și acest studiu."
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la o lucrare științifică, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber (CC BY 4.0), dar e o lucrare tehnică de inginerie energetică, cu scenarii, grafice și ecuații de pe zeci de pagini; am tradus rezumatul și secțiunile deschise, și am explicat termenii (autoconsum, autosuficiență, REC). Regula secțiunii se respectă: link la original, limitele autorilor puse în față.\n\nCe s-a verificat: pagina lucrării din Energy Engineering (titlul, autoarele, afilierile, data de 12 noiembrie 2026, licența CC BY 4.0, cifrele din rezumat). Ce am adăugat noi: că studiul s-a făcut pe un apartament din Italia, nu din România, și că autorii înșiși spun că panourile singure nu dau independență energetică iarna. Nu decretăm nimic; arătăm ce s-a măsurat și unde.",
+  "persoane": [
+    "Alexandra Cătălina Lăzăroiu",
+    "Giuliana Daniela Foti"
+  ],
+  "math": null
+}
