@@ -1,0 +1,96 @@
+{
+  "slug": "freie-berlin-innsbruck-petrol-gaze-profituri-micsorate-taxa-profit-excesiv",
+  "title": "Firmele europene de petrol și gaze și-au raportat profituri mai mici exact în trimestrele în care se dezbătea taxa pe profitul excesiv, arată un studiu al Freie Universität Berlin și al Universității din Innsbruck, pe 175 de firme cotate și cinci ani de date contabile",
+  "seoTitle": "E adevărat că petrolul a ascuns profituri? Ce arată datele",
+  "category": "Minți luminate",
+  "tara": "Germania",
+  "date": "2026-11-28",
+  "source": "Journal of Business Ethics (Springer) · Freie Universität Berlin · Universitatea din Innsbruck",
+  "url": "https://doi.org/10.1007/s10551-026-06490-7",
+  "dek": "În vara anului 2022, cu prețurile la energie explodate după invazia Rusiei în Ucraina, în toată Europa — inclusiv în România — se dezbătea o „taxă pe profitul excesiv” pentru companiile de petrol și gaze. Trei cercetători de la Freie Universität Berlin și de la Universitatea din Innsbruck au comparat rezultatele financiare trimestriale ale 43 de firme europene de petrol și gaze (fără firme rusești) cu cele ale 80 de firme de bunuri de consum, din 2019 până în 2023. Concluzia lor, publicată în Journal of Business Ethics pe 25 noiembrie 2026: firmele de petrol și gaze au raportat profituri mai mici decât ar fi arătat activitatea lor reală, efectul fiind cel mai puternic exact în trimestrele în care se dezbătea public taxa pe profitul excesiv și mai pronunțat în țările care au introdus-o efectiv. Autorii nu găsesc fraudă — arată alegeri contabile legale și reduceri de activitate reală — și leagă fenomenul de grija pentru reputație, nu doar de calculul fiscal.",
+  "mainVerdict": "Probat ce documentează lucrarea, din datele LSEG Workspace pe firme cotate europene: eșantionul, perioada (2019-2023), metoda difference-in-differences și reducerea profiturilor raportate la firmele de petrol și gaze, concentrată în trimestrele cu dezbatere/introducere a taxei pe profitul excesiv și la firmele cu scoruri de sustenabilitate (ESG) mici. Contestat: autorii înșiși spun că e corelație, nu dovadă de fraudă sau de intenție; nu pot exclude explicații alternative (aversiune la risc managerial, clauze din contractele de împrumut) din lipsă de date; verificarea de robustețe (synthetic difference-in-differences) dă rezultate mai slabe; eșantionul final util e mic (35-43 de firme pe analiză).",
+  "probat": [
+    {
+      "text": "Lucrarea „Earnings Management of Oil & Gas Firms After the Russian Invasion of Ukraine” a apărut în Journal of Business Ethics (Springer) pe 25 noiembrie 2026, cu acces liber, licență Creative Commons Attribution 4.0 (CC BY) — confirmată și în metadatele Crossref ale articolului. Autori: Jochen Bigus (autor corespondent) și Nils Hain, de la Department of Economics and Management, Freie Universität Berlin; Nadine Georgiou, de la Department of Accounting, Auditing & Taxation, Universitatea din Innsbruck. Articolul a fost primit pe 6 noiembrie 2025 și acceptat pe 25 septembrie 2026. Autorii declară că nu au primit fonduri sau finanțare pentru studiu și nu au conflicte de interese de raportat.",
+      "sources": [
+        {
+          "name": "Journal of Business Ethics — lucrarea, acces liber",
+          "url": "https://doi.org/10.1007/s10551-026-06490-7"
+        },
+        {
+          "name": "Crossref — metadatele lucrării (licență CC BY 4.0)",
+          "url": "https://api.crossref.org/works/10.1007/s10551-026-06490-7"
+        }
+      ]
+    },
+    {
+      "text": "Ce au comparat: 43 de firme petroliere și de gaze europene cotate, fără firme rusești, cu un grup de control de 80 de firme din sectorul bunurilor de consum non-esențiale, selectate dintr-un univers inițial de 2.231 de firme ale indicelui STOXX All Europe Total Market, cu date din LSEG Workspace (fostul Refinitiv Eikon). Au comparat 12 trimestre de dinainte de criză (2019-2021) cu trimestrele T2 2022 - T4 2023, cu un model difference-in-differences cu efecte fixe pe firmă și pe trimestru-an, verificat și cu entropy balancing și cu synthetic difference-in-differences. Pentru managementul profiturilor prin activități reale (nu doar contabil), eșantionul utilizabil a fost de 35 de firme (556 de observații firmă-trimestru); pentru acrurile discreționare (alegeri contabile), de 43 de firme (684 de observații).",
+      "sources": [
+        {
+          "name": "Journal of Business Ethics — secțiunea de date și metodologie",
+          "url": "https://doi.org/10.1007/s10551-026-06490-7"
+        }
+      ]
+    },
+    {
+      "text": "Ce au găsit: firmele de petrol și gaze au raportat, în medie, acruri discreționare pozitive (0,2% și 0,6% din active, după cele două metode de calcul folosite), față de acruri negative la firmele de control (-0,5%) — semn că profitul contabil a fost ajustat în jos față de ce ar fi arătat fără acea ajustare. Efectul general (ATT) pentru T2 2022 - T1 2023 e de -0,0109, semnificativ statistic, și se vede cel mai clar în T3 2022 și T1 2023 — exact trimestrele cu cea mai intensă dezbatere publică despre taxa pe profitul excesiv — apoi se inversează în T4 2023. Managementul prin activități reale (nu doar prin contabilitate) e mai intens în țările care au introdus efectiv taxa și în țările cu scoruri de democrație mai ridicate (scor median 8,8, între 6,50 în Croația și 9,81 în Norvegia, pe o scală folosită de autori); la nivel de firmă, efectul se concentrează la companiile cu scoruri de sustenabilitate (ESG) mici.",
+      "sources": [
+        {
+          "name": "Journal of Business Ethics — rezultatele și testele de robustețe",
+          "url": "https://doi.org/10.1007/s10551-026-06490-7"
+        }
+      ]
+    }
+  ],
+  "contestat": [
+    {
+      "text": "🔴 Autorii înșiși scriu că nu pot exclude complet explicații alternative pentru profiturile raportate mai mici: aversiunea managerilor la risc, clauzele din contractele de împrumut (covenants) sau plafoanele de bonusuri legate de profit. Spun direct: „we lack sufficiently reliable data to fully rule out these alternative explanations” — nu există date publice despre aceste clauze pentru firmele europene. Studiul arată o corelație puternică și cronologie care se potrivește cu dezbaterea fiscală, nu o dovadă că managerii au „ascuns” bani cu intenție.",
+      "sources": [
+        {
+          "name": "Journal of Business Ethics — discuția rezultatelor",
+          "url": "https://doi.org/10.1007/s10551-026-06490-7"
+        }
+      ]
+    },
+    {
+      "text": "Rezultatele cu metoda de robustețe (synthetic difference-in-differences) sunt mai slabe decât cele principale, iar efectul din T3 2022 nu mai e semnificativ statistic pe tot eșantionul cu metoda asta. Testele placebo (aplicate anului 2021, fără criză) nu arată efecte, ceea ce susține metoda principală, dar lucrarea nu reușește o relație robustă între „book-tax conformity” (cât de aliniat e profitul contabil cu cel fiscal) și efectul taxei — una dintre hipotezele lor (H2b) nu se confirmă. Situațiile financiare trimestriale folosite nu sunt auditate.",
+      "sources": [
+        {
+          "name": "Journal of Business Ethics — testele de robustețe și hipoteza H2b",
+          "url": "https://doi.org/10.1007/s10551-026-06490-7"
+        }
+      ]
+    },
+    {
+      "text": "Eșantionul e mic și exclude firmele rusești și pe cele din afara Europei; autorii nu pot testa efectul taxei în SUA, fiindcă SUA nu a introdus o taxă pe profitul excesiv în perioada analizată. „Un grup de control perfect neafectat de criza energetică e improbabil”, admit autorii, fiindcă aproape toate industriile depind de energie — inclusiv firmele de bunuri de consum folosite ca grup de control.",
+      "sources": [
+        {
+          "name": "Journal of Business Ethics — limitele eșantionului",
+          "url": "https://doi.org/10.1007/s10551-026-06490-7"
+        }
+      ]
+    }
+  ],
+  "opinie": [
+    {
+      "text": "România a avut propria ei versiune a acestei dezbateri: Guvernul a adoptat în decembrie 2022 Ordonanța de urgență 186/2022, care a impus o taxă de 60% pe profitul excedentar al companiilor din petrol, gaze, cărbune și rafinare, ca transpunere a unui regulament european (UE 2022/1854); OMV Petrom a contestat public modul în care s-a calculat taxa. Studiul de aici nu a inclus firme din România și nu spune nimic despre vreo firmă anume — e un tipar statistic pe 43 de companii europene, nu o acuzație. Dar arată un mecanism contra-intuitiv: în timp ce opinia publică vorbea despre „profitorii de război” din energie, contabilitatea unor firme mergea, în medie, în direcția opusă — profit raportat mai mic, nu mai mare — exact când taxa era pe masă. Nu e o scuză pentru companii și nu e o condamnare; e un motiv să citești cu mai multă atenție cifrele pe care le publică o firmă de petrol în trimestrul în care Parlamentul discută o taxă pe profitul ei.",
+      "sources": [
+        {
+          "name": "CMS Law — taxa românească pe profitul excesiv din energie (OUG 186/2022)",
+          "url": "https://cms.law/en/rou/legal-updates/Romania-imposes-temporary-windfall-tax-for-the-oil-gas-coal-industries-and-the-refining-sector"
+        },
+        {
+          "name": "Romania Insider — transpunerea taxei europene pe profiturile excesive",
+          "url": "https://www.romania-insider.com/business/romania-eu-tax-windfall-profits-fuel-producers-refineries"
+        }
+      ]
+    }
+  ],
+  "aiNote": "🎓 Articol din secțiunea „Minți luminate”: pleacă de la lucrarea științifică, nu de la un comunicat, cu link către original.\n\nDe ce e REZUMAT, nu traducere integrală: lucrarea are acces liber (CC BY 4.0), dar e un studiu tehnic de contabilitate/econometrie, cu coeficienți de regresie, metode statistice (difference-in-differences, entropy balancing, synthetic DiD) și teste de robustețe pe mai multe pagini — am tradus și explicat rezultatele și metoda, nu text cu text, așa cum am făcut și la studiul seismologic din Gorj.\n\nCe s-a verificat: pagina lucrării din Journal of Business Ethics (titlul, autorii, afilierile, datele de primire/acceptare/publicare, licența CC BY 4.0 confirmată separat prin Crossref, declarația de finanțare și de conflicte de interese, eșantionul și rezultatele cu cifrele citate). Ce am adăugat noi: contextul taxei românești pe profitul excesiv din energie (OUG 186/2022), ca reper pentru cititor — fără a sugera că vreo firmă românească a fost inclusă în studiu, lucru pe care lucrarea nu-l susține.\n\n🔴 Ce trebuie știut: studiul arată o corelație statistică pe 43-80 de firme, nu o anchetă sau o dovadă de fraudă la vreo companie anume. Autorii folosesc termenul tehnic „earnings management” (gestionarea/netezirea profitului raportat prin alegeri contabile legale și prin reducerea unor activități reale), nu „fraudă” sau „minciună”, și spun explicit că nu pot exclude alte explicații din lipsă de date.",
+  "persoane": [
+    "Jochen Bigus",
+    "Nadine Georgiou",
+    "Nils Hain"
+  ],
+  "math": null
+}
